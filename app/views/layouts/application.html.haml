@@ -14,11 +14,15 @@
     - else
       = link_to "Sign up", new_user_registration_path
       |
-      = link_to "Login", new_user_session_path
+      Sign in with:
+      = link_to "email", new_user_session_path
       |
-      = link_to "Sign in with Twitter", user_omniauth_authorize_path(:twitter)
+      = link_to "Twitter", user_omniauth_authorize_path(:twitter)
       |
-      = link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook)
+      = link_to "Facebook", user_omniauth_authorize_path(:facebook)
+      |
+      = link_to "Google", user_omniauth_authorize_path(:google_oauth2)
+
     %p{class:"notice"}= notice
     %p{class:"alert"}= alert
 

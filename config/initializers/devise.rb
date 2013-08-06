@@ -234,6 +234,9 @@ Devise.setup do |config|
   config.omniauth :facebook, '544354895612633', '055dad8a9a1b6a52888916bfffcea175',
            :scope => 'email,user_birthday', :display => 'popup'
 
+  #provider :google_oauth2, ENV["GOOGLE_KEY"], ENV["GOOGLE_SECRET"]
+  config.omniauth :google_oauth2, '254945981659.apps.googleusercontent.com', 'HKzYK4Z5VsDGu2FOk4QfqLxw'
+
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
