@@ -48,3 +48,5 @@ end
 gem 'devise'
 
 gem 'haml'
+
+gem 'omniauth-twitter'
