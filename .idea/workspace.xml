@@ -2,33 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130806164104_add_omniauth_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dashboard.iml" afterPath="$PROJECT_DIR$/.idea/dashboard.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375806709272" ignored="false" />
+    <file path="/Gemfile" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375811529447" ignored="false" />
     <file path="/home_controller.rb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375740965746" ignored="false" />
     <file path="/index.html.html" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375740641736" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375806611293" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375811489513" ignored="false" />
     <file path="/edit.html.erb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375811220727" ignored="false" />
     <file path="/new.html.erb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375810408535" ignored="false" />
     <file path="/database.yml" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375742271823" ignored="false" />
     <file path="/user.rb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375808521786" ignored="false" />
     <file path="/index.html.haml" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375748553509" ignored="false" />
     <file path="/20130805234034_devise_create_users.rb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375807487542" ignored="false" />
+    <file path="/application_controller.rb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375811464652" ignored="false" />
+    <file path="/application.html.haml" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375811931609" ignored="false" />
+    <file path="/omniauth_callbacks_controller.rb" changelist="e9deb8db-2f3c-4ccf-b5a1-3b6b3e5d630e" time="1375812375087" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,91 +43,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="22" selection-start="1245" selection-end="1262" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="devise.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="46" selection-start="12744" selection-end="12744" vertical-scroll-proportion="0.0">
+            <state line="238" column="50" selection-start="11987" selection-end="11987" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="-11.875">
+            <state line="20" column="79" selection-start="739" selection-end="739" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.651341">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="10" selection-start="983" selection-end="989" vertical-scroll-proportion="-20.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="omniauth_callbacks_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="omniauth_callbacks_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130805234034_devise_create_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130805234034_devise_create_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130806164104_add_omniauth_to_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130806164104_add_omniauth_to_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="13" column="3" selection-start="420" selection-end="420" vertical-scroll-proportion="0.23493975">
               <folding />
             </state>
           </provider>
@@ -160,18 +101,18 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130805234034_devise_create_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130806165101_add_username_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130806164104_add_omniauth_to_users.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
       </list>
     </option>
   </component>
@@ -692,7 +633,11 @@
       <created>1375806613149</created>
       <updated>1375806613149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add twitter auth">
+      <created>1375811495896</created>
+      <updated>1375811495896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -761,7 +706,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert layout to haml. add files missed in last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add twitter auth" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -778,6 +723,7 @@
     <MESSAGE value="initial &quot;rails new&quot; files" />
     <MESSAGE value="add home page, devise auth and move db to mysql" />
     <MESSAGE value="convert layout to haml. add files missed in last commit" />
+    <MESSAGE value="Add twitter auth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,51 +743,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="78" selection-start="651" selection-end="651" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.05421687">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130805234034_devise_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+        <state line="3" column="20" selection-start="115" selection-end="115" vertical-scroll-proportion="0.05421687">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130806164104_add_omniauth_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="46" selection-start="12744" selection-end="12744" vertical-scroll-proportion="0.0">
+        <state line="6" column="3" selection-start="194" selection-end="194" vertical-scroll-proportion="0.10843374">
           <folding />
         </state>
       </provider>
@@ -862,28 +780,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="10" selection-start="983" selection-end="989" vertical-scroll-proportion="-20.923077">
+        <state line="38" column="10" selection-start="983" selection-end="989" vertical-scroll-proportion="0.6766169">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.072289154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+        <state line="26" column="22" selection-start="766" selection-end="766" vertical-scroll-proportion="0.4832714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.651341">
+        <state line="24" column="11" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.4597701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="22" selection-start="1245" selection-end="1262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="50" selection-start="11987" selection-end="11987" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="79" selection-start="739" selection-end="739" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="420" selection-end="420" vertical-scroll-proportion="0.23493975">
           <folding />
         </state>
       </provider>

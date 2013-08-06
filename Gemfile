@@ -50,3 +50,4 @@ gem 'devise'
 gem 'haml'
 
 gem 'omniauth-twitter'
+gem 'omniauth-facebook'
