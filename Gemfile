@@ -48,6 +48,7 @@ end
 gem 'devise'
 
 gem 'haml'
+gem 'figaro'
 
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
