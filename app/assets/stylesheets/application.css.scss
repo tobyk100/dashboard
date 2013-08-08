@@ -12,3 +12,15 @@
  *= require_tree .
  */
 @import "bootstrap";
+
+body {
+  padding: 30px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.production {
+  background-color: lightgray;
+}
