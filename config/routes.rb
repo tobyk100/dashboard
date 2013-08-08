@@ -4,6 +4,11 @@ Dashboard::Application.routes.draw do
 
   root :to => "home#index"
 
+  resources :providers do
+    resources :goals
+  end
+  resources :activities
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -11,10 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130806164104) do
+ActiveRecord::Schema.define(version: 20130807003420) do
+
+  create_table "activities", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "goal_id"
+    t.string   "action"
+    t.string   "data"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "goals", force: true do |t|
+    t.integer  "provider_id"
+    t.string   "name"
+    t.string   "token"
+    t.string   "goal_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "providers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
-    t.string   "username"
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -27,6 +51,7 @@ ActiveRecord::Schema.define(version: 20130806164104) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "username"
     t.string   "provider"
     t.string   "uid"
   end

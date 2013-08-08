@@ -47,6 +47,7 @@ end
 
 gem 'devise'
 
+gem 'bootstrap-sass'
 gem 'haml'
 gem 'figaro'
 
