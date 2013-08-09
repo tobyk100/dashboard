@@ -8,8 +8,11 @@
   %tbody
     - @goals.each do |goal|
       %tr
-        %td= link_to 'Show', goal
-        %td= link_to 'Edit', edit_goal_path(goal)
-        %td= link_to 'Destroy', goal, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= goal.name
+        %td= goal.token
+        %td= goal.goal_type
+        %td= link_to 'Show', [@provider, goal]
+        %td= link_to 'Edit', edit_provider_goal_path(@provider, goal)
+        %td= link_to 'Destroy', [@provider, goal], method: :delete, data: { confirm: 'Are you sure?' }
 %br/
 = link_to 'New Goal', new_provider_goal_path

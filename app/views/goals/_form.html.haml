@@ -7,5 +7,17 @@
       %ul
         - @goal.errors.full_messages.each do |msg|
           %li= msg
+  .field
+    = f.label :name
+    %br/
+    = f.text_field :name
+  .field
+    = f.label :token
+    %br/
+    = f.text_field :token
+  .field
+    = f.label :goal_type
+    %br/
+    = f.text_field :goal_type
   .actions
     = f.submit

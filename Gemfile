@@ -45,7 +45,12 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :test do
+  gem 'factory_girl_rails'
+end
+
 gem 'devise'
+gem 'cancan'
 
 gem 'bootstrap-sass'
 gem 'haml'

@@ -26,12 +26,12 @@ class GoalsController < ApplicationController
   # POST /goals
   # POST /goals.json
   def create
-    @goal = Goal.new(goal_params)
-    @provider = Provider.find(params[:provider_id])
+    @goal = Goal.new(goal_params.permit([:name, :token, :goal_type]))
+    @goal.provider = Provider.find(params[:provider_id])
 
     respond_to do |format|
       if @goal.save
-        format.html { redirect_to [@provider, @goal], notice: 'Goal was successfully created.' }
+        format.html { redirect_to [@goal.provider, @goal], notice: 'Goal was successfully created.' }
         format.json { render action: 'show', status: :created, location: @goal }
       else
         format.html { render action: 'new' }
@@ -45,7 +45,7 @@ class GoalsController < ApplicationController
   def update
     respond_to do |format|
       if @goal.update(goal_params)
-        format.html { redirect_to @goal, notice: 'Goal was successfully updated.' }
+        format.html { redirect_to [@goal.provider, @goal], notice: 'Goal was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -59,7 +59,7 @@ class GoalsController < ApplicationController
   def destroy
     @goal.destroy
     respond_to do |format|
-      format.html { redirect_to goals_url }
+      format.html { redirect_to provider_goals_url }
       format.json { head :no_content }
     end
   end
@@ -68,6 +68,7 @@ class GoalsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_goal
       @goal = Goal.find(params[:id])
+      @provider = @goal.provider || Provider.find(params[:provider_id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

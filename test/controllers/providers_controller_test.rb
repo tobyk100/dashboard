@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ProvidersControllerTest < ActionController::TestCase
   setup do
-    @provider = providers(:one)
+    @provider = create(:provider, name: 'one')
   end
 
   test "should get index" do
