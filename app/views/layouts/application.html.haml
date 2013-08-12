@@ -12,28 +12,28 @@
             = link_to('Code.org', root_path, class: 'navbar-brand')
 
           .pull-right
-            -#- if user_signed_in?
-            -#  Logged in as
-            -#  %strong= current_user.email
-            -#  = link_to 'Edit profile', edit_user_registration_path
-            -#  |
-            -#  = link_to "Logout", destroy_user_session_path, method: :delete
-            -#- else
-            -#  = link_to "Sign up", new_user_registration_path
-            -#  |
-            -#  Sign in with:
-            -#  = link_to "email", new_user_session_path
-            -#  |
-            -#  = link_to "Twitter", user_omniauth_authorize_path(:twitter)
-            -#  |
-            -#  = link_to "Facebook", user_omniauth_authorize_path(:facebook)
-            -#  |
-            -#  = link_to "Google", user_omniauth_authorize_path(:google_oauth2)
-            -#  |
-            -#  = link_to "WindowsLive", user_omniauth_authorize_path(:windowslive)
+            - if user_signed_in?
+              Logged in as
+              %strong= current_user.email
+              = link_to 'Edit profile', edit_user_registration_path
+              |
+              = link_to "Logout", destroy_user_session_path, method: :delete
+            - else
+              = link_to "Sign up", new_user_registration_path
+              |
+              Sign in with:
+              = link_to "email", new_user_session_path
+              |
+              = link_to "Twitter", user_omniauth_authorize_path(:twitter)
+              |
+              = link_to "Facebook", user_omniauth_authorize_path(:facebook)
+              |
+              = link_to "Google", user_omniauth_authorize_path(:google_oauth2)
+              |
+              = link_to "WindowsLive", user_omniauth_authorize_path(:windowslive)
 
-      -#%p{class:"notice"}= notice
-      -#%p{class:"alert"}= alert
+      %p{class:"notice"}= notice
+      %p{class:"alert"}= alert
 
       .row
         = yield
