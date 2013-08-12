@@ -1,4 +1,20 @@
 %p#notice= notice
+#{@game.name} - #{@level.name}
 = link_to 'Edit', edit_game_level_path(@game, @level)
+
+%iframe{ name: 'testname', src: @level.level_url, width: 1000, height: 600, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
+
+-##level_area
+-#
+-#:javascript
+-#  $.ajax({
+-#    type: "GET",
+-#    url: '#{@level.level_url}',
+-#    //data: "id=" + id, // appears as $_GET['id'] @ ur backend side
+-#    success: function(data) {
+-#        // data is ur summary
+-#        $('#level_area').html(data);
+-#    }});
+
 |
 \#{link_to 'Back', game_levels_path(@game)}

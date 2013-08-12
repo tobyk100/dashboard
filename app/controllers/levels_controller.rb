@@ -44,7 +44,7 @@ class LevelsController < ApplicationController
   # PATCH/PUT /levels/1.json
   def update
     respond_to do |format|
-      if @level.update(level_params)
+      if @level.update(level_params.permit([:name, :level_url]))
         format.html { redirect_to [@level.game, @level], notice: 'Goal was successfully updated.' }
         format.json { head :no_content }
       else

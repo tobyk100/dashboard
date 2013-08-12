@@ -2,16 +2,19 @@
 %table
   %thead
     %tr
-      %th Name
-      %th
+      %th Game
+      %th Levels
       %th
       %th
   %tbody
     - @games.each do |game|
       %tr
-        %td= game.name
-        %td= link_to 'Show', game
-        %td= link_to 'Edit', edit_game_path(game)
-        %td= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to game.name, game
+        %td= game.levels.count
+        - if can? :update, game
+          %td= link_to 'Edit', edit_game_path(game)
+        - if can? :destroy, game
+          %td= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' }
 %br/
-= link_to 'New Game', new_game_path
+- if can? :create, Game
+  = link_to 'New Game', new_game_path
