@@ -1,0 +1,7 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @game.name
+= link_to 'Edit', edit_game_path(@game)
+|
+\#{link_to 'Back', games_path}

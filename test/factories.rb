@@ -10,19 +10,18 @@ FactoryGirl.define do
     end
   end
 
-  factory :provider do
-    sequence(:name) { |n| "provider#{n}.com"}
+  factory :game do
+    sequence(:name) { |n| "game#{n}.com"}
   end
 
-  factory :goal do
-    sequence(:name) { |n| "Goal #{n}" }
-    sequence(:token) { |n| "goal_#{n}" }
-    goal_type "time"
-    provider
+  factory :level do
+    sequence(:name) { |n| "Level #{n}" }
+    level_url "http://espn.com"
+    game
   end
 
   factory :activity do
-    goal
+    level
     user
   end
 end

@@ -1,0 +1,17 @@
+%h1 Listing levels
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+  %tbody
+    - @levels.each do |level|
+      %tr
+        %td= level.name
+        %td= level.level_url
+        %td= link_to 'Show', [@game, level]
+        %td= link_to 'Edit', edit_game_level_path(@game, level)
+        %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Goal', new_game_level_path

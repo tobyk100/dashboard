@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20130809171623) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
-    t.integer  "goal_id"
+    t.integer  "level_id"
     t.string   "action"
     t.string   "data"
     t.string   "url"
@@ -23,17 +23,16 @@ ActiveRecord::Schema.define(version: 20130809171623) do
     t.datetime "updated_at"
   end
 
-  create_table "goals", force: true do |t|
-    t.integer  "provider_id"
+  create_table "games", force: true do |t|
     t.string   "name"
-    t.string   "token"
-    t.string   "goal_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "providers", force: true do |t|
+  create_table "levels", force: true do |t|
+    t.integer  "game_id"
     t.string   "name"
+    t.string   "level_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

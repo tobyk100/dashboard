@@ -4,8 +4,8 @@ Dashboard::Application.routes.draw do
 
   root :to => "home#index"
 
-  resources :providers do
-    resources :goals
+  resources :games do
+    resources :levels
   end
   resources :activities
 
