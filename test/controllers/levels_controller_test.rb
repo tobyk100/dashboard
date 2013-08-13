@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class LevelsControllerTest < ActionController::TestCase
+  include Devise::TestHelpers
+
   setup do
     @level = create(:level)
   end

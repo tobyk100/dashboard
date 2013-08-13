@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130809171623) do
+ActiveRecord::Schema.define(version: 20130812211107) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -21,6 +21,18 @@ ActiveRecord::Schema.define(version: 20130809171623) do
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "concepts", force: true do |t|
+    t.string   "name"
+    t.string   "description", limit: 1024
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "concepts_levels", force: true do |t|
+    t.integer "concept_id"
+    t.integer "level_id"
   end
 
   create_table "games", force: true do |t|
@@ -35,6 +47,7 @@ ActiveRecord::Schema.define(version: 20130809171623) do
     t.string   "level_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "concept_id"
   end
 
   create_table "users", force: true do |t|

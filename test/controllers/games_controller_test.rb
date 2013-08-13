@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class GamesControllerTest < ActionController::TestCase
+  include Devise::TestHelpers
+
   setup do
     @game = create(:game, name: 'one')
   end

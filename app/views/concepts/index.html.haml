@@ -1,0 +1,19 @@
+%h1 Concepts
+%table
+  %thead
+    %tr
+      %th Name
+      %th Description
+      %th
+      %th
+      %th
+  %tbody
+    - @concepts.each do |concept|
+      %tr
+        %td= concept.name
+        %td= concept.description
+        %td= link_to 'Show', concept
+        %td= link_to 'Edit', edit_concept_path(concept)
+        %td= link_to 'Destroy', concept, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Concept', new_concept_path

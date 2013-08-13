@@ -1,4 +1,7 @@
 class GamesController < ApplicationController
+  check_authorization
+  load_and_authorize_resource
+
   before_action :set_game, only: [:show, :edit, :update, :destroy]
 
   def index

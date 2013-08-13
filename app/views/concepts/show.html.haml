@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @concept.name
+%p
+  %strong Description:
+  = @concept.description
+= link_to 'Edit', edit_concept_path(@concept)
+|
+\#{link_to 'Back', concepts_path}
