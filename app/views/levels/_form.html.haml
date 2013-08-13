@@ -18,10 +18,8 @@
   .field
     = f.label 'concepts'
     %br/
-    -#= f.select 'concepts', Concept.all.map{|i| [i.name, i.id]}.unshift(['-- select concept --', nil])
-    -#= select_tag 'level[concepts[]]', options_from_collection_for_select(Concept.all, "id", "name")
-    -#= select_tag 'game[concept]', Concept.all.map{|i| [i.name, i.id]}.unshift(['-- select concept --', nil])
-    = f.collection_select 'concepts', Concept.all, :id, :name, {:name => 'level[concepts][]'}
-    = f.collection_select 'concepts', Concept.all, :id, :name, {:name => 'level[concepts][]'}
+    = f.collection_select :concept_ids, Concept.all, :id, :name, { :selected => @level.concept_ids }, { :multiple => true, :name => 'level[concept_ids][]', :style => 'height: 160px' }
+    %br/
+    (shift-click to select multiple)
   .actions
     = f.submit
