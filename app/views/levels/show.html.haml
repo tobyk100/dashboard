@@ -1,8 +1,12 @@
 %p#notice= notice
-#{@game.name} - #{@level.name}
-= link_to 'Edit', edit_game_level_path(@game, @level)
+\#{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
+%br/
 
-%iframe{ name: 'testname', src: @level.level_url, width: 1000, height: 600, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
+#{@level.name}
+= link_to '(edit)', edit_game_level_path(@game, @level)
+%br/
+
+%iframe{ name: 'testname', src: build_tagged_url(@level, @current_user), width: 1000, height: 600, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 
 -##level_area
 -#

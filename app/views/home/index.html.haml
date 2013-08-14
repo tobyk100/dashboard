@@ -1,1 +1,7 @@
-hello
+- if current_user
+  = link_to 'Go play a game!', games_path
+- else
+  = link_to "Sign up", new_user_registration_path
+  or
+  = link_to "sign in", new_user_session_path
+  to get started

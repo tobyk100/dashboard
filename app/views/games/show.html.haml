@@ -1,28 +1,29 @@
 %p#notice= notice
+
+\#{link_to 'All games', games_path} >
+
 %p
   %strong Name:
   = @game.name
+  - if can? :update, @game
+    = link_to '(edit)', edit_game_path(@game)
 
   %h1 Levels
   %table
     %thead
       %tr
-        %th Name
-        %th
-        %th
-        %th
-        %th
+        %th{ width:100 } Name
+        %th{ width:100 }
+        %th{ width:100 }
+        %th{ width:100 }
     %tbody
       - @game.levels.each do |level|
         %tr
-          %td= link_to level.name, level.level_url
-          %td= link_to 'Show', [@game, level]
+          %td= link_to level.name, [@game, level]
           %td= link_to 'Edit', edit_game_level_path(@game, level)
           %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
   %br/
   = link_to 'New Level', new_game_level_path(@game)
+  %br/
 
-  - if can? :update, @game
-    = link_to 'Edit', edit_game_path(@game)
-|
-\#{link_to 'Back', games_path}
+
