@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130812211107) do
+ActiveRecord::Schema.define(version: 20130814220316) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20130812211107) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "base_url"
   end
 
   create_table "levels", force: true do |t|
@@ -47,7 +48,7 @@ ActiveRecord::Schema.define(version: 20130812211107) do
     t.string   "level_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "concept_id"
+    t.integer  "level_num"
   end
 
   create_table "users", force: true do |t|

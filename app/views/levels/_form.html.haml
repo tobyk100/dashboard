@@ -16,6 +16,10 @@
     %br/
     = f.text_field :level_url
   .field
+    = f.label :level_num
+    %br/
+    = f.text_field :level_num
+  .field
     = f.label 'concepts'
     %br/
     = f.collection_select :concept_ids, Concept.all, :id, :name, { :selected => @level.concept_ids }, { :multiple => true, :name => 'level[concept_ids][]', :style => 'height: 160px' }

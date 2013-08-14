@@ -18,5 +18,9 @@
       = f.label :password_confirmation
       %br/
       = f.password_field :password_confirmation
+  .field
+    = f.label :language
+    %br/
+    = f.select :language, [['en', 'English'], ['sp', 'Spanish']]
   %div= f.submit "Sign up"
 = render "devise/shared/links"

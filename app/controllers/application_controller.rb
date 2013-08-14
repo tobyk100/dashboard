@@ -8,10 +8,10 @@ class ApplicationController < ActionController::Base
 
   protected
 
+  PERMITTED_USER_FIELDS = [:username, :email, :password, :password_confirmation, :language]
   def configure_permitted_parameters
-    devise_parameter_sanitizer.for(:sign_up) do |u|
-      u.permit :username, :email, :password, :password_confirmation
-    end
+    devise_parameter_sanitizer.for(:account_update) do |u| u.permit PERMITTED_USER_FIELDS end
+    devise_parameter_sanitizer.for(:sign_up) do |u| u.permit PERMITTED_USER_FIELDS end
+    devise_parameter_sanitizer.for(:sign_in) do |u| u.permit PERMITTED_USER_FIELDS end
   end
-
 end

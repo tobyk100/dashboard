@@ -13,21 +13,25 @@
   - if devise_mapping.confirmable? && resource.pending_reconfirmation?
     %div
       Currently waiting confirmation for: #{resource.unconfirmed_email}
-  %div
-    = f.label :password
-    %i (leave blank if you don't want to change it)
-    %br/
-    = f.password_field :password, :autocomplete => "off"
-  %div
-    = f.label :password_confirmation
-    %br/
-    = f.password_field :password_confirmation
   - if f.object.encrypted_password.present?
+    %div
+      = f.label :password
+      %i (leave blank if you don't want to change it)
+      %br/
+      = f.password_field :password, :autocomplete => "off"
+    %div
+      = f.label :password_confirmation
+      %br/
+      = f.password_field :password_confirmation
     %div
       = f.label :current_password
       %i (we need your current password to confirm your changes)
       %br/
       = f.password_field :current_password
+  .field
+    = f.label :language
+    %br/
+    = f.select :language, [['English', 'en'], ['Spanish', 'es']]
   %div= f.submit "Update"
 %h3 Cancel my account
 %p
