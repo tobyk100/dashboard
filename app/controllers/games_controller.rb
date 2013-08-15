@@ -63,6 +63,7 @@ class GamesController < ApplicationController
     params.require(:game).permit(:name, :base_url)
   end
 
+  # this is to fix a ForbiddenAttributesError cancan issue
   prepend_before_filter do
     params[:game] &&= game_params
   end

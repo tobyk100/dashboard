@@ -73,7 +73,7 @@ class ConceptsController < ApplicationController
     params.require(:concept).permit(:name, :description)
   end
 
-
+  # this is to fix a ForbiddenAttributesError cancan issue
   prepend_before_filter do
     params[:concept] &&= concept_params
   end
