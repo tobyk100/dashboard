@@ -10,7 +10,7 @@ module LevelsHelper
       new_query_ar = uri.query ? URI.decode_www_form(uri.query) : []
       new_query_ar << ["callback_url", root_url(user)]
       new_query_ar << ["level", level.level_num || 1]
-      new_query_ar << ["lang", user.language || 'en']
+      new_query_ar << ["lang", user.try(:language) || 'en']
       uri.query = URI.encode_www_form(new_query_ar)
       uri.to_s
     end

@@ -5,6 +5,8 @@ class LevelsControllerTest < ActionController::TestCase
 
   setup do
     @level = create(:level)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do

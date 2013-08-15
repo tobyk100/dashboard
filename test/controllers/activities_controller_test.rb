@@ -4,6 +4,8 @@ class ActivitiesControllerTest < ActionController::TestCase
   include Devise::TestHelpers
   setup do
     @activity = create(:activity)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do

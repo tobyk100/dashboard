@@ -4,7 +4,9 @@ class ConceptsControllerTest < ActionController::TestCase
   include Devise::TestHelpers
 
   setup do
-    @concept = concepts(:one)
+    @concept = create(:concept)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do
@@ -20,7 +22,7 @@ class ConceptsControllerTest < ActionController::TestCase
 
   test "should create concept" do
     assert_difference('Concept.count') do
-      post :create, concept: { name: @concept.name }
+      post :create, concept: { name: @concept.name, description: @concept.description }
     end
 
     assert_redirected_to concept_path(assigns(:concept))

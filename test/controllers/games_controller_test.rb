@@ -4,7 +4,9 @@ class GamesControllerTest < ActionController::TestCase
   include Devise::TestHelpers
 
   setup do
-    @game = create(:game, name: 'one')
+    @game = create(:game)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do
@@ -20,7 +22,7 @@ class GamesControllerTest < ActionController::TestCase
 
   test "should create game" do
     assert_difference('Game.count') do
-      post :create, game: { name: @game.name }
+      post :create, game: { name: @game.name, base_url: @game.base_url }
     end
 
     assert_redirected_to game_path(assigns(:game))

@@ -63,13 +63,19 @@ class ConceptsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    #def set_concept
-    #  @concept = Concept.find(params[:id])
-    #end
+  # Use callbacks to share common setup or constraints between actions.
+  #def set_concept
+  #  @concept = Concept.find(params[:id])
+  #end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def concept_params
-      params.require(:concept).permit(:name)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def concept_params
+    params.require(:concept).permit(:name, :description)
+  end
+
+
+  prepend_before_filter do
+    params[:concept] &&= concept_params
+  end
+
 end
