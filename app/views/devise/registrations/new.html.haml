@@ -25,10 +25,10 @@
   .field
     = f.label :language
     %br/
-    = f.select :language, [['en', 'English'], ['sp', 'Spanish']]
+    = f.select :language, [['English', 'en'], ['Spanish', 'es']]
   .field
     = f.label :gender
     %br/
-    = f.select :gender, [['', ''], ['m', 'Male'], ['f', 'Female']]
+    = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
   %div= f.submit "Sign up"
 = render "devise/shared/links"
