@@ -25,11 +25,11 @@ test:
 
 
 production:
-  adapter: postgresql
-#  database: dashboard_production
-  database: ddb
-  username: postgres
-  port: 5432
-  password: admin
-  host: localhost
+  adapter: mysql2
+  database: dashboard_production
+  encoding: utf8
+  username: db
+  password: Az3GjKlP
+  host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
+  pool: 5
 

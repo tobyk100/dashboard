@@ -9,10 +9,6 @@ group :development, :test do
   gem 'mysql2'
 end
 
-group :production do
-  gem 'pg'
-end
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -71,3 +67,7 @@ group :production do
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
+
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+
