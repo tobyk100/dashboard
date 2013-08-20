@@ -1,0 +1,31 @@
+Game,Name,Level,Concepts
+Maze,Level1,1,output 1
+Maze,Level2,2,output 1
+Maze,Level3,3,loop 1
+Maze,Level4,4,loop 1
+Maze,Level5,5,"conditional 1, loop 1"
+Maze,Level6,6,"conditional 1, loop 1"
+Maze,Level7,7,"conditional 1, loop 1"
+Maze,Level8,8,"conditional 2, loop 1"
+Maze,Level9,9,"conditional 2, loop 1"
+Maze,Level10,10,"conditional 2, loop 2"
+Turtle,Level1,1,output 1
+Turtle,Level2,2,output 1
+Turtle,Level3,3,loop 1
+Turtle,Level4,4,loop 1
+Turtle,Level5,5,"conditional 1, loop 1"
+Turtle,Level6,6,"conditional 1, loop 1"
+Turtle,Level7,7,"conditional 1, loop 1"
+Turtle,Level8,8,"conditional 2, loop 1"
+Turtle,Level9,9,"conditional 2, loop 1"
+Turtle,Level10,10,"conditional 2, loop 2"
+Karel,Level1,1,output 1
+Karel,Level2,2,output 1
+Karel,Level3,3,loop 1
+Karel,Level4,4,loop 1
+Karel,Level5,5,"conditional 1, loop 1"
+Karel,Level6,6,"conditional 1, loop 1"
+Karel,Level7,7,"conditional 1, loop 1"
+Karel,Level8,8,"conditional 2, loop 1"
+Karel,Level9,9,"conditional 2, loop 1"
+Karel,Level10,10,"conditional 2, loop 2"
