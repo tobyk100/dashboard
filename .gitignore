@@ -23,3 +23,9 @@
 
 # Ignore apple fs files
 .DS_Store
+
+# asset pipeline files
+/public/assets
+
+# binstub files
+/bin
