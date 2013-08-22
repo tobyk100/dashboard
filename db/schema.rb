@@ -71,8 +71,8 @@ ActiveRecord::Schema.define(version: 20130821224522) do
   end
 
   create_table "user_levels", force: true do |t|
-    t.integer  "user_id"
-    t.integer  "level_id"
+    t.integer  "user_id",                null: false
+    t.integer  "level_id",               null: false
     t.integer  "attempts",   default: 0, null: false
     t.integer  "stars"
     t.datetime "created_at"

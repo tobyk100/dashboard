@@ -1,7 +1,8 @@
 class CreateUserLevels < ActiveRecord::Migration
   def change
     create_table :user_levels do |t|
-      t.references :user, :level
+      t.references :user, null: false
+      t.references :level, null: false
       t.integer :attempts, null: false, default: 0
       t.integer :stars
 

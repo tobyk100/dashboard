@@ -22,12 +22,11 @@ class ActivitiesController < ApplicationController
         time: params[:time].to_i,
         data: params[:program])
 
-    user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user, level)
+    user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user.id, level.id)
     user_level.attempts += 1
     # stars not passed yet, so faking it
     #user_level.stars = [params[:stars], user_level.stars].max
-    puts "params[:result] #{params[:result]}"
-    #user_level.stars = [('true' == params[:result]) ? (rand(3) + 1) : 0, user_level.stars].max
+    user_level.stars = [('true' == params[:result]) ? (rand(3) + 1) : 0, user_level.stars.to_i].max
     user_level.save!
 
     render text: 'got it'
