@@ -1,12 +1,21 @@
 %p#notice= notice
-\#{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
-%br/
 
+- user_levels = current_user.levels_from_script(Script.first)
+
+%div
+  - user_levels.each do |ul|
+    - link = [ul.level.game, ul.level]
+    - if ul.stars && (ul.stars > 0)
+      = link_to " ", link, class: 'level_box level_done'
+    - else
+      = link_to " ", link, class: 'level_box level_undone'
+
+#{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
+%br/
 #{@level.name}
 = link_to '(edit)', edit_game_level_path(@game, @level)
 %br/
-=build_tagged_url(@level, @current_user)
-%br/
+
 %iframe{ name: 'testname', src: build_tagged_url(@level, @current_user), width: 1000, height: 600, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 
 -##level_area

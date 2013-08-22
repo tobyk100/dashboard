@@ -4,7 +4,7 @@ class CreateUserLevels < ActiveRecord::Migration
       t.references :user, null: false
       t.references :level, null: false
       t.integer :attempts, null: false, default: 0
-      t.integer :stars
+      t.integer :stars, null: false, default: 0
 
       t.timestamps
     end

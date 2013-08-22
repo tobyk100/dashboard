@@ -39,4 +39,13 @@ class User < ActiveRecord::Base
       super
     end
   end
+
+  def levels_from_script(script)
+    UserLevel.find_by_sql(<<SQL)
+select #{self.id} as user_id, coalesce(ul.level_id, sl.level_id) as level_id, ul.attempts, ul.stars
+from script_levels sl
+left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
+where sl.script_id = #{script.id}
+SQL
+  end
 end

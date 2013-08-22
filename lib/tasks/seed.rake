@@ -44,7 +44,7 @@ namespace :seed do
         level.concepts << concept
       end
       level.save!
-      ScriptLevel.create!(script_id: script, level_id: level, chapter: chapter)
+      ScriptLevel.create!(script: script, level: level, chapter: chapter)
       chapter += 1
     end
   end

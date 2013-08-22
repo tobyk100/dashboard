@@ -7,7 +7,8 @@ class CreateScripts < ActiveRecord::Migration
     end
 
     create_table :script_levels do |t|
-      t.references :level, :script
+      t.references :level, null: false
+      t.references :script, null: false
       t.integer :chapter
 
       t.timestamps

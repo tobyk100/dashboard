@@ -24,3 +24,18 @@ body {
 .production {
   background-color: lightgray;
 }
+
+.level_box {
+  width: 20px;
+  height: 20px;
+  //float: left;
+  margin: 3px;
+  display: inline-block;
+}
+
+.level_done {
+  background-color: lightblue;
+}
+.level_undone {
+  background-color: lightgray;
+}
