@@ -5,7 +5,8 @@
 #{@level.name}
 = link_to '(edit)', edit_game_level_path(@game, @level)
 %br/
-
+=build_tagged_url(@level, @current_user)
+%br/
 %iframe{ name: 'testname', src: build_tagged_url(@level, @current_user), width: 1000, height: 600, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 
 -##level_area

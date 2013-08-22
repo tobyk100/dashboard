@@ -11,6 +11,8 @@ Dashboard::Application.routes.draw do
   end
   resources :activities
 
+  post '/milestone/:user_id/:level_id', :to => 'activities#milestone', :as => 'milestone'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
