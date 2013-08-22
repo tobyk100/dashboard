@@ -5,6 +5,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable
 
+  has_many :user_levels
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|
       user.provider = auth.provider
@@ -41,11 +43,10 @@ class User < ActiveRecord::Base
   end
 
   def levels_from_script(script)
-    UserLevel.find_by_sql(<<SQL)
-select #{self.id} as user_id, coalesce(ul.level_id, sl.level_id) as level_id, ul.attempts, ul.stars
-from script_levels sl
-left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
-where sl.script_id = #{script.id}
-SQL
+    ul_map = self.user_levels.for_list.index_by(&:level_id)
+    script.script_levels.for_list.map do |sl|
+      ul = ul_map[sl.level_id]
+      ul || UserLevel.new(user: self, level: sl.level)
+    end
   end
 end
