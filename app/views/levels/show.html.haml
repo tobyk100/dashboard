@@ -5,7 +5,7 @@
 %div
   - user_levels.each do |ul|
     - link = [ul.level.game, ul.level]
-    - box_class = if !ul.stars then 'level_untried'
+    - box_class = if !ul.id then 'level_untried'
     - elsif ul.stars == 3 then 'level_aced'
     - elsif ul.stars == 0 then 'level_undone'
     - else 'level_done'

@@ -74,7 +74,7 @@ ActiveRecord::Schema.define(version: 20130821224522) do
     t.integer  "user_id",                null: false
     t.integer  "level_id",               null: false
     t.integer  "attempts",   default: 0, null: false
-    t.integer  "stars"
+    t.integer  "stars",      default: 0, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
