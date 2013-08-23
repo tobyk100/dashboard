@@ -43,7 +43,7 @@ class User < ActiveRecord::Base
   end
 
   def levels_from_script(script)
-    ul_map = self.user_levels.for_list.index_by(&:level_id)
+    ul_map = self.user_levels.includes({level: :game}).index_by(&:level_id)
     script.script_levels.for_list.map do |sl|
       ul = ul_map[sl.level_id]
       ul || UserLevel.new(user: self, level: sl.level)
