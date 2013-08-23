@@ -4,6 +4,4 @@ class ScriptLevel < ActiveRecord::Base
 
   # this is
   attr_accessor :user_level
-
-  scope :for_list, { include: [ { level: :game }, :script ], order: :chapter }
 end

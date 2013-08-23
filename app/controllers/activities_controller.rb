@@ -1,7 +1,7 @@
 class ActivitiesController < ApplicationController
   protect_from_forgery except: :milestone
   check_authorization
-  load_and_authorize_resource
+  load_and_authorize_resource except: :milestone
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
 
