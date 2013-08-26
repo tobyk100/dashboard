@@ -10,7 +10,7 @@
         .container
           .row.production
             .pull-left
-              = link_to(image_tag('logo.png'), root_path, class: 'navbar-brand')
+              = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
             .pull-right
               - if user_signed_in?
