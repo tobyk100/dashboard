@@ -13,7 +13,7 @@ module LevelsHelper
       new_query_ar << callback_url
       new_query_ar << ["level", level.level_num || 1]
       new_query_ar << ["lang", user.try(:language) || 'en']
-      new_query_ar << ["menu", user.try(:language) || 'false']
+      new_query_ar << ["menu", 'false']
       uri.query = URI.encode_www_form(new_query_ar)
       uri.to_s
     end
