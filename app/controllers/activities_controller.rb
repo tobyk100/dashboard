@@ -1,7 +1,7 @@
 class ActivitiesController < ApplicationController
   protect_from_forgery except: :milestone
   check_authorization
-  load_and_authorize_resource except: :milestone
+  load_and_authorize_resource except: [:milestone]
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
 
@@ -12,12 +12,15 @@ class ActivitiesController < ApplicationController
     #attempt:1
     #time:1
     #program:Maze.moveForward();\nMaze.moveForward();
+    authorize! :create, Activity
+    authorize! :create, UserLevel
 
+    solved = 'true' == params[:result]
     level = Level.find(params[:level_id])
     Activity.create!(
         user: current_user,
         level: level,
-        action: params[:result],
+        action: solved,
         attempt: params[:attempt].to_i,
         time: params[:time].to_i,
         data: params[:program])
@@ -26,10 +29,16 @@ class ActivitiesController < ApplicationController
     user_level.attempts += 1
     # stars not passed yet, so faking it
     #user_level.stars = [params[:stars], user_level.stars].max
-    user_level.stars = [('true' == params[:result]) ? (rand(3) + 1) : 0, user_level.stars.to_i].max
+    user_level.stars = [solved ? (rand(3) + 1) : 0, user_level.stars.to_i].max
     user_level.save!
 
-    render text: 'got it'
+    # if they solved it, figure out next level
+    if solved
+      # todo: replace with script based next, since this will break on level 10s
+      render json: { redirect: game_level_url(game_id: level.game_id, id: level.id + 1)}
+    else
+      render json: { message: 'try again' }
+    end
   end
 
   # GET /activities
