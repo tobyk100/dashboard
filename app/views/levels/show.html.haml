@@ -9,7 +9,7 @@
     - elsif ul.stars == 3 then 'level_aced'
     - elsif ul.stars == 0 then 'level_undone'
     - else 'level_done'
-    = link_to " ", link, class: "level_box #{box_class}"
+    = link_to " ", link, class: "#{"level_current " if ul.level_id == @level.id}level_box #{box_class}"
 #{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
 #{@level.name}
 - if can? :edit, @level
