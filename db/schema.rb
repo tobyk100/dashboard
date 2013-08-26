@@ -57,8 +57,8 @@ ActiveRecord::Schema.define(version: 20130821224522) do
   end
 
   create_table "script_levels", force: true do |t|
-    t.integer  "level_id"
-    t.integer  "script_id"
+    t.integer  "level_id",   null: false
+    t.integer  "script_id",  null: false
     t.integer  "chapter"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -98,9 +98,9 @@ ActiveRecord::Schema.define(version: 20130821224522) do
     t.string   "provider"
     t.string   "uid"
     t.boolean  "admin"
-    t.string   "language",               limit: 2
     t.string   "gender",                 limit: 1
     t.string   "name"
+    t.string   "language",               limit: 2
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
