@@ -1,6 +1,7 @@
 module LevelsHelper
-  def build_tagged_url(level, user)
-    callback_url = ["callback_url", milestone_url(user_id: user, level_id: level)]
+  def build_tagged_url(script_level, user)
+    callback_url = ["callback_url", milestone_url(user_id: user, script_level_id: script_level)]
+    level = script_level.level
     if level.level_url
       uri =  URI.parse(level.level_url)
       new_query_ar = URI.decode_www_form(uri.query) << callback_url

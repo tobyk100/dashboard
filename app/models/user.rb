@@ -44,9 +44,20 @@ class User < ActiveRecord::Base
 
   def levels_from_script(script)
     ul_map = self.user_levels.includes({level: :game}).index_by(&:level_id)
-    script.script_levels.includes({ level: :game }, :script).order(:chapter).map do |sl|
+    script.script_levels.includes({ level: :game }, :script).order(:chapter).each do |sl|
       ul = ul_map[sl.level_id]
-      ul || UserLevel.new(user: self, level: sl.level)
+      sl.user_level = ul
     end
+  end
+
+  def next_untried_level(script)
+    ScriptLevel.find_by_sql(<<SQL).first
+select sl.*
+from script_levels sl
+left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
+where sl.script_id = #{script.id} and (ul.stars is null or ul.stars = 0)
+order by sl.chapter
+limit 1
+SQL
   end
 end

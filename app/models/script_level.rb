@@ -4,4 +4,6 @@ class ScriptLevel < ActiveRecord::Base
 
   # this is
   attr_accessor :user_level
+
+  ScriptLevel::NEXT = 'next'
 end

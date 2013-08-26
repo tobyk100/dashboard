@@ -1,5 +1,10 @@
 - if current_user
-  = link_to 'Go play a game!', games_path
+  %p
+    -#= link_to 'Browse games', games_path
+  - Script.all.each do |script|
+    = link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+    %br/
+
 - else
   = link_to "Sign up", new_user_registration_path
   or

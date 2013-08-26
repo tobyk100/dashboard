@@ -16,7 +16,7 @@ namespace :seed do
     Concept.create!(name: 'data structures 1', description: 'Use of non-native types, such as arrays and hashes')
 
     Game.create!(name: 'Maze', base_url: '/blockly/branches/mooc/static/maze/index.html')
-    Game.create!(name: 'Turtle', base_url: '/blockly/branches/mooc/static/turtle/en.html')
+    Game.create!(name: 'Turtle', base_url: '/blockly/branches/mooc/static/turtle/index.html')
     Game.create!(name: 'Karel', base_url: '/blockly/branches/mooc/static/karel/maze.html')
   end
 

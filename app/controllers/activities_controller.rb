@@ -16,7 +16,8 @@ class ActivitiesController < ApplicationController
     authorize! :create, UserLevel
 
     solved = 'true' == params[:result]
-    level = Level.find(params[:level_id])
+    script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
+    level = script_level.level
     Activity.create!(
         user: current_user,
         level: level,
@@ -35,7 +36,12 @@ class ActivitiesController < ApplicationController
     # if they solved it, figure out next level
     if solved
       # todo: replace with script based next, since this will break on level 10s
-      render json: { redirect: game_level_url(game_id: level.game_id, id: level.id + 1)}
+      next_level = ScriptLevel.find_by_script_id_and_chapter(script_level.script, script_level.chapter + 1)
+      if next_level
+        render json: { redirect: script_level_path(script_level.script, next_level) }
+      else
+        render json: { message: 'no more levels'}
+      end
     else
       render json: { message: 'try again' }
     end
