@@ -18,4 +18,18 @@ module LevelsHelper
       uri.to_s
     end
   end
+
+  def build_level_url(level, user)
+    if level.level_url
+      level.level_url
+    else
+      uri = URI.parse(level.game.base_url)
+      new_query_ar = uri.query ? URI.decode_www_form(uri.query) : []
+      new_query_ar << ["level", level.level_num || 1]
+      new_query_ar << ["lang", user.try(:language) || 'en']
+      new_query_ar << ["menu", 'false']
+      uri.query = URI.encode_www_form(new_query_ar)
+      uri.to_s
+    end
+  end
 end
