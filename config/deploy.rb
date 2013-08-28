@@ -1,3 +1,5 @@
+require 'bundler/capistrano'
+
 set :application, "dashboard"
 set :user, "ubuntu"
 set :stages, ["staging", "production"]
