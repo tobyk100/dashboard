@@ -7,11 +7,12 @@
     - script_levels.each do |sl|
       - link = script_level_path(@script, sl)
       - stars = sl.user_level ? sl.user_level.stars : nil
-      - box_class = if !stars then 'level_untried'
+      - box_class = if sl.level.game.video? then 'level_video'
+      - elsif !stars then 'level_untried'
       - elsif stars == 3 then 'level_aced'
       - elsif stars == 0 then 'level_undone'
       - else 'level_done'
-      = link_to " ", link, class: "#{"level_current " if sl.level_id == @level.id}level_box #{box_class}"
+      = link_to ' ', link, class: "#{"level_current " if sl.level_id == @level.id}level_box #{box_class}"
 
 #{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
 #{@level.name}
@@ -19,6 +20,9 @@
   = link_to '(edit)', edit_game_level_path(@game, @level)
 %br/
 
+- if !@game.video?
+  %div{ style: "float:right;"}
+    = link_to "next level >>", next_level_url(@script_level)
 - level_url = @script_level ? build_tagged_url(@script_level, @current_user) : build_level_url(@level, @current_user)
 %iframe{ name: 'testname', src: level_url, width: 1000, height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 

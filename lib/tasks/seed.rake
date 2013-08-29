@@ -18,6 +18,7 @@ namespace :seed do
     Game.create!(name: 'Maze', base_url: '/blockly/branches/mooc/static/maze/index.html')
     Game.create!(name: 'Turtle', base_url: '/blockly/branches/mooc/static/turtle/index.html')
     Game.create!(name: 'Karel', base_url: '/blockly/branches/mooc/static/karel/maze.html')
+    Game.create!(name: 'Video')
   end
 
   task script: :environment do
@@ -26,22 +27,24 @@ namespace :seed do
     c.execute('truncate table script_levels')
     script = Script.find_or_create_by_name('20-hour')
 
-    parsed_file = CSV.read("config/script.csv", { :col_sep => "," })
-    puts parsed_file.inspect
+    parsed_file = CSV.read("config/script.csv", { :col_sep => "\t" })
 
     chapter = 1
     game_map = Game.all.index_by(&:name)
     concept_map = Concept.all.index_by(&:name)
     headers = parsed_file.shift
+    # todo: use header to index into columns, rather than hard coded indexes
 
     parsed_file.each do |row|
       game = game_map[row[0].squish]
-      puts game.inspect
-      level = Level.create(game: game, name: row[1], level_num: row[2])
-      row[3].split(',').each do |concept_name|
-        concept = concept_map[concept_name.squish]
-        raise "missing concept '#{concept_name}'" if !concept
-        level.concepts << concept
+      puts "row #{chapter}: #{row.inspect}"
+      level = Level.create(game: game, name: row[1], level_num: row[2], level_url: row[4])
+      if row[3]
+        row[3].split(',').each do |concept_name|
+          concept = concept_map[concept_name.squish]
+          raise "missing concept '#{concept_name}'" if !concept
+          level.concepts << concept
+        end
       end
       level.save!
       ScriptLevel.create!(script: script, level: level, chapter: chapter)
