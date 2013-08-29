@@ -7,6 +7,8 @@
 
 - else
   = link_to "Sign up", new_user_registration_path
-  or
+  ,
   = link_to "sign in", new_user_session_path
-  to get started
+  , or try out our
+  = link_to "demo", script_level_path(Script.first, ScriptLevel::NEXT)
+

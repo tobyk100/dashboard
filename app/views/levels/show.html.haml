@@ -1,7 +1,7 @@
 %p#notice= notice
 
 - if @script
-  - script_levels = current_user.levels_from_script(@script)
+  - script_levels = current_user ? current_user.levels_from_script(@script) : @script.script_levels
 
   %div
     - script_levels.each do |sl|
@@ -20,7 +20,7 @@
   = link_to '(edit)', edit_game_level_path(@game, @level)
 %br/
 
-- if !@game.video?
+- if @game.video?
   %div{ style: "float:right;"}
     = link_to "next level >>", next_level_url(@script_level)
 - level_url = @script_level ? build_tagged_url(@script_level, @current_user) : build_level_url(@level, @current_user)

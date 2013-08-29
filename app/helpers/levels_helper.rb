@@ -1,6 +1,6 @@
 module LevelsHelper
   def build_tagged_url(script_level, user)
-    callback_url = ["callback_url", milestone_url(user_id: user, script_level_id: script_level)]
+    callback_url = ["callback_url", milestone_url(user_id: user.try(:id) || 0, script_level_id: script_level)]
     level = script_level.level
     if level.level_url
       level.level_url
