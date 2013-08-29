@@ -1,37 +1,34 @@
 class ActivitiesController < ApplicationController
   protect_from_forgery except: :milestone
-  check_authorization
+  check_authorization except: [:milestone]
   load_and_authorize_resource except: [:milestone]
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
 
   def milestone
-    #app:maze
-    #level:1
-    #result:true
-    #attempt:1
-    #time:1
-    #program:Maze.moveForward();\nMaze.moveForward();
-    authorize! :create, Activity
-    authorize! :create, UserLevel
-
     solved = 'true' == params[:result]
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
-    Activity.create!(
-        user: current_user,
-        level: level,
-        action: solved,
-        attempt: params[:attempt].to_i,
-        time: params[:time].to_i,
-        data: params[:program])
 
-    user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user.id, level.id)
-    user_level.attempts += 1
-    # stars not passed yet, so faking it
-    #user_level.stars = [params[:stars], user_level.stars].max
-    user_level.stars = [solved ? (rand(3) + 1) : 0, user_level.stars.to_i].max
-    user_level.save!
+    if current_user
+      authorize! :create, Activity
+      authorize! :create, UserLevel
+
+      Activity.create!(
+          user: current_user,
+          level: level,
+          action: solved,
+          attempt: params[:attempt].to_i,
+          time: params[:time].to_i,
+          data: params[:program])
+
+      user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user.id, level.id)
+      user_level.attempts += 1
+      # stars not passed yet, so faking it
+      #user_level.stars = [params[:stars], user_level.stars].max
+      user_level.stars = [solved ? (rand(3) + 1) : 0, user_level.stars.to_i].max
+      user_level.save!
+    end
 
     # if they solved it, figure out next level
     if solved
