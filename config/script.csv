@@ -1,11 +1,11 @@
 Game	Name	Level	Concepts	Url
-Video	Intro			http://www.youtube.com/embed/ZQvfl2dl7Ts
+Video	Intro	1		http://www.youtube.com/embed/ZQvfl2dl7Ts
 Maze	Level1	1	output 1	
 Maze	Level2	2	output 1	
-Video	Loops		loop 1	http://www.youtube.com/embed/HROq08xEdXw
+Video	Loops	2	loop 1	http://www.youtube.com/embed/HROq08xEdXw
 Maze	Level3	3	loop 1	
 Maze	Level4	4	loop 1	
-Video	Other		conditional 1	http://www.youtube.com/embed/7jk6XFxrol8
+Video	Other	3	conditional 1	http://www.youtube.com/embed/7jk6XFxrol8
 Maze	Level5	5	conditional 1, loop 1	
 Maze	Level6	6	conditional 1, loop 1	
 Maze	Level7	7	conditional 1, loop 1	

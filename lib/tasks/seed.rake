@@ -24,31 +24,41 @@ namespace :seed do
   task script: :environment do
     c = Script.connection
     c.execute('truncate table levels')
+    c.execute('truncate table concepts_levels')
     c.execute('truncate table script_levels')
-    script = Script.find_or_create_by_name('20-hour')
 
-    parsed_file = CSV.read("config/script.csv", { :col_sep => "\t" })
-
-    chapter = 1
     game_map = Game.all.index_by(&:name)
     concept_map = Concept.all.index_by(&:name)
-    headers = parsed_file.shift
-    # todo: use header to index into columns, rather than hard coded indexes
 
-    parsed_file.each do |row|
-      game = game_map[row[0].squish]
-      puts "row #{chapter}: #{row.inspect}"
-      level = Level.create(game: game, name: row[1], level_num: row[2], level_url: row[4])
-      if row[3]
-        row[3].split(',').each do |concept_name|
-          concept = concept_map[concept_name.squish]
-          raise "missing concept '#{concept_name}'" if !concept
-          level.concepts << concept
+    sources = [
+        { file: 'config/script.csv', name: '20-hour' },
+        { file: 'config/hoc_script.csv', name: 'Hour of Code' },
+    ]
+    sources.each do |source|
+      script = Script.find_or_create_by_name(source[:name])
+      parsed_file = CSV.read(source[:file], { :col_sep => "\t" })
+
+      headers = parsed_file.shift
+      # todo: use header to index into columns, rather than hard coded indexes
+
+      parsed_file.each_with_index do |row, index|
+        game = game_map[row[0].squish]
+        puts "row #{index}: #{row.inspect}"
+        level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[1], row[2])
+        level.level_url ||= row[4]
+
+        if level.concepts.empty?
+          if row[3]
+            row[3].split(',').each do |concept_name|
+              concept = concept_map[concept_name.squish]
+              raise "missing concept '#{concept_name}'" if !concept
+              level.concepts << concept
+            end
+          end
+          level.save!
         end
+        ScriptLevel.create!(script: script, level: level, chapter: (index + 1))
       end
-      level.save!
-      ScriptLevel.create!(script: script, level: level, chapter: chapter)
-      chapter += 1
     end
   end
 end
