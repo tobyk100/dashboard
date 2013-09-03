@@ -2,9 +2,10 @@
 %table
   %thead
     %tr
-      %th
-      %th
-      %th
+      %th{ width:100 } Levels
+      %th{ width:100 }
+      %th{ width:100 }
+      %th{ width:100 }
   %tbody
     - @levels.each do |level|
       %tr
@@ -14,7 +15,7 @@
         - if can? :update, level
           %td= link_to 'Edit', edit_game_level_path(@game, level)
         - if can? :destroy, level
-        %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
+          %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
 %br/
 - if can? :create, Level
   = link_to 'New Level', new_game_level_path

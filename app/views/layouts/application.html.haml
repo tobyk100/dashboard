@@ -34,9 +34,9 @@
                 = link_to "WindowsLive", user_omniauth_authorize_path(:windowslive)
 
       - if notice
-        %p{class:"notice"}= notice
+        %p#notice= notice
       - if alert
-        %p{class:"alert"}= alert
+        %p#alert= alert
 
       .row
         = yield
