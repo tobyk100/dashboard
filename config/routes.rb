@@ -15,6 +15,8 @@ Dashboard::Application.routes.draw do
     resources :script_levels, as: :levels, only: [:show], path: "/level"
   end
 
+  resources :followers, only: [:create]
+
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
 
   # The priority is based upon order of creation: first created -> highest priority.

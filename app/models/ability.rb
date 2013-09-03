@@ -13,6 +13,7 @@ class Ability
     if user.id
       can :create, Activity
       can :create, UserLevel
+      can :create, Follower
     end
 
     #

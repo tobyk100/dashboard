@@ -1,8 +1,32 @@
 - if current_user
   %p
     -#= link_to 'Browse games', games_path
+  %h3 Courses
   - Script.all.each do |script|
     = link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+    %br/
+
+  - if current_user.teachers.length > 0
+    %h3 Teacher
+    - current_user.teachers.each do |teacher|
+      = teacher.name
+      %br/
+    %br/
+    Add a teacher
+    = form_for([Follower.new]) do |f|
+      .field
+        = f.label :email
+        = text_field_tag :email
+      .actions
+        = f.submit
+
+  = link_to "Add a teacher", root_path
+
+  - if current_user.students.length > 0
+    %h3 Students
+    - current_user.students.each do |student|
+      = student.name
+      %br/
     %br/
 
 - else

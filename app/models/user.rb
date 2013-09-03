@@ -6,6 +6,11 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :user_levels
+  has_many :followers
+  has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id'
+
+  has_many :students, through: :followers, source: :student_user
+  has_many :teachers, through: :followeds, source: :user
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|
