@@ -23,10 +23,13 @@
       - @game.levels.each do |level|
         %tr
           %td= link_to level.name, [@game, level]
-          %td= link_to 'Edit', edit_game_level_path(@game, level)
-          %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
+          - if can? :update, level
+            %td= link_to 'Edit', edit_game_level_path(game, level)
+          - if can? :destroy, level
+            %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
   %br/
-  = link_to 'New Level', new_game_level_path(@game)
+  - if can? :create, Level
+    = link_to 'New Level', new_game_level_path(@game)
   %br/
 
 
