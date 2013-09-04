@@ -7,37 +7,26 @@
     = csrf_meta_tags
   %body
     .container
-      .navbar
-        .container
-          .row.production
-            .pull-left
-              = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
+      .row
+        .span4
+          = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            - if @script && current_user
-              - progress = current_user.progress(@script)
-              .span{ style: 'width:250px' }
-              = link_to "#{progress['current']}/#{progress['max']}", script_user_stats_path(@script, current_user)
+        .span4{ style: 'text-align:center'}
+          - if @script && current_user
+            - progress = current_user.progress(@script)
+            = link_to "#{progress['current']}/#{progress['max']}", script_user_stats_path(@script, current_user)
 
-            .pull-right
-              - if user_signed_in?
-                Logged in as
-                %strong= current_user.email
-                = link_to 'Edit profile', edit_user_registration_path
-                |
-                = link_to "Logout", destroy_user_session_path, method: :delete
-              - else
-                = link_to "Sign up", new_user_registration_path
-                |
-                Sign in with:
-                = link_to "email", new_user_session_path
-                |
-                = link_to "Twitter", user_omniauth_authorize_path(:twitter)
-                |
-                = link_to "Facebook", user_omniauth_authorize_path(:facebook)
-                |
-                = link_to "Google", user_omniauth_authorize_path(:google_oauth2)
-                |
-                = link_to "WindowsLive", user_omniauth_authorize_path(:windowslive)
+
+        .span4{ style: 'text-align:right'}
+          - if user_signed_in?
+            %strong
+              = link_to current_user.username, edit_user_registration_path
+            %br/
+            = link_to "Logout", destroy_user_session_path, method: :delete
+          - else
+            = link_to "Sign up", new_user_registration_path
+            |
+            = link_to "Sign in", new_user_session_path
 
       - if notice
         %p#notice= notice

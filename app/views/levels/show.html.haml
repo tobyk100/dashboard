@@ -12,12 +12,6 @@
       - else 'level_done'
       = link_to ' ', link, class: "#{"level_current " if sl.level_id == @level.id}level_box #{box_class}"
 
-#{link_to 'All games', games_path} > #{link_to @game.name, [@game]} >
-#{@level.name}
-- if can? :edit, @level
-  = link_to '(edit)', edit_game_level_path(@game, @level)
-%br/
-
 - if @game.video? && @script_level
   %div{ style: "float:right;"}
     = link_to "next level >>", next_level_url(@script_level)
@@ -36,3 +30,6 @@
 -#        $('#level_area').html(data);
 -#    }});
 
+- if can? :edit, @level
+  %br/
+  = link_to '(edit)', edit_game_level_path(@game, @level)
