@@ -29,6 +29,11 @@ namespace :deploy do
     end
   end
 
+  task :post_deploy do
+    #run "cd #{current_path}"
+    run "cd #{current_path} ; git submodule foreach git checkout mooc ; git submodule foreach git pull"
+  end
+
   task :setup_config, roles: :app do
     sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
     sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn"
@@ -40,6 +45,7 @@ namespace :deploy do
 
   task :symlink_config, roles: :app do
     #run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/config/application.yml #{release_path}/config/application.yml"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
@@ -52,4 +58,5 @@ namespace :deploy do
     end
   end
   before "deploy", "deploy:check_revision"
+  after "deploy", "deploy:post_deploy"
 end
