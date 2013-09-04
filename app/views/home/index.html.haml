@@ -22,7 +22,7 @@
   - if current_user.students.length > 0
     %h3 Students
     - current_user.students.each do |student|
-      = student.name
+      = link_to student.name, script_user_stats_path(Script.first, student)
       %br/
     %br/
 

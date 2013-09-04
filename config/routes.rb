@@ -13,6 +13,7 @@ Dashboard::Application.routes.draw do
 
   resources :scripts, only: [], path: '/s/' do
     resources :script_levels, as: :levels, only: [:show], path: "/level"
+    get '/stats/:user_id', to: 'scripts#user_stats', as: 'user_stats'
   end
 
   resources :followers, only: [:create]

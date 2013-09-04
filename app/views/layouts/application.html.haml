@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 %html
   %head
     %title Dashboard
@@ -11,6 +12,11 @@
           .row.production
             .pull-left
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
+
+            - if @script && current_user
+              - progress = current_user.progress(@script)
+              .span{ style: 'width:250px' }
+              = link_to "#{progress['current']}/#{progress['max']}", script_user_stats_path(@script, current_user)
 
             .pull-right
               - if user_signed_in?

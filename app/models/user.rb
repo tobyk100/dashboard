@@ -65,4 +65,13 @@ order by sl.chapter
 limit 1
 SQL
   end
+
+  def progress(script)
+    self.connection.select_one(<<SQL)
+select count(case when ul.stars > 0 then 1 else null end) as current, count(*) as max
+from script_levels sl
+left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
+where sl.script_id = #{script.id}
+SQL
+  end
 end
