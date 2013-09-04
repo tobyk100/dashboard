@@ -30,6 +30,5 @@
   = link_to "Sign up", new_user_registration_path
   ,
   = link_to "sign in", new_user_session_path
-  , or try out our
-  = link_to "demo", script_level_path(Script.first, ScriptLevel::NEXT)
-
+  , or try out our demos:
+  = raw Script.all.map { |script| link_to(script.name, script_level_path(script, 1)) }.join(', ')
