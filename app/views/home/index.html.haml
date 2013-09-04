@@ -12,15 +12,12 @@
       = teacher.name
       %br/
     %br/
-    Add a teacher
-    = form_for([Follower.new]) do |f|
-      .field
-        = f.label :email
-        = text_field_tag :email
-      .actions
-        = f.submit
-
-  = link_to "Add a teacher", root_path
+  Add a teacher by email address:
+  = form_for([Follower.new]) do |f|
+    .field
+      = text_field_tag :email
+    .actions
+      = f.submit
 
   - if current_user.students.length > 0
     %h3 Students
