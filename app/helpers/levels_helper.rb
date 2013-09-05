@@ -8,6 +8,7 @@ module LevelsHelper
       uri = URI.parse(level.game.base_url)
       new_query_ar = uri.query ? URI.decode_www_form(uri.query) : []
       new_query_ar << callback_url
+      new_query_ar << ["page", level.page] if level.page
       new_query_ar << ["level", level.level_num || 1]
       new_query_ar << ["lang", user.try(:language) || 'en']
       new_query_ar << ["menu", 'false']

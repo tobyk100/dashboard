@@ -1,34 +1,81 @@
-Game	Name	Level	Concepts	Url
-Video	Intro	1		http://www.youtube.com/embed/ZQvfl2dl7Ts
-Maze	Level1	1	output 1	
-Maze	Level2	2	output 1	
-Video	Loops	2	loop 1	http://www.youtube.com/embed/HROq08xEdXw
-Maze	Level3	3	loop 1	
-Maze	Level4	4	loop 1	
-Video	Other	3	conditional 1	http://www.youtube.com/embed/7jk6XFxrol8
-Maze	Level5	5	conditional 1, loop 1	
-Maze	Level6	6	conditional 1, loop 1	
-Maze	Level7	7	conditional 1, loop 1	
-Maze	Level8	8	conditional 2, loop 1	
-Maze	Level9	9	conditional 2, loop 1	
-Maze	Level10	10	conditional 2, loop 2	
-Turtle	Level1	1	output 1	
-Turtle	Level2	2	output 1	
-Turtle	Level3	3	loop 1	
-Turtle	Level4	4	loop 1	
-Turtle	Level5	5	conditional 1, loop 1	
-Turtle	Level6	6	conditional 1, loop 1	
-Turtle	Level7	7	conditional 1, loop 1	
-Turtle	Level8	8	conditional 2, loop 1	
-Turtle	Level9	9	conditional 2, loop 1	
-Turtle	Level10	10	conditional 2, loop 2	
-Karel	Level1	1	output 1	
-Karel	Level2	2	output 1	
-Karel	Level3	3	loop 1	
-Karel	Level4	4	loop 1	
-Karel	Level5	5	conditional 1, loop 1	
-Karel	Level6	6	conditional 1, loop 1	
-Karel	Level7	7	conditional 1, loop 1	
-Karel	Level8	8	conditional 2, loop 1	
-Karel	Level9	9	conditional 2, loop 1	
-Karel	Level10	10	conditional 2, loop 2	
+Game	Name	Page	Level	Concepts	Url
+Video	Intro		1		http://www.youtube.com/embed/ZQvfl2dl7Ts
+Maze	Level1		1	sequence 1	
+Maze	Level2		2	sequence 1	
+Maze	Level3		3	loop 1	
+Maze	Level4		4	loop 1	
+Video	Loops		2	loop 1	http://www.youtube.com/embed/HROq08xEdXw
+Maze	Level5		5	conditional 1, loop 1	
+Maze	Level6		6	conditional 1, loop 1	
+Maze	Level7		7	conditional 1, loop 1	
+Maze	Level8		8	conditional 2, loop 1	
+Video	Loops		3	loop 1	http://www.youtube.com/embed/HROq08xEdXw
+Maze	Level9		9	conditional 2, loop 1	
+Maze	Level10		10	conditional 2, loop 2	
+Maze	Level11		11	sequence 1	
+Maze	Leve12		12	sequence 1	
+Video	Conditionals		4	conditional 1	http://www.youtube.com/embed/HROq08xEdXw
+Maze	Level13		13	loop 1	
+Maze	Level14		14	loop 1	
+Maze	Level15		15	conditional 1, loop 1	
+Maze	Level16		16	conditional 1, loop 1	
+Video	Conditionals		5	conditional 2	http://www.youtube.com/embed/HROq08xEdXw
+Maze	Level17		17	conditional 1, loop 1	
+Maze	Level18		18	conditional 2, loop 1	
+Video	Other		6		http://www.youtube.com/embed/HROq08xEdXw
+Video	Intro		7		http://www.youtube.com/embed/HROq08xEdXw
+Turtle	Level1	1	1	sequence 1	
+Turtle	Level2	1	2	sequence 1	
+Turtle	Level3	1	3	loop 1	
+Turtle	Level4	1	4	loop 1	
+Turtle	Level5	1	5	conditional 1, loop 1	
+Turtle	Level6	1	6	conditional 1, loop 1	
+Turtle	Level7	1	7	conditional 1, loop 1	
+Turtle	Level8	1	8	conditional 2, loop 1	
+Turtle	Level9	1	9	conditional 2, loop 1	
+Turtle	Level10	1	10	conditional 2, loop 2	
+Video	Intro		8		http://www.youtube.com/embed/HROq08xEdXw
+Karel	Level1	1	1	sequence 1	
+Karel	Level2	1	2	sequence 1	
+Video	Loops		9		http://www.youtube.com/embed/HROq08xEdXw
+Karel	Level3	1	3	loop 1	
+Karel	Level4	1	4	loop 1	
+Karel	Level5	1	5	conditional 1, loop 1	
+Karel	Level6	1	6	conditional 1, loop 1	
+Karel	Level7	1	7	conditional 1, loop 1	
+Karel	Level8	1	8	conditional 2, loop 1	
+Karel	Level9	1	9	conditional 2, loop 1	
+Karel	Level10	1	10	conditional 2, loop 2	
+Video	Intro		10		http://www.youtube.com/embed/HROq08xEdXw
+Turtle	Level1	2	1	sequence 1	
+Turtle	Level2	2	2	function 1	
+Video	Loops		11		http://www.youtube.com/embed/HROq08xEdXw
+Turtle	Level3	2	3	loop 1, function 1	
+Turtle	Level4	2	4	loop 1, function 1	
+Turtle	Level5	2	5	function 1	
+Turtle	Level6	2	6	loop 3, function 1, variable 1	
+Turtle	Level7	2	7	loop 3, function 1, variable 1	
+Turtle	Level8	2	8	function 1	
+Turtle	Level9	2	9	loop 3, function 1, variable 1	
+Turtle	Level10	2	10	sequence 1	
+Karel	Level1	2	1	sequence 1	
+Video	Functions		12		http://www.youtube.com/embed/HROq08xEdXw
+Karel	Level2	2	2	function 1	
+Karel	Level3	2	3	loop 2, function 1	
+Karel	Level4	2	4	loop 1, function 2	
+Karel	Level5	2	5	loop 2, function 2	
+Karel	Level6	2	6	loop 2, function 2	
+Karel	Level7	2	7	function 2	
+Karel	Level8	2	8	function 1, loop 1	
+Karel	Level9	2	9	conditional 2, function 1, loop 2	
+Turtle	Level1	3	1	function 1	
+Turtle	Level2	3	2	function 2	
+Turtle	Level3	3	3	function 1	
+Turtle	Level4	3	4	function 1	
+Turtle	Level5	3	5	function 2	
+Video	Functions		13		http://www.youtube.com/embed/HROq08xEdXw
+Turtle	Level6	3	6	function 2	
+Turtle	Level7	3	7	function 3	
+Turtle	Level8	3	8	function 3	
+Turtle	Level9	3	9	function 1, loop 3	
+Turtle	Level10	3	10	conditional 2, loop 2	
