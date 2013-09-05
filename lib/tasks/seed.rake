@@ -19,7 +19,7 @@ namespace :seed do
     Concept.create!(name: 'function 2', description: 'Use of sub-routines intermediate')
     Concept.create!(name: 'function 3', description: 'Use of sub-routines advanced')
 
-    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html?mode=2')
+    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html?mode=2&skin=3')
     Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html')
     Game.create!(name: 'Karel', base_url: '/blockly/static/karel/maze.html')
     Game.create!(name: 'Video')
