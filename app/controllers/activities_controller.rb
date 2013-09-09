@@ -32,7 +32,6 @@ class ActivitiesController < ApplicationController
 
     # if they solved it, figure out next level
     if solved
-      # todo: replace with script based next, since this will break on level 10s
       next_level = ScriptLevel.find_by_script_id_and_chapter(script_level.script, script_level.chapter + 1)
       if next_level
         render json: { redirect: script_level_path(script_level.script, next_level) }

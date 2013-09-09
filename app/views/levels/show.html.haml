@@ -1,16 +1,4 @@
-- if @script
-  - script_levels = current_user ? current_user.levels_from_script(@script) : @script.script_levels
-
-  %div
-    - script_levels.each do |sl|
-      - link = script_level_path(@script, sl)
-      - stars = sl.user_level ? sl.user_level.stars : nil
-      - box_class = if sl.level.game.video? then 'level_video'
-      - elsif !stars then 'level_untried'
-      - elsif stars == 3 then 'level_aced'
-      - elsif stars == 0 then 'level_undone'
-      - else 'level_done'
-      = link_to ' ', link, class: "#{"level_current " if sl.level_id == @level.id}level_box #{box_class}"
+-#= render 'shared/script_levels', { script: @script, user: current_user, level: @script_level }
 
 - if @game.video? && @script_level
   %div{ style: "float:right;"}

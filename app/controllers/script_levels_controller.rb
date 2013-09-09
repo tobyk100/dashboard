@@ -15,6 +15,6 @@ class ScriptLevelsController < ApplicationController
     end
     @level = @script_level.level
     @game = @level.game
-    render 'levels/show'
+    render 'levels/show', layout: 'full'
   end
 end
