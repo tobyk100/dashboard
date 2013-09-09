@@ -25,12 +25,12 @@ namespace :seed do
     Game.create!(name: 'Video')
   end
 
-  COL_GAME = 0
-  COL_NAME = 1
-  COL_PAGE = 2
-  COL_LEVEL = 3
-  COL_CONCEPTS = 4
-  COL_URL = 5
+  COL_GAME = 'Game'
+  COL_NAME = 'Name'
+  COL_PAGE = 'Page'
+  COL_LEVEL = 'Level'
+  COL_CONCEPTS = 'Concepts'
+  COL_URL = 'Url'
 
   task script: :environment do
     c = Script.connection
@@ -47,12 +47,7 @@ namespace :seed do
     ]
     sources.each do |source|
       script = Script.find_or_create_by_name(source[:name])
-      parsed_file = CSV.read(source[:file], { :col_sep => "\t" })
-
-      headers = parsed_file.shift
-      # todo: use header to index into columns, rather than hard coded indexes
-
-      parsed_file.each_with_index do |row, index|
+        CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
         puts "row #{index}: #{row.inspect}"
         level = Level.find_or_create_by_game_id_and_name_and_page_and_level_num(game.id, row[COL_NAME], row[COL_PAGE], row[COL_LEVEL])
