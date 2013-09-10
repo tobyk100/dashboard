@@ -1,8 +1,7 @@
 Dashboard::Application.routes.draw do
   resources :concepts
 
-  devise_for :users,
-      controllers: {omniauth_callbacks: "omniauth_callbacks"}
+  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
 
   root :to => "home#index"
 
@@ -16,7 +15,9 @@ Dashboard::Application.routes.draw do
     get '/stats/:user_id', to: 'scripts#user_stats', as: 'user_stats'
   end
 
-  resources :followers, only: [:create]
+  resources :followers, only: [:new, :create, :index]
+  get '/followers/:teacher_user_id/accept', to: 'followers#accept', as: 'follower_accept'
+  post '/followers/create_student', to: 'followers#create_student', as: 'create_student'
 
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
 

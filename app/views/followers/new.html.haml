@@ -1,0 +1,12 @@
+%p
+  %h4 Invite students to your class by their email address or Code.org username:
+
+  = form_for([Follower.new]) do |f|
+    = text_field_tag(:student_email_or_username, nil, placeholder: 'student@school.edu')
+    %br/
+    = submit_tag('Invite student')
+
+%p
+  %h4 Create your student's account:
+
+  = render 'new_student_form'

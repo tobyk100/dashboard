@@ -1,0 +1,10 @@
+= link_to 'Add student', new_follower_path
+
+%table
+  %tr
+    %th Name
+    %th Email
+  - @students.each do |student|
+    %tr
+      %td= link_to student.name, script_user_stats_path(Script.first, student)
+      %td= student.email

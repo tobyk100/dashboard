@@ -15,7 +15,7 @@
   Add a teacher by email address:
   = form_for([Follower.new]) do |f|
     .field
-      = text_field_tag :email
+      = email_field_tag :teacher_email
     .actions
       = f.submit
 
@@ -24,7 +24,8 @@
     - current_user.students.each do |student|
       = link_to student.name, script_user_stats_path(Script.first, student)
       %br/
-    %br/
+  %br/
+  = link_to "Manage students", followers_path
 
   - if current_user.admin?
     %h3 Admin

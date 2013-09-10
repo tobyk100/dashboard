@@ -1,0 +1,33 @@
+- user ||= @user || User.new
+
+:javascript
+  $(function() {
+    $( "#user_birthday" ).datepicker({
+      changeMonth: true,
+      changeYear: true,
+      yearRange: "-120:+0",
+    });
+  });
+
+- if user.errors.any?
+  #error_explanation
+    %ul
+      - user.errors.full_messages.each do |msg|
+        %li= msg
+
+= form_for(user, url: { action: :create_student }) do |f|
+  = f.text_field(:name, placeholder: "Student's full name (John Smith)")
+  %br/
+  = f.text_field(:username, placeholder: "Student's username")
+  %br/
+  = f.password_field(:password, placeholder: "Student's password")
+  %br/
+  = f.select(:gender, options_for_select([["Student's gender (optional)", '', {disabled: true, selected: true}], ['Male', 'm'], ['Female', 'f']], :selected => user.gender))
+  %br/
+  = f.text_field(:birthday, id: "user_birthday", placeholder: "Student's birthday")
+
+  %br/
+  = f.text_field(:parent_email, placeholder: "Parent's email (required if student is under 13)", character: 200)
+  %br/
+  = submit_tag('Add student')
+

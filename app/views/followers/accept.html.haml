@@ -1,0 +1,4 @@
+Allow your teacher (#{@teacher.email}) to have access to your progress on Code.org?
+= form_tag(follower_accept_path(@teacher), method: 'GET') do
+  = hidden_field_tag(:confirm, true)
+  = submit_tag('Yes')
