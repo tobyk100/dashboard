@@ -6,10 +6,11 @@
   .field
     = f.label :name
     %br/
-    = f.text_field :name
+    = f.text_field :name, :autofocus => true
+  .field
     = f.label :email
     %br/
-    = f.email_field :email, :autofocus => true
+    = f.email_field :email
   .field
     = f.label :username
     %br/
