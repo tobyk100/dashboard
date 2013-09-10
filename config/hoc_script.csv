@@ -1,25 +1,25 @@
 Game	Name	Page	Level	Concepts	Url
-Video	Intro		1		http://www.youtube.com/watch?v=hSh5YerqFTA
+Video	Intro		1		http://www.youtube.com/embed/hSh5YerqFTA
 Maze	Level1		1	sequence 1	
 Maze	Level2		2	sequence 1	
 Maze	Level3		3	loop 1	
 Maze	Level4		4	loop 1	
-Video	Loops		2	loop 1	http://www.youtube.com/watch?v=oPFcYvEvhLY
+Video	Loops		2	loop 1	http://www.youtube.com/embed/oPFcYvEvhLY
 Maze	Level5		5	conditional 1, loop 1	
 Maze	Level6		6	conditional 1, loop 1	
 Maze	Level7		7	conditional 1, loop 1	
 Maze	Level8		8	conditional 2, loop 1	
-Video	Loops		3	loop 1	http://www.youtube.com/watch?v=kp41877wkwM
+Video	Loops		3	loop 1	http://www.youtube.com/embed/kp41877wkwM
 Maze	Level9		9	conditional 2, loop 1	
 Maze	Level10		10	conditional 2, loop 2	
 Maze	Level11		11	sequence 1	
 Maze	Leve12		12	sequence 1	
-Video	Conditionals		4	conditional 1	http://www.youtube.com/watch?v=eFEyrCE0o5k&feature=youtu.be
+Video	Conditionals		4	conditional 1	http://www.youtube.com/embed/eFEyrCE0o5k&feature=youtu.be
 Maze	Level13		13	loop 1	
 Maze	Level14		14	loop 1	
 Maze	Level15		15	conditional 1, loop 1	
 Maze	Level16		16	conditional 1, loop 1	
-Video	Conditionals		5	conditional 2	http://www.youtube.com/watch?v=5mo2msToyqA&feature=youtu.be
-Maze	Level17		17	conditional 1, loop 1	
+Video	Conditionals		5	conditional 2	http://www.youtube.com/embed/5mo2msToyqA&feature=youtu.be
+Maze	Level17		17	conditional 1, loop 1	 
 Maze	Level18		18	conditional 2, loop 1	
-Video	Other		6		http://www.youtube.com/watch?v=Pk-UuG8A494
+Video	Other		6		http://www.youtube.com/embed/Pk-UuG8A494
