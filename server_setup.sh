@@ -2,13 +2,16 @@
 
 set -e
 
+export DEBIAN_FRONTEND=noninteractive
 aptitude update
 aptitude -y install \
   build-essential \
   git \
   mysql-client \
   ruby-dev \
-  libmysqlclient-dev
+  mysql-server \
+  libmysqlclient-dev \
+  nginx
 
 gem install bundler
 gem install unicorn
