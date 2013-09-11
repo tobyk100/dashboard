@@ -1,6 +1,15 @@
 #!/bin/sh
+
+set -e
+
 aptitude update
-aptitude -y install build-essential, git, mysql-client, ruby-dev, libmysqlclient-dev
+aptitude -y install \
+  build-essential \
+  git \
+  mysql-client \
+  ruby-dev \
+  libmysqlclient-dev
+
 gem install bundler
 gem install unicorn
 
