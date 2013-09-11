@@ -12,6 +12,16 @@ class User < ActiveRecord::Base
   has_many :students, through: :followers, source: :student_user
   has_many :teachers, through: :followeds, source: :user
 
+  validates_format_of :email, with: Devise::email_regexp, on: :create
+  #validates_length_of :first_name, maximum: 35
+  #validates_length_of :last_name, maximum: 35
+  validates_length_of :name, maximum: 70
+  validates_length_of :email, maximum: 255
+  validates_uniqueness_of :email, :allow_nil => true, :allow_blank => true
+  validates_length_of :parent_email, maximum: 255
+  validates_length_of :username, within: 5..20
+  validates_format_of :username, with: /\A[a-z0-9\-\_\.]+\z/i, on: :create
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|
       user.provider = auth.provider
