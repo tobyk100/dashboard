@@ -1,10 +1,8 @@
 require "csv"
 
 namespace :seed do
-  task db: :environment do
-    c = Concept.connection
-    c.execute('truncate table concepts')
-    c.execute('truncate table games')
+  task concepts: :environment do
+    Concept.connection.execute('truncate table concepts')
 
     Concept.create!(name: 'sequence 1', description: 'Use functions to trigger actions')
     Concept.create!(name: 'conditional 1', description: 'Use if statement to run code conditionally')
@@ -18,6 +16,10 @@ namespace :seed do
     Concept.create!(name: 'function 1', description: 'Use of sub-routines')
     Concept.create!(name: 'function 2', description: 'Use of sub-routines intermediate')
     Concept.create!(name: 'function 3', description: 'Use of sub-routines advanced')
+  end
+
+  task games: :environment do
+    Concept.connection.execute('truncate table games')
 
     Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html?mode=2&skin=3')
     Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html')
@@ -32,7 +34,7 @@ namespace :seed do
   COL_CONCEPTS = 'Concepts'
   COL_URL = 'Url'
 
-  task script: :environment do
+  task scripts: :environment do
     c = Script.connection
     c.execute('truncate table levels')
     c.execute('truncate table concepts_levels')
@@ -67,4 +69,6 @@ namespace :seed do
       end
     end
   end
+
+  task all: [:concepts, :games, :scripts]
 end
