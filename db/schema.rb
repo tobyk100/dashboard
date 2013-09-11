@@ -116,7 +116,7 @@ ActiveRecord::Schema.define(version: 20130910211350) do
     t.string   "parent_email"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["email"], name: "index_users_on_email", using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
 end
