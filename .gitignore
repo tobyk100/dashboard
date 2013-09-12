@@ -29,3 +29,6 @@
 
 # binstub files
 /bin
+
+# Ignore per-user Vagrant data
+.vagrant
