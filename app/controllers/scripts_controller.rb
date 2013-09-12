@@ -1,6 +1,5 @@
 class ScriptsController < ApplicationController
   check_authorization
-  load_and_authorize_resource
   before_filter :authenticate_user!
 
 
@@ -8,7 +7,8 @@ class ScriptsController < ApplicationController
 
   def user_stats
     @user = User.find_by_id(params[:user_id])
-    if !@user || (@user.id == current_user.id && !@user.teachers.include?(current_user) && !current_user.admin?)
+    authorize! :read, @user
+    if !@user || !(@user.id == current_user.id || @user.teachers.include?(current_user) || current_user.admin?)
       flash[:alert] = "You don't have access to this person's stats"
       redirect_to root_path
       return
