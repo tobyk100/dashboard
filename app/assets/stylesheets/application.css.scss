@@ -91,3 +91,22 @@ $header_text: white;
   //a:hover {color:#FF00FF;}  /* mouse over link */
   //a:active {color:#0000FF;}  /* selected link */
 }
+
+.user_menu a {
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+.user_options {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  z-index: 100001;
+  text-align: left;
+
+  padding: 10px;
+  left: auto;
+  bottom: auto;
+
+}

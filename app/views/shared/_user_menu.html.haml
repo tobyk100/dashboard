@@ -1,0 +1,4 @@
+.user_options{style: 'display:none;float:right;'}
+  = link_to "Settings", edit_user_registration_path
+  %br/
+  = link_to "Log out", destroy_user_session_path, method: :delete

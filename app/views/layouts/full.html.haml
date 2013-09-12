@@ -18,19 +18,22 @@
 
         %td{ width: '33%', style: 'text-align:right'}
           - if user_signed_in?
-            %strong
-              = link_to current_user.username, edit_user_registration_path
-            %br/
-            = link_to "Logout", destroy_user_session_path, method: :delete
+            %div
+              .user_menu
+                = link_to raw("#{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+            -#%strong
+            -#  = link_to current_user.username, edit_user_registration_path
+            -#%br/
+            -#= link_to "Logout", destroy_user_session_path, method: :delete
           - else
             = link_to "Sign up", new_user_registration_path
             |
             = link_to "Sign in", new_user_session_path
-      %tr
-        %td{ colspan: 3 }
-          - if notice
-            %p#notice= notice
-          - if alert
-            %p#alert= alert
+    = render 'shared/user_menu'
 
-          = yield
+    - if notice
+      %p#notice= notice
+    - if alert
+      %p#alert= alert
+
+    = yield
