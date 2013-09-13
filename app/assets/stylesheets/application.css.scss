@@ -100,7 +100,9 @@ $header_text: white;
 .user_options {
   display: inline-block;
   background-color: white;
-  color: black;
+  a:link {color:black;}
+  a:visited {color:black;}
+  a:hover {color:white;}
   border: 1px solid black;
   z-index: 100001;
   text-align: left;
@@ -108,5 +110,8 @@ $header_text: white;
   padding: 10px;
   left: auto;
   bottom: auto;
+}
 
+.user_options a {
+  color: black;
 }
