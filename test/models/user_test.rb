@@ -20,8 +20,10 @@ class UserTest < ActiveSupport::TestCase
     #puts user.errors.messages.inspect
     assert user.errors.messages.length == 0
 
-    user = User.create(good_data)
-    #puts user.errors.messages.inspect
+    user = User.create(good_data.merge({email: 'FOO@bar.com', username: 'user.12-35'}))
+    assert user.errors.messages.length == 1, "Email should be rejected as a dup"
+
+    user = User.create(good_data.merge({email: 'OTHER@bar.com', username: 'USER.12-34'}))
     assert user.errors.messages.length == 1, "Email should be rejected as a dup"
   end
 end

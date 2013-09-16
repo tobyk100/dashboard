@@ -19,10 +19,11 @@ class User < ActiveRecord::Base
   #validates_length_of :last_name, maximum: 35
   validates_length_of :name, maximum: 70
   validates_length_of :email, maximum: 255
-  validates_uniqueness_of :email, :allow_nil => true, :allow_blank => true
+  validates_uniqueness_of :email, allow_nil: true, allow_blank: true, case_sensitive: false
   validates_length_of :parent_email, maximum: 255
   validates_length_of :username, within: 5..20
   validates_format_of :username, with: /\A[a-z0-9\-\_\.]+\z/i, on: :create
+  validates_uniqueness_of :username, allow_nil: false, allow_blank: false, case_sensitive: false
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|
