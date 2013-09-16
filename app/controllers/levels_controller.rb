@@ -35,7 +35,7 @@ class LevelsController < ApplicationController
 
     respond_to do |format|
       if @level.save
-        format.html { redirect_to [@level.game, @level], notice: 'Goal was successfully created.' }
+        format.html { redirect_to [@level.game, @level], notice: 'Level was successfully created.' }
         format.json { render action: 'show', status: :created, location: @level }
       else
         format.html { render action: 'new' }
@@ -49,7 +49,7 @@ class LevelsController < ApplicationController
   def update
     respond_to do |format|
       if @level.update(level_params)
-        format.html { redirect_to [@level.game, @level], notice: 'Goal was successfully updated.' }
+        format.html { redirect_to [@level.game, @level], notice: 'Level was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -77,6 +77,6 @@ class LevelsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def level_params
-      params[:level].permit([:name, :level_url, :level_num, {concept_ids: []}])
+      params[:level].permit([:name, :level_url, :level_num, :skin, {concept_ids: []}])
     end
 end
