@@ -4,7 +4,12 @@ class FollowersController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @students = current_user.students
+    @students = current_user.students.select(<<SELECT)
+users.*,
+(select count(*) from user_levels where user_id = users.id) as levels_finished,
+(select max(created_at) from user_levels where user_id = users.id) as last_attempt
+SELECT
+
   end
 
   def new

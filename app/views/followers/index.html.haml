@@ -4,7 +4,11 @@
   %tr
     %th Name
     %th Email
+    %th Levels finished
+    %th Last attempt
   - @students.each do |student|
     %tr
-      %td= link_to student.name, script_user_stats_path(Script.first, student)
+      %td= link_to student.name || student.username, script_user_stats_path(Script.first, student)
       %td= student.email
+      %td= student.levels_finished
+      %td= student.last_attempt ? ago(student.last_attempt) : '(not yet started)'
