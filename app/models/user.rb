@@ -19,7 +19,8 @@ class User < ActiveRecord::Base
   #validates_length_of :last_name, maximum: 35
   validates_length_of :name, maximum: 70
   validates_length_of :email, maximum: 255
-  validates_uniqueness_of :email, allow_nil: true, allow_blank: true, case_sensitive: false
+  # this is redundant to devise
+  # validates_uniqueness_of :email, allow_nil: true, allow_blank: true, case_sensitive: false
   validates_length_of :parent_email, maximum: 255
   validates_length_of :username, within: 5..20
   validates_format_of :username, with: /\A[a-z0-9\-\_\.]+\z/i, on: :create
@@ -30,6 +31,8 @@ class User < ActiveRecord::Base
       user.provider = auth.provider
       user.uid = auth.uid
       user.username = auth.info.nickname
+      user.name = auth.info.name
+      user.email = auth.info.email
     end
   end
 
