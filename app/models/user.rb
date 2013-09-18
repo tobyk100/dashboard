@@ -8,6 +8,9 @@ class User < ActiveRecord::Base
   attr_accessor :login
 
   has_many :user_levels
+  has_many :user_trophies
+  has_many :trophies, through: :user_trophies, source: :trophy
+
   has_many :followers
   has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id'
 
