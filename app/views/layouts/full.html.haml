@@ -14,8 +14,9 @@
         %td{ width: '33%', style: 'text-align:center' }
           - if @script && current_user
             - progress = current_user.progress(@script)
-            = link_to "#{progress['current']}/#{progress['max']}", script_user_stats_path(@script, current_user)
-
+            %a{ href: script_user_stats_path(@script, current_user) }
+              .progress-outer
+                .progress-inner{ style: "width:#{(100 * progress['current']/progress['max']).to_i}%" }
         %td{ width: '33%', style: 'text-align:right'}
           = render 'shared/user_menu'
 
