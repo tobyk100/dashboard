@@ -49,7 +49,7 @@ namespace :seed do
     ]
     sources.each do |source|
       script = Script.find_or_create_by_name(source[:name])
-        CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
+      CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
         puts "row #{index}: #{row.inspect}"
         level = Level.find_or_create_by_game_id_and_name_and_page_and_level_num(game.id, row[COL_NAME], row[COL_PAGE], row[COL_LEVEL])

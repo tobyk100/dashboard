@@ -1,4 +1,5 @@
 class ActivitiesController < ApplicationController
+  include LevelsHelper
   protect_from_forgery except: :milestone
   check_authorization except: [:milestone]
   load_and_authorize_resource except: [:milestone]
@@ -32,9 +33,9 @@ class ActivitiesController < ApplicationController
 
     # if they solved it, figure out next level
     if solved
-      next_level = ScriptLevel.find_by_script_id_and_chapter(script_level.script, script_level.chapter + 1)
+      next_level = script_level.next_level
       if next_level
-        render json: { redirect: script_level_path(script_level.script, next_level) }
+        render json: { redirect: script_level_url(next_level) }
       else
         render json: { message: 'no more levels'}
       end
