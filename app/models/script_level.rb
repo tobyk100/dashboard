@@ -5,5 +5,9 @@ class ScriptLevel < ActiveRecord::Base
   # this is
   attr_accessor :user_level
 
+  def next_level
+    ScriptLevel.find_by_script_id_and_chapter(self.script, self.chapter + 1)
+  end
+
   ScriptLevel::NEXT = 'next'
 end
