@@ -2,9 +2,27 @@
 
 - if @game.video? && @script_level
   %div{ style: "float:right;"}
-    = link_to "next level >>", next_level_url(@script_level)
-- level_url = @script_level ? build_tagged_url(@script_level, @current_user) : build_level_url(@level, @current_user)
-%iframe{ name: 'testname', src: level_url, width: "100%", height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
+    = link_to "next level >>", script_level_url(@script_level.next_level)
+  %iframe{ name: 'testname', src: @level.level_url, width: "100%", height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
+
+- if not @game.video?
+  - app = @game.name.downcase
+  -# Common scripts and styles
+  - blockly_path = "/blockly/dist/"
+  = stylesheet_link_tag blockly_path + "common.css"
+  = stylesheet_link_tag blockly_path + "#{app}/style.css"
+
+  = javascript_include_tag blockly_path + "_soy/soyutils.js"
+  = javascript_include_tag blockly_path + "#{app}/generated/en_us.js"
+
+  = javascript_include_tag blockly_path + "blockly_compressed.js"
+  = javascript_include_tag blockly_path + "javascript_compressed.js"
+  = javascript_include_tag blockly_path + "en_compressed.js"
+
+  = javascript_include_tag blockly_path + "#{app}/#{app}.js"
+  :javascript
+    #{app}Main();
+
 
 -##level_area
 -#
