@@ -41,7 +41,7 @@ class ActivitiesController < ApplicationController
     if solved
       next_level = script_level.next_level
       if next_level
-        render json: { redirect: script_level_url(next_level) }
+        render json: { redirect: script_level_path(next_level) }
       else
         render json: { message: 'no more levels'}
       end

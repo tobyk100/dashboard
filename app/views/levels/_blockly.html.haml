@@ -1,0 +1,15 @@
+-# Common scripts and styles
+- blockly_path = "/blockly/dist/"
+= stylesheet_link_tag blockly_path + "common.css"
+= stylesheet_link_tag blockly_path + "#{app}/style.css"
+
+= javascript_include_tag blockly_path + "_soy/soyutils.js"
+= javascript_include_tag blockly_path + "#{app}/generated/en_us.js"
+
+= javascript_include_tag blockly_path + "blockly_compressed.js"
+= javascript_include_tag blockly_path + "javascript_compressed.js"
+= javascript_include_tag blockly_path + "en_compressed.js"
+
+= javascript_include_tag blockly_path + "#{app}/#{app}.js"
+:javascript
+  #{app}Main();
