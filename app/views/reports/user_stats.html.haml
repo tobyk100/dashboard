@@ -6,5 +6,7 @@
   %h4= concept.name
   .progress-outer
     .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
-  = counts
+  - if counts[:trophy]
+    = counts[:trophy].trophy.name
+  <!-- #{counts} -->
   %br/

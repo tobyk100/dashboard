@@ -106,12 +106,14 @@ SQL
   def concept_progress
     # todo: cache everything but the user's progress
     user_levels_map = self.user_levels.includes([{level: :concepts}]).index_by(&:level_id)
+    user_trophy_map = self.user_trophies.includes(:trophy).index_by(&:concept_id)
     result = Hash.new{|h,k| h[k] = {obj: k, current: 0, max: 0}}
 
     Level.all.includes(:concepts).each do |level|
       level.concepts.each do |concept|
         result[concept][:current] += 1 if user_levels_map[level.id].try(:stars).to_i > 0
         result[concept][:max] += 1
+        result[concept][:trophy] ||= user_trophy_map[concept.id]
       end
     end
     result
