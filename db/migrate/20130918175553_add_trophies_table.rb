@@ -16,6 +16,8 @@ class AddTrophiesTable < ActiveRecord::Migration
     end
 
     add_index :trophies, :name, unique: true
-    add_index :user_trophies, [:user_id,:trophy_id], unique: true
+    add_index :user_trophies, [:user_id, :trophy_id, :concept_id], unique: true
+
+    Activity.connection.execute('alter table activities modify data varchar(8192)')
   end
 end

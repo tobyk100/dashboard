@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20130918175553) do
     t.integer  "user_id"
     t.integer  "level_id"
     t.string   "action"
-    t.string   "data"
+    t.string   "data",       limit: 8192
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -110,7 +110,7 @@ ActiveRecord::Schema.define(version: 20130918175553) do
     t.datetime "updated_at"
   end
 
-  add_index "user_trophies", ["user_id", "trophy_id"], name: "index_user_trophies_on_user_id_and_trophy_id", unique: true, using: :btree
+  add_index "user_trophies", ["user_id", "trophy_id", "concept_id"], name: "index_user_trophies_on_user_id_and_trophy_id_and_concept_id", unique: true, using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email",                            default: "", null: false
