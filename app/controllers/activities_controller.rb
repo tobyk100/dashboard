@@ -29,6 +29,12 @@ class ActivitiesController < ApplicationController
       #user_level.stars = [params[:stars], user_level.stars].max
       user_level.stars = [solved ? (rand(3) + 1) : 0, user_level.stars.to_i].max
       user_level.save!
+
+      begin
+        self.class.trophy_check(current_user)
+      rescue Exception => e
+        Rails.logger.error "Error updating trophy exception: #{e.inspect}"
+      end
     end
 
     # if they solved it, figure out next level
@@ -104,14 +110,46 @@ class ActivitiesController < ApplicationController
     end
   end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_activity
-      @activity = Activity.find(params[:id])
-    end
+  def self.trophy_check(user)
+    # called after a new activity is logged to assign any appropriate trophies
+    current_trophies = user.user_trophies.includes([:trophy, :concept]).index_by { |ut| ut.concept }
+    progress = user.concept_progress
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def activity_params
-      params[:activity]
+    progress.each_pair do |concept, counts|
+      current = current_trophies[concept]
+      pct = counts[:current].to_f/counts[:max]
+
+      new_trophy = case
+        when pct == 1
+          Trophy::GOLD
+        when pct >= 0.5
+          Trophy::SILVER
+        when pct >= 0.2
+          Trophy::BRONZE
+        else
+          # "no trophy earned"
+      end
+
+      if new_trophy
+        if new_trophy == current.try(:trophy_id)
+          # they already have the right trophy
+        elsif current
+          current.update_attributes!(trophy_id: new_trophy)
+        else
+          UserTrophy.create!(user: user, trophy_id: new_trophy, concept: concept)
+        end
+      end
     end
+  end
+
+  private
+  # Use callbacks to share common setup or constraints between actions.
+  def set_activity
+    @activity = Activity.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def activity_params
+    params[:activity]
+  end
 end

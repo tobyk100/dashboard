@@ -76,7 +76,7 @@ class User < ActiveRecord::Base
   end
 
   def levels_from_script(script)
-    ul_map = self.user_levels.includes({level: :game}).index_by(&:level_id)
+    ul_map = self.user_levels.includes({level: [:game, :concepts]}).index_by(&:level_id)
     script.script_levels.includes({ level: :game }, :script).order(:chapter).each do |sl|
       ul = ul_map[sl.level_id]
       sl.user_level = ul
@@ -101,5 +101,19 @@ from script_levels sl
 left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
 where sl.script_id = #{script.id}
 SQL
+  end
+
+  def concept_progress
+    # todo: cache everything but the user's progress
+    user_levels_map = self.user_levels.includes([{level: :concepts}]).index_by(&:level_id)
+    result = Hash.new{|h,k| h[k] = {obj: k, current: 0, max: 0}}
+
+    Level.all.includes(:concepts).each do |level|
+      level.concepts.each do |concept|
+        result[concept][:current] += 1 if user_levels_map[level.id].try(:stars).to_i > 0
+        result[concept][:max] += 1
+      end
+    end
+    result
   end
 end
