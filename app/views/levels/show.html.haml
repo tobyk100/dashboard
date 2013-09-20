@@ -2,7 +2,7 @@
 
 - if @game.video? && @script_level
   %div{ style: "float:right;"}
-    = link_to "text level >>", script_level_path(@script_level.next_level)
+    = link_to "text level >>", build_script_level_path(@script_level.next_level)
   %iframe{ name: 'testname', src: @level.level_url, width: "100%", height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 
 - if not @game.video?
