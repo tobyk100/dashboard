@@ -39,4 +39,4 @@
   - Script.all.map do |script|
     - script_level = script.script_levels.first
     - query_params = build_query_params(script_level, current_user)
-    = link_to(script.name, script_level_path(script_level))
+    = link_to(script.name, build_script_level_path(script_level))
