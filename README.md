@@ -9,7 +9,7 @@ Home for student and teacher dashboards
 vagrant up
 vagrant ssh
 cd /vagrant
-bin/rake db:create db:migrate
+bin/rake db:create db:migrate seed:all
 bin/rails server
 ```
 
