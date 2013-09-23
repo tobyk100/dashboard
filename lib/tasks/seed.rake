@@ -29,7 +29,6 @@ namespace :seed do
 
   COL_GAME = 'Game'
   COL_NAME = 'Name'
-  COL_PAGE = 'Page'
   COL_LEVEL = 'Level'
   COL_CONCEPTS = 'Concepts'
   COL_URL = 'Url'
@@ -52,7 +51,7 @@ namespace :seed do
       CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
         puts "row #{index}: #{row.inspect}"
-        level = Level.find_or_create_by_game_id_and_name_and_page_and_level_num(game.id, row[COL_NAME], row[COL_PAGE], row[COL_LEVEL])
+        level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[COL_NAME], row[COL_LEVEL])
         level.level_url ||= row[COL_URL]
 
         if level.concepts.empty?

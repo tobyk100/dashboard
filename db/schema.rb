@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130918175553) do
+ActiveRecord::Schema.define(version: 20130923191413) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -63,8 +63,7 @@ ActiveRecord::Schema.define(version: 20130918175553) do
     t.string   "level_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "level_num"
-    t.integer  "page"
+    t.string   "level_num"
     t.integer  "skin"
   end
 
