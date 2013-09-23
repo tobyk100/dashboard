@@ -6,25 +6,42 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    .container
-      .row.header
-        .span4
-          = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
+    .navbar.navbar-default.navbar-static-top.header
+      .container
+        .navbar-header
+          .row.header
+            .span4
+              = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-        .span4{ style: 'text-align:center'}
-          - if @script && current_user
-            - progress = current_user.progress(@script)
-            %a{ href: script_user_stats_path(@script, current_user) }
-              .progress-outer
-                .progress-inner{ style: "width:#{(100 * progress['current']/progress['max']).to_i}%" }
+            .span4{ style: 'text-align:center'}
+              - if @script && current_user
+                - progress = current_user.progress(@script)
+                %a{ href: script_user_stats_path(@script, current_user) }
+                  .progress-outer
+                    .progress-inner{ style: "width:#{(100 * progress['current']/progress['max']).to_i}%" }
 
-        .span4{ style: 'text-align: right; padding-top: 10px;' }
-          = render 'shared/user_menu'
+            .span4{ style: 'text-align: right; padding-top: 0px;' }
+              - if user_signed_in?
+                .user_menu
+                  = link_to raw("#{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+                  %div{ style: 'position:relative;top:3px;'}
+                    .user_options{style: 'display: none;color: black;position:absolute; right:0'}
+                      = link_to "Settings", edit_user_registration_path
+                      %br/
+                      = link_to "Log out", destroy_user_session_path, method: :delete
+              - else
+                = link_to "Sign up", new_user_registration_path
+                |
+                = link_to "Sign in", new_user_session_path
 
-      - if notice
-        %p#notice= notice
-      - if alert
-        %p#alert= alert
+    - if @full_width
+      = yield
+    - else
+      .container
+        - if notice
+          %p#notice= notice
+        - if alert
+          %p#alert= alert
 
-      .row
-        = yield
+        .row
+          = yield
