@@ -12,4 +12,31 @@
 
 = javascript_include_tag blockly_path + "#{app}/#{app}.js"
 :javascript
-  #{app}Main();
+  var sendReport = function(report) {
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onload = function() {
+      var response = JSON.parse(httpRequest.responseText);
+      var redirect = response['redirect'];
+      if (redirect) {
+        window.location.href = redirect;
+      }
+    };
+    httpRequest.open('POST', '#{@callback}');
+    httpRequest.setRequestHeader('Content-Type',
+        'application/x-www-form-urlencoded');
+    var query = [];
+    for (var key in report) {
+      query.push(key + '=' + report[key]);
+    }
+    query = query.join('&');
+    httpRequest.send(query);
+  };
+  var lastReport;
+  #{app}Main({
+    onAttempt: function(report) {
+      lastReport = report;
+    },
+    onContinue: function() {
+      sendReport(lastReport);
+    }
+  });

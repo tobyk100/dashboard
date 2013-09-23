@@ -15,6 +15,7 @@ class ScriptLevelsController < ApplicationController
     end
     @level = @script_level.level
     @game = @level.game
+    @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     render 'levels/show', layout: 'full'
   end
 end
