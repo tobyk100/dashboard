@@ -5,6 +5,8 @@ Home for student and teacher dashboards
 
 ## Development Quick Start
 
+The dashboard utilizes [blockly](https://github.com/code-dot-org/blockly) as a git [submodule](http://git-scm.com/book/en/Git-Tools-Submodules). As you work you may have to push to two repositories, this one and [blockly](https://github.com/code-dot-org/blockly).
+
 ### Local Development Server
 
 ```
