@@ -92,9 +92,15 @@ $header_text: white;
   //a:active {color:#0000FF;}  /* selected link */
 }
 
+.header_status_bar {
+  background-color: #5b6770;
+  border-radius: 5px;
+  width: 24px;
+  display: inline-block;
+}
+
 .user_menu a {
   vertical-align: bottom;
-  font-weight: bold;
 }
 
 .user_options {

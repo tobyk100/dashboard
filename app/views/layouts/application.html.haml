@@ -10,20 +10,31 @@
       .container
         .navbar-header
           .row.header
-            .span4
+            .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span4{ style: 'text-align:center'}
-              - if @script && current_user
-                - progress = current_user.progress(@script)
-                %a{ href: script_user_stats_path(@script, current_user) }
-                  .progress-outer
-                    .progress-inner{ style: "width:#{(100 * progress['current']/progress['max']).to_i}%" }
+            .span8{ style: 'text-align:center'}
+              - if current_user
+                - script = @script || Script.first
+                - progress = current_user.progress(script)
+                - pct = (100 * progress['current_levels']/progress['max_levels']).to_i
 
-            .span4{ style: 'text-align: right; padding-top: 0px;' }
+                %a{ href: script_user_stats_path(@script, current_user) }
+                  Stage #{5}: step
+                  %span.header_status_bar
+                    #{progress['current_levels']}
+                  of #{progress['max_levels']}
+                  %div.header_status_bar{ style: "text-align:left;padding-left:#{pct}px;padding-right:#{100-pct}px"}
+                    =raw "&#x25B2;"
+                  Trophies
+                  %span.header_status_bar #{progress['current_trophies']}
+                  of #{progress['max_trophies']}
+
+
+            .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?
                 .user_menu
-                  = link_to raw("#{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+                  = link_to raw("Hi #{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
                   %div{ style: 'position:relative;top:3px;'}
                     .user_options{style: 'display: none;color: black;position:absolute; right:0'}
                       = link_to "Settings", edit_user_registration_path
