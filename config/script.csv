@@ -1,81 +1,81 @@
 Game	Name	Level	Skin	Concepts	Instructions	Url		
 Video	Intro	1				http://www.youtube.com/embed/hSh5YerqFTA		https://drive.google.com/a/code.org/?tab=mo#folders/0By5WdmqrB1Ssb2c3amZHQV9hVHc
 Maze	Level1	2_1	mouse	sequence 1	A program is a sequence of statements. Stack a couple of 'move forward' blocks together to help me reach the goal.			
-Maze	Level2	2_2	mouse	sequence 1	What should I do to follow the path?			
-Maze	Level3	2_3	mouse	loop 1				
-Maze	Level4	2_4	mouse	loop 1				
+Maze	Level2	2_2	mouse	sequence 1	A program is a sequence of statements. Stack a couple of 'move forward' blocks together to help me reach the goal.			
+Maze	Level3	2_3	mouse	loop 1	What should I do to follow the path?			
+Maze	Level4	2_4	mouse	loop 1	What should I do to follow the path?			
 Video	Loops	2		loop 1		http://www.youtube.com/embed/oPFcYvEvhLY		
-Maze	Level5	2_5	mouse	conditional 1, loop 1				
-Maze	Level6	2_6	mouse	conditional 1, loop 1				
-Maze	Level7	2_7	mouse	conditional 1, loop 1				
-Maze	Level8	2_8	mouse	conditional 2, loop 1				
+Maze	Level5	2_5	mouse	conditional 1, loop 1	Try to reach the end of this path using only two blocks.			
+Maze	Level6	2_6	mouse	conditional 1, loop 1	Try to reach the end of this path using only three blocks.			
+Maze	Level7	2_7	mouse	conditional 1, loop 1	Try to reach the end of this path using only two repeat blocks.			
+Maze	Level8	2_8	mouse	conditional 2, loop 1	Try to reach the end of this path using only two repeat blocks.			
 Video	Loops	3		loop 1		http://www.youtube.com/embed/kp41877wkwM		
-Maze	Level9	2_9	mouse	conditional 2, loop 1				
-Maze	Level10	2_10	mouse	conditional 2, loop 2				
-Maze	Level11	2_11	mouse	sequence 1				
-Maze	Leve12	2_12	mouse	sequence 1				
+Maze	Level9	2_9	mouse	conditional 2, loop 1	Try to reach the end of this path using the new repeat block.			
+Maze	Level10	2_10	mouse	conditional 2, loop 2	Try to reach the end of this path using only three blocks.			
+Maze	Level11	2_11	mouse	sequence 1	Reach the goal using only five blocks.			
+Maze	Leve12	2_12	mouse	sequence 1	Reach the goal using only five blocks.			
 Video	Conditionals	4		conditional 1		http://www.youtube.com/embed/eFEyrCE0o5k		
-Maze	Level13	2_13	mouse	loop 1				
-Maze	Level14	2_14	mouse	loop 1				
-Maze	Level15	2_15	mouse	conditional 1, loop 1				
-Maze	Level16	2_16	mouse	conditional 1, loop 1				
+Maze	Level13	2_13	mouse	loop 1	I will have to turn left when I cannot go straight. Use an 'if' block to see if their is a path in another direction.			
+Maze	Level14	2_14	mouse	loop 1	I will have to turn right when I cannot go straight. Use an 'if' block to see if their is a path in another direction.			
+Maze	Level15	2_15	mouse	conditional 1, loop 1	An 'if' condition will do something only if the condition is true.  Try turning right if there is a path to the right.			
+Maze	Level16	2_16	mouse	conditional 1, loop 1	An 'if' condition will do something only if the condition is true.  Try turning right if there is a path to the right.			
 Video	Conditionals	5		conditional 2		http://www.youtube.com/embed/5mo2msToyqA		
-Maze	Level17	2_17	mouse	conditional 1, loop 1				
-Maze	Level18	2_18	mouse	conditional 2, loop 1				
+Maze	Level17	2_17	mouse	conditional 1, loop 1	If-else blocks will do one thing or the other.			
+Maze	Level18	2_18	mouse	conditional 2, loop 1	Use the 'if-else' block to help me get out of the maze!			
 Video	Other	6				http://www.youtube.com/embed/Pk-UuG8A494		
 Video	Intro	7				http://www.youtube.com/embed/HROq08xEdXw		
-Turtle	Level1	1_1		sequence 1				
-Turtle	Level2	1_2		sequence 1				
-Turtle	Level3	1_3		loop 1				
-Turtle	Level4	1_4		loop 1				
-Turtle	Level5	1_5		conditional 1, loop 1				
-Turtle	Level6	1_6		conditional 1, loop 1				
-Turtle	Level7	1_7		conditional 1, loop 1				
-Turtle	Level8	1_8		conditional 2, loop 1				
-Turtle	Level9	1_9		conditional 2, loop 1				
-Turtle	Level10	1_10		conditional 2, loop 2				
+Turtle	Level1	1_1		sequence 1	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.			
+Turtle	Level2	1_2		sequence 1	Draw a square, making each side a different color.			
+Turtle	Level3	1_3		loop 1	Make a square using only 3 blocks.  (Remember that blocks to set color are free.)			
+Turtle	Level4	1_4		loop 1	Draw a triangle whose sides are all 100 dots and are in random colors.  You'll have to figure out how far to turn.			
+Turtle	Level5	1_5		conditional 1, loop 1	Draw a triangle and then a square to draw an envelope.			
+Turtle	Level6	1_6		conditional 1, loop 1	Can you figure out how draw this triangle and square?			
+Turtle	Level7	1_7		conditional 1, loop 1	See if you can draw these green glasses.			
+Turtle	Level8	1_8		conditional 2, loop 1	After trying out these blocks, see what happens if you make them repeat 8 times.  It should look a little different every time you run it.			
+Turtle	Level9	1_9		conditional 2, loop 1	Figure out what number to replace the question marks with to draw a circle.			
+Turtle	Level10	1_10		conditional 2, loop 2	Draw anything you want. Some ideas are a stick figure, snowflake, or spiral.  You could also try out the new &quot;set width&quot; block.  Have fun!			
 Video	Intro	8				http://www.youtube.com/embed/HROq08xEdXw		
-Karel	Level1	1_1		sequence 1				
-Karel	Level2	1_2		sequence 1				
+Karel	Level1	1_1	farmer	sequence 1				
+Karel	Level2	1_2	farmer	sequence 1				
 Video	Loops	9				http://www.youtube.com/embed/HROq08xEdXw		
-Karel	Level3	1_3		loop 1				
-Karel	Level4	1_4		loop 1				
-Karel	Level5	1_5		conditional 1, loop 1				
-Karel	Level6	1_6		conditional 1, loop 1				
-Karel	Level7	1_7		conditional 1, loop 1				
-Karel	Level8	1_8		conditional 2, loop 1				
-Karel	Level9	1_9		conditional 2, loop 1				
-Karel	Level10	1_10		conditional 2, loop 2				
+Karel	Level3	1_3	farmer	loop 1				
+Karel	Level4	1_4	farmer	loop 1				
+Karel	Level5	1_5	farmer	conditional 1, loop 1				
+Karel	Level6	1_6	farmer	conditional 1, loop 1				
+Karel	Level7	1_7	farmer	conditional 1, loop 1				
+Karel	Level8	1_8	farmer	conditional 2, loop 1				
+Karel	Level9	1_9	farmer	conditional 2, loop 1				
+Karel	Level10	1_10	farmer	conditional 2, loop 2				
 Video	Intro	10				http://www.youtube.com/embed/HROq08xEdXw		
-Turtle	Level1	2_1		sequence 1				
-Turtle	Level2	2_2		function 1				
+Turtle	Level1	2_1		sequence 1	Find the familiar blocks in the new categories to draw a square in your favorite color.			
+Turtle	Level2	2_2		function 1	Use the new &quot;draw a square&quot; block, found in the &quot;Functions&quot; category, to draw a small green square.			
 Video	Loops	11				http://www.youtube.com/embed/HROq08xEdXw		
-Turtle	Level3	2_3		loop 1, function 1				
-Turtle	Level4	2_4		loop 1, function 1				
-Turtle	Level5	2_5		function 1				
-Turtle	Level6	2_6		loop 3, function 1, variable 1				
-Turtle	Level7	2_7		loop 3, function 1, variable 1				
-Turtle	Level8	2_8		function 1				
-Turtle	Level9	2_9		loop 3, function 1, variable 1				
-Turtle	Level10	2_10		sequence 1				
-Karel	Level1	2_1		sequence 1				
+Turtle	Level3	2_3		loop 1, function 1	Use the &quot;repeat&quot; block to draw 3 squares of size 100, each 120 degrees apart, in random colors.			
+Turtle	Level4	2_4		loop 1, function 1	Now change the code to draw 36 squares, each 10 degrees apart.			
+Turtle	Level5	2_5		function 1	Draw squares with sides of 50, 60, 70, 80, and 90 dots.  You'll need lots of blocks.			
+Turtle	Level6	2_6		loop 3, function 1, variable 1	Modify this program with the &quot;counter&quot; block (found in the Variables category) to draw the same series of squares with fewer blocks than on the previous level.			
+Turtle	Level7	2_7		loop 3, function 1, variable 1	Replace the pale (disabled) blocks with a &quot;count with&quot; block (in the Loops category) and &quot;counter&quot; block (in the Variables category) to draw the same spiral.			
+Turtle	Level8	2_8		function 1	Draw three snowmen 150 dots tall in different colors, 100 dots apart.  Use the new &quot;draw a snowman&quot; function and &quot;jump forward&quot; block.			
+Turtle	Level9	2_9		loop 3, function 1, variable 1	Use a &quot;count with&quot; loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70 dots, each 60 dots apart.			
+Turtle	Level10	2_10		sequence 1	Draw whatever you want.  One idea is experimenting with different types of spirals.  What happens if you change the turn amount, rather than the move amount?			
+Karel	Level1	2_1	farmer	sequence 1				
 Video	Functions	12				http://www.youtube.com/embed/HROq08xEdXw		
-Karel	Level2	2_2		function 1				
-Karel	Level3	2_3		loop 2, function 1				
-Karel	Level4	2_4		loop 1, function 2				
-Karel	Level5	2_5		loop 2, function 2				
-Karel	Level6	2_6		loop 2, function 2				
-Karel	Level7	2_7		function 2				
-Karel	Level8	2_8		function 1, loop 1				
-Karel	Level9	2_9		conditional 2, function 1, loop 2				
-Turtle	Level1	3_1		function 1				
-Turtle	Level2	3_2		function 2				
-Turtle	Level3	3_3		function 1				
-Turtle	Level4	3_4		function 1				
-Turtle	Level5	3_5		function 2				
+Karel	Level2	2_2	farmer	function 1				
+Karel	Level3	2_3	farmer	loop 2, function 1				
+Karel	Level4	2_4	farmer	loop 1, function 2				
+Karel	Level5	2_5	farmer	loop 2, function 2				
+Karel	Level6	2_6	farmer	loop 2, function 2				
+Karel	Level7	2_7	farmer	function 2				
+Karel	Level8	2_8	farmer	function 1, loop 1				
+Karel	Level9	2_9	farmer	conditional 2, function 1, loop 2				
+Turtle	Level1	3_1		function 1	You can now see how the &quot;draw a square&quot; and &quot;draw a circle&quot; functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the &quot;draw a square&quot; block to actually draw a square			
+Turtle	Level2	3_2		function 2	Using the &quot;draw a square&quot; function as an example, create a &quot;draw a triangle&quot; function and use it.			
+Turtle	Level3	3_3		function 1	Draw triangular fences around the cats and a square fence around the cow.  Tip: Test the program as you go along.			
+Turtle	Level4	3_4		function 1	See if you can figure out how to use &quot;draw a square&quot; and &quot;draw a triangle&quot; (and some other blocks) to draw a house around the lion.			
+Turtle	Level5	3_5		function 2	Now create a &quot;draw a house&quot; function and use it house two cats.			
 Video	Functions	13				http://www.youtube.com/embed/HROq08xEdXw		
-Turtle	Level6	3_6		function 2				
-Turtle	Level7	3_7		function 3				
-Turtle	Level8	3_8		function 3				
-Turtle	Level9	3_9		function 1, loop 3				
-Turtle	Level10	3_10		conditional 2, loop 2				
+Turtle	Level6	3_6		function 2	Using &quot;draw a square&quot; as an example, add an input named &quot;length&quot; to &quot;draw a triangle&quot;.  Then, draw triangles in different colors around the animals."			
+Turtle	Level7	3_7		function 3	Add a &quot;height&quot; input to &quot;draw a house&quot; and build a big house for the elephant.			
+Turtle	Level8	3_8		function 3	Here are all of the blocks from the previous level.  Modify &quot;draw a house&quot; so the turtle ends up at the bottom right corner of the new house.  Use this modified function to house all the animals.			
+Turtle	Level9	3_9		function 1, loop 3	You now know how to control the turtle, use loops (&quot;repeat&quot; and &quot;count from&quot;), and write and use functions.  Congratulations on becoming a programmer!			
+Turtle	Level10	3_10		conditional 2, loop 2	You're now free to do whatever you want.  One idea is to try running this program with different turn amounts (higher or lower than 90).  Other ideas are to draw a star, circle, heart, or animal.			
