@@ -1,27 +1,27 @@
 Game	Name	Level	Skin	Concepts	Instructions	Url		
 Video	Intro	1				http://www.youtube.com/embed/hSh5YerqFTA		https://drive.google.com/a/code.org/?tab=mo#folders/0By5WdmqrB1Ssb2c3amZHQV9hVHc
-Maze	Level1	1_1	mouse	sequence 1	A program is a sequence of statements. Stack a couple of 'move forward' blocks together to help me reach the goal.			
-Maze	Level2	1_2	mouse	sequence 1	What should I do to follow the path?			
-Maze	Level3	1_3	mouse	loop 1				
-Maze	Level4	1_4	mouse	loop 1				
+Maze	Level1	2_1	mouse	sequence 1	A program is a sequence of statements. Stack a couple of 'move forward' blocks together to help me reach the goal.			
+Maze	Level2	2_2	mouse	sequence 1	What should I do to follow the path?			
+Maze	Level3	2_3	mouse	loop 1				
+Maze	Level4	2_4	mouse	loop 1				
 Video	Loops	2		loop 1		http://www.youtube.com/embed/oPFcYvEvhLY		
-Maze	Level5	1_5	mouse	conditional 1, loop 1				
-Maze	Level6	1_6	mouse	conditional 1, loop 1				
-Maze	Level7	1_7	mouse	conditional 1, loop 1				
-Maze	Level8	1_8	mouse	conditional 2, loop 1				
+Maze	Level5	2_5	mouse	conditional 1, loop 1				
+Maze	Level6	2_6	mouse	conditional 1, loop 1				
+Maze	Level7	2_7	mouse	conditional 1, loop 1				
+Maze	Level8	2_8	mouse	conditional 2, loop 1				
 Video	Loops	3		loop 1		http://www.youtube.com/embed/kp41877wkwM		
-Maze	Level9	1_9	mouse	conditional 2, loop 1				
-Maze	Level10	1_10	mouse	conditional 2, loop 2				
-Maze	Level11	1_11	mouse	sequence 1				
-Maze	Leve12	1_12	mouse	sequence 1				
+Maze	Level9	2_9	mouse	conditional 2, loop 1				
+Maze	Level10	2_10	mouse	conditional 2, loop 2				
+Maze	Level11	2_11	mouse	sequence 1				
+Maze	Leve12	2_12	mouse	sequence 1				
 Video	Conditionals	4		conditional 1		http://www.youtube.com/embed/eFEyrCE0o5k		
-Maze	Level13	1_13	mouse	loop 1				
-Maze	Level14	1_14	mouse	loop 1				
-Maze	Level15	1_15	mouse	conditional 1, loop 1				
-Maze	Level16	1_16	mouse	conditional 1, loop 1				
+Maze	Level13	2_13	mouse	loop 1				
+Maze	Level14	2_14	mouse	loop 1				
+Maze	Level15	2_15	mouse	conditional 1, loop 1				
+Maze	Level16	2_16	mouse	conditional 1, loop 1				
 Video	Conditionals	5		conditional 2		http://www.youtube.com/embed/5mo2msToyqA		
-Maze	Level17	1_17	mouse	conditional 1, loop 1				
-Maze	Level18	1_18	mouse	conditional 2, loop 1				
+Maze	Level17	2_17	mouse	conditional 1, loop 1				
+Maze	Level18	2_18	mouse	conditional 2, loop 1				
 Video	Other	6				http://www.youtube.com/embed/Pk-UuG8A494		
 Video	Intro	7				http://www.youtube.com/embed/HROq08xEdXw		
 Turtle	Level1	1_1		sequence 1				
