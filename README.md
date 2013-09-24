@@ -12,9 +12,17 @@ The dashboard utilizes [blockly](https://github.com/code-dot-org/blockly) as a g
 ```
 git clone --recursive https://github.com/code-dot-org/dashboard.git
 cd dashboard
+bundle
+rake db:create db:migrate seed:all
+cd public/blockly
+grunt
+grunt dev
+cd ../..
 rails s[erver]
 open http://localhost:8000
 ```
+
+- We are running two servers, a rails server and a grunt server. The grunt server watches the file system and recompiles Blockly if any source files change.
 
 ### Vagrant VM
 
