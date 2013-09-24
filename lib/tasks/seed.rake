@@ -30,6 +30,7 @@ namespace :seed do
   COL_GAME = 'Game'
   COL_NAME = 'Name'
   COL_LEVEL = 'Level'
+  COL_INSTRUCTIONS = 'Instructions'
   COL_CONCEPTS = 'Concepts'
   COL_URL = 'Url'
 
@@ -53,6 +54,7 @@ namespace :seed do
         puts "row #{index}: #{row.inspect}"
         level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[COL_NAME], row[COL_LEVEL])
         level.level_url ||= row[COL_URL]
+        level.instructions ||= row[COL_INSTRUCTIONS]
 
         if level.concepts.empty?
           if row[COL_CONCEPTS]
