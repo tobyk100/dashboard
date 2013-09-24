@@ -5,6 +5,19 @@ Home for student and teacher dashboards
 
 ## Development Quick Start
 
+### Local Development Server
+
+```
+git clone --recursive https://github.com/code-dot-org/dashboard.git
+cd dashboard
+rails s[erver]
+open http://localhost:8000
+```
+
+### Vagrant VM
+
+This setup mirrors the actual production environment.
+
 ```shell
 vagrant up
 vagrant ssh
