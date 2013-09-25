@@ -64,9 +64,10 @@ SELECT
       @user.errors.add(:username, "#{@user.username} is already taken, please pick another")
     else
       @user.provider = 'manual'
-      @user.save!
-      Follower.find_or_create_by_user_id_and_student_user_id!(current_user.id, @user.id)
-      redirect_to followers_path, notice: "#{@user.name} added as your student"
+      if @user.save
+        Follower.find_or_create_by_user_id_and_student_user_id!(current_user.id, @user.id)
+        redirect_to followers_path, notice: "#{@user.name} added as your student"
+      end
     end
   end
 
