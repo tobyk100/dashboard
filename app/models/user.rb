@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
   has_many :students, through: :followers, source: :student_user
   has_many :teachers, through: :followeds, source: :user
 
-  validates_format_of :email, with: Devise::email_regexp, on: :create
+  validates_format_of :email, with: Devise::email_regexp, allow_blank: true, on: :create
   #validates_length_of :first_name, maximum: 35
   #validates_length_of :last_name, maximum: 35
   validates_length_of :name, maximum: 70
