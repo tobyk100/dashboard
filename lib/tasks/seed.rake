@@ -23,7 +23,6 @@ namespace :seed do
 
     Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html')
     Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html')
-    Game.create!(name: 'Karel', base_url: '/blockly/static/karel/maze.html')
     Game.create!(name: 'Video')
   end
 
