@@ -1,7 +1,9 @@
 module LevelsHelper
   def build_query_params(script_level, user)
     level = script_level.level
-    {"level" => level.level_num || "1_1"}
+    skin = script_level.level.skin
+    {"level" => level.level_num || "1_1",
+     "skin" => skin}
   end
 
   def build_script_level_path(script_level)

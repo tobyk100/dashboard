@@ -21,7 +21,7 @@ namespace :seed do
   task games: :environment do
     Concept.connection.execute('truncate table games')
 
-    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html?mode=2&skin=3')
+    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html')
     Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html')
     Game.create!(name: 'Karel', base_url: '/blockly/static/karel/maze.html')
     Game.create!(name: 'Video')
@@ -33,6 +33,7 @@ namespace :seed do
   COL_INSTRUCTIONS = 'Instructions'
   COL_CONCEPTS = 'Concepts'
   COL_URL = 'Url'
+  COL_SKIN = 'Skin'
 
   task scripts: :environment do
     c = Script.connection
@@ -55,6 +56,7 @@ namespace :seed do
         level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[COL_NAME], row[COL_LEVEL])
         level.level_url ||= row[COL_URL]
         level.instructions ||= row[COL_INSTRUCTIONS]
+        level.skin ||= row[COL_SKIN]
 
         if level.concepts.empty?
           if row[COL_CONCEPTS]
