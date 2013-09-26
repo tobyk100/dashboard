@@ -30,6 +30,10 @@
   - if current_user.admin?
     %h3 Admin
     = link_to "Games", games_path
+    %br/
+    = link_to "Concepts", concepts_path
+    %br/
+    = link_to "Videos", videos_path
 
 - else
   = link_to "Sign up", new_user_registration_path

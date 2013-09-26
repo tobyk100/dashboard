@@ -8,6 +8,7 @@
 %p
   %strong Youtube Code:
   = @video.youtube_code
-= link_to 'Edit', edit_video_path(@video)
+- if can? :update, @video
+  = link_to 'Edit', edit_video_path(@video)
 |
 \#{link_to 'Back', videos_path}
