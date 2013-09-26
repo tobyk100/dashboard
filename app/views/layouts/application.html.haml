@@ -13,7 +13,7 @@
             .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8{ style: 'text-align:center'}
+            .span8{ style: 'text-align:center;height:85px;position:relative;font-size: 150%;'}
               - if current_user
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
