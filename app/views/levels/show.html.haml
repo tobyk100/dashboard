@@ -6,10 +6,9 @@
   %iframe{ name: 'testname', src: @level.level_url, width: "100%", height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
 
 - if not @game.video?
-  - app = @game.name.downcase
+  - app = @game.app
   = render partial: "levels/blockly", locals: { app: app }
 
 - if can? :edit, @level
   %br/
   = link_to '(edit)', edit_game_level_path(@game, @level)
-

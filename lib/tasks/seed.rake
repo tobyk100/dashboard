@@ -21,9 +21,9 @@ namespace :seed do
   task games: :environment do
     Concept.connection.execute('truncate table games')
 
-    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html')
-    Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html')
-    Game.create!(name: 'Karel', base_url: '/blockly/static/maze/index.html')
+    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html', app: 'maze')
+    Game.create!(name: 'Turtle', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
+    Game.create!(name: 'Karel', base_url: '/blockly/static/maze/index.html', app: 'maze')
     Game.create!(name: 'Video')
   end
 
