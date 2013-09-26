@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130926002241) do
+ActiveRecord::Schema.define(version: 20130926175258) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
     t.integer  "level_id"
     t.string   "action"
-    t.string   "data",       limit: 8192
+    t.string   "data",        limit: 8192
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "stars"
     t.integer  "attempt"
     t.integer  "time"
+    t.integer  "test_result"
   end
 
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree
@@ -93,12 +93,12 @@ ActiveRecord::Schema.define(version: 20130926002241) do
   add_index "trophies", ["name"], name: "index_trophies_on_name", unique: true, using: :btree
 
   create_table "user_levels", force: true do |t|
-    t.integer  "user_id",                null: false
-    t.integer  "level_id",               null: false
-    t.integer  "attempts",   default: 0, null: false
-    t.integer  "stars",      default: 0, null: false
+    t.integer  "user_id",                 null: false
+    t.integer  "level_id",                null: false
+    t.integer  "attempts",    default: 0, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "best_result"
   end
 
   add_index "user_levels", ["user_id", "level_id"], name: "index_user_levels_on_user_id_and_level_id", unique: true, using: :btree

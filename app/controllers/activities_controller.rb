@@ -8,6 +8,7 @@ class ActivitiesController < ApplicationController
 
   def milestone
     solved = 'true' == params[:result]
+    test_result = params[:testResult].to_i
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
 
@@ -19,15 +20,16 @@ class ActivitiesController < ApplicationController
           user: current_user,
           level: level,
           action: solved,
+          test_result: test_result,
           attempt: params[:attempt].to_i,
           time: params[:time].to_i,
           data: params[:program])
 
       user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user.id, level.id)
       user_level.attempts += 1
-      # stars not passed yet, so faking it
-      #user_level.stars = [params[:stars], user_level.stars].max
-      user_level.stars = [solved ? (rand(3) + 1) : 0, user_level.stars.to_i].max
+      user_level.best_result = user_level.best_result ?
+          [test_result, user_level.best_result].max :
+          test_result
       user_level.save!
 
       begin
