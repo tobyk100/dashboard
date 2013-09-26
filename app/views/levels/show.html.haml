@@ -9,11 +9,20 @@
   - app = @game.app
   = render partial: "levels/blockly", locals: { app: app }
 
-- if can? :edit, @level
-  %br/
-  = link_to '(edit)', edit_game_level_path(@game, @level)
 - if @videos && !@videos.empty?
   %h4 Related help videos
   - @videos.each do |video|
-    = link_to video.name, "http://www.youtube.com/embed/#{video.youtube_code}?modestbranding=1&rel=0"
+    = link_to video.name, "#video_player", 'data-toggle' => "modal", onclick: "$('#video_iframe')[0].src = 'http://www.youtube.com/embed/#{video.youtube_code}?modestbranding=1&rel=0&fs=1&showinfo=1'; return false;"
     %br/
+- if can? :edit, @level
+  %br/
+  = link_to '(edit)', edit_game_level_path(@game, @level)
+
+.modal.fade#video_player
+  .modal-header
+    %a.close{'data-dismiss' => "modal"} Close
+    %h3 Modal Header
+  .modal-body
+    %iframe#video_iframe{ name: 'testname', width: "100%", height: 300, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
+  -#.modal-footer
+  -#  %a.close{'data-dismiss' => "modal"} Close

@@ -16,3 +16,14 @@
 //= require_tree .
 // Loads all Bootstrap javascripts
 //= require bootstrap
+
+$(document).on("click", ".open-ShowPwdDialogUser", function () {
+    var pwd="";
+
+    $.get("@Url.Action("GeneratePsw", "Admin")",function(data){
+        pwd=data;
+
+        $(".modal-body #pwdUser").val(pwd);
+        $('#1').modal('show');
+    });
+});
