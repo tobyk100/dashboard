@@ -1,4 +1,6 @@
 Dashboard::Application.routes.draw do
+  resources :videos
+
   resources :concepts
 
   devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}

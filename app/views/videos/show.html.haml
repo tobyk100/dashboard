@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @video.name
+%p
+  %strong Key:
+  = @video.key
+%p
+  %strong Youtube Code:
+  = @video.youtube_code
+= link_to 'Edit', edit_video_path(@video)
+|
+\#{link_to 'Back', videos_path}

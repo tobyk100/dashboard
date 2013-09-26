@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130926002241) do
+ActiveRecord::Schema.define(version: 20130926160659) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20130926002241) do
     t.string   "description", limit: 1024
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "video_id"
   end
 
   create_table "concepts_levels", force: true do |t|
@@ -56,6 +57,7 @@ ActiveRecord::Schema.define(version: 20130926002241) do
     t.datetime "updated_at"
     t.string   "base_url"
     t.string   "app"
+    t.integer  "intro_video_id"
   end
 
   create_table "levels", force: true do |t|
@@ -81,6 +83,7 @@ ActiveRecord::Schema.define(version: 20130926002241) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "wrapup_video_id"
   end
 
   create_table "trophies", force: true do |t|
@@ -140,5 +143,13 @@ ActiveRecord::Schema.define(version: 20130926002241) do
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   add_index "users", ["username"], name: "index_users_on_username", unique: true, using: :btree
+
+  create_table "videos", force: true do |t|
+    t.string   "name"
+    t.string   "key"
+    t.string   "youtube_code"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

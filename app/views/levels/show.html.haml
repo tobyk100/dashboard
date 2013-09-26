@@ -12,3 +12,8 @@
 - if can? :edit, @level
   %br/
   = link_to '(edit)', edit_game_level_path(@game, @level)
+- if @videos && !@videos.empty?
+  %h4 Related help videos
+  - @videos.each do |video|
+    = link_to video.name, "http://www.youtube.com/embed/#{video.youtube_code}?modestbranding=1&rel=0"
+    %br/
