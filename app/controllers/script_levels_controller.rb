@@ -8,7 +8,7 @@ class ScriptLevelsController < ApplicationController
 
     @script = Script.find(params[:script_id])
     if params[:id] == ScriptLevel::NEXT
-      redirect_to script_level_path(@script, current_user ? current_user.next_untried_level(@script) : @script.script_levels.first)
+      redirect_to view_context.build_script_level_path(current_user ? current_user.next_untried_level(@script) : @script.script_levels.first)
       return
     else
       @script_level = ScriptLevel.find(params[:id], include: {level: :game})
