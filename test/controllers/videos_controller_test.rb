@@ -1,8 +1,12 @@
 require 'test_helper'
 
 class VideosControllerTest < ActionController::TestCase
+  include Devise::TestHelpers
+
   setup do
-    @video = videos(:one)
+    @video = create(:video)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do
@@ -18,7 +22,7 @@ class VideosControllerTest < ActionController::TestCase
 
   test "should create video" do
     assert_difference('Video.count') do
-      post :create, video: { code: @video.code, name: @video.name, url: @video.url }
+      post :create, video: { key: @video.key, name: @video.name, youtube_code: @video.youtube_code }
     end
 
     assert_redirected_to video_path(assigns(:video))
@@ -35,7 +39,7 @@ class VideosControllerTest < ActionController::TestCase
   end
 
   test "should update video" do
-    patch :update, id: @video, video: { code: @video.code, name: @video.name, url: @video.url }
+    patch :update, id: @video, video: { key: @video.key, name: @video.name, youtube_code: @video.youtube_code }
     assert_redirected_to video_path(assigns(:video))
   end
 

@@ -1,11 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  code: MyString
-  url: MyString
-
-two:
-  name: MyString
-  code: MyString
-  url: MyString
+  name: Intro video
+  key: intro_video
+  youtube_code: skjlkj32

@@ -17,7 +17,7 @@
               - if current_user
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
-                - pct = (100 * progress['current_levels']/progress['max_levels']).to_i
+                - pct = (progress['max_levels'] > 0) ? (100 * progress['current_levels']/progress['max_levels']).to_i : 0
 
                 %a{ href: script_user_stats_path(@script, current_user) }
                   Stage #{5}: step

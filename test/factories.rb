@@ -32,4 +32,10 @@ FactoryGirl.define do
     sequence(:name) { |n| "Algorithm #{n}" }
     description 'Bogus text'
   end
+
+  factory :video do
+    sequence(:name) { |n| "Intro to Concept#{n}" }
+    key { "#{name.underscore}" }
+    youtube_code 'Bogus text'
+  end
 end
