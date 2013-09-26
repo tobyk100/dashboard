@@ -97,7 +97,7 @@ SQL
   def progress(script)
     self.connection.select_one(<<SQL)
 select
-  count(case when ul.best_result >= 10 then 1 else null end) as current_levels,
+  count(case when ul.best_result >= Activity::MINIMUM_PASS_RESULT then 1 else null end) as current_levels,
   count(*) as max_levels,
   (select count(*) from user_trophies where user_id = #{self.id}) as current_trophies,
   (select count(*) from concepts) as max_trophies
