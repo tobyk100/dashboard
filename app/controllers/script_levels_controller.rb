@@ -15,6 +15,14 @@ class ScriptLevelsController < ApplicationController
     end
     @level = @script_level.level
     @game = @level.game
+
+    @videos = []
+    @videos << @game.intro_video if @game.intro_video
+    #@videos << @script.wrapup_video if @script.wrapup_video
+    @level.concepts.each do |concept|
+      @videos << concept.video if concept.video
+    end
+
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
     render 'levels/show'
