@@ -23,6 +23,9 @@ class ScriptLevelsController < ApplicationController
       @videos << concept.video if concept.video
     end
 
+    # todo: make this based on which videos the user/session has already seen
+    @autoplay_video = @videos.last
+
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
     render 'levels/show'
