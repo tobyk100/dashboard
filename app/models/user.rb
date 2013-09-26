@@ -88,7 +88,7 @@ class User < ActiveRecord::Base
 select sl.*
 from script_levels sl
 left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
-    where sl.script_id = #{script.id} and (ul.best_result is null or ul.best_result < Activity::MINIMUM_PASS_RESULT)
+    where sl.script_id = #{script.id} and (ul.best_result is null or ul.best_result < #{Activity::MINIMUM_PASS_RESULT})
 order by sl.chapter
 limit 1
 SQL
@@ -97,7 +97,7 @@ SQL
   def progress(script)
     self.connection.select_one(<<SQL)
 select
-  count(case when ul.best_result >= Activity::MINIMUM_PASS_RESULT then 1 else null end) as current_levels,
+    count(case when ul.best_result >= #{Activity::MINIMUM_PASS_RESULT} then 1 else null end) as current_levels,
   count(*) as max_levels,
   (select count(*) from user_trophies where user_id = #{self.id}) as current_trophies,
   (select count(*) from concepts) as max_trophies
@@ -115,7 +115,7 @@ SQL
 
     Level.all.includes(:concepts).each do |level|
       level.concepts.each do |concept|
-        result[concept][:current] += 1 if user_levels_map[level.id].try(:best_result).to_i >= Activity::MINIMUM_PASS_RESULT
+        result[concept][:current] += 1 if user_levels_map[level.id].try(:best_result).to_i >= #{Activity::MINIMUM_PASS_RESULT}
         result[concept][:max] += 1
         result[concept][:trophy] ||= user_trophy_map[concept.id]
       end
