@@ -21,8 +21,9 @@ function build_youtube_url(youtube_code) {
     return 'http://www.youtube.com/embed/' + youtube_code + '?modestbranding=1&rel=0&fs=1&showinfo=1'
 }
 
-function initialize_video_popup(youtube_code) {
+function initialize_video_popup(youtube_code,name) {
     $('#video_iframe')[0].src = build_youtube_url(youtube_code);
+    $('#video_title').text(name);
     $('#video_player').modal('show');
     return false;
 }
