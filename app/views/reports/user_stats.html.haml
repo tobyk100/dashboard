@@ -7,6 +7,6 @@
   .progress-outer
     .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
   - if counts[:trophy]
-    = counts[:trophy].trophy.name
+    = image_tag counts[:trophy].trophy.image_name
   <!-- #{counts} -->
   %br/

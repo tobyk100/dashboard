@@ -82,9 +82,9 @@ namespace :seed do
 
   task trophies: :environment do
     Trophy.connection.execute('truncate table trophies')
-    Trophy.create!(name: 'Bronze', image_name: 'bronze')
-    Trophy.create!(name: 'Silver', image_name: 'silver')
-    Trophy.create!(name: 'Gold', image_name: 'gold')
+    Trophy.create!(name: 'Bronze', image_name: 'bronzetrophy.png')
+    Trophy.create!(name: 'Silver', image_name: 'silvertrophy.png')
+    Trophy.create!(name: 'Gold', image_name: 'goldtrophy.png')
   end
 
   task all: [:videos, :concepts, :games, :scripts, :trophies]
