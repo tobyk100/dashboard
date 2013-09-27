@@ -12,7 +12,10 @@
 - if @videos && !@videos.empty?
   %h4 Related help videos
   - @videos.each do |video|
-    = link_to video.name, "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
+    - if mobile?
+      = link_to video.name, " https://www.youtube.com/watch?v=#{video.youtube_code}"
+    - else
+      = link_to video.name, "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
     %br/
 - if can? :edit, @level
   %br/
@@ -28,6 +31,6 @@
   -#  %a.close{'data-dismiss' => "modal"} Close
 
 
-- if @autoplay_video
+- if @autoplay_video && !mobile?
   :javascript
     initialize_video_popup('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}');
