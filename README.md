@@ -9,11 +9,11 @@ The dashboard utilizes [blockly](https://github.com/code-dot-org/blockly) as a g
 
 ### Local Development Server
 
-```
+```shell
 git clone --recursive https://github.com/code-dot-org/dashboard.git
 cd dashboard
 bundle
-rake db:create db:migrate seed:all
+rake db:create db:migrate seed:all blockly:latest
 cd public/blockly
 grunt
 grunt dev
@@ -37,3 +37,15 @@ bin/rails server
 ```
 
 Then navigate to `http://192.168.60.10:3000/`.
+
+### Developing on Blockly Mooc
+
+First, checkout and build blockly-mooc. See [its readme][1] for instructions.
+
+Then configure the dashboard to use your development version:
+
+```shell
+rake blockly:dev['/path/to/blockly-mooc']
+```
+
+[1]: https://github.com/code-dot-org/blockly/blob/master/README.md
