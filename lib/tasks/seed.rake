@@ -11,14 +11,14 @@ namespace :seed do
 
   task concepts: :environment do
     Concept.connection.execute('truncate table concepts')
-    Concept.create!(name: 'if', description: 'Use if statement to run code conditionally', video: Video.find_by_key('if'))
-    Concept.create!(name: 'if_else', description: 'Use if-else structure', video: Video.find_by_key('if_else'))
-    Concept.create!(name: 'loop_times', description: 'Use loop to repeat a block of code a fixed number of times', video: Video.find_by_key('loop_times'))
-    Concept.create!(name: 'loop_until', description: 'Use loop to repeat until a condition is met', video: Video.find_by_key('loop_until'))
-    Concept.create!(name: 'loop_while', description: 'Use loop to repeat until a condition isn''t met', video: Video.find_by_key('loop_while'))
-    Concept.create!(name: 'loop_for', description: 'Use for loop to repeat code with counter variable', video: Video.find_by_key('loop_for'))
-    Concept.create!(name: 'function', description: 'Use of sub-routines', video: Video.find_by_key('function'))
-    Concept.create!(name: 'parameters', description: 'Use of sub-routines with parameters', video: Video.find_by_key('parameters'))
+    Concept.create!(name: 'if', description: 'If block', video: Video.find_by_key('if'))
+    Concept.create!(name: 'if_else', description: 'If-else block', video: Video.find_by_key('if_else'))
+    Concept.create!(name: 'loop_times', description: 'Repeat times block', video: Video.find_by_key('loop_times'))
+    Concept.create!(name: 'loop_until', description: 'Repeat until block', video: Video.find_by_key('loop_until'))
+    Concept.create!(name: 'loop_while', description: 'While block', video: Video.find_by_key('loop_while'))
+    Concept.create!(name: 'loop_for', description: 'Counter block', video: Video.find_by_key('loop_for'))
+    Concept.create!(name: 'function', description: 'Functions', video: Video.find_by_key('function'))
+    Concept.create!(name: 'parameters', description: 'Functions with parameters', video: Video.find_by_key('parameters'))
   end
 
   task games: :environment do
@@ -85,6 +85,18 @@ namespace :seed do
     Trophy.create!(name: 'Bronze', image_name: 'bronzetrophy.png')
     Trophy.create!(name: 'Silver', image_name: 'silvertrophy.png')
     Trophy.create!(name: 'Gold', image_name: 'goldtrophy.png')
+  end
+
+  task :import_users, [:file] => :environment do |t, args|
+    CSV.read(args[:file], { col_sep: "\t", headers: true }).each do |row|
+      User.create!(
+          provider: 'manual',
+          name: row['Name'],
+          username: row['Username'],
+          password: row['Password'],
+          password_confirmation: row['Password'],
+          birthday: row['Birthday'].blank? ? nil : Date.parse(row['Birthday']))
+    end
   end
 
   task all: [:videos, :concepts, :games, :scripts, :trophies]
