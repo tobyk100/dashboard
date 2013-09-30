@@ -6,6 +6,9 @@
 = javascript_include_tag "/#{blockly_path}js/vendor.js"
 = javascript_include_tag "/#{blockly_path}js/#{app}.js"
 
+= stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css"
+= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
+
 :javascript
   var nextRedirect;
   var sendReport = function(report) {

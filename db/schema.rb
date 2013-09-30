@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20131001212524) do
+=======
+ActiveRecord::Schema.define(version: 20131001000034) do
+>>>>>>> Adds basic callout mechanism.
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -27,6 +31,13 @@ ActiveRecord::Schema.define(version: 20131001212524) do
   end
 
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree
+
+  create_table "callouts", force: true do |t|
+    t.string   "element_id", null: false
+    t.string   "text",       null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "concepts", force: true do |t|
     t.string   "name"
