@@ -3,6 +3,8 @@
 = stylesheet_link_tag blockly_path + "common.css"
 = stylesheet_link_tag blockly_path + "#{app}/style.css"
 
+= stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css"
+= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
 = javascript_include_tag blockly_path + "_soy/soyutils.js"
 = javascript_include_tag blockly_path + "#{app}/generated/en_us.js"
 
@@ -41,5 +43,6 @@
     },
     level: {
       instructions: '#{escape_javascript @level.instructions}'
-    }
+    },
+    callouts: JSON.parse('#{escape_javascript @callouts.to_json}')
   });
