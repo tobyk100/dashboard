@@ -1,11 +1,14 @@
 Key	Name	Concepts	YoutubeCode
 maze_intro	Maze Intro		hSh5YerqFTA
-artist_intro	Artist Intro		hSh5YerqFTA
-farmer_intro	Farmer Intro		hSh5YerqFTA
-loop_times	Loop times	loop 1	oPFcYvEvhLY
-loop_until	Loop until	loop 2	kp41877wkwM
-if	if block	conditional 1	eFEyrCE0o5k
-if_else	if/else block	conditional 2	5mo2msToyqA
-function	functions	function	HROq08xEdXw
+artist_intro	Artist Intro		FFFJ3eGTlys
+farmer_intro	Farmer Intro		N0JVff8s4B8
+loop_times	Loop times	loop_times	oPFcYvEvhLY
+loop_until	Loop until	loop_until	kp41877wkwM
+if	if block	if	eFEyrCE0o5k
+if_else	if/else block	if_else	5mo2msToyqA
+function	functions	function	uvXWNUgIq8w
+loop_while	While block	loop_while	T68Pg4hsbgE
+loop_for	Counter block	loop_for	FRf4kEFurDI
+parameters	Functions with parameters	parameters	ta7YQagWUE
 hoc_wrapup	HoC wrapup		Pk-UuG8A494
 20_wrapup	20-hour wrapup		Pk-UuG8A494

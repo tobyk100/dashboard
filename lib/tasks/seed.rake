@@ -11,14 +11,14 @@ namespace :seed do
 
   task concepts: :environment do
     Concept.connection.execute('truncate table concepts')
-
-    Concept.create!(name: 'sequence', description: 'Use functions to trigger actions')
-    Concept.create!(name: 'conditional 1', description: 'Use if statement to run code conditionally', video: Video.find_by_key('if'))
-    Concept.create!(name: 'conditional 2', description: 'Use multiple if statements or if-else', video: Video.find_by_key('if_else'))
-    Concept.create!(name: 'loop 1', description: 'Use basic loops, such as for or while statements', video: Video.find_by_key('loop_times'))
-    Concept.create!(name: 'loop 2', description: 'Use of more complex loop structures', video: Video.find_by_key('loop_until'))
-    Concept.create!(name: 'variable', description: 'Assign and retrieve values from variables')
+    Concept.create!(name: 'if', description: 'Use if statement to run code conditionally', video: Video.find_by_key('if'))
+    Concept.create!(name: 'if_else', description: 'Use if-else structure', video: Video.find_by_key('if_else'))
+    Concept.create!(name: 'loop_times', description: 'Use loop to repeat a block of code a fixed number of times', video: Video.find_by_key('loop_times'))
+    Concept.create!(name: 'loop_until', description: 'Use loop to repeat until a condition is met', video: Video.find_by_key('loop_until'))
+    Concept.create!(name: 'loop_while', description: 'Use loop to repeat until a condition isn''t met', video: Video.find_by_key('loop_while'))
+    Concept.create!(name: 'loop_for', description: 'Use for loop to repeat code with counter variable', video: Video.find_by_key('loop_for'))
     Concept.create!(name: 'function', description: 'Use of sub-routines', video: Video.find_by_key('function'))
+    Concept.create!(name: 'parameters', description: 'Use of sub-routines with parameters', video: Video.find_by_key('parameters'))
   end
 
   task games: :environment do
