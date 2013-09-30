@@ -2,11 +2,14 @@
 
 = render 'shared/script_levels', { script: @script, user: @user, level: nil }
 
-- @concept_progress.each_pair do |concept, counts|
-  %h4= concept.name
-  .progress-outer
-    .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
-  - if counts[:trophy]
-    = image_tag counts[:trophy].trophy.image_name
-  <!-- #{counts} -->
-  %br/
+%table
+  - @concept_progress.each_pair do |concept, counts|
+    %tr
+      %td{ height:"150px"}
+        %h4= concept.description
+        .progress-outer
+          .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
+      %td
+        - if counts[:trophy]
+          = image_tag counts[:trophy].trophy.image_name
+        <!-- #{counts} -->
