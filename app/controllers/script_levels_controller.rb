@@ -24,7 +24,15 @@ class ScriptLevelsController < ApplicationController
     end
 
     # todo: make this based on which videos the user/session has already seen
-    @autoplay_video = @videos.last
+    seen = session[:videos_seen] || Set.new()
+    @videos.each do |v|
+      if !seen.include?(v.key)
+        @autoplay_video = v
+        seen.add(v.key)
+        session[:videos_seen] = seen
+        break
+      end
+    end
 
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
