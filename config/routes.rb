@@ -14,7 +14,6 @@ Dashboard::Application.routes.draw do
 
   resources :scripts, only: [], path: '/s/' do
     resources :script_levels, as: :levels, only: [:show], path: "/level"
-    get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'
   end
 
   resources :followers, only: [:new, :create, :index]
@@ -22,6 +21,11 @@ Dashboard::Application.routes.draw do
   post '/followers/create_student', to: 'followers#create_student', as: 'create_student'
 
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
+
+  get '/admin/usage', to: 'reports#all_usage', as: 'all_usage'
+  get '/stats/usage/:user_id', to: 'reports#usage', as: 'usage'
+  get '/stats/students', to: 'reports#students', as: 'student_usage'
+  get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -63,7 +67,7 @@ Dashboard::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

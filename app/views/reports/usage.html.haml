@@ -1,0 +1,32 @@
+- @page_title = 'Recent Activity'
+
+%h1= @page_title
+
+%table{ border: 1 }
+  %colgroup
+    %col{ style: "width: 150px" }
+    %col{ style: "width: 150px" }
+    %col{ style: "width: 200px" }
+    %col{ style: "width: 400px" }
+  %tr
+    %th Student
+    %th Game/Level
+    %th Info
+    %th data
+  - @recent_activities.each do |a|
+    %tr
+      %td= link_to a.user.name, user_stats_path(a.user)
+      %td #{a.level.try(:game).try(:name)} / #{a.level.try(:level_num)}
+      %td
+        - if a.test_result.to_i == Activity::BEST_PASS_RESULT
+          %span{ style: 'color:green'} Finished (#{a.attempt}, #{a.test_result})
+        - elsif a.test_result.to_i >= Activity::MINIMUM_PASS_RESULT
+          %span{ style: 'color:orange'} Finished (#{a.attempt}, #{a.test_result})
+        - else
+          %span{ style: 'color:red'} Incomplete (#{a.attempt}, #{a.test_result})
+        %br/
+        in #{distance_of_time_in_words((a.time/1000).seconds)}
+        %br/
+
+        finished #{ago(a.created_at)}
+      %td= a.data

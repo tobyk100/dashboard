@@ -22,7 +22,7 @@
   - if current_user.students.length > 0
     %h3 Students
     - current_user.students.each do |student|
-      = link_to student.name, script_user_stats_path(Script.first, student)
+      = link_to student.name, user_stats_path(student)
       %br/
   %br/
   = link_to "Manage students", followers_path
@@ -34,6 +34,8 @@
     = link_to "Concepts", concepts_path
     %br/
     = link_to "Videos", videos_path
+    %br/
+    = link_to "Recent Activity", all_usage_path
 
 - else
   = link_to "Sign up", new_user_registration_path

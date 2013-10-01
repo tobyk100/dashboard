@@ -2,6 +2,8 @@
 
 = render 'shared/script_levels', { script: @script, user: @user, level: nil }
 
+= link_to 'Recent activity', usage_path(@user)
+
 %table
   - @concept_progress.each_pair do |concept, counts|
     %tr
