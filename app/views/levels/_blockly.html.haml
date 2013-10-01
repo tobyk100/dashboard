@@ -15,6 +15,7 @@
 
 = javascript_include_tag blockly_path + "#{app}/#{app}.js"
 :javascript
+  var CALLOUTS = JSON.parse('#{escape_javascript @callouts.to_json}');
   var nextRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
@@ -32,6 +33,25 @@
     query = query.join('&');
     httpRequest.send(query);
   };
+  var callout = function() {
+    var sessionPrefix = "callout_";
+
+    for (var index in CALLOUTS) {
+      var callout = CALLOUTS[index];
+      var selector = callout.element_id;  // jquery selector.
+      if (!(sessionPrefix + selector in sessionStorage)) {  // show only once.
+        var calloutDomElement = $(selector).qtip({
+          content: {
+            text: callout.text
+          }
+        });
+        calloutDomElement.qtip('show');
+        if (calloutDomElement.length > 0) {  // Only store if callout was shown.
+          sessionStorage.setItem(sessionPrefix + selector, true);
+        }
+      }
+    }
+  };
   #{app}Main({
     onAttempt: function(report) {
       sendReport(report);
@@ -41,8 +61,10 @@
         window.location.href = nextRedirect;
       }
     },
+    onInitialize: function() {
+      callout();
+    },
     level: {
       instructions: '#{escape_javascript @level.instructions}'
     },
-    callouts: JSON.parse('#{escape_javascript @callouts.to_json}')
   });
