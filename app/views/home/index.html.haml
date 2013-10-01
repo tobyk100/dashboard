@@ -3,29 +3,29 @@
     -#= link_to 'Browse games', games_path
   %h3 Courses
   - Script.all.each do |script|
-    = link_to script.name, script_level_path(script, ScriptLevel::NEXT)
-    %br/
+    %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
 
-  - if current_user.teachers.length > 0
-    %h3 Teacher
-    - current_user.teachers.each do |teacher|
-      = teacher.name
+  %div{ style:"position:absolute;right:10px;bottom:10px;"}
+    - if current_user.teachers.length > 0
+      %h3 Teacher
+      - current_user.teachers.each do |teacher|
+        = teacher.name
+        %br/
       %br/
+    Add a teacher by email address:
+    = form_for([Follower.new]) do |f|
+      .field
+        = email_field_tag :teacher_email
+      .actions
+        = f.submit 'Add teacher'
     %br/
-  Add a teacher by email address:
-  = form_for([Follower.new]) do |f|
-    .field
-      = email_field_tag :teacher_email
-    .actions
-      = f.submit
+    = link_to "Manage students", followers_path
 
   - if current_user.students.length > 0
     %h3 Students
     - current_user.students.each do |student|
       = link_to student.name, user_stats_path(student)
       %br/
-  %br/
-  = link_to "Manage students", followers_path
 
   - if current_user.admin?
     %h3 Admin
