@@ -14,13 +14,13 @@
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
             .span8{ style: 'text-align:center;height:85px;position:relative;font-size: 150%;'}
-              - if current_user
+              - if current_user && @script_level
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
                 - pct = (progress['max_levels'] > 0) ? (100 * progress['current_levels']/progress['max_levels']).to_i : 0
 
                 %a{ href: script_user_stats_path(@script, current_user) }
-                  Stage #{5}: step
+                  Step
                   %span.header_status_bar
                     #{progress['current_levels']}
                   of #{progress['max_levels']}
