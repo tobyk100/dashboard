@@ -13,8 +13,10 @@
       %td= callout.element_id
       %td= callout.text
       %td= link_to 'Show', callout
-      %td= link_to 'Edit', edit_callout_path(callout)
-      %td= link_to 'Destroy', callout, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      - if can? :update, @callout
+        %td= link_to 'Edit', edit_callout_path(callout)
+      - if can? :update, @callout
+        %td= link_to 'Destroy', callout, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 %br
 
