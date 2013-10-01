@@ -1,0 +1,10 @@
+- if !code_summaries.blank?
+  %h4= title
+  %table
+    %tr
+      %th Count
+      %th Code
+    - code_summaries.each do |result|
+      %tr
+        %td= result[1]
+        %td= result[0]

@@ -26,6 +26,7 @@ Dashboard::Application.routes.draw do
   get '/stats/usage/:user_id', to: 'reports#usage', as: 'usage'
   get '/stats/students', to: 'reports#students', as: 'student_usage'
   get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'
+  get '/stats/level/:level_id', to: 'reports#level_stats', as: 'level_stats'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

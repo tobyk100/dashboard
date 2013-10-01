@@ -18,9 +18,9 @@
       %td= link_to a.user.name, user_stats_path(a.user)
       %td #{a.level.try(:game).try(:name)} / #{a.level.try(:level_num)}
       %td
-        - if a.test_result.to_i == Activity::BEST_PASS_RESULT
+        - if a.best?
           %span{ style: 'color:green'} Finished (#{a.attempt}, #{a.test_result})
-        - elsif a.test_result.to_i >= Activity::MINIMUM_PASS_RESULT
+        - elsif a.passing?
           %span{ style: 'color:orange'} Finished (#{a.attempt}, #{a.test_result})
         - else
           %span{ style: 'color:red'} Incomplete (#{a.attempt}, #{a.test_result})

@@ -1,5 +1,5 @@
 class ReportsController < ApplicationController
-  check_authorization
+  check_authorization except: [:all_usage, :level_stats]
   before_filter :authenticate_user!
 
   before_action :set_script
@@ -27,19 +27,43 @@ class ReportsController < ApplicationController
   end
 
   def all_usage
-    # arbitrary way to find admins
-    authorize! :destroy, User
+    raise "unauthorized" if !current_user.admin?
 
     @recent_activities = get_base_usage_activity
     render 'usage'
   end
 
   def students
-    # arbitrary way to find admins
-    authorize! :destroy, User
-
     @recent_activities = get_base_usage_activity.where("user_id in (#{current_user.students.map(&:id).join(',')})")
     render 'usage'
+  end
+
+  def level_stats
+    raise "unauthorized" if !current_user.admin?
+
+    @level = Level.find(params[:level_id])
+
+    best_code_map = Hash.new{|h,k| h[k] = [k, 0] }
+    passing_code_map = Hash.new{|h,k| h[k] = [k, 0] }
+    finished_code_map = Hash.new{|h,k| h[k] = [k, 0] }
+    unsuccessful_code_map = Hash.new{|h,k| h[k] = [k, 0] }
+
+    Activity.all.where(['level_id = ?', @level.id]).order('id desc').limit(1000).each do |activity|
+      if activity.best?
+        best_code_map[activity.data][1] += 1
+      elsif activity.passing?
+        passing_code_map[activity.data][1] += 1
+      elsif activity.finished?
+        finished_code_map[activity.data][1] += 1
+      else
+        unsuccessful_code_map[activity.data][1] += 1
+      end
+    end
+
+    @best_code = best_code_map.values.sort_by {|v| -v[1] }
+    @passing_code = passing_code_map.values.sort_by {|v| -v[1] }
+    @finished_code = finished_code_map.values.sort_by {|v| -v[1] }
+    @unsuccessful_code = unsuccessful_code_map.values.sort_by {|v| -v[1] }
   end
 
   private

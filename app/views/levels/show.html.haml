@@ -19,7 +19,7 @@
     %br/
 - if can? :edit, @level
   %br/
-  = link_to '(edit)', edit_game_level_path(@game, @level)
+  #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
 
 .modal.fade#video_player{ style: 'display:none;'}
   .modal-header

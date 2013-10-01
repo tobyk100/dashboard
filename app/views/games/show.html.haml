@@ -21,6 +21,7 @@
       - @game.levels.each do |level|
         %tr
           %td= link_to level.name, [@game, level]
+          %td= link_to '(stats)', level_stats_path(level)
           - if can? :update, level
             %td= link_to 'Edit', edit_game_level_path(@game, level)
           - if can? :destroy, level
