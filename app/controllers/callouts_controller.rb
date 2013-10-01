@@ -1,4 +1,6 @@
 class CalloutsController < ApplicationController
+  check_authorization
+  load_and_authorize_resource
   before_action :set_callout, only: [:show, :edit, :update, :destroy]
 
   # GET /callouts
