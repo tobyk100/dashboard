@@ -15,7 +15,7 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 
 require 'capistrano/ext/multistage'
 
-server "dashboard.dev-code.org", :app, :web, :db, :primary => true
+#server "dashboard.dev-code.org", :app, :web, :db, :primary => true
 #set :domain, "dashboard.dev-code.org"
 #role :web, domain                          # Your HTTP server, Apache/etc
 #role :app, domain                          # This may be the same as your `Web` server
