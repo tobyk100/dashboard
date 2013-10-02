@@ -11,6 +11,7 @@ namespace :seed do
 
   task concepts: :environment do
     Concept.connection.execute('truncate table concepts')
+    Concept.create!(name: 'sequence', description: 'Sequence')
     Concept.create!(name: 'if', description: 'If block', video: Video.find_by_key('if'))
     Concept.create!(name: 'if_else', description: 'If-else block', video: Video.find_by_key('if_else'))
     Concept.create!(name: 'loop_times', description: 'Repeat times block', video: Video.find_by_key('loop_times'))
@@ -72,7 +73,7 @@ namespace :seed do
             row[COL_CONCEPTS].split(',').each do |concept_name|
               concept = concept_map[concept_name.squish]
               if !concept
-                puts "missing concept '#{concept_name}'"
+                raise "missing concept '#{concept_name}'"
               else
                 level.concepts << concept
               end
