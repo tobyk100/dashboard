@@ -8,7 +8,7 @@ set :default_stage, "staging"
 set :scm, "git"
 set :branch, "master"
 set :repository,  "git@github.com:code-dot-org/dashboard.git"
-set :git_enable_submodules, 1
+#set :git_enable_submodules, 1
 
 set :keep_releases, 10
 set :deploy_to, "/home/#{user}/apps/#{application}"
@@ -31,7 +31,7 @@ namespace :deploy do
 
   task :post_deploy do
     #run "cd #{current_path}"
-    run "cd #{current_path} ; git submodule foreach git checkout mooc ; git submodule foreach git pull"
+    #run "cd #{current_path} ; git submodule foreach git checkout mooc ; git submodule foreach git pull"
   end
 
   task :setup_config, roles: :app do
