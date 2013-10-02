@@ -27,6 +27,34 @@ body {
   background-color: lightgray;
 }
 
+.level_highlight {
+  border-radius: 18px;
+  color: white;
+  font: 15px/13px Helvetica, Verdana, Tahoma;
+  height: 20px; 
+  padding: 6px 3px 0 3px;
+  text-align: center;
+  min-width: 20px;
+  display: inline-block;
+}
+
+.level_current_header {
+  background-color: orange;
+}
+
+.level_count {
+  background-color: gray;
+}
+
+.other_level {
+  border-radius: 12px;
+  height: 12px;
+  min-width: 12px;
+  margin-left: -1px;
+  margin-right: -1px;
+  display: inline-block;
+}
+
 .level_box {
   width: 17px;
   height: 17px;
@@ -95,7 +123,14 @@ $header_text: white;
 .header_status_bar {
   background-color: #5b6770;
   border-radius: 5px;
-  width: 36px;
+  min-width: 20px;
+  padding: 3px;
+  font: 16px/14px Helvetica, Verdana, Tahoma;
+  display: inline-block;
+}
+
+.header_text {
+  font: 16px/14px Helvetica, Verdana, Tahoma;
   display: inline-block;
 }
 

@@ -26,7 +26,11 @@ namespace :seed do
 
     Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
     Game.create!(name: 'Artist', base_url: '/blockly/static/turtle/index.html', app: 'turtle', intro_video: Video.find_by_key('artist_intro'))
+    Game.create!(name: 'Artist2', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
     Game.create!(name: 'Farmer', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('farmer_intro'))
+    Game.create!(name: 'Artist3', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
+    Game.create!(name: 'Farmer2', base_url: '/blockly/static/maze/index.html', app: 'maze')
+    Game.create!(name: 'Artist4', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
   end
 
   COL_GAME = 'Game'
@@ -53,6 +57,7 @@ namespace :seed do
     ]
     sources.each do |source|
       script = Script.create!(name: source[:name], wrapup_video: source[:video])
+      game_index = Hash.new{|h,k| h[k] = 0}
 
       CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
@@ -75,7 +80,7 @@ namespace :seed do
           end
           level.save!
         end
-        ScriptLevel.create!(script: script, level: level, chapter: (index + 1))
+        ScriptLevel.create!(script: script, level: level, chapter: (index + 1), game_chapter: (game_index[game.id] += 1))
       end
     end
   end
