@@ -42,9 +42,9 @@ namespace :blockly do
     puts "Downloading and extracting #{filepath}"
     curl_cmd = "curl --silent --insecure #{filepath}"
     dirname = File.dirname(dest)
-    basename = File.basename(dest)
-    tar_cmd = "tar -xz -C #{dirname} --transform 's/^package/#{basename}/'"
+    tar_cmd = "tar -xz -C #{dirname}"
     `#{curl_cmd} | #{tar_cmd}`
+    FileUtils.mv("#{dirname}/package", dest)
   end
 
   task :dev, [:src] => :environment do |t, args|
