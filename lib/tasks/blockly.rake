@@ -27,7 +27,6 @@ namespace :blockly do
   end
 
   task latest: :environment do
-    clean!
     version = '0.0.1'
     puts "Asking #{npm_root} for latest version number"
     metadata = `curl --silent --insecure #{npm_root}`
@@ -53,6 +52,9 @@ namespace :blockly do
       raise 'Expected argument: path to blockly mooc source.'
     end
     fullsrc = "#{File.absolute_path(src)}/dist"
+    unless File.directory?(fullsrc)
+      raise "No such directory: #{fullsrc}"
+    end
     clean!
     File.symlink(fullsrc, dest)
   end
