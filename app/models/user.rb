@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
   validates_format_of :email, with: Devise::email_regexp, allow_blank: true, on: :create
   #validates_length_of :first_name, maximum: 35
   #validates_length_of :last_name, maximum: 35
-  validates_length_of :name, maximum: 70
+  validates_length_of :name, within: 1..70
   validates_length_of :email, maximum: 255
   # this is redundant to devise, but required for tests?
   validates_uniqueness_of :email, allow_nil: true, allow_blank: true, case_sensitive: false
