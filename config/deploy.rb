@@ -30,8 +30,10 @@ namespace :deploy do
   end
 
   task :post_deploy do
-    #run "cd #{current_path}"
-    #run "cd #{current_path} ; git submodule foreach git checkout mooc ; git submodule foreach git pull"
+    rake = fetch(:rake, 'rake')
+    rails_env = fetch(:rails_env, 'development')
+
+    run "cd '#{current_path}' && #{rake} blockly:latest RAILS_ENV=#{rails_env}"
   end
 
   task :setup_config, roles: :app do
