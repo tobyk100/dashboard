@@ -18,6 +18,7 @@
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
                 - count = @game.levels.count
+                - show_level_count = @script_level.game_chapter < count
 
                 %a{ href: user_stats_path(current_user) }
                   %div.header_text
@@ -26,10 +27,11 @@
                     %div.other_level{class:"level_aced"}
                   %div.level_current_header{class:"level_highlight"}
                     #{@script_level.game_chapter}
-                  - ((@script_level.game_chapter + 1)..count).each do
+                  - ((@script_level.game_chapter + 1)..(count - 1)).each do
                     %div.other_level{class:"level_undone"}
-                  %div.level_count{class:"level_highlight"}
-                    #{count}
+                  - if show_level_count
+                    %div.level_count{class:"level_highlight"}
+                      #{count}
                   %div.header_text
                     Trophies 
                   %div.header_status_bar
