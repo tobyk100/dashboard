@@ -17,19 +17,25 @@
               - if current_user && @script_level
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
-                - pct = (progress['max_levels'] > 0) ? (100 * progress['current_levels']/progress['max_levels']).to_i : 0
+                - count = @game.levels.count
 
                 %a{ href: user_stats_path(current_user) }
-                  Step
-                  %span.header_status_bar
-                    #{progress['current_levels']}
-                  of #{progress['max_levels']}
-                  %div.header_status_bar{ style: "text-align:left;padding-left:#{pct}px;padding-right:#{100-pct}px"}
-                    =raw "&#x25B2;"
-                  Trophies
-                  %span.header_status_bar #{progress['current_trophies']}
-                  of #{progress['max_trophies']}
-
+                  %div.header_text
+                    Stage #{@game.id}: step 
+                  - (1..(@script_level.game_chapter - 1)).each do
+                    %div.other_level{class:"level_aced"}
+                  %div.level_current_header{class:"level_highlight"}
+                    #{@script_level.game_chapter}
+                  - ((@script_level.game_chapter + 1)..count).each do
+                    %div.other_level{class:"level_undone"}
+                  %div.level_count{class:"level_highlight"}
+                    #{count}
+                  %div.header_text
+                    Trophies 
+                  %div.header_status_bar
+                    #{progress['current_trophies']} 
+                  %div.header_text
+                    of #{progress['max_trophies']}
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?
