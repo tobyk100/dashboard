@@ -13,4 +13,11 @@ Vagrant::Config.run do |config|
     shell.args = "'/vagrant'"
   end
 
+  # Enable symlinks. See https://github.com/mitchellh/vagrant/issues/713
+  config.vm.customize [
+    'setextradata',
+    :id, 'VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root',
+    '1'
+  ]
+
 end
