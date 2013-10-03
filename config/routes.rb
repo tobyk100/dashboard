@@ -29,7 +29,7 @@ Dashboard::Application.routes.draw do
   get '/stats/level/:level_id', to: 'reports#level_stats', as: 'level_stats'
 
   # special redirect links
-  get '/gates', to: redirect('/s/1/level/13')
+  get '/billg', to: redirect('/s/1/level/13')
   get '/zuck', to: redirect('/s/1/level/9')
 
   # The priority is based upon order of creation: first created -> highest priority.
