@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 module ApplicationHelper
   def ago(from_time)
     s = distance_of_time_in_words_to_now(from_time)
