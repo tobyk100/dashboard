@@ -18,20 +18,23 @@
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
                 - count = @game.levels.count
-                - show_level_count = @script_level.game_chapter < count
+                - game_levels = current_user.levels_from_script(script, @game.id)
 
                 %a{ href: user_stats_path(current_user) }
                   %div.header_text
                     Stage #{@game.id}: step 
-                  - (1..(@script_level.game_chapter - 1)).each do
-                    %div.other_level{class:"level_aced"}
-                  %div.level_current_header{class:"level_highlight"}
-                    #{@script_level.game_chapter}
-                  - ((@script_level.game_chapter + 1)..(count - 1)).each do
-                    %div.other_level{class:"level_undone"}
-                  - if show_level_count
-                    %div.level_count{class:"level_highlight"}
+                - game_levels.each do |sl|
+                  %a{href:build_script_level_path(sl)}
+                  - if sl.level_id == @script_level.level_id
+                    %div.level_current_header{class:"level_highlight"}
+                      #{@script_level.game_chapter}
+                  - elsif (sl.game_chapter == count)
+                    %a.level_count{class:"level_highlight", href:build_script_level_path(sl)}
                       #{count}
+                  - else
+                    - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
+                    %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                %a{ href: user_stats_path(current_user) }
                   %div.header_text
                     Trophies 
                   %div.header_status_bar
