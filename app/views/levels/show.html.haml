@@ -13,7 +13,7 @@
   %h4 Related help videos
   - @videos.each do |video|
     - if mobile?
-      = link_to video.name, " https://www.youtubeeducation.com/watch?v=#{video.youtube_code}"
+      = link_to video.name, build_youtube_link(video.youtube_code)
     - else
       = link_to video.name, "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
     %br/

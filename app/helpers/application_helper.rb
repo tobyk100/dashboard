@@ -18,4 +18,13 @@ module ApplicationHelper
     #return true if agent =~ /\b(?:Android|AvantGo|Danger|DDIPOCKET|Elaine|embedix|maemo|MIDP|NetFront|nokia\d+|Opera Mini|Palm(OS|Source)|PlayStation|ProxiNet|RegKing|ReqwirelessWeb|SonyEricsson|Symbian ?OS|TELECA|Twitt[a-z]+|UP\.Browser|WinWAPDashMR|Windows CE|Pre)\b/i
     false
   end
+
+  def build_youtube_link(code)
+    "https://www.youtube.com/watch?v=#{code}"
+  end
+
+  def format_xml(xml)
+    doc = Nokogiri::XML(xml)
+    doc.to_xhtml
+  end
 end
