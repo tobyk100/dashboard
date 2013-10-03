@@ -18,7 +18,7 @@
 //= require bootstrap
 
 function build_youtube_url(youtube_code) {
-    return 'http://www.youtube.com/embed/' + youtube_code + '?modestbranding=1&rel=0&fs=1&showinfo=1'
+    return 'http://www.youtubeeducation.com/embed/' + youtube_code + '?modestbranding=1&rel=0&fs=1&showinfo=1'
 }
 
 function initialize_video_popup(youtube_code,name) {
