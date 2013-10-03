@@ -18,7 +18,7 @@
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
                 - count = @game.levels.count
-                - game_levels = current_user.levels_from_script(script, @game.id);
+                - game_levels = current_user.levels_from_script(script, @game.id)
 
                 %a{ href: user_stats_path(current_user) }
                   %div.header_text
