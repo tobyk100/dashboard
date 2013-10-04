@@ -30,7 +30,7 @@ Dashboard::Application.routes.draw do
 
   # special redirect links
   get '/billg', to: redirect('/s/1/level/13')
-  get '/zuck', to: redirect('/s/1/level/9')
+  get '/zuck', to: redirect('/s/1/level/5')
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
