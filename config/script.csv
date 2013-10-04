@@ -6,8 +6,8 @@ Maze	Level4	2_4	mouse	sequence	Argh! Write me a program that gets me around the 
 Maze	Level5	2_5	mouse	loop_times	There's a way I can get to the pig using only 2 blocks. Can you figure it out?	
 Maze	Level6	2_6	mouse	loop_times	Try to get me to the pig using only three blocks.	
 Maze	Level7	2_7	mouse	loop_times	Write me a program so I can get to the pig using the fewest number of blocks. Try using more than one &quot;repeat times&quot; block.	
-Maze	Level8	2_8	mouse	loop_times	How many &quot;repeat times&quot; blocks should you use in this level?	
-Maze	Level9	2_9	mouse	loop_until	I need to get to that pig now! Quick, use the new &quot;repeat until&quot; block.	
+Maze	Level8	2_8	mouse	loop_times	Use a couple of &quot;repeat times&quot; blocks to get me to the pig!	
+Maze	Level9	2_9	mouse	loop_until	I need to get to that pig now. Quick, use the new &quot;repeat until&quot; block!	
 Maze	Level10	2_10	mouse	loop_until	I can get to the pig in only 3 blocks. Can you write a program for me, please?	
 Maze	Level11	2_11	mouse	loop_until	Must... get... to sunflower... Can you get me there in just 5 blocks?	
 Maze	Leve12	2_12	mouse	loop_until	I can make it to the sunflower in 5 blocks. Can you help me get there?	
@@ -15,7 +15,7 @@ Maze	Level13	2_13	mouse	if, loop_until	Woah, a new block! Use the new &quot;if&q
 Maze	Level14	2_14	mouse	if, loop_until	How can I get to the sunflower? Use the &quot;if&quot; block to make it happen.	
 Maze	Level15	2_15	mouse	if, loop_until	Get me to that sunflower! Try making me turn right if there is a path to the right.	
 Maze	Level16	2_16	mouse	if, loop_until	Can you help me get to that tasty sunflower? Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
-Maze	Level17	2_17	mouse	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	 
+Maze	Level17	2_17	mouse	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	
 Maze	Level18	2_18	mouse	if_else, loop_until	Will you help me get to the sunflower for the last time? Make sure to use an &quot;if-else&quot; block!	
 Artist	Level1	1_1		sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
 Artist	Level2	1_2		sequence	Draw a square, making each side a different color.	
@@ -72,3 +72,12 @@ Artist4	Level7	3_7		parameters	Add a &quot;height&quot; input to &quot;draw a ho
 Artist4	Level8	3_8		parameters	Here are all of the blocks from the previous level.  Modify &quot;draw a house&quot; so the turtle ends up at the bottom right corner of the new house.  Use this modified function to house all the animals.	
 Artist4	Level9	3_9		parameters	You now know how to control the turtle, use loops (&quot;repeat&quot; and &quot;count from&quot;), and write and use functions.  Congratulations on becoming a programmer!	
 Artist4	Level10	3_10		sequence	You're now free to do whatever you want.  One idea is to try running this program with different turn amounts (higher or lower than 90).  Other ideas are to draw a star, circle, heart, or animal.	
+Farmer3	Level1	karel_debug_seq_1	farmer			
+Farmer3	Level2	karel_debug_seq_2	farmer			
+Farmer3	Level3	karel_debug_repeat	farmer			
+Farmer3	Level4	karel_debug_while	farmer			
+Farmer3	Level5	karel_debug_if	farmer			
+Farmer3	Level6	karel_debug_if_else	farmer			
+Farmer3	Level7	karel_debug_function_1	farmer			
+Farmer3	Level8	karel_debug_function_2	farmer			
+Farmer3	Level9	karel_debug_function_3	farmer			
