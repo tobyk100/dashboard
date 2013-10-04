@@ -128,4 +128,8 @@ SQL
     end
     result
   end
+
+  def last_attempt(level)
+    Activity.where(user_id: self.id, level_id: level.id).order('id desc').first
+  end
 end
