@@ -22,7 +22,7 @@ module ApplicationHelper
   end
 
   def build_youtube_link(code)
-    "https://www.youtube.com/watch?v=#{code}"
+    "https://www.youtubeeducation.com/watch?v=#{code}"
   end
 
   def format_xml(xml)
