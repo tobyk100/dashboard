@@ -4,9 +4,6 @@ set -e
 
 if [[ $1 = "-d" ]]; then
   echo "DEV MODE"
-  locale-gen en_IE en_IE.UTF-8 en_US.UTF-8
-  dpkg-reconfigure locales
-  aptitude -y install default-jre-headless
   export CDO_DEV=true
   shift
 fi
@@ -15,8 +12,6 @@ export DASH_ROOT=$1
 if [[ -z $DASH_ROOT ]]; then
   export DASH_ROOT=/home/ubuntu/deploy
 fi
-
-export VAGRANT_ROOT=~vagrant
 
 export DEBIAN_FRONTEND=noninteractive
 aptitude update
@@ -57,5 +52,8 @@ fi
 service nginx restart
 
 if $CDO_DEV; then
+  locale-gen en_IE en_IE.UTF-8 en_US.UTF-8
+  dpkg-reconfigure locales
+  aptitude -y install default-jre-headless
   su -c "/vagrant/dev_setup.sh" vagrant
 fi
