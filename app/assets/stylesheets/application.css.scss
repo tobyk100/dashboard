@@ -160,3 +160,18 @@ $header_text: white;
 .full_container {
   padding: 25px;
 }
+
+body .modal {
+  width: 800px;
+  height: 600px;
+  margin-left: -400px;
+  a:hover {color:#FF0000; background-color: white; opacity: 100;}
+}
+
+.modal-body {
+  max-height: 500px;
+}
+
+.close {
+  color:red;
+}
