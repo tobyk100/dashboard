@@ -2,6 +2,12 @@
 
 set -e
 
+if [[ $1 = "-d" ]]; then
+  echo "DEV MODE"
+  export CDO_DEV=true
+  shift
+fi
+
 export DASH_ROOT=$1
 if [[ -z $DASH_ROOT ]]; then
   export DASH_ROOT=/home/ubuntu/deploy
@@ -13,10 +19,21 @@ aptitude -y install \
   build-essential \
   git \
   mysql-client \
-  ruby-dev \
+  libssl-dev \
   mysql-server \
   libmysqlclient-dev \
   nginx
+
+if [[ ! -f ruby-2.0.0-p247.tar.gz ]]; then
+  wget http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+  tar -xzvf ruby-2.0.0-p247.tar.gz
+  (
+    cd ruby-2.0.0-p247/
+    ./configure
+    make
+    sudo make install
+  )
+fi
 
 gem install bundler
 gem install unicorn
@@ -36,3 +53,10 @@ if [[ ! -e $unicorn_cfg ]]; then
 fi
 
 service nginx restart
+
+if $CDO_DEV; then
+  locale-gen en_IE en_IE.UTF-8 en_US.UTF-8
+  dpkg-reconfigure locales
+  aptitude -y install default-jre-headless
+  su -c "/vagrant/dev_setup.sh" vagrant
+fi

@@ -15,26 +15,14 @@ vagrant up
 vagrant ssh
 cd /vagrant
 
-# Get Java for Soy Templates
-sudo locale-gen en_IE en_IE.UTF-8 en_US.UTF-8
-sudo dpkg-reconfigure locales
-sudo aptitude install default-jre-headless
-
-# Get and build Blockly
-git clone https://github.com/code-dot-org/blockly.git
-rake blockly:dev[./blockly]
-cd public/blockly
-npm install -g grunt-cli
-npm install
-grunt
-cd ../..
-
 # Configure and run Rails
 rake db:create db:migrate seed:all
 rails server
 ```
 
 Then navigate to `http://192.168.60.10:3000/`.
+
+If you are developing in Blockly you should `cd blockly` and run `grunt dev`. This will start a watch server which will recompile Blockly whenever its' source files are edited (and saved).
 
 ### Local Development Server (Advanced)
 
