@@ -4,6 +4,7 @@ FactoryGirl.define do
     email { "#{username}@example.com" }
     password "00secret"
     language 'en'
+    name { "#{username} Codeberg" }
 
     # Child of :user factory, since it's in the `factory :user` block
     factory :admin do

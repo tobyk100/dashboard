@@ -2,7 +2,7 @@ require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   test "validations" do
-    good_data = { email: 'foo@bar.com', password: 'foosbars', username: 'user.12-34'}
+    good_data = { email: 'foo@bar.com', password: 'foosbars', username: 'user.12-34', name: 'tester'}
 
     user = User.create(good_data.merge({email: 'foo@bar'}))
     assert user.errors.messages.length == 1
