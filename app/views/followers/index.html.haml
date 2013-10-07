@@ -17,6 +17,6 @@
       %td= link_to student.name || student.username, user_stats_path(student)
       %td= student.email
       %td= student.levels_finished
-      %td= student.last_attempt ? ago(student.last_attempt) : '(not yet started)'
+      %td= student.last_attempt_time ? ago(student.last_attempt_time) : '(not yet started)'
 
 = link_to 'Add student', new_follower_path
