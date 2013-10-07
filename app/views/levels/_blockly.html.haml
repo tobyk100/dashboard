@@ -37,10 +37,10 @@
     },
     levelId: '#{@level.level_num}',
     level: {
-      instructions: '#{escape_javascript @level.instructions}'
+      instructions: '#{escape_javascript @level.instructions}',
+      startBlocks: '#{initial_blocks(current_user, @level)}'
     },
-    userXml: '#{initial_blocks(current_user, @level)}',
-    skinId: '#{@level.skin}',
+    skinId: '#{@level.skin}'
   });
 
 #blocklyApp
