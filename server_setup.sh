@@ -24,13 +24,16 @@ aptitude -y install \
   libmysqlclient-dev \
   nginx
 
-wget http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
-tar -xzvf ruby-2.0.0-p247.tar.gz
-cd ruby-2.0.0-p247/
-./configure
-make
-sudo make install
-cd
+if [[ ! -f ruby-2.0.0-p247.tar.gz ]]; then
+  wget http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+  tar -xzvf ruby-2.0.0-p247.tar.gz
+  (
+    cd ruby-2.0.0-p247/
+    ./configure
+    make
+    sudo make install
+  )
+fi
 
 gem install bundler
 gem install unicorn
