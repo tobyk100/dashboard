@@ -27,9 +27,3 @@ function initialize_video_popup(youtube_code,name) {
     $('#video_player').modal('show');
     return false;
 }
-
-function close_video_popup() {
-    $('#video_iframe')[0].src = null;
-    $('#video_player').modal('hide');
-    return false;
-}

@@ -23,7 +23,7 @@
 
 .modal.fade#video_player{ style: 'display:none;'}
   .modal-header
-    %a.close{onclick: "close_video_popup();"} (X)
+    %a.close{'data-dismiss' => "modal"} (X)
     %h3#video_title Modal Header
   .modal-body
     %iframe#video_iframe{ name: 'testname', width: "100%", height: '500px', frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
@@ -34,3 +34,8 @@
 - if @autoplay_video && !mobile?
   :javascript
     initialize_video_popup('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}');
+
+:javascript
+  $('#video_player').on('hidden', function () {
+    $('#video_iframe')[0].src = null;
+  });
