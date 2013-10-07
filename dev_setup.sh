@@ -30,3 +30,10 @@ if [[ ! -d $DASH_ROOT/blockly ]]; then
   )
   ln -s $DASH_ROOT/blockly/dist/ $DASH_ROOT/public/blockly
 fi
+
+# Fix binstub issue.
+(
+  cd $DASH_ROOT
+  yes | bundle config --delete bin
+  yes | rake rails:update:bin
+)
