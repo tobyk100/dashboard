@@ -16,8 +16,6 @@ class ScriptLevelsController < ApplicationController
     @level = @script_level.level
     @game = @level.game
 
-    @last_attempt = current_user.try(:last_attempt, @level)
-
     @videos = []
     @videos << @game.intro_video if @game.intro_video
     @level.concepts.each do |concept|

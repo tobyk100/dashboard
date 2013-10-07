@@ -39,7 +39,8 @@
     level: {
       instructions: '#{escape_javascript @level.instructions}'
     },
-    skinId: '#{@level.skin}'
+    userXml: '#{initial_blocks(current_user, @level)}',
+    skinId: '#{@level.skin}',
   });
 
 #blocklyApp
