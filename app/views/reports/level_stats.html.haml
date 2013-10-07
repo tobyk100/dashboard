@@ -2,7 +2,7 @@
 
 %h1= @page_title
 
-= render partial: 'code_groups', locals: { title: 'Best code (100)', code_summaries: @best_code }
-= render partial: 'code_groups', locals: { title: 'Passing code (20-99)', code_summaries: @passing_code }
-= render partial: 'code_groups', locals: { title: 'Finished code (10-19)', code_summaries: @finished_code }
-= render partial: 'code_groups', locals: { title: 'Unsuccessful code (<10)', code_summaries: @unsuccessful_code }
+= render partial: 'code_groups', locals: { title: 'Best code (100)', code_summaries: @best_code, level: @level }
+= render partial: 'code_groups', locals: { title: 'Passing code (20-99)', code_summaries: @passing_code, level: @level }
+= render partial: 'code_groups', locals: { title: 'Finished code (10-19)', code_summaries: @finished_code, level: @level }
+= render partial: 'code_groups', locals: { title: 'Unsuccessful code (<10)', code_summaries: @unsuccessful_code, level: @level }

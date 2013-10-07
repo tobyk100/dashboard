@@ -15,6 +15,7 @@ class LevelsController < ApplicationController
   # GET /levels/1
   # GET /levels/1.json
   def show
+    @full_width = true
   end
 
   # GET /levels/new

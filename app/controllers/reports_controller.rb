@@ -1,5 +1,5 @@
 class ReportsController < ApplicationController
-  check_authorization except: [:all_usage, :level_stats]
+  check_authorization except: [:all_usage, :level_stats, :students]
   before_filter :authenticate_user!
 
   before_action :set_script
