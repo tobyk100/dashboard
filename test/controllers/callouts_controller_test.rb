@@ -1,8 +1,12 @@
 require 'test_helper'
 
 class CalloutsControllerTest < ActionController::TestCase
+  include Devise::TestHelpers
+
   setup do
     @callout = callouts(:one)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do

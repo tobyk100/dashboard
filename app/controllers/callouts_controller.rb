@@ -64,13 +64,18 @@ class CalloutsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_callout
-      @callout = Callout.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_callout
+    @callout = Callout.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def callout_params
-      params.require(:callout).permit(:element_id, :text)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def callout_params
+    params.require(:callout).permit(:element_id, :text)
+  end
+
+  # this is to fix a ForbiddenAttributesError cancan issue
+  prepend_before_filter do
+    params[:callout] &&= callout_params
+  end
 end
