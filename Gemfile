@@ -65,3 +65,5 @@ gem 'therubyracer', :platforms => :ruby
 gem 'jquery-ui-rails'
 
 gem 'nokogiri'
+
+gem 'honeybadger'

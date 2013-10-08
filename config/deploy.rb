@@ -62,3 +62,6 @@ namespace :deploy do
   before "deploy", "deploy:check_revision"
   after "deploy", "deploy:post_deploy"
 end
+
+require './config/boot'
+require 'honeybadger/capistrano'
