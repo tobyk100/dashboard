@@ -21,6 +21,11 @@ module LevelsHelper
     nil
   end
 
+  def start_blocks(user, level)
+    return initial_blocks(user, level) ?
+      'startBlocks: \'' + initial_blocks(user, level) + '\'' : nil;
+  end
+
   def language
     user.try(:language) || 'en'
   end
