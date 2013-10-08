@@ -3,6 +3,7 @@
   %head
     %title= @page_title || 'Code.org'
     = stylesheet_link_tag    "application", media: "all"
+    = stylesheet_link_tag    "//cloud.typography.com/7425452/678642/css/fonts.css", media: "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body{ style: 'padding  :0px;' }
@@ -22,7 +23,7 @@
 
                 %a{ href: user_stats_path(current_user) }
                   %div.header_text
-                    Stage #{@game.id}: step 
+                    Stage #{@game.id}: step
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
                   - if sl.level_id == @script_level.level_id
@@ -36,9 +37,9 @@
                     %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
                 %a{ href: user_stats_path(current_user) }
                   %div.header_text
-                    Trophies 
+                    Trophies
                   %div.header_status_bar
-                    #{progress['current_trophies']} 
+                    #{progress['current_trophies']}
                   %div.header_text
                     of #{progress['max_trophies']}
 

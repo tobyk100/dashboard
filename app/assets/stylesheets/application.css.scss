@@ -16,7 +16,27 @@
 
 body {
   padding: 10px;
-  //font-family: gotham;
+  font-family: 'Gotham A', 'Gotham B';
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Gotham A', 'Gotham B';
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Gotham A', 'Gotham B';
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Gotham A', 'Gotham B';
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navbar {
@@ -30,8 +50,8 @@ body {
 .level_highlight {
   border-radius: 18px;
   color: white;
-  font: 15px/13px Helvetica, Verdana, Tahoma;
-  height: 20px; 
+  font: 15px/13px 'Gotham A', 'Gotham B';
+  height: 20px;
   padding: 6px 3px 0 3px;
   text-align: center;
   min-width: 20px;
@@ -125,12 +145,12 @@ $header_text: white;
   border-radius: 5px;
   min-width: 20px;
   padding: 3px;
-  font: 16px/14px Helvetica, Verdana, Tahoma;
+  font: 16px/14px 'Gotham A', 'Gotham B';
   display: inline-block;
 }
 
 .header_text {
-  font: 16px/14px Helvetica, Verdana, Tahoma;
+  font: 16px/14px 'Gotham A', 'Gotham B';
   display: inline-block;
 }
 
