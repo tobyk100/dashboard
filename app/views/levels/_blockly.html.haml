@@ -10,7 +10,7 @@
 = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
 
 :javascript
-  var CALLOUTS = JSON.parse('#{escape_javascript @callouts.to_json}');
+  var CALLOUTS = #{@callouts.to_json}
   var nextRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
