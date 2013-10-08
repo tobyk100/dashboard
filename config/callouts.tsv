@@ -1,0 +1,9 @@
+Name	element_id	text
+Run Button	#runButton	Click here to run your program.
+Help Button	#helpButton	Click here for help.
+Set Color	#set-color	Click here to change the color turtle uses to draw.
+Set Width	#draw-width	Use this block to change the width of the brush.
+Move Backwards	move-backwards	Use this block to move backwards.
+Show Code	show-code	Click here to see your code.
+Categories	.blocklyTreeRow:last	Find your blocks organized under these categories.
+Night Level	night-level	It's nighttime for farmer.
