@@ -5,8 +5,11 @@ set -e
 # Get and build Blockly
 if [[ ! -d $DASH_ROOT/blockly ]]; then
   git clone https://github.com/code-dot-org/blockly.git $DASH_ROOT/blockly
-  sudo npm install $DASH_ROOT/blockly/package.json
-  grunt $DASH_ROOT/blockly/Gruntfile.js
+  (
+    cd $DASH_ROOT/blockly
+    sudo npm install  # Must be executed from same directory as package.json.
+    grunt
+  )
   ln -s $DASH_ROOT/blockly/dist/ $DASH_ROOT/public/blockly
 fi
 
