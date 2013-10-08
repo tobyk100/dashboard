@@ -1,13 +1,6 @@
 -#= render 'shared/script_levels', { script: @script, user: current_user, level: @script_level }
 
-- if @game.video? && @script_level
-  %div{ style: "text-align:right; font-size: 120%;"}
-    = link_to "Next level >>", build_script_level_path(@script_level.next_level)
-  %iframe{ name: 'testname', src: @level.level_url, width: "100%", height: 700, frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
-
-- if not @game.video?
-  - app = @game.app
-  = render partial: "levels/blockly", locals: { app: app }
+= render partial: "levels/blockly", locals: { app: @game.app }
 
 - if @videos && !@videos.empty?
   %h4 Related help videos
