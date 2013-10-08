@@ -10,7 +10,7 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :shell do |shell|
     shell.path = "server_setup.sh"
-    shell.args = "-d '/vagrant'"
+    shell.args = "-d '/vagrant' 'vagrant'"
   end
 
   # Enable symlinks. See https://github.com/mitchellh/vagrant/issues/713
