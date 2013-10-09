@@ -12,11 +12,21 @@
  *= require_tree .
  *= require jquery.ui.all
  */
+$baseFontFamily: 'Gotham A', 'Gotham B', sans-serif;
+$headingsFontWeight: 400;
 @import "bootstrap";
 
 body {
   padding: 10px;
-  //font-family: gotham;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 .navbar {
@@ -30,8 +40,8 @@ body {
 .level_highlight {
   border-radius: 18px;
   color: white;
-  font: 15px/13px Helvetica, Verdana, Tahoma;
-  height: 20px; 
+  font: 15px/13px 'Gotham A', 'Gotham B';
+  height: 20px;
   padding: 6px 3px 0 3px;
   text-align: center;
   min-width: 20px;
@@ -121,12 +131,12 @@ $header_text: white;
   border-radius: 5px;
   min-width: 20px;
   padding: 3px;
-  font: 16px/14px Helvetica, Verdana, Tahoma;
+  font: 16px/14px 'Gotham A', 'Gotham B';
   display: inline-block;
 }
 
 .header_text {
-  font: 16px/14px Helvetica, Verdana, Tahoma;
+  font: 16px/14px 'Gotham A', 'Gotham B';
   display: inline-block;
 }
 
