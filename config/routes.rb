@@ -1,4 +1,6 @@
 Dashboard::Application.routes.draw do
+  resources :callouts
+
   resources :videos
 
   resources :concepts

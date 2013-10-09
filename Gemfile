@@ -10,6 +10,7 @@ group :development, :test do
   gem 'capistrano'
   # Use debugger
   gem 'debugger'
+  gem 'haml-rails'
 end
 
 group :test do
@@ -64,3 +65,5 @@ gem 'therubyracer', :platforms => :ruby
 gem 'jquery-ui-rails'
 
 gem 'nokogiri'
+
+gem 'honeybadger'

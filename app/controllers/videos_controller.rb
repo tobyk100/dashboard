@@ -1,31 +1,24 @@
 class VideosController < ApplicationController
   check_authorization
   load_and_authorize_resource
-  #before_filter :authenticate_user!
+  before_filter :authenticate_user!
+
   before_action :set_video, only: [:show, :edit, :update, :destroy]
 
-  # GET /videos
-  # GET /videos.json
   def index
     @videos = Video.all
   end
 
-  # GET /videos/1
-  # GET /videos/1.json
   def show
   end
 
-  # GET /videos/new
   def new
     @video = Video.new
   end
 
-  # GET /videos/1/edit
   def edit
   end
 
-  # POST /videos
-  # POST /videos.json
   def create
     @video = Video.new(video_params)
 
@@ -73,5 +66,10 @@ class VideosController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def video_params
       params.require(:video).permit(:name, :key, :youtube_code)
+    end
+
+    # this is to fix a ForbiddenAttributesError cancan issue
+    prepend_before_filter do
+      params[:video] &&= video_params
     end
 end

@@ -5,6 +5,10 @@ module LevelsHelper
 
   # this defines which levels should be seeded with th last result from a different level
   def initial_blocks(user, level)
+    if params[:initial_code]
+      return params[:initial_code]
+    end
+
     if user
       if level.game.app == 'turtle'
         source_level_num = case level.level_num

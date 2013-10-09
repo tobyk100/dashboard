@@ -88,10 +88,6 @@ h2 {
   background-color: green;
 }
 
-.level_video {
-  background-color: purple;
-}
-
 .level_current {
   position: relative;
   border: 3px solid yellow;
@@ -142,6 +138,13 @@ $header_text: white;
 .header_text {
   font: 16px/14px 'Gotham A', 'Gotham B';
   display: inline-block;
+}
+
+.span8 {
+  padding-top:30px;
+  text-align:center;
+  position:relative;
+  font-size: 150%;
 }
 
 .user_menu a {

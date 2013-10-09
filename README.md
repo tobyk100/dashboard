@@ -28,7 +28,7 @@ If you are developing in Blockly you should `cd blockly` and run `grunt dev`. Th
 
 __Note__: This is considered advanced since there are hidden dependencies and system configuration may conflict.
 
-1. [Install rvm](https://github.com/sstephenson/rbenv#installation), note the homebrew option for OSX.
+1. [Install rbenv](https://github.com/sstephenson/rbenv#installation), note the homebrew option for OSX.
 2. Install ruby 2.0 with `rbenv install 2.0.0-p247` and set to global with `rbenv global 2.0.0-p247`.
 3. Install [node](http://nodejs.org/download/), again for OSX, consider [brew](http://madebyhoundstooth.com/blog/install-node-with-homebrew-on-os-x/).
 4. Follow below instructions:

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  element_id: "runButton"
+  text: "Click here to run"
+
+two:
+  element_id: "resetButton"
+  text: "Click here to reset"

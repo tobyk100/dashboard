@@ -16,7 +16,7 @@
   - @recent_activities.each do |a|
     %tr
       %td= link_to a.user.name, user_stats_path(a.user)
-      %td #{a.level.try(:game).try(:name)} / #{a.level.try(:level_num)}
+      %td= link_to "#{a.level.try(:game).try(:name)} / #{a.level.try(:level_num)}", [a.level.try(:game), a.level]
       %td
         - if a.best?
           %span{ style: 'color:green'} Finished (#{a.attempt}, #{a.test_result})
@@ -29,4 +29,4 @@
         %br/
 
         finished #{ago(a.created_at)}
-      %td= render partial: 'shared/solution', locals: { xml: a.data }
+      %td= render partial: 'shared/solution', locals: { level: a.level, xml: a.data }

@@ -72,9 +72,16 @@ GEM
       rails (>= 3, < 5)
     haml (4.0.3)
       tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     hashie (2.0.5)
     highline (1.6.19)
     hike (1.2.3)
+    honeybadger (1.8.1)
+      json
     httpauth (0.2.0)
     i18n (0.6.5)
     jbuilder (1.5.1)
@@ -211,6 +218,8 @@ DEPENDENCIES
   factory_girl_rails
   figaro
   haml
+  haml-rails
+  honeybadger
   jbuilder (~> 1.2)
   jquery-rails
   jquery-ui-rails
