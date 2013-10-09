@@ -102,6 +102,8 @@ ActiveRecord::Schema.define(version: 20131003234949) do
     t.datetime "updated_at"
   end
 
+  add_index "sections", ["user_id", "name"], name: "index_sections_on_user_id_and_name", unique: true, using: :btree
+
   create_table "trophies", force: true do |t|
     t.string   "name"
     t.string   "image_name"

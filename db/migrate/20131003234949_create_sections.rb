@@ -7,6 +7,8 @@ class CreateSections < ActiveRecord::Migration
       t.timestamps
     end
 
+    add_index :sections, [:user_id, :name], unique: true
+
     add_column(:followers, :section_id, :integer)
   end
 end
