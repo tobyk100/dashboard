@@ -12,7 +12,7 @@
  *= require_tree .
  *= require jquery.ui.all
  */
-$baseFontFamily: 'Gotham A', 'Gotham B';
+$baseFontFamily: 'Gotham A', 'Gotham B', sans-serif;
 $headingsFontWeight: 400;
 @import "bootstrap";
 
