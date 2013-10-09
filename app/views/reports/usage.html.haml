@@ -1,6 +1,11 @@
 - @page_title = 'Recent Activity'
 
+- if 'students' == params[:action]
+  = render partial: 'shared/teacher_nav', locals: { current: 'activity' }
+
 %h1= @page_title
+
+%br/
 
 %table{ border: 1 }
   %colgroup
