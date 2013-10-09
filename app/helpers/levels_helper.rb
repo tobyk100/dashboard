@@ -1,6 +1,6 @@
 module LevelsHelper
   def build_script_level_path(script_level)
-    script_level_path(script_level.script, script_level.level)
+    script_level_path(script_level.script, script_level)
   end
 
   # this defines which levels should be seeded with th last result from a different level
