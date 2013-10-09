@@ -34,7 +34,7 @@ class ReportsController < ApplicationController
   end
 
   def students
-    @recent_activities = get_base_usage_activity.where("user_id in (#{current_user.students.map(&:id).join(',')})")
+    @recent_activities = current_user.students.emtpy? ? [] : get_base_usage_activity.where("user_id in (#{current_user.students.map(&:id).join(',')})")
     render 'usage'
   end
 
