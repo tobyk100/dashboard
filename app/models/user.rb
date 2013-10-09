@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
   attr_accessor :login
 
   has_many :user_levels
+  has_many :sections
+
   has_many :user_trophies
   has_many :trophies, through: :user_trophies, source: :trophy
 
@@ -131,5 +133,14 @@ SQL
 
   def last_attempt(level)
     Activity.where(user_id: self.id, level_id: level.id).order('id desc').first
+  end
+
+  # returns a map from section to the users in that section
+  def students_by_section
+    class_map = Hash.new{ |h,k| h[k] = [] }
+    self.followers.includes([:section, :student_user]).each do |f|
+      class_map[f.section] << f.student_user
+    end
+    class_map
   end
 end

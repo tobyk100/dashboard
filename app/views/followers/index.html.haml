@@ -1,8 +1,8 @@
 - @page_title = "#{current_user.name} Class Report"
 
-%h1= @page_title
+= render partial: 'shared/teacher_nav', locals: { current: 'report' }
 
-= link_to "Recent class activity", student_usage_path
+%h1= @page_title
 
 %br/
 
@@ -19,4 +19,3 @@
       %td= student.levels_finished
       %td= student.last_attempt_time ? ago(student.last_attempt_time) : '(not yet started)'
 
-= link_to 'Add student', new_follower_path
