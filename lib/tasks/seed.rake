@@ -33,6 +33,7 @@ namespace :seed do
     Game.create!(name: 'Farmer2', base_url: '/blockly/static/maze/index.html', app: 'maze')
     Game.create!(name: 'Artist4', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
     Game.create!(name: 'Farmer3', base_url: '/blockly/static/maze/index.html', app: 'maze')
+    # Game.create!(name: 'MazeEC', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
   end
 
   COL_GAME = 'Game'
@@ -56,6 +57,7 @@ namespace :seed do
     sources = [
         { file: 'config/script.csv', name: '20-hour', video: Video.find_by_key('20_wrapup') },
         { file: 'config/hoc_script.csv', name: 'Hour of Code', video: Video.find_by_key('hoc_wrapup') },
+        # { file: 'config/ec_script.csv', name: 'Edit Code', video: Video.find_by_key('hoc_wrapup') },
     ]
     sources.each do |source|
       script = Script.create!(name: source[:name], wrapup_video: source[:video])
