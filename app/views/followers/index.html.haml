@@ -1,5 +1,5 @@
 - @page_title = "#{current_user.name} Class Report"
-- column_count = 2 + @all_concepts.length + @all_script_levels.length
+- column_count = 1 + @all_concepts.length + @all_script_levels.length
 
 = render partial: 'shared/teacher_nav', locals: { current: 'report' }
 
@@ -8,38 +8,43 @@
 %br/
 -#= @class_map.inspect
 
-%table{ border: "2px"}
-  %col{ width: '200px'}
-  - @all_concepts.each do
-    %col{ width: '25px'}
-  - @all_script_levels.each do
-    %col{ width: '25px'}
-  - @section_map.each_pair do |section, students|
-    %tr
-      %th{ colspan: column_count, style: 'text-align:left' }= section.try(:name) || "No assigned section"
-    %tr
-      %th Name
-      %th{ colspan: @all_concepts.length } Trophies
-      %th{ colspan: @all_script_levels.length } Puzzles
-      -#- @all_concepts.each do |concept|
-      -#  %th= concept.id
-      -#- @all_script_levels.each do |sl|
-      -#  %th= sl.level.id
-    - students.each do |student|
-      - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
-      - level_map = student.user_levels.index_by {|ul| ul.level_id }
+%div{ style: "overflow:scroll;"}
+  %table{ border: "2px", style:"width:2000px;table-layout:fixed;"}
+    %col{ width: '200px'}
+    - @all_concepts.each do
+      %col{ width: '25px'}
+    - @all_script_levels.each do
+      %col{ width: '25px'}
+    - @section_map.each_pair do |section, students|
       %tr
-        %td= link_to student.name || student.username, user_stats_path(student)
+        %th{ colspan: column_count, style: 'text-align:left' }= section.try(:name) || "No assigned section"
+      %tr
+        %th Name
+        %th{ colspan: @all_concepts.length } Trophies
+        %th{ colspan: @all_script_levels.length } Puzzles
+      - students.each do |student|
+        - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
+        - level_map = student.user_levels.index_by {|ul| ul.level_id }
+        %tr
+          %td{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis;"}= link_to student.name || student.username, user_stats_path(student)
 
-        - @all_concepts.each do |concept|
-          - ut = trophy_map[concept.id]
-          %td{ class: ut ? "trophy_#{ut.trophy.name.downcase}" : '', title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
+          - @all_concepts.each do |concept|
+            - ut = trophy_map[concept.id]
+            %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
+              - if ut && (ut.updated_at > 1.day.ago)
+                &bull;
+              - else
+                &nbsp;
 
-        - @all_script_levels.each do |sl|
-          - ul = level_map[sl.level_id]
-          %td{ class: "#{level_box_class(ul.try(:best_result))}", title: build_user_level_message(ul, sl) }
+          - @all_script_levels.each do |sl|
+            - ul = level_map[sl.level_id]
+            %td{ class: "report_cell #{level_box_class(ul.try(:best_result))}", title: build_user_level_message(ul, sl) }
+              - if ul && (ul.updated_at > 1.day.ago)
+                &bull;
+              - else
+                &nbsp;
 
-    %tr
-      %td{ colspan: column_count }
-        &nbsp;
+      %tr
+        %td{ colspan: column_count }
+          &nbsp;
 
