@@ -14,7 +14,7 @@
             .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8
+            .span8{class:"middleheaderspan"}
               - if current_user && @script_level
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
@@ -22,12 +22,12 @@
                 - game_levels = current_user.levels_from_script(script, @game.id)
 
                 %a{ href: user_stats_path(current_user) }
-                  %div.header_text
+                  .header_text
                     Stage #{@game.id}: step
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
                   - if sl.level_id == @script_level.level_id
-                    %div.level_current_header{class:"level_highlight"}
+                    .level_current_header{class:"level_highlight"}
                       #{@script_level.game_chapter}
                   - elsif (sl.game_chapter == count)
                     %a.level_count{class:"level_highlight", href:build_script_level_path(sl)}
@@ -36,12 +36,14 @@
                     - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
                     %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
                 %a{ href: user_stats_path(current_user) }
-                  %div.header_text
+                  .header_text
                     Trophies
-                  %div.header_status_bar
+                  .header_status_bar
                     #{progress['current_trophies']}
-                  %div.header_text
+                  .header_text
                     of #{progress['max_trophies']}
+                .header_text{class:"header_popup"}
+                  More
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?
@@ -59,6 +61,21 @@
                 |
                 = link_to "Sign in", new_user_session_path
 
+    .modal{id:'modal_popup', style:'display:none;'}
+    :javascript
+      $(document).ready(function() {
+        $('.header_popup').bind('click', function() {
+          // var id=$(this).attr("id");
+          // var num=$(this).attr("class");
+          // var poststr="request="+num+"&moreinfo="+id;
+          // data:poststr,
+          $.ajax({url:'/popup/stats',success:function(result){
+            var popup = document.getElementById("modal_popup");
+            popup.innerHTML=result;
+            popup.style.display='block';}
+          });
+        });
+      });
     - if @full_width
       .full_container
         = yield

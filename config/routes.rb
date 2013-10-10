@@ -30,6 +30,7 @@ Dashboard::Application.routes.draw do
   get '/stats/students', to: 'reports#students', as: 'student_usage'
   get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'
   get '/stats/level/:level_id', to: 'reports#level_stats', as: 'level_stats'
+  get '/popup/stats', to: 'reports#header_stats', as: 'header_stats'
 
   # special redirect links
   get '/billg', to: redirect('/s/1/level/13')
