@@ -27,3 +27,11 @@ function initialize_video_popup(youtube_code,name) {
     $('#video_player').modal('show');
     return false;
 }
+
+function embed_thumbnail_image(data) {
+    var thumbnails = data.entry.media$group.media$thumbnail;
+    var video_code = data.entry.media$group.yt$videoid.$t;
+    if (thumbnails && thumbnails.length > 0) {
+        $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
+    }
+}
