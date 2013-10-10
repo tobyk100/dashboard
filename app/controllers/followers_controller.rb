@@ -85,4 +85,17 @@ SELECT
       redirect_to root_path, notice: "#{@teacher.name} was added as a teacher"
     end
   end
+
+  def add_to_section
+    section = Section.find(params[:section_id])
+    raise "not owner of that section" if section.user_id != current_user.id
+
+    Follower.connection.execute(<<SQL)
+update followers
+set section_id = #{section.id}
+where id in (#{params[:follower_ids].map(&:to_i).join(',')})
+  and user_id = #{current_user.id}
+SQL
+    redirect_to manage_followers_path, notice: "Updated class assignments"
+  end
 end

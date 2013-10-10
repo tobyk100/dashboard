@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131001212524) do
+ActiveRecord::Schema.define(version: 20131003234949) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 20131001212524) do
     t.integer  "student_user_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "section_id"
   end
 
   add_index "followers", ["student_user_id"], name: "index_followers_on_student_user_id", using: :btree
@@ -93,6 +94,15 @@ ActiveRecord::Schema.define(version: 20131001212524) do
     t.datetime "updated_at"
     t.integer  "wrapup_video_id"
   end
+
+  create_table "sections", force: true do |t|
+    t.integer  "user_id",    null: false
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "sections", ["user_id", "name"], name: "index_sections_on_user_id_and_name", unique: true, using: :btree
 
   create_table "trophies", force: true do |t|
     t.string   "name"

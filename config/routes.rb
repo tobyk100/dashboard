@@ -1,9 +1,9 @@
 Dashboard::Application.routes.draw do
   resources :callouts
-
   resources :videos
-
   resources :concepts
+  resources :activities
+  resources :sections, only: [:new, :create, :edit, :update, :destroy]
 
   devise_for :users, controllers: {omniauth_callbacks: 'omniauth_callbacks', registrations: 'registrations' }
 
@@ -12,7 +12,6 @@ Dashboard::Application.routes.draw do
   resources :games do
     resources :levels
   end
-  resources :activities
 
   resources :scripts, only: [], path: '/s/' do
     resources :script_levels, as: :levels, only: [:show], path: "/level"
@@ -21,6 +20,8 @@ Dashboard::Application.routes.draw do
   resources :followers, only: [:new, :create, :index]
   get '/followers/:teacher_user_id/accept', to: 'followers#accept', as: 'follower_accept'
   post '/followers/create_student', to: 'followers#create_student', as: 'create_student'
+  get '/followers/manage', to: 'followers#manage', as: 'manage_followers'
+  post '/followers/add_to_section', to: 'followers#add_to_section', as: 'add_to_section'
 
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
 
