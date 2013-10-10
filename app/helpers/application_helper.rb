@@ -33,4 +33,12 @@ module ApplicationHelper
   def create_thumbnail(code, name)
     javascript_include_tag "//gdata.youtube.com/feeds/api/videos/#{code}?v=2&alt=json-in-script&format=5&callback=embed_thumbnail_image"
   end
+
+  def level_box_class(best_result)
+    if !best_result then 'level_untried'
+    elsif best_result == Activity::BEST_PASS_RESULT then 'level_aced'
+    elsif best_result < Activity::MINIMUM_PASS_RESULT then 'level_undone'
+    else 'level_done'
+    end
+  end
 end

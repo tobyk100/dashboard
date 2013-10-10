@@ -5,8 +5,4 @@
     - script_levels.each do |sl|
       - link = build_script_level_path(sl)
       - best_result = sl.user_level ? sl.user_level.best_result : nil
-      - box_class = if !best_result then 'level_untried'
-      - elsif best_result == Activity::BEST_PASS_RESULT then 'level_aced'
-      - elsif best_result < Activity::MINIMUM_PASS_RESULT then 'level_undone'
-      - else 'level_done'
-      = link_to ' ', link, class: "#{"level_current " if sl.level_id == level.try(:id)}level_box #{box_class}"
+      = link_to ' ', link, class: "#{"level_current " if sl.level_id == level.try(:id)}level_box #{level_box_class(best_result)}"

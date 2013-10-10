@@ -4,12 +4,13 @@ class FollowersController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @students = current_user.students.select(<<SELECT)
-users.*,
-(select count(*) from user_levels where user_id = users.id) as levels_finished,
-(select max(created_at) from user_levels where user_id = users.id) as last_attempt_time
-SELECT
+    @section_map = Hash.new{ |h,k| h[k] = [] }
+    current_user.followers.includes([:section, { student_user: [{ user_trophies: [:concept, :trophy] }, :user_levels] }]).each do |f|
+      @section_map[f.section] << f.student_user
+    end
 
+    @all_script_levels = Script.first.script_levels.includes({ level: :game })
+    @all_concepts = Concept.all
   end
 
   def new
