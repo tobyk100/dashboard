@@ -1,15 +1,27 @@
 - @page_title = "#{current_user.name} Class Report"
 - column_count = 1 + @all_concepts.length + @all_script_levels.length
+- stage_map = @all_script_levels.group_by { |sl| sl.level.game }
+- hours = (params[:hours] || 1).to_i
+- add_section_ui = !current_user.sections.blank?
 
 = render partial: 'shared/teacher_nav', locals: { current: 'report' }
 
 %h1= @page_title
 
 %br/
--#= @class_map.inspect
+
+= form_tag(nil, method: 'GET') do
+  Mark actions (&bull;) worked on in the past:
+  = select_tag('hours', options_for_select([["1 hour", 1], ["day", 24], ["week", 24 * 7]], selected: params[:hours] || 1), {onchange:"this.form.submit();" })
+  - if add_section_ui
+    %br/
+    Section:
+    = select_tag('section_id', options_from_collection_for_select(current_user.sections.unshift(Section.new(name: 'all')), :id, :name, params[:section_id]), {onchange:"this.form.submit();" })
+  Game:
+  = select_tag('game_id', options_from_collection_for_select(@all_games.unshift(Game.new(name: 'all')), :id, :name, params[:game_id]), {onchange:"this.form.submit();" })
 
 %div{ style: "overflow:scroll;"}
-  %table{ border: "2px", style:"width:2000px;table-layout:fixed;"}
+  %table{ border: "2px", style:"width:#{200 + (@all_concepts.length + @all_script_levels.length) * 25}px;table-layout:fixed;"}
     %col{ width: '200px'}
     - @all_concepts.each do
       %col{ width: '25px'}
@@ -21,7 +33,8 @@
       %tr
         %th Name
         %th{ colspan: @all_concepts.length } Trophies
-        %th{ colspan: @all_script_levels.length } Puzzles
+        - stage_map.each_pair do |game, levels|
+          %th{ colspan: levels.length }= game.name
       - students.each do |student|
         - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
         - level_map = student.user_levels.index_by {|ul| ul.level_id }
@@ -33,18 +46,15 @@
             %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
               - if ut && (ut.updated_at > 1.day.ago)
                 &bull;
-              - else
-                &nbsp;
 
           - @all_script_levels.each do |sl|
             - ul = level_map[sl.level_id]
             %td{ class: "report_cell #{level_box_class(ul.try(:best_result))}", title: build_user_level_message(ul, sl) }
-              - if ul && (ul.updated_at > 1.day.ago)
+              - if ul && (ul.updated_at > hours.hours.ago)
                 &bull;
-              - else
-                &nbsp;
 
       %tr
         %td{ colspan: column_count }
           &nbsp;
 
+&bull; indicates the student has worked on this in the last #{hours} #{'hour'.pluralize(hours)}
