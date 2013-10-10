@@ -1,4 +1,5 @@
 - @page_title = "Manage students"
+- add_section_ui = !current_user.sections.blank?
 
 = render partial: 'shared/teacher_nav', locals: { current: 'manage' }
 
@@ -7,21 +8,22 @@
 %br/
 
 = form_tag(add_to_section_path) do
-  Add checked students to section:
-  = select_tag('section_id', options_from_collection_for_select(current_user.sections, :id, :name))
-  = submit_tag 'Go'
+  - if add_section_ui
+    Add checked students to section:
+    = select_tag('section_id', options_from_collection_for_select(current_user.sections, :id, :name))
+    = submit_tag 'Go'
 
   %fieldset
     %table
       %tr
-        %th= check_box_tag(nil, nil, false, class: :checkall)
+        %th= add_section_ui ? check_box_tag(nil, nil, false, class: :checkall) : ''
         %th Name
         %th Email
         %th Section
 
       - current_user.followers.includes([:student_user, :section]).each do |followed|
         %tr
-          %td= check_box_tag('follower_ids[]', followed.id)
+          %td= add_section_ui ? check_box_tag('follower_ids[]', followed.id) : ''
           %td= link_to followed.student_user.name || followed.student_user.username, user_stats_path(followed.student_user)
           %td= followed.student_user.email
           %td= followed.section.try(:name)

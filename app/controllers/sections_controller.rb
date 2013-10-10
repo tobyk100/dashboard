@@ -18,7 +18,7 @@ class SectionsController < ApplicationController
 
     respond_to do |format|
       if @section.save
-        format.html { redirect_to followers_path, notice: 'Section was successfully created.' }
+        format.html { redirect_to manage_followers_path, notice: 'Section was successfully created.' }
       else
         format.html { render action: 'new' }
       end
@@ -28,7 +28,7 @@ class SectionsController < ApplicationController
   def update
     respond_to do |format|
       if @section.update(section_params)
-        format.html { redirect_to followers_path, notice: 'Section was successfully updated.' }
+        format.html { redirect_to manage_followers_path, notice: 'Section was successfully updated.' }
       else
         format.html { render action: 'edit' }
       end
@@ -39,7 +39,6 @@ class SectionsController < ApplicationController
     @section.destroy
     respond_to do |format|
       format.html { redirect_to sections_url }
-      format.json { head :no_content }
     end
   end
 
