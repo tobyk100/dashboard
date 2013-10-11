@@ -1,0 +1,10 @@
+- if mobile?
+  = link_to video.name, youtube_url(video.youtube_code)
+- else
+  = link_to image_tag(video_thumbnail_url(video), :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7), "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
+  -#%p #{video.name}
+- if video_counter.odd?
+  %br/
+  %br/
+- else
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
