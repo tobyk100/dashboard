@@ -20,6 +20,8 @@ fi
 
 export DEBIAN_FRONTEND=noninteractive
 aptitude update
+
+# Production service dependencies.
 aptitude -y install \
   build-essential \
   git \
@@ -29,9 +31,19 @@ aptitude -y install \
   libmysqlclient-dev \
   nginx
 
+# Native dependencies for builds with Node.js.
+if $CDO_DEV; then
+  aptitude -y install \
+    libcairo2-dev \
+    libjpeg8-dev \
+    libpango1.0-dev \
+    libgif-dev \
+    g++
+fi
+
 export CDO_BUILD_PATH=/usr/src
 
-if [[ ! -f ruby-2.0.0-p247.tar.gz ]]; then
+if [[ ! -f $CDO_BUILD_PATH/ruby-2.0.0-p247.tar.gz ]]; then
   wget -P $CDO_BUILD_PATH http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
   tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/ruby-2.0.0-p247.tar.gz
   (
