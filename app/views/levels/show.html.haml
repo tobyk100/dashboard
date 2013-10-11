@@ -2,13 +2,14 @@
 
 = render partial: "levels/blockly", locals: { app: @game.app }
 
-- if @videos && !@videos.empty?
-  %h4.help_text Need help?
-  %h5 Checkout these videos and hints.
-  = render partial: 'levels/video', collection: @videos
-- if can? :edit, @level
-  %br/
-  #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
+.reference_area
+  - if @videos && !@videos.empty?
+    %h4.help_text Need help?
+    %h5 Checkout these videos and hints.
+    = render partial: 'levels/video', collection: @videos
+  - if can? :edit, @level
+    %br/
+    #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
 
 .modal.fade#video_player{ style: 'display:none;'}
   .modal-header

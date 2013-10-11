@@ -1,10 +1,9 @@
 - if mobile?
   = link_to video.name, youtube_url(video.youtube_code)
 - else
-  = link_to image_tag(video_thumbnail_url(video), :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7), "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
-  -#%p #{video.name}
+  = link_to("#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;", :class => 'video_link') do
+    = image_tag(video_thumbnail_url(video), :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7, :class => 'video_thumbnail')
+    .video_name
+      %span= video.name
 - if video_counter.odd?
-  %br/
-  %br/
-- else
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  .clear

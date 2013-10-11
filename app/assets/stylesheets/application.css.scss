@@ -29,6 +29,10 @@ h2 {
   font-weight: 500;
 }
 
+.clear {
+  clear: both;
+}
+
 .navbar {
   margin-bottom: 30px;
 }
@@ -206,7 +210,21 @@ body .modal {
   font-size: 24pt;
 }
 
-.help_text{
-  color:#1180be;
-  font-weight:bold;
+.reference_area {
+
+  .help_text {
+    color: #1180be;
+    font-weight:bold;
+  }
+
+  .video_link {
+    display: block;
+    float: left;
+    margin: 8px;
+  }
+
+  .video_name {
+    text-align: center;
+  }
+
 }
