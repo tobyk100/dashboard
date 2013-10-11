@@ -1,6 +1,6 @@
 class FollowersController < ApplicationController
-  check_authorization except: :accept
-  load_and_authorize_resource except: :accept
+  check_authorization except: [:accept, :manage]
+  load_and_authorize_resource except: [:accept, :manage]
   before_filter :authenticate_user!
 
   def index
