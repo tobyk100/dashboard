@@ -74,10 +74,6 @@ fi
 service nginx restart
 
 if $CDO_DEV; then
-  locale-gen en_IE en_IE.UTF-8 en_US.UTF-8
-  dpkg-reconfigure locales
-  aptitude -y install default-jre-headless
-
   if [[ ! -d $CDO_BUILD_PATH/node-0.10.20 ]]; then
     wget -P $CDO_BUILD_PATH https://github.com/joyent/node/archive/v0.10.20.tar.gz
     tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/v0.10.20.tar.gz

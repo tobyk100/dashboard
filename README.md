@@ -16,13 +16,25 @@ vagrant ssh
 cd /vagrant
 
 # Configure and run Rails
-rake db:create db:migrate seed:all
+rake db:create db:migrate seed:all youtube:thumbnails
 rails server
 ```
 
 Then navigate to `http://192.168.60.10:3000/`.
 
 If you are developing in Blockly you should `cd blockly` and run `grunt dev`. This will start a watch server which will recompile Blockly whenever its' source files are edited (and saved).
+
+#### Updating Vagrant VM
+cd dashboard
+vagrant ssh
+cd /vagrant/blockly
+git pull
+sudo npm install
+grunt
+cd ..
+bundle
+rake db:migrate seed:all youtube:thumbnails
+rails server
 
 ### Local Development Server (Advanced)
 
