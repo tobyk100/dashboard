@@ -4,8 +4,9 @@
 
 .reference_area
   - if @videos && !@videos.empty?
-    %h4.help_text Need help?
-    %h5 Checkout these videos and hints.
+    %h5
+      %span.help_text Need help?
+      %span Checkout these videos and hints.
     = render partial: 'levels/video', collection: @videos
   - if can? :edit, @level
     %br/
