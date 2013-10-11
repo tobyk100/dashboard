@@ -21,17 +21,17 @@ module ApplicationHelper
     false
   end
 
-  def build_youtube_link(code)
+  def youtube_url(code)
     "https://www.youtubeeducation.com/watch?v=#{code}"
+  end
+
+  def video_thumbnail_url(video)
+    "#{root_url}/video_thumbnails/#{video.id}.jpg"
   end
 
   def format_xml(xml)
     doc = Nokogiri::XML(xml)
     doc.to_xhtml
-  end
-
-  def create_thumbnail(code, name)
-    javascript_include_tag "//gdata.youtube.com/feeds/api/videos/#{code}?v=2&alt=json-in-script&format=5&callback=embed_thumbnail_image"
   end
 
   def level_box_class(best_result)

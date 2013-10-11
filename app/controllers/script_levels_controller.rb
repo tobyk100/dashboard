@@ -16,11 +16,7 @@ class ScriptLevelsController < ApplicationController
     @level = @script_level.level
     @game = @level.game
 
-    @videos = []
-    @videos << @game.intro_video if @game.intro_video
-    @level.concepts.each do |concept|
-      @videos << concept.video if concept.video
-    end
+    @videos = @level.videos
 
     # todo: make this based on which videos the user/session has already seen
     seen = session[:videos_seen] || Set.new()
