@@ -32,3 +32,6 @@
 
 # Ignore per-user Vagrant data
 .vagrant
+
+# Fetched from YouTube
+/public/video_thumbnails

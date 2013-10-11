@@ -9,10 +9,9 @@
   - @videos.each do |video|
     - $column = ($column + 1) % 2;
     - if mobile?
-      = link_to video.name, build_youtube_link(video.youtube_code)
+      = link_to video.name, youtube_url(video.youtube_code)
     - else
-      = link_to image_tag("#", :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7), "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
-      = create_thumbnail(video.youtube_code, video.name)
+      = link_to image_tag(video_thumbnail_url(video), :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7), "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
       -#%p #{video.name}
     - if $column == 1
       %br/
