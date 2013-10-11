@@ -2,25 +2,14 @@
 
 = render partial: "levels/blockly", locals: { app: @game.app }
 
-- if @videos && !@videos.empty?
-  %h4.help_text Need help?
-  %h5 Checkout these videos and hints.
-  - $column = -1;
-  - @videos.each do |video|
-    - $column = ($column + 1) % 2;
-    - if mobile?
-      = link_to video.name, youtube_url(video.youtube_code)
-    - else
-      = link_to image_tag(video_thumbnail_url(video), :id => "thumbnail_" + video.youtube_code, :width => 39*4.7, :height => 50*4.7), "#", onclick: "initialize_video_popup('#{video.youtube_code}', '#{video.name}'); return false;"
-      -#%p #{video.name}
-    - if $column == 1
-      %br/
-      %br/
-    - else
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-- if can? :edit, @level
-  %br/
-  #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
+.reference_area
+  - if @videos && !@videos.empty?
+    %h4.help_text Need help?
+    %h5 Checkout these videos and hints.
+    = render partial: 'levels/video', collection: @videos
+  - if can? :edit, @level
+    %br/
+    #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
 
 .modal.fade#video_player{ style: 'display:none;'}
   .modal-header
