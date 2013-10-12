@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131003234949) do
+ActiveRecord::Schema.define(version: 20131012033115) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 20131003234949) do
     t.string   "text",       limit: 1024, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "qtip_at"
+    t.string   "qtip_my"
   end
 
   create_table "concepts", force: true do |t|

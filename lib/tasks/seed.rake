@@ -92,12 +92,17 @@ namespace :seed do
 
   CALLOUT_ELEMENT_ID = 'element_id'
   CALLOUT_TEXT = 'text'
+  CALLOUT_AT = 'at'
+  CALLOUT_MY = 'my'
 
   task callouts: :environment do
     Trophy.connection.execute('truncate table callouts')
 
     CSV.read('config/callouts.tsv', { col_sep: "\t", headers: true }).each do |row|
-      Callout.create!(element_id: row[CALLOUT_ELEMENT_ID], text: row[CALLOUT_TEXT])
+      Callout.create!(element_id: row[CALLOUT_ELEMENT_ID],
+                      text: row[CALLOUT_TEXT],
+                      qtip_at: row[CALLOUT_AT],
+                      qtip_my: row[CALLOUT_MY])
     end
   end
   task trophies: :environment do
