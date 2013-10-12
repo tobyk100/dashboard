@@ -25,6 +25,7 @@ Then navigate to `http://192.168.60.10:3000/`.
 If you are developing in Blockly you should `cd blockly` and run `grunt dev`. This will start a watch server which will recompile Blockly whenever its' source files are edited (and saved).
 
 #### Updating Vagrant VM
+```shell
 cd dashboard
 vagrant ssh
 cd /vagrant/blockly
@@ -35,7 +36,7 @@ cd ..
 bundle
 rake db:migrate seed:all youtube:thumbnails
 rails server
-
+```
 ### Local Development Server (Advanced)
 
 __Note__: This is considered advanced since there are hidden dependencies and system configuration may conflict.
