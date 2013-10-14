@@ -4,7 +4,7 @@ require 'open-uri'
 namespace :youtube do
 
   def thumbnail_url(youtube_id)
-    "http://img.youtube.com/vi/#{youtube_id}/default.jpg"
+    "http://img.youtube.com/vi/#{youtube_id}/mqdefault.jpg"
   end
 
   def thumbnail_dir
