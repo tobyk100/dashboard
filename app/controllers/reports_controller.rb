@@ -4,15 +4,6 @@ class ReportsController < ApplicationController
 
   before_action :set_script
 
-  def stats(user, layout)
-    # default to 20-hour script
-    @user = user
-    @script ||= Script.first
-    @concept_progress = @user.concept_progress
-    
-    render file: "reports/user_stats", layout: layout
-  end
-
   def user_stats
     user = User.find_by_id(params[:user_id])
     authorize! :read, user
@@ -87,5 +78,14 @@ class ReportsController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_script
     @script = Script.find(params[:script_id]) if params[:script_id]
+  end
+  
+  def stats(user, layout)
+    # default to 20-hour script
+    @user = user
+    @script ||= Script.first
+    @concept_progress = @user.concept_progress
+    
+    render file: "reports/user_stats", layout: layout
   end
 end

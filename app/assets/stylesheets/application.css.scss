@@ -134,11 +134,13 @@ h2 {
 }
 
 $header_text: white;
+$bkgnd_color: #00adbc;
+$inset_color: #cde;
 
 .header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #00adbc;
+  background-color: $bkgnd_color;
   color: $header_text;
   a:link {color:$header_text;}
   a:visited {color:$header_text;}
@@ -166,7 +168,7 @@ $header_text: white;
   text-align:center;
   position:relative;
   font-size: 150%;
-  border-bottom: 1px solid #cde;
+  border-bottom: 1px solid $inset_color;
   border-bottom-style: inset;
 }
 
@@ -176,7 +178,7 @@ $header_text: white;
   margin-top: -8px;
   margin-right: 4px;
   height: 42px;
-  border-right: 1px solid #cde;
+  border-right: 1px solid $inset_color;
   border-right-style: inset;
   display: inline-block;
 }
@@ -225,9 +227,9 @@ body .header_popup {
   width:620px;
   margin-left:-330px;
   margin-top:-26px;
-  border: 20px solid #00adbc;
-  border-top: 5px solid #00adbc;
-  border-bottom: 5px solid #00adbc;
+  border: 20px solid $bkgnd_color;
+  border-top: 5px solid $bkgnd_color;
+  border-bottom: 5px solid $bkgnd_color;
   overflow: hidden;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;

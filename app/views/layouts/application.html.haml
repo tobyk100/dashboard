@@ -14,7 +14,7 @@
             .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8{class:"middleheaderspan"}
+            .span8{class:(current_user && @script_level) ? "middleheaderspan" : ""}
               - if current_user && @script_level
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
@@ -87,7 +87,7 @@
         $('#popupClose').bind('click', togglePopup );
         $('#headerPopupLink').bind('click', function() {
           if ($("#headerPopupBody").html() == "") {
-            $.ajax({url:'/popup/stats',success:function(result) {
+            $.ajax({url:'#{header_stats_path()}',success:function(result) {
                 $("#headerPopupBody").html(result);
                 togglePopup();
               }
