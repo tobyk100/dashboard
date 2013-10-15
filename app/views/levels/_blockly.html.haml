@@ -35,7 +35,8 @@
       my: "top left"
     };
 
-    for (var i = 0, max = 2; i < CALLOUTS.length && max > 0; i++) {
+    var MAX_CALLOUTS = 2;
+    for (var i = 0; i < CALLOUTS.length || i >= MAX_CALLOUTS; i++) {
       var callout = CALLOUTS[i];
       var selector = callout.element_id;  // jquery selector.
       if (!(sessionPrefix + selector in sessionStorage)) {  // show only once.
@@ -49,7 +50,6 @@
           });
           calloutDomElement.qtip('show');
           sessionStorage.setItem(sessionPrefix + selector, true);
-          max--;
         }
       }
     }
