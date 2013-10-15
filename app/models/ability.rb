@@ -11,6 +11,7 @@ class Ability
       can :read, :all
     end
     if user.id
+      can :create, Section
       can :create, Activity
       can :create, UserLevel
       can :create, Follower
