@@ -1,1 +1,8 @@
-= render 'new_student_form'
+- if @user.errors.any?
+  #error_explanation
+    %ul
+      - @user.errors.full_messages.each do |msg|
+        %li= msg
+
+= form_for(@user, url: { action: :create_student }) do |f|
+  = render partial: 'new_student_form', locals: { f: f, user: @user }

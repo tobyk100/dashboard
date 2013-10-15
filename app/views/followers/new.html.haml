@@ -8,5 +8,6 @@
 
 %p
   %h4 Create your student's account:
-
-  = render 'new_student_form'
+  - user = User.new
+  = form_for(user, url: { action: :create_student }) do |f|
+    = render partial: 'new_student_form', locals: { f: f, user: user }
