@@ -15,7 +15,7 @@ Maze	Level13	2_13	pvz	if, loop_until	Woah, a new block! Use the new &quot;if&quo
 Maze	Level14	2_14	pvz	if, loop_until	How can I get to the sunflower? Use the &quot;if&quot; block to make it happen.	
 Maze	Level15	2_15	pvz	if, loop_until	Get me to that sunflower! Try making me turn right if there is a path to the right.	
 Maze	Level16	2_16	pvz	if, loop_until	Can you help me get to that tasty sunflower? Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
-Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	 
+Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	
 Maze	Level18	2_18	pvz	if_else, loop_until	Will you help me get to the sunflower for the last time? Make sure to use an &quot;if-else&quot; block!	
 Artist	Level1	1_1		sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
 Artist	Level2	1_2		sequence	Draw a square, making each side a different color.	
@@ -81,3 +81,4 @@ Farmer3	Level6	karel_debug_if_else	farmer
 Farmer3	Level7	karel_debug_function_1	farmer			
 Farmer3	Level8	karel_debug_function_2	farmer			
 Farmer3	Level9	karel_debug_function_3	farmer			
+Artist5	Level1	5_1				

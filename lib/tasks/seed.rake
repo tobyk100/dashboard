@@ -33,6 +33,7 @@ namespace :seed do
     Game.create!(name: 'Farmer2', base_url: '/blockly/static/maze/index.html', app: 'maze')
     Game.create!(name: 'Artist4', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
     Game.create!(name: 'Farmer3', base_url: '/blockly/static/maze/index.html', app: 'maze')
+    Game.create!(name: 'Artist5', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
     # Game.create!(name: 'MazeEC', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
   end
 
