@@ -14,7 +14,7 @@
             .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8
+            .span8{class:(current_user && @script_level) ? "middleheaderspan" : ""}
               - if current_user && @script_level
                 - script = @script || Script.first
                 - progress = current_user.progress(script)
@@ -22,12 +22,12 @@
                 - game_levels = current_user.levels_from_script(script, @game.id)
 
                 %a{ href: user_stats_path(current_user) }
-                  %div.header_text
+                  .header_text
                     Stage #{@game.id}: step
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
                   - if sl.level_id == @script_level.level_id
-                    %div.level_current_header{class:"level_highlight"}
+                    .level_current_header{class:"level_highlight"}
                       #{@script_level.game_chapter}
                   - elsif (sl.game_chapter == count)
                     %a.level_count{class:"level_highlight", href:build_script_level_path(sl)}
@@ -35,13 +35,20 @@
                   - else
                     - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
                     %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                .header_separator
                 %a{ href: user_stats_path(current_user) }
-                  %div.header_text
+                  .header_text
                     Trophies
-                  %div.header_status_bar
+                  .header_status_bar
                     #{progress['current_trophies']}
-                  %div.header_text
+                  .header_text
                     of #{progress['max_trophies']}
+                .header_separator
+                .header_popup_link{id:"headerPopupLink"}
+                  .header_popup_link_glyph
+                    &#x25BC;
+                  .header_popup_link_text
+                    MORE
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?
@@ -59,6 +66,38 @@
                 |
                 = link_to "Sign in", new_user_session_path
 
+    .header_popup{class:"modal",id:"headerPopup"}
+      .modal-body{id:"headerPopupBody", style: 'max-height:534px;'}
+      .header_popup_footer
+        %div{id:"popupClose"}
+          CLOSE
+    :javascript
+      togglePopup = function () {
+        $("#headerPopup").toggle();
+        if ($("#headerPopup").css('display') == 'none') {
+          $(".header_popup_link_glyph").html("&#x25BC;");
+          $(".header_popup_link_text").html("MORE");
+        }
+        else {
+          $(".header_popup_link_glyph").html("&#x25B2;");
+          $(".header_popup_link_text").html("LESS");
+        }
+      }
+      $(document).ready(function() {
+        $('#popupClose').bind('click', togglePopup );
+        $('#headerPopupLink').bind('click', function() {
+          if ($("#headerPopupBody").html() == "") {
+            $.ajax({url:'#{header_stats_path()}',success:function(result) {
+                $("#headerPopupBody").html(result);
+                togglePopup();
+              }
+            });
+          }
+          else {
+            togglePopup();
+          }
+        });
+      });
     - if @full_width
       .full_container
         = yield

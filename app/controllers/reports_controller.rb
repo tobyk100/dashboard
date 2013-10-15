@@ -5,17 +5,21 @@ class ReportsController < ApplicationController
   before_action :set_script
 
   def user_stats
-    @user = User.find_by_id(params[:user_id])
-    authorize! :read, @user
-    if !@user || !(@user.id == current_user.id || @user.teachers.include?(current_user) || current_user.admin?)
+    user = User.find_by_id(params[:user_id])
+    authorize! :read, user
+    if !user || !(user.id == current_user.id || user.teachers.include?(current_user) || current_user.admin?)
       flash[:alert] = "You don't have access to this person's stats"
       redirect_to root_path
       return
     end
-
-    # default to 20-hour script
-    @script ||= Script.first
-    @concept_progress = @user.concept_progress
+    
+    stats user, true
+  end
+  
+  def header_stats
+    authorize! :read, current_user
+    
+    stats current_user, false
   end
 
   def usage
@@ -74,5 +78,14 @@ class ReportsController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_script
     @script = Script.find(params[:script_id]) if params[:script_id]
+  end
+  
+  def stats(user, layout)
+    # default to 20-hour script
+    @user = user
+    @script ||= Script.first
+    @concept_progress = @user.concept_progress
+    
+    render file: "reports/user_stats", layout: layout
   end
 end

@@ -42,13 +42,13 @@ h2 {
 }
 
 .level_highlight {
-  border-radius: 18px;
+  border-radius: 20px;
   color: white;
-  font: 15px/13px 'Gotham A', 'Gotham B';
-  height: 20px;
-  padding: 6px 3px 0 3px;
+  font-size: 16px;
+  height: 22px;
+  padding: 4px 2px 0 2px;
   text-align: center;
-  min-width: 20px;
+  min-width: 22px;
   display: inline-block;
 }
 
@@ -61,9 +61,9 @@ h2 {
 }
 
 .other_level {
-  border-radius: 12px;
-  height: 12px;
-  min-width: 12px;
+  border-radius: 10px;
+  height: 10px;
+  min-width: 10px;
   margin-left: -1px;
   margin-right: -1px;
   display: inline-block;
@@ -134,11 +134,13 @@ h2 {
 }
 
 $header_text: white;
+$bkgnd_color: #00adbc;
+$inset_color: #cde;
 
 .header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #00adbc;
+  background-color: $bkgnd_color;
   color: $header_text;
   a:link {color:$header_text;}
   a:visited {color:$header_text;}
@@ -151,20 +153,34 @@ $header_text: white;
   border-radius: 5px;
   min-width: 20px;
   padding: 3px;
-  font: 16px/14px 'Gotham A', 'Gotham B';
+  font-size: 16px;
   display: inline-block;
 }
 
 .header_text {
-  font: 16px/14px 'Gotham A', 'Gotham B';
+  font-size: 16px;
   display: inline-block;
 }
 
-.span8 {
-  padding-top:30px;
+.middleheaderspan {
+  padding-top:20px;
+  padding-bottom:10px;
   text-align:center;
   position:relative;
   font-size: 150%;
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
+}
+
+.header_separator {
+  padding-left: 4px;
+  margin-bottom: -18px;
+  margin-top: -8px;
+  margin-right: 4px;
+  height: 42px;
+  border-right: 1px solid $inset_color;
+  border-right-style: inset;
+  display: inline-block;
 }
 
 .user_menu a {
@@ -203,6 +219,51 @@ body .modal {
 
 .modal-body {
   max-height: 500px;
+}
+
+body .header_popup {
+  display:none;
+  top:auto;
+  width:620px;
+  margin-left:-330px;
+  margin-top:-26px;
+  border: 20px solid $bkgnd_color;
+  border-top: 5px;
+  border-bottom: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.header_popup_footer {
+  padding: 12px 15px 6px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  color: $header_text;
+  background-color: $bkgnd_color;
+  cursor: pointer;
+}
+
+.header_popup_link {
+  max-width: 29px;
+  display: inline-block;
+  height: 26px;
+  cursor: pointer;
+}
+
+.header_popup_link_glyph {
+  font-size: 22px;
+  color: orange;
+  display: inline-block;
+  line-height: 2px;
+}
+
+.header_popup_link_text {
+  font-size: 10px;
+  color: $header_text;
+  display: inline-block;
+  line-height: 10px;
 }
 
 .close {
