@@ -42,7 +42,7 @@
                     #{progress['current_trophies']}
                   .header_text
                     of #{progress['max_trophies']}
-                .header_text{class:"header_popup"}
+                .header_text{class:"header_popup_link"}
                   More
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
@@ -61,19 +61,20 @@
                 |
                 = link_to "Sign in", new_user_session_path
 
-    .modal{id:'modal_popup', style:'display:none;'}
+    .header_popup{class:"modal"}
     :javascript
       $(document).ready(function() {
-        $('.header_popup').bind('click', function() {
-          // var id=$(this).attr("id");
-          // var num=$(this).attr("class");
-          // var poststr="request="+num+"&moreinfo="+id;
-          // data:poststr,
-          $.ajax({url:'/popup/stats',success:function(result){
-            var popup = document.getElementById("modal_popup");
-            popup.innerHTML=result;
-            popup.style.display='block';}
-          });
+        $('.header_popup_link').bind('click', function() {
+          if ($(".header_popup").html() == "") {
+            $.ajax({url:'/popup/stats',success:function(result) {
+                $(".header_popup").html(result);
+                $(".header_popup").toggle();
+              }
+            });
+          }
+          else {
+            $(".header_popup").toggle();
+          }
         });
       });
     - if @full_width

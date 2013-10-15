@@ -206,6 +206,19 @@ body .modal {
   max-height: 500px;
 }
 
+body .header_popup {
+  display:none;
+  top:auto;
+  width:620px;
+  margin-left:-310px;
+  margin-top:-29px;
+  border: 15px solid #00adbc;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 .close {
   color:red;
   font-size: 24pt;
