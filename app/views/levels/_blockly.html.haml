@@ -35,9 +35,9 @@
       my: "top left"
     };
 
-    var MAX_CALLOUTS = 2;
-    for (var i = 0; i < CALLOUTS.length || i >= MAX_CALLOUTS; i++) {
-      var callout = CALLOUTS[i];
+    var MAX_CALLOUTS = 2,
+        callouts_found = 0;
+    CALLOUTS.every(function(callout) {
       var selector = callout.element_id;  // jquery selector.
       if (!(sessionPrefix + selector in sessionStorage)) {  // show only once.
         if ($(selector).length > 0) {  // exit if selector isn't present.
@@ -50,9 +50,11 @@
           });
           calloutDomElement.qtip('show');
           sessionStorage.setItem(sessionPrefix + selector, true);
+          callouts_found++;
         }
       }
-    }
+      return (callouts_found < MAX_CALLOUTS);  // Loop condition.
+    });
   };
   #{app}Main({
     containerId: 'blocklyApp',
