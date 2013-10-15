@@ -53,6 +53,11 @@
               - if ul && (ul.updated_at > hours.hours.ago)
                 &bull;
 
+      - if section
+        %tr
+          %td{ colspan: column_count }
+            Your students can join #{section.name} using the code
+            %b= section.code
       %tr
         %td{ colspan: column_count }
           &nbsp;

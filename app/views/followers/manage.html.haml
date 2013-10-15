@@ -21,7 +21,7 @@
         %th Email
         %th Section
 
-      - current_user.followers.order('users.name').includes([:student_user, :section]).each do |followed|
+      - @followers.each do |followed|
         %tr
           %td= add_section_ui ? check_box_tag('follower_ids[]', followed.id) : ''
           %td= link_to followed.student_user.name || followed.student_user.username, user_stats_path(followed.student_user)

@@ -12,10 +12,11 @@
         = teacher.name
         %br/
       %br/
-    Add a teacher by email address:
+    Add a teacher by code or email address:
     = form_for([Follower.new]) do |f|
       .field
-        = email_field_tag :teacher_email
+        = text_field_tag :teacher_email_or_code, nil, style: "width: 400px", placeholder: "Code (123ABC) or email (teacher@school.edu)"
+        = hidden_field_tag :redirect, root_path
       .actions
         = f.submit 'Add teacher'
     %br/

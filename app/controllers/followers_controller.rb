@@ -1,6 +1,6 @@
 class FollowersController < ApplicationController
-  check_authorization except: [:accept, :manage, :create_student]
-  load_and_authorize_resource except: [:accept, :manage, :create_student]
+  check_authorization except: [:accept, :manage, :create_student, :add_to_section]
+  load_and_authorize_resource except: [:accept, :manage, :create_student, :add_to_section]
   before_filter :authenticate_user!
 
   def index
@@ -46,19 +46,24 @@ class FollowersController < ApplicationController
           redirect_to redirect_url, notice: "Username '#{key}' not found"
         end
       end
-    elsif params[:teacher_email]
-      target_user = User.find_by_email(params[:teacher_email])
+    elsif params[:teacher_email_or_code]
+      target_section = Section.find_by_code(params[:teacher_email_or_code])
+      target_user = target_section.try(:user) || User.find_by_email(params[:teacher_email_or_code])
 
       if target_user
-        Follower.create!(user: target_user, student_user: current_user)
+        Follower.create!(user: target_user, student_user: current_user, section: target_section)
 
         redirect_to redirect_url, notice: "#{target_user.name} added as your teacher"
       else
-        redirect_to redirect_url, notice: "Could not find anyone signed in with '#{params[:email]}'. Please ask them to sign up here and then try adding them again"
+        redirect_to redirect_url, notice: "Could not find anyone signed in with '#{params[:teacher_email_or_code]}'. Please ask them to sign up here and then try adding them again"
       end
     else
       raise "unknown use"
     end
+  end
+
+  def manage
+    @followers = current_user.followers.order('users.name').includes([:student_user, :section])
   end
 
   def create_student
