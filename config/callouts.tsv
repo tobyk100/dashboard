@@ -1,9 +1,13 @@
-Name	element_id	text
-Run Button	#runButton	Click here to run your program.
-Help Button	#helpButton	Click here for help.
-Set Color	#set-color	Click here to change the color turtle uses to draw.
-Set Width	#draw-width	Use this block to change the width of the brush.
-Move Backwards	move-backwards	Use this block to move backwards.
-Show Code	show-code	Click here to see your code.
-Categories	.blocklyTreeRow:last	Find your blocks organized under these categories.
-Night Level	night-level	It's nighttime for farmer.
+Name	text	my	at	element_id	The name column is a human readable name, and is arbitrary. The text column is what will show in the callout. The obscured element_id column is a jquery selectory for the desired element, ask a developer to do this for you. The at and my position columns are based on the positioning system described here: http://qtip2.com/options#position. This spreadsheet is sorted from top to bottom. This means that if more than the maximum number of callouts could be shown on a given page, only the first n (n <= maximum) callouts will be show. The remaining callouts will be shown later.
+Run Button	Click here to run your program.	bottom left	top right	#runButton	
+Help Button	Click here for help.	top left	bottom right	#helpButton	
+Set Color	Click here to change the color turtle uses to draw.	top left	bottom right	#set-color	
+Set Width	Use this block to change the width of the brush.	top left	bottom right	#draw-width	
+Move Backwards	Use this block to move backwards.	top left	bottom right	move-backwards	
+Show Code	Click here to see your code.	top left	bottom right	show-code	
+Categories	Find your blocks organized under these categories.	top left	bottom right	.blocklyTreeRow:last	
+Night Level	It's nighttime for farmer.	top left	bottom right	night-level	
+Move Forward	Use the move forward block to move the zombie.	bottom left	top right	#move-forward	
+Trashcan	Get rid of unwanted blocks here.	top right	bottom left	#trashcan	
+Show Code	Click here to see the code you are generating.	top right	bottom left	#show-code-header	
+Procedures	Find a function definition block in the procedures category.	left center	right center	.blocklyTreeRow:eq(2)	

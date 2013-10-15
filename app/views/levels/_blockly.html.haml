@@ -30,22 +30,31 @@
   };
   var callout = function() {
     var sessionPrefix = "callout_";
+    var defaults = {
+      at: "bottom right",
+      my: "top left"
+    };
 
-    for (var index in CALLOUTS) {
-      var callout = CALLOUTS[index];
+    var MAX_CALLOUTS = 2,
+        callouts_found = 0;
+    CALLOUTS.every(function(callout) {
       var selector = callout.element_id;  // jquery selector.
       if (!(sessionPrefix + selector in sessionStorage)) {  // show only once.
-        var calloutDomElement = $(selector).qtip({
-          content: {
-            text: callout.text
-          }
-        });
-        calloutDomElement.qtip('show');
-        if (calloutDomElement.length > 0) {  // Only store if callout was shown.
+        if ($(selector).length > 0) {  // exit if selector isn't present.
+          var calloutDomElement = $(selector).qtip({
+            content: callout.text,
+            position: {
+              my: callout.qtip_my || defaults.my,
+              at: callout.qtip_at || defaults.at
+            }
+          });
+          calloutDomElement.qtip('show');
           sessionStorage.setItem(sessionPrefix + selector, true);
+          callouts_found++;
         }
       }
-    }
+      return (callouts_found < MAX_CALLOUTS);  // Loop condition.
+    });
   };
   #{app}Main({
     containerId: 'blocklyApp',
