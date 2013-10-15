@@ -102,8 +102,10 @@ ActiveRecord::Schema.define(version: 20131012033115) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "code"
   end
 
+  add_index "sections", ["code"], name: "index_sections_on_code", unique: true, using: :btree
   add_index "sections", ["user_id", "name"], name: "index_sections_on_user_id_and_name", unique: true, using: :btree
 
   create_table "trophies", force: true do |t|
