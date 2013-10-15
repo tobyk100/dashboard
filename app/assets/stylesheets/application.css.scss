@@ -228,8 +228,8 @@ body .header_popup {
   margin-left:-330px;
   margin-top:-26px;
   border: 20px solid $bkgnd_color;
-  border-top: 5px solid $bkgnd_color;
-  border-bottom: 5px solid $bkgnd_color;
+  border-top: 5px;
+  border-bottom: 5px;
   overflow: hidden;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -241,7 +241,7 @@ body .header_popup {
   margin-bottom: 0;
   text-align: right;
   color: $header_text;
-  background-color: #00adbc;
+  background-color: $bkgnd_color;
   cursor: pointer;
 }
 
