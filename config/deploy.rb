@@ -3,7 +3,7 @@ require 'bundler/capistrano'
 set :application, "dashboard"
 set :user, "ubuntu"
 set :stages, ["staging", "production"]
-set :default_stage, "staging"
+#set :default_stage, "staging"
 
 set :scm, "git"
 set :branch, "master"
@@ -33,7 +33,7 @@ namespace :deploy do
     rake = fetch(:rake, 'rake')
     rails_env = fetch(:rails_env, 'development')
 
-    run "cd '#{current_path}' && #{rake} blockly:latest RAILS_ENV=#{rails_env}"
+    run "cd '#{current_path}' && #{rake} blockly:latest RAILS_ENV=#{rails_env} && #{rake} youtube:thumbnails RAILS_ENV=#{rails_env}"
   end
 
   task :setup_config, roles: :app do

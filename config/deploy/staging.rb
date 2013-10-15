@@ -1,1 +1,1 @@
-server "dashboard.dev-code.org", :app, :web, :db, :primary => true
+server "skunkworks.dev-code.org", :app, :web, :db, :primary => true
