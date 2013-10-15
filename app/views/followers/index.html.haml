@@ -44,7 +44,7 @@
           - @all_concepts.each do |concept|
             - ut = trophy_map[concept.id]
             %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
-              - if ut && (ut.updated_at > 1.day.ago)
+              - if ut && (ut.updated_at > hours.hours.ago)
                 &bull;
 
           - @all_script_levels.each do |sl|

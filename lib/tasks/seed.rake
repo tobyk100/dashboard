@@ -109,7 +109,7 @@ namespace :seed do
   task :import_users, [:file] => :environment do |t, args|
     CSV.read(args[:file], { col_sep: "\t", headers: true }).each do |row|
       User.create!(
-          provider: 'manual',
+          provider: User::PROVIDER_MANUAL,
           name: row['Name'],
           username: row['Username'],
           password: row['Password'],

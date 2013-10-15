@@ -1,6 +1,6 @@
 class FollowersController < ApplicationController
-  check_authorization except: [:accept, :manage]
-  load_and_authorize_resource except: [:accept, :manage]
+  check_authorization except: [:accept, :manage, :create_student]
+  load_and_authorize_resource except: [:accept, :manage, :create_student]
   before_filter :authenticate_user!
 
   def index
@@ -62,7 +62,7 @@ class FollowersController < ApplicationController
   end
 
   def create_student
-    student_params = params[:user].permit([:username, :password, :gender, :birthday, :parent_email])
+    student_params = params[:user].permit([:username, :name, :password, :gender, :birthday, :parent_email])
     raise "no student data posted" if !student_params
 
     @user = User.new(student_params)
@@ -70,7 +70,7 @@ class FollowersController < ApplicationController
     if User.find_by_username(@user.username)
       @user.errors.add(:username, "#{@user.username} is already taken, please pick another")
     else
-      @user.provider = 'manual'
+      @user.provider = User::PROVIDER_MANUAL
       if @user.save
         Follower.find_or_create_by_user_id_and_student_user_id!(current_user.id, @user.id)
         redirect_to followers_path, notice: "#{@user.name} added as your student"

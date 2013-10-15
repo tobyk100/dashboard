@@ -5,6 +5,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable, :authentication_keys => [:login]
 
+  PROVIDER_MANUAL = 'manual'
+
   attr_accessor :login
 
   has_many :user_levels
@@ -53,11 +55,11 @@ class User < ActiveRecord::Base
   end
 
   def password_required?
-    super && provider.blank?
+    super && (provider.blank? || (User::PROVIDER_MANUAL == provider))
   end
 
   def email_required?
-    'manual' != provider
+    User::PROVIDER_MANUAL != provider
   end
 
   def update_with_password(params, *options)

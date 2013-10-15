@@ -19,6 +19,8 @@
       .actions
         = f.submit 'Add teacher'
     %br/
+    = link_to "Student report", followers_path
+    %br/
     = link_to "Manage students", manage_followers_path
 
   - if current_user.students.length > 0
