@@ -53,11 +53,9 @@
           // If the video is closed, the callouts are shown again.
           calloutDomElement.qtip('show');
           $('#video_player').on('hidden.bs.modal', function() {
-              console.log(calloutDomElement);
               calloutDomElement.qtip('show');
           });
           $('#video_player').on('show.bs.modal', function() {
-              console.log(calloutDomElement);
               calloutDomElement.qtip('hide');
           });
           sessionStorage.setItem(sessionPrefix + selector, true);
