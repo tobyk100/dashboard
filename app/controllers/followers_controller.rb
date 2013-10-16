@@ -1,7 +1,7 @@
 class FollowersController < ApplicationController
-  check_authorization except: [:accept, :manage, :create_student, :add_to_section]
-  load_and_authorize_resource except: [:accept, :manage, :create_student, :add_to_section]
-  before_filter :authenticate_user!
+  check_authorization only: [:index, :new, :create]
+  load_and_authorize_resource only: [:index, :new, :create]
+  before_filter :authenticate_user!, except: [:student_user_new, :student_register]
 
   def index
     script = Script.first
@@ -109,5 +109,40 @@ where id in (#{params[:follower_ids].map(&:to_i).join(',')})
   and user_id = #{current_user.id}
 SQL
     redirect_to manage_followers_path, notice: "Updated class assignments"
+  end
+
+  def student_user_new
+    @section = Section.find_by_code(params[:section_code])
+
+    # make sure section_code is in the path (rather than just query string)
+    if request.path != student_user_new_path(section_code: params[:section_code])
+      redirect_to student_user_new_path(section_code: params[:section_code])
+    end
+    @user = User.new
+  end
+
+  def student_register
+    @section = Section.find_by_code(params[:section_code])
+    student_params = params[:user].permit([:username, :name, :password, :gender, :birthday, :parent_email])
+
+    @user = User.new(student_params)
+
+    if current_user
+      @user.errors.add(:username, "Please signout before proceeding")
+    else
+      if User.find_by_username(@user.username)
+        @user.errors.add(:username, "#{@user.username} is already taken, please pick another")
+      else
+        @user.provider = User::PROVIDER_MANUAL
+        if @user.save
+          Follower.create!(user_id: @section.user_id, student_user: @user, section: @section)
+          # todo: authenticate new user
+          redirect_to root_path, notice: "You've registered for #{@section.name}. Please sign in to continue"
+          return
+        end
+      end
+    end
+
+    render "student_user_new"
   end
 end

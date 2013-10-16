@@ -22,6 +22,8 @@ Dashboard::Application.routes.draw do
   post '/followers/create_student', to: 'followers#create_student', as: 'create_student'
   get '/followers/manage', to: 'followers#manage', as: 'manage_followers'
   post '/followers/add_to_section', to: 'followers#add_to_section', as: 'add_to_section'
+  get '/join(/:section_code)', to: 'followers#student_user_new', as: 'student_user_new'
+  post '/join/:section_code', to: 'followers#student_register', as: 'student_register'
 
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
 
