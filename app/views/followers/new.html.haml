@@ -1,5 +1,7 @@
+%h1 Add students
+
 %p
-  %h4 Invite students to your class by their email address or Code.org username:
+  %h4 Add students by email
 
   = form_for([Follower.new]) do |f|
     = text_field_tag(:student_email_or_username, nil, placeholder: 'student@school.edu')
@@ -7,7 +9,21 @@
     = submit_tag('Invite student')
 
 %p
-  %h4 Create your student's account:
+  %h4 Create accounts for your students
   - user = User.new
   = form_for(user, url: { action: :create_student }) do |f|
     = render partial: 'new_student_form', locals: { f: f, user: user }
+
+- if current_user.sections.length > 0
+  %p
+    %h4 Have students to register themselves by sharing a this link with them
+
+    %table
+      %tr
+        %th Section
+        %th link
+      - current_user.sections.each do |section|
+        %tr
+          %td= section.name
+          %td= link_to student_user_new_url(section_code: section.code), student_user_new_path(section_code: section.code)
+
