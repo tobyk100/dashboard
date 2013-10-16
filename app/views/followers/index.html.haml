@@ -1,5 +1,5 @@
 - @page_title = "#{current_user.name} Class Report"
-- column_count = 1 + @all_concepts.length + @all_script_levels.length
+- row_count = (@section_map.size * 3) + @section_map.map(&:length).sum
 - stage_map = @all_script_levels.group_by { |sl| sl.level.game }
 - hours = (params[:hours] || 1).to_i
 - add_section_ui = !current_user.sections.blank?
@@ -20,46 +20,54 @@
   Game:
   = select_tag('game_id', options_from_collection_for_select(@all_games.unshift(Game.new(name: 'all')), :id, :name, params[:game_id]), {onchange:"this.form.submit();" })
 
-%div{ style: "overflow:scroll;"}
-  %table{ border: "2px", style:"width:#{200 + (@all_concepts.length + @all_script_levels.length) * 25}px;table-layout:fixed;"}
-    %col{ width: '200px'}
-    - @all_concepts.each do
-      %col{ width: '25px'}
-    - @all_script_levels.each do
-      %col{ width: '25px'}
-    - @section_map.each_pair do |section, students|
-      %tr
-        %th{ colspan: column_count, style: 'text-align:left' }= section.try(:name) || "No assigned section"
-      %tr
-        %th Name
-        %th{ colspan: @all_concepts.length } Trophies
-        - stage_map.each_pair do |game, levels|
-          %th{ colspan: levels.length }= game.name
-      - students.each do |student|
-        - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
-        - level_map = student.user_levels.index_by {|ul| ul.level_id }
-        %tr
-          %td{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis;"}= link_to student.name || student.username, user_stats_path(student)
+%table
+  %tr
+    %td
+      %table{ border: "2px", style: "width:200px; table-layout:fixed;"}
+        %col{ width: '200px'}
+        - @section_map.each_pair do |section, students|
+          %tr.report_row
+            %th= section.try(:name) || "No assigned section"
+          - students.each do |student|
+            %tr.report_row
+              %td{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis; width:200px;"}= link_to "#{student.name} (#{student.username})", user_stats_path(student)
 
-          - @all_concepts.each do |concept|
-            - ut = trophy_map[concept.id]
-            %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
-              - if ut && (ut.updated_at > hours.hours.ago)
-                &bull;
+          - if section
+            %tr.report_row
+              %td
+                #{section.name} code:
+                %b= section.code
+          %tr.report_row
+    %td{ style: "margin:0px; padding: 0px;" }
+      %div{ style:"overflow-x:scroll; width: 800px; margin:0px; padding: 0px;" }
+        %table{ border: "2px", style:"width:#{(@all_concepts.length + @all_script_levels.length) * 25}px;table-layout:fixed;"}
+          - @all_concepts.each do
+            %col{ width: '25px'}
+          - @all_script_levels.each do
+            %col{ width: '25px'}
+          - @section_map.each_pair do |section, students|
+            %tr.report_row
+              %th{ colspan: @all_concepts.length } Trophies
+              - stage_map.each_pair do |game, levels|
+                %th{ colspan: levels.length }= game.name
+            - students.each do |student|
+              - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
+              - level_map = student.user_levels.index_by {|ul| ul.level_id }
+              %tr.report_row
+                - @all_concepts.each do |concept|
+                  - ut = trophy_map[concept.id]
+                  %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
+                    - if ut && (ut.updated_at > hours.hours.ago)
+                      &bull;
 
-          - @all_script_levels.each do |sl|
-            - ul = level_map[sl.level_id]
-            %td{ class: "report_cell #{level_box_class(ul.try(:best_result))}", title: build_user_level_message(ul, sl) }
-              - if ul && (ul.updated_at > hours.hours.ago)
-                &bull;
+                - @all_script_levels.each do |sl|
+                  - ul = level_map[sl.level_id]
+                  %td{ class: "report_cell #{level_box_class(ul.try(:best_result))}", title: build_user_level_message(ul, sl) }
+                    - if ul && (ul.updated_at > hours.hours.ago)
+                      &bull;
 
-      - if section
-        %tr
-          %td{ colspan: column_count }
-            Your students can join #{section.name} using the code
-            %b= section.code
-      %tr
-        %td{ colspan: column_count }
-          &nbsp;
+            - if section
+              %tr.report_row
+            %tr.report_row
 
 &bull; indicates the student has worked on this in the last #{hours} #{'hour'.pluralize(hours)}
