@@ -22,8 +22,8 @@
 
 %table
   %tr
-    %td
-      %table{ border: "2px", style: "width:200px; table-layout:fixed;"}
+    %td{ style: "padding: 0px;" }
+      %table{ border: "1px", style: "width:200px; table-layout:fixed;"}
         %col{ width: '200px'}
         - @section_map.each_pair do |section, students|
           %tr.report_row
@@ -38,9 +38,9 @@
                 #{section.name} code:
                 %b= section.code
           %tr.report_row
-    %td{ style: "margin:0px; padding: 0px;" }
+    %td{ style: "padding: 0px;" }
       %div{ style:"overflow-x:scroll; width: 800px; margin:0px; padding: 0px;" }
-        %table{ border: "2px", style:"width:#{(@all_concepts.length + @all_script_levels.length) * 25}px;table-layout:fixed;"}
+        %table{ border: "1px", style:"width:#{(@all_concepts.length + @all_script_levels.length) * 25}px;table-layout:fixed;"}
           - @all_concepts.each do
             %col{ width: '25px'}
           - @all_script_levels.each do
@@ -56,7 +56,7 @@
               %tr.report_row
                 - @all_concepts.each do |concept|
                   - ut = trophy_map[concept.id]
-                  %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:trophy).try(:name) || 'No'} medal in the '#{concept.name}' concept" }
+                  %td{ class: "report_cell #{"trophy_#{ut.trophy.name.downcase}" if ut}", title: "#{ut.try(:user).try(:name)} has won #{ut.try(:trophy).try(:name) || 'no'} medal in the '#{concept.name}' concept" }
                     - if ut && (ut.updated_at > hours.hours.ago)
                       &bull;
 
