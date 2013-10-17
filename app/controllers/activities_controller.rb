@@ -11,6 +11,7 @@ class ActivitiesController < ApplicationController
     test_result = params[:testResult].to_i
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
+    trophy_updates = []
 
     if current_user
       authorize! :create, Activity
@@ -33,7 +34,7 @@ class ActivitiesController < ApplicationController
       user_level.save!
 
       begin
-        self.class.trophy_check(current_user)
+        trophy_updates = self.class.trophy_check(current_user)
       rescue Exception => e
         Rails.logger.error "Error updating trophy exception: #{e.inspect}"
       end
@@ -43,9 +44,9 @@ class ActivitiesController < ApplicationController
     if solved
       next_level = script_level.next_level
       if next_level
-        render json: { redirect: build_script_level_path(next_level) }
+        render json: { redirect: build_script_level_path(next_level), trophy_updates: trophy_updates }
       else
-        render json: { message: 'no more levels'}
+        render json: { message: 'no more levels', trophy_updates: trophy_updates}
       end
     else
       render json: { message: 'try again' }
@@ -113,6 +114,7 @@ class ActivitiesController < ApplicationController
   end
 
   def self.trophy_check(user)
+    trophy_updates = []
     # called after a new activity is logged to assign any appropriate trophies
     current_trophies = user.user_trophies.includes([:trophy, :concept]).index_by { |ut| ut.concept }
     progress = user.concept_progress
@@ -121,7 +123,7 @@ class ActivitiesController < ApplicationController
       current = current_trophies[concept]
       pct = counts[:current].to_f/counts[:max]
 
-      new_trophy = case
+      new_trophy = Trophy.find_by_id case
         when pct == 1
           Trophy::GOLD
         when pct >= 0.5
@@ -136,12 +138,16 @@ class ActivitiesController < ApplicationController
         if new_trophy == current.try(:trophy_id)
           # they already have the right trophy
         elsif current
-          current.update_attributes!(trophy_id: new_trophy)
+          current.update_attributes!(trophy_id: new_trophy.id)
+          trophy_updates << [concept.description, new_trophy.name, new_trophy.image_name]
         else
-          UserTrophy.create!(user: user, trophy_id: new_trophy, concept: concept)
+          UserTrophy.create!(user: user, trophy_id: new_trophy.id, concept: concept)
+          trophy_updates << [concept.description, new_trophy.name, new_trophy.image_name]
         end
       end
     end
+
+    trophy_updates
   end
 
   private
