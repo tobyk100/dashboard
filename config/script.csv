@@ -15,7 +15,7 @@ Maze	Level13	2_13	pvz	if, loop_until	Woah, a new block! Use the new &quot;if&quo
 Maze	Level14	2_14	pvz	if, loop_until	How can I get to the sunflower? Use the &quot;if&quot; block to make it happen.	
 Maze	Level15	2_15	pvz	if, loop_until	Get me to that sunflower! Try making me turn right if there is a path to the right.	
 Maze	Level16	2_16	pvz	if, loop_until	Can you help me get to that tasty sunflower? Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
-Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	
+Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	 
 Maze	Level18	2_18	pvz	if_else, loop_until	Will you help me get to the sunflower for the last time? Make sure to use an &quot;if-else&quot; block!	
 Artist	Level1	1_1		sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
 Artist	Level2	1_2		sequence	Draw a square, making each side a different color.	
@@ -72,13 +72,13 @@ Artist4	Level7	3_7		parameters	Add a &quot;height&quot; input to &quot;draw a ho
 Artist4	Level8	3_8		parameters	Here are all of the blocks from the previous level.  Modify &quot;draw a house&quot; so the turtle ends up at the bottom right corner of the new house.  Use this modified function to house all the animals.	
 Artist4	Level9	3_9		parameters	You now know how to control the turtle, use loops (&quot;repeat&quot; and &quot;count from&quot;), and write and use functions.  Congratulations on becoming a programmer!	
 Artist4	Level10	3_10		sequence	You're now free to do whatever you want.  One idea is to try running this program with different turn amounts (higher or lower than 90).  Other ideas are to draw a star, circle, heart, or animal.	
-Farmer3	Level1	karel_debug_seq_1	farmer			
-Farmer3	Level2	karel_debug_seq_2	farmer			
-Farmer3	Level3	karel_debug_repeat	farmer			
-Farmer3	Level4	karel_debug_while	farmer			
-Farmer3	Level5	karel_debug_if	farmer			
-Farmer3	Level6	karel_debug_if_else	farmer			
-Farmer3	Level7	karel_debug_function_1	farmer			
-Farmer3	Level8	karel_debug_function_2	farmer			
-Farmer3	Level9	karel_debug_function_3	farmer			
-Artist5	Level1	5_1				
+Farmer3	Level1	karel_debug_seq_1	farmer	sequence	Fix the program on the workspace so that I can get my field flat and ready for planting!	
+Farmer3	Level2	karel_debug_seq_2	farmer	sequence	What's wrong with this program? How should you fix it so I can remove that pile?	
+Farmer3	Level3	karel_debug_repeat	farmer	loop_times	De-bug this program for me so my field will be nice and flat.	
+Farmer3	Level4	karel_debug_while	farmer	loop_while, loop_times	How should you change this program to help me fill the hole?	
+Farmer3	Level5	karel_debug_if	farmer	if, loop_times	Help! Fix the program so my field will be completely flat.	
+Farmer3	Level6	karel_debug_if_else	farmer	if_else, loop_times	De-bug this program so I can fill in the holes and remove all the piles.	
+Farmer3	Level7	karel_debug_function_1	farmer	function	What should you change about this program to help my remove all the piles?	
+Farmer3	Level8	karel_debug_function_2	farmer	function	Can you de-bug this program for me so I can make my field flat?	
+Farmer3	Level9	karel_debug_function_3	farmer	parameters	Edit this program so I'll remove all the piles on my field. 	
+Artist5	Level1	5_1		sequence	Take this time to draw whatever you feel like! 	
