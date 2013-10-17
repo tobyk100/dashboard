@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 %html
   %head
-    %title= @page_title || 'Code.org'
+    %title= @page_title ? "#{t(:appname)} - #{@page_title}" : t(:appname)
     = stylesheet_link_tag    "application", media: "all"
     = stylesheet_link_tag    "//cloud.typography.com/7425452/678642/css/fonts.css", media: "all"
     = javascript_include_tag "application"

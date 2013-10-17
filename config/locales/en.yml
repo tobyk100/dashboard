@@ -22,3 +22,4 @@
 en:
   hello: "Hello world"
   teacher_email_or_code_placeholder: "Code (123ABC) or email (teacher@school.edu)"
+  appname: "Code.org"
