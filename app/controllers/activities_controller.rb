@@ -135,7 +135,7 @@ class ActivitiesController < ApplicationController
       end
 
       if new_trophy
-        if new_trophy == current.try(:trophy_id)
+        if new_trophy.id == current.try(:trophy_id)
           # they already have the right trophy
         elsif current
           current.update_attributes!(trophy_id: new_trophy.id)
