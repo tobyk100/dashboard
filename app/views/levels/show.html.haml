@@ -1,4 +1,4 @@
--#= render 'shared/script_levels', { script: @script, user: current_user, level: @script_level }
+- @page_title = "#{@game.name} ##{@script_level.try(:game_chapter) || @level.level_num} "
 
 = render partial: "levels/blockly", locals: { app: @game.app }
 
