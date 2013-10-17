@@ -32,6 +32,7 @@ class ScriptLevelsController < ApplicationController
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
     @callouts = Callout.select(:element_id, :text, :qtip_at, :qtip_my)
+    @autoplay_video = nil if params[:noautoplay]
     render 'levels/show'
   end
 end
