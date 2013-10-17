@@ -26,14 +26,14 @@
                     Stage #{@game.id}: step
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
+                  - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
                   - if sl.level_id == @script_level.level_id
                     .level_current_header{class:"level_highlight"}
                       #{@script_level.game_chapter}
                   - elsif (sl.game_chapter == count)
-                    %a.level_count{class:"level_highlight", href:build_script_level_path(sl)}
+                    %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
                       #{count}
                   - else
-                    - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
                     %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
                 .header_separator
                 %a{ href: user_stats_path(current_user) }

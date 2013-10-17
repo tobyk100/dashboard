@@ -62,10 +62,6 @@ h2 {
   background-color: orange;
 }
 
-.level_count {
-  background-color: gray;
-}
-
 .other_level {
   border-radius: 10px;
   height: 10px;
@@ -256,7 +252,7 @@ body .modal {
 .header_popup {
   display:none;
   top:auto;
-  position:fixed;
+  position:absolute;
   left:50%;
   height: 600px;
   width:620px;
