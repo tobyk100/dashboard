@@ -34,7 +34,7 @@ class ActivitiesController < ApplicationController
       user_level.save!
 
       begin
-        trophy_updates = self.class.trophy_check(current_user)
+        trophy_updates = trophy_check(current_user)
       rescue Exception => e
         Rails.logger.error "Error updating trophy exception: #{e.inspect}"
       end
@@ -113,7 +113,7 @@ class ActivitiesController < ApplicationController
     end
   end
 
-  def self.trophy_check(user)
+  def trophy_check(user)
     trophy_updates = []
     # called after a new activity is logged to assign any appropriate trophies
     current_trophies = user.user_trophies.includes([:trophy, :concept]).index_by { |ut| ut.concept }
@@ -139,10 +139,10 @@ class ActivitiesController < ApplicationController
           # they already have the right trophy
         elsif current
           current.update_attributes!(trophy_id: new_trophy.id)
-          trophy_updates << [concept.description, new_trophy.name, new_trophy.image_name]
+          trophy_updates << [concept.description, new_trophy.name, view_context.image_path(new_trophy.image_name)]
         else
           UserTrophy.create!(user: user, trophy_id: new_trophy.id, concept: concept)
-          trophy_updates << [concept.description, new_trophy.name, new_trophy.image_name]
+          trophy_updates << [concept.description, new_trophy.name, view_context.image_path(new_trophy.image_name)]
         end
       end
     end
