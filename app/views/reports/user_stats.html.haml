@@ -33,7 +33,7 @@
       - current_game = sl.level.game_id
       %div
         Stage #{current_game}
-        #{sl.level.game.name}
+        #{t(sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
         
     - best_result = sl.user_level ? sl.user_level.best_result : 0
