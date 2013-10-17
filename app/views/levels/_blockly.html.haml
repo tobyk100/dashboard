@@ -11,10 +11,6 @@
 
 :javascript
   var CALLOUTS = #{@callouts.to_json}
-  // Set the autoplay_video field in each of the callouts
-  for (var key in CALLOUTS) {
-    CALLOUTS[key].autoplay_video = '#{@autoplay_video}';
-  }
   var nextRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
@@ -58,10 +54,10 @@
           // By default, the callouts are shown if there is no autoplay video.
           // If a video pops up, the callouts are hidden.
           // If the video is closed, the callouts are shown again.
-          if (callout.autoplay_video != '') {
-            calloutDomElement.qtip('hide');
-          } else {
+          if (#{@autoplay_video.nil?}) {
             calloutDomElement.qtip('show');
+          } else {
+            calloutDomElement.qtip('hide');
           }
           $('#video_player').on('hidden.bs.modal', function() {
               calloutDomElement.qtip('show');
