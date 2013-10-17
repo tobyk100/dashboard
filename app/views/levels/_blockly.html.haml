@@ -17,6 +17,9 @@
     httpRequest.onload = function() {
       var response = JSON.parse(httpRequest.responseText);
       nextRedirect = response['redirect'];
+      if (report.onComplete) {
+        report.onComplete(response);
+      }
     };
     httpRequest.open('POST', '#{@callback}');
     httpRequest.setRequestHeader('Content-Type',
