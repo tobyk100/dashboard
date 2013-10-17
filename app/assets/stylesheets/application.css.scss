@@ -16,6 +16,12 @@ $baseFontFamily: 'Gotham A', 'Gotham B', sans-serif;
 $headingsFontWeight: 400;
 @import "bootstrap";
 
+$header_text: white;
+$bkgnd_color: #00adbc;
+$inset_color: #cde;
+$dark_color:  #5b6770;
+$hdr_color:   #7665a0;
+
 body {
   padding: 10px;
   font-style: normal;
@@ -81,7 +87,7 @@ h2 {
 }
 
 .level_undone {
-  background-color: gray;
+  background-color: $dark_color;
 }
 
 .level_done {
@@ -122,6 +128,32 @@ h2 {
   margin-right: 0px;
 }
 
+.level_link {
+  border-radius: 5px;
+  min-width: 20px;
+  padding: 3px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  background-color: $dark_color;
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.level_link_done {
+  background-color: orange;
+}
+
+.level_link:link {
+  color: white;
+}
+
+.level_link:visited {
+  color: white;
+}
+
 .progress-outer {
   background: #d1d567;
   -webkit-border-radius: 13px;
@@ -137,10 +169,6 @@ h2 {
   -webkit-border-radius: 9px;
 }
 
-$header_text: white;
-$bkgnd_color: #00adbc;
-$inset_color: #cde;
-
 .header {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -153,7 +181,7 @@ $inset_color: #cde;
 }
 
 .header_status_bar {
-  background-color: #5b6770;
+  background-color: $dark_color;
   border-radius: 5px;
   min-width: 20px;
   padding: 3px;
@@ -225,23 +253,37 @@ body .modal {
   max-height: 500px;
 }
 
-body .header_popup {
+.header_popup {
   display:none;
   top:auto;
+  position:fixed;
+  left:50%;
+  height: 600px;
   width:620px;
   margin-left:-330px;
-  margin-top:-26px;
+  margin-top:-20px;
   border: 20px solid $bkgnd_color;
   border-top: 5px;
   border-bottom: 5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  z-index: 1050;
+  background-color: white;
   overflow: hidden;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+}
+
+.header_popup_header {
+  padding: 12px 15px;
+  margin-bottom: 0;
+  text-align: left;
+  color: $header_text;
+  background-color: $hdr_color;
+  font-size: 22px;
+  cursor: pointer;
 }
 
 .header_popup_footer {
-  padding: 12px 15px 6px 15px;
+  padding: 12px 15px;
   margin-bottom: 0;
   text-align: right;
   color: $header_text;
@@ -250,10 +292,15 @@ body .header_popup {
 }
 
 .header_popup_link {
-  max-width: 29px;
+  max-width: 40px;
   display: inline-block;
+  text-align: center;
   height: 26px;
   cursor: pointer;
+}
+
+.header_popup_link:hover {
+  background-color: $bkgnd_color;
 }
 
 .header_popup_link_glyph {

@@ -44,7 +44,7 @@
                   .header_text
                     of #{progress['max_trophies']}
                 .header_separator
-                .header_popup_link{id:"headerPopupLink"}
+                %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
                   .header_popup_link_glyph
                     &#x25BC;
                   .header_popup_link_text
@@ -66,10 +66,12 @@
                 |
                 = link_to "Sign in", new_user_session_path
 
-    .header_popup{class:"modal",id:"headerPopup"}
-      .modal-body{id:"headerPopupBody", style: 'max-height:534px;'}
+    .header_popup{id:"headerPopup"}
+      .header_popup_header
+        Your progress
+      .modal-body{id:"headerPopupBody", style: 'padding:5px;min-height:508px;max-height:508px;'}
       .header_popup_footer
-        %div{id:"popupClose"}
+        %div{id:"popupClose",onclick:"togglePopup();"}
           CLOSE
     :javascript
       togglePopup = function () {
@@ -83,21 +85,18 @@
           $(".header_popup_link_text").html("LESS");
         }
       }
-      $(document).ready(function() {
-        $('#popupClose').bind('click', togglePopup );
-        $('#headerPopupLink').bind('click', function() {
-          if ($("#headerPopupBody").html() == "") {
-            $.ajax({url:'#{header_stats_path()}',success:function(result) {
-                $("#headerPopupBody").html(result);
-                togglePopup();
-              }
-            });
-          }
-          else {
-            togglePopup();
-          }
-        });
-      });
+      handlePopupClick = function () {
+        if ($("#headerPopupBody").html() == "") {
+          $.ajax({url:'#{header_stats_path()}',success:function(result) {
+              $("#headerPopupBody").html(result);
+              togglePopup();
+            }
+          });
+        }
+        else {
+          togglePopup();
+        }
+      }
     - if @full_width
       .full_container
         = yield

@@ -1,17 +1,51 @@
-%h2 #{@user.name}
+- if @user != current_user
+  %h3 #{@user.name}
 
-= render 'shared/script_levels', { script: @script, user: @user, level: nil }
+-#= render 'shared/script_levels', { script: @script, user: @user, level: nil }
 
-= link_to 'Recent activity', usage_path(@user)
+-#- if script
+- script_levels = @user.levels_from_script(@script)
+- progress = @user.progress(@script)
 
-%table
-  - @concept_progress.each_pair do |concept, counts|
-    %tr
-      %td{ height:"150px"}
-        %h4= concept.description
-        .progress-outer
-          .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
-      %td
-        - if counts[:trophy]
-          = image_tag counts[:trophy].trophy.image_name
-        <!-- #{counts} -->
+%div{style:"display:inline-block;width:290px;position:relative;overflow:hidden;float:left;"}
+  CONCEPT MASTERY
+
+  %table{style:"max-width:250px;"}
+    - @concept_progress.each_pair do |concept, counts|
+      %tr{ height:"40px"}
+        %td{width:"110px"}
+          #{concept.description}:
+        %td
+          .progress-outer{ style: "width:150px;"}
+            .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
+        %td{width:"40px"}
+          - if counts[:trophy]
+            = image_tag counts[:trophy].trophy.image_name, size: "40x40"
+          <!-- #{counts} -->
+
+%div{style:"display:inline-block;width:310px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
+  LEVEL MAP
+  = link_to '(Recent activity)', usage_path(@user)
+
+  - current_game = 0
+  - script_levels.each do |sl|
+    - if (sl.level.game_id != current_game)
+      - current_game = sl.level.game_id
+      %div
+        Stage #{current_game}
+        #{sl.level.game.name}
+    - current_game_chapter = sl.game_chapter
+        
+    - best_result = sl.user_level ? sl.user_level.best_result : 0
+    - link = build_script_level_path(sl)
+    
+    - if best_result >= Activity::MINIMUM_PASS_RESULT
+      %a{ href: link, class: "level_link level_link_done"}
+        &#x2714;
+    -else
+      %a{ href: link, class: "level_link"}
+        #{current_game_chapter}
+
+
+
+
