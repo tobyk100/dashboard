@@ -51,7 +51,11 @@ class FollowersController < ApplicationController
       target_user = target_section.try(:user) || User.find_by_email(params[:teacher_email_or_code])
 
       if target_user
-        Follower.create!(user: target_user, student_user: current_user, section: target_section)
+        begin
+          Follower.create!(user: target_user, student_user: current_user, section: target_section)
+        rescue ActiveRecord::RecordNotUnique => e
+          Rails.logger.error("attempt to create duplicate follower from #{current_user.id} => #{target_user.id}")
+        end
 
         redirect_to redirect_url, notice: "#{target_user.name} added as your teacher"
       else
