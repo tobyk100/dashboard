@@ -1,5 +1,8 @@
-= link_to_if current != 'manage', "Manage students", manage_followers_path
+%span{ style: 'color: #ffa400;'}
+  = link_to_if current != 'manage', "Manage students", manage_followers_path
 |
-= link_to_if current != 'report', "Rollup report", followers_path
+%span{ style: 'color: #ffa400;'}
+  = link_to_if current != 'report', "Rollup report", followers_path
 |
-= link_to_if current != 'activity', "Recent class activity", student_usage_path
+%span{ style: 'color: #ffa400;'}
+  = link_to_if current != 'activity', "Recent class activity", student_usage_path

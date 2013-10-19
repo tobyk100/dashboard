@@ -13,4 +13,14 @@ TEXT
       return "#{user.name} has not attempted #{script_level.level.game.name} ##{script_level.game_chapter}"
     end
   end
+
+  def bullet_html
+    #raw "&bull;"
+    image_tag('white-dot-grid.png')
+  end
+
+  def check_mark_html
+    #raw "&#x2714;"
+    image_tag('white-checkmark.png')
+  end
 end
