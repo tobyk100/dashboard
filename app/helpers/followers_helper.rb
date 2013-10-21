@@ -15,7 +15,7 @@ TEXT
   end
 
   def bullet_html
-    #raw "&bull;"
+    #raw "&#9679;"
     image_tag('white-dot-grid.png')
   end
 
