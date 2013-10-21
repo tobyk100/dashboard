@@ -1,35 +1,29 @@
 %h2 Sign up
-= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
-  = devise_error_messages!
-  %div
-  .field
-    = f.label :name
-    %br/
-    = f.text_field :name, :autofocus => true
-  .field
-    = f.label :email
-    %br/
-    = f.email_field :email
-  .field
-    = f.label :username
-    %br/
-    = f.text_field :username
-  - if f.object.password_required?
-    %div
-      = f.label :password
+.row
+  .span8
+    = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+      = devise_error_messages!
+      %div
+      = f.text_field :name, class: 'input-xlarge', autofocus: true, placeholder: 'Name'
+      = f.email_field :email, class: 'input-xlarge', placeholder: 'Email'
       %br/
-      = f.password_field :password
-    %div
-      = f.label :password_confirmation
+      = f.text_field :username, class: 'input-xlarge', placeholder: 'Username'
       %br/
-      = f.password_field :password_confirmation
-  .field
-    = f.label :language
-    %br/
-    = f.select :language, [['English', 'en'], ['Spanish', 'es']]
-  .field
-    = f.label :gender
-    %br/
-    = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
-  %div= f.submit "Sign up"
-= render "devise/shared/links"
+      - if f.object.password_required?
+        = f.password_field :password, class: 'input-xlarge', placeholder: 'Password'
+        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: 'Password confirmation'
+        %br/
+      -#.field
+      -#  = f.label :language
+      -#  %br/
+      -#  = f.select :language, [['English', 'en'], ['Spanish', 'es']]
+      .field
+        = f.label :gender
+        %br/
+        = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
+      = f.submit "Sign up", class: "btn btn-primary"
+
+  .span4
+    %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
+      -#= link_to "Are you a teacher?", new_user_registration_path(user_type: :teacher)
+      = render "devise/shared/links"

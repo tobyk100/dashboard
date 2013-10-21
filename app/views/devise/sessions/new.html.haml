@@ -1,14 +1,14 @@
 %h2 Sign in
-%table
-  %tr
-    %td{ style: 'padding-right: 20px; border-right: 1px solid black' }
-      = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
-        = f.text_field :login, autofocus: true, placeholder: 'Email or username'
-        = f.password_field :password, placeholder: 'Password'
-        %br/
-        - if devise_mapping.rememberable?
-          %label
-            = f.check_box :remember_me, { style: 'margin: 0; '}
-            Remember me
-        %div{ style: 'float: right;'}= f.submit "Sign in", class: "btn btn-warning"
-    %td{ style: 'padding-left: 20px;' }= render "devise/shared/links"
+.row
+  .span8{ style: '' }
+    = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+      = f.text_field :login, autofocus: true, placeholder: 'Email or username'
+      = f.password_field :password, placeholder: 'Password'
+      %br/
+      - if devise_mapping.rememberable?
+        %label
+          = f.check_box :remember_me, { style: 'margin: 0; '}
+          Remember me
+      = f.submit "Sign in", class: "btn btn-primary"
+  .span4
+    %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }= render "devise/shared/links"

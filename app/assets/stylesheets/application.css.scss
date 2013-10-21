@@ -14,6 +14,9 @@
  */
 $baseFontFamily: 'Gotham A', 'Gotham B', sans-serif;
 $headingsFontWeight: 400;
+$btnPrimaryBackground: orange;
+$btnPrimaryBackgroundHighlight: orange;
+
 @import "bootstrap";
 
 $header_text: white;

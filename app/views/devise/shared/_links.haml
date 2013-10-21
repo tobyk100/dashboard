@@ -22,7 +22,7 @@
   %br/
 - if devise_mapping.omniauthable?
   - resource_class.omniauth_providers.each do |provider|
-    = link_to image_tag("auth/#{provider}.jpg", width: 40, height: 40), omniauth_authorize_path(resource_name, provider)
+    = link_to image_tag("auth/#{provider}.png"), omniauth_authorize_path(resource_name, provider)
     = link_to "Sign in with #{t("auth.#{provider}")}", omniauth_authorize_path(resource_name, provider)
     %br/
     %br/
