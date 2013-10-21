@@ -15,22 +15,22 @@ Maze	Level13	2_13	pvz	if, loop_until	Woah, a new block! Use the new &quot;if&quo
 Maze	Level14	2_14	pvz	if, loop_until	How can I get to the sunflower? Use the &quot;if&quot; block to make it happen.	
 Maze	Level15	2_15	pvz	if, loop_until	Get me to that sunflower! Try making me turn right if there is a path to the right.	
 Maze	Level16	2_16	pvz	if, loop_until	Can you help me get to that tasty sunflower? Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
-Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	 
+Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	
 Maze	Level18	2_18	pvz	if_else, loop_until	Will you help me get to the sunflower for the last time? Make sure to use an &quot;if-else&quot; block!	
-Artist	Level1	1_1		sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
-Artist	Level2	1_2		sequence	Draw a square, making each side a different color.	
-Artist	Level3	1_3		loop_times	Make a square using only 3 blocks.  (Remember that blocks to set color are free.)	
-Artist	Level4	1_4		loop_times	Draw a triangle whose sides are all 100 dots and are in random colors.  You'll have to figure out how far to turn.	
-Artist	Level5	1_5		loop_times	Draw a triangle and then a square to draw an envelope.	
-Artist	Level6	1_6		loop_times	Can you figure out how draw this triangle and square?	
-Artist	Level7	1_7		loop_times	See if you can draw these green glasses.	
-Artist	Level8	1_8		loop_times	After trying out these blocks, see what happens if you make them repeat 8 times.  It should look a little different every time you run it.	
-Artist	Level9	1_9		loop_times	Figure out what number to replace the question marks with to draw a circle.	
-Artist	Level10	1_10		sequence	Draw anything you want. Some ideas are a stick figure, snowflake, or spiral.  You could also try out the new &quot;set width&quot; block.  Have fun!	
-Artist2	Level1	4_1		sequence	Now you have learned how to draw different shapes, can you create a program that draws the house you made with tangram pieces?	
-Artist2	Level1	4_2		sequence	Now you have learned how to draw different shapes, can you create a program that draws the square you made with two triangles?	
-Artist2	Level1	4_3		sequence	Now you have learned how to draw different shapes, can you create a program that draws the arrow you made with tangram pieces?	
-Artist2	Level1	4_4		sequence	Now you have learned how to draw different shapes, can you create a program that draws the ship you made with tangram pieces?	
+Artist	Level1	1_1	artist	sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
+Artist	Level2	1_2	artist	sequence	Draw a square, making each side a different color.	
+Artist	Level3	1_3	artist	loop_times	Make a square using only 3 blocks.  (Remember that blocks to set color are free.)	
+Artist	Level4	1_4	artist	loop_times	Draw a triangle whose sides are all 100 dots and are in random colors.  You'll have to figure out how far to turn.	
+Artist	Level5	1_5	artist	loop_times	Draw a triangle and then a square to draw an envelope.	
+Artist	Level6	1_6	artist	loop_times	Can you figure out how draw this triangle and square?	
+Artist	Level7	1_7	artist	loop_times	See if you can draw these green glasses.	
+Artist	Level8	1_8	artist	loop_times	After trying out these blocks, see what happens if you make them repeat 8 times.  It should look a little different every time you run it.	
+Artist	Level9	1_9	artist	loop_times	Figure out what number to replace the question marks with to draw a circle.	
+Artist	Level10	1_10	artist	sequence	Draw anything you want. Some ideas are a stick figure, snowflake, or spiral.  You could also try out the new &quot;set width&quot; block.  Have fun!	
+Artist2	Level1	4_1	artist	sequence	Now you have learned how to draw different shapes, can you create a program that draws the house you made with tangram pieces?	
+Artist2	Level1	4_2	artist	sequence	Now you have learned how to draw different shapes, can you create a program that draws the square you made with two triangles?	
+Artist2	Level1	4_3	artist	sequence	Now you have learned how to draw different shapes, can you create a program that draws the arrow you made with tangram pieces?	
+Artist2	Level1	4_4	artist	sequence	Now you have learned how to draw different shapes, can you create a program that draws the ship you made with tangram pieces?	
 Farmer	Level1	karel_1_1	farmer	sequence	Help me flatten the field on my farm so it's ready for planting. Move me to the pile of dirt to remove it.	
 Farmer	Level2	karel_1_2	farmer	sequence	Move me to the hole and fill it with two shovelfuls of dirt.	
 Farmer	Level3	karel_1_3	farmer	loop_times	Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.	
@@ -42,16 +42,16 @@ Farmer	Level8	karel_1_8	farmer	loop_while	Make me fill in the hole at the end of
 Farmer	Level9	karel_1_9	farmer	loop_while	Make me remove all the piles, using as few blocks as possible.	
 Farmer	Level10	karel_1_10	farmer	if, loop_while	It's nighttime, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it.	
 Farmer	Level11	karel_1_11	farmer	if, loop_while	It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in.	
-Artist3	Level1	2_1		loop_times	Find the familiar blocks in the new categories to draw a square in your favorite color.	
-Artist3	Level2	2_2		loop_times	Use the new &quot;draw a square&quot; block, found in the &quot;Functions&quot; category, to draw a small green square.	
-Artist3	Level3	2_3		loop_times	Use the &quot;repeat&quot; block to draw 3 squares of size 100, each 120 degrees apart, in random colors.	
-Artist3	Level4	2_4		loop_times	Now change the code to draw 36 squares, each 10 degrees apart.	
-Artist3	Level5	2_5		sequence	Draw squares with sides of 50, 60, 70, 80, and 90 dots.  You'll need lots of blocks.	
-Artist3	Level6	2_6		loop_for	Modify this program with the &quot;counter&quot; block (found in the Variables category) to draw the same series of squares with fewer blocks than on the previous level.	
-Artist3	Level7	2_7		loop_for	Replace the pale (disabled) blocks with a &quot;count with&quot; block (in the Loops category) and &quot;counter&quot; block (in the Variables category) to draw the same spiral.	
-Artist3	Level8	2_8		sequence	Draw three snowmen 150 dots tall in different colors, 100 dots apart.  Use the new &quot;draw a snowman&quot; function and &quot;jump forward&quot; block.	
-Artist3	Level9	2_9		loop_for	Use a &quot;count with&quot; loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70 dots, each 60 dots apart.	
-Artist3	Level10	2_10		sequence	Draw whatever you want.  One idea is experimenting with different types of spirals.  What happens if you change the turn amount, rather than the move amount?	
+Artist3	Level1	2_1	artist_zombie	loop_times	Find the familiar blocks in the new categories to draw a square in your favorite color.	
+Artist3	Level2	2_2	artist_zombie	loop_times	Use the new &quot;draw a square&quot; block, found in the &quot;Functions&quot; category, to draw a small green square.	
+Artist3	Level3	2_3	artist_zombie	loop_times	Use the &quot;repeat&quot; block to draw 3 squares of size 100, each 120 degrees apart, in random colors.	
+Artist3	Level4	2_4	artist_zombie	loop_times	Now change the code to draw 36 squares, each 10 degrees apart.	
+Artist3	Level5	2_5	artist_zombie	sequence	Draw squares with sides of 50, 60, 70, 80, and 90 dots.  You'll need lots of blocks.	
+Artist3	Level6	2_6	artist_zombie	loop_for	Modify this program with the &quot;counter&quot; block (found in the Variables category) to draw the same series of squares with fewer blocks than on the previous level.	
+Artist3	Level7	2_7	artist_zombie	loop_for	Replace the pale (disabled) blocks with a &quot;count with&quot; block (in the Loops category) and &quot;counter&quot; block (in the Variables category) to draw the same spiral.	
+Artist3	Level8	2_8	artist_zombie	sequence	Draw three snowmen 150 dots tall in different colors, 100 dots apart.  Use the new &quot;draw a snowman&quot; function and &quot;jump forward&quot; block.	
+Artist3	Level9	2_9	artist_zombie	loop_for	Use a &quot;count with&quot; loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70 dots, each 60 dots apart.	
+Artist3	Level10	2_10	artist_zombie	sequence	Draw whatever you want.  One idea is experimenting with different types of spirals.  What happens if you change the turn amount, rather than the move amount?	
 Farmer2	Level1	karel_2_1	farmer	sequence	Try using the blocks to help me remove all the piles and fill in all the holes on the ground.	
 Farmer2	Level2	karel_2_2	farmer	function	Use the new function block called &quot;fill 5&quot; to help me fill in this hole.	
 Farmer2	Level3	karel_2_3	farmer	function, loop_times	Use the function block to make me fill in all the holes.	
@@ -62,16 +62,16 @@ Farmer2	Level7	karel_2_7	farmer	function	There's a cow in my field! Write a new 
 Farmer2	Level8	karel_2_8	farmer	function, loop_while	Use the function, &quot;avoid the cow and remove 1&quot;, to help me remove all the piles.	
 Farmer2	Level9	karel_2_9	farmer	if, function, loop_while	Use one of the new functions to help me remove all of the piles on the ground with as few blocks as possible.	
 Farmer2	Level10	karel_2_10	farmer	if, function, loop_while	Move me across the field, and use the functions to help me remove all the piles and fill all the holes.	
-Artist4	Level1	3_1		function	You can now see how the &quot;draw a square&quot; and &quot;draw a circle&quot; functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the &quot;draw a square&quot; block to actually draw a square.	
-Artist4	Level2	3_2		function	Using the &quot;draw a square&quot; function as an example, create a &quot;draw a triangle&quot; function and use it.	
-Artist4	Level3	3_3		function, loop_times	Draw triangular fences around the cats and a square fence around the cow.  Tip: Test the program as you go along.	
-Artist4	Level4	3_4		function	See if you can figure out how to use &quot;draw a square&quot; and &quot;draw a triangle&quot; (and some other blocks) to draw a house around the lion.	
-Artist4	Level5	3_5		function	Now create a &quot;draw a house&quot; function and use it house two cats.	
-Artist4	Level6	3_6		parameters	Using &quot;draw a square&quot; as an example, add an input named &quot;length&quot; to &quot;draw a triangle&quot;.  Then, draw triangles in different colors around the animals.	
-Artist4	Level7	3_7		parameters	Add a &quot;height&quot; input to &quot;draw a house&quot; and build a big house for the elephant.	
-Artist4	Level8	3_8		parameters	Here are all of the blocks from the previous level.  Modify &quot;draw a house&quot; so the turtle ends up at the bottom right corner of the new house.  Use this modified function to house all the animals.	
-Artist4	Level9	3_9		parameters	You now know how to control the turtle, use loops (&quot;repeat&quot; and &quot;count from&quot;), and write and use functions.  Congratulations on becoming a programmer!	
-Artist4	Level10	3_10		sequence	You're now free to do whatever you want.  One idea is to try running this program with different turn amounts (higher or lower than 90).  Other ideas are to draw a star, circle, heart, or animal.	
+Artist4	Level1	3_1	artist_zombie	function	You can now see how the &quot;draw a square&quot; and &quot;draw a circle&quot; functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the &quot;draw a square&quot; block to actually draw a square.	
+Artist4	Level2	3_2	artist_zombie	function	Using the &quot;draw a square&quot; function as an example, create a &quot;draw a triangle&quot; function and use it.	
+Artist4	Level3	3_3	artist_zombie	function, loop_times	Draw triangular fences around the cats and a square fence around the cow.  Tip: Test the program as you go along.	
+Artist4	Level4	3_4	artist_zombie	function	See if you can figure out how to use &quot;draw a square&quot; and &quot;draw a triangle&quot; (and some other blocks) to draw a house around the lion.	
+Artist4	Level5	3_5	artist_zombie	function	Now create a &quot;draw a house&quot; function and use it house two cats.	
+Artist4	Level6	3_6	artist_zombie	parameters	Using &quot;draw a square&quot; as an example, add an input named &quot;length&quot; to &quot;draw a triangle&quot;.  Then, draw triangles in different colors around the animals.	
+Artist4	Level7	3_7	artist_zombie	parameters	Add a &quot;height&quot; input to &quot;draw a house&quot; and build a big house for the elephant.	
+Artist4	Level8	3_8	artist_zombie	parameters	Here are all of the blocks from the previous level.  Modify &quot;draw a house&quot; so the turtle ends up at the bottom right corner of the new house.  Use this modified function to house all the animals.	
+Artist4	Level9	3_9	artist_zombie	parameters	You now know how to control the turtle, use loops (&quot;repeat&quot; and &quot;count from&quot;), and write and use functions.  Congratulations on becoming a programmer!	
+Artist4	Level10	3_10	artist_zombie	sequence	You're now free to do whatever you want.  One idea is to try running this program with different turn amounts (higher or lower than 90).  Other ideas are to draw a star, circle, heart, or animal.	
 Farmer3	Level1	karel_debug_seq_1	farmer	sequence	Fix the program on the workspace so that I can get my field flat and ready for planting!	
 Farmer3	Level2	karel_debug_seq_2	farmer	sequence	What's wrong with this program? How should you fix it so I can remove that pile?	
 Farmer3	Level3	karel_debug_repeat	farmer	loop_times	De-bug this program for me so my field will be nice and flat.	
@@ -81,4 +81,4 @@ Farmer3	Level6	karel_debug_if_else	farmer	if_else, loop_times	De-bug this progra
 Farmer3	Level7	karel_debug_function_1	farmer	function	What should you change about this program to help my remove all the piles?	
 Farmer3	Level8	karel_debug_function_2	farmer	function	Can you de-bug this program for me so I can make my field flat?	
 Farmer3	Level9	karel_debug_function_3	farmer	parameters	Edit this program so I'll remove all the piles on my field. 	
-Artist5	Level1	5_1		sequence	Take this time to draw whatever you feel like! 	
+Artist5	Level1	5_1	artist_zombie	sequence	Take this time to draw whatever you feel like! 	
