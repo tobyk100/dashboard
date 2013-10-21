@@ -1,6 +1,9 @@
 - if @user != current_user
   %h3 #{@user.name}
 
+  - if current_user && current_user.admin?
+    %p= @user.email
+
 -#= render 'shared/script_levels', { script: @script, user: @user, level: nil }
 
 -#- if script

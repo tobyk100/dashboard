@@ -95,7 +95,7 @@
                     - if ul
                       - if (ul.updated_at > hours.hours.ago)
                         = bullet_html
-                      - elsif ul.best?
+                      - elsif ul.passing?
                         = check_mark_html
             - if section
               %tr.report_row

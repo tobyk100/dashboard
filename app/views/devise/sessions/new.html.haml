@@ -1,16 +1,14 @@
 %h2 Sign in
-= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
-  %div
-    = f.label :login, "Email or username"
-    %br/
-    = f.text_field :login, :autofocus => true
-  %div
-    = f.label :password
-    %br/
-    = f.password_field :password
-  - if devise_mapping.rememberable?
-    %div
-      = f.check_box :remember_me
-      = f.label :remember_me
-  %div= f.submit "Sign in"
-= render "devise/shared/links"
+%table
+  %tr
+    %td{ style: 'padding-right: 20px; border-right: 1px solid black' }
+      = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+        = f.text_field :login, autofocus: true, placeholder: 'Email or username'
+        = f.password_field :password, placeholder: 'Password'
+        %br/
+        - if devise_mapping.rememberable?
+          %label
+            = f.check_box :remember_me, { style: 'margin: 0; '}
+            Remember me
+        %div{ style: 'float: right;'}= f.submit "Sign in", class: "btn btn-warning"
+    %td{ style: 'padding-left: 20px;' }= render "devise/shared/links"
