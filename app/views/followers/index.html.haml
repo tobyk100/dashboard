@@ -11,14 +11,16 @@
 %br/
 
 = form_tag(nil, method: 'GET') do
-  %div{ style: "vertical-align: middle;display:table-cell; " }
-    Show student activity (#{bullet_html}) in the past:
-    = select_tag('hours', options_for_select([["1 hour", 1], ["day", 24], ["week", 24 * 7]], selected: params[:hours] || 1), {onchange:"this.form.submit();", style: "width: 100px; margin:0px;" })
-    - if add_section_ui
+  - if add_section_ui
+    %div{ style: 'float: left; padding-right: 30px;'}
       Section:
       = select_tag('section_id', options_from_collection_for_select(current_user.sections.unshift(Section.new(name: 'All')), :id, :name, params[:section_id]), {onchange:"this.form.submit();", style: "width: 140px; margin:0px;"  })
+  %div{ style: 'float: left; padding-right: 30px;'}
     Stage(s) to display:
     = select_tag('game_id', options_for_select(@all_games.unshift(Game.new(name: 'all')).map {|g| [t(g.name), g.id]}, params[:game_id]), {onchange:"this.form.submit();", style: "width: 140px; margin:0px;"  })
+  %div
+    Show student activity (#{bullet_html}) in the past:
+    = select_tag('hours', options_for_select([["1 hour", 1], ["day", 24], ["week", 24 * 7]], selected: params[:hours] || 1), {onchange:"this.form.submit();", style: "width: 100px; margin:0px;" })
 
 %hr/
 

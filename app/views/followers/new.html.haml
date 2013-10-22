@@ -4,15 +4,23 @@
 
 %h1= @page_title
 
+%br/
+
 - if current_user.sections.length > 0
   %h4 Have students to register themselves by sharing a this link with them
 
   %p
-    Ask your students to visit code.org/join and enter their class-code:
+    Ask your students to visit
+    %b= link_to 'code.org/join', 'http://code.org/join'
+    and enter their class-code:
     %br/
     - current_user.sections.each do |section|
-      for #{section.name} enter: #{section.code}
+      For
+      %b= section.name
+      enter:
+      %b= section.code
       %br/
+    %br/
     = link_to 'Add section', new_section_path
 
 %hr

@@ -9,9 +9,10 @@
 
 = form_tag(add_to_section_path) do
   - if add_section_ui
-    Add checked students to section:
-    = select_tag('section_id', options_from_collection_for_select(current_user.sections, :id, :name))
-    = submit_tag 'Go'
+    %p
+      Add checked students to section:
+      = select_tag('section_id', options_from_collection_for_select(current_user.sections, :id, :name), style: 'margin: 0')
+      = submit_tag 'Go'
 
   %fieldset
     %table
