@@ -12,9 +12,7 @@
 .row
   .span8
     = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
-      -#- raise resource.inspect
       = devise_error_messages!
-      = f.hidden_field :user_type
       = f.text_field :name, class: 'input-xlarge', autofocus: true, placeholder: 'Name'
       = f.email_field :email, class: 'input-xlarge', placeholder: 'Email'
       %br/
@@ -28,7 +26,6 @@
       -#  = f.label :language
       -#  %br/
       -#  = f.select :language, [['English', 'en'], ['Spanish', 'es']]
-      - if
       .field
         = f.label 'Gender (optional)'
         %br/
