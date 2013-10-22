@@ -6,3 +6,6 @@
 |
 %span{ style: 'color: #ffa400;'}
   = link_to_if current != 'activity', "Recent class activity", student_usage_path
+|
+%span{ style: 'color: #ffa400;'}
+  = link_to_if current != 'addstudents', "Add students", new_follower_path

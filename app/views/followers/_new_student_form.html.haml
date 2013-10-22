@@ -7,18 +7,18 @@
     });
   });
 
-= f.text_field(:name, placeholder: "Student's full name (John Smith)")
+= f.text_field(:name, class: 'input-xlarge', placeholder: "Student's full name (John Smith)")
 %br/
-= f.text_field(:username, placeholder: "Student's username")
+= f.text_field(:username, class: 'input-xlarge', placeholder: "Student's username")
 %br/
-= f.password_field(:password, placeholder: "Student's password")
+= f.password_field(:password, class: 'input-xlarge', placeholder: "Student's password")
 %br/
 = f.select(:gender, options_for_select([["Student's gender (optional)", '', {disabled: true, selected: true}], ['Male', 'm'], ['Female', 'f']], :selected => user.gender))
 %br/
-= f.text_field(:birthday, id: "user_birthday", placeholder: "Student's birthday")
+= f.text_field(:birthday, class: 'input-xlarge', id: "user_birthday", placeholder: "Student's birthday")
 
 %br/
-= f.text_field(:parent_email, placeholder: "Parent's email (required if student is under 13)", character: 200)
+= f.text_field(:parent_email, class: 'input-xlarge', placeholder: "Parent's email", character: 200)
 %br/
-= submit_tag('Add student')
+= submit_tag 'Add student', class: "btn btn-primary"
 

@@ -20,7 +20,7 @@
     Stage(s) to display:
     = select_tag('game_id', options_for_select(@all_games.unshift(Game.new(name: 'all')).map {|g| [t(g.name), g.id]}, params[:game_id]), {onchange:"this.form.submit();", style: "width: 140px; margin:0px;"  })
 
-%hr{ style: "border-color: #0094ca; border-bottom: none;"}/
+%hr/
 
 %table{ border: 0 }
   %tr

@@ -1,29 +1,33 @@
-%h1 Add students
+- @page_title = "Add students"
 
-%p
-  %h4 Add students by email
+= render partial: 'shared/teacher_nav', locals: { current: 'addstudents' }
 
-  = form_for([Follower.new]) do |f|
-    = text_field_tag(:student_email_or_username, nil, placeholder: 'student@school.edu')
+%h1= @page_title
+
+- if current_user.sections.length > 0
+  %h4 Have students to register themselves by sharing a this link with them
+
+  %p
+    Ask your students to visit code.org/join and enter their class-code:
     %br/
-    = submit_tag('Invite student')
+    - current_user.sections.each do |section|
+      for #{section.name} enter: #{section.code}
+      %br/
+    = link_to 'Add section', new_section_path
 
+%hr
+
+%h4 Add students by email
 %p
-  %h4 Create accounts for your students
+  = form_for([Follower.new]) do |f|
+    = text_field_tag(:student_email_or_username, nil, class: 'input-xlarge', placeholder: 'student@school.edu')
+    %br/
+    = submit_tag 'Invite student', class: "btn btn-primary"
+
+%hr
+
+%h4 Create accounts for your students
+%p
   - user = User.new
   = form_for(user, url: { action: :create_student }) do |f|
     = render partial: 'new_student_form', locals: { f: f, user: user }
-
-- if current_user.sections.length > 0
-  %p
-    %h4 Have students to register themselves by sharing a this link with them
-
-    %table
-      %tr
-        %th Section
-        %th link
-      - current_user.sections.each do |section|
-        %tr
-          %td= section.name
-          %td= link_to student_user_new_url(section_code: section.code), student_user_new_path(section_code: section.code)
-

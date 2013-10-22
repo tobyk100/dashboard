@@ -9,7 +9,7 @@ class Section < ActiveRecord::Base
   end
 
 private
-  CHARS = ("A".."Z").to_a + ("1".."9").to_a - ['O'] # skip 0 and O to avoid mix up
+  CHARS = ("A".."Z").to_a
   def random_text(len)
     str = ""
     len.times { |i| str << CHARS[rand(CHARS.length - 1)] }
