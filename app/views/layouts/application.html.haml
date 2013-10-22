@@ -102,10 +102,11 @@
         = yield
     - else
       .container
-        - if notice
-          %p#notice= notice
-        - if alert
-          %p#alert= alert
+        %div{ style: 'margin: 20px;'}
+          - if notice
+            %p#notice= notice
+          - if alert
+            %p#alert= alert
 
-        .row
-          = yield
+          .row
+            = yield
