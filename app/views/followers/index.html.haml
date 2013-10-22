@@ -12,12 +12,12 @@
 
 = form_tag(nil, method: 'GET') do
   %div{ style: "vertical-align: middle;display:table-cell; " }
-    Mark actions (#{bullet_html}) worked on in the past:
+    Show student activity (#{bullet_html}) in the past:
     = select_tag('hours', options_for_select([["1 hour", 1], ["day", 24], ["week", 24 * 7]], selected: params[:hours] || 1), {onchange:"this.form.submit();", style: "width: 100px; margin:0px;" })
     - if add_section_ui
       Section:
       = select_tag('section_id', options_from_collection_for_select(current_user.sections.unshift(Section.new(name: 'All')), :id, :name, params[:section_id]), {onchange:"this.form.submit();", style: "width: 140px; margin:0px;"  })
-    Game:
+    Stage(s) to display:
     = select_tag('game_id', options_for_select(@all_games.unshift(Game.new(name: 'all')).map {|g| [t(g.name), g.id]}, params[:game_id]), {onchange:"this.form.submit();", style: "width: 140px; margin:0px;"  })
 
 %hr{ style: "border-color: #0094ca; border-bottom: none;"}/
@@ -28,25 +28,25 @@
     %td
       .report_key.level_aced &nbsp;
     %td.report_key_cell
-      Completed with the optimal number of blocks
+      Completed, perfect
     %td
       .report_key.level_done &nbsp;
     %td.report_key_cell
-      Completed, but not with the optimal number of blocks
+      Completed, but using too many blocks
   %tr
     %td
     %td
       .report_key.level_undone &nbsp;
     %td.report_key_cell
-      Level tried, but not completed
+      Tried, but not completed
     %td
       .report_key.level_untried &nbsp;
     %td.report_key_cell
-      Level not tried  yet
+      Not tried yet
   %tr
     %td
     %td{ style: "text-align: center;" }= bullet_html
-    %td{ colspan: 3 } indicates the student has worked on this in the last #{hours} #{'hour'.pluralize(hours)}
+    %td{ colspan: 3 } Indicates student activity in the last #{hours} #{'hour'.pluralize(hours)}
 
 %br/
 
