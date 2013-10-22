@@ -145,4 +145,19 @@ SQL
     end
     class_map
   end
+
+  #TODO Store locale instead of language in database.
+  # Language and region should be parsed out of locale if needed.
+
+  def language
+    read_attribute(:language) || 'en'
+  end
+
+  def region
+    'us'
+  end
+
+  def locale
+    "#{language}_#{region}"
+  end
 end
