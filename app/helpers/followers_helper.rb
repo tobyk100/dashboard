@@ -24,7 +24,7 @@ TEXT
     image_tag('white-checkmark.png')
   end
 
-  def build_invite_mailto(section)
-    "mailto:?subject=#{Rack::Utils.escape(t('welcome_email.subject'))}&body=#{Rack::Utils.escape(t('welcome_email.body'))}".gsub('PUT_LINK_HERE', student_user_new_url(section_code: section.code))
+  def build_invite_mailto(section, user)
+    "mailto:?subject=#{Rack::Utils.escape(t('welcome_email.subject'))}&body=#{Rack::Utils.escape(t('welcome_email.body', link: student_user_new_url(section_code: section.code), name: user.name))}"
   end
 end

@@ -19,7 +19,7 @@
       %b= section.name
       enter:
       %b= section.code
-      = link_to '(Send in email)', build_invite_mailto(section), target: :_blank
+      = link_to '(Send in email)', build_invite_mailto(section, current_user), target: :_blank
       %br/
     %br/
     = link_to 'Add section', new_section_path
