@@ -7,7 +7,6 @@
     });
   });
 
-- resource.user_type ||= params[:user_type] || 'student'
 %h2 Sign up
 .row
   .span8
@@ -39,5 +38,4 @@
 
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
-      -#= link_to "Are you a teacher?", new_user_registration_path(user_type: :teacher)
       = render "devise/shared/links"
