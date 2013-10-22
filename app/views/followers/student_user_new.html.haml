@@ -11,7 +11,9 @@
   Url didn't include a valid code, please enter the code shared with you by your teacher. It's a 6-character code made up of letters and numbers
   %br/
   = form_tag(student_user_new_path, method: 'GET') do
-    = text_field_tag(:section_code, params[:section_code], placeholder: "6-character code (123ABC)")
+    = text_field_tag(:section_code, params[:section_code], placeholder: "6-character code (ABCDEF)")
+    %br/
+    = submit_tag 'Go', class: 'btn btn-primary'
 - elsif current_user
   You are currently signed in as #{current_user.username}. #{link_to "Return home", root_path} or #{link_to("log out", destroy_user_session_path, {method: :delete})} to proceed.
 - else
@@ -35,5 +37,5 @@
     = f.text_field(:birthday, id: "user_birthday", placeholder: "Birthday (optional)")
 
     %br/
-    = submit_tag('Register')
+    = submit_tag 'Register', class: 'btn btn-primary'
 

@@ -21,7 +21,7 @@
 
 en:
   hello: "Hello world"
-  teacher_email_or_code_placeholder: "Code (123ABC) or email (teacher@school.edu)"
+  teacher_email_or_code_placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
   appname: "Code.org"
   Maze: "The Maze"
   Artist: "The Artist"
@@ -37,3 +37,11 @@ en:
     twitter: Twitter
     facebook: Facebook
     windowslive: Window Live
+  welcome_email:
+    subject: Join my class (on Code.org)
+    body: |
+      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+
+      PUT_LINK_HERE
+
+      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)

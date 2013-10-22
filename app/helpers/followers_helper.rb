@@ -23,4 +23,8 @@ TEXT
     #raw "&#x2714;"
     image_tag('white-checkmark.png')
   end
+
+  def build_invite_mailto(section)
+    "mailto:?subject=#{Rack::Utils.escape(t('welcome_email.subject'))}&body=#{Rack::Utils.escape(t('welcome_email.body'))}".gsub('PUT_LINK_HERE', student_user_new_url(section_code: section.code))
+  end
 end
