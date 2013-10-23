@@ -8,7 +8,7 @@ upstream unicorn {
 server {
   listen 80 default deferred;
   # server_name example.com;
-  root ${DASH_ROOT};
+  root ${DASH_ROOT}/public;
   try_files \$uri/index.html \$uri @unicorn;
   location @unicorn {
     proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
