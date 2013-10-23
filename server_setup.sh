@@ -12,6 +12,9 @@ else
   export RAILS_ENV=production
 fi
 
+echo $CDO_DEV
+exit 1
+
 # Parse positional arguments.
 if [[ $# -lt 2 ]]; then
   echo 'Usage: server_setup.sh [options] <dash_root> <cdo_user>'
