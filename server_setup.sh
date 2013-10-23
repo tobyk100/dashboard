@@ -13,7 +13,7 @@ fi
 
 export DASH_ROOT=$1
 if [[ -z $DASH_ROOT ]]; then
-  export DASH_ROOT=/home/ubuntu/deploy/current
+  export DASH_ROOT=/home/ubuntu/apps/dashboard/current
 fi
 
 export CDO_USER=$2
