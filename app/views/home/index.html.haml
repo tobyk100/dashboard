@@ -1,44 +1,53 @@
 - if current_user
-  %p
-    -#= link_to 'Browse games', games_path
-  %h3 Courses
-  - Script.all.each do |script|
-    %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+  .row
+    .span6
+      %h3 Courses
+      - Script.all.each do |script|
+        %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
 
-  %div{ style:"position:absolute;right:10px;bottom:10px;"}
-    - if current_user.teachers.length > 0
-      %h3 Teacher
-      - current_user.teachers.each do |teacher|
-        = teacher.name
+      - if current_user.students.length > 0
+        %h3 Students
+        - current_user.students.each do |student|
+          = link_to student.name, user_stats_path(student)
+          %br/
+
+      - if current_user.admin?
+        %h3 Admin
+        = link_to "Games", games_path
         %br/
-      %br/
-    Add a teacher by code or email address:
-    = form_for([Follower.new]) do |f|
-      .field
-        = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t(:teacher_email_or_code_placeholder)
-        = hidden_field_tag :redirect, root_path
-      .actions
-        = f.submit 'Add teacher'
-    %br/
-    = link_to "Student report", followers_path
-    %br/
-    = link_to "Manage students", manage_followers_path
+        = link_to "Concepts", concepts_path
+        %br/
+        = link_to "Videos", videos_path
+        %br/
+        = link_to "Recent Activity", all_usage_path
 
-  - if current_user.students.length > 0
-    %h3 Students
-    - current_user.students.each do |student|
-      = link_to student.name, user_stats_path(student)
-      %br/
+    .span6
+      - if current_user.teachers.length > 1
+        %h4 Your teachers:
+        %ul
+        - current_user.teachers.each do |teacher|
+          %li= teacher.name
+      - elsif current_user.teachers.length == 1
+        %h4 Your teacher is #{current_user.teachers.first.name}
+      - else
+        %h4 Add a teacher by code or email address:
+        = form_for([Follower.new]) do |f|
+          .field
+            = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t(:teacher_email_or_code_placeholder)
+            = hidden_field_tag :redirect, root_path
+          .actions
+            = f.submit 'Add teacher'
 
-  - if current_user.admin?
-    %h3 Admin
-    = link_to "Games", games_path
-    %br/
-    = link_to "Concepts", concepts_path
-    %br/
-    = link_to "Videos", videos_path
-    %br/
-    = link_to "Recent Activity", all_usage_path
+      - if current_user.students.length > 0
+        %h4 Teacher Tools
+        = link_to "Manage students", manage_followers_path
+        %br/
+        = link_to "Add students", new_follower_path
+        %br/
+        = link_to "Rollup report", followers_path
+        %br/
+        = link_to "Recent class activity", student_usage_path
+
 
 - else
   = link_to "Sign up", new_user_registration_path
