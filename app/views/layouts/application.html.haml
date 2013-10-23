@@ -7,98 +7,99 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body{ style: 'padding  :0px;' }
-    .navbar-static-top.header
-      .container
-        .navbar-header
-          .row
-            .span2
-              = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
+    - if !phone? || !@script_level
+      .navbar-static-top.header
+        .container
+          .navbar-header
+            .row
+              .span2
+                = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8{class:@script_level ? "middleheaderspan" : ""}
-              - if @script_level
-                - script = @script || Script.first
-                - count = @game.levels.count
-                - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
+              .span8{class:@script_level ? "middleheaderspan" : ""}
+                - if @script_level
+                  - script = @script || Script.first
+                  - count = @game.levels.count
+                  - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
 
-                .header_text
-                  -if (script.multiple_games?)
-                    #{t(:stage)} #{@game.id}: 
-                  #{t(:puzzle)}
-                - game_levels.each do |sl|
-                  %a{href:build_script_level_path(sl)}
-                  - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
-                  - if sl.level_id == @script_level.level_id
-                    .level_current_header{class:"level_highlight"}
-                      #{@script_level.game_chapter}
-                  - elsif (sl.game_chapter == count)
-                    %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                      #{count}
-                  - else
-                    %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                - if (script.trophies && current_user)
-                  - progress = current_user.progress(script)
-                  .header_separator
-                  %a.header_trophy_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
-                    .header_text
-                      #{t(:trophies)}
-                    .header_status_bar
-                      #{progress['current_trophies']}
-                    .header_text
-                      #{t(:of)} #{progress['max_trophies']}
-                  .header_separator
-                  %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
-                    .header_popup_link_glyph
-                      &#x25BC;
-                    .header_popup_link_text
-                      #{t(:more)}
+                  .header_text
+                    -if (script.multiple_games?)
+                      #{t(:stage)} #{@game.id}:
+                    #{t(:puzzle)}
+                  - game_levels.each do |sl|
+                    %a{href:build_script_level_path(sl)}
+                    - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
+                    - if sl.level_id == @script_level.level_id
+                      .level_current_header{class:"level_highlight"}
+                        #{@script_level.game_chapter}
+                    - elsif (sl.game_chapter == count)
+                      %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                        #{count}
+                    - else
+                      %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                  - if (script.trophies && current_user)
+                    - progress = current_user.progress(script)
+                    .header_separator
+                    %a.header_trophy_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
+                      .header_text
+                        #{t(:trophies)}
+                      .header_status_bar
+                        #{progress['current_trophies']}
+                      .header_text
+                        #{t(:of)} #{progress['max_trophies']}
+                    .header_separator
+                    %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
+                      .header_popup_link_glyph
+                        &#x25BC;
+                      .header_popup_link_text
+                        #{t(:more)}
 
-            .span2{ style: 'text-align: right; padding-top: 0px;' }
-              - if user_signed_in?
-                .user_menu
-                  = link_to raw("Hi #{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
-                  %div{ style: 'position:relative;top:3px;'}
-                    .user_options{style: 'display: none;color: black;position:absolute; right:0'}
-                      = link_to "Stats", user_stats_path(current_user)
-                      %br/
-                      = link_to "Settings", edit_user_registration_path
-                      %br/
-                      = link_to "Log out", destroy_user_session_path, method: :delete
-              - else
-                = link_to "Sign up", new_user_registration_path
-                |
-                = link_to "Sign in", new_user_session_path
+              .span2{ style: 'text-align: right; padding-top: 0px;' }
+                - if user_signed_in?
+                  .user_menu
+                    = link_to raw("Hi #{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+                    %div{ style: 'position:relative;top:3px;'}
+                      .user_options{style: 'display: none;color: black;position:absolute; right:0'}
+                        = link_to "Stats", user_stats_path(current_user)
+                        %br/
+                        = link_to "Settings", edit_user_registration_path
+                        %br/
+                        = link_to "Log out", destroy_user_session_path, method: :delete
+                - else
+                  = link_to "Sign up", new_user_registration_path
+                  |
+                  = link_to "Sign in", new_user_session_path
 
-    .header_popup{id:"headerPopup"}
-      .header_popup_header
-        Your progress
-      .modal-body{id:"headerPopupBody", style: 'padding:5px;min-height:508px;max-height:508px;'}
-      .header_popup_footer
-        %div{id:"popupClose",onclick:"togglePopup();"}
-          CLOSE
-    :javascript
-      togglePopup = function () {
-        $("#headerPopup").toggle();
-        if ($("#headerPopup").css('display') == 'none') {
-          $(".header_popup_link_glyph").html("&#x25BC;");
-          $(".header_popup_link_text").html("#{t(:more)}");
+      .header_popup{id:"headerPopup"}
+        .header_popup_header
+          Your progress
+        .modal-body{id:"headerPopupBody", style: 'padding:5px;min-height:508px;max-height:508px;'}
+        .header_popup_footer
+          %div{id:"popupClose",onclick:"togglePopup();"}
+            CLOSE
+      :javascript
+        togglePopup = function () {
+          $("#headerPopup").toggle();
+          if ($("#headerPopup").css('display') == 'none') {
+            $(".header_popup_link_glyph").html("&#x25BC;");
+            $(".header_popup_link_text").html("#{t(:more)}");
+          }
+          else {
+            $(".header_popup_link_glyph").html("&#x25B2;");
+            $(".header_popup_link_text").html("#{t(:less)}");
+          }
         }
-        else {
-          $(".header_popup_link_glyph").html("&#x25B2;");
-          $(".header_popup_link_text").html("#{t(:less)}");
+        handlePopupClick = function () {
+          if ($("#headerPopupBody").html() == "") {
+            $.ajax({url:'#{header_stats_path()}',success:function(result) {
+                $("#headerPopupBody").html(result);
+                togglePopup();
+              }
+            });
+          }
+          else {
+            togglePopup();
+          }
         }
-      }
-      handlePopupClick = function () {
-        if ($("#headerPopupBody").html() == "") {
-          $.ajax({url:'#{header_stats_path()}',success:function(result) {
-              $("#headerPopupBody").html(result);
-              togglePopup();
-            }
-          });
-        }
-        else {
-          togglePopup();
-        }
-      }
     - if @full_width
       .full_container
         = yield
