@@ -6,8 +6,8 @@
 = stylesheet_link_tag "/#{blockly_path}css/common.css"
 = stylesheet_link_tag "/#{blockly_path}css/#{app}.css"
 
-= javascript_include_tag "/#{blockly_path}js/vendor.js"
-= javascript_include_tag "/#{blockly_path}js/#{app}.js"
+= javascript_include_tag "/#{blockly_path}js/#{locale}/vendor.js"
+= javascript_include_tag "/#{blockly_path}js/#{locale}/#{app}.js"
 
 :javascript
   var nextRedirect;

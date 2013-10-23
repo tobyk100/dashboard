@@ -31,10 +31,10 @@ module LevelsHelper
   end
 
   def language
-    user.try(:language) || 'en'
+    current_user.try(:language) || 'en'
   end
 
   def locale
-    'en_us'
+    current_user.try(:locale) || 'en_us'
   end
 end
