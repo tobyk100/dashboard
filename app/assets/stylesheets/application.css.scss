@@ -277,15 +277,22 @@ th {
   padding: 25px;
 }
 
-body .modal {
-  width: 800px;
-  height: 600px;
-  margin-left: -400px;
+.modal {
   a:hover {color:#FF0000; background-color: white; opacity: 100;}
 }
 
-.modal-body {
-  max-height: 500px;
+#video_player {
+  z-index: 10000;
+
+  &.modal{
+    width: 800px;
+    height: 600px;
+    margin-left: -400px;
+  }
+
+  .modal-body {
+    max-height: 500px;
+  }
 }
 
 .header_popup {

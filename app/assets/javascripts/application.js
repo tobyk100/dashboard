@@ -35,3 +35,29 @@ function embed_thumbnail_image(data) {
         $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
     }
 }
+
+/**
+ * Create a custom modal dialog box with the following options:
+ * - content: A DOM element to display.
+ */
+function Dialog(body, header) {
+  var close = $('<a/>').addClass('close').
+                        attr('data-dismiss', 'modal').
+                        text('\u2297');
+  this.div = $('<div/>').addClass('modal');
+  if (header) {
+    var modalHeader = $('<div/>').addClass('modal-header').
+                                  append(close).
+                                  append(header);
+    this.div.append(modalHeader);
+  }
+  var modalBody = $('<div/>').addClass('modal-body').append(body);
+  this.div.append(modalBody).appendTo('body');
+}
+
+Dialog.prototype.show = function() {
+  $(this.div).modal('show');
+}
+Dialog.prototype.hide = function() {
+  $(this.div).modal('hide');
+}
