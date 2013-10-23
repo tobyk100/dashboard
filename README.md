@@ -3,7 +3,10 @@
 ### Background
 We are building drag-drop programming tutorials to allow a beginner to learn very basic programming concepts (sequencing, if-then statements, for loops, variables, functions), but using drag-drop programming.
 The visual language we're using is based on Blockly (and open-source drag-drop language that spits out XML or JavaScript or Python). 
+
+
 The end-product is a 1-hour tutorial to be used during the Hour of Code campaign, for anybody to get a basic intro to Computer Science, AND a 20-hour follow-on tutorial and teacher-dashboard, meant for use in K-8 (elementary and middle school) classrooms.
+
 For the 1-hour tutorial, we'd like to localize for international use (although we aren't going to get to bi-di support anytime soon). For the 20-hour curriculum, we'd like to have international support too, eventually.
 The 1-hour tutorial should work on any browser (including tablets, smartphones), and require no sign-in. The 20-hour tutorial is optimized for desktops and tablets, and requires a login to save state.
 
