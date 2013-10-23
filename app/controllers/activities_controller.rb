@@ -42,12 +42,31 @@ class ActivitiesController < ApplicationController
 
     # if they solved it, figure out next level
     if solved
+      response = {}
+      
+      if (trophy_updates.length > 0)
+        response[:trophy_updates] = trophy_updates
+      end
+      
       next_level = script_level.next_level
       if next_level
-        render json: { redirect: build_script_level_path(next_level), trophy_updates: trophy_updates }
+        response[:redirect] = build_script_level_path(next_level)
+      
+        if (level.game_id != next_level.level.game_id)
+          response[:stage_changing] = {
+              previous: { number: level.game_id, name: level.game.name },
+              new: { number: next_level.level.game_id, name: next_level.level.game.name }
+              }
+        end
+        
+        if (level.skin != next_level.level.skin)
+          response[:skin_changing] = { previous: level.skin,
+            new: next_level.level.skin }
+        end
       else
-        render json: { message: 'no more levels', trophy_updates: trophy_updates}
+        response[:message] = 'no more levels'
       end
+      render json: response
     else
       render json: { message: 'try again' }
     end

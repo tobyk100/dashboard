@@ -23,7 +23,7 @@
 
                 %a{ href: user_stats_path(current_user) }
                   .header_text
-                    Stage #{@game.id}: step
+                    #{t(:stage)} #{@game.id}: #{t(:puzzle)}
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
                   - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
@@ -38,17 +38,17 @@
                 .header_separator
                 %a{ href: user_stats_path(current_user) }
                   .header_text
-                    Trophies
+                    #{t(:trophies)}
                   .header_status_bar
                     #{progress['current_trophies']}
                   .header_text
-                    of #{progress['max_trophies']}
+                    #{t(:of)} #{progress['max_trophies']}
                 .header_separator
                 %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
                   .header_popup_link_glyph
                     &#x25BC;
                   .header_popup_link_text
-                    MORE
+                    #{t(:more)}
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?
@@ -78,11 +78,11 @@
         $("#headerPopup").toggle();
         if ($("#headerPopup").css('display') == 'none') {
           $(".header_popup_link_glyph").html("&#x25BC;");
-          $(".header_popup_link_text").html("MORE");
+          $(".header_popup_link_text").html("#{t(:more)}");
         }
         else {
           $(".header_popup_link_glyph").html("&#x25B2;");
-          $(".header_popup_link_text").html("LESS");
+          $(".header_popup_link_text").html("#{t(:less)}");
         }
       }
       handlePopupClick = function () {
