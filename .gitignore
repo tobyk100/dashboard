@@ -18,8 +18,10 @@
 # ignore rubymine files
 /.idea
 
-# Ignore application configuration
+# Ignore application & generated configuration
 /config/application.yml
+/config/unicorn.rb
+/config/nginx.conf
 
 # Ignore apple fs files
 .DS_Store

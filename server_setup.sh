@@ -5,7 +5,10 @@ set -e
 if [[ $1 = "-d" ]]; then
   echo "DEV MODE"
   export CDO_DEV=true
+  export RAILS_ENV=development
   shift
+else
+  export RAILS_ENV=production
 fi
 
 export DASH_ROOT=$1
@@ -59,20 +62,25 @@ gem install unicorn
 
 bundle install --gemfile=$DASH_ROOT/Gemfile --binstubs
 
-rm -f /etc/nginx/sites-enabled/default
-nginx_cfg=/etc/nginx/sites-enabled/dashboard
-if [[ ! -e $nginx_cfg ]]; then
-  sudo ln -s $DASH_ROOT/config/nginx.conf $nginx_cfg
-fi
-
+# Configure Unicorn
 unicorn_cfg=/etc/init.d/unicorn
 rm -f $unicorn_cfg
-if [[ ! -e $unicorn_cfg ]]; then
-  sudo ln -s $DASH_ROOT/config/unicorn_init.sh $unicorn_cfg
-fi
+sed -e "s|%DASH_ROOT%|$DASH_ROOT|g" \
+    -e "s|%CDO_USER%|$CDO_USER|g" \
+    -e "s|%RAILS_ENV%|$RAILS_ENV|g" \
+    $DASH_ROOT/config/unicorn_init.sh > $unicorn_cfg
+chmod +x $unicorn_cfg
+$DASH_ROOT/config/unicorn.rb.sh > $DASH_ROOT/config/unicorn.rb
+mkdir -p /var/log/unicorn
+chown $CDO_USER /var/log/unicorn
 
+# Configure Nginx
+nginx_cfg=/etc/nginx/sites-enabled/dashboard
+rm -f /etc/nginx/sites-enabled/default $nginx_cfg
+$DASH_ROOT/config/nginx.conf.sh > $nginx_cfg
 service nginx restart
 
+# Configure Node.js
 if $CDO_DEV; then
   if [[ ! -d $CDO_BUILD_PATH/node-0.10.20 ]]; then
     wget -P $CDO_BUILD_PATH https://github.com/joyent/node/archive/v0.10.20.tar.gz
