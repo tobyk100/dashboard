@@ -5,10 +5,10 @@ set -e
 
 # Feel free to change any of the following variables for your app:
 TIMEOUT=${TIMEOUT-60}
-APP_ROOT=/home/ubuntu/apps/dashboard/current
+APP_ROOT=%DASH_ROOT%
 PID=$APP_ROOT/tmp/pids/unicorn.pid
-CMD="cd $APP_ROOT; bundle exec unicorn -D -c $APP_ROOT/config/unicorn.rb -E production"
-AS_USER=ubuntu
+CMD="cd $APP_ROOT; bundle exec unicorn -D -c $APP_ROOT/config/unicorn.rb -E %RAILS_ENV%"
+AS_USER=%CDO_USER%
 action="$1"
 set -u
 
