@@ -1,7 +1,7 @@
 class LevelsController < ApplicationController
+  before_filter :authenticate_user!
   check_authorization
   load_and_authorize_resource
-  before_filter :authenticate_user!
 
   before_action :set_level, only: [:show, :edit, :update, :destroy]
 

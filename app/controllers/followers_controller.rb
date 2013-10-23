@@ -1,7 +1,7 @@
 class FollowersController < ApplicationController
+  before_filter :authenticate_user!, except: [:student_user_new, :student_register]
   check_authorization only: [:index, :new, :create]
   load_and_authorize_resource only: [:index, :new, :create]
-  before_filter :authenticate_user!, except: [:student_user_new, :student_register]
 
   def index
     script = Script.first
