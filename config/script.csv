@@ -11,12 +11,13 @@ Maze	Level9	2_9	birds	loop_until	I need to get to that pig now. Quick, use the n
 Maze	Level10	2_10	birds	loop_until	I can get to the pig in only 3 blocks. Can you make that happen?	
 Maze	Level11	2_11	pvz	loop_until	Must... get... to sunflower... Can you get me there in just 5 blocks?	
 Maze	Leve12	2_12	pvz	loop_until	I can make it to the sunflower in 5 blocks. Can you help me get there?	
-Maze	Level13	2_13	pvz	if, loop_until	Woah, a new block! Use the new &quot;if&quot; block to let me see if there's a path in another direction. Try to get me to the sunflower in 4 blocks.	
+Maze	Level13	2_13	pvz	if, loop_until	Use the new &quot;if&quot; block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.	
 Maze	Level14	2_14	pvz	if, loop_until	How can I get to the sunflower? Use the &quot;if&quot; block to make it happen.	
 Maze	Level15	2_15	pvz	if, loop_until	Get me to that sunflower! Try making me turn right if there is a path to the right.	
 Maze	Level16	2_16	pvz	if, loop_until	Can you help me get to that tasty sunflower? Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
 Maze	Level17	2_17	pvz	if_else, loop_until	&quot;If-else&quot; blocks checks a condition, and then does one thing or another. Write a program with this new block because I'd really like to get to that sunflower.	
 Maze	Level18	2_18	pvz	if_else, loop_until	Will you help me get to the sunflower for the last time? Make sure to use an &quot;if-else&quot; block!	
+Maze	Level19	2_19	pvz	if_else, loop_until	Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.	
 Artist	Level1	1_1	artist	sequence	I'm a turtle with chalk on my belly. Stack up blocks and press &quot;Run Program&quot; to make me draw the shown picture.	
 Artist	Level2	1_2	artist	sequence	Draw a square, making each side a different color.	
 Artist	Level3	1_3	artist	loop_times	Make a square using only 3 blocks.  (Remember that blocks to set color are free.)	
