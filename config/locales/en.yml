@@ -38,6 +38,7 @@ en:
   Artist4: "The Artist 4"
   Farmer3: "The Farmer 3"
   Artist5: "The Artist 5"
+  MazeEC: "The Artist"
   auth:
     google_oauth2: Google+
     twitter: Twitter

@@ -14,16 +14,16 @@
             .span2
               = link_to(image_tag('logo.png'), root_path, style: "background-color:transparent;")
 
-            .span8{class:(current_user && @script_level) ? "middleheaderspan" : ""}
-              - if current_user && @script_level
+            .span8{class:@script_level ? "middleheaderspan" : ""}
+              - if @script_level
                 - script = @script || Script.first
-                - progress = current_user.progress(script)
                 - count = @game.levels.count
-                - game_levels = current_user.levels_from_script(script, @game.id)
+                - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
 
-                %a{ href: user_stats_path(current_user) }
-                  .header_text
-                    #{t(:stage)} #{@game.id}: #{t(:puzzle)}
+                .header_text
+                  -if (script.multiple_games?)
+                    #{t(:stage)} #{@game.id}: 
+                  #{t(:puzzle)}
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}
                   - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
@@ -35,20 +35,22 @@
                       #{count}
                   - else
                     %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                .header_separator
-                %a{ href: user_stats_path(current_user) }
-                  .header_text
-                    #{t(:trophies)}
-                  .header_status_bar
-                    #{progress['current_trophies']}
-                  .header_text
-                    #{t(:of)} #{progress['max_trophies']}
-                .header_separator
-                %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
-                  .header_popup_link_glyph
-                    &#x25BC;
-                  .header_popup_link_text
-                    #{t(:more)}
+                - if (script.trophies && current_user)
+                  - progress = current_user.progress(script)
+                  .header_separator
+                  %a.header_trophy_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
+                    .header_text
+                      #{t(:trophies)}
+                    .header_status_bar
+                      #{progress['current_trophies']}
+                    .header_text
+                      #{t(:of)} #{progress['max_trophies']}
+                  .header_separator
+                  %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
+                    .header_popup_link_glyph
+                      &#x25BC;
+                    .header_popup_link_text
+                      #{t(:more)}
 
             .span2{ style: 'text-align: right; padding-top: 0px;' }
               - if user_signed_in?

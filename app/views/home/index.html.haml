@@ -3,7 +3,8 @@
     .span6
       %h3 Courses
       - Script.all.each do |script|
-        %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+        -if (!script.hidden? || current_user.admin?)
+          %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
 
       - if current_user.students.length > 0
         %h3 Students
@@ -55,5 +56,6 @@
   = link_to "sign in", new_user_session_path
   , or try out our demos:
   - Script.all.map do |script|
-    - script_level = script.script_levels.first
-    = link_to(script.name, build_script_level_path(script_level))
+    - if (!script.hidden?)
+      - script_level = script.script_levels.first
+      = link_to(script.name, build_script_level_path(script_level))

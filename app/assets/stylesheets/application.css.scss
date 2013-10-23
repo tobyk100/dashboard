@@ -334,8 +334,14 @@ body .modal {
   cursor: pointer;
 }
 
+.header_trophy_link:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .header_popup_link:hover {
-  background-color: $bkgnd_color;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .header_popup_link_glyph {
