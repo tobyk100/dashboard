@@ -10,7 +10,6 @@
 = javascript_include_tag "/#{blockly_path}js/#{app}.js"
 
 :javascript
-  var CALLOUTS = #{@callouts.to_json}
   var nextRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
@@ -31,47 +30,6 @@
     query = query.join('&');
     httpRequest.send(query);
   };
-  var callout = function() {
-    var sessionPrefix = "callout_";
-    var defaults = {
-      at: "bottom right",
-      my: "top left"
-    };
-
-    var MAX_CALLOUTS = 2,
-        callouts_found = 0;
-    CALLOUTS.every(function(callout) {
-      var selector = callout.element_id;  // jquery selector.
-      if (!(sessionPrefix + selector in sessionStorage)) {  // show only once.
-        if ($(selector).length > 0) {  // exit if selector isn't present.
-          var calloutDomElement = $(selector).qtip({
-            content: callout.text,
-            position: {
-              my: callout.qtip_my || defaults.my,
-              at: callout.qtip_at || defaults.at
-            }
-          });
-          // By default, the callouts are shown if there is no autoplay video.
-          // If a video pops up, the callouts are hidden.
-          // If the video is closed, the callouts are shown again.
-          if (#{@autoplay_video.nil?}) {
-            calloutDomElement.qtip('show');
-          } else {
-            calloutDomElement.qtip('hide');
-          }
-          $('#video_player').on('hidden.bs.modal', function() {
-              calloutDomElement.qtip('show');
-          });
-          $('#video_player').on('show.bs.modal', function() {
-              calloutDomElement.qtip('hide');
-          });
-          sessionStorage.setItem(sessionPrefix + selector, true);
-          callouts_found++;
-        }
-      }
-      return (callouts_found < MAX_CALLOUTS);  // Loop condition.
-    });
-  };
   #{app}Main({
     containerId: 'blocklyApp',
     baseUrl: '#{root_url}#{blockly_path}',
@@ -84,9 +42,6 @@
       }
     },
     levelId: '#{@level.level_num}',
-    onInitialize: function() {
-      callout();
-    },
     level: {
       instructions: '#{escape_javascript @level.instructions}',
       #{start_blocks(current_user, @level)}
