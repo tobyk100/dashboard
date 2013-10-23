@@ -24,7 +24,7 @@
 
 %hr/
 
-%table{ border: 0 }
+%table{ width: '100%' }
   %tr
     %td{ style: "vertical-align: middle; font-weight: 500; padding-right: 10px;" } Levels key
     %td
@@ -35,6 +35,8 @@
       .report_key.level_done &nbsp;
     %td.report_key_cell
       Completed, but using too many blocks
+    %td{ style: "text-align: center;" }= bullet_html
+    %td Indicates student activity in the last #{hours} #{'hour'.pluralize(hours)}
   %tr
     %td
     %td
@@ -45,10 +47,6 @@
       .report_key.level_untried &nbsp;
     %td.report_key_cell
       Not tried yet
-  %tr
-    %td
-    %td{ style: "text-align: center;" }= bullet_html
-    %td{ colspan: 3 } Indicates student activity in the last #{hours} #{'hour'.pluralize(hours)}
 
 %br/
 
