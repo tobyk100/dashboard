@@ -37,7 +37,7 @@ namespace :deploy do
   end
 
   task :setup_config, roles: :app do
-    sudo "#{current_path}/server_setup.sh"
+    sudo "#{current_path}/server_setup.sh #{current_path} #{user}"
   end
   after "deploy:setup", "deploy:setup_config"
 

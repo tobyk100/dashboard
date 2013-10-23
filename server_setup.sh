@@ -2,6 +2,7 @@
 
 set -e
 
+# Parse option flags.
 if [[ $1 = "-d" ]]; then
   echo "DEV MODE"
   export CDO_DEV=true
@@ -11,15 +12,13 @@ else
   export RAILS_ENV=production
 fi
 
+# Parse positional arguments.
+if [[ $# -lt 2 ]]; then
+  echo 'Usage: server_setup.sh [options] <dash_root> <cdo_user>'
+  exit 1
+fi
 export DASH_ROOT=$1
-if [[ -z $DASH_ROOT ]]; then
-  export DASH_ROOT=/home/ubuntu/apps/dashboard/current
-fi
-
 export CDO_USER=$2
-if [[ -z $CDO_DEV ]]; then
-  export CDO_USER=ubuntu
-fi
 
 export DEBIAN_FRONTEND=noninteractive
 aptitude update
