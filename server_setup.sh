@@ -5,7 +5,7 @@ set -e
 # Parse option flags.
 if [[ $1 = "-d" ]]; then
   echo "DEV MODE"
-  export CDO_DEV=true
+  export CDO_DEV=1
   export RAILS_ENV=development
   shift
 else
@@ -34,7 +34,7 @@ aptitude -y install \
   nginx
 
 # Native dependencies for builds with Node.js.
-if $CDO_DEV; then
+if [[ $CDO_DEV ]]; then
   aptitude -y install \
     libcairo2-dev \
     libjpeg8-dev \
@@ -80,7 +80,7 @@ $DASH_ROOT/config/nginx.conf.sh > $nginx_cfg
 service nginx restart
 
 # Configure Node.js
-if $CDO_DEV; then
+if [[ $CDO_DEV ]]; then
   if [[ ! -d $CDO_BUILD_PATH/node-0.10.20 ]]; then
     wget -P $CDO_BUILD_PATH https://github.com/joyent/node/archive/v0.10.20.tar.gz
     tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/v0.10.20.tar.gz
