@@ -10,6 +10,17 @@ The end-product is a 1-hour tutorial to be used during the Hour of Code campaign
 For the 1-hour tutorial, we'd like to localize for international use (although we aren't going to get to bi-di support anytime soon). For the 20-hour curriculum, we'd like to have international support too, eventually.
 The 1-hour tutorial should work on any browser (including tablets, smartphones), and require no sign-in. The 20-hour tutorial is optimized for desktops and tablets, and requires a login to save state.
 
+Our code is segmented into three parts:
+
+1. "Blockly Core" is the underlying language platform
+2. "Blockly" is the individual tutorial puzzles
+3. "Dashboard" is the tutorial platform for student login, teacher login, and state
+
+The various areas we'd love engineering help on are:
+
+- [Blockly issues](https://github.com/code-dot-org/blockly/issues)
+- [Dashboard issues](https://github.com/code-dot-org/dashboard/issues)
+
 ### Vagrant VM (recommended)
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
