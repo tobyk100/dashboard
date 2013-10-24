@@ -29,12 +29,4 @@ module LevelsHelper
     return initial_blocks(user, level) ?
       'startBlocks: \'' + initial_blocks(user, level) + '\'' : nil;
   end
-
-  def language
-    current_user.try(:language) || 'en'
-  end
-
-  def locale
-    current_user.try(:locale) || 'en_us'
-  end
 end

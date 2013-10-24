@@ -53,4 +53,22 @@ module ApplicationHelper
     else 'level_done'
     end
   end
+
+  def locale
+    current_user.try(:locale) || I18n.default_locale
+  end
+
+  def js_locale
+    locale.downcase.gsub('-', '_')
+  end
+
+  def options_for_locale_select
+    options = []
+    Dashboard::Application::LOCALES.each do |locale, data|
+      if I18n.available_locales.include? locale.to_sym
+        options << [data[:name], locale]
+      end
+    end
+    options
+  end
 end

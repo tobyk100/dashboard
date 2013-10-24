@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131023191746) do
+ActiveRecord::Schema.define(version: 20131024160434) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -141,12 +141,12 @@ ActiveRecord::Schema.define(version: 20131023191746) do
   add_index "user_trophies", ["user_id", "trophy_id", "concept_id"], name: "index_user_trophies_on_user_id_and_trophy_id_and_concept_id", unique: true, using: :btree
 
   create_table "users", force: true do |t|
-    t.string   "email",                            default: "", null: false
-    t.string   "encrypted_password",               default: "", null: false
+    t.string   "email",                             default: "",      null: false
+    t.string   "encrypted_password",                default: "",      null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",                    default: 0
+    t.integer  "sign_in_count",                     default: 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -159,7 +159,7 @@ ActiveRecord::Schema.define(version: 20131023191746) do
     t.boolean  "admin"
     t.string   "gender",                 limit: 1
     t.string   "name"
-    t.string   "language",               limit: 2
+    t.string   "locale",                 limit: 10, default: "en-US", null: false
     t.date     "birthday"
     t.string   "parent_email"
   end
