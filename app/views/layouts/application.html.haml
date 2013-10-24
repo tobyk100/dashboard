@@ -56,18 +56,18 @@
               .span2{ style: 'text-align: right; padding-top: 0px;' }
                 - if user_signed_in?
                   .user_menu
-                    = link_to raw("Hi #{h(current_user.username)} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+                    = link_to raw("#{t('nav.user.label', username: h(current_user.username))} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
                     %div{ style: 'position:relative;top:3px;'}
                       .user_options{style: 'display: none;color: black;position:absolute; right:0'}
-                        = link_to "Stats", user_stats_path(current_user)
+                        = link_to t('nav.user.stats'), user_stats_path(current_user)
                         %br/
-                        = link_to "Settings", edit_user_registration_path
+                        = link_to t('nav.user.settings'), edit_user_registration_path
                         %br/
-                        = link_to "Log out", destroy_user_session_path, method: :delete
+                        = link_to t('nav.user.logout'), destroy_user_session_path, method: :delete
                 - else
-                  = link_to "Sign up", new_user_registration_path
+                  = link_to t('nav.user.signin'), new_user_registration_path
                   |
-                  = link_to "Sign in", new_user_session_path
+                  = link_to t('nav.user.signout'), new_user_session_path
 
       .header_popup{id:"headerPopup"}
         .header_popup_header

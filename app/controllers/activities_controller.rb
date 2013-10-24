@@ -43,22 +43,22 @@ class ActivitiesController < ApplicationController
     # if they solved it, figure out next level
     if solved
       response = {}
-      
+
       if (trophy_updates.length > 0)
         response[:trophy_updates] = trophy_updates
       end
-      
+
       next_level = script_level.next_level
       if next_level
         response[:redirect] = build_script_level_path(next_level)
-      
+
         if (level.game_id != next_level.level.game_id)
           response[:stage_changing] = {
               previous: { number: level.game_id, name: level.game.name },
               new: { number: next_level.level.game_id, name: next_level.level.game.name }
               }
         end
-        
+
         if (level.skin != next_level.level.skin)
           response[:skin_changing] = { previous: level.skin,
             new: next_level.level.skin }
@@ -99,7 +99,7 @@ class ActivitiesController < ApplicationController
 
     respond_to do |format|
       if @activity.save
-        format.html { redirect_to @activity, notice: 'Activity was successfully created.' }
+        format.html { redirect_to @activity, notice: I18n.t('crud.created', model: @activity.model_name.human) }
         format.json { render action: 'show', status: :created, location: @activity }
       else
         format.html { render action: 'new' }
@@ -113,7 +113,7 @@ class ActivitiesController < ApplicationController
   def update
     respond_to do |format|
       if @activity.update(activity_params)
-        format.html { redirect_to @activity, notice: 'Activity was successfully updated.' }
+        format.html { redirect_to @activity, notice: I18n.t('crud.updated', model: @activity.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

@@ -30,7 +30,7 @@ class ConceptsController < ApplicationController
 
     respond_to do |format|
       if @concept.save
-        format.html { redirect_to @concept, notice: 'Concept was successfully created.' }
+        format.html { redirect_to @concept, notice: I18n.t('crud.created', model: @concept.model_name.human) }
         format.json { render action: 'show', status: :created, location: @concept }
       else
         format.html { render action: 'new' }
@@ -44,7 +44,7 @@ class ConceptsController < ApplicationController
   def update
     respond_to do |format|
       if @concept.update(concept_params)
-        format.html { redirect_to @concept, notice: 'Concept was successfully updated.' }
+        format.html { redirect_to @concept, notice: I18n.t('crud.updated', @concept.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

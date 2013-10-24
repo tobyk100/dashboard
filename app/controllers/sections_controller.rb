@@ -18,7 +18,7 @@ class SectionsController < ApplicationController
 
     respond_to do |format|
       if @section.save
-        format.html { redirect_to manage_followers_path, notice: 'Section was successfully created.' }
+        format.html { redirect_to manage_followers_path, notice: I18n.t('crud.created', model: @section.model_name.human) }
       else
         format.html { render action: 'new' }
       end
@@ -28,7 +28,7 @@ class SectionsController < ApplicationController
   def update
     respond_to do |format|
       if @section.update(section_params)
-        format.html { redirect_to manage_followers_path, notice: 'Section was successfully updated.' }
+        format.html { redirect_to manage_followers_path, notice: I18n.t('crud.updated', model: @section.model_name.human) }
       else
         format.html { render action: 'edit' }
       end

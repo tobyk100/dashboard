@@ -1,6 +1,7 @@
 module FollowersHelper
   def build_user_level_message(user, user_level, script_level)
     if user_level
+      #TODO: Localize
       return <<TEXT
 #{user.name}
 #{script_level.level.game.name} ##{script_level.game_chapter}

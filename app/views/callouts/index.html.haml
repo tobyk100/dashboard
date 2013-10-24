@@ -12,12 +12,12 @@
     %tr
       %td= callout.element_id
       %td= callout.text
-      %td= link_to 'Show', callout
+      %td= link_to t('crud.show'), callout
       - if can? :update, @callout
-        %td= link_to 'Edit', edit_callout_path(callout)
+        %td= link_to t('crud.edit'), edit_callout_path(callout)
       - if can? :update, @callout
-        %td= link_to 'Destroy', callout, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %td= link_to t('crud.destroy'), callout, :method => :delete, :data => { :confirm => t('crud.confirm') }
 
 %br
 
-= link_to 'New Callout', new_callout_path
+= link_to t('crud.new_model', model: Callout.model_name.human), new_callout_path

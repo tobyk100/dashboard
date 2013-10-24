@@ -36,7 +36,7 @@ class LevelsController < ApplicationController
 
     respond_to do |format|
       if @level.save
-        format.html { redirect_to [@level.game, @level], notice: 'Level was successfully created.' }
+        format.html { redirect_to [@level.game, @level], notice: I18n.t('crud.created', model: @level.model_name.human) }
         format.json { render action: 'show', status: :created, location: @level }
       else
         format.html { render action: 'new' }
@@ -50,7 +50,7 @@ class LevelsController < ApplicationController
   def update
     respond_to do |format|
       if @level.update(level_params)
-        format.html { redirect_to [@level.game, @level], notice: 'Level was successfully updated.' }
+        format.html { redirect_to [@level.game, @level], notice: I18n.t('crud.updated', @level.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

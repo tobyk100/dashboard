@@ -38,10 +38,10 @@
         Stage #{current_game}
         #{t(sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
-        
+
     - best_result = sl.user_level ? sl.user_level.best_result : 0
     - link = build_script_level_path(sl)
-    
+
     - if best_result >= Activity::MINIMUM_PASS_RESULT
       %a{ href: link, class: "level_link level_link_done"}
         &#x2714;
