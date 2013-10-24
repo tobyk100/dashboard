@@ -62,8 +62,14 @@ function Dialog(options) {
   this.div.append(modalBody).appendTo('body');
 }
 
-Dialog.prototype.show = function() {
+/**
+ * Options is configurable with a top and left properties, both are integers.
+ */
+Dialog.prototype.show = function(options) {
+  options = options || {};
+
   $(this.div).modal('show');
+  this.div.offset(options);
 }
 Dialog.prototype.hide = function() {
   $(this.div).modal('hide');
