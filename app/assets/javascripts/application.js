@@ -35,3 +35,36 @@ function embed_thumbnail_image(data) {
         $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
     }
 }
+
+/**
+ * Create a custom modal dialog box which takes a configurable options object.
+ * Currently supported options include 'header' and 'body', which are DOM
+ * elements.
+ */
+function Dialog(options) {
+  var body = options.body;
+  var header = options.header;
+
+  var close = $('<a/>').addClass('close')
+                       .attr('data-dismiss', 'modal')
+                       .text('\u2297');
+  this.div = $('<div/>').addClass('modal');
+  var modalBody = $('<div/>').addClass('modal-body');
+  if (header) {
+    var modalHeader = $('<div/>').addClass('modal-header')
+                                 .append(close)
+                                 .append(header);
+    this.div.append(modalHeader);
+  } else {
+    modalBody.append(close);
+  }
+  modalBody.append(body);
+  this.div.append(modalBody).appendTo('body');
+}
+
+Dialog.prototype.show = function() {
+  $(this.div).modal('show');
+}
+Dialog.prototype.hide = function() {
+  $(this.div).modal('hide');
+}
