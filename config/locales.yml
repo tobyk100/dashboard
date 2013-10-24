@@ -1,0 +1,20 @@
+de:
+  name: Deutsch
+  enabled: false
+en-US:
+  name: English
+  fallback: en
+en-PLOC:
+  name: Pseudolocalized
+  debug: true
+es:
+  name: Español
+pt-BR:
+  name: Português
+  enabled: false
+vi:
+  name: Tiếng Việt
+  enabled: false
+zh-TW:
+  name: 正體字
+  enabled: false

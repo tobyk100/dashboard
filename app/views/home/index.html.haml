@@ -1,7 +1,7 @@
 - if current_user
   .row
     .span6
-      %h3 Courses
+      %h3= t(:courses)
       - Script.all.each do |script|
         -if (!script.hidden? || current_user.admin?)
           %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)

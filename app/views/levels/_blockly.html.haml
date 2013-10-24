@@ -6,8 +6,8 @@
 = stylesheet_link_tag "/#{blockly_path}css/common.css"
 = stylesheet_link_tag "/#{blockly_path}css/#{app}.css"
 
-= javascript_include_tag "/#{blockly_path}js/#{locale}/vendor.js"
-= javascript_include_tag "/#{blockly_path}js/#{locale}/#{app}.js"
+= javascript_include_tag "/#{blockly_path}js/#{js_locale}/vendor.js"
+= javascript_include_tag "/#{blockly_path}js/#{js_locale}/#{app}.js"
 
 :javascript
   var nextRedirect;
@@ -31,6 +31,7 @@
     httpRequest.send(query);
   };
   #{app}Main({
+    locale: '#{js_locale}',
     containerId: 'blocklyApp',
     baseUrl: '#{root_url}#{blockly_path}',
     onAttempt: function(report) {

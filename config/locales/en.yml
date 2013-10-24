@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  courses: 'Courses'
   hello: "Hello world"
   teacher_email_or_code_placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
   appname: "Code.org"

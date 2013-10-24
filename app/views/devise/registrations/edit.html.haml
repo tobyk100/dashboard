@@ -35,9 +35,9 @@
       %br/
       = f.password_field :current_password
   .field
-    = f.label :language
+    = f.label :locale, t(:language)
     %br/
-    = f.select :language, [['English', 'en'], ['Spanish', 'es']]
+    = f.select :locale, options_for_locale_select
   .field
     = f.label :gender
     %br/
