@@ -20,7 +20,7 @@ Maze	Level18	2_18	pvz	if_else, loop_until	One more practice of the &quot;if-else
 Maze	Level19	2_19	pvz	if_else, loop_until	Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.	
 Artist	Level1	1_1	artist	sequence	Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture.	
 Artist	Level2	1_2	artist	sequence	Now, draw a square. NOTE: use multiple different colors using the new &quot;set color&quot; block.	
-Artist	Level3	1_3	artist	loop_times	Make a square using only 3 blocks.  (Blocks to set color are free, so use them if you want)	
+Artist	Level3	1_3	artist	loop_times	Make a square using only 3 blocks.	
 Artist	Level4	1_4	artist	loop_times	Draw a triangle whose sides are all in different colors, using the &quot;random color&quot; option that picks a different color each time. Hint: You'll have to figure out how far to turn.	
 Artist	Level5	1_5	artist	loop_times	Now, for practice, draw a triangle and then a square to draw an envelope.	
 Artist	Level6	1_6	artist	loop_times	Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square.	
