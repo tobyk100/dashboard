@@ -281,6 +281,10 @@ th {
   a:hover {color:#FF0000; background-color: white; opacity: 100;}
 }
 
+.modal-body {
+  max-height: none;
+}
+
 #video_player {
   z-index: 10000;
 
