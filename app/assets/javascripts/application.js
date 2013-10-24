@@ -45,13 +45,16 @@ function Dialog(body, header) {
                         attr('data-dismiss', 'modal').
                         text('\u2297');
   this.div = $('<div/>').addClass('modal');
+  var modalBody = $('<div/>').addClass('modal-body');
   if (header) {
     var modalHeader = $('<div/>').addClass('modal-header').
                                   append(close).
                                   append(header);
     this.div.append(modalHeader);
+  } else {
+    modalBody.append(close);
   }
-  var modalBody = $('<div/>').addClass('modal-body').append(body);
+  modalBody.append(body);
   this.div.append(modalBody).appendTo('body');
 }
 
