@@ -27,6 +27,7 @@
     initialize_video_popup('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}');
 
 :javascript
+  $('.modal-backdrop').addClass('video-backdrop');
   $('#video_player').on('hidden', function () {
     $('#video_iframe')[0].src = null;
   });
