@@ -59,7 +59,7 @@ module ApplicationHelper
   end
 
   def js_locale
-    locale.downcase.gsub('-', '_')
+    locale.to_s.downcase.gsub('-', '_')
   end
 
   def options_for_locale_select
