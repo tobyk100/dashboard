@@ -47,27 +47,6 @@ bundle
 rake db:migrate seed:all youtube:thumbnails
 rails server
 ```
-### Local Development Server (Advanced)
-
-__Note__: This is considered advanced since there are hidden dependencies and system configuration may conflict.
-
-1. [Install rbenv](https://github.com/sstephenson/rbenv#installation), note the homebrew option for OSX.
-2. Install ruby 2.0 with `rbenv install 2.0.0-p247` and set to global with `rbenv global 2.0.0-p247`.
-3. Install [node](http://nodejs.org/download/), again for OSX, consider [brew](http://madebyhoundstooth.com/blog/install-node-with-homebrew-on-os-x/).
-4. Follow below instructions:
-
-```shell
-git clone https://github.com/code-dot-org/dashboard.git
-cd dashboard
-bundle install
-rake db:create db:migrate seed:all blockly:latest
-cd public/blockly
-npm install
-grunt
-cd ../..
-rails s[erver]
-open http://localhost:8000
-```
 
 ### Developing on Blockly Mooc
 
