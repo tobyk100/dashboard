@@ -359,6 +359,19 @@ body .modal {
   line-height: 10px;
 }
 
+.stage_separator {
+  #padding-left: 2px;
+  #margin-bottom: -18px;
+  #margin-top: -8px;
+  #margin-right: 2px;
+  #height: 42px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
+  #display: inline-block;
+}
+
 .close {
   color:red;
   font-size: 24pt;
