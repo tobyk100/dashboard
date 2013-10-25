@@ -230,6 +230,26 @@ th {
   display: inline-block;
 }
 
+.main {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  a:link {font-weight: bold; color:$dark_color;}
+  a:visited {font-weight: bold; color:$dark_color;}
+  a:hover {font-weight: bold; color:$dark_color; background-color: transparent;   text-decoration: underline; }  /* mouse over link */
+  a:active {font-weight: bold; color:$dark_color; background-color: transparent;}  /* selected link */
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  background-color: $dark_color;
+  color: $header_text;
+  a:link {font-weight: bold; color: white;}
+  a:visited {font-weight: bold; color: white;}
+  a:hover {font-weight: bold; color:white; background-color: transparent;   text-decoration: underline; }  /* mouse over link */
+  a:active {font-weight: bold; color:white; background-color: transparent;}  /* selected link */
+}
 .middleheaderspan {
   padding-top:20px;
   padding-bottom:10px;

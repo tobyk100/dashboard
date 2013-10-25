@@ -51,11 +51,5 @@
 
 
 - else
-  = link_to "Sign up", new_user_registration_path
-  ,
-  = link_to "sign in", new_user_session_path
-  , or try out our demos:
-  - Script.all.map do |script|
-    - if (!script.hidden?)
-      - script_level = script.script_levels.first
-      = link_to(script.name, build_script_level_path(script_level))
+  #{ link_to "Sign up", new_user_registration_path}, #{ link_to "sign in", new_user_session_path}, or try out our demos:
+  = raw Script.where(hidden: false).map { |script| link_to(script.name, script_level_path(script, ScriptLevel::NEXT)) }.join(", ")
