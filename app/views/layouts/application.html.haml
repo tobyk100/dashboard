@@ -65,9 +65,9 @@
                         %br/
                         = link_to t('nav.user.logout'), destroy_user_session_path, method: :delete
                 - else
-                  = link_to t('nav.user.signin'), new_user_registration_path
+                  = link_to t('nav.user.signup'), new_user_registration_path
                   |
-                  = link_to t('nav.user.signout'), new_user_session_path
+                  = link_to t('nav.user.signin'), new_user_session_path
 
       .header_popup{id:"headerPopup"}
         .header_popup_header
