@@ -17,15 +17,15 @@
 // Loads all Bootstrap javascripts
 //= require bootstrap
 
-function build_youtube_url(youtube_code) {
+function buildYoutubeUrl(youtubeCode) {
   var url = 'https://www.youtubeeducation.com/embed/' +
-             youtube_code +
+             youtubeCode +
              '?modestbranding=1&rel=0&fs=1&showinfo=1';
   return url;
 }
 
-function showVideo(youtube_code, name) {
-  var src = build_youtube_url(youtube_code);
+function showVideo(youtubeCode, name) {
+  var src = buildYoutubeUrl(youtubeCode);
   var header = $('<h3/>').text(name);
   var video = $('<iframe/>').attr('src', src)
                             .addClass('video-player')
@@ -35,7 +35,7 @@ function showVideo(youtube_code, name) {
   $(dialog.div).addClass('video-modal');
 
   dialog.show();
-  $('.modal-backdrop').addClass('video-backdrop');
+  $('.modal-backdrop').addClass('video-backdrop');  // Hack to fix z-index.
 }
 
 function embed_thumbnail_image(data) {
