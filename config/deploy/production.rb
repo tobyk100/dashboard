@@ -1,1 +1,1 @@
-server 'dashboard.code.org', :app, :web, :db, :primary => true
+server 'learn.code.org', :app, :web, :db, :primary => true
