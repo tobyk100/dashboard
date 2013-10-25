@@ -21,10 +21,7 @@
         = f.password_field :password, class: 'input-xlarge', placeholder: 'Password'
         = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: 'Password confirmation'
         %br/
-      -#.field
-      -#  = f.label :locale, t(:language)
-      -#  %br/
-      -#  = f.select :locale, options_for_locale_select
+      = f.hidden_field :locale, value: locale
       .field
         = f.label 'Gender (optional)'
         %br/

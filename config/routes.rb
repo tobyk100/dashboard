@@ -5,9 +5,10 @@ Dashboard::Application.routes.draw do
   resources :activities
   resources :sections, only: [:new, :create, :edit, :update, :destroy]
 
-  devise_for :users, controllers: {omniauth_callbacks: 'omniauth_callbacks', registrations: 'registrations' }
+  devise_for :users, controllers: {omniauth_callbacks: 'omniauth_callbacks', registrations: 'registrations'}
 
   root :to => "home#index"
+  post '/locale', to: 'home#set_locale', as: 'locale'
 
   resources :games do
     resources :levels

@@ -249,6 +249,7 @@ th {
   a:visited {font-weight: bold; color: white;}
   a:hover {font-weight: bold; color:white; background-color: transparent;   text-decoration: underline; }  /* mouse over link */
   a:active {font-weight: bold; color:white; background-color: transparent;}  /* selected link */
+  select {width: auto}
 }
 .middleheaderspan {
   padding-top:20px;
