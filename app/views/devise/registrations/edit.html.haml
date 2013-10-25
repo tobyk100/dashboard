@@ -37,7 +37,7 @@
   .field
     = f.label :locale
     %br/
-    = f.select :locale, options_for_locale_select
+    = f.select :locale, options_for_locale_select, selected: locale
   .field
     = f.label :gender
     %br/

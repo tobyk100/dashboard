@@ -100,6 +100,9 @@
             togglePopup();
           }
         }
+        switchLocale = function() {
+          $('#localeForm').submit();
+        }
     - if @full_width
       .full_container
         = yield
@@ -118,6 +121,10 @@
         .row
           .span2
             &copy; Code.org, 2013
+            %br/
+            = form_tag(locale_url, method: :post, id: 'localeForm') do
+              = hidden_field_tag :return_to, request.url
+              = select_tag :locale, options_for_select(options_for_locale_select, locale), onchange: 'switchLocale();'
           .span10
             Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.
             %br/

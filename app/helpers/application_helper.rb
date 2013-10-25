@@ -1,6 +1,9 @@
 require 'nokogiri'
 
 module ApplicationHelper
+
+  include LocaleHelper
+
   def ago(from_time)
     s = distance_of_time_in_words_to_now(from_time)
     # XXX This is horribly broken for localization.
@@ -55,21 +58,4 @@ module ApplicationHelper
     end
   end
 
-  def locale
-    current_user.try(:locale) || I18n.default_locale
-  end
-
-  def js_locale
-    locale.to_s.downcase.gsub('-', '_')
-  end
-
-  def options_for_locale_select
-    options = []
-    Dashboard::Application::LOCALES.each do |locale, data|
-      if I18n.available_locales.include? locale.to_sym
-        options << [data[:name], locale]
-      end
-    end
-    options
-  end
 end
