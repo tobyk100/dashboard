@@ -145,4 +145,8 @@ SQL
     end
     class_map
   end
+
+  def locale
+    read_attribute(:locale).try(:to_sym)
+  end
 end

@@ -1,5 +1,15 @@
+# Root keys are locale codes.
+# name: localized to be recognizable to users who need to switch.
+# enabled: Determines if the language shows up in the dropdown.
+# fallback: Specifies a Rails-level I18n fallback.
+# expand: Used to resolve a language to a locale with default region.
+# debug: Causes a language to only show up for in development env.
+
 de:
   name: Deutsch
+  enabled: false
+en:
+  expand: 'en-US'
   enabled: false
 en-US:
   name: English
@@ -9,11 +19,17 @@ en-PLOC:
   debug: true
 es:
   name: Español
+pt:
+  expand: 'pt-BR'
+  enabled: false
 pt-BR:
   name: Português
   enabled: false
 vi:
   name: Tiếng Việt
+  enabled: false
+zh:
+  expand: 'zh-TW'
   enabled: false
 zh-TW:
   name: 正體字
