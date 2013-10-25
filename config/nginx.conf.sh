@@ -6,12 +6,20 @@ upstream unicorn {
 }
 
 server {
+  listen 80 default deferred;
+  # server_name example.com;
+EOF
+
+
+if [[ $RAILS_ENV = 'production' ]]; then
+cat <<EOF
   if ($host != "learn.code.org") {
     rewrite /?(.*) http://learn.code.org/$1 permanent;
   }
+EOF
+fi
 
-  listen 80 default deferred;
-  # server_name example.com;
+cat <<EOF
   root ${DASH_ROOT}/public;
   try_files \$uri/index.html \$uri @unicorn;
   location @unicorn {
