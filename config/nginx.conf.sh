@@ -6,6 +6,10 @@ upstream unicorn {
 }
 
 server {
+  if ($host != "learn.code.org") {
+    rewrite /?(.*) http://learn.code.org/$1 permanent;
+  }
+
   listen 80 default deferred;
   # server_name example.com;
   root ${DASH_ROOT}/public;
