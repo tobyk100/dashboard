@@ -47,8 +47,6 @@ namespace :seed do
 
   task scripts: :environment do
     c = Script.connection
-    c.execute('truncate table levels')
-    c.execute('truncate table concepts_levels')
     c.execute('truncate table script_levels')
     c.execute('truncate table scripts')
 
@@ -67,7 +65,8 @@ namespace :seed do
       CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
         puts "row #{index}: #{row.inspect}"
-        level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[COL_NAME], row[COL_LEVEL])
+        level = Level.find_or_create_by_game_id_and_level_num(game.id, row[COL_LEVEL])
+        level.name = row[COL_NAME]
         level.level_url ||= row[COL_URL]
         level.instructions ||= row[COL_INSTRUCTIONS]
         level.skin ||= row[COL_SKIN]
