@@ -51,6 +51,7 @@ en:
   Artist5: "The Artist 5"
   MazeEC: "The Artist"
   auth:
+    signed_in: 'Signed in!'
     google_oauth2: 'Google+'
     twitter: 'Twitter'
     facebook: 'Facebook'
@@ -77,8 +78,6 @@ en:
     mail:
       invite_student:
         subject: "Join %{teacher_name}'s class at Code.org!"
-  auth:
-    signed_in: 'Signed in!'
   reports:
     error:
       access_denied: "You don't have access to this person's stats"
