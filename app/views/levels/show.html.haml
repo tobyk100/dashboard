@@ -14,22 +14,6 @@
     %br/
     #{link_to 'edit', edit_game_level_path(@game, @level)} / #{ link_to 'stats', level_stats_path(@level) }
 
-.modal.fade#video_player{ style: 'display:none;'}
-  .modal-header
-    %a.close{'data-dismiss' => "modal"} &#X2297;
-    %h3#video_title Modal Header
-  .modal-body
-    %iframe#video_iframe{ name: 'testname', width: "100%", height: '500px', frameborder: 1, scrolling: 'no', marginwidth: 0, marginheight: 0}
-  -#.modal-footer
-  -#  %a.close{'data-dismiss' => "modal"} Close
-
-
-- if @autoplay_video && !mobile?
+- if @autoplay_video
   :javascript
-    initialize_video_popup('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}');
-
-:javascript
-  $('.modal-backdrop').addClass('video-backdrop');
-  $('#video_player').on('hidden', function () {
-    $('#video_iframe')[0].src = null;
-  });
+    showVideo('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}');

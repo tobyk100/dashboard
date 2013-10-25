@@ -306,7 +306,14 @@ th {
   max-height: none;
 }
 
-#video_player {
+.video-player {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.video-modal {
   z-index: 10000;
 
   &.modal{
@@ -399,7 +406,7 @@ th {
     font-size:17.5px;
   }
 
-  .video_link {
+  .video-link {
     display: block;
     float: left;
     margin: 8px;

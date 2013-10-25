@@ -18,23 +18,40 @@
 //= require bootstrap
 
 function build_youtube_url(youtube_code) {
-    return 'https://www.youtubeeducation.com/embed/' + youtube_code + '?modestbranding=1&rel=0&fs=1&showinfo=1'
+  var url = 'https://www.youtubeeducation.com/embed/' +
+             youtube_code +
+             '?modestbranding=1&rel=0&fs=1&showinfo=1';
+  return url;
 }
 
-function initialize_video_popup(youtube_code,name) {
-    $('#video_iframe')[0].src = build_youtube_url(youtube_code);
-    $('#video_title').text(name);
-    $('#video_player').modal('show');
-    return false;
+function showVideo(youtube_code, name) {
+  var src = build_youtube_url(youtube_code);
+  var header = $('<h3/>').text(name);
+  var video = $('<iframe/>').attr('src', src)
+                            .addClass('video-player')
+                            .attr('scrolling', 'no');
+
+  var dialog = new Dialog({ header: header, body: video });
+  $(dialog.div).addClass('video-modal');
+
+  dialog.show();
+  $('.modal-backdrop').addClass('video-backdrop');
 }
 
 function embed_thumbnail_image(data) {
-    var thumbnails = data.entry.media$group.media$thumbnail;
-    var video_code = data.entry.media$group.yt$videoid.$t;
-    if (thumbnails && thumbnails.length > 0) {
-        $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
-    }
+  var thumbnails = data.entry.media$group.media$thumbnail;
+  var video_code = data.entry.media$group.yt$videoid.$t;
+  if (thumbnails && thumbnails.length > 0) {
+      $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
+  }
 }
+
+var addClickTouchEvent = function(element, handler) {
+  if ('ontouchend' in document.documentElement) {
+    element.on('touchend', handler);
+  }
+  element.on('click', handler);
+};
 
 /**
  * Create a custom modal dialog box which takes a configurable options object.
@@ -60,6 +77,10 @@ function Dialog(options) {
   }
   modalBody.append(body);
   this.div.append(modalBody).appendTo('body');
+
+  addClickTouchEvent(close, $.proxy(function() {
+    this.hide();
+  }, this));
 }
 
 /**
@@ -69,8 +90,23 @@ Dialog.prototype.show = function(options) {
   options = options || {};
 
   $(this.div).modal('show');
+
+  addClickTouchEvent($(this.div).next(), $.proxy(function() {
+    this.hide();
+  }, this));
+
   this.div.offset(options);
 }
 Dialog.prototype.hide = function() {
+  // Hide let's bootstrap cleanup first, then we remove.
   $(this.div).modal('hide');
+  $(this.div).remove();
 }
+
+$(document).ready(function() {
+  $('.video-link').each(function() {
+    addClickTouchEvent($(this), $.proxy(function() {
+      showVideo($(this).attr('data-code'), $(this).attr('data-name'));
+    }, this));
+  });
+});
