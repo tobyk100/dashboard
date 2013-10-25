@@ -27,9 +27,10 @@ function buildYoutubeUrl(youtubeCode) {
 function showVideo(youtubeCode, name) {
   var src = buildYoutubeUrl(youtubeCode);
   var header = $('<h3/>').text(name);
-  var video = $('<iframe/>').attr('src', src)
-                            .addClass('video-player')
-                            .attr('scrolling', 'no');
+  var video = $('<iframe/>').addClass('video-player').attr({
+    src: src,
+    scrolling: 'no'
+  });
 
   var dialog = new Dialog({ header: header, body: video });
   $(dialog.div).addClass('video-modal');
@@ -47,10 +48,10 @@ function embed_thumbnail_image(data) {
 }
 
 var addClickTouchEvent = function(element, handler) {
-  if ('ontouchend' in document.documentElement) {
-    element.on('touchend', handler);
-  }
-  element.on('click', handler);
+  element.on({
+    'touchend': handler,
+    'click': handler
+  });
 };
 
 /**
