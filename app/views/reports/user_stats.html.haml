@@ -17,7 +17,7 @@
     - @concept_progress.each_pair do |concept, counts|
       %tr{ height:"40px"}
         %td{width:"110px"}
-          #{concept.description}:
+          #{data_t('concept.description', @concept.name)}:
         %td
           .progress-outer{ style: "width:150px;"}
             .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }

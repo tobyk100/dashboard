@@ -11,15 +11,15 @@ namespace :seed do
 
   task concepts: :environment do
     Concept.connection.execute('truncate table concepts')
-    Concept.create!(name: 'sequence', description: 'Sequence')
-    Concept.create!(name: 'if', description: 'If block', video: Video.find_by_key('if'))
-    Concept.create!(name: 'if_else', description: 'If-else block', video: Video.find_by_key('if_else'))
-    Concept.create!(name: 'loop_times', description: 'Repeat times block', video: Video.find_by_key('loop_times'))
-    Concept.create!(name: 'loop_until', description: 'Repeat until block', video: Video.find_by_key('loop_until'))
-    Concept.create!(name: 'loop_while', description: 'While block', video: Video.find_by_key('loop_while'))
-    Concept.create!(name: 'loop_for', description: 'Counter block', video: Video.find_by_key('loop_for'))
-    Concept.create!(name: 'function', description: 'Functions', video: Video.find_by_key('function'))
-    Concept.create!(name: 'parameters', description: 'Functions with parameters', video: Video.find_by_key('parameters'))
+    Concept.create!(name: 'sequence')
+    Concept.create!(name: 'if', video: Video.find_by_key('if'))
+    Concept.create!(name: 'if_else', video: Video.find_by_key('if_else'))
+    Concept.create!(name: 'loop_times', video: Video.find_by_key('loop_times'))
+    Concept.create!(name: 'loop_until', video: Video.find_by_key('loop_until'))
+    Concept.create!(name: 'loop_while', video: Video.find_by_key('loop_while'))
+    Concept.create!(name: 'loop_for', video: Video.find_by_key('loop_for'))
+    Concept.create!(name: 'function', video: Video.find_by_key('function'))
+    Concept.create!(name: 'parameters', video: Video.find_by_key('parameters'))
   end
 
   task games: :environment do

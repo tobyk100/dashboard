@@ -1,0 +1,44 @@
+# See en.yml for general localization information.
+#
+# This file provides localizations for keys which come from the database.
+# TODO: Ideally, these strings would be database driven too, so that they
+# could evolve in the Admin without having to deploy a new build.
+#
+# Note that all the data-driven keys are quoted. Localized keys are converted
+# to symbols, but they might not be valid identifies (often include spaces).
+
+en:
+  data:
+    script:
+      name:
+        '20-hour': '20-hour'
+        'Hour of Code': 'Hour of Code'
+    game:
+      name:
+        'Maze': 'The Maze'
+        'Artist': 'The Artist'
+        'Artist2': 'The Artist 2'
+        'Farmer': 'The Farmer'
+        'Artist3': 'The Artist 3'
+        'Farmer2': 'The Farmer 2'
+        'Artist4': 'The Artist 4'
+        'Farmer3': 'The Farmer 3'
+        'Artist5': 'The Artist 5'
+        'MazeEC': 'The Artist'
+    trophy:
+      name:
+        'Bronze': 'Bronze'
+        'Silver': 'Silver'
+        'Gold': 'Gold'
+    concept:
+      description:
+        # Keyed by name
+        'sequence': 'Sequence'
+        'if': 'If block'
+        'if_else': 'If-else block'
+        'loop_times': 'Repeat times block'
+        'loop_until': 'Repeat until block'
+        'loop_while': 'While block'
+        'loop_for': 'Counter block'
+        'function': 'Functions'
+        'parameters': 'Functions with parameters'

@@ -4,7 +4,7 @@
       %h3= t(:courses)
       - Script.all.each do |script|
         -if (!script.hidden? || current_user.admin?)
-          %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+          %h4= link_to data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT)
 
       - if current_user.students.length > 0
         %h3 Students

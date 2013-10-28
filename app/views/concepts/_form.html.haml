@@ -14,6 +14,6 @@
   .field
     = f.label :description
     %br/
-    = f.text_field :description
+    = data_t('concept.description', @concept.name)
   .actions
     = f.submit

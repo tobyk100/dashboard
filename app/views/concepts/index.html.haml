@@ -10,7 +10,7 @@
     - @concepts.each do |concept|
       %tr
         %td= link_to concept.name, concept
-        %td= concept.description
+        %td= data_t('concept.description', concept.name)
         - if can? :update, concept
           %td= link_to 'Edit', edit_concept_path(concept)
         - if can? :destroy, concept

@@ -40,16 +40,6 @@ en:
   of: "of"
   more: "MORE"
   less: "LESS"
-  Maze: "The Maze"
-  Artist: "The Artist"
-  Artist2: "The Artist 2"
-  Farmer: "The Farmer"
-  Artist3: "The Artist 3"
-  Farmer2: "The Farmer 2"
-  Artist4: "The Artist 4"
-  Farmer3: "The Farmer 3"
-  Artist5: "The Artist 5"
-  MazeEC: "The Artist"
   auth:
     signed_in: 'Signed in!'
     google_oauth2: 'Google+'

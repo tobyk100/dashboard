@@ -71,7 +71,7 @@ class ConceptsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def concept_params
-    params.require(:concept).permit(:name, :description)
+    params.require(:concept).permit(:name)
   end
 
   # this is to fix a ForbiddenAttributesError cancan issue

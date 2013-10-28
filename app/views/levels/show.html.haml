@@ -1,4 +1,4 @@
-- @page_title = "#{t(@game.name)} ##{@script_level.try(:game_chapter) || @level.level_num} "
+- @page_title = "#{data_t('game.name', @game.name)} ##{@script_level.try(:game_chapter) || @level.level_num} "
 
 = render partial: "levels/blockly", locals: { app: @game.app }
 

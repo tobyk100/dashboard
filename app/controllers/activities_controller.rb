@@ -158,10 +158,10 @@ class ActivitiesController < ApplicationController
           # they already have the right trophy
         elsif current
           current.update_attributes!(trophy_id: new_trophy.id)
-          trophy_updates << [concept.description, new_trophy.name, view_context.image_path(new_trophy.image_name)]
+          trophy_updates << [data_t('concept.description', concept.name), new_trophy.name, view_context.image_path(new_trophy.image_name)]
         else
           UserTrophy.create!(user: user, trophy_id: new_trophy.id, concept: concept)
-          trophy_updates << [concept.description, new_trophy.name, view_context.image_path(new_trophy.image_name)]
+          trophy_updates << [data_t('concept.description', concept.name), new_trophy.name, view_context.image_path(new_trophy.image_name)]
         end
       end
     end
