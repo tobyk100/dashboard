@@ -16,4 +16,4 @@
 
 - if @autoplay_video
   :javascript
-    showVideo('#{@autoplay_video.youtube_code}', '#{@autoplay_video.name}' + '  [Current videos are placeholders.]');
+    showVideo('#{@autoplay_video.youtube_code}', '#{data_t('video.name', @autoplay_video.key)}' + '  [Current videos are placeholders.]');

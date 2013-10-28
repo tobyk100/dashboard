@@ -11,7 +11,7 @@
   %tbody
     - @videos.each do |video|
       %tr
-        %td= video.name
+        %td= data_t('video.name', video.key)
         %td= video.key
         %td= video.youtube_code
         %td= link_to t('crud.show'), video

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131028214911) do
+ActiveRecord::Schema.define(version: 20131028230240) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -176,7 +176,6 @@ ActiveRecord::Schema.define(version: 20131028214911) do
   add_index "users", ["username"], name: "index_users_on_username", unique: true, using: :btree
 
   create_table "videos", force: true do |t|
-    t.string   "name"
     t.string   "key"
     t.string   "youtube_code"
     t.datetime "created_at"

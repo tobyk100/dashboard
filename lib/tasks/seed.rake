@@ -5,7 +5,7 @@ namespace :seed do
     Video.connection.execute('truncate table videos')
 
     CSV.read('config/videos.csv', { col_sep: "\t", headers: true }).each do |row|
-      Video.create!(name: row['Name'], key: row['Key'], youtube_code: row['YoutubeCode'])
+      Video.create!(key: row['Key'], youtube_code: row['YoutubeCode'])
     end
   end
 
