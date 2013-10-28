@@ -9,6 +9,9 @@
 = javascript_include_tag "/#{blockly_path}js/#{js_locale}/vendor.js"
 = javascript_include_tag "/#{blockly_path}js/#{js_locale}/#{app}.js"
 
+- @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
+- @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
+
 :javascript
   var nextRedirect;
   var sendReport = function(report) {
@@ -47,7 +50,7 @@
     level: {
       puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
       stage_total: #{@level.game.levels.count},
-      instructions: '#{escape_javascript(data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}"))}',
+      instructions: '#{escape_javascript(@instructions)}',
       #{start_blocks(current_user, @level)}
     },
     skinId: '#{@level.skin}'

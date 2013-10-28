@@ -45,7 +45,7 @@ en:
         'parameters': 'Functions with parameters'
     level:
       instructions:
-        # Keyed by "#{game.app}_#{level.level_num}"
+        # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
         'maze_2_2': "Hi! I need to get the bad piggie! Stack a couple of \"move forward\" blocks together and press \"Run Program\" to help me get there. "
         'maze_2_1': "Write me another program so I can make it all the way to the pig. "
         'maze_2_3': "How should I get to the pig? (Watch out for TNT)"
