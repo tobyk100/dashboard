@@ -111,6 +111,10 @@ en:
       title: 'Cancel my account'
       hint: 'Unhappy?'
       button: 'Cancel my account'
+  home:
+    signin_message: "or if you're already registered %{link}"
+    student_reg_link: 'Students - start here'
+    teacher_reg_link: 'Teachers - start here'
   gender:
     male: 'Male'
     female: 'Female'

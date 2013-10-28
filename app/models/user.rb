@@ -7,6 +7,10 @@ class User < ActiveRecord::Base
 
   PROVIDER_MANUAL = 'manual'
 
+  TYPE_STUDENT = 'student'
+  TYPE_TEACHER = 'teacher'
+  TYPE_PARENT = 'parent'
+
   attr_accessor :login
 
   has_many :user_levels
@@ -144,6 +148,18 @@ SQL
       class_map[f.section] << f.student_user
     end
     class_map
+  end
+
+  def student?
+    self.user_type == TYPE_STUDENT
+  end
+
+  def parent?
+    self.user_type == TYPE_PARENT
+  end
+
+  def teacher?
+    self.user_type == TYPE_TEACHER
   end
 
   def locale

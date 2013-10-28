@@ -13,6 +13,7 @@ en:
       name:
         '20-hour': '20-hour'
         'Hour of Code': 'Hour of Code'
+        'Edit Code': 'Edit Code'
     game:
       name:
         'Maze': 'The Maze'

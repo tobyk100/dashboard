@@ -51,5 +51,13 @@
 
 
 - else
-  #{ link_to t('nav.user.signup'), new_user_registration_path}, #{ link_to t('nav.user.signin'), new_user_session_path}, or try out our demos:
-  = raw Script.where(hidden: false).map { |script| link_to(script.name, script_level_path(script, ScriptLevel::NEXT)) }.join(", ")
+  #{ link_to t('home.student_reg_link'), new_user_registration_path}
+  %br/
+  #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
+  %br/
+  = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
+  %br/
+  %h3= t(:demos)
+  %ul
+    - Script.where(hidden: false).each do |script|
+      %li= link_to(data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT))
