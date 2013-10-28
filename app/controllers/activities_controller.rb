@@ -99,7 +99,7 @@ class ActivitiesController < ApplicationController
 
     respond_to do |format|
       if @activity.save
-        format.html { redirect_to @activity, notice: I18n.t('crud.created', model: @activity.model_name.human) }
+        format.html { redirect_to @activity, notice: I18n.t('crud.created', model: Activity.model_name.human) }
         format.json { render action: 'show', status: :created, location: @activity }
       else
         format.html { render action: 'new' }
@@ -113,7 +113,7 @@ class ActivitiesController < ApplicationController
   def update
     respond_to do |format|
       if @activity.update(activity_params)
-        format.html { redirect_to @activity, notice: I18n.t('crud.updated', model: @activity.model_name.human) }
+        format.html { redirect_to @activity, notice: I18n.t('crud.updated', model: Activity.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

@@ -22,7 +22,7 @@ class ConceptsControllerTest < ActionController::TestCase
 
   test "should create concept" do
     assert_difference('Concept.count') do
-      post :create, concept: { name: @concept.name, description: @concept.description }
+      post :create, concept: { name: @concept.name }
     end
 
     assert_redirected_to concept_path(assigns(:concept))

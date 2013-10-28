@@ -30,7 +30,7 @@ class CalloutsController < ApplicationController
 
     respond_to do |format|
       if @callout.save
-        format.html { redirect_to @callout, notice: I18n.t('crud.created', @callout.model_name.human) }
+        format.html { redirect_to @callout, notice: I18n.t('crud.created', Callout.model_name.human) }
         format.json { render action: 'show', status: :created, location: @callout }
       else
         format.html { render action: 'new' }
@@ -44,7 +44,7 @@ class CalloutsController < ApplicationController
   def update
     respond_to do |format|
       if @callout.update(callout_params)
-        format.html { redirect_to @callout, notice: I18n.t('crud.updated', model: @callout.model_name.human) }
+        format.html { redirect_to @callout, notice: I18n.t('crud.updated', model: Callout.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

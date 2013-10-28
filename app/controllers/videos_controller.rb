@@ -24,7 +24,7 @@ class VideosController < ApplicationController
 
     respond_to do |format|
       if @video.save
-        format.html { redirect_to @video, notice: I18n.t('crud.created', @video.model_name.human) }
+        format.html { redirect_to @video, notice: I18n.t('crud.created', Video.model_name.human) }
         format.json { render action: 'show', status: :created, location: @video }
       else
         format.html { render action: 'new' }
@@ -38,7 +38,7 @@ class VideosController < ApplicationController
   def update
     respond_to do |format|
       if @video.update(video_params)
-        format.html { redirect_to @video, notice: I18n.t('crud.updated', model: @video.model_name.human) }
+        format.html { redirect_to @video, notice: I18n.t('crud.updated', model: Video.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
