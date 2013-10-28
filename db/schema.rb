@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131028230240) do
+ActiveRecord::Schema.define(version: 20131028232222) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -64,7 +64,6 @@ ActiveRecord::Schema.define(version: 20131028230240) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "base_url"
     t.string   "app"
     t.integer  "intro_video_id"
   end

@@ -6,9 +6,6 @@
   - if can? :update, @game
     = link_to '(edit)', edit_game_path(@game)
   %br/
-  - if can? :edit, @game
-    %strong Base url:
-    = @game.base_url
 
   %h1 Levels
   %table
