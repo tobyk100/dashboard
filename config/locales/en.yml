@@ -32,7 +32,11 @@ en:
         locale: 'Language'
         gender: 'Gender'
   hello: "Hello world"
-  teacher_email_or_code_placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
+  add_teacher_form:
+    code_or_email:
+      label: 'Add a teacher by code or email address:'
+      placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
+    submit: 'Add teacher'
   appname: "Code.org"
   stage: "Stage"
   puzzle: "Puzzle"
@@ -90,6 +94,16 @@ en:
       logout: 'Log out'
       signin: 'Sign in'
       signup: 'Sign up'
+  teacher:
+    title:
+      one: 'Your teacher is %{name}'
+      other: 'Your teachers:'
+    tools: 'Teacher Tools'
+    students:
+      manage: 'Manage students'
+      add: 'Add students'
+    rollup: 'Rollup report'
+    activity: 'Recent class activity'
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
     current_password_hint: '(we need your current password to confirm your changes)'
