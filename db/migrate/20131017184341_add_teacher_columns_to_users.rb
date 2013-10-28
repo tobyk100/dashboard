@@ -10,7 +10,7 @@ class AddTeacherColumnsToUsers < ActiveRecord::Migration
     add_column :users, :lat, :float
     add_column :users, :lon, :float
 
-    change_column(:activities, :data, :string, limit: 32000)
+    change_column(:activities, :data, :string, limit: 20000)
 
     User.update_all({ user_type: User::TYPE_TEACHER }, "id in (select user_id from followers)")
   end
