@@ -36,7 +36,7 @@ module LocaleHelper
         weight = (weight || 'q=1').split('=')[1].to_f
         [locale, weight]
       }.sort_by { |locale, weight| -weight
-      }.map { |locale, weight| locale }
+      }.map { |locale, weight| locale.strip }
     rescue
       Logger.warn "Error parsing Accept-Language header: #{header}"
       []
