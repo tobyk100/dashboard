@@ -28,7 +28,7 @@ module Dashboard
     LOCALES = YAML.load_file("#{Rails.root}/config/locales.yml")
     LOCALES.each do |locale, data|
       data.symbolize_keys!
-      if data.fetch(:enabled, true) or (Rails.env.development? and data[:debug])
+      if data.fetch(:enabled, true) && !(data[:debug] && Rails.env.production?)
         config.i18n.available_locales << locale
       end
       if data[:fallback]
