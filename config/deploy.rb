@@ -27,7 +27,7 @@ namespace :deploy do
     rake = fetch(:rake, 'rake')
     rails_env = fetch(:rails_env, 'development')
 
-    run "cd '#{current_path}' && #{rake} blockly:latest youtube:thumbnails pseudolocalize RAILS_ENV=#{rails_env}"
+    run "cd '#{current_path}' && #{rake} blockly:latest pseudolocalize RAILS_ENV=#{rails_env}"
   end
 
   task :setup_config, roles: :app do
@@ -51,6 +51,18 @@ namespace :deploy do
       exit
     end
   end
+
+  task :perms do
+    csrc = "#{shared_path}/c"
+    cdst = "#{latest_release}/public/c"
+
+    run <<-CMD
+     if [ ! -d #{csrc} ] ; then mkdir -p #{csrc} ; fi &&
+     if [ ! -e #{cdst} ] ; then ln -s #{csrc} #{cdst} ; fi
+    CMD
+  end
+
+  after "deploy:finalize_update", "deploy:perms"
   after "deploy:create_symlink", "deploy:post_deploy"
   before "deploy", "deploy:check_revision"
   before "deploy", "deploy:cleanup"
