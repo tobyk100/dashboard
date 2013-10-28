@@ -7,7 +7,7 @@ module LocaleHelper
     }
     # Expand language codes to include regions, if applicable.
     data = Dashboard::Application::LOCALES[best]
-    data.fetch('expand', best).to_sym
+    data.fetch(:expand, best).to_sym
   end
 
   # String representing the Locale code for the Blockly client code.
