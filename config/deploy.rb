@@ -15,12 +15,6 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 
 require 'capistrano/ext/multistage'
 
-#server "dashboard.dev-code.org", :app, :web, :db, :primary => true
-#set :domain, "dashboard.dev-code.org"
-#role :web, domain                          # Your HTTP server, Apache/etc
-#role :app, domain                          # This may be the same as your `Web` server
-
-
 namespace :deploy do
   %w[start stop restart].each do |command|
     desc "#{command} unicorn server"
@@ -33,7 +27,10 @@ namespace :deploy do
     rake = fetch(:rake, 'rake')
     rails_env = fetch(:rails_env, 'development')
 
-    run "cd '#{current_path}' && #{rake} blockly:latest RAILS_ENV=#{rails_env} && #{rake} youtube:thumbnails RAILS_ENV=#{rails_env}"
+    run "cd '#{current_path}' && " +
+            "#{rake} blockly:latest RAILS_ENV=#{rails_env} && " +
+            "#{rake} youtube:thumbnails RAILS_ENV=#{rails_env} && " +
+            "#{rake} pseudolocalize RAILS_ENV=#{rails_env}"
   end
 
   task :setup_config, roles: :app do
@@ -57,8 +54,9 @@ namespace :deploy do
       exit
     end
   end
+  after "deploy:create_symlink", "deploy:post_deploy"
   before "deploy", "deploy:check_revision"
-  after "deploy", "deploy:post_deploy"
+  before "deploy", "deploy:cleanup"
 end
 
 require './config/boot'
