@@ -27,10 +27,7 @@ namespace :deploy do
     rake = fetch(:rake, 'rake')
     rails_env = fetch(:rails_env, 'development')
 
-    run "cd '#{current_path}' && " +
-            "#{rake} blockly:latest RAILS_ENV=#{rails_env} && " +
-            "#{rake} youtube:thumbnails RAILS_ENV=#{rails_env} && " +
-            "#{rake} pseudolocalize RAILS_ENV=#{rails_env}"
+    run "cd '#{current_path}' && #{rake} blockly:latest youtube:thumbnails pseudolocalize RAILS_ENV=#{rails_env}"
   end
 
   task :setup_config, roles: :app do
