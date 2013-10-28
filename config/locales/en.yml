@@ -120,3 +120,6 @@ en:
     feedback: 'Provide feedback'
     translate: 'Help us translate to your language'
     tos: 'Terms of service'
+  reference_area:
+    title: 'Need help?'
+    subtitle: 'Checkout these videos and hints'
