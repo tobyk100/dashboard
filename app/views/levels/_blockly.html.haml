@@ -47,7 +47,7 @@
     level: {
       puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
       stage_total: #{@level.game.levels.count},
-      instructions: '#{escape_javascript @level.instructions}',
+      instructions: '#{escape_javascript(data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}"))}',
       #{start_blocks(current_user, @level)}
     },
     skinId: '#{@level.skin}'

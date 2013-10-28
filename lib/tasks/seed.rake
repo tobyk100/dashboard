@@ -40,7 +40,6 @@ namespace :seed do
   COL_GAME = 'Game'
   COL_NAME = 'Name'
   COL_LEVEL = 'Level'
-  COL_INSTRUCTIONS = 'Instructions'
   COL_CONCEPTS = 'Concepts'
   COL_URL = 'Url'
   COL_SKIN = 'Skin'
@@ -68,7 +67,6 @@ namespace :seed do
         level = Level.find_or_create_by_game_id_and_level_num(game.id, row[COL_LEVEL])
         level.name = row[COL_NAME]
         level.level_url ||= row[COL_URL]
-        level.instructions ||= row[COL_INSTRUCTIONS]
         level.skin ||= row[COL_SKIN]
 
         if level.concepts.empty?
