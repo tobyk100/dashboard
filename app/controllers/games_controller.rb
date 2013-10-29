@@ -24,7 +24,7 @@ class GamesController < ApplicationController
 
     respond_to do |format|
       if @game.save
-        format.html { redirect_to @game, notice: 'Provider was successfully created.' }
+        format.html { redirect_to @game, notice: I18n.t('crud.created', model: Game.model_name.human) }
         format.json { render action: 'show', status: :created, location: @game }
       else
         format.html { render action: 'new' }
@@ -36,7 +36,7 @@ class GamesController < ApplicationController
   def update
     respond_to do |format|
       if @game.update(game_params)
-        format.html { redirect_to @game, notice: 'Provider was successfully updated.' }
+        format.html { redirect_to @game, notice: I18n.t('crud.updated', model: Game.model_name.human) }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

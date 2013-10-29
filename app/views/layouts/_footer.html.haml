@@ -1,0 +1,20 @@
+.navbar-static-top.footer
+  .container
+    .row
+      .span2
+        &copy; Code.org, 2013
+        %br/
+        = form_tag(locale_url, method: :post, id: 'localeForm') do
+          = hidden_field_tag :return_to, request.url
+          = select_tag :locale, options_for_select(options_for_locale_select, locale), onchange: 'switchLocale();'
+      .span10
+        = link_to t('footer.feedback'), 'http://codeorg.uservoice.com/forums/228116-code-org-tutorials'
+        = ' - '
+        = link_to t('footer.translate'), 'https://docs.google.com/forms/d/1v72iM0reILSCbyJo4870yYXzMKmSXd9IlOc5usL3xQo/viewform'
+        %br/
+        %br/
+        = t('footer.help_from_html')
+        %br/
+        = t('footer.art_from_html')
+        %br/
+        = link_to t('footer.tos'), 'http://code.org/tos'

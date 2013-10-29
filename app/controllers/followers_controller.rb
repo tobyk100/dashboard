@@ -31,19 +31,19 @@ class FollowersController < ApplicationController
         student = User.find_by_email(key)
         if student
           FollowerMailer.invite_student(current_user, student).deliver
-          redirect_to redirect_url, notice: 'Invite sent'
+          redirect_to redirect_url, notice: I18n.t('follower.invite_sent')
         else
           FollowerMailer.invite_new_student(current_user, key).deliver
-          redirect_to redirect_url, notice: 'Invite sent'
+          redirect_to redirect_url, notice: I18n.t('follower.invite_sent')
         end
       else
         student = User.find_by_username(key)
         if student
           # todo: queue invite for user if no email
           FollowerMailer.invite_student(current_user, student).deliver
-          redirect_to redirect_url, notice: 'Invite sent'
+          redirect_to redirect_url, notice: I18n.t('follower.invite_sent')
         else
-          redirect_to redirect_url, notice: "Username '#{key}' not found"
+          redirect_to redirect_url, notice: I18n.t('follower.error.username_not_found', username: key)
         end
       end
     elsif params[:teacher_email_or_code]
@@ -57,9 +57,9 @@ class FollowersController < ApplicationController
           Rails.logger.error("attempt to create duplicate follower from #{current_user.id} => #{target_user.id}")
         end
 
-        redirect_to redirect_url, notice: "#{target_user.name} added as your teacher"
+        redirect_to redirect_url, notice: I18n.t('follower.added_teacher', name: target_user.name)
       else
-        redirect_to redirect_url, notice: "Could not find anyone signed in with '#{params[:teacher_email_or_code]}'. Please ask them to sign up here and then try adding them again"
+        redirect_to redirect_url, notice: I18n.t('follower.teacher_not_found', teacher_email_or_code: params[:teacher_email_or_code])
       end
     else
       raise "unknown use"
@@ -77,7 +77,7 @@ class FollowersController < ApplicationController
     @user = User.new(student_params)
 
     if User.find_by_username(@user.username)
-      @user.errors.add(:username, "#{@user.username} is already taken, please pick another")
+      @user.errors.add(:username, I18n.t('follower.error.username_in_use', username: @user.username))
     else
       @user.provider = User::PROVIDER_MANUAL
       if @user.save
@@ -135,13 +135,13 @@ SQL
       @user.errors.add(:username, "Please signout before proceeding")
     else
       if User.find_by_username(@user.username)
-        @user.errors.add(:username, "#{@user.username} is already taken, please pick another")
+        @user.errors.add(:username, I18n.t('follower.error.username_in_use', username: @user.username))
       else
         @user.provider = User::PROVIDER_MANUAL
         if @user.save
           Follower.create!(user_id: @section.user_id, student_user: @user, section: @section)
           # todo: authenticate new user
-          redirect_to root_path, notice: "You've registered for #{@section.name}. Please sign in to continue"
+          redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)
           return
         end
       end

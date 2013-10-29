@@ -8,8 +8,8 @@
   %tbody
     - @activities.each do |activity|
       %tr
-        %td= link_to 'Show', activity
-        %td= link_to 'Edit', edit_activity_path(activity)
-        %td= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to t('crud.show'), activity
+        %td= link_to t('crud.edit'), edit_activity_path(activity)
+        %td= link_to t('crud.destroy'), activity, method: :delete, data: { confirm: t('crud.confirm') }
 %br/
-= link_to 'New Activity', new_activity_path
+= link_to t('crud.new_model', model: Activity.model_name.human), new_activity_path

@@ -7,19 +7,21 @@ namespace :seed do
     CSV.read('config/videos.csv', { col_sep: "\t", headers: true }).each do |row|
       Video.create!(name: row['Name'], key: row['Key'], youtube_code: row['YoutubeCode'])
     end
+
+    Rake::Task["youtube:thumbnails"].invoke
   end
 
   task concepts: :environment do
     Concept.connection.execute('truncate table concepts')
-    Concept.create!(name: 'sequence', description: 'Sequence')
-    Concept.create!(name: 'if', description: 'If block', video: Video.find_by_key('if'))
-    Concept.create!(name: 'if_else', description: 'If-else block', video: Video.find_by_key('if_else'))
-    Concept.create!(name: 'loop_times', description: 'Repeat times block', video: Video.find_by_key('loop_times'))
-    Concept.create!(name: 'loop_until', description: 'Repeat until block', video: Video.find_by_key('loop_until'))
-    Concept.create!(name: 'loop_while', description: 'While block', video: Video.find_by_key('loop_while'))
-    Concept.create!(name: 'loop_for', description: 'Counter block', video: Video.find_by_key('loop_for'))
-    Concept.create!(name: 'function', description: 'Functions', video: Video.find_by_key('function'))
-    Concept.create!(name: 'parameters', description: 'Functions with parameters', video: Video.find_by_key('parameters'))
+    Concept.create!(name: 'sequence')
+    Concept.create!(name: 'if', video: Video.find_by_key('if'))
+    Concept.create!(name: 'if_else', video: Video.find_by_key('if_else'))
+    Concept.create!(name: 'loop_times', video: Video.find_by_key('loop_times'))
+    Concept.create!(name: 'loop_until', video: Video.find_by_key('loop_until'))
+    Concept.create!(name: 'loop_while', video: Video.find_by_key('loop_while'))
+    Concept.create!(name: 'loop_for', video: Video.find_by_key('loop_for'))
+    Concept.create!(name: 'function', video: Video.find_by_key('function'))
+    Concept.create!(name: 'parameters', video: Video.find_by_key('parameters'))
   end
 
   task games: :environment do
@@ -47,8 +49,6 @@ namespace :seed do
 
   task scripts: :environment do
     c = Script.connection
-    c.execute('truncate table levels')
-    c.execute('truncate table concepts_levels')
     c.execute('truncate table script_levels')
     c.execute('truncate table scripts')
 
@@ -67,7 +67,8 @@ namespace :seed do
       CSV.read(source[:file], { col_sep: "\t", headers: true }).each_with_index do |row, index|
         game = game_map[row[COL_GAME].squish]
         puts "row #{index}: #{row.inspect}"
-        level = Level.find_or_create_by_game_id_and_name_and_level_num(game.id, row[COL_NAME], row[COL_LEVEL])
+        level = Level.find_or_create_by_game_id_and_level_num(game.id, row[COL_LEVEL])
+        level.name = row[COL_NAME]
         level.level_url ||= row[COL_URL]
         level.instructions ||= row[COL_INSTRUCTIONS]
         level.skin ||= row[COL_SKIN]

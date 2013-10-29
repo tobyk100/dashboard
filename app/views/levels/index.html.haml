@@ -11,11 +11,11 @@
       %tr
         %td= level.name
         %td= level.level_url
-        %td= link_to 'Show', [@game, level]
+        %td= link_to t('crud.show'), [@game, level]
         - if can? :update, level
-          %td= link_to 'Edit', edit_game_level_path(@game, level)
+          %td= link_to t('crud.edit'), edit_game_level_path(@game, level)
         - if can? :destroy, level
-          %td= link_to 'Destroy', [@game, level], method: :delete, data: { confirm: 'Are you sure?' }
+          %td= link_to t('crud.destroy'), [@game, level], method: :delete, data: { confirm: t('crud.confirm') }
 %br/
 - if can? :create, Level
-  = link_to 'New Level', new_game_level_path
+  = link_to t('crud.new_model', model: Level.model_name.human), new_game_level_path

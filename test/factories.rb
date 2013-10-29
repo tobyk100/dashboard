@@ -3,7 +3,7 @@ FactoryGirl.define do
     sequence(:username) { |n| "testuser#{n}" }
     email { "#{username}@example.com" }
     password "00secret"
-    language 'en'
+    locale 'en-US'
     name { "#{username} Codeberg" }
 
     # Child of :user factory, since it's in the `factory :user` block
@@ -31,7 +31,6 @@ FactoryGirl.define do
 
   factory :concept do
     sequence(:name) { |n| "Algorithm #{n}" }
-    description 'Bogus text'
   end
 
   factory :video do

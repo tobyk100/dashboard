@@ -17,7 +17,7 @@
     - @concept_progress.each_pair do |concept, counts|
       %tr{ height:"40px"}
         %td{width:"130px"}
-          #{concept.description}:
+          #{data_t('concept.description', concept.name)}:
         %td{width:"100px"}
           .progress-outer{ style: "width:98px;"}
             .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
@@ -40,10 +40,10 @@
         Stage #{current_game}
         #{t(sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
-        
+
     - best_result = sl.user_level ? sl.user_level.best_result : 0
     - link = build_script_level_path(sl)
-    
+
     - if best_result >= Activity::MINIMUM_PASS_RESULT
       %a{ href: link, class: "level_link level_link_done"}
         &#x2714;

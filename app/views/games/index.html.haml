@@ -12,9 +12,9 @@
         %td= link_to game.name, game
         %td= game.levels.count
         - if can? :update, game
-          %td= link_to 'Edit', edit_game_path(game)
+          %td= link_to t('crud.edit'), edit_game_path(game)
         - if can? :destroy, game
-          %td= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' }
+          %td= link_to t('crud.destroy'), game, method: :delete, data: { confirm: t('crud.confirm') }
 %br/
 - if can? :create, Game
-  = link_to 'New Game', new_game_path
+  = link_to t('crud.new_model', model: Game.model_name.human), new_game_path

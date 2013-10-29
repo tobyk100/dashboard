@@ -4,7 +4,7 @@
       %h3= t(:courses)
       - Script.all.each do |script|
         -if (!script.hidden? || current_user.admin?)
-          %h4= link_to script.name, script_level_path(script, ScriptLevel::NEXT)
+          %h4= link_to data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT)
 
       - if current_user.students.length > 0
         %h3 Students
@@ -24,38 +24,40 @@
 
     .span6
       - if current_user.teachers.length > 1
-        %h4 Your teachers:
+        %h4= t('teacher.title.other')
         %ul
         - current_user.teachers.each do |teacher|
           %li= teacher.name
       - elsif current_user.teachers.length == 1
-        %h4 Your teacher is #{current_user.teachers.first.name}
+        %h4= t('teacher.title.one', name: current_user.teachers.first.name)
       - else
-        %h4 Add a teacher by code or email address:
+        %h4= t('add_teacher_form.code_or_email.label')
         = form_for([Follower.new]) do |f|
           .field
-            = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t(:teacher_email_or_code_placeholder)
+            = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder')
             = hidden_field_tag :redirect, root_path
           .actions
-            = f.submit 'Add teacher'
+            = f.submit t('add_teacher_form.submit')
 
       - if current_user.students.length > 0
-        %h4 Teacher Tools
-        = link_to "Manage students", manage_followers_path
+        %h4= t('teacher.tools')
+        = link_to t('teacher.students.manage'), manage_followers_path
         %br/
-        = link_to "Add students", new_follower_path
+        = link_to t('teacher.students.add'), new_follower_path
         %br/
-        = link_to "Rollup report", followers_path
+        = link_to t('teacher.rollup'), followers_path
         %br/
-        = link_to "Recent class activity", student_usage_path
+        = link_to t('teacher.activity'), student_usage_path
 
 
 - else
-  = link_to "Sign up", new_user_registration_path
-  ,
-  = link_to "sign in", new_user_session_path
-  , or try out our demos:
-  - Script.all.map do |script|
-    - if (!script.hidden?)
-      - script_level = script.script_levels.first
-      = link_to(script.name, build_script_level_path(script_level))
+  #{ link_to t('home.student_reg_link'), new_user_registration_path}
+  %br/
+  #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
+  %br/
+  = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
+  %br/
+  %h3= t(:demos)
+  %ul
+    - Script.where(hidden: false).each do |script|
+      %li= link_to(data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT))

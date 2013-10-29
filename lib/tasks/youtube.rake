@@ -8,7 +8,7 @@ namespace :youtube do
   end
 
   def thumbnail_dir
-    'public/video_thumbnails'
+    'public/c/video_thumbnails'
   end
 
   def download_thumbnail(video)

@@ -19,7 +19,7 @@ test:
 
 staging:
   <<: *mysql_defaults
-  database: dashboard_production
+  database: dashboard_staging
   username: db
   password: Az3GjKlP
   host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com

@@ -14,11 +14,11 @@
         %td= video.name
         %td= video.key
         %td= video.youtube_code
-        %td= link_to 'Show', video
+        %td= link_to t('crud.show'), video
         - if can? :update, video
-          %td= link_to 'Edit', edit_video_path(video)
+          %td= link_to t('crud.edit'), edit_video_path(video)
         - if can? :destroy, video
-          %td= link_to 'Destroy', video, method: :delete, data: { confirm: 'Are you sure?' }
+          %td= link_to t('crud.destroy'), video, method: :delete, data: { confirm: 'Are you sure?' }
 %br/
 - if can? :create, Video
-  = link_to 'New Video', new_video_path
+  = link_to t('crud.new_model', model: Video.model_name.human), new_video_path

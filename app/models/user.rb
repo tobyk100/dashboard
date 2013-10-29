@@ -7,6 +7,10 @@ class User < ActiveRecord::Base
 
   PROVIDER_MANUAL = 'manual'
 
+  TYPE_STUDENT = 'student'
+  TYPE_TEACHER = 'teacher'
+  TYPE_PARENT = 'parent'
+
   attr_accessor :login
 
   has_many :user_levels
@@ -117,15 +121,15 @@ where sl.script_id = #{script.id}
 SQL
   end
 
-  def concept_progress
+  def concept_progress(script = Script.first)
     # todo: cache everything but the user's progress
     user_levels_map = self.user_levels.includes([{level: :concepts}]).index_by(&:level_id)
     user_trophy_map = self.user_trophies.includes(:trophy).index_by(&:concept_id)
     result = Hash.new{|h,k| h[k] = {obj: k, current: 0, max: 0}}
 
-    Level.all.includes(:concepts).each do |level|
+    script.levels.includes(:concepts).each do |level|
       level.concepts.each do |concept|
-        result[concept][:current] += 1 if user_levels_map[level.id].try(:best_result).to_i >= #{Activity::MINIMUM_PASS_RESULT}
+        result[concept][:current] += 1 if user_levels_map[level.id].try(:best_result).to_i >= Activity::MINIMUM_PASS_RESULT
         result[concept][:max] += 1
         result[concept][:trophy] ||= user_trophy_map[concept.id]
       end
@@ -144,5 +148,21 @@ SQL
       class_map[f.section] << f.student_user
     end
     class_map
+  end
+
+  def student?
+    self.user_type == TYPE_STUDENT
+  end
+
+  def parent?
+    self.user_type == TYPE_PARENT
+  end
+
+  def teacher?
+    self.user_type == TYPE_TEACHER
+  end
+
+  def locale
+    read_attribute(:locale).try(:to_sym)
   end
 end

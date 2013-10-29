@@ -1,17 +1,14 @@
-:javascript
-  $(function() {
-    $( "#user_birthday" ).datepicker({
-      changeMonth: true,
-      changeYear: true,
-      yearRange: "-120:+0",
-    });
-  });
+- resource.user_type ||= params[:user].try(:fetch, :user_type) || User::TYPE_STUDENT
 
 %h2 Sign up
 .row
   .span8
     = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
       = devise_error_messages!
+
+      = f.hidden_field :user_type
+      = f.hidden_field :locale, value: locale
+
       = f.text_field :name, class: 'input-xlarge', autofocus: true, placeholder: 'Name'
       = f.email_field :email, class: 'input-xlarge', placeholder: 'Email'
       %br/
@@ -21,21 +18,39 @@
         = f.password_field :password, class: 'input-xlarge', placeholder: 'Password'
         = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: 'Password confirmation'
         %br/
-      -#.field
-      -#  = f.label :locale, t(:language)
-      -#  %br/
-      -#  = f.select :locale, options_for_locale_select
-      .field
-        = f.label 'Gender (optional)'
+
+      - if resource.teacher?
+        = f.text_field :school, class: 'input-xlarge', placeholder: 'School Name (Optional)'
         %br/
-        = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
-      .field
-        = f.label 'Birthday (optional)'
+        School Address (Optional)
         %br/
-        = f.text_field(:birthday, id: "user_birthday", placeholder: "Birthday (optional)")
+        = f.text_area :full_address, class: 'input-xxlarge', placeholder: 'address, city, state, zip', rows: 4
+        %br/
+
+      - if resource.student?
+        .field
+          = f.label 'Gender (optional)'
+          %br/
+          = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
+        .field
+          = f.label 'Birthday (optional)'
+          %br/
+          :javascript
+            $(function() {
+              $( "#user_birthday" ).datepicker({
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-120:+0",
+              });
+            });
+
+          = f.text_field(:birthday, id: "user_birthday", placeholder: "Birthday (optional)")
 
       = f.submit "Sign up", class: "btn btn-primary"
 
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
+      - if !resource.teacher?
+        = link_to "Are you a teacher?", new_user_registration_path(user_type: User::TYPE_TEACHER)
+        %br/
       = render "devise/shared/links"
