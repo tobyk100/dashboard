@@ -77,7 +77,16 @@ th {
   display: inline-block;
 }
 
+.level_highlight:hover {
+  text-decoration: none;
+  background-color: $dark_color;
+}
+
 .level_current_header {
+  background-color: orange;
+}
+
+.level_current_header:hover {
   background-color: orange;
 }
 
@@ -89,6 +98,10 @@ th {
   margin-left: -1px;
   margin-right: -1px;
   display: inline-block;
+}
+
+.other_level:hover {
+  background-color: $dark_color;
 }
 
 .level_box {
@@ -251,14 +264,16 @@ th {
   a:active {font-weight: bold; color:white; background-color: transparent;}  /* selected link */
   select {width: auto}
 }
+
 .middleheaderspan {
-  padding-top:20px;
+  padding-top:28px;
   padding-bottom:10px;
   text-align:center;
   position:relative;
   font-size: 150%;
   border-bottom: 1px solid $inset_color;
   border-bottom-style: inset;
+  cursor: default;
 }
 
 .header_separator {
@@ -272,6 +287,10 @@ th {
   display: inline-block;
 }
 
+.user_menu {
+  a:hover { background-color: transparent; text-decoration: none; }
+}
+
 .user_menu a {
   vertical-align: bottom;
 }
@@ -281,7 +300,8 @@ th {
   background-color: white;
   a:link {color:black;}
   a:visited {color:black;}
-  a:hover {color:white;}
+  a:hover { color:white; background-color: $dark_color; text-decoration: none; }
+  a:active { color:white; background-color: $dark_color; }
   border: 1px solid black;
   z-index: 100001;
   text-align: left;
@@ -329,7 +349,6 @@ th {
   top:auto;
   position:absolute;
   left:50%;
-  height: 600px;
   width:620px;
   margin-left:-330px;
   margin-top:-20px;
@@ -353,6 +372,14 @@ th {
   cursor: pointer;
 }
 
+.header_popup_body {
+  position: relative;
+  overflow-y: auto;
+  display: block;
+  padding: 10px;
+  min-height: 508px;
+}
+
 .header_popup_footer {
   padding: 12px 15px;
   margin-bottom: 0;
@@ -364,8 +391,10 @@ th {
 
 .header_popup_link {
   max-width: 40px;
+  min-width: 34px;
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
   height: 26px;
   cursor: pointer;
 }
@@ -383,8 +412,7 @@ th {
 .header_popup_link_glyph {
   font-size: 22px;
   color: orange;
-  display: inline-block;
-  line-height: 2px;
+  line-height: 10px;
 }
 
 .header_popup_link_text {
@@ -392,6 +420,13 @@ th {
   color: $header_text;
   display: inline-block;
   line-height: 10px;
+}
+
+.stage_separator {
+  padding-top: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
 }
 
 .close {
