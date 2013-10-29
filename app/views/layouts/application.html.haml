@@ -71,11 +71,11 @@
 
       .header_popup{id:"headerPopup"}
         .header_popup_header
-          Your progress
-        .modal-body{id:"headerPopupBody", style: 'padding:5px;min-height:508px;'}
+          #{t('nav.popup.progress')}
+        .header_popup_body{id:"headerPopupBody"}
         .header_popup_footer
           %div{id:"popupClose",onclick:"togglePopup();"}
-            CLOSE
+            #{t('nav.popup.close')}
       :javascript
         togglePopup = function () {
           $("#headerPopup").toggle();

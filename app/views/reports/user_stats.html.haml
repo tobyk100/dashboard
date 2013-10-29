@@ -11,7 +11,7 @@
 - progress = @user.progress(@script)
 
 %div{style:"display:inline-block;width:290px;position:relative;overflow:hidden;float:left;"}
-  CONCEPT MASTERY
+  %h4 #{t('nav.popup.mastery')}
 
   %table{style:"max-width:290px;"}
     - @concept_progress.each_pair do |concept, counts|
@@ -20,15 +20,14 @@
           #{data_t('concept.description', concept.name)}:
         %td{width:"100px"}
           .progress-outer{ style: "width:98px;"}
-            .progress-inner{ style: "width:#{(100 * counts[:current]/counts[:max]).to_i}%" }
+            .progress-inner{ style: "width:#{(98 * counts[:current]/counts[:max]).to_i}%" }
         %td{width:"40px"}
           - if counts[:trophy]
             = image_tag counts[:trophy].trophy.image_name, size: "40x40"
           <!-- #{counts} -->
 
-%div{style:"display:inline-block;width:310px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
-  LEVEL MAP
-  = link_to '(Recent activity)', usage_path(@user)
+%div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
+  %h4 #{t('nav.popup.puzzle_map')}
 
   - current_game = 0
   - script_levels.each do |sl|
@@ -37,8 +36,8 @@
         .stage_separator
       - current_game = sl.level.game_id
       %div
-        Stage #{current_game}
-        #{t(sl.level.game.name)}
+        #{t(:stage)} #{current_game}
+        #{data_t('game.name', sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
 
     - best_result = sl.user_level ? sl.user_level.best_result : 0

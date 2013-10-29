@@ -94,6 +94,11 @@ en:
       logout: 'Log out'
       signin: 'Sign in'
       signup: 'Sign up'
+    popup:
+      progress: 'Your progress'
+      close: 'CLOSE'
+      mastery: 'Concept Mastery'
+      puzzle_map: 'Puzzle Map'
   teacher:
     title:
       one: 'Your teacher is %{name}'
