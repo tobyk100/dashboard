@@ -77,7 +77,7 @@ function Dialog(options) {
     modalBody.append(close);
   }
   modalBody.append(body);
-  this.div.append(modalBody).appendTo('body');
+  this.div.append(modalBody).appendTo($(document.body));
 
   addClickTouchEvent(close, $.proxy(function() {
     this.hide();
