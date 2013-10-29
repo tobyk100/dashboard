@@ -7,6 +7,8 @@ Dashboard::Application.routes.draw do
 
   devise_for :users, controllers: {omniauth_callbacks: 'omniauth_callbacks', registrations: 'registrations'}
 
+  post '/signup_check/username', to: 'home#check_username'
+
   root :to => "home#index"
   post '/locale', to: 'home#set_locale', as: 'locale'
 
