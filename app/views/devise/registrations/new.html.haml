@@ -31,7 +31,7 @@
         .field
           = f.label 'Gender (optional)'
           %br/
-          = f.select :gender, [['', ''], ['Male', 'm'], ['Female', 'f']]
+          = f.select :gender, User::GENDER_OPTIONS
         .field
           = f.label 'Birthday (optional)'
           %br/

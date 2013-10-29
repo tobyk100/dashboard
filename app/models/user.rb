@@ -11,6 +11,8 @@ class User < ActiveRecord::Base
   TYPE_TEACHER = 'teacher'
   TYPE_PARENT = 'parent'
 
+  GENDER_OPTIONS = [['', ''], ['Male', 'm'], ['Female', 'f'], ['Prefer not to answer', '-']]
+
   attr_accessor :login
 
   has_many :user_levels
