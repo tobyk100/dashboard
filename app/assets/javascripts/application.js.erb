@@ -39,7 +39,7 @@ function showVideo(youtubeCode, key, name) {
   var src = buildYoutubeUrl(youtubeCode);
   var body = $('<div/>');
 
-  body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + name + '<a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
+  body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
 
   var video = $('<iframe id="video"/>').addClass('video-player').attr({
     src: src,
