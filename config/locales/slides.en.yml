@@ -1,0 +1,54 @@
+en:
+  slides:
+    maze_intro:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    artist_intro:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    farmer_intro:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    loop_times:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    loop_until:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    if:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    if_else:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    function:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    loop_while:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    loop_for:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    parameters:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    hoc_wrapup:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"
+    20_wrapup:
+      1:
+        image: '/assets/notes/bird.png'
+        text: "Show notes coming soon!"

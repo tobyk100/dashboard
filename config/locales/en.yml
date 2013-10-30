@@ -64,6 +64,7 @@ en:
     invite_sent: 'Invite sent'
     added_teacher: '%{name} added as your teacher'
     registered:  "You've registered for %{section_name}. Please sign in to continue"
+
     error:
       signed_in: 'Please signout before proceeding'
       username_not_found: 'Username %{username} not found'
@@ -132,3 +133,6 @@ en:
   reference_area:
     title: 'Need help?'
     subtitle: 'Checkout these videos and hints'
+  video:
+    tab: 'Video.'
+    notes: 'No video? Show notes.'
