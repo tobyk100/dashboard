@@ -11,14 +11,14 @@ module LevelsHelper
 
     if user
       if level.game.app == 'turtle'
-        source_level_num = case level.level_num
+        from_level_num = case level.level_num
           when '3_8' then '3_7'
           when '3_9' then '3_8'
         end
 
-        if source_level_num
-          source_level = Level.find_by_game_id_and_level_num(level.game_id, source_level_num)
-          return user.last_attempt(source_level).try(:data)
+        if from_level_num
+          from_level = Level.find_by_game_id_and_level_num(level.game_id, from_level_num)
+          return user.last_attempt(from_level).try(:level_source).try(:data)
         end
       end
     end

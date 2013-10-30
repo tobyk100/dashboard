@@ -27,16 +27,16 @@ namespace :seed do
   task games: :environment do
     Concept.connection.execute('truncate table games')
 
-    Game.create!(name: 'Maze', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
-    Game.create!(name: 'Artist', base_url: '/blockly/static/turtle/index.html', app: 'turtle', intro_video: Video.find_by_key('artist_intro'))
-    Game.create!(name: 'Artist2', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
-    Game.create!(name: 'Farmer', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('farmer_intro'))
-    Game.create!(name: 'Artist3', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
-    Game.create!(name: 'Farmer2', base_url: '/blockly/static/maze/index.html', app: 'maze')
-    Game.create!(name: 'Artist4', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
-    Game.create!(name: 'Farmer3', base_url: '/blockly/static/maze/index.html', app: 'maze')
-    Game.create!(name: 'Artist5', base_url: '/blockly/static/turtle/index.html', app: 'turtle')
-    Game.create!(name: 'MazeEC', base_url: '/blockly/static/maze/index.html', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
+    Game.create!(name: 'Maze', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
+    Game.create!(name: 'Artist', app: 'turtle', intro_video: Video.find_by_key('artist_intro'))
+    Game.create!(name: 'Artist2', app: 'turtle')
+    Game.create!(name: 'Farmer', app: 'maze', intro_video: Video.find_by_key('farmer_intro'))
+    Game.create!(name: 'Artist3', app: 'turtle')
+    Game.create!(name: 'Farmer2', app: 'maze')
+    Game.create!(name: 'Artist4', app: 'turtle')
+    Game.create!(name: 'Farmer3', app: 'maze')
+    Game.create!(name: 'Artist5', app: 'turtle')
+    Game.create!(name: 'MazeEC', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
   end
 
   COL_GAME = 'Game'

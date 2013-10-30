@@ -1,0 +1,113 @@
+hu:
+  activerecord:
+    attributes:
+      user:
+        name: Name
+        email: Email
+        username: Username
+        password: Password
+        password_confirmation: Password confirmation
+        current_password: Current password
+        locale: Language
+        gender: Gender
+  hello: Hello world
+  add_teacher_form:
+    code_or_email:
+      label: 'Add a teacher by code or email address:'
+      placeholder: Code (ABCDEF) or email (teacher@school.edu)
+    submit: Add teacher
+  appname: Code.org
+  stage: Stage
+  puzzle: Puzzle
+  trophies: Trophies
+  of: of
+  more: MORE
+  less: LESS
+  auth:
+    signed_in: Signed in!
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Window Live
+  welcome_email:
+    subject: Join my class (on Code.org)
+    body: |
+      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      
+      %{link}
+      
+      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      
+      %{name}
+  follower:
+    invite_sent: Invite sent
+    added_teacher: '%{name} added as your teacher'
+    registered: "You've registered for %{section_name}. Please sign in to continue"
+    error:
+      signed_in: Please signout before proceeding
+      username_not_found: 'Username %{username} not found'
+      username_in_use: '%{username} is already taken, please pick another'
+      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+    mail:
+      invite_student:
+        subject: "Join %{teacher_name}'s class at Code.org!"
+  reports:
+    error:
+      access_denied: "You don't have access to this person's stats"
+  crud:
+    new_model: 'New %{model}'
+    show: Show
+    edit: Edit
+    edit_model: 'Edit %{model}'
+    update: Update
+    destroy: Destroy
+    back: Back
+    confirm: Are you sure?
+    created: '%{model} was successfully created.'
+    updated: '%{model} was successfully updated.'
+  nav:
+    user:
+      label: 'Hi %{username}'
+      stats: Stats
+      settings: Settings
+      logout: Log out
+      signin: Sign in
+      signup: Sign up
+    popup:
+      progress: Your progress
+      close: CLOSE
+      mastery: Concept Mastery
+      puzzle_map: Puzzle Map
+  teacher:
+    title:
+      one: 'Your teacher is %{name}'
+      other: 'Your teachers:'
+    tools: Teacher Tools
+    students:
+      manage: Manage students
+      add: Add students
+    rollup: Rollup report
+    activity: Recent class activity
+  user:
+    new_password_hint: "(leave blank if you don't want to change it)"
+    current_password_hint: (we need your current password to confirm your changes)
+    cancel:
+      title: Cancel my account
+      hint: Unhappy?
+      button: Cancel my account
+  home:
+    signin_message: "or if you're already registered %{link}"
+    student_reg_link: 'Students - start here'
+    teacher_reg_link: 'Teachers - start here'
+  gender:
+    male: Male
+    female: Female
+  footer:
+    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
+    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">Popcap</a>.'
+    feedback: Provide feedback
+    translate: Help us translate to your language
+    tos: Terms of service
+  reference_area:
+    title: Need help?
+    subtitle: Checkout these videos and hints
