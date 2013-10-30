@@ -48,7 +48,7 @@ class ActivitiesController < ApplicationController
         Rails.logger.error "Error updating trophy exception: #{e.inspect}"
       end
     else
-    session_progress = session[:progress] || {}
+      session_progress = session[:progress] || {}
       
       if test_result > session_progress.fetch(level.id, -1)
         session_progress[level.id] = test_result
