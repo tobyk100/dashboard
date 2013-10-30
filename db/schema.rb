@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131028232222) do
+ActiveRecord::Schema.define(version: 20131029225428) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
     t.integer  "level_id"
     t.string   "action"
-    t.string   "data",        limit: 20000
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "attempt"
     t.integer  "time"
     t.integer  "test_result"
+    t.integer  "level_source_id"
   end
 
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree
@@ -67,6 +67,16 @@ ActiveRecord::Schema.define(version: 20131028232222) do
     t.string   "app"
     t.integer  "intro_video_id"
   end
+
+  create_table "level_sources", force: true do |t|
+    t.integer  "level_id"
+    t.string   "md5",        limit: 32,    null: false
+    t.string   "data",       limit: 20000, null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "level_sources", ["level_id", "md5"], name: "index_level_sources_on_level_id_and_md5", using: :btree
 
   create_table "levels", force: true do |t|
     t.integer  "game_id"
@@ -138,8 +148,8 @@ ActiveRecord::Schema.define(version: 20131028232222) do
   add_index "user_trophies", ["user_id", "trophy_id", "concept_id"], name: "index_user_trophies_on_user_id_and_trophy_id_and_concept_id", unique: true, using: :btree
 
   create_table "users", force: true do |t|
-    t.string   "email",                               default: "",        null: false
-    t.string   "encrypted_password",                  default: "",        null: false
+    t.string   "email",                               default: "",      null: false
+    t.string   "encrypted_password",                  default: "",      null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -156,10 +166,10 @@ ActiveRecord::Schema.define(version: 20131028232222) do
     t.boolean  "admin"
     t.string   "gender",                 limit: 1
     t.string   "name"
-    t.string   "locale",                 limit: 10,   default: "en-US",   null: false
+    t.string   "locale",                 limit: 10,   default: "en-US", null: false
     t.date     "birthday"
     t.string   "parent_email"
-    t.string   "user_type",              limit: 16,   default: "student"
+    t.string   "user_type",              limit: 16
     t.string   "school"
     t.string   "full_address",           limit: 1024
     t.string   "address"

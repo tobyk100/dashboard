@@ -24,9 +24,9 @@ class ActivitiesController < ApplicationController
           test_result: test_result,
           attempt: params[:attempt].to_i,
           time: params[:time].to_i,
-          data: params[:program])
+          level_source: LevelSource.lookup(level, params[:program]) )
 
-      user_level = UserLevel.find_or_create_by_user_id_and_level_id(current_user.id, level.id)
+      user_level = UserLevel.where(user: current_user, level: level).first_or_create
       user_level.attempts += 1
       user_level.best_result = user_level.best_result ?
           [test_result, user_level.best_result].max :
