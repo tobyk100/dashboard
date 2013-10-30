@@ -9,6 +9,7 @@ class ActivitiesController < ApplicationController
   def milestone
     solved = 'true' == params[:result]
     test_result = params[:testResult].to_i
+    lines = params[:lines].to_i
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
     trophy_updates = []
@@ -23,6 +24,7 @@ class ActivitiesController < ApplicationController
           action: solved,
           test_result: test_result,
           attempt: params[:attempt].to_i,
+          lines: lines,
           time: params[:time].to_i,
           level_source: LevelSource.lookup(level, params[:program]) )
 
@@ -32,17 +34,38 @@ class ActivitiesController < ApplicationController
           [test_result, user_level.best_result].max :
           test_result
       user_level.save!
+      
+      if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
+        current_user.total_lines += lines
+        current_user.save!
+      end
+      
+      total_lines = current_user.total_lines
 
       begin
         trophy_updates = trophy_check(current_user)
       rescue Exception => e
         Rails.logger.error "Error updating trophy exception: #{e.inspect}"
       end
+    else
+      session_progress = session[:progress] || {}
+      
+      if test_result > session_progress.fetch(level.id, -1)
+        session_progress[level.id] = test_result
+        session[:progress] = session_progress
+      end
+      
+      total_lines = session[:lines] || 0
+      
+      if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
+        total_lines += lines
+        session[:lines] = total_lines
+      end
     end
 
     # if they solved it, figure out next level
     if solved
-      response = {}
+      response = { total_lines: total_lines }
 
       if (trophy_updates.length > 0)
         response[:trophy_updates] = trophy_updates

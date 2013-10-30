@@ -27,7 +27,13 @@
                     #{t(:puzzle)}
                   - game_levels.each do |sl|
                     %a{href:build_script_level_path(sl)}
-                    - passed = sl.user_level && (sl.user_level.best_result >= Activity::MINIMUM_PASS_RESULT)
+                    - result = 0
+                    - if sl.user_level
+                      - result = sl.user_level.best_result
+                    - elsif (session[:progress] && session[:progress][sl.level_id])
+                      - result = session[:progress][sl.level_id]
+                    - passed = result >= Activity::MINIMUM_PASS_RESULT
+
                     - if sl.level_id == @script_level.level_id
                       .level_current_header{class:"level_highlight"}
                         #{@script_level.game_chapter}
