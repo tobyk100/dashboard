@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131028232222) do
+ActiveRecord::Schema.define(version: 20131029233853) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20131028232222) do
     t.integer  "attempt"
     t.integer  "time"
     t.integer  "test_result"
+    t.integer  "lines",                     default: 0, null: false
   end
 
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree
@@ -168,6 +169,7 @@ ActiveRecord::Schema.define(version: 20131028232222) do
     t.string   "zip"
     t.float    "lat"
     t.float    "lon"
+    t.integer  "total_lines",                         default: 0,         null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
