@@ -24,18 +24,18 @@ function buildYoutubeUrl(youtubeCode) {
   return url;
 }
 
-function getShowNotes(code, container) {
+function getShowNotes(key, container) {
   var callback = function(data) {
     container.html(data);
   };
 
   $.ajax({
-    url: '/notes/en/' + code,
+    url: '/notes/' + key,
     success: callback
   });
 }
 
-function showVideo(youtubeCode, name) {
+function showVideo(youtubeCode, key, name) {
   var src = buildYoutubeUrl(youtubeCode);
   var body = $('<div/>');
 
@@ -49,7 +49,7 @@ function showVideo(youtubeCode, name) {
 
   var notesDiv = $('<div id="notes"/>');
   body.append(notesDiv);
-  getShowNotes(youtubeCode, notesDiv);
+  getShowNotes(key, notesDiv);
 
   var dialog = new Dialog({ body: body });
   $(dialog.div).addClass('video-modal');
@@ -128,8 +128,9 @@ $(document).ready(function() {
   $('.video-link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
       var code = $(this).attr('data-code'),
-          name = $(this).attr('data-name');
-      showVideo(code, name);
+          name = $(this).attr('data-name'),
+          key = $(this).attr('data-key');
+      showVideo(code, key, name);
     }, this));
   });
 });
