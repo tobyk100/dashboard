@@ -50,7 +50,7 @@ class ActivitiesController < ApplicationController
     else
     session_progress = session[:progress] || {}
       
-      if !session_progress[level.id] || (test_result > session_progress[level.id])
+      if test_result > session_progress.fetch(level.id, -1)
         session_progress[level.id] = test_result
         session[:progress] = session_progress
       end
