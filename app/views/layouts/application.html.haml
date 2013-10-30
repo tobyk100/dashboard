@@ -28,8 +28,8 @@
                   - game_levels.each do |sl|
                     %a{href:build_script_level_path(sl)}
                     - result = 0
-                    - if sl.user_level
-                      - result = sl.user_level.best_result
+                    - if current_user
+                      - result = sl.user_level ? sl.user_level.best_result : 0
                     - elsif (session[:progress] && session[:progress][sl.level_id])
                       - result = session[:progress][sl.level_id]
                     - passed = result >= Activity::MINIMUM_PASS_RESULT
