@@ -3,8 +3,6 @@ class Activity < ActiveRecord::Base
   MINIMUM_PASS_RESULT = 20
   BEST_PASS_RESULT = 100
 
-  validates_length_of :data, :maximum => 16000
-
   belongs_to :level
   belongs_to :user
   belongs_to :level_source

@@ -34,4 +34,4 @@
         %br/
 
         finished #{ago(a.created_at)}
-      %td= render partial: 'shared/solution', locals: { level: a.level, xml: a.data }
+      %td= render partial: 'shared/solution', locals: { level: a.level, xml: a.level_source.data }
