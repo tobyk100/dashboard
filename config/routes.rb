@@ -37,6 +37,8 @@ Dashboard::Application.routes.draw do
   get '/stats/level/:level_id', to: 'reports#level_stats', as: 'level_stats'
   get '/popup/stats', to: 'reports#header_stats', as: 'header_stats'
 
+  get '/notes/en/:code', to: 'notes#index'
+
   # special redirect links
   get '/billg', to: redirect('/s/1/level/13')
   get '/zuck', to: redirect('/s/1/level/5')

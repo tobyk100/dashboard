@@ -68,3 +68,5 @@ gem 'jquery-ui-rails'
 gem 'nokogiri'
 
 gem 'honeybadger'
+
+gem 'redcarpet'

@@ -24,18 +24,38 @@ function buildYoutubeUrl(youtubeCode) {
   return url;
 }
 
+function getShowNotes(code, container) {
+  var callback = function(data) {
+    container.html(data);
+  };
+
+  $.ajax({
+    url: '/notes/en/' + code,
+    success: callback
+  });
+}
+
 function showVideo(youtubeCode, name) {
   var src = buildYoutubeUrl(youtubeCode);
-  var header = $('<h3/>').text(name);
-  var video = $('<iframe/>').addClass('video-player').attr({
+  var body = $('<div/>');
+
+  body.append($('<ul><li><a href="#video">Video: ' + name + '</a></li><li><a href="#notes">No video? Show notes</a></li></ul>'));
+
+  var video = $('<iframe id="video"/>').addClass('video-player').attr({
     src: src,
     scrolling: 'no'
   });
+  body.append(video);
 
-  var dialog = new Dialog({ header: header, body: video });
+  var notesDiv = $('<div id="notes"/>');
+  body.append(notesDiv);
+  getShowNotes(youtubeCode, notesDiv);
+
+  var dialog = new Dialog({ body: body });
   $(dialog.div).addClass('video-modal');
 
   dialog.show();
+  body.tabs();
   $('.modal-backdrop').addClass('video-backdrop');  // Hack to fix z-index.
 }
 
@@ -107,7 +127,9 @@ Dialog.prototype.hide = function() {
 $(document).ready(function() {
   $('.video-link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
-      showVideo($(this).attr('data-code'), $(this).attr('data-name'));
+      var code = $(this).attr('data-code'),
+          name = $(this).attr('data-name');
+      showVideo(code, name);
     }, this));
   });
 });

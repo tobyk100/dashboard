@@ -132,3 +132,4 @@ en:
   reference_area:
     title: 'Need help?'
     subtitle: 'Checkout these videos and hints'
+    no_notes: 'There are no show notes for this video yet.'
