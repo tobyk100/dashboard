@@ -166,11 +166,11 @@ class ActivitiesController < ApplicationController
       pct = counts[:current].to_f/counts[:max]
 
       new_trophy = Trophy.find_by_id case
-        when pct == 1
+        when pct == Trophy::GOLD_THRESHOLD
           Trophy::GOLD
-        when pct >= 0.5
+        when pct >= Trophy::SILVER_THRESHOLD
           Trophy::SILVER
-        when pct >= 0.2
+        when pct >= Trophy::BRONZE_THRESHOLD
           Trophy::BRONZE
         else
           # "no trophy earned"

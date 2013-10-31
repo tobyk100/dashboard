@@ -15,16 +15,22 @@
 
   %table{style:"max-width:290px;"}
     - @concept_progress.each_pair do |concept, counts|
-      %tr{ height:"40px"}
-        %td{width:"130px"}
-          #{data_t('concept.description', concept.name)}:
+    - completion = counts[:current].to_f/counts[:max]
+      %tr{ height:"55px"}
         %td{width:"100px"}
-          .progress-outer{ style: "width:98px;"}
-            .progress-inner{ style: "width:#{(98 * counts[:current]/counts[:max]).to_i}%" }
-        %td{width:"40px"}
-          - if counts[:trophy]
-            = image_tag counts[:trophy].trophy.image_name, size: "40x40"
-          <!-- #{counts} -->
+          #{data_t('concept.description', concept.name)}:
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag bronze_fraction_image_path(completion), size: "45x45"
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag silver_fraction_image_path(completion), size: "45x45"
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag gold_fraction_image_path(completion), size: "45x45"
+        <!-- #{counts} -->
+  .stage_separator
+  .prize_msg
+    #{t('nav.popup.prizes', total_trophies: @concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+    <br>
+    =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
 
 %div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
   %h4 #{t('nav.popup.puzzle_map')}
