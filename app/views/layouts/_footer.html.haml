@@ -18,3 +18,14 @@
         = t('footer.art_from_html')
         %br/
         = link_to t('footer.tos'), 'http://code.org/tos'
+        - if current_user && current_user.admin?
+          %br/
+          Admin:
+          = link_to "Games", games_path
+          |
+          = link_to "Concepts", concepts_path
+          |
+          = link_to "Videos", videos_path
+          |
+          = link_to "Recent Activity", all_usage_path
+

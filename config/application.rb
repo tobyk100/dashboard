@@ -35,5 +35,8 @@ module Dashboard
         config.i18n.fallbacks[locale] = data[:fallback]
       end
     end
+
+    # Hack for cache busting. See LevelsHelper#blockly_cache_bust.
+    ::GIT_REVISION = File.read(Rails.root.join('.revision')) rescue ''
   end
 end

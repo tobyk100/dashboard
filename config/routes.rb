@@ -10,6 +10,8 @@ Dashboard::Application.routes.draw do
   post '/signup_check/username', to: 'home#check_username'
 
   root :to => "home#index"
+  get '/home_insert', to: 'home#home_insert'
+
   post '/locale', to: 'home#set_locale', as: 'locale'
 
   resources :games do

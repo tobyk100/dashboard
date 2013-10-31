@@ -2,12 +2,12 @@
 = stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css"
 = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
 
-- blockly_path = "#{root_url}blockly/"
-= stylesheet_link_tag "#{blockly_path}css/common.css"
-= stylesheet_link_tag "#{blockly_path}css/#{app}.css"
+- blockly_path = '/blockly/'
+= stylesheet_link_tag "#{blockly_path}css/common.css?v=#{blockly_cache_bust}"
+= stylesheet_link_tag "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}"
 
-= javascript_include_tag "#{blockly_path}js/#{js_locale}/vendor.js"
-= javascript_include_tag "#{blockly_path}js/#{js_locale}/#{app}.js"
+= javascript_include_tag "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"
+= javascript_include_tag "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"
 
 - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
 - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
@@ -37,6 +37,7 @@
     locale: '#{js_locale}',
     containerId: 'blocklyApp',
     baseUrl: '#{blockly_path}',
+    cacheBust: '#{blockly_cache_bust}',
     onAttempt: function(report) {
       sendReport(report);
     },
