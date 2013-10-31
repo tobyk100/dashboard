@@ -52,7 +52,7 @@
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
       - if !resource.teacher?
-        = link_to "Are you a teacher?", new_user_registration_path(user_type: User::TYPE_TEACHER)
+        = link_to "Are you a teacher?", new_user_registration_path('user[user_type]' =>  User::TYPE_TEACHER)
         %br/
       = render "devise/shared/links"
 

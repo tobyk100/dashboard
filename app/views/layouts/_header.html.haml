@@ -64,9 +64,14 @@
               = link_to raw("#{t('nav.user.label', username: h(current_user.username))} &#x25BC;"), '#', onclick: "$('.user_options').toggle();return false;"
               %div{ style: 'position:relative;top:3px;'}
                 .user_options{style: 'display: none;color: black;position:absolute; right:0'}
+                  - if current_user.teacher?
+                    = link_to t('nav.user.classroom'), followers_path
+                    %hr
                   = link_to t('nav.user.stats'), user_stats_path(current_user)
                   %br/
                   = link_to t('nav.user.settings'), edit_user_registration_path
+                  %br/
+                  = link_to t('nav.user.prizes'), 'http://code.org/prize'
                   %br/
                   = link_to t('nav.user.logout'), destroy_user_session_path, method: :delete
           - else

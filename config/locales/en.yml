@@ -92,9 +92,11 @@ en:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: 'Sign in to save progress'
     user:
+      classroom: 'My Classroom'
       label: 'Hi %{username}'
-      stats: 'Stats'
-      settings: 'Settings'
+      stats: 'Progress'
+      settings: 'My account'
+      prizes: 'Prizes'
       logout: 'Sign out'
       signin: 'Sign in'
       signup: 'Sign up'
