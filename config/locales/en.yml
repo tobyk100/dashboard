@@ -98,8 +98,8 @@ en:
     popup:
       progress: 'Your progress'
       close: 'CLOSE'
-      mastery: 'Concept Mastery'
-      puzzle_map: 'Puzzle Map'
+      mastery: 'Concepts'
+      puzzle_map: 'Stages'
   teacher:
     title:
       one: 'Your teacher is %{name}'

@@ -462,10 +462,19 @@ th {
 #notes {
   max-height: 500px;
   overflow: scroll;
-  img {
-    float: left;
-    width: 100px;
-    height: auto;
+  .note {
+    padding-bottom: 10px;
+    p {
+      font-size: 20px;
+      line-height: 24px;
+      padding-right: 30px;
+    }
+    img {
+      float: left;
+      width: 450px;
+      height: auto;
+      padding-right: 30px;
+    }
   }
 }
 

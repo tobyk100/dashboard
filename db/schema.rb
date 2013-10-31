@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.integer  "time"
     t.integer  "test_result"
     t.integer  "level_source_id"
-    t.integer  "lines",                     default: 0, null: false
+    t.integer  "lines",           default: 0, null: false
   end
 
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree

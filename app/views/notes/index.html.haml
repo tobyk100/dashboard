@@ -1,4 +1,5 @@
 - @notes.values.each do |note|
-  %img{:src => note[:image]}
-  %p= note[:text]
-  .clear
+  .note
+    = image_tag(note[:image])
+    %p= note[:text]
+    .clear
