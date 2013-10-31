@@ -73,7 +73,8 @@
 .header_popup{id:"headerPopup"}
   .header_popup_header
     %span #{t('nav.popup.progress')}
-    .header_text{style:"float:right;"} #{t('nav.popup.lines', lines:current_user.total_lines)}
+    - if current_user
+      .header_text{style:"float:right;"} #{t('nav.popup.lines', lines:current_user.total_lines)}
   .header_popup_body{id:"headerPopupBody"}
   .header_popup_footer
     %div{id:"popupClose",onclick:"togglePopup();"}
