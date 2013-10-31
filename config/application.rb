@@ -37,6 +37,6 @@ module Dashboard
     end
 
     # Hack for cache busting. See LevelsHelper#blockly_cache_bust.
-    ::GIT_REVISION = File.read(Rails.root.join('.revision')) rescue ''
+    ::GIT_REVISION = File.read(Rails.root.join('.revision')).strip rescue ''
   end
 end
