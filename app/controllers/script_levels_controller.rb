@@ -8,9 +8,34 @@ class ScriptLevelsController < ApplicationController
 
     chapter = params[:chapter]
     script_level_id = params[:id]
+    reset = params[:reset]
+    
+    if reset && !current_user
+      # reset is a special mode which will delete the session if the user is not signed in
+      # and start them at the beginning of the script.
+      # If the user is signed in, continue normally
+      reset_session
+      redirect_to build_script_level_path(@script.script_levels.first)
+      return
+    end
 
     if ScriptLevel::NEXT == (chapter || script_level_id)
-      redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
+      if current_user
+        redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
+      else
+        session_progress = session[:progress] || {}
+        
+        @script.script_levels.each do |sl|
+          if session_progress.fetch(sl.level_id, -1) < Activity::MINIMUM_PASS_RESULT
+            redirect_to build_script_level_path(sl)
+            break
+          end
+          if sl.level_id == @script.script_levels.last.level_id
+            # all levels complete - resume at first level
+            redirect_to build_script_level_path(@script.script_levels.first)
+          end
+        end
+      end
       return
     end
 

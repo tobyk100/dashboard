@@ -51,7 +51,8 @@
 
 
 - else
-  %h1= link_to "Try the Hour of Code, click here >> ", hoc_chapter_path(ScriptLevel::NEXT)
+  %h1= link_to "Try the Hour of Code, click here >> ", hoc_reset_path()
+  = link_to "Already started? Resume here >> ", hoc_chapter_path(ScriptLevel::NEXT)
 
   %br/
   %br/
