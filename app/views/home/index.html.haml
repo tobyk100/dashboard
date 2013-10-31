@@ -51,6 +51,11 @@
 
 
 - else
+  %h1= link_to "Try the Hour of Code, click here >> ", script_level_path(Script.find(2), ScriptLevel::NEXT)
+
+  %br/
+  %br/
+  %br/
   #{ link_to t('home.student_reg_link'), new_user_registration_path}
   %br/
   #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
