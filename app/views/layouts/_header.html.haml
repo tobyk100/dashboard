@@ -52,7 +52,7 @@
         .span2{ style: 'text-align: right; padding-top: 0px;' }
           - if user_signed_in?
             .user_menu
-              = link_to raw("#{t('nav.user.label', username: h(current_user.username))} &#x25BC;"), '#', onclick: "$('.user_options').toggle();console.log('click');return false;"
+              = link_to raw("#{t('nav.user.label', username: h(current_user.username))} &#x25BC;"), '#', onclick: "$('.user_options').toggle();return false;"
               %div{ style: 'position:relative;top:3px;'}
                 .user_options{style: 'display: none;color: black;position:absolute; right:0'}
                   = link_to t('nav.user.stats'), user_stats_path(current_user)
@@ -67,7 +67,8 @@
 
 .header_popup{id:"headerPopup"}
   .header_popup_header
-    #{t('nav.popup.progress')}
+    %span #{t('nav.popup.progress')}
+    .header_text{style:"float:right;"} #{t('nav.popup.lines', lines:current_user.total_lines)}
   .header_popup_body{id:"headerPopupBody"}
   .header_popup_footer
     %div{id:"popupClose",onclick:"togglePopup();"}
