@@ -13,4 +13,8 @@ class Script < ActiveRecord::Base
     # simplified check to see if we are in a script that has only one game (stage)
     levels.first.game_id != levels.last.game_id
   end
+  
+  def hoc?
+    id == HOC_ID
+  end
 end

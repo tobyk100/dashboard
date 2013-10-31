@@ -88,11 +88,14 @@ en:
     created: '%{model} was successfully created.'
     updated: '%{model} was successfully updated.'
   nav:
+    header:
+      finished_hoc: "I've finished my Hour of Code"
+      sign_in_to_save: 'Sign in to save progress'
     user:
       label: 'Hi %{username}'
       stats: 'Stats'
       settings: 'Settings'
-      logout: 'Log out'
+      logout: 'Sign out'
       signin: 'Sign in'
       signup: 'Sign up'
     popup:
