@@ -434,11 +434,6 @@ th {
   border-bottom-style: inset;
 }
 
-.close {
-  color:red;
-  font-size: 24pt;
-}
-
 .reference_area {
 
   .help_text {
@@ -512,5 +507,20 @@ th {
         }
       }
     }
+  }
+}
+
+.x-close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  &:hover {
+    width: 62px;
+    height: 62px;
+    top: -21px;
+    right: -21px;
   }
 }
