@@ -15,4 +15,12 @@ class HomeController < ApplicationController
       end
     end
   end
+
+  def home_insert
+    if current_user
+      render 'index', layout: false
+    else
+      render text: ''
+    end
+  end
 end

@@ -6,22 +6,6 @@
         -if (!script.hidden? || current_user.admin?)
           %h4= link_to data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT)
 
-      - if current_user.students.length > 0
-        %h3 Students
-        - current_user.students.each do |student|
-          = link_to student.name, user_stats_path(student)
-          %br/
-
-      - if current_user.admin?
-        %h3 Admin
-        = link_to "Games", games_path
-        %br/
-        = link_to "Concepts", concepts_path
-        %br/
-        = link_to "Videos", videos_path
-        %br/
-        = link_to "Recent Activity", all_usage_path
-
     .span6
       - if current_user.teachers.length > 1
         %h4= t('teacher.title.other')
