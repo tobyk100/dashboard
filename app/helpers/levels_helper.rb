@@ -1,6 +1,10 @@
 module LevelsHelper
   def build_script_level_path(script_level)
-    script_level_path(script_level.script, script_level)
+    if Script::HOC_ID == script_level.script_id
+      hoc_chapter_path(script_level.chapter)
+    else
+      script_level_path(script_level.script, script_level)
+    end
   end
 
   # this defines which levels should be seeded with th last result from a different level

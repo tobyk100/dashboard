@@ -25,7 +25,7 @@ $inset_color: #cde;
 $dark_color:  #7665a0;
 $hdr_color:   #7665a0;
 $light_gray: #c6cacd;
-$ightgreen: #b9bf15;
+$light_green: #b9bf15;
 $orange: #ffa400;
 
 body {
@@ -440,11 +440,6 @@ th {
   font-weight: 500;
 }
 
-.close {
-  color:red;
-  font-size: 24pt;
-}
-
 .reference_area {
 
   .help_text {
@@ -501,7 +496,7 @@ th {
         background: $dark_color;
         color: white;
         &:hover {
-          color: $green;
+          color: $light_green;
         }
         &:focus {
           outline: 0;
@@ -518,5 +513,20 @@ th {
         }
       }
     }
+  }
+}
+
+.x-close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  &:hover {
+    width: 62px;
+    height: 62px;
+    top: -21px;
+    right: -21px;
   }
 }

@@ -1,18 +1,33 @@
 class ScriptLevelsController < ApplicationController
   check_authorization
-  load_and_authorize_resource except: :show
+  include LevelsHelper
 
   def show
     authorize! :show, ScriptLevel
-
     @script = Script.find(params[:script_id])
-    if params[:id] == ScriptLevel::NEXT
-      redirect_to script_level_path(@script, current_user.try(:next_untried_level, @script) || @script.script_levels.first)
+
+    chapter = params[:chapter]
+    script_level_id = params[:id]
+
+    if ScriptLevel::NEXT == (chapter || script_level_id)
+      redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
       return
-    else
-      @script_level = ScriptLevel.find(params[:id], include: {level: :game})
     end
-    @level = @script_level.level
+
+    if chapter
+      @script_level = ScriptLevel.where(script: @script, chapter: chapter).first
+      raise ActiveRecord::RecordNotFound unless @script_level
+    else
+      @script_level = ScriptLevel.find(script_level_id)
+    end
+
+    present_level(@script_level)
+  end
+
+private
+
+  def present_level(script_level)
+    @level = script_level.level
     @game = @level.game
 
     @videos = @level.videos
