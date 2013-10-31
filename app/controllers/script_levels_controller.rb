@@ -4,30 +4,22 @@ class ScriptLevelsController < ApplicationController
 
   def show
     authorize! :show, ScriptLevel
-
-    @script = Script.find(params[:script_id])
-    if params[:id] == ScriptLevel::NEXT
-      redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
-      return
-    end
-
-    @script_level = ScriptLevel.find(params[:id], include: {level: :game})
-
-    present_level(@script_level)
-  end
-
-  def show_chapter
-    authorize! :show, ScriptLevel
     @script = Script.find(params[:script_id])
 
     chapter = params[:chapter]
+    script_level_id = params[:id]
 
-    if chapter == ScriptLevel::NEXT
+    if ScriptLevel::NEXT == (chapter || script_level_id)
       redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
       return
     end
 
-    @script_level = ScriptLevel.where(script: @script, chapter: chapter).first
+    if chapter
+      @script_level = ScriptLevel.where(script: @script, chapter: chapter).first
+      raise ActiveRecord::RecordNotFound unless @script_level
+    else
+      @script_level = ScriptLevel.find(script_level_id)
+    end
 
     present_level(@script_level)
   end
