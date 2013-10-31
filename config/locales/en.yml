@@ -89,10 +89,12 @@ en:
     updated: '%{model} was successfully updated.'
   nav:
     user:
+      classroom: 'My Classroom'
       label: 'Hi %{username}'
-      stats: 'Stats'
-      settings: 'Settings'
-      logout: 'Log out'
+      stats: 'Progress'
+      settings: 'My account'
+      prizes: 'Prizes'
+      logout: 'Sign out'
       signin: 'Sign in'
       signup: 'Sign up'
     popup:
