@@ -31,6 +31,7 @@ en:
         current_password: 'Current password'
         locale: 'Language'
         gender: 'Gender'
+        edit_header: 'Edit Account Details'
   hello: "Hello world"
   add_teacher_form:
     code_or_email:
@@ -94,7 +95,7 @@ en:
     user:
       classroom: 'My Classroom'
       label: 'Hi %{username}'
-      stats: 'Progress'
+      stats: 'My Progress'
       settings: 'My account'
       prizes: 'Prizes'
       logout: 'Sign out'
