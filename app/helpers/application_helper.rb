@@ -38,7 +38,20 @@ module ApplicationHelper
   end
 
   def youtube_url(code)
-    "https://www.youtubeeducation.com/watch?v=#{code}"
+    args = {
+      v: code,
+      modestbranding: 1,
+      rel: 0,
+      showinfo: 1
+    }
+    if language != 'en'
+      args.merge!(
+        cc_lang_pref: language,
+        cc_load_policy: 1
+      )
+    end
+    p "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
+    "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
   end
 
   def video_thumbnail_url(video)
