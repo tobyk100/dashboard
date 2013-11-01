@@ -25,6 +25,12 @@ module LocaleHelper
     options
   end
 
+  # returns true if we support their first choice of locale
+  def support_primary_locale?
+    debugger
+    locale.to_s.split('-').first == candidate_locales.first.split('-').first
+  end
+
   private
 
   # Parses and ranks locale code strings from the Accept-Language header.

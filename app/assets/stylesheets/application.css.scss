@@ -543,3 +543,18 @@ th {
     right: -21px;
   }
 }
+
+#i18n-banner {
+  font-size: 36px;
+  line-height: 36px;
+  background-color: $dark_color;
+  text-align: center;
+  a {
+    display: block;
+    vertical-align: text-bottom;
+    color: white;
+    &:hover {
+      background-color: $dark_color;
+    }
+  }
+}
