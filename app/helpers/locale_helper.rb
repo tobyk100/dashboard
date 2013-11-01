@@ -27,7 +27,13 @@ module LocaleHelper
 
   # returns true if we support their first choice of locale
   def support_primary_locale?
-    locale.to_s.split('-').first == candidate_locales.first.split('-').first
+    locales = Dashboard::Application::LOCALES.select do |k,v|
+      v.fetch(:enabled, true)
+    end
+    languages = locales.keys.map do |key|
+      key.split('-').first
+    end
+    languages.include? candidate_locales.first.split('-').first
   end
 
   private
