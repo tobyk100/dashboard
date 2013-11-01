@@ -111,12 +111,14 @@ SQL
   end
 
   def progress(script)
+    #trophy_id summing is a little hacky, but efficient. It takes advantage of the fact that:
+    #broze id: 1, silver id: 2 and gold id: 3
     self.connection.select_one(<<SQL)
 select
-    count(case when ul.best_result >= #{Activity::MINIMUM_PASS_RESULT} then 1 else null end) as current_levels,
+  count(case when ul.best_result >= #{Activity::MINIMUM_PASS_RESULT} then 1 else null end) as current_levels,
   count(*) as max_levels,
-  (select count(*) from user_trophies where user_id = #{self.id}) as current_trophies,
-  (select count(*) from concepts) as max_trophies
+  (select sum(trophy_id) from user_trophies where user_id = #{self.id}) as current_trophies,
+  (select count(*) * 3 from concepts) as max_trophies
 from script_levels sl
 left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
 where sl.script_id = #{script.id}

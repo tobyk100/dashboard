@@ -105,6 +105,7 @@ namespace :seed do
     end
   end
   task trophies: :environment do
+    # code in user.rb assumes that broze id: 1, silver id: 2 and gold id: 3.
     Trophy.connection.execute('truncate table trophies')
     Trophy.create!(name: 'Bronze', image_name: 'bronzetrophy.png')
     Trophy.create!(name: 'Silver', image_name: 'silvertrophy.png')
