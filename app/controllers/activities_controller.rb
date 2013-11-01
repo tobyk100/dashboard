@@ -5,6 +5,10 @@ class ActivitiesController < ApplicationController
   load_and_authorize_resource except: [:milestone]
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
+  
+  def milestone_logger
+    @@milestone_logger ||= Logger.new("#{Rails.root}/log/milestone.log")
+  end
 
   def milestone
     solved = 'true' == params[:result]
@@ -13,6 +17,19 @@ class ActivitiesController < ApplicationController
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
     trophy_updates = []
+    level_source = LevelSource.lookup(level, params[:program])
+    
+    milestone_logger.info "Milestone Report:" +
+                          "\t" + (current_user ? current_user.id.to_s : ("s:" + session.id)) +
+                          "\t" + request.remote_ip +
+                          "\t" + params[:app] +
+                          "\t" + params[:level] +
+                          "\t" + params[:result] +
+                          "\t" + params[:testResult] +
+                          "\t" + params[:time] +
+                          "\t" + params[:attempt] +
+                          "\t" + params[:lines] +
+                          "\t" + level_source.id.to_s
 
     if current_user
       authorize! :create, Activity
@@ -26,7 +43,7 @@ class ActivitiesController < ApplicationController
           attempt: params[:attempt].to_i,
           lines: lines,
           time: params[:time].to_i,
-          level_source: LevelSource.lookup(level, params[:program]) )
+          level_source: level_source )
 
       user_level = UserLevel.where(user: current_user, level: level).first_or_create
       user_level.attempts += 1
