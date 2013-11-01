@@ -15,4 +15,8 @@
 
 - if @autoplay_video
   :javascript
-    showVideo(#{youtube_url(@autoplay_video.youtube_code).to_json}, '#{@autoplay_video.key}', '#{data_t('video.name', @autoplay_video.key)}');
+    showVideo({
+      src: #{youtube_url(@autoplay_video.youtube_code).to_json},
+      key: '#{@autoplay_video.key}',
+      name: '#{data_t('video.name', @autoplay_video.key)}'
+    });

@@ -28,20 +28,24 @@ function getShowNotes(key, container) {
   });
 }
 
-function showVideo(src, key, name) {
+// Options include:
+//   src - the url to the video
+//   key - an uid.
+//   name - a string.
+function showVideo(options) {
   var body = $('<div/>');
 
-  body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
+  body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + options.name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
 
   var video = $('<iframe id="video"/>').addClass('video-player').attr({
-    src: src,
+    src: options.src,
     scrolling: 'no'
   });
   body.append(video);
 
   var notesDiv = $('<div id="notes"/>');
   body.append(notesDiv);
-  getShowNotes(key, notesDiv);
+  getShowNotes(options.key, notesDiv);
 
   var dialog = new Dialog({ body: body });
   $(dialog.div).addClass('video-modal');
@@ -118,10 +122,11 @@ Dialog.prototype.hide = function() {
 $(document).ready(function() {
   $('.video-link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
-      var src = $(this).attr('data-src'),
-          name = $(this).attr('data-name'),
-          key = $(this).attr('data-key');
-      showVideo(src, key, name);
+      showVideo({
+        src: $(this).attr('data-src'),
+        name: $(this).attr('data-name'),
+        key: $(this).attr('data-key')
+      });
     }, this));
   });
 });
