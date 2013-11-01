@@ -19,6 +19,7 @@
     httpRequest.onload = function() {
       var response = JSON.parse(httpRequest.responseText);
       nextRedirect = response['redirect'];
+      videoInfo = response['video_info'];
       if (report.onComplete) {
         report.onComplete(response);
       }
@@ -44,6 +45,8 @@
     onContinue: function() {
       if (nextRedirect) {
         window.location.href = nextRedirect;
+      } else if (videoInfo) {
+        showVideo(videoInfo);
       }
     },
     Dialog: Dialog,
