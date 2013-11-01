@@ -27,7 +27,6 @@ module LocaleHelper
 
   # returns true if we support their first choice of locale
   def support_primary_locale?
-    debugger
     locale.to_s.split('-').first == candidate_locales.first.split('-').first
   end
 
