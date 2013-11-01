@@ -58,4 +58,10 @@ module ApplicationHelper
     end
   end
 
+  def gender_options
+    User::GENDER_OPTIONS.map do |key, value|
+      [(key ? t(key) : ''), value]
+    end
+  end
+
 end

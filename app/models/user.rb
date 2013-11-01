@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   TYPE_TEACHER = 'teacher'
   TYPE_PARENT = 'parent'
 
-  GENDER_OPTIONS = [['', ''], ['Male', 'm'], ['Female', 'f'], ['Prefer not to answer', '-']]
+  GENDER_OPTIONS = [[nil, ''], ['gender.male', 'm'], ['gender.female', 'f'], ['gender.none', '-']]
 
   attr_accessor :login
 
