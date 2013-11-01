@@ -1,20 +1,20 @@
-Game	Name	Level	Skin	Concepts	Instructions	Url
-Maze	Level1	2_2	birds	sequence	Hi! I need to get the bad piggie! Stack a couple of &quot;move forward&quot; blocks together and press &quot;Run Program&quot; to help me get there. 	
-Maze	Level2	2_1	birds	sequence	Write me another program so I can make it all the way to the pig. 	
-Maze	Level3	2_3	birds	sequence	How should I get to the pig? (Watch out for TNT)	
-Maze	Level4	2_4	birds	sequence	Argh! Write me a program that gets me past the obstacles and to the pig. 	
-Maze	Level5	2_5	birds	loop_times	There's a way I can get to the pig using only 2 blocks. Can you figure it out?	
-Maze	Level6	2_6	birds	loop_times	Try to get me to the pig using only three blocks.	
-Maze	Level7	2_7	birds	loop_times	Write me a program so I can get to the pig using the fewest number of blocks. Try using more than one &quot;repeat times&quot; block.	
-Maze	Level8	2_8	birds	loop_times	Use a couple of &quot;repeat times&quot; blocks to get me to the pig!	
-Maze	Level9	2_9	birds	loop_until	Ok, try the new &quot;repeat until&quot; block - it will repeat until I reach the pig.	
-Maze	Level10	2_10	birds	loop_until	Ok, one last time for practice - can you get me to the pig in only 3 blocks?	
-Maze	Level11	2_11	pvz	loop_until	Hello.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?	
-Maze	Leve12	2_12	pvz	loop_until	Ok, this is similar, but slightly different. Can you do it in only 5 blocks?	
-Maze	Level13	2_13	pvz	if, loop_until	Use the new &quot;if&quot; block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.	
-Maze	Level14	2_14	pvz	if, loop_until	Ok, this is just like the last level, but you need to remember how you used the &quot;if&quot; block and the &quot;repeat&quot; block together.	
-Maze	Level15	2_15	pvz	if, loop_until	Me want sunflower! Use an &quot;if&quot; block to get me there with the fewest number of blocks.	
-Maze	Level16	2_16	pvz	if, loop_until	Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!	
-Maze	Level17	2_17	pvz	if_else, loop_until	The &quot;If-else&quot; blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.	
-Maze	Level18	2_18	pvz	if_else, loop_until	One more practice of the &quot;if-else&quot; block, can you get it right on your first try?	
-Maze	Level19	2_19	pvz	if_else, loop_until	Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.	
+Game	Name	Level	Skin	Concepts	Url
+Maze	Level1	2_2	birds	sequence	
+Maze	Level2	2_1	birds	sequence	
+Maze	Level3	2_3	birds	sequence	
+Maze	Level4	2_4	birds	sequence	
+Maze	Level5	2_5	birds	loop_times	
+Maze	Level6	2_6	birds	loop_times	
+Maze	Level7	2_7	birds	loop_times	
+Maze	Level8	2_8	birds	loop_times	
+Maze	Level9	2_9	birds	loop_until	
+Maze	Level10	2_10	birds	loop_until	
+Maze	Level11	2_11	pvz	loop_until	
+Maze	Leve12	2_12	pvz	loop_until	
+Maze	Level13	2_13	pvz	if, loop_until	
+Maze	Level14	2_14	pvz	if, loop_until	
+Maze	Level15	2_15	pvz	if, loop_until	
+Maze	Level16	2_16	pvz	if, loop_until	
+Maze	Level17	2_17	pvz	if_else, loop_until	
+Maze	Level18	2_18	pvz	if_else, loop_until	
+Maze	Level19	2_19	pvz	if_else, loop_until	

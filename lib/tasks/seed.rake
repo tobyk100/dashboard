@@ -69,7 +69,7 @@ namespace :seed do
         level = Level.find_or_create_by_game_id_and_level_num(game.id, row[COL_LEVEL])
         level.name = row[COL_NAME]
         level.level_url ||= row[COL_URL]
-        level.skin ||= row[COL_SKIN]
+        level.skin = row[COL_SKIN]
 
         if level.concepts.empty?
           if row[COL_CONCEPTS]
@@ -82,8 +82,8 @@ namespace :seed do
               end
             end
           end
-          level.save!
         end
+        level.save!
         ScriptLevel.create!(script: script, level: level, chapter: (index + 1), game_chapter: (game_index[game.id] += 1))
       end
     end
