@@ -1,6 +1,6 @@
 - resource.user_type ||= params[:user].try(:fetch, :user_type) || User::TYPE_STUDENT
 
-%h2 Sign up
+%h2= t('signup_form.title')
 .row
   .span8
     = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
@@ -9,32 +9,32 @@
       = f.hidden_field :user_type
       = f.hidden_field :locale, value: locale
 
-      = f.text_field :name, class: 'input-xlarge', autofocus: true, placeholder: 'Name'
-      = f.email_field :email, class: 'input-xlarge', placeholder: 'Email'
+      = f.text_field :name, class: 'input-xlarge', autofocus: true, placeholder: t('activerecord.attributes.user.name')
+      = f.email_field :email, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.email')
       %br/
-      = f.text_field :username, class: 'input-xlarge', placeholder: 'Username', 'data-autocheck-url' => "/signup_check/username"
+      = f.text_field :username, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.username'), 'data-autocheck-url' => "/signup_check/username"
       %span#username_message
       %br/
       - if f.object.password_required?
-        = f.password_field :password, class: 'input-xlarge', placeholder: 'Password'
-        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: 'Password confirmation'
+        = f.password_field :password, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password')
+        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password_confirmation')
         %br/
 
       - if resource.teacher?
-        = f.text_field :school, class: 'input-xlarge', placeholder: 'School Name (Optional)'
+        = f.text_field :school, class: 'input-xlarge', placeholder: t('signup_form.school_name')
         %br/
-        School Address (Optional)
+        = t('signup_form.school_address')
         %br/
-        = f.text_area :full_address, class: 'input-xxlarge', placeholder: 'address, city, state, zip', rows: 4
+        = f.text_area :full_address, class: 'input-xxlarge', placeholder: t('signup_form.address_placeholder'), rows: 4
         %br/
 
       - if resource.student?
         .field
-          = f.label 'Gender (optional)'
+          = f.label t('signup_form.gender')
           %br/
           = f.select :gender, User::GENDER_OPTIONS
         .field
-          = f.label 'Birthday (optional)'
+          = f.label t('signup_form.birthday')
           %br/
           :javascript
             $(function() {
@@ -45,14 +45,14 @@
               });
             });
 
-          = f.text_field(:birthday, id: "user_birthday", placeholder: "Birthday (optional)")
+          = f.text_field(:birthday, id: "user_birthday", placeholder: t('signup_form.birthday'))
 
-      = f.submit "Sign up", class: "btn btn-primary"
+      = f.submit t('signup_form.submit'), class: "btn btn-primary"
 
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
       - if !resource.teacher?
-        = link_to "Are you a teacher?", new_user_registration_path('user[user_type]' =>  User::TYPE_TEACHER)
+        = link_to t('signup_form.teacher'), new_user_registration_path('user[user_type]' =>  User::TYPE_TEACHER)
         %br/
       = render "devise/shared/links"
 

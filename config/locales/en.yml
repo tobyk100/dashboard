@@ -49,11 +49,42 @@ en:
   already_started: "Already started? Resume here >> "
   demos: "Demos"
   auth:
+    sign_in_with: 'Sign in with %{provider}'
     signed_in: 'Signed in!'
+    already_signedup: 'Already signed up?'
+    notyet_signedup: "Haven't joined yet?"
     google_oauth2: 'Google+'
     twitter: 'Twitter'
     facebook: 'Facebook'
     windowslive: 'Windows Live'
+    forgot_password: 'Forgot your password?'
+    need_confirmation: "Didn't receive confirmation instructions?"
+    need_unlock: "Didn't receive unlock instructions?"
+  signup_form:
+    title: 'Sign up'
+    school_name: 'School Name (optional)'
+    school_address: 'School Name (optional)'
+    address_placeholder: 'address, city, state, zip'
+    gender: 'Gender (optional)'
+    birthday: 'Birthday (optional)'
+    submit: 'Sign up'
+    teacher: 'Are you a teacher?'
+  signin_form:
+    title: 'Sign in'
+    login: 'Email or username'
+    password: 'Password'
+    remember: 'Remember me'
+    submit: 'Sign in'
+  password:
+    reset_form:
+      title: 'Forgot your password?'
+      email: 'Email address'
+      submit: "Send me reset password instructions"
+    change_form:
+      title: 'Change your password'
+      new_password: 'New password'
+      confirm_password: 'Confirm new password'
+      submit: 'Change my password'
   welcome_email:
     subject: 'Join my class (on Code.org)'
     body: |
