@@ -26,11 +26,12 @@
         %td{width:"55px", style:"text-align:center;"}
           = image_tag gold_fraction_image_path(completion), size: "45x45"
         <!-- #{counts} -->
-  .stage_separator
-  .prize_msg
-    #{t('nav.popup.prizes', total_trophies: @concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
-    <br>
-    =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
+  - if @user == current_user
+    .stage_separator
+    .prize_msg
+      #{t('nav.popup.prizes', total_trophies: @concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+      <br>
+      =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
 
 %div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
   %h4 #{t('nav.popup.puzzle_map')}
