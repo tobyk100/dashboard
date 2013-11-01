@@ -17,13 +17,6 @@
 // Loads all Bootstrap javascripts
 //= require bootstrap
 
-function buildYoutubeUrl(youtubeCode) {
-  var url = 'https://www.youtubeeducation.com/embed/' +
-             youtubeCode +
-             '?modestbranding=1&rel=0&fs=1&showinfo=1';
-  return url;
-}
-
 function getShowNotes(key, container) {
   var callback = function(data) {
     container.html(data);
@@ -35,8 +28,7 @@ function getShowNotes(key, container) {
   });
 }
 
-function showVideo(youtubeCode, key, name) {
-  var src = buildYoutubeUrl(youtubeCode);
+function showVideo(src, key, name) {
   var body = $('<div/>');
 
   body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
@@ -126,10 +118,10 @@ Dialog.prototype.hide = function() {
 $(document).ready(function() {
   $('.video-link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
-      var code = $(this).attr('data-code'),
+      var src = $(this).attr('data-src'),
           name = $(this).attr('data-name'),
           key = $(this).attr('data-key');
-      showVideo(code, key, name);
+      showVideo(src, key, name);
     }, this));
   });
 });

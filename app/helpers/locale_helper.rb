@@ -10,6 +10,12 @@ module LocaleHelper
     data.fetch(:expand, best).to_sym
   end
 
+  # String representing the 2 letter language code.
+  # Prefer full locale with region where possible.
+  def language
+    locale.to_s.split('-').first
+  end
+
   # String representing the Locale code for the Blockly client code.
   def js_locale
     locale.to_s.downcase.gsub('-', '_')
