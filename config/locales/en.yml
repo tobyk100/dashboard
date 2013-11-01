@@ -45,6 +45,9 @@ en:
   of: "of"
   more: "MORE"
   less: "LESS"
+  try_hoc: "Try the Hour of Code, click here >> "
+  already_started: "Already started? Resume here >> "
+  demos: "Demos"
   auth:
     signed_in: 'Signed in!'
     google_oauth2: 'Google+'
