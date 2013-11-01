@@ -10,6 +10,12 @@ module LocaleHelper
     data.fetch(:expand, best).to_sym
   end
 
+  # String representing the 2 letter language code.
+  # Prefer full locale with region where possible.
+  def language
+    locale.to_s.split('-').first
+  end
+
   # String representing the Locale code for the Blockly client code.
   def js_locale
     locale.to_s.downcase.gsub('-', '_')
@@ -23,6 +29,17 @@ module LocaleHelper
       end
     end
     options
+  end
+
+  # returns true if we support their first choice of locale
+  def support_primary_locale?
+    locales = Dashboard::Application::LOCALES.select do |k,v|
+      v.fetch(:enabled, true)
+    end
+    languages = locales.keys.map do |key|
+      key.split('-').first
+    end
+    languages.include? candidate_locales.first.split('-').first
   end
 
   private

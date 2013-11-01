@@ -38,7 +38,19 @@ module ApplicationHelper
   end
 
   def youtube_url(code)
-    "https://www.youtubeeducation.com/watch?v=#{code}"
+    args = {
+      v: code,
+      modestbranding: 1,
+      rel: 0,
+      showinfo: 1
+    }
+    if language != 'en'
+      args.merge!(
+        cc_lang_pref: language,
+        cc_load_policy: 1
+      )
+    end
+    "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
   end
 
   def video_thumbnail_url(video)
@@ -55,6 +67,12 @@ module ApplicationHelper
     elsif best_result == Activity::BEST_PASS_RESULT then 'level_aced'
     elsif best_result < Activity::MINIMUM_PASS_RESULT then 'level_undone'
     else 'level_done'
+    end
+  end
+
+  def gender_options
+    User::GENDER_OPTIONS.map do |key, value|
+      [(key ? t(key) : ''), value]
     end
   end
 

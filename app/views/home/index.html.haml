@@ -35,8 +35,8 @@
 
 
 - else
-  %h1= link_to "Try the Hour of Code, click here >> ", hoc_reset_path()
-  = link_to "Already started? Resume here >> ", hoc_chapter_path(ScriptLevel::NEXT)
+  %h1= link_to t('try_hoc'), hoc_reset_path()
+  = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)
 
   %br/
   %br/

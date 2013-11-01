@@ -59,7 +59,7 @@ class FollowersController < ApplicationController
 
         redirect_to redirect_url, notice: I18n.t('follower.added_teacher', name: target_user.name)
       else
-        redirect_to redirect_url, notice: I18n.t('follower.teacher_not_found', teacher_email_or_code: params[:teacher_email_or_code])
+        redirect_to redirect_url, notice: I18n.t('follower.error.no_teacher', teacher_email_or_code: params[:teacher_email_or_code])
       end
     else
       raise "unknown use"

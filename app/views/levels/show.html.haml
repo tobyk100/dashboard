@@ -4,9 +4,8 @@
 
 .reference_area
   - if @videos && !@videos.empty?
-    %h5
-      %span.help_text= t('reference_area.title')
-      %span= t('reference_area.subtitle')
+    .help_title= t('reference_area.title')
+    .help_subtitle= t('reference_area.subtitle')
     = render partial: 'levels/video', collection: @videos
     %div{ style: "clear: both;"}
 
@@ -16,4 +15,4 @@
 
 - if @autoplay_video
   :javascript
-    showVideo('#{@autoplay_video.youtube_code}', '#{@autoplay_video.key}', '#{data_t('video.name', @autoplay_video.key)}');
+    showVideo(#{youtube_url(@autoplay_video.youtube_code).to_json}, '#{@autoplay_video.key}', '#{data_t('video.name', @autoplay_video.key)}');

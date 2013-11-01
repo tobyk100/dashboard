@@ -1,4 +1,4 @@
-- @page_title = t('crud.edit_model', model: resource_name.to_s.humanize)
+- @page_title = t('activerecord.attributes.user.edit_header')
 
 %h2= @page_title
 = form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f|
@@ -41,7 +41,7 @@
   .field
     = f.label :gender
     %br/
-    = f.select :gender, User::GENDER_OPTIONS
+    = f.select :gender, gender_options
   %div= f.submit t('crud.update')
 -#%h3= t('user.cancel.title')
 -#%p

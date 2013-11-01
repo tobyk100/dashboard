@@ -410,7 +410,9 @@ th {
 }
 
 .header_finished_link {
+  display: inline-block;
   font-size: 16px;
+  width: 230px;
 }
 
 .header_finished_link:hover {
@@ -450,14 +452,16 @@ th {
 }
 
 .reference_area {
+  margin-top: 30px;
+  width: 400px;
 
-  .help_text {
+  .help_title {
     color: #1180be;
-    font-weight:bold;
-    font-size:17.5px;
+    font-weight: bold;
+    font-size: 17.5px;
   }
 
-  .video-link {
+  .video_link {
     display: block;
     float: left;
     margin: 8px;
@@ -465,6 +469,7 @@ th {
 
   .video_name {
     text-align: center;
+    width: 183px;
   }
 
 }
@@ -537,5 +542,20 @@ th {
     height: 62px;
     top: -21px;
     right: -21px;
+  }
+}
+
+#i18n-banner {
+  font-size: 36px;
+  line-height: 36px;
+  background-color: $dark_color;
+  text-align: center;
+  a {
+    display: block;
+    vertical-align: text-bottom;
+    color: white;
+    &:hover {
+      background-color: $dark_color;
+    }
   }
 }
