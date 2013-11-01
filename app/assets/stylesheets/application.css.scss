@@ -410,7 +410,9 @@ th {
 }
 
 .header_finished_link {
+  display: inline-block;
   font-size: 16px;
+  width: 230px;
 }
 
 .header_finished_link:hover {

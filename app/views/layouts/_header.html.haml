@@ -14,7 +14,7 @@
             .header_text
               -if (script.multiple_games?)
                 #{t(:stage)} #{@game.id}:
-              #{t(:puzzle)}
+              = t(:puzzle)
             - game_levels.each do |sl|
               %a{href:build_script_level_path(sl)}
               - result = 0
@@ -26,37 +26,34 @@
 
               - if sl.level_id == @script_level.level_id
                 .level_current_header{class:"level_highlight"}
-                  #{@script_level.game_chapter}
+                  = @script_level.game_chapter
               - elsif (sl.game_chapter == count)
                 %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                  #{count}
+                  = count
               - else
                 %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
             - if script.hoc?
               .header_separator
-              %a.header_finished_link{href:"http://code.org/api/hour/finish"}
-                #{t('nav.header.finished_hoc')}
+              .header_finished_link
+                %a{href:"http://code.org/api/hour/finish"}
+                  = t('nav.header.finished_hoc')
             - if script.trophies
               - if current_user
                 - progress = current_user.progress(script)
                 .header_separator
                 %a.header_trophy_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
-                  .header_text
-                    #{t(:trophies)}
-                  .header_status_bar
-                    #{progress['current_trophies']}
-                  .header_text
-                    #{t(:of)} #{progress['max_trophies']}
+                  .header_text= t(:trophies)
+                  .header_status_bar= progress['current_trophies']
+                  .header_text= "#{t(:of)} #{progress['max_trophies']}"
                 .header_separator
                 %a.header_popup_link{href:"#",id:"headerPopupLink",onclick:"handlePopupClick();"}
                   .header_popup_link_glyph
                     &#x25BC;
-                  .header_popup_link_text
-                    #{t(:more)}
+                  .header_popup_link_text= t(:more)
               - else
                 .header_separator
                 %a.header_finished_link{href:new_user_registration_path}
-                  #{t('nav.header.sign_in_to_save')}
+                  = t('nav.header.sign_in_to_save')
 
         .span2{ style: 'text-align: right; padding-top: 0px;' }
           - if user_signed_in?
@@ -76,18 +73,18 @@
                   = link_to t('nav.user.logout'), destroy_user_session_path, method: :delete
           - else
             = link_to t('nav.user.signup'), new_user_registration_path
-            |
+            %br/
             = link_to t('nav.user.signin'), new_user_session_path
 
 - if current_user
   .header_popup{id:"headerPopup"}
     .header_popup_header
-      %span #{t('nav.popup.progress')}
-      .header_text{style:"float:right;"} #{t('nav.popup.lines', lines:current_user.total_lines)}
+      %span= t('nav.popup.progress')
+      .header_text{style:"float:right;"}= t('nav.popup.lines', lines:current_user.total_lines)
     .header_popup_body{id:"headerPopupBody"}
     .header_popup_footer
       %div{id:"popupClose",onclick:"togglePopup();"}
-        #{t('nav.popup.close')}
+        = t('nav.popup.close')
 :javascript
   togglePopup = function () {
     $("#headerPopup").toggle();
