@@ -50,7 +50,6 @@ module ApplicationHelper
         cc_load_policy: 1
       )
     end
-    p "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
     "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
   end
 
