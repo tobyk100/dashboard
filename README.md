@@ -45,20 +45,6 @@ Then navigate to `http://192.168.60.10:3000/`.
 
 If you are developing in Blockly you should `cd blockly` and run `grunt dev`. This will start a watch server which will recompile Blockly whenever its' source files are edited (and saved).
 
-#### Updating Vagrant VM
-```shell
-cd dashboard
-vagrant ssh
-cd /vagrant/blockly
-git pull
-sudo npm install
-grunt
-cd ..
-bundle
-rake db:migrate seed:all youtube:thumbnails
-rails server
-```
-
 ### Developing on Blockly Mooc
 
 First, checkout and build blockly-mooc. See [its readme][1] for instructions.
