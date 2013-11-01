@@ -1,5 +1,7 @@
 class ActivitiesController < ApplicationController
   include LevelsHelper
+  include ApplicationHelper
+
   protect_from_forgery except: :milestone
   check_authorization except: [:milestone]
   load_and_authorize_resource except: [:milestone]
@@ -104,6 +106,8 @@ class ActivitiesController < ApplicationController
             new: next_level.level.skin }
         end
       else
+        video = script_level.script.wrapup_video
+        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key)}
         response[:message] = 'no more levels'
       end
       render json: response
