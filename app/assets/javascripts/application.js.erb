@@ -122,12 +122,11 @@ Dialog.prototype.hide = function() {
 $(document).ready(function() {
   $('.video-link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
-      options = {
+      showVideo({
         src: $(this).attr('data-src'),
         name: $(this).attr('data-name'),
         key: $(this).attr('data-key')
-      };
-      showVideo(options);
+      });
     }, this));
   });
 });
