@@ -450,14 +450,16 @@ th {
 }
 
 .reference_area {
+  margin-top: 30px;
+  width: 400px;
 
-  .help_text {
+  .help_title {
     color: #1180be;
-    font-weight:bold;
-    font-size:17.5px;
+    font-weight: bold;
+    font-size: 17.5px;
   }
 
-  .video-link {
+  .video_link {
     display: block;
     float: left;
     margin: 8px;

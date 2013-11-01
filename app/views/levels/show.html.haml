@@ -4,9 +4,8 @@
 
 .reference_area
   - if @videos && !@videos.empty?
-    %h5
-      %span.help_text= t('reference_area.title')
-      %span= t('reference_area.subtitle')
+    .help_title= t('reference_area.title')
+    .help_subtitle= t('reference_area.subtitle')
     = render partial: 'levels/video', collection: @videos
     %div{ style: "clear: both;"}
 
