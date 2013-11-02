@@ -31,7 +31,8 @@ aptitude -y install \
   libssl-dev \
   mysql-server \
   libmysqlclient-dev \
-  nginx
+  nginx \
+  rb-readline
 
 # Native dependencies for builds with Node.js.
 if [[ $CDO_DEV ]]; then
