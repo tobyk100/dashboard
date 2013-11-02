@@ -46,7 +46,7 @@ en:
     level:
       instructions:
         # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
-        'maze_2_2': "Hi! I need to get the Bad Piggie! Stack a couple of \"move forward\" blocks together and press \"Run Program\" to help me get there. "
+        'maze_2_2': "Hi! I need to get the Green Piggy! Stack a couple of \"move forward\" blocks together and press \"Run Program\" to help me get there. "
         'maze_2_1': "Write me another program so I can make it all the way to the green pig. "
         'maze_2_3': "How should I get to the green pig? (Watch out for the TNT)"
         'maze_2_4': "Argh! Write a program that gets me around the TNT and to the green pig. "
@@ -71,7 +71,7 @@ en:
         'turtle_1_4': "Draw a triangle whose sides are all in different colors, using the \"random color\" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block."
         'turtle_1_5': "Now, for practice, draw a triangle and then a square to draw an envelope."
         'turtle_1_6': "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        'turtle_1_7': "Ok, let's make it a bit harder - see if you can draw these glasses. The squares are 100 pixels on each side, and they're 50 pixels apart."
+        'turtle_1_7': "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
         'turtle_1_8': "Ok, try to figure out what happens if you run this code (or press \"Run\" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time."
         'turtle_1_9': "Can you figure out what number to replace the question marks with to draw a circle?"
         'turtle_1_10': "You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new \"set width\" block. Have fun!"
@@ -97,8 +97,8 @@ en:
         'turtle_2_5': "Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the \"draw a square\" function five times."
         'turtle_2_6': "Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the \"counter\" block. Hint: It's in the Variables category."
         'turtle_2_7': "Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a \"count with\" block (in the Loops category) and \"counter\" block (in the Variables category) to draw the same spiral."
-        'turtle_2_7_5': ""
-        'turtle_2_8': "This one's a bit tricky. There's a new \"draw a snowman\" function (in the Functions category), and a \"jump forward\" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart."
+        'turtle_2_7_5': "There's a new \"draw a snowman\" function (in the Functions category). Draw two snowmen, of height 250 and 100."
+        'turtle_2_8': "This one's a bit tricky. Use the \"draw a snowman\" function and the new \"jump forward\" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart."
         'turtle_2_9': "Use a \"count with\" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart."
         'turtle_2_10': "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         'maze_karel_2_1': "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
