@@ -33,6 +33,10 @@ function getShowNotes(key, container) {
 //   key - an uid.
 //   name - a string.
 function showVideo(options) {
+  var widthRatio = .8;
+  var heightRatio = .8;
+  var aspectRatio = 16 / 7;
+
   var body = $('<div/>');
 
   body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + options.name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
@@ -48,7 +52,8 @@ function showVideo(options) {
   getShowNotes(options.key, notesDiv);
 
   var dialog = new Dialog({ body: body });
-  $(dialog.div).addClass('video-modal');
+  $div = $(dialog.div);
+  $div.addClass('video-modal');
 
   dialog.show();
   body.tabs({
@@ -63,6 +68,26 @@ function showVideo(options) {
     }
   });
   $('.modal-backdrop').addClass('video-backdrop');  // Hack to fix z-index.
+
+  // Resize modal to fit constraining dimension.
+  var height = $(window).height() * widthRatio,
+      width = $(window).width() * heightRatio;
+
+  if (height * aspectRatio < width) {
+    $div.height(height);
+    $div.width(height * aspectRatio);
+  } else {
+    $div.height(width / aspectRatio);
+    $div.width(width);
+  }
+
+  // Standard css hack to center a div within the viewport.
+  $div.css({
+    top: '50%',
+    left: '50%',
+    marginTop: ($div.height() / -2) + 'px',
+    marginLeft: ($div.width() / -2) + 'px'
+  });
 }
 
 function embed_thumbnail_image(data) {
