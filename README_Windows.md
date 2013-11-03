@@ -13,7 +13,14 @@ A shortened set of instructions can be found in the [general Readme][1]
 
 ### Supported Configurations
 
-Windows 8 - Currently fails to launch UBuntu VM. Investigating.
+Be sure to turn on harware virtualization in your BIOS. This step was resulting in a blank screen on an
+older system since we are standing up a 64-bit base OS. Also make sure your base OS is 64-bit.
+
+Windows 8 - Works with an updated Vagrantfile to include the following port forwarding
+
+```
+config.vm.forward_port 3000, 8080
+```
 
 Windows 7 - Works with an updated Vagrantfile to include the following port forwarding
 
@@ -114,7 +121,8 @@ VBoxManage.exe: error: Failed to create the host-only adapter
 At this point you need to use the VirtualBox UI to fix some settings. Once launched go to the File -> Preferences
 menu and then select the Network tab from the left pane. There will now be two tabs in the right pane, the
 first for "NAT Networks" and the second for "Host-only Networks". Choose the second tab. There will now be multiple
-adapters in here. Delete all of the numbered adapters and then edit the last remaining one.
+adapters in here. Delete all of the numbered adapters and then edit the last remaining one. Note you can build this
+adapter setup before hand and skip the failure stage as well.
 
 For the IPv4 Address use: 192.168.60.10
 
@@ -138,9 +146,9 @@ since both the `server_setup.sh` and `dev_setup.sh` scripts are going to be run 
 console.
 
 Note: If you get a timeout such as the following, then you are in a state where the VM is not bootable for
-whatever reason. I'm not sure what fixes this problem, but even booting the VM from the VirtualBox UI results
-in a VM that sits at a blank streen. I recommend running `vagrant destroy` and starting again. Optionally
-delete all VM's and files from the UI so they can be recreated. (Only see on Windows 8).
+whatever reason. You must have skipped the hardware virtualization step or you are running an unsupported
+configuration that we haven't tested. I recommend running `vagrant destroy` and starting again. Optionally
+delete all VM's and files from the UI so they can be recreated.
 
 ```
 > Timed out while waiting for the machine to boot.
