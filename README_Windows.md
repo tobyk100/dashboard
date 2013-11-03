@@ -51,5 +51,93 @@ be more streamlined.
 
 Note: Use the MSI installer for whatever the latest version is. At the time of writing it was 1.3.5.
 
+#### Command Line Setup
+
+From this point you'll mostly be in the command line. Launch your favorite command prompt and quickly test to make
+sure Git, Vagrant and SSH are actually available along your path.
+
+```
+git --version
+vagrant --version
+ssh
+```
+
+Assuming everything is good you continue. The next step is to sync the dashboard repository locally.
+
+```
+REM Clone the Dashboard into a local repository
+cd /d <drive>:\<project root>
+git clone https://github.com/code-dot-org/dashboard.git
+cd dashboard
+```
+
+The next steps will setup the VM. This step will use the values in `Vagrantfile` from the enlistment. Note
+that after rebooting your machine or setting up your VM again you may find it in a baseline state and have
+to repeat these steps numerous times. There are recommendations later in the file for how to suspend and resume
+your VM but depending on the circumstances these may not work.
+
+The following command will fetch and install the base VM. This step can take several minutes or longer
+depending on your network bandwidth. The baseline will then be provisioned and a private host only network
+will be set up so you can connect to the VM after you configure and launch rails in a later step.
+
+```
+vagrant up
+```
+
+Setup is going to fail with some output like the following:
+
+```
+Stderr: 0%...
+Progress state: E_INVALIDARG
+VBoxManage.exe: error: Failed to create the host-only adapter
+...
+```
+
+At this point you need to use the VirtualBox UI to fix some settings. Once launched go to the File -> Preferences
+menu and then select the Network tab from the left pane. There will now be two tabs in the right pane, the
+first for "NAT Networks" and the second for "Host-only Networks". Choose the second tab. There will now be multiple
+adapters in here. Delete all of the numbered adapters and then edit the last remaining one.
+
+For the IPv4 Address use: 192.168.60.10
+On the DHCP Server tab: Uncheck Enable Server
+
+If you can't launch the VirtualBox UI then you have to kill all of the VirtualBox processes from the task manager.
+Note, that both the Vagrant commands the and UI fight for control of a single COM server and so you have to exit
+one before using the other. So after finishing up with the adapter configuration, go ahead and exit the UI. You
+should now continue with the vagrant setup.
+
+```
+REM Setting up the virtual box now that we have a virtual network adapter prepared
+vagrant up
+> [default] Importing base box 'raring64'...
+> ...
+> [default] Waiting for machine to boot. This may take a few minutes...
+```
+
+This stage includes provisioning and so it will take quite some time even after waiting for the machine to boot
+since both the `server_setup.sh` and `dev_setup.sh` scripts are going to be run before returning control to the
+console.
+
+Note: If you get a timeout such as the following, then you are in a state where the VM is not bootable for
+whatever reason. I'm not sure what fixes this problem, but even booting the VM from the VirtualBox UI results
+in a VM that sits at a blank streen. I recommend running `vagrant destroy` and starting again. Optionally
+delete all VM's and files from the UI so they can be recreated. (Only see on Windows 8).
+
+```
+> Timed out while waiting for the machine to boot.
+```
+
+#### VM Configuration
+
+From this point on we'll be working inside of the VM. To enter the VM you'll use the `vagrant ssh` command. Note
+commands preceded by a $ are now be executed inside of the ssh terminal and not on the local Windows box.
+
+```
+vagrant ssh
+
+$ rake db:create db:migrate seed:all youtube:thumbnails
+$ rails server
+```
+
 [1]: https://github.com/code-dot-org/dashboard/blob/master/README.md
 [2]: http://www.git-scm.com/download/win
