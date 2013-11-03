@@ -21,6 +21,14 @@ Windows 7 - Works with an updated Vagrantfile to include the following port forw
 config.vm.forward_port 3000, 8080
 ```
 
+For debugging VM failures it is useful to see the GUI. The default is headless so you have to change the
+Vagrantfile if you want additional debugging support. Also, the environment variable VAGRANT_LOG=[ERROR|INFO]
+can be useful as well.
+
+```
+config.vm.boot_mode = :gui
+```
+
 ### Setup Instructions
 
 #### Git Tools Setup
