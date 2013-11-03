@@ -45,6 +45,11 @@ Then navigate to `http://192.168.60.10:3000/`.
 
 If you are developing in Blockly you should `cd blockly` and run `grunt dev`. This will start a watch server which will recompile Blockly whenever its' source files are edited (and saved).
 
+### Windows Specific Instructions
+
+[These instructions][2] are useful for Windows 7/8 usage for those helping with IE 8/9/10 support.
+
+
 ### Developing on Blockly Mooc
 
 First, checkout and build blockly-mooc. See [its readme][1] for instructions.
@@ -56,3 +61,4 @@ rake blockly:dev['/path/to/blockly-mooc']
 ```
 
 [1]: https://github.com/code-dot-org/blockly/blob/master/README.md
+[2]: https://github.com/code-dot-org/dashboard/blob/master/README_Windows.md
