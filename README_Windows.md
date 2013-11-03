@@ -11,6 +11,16 @@ so that it can host a local copy of the Dashboard/Blockly webserver for debuggin
 
 A shortened set of instructions can be found in the [general Readme][1]
 
+### Supported Configurations
+
+Windows 8 - Currently fails to launch UBuntu VM. Investigating.
+
+Windows 7 - Works with an updated Vagrantfile to include the following port forwarding
+
+```
+config.vm.forward_port 3000, 8080
+```
+
 ### Setup Instructions
 
 #### Git Tools Setup
@@ -99,6 +109,7 @@ first for "NAT Networks" and the second for "Host-only Networks". Choose the sec
 adapters in here. Delete all of the numbered adapters and then edit the last remaining one.
 
 For the IPv4 Address use: 192.168.60.10
+
 On the DHCP Server tab: Uncheck Enable Server
 
 If you can't launch the VirtualBox UI then you have to kill all of the VirtualBox processes from the task manager.
@@ -138,6 +149,18 @@ vagrant ssh
 $ rake db:create db:migrate seed:all youtube:thumbnails
 $ rails server
 ```
+
+#### Browser Configuration
+
+Due to the port forwarding from host:8080 to guest:3000 you can now launch a browser and view the compiled site.
+
+```
+http://localhost:8080
+```
+
+### Notes
+
+Current instructions are incomplete as they lack instructions for compiling Blockly.
 
 [1]: https://github.com/code-dot-org/dashboard/blob/master/README.md
 [2]: http://www.git-scm.com/download/win
