@@ -101,7 +101,14 @@ that after rebooting your machine or setting up your VM again you may find it in
 to repeat these steps numerous times. There are recommendations later in the file for how to suspend and resume
 your VM but depending on the circumstances these may not work.
 
-The following command will fetch and install the base VM. This step can take several minutes or longer
+Before running `vagrant up` ensure there is a forward port specified in the `Vagrantfile`. Open it up in your
+editor and either find or add the following line.
+
+```
+config.vm.forward_port 3000, 8080
+```
+
+Now run `vagrant up` which will fetch and install the base VM. This step can take several minutes or longer
 depending on your network bandwidth. The baseline will then be provisioned and a private host only network
 will be set up so you can connect to the VM after you configure and launch rails in a later step.
 
