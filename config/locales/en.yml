@@ -128,9 +128,9 @@ en:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: 'Sign in to save progress'
     user:
-      classroom: 'My Classroom'
+      classroom: 'My students'
       label: 'Hi %{username}'
-      stats: 'My Progress'
+      stats: 'My progress'
       settings: 'My account'
       prizes: 'Prizes'
       logout: 'Sign out'
@@ -152,7 +152,7 @@ en:
     students:
       manage: 'Manage students'
       add: 'Add students'
-    rollup: 'Rollup report'
+    rollup: 'Progress Dashboard'
     activity: 'Recent class activity'
   user:
     new_password_hint: "(leave blank if you don't want to change it)"

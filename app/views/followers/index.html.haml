@@ -1,5 +1,4 @@
-- @page_title = "#{current_user.name} Rollup Report"
-- row_count = (@section_map.size * 3) + @section_map.map(&:length).sum
+- @page_title = "#{current_user.name} #{t('teacher.rollup')}"
 - stage_map = @all_script_levels.group_by { |sl| sl.level.game }
 - hours = (params[:hours] || 1).to_i
 - add_section_ui = !current_user.sections.blank?

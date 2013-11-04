@@ -5,7 +5,7 @@
   = link_to_if current != 'addstudents', "Add students", new_follower_path
 |
 %span{ style: 'color: #ffa400;'}
-  = link_to_if current != 'report', "Rollup report", followers_path
+  = link_to_if current != 'report', t('teacher.rollup'), followers_path
 |
 %span{ style: 'color: #ffa400;'}
   = link_to_if current != 'activity', "Recent class activity", student_usage_path
