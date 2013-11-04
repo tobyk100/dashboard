@@ -28,7 +28,6 @@ namespace :deploy do
     rails_env = fetch(:rails_env, 'development')
 
     run "cd '#{current_path}' && #{rake} blockly:latest pseudolocalize RAILS_ENV=#{rails_env}"
-    run "cd #{current_path} && git rev-parse --short HEAD > .revision"
   end
 
   task :setup_config, roles: :app do

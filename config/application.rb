@@ -36,7 +36,11 @@ module Dashboard
       end
     end
 
-    # Hack for cache busting. See LevelsHelper#blockly_cache_bust.
-    ::GIT_REVISION = File.read(Rails.root.join('.revision')).strip rescue ''
+    # Hack for cache busting.
+    # Extracts version number from package.json of Blockly apps.
+    # See also LevelsHelper#blockly_cache_bust.
+    cache_bust_path = Rails.root.join('.cache_bust')
+    ::CACHE_BUST = File.read(cache_bust_path).strip.gsub('.', '_') rescue ''
+    end
   end
 end

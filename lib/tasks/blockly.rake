@@ -24,10 +24,10 @@ namespace :blockly do
     else
       FileUtils.rm_rf(dest)
     end
+    FileUtils.rm_rf('.cache_bust')
   end
 
   task latest: :environment do
-    version = '0.0.1'
     puts "Asking #{npm_root} for latest version number"
     metadata = `curl --silent --insecure #{npm_root}`
     latest = metadata.scan(/"latest":"(.*?)"/)[0][0]
@@ -44,6 +44,7 @@ namespace :blockly do
     tar_cmd = "tar -xz -C #{dirname}"
     `#{curl_cmd} | #{tar_cmd}`
     FileUtils.mv("#{dirname}/package", dest)
+    File.open('.cache_bust', 'w') { |f| f.write(args[:version]) }
   end
 
   task :dev, [:src] => :environment do |t, args|
