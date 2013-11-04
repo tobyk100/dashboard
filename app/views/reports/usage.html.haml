@@ -1,5 +1,5 @@
 - @page_title = 'Recent Activity'
-
+- script = Script::TWENTY_HOUR_SCRIPT
 - if 'students' == params[:action]
   = render partial: 'shared/teacher_nav', locals: { current: 'activity' }
 
@@ -7,31 +7,19 @@
 
 %br/
 
-%table{ border: 1 }
-  %colgroup
-    %col{ style: "width: 150px" }
-    %col{ style: "width: 150px" }
-    %col{ style: "width: 200px" }
-    %col{ style: "width: 400px" }
-  %tr
-    %th Student
-    %th Game/Level
-    %th Info
-    %th data
-  - @recent_activities.each do |a|
-    %tr
-      %td= link_to a.user.name, user_stats_path(a.user)
-      %td= link_to "#{a.level.try(:game).try(:name)} / #{a.level.try(:level_num)}", [a.level.try(:game), a.level]
-      %td
-        - if a.best?
-          %span{ style: 'color:green'} Finished (#{a.attempt}, #{a.test_result})
-        - elsif a.passing?
-          %span{ style: 'color:orange'} Finished (#{a.attempt}, #{a.test_result})
-        - else
-          %span{ style: 'color:red'} Incomplete (#{a.attempt}, #{a.test_result})
-        %br/
-        in #{distance_of_time_in_words((a.time/1000).seconds)}
-        %br/
-
-        finished #{ago(a.created_at)}
-      %td= render partial: 'shared/solution', locals: { level: a.level, xml: a.level_source.data }
+- @recent_activities.each do |a|
+  %div{ style: "padding: 4px;"}
+    = link_to a.user.name, user_stats_path(a.user)
+    - if a.best?
+      %span{ style: 'color:green'} finished (#{a.attempt}, #{a.test_result})
+    - elsif a.passing?
+      %span{ style: 'color:orange'} finished (#{a.attempt}, #{a.test_result})
+    - else
+      %span{ style: 'color:red'} tried (#{a.attempt}, #{a.test_result})
+    - sl = script.find_script_level(a.level_id)
+    #{link_to "#{t('stage')} #{a.level.try(:game_id)}, #{t('puzzle')} #{sl.try(:game_chapter)}", build_script_level_path(sl)},
+    finished #{ago(a.created_at)}.
+    = form_tag([a.level.try(:game), a.level], style: 'display: inline;') do
+      = hidden_field_tag(:_method, :get)
+      = hidden_field_tag(:initial_code, a.level_source.data)
+      See #{link_to("#{a.user.name}'s code", '#', onclick: "parentNode.submit(); return false;")}
