@@ -13,6 +13,9 @@ Vagrant::Config.run do |config|
     shell.args = "-d '/vagrant' 'vagrant'"
   end
 
+  # Increase available RAM.
+  config.vm.customize ['modifyvm', :id, "--memory", 1024]
+
   # Enable symlinks. See https://github.com/mitchellh/vagrant/issues/713
   config.vm.customize [
     'setextradata',
