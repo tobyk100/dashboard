@@ -43,7 +43,7 @@ es-ES:
   signup_form:
     title: Únete
     school_name: Nombre de la escuela (opcional)
-    school_address: Nombre de la escuela (opcional)
+    school_address: Dirección de la escuela (opcional)
     address_placeholder: Dirección, ciudad, estado/provincia, código postal
     gender: Sexo (opcional)
     birthday: Cumpleaños (opcional)

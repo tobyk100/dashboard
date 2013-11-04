@@ -35,17 +35,17 @@ zh-CN:
         parameters: Functions with parameters
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the bad piggie! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: 'Write me another program so I can make it all the way to the pig. '
-        maze_2_3: How should I get to the pig? (Watch out for the TNT)
-        maze_2_4: 'Argh! Write me a program that gets me around the TNT and to the pig. '
-        maze_2_5: "There's a way I can get to the pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: For this puzzle, try putting a "turn" block after 2 "move" blocks inside the "repeat" block.
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the pig.'
-        maze_2_10: For this puzzle, try using a "repeat until" block with multiple blocks inside it.
-        maze_2_11: 'Hello.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?'
+        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: 'Write me another program so I can make it all the way to the green pig. '
+        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
+        maze_2_4: 'Argh! Write a program that gets me around the TNT and to the green pig. '
+        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: Try to get me to the green pig using only three blocks.
+        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
+        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
+        maze_2_10: 'Ok, one last time for practice - can you solve this one using only 4 blocks?'
+        maze_2_11: 'Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?'
         maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
         maze_2_14: Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.
@@ -61,7 +61,7 @@ zh-CN:
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
         turtle_1_6: 'Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square.'
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these glasses. The squares are 100 pixels on each side, and they're 50 pixels apart."
+        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
         turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
         turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
@@ -93,9 +93,10 @@ zh-CN:
           Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
         turtle_2_7: |
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: ""
+        turtle_2_7_5: |
+          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
         turtle_2_8: |
-          This one's a bit tricky. There's a new "draw a snowman" function (in the Functions category), and a "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
+          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
         turtle_2_9: Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.
         turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         maze_karel_2_1: 'Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop.'
@@ -136,13 +137,13 @@ zh-CN:
         maze_intro: Maze Intro
         artist_intro: Artist Intro
         farmer_intro: Farmer Intro
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        if: If block
-        if_else: If/else block
+        loop_times: Repeat Times Block
+        loop_until: Repeat Until Block
+        if: If Block
+        if_else: If/else Block
         function: Functions
-        loop_while: While block
-        loop_for: Counter block
-        parameters: Functions with parameters
-        hoc_wrapup: HoC wrapup
-        20_wrapup: 20-hour wrapup
+        loop_while: While Block
+        loop_for: Counter Block
+        parameters: Functions with Parameters
+        hoc_wrapup: Hour of Code Wrapup
+        20_wrapup: 20-Hour Wrapup

@@ -3,70 +3,70 @@ es-ES:
     maze_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops."
+        text: Hola, me llamo Mark! Vamos a aprender acerca de iteraciones.
       2:
         image: notes/hoc2_2.png
-        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+        text: En este puzzle, queremos que el pájaro se mueva hacia adelante 5 espacios para llegar al cerdo.
       3:
         image: notes/hoc2_3.png
-        text: And we can use the new "repeat" block which is called a loop to help us out.
+        text: Y podemos usar el nuevo bloque "repetir" que se llama una iteración para ayudarnos.
       4:
         image: notes/hoc2_4.png
-        text: Instead of dragging out 5 "move forward" blocks...
+        text: En lugar arrastrar 5 bloques "mover hacia adelante"...
       5:
         image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+        text: Podemos poner el bloque "mover hacia adelante" dentro del bloque "repetir" y escribir un número en el bloque para decirle cuántas veces repetirlo.
       6:
         image: notes/hoc2_6.png
-        text: And you can put more than one command inside a "repeat" block.
+        text: Y puedes poner más de un comando dentro de un bloque "repetir".
       7:
         image: notes/hoc2_7.png
-        text: Enjoy using your new "repeat" block!
+        text: Disfruta usando tu nuevo bloque "repetir"!
     loop_until:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     if:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     if_else:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     hoc_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas estará disponible pronto!

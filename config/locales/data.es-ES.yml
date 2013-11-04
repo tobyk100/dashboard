@@ -35,17 +35,17 @@ es-ES:
         parameters: Funciones con parámetros
     level:
       instructions:
-        maze_2_2: 'Hola! Necesito llegar a la cerdita mala! Apila un par de bloques "Mover hacia adelante" y presiona "Ejecutar el programa" que ayudarme a llegar allí. '
-        maze_2_1: 'Escribe otro programa así puedo hacer todo el camino hasta el cerdo. '
-        maze_2_3: ¿Cómo llego al cerdo? (Cuidado con el TNT)
-        maze_2_4: '¡Argh! Escribe un programa que me haga esquivar el TNT y llegue hasta el cerdo. '
-        maze_2_5: Hay una forma de llegar al cerdo utilizando sólo 2 bloques. ¿Puedes encontrarla?
-        maze_2_6: Intenta llevarme al cerdo utilizando sólo tres bloques.
-        maze_2_7: Escribe un programa para que pueda llegar al cerdo utilizando la menor cantidad posible de bloques. Prueba usando más de un bloque "repetir veces".
-        maze_2_8: Para este puzzle, intenta poner un bloque "girar" después de 2 bloques "mover" dentro del bloque "repetir".
-        maze_2_9: 'Ok, prueba el nuevo bloque "repetir hasta" - repetirá hasta que llegue al cerdo.'
-        maze_2_10: Para este puzzle, intenta usar un bloque "repetir hasta" con varios bloques en su interior.
-        maze_2_11: 'Hola.  Yo zombi. Yo hambriento. Debo... llegar... al girasol... ¿Me puedes llevar ahí con sólo 5 bloques?'
+        maze_2_2: 'Hola! Necesito llegar a la cerdita verde! Apila un par de bloques "Mover hacia adelante" y presiona "Ejecutar el programa" que ayudarme a llegar allí. '
+        maze_2_1: 'Escribe otro programa así puedo hacer todo el camino hasta el cerdo verde. '
+        maze_2_3: ¿Cómo llego al cerdo verde? (Cuidado con el TNT)
+        maze_2_4: '¡Argh! Escribe un programa que me permita esquivar el TNT y llegar al cerdo verde. '
+        maze_2_5: Hay una forma de llegar al cerdo verde utilizando sólo 2 bloques. ¿Puedes encontrarla?
+        maze_2_6: Intenta llevarme al cerdo verde utilizando sólo tres bloques.
+        maze_2_7: Escribe un programa para que pueda llegar al cerdo verde utilizando la menor cantidad posible de bloques. Prueba usando más de un bloque "repetir veces".
+        maze_2_8: 'Para solucionar este, prueba con un bloque "repetir" con estos 3 bloques en su interior: mover, mover, girar.'
+        maze_2_9: 'Ok, prueba el nuevo bloque "repetir hasta" - repetirá hasta que llegue al cerdo verde.'
+        maze_2_10: 'Ok, una última vez para practicar - se puede resolver éste usando solo 4 bloques?'
+        maze_2_11: 'Hola persona.  Yo zombi. Yo hambriento. Debo... llegar... al girasol... ¿Me puedes llevar ahí con sólo 5 bloques?'
         maze_2_12: Ok, esto es similar, pero un poco diferente. ¿Puedes hacerlo en sólo 5 bloques?
         maze_2_13: 'Utilice el nuevo bloque "si" para dejarme decidir cuándo girar. Sugerencia: sólo necesitas un bloque más, pero aprende cómo lo hicimos así puedes hacerlo tu solo la próxima vez.'
         maze_2_14: Ok, esto es como el último puzzle, pero tienes que recordar cómo usaste el bloque "si" y el bloque "repetir" juntos.
@@ -60,7 +60,7 @@ es-ES:
         turtle_1_4: 'Dibuja un triángulo cuyos lados tienen todos diferentes colores, usando la opción "color al azar" que elige un color diferente cada vez. Ayuda: tendrás que averiguar cuánto girar haciendo click en el número del bloque girar.'
         turtle_1_5: Ahora, para practicar, dibuja un triángulo y un cuadrado para dibujar un sobre.
         turtle_1_6: '¿Puedes darte cuenta cómo dibujar este triángulo y cuadrado? Ayuda: Haz el triángulo primero, y luego averigua cuánto girar antes de dibujar el cuadrado.'
-        turtle_1_7: 'Ok, vamos a hacerlo un poco más difícil - Veamos si puedes dibujar estos anteojos. Los cuadrados tienen 100 píxeles en cada lado, y están separados entre sí por 50 píxeles .'
+        turtle_1_7: 'Ok, vamos hacerlo un poco más difícil - ve si puedes dibujar estos anteojos verdes. Los cuadrados tienen 100 píxeles en cada lado, y están separados por 50 píxeles. No te olvides de dibujar en verde!'
         turtle_1_8: Muy bien, tratemos de averiguar qué pasa si ejecutas este código (o presionas "Run" para probarlo). Luego, repítelo las veces necesarias para completar el dibujo. Los colores serán diferentes cada vez.
         turtle_1_9: ¿Puedes adivinar con qué número reemplazarías a los signos de interrogación para dibujar un círculo?
         turtle_1_10: '¡Lo lograste! Ahora, a dibujar cualquier cosa que quieras. Algunas ideas divertidas: un muñeco de palitos, un copo de nieve o un espiral. Prueba también el nuevo bloque "ajuste de ancho". ¡Que te diviertas!'
@@ -86,8 +86,8 @@ es-ES:
         turtle_2_5: 'Dibuja cuadrados con lados de 50, 60, 70, 80 y 90 píxeles.  Necesitarás utilizar la función "dibujar un cuadrado" cinco veces.'
         turtle_2_6: 'Bien, este programa utilizará un contador, para dibujar los mismos cuadrados que la última vez. Haz que el cuadrado sea del mismo tamaño que el contador, usando el bloque "contador". Sugerencia: Está en la categoría Variables.'
         turtle_2_7: Este es un programa para dibujar un espiral, pero los bloques están desactivados así que no funcionan. Haz un nuevo programa utilizando un bloque "contar con" (en la categoría iteraciones) y "contador" (en la categoría Variables) para dibujar el mismo espiral.
-        turtle_2_7_5: ""
-        turtle_2_8: Éste es un poco complicado. Hay una nueva función "dibujar un muñeco de nieve" (en la categoría de Funciones) y un bloque "saltar adelante" (en la categoría Acciones). Dibuja 3 muñecos de nieve en diferentes colores, separados por 100 píxeles.
+        turtle_2_7_5: Hay una nueva función de "dibujar un muñeco de nieve" (en la categoría de funciones). Dibuja dos muñecos de nieve, de 250 y 100 de altura.
+        turtle_2_8: Éste es un poco complicado. Utiliza la función "dibujar un muñeco de nieve" y el bloque nuevo "saltar adelante" (en la categoría de Acciones). Dibuja 3 muñecos de nieve en diferentes colores, separados por 100 píxeles.
         turtle_2_9: Utiliza un bucle "contar con" para dibujar una familia de muñecos de nieve, con alturas de 110, 100, 80, 90 y 70. Los muñecos de nieve deberían estar separados por 60 píxeles.
         turtle_2_10: 'Aquí hay algo de código para probar experimentando con diferentes espirales.  ¿Qué sucede si cambias la cantidad del giro? O estableces un color al azar en la iteración.  Dibuja cualquier cosa que quieras.'
         maze_karel_2_1: 'Trata de usar los bloques para ayudarme a quitar todas las pilas y llenar todos los agujeros del suelo. Intenta utilizar iteraciones en lugar de usar demasiados bloques. Sugerencia: puedes poner una iteración dentro de otra iteración.'
@@ -125,13 +125,13 @@ es-ES:
         maze_intro: Introducción al Laberinto
         artist_intro: Introducción al Artista
         farmer_intro: Introducción al Granjero
-        loop_times: Bloque repetir veces
-        loop_until: Bloque repetir hasta que
-        if: Bloque si
-        if_else: Bloque si-sino
+        loop_times: Bloque Repetir Veces
+        loop_until: Bloque Repetir Hasta
+        if: Bloque Si
+        if_else: Bloque Si/Sino
         function: Funciones
-        loop_while: Bloque mientras
-        loop_for: Bloque contador
+        loop_while: Bloque Mientras
+        loop_for: Bloque Contador
         parameters: Funciones con parámetros
-        hoc_wrapup: Cierre de la Hora del Código
-        20_wrapup: Cierre de las 20 horas
+        hoc_wrapup: Repaso de la Hora del Código
+        20_wrapup: Repaso de 20 horas

@@ -43,7 +43,7 @@ af:
   signup_form:
     title: Sign up
     school_name: School Name (optional)
-    school_address: School Name (optional)
+    school_address: School Address (optional)
     address_placeholder: address, city, state, zip
     gender: Gender (optional)
     birthday: Birthday (optional)
