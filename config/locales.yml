@@ -6,6 +6,9 @@
 # debug: Causes a language to only show up for in development env.
 
 de:
+  expand: 'de-DE'
+  enabled: false
+de-DE:
   name: Deutsch
   enabled: false
 en:
@@ -18,6 +21,9 @@ en-PLOC:
   name: Pseudolocalized
   debug: true
 es:
+  expand: 'es-ES'
+  enabled: false
+es-ES:
   name: Español
   debug: true
 pt:
@@ -27,6 +33,9 @@ pt-BR:
   name: Português
   enabled: false
 vi:
+  expand: 'vi-VN'
+  enabled: false
+vi-VN:
   name: Tiếng Việt
   enabled: false
 zh:
