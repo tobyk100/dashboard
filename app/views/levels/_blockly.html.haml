@@ -12,6 +12,9 @@
 - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
 - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
 
+- @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
+- @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
+
 :javascript
   var nextRedirect;
   var sendReport = function(report) {
@@ -55,6 +58,7 @@
       puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
       stage_total: #{@level.game.levels.count},
       instructions: '#{escape_javascript(@instructions)}',
+      levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
       #{start_blocks(current_user, @level)}
     },
     skinId: '#{@level.skin}'
