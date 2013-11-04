@@ -5,6 +5,8 @@ class Script < ActiveRecord::Base
 
   HOC_ID = 2
 
+  TWENTY_HOUR_SCRIPT = Script.first
+
   def script_levels_from_game(game_index)
     script_levels.includes({ level: :game }, :script).order(:chapter).where(['games.id = :index', { :index => game_index}]).references(:game)
   end

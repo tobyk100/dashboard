@@ -33,7 +33,8 @@
         %br/
         = link_to t('teacher.activity'), student_usage_path
 
-
+  .row
+    = render partial: 'shared/user_stats', locals: { user: current_user }
 - else
   %h1= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)

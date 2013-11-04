@@ -1,11 +1,11 @@
-- script_levels = @user.levels_from_script(@script)
-- progress = @user.progress(@script)
+- script_levels = user.levels_from_script(Script::TWENTY_HOUR_SCRIPT)
+- concept_progress = user.concept_progress
 
 %div{style:"display:inline-block;width:290px;position:relative;overflow:hidden;float:left;"}
   %h4 #{t('nav.popup.mastery')}
 
   %table{style:"max-width:290px;"}
-    - @concept_progress.each_pair do |concept, counts|
+    - concept_progress.each_pair do |concept, counts|
     - completion = counts[:current].to_f/counts[:max]
       %tr{ height:"55px"}
         %td{width:"100px"}
@@ -17,10 +17,10 @@
         %td{width:"55px", style:"text-align:center;"}
           = image_tag gold_fraction_image_path(completion), size: "45x45"
         <!-- #{counts} -->
-  - if @user == current_user
+  - if user == current_user
     .stage_separator
     .prize_msg
-      #{t('nav.popup.prizes', total_trophies: @concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+      #{t('nav.popup.prizes', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
       <br>
       =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
 

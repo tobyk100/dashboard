@@ -9,7 +9,7 @@
 =link_to "#{t('user_stats.show_more')}...", usage_path(@user)
 %br
 
-= render 'shared/user_stats'
+= render partial: 'shared/user_stats', locals: { user: @user }
 
 - if current_user && current_user.admin?
   %div{ style: "border: 1px solid red;clear:both"}

@@ -5,9 +5,9 @@ class ReportsController < ApplicationController
   before_action :set_script
 
   def user_stats
-    user = User.find_by_id(params[:user_id])
-    authorize! :read, user
-    if !user || !(user.id == current_user.id || user.teachers.include?(current_user) || current_user.admin?)
+    @user = User.find_by_id(params[:user_id])
+    authorize! :read, @user
+    if !@user || !(@user.id == current_user.id || @user.teachers.include?(current_user) || current_user.admin?)
       flash[:alert] = I18n.t('reports.error.access_denied')
       redirect_to root_path
       return
@@ -19,18 +19,15 @@ select ul.*, sl.game_chapter, l.game_id, sl.chapter, sl.script_id, sl.id as scri
 from user_levels ul
 inner join script_levels sl on sl.level_id = ul.level_id
 inner join levels l on l.id = ul.level_id
-where sl.script_id = 1 and ul.user_id = 1
+where sl.script_id = 1 and ul.user_id = #{@user.id}
 order by ul.updated_at desc limit 2
 SQL
-
-    stats user
   end
 
   def header_stats
     authorize! :read, current_user
 
-    stats current_user
-    render file: "shared/_user_stats", layout: false
+    render file: "shared/_user_stats", layout: false, locals: { user: current_user }
   end
 
   def usage
@@ -89,12 +86,5 @@ SQL
   # Use callbacks to share common setup or constraints between actions.
   def set_script
     @script = Script.find(params[:script_id]) if params[:script_id]
-  end
-
-  def stats(user)
-    # default to 20-hour script
-    @user = user
-    @script ||= Script.first
-    @concept_progress = @user.concept_progress
   end
 end

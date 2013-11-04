@@ -67,7 +67,7 @@
                   - if current_user.teacher?
                     = link_to t('nav.user.classroom'), followers_path
                     %hr
-                  = link_to t('nav.user.stats'), user_stats_path(current_user)
+                  = link_to t('nav.user.stats'), root_path
                   %br/
                   = link_to t('nav.user.settings'), edit_user_registration_path
                   %br/
