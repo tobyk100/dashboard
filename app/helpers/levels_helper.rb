@@ -34,15 +34,15 @@ module LevelsHelper
       'startBlocks: \'' + initial_blocks(user, level) + '\'' : nil;
   end
 
-  #XXX Since Blockly doesn't play nice with the asset pipeline. Capistrano
-  # writes a revision file whose content is threaded through both Blockly apps
-  # and core as a query params for cache busting. Forwarding of query params
-  # is enabled in CloudFront CDN. Always cache bust during development.
+  # XXX Since Blockly doesn't play nice with the asset pipeline, a query param
+  # must be specified to bust the CDN cache. CloudFront is enabled to forward
+  # query params. Always cache bust during development.
+  # See where ::CACHE_BUST is initialized for more details.
   def blockly_cache_bust
-    if ::GIT_REVISION.blank?
+    if ::CACHE_BUST.blank?
       Time.now.to_i.to_s
     else
-      ::GIT_REVISION
+      ::CACHE_BUST
     end
   end
 end
