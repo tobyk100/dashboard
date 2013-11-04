@@ -13,13 +13,24 @@ class ReportsController < ApplicationController
       return
     end
 
-    stats user, true
+    #@recent_activity = Activity.where(['user_id = ?', user.id]).order('id desc').includes({level: :game}).limit(2)
+    @recent_levels = UserLevel.find_by_sql(<<SQL)
+select ul.*, sl.game_chapter, l.game_id, sl.chapter, sl.script_id, sl.id as script_level_id
+from user_levels ul
+inner join script_levels sl on sl.level_id = ul.level_id
+inner join levels l on l.id = ul.level_id
+where sl.script_id = 1 and ul.user_id = 1
+order by ul.updated_at desc limit 2
+SQL
+
+    stats user
   end
 
   def header_stats
     authorize! :read, current_user
 
-    stats current_user, false
+    stats current_user
+    render file: "shared/_user_stats", layout: false
   end
 
   def usage
@@ -80,12 +91,10 @@ class ReportsController < ApplicationController
     @script = Script.find(params[:script_id]) if params[:script_id]
   end
 
-  def stats(user, layout)
+  def stats(user)
     # default to 20-hour script
     @user = user
     @script ||= Script.first
     @concept_progress = @user.concept_progress
-
-    render file: "reports/user_stats", layout: layout
   end
 end

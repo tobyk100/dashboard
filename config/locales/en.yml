@@ -161,6 +161,12 @@ en:
       title: 'Cancel my account'
       hint: 'Unhappy?'
       button: 'Cancel my account'
+  user_level:
+    completed: 'Completed'
+    tried: 'Tried'
+  user_stats:
+    recent_activity: Recent activity
+    show_more: Show more
   home:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: 'Students - start here'

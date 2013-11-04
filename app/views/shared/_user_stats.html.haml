@@ -1,0 +1,49 @@
+- script_levels = @user.levels_from_script(@script)
+- progress = @user.progress(@script)
+
+%div{style:"display:inline-block;width:290px;position:relative;overflow:hidden;float:left;"}
+  %h4 #{t('nav.popup.mastery')}
+
+  %table{style:"max-width:290px;"}
+    - @concept_progress.each_pair do |concept, counts|
+    - completion = counts[:current].to_f/counts[:max]
+      %tr{ height:"55px"}
+        %td{width:"100px"}
+          #{data_t('concept.description', concept.name)}:
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag bronze_fraction_image_path(completion), size: "45x45"
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag silver_fraction_image_path(completion), size: "45x45"
+        %td{width:"55px", style:"text-align:center;"}
+          = image_tag gold_fraction_image_path(completion), size: "45x45"
+        <!-- #{counts} -->
+  - if @user == current_user
+    .stage_separator
+    .prize_msg
+      #{t('nav.popup.prizes', total_trophies: @concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+      <br>
+      =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
+
+%div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
+  %h4 #{t('nav.popup.puzzle_map')}
+
+  - current_game = 0
+  - script_levels.each do |sl|
+    - if (sl.level.game_id != current_game)
+      - if current_game != 0
+        .stage_separator
+      - current_game = sl.level.game_id
+      %div
+        #{t(:stage)} #{current_game}
+        #{data_t('game.name', sl.level.game.name)}
+    - current_game_chapter = sl.game_chapter
+
+    - best_result = sl.user_level ? sl.user_level.best_result : 0
+    - link = build_script_level_path(sl)
+
+    - if best_result >= Activity::MINIMUM_PASS_RESULT
+      %a{ href: link, class: "level_link level_link_done"}
+        &#x2714;
+    -else
+      %a{ href: link, class: "level_link"}
+        #{current_game_chapter}
