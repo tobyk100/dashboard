@@ -19,7 +19,7 @@ en-PLOC:
   debug: true
 es:
   name: Español
-  enabled: false
+  debug: true
 pt:
   expand: 'pt-BR'
   enabled: false
