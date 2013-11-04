@@ -2,7 +2,7 @@ pl:
   data:
     script:
       name:
-        20-hour: 20-hour
+        20-hour: K-8 Intro to Computer Science Course
         Hour of Code: Hour of Code
         Edit Code: Edit Code
     game:
@@ -37,14 +37,14 @@ pl:
       instructions:
         maze_2_2: 'Hi! I need to get the bad piggie! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
         maze_2_1: 'Write me another program so I can make it all the way to the pig. '
-        maze_2_3: How should I get to the pig? (Watch out for TNT)
-        maze_2_4: 'Argh! Write me a program that gets me past the obstacles and to the pig. '
+        maze_2_3: How should I get to the pig? (Watch out for the TNT)
+        maze_2_4: 'Argh! Write me a program that gets me around the TNT and to the pig. '
         maze_2_5: "There's a way I can get to the pig using only 2 blocks. Can you figure it out?"
         maze_2_6: Try to get me to the pig using only three blocks.
         maze_2_7: Write me a program so I can get to the pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: Use a couple of "repeat times" blocks to get me to the pig!
+        maze_2_8: For this puzzle, try putting a "turn" block after 2 "move" blocks inside the "repeat" block.
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the pig.'
-        maze_2_10: 'Ok, one last time for practice - can you get me to the pig in only 3 blocks?'
+        maze_2_10: For this puzzle, try using a "repeat until" block with multiple blocks inside it.
         maze_2_11: 'Hello.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?'
         maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
@@ -55,29 +55,29 @@ pl:
         maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
         maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use multiple different colors using the new "set color" block.'
+        turtle_1_2: 'Now, draw a square. NOTE: use your favorite coloy by picking it in the new "set color" block.'
         turtle_1_3: Make a square using only 3 blocks.
         turtle_1_4: |
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: You'll have to figure out how far to turn.
+          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
         turtle_1_6: 'Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square.'
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
+        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these glasses. The squares are 100 pixels on each side, and they're 50 pixels apart."
         turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
         turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral.  Also try the new "set width" block.  Have fun!'
-        turtle_4_1: Now you have learned how to draw different shapes, can you create a program that draws the house you made with tangram pieces?
-        turtle_4_2: Now you have learned how to draw different shapes, can you create a program that draws the square you made with two triangles?
-        turtle_4_3: Now you have learned how to draw different shapes, can you create a program that draws the arrow you made with tangram pieces?
-        turtle_4_4: Now you have learned how to draw different shapes, can you create a program that draws the ship you made with tangram pieces?
+        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
+        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
+        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
+        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
+        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
         maze_karel_1_1: |
           Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
         maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
         maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
-        maze_karel_1_4: 'Can you help me remove all four piles of dirt? Hint: use a repeat block if you can'
+        maze_karel_1_4: 'Can you help me remove all four piles of dirt? Hint: use a repeat block if you can.'
         maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
         maze_karel_1_6: |
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until it's even?"
+          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
+        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
         maze_karel_1_8: Help me fill in the hole at the end of the field, using as few blocks as possible.
         maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
@@ -97,11 +97,12 @@ pl:
         turtle_2_8: |
           This one's a bit tricky. There's a new "draw a snowman" function (in the Functions category), and a "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
         turtle_2_9: Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.
-        turtle_2_10: "here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: 'Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: You can put a loop inside another loop.'
+        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
+        maze_karel_2_1: 'Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop.'
         maze_karel_2_2: |
           We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: Use the new "fill 5" function block to make me fill in all the holes.
+        maze_karel_2_3: |
+          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
         maze_karel_2_4: Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles.
         maze_karel_2_5: Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles.
         maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.
@@ -112,14 +113,14 @@ pl:
         turtle_3_1: |
           This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
         turtle_3_2: Using the "draw a square" function as an example, create a "draw a triangle" function and use it.
-        turtle_3_3: 'Draw triangular fences around the cats and a square fence around the cow.  Tip: Test the program as you go along.'
+        turtle_3_3: 'Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along.'
         turtle_3_4: See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.
         turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes.  (Hint: click the star to add an input to a function)'
+        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house.  Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the &quot:draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want.  Try to draw a star, or a spiral, or a fancy snowflake."
+        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
+        turtle_3_9: Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.
+        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
         maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
         maze_karel_debug_repeat: De-bug this program for me so my field will be nice and flat.
@@ -129,7 +130,7 @@ pl:
         maze_karel_debug_function_1: What should you change about this program to help me remove all the piles?
         maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: 'Take this time to draw whatever you feel like! '
+        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
     video:
       name:
         maze_intro: Maze Intro

@@ -2,112 +2,160 @@ es-ES:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-  hello: Hello world
+        name: Nombre
+        email: Correo electrónico
+        username: Nombre de usuario
+        password: Contraseña
+        password_confirmation: Confirmación de la contraseña
+        current_password: Contraseña actual
+        locale: Idioma
+        gender: Sexo
+        edit_header: Editar información de la cuenta
+  hello: Hola Mundo
   add_teacher_form:
     code_or_email:
-      label: 'Add a teacher by code or email address:'
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: 'Agregar a un docente mediante código o dirección de correo electrónico:'
+      placeholder: Código (ABCDEF) o correo electrónico (maestro@escuela.edu)
+    submit: Añadir docente
   appname: Code.org
-  stage: Stage
+  stage: Etapa
   puzzle: Puzzle
-  trophies: Trophies
-  of: of
-  more: MORE
-  less: LESS
+  trophies: Trofeos
+  courses: Cursos
+  of: de
+  more: MÁS
+  less: MENOS
+  try_hoc: 'Prueba la Hora de Programar, haga clic aquí >> '
+  already_started: '¿Ya empezaste? Reanudar aquí >> '
+  demos: Demos
   auth:
-    signed_in: Signed in!
-    google_oauth2: Google+
+    sign_in_with: 'Inicia sesión con %{provider}'
+    signed_in: Sesión iniciada!
+    already_signedup: ¿Ya estás registrado?
+    notyet_signedup: ¿Aún no te has unido?
+    google_oauth2: Google +
     twitter: Twitter
     facebook: Facebook
-    windowslive: Window Live
+    windowslive: Windows Live
+    forgot_password: ¿Olvidaste tu contraseña?
+    need_confirmation: ¿No recibiste las instrucciones de confirmación?
+    need_unlock: ¿No recibiste las instrucciones de desbloqueo?
+  signup_form:
+    title: Únete
+    school_name: Nombre de la escuela (opcional)
+    school_address: Nombre de la escuela (opcional)
+    address_placeholder: Dirección, ciudad, estado/provincia, código postal
+    gender: Sexo (opcional)
+    birthday: Cumpleaños (opcional)
+    submit: Únete
+    teacher: ¿Eres docente?
+  signin_form:
+    title: Iniciar Sesión
+    login: Correo electrónico o nombre de usuario
+    password: Contraseña
+    remember: Recordarme
+    submit: Iniciar Sesión
+  password:
+    reset_form:
+      title: ¿Olvidaste tu contraseña?
+      email: Dirección de correo electrónico
+      submit: Enviarme las instrucciones para reestablecer la contraseña
+    change_form:
+      title: Cambiar tu contraseña
+      new_password: Nueva contraseña
+      confirm_password: Confirmar nueva contraseña
+      submit: Cambiar mi contraseña
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Unirme a mi clase (en Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Haz click en el vínculo de más abajo para registrarte y usar tutoriales de ciencias de la computación en (conmigo como tu "maestro"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Los tutoriales son divertidos, visualmente atractivos, y enseñan los conceptos básicos de las ciencias de la computación usando una experiencia similar a un juego, simple y guiada. Aprende a programar con Bill Gates, Mark Zuckerberg, Angry Birds, y Plants vs. Zombies! :-)
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: '%{name} added as your teacher'
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Invitación enviada
+    added_teacher: '%{name} añadido como tu maestro'
+    registered: 'Te registraste para %{section_name}. Por favor inicia sesión para continuar'
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: 'Username %{username} not found'
-      username_in_use: '%{username} is already taken, please pick another'
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Por favor cierra la sesión antes de proceder
+      username_not_found: 'Usuario %{username} no encontrado'
+      username_in_use: '%{username} ya está ocupado, por favor elije otro'
+      no_teacher: "No se pudo encontrar a nadie bajo este registro '%{teacher_email_or_code}'. Por favor, pídeles que se registren aquí e intenta agregarlos nuevamente"
     mail:
       invite_student:
-        subject: "Join %{teacher_name}'s class at Code.org!"
+        subject: 'Únete a la clase de %{teacher_name} en Code.org!'
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: No tienes acceso a las estadísticas de esta persona
   crud:
-    new_model: 'New %{model}'
-    show: Show
-    edit: Edit
-    edit_model: 'Edit %{model}'
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: '%{model} was successfully created.'
-    updated: '%{model} was successfully updated.'
+    new_model: 'Nuevo %{model}'
+    show: Mostrar
+    edit: Editar
+    edit_model: 'Editar %{model}'
+    update: Actualizar
+    destroy: Destruir
+    back: Atrás
+    confirm: ¿Estás seguro?
+    created: '%{model} se ha creado correctamente.'
+    updated: '%{model} se actualizó correctamente.'
   nav:
+    header:
+      finished_hoc: He terminado mi Hora de Código
+      sign_in_to_save: Inicia sesión para guardar tu progreso
     user:
-      label: 'Hi %{username}'
-      stats: Stats
-      settings: Settings
-      logout: Log out
-      signin: Sign in
-      signup: Sign up
+      classroom: Mi aula
+      label: 'Hola %{username}'
+      stats: Mi progreso
+      settings: Mi cuenta
+      prizes: Premios
+      logout: Cerrar sesión
+      signin: Iniciar Sesión
+      signup: Registrarse
     popup:
-      progress: Your progress
-      close: CLOSE
-      mastery: Concept Mastery
-      puzzle_map: Puzzle Map
+      progress: Tu progreso
+      lines: 'Total de líneas de código: %{lines}'
+      close: CERRAR
+      mastery: Conceptos
+      puzzle_map: Etapas
+      prizes: 'Recoger todos los %{total_trophies} trofeos y ganar premios!'
+      prizes_link: más información
   teacher:
     title:
-      one: 'Your teacher is %{name}'
-      other: 'Your teachers:'
-    tools: Teacher Tools
+      one: 'Tu docente es %{name}'
+      other: 'Tus docentes:'
+    tools: Herramientas del docente
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Rollup report
-    activity: Recent class activity
+      manage: Administrar a los estudiantes
+      add: Añadir alumn@s
+    rollup: Informe de acumulación
+    activity: Actividad reciente de clases
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (déjalo en blanco si no quieres cambiarlo)
+    current_password_hint: (necesitamos tu contraseña actual para confirmar los cambios)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: Cancelar mi cuenta
+      hint: ¿Infeliz?
+      button: Cancelar mi cuenta
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: 'Students - start here'
-    teacher_reg_link: 'Teachers - start here'
+    signin_message: 'o si ya estás registrado %{link}'
+    student_reg_link: 'Estudiantes - comience aquí'
+    teacher_reg_link: 'Maestr@s - comience aquí'
   gender:
-    male: Male
-    female: Female
+    male: Hombre
+    female: Mujer
+    none: Prefiero no contestar
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">Popcap</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Los ingenieros de <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> y <a href="http://www.twitter.com"> Twitter</a> ayudaron a crear este tutorial.'
+    art_from_html: 'Ilustraciones de <a href="http://www.angrybirds.com"> Angry Birds</a> de <a href="http://www.rovio.com"> Rovio</a> y <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> por <a href="http://www.popcap.com"> Popcap</a>.'
+    feedback: Enviar comentarios
+    translate: Ayúdanos a traducir a tu idioma
+    tos: Términos del servicio
   reference_area:
-    title: Need help?
-    subtitle: Checkout these videos and hints
+    title: ¿Necesitas ayuda?
+    subtitle: Chequéa estos videos y consejos
+  video:
+    tab: Video.
+    notes: ¿No hay video? Mostrar notas.

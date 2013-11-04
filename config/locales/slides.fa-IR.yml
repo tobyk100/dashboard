@@ -1,0 +1,72 @@
+fa:
+  slides:
+    maze_intro:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    artist_intro:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    farmer_intro:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    loop_times:
+      1:
+        image: notes/hoc2_1.png
+        text: "Hi, I'm Mark! Let's learn about loops."
+      2:
+        image: notes/hoc2_2.png
+        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+      3:
+        image: notes/hoc2_3.png
+        text: And we can use the new "repeat" block which is called a loop to help us out.
+      4:
+        image: notes/hoc2_4.png
+        text: Instead of dragging out 5 "move forward" blocks...
+      5:
+        image: notes/hoc2_5.png
+        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+      6:
+        image: notes/hoc2_6.png
+        text: And you can put more than one command inside a "repeat" block.
+      7:
+        image: notes/hoc2_7.png
+        text: Enjoy using your new "repeat" block!
+    loop_until:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    if:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    if_else:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    function:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    loop_while:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    loop_for:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    parameters:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    hoc_wrapup:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!
+    20_wrapup:
+      1:
+        image: notes/bird.png
+        text: Show notes coming soon!

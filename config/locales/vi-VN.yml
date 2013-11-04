@@ -10,6 +10,7 @@ vi:
         current_password: Current password
         locale: Language
         gender: Gender
+        edit_header: Edit Account Details
   hello: Hello world
   add_teacher_form:
     code_or_email:
@@ -20,15 +21,50 @@ vi:
   stage: Stage
   puzzle: Puzzle
   trophies: Trophies
+  courses: Courses
   of: of
   more: MORE
   less: LESS
+  try_hoc: 'Try the Hour of Code, click here >> '
+  already_started: 'Already started? Resume here >> '
+  demos: Demos
   auth:
+    sign_in_with: 'Sign in with %{provider}'
     signed_in: Signed in!
+    already_signedup: Already signed up?
+    notyet_signedup: "Haven't joined yet?"
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
-    windowslive: Window Live
+    windowslive: Windows Live
+    forgot_password: Forgot your password?
+    need_confirmation: "Didn't receive confirmation instructions?"
+    need_unlock: "Didn't receive unlock instructions?"
+  signup_form:
+    title: Sign up
+    school_name: School Name (optional)
+    school_address: School Name (optional)
+    address_placeholder: address, city, state, zip
+    gender: Gender (optional)
+    birthday: Birthday (optional)
+    submit: Sign up
+    teacher: Are you a teacher?
+  signin_form:
+    title: Sign in
+    login: Email or username
+    password: Password
+    remember: Remember me
+    submit: Sign in
+  password:
+    reset_form:
+      title: Forgot your password?
+      email: Email address
+      submit: Send me reset password instructions
+    change_form:
+      title: Change your password
+      new_password: New password
+      confirm_password: Confirm new password
+      submit: Change my password
   welcome_email:
     subject: Join my class (on Code.org)
     body: |
@@ -66,18 +102,26 @@ vi:
     created: '%{model} was successfully created.'
     updated: '%{model} was successfully updated.'
   nav:
+    header:
+      finished_hoc: "I've finished my Hour of Code"
+      sign_in_to_save: Sign in to save progress
     user:
+      classroom: My Classroom
       label: 'Hi %{username}'
-      stats: Stats
-      settings: Settings
-      logout: Log out
+      stats: My Progress
+      settings: My account
+      prizes: Prizes
+      logout: Sign out
       signin: Sign in
       signup: Sign up
     popup:
       progress: Your progress
+      lines: 'Total lines of code: %{lines}'
       close: CLOSE
-      mastery: Concept Mastery
-      puzzle_map: Puzzle Map
+      mastery: Concepts
+      puzzle_map: Stages
+      prizes: 'Collect all %{total_trophies} trophies and win prizes!'
+      prizes_link: more info
   teacher:
     title:
       one: 'Your teacher is %{name}'
@@ -102,6 +146,7 @@ vi:
   gender:
     male: Male
     female: Female
+    none: Prefer not to answer
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">Popcap</a>.'
@@ -111,3 +156,6 @@ vi:
   reference_area:
     title: Need help?
     subtitle: Checkout these videos and hints
+  video:
+    tab: Video.
+    notes: No video? Show notes.
