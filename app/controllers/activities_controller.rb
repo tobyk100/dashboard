@@ -7,7 +7,7 @@ class ActivitiesController < ApplicationController
   load_and_authorize_resource except: [:milestone]
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
-  
+
   def milestone_logger
     @@milestone_logger ||= Logger.new("#{Rails.root}/log/milestone.log")
   end
@@ -20,7 +20,7 @@ class ActivitiesController < ApplicationController
     level = script_level.level
     trophy_updates = []
     level_source = LevelSource.lookup(level, params[:program])
-    
+
     milestone_logger.info "Milestone Report:" +
                           "\t" + (current_user ? current_user.id.to_s : ("s:" + session.id)) +
                           "\t" + request.remote_ip +
@@ -53,12 +53,12 @@ class ActivitiesController < ApplicationController
           [test_result, user_level.best_result].max :
           test_result
       user_level.save!
-      
+
       if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
         current_user.total_lines += lines
         current_user.save!
       end
-      
+
       total_lines = current_user.total_lines
 
       begin
@@ -68,23 +68,30 @@ class ActivitiesController < ApplicationController
       end
     else
       session_progress = session[:progress] || {}
-      
+
       if test_result > session_progress.fetch(level.id, -1)
         session_progress[level.id] = test_result
         session[:progress] = session_progress
       end
-      
+
       total_lines = session[:lines] || 0
-      
+
       if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
         total_lines += lines
         session[:lines] = total_lines
       end
     end
 
+    response = {}
+    # figure out the previous level
+    previous_level = script_level.previous_level
+    if previous_level
+      response[:previous_level] = build_script_level_path(previous_level)
+    end
+
     # if they solved it, figure out next level
     if solved
-      response = { total_lines: total_lines }
+      response[:total_lines] = total_lines
 
       if (trophy_updates.length > 0)
         response[:trophy_updates] = trophy_updates
@@ -112,7 +119,8 @@ class ActivitiesController < ApplicationController
       end
       render json: response
     else
-      render json: { message: 'try again' }
+      response[:message] = 'try again'
+      render json: response
     end
   end
 

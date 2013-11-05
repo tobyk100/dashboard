@@ -17,11 +17,13 @@
 
 :javascript
   var nextRedirect;
+  var previousLevelRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
     httpRequest.onload = function() {
       var response = JSON.parse(httpRequest.responseText);
       nextRedirect = response['redirect'];
+      previousLevelRedirect = response['previous_level'];
       videoInfo = response['video_info'];
       if (report.onComplete) {
         report.onComplete(response);
@@ -50,6 +52,11 @@
         window.location.href = nextRedirect;
       } else if (videoInfo) {
         showVideo(videoInfo);
+      }
+    },
+    backToPreviousLevel: function() {
+      if (previousLevelRedirect) {
+        window.location.href = previousLevelRedirect;
       }
     },
     Dialog: Dialog,
