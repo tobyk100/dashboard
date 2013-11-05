@@ -1,19 +1,25 @@
 - if current_user
   .row
-    .span6
-      %h3= t(:courses)
-      - Script.all.each do |script|
-        -if (!script.hidden? || current_user.admin?)
-          %h4= link_to data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT)
+    .span12
+      %h1 Welcome back, #{current_user.name}
+      %hr
 
-    .span6
+      - if current_user.students.length > 0
+        %h4 #{t('home.classroom')}:
+        = t('home.teacher_stats', count: current_user.students.length, trophy_average: ("%.1f" % current_user.average_student_trophies), trophy_max: Trophy::TROPHY_MAX)
+        %br/
+        = link_to t('home.teacher_dashboard'), followers_path
+        %hr
+
+      %h4 #{t('home.student_progress')}:
+      = t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
+      %br/
+
       - if current_user.teachers.length > 1
-        %h4= t('teacher.title.other')
-        %ul
-        - current_user.teachers.each do |teacher|
-          %li= teacher.name
+        = t('teacher.title.other')
+        = current_user.teachers.map(&:name).join(', ')
       - elsif current_user.teachers.length == 1
-        %h4= t('teacher.title.one', name: current_user.teachers.first.name)
+        = t('teacher.title.one', name: current_user.teachers.first.name)
       - else
         %h4= t('add_teacher_form.code_or_email.label')
         = form_for([Follower.new]) do |f|
@@ -22,19 +28,14 @@
             = hidden_field_tag :redirect, root_path
           .actions
             = f.submit t('add_teacher_form.submit')
+      %br/
 
-      - if current_user.students.length > 0
-        %h4= t('teacher.tools')
-        = link_to t('teacher.students.manage'), manage_followers_path
-        %br/
-        = link_to t('teacher.students.add'), new_follower_path
-        %br/
-        = link_to t('teacher.rollup'), followers_path
-        %br/
-        = link_to t('teacher.activity'), student_usage_path
-
+      - script_level = current_user.next_untried_level(Script::TWENTY_HOUR_SCRIPT)
+      #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
+      = link_to t('continue'), build_script_level_path(script_level), class: 'btn btn-primary'
   .row
-    = render partial: 'shared/user_stats', locals: { user: current_user }
+    .span12
+      = render partial: 'shared/user_stats', locals: { user: current_user }
 - else
   %h1= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)

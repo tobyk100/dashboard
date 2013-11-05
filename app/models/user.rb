@@ -125,7 +125,7 @@ where sl.script_id = #{script.id}
 SQL
   end
 
-  def concept_progress(script = Script.first)
+  def concept_progress(script = Script::TWENTY_HOUR_SCRIPT)
     # todo: cache everything but the user's progress
     user_levels_map = self.user_levels.includes([{level: :concepts}]).index_by(&:level_id)
     user_trophy_map = self.user_trophies.includes(:trophy).index_by(&:concept_id)
@@ -152,6 +152,26 @@ SQL
       class_map[f.section] << f.student_user
     end
     class_map
+  end
+
+  def average_student_trophies
+    User.connection.select_value(<<SQL)
+select avg(num)
+from (
+    select sum(trophy_id) as num
+    from user_trophies ut
+    inner join followers f on f.student_user_id = ut.user_id
+    where f.user_id = #{self.id}
+    ) trophy_counts
+SQL
+  end
+
+  def trophy_count
+    User.connection.select_value(<<SQL) || 0
+select sum(trophy_id) as num
+from user_trophies
+where user_id = #{self.id}
+SQL
   end
 
   def student?

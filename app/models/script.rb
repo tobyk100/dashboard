@@ -3,8 +3,10 @@ class Script < ActiveRecord::Base
   has_many :script_levels
   belongs_to :wrapup_video, foreign_key: 'wrapup_video_id', class_name: 'Video'
 
+  TWENTY_HOUR_ID = 2
   HOC_ID = 2
 
+  HOC_SCRIPT = Script.includes(:script_levels).find(HOC_ID)
   TWENTY_HOUR_SCRIPT = Script.includes(:script_levels).first
 
   def script_levels_from_game(game_index)
@@ -15,9 +17,13 @@ class Script < ActiveRecord::Base
     # simplified check to see if we are in a script that has only one game (stage)
     levels.first.game_id != levels.last.game_id
   end
-  
+
+  def twenty_hour?
+    self.id == TWENTY_HOUR_ID
+  end
+
   def hoc?
-    id == HOC_ID
+    self.id == HOC_ID
   end
 
   def find_script_level(level_id)

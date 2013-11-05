@@ -10,7 +10,7 @@
 
         .span8{class:@script_level ? "middleheaderspan" : ""}
           - if @script_level
-            - script = @script || Script.first
+            - script = @script || Script::TWENTY_HOUR_SCRIPT
             - count = @game.levels.count
             - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
 

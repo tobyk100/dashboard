@@ -49,6 +49,7 @@ en:
   try_hoc: "Try the Hour of Code, click here >> "
   already_started: "Already started? Resume here >> "
   demos: "Demos"
+  continue: Continue
   auth:
     sign_in_with: 'Sign in with %{provider}'
     signed_in: 'Signed in!'
@@ -171,6 +172,12 @@ en:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: 'Students - start here'
     teacher_reg_link: 'Teachers - start here'
+    teacher_dashboard: See progress dashboard
+    teacher_stats: You have %{count} students. On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.
+    classroom: Your classroom
+    student_progress: Your progress as a student
+    student_stats: You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    student_left_off: 'Where you left off:'
   gender:
     male: 'Male'
     female: 'Female'

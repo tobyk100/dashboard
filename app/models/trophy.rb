@@ -6,4 +6,7 @@ class Trophy < ActiveRecord::Base
   SILVER_THRESHOLD = 0.5
   GOLD_THRESHOLD = 1
   TROPHIES_PER_CONCEPT = 3
+
+  # Hard coded for perf. could be: Concept.all.count * 3
+  TROPHY_MAX = 27
 end
