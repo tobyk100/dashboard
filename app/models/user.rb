@@ -155,7 +155,7 @@ SQL
   end
 
   def average_student_trophies
-    User.connection.select_value(<<SQL)
+    User.connection.select_value(<<SQL) || 0
 select avg(num)
 from (
     select sum(trophy_id) as num
