@@ -31,7 +31,8 @@ class ActivitiesController < ApplicationController
                           "\t" + params[:time] +
                           "\t" + params[:attempt] +
                           "\t" + params[:lines] +
-                          "\t" + level_source.id.to_s
+                          "\t" + level_source.id.to_s +
+                          "\t" + request.user_agent
 
     if current_user
       authorize! :create, Activity
