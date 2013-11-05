@@ -30,8 +30,8 @@
             = f.submit t('add_teacher_form.submit')
       %br/
 
-      - script_level = current_user.next_untried_level(Script::TWENTY_HOUR_SCRIPT)
-      #{t('home.student_left_off')} #{t('stage')} #{script_level.try(:level).try(:game_id)} #{t('puzzle')} #{script_level.try(:game_chapter)}
+      - script_level = current_user.next_untried_level(Script::TWENTY_HOUR_SCRIPT) || Script::TWENTY_HOUR_SCRIPT.script_levels.first
+      #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
       = link_to t('continue'), build_script_level_path(script_level), class: 'btn btn-primary'
   .row
     .span12

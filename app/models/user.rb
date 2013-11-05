@@ -117,7 +117,7 @@ SQL
 select
   count(case when ul.best_result >= #{Activity::MINIMUM_PASS_RESULT} then 1 else null end) as current_levels,
   count(*) as max_levels,
-  (select sum(trophy_id) from user_trophies where user_id = #{self.id}) as current_trophies,
+  (select coalesce(sum(trophy_id), 0) from user_trophies where user_id = #{self.id}) as current_trophies,
   (select count(*) * 3 from concepts) as max_trophies
 from script_levels sl
 left outer join user_levels ul on ul.level_id = sl.level_id and ul.user_id = #{self.id}
@@ -155,10 +155,10 @@ SQL
   end
 
   def average_student_trophies
-    User.connection.select_value(<<SQL) || 0
+    User.connection.select_value(<<SQL)
 select avg(num)
 from (
-    select sum(trophy_id) as num
+    select coalesce(sum(trophy_id), 0) as num
     from user_trophies ut
     inner join followers f on f.student_user_id = ut.user_id
     where f.user_id = #{self.id}
@@ -167,8 +167,8 @@ SQL
   end
 
   def trophy_count
-    User.connection.select_value(<<SQL) || 0
-select sum(trophy_id) as num
+    User.connection.select_value(<<SQL)
+select coalesce(sum(trophy_id), 0) as num
 from user_trophies
 where user_id = #{self.id}
 SQL
