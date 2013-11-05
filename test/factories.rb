@@ -14,7 +14,6 @@ FactoryGirl.define do
 
   factory :game do
     sequence(:name) { |n| "game#{n}.com"}
-    base_url 'http://gameurl.bogus/puzzle'
   end
 
   factory :level do
@@ -34,8 +33,7 @@ FactoryGirl.define do
   end
 
   factory :video do
-    sequence(:name) { |n| "Intro to Concept#{n}" }
-    key { "#{name.underscore}" }
+    sequence(:key) { |n| "concept_#{n}" }
     youtube_code 'Bogus text'
   end
 end
