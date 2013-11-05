@@ -94,6 +94,10 @@ function Dialog(options) {
   }
   modalBody.append(body);
   this.div.append(modalBody).appendTo($(document.body));
+  
+  if (options.onHidden) {
+    $(this.div).on('hidden.bs.modal', options.onHidden);
+  }
 
   addClickTouchEvent(close, $.proxy(function() {
     this.hide();
