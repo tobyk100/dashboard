@@ -40,8 +40,7 @@ if [[ $CDO_DEV ]]; then
     libjpeg8-dev \
     libpango1.0-dev \
     libgif-dev \
-    g++ \
-    libreadline-dev
+    g++
 fi
 
 export CDO_BUILD_PATH=/usr/src

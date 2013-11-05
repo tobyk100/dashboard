@@ -16,7 +16,6 @@ fi
 # Fix binstub issue.
 (
   cd $DASH_ROOT
-  gem install -v 0.4.2
   yes | bundle config --delete bin
   yes | rake rails:update:bin
 )
