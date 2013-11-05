@@ -162,6 +162,7 @@ from (
     from user_trophies ut
     inner join followers f on f.student_user_id = ut.user_id
     where f.user_id = #{self.id}
+    group by f.student_user_id
     ) trophy_counts
 SQL
   end
