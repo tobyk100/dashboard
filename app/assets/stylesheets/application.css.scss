@@ -198,14 +198,6 @@ th {
   background-color: orange;
 }
 
-.level_link:link {
-  color: white;
-}
-
-.level_link:visited {
-  color: white;
-}
-
 .progress-outer {
   background: #d1d567;
   -webkit-border-radius: 13px;
@@ -254,6 +246,11 @@ th {
   a:hover {font-weight: bold; color:$dark_color; background-color: transparent;   text-decoration: underline; }  /* mouse over link */
   a:active {font-weight: bold; color:$dark_color; background-color: transparent;}  /* selected link */
 }
+
+a.level_link:link { color: white; }
+a.level_link:visited { color: white; }
+a.level_link:hover { color: white; background-color: black; text-decoration: underline; }
+a.level_link:active { color: white; background-color: black; }
 
 .footer {
   padding-top: 20px;
