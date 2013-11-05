@@ -10,4 +10,8 @@ class ScriptLevel < ActiveRecord::Base
   def next_level
     ScriptLevel.find_by_script_id_and_chapter(self.script, self.chapter + 1)
   end
+
+  def previous_level
+    ScriptLevel.find_by_script_id_and_chapter(self.script, self.chapter - 1)
+  end
 end
