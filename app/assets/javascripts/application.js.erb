@@ -17,7 +17,6 @@
 // Loads all Bootstrap javascripts
 //= require bootstrap
 
-
 function getShowNotes(key, container) {
   var callback = function(data) {
     container.html(data);
@@ -131,3 +130,7 @@ $(document).ready(function() {
     }, this));
   });
 });
+
+function cache_bust_only() {
+    return 'bust cache';
+}
