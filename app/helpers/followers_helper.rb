@@ -15,16 +15,6 @@ TEXT
     end
   end
 
-  def bullet_html
-    #raw "&#9679;"
-    image_tag('white-dot-grid.png')
-  end
-
-  def check_mark_html
-    #raw "&#x2714;"
-    image_tag('white-checkmark.png')
-  end
-
   def build_invite_mailto(section, user)
     "mailto:?subject=#{Rack::Utils.escape(t('welcome_email.subject'))}&body=#{Rack::Utils.escape(t('welcome_email.body', link: student_user_new_url(section_code: section.code), name: user.name))}"
   end

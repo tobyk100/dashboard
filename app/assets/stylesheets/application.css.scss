@@ -94,10 +94,9 @@ th {
 }
 
 .other_level {
-  border-radius: 9px;
-  height: 9px;
-  min-width: 9px;
-  margin-bottom: 1px;
+  border-radius: 10px;
+  height: 10px;
+  min-width: 10px;
   margin-left: -1px;
   margin-right: -1px;
   display: inline-block;
@@ -183,7 +182,8 @@ th {
 .level_link {
   border-radius: 5px;
   min-width: 20px;
-  padding: 3px;
+  line-height: 22px;
+  padding: 2px 3px;
   font-size: 16px;
   text-align: center;
   cursor: pointer;
@@ -196,6 +196,7 @@ th {
 
 .level_link_done {
   background-color: orange;
+  padding: 2px 2px 1px 2px;
 }
 
 .progress-outer {
@@ -247,10 +248,9 @@ th {
   a:active {font-weight: bold; color:$dark_color; background-color: transparent;}  /* selected link */
 }
 
-a.level_link:link { color: white; }
-a.level_link:visited { color: white; }
-a.level_link:hover { color: white; background-color: black; text-decoration: underline; }
-a.level_link:active { color: white; background-color: black; }
+a.level_link:link,a.level_link:visited { color: white; font-weight: 400; }
+a.level_link:hover { color: white; font-weight: 400; background-color: black; text-decoration: underline; }
+a.level_link:active { color: white; font-weight: 400; background-color: black; }
 
 .footer {
   padding-top: 20px;
@@ -263,17 +263,6 @@ a.level_link:active { color: white; background-color: black; }
   a:hover {font-weight: bold; color:white; background-color: transparent;   text-decoration: underline; }  /* mouse over link */
   a:active {font-weight: bold; color:white; background-color: transparent;}  /* selected link */
   select {width: auto}
-}
-
-.middleheaderspan {
-  padding-top:28px;
-  padding-bottom:10px;
-  text-align:center;
-  position:relative;
-  font-size: 150%;
-  border-bottom: 1px solid $inset_color;
-  border-bottom-style: inset;
-  cursor: default;
 }
 
 .header_separator {
@@ -305,6 +294,7 @@ a.level_link:active { color: white; background-color: black; }
   border: 1px solid black;
   z-index: 100001;
   text-align: left;
+  white-space: nowrap;
 
   padding: 10px;
   left: auto;
@@ -344,6 +334,38 @@ a.level_link:active { color: white; background-color: black; }
     width: 940px;
     margin-left: -470px;
   }
+}
+
+.header_logo {
+  position: absolute;
+  float: left;
+  left: 25px;
+  min-width: 86px;
+}
+
+.header_middle {
+  position: absolute;
+  left: 50%;
+}
+
+.header_level {
+  position: relative;
+  left: -50%;
+  padding-top: 28px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 150%;
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.header_user {
+  position: absolute;
+  float: left;
+  right: 25px;
+  text-align: right;
 }
 
 .header_popup {
@@ -392,8 +414,7 @@ a.level_link:active { color: white; background-color: black; }
 }
 
 .header_popup_link {
-  max-width: 40px;
-  min-width: 34px;
+  min-width: 40px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -409,7 +430,6 @@ a.level_link:active { color: white; background-color: black; }
 .header_finished_link {
   display: inline-block;
   font-size: 16px;
-  width: 230px;
 }
 
 .header_finished_link:hover {

@@ -25,8 +25,7 @@ window.location = http://code.org/learn2/ie8;
           - if alert
             %p#alert= alert
 
-          .row
-            = yield
+          = yield
     = render partial: 'layouts/footer'
 
     - if Rails.env.production?

@@ -43,7 +43,7 @@
 
     - if best_result >= Activity::MINIMUM_PASS_RESULT
       %a{ href: link, class: "level_link level_link_done"}
-        &#x2714;
+        = check_mark_html
     -else
       %a{ href: link, class: "level_link"}
         #{current_game_chapter}
