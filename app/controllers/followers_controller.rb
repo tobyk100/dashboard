@@ -4,7 +4,7 @@ class FollowersController < ApplicationController
   load_and_authorize_resource only: [:index, :new, :create]
 
   def index
-    script = Script::TWENTY_HOUR_SCRIPT
+    script = Script.twenty_hour_script
     @section_map = Hash.new{ |h,k| h[k] = [] }
     students = current_user.followers.includes([:section, { student_user: [{ user_trophies: [:concept, :trophy] }, :user_levels] }])
     students = students.where(['section_id = ?', params[:section_id].to_i]) if params[:section_id].to_i > 0

@@ -11,7 +11,7 @@
         .header_middle
           - if @script_level
             .header_level
-              - script = @script || Script::TWENTY_HOUR_SCRIPT
+              - script = @script || Script.twenty_hour_script
               - count = @game.levels.count
               - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
 
