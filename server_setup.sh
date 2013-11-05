@@ -75,9 +75,11 @@ mkdir -p /var/log/unicorn
 chown $CDO_USER /var/log/unicorn
 
 # Configure Nginx
-nginx_cfg=/etc/nginx/sites-enabled/dashboard
-rm -f /etc/nginx/sites-enabled/default $nginx_cfg
-$DASH_ROOT/config/nginx.conf.sh > $nginx_cfg
+nginx_cfg=/etc/nginx/nginx.conf
+site_cfg=/etc/nginx/sites-enabled/dashboard
+rm -f /etc/nginx/sites-enabled/default $nginx_cfg $site_cfg
+cp $DASH_ROOT/config/nginx.conf $nginx_cfg
+$DASH_ROOT/config/nginx-site.sh > $site_cfg
 service nginx restart
 
 # Configure Node.js
