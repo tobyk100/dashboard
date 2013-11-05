@@ -32,7 +32,8 @@
 
       - script_level = current_user.next_untried_level(Script::TWENTY_HOUR_SCRIPT) || Script::TWENTY_HOUR_SCRIPT.script_levels.first
       #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
-      = link_to t('continue'), build_script_level_path(script_level), class: 'btn btn-primary'
+      = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
+        = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
   .row
     .span12
       = render partial: 'shared/user_stats', locals: { user: current_user }
