@@ -1,5 +1,5 @@
 - @page_title = 'Recent Activity'
-- script = Script::TWENTY_HOUR_SCRIPT
+- script = Script.twenty_hour_script
 - if 'students' == params[:action]
   = render partial: 'shared/teacher_nav', locals: { current: 'activity' }
 
@@ -8,6 +8,8 @@
 %br/
 
 - @recent_activities.each do |a|
+  - sl = script.find_script_level(a.level_id)
+  - next unless sl # skip levels from "edit code" script
   %div{ style: "padding: 4px;"}
     = link_to a.user.name, user_stats_path(a.user)
     - if a.best?
@@ -16,7 +18,6 @@
       %span{ style: 'color:orange'} finished (#{a.attempt}, #{a.test_result})
     - else
       %span{ style: 'color:red'} tried (#{a.attempt}, #{a.test_result})
-    - sl = script.find_script_level(a.level_id)
     #{link_to "#{t('stage')} #{a.level.try(:game_id)}, #{t('puzzle')} #{sl.try(:game_chapter)}", build_script_level_path(sl)},
     finished #{ago(a.created_at)}.
     = form_tag([a.level.try(:game), a.level], style: 'display: inline;') do

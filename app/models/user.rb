@@ -125,7 +125,7 @@ where sl.script_id = #{script.id}
 SQL
   end
 
-  def concept_progress(script = Script::TWENTY_HOUR_SCRIPT)
+  def concept_progress(script = Script.twenty_hour_script)
     # todo: cache everything but the user's progress
     user_levels_map = self.user_levels.includes([{level: :concepts}]).index_by(&:level_id)
     user_trophy_map = self.user_trophies.includes(:trophy).index_by(&:concept_id)
@@ -162,6 +162,7 @@ from (
     from user_trophies ut
     inner join followers f on f.student_user_id = ut.user_id
     where f.user_id = #{self.id}
+    group by f.student_user_id
     ) trophy_counts
 SQL
   end

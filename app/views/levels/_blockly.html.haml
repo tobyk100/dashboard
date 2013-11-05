@@ -12,13 +12,18 @@
 - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
 - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
 
+- @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
+- @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
+
 :javascript
   var nextRedirect;
+  var previousLevelRedirect;
   var sendReport = function(report) {
     var httpRequest = new XMLHttpRequest();
     httpRequest.onload = function() {
       var response = JSON.parse(httpRequest.responseText);
       nextRedirect = response['redirect'];
+      previousLevelRedirect = response['previous_level'];
       videoInfo = response['video_info'];
       if (report.onComplete) {
         report.onComplete(response);
@@ -49,12 +54,18 @@
         showVideo(videoInfo);
       }
     },
+    backToPreviousLevel: function() {
+      if (previousLevelRedirect) {
+        window.location.href = previousLevelRedirect;
+      }
+    },
     Dialog: Dialog,
     levelId: '#{@level.level_num}',
     level: {
       puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
       stage_total: #{@level.game.levels.count},
       instructions: '#{escape_javascript(@instructions)}',
+      levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
       #{start_blocks(current_user, @level)}
     },
     skinId: '#{@level.skin}'

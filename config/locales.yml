@@ -25,7 +25,7 @@ es:
   enabled: false
 es-ES:
   name: Español
-  debug: true
+  enabled: true
 pt:
   expand: 'pt-BR'
   enabled: false

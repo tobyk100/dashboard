@@ -18,14 +18,13 @@ window.location = http://code.org/learn2/ie8;
       .full_container
         = yield
     - else
-      .container.main
-        %div{ style: 'margin: 10px;'}
-          - if notice
-            %p#notice= notice
-          - if alert
-            %p#alert= alert
+      .container.main{ style: 'padding: 10px;'}
+        - if notice
+          %p#notice= notice
+        - if alert
+          %p#alert= alert
 
-          = yield
+        = yield
     = render partial: 'layouts/footer'
 
     - if Rails.env.production?

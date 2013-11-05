@@ -13,7 +13,6 @@ group :development, :test do
   gem 'debugger'
   gem 'haml-rails'
   gem 'better_errors'
-  gem 'pry'
   gem 'binding_of_caller'
 end
 
@@ -73,5 +72,3 @@ gem 'nokogiri'
 gem 'honeybadger'
 
 gem 'redcarpet'
-
-gem 'rb-readline'
