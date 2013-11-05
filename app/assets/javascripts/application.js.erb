@@ -120,7 +120,7 @@ Dialog.prototype.hide = function() {
 }
 
 $(document).ready(function() {
-  $('.video-link').each(function() {
+  $('.video_link').each(function() {
     addClickTouchEvent($(this), $.proxy(function() {
       showVideo({
         src: $(this).attr('data-src'),
