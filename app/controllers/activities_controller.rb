@@ -107,7 +107,7 @@ class ActivitiesController < ApplicationController
         end
       else
         video = script_level.script.wrapup_video
-        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key)}
+        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key)} if video
         response[:message] = 'no more levels'
       end
       render json: response
