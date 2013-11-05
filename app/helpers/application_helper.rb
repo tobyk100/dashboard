@@ -42,7 +42,8 @@ module ApplicationHelper
       v: code,
       modestbranding: 1,
       rel: 0,
-      showinfo: 1
+      showinfo: 1,
+      autoplay: 1,
     }
     if language != 'en'
       args.merge!(

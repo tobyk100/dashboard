@@ -194,3 +194,4 @@ en:
   video:
     tab: 'Video.'
     notes: 'No video? Show notes.'
+    autoplay_option: Autoplay videos
