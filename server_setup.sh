@@ -31,8 +31,7 @@ aptitude -y install \
   libssl-dev \
   mysql-server \
   libmysqlclient-dev \
-  nginx \
-  libreadline-dev
+  nginx
 
 # Native dependencies for builds with Node.js.
 if [[ $CDO_DEV ]]; then
@@ -41,7 +40,8 @@ if [[ $CDO_DEV ]]; then
     libjpeg8-dev \
     libpango1.0-dev \
     libgif-dev \
-    g++
+    g++ \
+    libreadline-dev
 fi
 
 export CDO_BUILD_PATH=/usr/src
