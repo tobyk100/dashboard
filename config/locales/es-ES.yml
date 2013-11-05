@@ -11,7 +11,7 @@ es-ES:
         locale: Idioma
         gender: Sexo
         edit_header: Editar información de la cuenta
-  hello: Hola Mundo
+  hello: Hola mundo
   add_teacher_form:
     code_or_email:
       label: 'Agregar a un docente mediante código o dirección de correo electrónico:'
@@ -28,12 +28,13 @@ es-ES:
   try_hoc: 'Prueba la Hora de Programar, haga clic aquí >> '
   already_started: '¿Ya empezaste? Reanudar aquí >> '
   demos: Demos
+  continue: Continuar
   auth:
     sign_in_with: 'Inicia sesión con %{provider}'
     signed_in: Sesión iniciada!
     already_signedup: ¿Ya estás registrado?
     notyet_signedup: ¿Aún no te has unido?
-    google_oauth2: Google +
+    google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
@@ -48,7 +49,7 @@ es-ES:
     gender: Sexo (opcional)
     birthday: Cumpleaños (opcional)
     submit: Únete
-    teacher: ¿Eres docente?
+    teacher: ¿Eres un maestr@?
   signin_form:
     title: Iniciar Sesión
     login: Correo electrónico o nombre de usuario
@@ -106,7 +107,7 @@ es-ES:
       finished_hoc: He terminado mi Hora de Código
       sign_in_to_save: Inicia sesión para guardar tu progreso
     user:
-      classroom: Mi aula
+      classroom: Mis alumnos
       label: 'Hola %{username}'
       stats: Mi progreso
       settings: Mi cuenta
@@ -124,13 +125,13 @@ es-ES:
       prizes_link: más información
   teacher:
     title:
-      one: 'Tu docente es %{name}'
-      other: 'Tus docentes:'
-    tools: Herramientas del docente
+      one: 'Tu maestr@ es %{name}'
+      other: 'Tus maestros:'
+    tools: Herramientas del maestr@
     students:
       manage: Administrar a los estudiantes
       add: Añadir alumn@s
-    rollup: Informe de acumulación
+    rollup: Panel de progreso
     activity: Actividad reciente de clases
   user:
     new_password_hint: (déjalo en blanco si no quieres cambiarlo)
@@ -139,10 +140,22 @@ es-ES:
       title: Cancelar mi cuenta
       hint: ¿Infeliz?
       button: Cancelar mi cuenta
+  user_level:
+    completed: Completada
+    tried: Intentaste
+  user_stats:
+    recent_activity: Actividad reciente
+    show_more: Mostrar más
   home:
     signin_message: 'o si ya estás registrado %{link}'
     student_reg_link: 'Estudiantes - comience aquí'
     teacher_reg_link: 'Maestr@s - comience aquí'
+    teacher_dashboard: Ver panel de progreso
+    teacher_stats: 'Tienes %{count} alumnos. En promedio tus alumnos han ganado %{trophy_average} de %{trophy_max} trofeos de "Maestría de Conceptos".'
+    classroom: Tu aula
+    student_progress: Tu progreso como alumno
+    student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
+    student_left_off: 'Donde dejaste:'
   gender:
     male: Hombre
     female: Mujer
@@ -155,7 +168,8 @@ es-ES:
     tos: Términos del servicio
   reference_area:
     title: ¿Necesitas ayuda?
-    subtitle: Chequéa estos videos y consejos
+    subtitle: See these videos and hints
   video:
     tab: Video.
     notes: ¿No hay video? Mostrar notas.
+    autoplay_option: Autoplay videos

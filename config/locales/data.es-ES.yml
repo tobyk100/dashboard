@@ -35,7 +35,7 @@ es-ES:
         parameters: Funciones con parámetros
     level:
       instructions:
-        maze_2_2: 'Hola! Necesito llegar a la cerdita verde! Apila un par de bloques "Mover hacia adelante" y presiona "Ejecutar el programa" que ayudarme a llegar allí. '
+        maze_2_2: 'Hola! Necesito llegar al cerdito verde! Apila un par de bloques "mover hacia adelante" y presiona "Ejecutar el programa" que ayudarme a llegar allí. '
         maze_2_1: 'Escribe otro programa así puedo hacer todo el camino hasta el cerdo verde. '
         maze_2_3: ¿Cómo llego al cerdo verde? (Cuidado con el TNT)
         maze_2_4: '¡Argh! Escribe un programa que me permita esquivar el TNT y llegar al cerdo verde. '
@@ -120,6 +120,9 @@ es-ES:
         maze_karel_debug_function_2: ¿Puedes depurar este programa para mí así puedo dejar mi campo plano?
         maze_karel_debug_function_3: 'Edita este programa para que pueda eliminar todas las pilas de mi campo. '
         turtle_5_1: Aprovecha este momento para dibujar lo que quieras! Si no puedes pensar en nada, pídele a la persona a tu lado una sugerencia!
+      levelIncompleteError:
+        maze_2_14: |
+          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
     video:
       name:
         maze_intro: Introducción al Laberinto

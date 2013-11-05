@@ -132,6 +132,9 @@ vi:
         maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+      levelIncompleteError:
+        maze_2_14: |
+          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
     video:
       name:
         maze_intro: Maze Intro

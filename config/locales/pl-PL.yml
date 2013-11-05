@@ -28,6 +28,7 @@ pl:
   try_hoc: 'Try the Hour of Code, click here >> '
   already_started: 'Already started? Resume here >> '
   demos: Demos
+  continue: Continue
   auth:
     sign_in_with: 'Sign in with %{provider}'
     signed_in: Signed in!
@@ -106,9 +107,9 @@ pl:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: Sign in to save progress
     user:
-      classroom: My Classroom
+      classroom: My students
       label: 'Hi %{username}'
-      stats: My Progress
+      stats: My progress
       settings: My account
       prizes: Prizes
       logout: Sign out
@@ -130,7 +131,7 @@ pl:
     students:
       manage: Manage students
       add: Add students
-    rollup: Rollup report
+    rollup: Progress Dashboard
     activity: Recent class activity
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
@@ -139,10 +140,23 @@ pl:
       title: Cancel my account
       hint: Unhappy?
       button: Cancel my account
+  user_level:
+    completed: Completed
+    tried: Tried
+  user_stats:
+    recent_activity: Recent activity
+    show_more: Show more
   home:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: 'Students - start here'
     teacher_reg_link: 'Teachers - start here'
+    teacher_dashboard: See progress dashboard
+    teacher_stats: 'You have %{count} students. On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    classroom: Your classroom
+    student_progress: Your progress as a student
+    student_stats: |
+      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    student_left_off: 'Where you left off:'
   gender:
     male: Male
     female: Female
@@ -155,7 +169,8 @@ pl:
     tos: Terms of service
   reference_area:
     title: Need help?
-    subtitle: Checkout these videos and hints
+    subtitle: See these videos and hints
   video:
     tab: Video.
     notes: No video? Show notes.
+    autoplay_option: Autoplay videos
