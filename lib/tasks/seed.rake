@@ -55,7 +55,7 @@ namespace :seed do
     concept_map = Concept.all.index_by(&:name)
 
     sources = [
-        { file: 'config/script.csv', params: { name: '20-hour', wrapup_video: Video.find_by_key('20_wrapup'), trophies: true, hidden: false }},
+        { file: 'config/script.csv', params: { name: '20-hour', wrapup_video: nil, trophies: true, hidden: false }},
         { file: 'config/hoc_script.csv', params: { name: 'Hour of Code', wrapup_video: Video.find_by_key('hoc_wrapup'), trophies: false, hidden: false }},
         { file: 'config/ec_script.csv', params: { name: 'Edit Code', wrapup_video: Video.find_by_key('hoc_wrapup'), trophies: false, hidden: true }},
     ]
