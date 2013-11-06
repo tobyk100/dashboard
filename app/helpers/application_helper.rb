@@ -37,6 +37,13 @@ module ApplicationHelper
     false
   end
 
+  # Returns ie version or 0 if not ie
+  def ie_version
+    browser = request.user_agent
+    match = /MSIE (\d.\d*)/.match(browser)
+    match ? match[1].to_i : 0
+  end
+
   def youtube_url(code)
     args = {
       v: code,

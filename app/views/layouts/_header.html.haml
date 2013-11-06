@@ -1,9 +1,9 @@
 - if !support_primary_locale?
   #warning-banner
     = link_to "Non-English translations coming soon. Help us translate!", 'https://docs.google.com/forms/d/1v72iM0reILSCbyJo4870yYXzMKmSXd9IlOc5usL3xQo/viewform'
-- elsif browser.ie8?
+- elsif ie_version === 8
   #warning-banner= t("compatability.working")
-- elsif !browser.modern?
+- elsif ie_version > 0 && ie_version < 8
   #warning-banner= t("compatability.upgrade")
 
 .navbar-static-top.header
