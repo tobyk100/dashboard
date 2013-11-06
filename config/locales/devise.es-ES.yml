@@ -23,7 +23,7 @@ es-ES:
         subject: Instrucciones de desbloqueo
     omniauth_callbacks:
       failure: 'No pudimos autenticarte desde %{kind} debido a "%{reason}".'
-      success: 'Autenticado correctamente desde la cuenta %{kind}.'
+      success: "Autenticado correctamente desde la cuenta %{kind}."
     passwords:
       no_token: No puedes acceder a esta página si no has sido derivado de un correo electrónico para restablecer contraseña. Si vienes de un correo electrónico para restablecer contraseña, por favor asegúrate de haber usado el URL proporcionado completo.
       send_instructions: Recibirás un correo electrónico con instrucciones sobre cómo restablecer la contraseña en unos minutos.
@@ -48,10 +48,10 @@ es-ES:
   errors:
     messages:
       already_confirmed: ya estaba confirmada, por favor, intenta iniciar sesión
-      confirmation_period_expired: 'tiene que ser confirmada dentro del período de %{period}, por favor, solicita una nueva'
+      confirmation_period_expired: "tiene que ser confirmada dentro del período de %{period}, por favor, solicita una nueva"
       expired: ha caducado, por favor, solicita una nueva
       not_found: no encontrado
       not_locked: No estaba bloqueada
       not_saved:
-        one: '1 error impidió que este %{resource} se guardara:'
-        other: '%{count} impiden que este %{resource} sea guardado:'
+        one: "1 error impidió que este %{resource} se guardara:"
+        other: "%{count} errores impiden que este %{resource} sea guardado:"

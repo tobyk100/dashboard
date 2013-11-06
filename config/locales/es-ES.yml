@@ -14,9 +14,9 @@ es-ES:
   hello: Hola mundo
   add_teacher_form:
     code_or_email:
-      label: 'Agregar a un docente mediante código o dirección de correo electrónico:'
+      label: "Agregar a un maestro mediante código o dirección de correo electrónico:"
       placeholder: Código (ABCDEF) o correo electrónico (maestro@escuela.edu)
-    submit: Añadir docente
+    submit: Añadir maestro
   appname: Code.org
   stage: Etapa
   puzzle: Puzzle
@@ -25,13 +25,13 @@ es-ES:
   of: de
   more: MÁS
   less: MENOS
-  try_hoc: 'Prueba la Hora de Programar, haga clic aquí >> '
-  already_started: '¿Ya empezaste? Reanudar aquí >> '
-  demos: Demos
+  try_hoc: "Prueba la Hora del Código, haz clic aquí >> "
+  already_started: "¿Ya empezaste? Reanudar aquí >> "
+  demos: Demostraciones
   continue: Continuar
   auth:
-    sign_in_with: 'Inicia sesión con %{provider}'
-    signed_in: Sesión iniciada!
+    sign_in_with: "Iniciar sesión con %{provider}"
+    signed_in: ¡Sesión iniciada!
     already_signedup: ¿Ya estás registrado?
     notyet_signedup: ¿Aún no te has unido?
     google_oauth2: Google+
@@ -42,14 +42,14 @@ es-ES:
     need_confirmation: ¿No recibiste las instrucciones de confirmación?
     need_unlock: ¿No recibiste las instrucciones de desbloqueo?
   signup_form:
-    title: Únete
+    title: Registrarse
     school_name: Nombre de la escuela (opcional)
     school_address: Dirección de la escuela (opcional)
     address_placeholder: Dirección, ciudad, estado/provincia, código postal
     gender: Sexo (opcional)
     birthday: Cumpleaños (opcional)
-    submit: Únete
-    teacher: ¿Eres un maestr@?
+    submit: Registrarse
+    teacher: ¿Eres un maestro/a?
   signin_form:
     title: Iniciar Sesión
     login: Correo electrónico o nombre de usuario
@@ -69,46 +69,46 @@ es-ES:
   welcome_email:
     subject: Unirme a mi clase (en Code.org)
     body: |
-      Haz click en el vínculo de más abajo para registrarte y usar tutoriales de ciencias de la computación en (conmigo como tu "maestro"):
+      Haz click en el vínculo de más abajo para registrarte y usar tutoriales de ciencias de la computación en Code.org (conmigo como tu "maestro"):
       
       %{link}
       
-      Los tutoriales son divertidos, visualmente atractivos, y enseñan los conceptos básicos de las ciencias de la computación usando una experiencia similar a un juego, simple y guiada. Aprende a programar con Bill Gates, Mark Zuckerberg, Angry Birds, y Plants vs. Zombies! :-)
+      Los tutoriales son divertidos, visualmente atractivos, y enseñan los conceptos básicos de las ciencias de la computación usando una experiencia similar a un juego, simple y guiada. Aprende a programar con Bill Gates, Mark Zuckerberg, Angry Birds, y Plantas vs. Zombis! :-)
       
       %{name}
   follower:
     invite_sent: Invitación enviada
-    added_teacher: '%{name} añadido como tu maestro'
-    registered: 'Te registraste para %{section_name}. Por favor inicia sesión para continuar'
+    added_teacher: "%{name} añadido como tu maestro"
+    registered: "Te registraste para %{section_name}. Por favor inicia sesión para continuar"
     error:
       signed_in: Por favor cierra la sesión antes de proceder
-      username_not_found: 'Usuario %{username} no encontrado'
-      username_in_use: '%{username} ya está ocupado, por favor elije otro'
-      no_teacher: "No se pudo encontrar a nadie bajo este registro '%{teacher_email_or_code}'. Por favor, pídeles que se registren aquí e intenta agregarlos nuevamente"
+      username_not_found: "Usuario %{username} no encontrado"
+      username_in_use: "%{username} ya está ocupado, por favor elije otro"
+      no_teacher: "No se pudo encontrar a nadie que haya iniciado sesión con '%{teacher_email_or_code}'. Por favor pídeles que se registren aquí e intenta agregarlos otra vez"
     mail:
       invite_student:
-        subject: 'Únete a la clase de %{teacher_name} en Code.org!'
+        subject: "¡Únete a la clase de %{teacher_name} en Code.org!"
   reports:
     error:
       access_denied: No tienes acceso a las estadísticas de esta persona
   crud:
-    new_model: 'Nuevo %{model}'
+    new_model: "Nuevo %{model}"
     show: Mostrar
     edit: Editar
-    edit_model: 'Editar %{model}'
+    edit_model: "Editar %{model}"
     update: Actualizar
     destroy: Destruir
     back: Atrás
     confirm: ¿Estás seguro?
-    created: '%{model} se ha creado correctamente.'
-    updated: '%{model} se actualizó correctamente.'
+    created: "%{model} se ha creado correctamente."
+    updated: "%{model} se actualizó correctamente."
   nav:
     header:
       finished_hoc: He terminado mi Hora de Código
       sign_in_to_save: Inicia sesión para guardar tu progreso
     user:
       classroom: Mis alumnos
-      label: 'Hola %{username}'
+      label: "Hola %{username}"
       stats: Mi progreso
       settings: Mi cuenta
       prizes: Premios
@@ -117,28 +117,28 @@ es-ES:
       signup: Registrarse
     popup:
       progress: Tu progreso
-      lines: 'Total de líneas de código: %{lines}'
+      lines: "Total de líneas de código: %{lines}"
       close: CERRAR
       mastery: Conceptos
       puzzle_map: Etapas
-      prizes: 'Recoger todos los %{total_trophies} trofeos y ganar premios!'
+      prizes: "Recoger todos los %{total_trophies} trofeos y ganar premios!"
       prizes_link: más información
   teacher:
     title:
-      one: 'Tu maestr@ es %{name}'
-      other: 'Tus maestros:'
-    tools: Herramientas del maestr@
+      one: "Tu maestro/a es %{name}"
+      other: "Tus maestros:"
+    tools: Herramientas del maestro/a
     students:
-      manage: Administrar a los estudiantes
-      add: Añadir alumn@s
+      manage: Administrar los alumnos
+      add: Añadir alumnos/as
     rollup: Panel de progreso
-    activity: Actividad reciente de clases
+    activity: Actividad reciente de la clase
   user:
     new_password_hint: (déjalo en blanco si no quieres cambiarlo)
     current_password_hint: (necesitamos tu contraseña actual para confirmar los cambios)
     cancel:
       title: Cancelar mi cuenta
-      hint: ¿Infeliz?
+      hint: ¿No estás contento?
       button: Cancelar mi cuenta
   user_level:
     completed: Completada
@@ -147,15 +147,15 @@ es-ES:
     recent_activity: Actividad reciente
     show_more: Mostrar más
   home:
-    signin_message: 'o si ya estás registrado %{link}'
-    student_reg_link: 'Estudiantes - comience aquí'
-    teacher_reg_link: 'Maestr@s - comience aquí'
+    signin_message: "o si ya estás registrado %{link}"
+    student_reg_link: "Alumnos - comenzar aquí"
+    teacher_reg_link: "Maestros/as - comenzar aquí"
     teacher_dashboard: Ver panel de progreso
     teacher_stats: 'Tienes %{count} alumnos. En promedio tus alumnos han ganado %{trophy_average} de %{trophy_max} trofeos de "Maestría de Conceptos".'
     classroom: Tu aula
     student_progress: Tu progreso como alumno
     student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
-    student_left_off: 'Donde dejaste:'
+    student_left_off: "Donde dejaste:"
   gender:
     male: Hombre
     female: Mujer
@@ -168,8 +168,11 @@ es-ES:
     tos: Términos del servicio
   reference_area:
     title: ¿Necesitas ayuda?
-    subtitle: See these videos and hints
+    subtitle: Ver estos videos y sugerencias
   video:
     tab: Video.
     notes: ¿No hay video? Mostrar notas.
-    autoplay_option: Autoplay videos
+    autoplay_option: Reproducir videos automáticamente
+  compatability:
+    working: We are working on support for your browser.
+    upgrade: Please upgrade your browser.

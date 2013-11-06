@@ -14,7 +14,7 @@ fi:
   hello: Hello world
   add_teacher_form:
     code_or_email:
-      label: 'Add a teacher by code or email address:'
+      label: "Add a teacher by code or email address:"
       placeholder: Code (ABCDEF) or email (teacher@school.edu)
     submit: Add teacher
   appname: Code.org
@@ -25,12 +25,12 @@ fi:
   of: of
   more: MORE
   less: LESS
-  try_hoc: 'Try the Hour of Code, click here >> '
-  already_started: 'Already started? Resume here >> '
+  try_hoc: "Try the Hour of Code, click here >> "
+  already_started: "Already started? Resume here >> "
   demos: Demos
   continue: Continue
   auth:
-    sign_in_with: 'Sign in with %{provider}'
+    sign_in_with: "Sign in with %{provider}"
     signed_in: Signed in!
     already_signedup: Already signed up?
     notyet_signedup: "Haven't joined yet?"
@@ -78,12 +78,12 @@ fi:
       %{name}
   follower:
     invite_sent: Invite sent
-    added_teacher: '%{name} added as your teacher'
+    added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
       signed_in: Please signout before proceeding
-      username_not_found: 'Username %{username} not found'
-      username_in_use: '%{username} is already taken, please pick another'
+      username_not_found: "Username %{username} not found"
+      username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:
@@ -92,23 +92,23 @@ fi:
     error:
       access_denied: "You don't have access to this person's stats"
   crud:
-    new_model: 'New %{model}'
+    new_model: "New %{model}"
     show: Show
     edit: Edit
-    edit_model: 'Edit %{model}'
+    edit_model: "Edit %{model}"
     update: Update
     destroy: Destroy
     back: Back
     confirm: Are you sure?
-    created: '%{model} was successfully created.'
-    updated: '%{model} was successfully updated.'
+    created: "%{model} was successfully created."
+    updated: "%{model} was successfully updated."
   nav:
     header:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: Sign in to save progress
     user:
       classroom: My students
-      label: 'Hi %{username}'
+      label: "Hi %{username}"
       stats: My progress
       settings: My account
       prizes: Prizes
@@ -117,16 +117,16 @@ fi:
       signup: Sign up
     popup:
       progress: Your progress
-      lines: 'Total lines of code: %{lines}'
+      lines: "Total lines of code: %{lines}"
       close: CLOSE
       mastery: Concepts
       puzzle_map: Stages
-      prizes: 'Collect all %{total_trophies} trophies and win prizes!'
+      prizes: "Collect all %{total_trophies} trophies and win prizes!"
       prizes_link: more info
   teacher:
     title:
-      one: 'Your teacher is %{name}'
-      other: 'Your teachers:'
+      one: "Your teacher is %{name}"
+      other: "Your teachers:"
     tools: Teacher Tools
     students:
       manage: Manage students
@@ -148,15 +148,15 @@ fi:
     show_more: Show more
   home:
     signin_message: "or if you're already registered %{link}"
-    student_reg_link: 'Students - start here'
-    teacher_reg_link: 'Teachers - start here'
+    student_reg_link: "Students - start here"
+    teacher_reg_link: "Teachers - start here"
     teacher_dashboard: See progress dashboard
     teacher_stats: 'You have %{count} students. On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
     classroom: Your classroom
     student_progress: Your progress as a student
-    student_stats: |
+    student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: 'Where you left off:'
+    student_left_off: "Where you left off:"
   gender:
     male: Male
     female: Female
@@ -174,3 +174,6 @@ fi:
     tab: Video.
     notes: No video? Show notes.
     autoplay_option: Autoplay videos
+  compatability:
+    working: We are working on support for your browser.
+    upgrade: Please upgrade your browser.
