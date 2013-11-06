@@ -72,3 +72,5 @@ gem 'nokogiri'
 gem 'honeybadger'
 
 gem 'redcarpet'
+
+gem 'browser'
