@@ -195,3 +195,6 @@ en:
     tab: 'Video.'
     notes: 'No video? Show notes.'
     autoplay_option: Autoplay videos
+  compatability:
+    working:  "We are working on support for your browser."
+    upgrade: "Please upgrade your browser."
