@@ -15,6 +15,9 @@
 - @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
 - @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
 
+- @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
+- @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
+
 :javascript
   var nextRedirect;
   var previousLevelRedirect;
@@ -66,6 +69,7 @@
       stage_total: #{@level.game.levels.count},
       instructions: '#{escape_javascript(@instructions)}',
       levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
+      tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
       #{start_blocks(current_user, @level)}
     },
     skinId: '#{@level.skin}'
