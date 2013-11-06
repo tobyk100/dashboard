@@ -472,8 +472,9 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 }
 
 .loading {
+  height: 520px;
   margin: 20px;
-  text-align: center;
+  background: image-url("spinner-big.gif") no-repeat center center;
 }
 
 .reference_area {
