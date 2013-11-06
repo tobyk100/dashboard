@@ -169,9 +169,16 @@ commands preceded by a $ are now be executed inside of the ssh terminal and not 
 ```
 vagrant ssh
 
+$ cd /vagrant
 $ rake db:create db:migrate seed:all youtube:thumbnails
+$ rake blockly:dev['blockly']
 $ rails server
 ```
+
+To exit your server you will need to use Ctrl+D. This will put you back into the console and the site will no
+longer be accessible. You'll need to do this in order to drop out, recompile your files, and drop back into the
+server. Alternatively you can run `grunt dev` which will watch the file system for changes and try to automatically
+rebuild everything.
 
 #### Browser Configuration
 
@@ -183,7 +190,13 @@ http://localhost:8080
 
 ### Notes
 
-Current instructions are incomplete as they lack instructions for compiling Blockly.
+Vagrant is a provisioning VM system. To avoid having to reconfigure your VM more than once you are going to want
+to use the following commands.
+
+`vagrant suspend` will shut down your current VM with all of the configuration state saved.
+
+To resume you'll use `vagrant resume`. With this combination of commands the initial setup is the only long
+procedure in working with and building the code.org codebase on Windows. 
 
 [1]: https://github.com/code-dot-org/dashboard/blob/master/README.md
 [2]: http://www.git-scm.com/download/win
