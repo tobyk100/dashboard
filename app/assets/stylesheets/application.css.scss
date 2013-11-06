@@ -583,3 +583,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
     }
   }
 }
+
+.quiet_links {
+  a:link { font-weight: normal; }
+}
