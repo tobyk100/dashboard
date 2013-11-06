@@ -1,78 +1,80 @@
--# Common scripts and styles
-= stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css"
-= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
-
-- blockly_path = "#{ActionController::Base.asset_host}/blockly/"
-%link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
-%link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
-
-%script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
-%script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"}
-
-- @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
-- @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
-
-- @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
-- @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
-
-- @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
-- @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
-
-:javascript
-  var nextRedirect;
-  var previousLevelRedirect;
-  var sendReport = function(report) {
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.onload = function() {
-      var response = JSON.parse(httpRequest.responseText);
-      nextRedirect = response['redirect'];
-      previousLevelRedirect = response['previous_level'];
-      videoInfo = response['video_info'];
-      if (report.onComplete) {
-        report.onComplete(response);
-      }
-    };
-    httpRequest.open('POST', '#{@callback}');
-    httpRequest.setRequestHeader('Content-Type',
-        'application/x-www-form-urlencoded');
-    var query = [];
-    for (var key in report) {
-      query.push(key + '=' + report[key]);
-    }
-    query = query.join('&');
-    httpRequest.send(query);
-  };
-  #{app}Main({
-    locale: '#{js_locale}',
-    containerId: 'blocklyApp',
-    baseUrl: '#{blockly_path}',
-    cacheBust: '#{blockly_cache_bust}',
-    onAttempt: function(report) {
-      sendReport(report);
-    },
-    onContinue: function() {
-      if (nextRedirect) {
-        window.location.href = nextRedirect;
-      } else if (videoInfo) {
-        showVideo(videoInfo);
-      }
-    },
-    backToPreviousLevel: function() {
-      if (previousLevelRedirect) {
-        window.location.href = previousLevelRedirect;
-      }
-    },
-    Dialog: Dialog,
-    levelId: '#{@level.level_num}',
-    level: {
-      puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
-      stage_total: #{@level.game.levels.count},
-      instructions: '#{escape_javascript(@instructions)}',
-      levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
-      tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
-      #{start_blocks(current_user, @level)}
-    },
-    skinId: '#{@level.skin}'
-  });
-
 #blocklyApp
+  .loading= image_tag('spinner-big.gif')
+
+- content_for :body_scripts do
+  -# Common scripts and styles
+  = stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css"
+  = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js"
+
+  - blockly_path = "#{ActionController::Base.asset_host}/blockly/"
+  %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
+  %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
+
+  %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
+  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"}
+
+  - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
+  - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
+
+  - @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
+  - @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
+
+  - @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
+  - @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
+
+  :javascript
+    var nextRedirect;
+    var previousLevelRedirect;
+    var sendReport = function(report) {
+      var httpRequest = new XMLHttpRequest();
+      httpRequest.onload = function() {
+        var response = JSON.parse(httpRequest.responseText);
+        nextRedirect = response['redirect'];
+        previousLevelRedirect = response['previous_level'];
+        videoInfo = response['video_info'];
+        if (report.onComplete) {
+          report.onComplete(response);
+        }
+      };
+      httpRequest.open('POST', '#{@callback}');
+      httpRequest.setRequestHeader('Content-Type',
+          'application/x-www-form-urlencoded');
+      var query = [];
+      for (var key in report) {
+        query.push(key + '=' + report[key]);
+      }
+      query = query.join('&');
+      httpRequest.send(query);
+    };
+    #{app}Main({
+      locale: '#{js_locale}',
+      containerId: 'blocklyApp',
+      baseUrl: '#{blockly_path}',
+      cacheBust: '#{blockly_cache_bust}',
+      onAttempt: function(report) {
+        sendReport(report);
+      },
+      onContinue: function() {
+        if (nextRedirect) {
+          window.location.href = nextRedirect;
+        } else if (videoInfo) {
+          showVideo(videoInfo);
+        }
+      },
+      backToPreviousLevel: function() {
+        if (previousLevelRedirect) {
+          window.location.href = previousLevelRedirect;
+        }
+      },
+      Dialog: Dialog,
+      levelId: '#{@level.level_num}',
+      level: {
+        puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
+        stage_total: #{@level.game.levels.count},
+        instructions: '#{escape_javascript(@instructions)}',
+        levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
+        tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
+        #{start_blocks(current_user, @level)}
+      },
+      skinId: '#{@level.skin}'
+    });

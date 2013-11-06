@@ -49,7 +49,7 @@ en:
   try_hoc: "Try the Hour of Code, click here >> "
   already_started: "Already started? Resume here >> "
   demos: "Demos"
-  continue: Continue
+  continue: 'Continue'
   auth:
     sign_in_with: 'Sign in with %{provider}'
     signed_in: 'Signed in!'
