@@ -175,10 +175,12 @@ $ rake blockly:dev['blockly']
 $ rails server
 ```
 
-To exit your server you will need to use Ctrl+D. This will put you back into the console and the site will no
+To exit your server you will need to use Ctrl+C. This will put you back into the console and the site will no
 longer be accessible. You'll need to do this in order to drop out, recompile your files, and drop back into the
 server. Alternatively you can run `grunt dev` which will watch the file system for changes and try to automatically
 rebuild everything.
+
+To exit out of the VM ssh you'll need to use Ctrl+D.
 
 #### Browser Configuration
 
