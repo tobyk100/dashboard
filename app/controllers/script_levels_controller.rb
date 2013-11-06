@@ -10,11 +10,11 @@ class ScriptLevelsController < ApplicationController
     script_level_id = params[:id]
     reset = params[:reset]
     
-    if reset && !current_user
+    if reset
       # reset is a special mode which will delete the session if the user is not signed in
       # and start them at the beginning of the script.
       # If the user is signed in, continue normally
-      reset_session
+      reset_session if !current_user
       redirect_to build_script_level_path(@script.script_levels.first)
       return
     end
