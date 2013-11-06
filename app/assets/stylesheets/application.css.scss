@@ -296,7 +296,9 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   z-index: 100001;
   text-align: left;
   white-space: nowrap;
-
+  color: black;
+  position: absolute;
+  right: 0;
   padding: 10px;
   left: auto;
   bottom: auto;
@@ -423,6 +425,16 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   vertical-align: middle;
   height: 26px;
   cursor: pointer;
+}
+
+.transparent_backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: transparent;
 }
 
 .header_trophy_link:hover {
