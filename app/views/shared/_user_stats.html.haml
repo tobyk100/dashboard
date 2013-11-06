@@ -11,11 +11,11 @@
         %td{width:"100px"}
           #{data_t('concept.description', concept.name)}:
         %td{width:"55px", style:"text-align:center;"}
-          = image_tag bronze_fraction_image_path(completion), size: "45x45"
+          = image_tag bronze_fraction_image_path(completion), class: "trophy_image"
         %td{width:"55px", style:"text-align:center;"}
-          = image_tag silver_fraction_image_path(completion), size: "45x45"
+          = image_tag silver_fraction_image_path(completion), class: "trophy_image"
         %td{width:"55px", style:"text-align:center;"}
-          = image_tag gold_fraction_image_path(completion), size: "45x45"
+          = image_tag gold_fraction_image_path(completion), class: "trophy_image"
         <!-- #{counts} -->
   - if user == current_user
     .stage_separator
