@@ -48,6 +48,7 @@ en:
         # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
         'maze_2_2': "Hi! I need to get the Green Piggy! Stack a couple of \"move forward\" blocks together and press \"Run Program\" to help me get there. "
         'maze_2_1': "Write me another program so I can make it all the way to the green pig. "
+        'maze_2_2_5': "How should I get to the green pig? (Watch out for the TNT)"
         'maze_2_3': "How should I get to the green pig? (Watch out for the TNT)"
         'maze_2_4': "Argh! Write a program that gets me around the TNT and to the green pig. "
         'maze_2_5': "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"

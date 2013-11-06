@@ -1,6 +1,7 @@
 Game	Name	Level	Skin	Concepts	Url
 Maze	Level1	2_2	birds	sequence	
 Maze	Level2	2_1	birds	sequence	
+Maze	Level2_5	2_2_5	birds	sequence	
 Maze	Level3	2_3	birds	sequence	
 Maze	Level4	2_4	birds	sequence	
 Maze	Level5	2_5	birds	loop_times	
