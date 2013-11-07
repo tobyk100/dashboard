@@ -8,7 +8,7 @@
       - if devise_mapping.rememberable?
         %label
           = f.check_box :remember_me, { style: 'margin: 0;'}
-          = t('signin_form.submit')
-      = f.submit "Sign in", class: "btn btn-primary"
+          = t('signin_form.remember')
+      = f.submit t('signin_form.submit'), class: "btn btn-primary"
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }= render "devise/shared/links"

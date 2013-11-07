@@ -23,12 +23,8 @@ class ApplicationController < ActionController::Base
   end
 
   def with_locale
-    old_locale = I18n.locale
-    begin
-      I18n.locale = locale
+    I18n.with_locale(locale) do
       yield
-    ensure
-      I18n.locale = old_locale
     end
   end
 

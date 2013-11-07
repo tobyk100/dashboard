@@ -11,6 +11,9 @@ class Ability
       can :read, :all
     end
     if user.id
+      can :manage, user
+      # don't want to run this for every request:
+      # can :manage, user.students.where("email = ''")
       can :create, Section
       can :create, Activity
       can :create, UserLevel

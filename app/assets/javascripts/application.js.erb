@@ -81,7 +81,7 @@ function Dialog(options) {
   var close = $('<div/>').append($('<img src="<%= asset_path 'x_button.png' %>"/>'))
                          .addClass('x-close')
                          .attr('data-dismiss', 'modal');
-  this.div = $('<div/>').addClass('modal');
+  this.div = $('<div tabindex="-1"/>').addClass('modal');
   var modalBody = $('<div/>').addClass('modal-body');
   if (header) {
     var modalHeader = $('<div/>').addClass('modal-header')
@@ -95,7 +95,18 @@ function Dialog(options) {
   this.div.append(modalBody).appendTo($(document.body));
   
   if (options.onHidden) {
-    $(this.div).on('hidden.bs.modal', options.onHidden);
+    $(this.div).on(
+        'hidden.bs.modal',
+        function() {
+          if (options.onKeydown) {
+            $(this.div).off('keydown', options.onKeydown);
+          }
+          options.onHidden();
+        });
+  }
+  
+  if (options.onKeydown) {
+    $(this.div).on('keydown', options.onKeydown);
   }
 
   addClickTouchEvent(close, $.proxy(function() {

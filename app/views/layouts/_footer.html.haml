@@ -1,5 +1,5 @@
 .navbar-static-top.footer
-  .container{ style: 'padding: 10px;'}
+  .container{ style: 'padding: 10px;' + (@full_width ? "width: 880px;" : "") }
     .row
       .span2
         &copy; Code.org, 2013
@@ -7,15 +7,15 @@
         = form_tag(locale_url, method: :post, id: 'localeForm') do
           = hidden_field_tag :return_to, request.url
           = select_tag :locale, options_for_select(options_for_locale_select, locale), onchange: 'switchLocale();'
-      .span10
+      .span10{style:(@full_width ? "width: 720px;" : "")}
         = link_to t('footer.feedback'), 'http://codeorg.uservoice.com/forums/228116-code-org-tutorials'
         = ' - '
-        = link_to t('footer.translate'), 'https://docs.google.com/forms/d/1v72iM0reILSCbyJo4870yYXzMKmSXd9IlOc5usL3xQo/viewform'
+        = link_to t('footer.translate'), 'http://eepurl.com/Im_In'
         %br/
         %br/
-        = t('footer.help_from_html')
+        = sanitize(t('footer.help_from_html'), tags: %w(a), attributes: %w(href))
         %br/
-        = t('footer.art_from_html')
+        = sanitize(t('footer.art_from_html'), tags: %w(a), attributes: %w(href))
         %br/
         = link_to t('footer.tos'), 'http://code.org/tos'
         - if current_user && current_user.admin?

@@ -156,11 +156,11 @@ SQL
 
   def average_student_trophies
     User.connection.select_value(<<SQL)
-select avg(num)
+select coalesce(avg(num), 0)
 from (
     select coalesce(sum(trophy_id), 0) as num
-    from user_trophies ut
-    inner join followers f on f.student_user_id = ut.user_id
+    from followers f
+    left outer join user_trophies ut on f.student_user_id = ut.user_id
     where f.user_id = #{self.id}
     group by f.student_user_id
     ) trophy_counts
@@ -189,5 +189,12 @@ SQL
 
   def locale
     read_attribute(:locale).try(:to_sym)
+  end
+
+  def writable_by?(other_user)
+    return true if other_user == self
+    return true if other_user.admin?
+    return true if self.email.blank? && self.teachers.include?(other_user)
+    false
   end
 end

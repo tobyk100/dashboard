@@ -103,16 +103,20 @@ class FollowersController < ApplicationController
   end
 
   def add_to_section
-    section = Section.find(params[:section_id])
-    raise "not owner of that section" if section.user_id != current_user.id
+    if params[:follower_ids]
+      section = Section.find(params[:section_id])
+      raise "not owner of that section" if section.user_id != current_user.id
 
-    Follower.connection.execute(<<SQL)
+      Follower.connection.execute(<<SQL)
 update followers
 set section_id = #{section.id}
 where id in (#{params[:follower_ids].map(&:to_i).join(',')})
   and user_id = #{current_user.id}
 SQL
-    redirect_to manage_followers_path, notice: "Updated class assignments"
+      redirect_to manage_followers_path, notice: "Updated class assignments"
+    else
+      redirect_to manage_followers_path, notice: "No students selected"
+    end
   end
 
   def student_user_new
@@ -148,5 +152,31 @@ SQL
     end
 
     render "student_user_new"
+  end
+
+  def student_edit_password
+    @user = User.find(params[:user_id])
+    return if writable_student?(@user)
+  end
+
+  def student_update_password
+    user_params = params[:user]
+    @user = User.find(user_params[:id])
+    return if writable_student?(@user)
+
+    if @user.update(user_params.permit(:password, :password_confirmation))
+      redirect_to manage_followers_path, notice: "Password saved"
+    else
+      render :student_edit_password
+    end
+  end
+
+private
+  def writable_student?(user)
+    # I'd like to do it with authorize!, but don't want to preload students on every request in ability.rb
+    # authorize! :update, @user
+    unless user.writable_by?(current_user)
+      redirect_to root_path, notice: I18n.t('reports.error.access_denied')
+    end
   end
 end

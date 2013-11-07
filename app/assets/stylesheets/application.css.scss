@@ -100,7 +100,7 @@ th {
 
 .level_highlight:hover {
   text-decoration: none;
-  background-color: $dark_color;
+  background-color: orange;
 }
 
 .level_current_header {
@@ -121,7 +121,7 @@ th {
 }
 
 .other_level:hover {
-  background-color: $dark_color;
+  background-color: orange;
 }
 
 .level_box {
@@ -313,7 +313,9 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   z-index: 100001;
   text-align: left;
   white-space: nowrap;
-
+  color: black;
+  position: absolute;
+  right: 0;
   padding: 10px;
   left: auto;
   bottom: auto;
@@ -349,8 +351,8 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   z-index: 10000;
 
   &.modal{
-    width: 940px;
-    margin-left: -470px;
+    width: 800;
+    margin-left: -400px;
   }
 }
 
@@ -365,20 +367,24 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 
 .header_middle {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
 }
 
 .header_level {
   position: relative;
-  left: -50%;
   padding-top: 28px;
   padding-bottom: 10px;
   text-align: center;
   font-size: 150%;
-  border-bottom: 1px solid $inset_color;
-  border-bottom-style: inset;
   cursor: default;
   white-space: nowrap;
+}
+
+.header_level_container {
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
+  padding-bottom: 12px;
 }
 
 .header_user {
@@ -442,6 +448,16 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   cursor: pointer;
 }
 
+.transparent_backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: transparent;
+}
+
 .header_trophy_link:hover {
   background-color: transparent;
   text-decoration: none;
@@ -472,7 +488,12 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   font-size: 10px;
   color: $header_text;
   display: inline-block;
-  line-height: 10px;
+  line-height: 20px;
+}
+
+.trophy_image {
+  width: 45px;
+  height: 45px;
 }
 
 .stage_separator {
@@ -486,6 +507,12 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   text-align: center;
   padding-top: 10px;
   font-weight: 500;
+}
+
+.loading {
+  height: 520px;
+  margin: 20px;
+  background: image-url("spinner-big.gif") no-repeat center center;
 }
 
 .reference_area {
@@ -586,7 +613,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   }
 }
 
-#i18n-banner {
+#warning-banner {
   font-size: 36px;
   line-height: 36px;
   background-color: $dark_color;
@@ -599,4 +626,15 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
       background-color: $dark_color;
     }
   }
+}
+
+.quiet_links {
+  a:link { font-weight: normal; }
+}
+
+.fixed_width_cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  padding-left: 5px;
 }
