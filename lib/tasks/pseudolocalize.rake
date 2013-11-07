@@ -28,6 +28,7 @@ task :pseudolocalize => :environment do
 
   srcs = Dir.glob("#{Rails.root}/config/locales/*#{SOURCE_LOCALE}.yml")
   srcs.each do |src|
+    puts "converting: #{src}"
     dest = src.gsub("#{SOURCE_LOCALE}.yml", "#{PSEUDO_LOCALE}.yml")
     messages = YAML.load_file(src)
     File.open(dest, 'w') do |f|
