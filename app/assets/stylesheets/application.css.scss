@@ -29,7 +29,24 @@ $light_gray: #c6cacd;
 $light_green: #b9bf15;
 $orange: #ffa400;
 
+@mixin unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@mixin selectable {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+}
+
+p,pre,span {
+  @include selectable;
+}
+
 body {
+  @include unselectable;
   padding: 10px;
   font-style: normal;
 }
