@@ -29,6 +29,7 @@ es-ES:
   already_started: "¿Ya empezaste? Reanudar aquí >> "
   demos: Demostraciones
   continue: Continuar
+  prize: prize
   auth:
     sign_in_with: "Iniciar sesión con %{provider}"
     signed_in: ¡Sesión iniciada!
@@ -87,7 +88,7 @@ es-ES:
       no_teacher: "No se pudo encontrar a nadie que haya iniciado sesión con '%{teacher_email_or_code}'. Por favor pídeles que se registren aquí e intenta agregarlos otra vez"
     mail:
       invite_student:
-        subject: "¡Únete a la clase de %{teacher_name} en Code.org!"
+        subject: "Join a class with %{teacher_name} at Code.org!"
   reports:
     error:
       access_denied: No tienes acceso a las estadísticas de esta persona
@@ -157,6 +158,9 @@ es-ES:
     student_progress: Tu progreso como alumno
     student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
     student_left_off: "Donde dejaste:"
+    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    local_school: local school
+    online: online
   gender:
     male: Hombre
     female: Mujer
