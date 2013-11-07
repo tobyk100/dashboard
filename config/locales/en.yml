@@ -110,7 +110,7 @@ en:
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:
-        subject: "Join %{teacher_name}'s class at Code.org!"
+        subject: "Join a class with %{teacher_name} at Code.org!"
   reports:
     error:
       access_denied: "You don't have access to this person's stats"
