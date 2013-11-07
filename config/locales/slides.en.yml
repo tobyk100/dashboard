@@ -57,23 +57,32 @@ en:
         text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
       3:
         image: 'notes/hoc2_3.png'
-        text: "And we can use the new \"repeat\" block which is called a loop to help us out."
+        text: "And we can use the new \"repeat times\" block which is called a loop to help us out."
       4:
         image: 'notes/hoc2_4.png'
         text: "Instead of dragging out 5 \"move forward\" blocks..."
       5:
         image: 'notes/hoc2_5.png'
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: "We can put the \"move forward\" block inside the \"repeat times\" block and write a number in the block to tell it how many times to repeat."
       6:
         image: 'notes/hoc2_6.png'
-        text: "And you can put more than one command inside a \"repeat\" block."
+        text: "And you can put more than one command inside a \"repeat times\" block."
       7:
         image: 'notes/hoc2_7.png'
         text: "Enjoy using your new \"repeat\" block!"
     loop_until:
       1:
-        image: 'notes/bird.png'
-        text: "Show notes coming soon!"
+        image: 'notes/hoc3_1.png'
+        text: "Hi, I'm Sara. Let's try out our new block called the \"repeat until\" block."
+      2:
+        image: 'notes/hoc3_2.png'
+        text: "What if we didn't know how many spaces the bird had to move to get to the pig?"
+      3:
+        image: 'notes/hoc3_3.png'
+        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward until it reaches the pig or crashes into a wall."
+      4:
+        image: 'notes/hoc3_4.png'
+        text: "And just like the \"repeat times\" block, we can put multiple blocks inside the \"repeat until\" block and the bird will repeat those commands over and over again until it reaches the pig or crashes into a wall.
     if:
       1:
         image: 'notes/hoc4_1.png'
@@ -98,8 +107,17 @@ en:
         text: "Have fun using the \"if\" block!"
     if_else:
       1:
-        image: 'notes/bird.png'
-        text: "Show notes coming soon!"
+        image: 'notes/hoc5_1.png'
+        text: "Hi, my name is Saloni, and I study computer science and how it applies to health. Let's learn about the \"if else\" block. It looks like the \"if\" block, but it has an extra part at the end that says \"else\"."
+      2:
+        image: 'notes/hoc5_2.png'
+        text: "If I put a \"move forward\" block in the spot where it says \"do\" and a \"turn left\" block where it says \"else\" that means that the zombie will choose between 2 options. If there is a path ahead, the zombie will move forward, and if there isn't a path ahead, the zombie will turn left."
+      3:
+        image: 'notes/hoc5_3.png'
+        text: "Just like the \"if\" block, we can \"if else\" blocks inside a \"repeat\" blocks so that the zombie keeps moving forward on the path and the \"if else\" block will keep checking if there's somewhere to turn."
+      4:
+        image: 'notes/hoc5_4.png'
+        text: "Now, get those zombies where they belong!"
     function:
       1:
         image: 'notes/bird.png'
@@ -118,8 +136,17 @@ en:
         text: "Show notes coming soon!"
     hoc_wrapup:
       1:
-        image: 'notes/bird.png'
-        text: "Show notes coming soon!"
+        image: 'notes/hoc6_1.png'
+        text: "Congratulations! With the last puzzle you solved, you just wrote the code that can tell any robot how to find it's way through a non-branching maze or tunnel of any complexity or any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+      2:
+        image: 'notes/hoc6_2.png'
+        text: "The basic concepts you just learned are at the heart of virtually every program or app you’ll ever try.  We learned about repeat loops, repeat until statements, if statements, and the if else block."
+      3:
+        image: 'notes/hoc6_3.png'
+        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you’ll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+      4:
+        image: 'notes/hoc6_4.png'
+        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
     20_wrapup:
       1:
         image: 'notes/bird.png'
