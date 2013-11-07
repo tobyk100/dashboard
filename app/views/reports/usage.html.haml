@@ -14,7 +14,7 @@
     %div{ style: "padding: 4px;"}
       = link_to a.user.name, user_stats_path(a.user)
       - if a.best?
-        %span{ style: 'color:green'} (#{a.attempt}, #{a.test_result})
+        %span{ style: 'color:green'} finished (#{a.attempt}, #{a.test_result})
       - elsif a.passing?
         %span{ style: 'color:orange'} finished (#{a.attempt}, #{a.test_result})
       - else

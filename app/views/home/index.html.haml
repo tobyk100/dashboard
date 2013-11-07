@@ -34,10 +34,13 @@
       %br/
 
       %div{ style: 'padding-top: 10px; padding-bottom: 30px;'}
-        - script_level = current_user.next_untried_level(Script.twenty_hour_script) || Script.twenty_hour_script.script_levels.first
-        #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
-        = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
-          = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
+        - script_level = current_user.next_untried_level(Script.twenty_hour_script)
+        - if script_level
+          #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
+          = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
+            = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
+        - else
+          = raw t('home.student_finished', prize_link: link_to(t('prize'), 'http://code.org/prize'), online_link: link_to(t('home.online'), 'http://code.org/learn2'), local_school_link: link_to(t('home.local_school'), 'http://aws.code.org/search'))
   .row
     .span12
       = render partial: 'shared/user_stats', locals: { user: current_user }
