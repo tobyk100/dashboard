@@ -3,7 +3,7 @@ pt-BR:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: Bem-vindo à sua primeira hora de código! Sou Tess, engenheiro de software no Google. Vamos mergulhar logo em seu primeiro contato com a programação.
+        text: Bem-vindo à sua primeira hora de código! Sou Tess, engenheira de software no Google. Vamos mergulhar logo em seu primeiro contato com a programação.
       2:
         image: notes/hoc1_2.png
         text: Estaremos usando Blockly, uma linguagem de programação visual onde você arrasta e solta blocos para escrever código.
@@ -57,49 +57,60 @@ pt-BR:
         text: Neste quebra-cabeça, queremos fazer o pássaro avançar 5 espaços para chegar ao porco.
       3:
         image: notes/hoc2_3.png
-        text: E podemos usar o novo bloco "repetir" que é chamado "loop" para nos ajudar.
+        text: And we can use the new "repeat times" block which is called a loop to help us out.
       4:
         image: notes/hoc2_4.png
         text: Em vez de arrastar 5 blocos "Avançar"...
       5:
         image: notes/hoc2_5.png
-        text: Podemos colocar o bloco "Avançar" dentro do bloco "repetir" e escrever um número no bloco para dizer quantas vezes repetir.
+        text: We can put the "move forward" block inside the "repeat times" block and write a number in the block to tell it how many times to repeat.
       6:
         image: notes/hoc2_6.png
-        text: E você pode colocar mais de um comando dentro de um bloco "repetir".
+        text: And you can put more than one command inside a "repeat times" block.
       7:
         image: notes/hoc2_7.png
         text: Aproveite o uso do seu novo bloco "repetir"!
     loop_until:
       1:
-        image: notes/bird.png
-        text: Mostrar notas em breve!
-    if:
-      1:
-        image: notes/hoc4_1.png
-        text: Oi, eu sou o Bill! Vamos aprender sobre declarações "se", que é a forma usada pelos computadores para tomar decisões.
+        image: notes/hoc3_1.png
+        text: |-
+          Hi, I'm Sara. Let's try out our new block called the "repeat until" block.
       2:
         image: notes/hoc4_2.png
-        text: Você usa instruções "se" em sua vida todos os dias. Por exemplo, antes de você sair de manhã, você diz que SE está chovendo lá fora, eu preciso usar minha jaqueta.
+        text: "You use If statments in your everday life. For example, before you go outside in the morning, you say IF it's raining outside, I need to wear my jacket."
       3:
         image: notes/hoc4_3.png
-        text: Então podemos dizer ao zumbi para verificar SE há caminho para a esquerda e se ele encontrar um caminho para a esquerda, teremos que virar ele naquela direção.
+        text: "So we can tell the zombie to check IF there's path to the left and if he finds a path to the left, we can have him turn in that direction."
       4:
         image: notes/hoc4_4.png
-        text: Para escrever o código para isto, vamos arrastar o nosso bloco "se" e colocar um bloco de "virar à esquerda" dentro dele.
+        text: |-
+          To write the code for this, let's drag out our "if" block and put a "turn left" block inside of it.
       5:
         image: notes/hoc4_5.png
-        text: Agora, se colocarmos um bloco "Avançar" acima dele e um bloco de "repetir" ao redor de tudo, isto irá dizer para o zumbi mover para a frente repetidamente e toda vez que ele se move para a frente, ele vai verificar se há um caminho para a esquerda. Então quando ele encontra um caminho para a esquerda, ele vai virar à esquerda e continuar seguindo em frente.
+        text: |-
+          Now, if we put a "move forward" block above it and a "repeat" block around everything, this will tell the zombie to repeatedly move forward and everytime he moves forward, he'll check if there's a path to the left. Then when he finds a path to the left, he'll turn left and continue moving forward.
       6:
         image: notes/hoc4_6.png
-        text: Instruções "SE" são muito importantes para a ciência da computação. Um dos primeiros programas que já escrevi foi um jogo da velha, e havia uma instrução "SE" que dizia que SE a outra pessoa está prestes a ganhar, bloqueie o lugar que lhe permitiria ganhar.
+        text: If statements are really important in computer science. One of the first programs I ever wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
       7:
         image: notes/hoc4_7.png
-        text: 'Divirta-se usando o bloco  "se"!'
+        text: Have fun using the "if" block!
     if_else:
       1:
-        image: notes/bird.png
-        text: Mostrar notas aparecerá em breve!
+        image: notes/hoc5_1.png
+        text: |-
+          Hi, my name is Saloni, and I study computer science and how it applies to health. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+      2:
+        image: notes/hoc5_2.png
+        text: |-
+          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. If there is a path ahead, the zombie will move forward, and if there isn't a path ahead, the zombie will turn left.
+      3:
+        image: notes/hoc5_3.png
+        text: |-
+          Just like the "if" block, we can "if else" blocks inside a "repeat" blocks so that the zombie keeps moving forward on the path and the "if else" block will keep checking if there's somewhere to turn.
+      4:
+        image: notes/hoc5_4.png
+        text: Now, get those zombies where they belong!
     function:
       1:
         image: notes/bird.png
@@ -118,8 +129,17 @@ pt-BR:
         text: Mostrar notas aparecerá em breve!
     hoc_wrapup:
       1:
-        image: notes/bird.png
-        text: Mostrar notas aparecerá em breve!
+        image: notes/hoc6_1.png
+        text: "Congratulations! With the last puzzle you solved, you just wrote the code that can tell any robot how to find it's way through a non-branching maze or tunnel of any complexity or any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+      2:
+        image: notes/hoc6_2.png
+        text: The basic concepts you just learned are at the heart of virtually every program or app you
+      3:
+        image: notes/hoc6_3.png
+        text: If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you
+      4:
+        image: notes/hoc6_4.png
+        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
     20_wrapup:
       1:
         image: notes/bird.png

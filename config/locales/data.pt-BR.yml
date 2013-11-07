@@ -112,15 +112,15 @@ pt-BR:
         turtle_3_9: Você pode re-criar a função de "desenhar uma casa" sem ajuda? Tente, e em seguida desenhe uma fileira de casas.
         turtle_3_10: Você aprendeu muito! Agora, use para desenhar o que quiser. Tente desenhar uma estrela, ou uma espiral, ou um floco de neve.
         maze_karel_debug_seq_1: Bem-vindo à depuração! Meu código não está funcionando bem. Você pode achar o problema e corrigí-lo para que eu possa deixar meu campo pronto para o plantio?
-        maze_karel_debug_seq_2: O que há de errado com este programa? Como você deve corrigi-lo para que eu remova
-        maze_karel_debug_repeat: De-bug this program for me so my field will be nice and flat.
+        maze_karel_debug_seq_2: O que há de errado com este programa? Como você deve corrigi-lo para que eu possa remover essa pilha?
+        maze_karel_debug_repeat: Ache os problemas nesse código, para que meu campo fique bonito e plano.
         maze_karel_debug_while: Como você deve alterar este programa para me ajudar a preencher o buraco?
         maze_karel_debug_if: Ajuda! Corrija o programa para que meu campo seja completamente plano.
-        maze_karel_debug_if_else: De-bug this program so I can fill in the holes and remove all the piles.
-        maze_karel_debug_function_1: What should you change about this program to help me remove all the piles?
-        maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
-        maze_karel_debug_function_3: "Edite este programa, então eu vou remover todas as pilhas no meu campo. "
-        turtle_5_1: Aproveite este momento para desenhar como você se sente! Se você não consegue pensar em nada, pergunte a pessoa ao seu lado, ela pode te dar uma sugestão!
+        maze_karel_debug_if_else: Depure este programa para que eu possa preencher os buracos e remover todas as pilhas.
+        maze_karel_debug_function_1: O que você deve mudar nesse programa para me ajudar a remover todas as pilhas?
+        maze_karel_debug_function_2: Você pode depurar este programa para mim, para que eu possa deixar meu campo plano?
+        maze_karel_debug_function_3: "Edite este programa para eu remover todas as pilhas no meu campo. "
+        turtle_5_1: Aproveite este momento para desenhar o que você tiver vontade! Se você não conseguir pensar em nada, pergunte a pessoa ao seu lado, ela pode te dar uma sugestão!
       levelIncompleteError:
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos no seu interior: "mexam-se" e "vire à direita".'
         maze_2_14: Você precisa de um bloco "se" dentro de um bloco "repetir". Se você está tendo problemas, tente o nível anterior novamente para ver como funcionava.
@@ -140,4 +140,4 @@ pt-BR:
         loop_for: Bloco "contador"
         parameters: Funções com parâmetros
         hoc_wrapup: Hora de código embrulhado
-        20_wrapup: 20-Hour Wrapup
+        20_wrapup: 20 Horas de Final
