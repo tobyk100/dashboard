@@ -25,6 +25,8 @@ Dashboard::Application.routes.draw do
   get '/hoc/reset', to: 'script_levels#show', script_id: Script::HOC_ID, reset:true, as: 'hoc_reset'
   get '/hoc/:chapter', to: 'script_levels#show', script_id: Script::HOC_ID, as: 'hoc_chapter'
 
+  get '/k8intro/:chapter', to: 'script_levels#show', script_id: Script::TWENTY_HOUR_ID, as: 'k8intro_chapter'
+
   resources :followers, only: [:new, :create, :index]
   get '/followers/:teacher_user_id/accept', to: 'followers#accept', as: 'follower_accept'
   post '/followers/create_student', to: 'followers#create_student', as: 'create_student'

@@ -41,23 +41,31 @@
             = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
         - else
           = raw t('home.student_finished', prize_link: link_to(t('prize'), 'http://code.org/prize'), online_link: link_to(t('home.online'), 'http://code.org/learn2'), local_school_link: link_to(t('home.local_school'), 'http://aws.code.org/search'))
-  .row
-    .span12
-      = render partial: 'shared/user_stats', locals: { user: current_user }
 - else
   %h1= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)
+  %br/
+  %br/
 
-  %br/
-  %br/
-  %br/
+  %hr
+  
+  %h4= link_to t('try_k8intro'), k8intro_chapter_path(ScriptLevel::NEXT)
+
   #{ link_to t('home.student_reg_link'), new_user_registration_path}
   %br/
   #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
   %br/
   = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
   %br/
+  %br/
+
+.row
+  .span12
+    = render partial: 'shared/user_stats', locals: { user: current_user, trophies_on_right: true }
+
+  
+- if current_user && current_user.admin?
   %h3= t(:demos)
   %ul
-    - Script.where(hidden: false).each do |script|
+    - Script.all.each do |script|
       %li= link_to(data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT))

@@ -1,6 +1,6 @@
 class ReportsController < ApplicationController
-  before_filter :authenticate_user!
-  check_authorization except: [:all_usage, :level_stats, :students]
+  before_filter :authenticate_user!, except: [:header_stats]
+  check_authorization except: [:all_usage, :level_stats, :students, :header_stats]
 
   before_action :set_script
 
@@ -25,8 +25,6 @@ SQL
   end
 
   def header_stats
-    authorize! :read, current_user
-
     render file: "shared/_user_stats", layout: false, locals: { user: current_user }
   end
 
