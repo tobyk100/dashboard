@@ -76,6 +76,19 @@ es-ES:
         text: |-
           Hi, I'm Sara. Let's try out our new block called the "repeat until" block.
       2:
+        image: notes/hoc3_2.png
+        text: "What if we didn't know how many spaces the bird had to move to get to the pig?"
+      3:
+        image: notes/hoc3_3.png
+        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward until it reaches the pig or crashes into a wall.
+      4:
+        image: notes/hoc3_4.png
+        text: And just like the "repeat times" block, we can put multiple blocks inside the "repeat until" block and the bird will repeat those commands over and over again until it reaches the pig or crashes into a wall.
+    if:
+      1:
+        image: notes/hoc4_1.png
+        text: "Hi, I'm Bill! Let's learn about If statements, which is the way that computers make decisions."
+      2:
         image: notes/hoc4_2.png
         text: "You use If statments in your everday life. For example, before you go outside in the morning, you say IF it's raining outside, I need to wear my jacket."
       3:
@@ -133,10 +146,10 @@ es-ES:
         text: "Congratulations! With the last puzzle you solved, you just wrote the code that can tell any robot how to find it's way through a non-branching maze or tunnel of any complexity or any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
         image: notes/hoc6_2.png
-        text: The basic concepts you just learned are at the heart of virtually every program or app you
+        text: "The basic concepts you just learned are at the heart of virtually every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and the if else block."
       3:
         image: notes/hoc6_3.png
-        text: If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you
+        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
         image: notes/hoc6_4.png
         text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
