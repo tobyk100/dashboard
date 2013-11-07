@@ -16,6 +16,9 @@
   - @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
   - @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
 
+  - @other1StarError = data_t('level.other1StarError', "#{@level.game.app}_#{@level.level_num}")
+  - @other1StarError ||= data_t('level.other1StarError', "#{@level.game.name}_#{@level.level_num}")
+
   - @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
   - @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
 
@@ -70,6 +73,7 @@
         stage_total: #{@level.game.levels.count},
         instructions: '#{escape_javascript(@instructions)}',
         levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
+        other1StarError: '#{escape_javascript(@other1StarError)}',
         tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
         #{start_blocks(current_user, @level)}
       },

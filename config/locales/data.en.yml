@@ -135,6 +135,8 @@ en:
       levelIncompleteError:
         # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
         'maze_2_8': "To solve this, find the pattern that repeats. Use a \"repeat\" block with these 3 blocks inside it: move, move, turn right."
+      other1StarError:
+        # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
         'maze_2_14': "You need an \"if\" block inside a \"repeat\" block. If you're having trouble, try the previous level again to see how it worked."
       tooFewBlocksMsg:
         # Keyed by "#{game.name}_#{level.level_num}" with fallback "#{game.app}_#{level.level_num}"
