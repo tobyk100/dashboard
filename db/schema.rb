@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131029233853) do
+ActiveRecord::Schema.define(version: 20131107193049) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.integer  "lines",           default: 0, null: false
   end
 
+  add_index "activities", ["level_source_id"], name: "index_activities_on_level_source_id", using: :btree
   add_index "activities", ["user_id", "level_id"], name: "index_activities_on_user_id_and_level_id", using: :btree
 
   create_table "callouts", force: true do |t|
@@ -38,6 +39,8 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.string   "qtip_my"
   end
 
+  add_index "callouts", ["element_id"], name: "index_callouts_on_element_id", length: {"element_id"=>255}, using: :btree
+
   create_table "concepts", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -45,10 +48,15 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.integer  "video_id"
   end
 
+  add_index "concepts", ["video_id"], name: "index_concepts_on_video_id", using: :btree
+
   create_table "concepts_levels", force: true do |t|
     t.integer "concept_id"
     t.integer "level_id"
   end
+
+  add_index "concepts_levels", ["concept_id"], name: "index_concepts_levels_on_concept_id", using: :btree
+  add_index "concepts_levels", ["level_id"], name: "index_concepts_levels_on_level_id", using: :btree
 
   create_table "followers", force: true do |t|
     t.integer  "user_id",         null: false
@@ -58,6 +66,7 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.integer  "section_id"
   end
 
+  add_index "followers", ["section_id"], name: "index_followers_on_section_id", using: :btree
   add_index "followers", ["student_user_id"], name: "index_followers_on_student_user_id", using: :btree
   add_index "followers", ["user_id", "student_user_id"], name: "index_followers_on_user_id_and_student_user_id", unique: true, using: :btree
 
@@ -68,6 +77,8 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.string   "app"
     t.integer  "intro_video_id"
   end
+
+  add_index "games", ["intro_video_id"], name: "index_games_on_intro_video_id", using: :btree
 
   create_table "level_sources", force: true do |t|
     t.integer  "level_id"
@@ -89,6 +100,8 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.string   "skin"
   end
 
+  add_index "levels", ["game_id"], name: "index_levels_on_game_id", using: :btree
+
   create_table "script_levels", force: true do |t|
     t.integer  "level_id",     null: false
     t.integer  "script_id",    null: false
@@ -98,6 +111,9 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.integer  "game_chapter"
   end
 
+  add_index "script_levels", ["level_id"], name: "index_script_levels_on_level_id", using: :btree
+  add_index "script_levels", ["script_id"], name: "index_script_levels_on_script_id", using: :btree
+
   create_table "scripts", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -106,6 +122,8 @@ ActiveRecord::Schema.define(version: 20131029233853) do
     t.boolean  "trophies",        default: false, null: false
     t.boolean  "hidden",          default: false, null: false
   end
+
+  add_index "scripts", ["wrapup_video_id"], name: "index_scripts_on_wrapup_video_id", using: :btree
 
   create_table "sections", force: true do |t|
     t.integer  "user_id",    null: false
