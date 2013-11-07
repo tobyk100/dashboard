@@ -7,7 +7,7 @@
   #warning-banner= t("compatability.upgrade")
 
 .navbar-static-top.header
-  .container
+  .container{style:(@full_width ? "width: 880px;" : "")}
     .navbar-header
       .row{style: "min-height:85px;"}
         .header_logo
@@ -16,53 +16,54 @@
         .header_middle
           - if @script_level
             .header_level
-              - script = @script || Script.twenty_hour_script
-              - count = @game.levels.count
-              - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
+              %span{class: "header_level_container"}
+                - script = @script || Script.twenty_hour_script
+                - count = @game.levels.count
+                - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
 
-              .header_text
-                -if (script.multiple_games?)
-                  #{t(:stage)} #{@game.id}:
-                = t(:puzzle)
-              - game_levels.each do |sl|
-                %a{href:build_script_level_path(sl)}
-                - result = 0
-                - if current_user
-                  - result = sl.user_level ? sl.user_level.best_result : 0
-                - elsif (session[:progress] && session[:progress][sl.level_id])
-                  - result = session[:progress][sl.level_id]
-                - passed = result >= Activity::MINIMUM_PASS_RESULT
+                .header_text
+                  -if (script.multiple_games?)
+                    #{t(:stage)} #{@game.id}:
+                  = t(:puzzle)
+                - game_levels.each do |sl|
+                  %a{href:build_script_level_path(sl)}
+                  - result = 0
+                  - if current_user
+                    - result = sl.user_level ? sl.user_level.best_result : 0
+                  - elsif (session[:progress] && session[:progress][sl.level_id])
+                    - result = session[:progress][sl.level_id]
+                  - passed = result >= Activity::MINIMUM_PASS_RESULT
 
-                - if sl.level_id == @script_level.level_id
-                  .level_current_header{class:"level_highlight"}
-                    = @script_level.game_chapter
-                - elsif (sl.game_chapter == count)
-                  %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                    = count
-                - else
-                  %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-              - if script.hoc?
-                .header_separator
-                .header_finished_link
-                  %a{href:"http://code.org/api/hour/finish"}
-                    = t('nav.header.finished_hoc')
-              - if script.trophies
-                - if current_user
-                  - progress = current_user.progress(script)
+                  - if sl.level_id == @script_level.level_id
+                    .level_current_header{class:"level_highlight"}
+                      = @script_level.game_chapter
+                  - elsif (sl.game_chapter == count)
+                    %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                      = count
+                  - else
+                    %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                - if script.hoc?
                   .header_separator
-                  %a.header_trophy_link{href:"#",onclick:"return handlePopupClick();"}
-                    .header_text= t(:trophies)
-                    .header_status_bar= progress['current_trophies']
-                    .header_text= "#{t(:of)} #{progress['max_trophies']}"
-                  .header_separator
-                  %a.header_popup_link{href:"#",onclick:"return handlePopupClick();"}
-                    .header_popup_link_glyph
-                      &#x25BC;
-                    .header_popup_link_text= t(:more)
-                - else
-                  .header_separator
-                  %a.header_finished_link{href:new_user_registration_path}
-                    = t('nav.header.sign_in_to_save')
+                  .header_finished_link
+                    %a{href:"http://code.org/api/hour/finish"}
+                      = t('nav.header.finished_hoc')
+                - if script.trophies
+                  - if current_user
+                    - progress = current_user.progress(script)
+                    .header_separator
+                    %a.header_trophy_link{href:"#",onclick:"return handlePopupClick();"}
+                      .header_text= t(:trophies)
+                      .header_status_bar= progress['current_trophies']
+                      .header_text= "#{t(:of)} #{progress['max_trophies']}"
+                    .header_separator
+                    %a.header_popup_link{href:"#",onclick:"return handlePopupClick();"}
+                      .header_popup_link_glyph
+                        &#x25BC;
+                      .header_popup_link_text= t(:more)
+                  - else
+                    .header_separator
+                    %a.header_finished_link{href:new_user_registration_path}
+                      = t('nav.header.sign_in_to_save')
 
         .header_user
           - if user_signed_in?

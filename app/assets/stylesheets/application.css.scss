@@ -350,20 +350,24 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 
 .header_middle {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
 }
 
 .header_level {
   position: relative;
-  left: -50%;
   padding-top: 28px;
   padding-bottom: 10px;
   text-align: center;
   font-size: 150%;
-  border-bottom: 1px solid $inset_color;
-  border-bottom-style: inset;
   cursor: default;
   white-space: nowrap;
+}
+
+.header_level_container {
+  border-bottom: 1px solid $inset_color;
+  border-bottom-style: inset;
+  padding-bottom: 12px;
 }
 
 .header_user {
