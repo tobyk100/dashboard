@@ -39,8 +39,6 @@ ActiveRecord::Schema.define(version: 20131107193049) do
     t.string   "qtip_my"
   end
 
-  add_index "callouts", ["element_id"], name: "index_callouts_on_element_id", length: {"element_id"=>255}, using: :btree
-
   create_table "concepts", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -167,8 +165,8 @@ ActiveRecord::Schema.define(version: 20131107193049) do
   add_index "user_trophies", ["user_id", "trophy_id", "concept_id"], name: "index_user_trophies_on_user_id_and_trophy_id_and_concept_id", unique: true, using: :btree
 
   create_table "users", force: true do |t|
-    t.string   "email",                               default: "",        null: false
-    t.string   "encrypted_password",                  default: "",        null: false
+    t.string   "email",                               default: "",      null: false
+    t.string   "encrypted_password",                  default: "",      null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -185,10 +183,10 @@ ActiveRecord::Schema.define(version: 20131107193049) do
     t.boolean  "admin"
     t.string   "gender",                 limit: 1
     t.string   "name"
-    t.string   "locale",                 limit: 10,   default: "en-US",   null: false
+    t.string   "locale",                 limit: 10,   default: "en-US", null: false
     t.date     "birthday"
     t.string   "parent_email"
-    t.string   "user_type",              limit: 16,   default: "student"
+    t.string   "user_type",              limit: 16
     t.string   "school"
     t.string   "full_address",           limit: 1024
     t.string   "address"
@@ -197,7 +195,7 @@ ActiveRecord::Schema.define(version: 20131107193049) do
     t.string   "zip"
     t.float    "lat"
     t.float    "lon"
-    t.integer  "total_lines",                         default: 0,         null: false
+    t.integer  "total_lines",                         default: 0,       null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
