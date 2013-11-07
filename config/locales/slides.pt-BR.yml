@@ -3,77 +3,86 @@ pt-BR:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! I'm Tess, a software engineer at Google. Let's dive right into your first taste of programming."
+        text: Bem-vindo à sua primeira hora de código! Sou Tess, engenheira de software no Google. Vamos mergulhar logo em seu primeiro contato com a programação.
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: Estaremos usando Blockly, uma linguagem de programação visual onde você arrasta e solta blocos para escrever código.
       3:
         image: notes/hoc1_3.png
-        text: "Most programs are written with text, and under the hood of the blocks you'll be using is text as well."
+        text: A maioria dos programas são escritos com texto e sob o capô dos blocos que você estará usando será texto também.
       4:
         image: notes/hoc1_4.png
-        text: "You'll be learning the foundations to computer science, which is used to do so many cool things from creating phone apps to controlling the Mars rover."
+        text: Você vai aprender os fundamentos da ciência da computação, que é usado para fazer tantas coisas legais, da criação de aplicações para telefone para controlar o Mars rover.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: Um programa é um conjunto de instruções para o seu computador seguir.
       6:
         image: notes/hoc1_6.png
-        text: "We'll be writing programs that get an angry bird through a maze to the bad piggie."
+        text: Nós vamos escrever programas que levará um pássaro irritado através de um labirinto até o piggie ruim.
       7:
         image: notes/hoc1_7.png
-        text: In Blocky, the left side is the maze where your program will run. The instructions for each puzzle are written below the maze.
+        text: Em Blocky, o lado esquerdo é o labirinto onde o programa será executado. As instruções para cada enigma são escritas abaixo do labirinto.
       8:
         image: notes/hoc1_8.png
-        text: "The middle is the toolbox which has the commands that the bird understands. You'll use these blocks to build your code."
+        text: O meio é a caixa de ferramentas que tem os comandos que o pássaro entende. Você vai usar esses blocos para construir o seu código.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag and drop blocks from the toolbox to build your program. And the trash is in the upper right-hand corner if you ever want to delete a block."
+        text: À direita é o seu espaço de trabalho onde você vai arrastar e soltar blocos da caixa de ferramentas para construir o seu programa. E o lixo que está no canto superior direito se você quiser excluir um bloco.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block out to your workspace and press "Run Program", the bird moves forward one space on the maze.
+        text: Cada bloco é uma instrução. Se você arrastar um bloco "Avançar" a sua área de trabalho e pressione "Executar programa", o pássaro se move para a frente um espaço no labirinto.
       11:
         image: notes/hoc1_11.png
-        text: If you want your bird to do more than one action, drag out another block to your workspace and wait until the orange arrow appears. When you press the "Run Program" button, the bird will do the commands on the workspace from top to bottom. The command that the bird is currently doing on the maze will be highlighted on the workspace.
+        text: Se você quer que seu pássaro faça mais de uma ação, arraste outro bloco para a sua área de trabalho e aguarde até aparece a seta laranja. Quando você pressionar o botão "Executar programa", o pássaro vai fazer os comandos no espaço de trabalho de cima para baixo. O comando que o pássaro está fazendo atualmente no labirinto será destacado na área de trabalho.
       12:
         image: notes/hoc1_12.png
-        text: If you run a program and want to fix it and try again, press the "Reset" button.
+        text: Se você executa um programa e quer corrigi-lo e tentar novamente, pressione o botão "Refazer".
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: Vamos pegar esses porcos!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas em breve!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas em breve!
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops."
+        text: Olá, sou Mark! Vamos aprender sobre ciclos.
       2:
         image: notes/hoc2_2.png
-        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+        text: Neste quebra-cabeça, queremos fazer o pássaro avançar 5 espaços para chegar ao porco.
       3:
         image: notes/hoc2_3.png
-        text: And we can use the new "repeat" block which is called a loop to help us out.
+        text: E podemos usar o novo bloco "repetir" que é um ciclo para nos ajudar.
       4:
         image: notes/hoc2_4.png
-        text: Instead of dragging out 5 "move forward" blocks...
+        text: Em vez de arrastar 5 blocos "Avançar"...
       5:
         image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+        text: Podemos colocar o bloco "Avançar" dentro do bloco "repetir" e escrever um número no bloco para dizer quantas vezes repetir.
       6:
         image: notes/hoc2_6.png
-        text: And you can put more than one command inside a "repeat" block.
+        text: E você pode colocar mais de um comando dentro de um bloco "repetir".
       7:
         image: notes/hoc2_7.png
-        text: Enjoy using your new "repeat" block!
+        text: Aproveite o uso do seu novo bloco "repetir"!
     loop_until:
       1:
-        image: notes/bird.png
-        text: Show notes coming soon!
+        image: notes/hoc3_1.png
+        text: Oi, sou a Sara. Vamos experimentar o nosso novo bloco chamado o bloco "repetir até que".
+      2:
+        image: notes/hoc3_2.png
+        text: "What if we didn't know how many spaces the bird had to move to get to the pig?"
+      3:
+        image: notes/hoc3_3.png
+        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward until it reaches the pig or crashes into a wall.
+      4:
+        image: notes/hoc3_4.png
+        text: And just like the "repeat times" block, we can put multiple blocks inside the "repeat until" block and the bird will repeat those commands over and over again until it reaches the pig or crashes into a wall.
     if:
       1:
         image: notes/hoc4_1.png
@@ -100,29 +109,47 @@ pt-BR:
         text: Have fun using the "if" block!
     if_else:
       1:
-        image: notes/bird.png
-        text: Show notes coming soon!
+        image: notas/hoc3_1.png
+        text: Oi, meu nome é Saloni e estudo ciência da computação e como se aplica a saúde. Vamos aprender sobre o bloco "IF ELSE". Semelhante ao bloco "IF", mas tem uma parte extra no final que diz "senão".
+      2:
+        image: notas/hoc3_1.png
+        text: Se eu colocar um bloco "Avançar" no local onde diz "fazer" e um bloco "Vire à esquerda" onde se diz "senão", isso significa que o zumbi vai escolher entre 2 opções. Se há um caminho pela frente, o zumbi vai avançar, e se não há um caminho em frente, o zumbi vai virar à esquerda.
+      3:
+        image: notas/hoc3_1.png
+        text: Como o bloco "IF", nós podemos usar blocos "IF ELSE" dentro de um bloco "repetição" para que o zumbi continue se movendo para a frente no caminho e o bloco "IF ELSE" irá manter a verificação se há algum lugar para virar.
+      4:
+        image: notas/hoc3_1.png
+        text: Agora coloque os zumbis onde eles devem ficar!
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas aparecerá em breve!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas aparecerá em breve!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas aparecerá em breve!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas aparecerá em breve!
     hoc_wrapup:
       1:
-        image: notes/bird.png
-        text: Show notes coming soon!
+        image: notas/hoc3_1.png
+        text: Parabéns! Com o último quebra-cabeça resolvido, você acabou de escrever o código que pode dizer a qualquer robô como encontrar o seu caminho através de um labirinto sem ramificação ou túnel de qualquer complexidade ou qualquer comprimento, seja um zumbi, um pássaro, uma missão a Marte ou até mesmo um carro sem motorista.
+      2:
+        image: notas/hoc3_1.png
+        text: "The basic concepts you just learned are at the heart of virtually every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and the if else block."
+      3:
+        image: notas/hoc3_1.png
+        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+      4:
+        image: notes/hoc6_4.png
+        text: "A tecnologia está mudando tudo o que fazemos e não importa se você é jovem ou velho: programação é divertido, é criativo, e qualquer um pode aprender!"
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas aparecerá em breve!
