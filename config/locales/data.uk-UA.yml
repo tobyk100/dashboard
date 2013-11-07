@@ -56,7 +56,7 @@ uk:
         maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
         maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite coloy by picking it in the new "set color" block.'
+        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
         turtle_1_3: Make a square using only 3 blocks.
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
