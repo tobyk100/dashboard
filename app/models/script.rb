@@ -3,7 +3,7 @@ class Script < ActiveRecord::Base
   has_many :script_levels
   belongs_to :wrapup_video, foreign_key: 'wrapup_video_id', class_name: 'Video'
 
-  TWENTY_HOUR_ID = 2
+  TWENTY_HOUR_ID = 1
   HOC_ID = 2
 
   def self.twenty_hour_script

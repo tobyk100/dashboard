@@ -1,30 +1,11 @@
-- script_levels = user.levels_from_script(Script.twenty_hour_script)
-- concept_progress = user.concept_progress
+- script = @script || Script.twenty_hour_script
+- script_levels = user ? user.levels_from_script(Script.twenty_hour_script) : script.script_levels
+- concept_progress = user ? user.concept_progress : nil
 
-%div{style:"display:inline-block;width:290px;position:relative;overflow:hidden;float:left;"}
-  %h4 #{t('nav.popup.mastery')}
+-if (!defined? trophies_on_right) || !trophies_on_right
+  =render partial: 'shared/concept_trophy_block', locals: { concept_progress: concept_progress, user: user, added_style: 'padding-right:10px;' }
 
-  %table{style:"max-width:290px;"}
-    - concept_progress.each_pair do |concept, counts|
-    - completion = counts[:current].to_f/counts[:max]
-      %tr{ height:"55px"}
-        %td{width:"100px"}
-          #{data_t('concept.description', concept.name)}:
-        %td{width:"55px", style:"text-align:center;"}
-          = image_tag bronze_fraction_image_path(completion), class: "trophy_image"
-        %td{width:"55px", style:"text-align:center;"}
-          = image_tag silver_fraction_image_path(completion), class: "trophy_image"
-        %td{width:"55px", style:"text-align:center;"}
-          = image_tag gold_fraction_image_path(completion), class: "trophy_image"
-        <!-- #{counts} -->
-  - if user == current_user
-    .stage_separator
-    .prize_msg
-      #{t('nav.popup.prizes', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
-      <br>
-      =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'
-
-%div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;margin-left:10px;"}
+%div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;"}
   %h4 #{t('nav.popup.puzzle_map')}
 
   - current_game = 0
@@ -38,12 +19,14 @@
         #{data_t('game.name', sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
 
-    - best_result = sl.user_level ? sl.user_level.best_result : 0
     - link = build_script_level_path(sl)
 
-    - if best_result >= Activity::MINIMUM_PASS_RESULT
+    - if level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
       %a{ href: link, class: "level_link level_link_done"}
         = check_mark_html
-    -else
+    - else
       %a{ href: link, class: "level_link"}
         #{current_game_chapter}
+
+-if (defined? trophies_on_right) && trophies_on_right
+  =render partial: 'shared/concept_trophy_block', locals: { concept_progress: concept_progress, user: user, added_style: 'padding-left:30px;' }
