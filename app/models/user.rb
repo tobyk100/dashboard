@@ -190,4 +190,11 @@ SQL
   def locale
     read_attribute(:locale).try(:to_sym)
   end
+
+  def writable_by?(other_user)
+    return true if other_user == self
+    return true if other_user.admin?
+    return true if self.email.blank? && self.teachers.include?(other_user)
+    false
+  end
 end

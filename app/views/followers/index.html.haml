@@ -58,7 +58,7 @@
             %th{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis;padding-left: 5px;"}= section.try(:name) || "No assigned section"
           - students.each do |student|
             %tr.report_row
-              %td{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis;padding-left: 5px;"}= link_to "#{student.name} (#{student.username})", user_stats_path(student)
+              %td.fixed_width_cell= link_to "#{student.name} (#{student.username})", user_stats_path(student)
 
           - if section
             %tr.report_row

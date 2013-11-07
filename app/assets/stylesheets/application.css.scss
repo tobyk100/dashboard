@@ -610,3 +610,10 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 .quiet_links {
   a:link { font-weight: normal; }
 }
+
+.fixed_width_cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  padding-left: 5px;
+}
