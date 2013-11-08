@@ -5,16 +5,16 @@
     %div{ style: 'position:relative;top:3px;'}
       .user_options{style: 'display: none;'}
         - if current_user.teacher?
-          = link_to t('nav.user.classroom'), followers_path
+          = link_to t('nav.user.classroom'), followers_url
           %hr
-        = link_to t('nav.user.stats'), root_path
+        = link_to t('nav.user.stats'), root_url
         %br/
-        = link_to t('nav.user.settings'), edit_user_registration_path
+        = link_to t('nav.user.settings'), edit_user_registration_url
         %br/
         = link_to t('nav.user.prizes'), 'http://code.org/prize'
         %br/
-        = link_to t('nav.user.logout'), destroy_user_session_path, method: :delete
+        = link_to t('nav.user.logout'), destroy_user_session_url, method: :delete
 - else
-  = link_to t('nav.user.signup'), new_user_registration_path
+  = link_to t('nav.user.signup'), new_user_registration_url
   |
-  = link_to t('nav.user.signin'), new_user_session_path
+  = link_to t('nav.user.signin'), new_user_session_url
