@@ -2,7 +2,7 @@ pt-BR:
   data:
     script:
       name:
-        20-hour: K-8 Introdução ao curso de ciência da computação
+        20-hour: Introdução ao curso de ciência da computação para primeira a nona série.
         Hour of Code: Hora do código
         Edit Code: Editar o código
     game:
@@ -25,8 +25,8 @@ pt-BR:
     concept:
       description:
         sequence: Sequência
-        if: Bloco "If"
-        if_else: Bloco "If-Else"
+        if: Bloco "Se"
+        if_else: Bloco "se-senão"
         loop_times: Repetir o bloco por um determinado número de vezes
         loop_until: Repetir um bloco até satisfazer uma condição
         loop_while: Repetir um bloco enquanto uma condição é verdadeira
@@ -40,25 +40,25 @@ pt-BR:
         maze_2_2_5: Como devo chegar ao porco verde? (Cuidado com a dinamite)
         maze_2_3: Como devo chegar ao porco verde? (Cuidado com a dinamite)
         maze_2_4: "Aff! Escreva um programa que me leva ao redor da dinamite para o porco verde. "
-        maze_2_5: Há uma maneira de chegar ao porco verde usando apenas a 2 blocos. Você consegue fazer isso?
-        maze_2_6: Tente me levar ao porco verde usando apenas a três blocos.
+        maze_2_5: Há uma maneira de chegar ao porco verde usando apenas 2 blocos. Você consegue fazer isso?
+        maze_2_6: Tente me levar ao porco verde usando apenas três blocos.
         maze_2_7: Escreva-me um programa para que eu possa ir até o porco verde usando o menor número de blocos. Tente usar mais de um bloco "repetir vezes".
         maze_2_8: 'Para resolver este, tente um bloco "repetir" com estes 3 blocos no seu interior: andar, andar, vire.'
         maze_2_9: 'Ok, tente o novo bloco "repetir até que" - ele irá repetir até que eu alcance o porco verde.'
         maze_2_10: "Ok, pratique mais uma vez - você pode resolver isto usando apenas 4 blocos?"
         maze_2_11: "Pessoa querida.  Mim zumbi. Mim com fome. Devo... chegar... no girassol... Me ajude a chegar lá com apenas 5 blocos?"
         maze_2_12: Ok, isto é semelhante, mas ligeiramente diferente. Você pode fazê-lo em apenas 5 blocos?
-        maze_2_13: 'Use o novo bloco "IF" para me deixar decidir quando virar. Dica: você só precisa de mais um bloco, mas aprenda como podemos configurá-lo, então você mesmo poderá fazê-lo na próxima vez.'
-        maze_2_14: Ok, isso é apenas como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco "IF" e o bloco "repetir" juntos.
-        maze_2_15: Eu quero o girassol! Use um bloco "IF" para obter com o menor número de blocos.
+        maze_2_13: 'Use o novo bloco "SE" para me deixar decidir quando virar. Dica: você só precisa de mais um bloco, mas aprenda como podemos configurá-lo, então você mesmo poderá fazê-lo na próxima vez.'
+        maze_2_14: Ok, isso é apenas como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco "SE" e o bloco "repetir" juntos.
+        maze_2_15: Eu quero o girassol! Use um bloco "SE" para obter com o menor número de blocos.
         maze_2_16: 'Ok, vamos fazer isto novamente para praticar - isso não é muito diferente, mas fique de olho nos "chompers"!'
         maze_2_17: Os blocos "se-caso contrário" verificam uma condição, e em seguida, fazem uma coisa ou outra. Para me levar ao girassol tente usar este novo bloco.
         maze_2_18: Mais uma prática do bloco "se-caso contrário", você consegue na primeira tentativa?
         maze_2_19: Você pode adicionar apenas 3 blocos para me ajudar a resolver um labirinto mais complexo? Se você fizer isso direito, eu posso andar qualquer caminho cheio de curvas, não importa o comprimento.
-        turtle_1_1: Oi, eu sou um artista. Você pode escrever código para fazer-me desenhar quase tudo. Use alguns blcos para me fazer desenhar as linhas de cinza na imagem.
+        turtle_1_1: Oi, eu sou um artista. Você pode escrever código para fazer-me desenhar quase tudo. Use alguns blocos para me fazer desenhar as linhas de cinza na imagem.
         turtle_1_2: 'Agora, desenhe um quadrado. NOTA: use a sua cor preferida pegando-a no novo bloco "definir cor".'
         turtle_1_3: Faça um quadrado usando apenas 3 blocos.
-        turtle_1_4: 'Desenhe um triângulo cujos lados são todos em cores diferentes, usando a opção "cor aleatória" que escolhe uma cor diferente cada vez que é execultado. Dica: você terá que descobrir até onde girar  clicando no número do bloco de girar.'
+        turtle_1_4: 'Desenhe um triângulo cujos lados são todos em cores diferentes, usando a opção "cor aleatória" que escolhe uma cor diferente cada vez que é executado. Dica: você terá que descobrir até onde girar clicando no número do bloco de girar.'
         turtle_1_5: Agora, para praticar, desenhe um triângulo e, em seguida, um quadrado para desenhar um envelope.
         turtle_1_6: "você consegue descobrir como desenhar esse triângulo e esse quadrado? Dica: Faça o triângulo primeiro e, em seguida, descubra o quanto virar antes de desenhar o quadrado."
         turtle_1_7: "Ok, vamos dificultar um pouco - veja se você pode desenhar esses óculos verdes. Os quadrados tem 100 pixels de cada lado, e eles são separados por 50 pixels. Não se esqueça de desenhar com a cor verde!"
@@ -97,7 +97,7 @@ pt-BR:
         maze_karel_2_4: Defina uma nova função que remova 7 pás. Em seguida, use-a para escrever um programa que me ajude a remover todas as pilhas de terra.
         maze_karel_2_5: Crie uma nova função que remove 6 pás de uma pilha e use-a para me ajudar a nivelar todas as pilhas.
         maze_karel_2_6: Usar duas novas funções, "preencher 8" e "remover 8", para ajudar-me a nivelar a pilha e preencher o buraco.
-        maze_karel_2_7: Há uma vaca no meu campo! Escreva uma nova função que me ajuda a evitar a vaca e remover a pilha. Coloca todos os seus blocos dentro da nova função.
+        maze_karel_2_7: Há uma vaca no meu campo! Escreva uma nova função que me ajuda a evitar a vaca e remover a pilha. Coloque todos os seus blocos dentro da nova função.
         maze_karel_2_8: Use esta nova função, "evitar a vaca e remover 1", para me ajudar a remover todas as pilhas.
         maze_karel_2_9: Ok, aqui está uma função que remove 4 pilhas diferentes de terra em uma coluna vertical. Tente colocar essa função dentro de um laço, para que você remova todas as pilhas de terra usando apenas alguns blocos novos.
         maze_karel_2_10: Mover-me através do campo e usar essas duas funções para me ajudar a remover todas as pilhas e preencher todos os buracos.
@@ -123,7 +123,9 @@ pt-BR:
         turtle_5_1: Aproveite este momento para desenhar o que você tiver vontade! Se você não conseguir pensar em nada, pergunte a pessoa ao seu lado, ela pode te dar uma sugestão!
       levelIncompleteError:
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos no seu interior:  mover, mover, vire à direita.'
-        maze_2_14: Você precisa de um bloco "se" dentro de um bloco "repetir". Se você está tendo problemas, tente o nível anterior novamente para ver como funcionava.
+      other1StarError:
+        maze_2_14: |-
+          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver isto, encontre o padrão que se repete. Utilize um bloco "repetir" com estes 3 blocos dentro dele: "mover", "mover" e "virar à direita".'
     video:
@@ -139,5 +141,5 @@ pt-BR:
         loop_while: Bloco "Enquanto"
         loop_for: Bloco "contador"
         parameters: Funções com parâmetros
-        hoc_wrapup: Hora de código embrulhado
+        hoc_wrapup: Finalizando a Hora de Código
         20_wrapup: Concluindo as 20-horas

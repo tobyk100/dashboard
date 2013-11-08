@@ -123,7 +123,9 @@ es-ES:
         turtle_5_1: ¡Aprovecha este momento para dibujar lo que quieras! Si no puedes pensar en nada, pídele a la persona a tu lado una sugerencia!
       levelIncompleteError:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
-        maze_2_14: Necesitas un bloque "si" dentro de un bloque "repetir". Si tienes problemas, prueba el nivel anterior otra vez para ver cómo funcionaba.
+      other1StarError:
+        maze_2_14: |-
+          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
     video:

@@ -26,8 +26,9 @@ es-ES:
   more: MÁS
   less: MENOS
   try_hoc: "Prueba la Hora del Código, haz clic aquí >> "
+  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "¿Ya empezaste? Reanudar aquí >> "
-  demos: Demostraciones
+  demos: "Admin: All Demos"
   continue: Continuar
   prize: prize
   auth:

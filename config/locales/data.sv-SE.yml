@@ -135,6 +135,7 @@ sv-SE:
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+      other1StarError:
         maze_2_14: |-
           You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
       tooFewBlocksMsg:

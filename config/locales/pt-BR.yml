@@ -14,11 +14,11 @@ pt-BR:
   hello: Olá mundo
   add_teacher_form:
     code_or_email:
-      label: "Adicione um professor por código ou endereço de e-mail:"
-      placeholder: Código (ABCDEF) ou e-mail (teacher@school.edu)
+      label: "Adicione um professor por código ou endereço de email:"
+      placeholder: Código (ABCDEF) ou email (professor@escola.edu)
     submit: Adicionar professor
   appname: Code.org
-  stage: Estágio
+  stage: Fase
   puzzle: Quebra-cabeça
   trophies: Troféus
   courses: Cursos
@@ -26,8 +26,9 @@ pt-BR:
   more: MAIS
   less: MENOS
   try_hoc: "Experimente a Hora do Código, clique aqui >> "
+  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Já começou? Continue aqui >> "
-  demos: Demos
+  demos: "Admin: All Demos"
   continue: Continuar
   prize: prêmio
   auth:
@@ -35,7 +36,7 @@ pt-BR:
     signed_in: Inscrito!
     already_signedup: Já se inscreveu?
     notyet_signedup: Não se juntou ainda?
-    google_oauth2: Google +
+    google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
@@ -46,14 +47,14 @@ pt-BR:
     title: Inscreva-se
     school_name: Nome da escola (opcional)
     school_address: Endereço da escola (opcional)
-    address_placeholder: Endereço, cidade, estado, CEP
+    address_placeholder: logradouro, cidade, estado, CEP
     gender: Sexo (opcional)
     birthday: Aniversário (opcional)
     submit: Inscreva-se
     teacher: Você é um professor?
   signin_form:
     title: Entrar
-    login: E-mail ou nome de usuário
+    login: Email ou nome de usuário
     password: Senha
     remember: Lembrar de mim
     submit: Entrar
