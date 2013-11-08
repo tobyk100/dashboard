@@ -1,7 +1,7 @@
 - if current_user
   .row
     .span12
-      %h1 Welcome back, #{current_user.name}
+      %h1= t('welcome_back', name: current_user.name)
       %hr
 
       - if current_user.students.length > 0
