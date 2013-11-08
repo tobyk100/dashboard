@@ -2,27 +2,27 @@ tr:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: İsim
+        email: E-Posta
+        username: Kullanıcı Adı
+        password: Şifre
+        password_confirmation: Şifre Doğrulama
+        current_password: Geçerli Şifre
+        locale: Dil
+        gender: Cinsiyet
+        edit_header: Hesap Bilgilerini Düzenle
+  hello: Merhaba Dünya
+  welcome_back: "Hoş geldiniz % {name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"
       placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+    submit: Öğretmen Ekle
   appname: Code.org
   stage: Stage
-  puzzle: Puzzle
+  puzzle: Bulmaca
   trophies: Trophies
-  courses: Courses
+  courses: Kurslar
   of: of
   more: MORE
   less: LESS
@@ -30,45 +30,45 @@ tr:
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Continue
+  continue: Devam
   prize: prize
   auth:
     sign_in_with: "Sign in with %{provider}"
     signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
+    already_signedup: Zaten kayıtlı mısınız?
+    notyet_signedup: Henüz kaydolmadınız mı?
+    google_oauth2: Google +
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
+    forgot_password: Şifrenizi mi unuttunuz?
     need_confirmation: "Didn't receive confirmation instructions?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
+    title: Kaydol
+    school_name: Okul Adı (isteğe bağlı)
     school_address: School Address (optional)
     address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    gender: Cinsiyet (isteğe bağlı)
+    birthday: Doğum Günü (isteğe bağlı)
+    submit: Kaydol
+    teacher: Öğretmen misini?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Giriş Yap
+    login: Kullanıcı adınız veya e-posta
+    password: Şifre
+    remember: Beni hatırla
+    submit: Giriş Yap
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
+      title: Şifrenizi mi unuttunuz?
+      email: E-posta adresi
       submit: Send me reset password instructions
     change_form:
       title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      new_password: Yeni şifre
+      confirm_password: Yeni şifreyi doğrula
+      submit: Şifremi değiştir
   welcome_email:
     subject: Join my class (on Code.org)
     body: |
@@ -80,7 +80,7 @@ tr:
       
       %{name}
   follower:
-    invite_sent: Invite sent
+    invite_sent: Davetiye gönderildi
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
@@ -97,12 +97,12 @@ tr:
   crud:
     new_model: "New %{model}"
     show: Show
-    edit: Edit
+    edit: Düzenle
     edit_model: "Edit %{model}"
-    update: Update
+    update: Güncelle
     destroy: Destroy
-    back: Back
-    confirm: Are you sure?
+    back: Geri
+    confirm: Emin misiniz?
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
@@ -110,18 +110,18 @@ tr:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: Sign in to save progress
     user:
-      classroom: My students
-      label: "Hi %{username}"
+      classroom: Öğrencilerim
+      label: "Merhaba % {username}"
       stats: My progress
-      settings: My account
+      settings: Hesabım
       prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      logout: Çıkış Yap
+      signin: Giriş Yap
+      signup: Kaydol
     popup:
       progress: Your progress
       lines: "Total lines of code: %{lines}"
-      close: CLOSE
+      close: KAPAT
       mastery: Concepts
       puzzle_map: Stages
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
@@ -130,10 +130,10 @@ tr:
     title:
       one: "Your teacher is %{name}"
       other: "Your teachers:"
-    tools: Teacher Tools
+    tools: Öğretmen Araçları
     students:
       manage: Manage students
-      add: Add students
+      add: Öğrenciler Ekle
     rollup: Progress Dashboard
     activity: Recent class activity
   user:
@@ -144,19 +144,19 @@ tr:
       hint: Unhappy?
       button: Cancel my account
   user_level:
-    completed: Completed
+    completed: Tamamlandı
     tried: Tried
   user_stats:
     recent_activity: Recent activity
     show_more: Show more
   home:
     signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
+    student_reg_link: "Öğrenciler - buradan başlayın"
+    teacher_reg_link: "Öğretmenler - buradan başlayın"
     teacher_dashboard: See progress dashboard
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
+    classroom: Sınıfınız
     student_progress: Your progress as a student
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
@@ -175,12 +175,12 @@ tr:
     translate: Help us translate to your language
     tos: Terms of service
   reference_area:
-    title: Need help?
+    title: Yardım ister misiniz?
     subtitle: See these videos and hints
   video:
     tab: Video.
-    notes: No video? Show notes.
+    notes: Video yok? Notları göster.
     autoplay_option: Autoplay videos
   compatability:
     working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    upgrade: Lütfen tarayıcınızı yükseltin.
