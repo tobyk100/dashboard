@@ -12,6 +12,7 @@ ar:
         gender: Gender
         edit_header: Edit Account Details
   hello: Hello world
+  welcome_back: "Welcome back, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"

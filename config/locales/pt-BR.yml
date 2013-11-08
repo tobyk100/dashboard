@@ -12,6 +12,7 @@ pt-BR:
         gender: Sexo
         edit_header: Editar detalhes da conta
   hello: Olá mundo
+  welcome_back: "Welcome back, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Adicione um professor por código ou endereço de email:"
@@ -26,9 +27,9 @@ pt-BR:
   more: MAIS
   less: MENOS
   try_hoc: "Experimente a Hora do Código, clique aqui >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
+  try_k8intro: Ou, tente nossa Introdução para o Ensino Fundamental ao Curso de Ciência da Computação (15-25 horas)
   already_started: "Já começou? Continue aqui >> "
-  demos: "Admin: All Demos"
+  demos: "Administrar: Todas as Demonstrações"
   continue: Continuar
   prize: prêmio
   auth:

@@ -124,8 +124,7 @@ pt-BR:
       levelIncompleteError:
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos no seu interior:  mover, mover, vire à direita.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: Você precisa de um bloco "se" dentro de um bloco "repetir". Se você está tendo problemas, tente o nível anterior novamente para ver como funcionava.
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver isto, encontre o padrão que se repete. Utilize um bloco "repetir" com estes 3 blocos dentro dele: "mover", "mover" e "virar à direita".'
     video:
