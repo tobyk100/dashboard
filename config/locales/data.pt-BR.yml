@@ -93,7 +93,7 @@ pt-BR:
         turtle_2_10: "Aqui está algum código para vocêr experimentar em diferentes espirais.  O que acontece se você alterar a quantidade de voltas? Ou definir uma cor aleatória no laço?  Desenhe o que você quiser."
         maze_karel_2_1: "Tente usar os blocos para me ajudar a remover todas as pilhas de terra e preencha todos os buracos no chão. Tente usar laços ao invés de usar muitos blocos. Dica: você pode colocar um laço dentro de outro laço."
         maze_karel_2_2: Definimos nosso próprio bloco chamado "encher 5", que agora está na categoria de Funções. Use-o para me ajudar a preencher esse buraco.
-        maze_karel_2_3: Use o novo bloco de funções "encher 5" para me fazer preencher todos os buracos. Você terá que arrastar bloco "encher 5" para fora da categoria de Funções.
+        maze_karel_2_3: Use o novo bloco de função "preencher 5"para fazer-me preencher todos os buracos. Você terá que arrastar o bloco "preencher 5" para fora da categoria de funções.
         maze_karel_2_4: Defina uma nova função que remova 7 pás. Em seguida, use-a para escrever um programa que me ajude a remover todas as pilhas de terra.
         maze_karel_2_5: Crie uma nova função que remove 6 pás de uma pilha e use-a para me ajudar a nivelar todas as pilhas.
         maze_karel_2_6: Usar duas novas funções, "preencher 8" e "remover 8", para ajudar-me a nivelar a pilha e preencher o buraco.
