@@ -6,181 +6,180 @@ sv-SE:
         email: E-post
         username: Användarnamn
         password: Lösenord
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        password_confirmation: Lösenordsbekräftelse
+        current_password: Nuvarande lösenord
+        locale: språk
+        gender: Kön
+        edit_header: Redigera kontouppgifter
+  hello: Hej världen
+  welcome_back: "Välkommen tillbaka, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Lägga till en lärare med kod eller e-postadress:"
+      placeholder: Kod (ABCDEF) eller e-post (lärare@skola.se)
+    submit: Lägg till lärare
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: nivå
+  puzzle: Pussel
+  trophies: troféer
+  courses: kurser
+  of: av
+  more: MER
+  less: MINDRE
+  try_hoc: "Prova programmeringstimmen, klicka här >> "
+  try_k8intro: "Eller prova vår grundskolekurs: Introduktion till Datavetenskap (15-25 timmar)"
+  already_started: "Redan börjat? Fortsätt här >> "
+  demos: "Admin: Alla Demos"
+  continue: Fortsätt
+  prize: pris
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    sign_in_with: "Logga in med %{provider}"
+    signed_in: Inloggad!
+    already_signedup: Redan registrerad?
+    notyet_signedup: Har du inte gått ännu?
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Glömt ditt lösenord?
+    need_confirmation: Har du inte fått bekräftelseinstruktioner?
+    need_unlock: har du inte fått upplåsningsinstruktioner?
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: Registrera dig
+    school_name: Skolans namn (valfritt)
+    school_address: Skolans adress (valfritt)
+    address_placeholder: adress, stad, län, postnummer
+    gender: Kön (valfritt)
+    birthday: Födelsedag (valfritt)
+    submit: Registrera dig
+    teacher: Är du en lärare?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Logga in
+    login: E-post eller användarnamn
+    password: Lösenord
+    remember: Kom ihåg mig
+    submit: Logga in
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Glömt ditt lösenord?
+      email: E-postadress
+      submit: Skicka "byta lösenord"-instruktioner till mig
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Ändra ditt lösenord
+      new_password: Nytt lösenord
+      confirm_password: Bekräfta nytt lösenord
+      submit: Ändra mitt lösenord
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Gå med i min klass (på Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Klicka på länken nedan för att registrera dig för datavetenskapskurser på Code.org (med mig som din "lärare"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Kurserna är roliga, visuellt engagerande, och lär ut grundläggande koncepten inom datavetenskap med en enkel, guidad, spel-liknande upplevelse. Lär dig att programmera från Bill Gates, Mark Zuckerberg, Angry Birds, och Plants vs Zombies! :)
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Inbjuda skickades
+    added_teacher: "%{name} är tillagd som din lärare"
+    registered: "Du har registrerat för %{section_name}. Vänligen logga in för att fortsätta"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Vänligen logga ut innan du fortsätter
+      username_not_found: "Användarnamnet %{username} hittades inte"
+      username_in_use: "%{username} används redan, vänligen välj ett annat"
+      no_teacher: "Kunde inte hitta någon inloggad med '%{teacher_email_or_code}'. Vänligen be dem att registrera sig här och försök sedan lägga till dem igen"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Gå med i en klass med %{teacher_name} på Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Du har inte tillgång till denna personens uppgifter
   crud:
-    new_model: "New %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Ny %{model}"
+    show: Visa
+    edit: Redigera
+    edit_model: "Redigera %{model}"
+    update: Uppdatering
+    destroy: Förstöra
+    back: Tillbaka
+    confirm: Är du säker?
+    created: "%{model} har skapats."
+    updated: "%{model} har uppdaterats."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: Jag är klar med min Timme med Kod
+      sign_in_to_save: Logga in för att spara framsteg
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      classroom: Mina elever
+      label: "Hej %{username}"
+      stats: Mina framsteg
+      settings: Mitt konto
+      prizes: Priser
+      logout: Logga ut
+      signin: Logga in
+      signup: Registrera dig
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: Dina framsteg
+      lines: "Totalt antal rader kod: %{lines}"
+      close: STÄNG
+      mastery: koncept
+      puzzle_map: Nivåer
+      prizes: "Samla in alla %{total_trophies} troféer och vinn priser!"
+      prizes_link: Mer information
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "Din lärare är %{name}"
+      other: "Dina lärare:"
+    tools: Lärar-verktyg
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: Hantera elever
+      add: Lägg till elever
+    rollup: Framstegsmeny
+    activity: Senaste klasshändelserna
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (lämna tomt om du inte vill ändra det)
+    current_password_hint: (vi behöver ditt nuvarande lösenord att bekräfta dina ändringar)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: Ta bort mitt konto
+      hint: Missnöjd?
+      button: Ta bort mitt konto
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: Avklarade
+    tried: Försökte
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: Senaste händelserna
+    show_more: Visa mer
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    signin_message: "eller om du redan är registrerad %{link}"
+    student_reg_link: "Elever - börja här"
+    teacher_reg_link: "Lärare - börja här"
+    teacher_dashboard: Se framstegs-menyn
+    teacher_student_count: "Du har %{count} elever."
+    teacher_averages: 'Eleverna har i genomsnitt samlat %{trophy_average} av %{trophy_max} "Koncept-bemästring" troféer.'
+    classroom: Ditt klassrum
+    student_progress: Dina framsteg som elev
+    student_stats: 'Du har samlat %{trophy_count} av %{trophy_max} "Koncept-bemästring" troféer.'
+    student_left_off: "Där du slutade senast:"
+    student_finished: "Du har slutfört alla övningar, få ditt %{prize_link} och välj en annan klass %{online_link} eller på en %{local_school_link}"
+    local_school: närliggande skola
+    online: Online
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: Man
+    female: Kvinna
+    none: Föredrar att inte svara
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Ingenjörer från <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> och <a href="http://www.twitter.com"> Twitter</a> har hjälpt till att skapa dessa kurser.'
+    art_from_html: 'Illustrationer från <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a>, och <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: Ge feedback
+    translate: Hjälp oss översätta till ditt språk
+    tos: Användarvillkor
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: Behöver du hjälp?
+    subtitle: Se dessa filmer och tips
   video:
     tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    notes: Ingen video? Visa anteckningar.
+    autoplay_option: spela upp automatiskt
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: Vi arbetar för stöd till din webbläsare.
+    upgrade: Du måste uppgradera din webbläsare.

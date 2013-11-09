@@ -2,90 +2,91 @@ ar:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: الاسم
+        email: البريد الإلكتروني
+        username: اسم المستخدم
+        password: كلمة المرور
+        password_confirmation: تأكيد كلمة المرور
+        current_password: كلمة المرور الحالية
+        locale: اللغة
+        gender: الجنس
+        edit_header: تعديل تفاصيل الحساب
+  hello: مرحباً بالعالم
+  welcome_back: "أهلا بكم من جديد, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "إضافة معلم عن طريق الرمز أو البريد الإلكتروني:"
+      placeholder: الرمز (ABCDEF) أو البريد الإلكتروني (teacher@school.edu)
+    submit: إضافة معلم
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
+  stage: المرحلة
+  puzzle: لغز
   trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
+  courses: دورات تدريبية
+  of: من
+  more: أكثر
+  less: أقل
+  try_hoc: "قم بتجربة ساعة من البرمجة, انقر هنا>> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
+  already_started: "بدأت بالفعل؟ اكمل من هنا >> "
   demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  continue: إستمرار
+  prize: جائزة
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
+    sign_in_with: "تسجيل الدخول باستخدام %{provider}"
+    signed_in: تم تسجيل الدخول!
+    already_signedup: قمت بالتسجيل مسبقاً؟
+    notyet_signedup: لم تنضم إلينا بعد؟
+    google_oauth2: جوجل+
+    twitter: تويتر
+    facebook: فيس بوك
+    windowslive: ويندوز لايف
+    forgot_password: نسيت كلمة المرور؟
+    need_confirmation: لم تتلقى تعليمات تأكيد حسابك؟
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: تسجيل
+    school_name: اسم المدرسة (اختياري)
+    school_address: عنوان المدرسة (اختياري)
+    address_placeholder: العنوان، المدينة، الدولة، الرمز البريدي
+    gender: الجنس (اختياري)
+    birthday: تاريخ الميلاد (اختياري)
+    submit: تسجيل
+    teacher: هل أنت معلم؟
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: تسجيل الدخول
+    login: البريد الإلكتروني أو اسم المستخدم
+    password: كلمة المرور
+    remember: تذكرني
+    submit: تسجيل الدخول
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: نسيت كلمة المرور؟
+      email: البريد الإلكتروني
+      submit: أرسل لي إرشادات إعادة تعيين كلمة المرور
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: تغيير كلمة المرور الخاصة بك
+      new_password: كلمة مرور جديدة
+      confirm_password: تأكيد كلمة المرور الجديدة
+      submit: تغيير كلمة المرور الخاصة بي
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: أنضم إلى صفي (في Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      انقر على الرابط أدناه للتسجيل في دروس علوم الحاسب في Code.org (معي كـ "معلمك"): 
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      
+      الدروس ممتعة، المتعة البصرية، وتعلم المفاهيم الأساسية لعلوم الحاسب الآلي باستخدام تجربة بسيطة، المصحوبة بمرشدين، والشبيهة بالألعاب. تعلم البرمجة من بيل جيتس ومارك زوكربيرج، الطيور الغاضبة والنباتات ضد الزومبيز! :-)
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
+    invite_sent: تم إرسال الدعوة
+    added_teacher: "%{name} قام بإضافتك كـ معلمه الخاص"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
+      signed_in: من فضلك قم بتسجيل الخروج قبل المتابعة
+      username_not_found: "لم يتم العثور على اسم المستخدم %{username}"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
@@ -93,16 +94,16 @@ ar:
         subject: "Join a class with %{teacher_name} at Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم
   crud:
-    new_model: "New %{model}"
+    new_model: "جديد %{model}"
     show: Show
     edit: Edit
     edit_model: "Edit %{model}"
-    update: Update
+    update: تحديث
     destroy: Destroy
     back: Back
-    confirm: Are you sure?
+    confirm: هل أنت متأكد؟
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
@@ -110,49 +111,49 @@ ar:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: Sign in to save progress
     user:
-      classroom: My students
-      label: "Hi %{username}"
+      classroom: طلابي
+      label: "مرحباً %{username}"
       stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      settings: حسابي
+      prizes: الجوائز
+      logout: تسجيل الخروج
+      signin: تسجيل الدخول
+      signup: تسجيل
     popup:
-      progress: Your progress
+      progress: إنجازاتك
       lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
+      close: إغلاق
+      mastery: مفاهيم
+      puzzle_map: مراحل
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      prizes_link: مزيد من المعلومات
   teacher:
     title:
       one: "Your teacher is %{name}"
       other: "Your teachers:"
-    tools: Teacher Tools
+    tools: أدوات المعلم
     students:
-      manage: Manage students
-      add: Add students
+      manage: إدارة الطلاب
+      add: إضافة الطلاب
     rollup: Progress Dashboard
-    activity: Recent class activity
+    activity: آخر نشاطات الفصل
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (اتركه فارغاً إذا كنت لا ترغب في تغييره)
+    current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بك)
     cancel:
-      title: Cancel my account
+      title: إلغاء حسابي
       hint: Unhappy?
-      button: Cancel my account
+      button: إلغاء حسابي
   user_level:
-    completed: Completed
+    completed: مكتمل
     tried: Tried
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: آخر النشاطات
+    show_more: إظهار المزيد
   home:
     signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
+    student_reg_link: "الطلاب - أبدأ من هنا"
+    teacher_reg_link: "المعلمون - أبدأ من هنا"
     teacher_dashboard: See progress dashboard
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
@@ -160,27 +161,27 @@ ar:
     student_progress: Your progress as a student
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
+    student_left_off: "حيث كنت آخر مرة:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    local_school: مدرسة محلية
+    online: متصل
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: أنثى
+    female: أنثى
+    none: أفضل بعدم الإجابة
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    translate: ساعدنا على ترجمة اللغة الخاصة بك
+    tos: شروط الخدمة
   reference_area:
-    title: Need help?
+    title: بحاجة إلى مساعدة؟
     subtitle: See these videos and hints
   video:
-    tab: Video.
-    notes: No video? Show notes.
+    tab: فيديو.
+    notes: لا يوجد فيديو؟ اظهر الملاحظات.
     autoplay_option: Autoplay videos
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: نحن نعمل على دعم متصفح الأنترنت الخاص بك.
+    upgrade: من فضلك قم بتحديث متصفح الأنترنت الخاص بك.

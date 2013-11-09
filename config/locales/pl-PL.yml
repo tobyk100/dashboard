@@ -2,46 +2,46 @@ pl:
   activerecord:
     attributes:
       user:
-        name: Name
+        name: Imię
         email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        username: Nazwa użytkownika
+        password: Hasło
+        password_confirmation: Potwierdzenie hasła
+        current_password: Aktualne hasło
+        locale: Język
+        gender: Płeć
+        edit_header: Edytuj szczegóły konta
+  hello: Witaj świecie
+  welcome_back: "Witaj z powrotem, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Dodaj nauczyciela przez kod lub adres e-mail:"
+      placeholder: Kod (ABCDEF) lub e-mail (teacher@school.edu)
+    submit: Dodaj nauczyciela
   appname: Code.org
-  stage: Stage
+  stage: Etap
   puzzle: Puzzle
   trophies: Trophies
-  courses: Courses
+  courses: Kursy
   of: of
-  more: MORE
-  less: LESS
+  more: WIĘCEJ
+  less: MNIEJ
   try_hoc: "Try the Hour of Code, click here >> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Continue
+  continue: Kontynuuj
   prize: prize
   auth:
     sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
+    signed_in: Zalogowany!
     already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    notyet_signedup: Jeszcze nie dołączyłeś?
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
+    forgot_password: Nie pamiętasz hasła?
     need_confirmation: "Didn't receive confirmation instructions?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
@@ -56,7 +56,7 @@ pl:
   signin_form:
     title: Sign in
     login: Email or username
-    password: Password
+    password: Hasło
     remember: Remember me
     submit: Sign in
   password:
@@ -96,13 +96,13 @@ pl:
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: Show
-    edit: Edit
+    show: Pokaż
+    edit: Edycja
     edit_model: "Edit %{model}"
     update: Update
     destroy: Destroy
     back: Back
-    confirm: Are you sure?
+    confirm: Jesteś pewny?
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
@@ -121,7 +121,7 @@ pl:
     popup:
       progress: Your progress
       lines: "Total lines of code: %{lines}"
-      close: CLOSE
+      close: ZAMKNIJ
       mastery: Concepts
       puzzle_map: Stages
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
@@ -173,9 +173,9 @@ pl:
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: Provide feedback
     translate: Help us translate to your language
-    tos: Terms of service
+    tos: Warunki korzystania z usługi
   reference_area:
-    title: Need help?
+    title: Potrzebujesz pomocy?
     subtitle: See these videos and hints
   video:
     tab: Video.
@@ -183,4 +183,4 @@ pl:
     autoplay_option: Autoplay videos
   compatability:
     working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    upgrade: Uaktualnij przeglądarkę.

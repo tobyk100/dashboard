@@ -56,7 +56,7 @@ es-ES:
         maze_2_18: Una práctica más del bloque "si-sino", ¿Puedes hacerlo bien en tu primer intento?
         maze_2_19: ¿Puedes agregar sólo 3 bloques para ayudarme a resolver un laberinto más complejo? Si lo haces bien, puedo caminar cualquier camino con curvas sin importar su longitud.
         turtle_1_1: Hola, soy un artista. Puedes escribir código para hacerme dibujar casi cualquier cosa. Utiliza algunos bloques para hacerme dibujar por encima de las líneas grises de la imagen.
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
+        turtle_1_2: 'Ahora, dibuja un cuadrado. Nota: usa tu color favorito eligiéndolo en el nuevo bloque "definir color".'
         turtle_1_3: Haz un cuadrado usando sólo 3 bloques.
         turtle_1_4: 'Dibuja un triángulo cuyos lados tienen todos diferentes colores, usando la opción "color al azar" que elige un color diferente cada vez. Ayuda: tendrás que averiguar cuánto girar haciendo click en el número del bloque girar.'
         turtle_1_5: Ahora, para practicar, dibuja un triángulo y un cuadrado para dibujar un sobre.
@@ -124,8 +124,7 @@ es-ES:
       levelIncompleteError:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: Necesitas un bloque "si" dentro de un bloque "repetir". Si tienes problemas, prueba el nivel anterior otra vez para ver cómo funcionaba.
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
     video:

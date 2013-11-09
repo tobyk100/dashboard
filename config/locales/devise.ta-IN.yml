@@ -1,4 +1,4 @@
-fi:
+ta:
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. You are now signed in.
@@ -7,18 +7,18 @@ fi:
     failure:
       already_authenticated: You are already signed in.
       inactive: Your account was not activated yet.
-      invalid: Virheellinen sähköpostiosoite tai salasana.
+      invalid: Invalid email or password.
       invalid_token: Invalid authentication token.
-      locked: Tilisi on lukittu.
-      not_found_in_database: Virheellinen sähköpostiosoite tai salasana.
-      timeout: Istunto on vanhentunut, kirjaudu uudelleen jatkaaksesi.
-      unauthenticated: Sinun täytyy kirjautua sisään tai rekisteröityä ennen jatkamista.
+      locked: Your account is locked.
+      not_found_in_database: Invalid email or password.
+      timeout: Your session expired, please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
       unconfirmed: You have to confirm your account before continuing.
     mailer:
       confirmation_instructions:
         subject: Confirmation instructions
       reset_password_instructions:
-        subject: Salasanan palautusohjeet
+        subject: Reset password instructions
       unlock_instructions:
         subject: Unlock Instructions
     omniauth_callbacks:

@@ -1,51 +1,51 @@
-da:
+no:
   data:
     script:
       name:
         20-hour: K-8 Intro to Computer Science Course
         Hour of Code: Hour of Code
-        Edit Code: Rediger kode
+        Edit Code: Edit Code
     game:
       name:
-        Maze: Labyrinten
-        Artist: Kunstneren
-        Artist2: Kunstneren 2
-        Farmer: Landmanden
-        Artist3: Kunstneren 3
-        Farmer2: Landmanden 2
-        Artist4: Kunstneren 4
-        Farmer3: Landmanden 3
-        Artist5: Kunstneren 5
-        MazeEC: Kunstneren
+        Maze: The Maze
+        Artist: The Artist
+        Artist2: The Artist 2
+        Farmer: The Farmer
+        Artist3: The Artist 3
+        Farmer2: The Farmer 2
+        Artist4: The Artist 4
+        Farmer3: The Farmer 3
+        Artist5: The Artist 5
+        MazeEC: The Artist
     trophy:
       name:
         Bronze: Bronze
-        Silver: Sølv
-        Gold: Guld
+        Silver: Silver
+        Gold: Gold
     concept:
       description:
-        sequence: Sekvens
-        if: Hvis blok
-        if_else: Hvis-Ellers blok
-        loop_times: Gentag gange blok
-        loop_until: Gentag indtil blok
-        loop_while: Mens blok
-        loop_for: Tæl blok
-        function: Funktioner
-        parameters: Funktioner med parametre
+        sequence: Sequence
+        if: If block
+        if_else: If-else block
+        loop_times: Repeat times block
+        loop_until: Repeat until block
+        loop_while: While block
+        loop_for: Counter block
+        function: Functions
+        parameters: Functions with parameters
     level:
       instructions:
-        maze_2_2: 'Hej! Jeg har brug at få den grønne Grissebasse! Saml et par "Gå fremad" blokke og tryk på "Kør Program" for at hjælpe mig derhen. '
-        maze_2_1: "Skriv mig et andet program, så jeg kan komme det hele vejen hen til den grønne gris. "
-        maze_2_2_5: Hvordan skal jeg komme hen til den grønne gris? (Pas på TNT)
-        maze_2_3: Hvordan skal jeg komme hen til den grønne gris? (Pas på TNT)
-        maze_2_4: "Argh! Skriv et program, der får mig udenom TNT og hen til den grønne gris. "
-        maze_2_5: Der er en måde jeg kan komme hen til den grønne gris på, ved hjælp af kun 2 blokke. Kan du regne det ud?
-        maze_2_6: Forsøg at få mig hen til den grønne gris ved hjælp af kun tre blokke.
-        maze_2_7: Skriv mig et program så jeg kan komme hen til den grønne gris ved hjælp af færrest mulige blokke. Prøv at bruge mere end én "Gentag gange" blok.
-        maze_2_8: 'For at løse denne opgave, prøv en "gentage" blok med disse 3 blokke indeni det: fremad, fremad, drej.'
-        maze_2_9: 'OK, prøv den nye "Gentag indtil" blok - den vil gentage indtil jeg når grønne gris.'
-        maze_2_10: "Ok, en sidste gang for praksis - kan du løse denne opgave ved brug af kun 4 blokke?"
+        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
+        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
+        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
+        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
+        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: Try to get me to the green pig using only three blocks.
+        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
+        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
+        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
         maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'

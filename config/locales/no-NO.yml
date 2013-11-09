@@ -1,37 +1,37 @@
-fi:
+no:
   activerecord:
     attributes:
       user:
-        name: Nimi
-        email: Sähköposti
-        username: Käyttäjätunnus
-        password: Salasana
-        password_confirmation: Salasanan vahvistus
-        current_password: Nykyinen salasana
-        locale: Kieli
-        gender: Sukupuoli
+        name: Name
+        email: Email
+        username: Username
+        password: Password
+        password_confirmation: Password confirmation
+        current_password: Current password
+        locale: Language
+        gender: Gender
         edit_header: Edit Account Details
   hello: Hello world
-  welcome_back: "Tervetuloa takaisin, %{name}"
+  welcome_back: "Welcome back, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"
       placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Lisää opettaja
+    submit: Add teacher
   appname: Code.org
   stage: Stage
   puzzle: Puzzle
-  trophies: Palkinnot
-  courses: Kurssit
+  trophies: Trophies
+  courses: Courses
   of: of
-  more: ENEMMÄN
-  less: VÄHEMMÄN
+  more: MORE
+  less: LESS
   try_hoc: "Try the Hour of Code, click here >> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Jatka
-  prize: palkinto
+  continue: Continue
+  prize: prize
   auth:
     sign_in_with: "Sign in with %{provider}"
     signed_in: Signed in!
@@ -41,22 +41,22 @@ fi:
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Unohditko salasanasi?
+    forgot_password: Forgot your password?
     need_confirmation: "Didn't receive confirmation instructions?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
     title: Sign up
-    school_name: Koulun nimi (valinnainen)
-    school_address: Koulun osoite (valinnainen)
+    school_name: School Name (optional)
+    school_address: School Address (optional)
     address_placeholder: address, city, state, zip
-    gender: Sukupuoli (valinnainen)
-    birthday: Syntymäpäivä (valinnainen)
+    gender: Gender (optional)
+    birthday: Birthday (optional)
     submit: Sign up
-    teacher: Oletko opettaja?
+    teacher: Are you a teacher?
   signin_form:
-    title: Kirjaudu
+    title: Sign in
     login: Email or username
-    password: Salasana
+    password: Password
     remember: Remember me
     submit: Sign in
   password:
@@ -113,27 +113,27 @@ fi:
       classroom: My students
       label: "Hi %{username}"
       stats: My progress
-      settings: Tilini
-      prizes: Palkinnot
-      logout: Kirjaudu ulos
+      settings: My account
+      prizes: Prizes
+      logout: Sign out
       signin: Sign in
       signup: Sign up
     popup:
       progress: Your progress
       lines: "Total lines of code: %{lines}"
-      close: SULJE
-      mastery: Käsitteitä
-      puzzle_map: Vaiheet
+      close: CLOSE
+      mastery: Concepts
+      puzzle_map: Stages
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: lisätietoja
+      prizes_link: more info
   teacher:
     title:
       one: "Your teacher is %{name}"
       other: "Your teachers:"
-    tools: Opettajan työkalut
+    tools: Teacher Tools
     students:
       manage: Manage students
-      add: Lisätä opiskelijoita
+      add: Add students
     rollup: Progress Dashboard
     activity: Recent class activity
   user:
@@ -141,7 +141,7 @@ fi:
     current_password_hint: (we need your current password to confirm your changes)
     cancel:
       title: Cancel my account
-      hint: Onneton?
+      hint: Unhappy?
       button: Cancel my account
   user_level:
     completed: Completed
@@ -165,8 +165,8 @@ fi:
     local_school: local school
     online: online
   gender:
-    male: Mies
-    female: Nainen
+    male: Male
+    female: Female
     none: Prefer not to answer
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'

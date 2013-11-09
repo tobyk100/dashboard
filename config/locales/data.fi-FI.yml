@@ -8,20 +8,20 @@ fi:
     game:
       name:
         Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Artist: Taiteilija
+        Artist2: Taiteilija 2
+        Farmer: Maanviljelijä
+        Artist3: Taiteilija 3
+        Farmer2: Maanviljelijä 2
+        Artist4: Taiteilija 4
+        Farmer3: Maanviljelijä 3
+        Artist5: Taiteilija 5
+        MazeEC: Taiteilija
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: Pronssi
+        Silver: Hopea
+        Gold: Kulta
     concept:
       description:
         sequence: Sequence

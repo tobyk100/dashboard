@@ -3,43 +3,43 @@ es-ES:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: ¡Bienvenido a la primera hora del código! Vamos a sumergirnos bien en su primera experiencia de programación.
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: Usaremos Blockly, un lenguaje de programación visual donde puedes arrastrar y soltar bloques para escribir código.
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: La mayoría del código se escribe, en cambio Blockly es visual. Cada bloque corresponde a una línea de código "real".
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: Aprenderás los fundamentos de las ciencias de la computación, conceptos que se usan en cualquier situación, desde hacer aplicaciones hasta controlar el Mars rover.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: Un programa es un conjunto de instrucciones que sigue tu computadora.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: El objetivo de tu primer programa es guiar un Angry Bird a través de un laberinto para golpear al cerdo verde.
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: El lado izquierdo es el laberinto donde se ejecuta el programa. Las instrucciones para cada rompecabezas están debajo del laberinto.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: La barra de herramientas del medio contiene los comandos para el Angry Bird. Puedes usarlos para construir tu código.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: A la derecha está tu área de trabajo donde podrás arrastrar los bloques del cuadro de herramientas para construir tu programa. Para eliminar un bloque, arrástralo a la papelera que se encuentra en la esquina.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
+        text: Cada bloque es una instrucción. Si arrastras el bloque "avanzar" a tu espacio de trabajo y oprimes el botón "Correr Programa", el pájaro se mueve una casilla en el laberinto.
       11:
         image: notes/hoc1_11.png
-        text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.
+        text: Para hacer más de una acción, puedes arrastrar muchos bloque a tu espacio de trabajo y unirlos. El pájaro ejecutará los comandos de arriba hacia abajo.
       12:
         image: notes/hoc1_12.png
-        text: If you run a program and want to fix it and try again, press the "Reset" button.
+        text: Si ejecutas un programa y quieres arreglarlo e intentar de nuevo, presiona el botón "Reiniciar".
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: Vamos por esos cerdos!
     artist_intro:
       1:
         image: notes/bird.png
@@ -51,82 +51,74 @@ es-ES:
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: Hola, soy Mark! Aprendamos acerca de las iteraciones. Usando iteraciones puedes decirle a una computadora que repita una y otra vez cualquier conjunto de acciones, miles o incluso millones de veces.
       2:
         image: notes/hoc2_2.png
         text: En este puzzle, queremos que el pájaro se mueva hacia adelante 5 espacios para llegar al cerdo.
       3:
         image: notes/hoc2_3.png
-        text: We can use the new "repeat" block to help us out.
+        text: Podemos usar el nuevo bloque "repetir" para ayudarnos.
       4:
         image: notes/hoc2_4.png
         text: En lugar arrastrar 5 bloques "avanzar"...
       5:
         image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+        text: Podemos poner el bloque "avanzar" dentro del bloque "repetir" y escribir un número en el bloque para decirle cuántas veces debe repetirse.
       6:
         image: notes/hoc2_6.png
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'Y esto es importante: puedes poner más de un comando dentro de un bloque "repetir".'
       7:
         image: notes/hoc2_7.png
         text: ¡Disfruta usando tu nuevo bloque "repetir"!
     loop_until:
       1:
         image: notes/hoc3_1.png
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: Hola, soy Chris. Antes de unirme a los Miami Heat, fui a Georgia Tech a estudiar Ciencias de la Computación. Vamos a probar nuestro nuevo bloque, el bloque "repetir hasta".
       2:
         image: notes/hoc3_2.png
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: ¿Qué sucedería si no supiéramos cuanto debía moverse el pájaro para llegar al cerdo?
       3:
         image: notes/hoc3_3.png
-        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
+        text: Si ponemos un bloque "avanzar" dentro del bloque "repetir hasta" , el pájaro avanzará HASTA que alcance al cerdo (o choque con una pared).
       4:
         image: notes/hoc3_4.png
         text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+          And this is important: ;al igual que antes, podemos poner varios bloques dentro del bloque "repetir hasta", y todos serán repetidos.
     if:
       1:
         image: notes/hoc4_1.png
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: '¡Hola, soy Bill! Aprendamos un nuevo concepto fundamental: las declaraciones "si". A través de ellas las computadoras toman decisiones.'
       2:
         image: notes/hoc4_2.png
-        text: |-
-          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: Usas las declaraciones "si" todos los días. Antes de que salgas cada mañana, dices SI está lloviendo afuera, tengo que llevar mi chaqueta.
       3:
         image: notes/hoc4_3.png
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: Podemos decirle al zombie que compruebe si hay un camino a la izquierda, y si encuentra un camino a la izquierda, podemos hacerlo girar en esa dirección.
       4:
         image: notes/hoc4_4.png
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: Para escribir el código para esto, vamos a sacar nuestro bloque "si" y colocaremos un bloque "dobla a la izquierda" en su interior.
       5:
         image: notes/hoc4_5.png
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: Ahora, si ponemos un bloque "avanzar" arriba de este, y un bloque "repetir" alrededor de todo, cada vez que el zombie se mueva, el comprobara si hay un camino a la izquierda y girara. El comando "repetir" es critico, para comprobar una vuelta en cada paso.
       6:
         image: notes/hoc4_6.png
-        text: If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
+        text: Las declaraciones "si" son muy importantes en las ciencias de la computación. Uno de los primeros programas que escribí era un juego de tic-tac-toe, y había una declaración "Si" que decía que si la otra persona está a punto de ganar, bloquea el lugar que le permite ganar.
       7:
         image: notes/hoc4_7.png
-        text: Have fun using the "if" block!
+        text: ¡Diviértate cuando usas el bloque "if"!
     if_else:
       1:
         image: notes/hoc5_1.png
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: Hola, mi nombre es Saloni. Yo uso la informática para ayudar a resolver problema de salud y medicina. Vamos a aprender acerca del bloque "si otro". Se parece al bloque "si", pero tiene una parte extra al fina que dice "otro".
       2:
         image: notes/hoc5_2.png
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: Si pongo el bloque "avanzar" in el lugar donde dice "hacer" y un bloque "doblar a la izquierda" donde dice "otro" significa que el zombie va a elegir entre dos opciones. Si hay un camino adelante, el zombie va a avanzar, y SINO (no hay un camino adelante), el zombie va a doblar hacia la izquierda.
       3:
         image: notes/hoc5_3.png
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: Al igual que el bloque "if", podemos poner bloques "si entonces" dentro de un bloque "repetir" para que el zombie siga moviéndose y el bloque "si entonces" continuará comprobando si hay un lugar para girar.
       4:
         image: notes/hoc5_4.png
-        text: Now, get those zombies where they belong!
+        text: Ahora, coloquemos a esos zombies donde pertenecen!
     function:
       1:
         image: notes/bird.png
@@ -146,16 +138,16 @@ es-ES:
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: ¡Felicidades! Con el último puzzle resuelto, acabas de escribir código que puede decir a cualquier robot cómo encontrar su camino a través de un laberinto sin ramificación o túnel de cualquier longitud, no importa si es un zombie, un pájaro, un rover de Marte o incluso un coche sin conductor.
       2:
         image: notes/hoc6_2.png
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: 'Los conceptos básicos que utilizaste son el corazón de cualquier programa o aplicación que encuentres.  Aprendimos acerca de iteraciones, las declaraciones "repetir hasta", las declaraciones "si" y las "si entonces".'
       3:
         image: notes/hoc6_3.png
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: Si te gustó tu primera hora del código, visita code.org para continuar tu educación en Ciencias de la Computación. Una vez que completes nuestro curso de 20 horas, habrás dominado los fundamentos de la programación y podrás empezar a aprender cómo escribir aplicaciones para teléfonos, instrucciones para robots, juegos, o lo que quieras.
       4:
         image: notes/hoc6_4.png
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "La tecnología está cambiando todo lo que hacemos y no importa si eres joven o viejo: la programación es divertida, es creativa, y cualquier persona puede aprenderla!"
     20_wrapup:
       1:
         image: notes/bird.png

@@ -2,75 +2,75 @@ el:
   activerecord:
     attributes:
       user:
-        name: Name
+        name: Όνομα
         email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        username: Όνομα χρήστη
+        password: Κωδικός πρόσβασης
+        password_confirmation: Επιβεβαίωση κωδικού
+        current_password: Τρέχων κωδικός
+        locale: Γλώσσα
+        gender: Φύλο
+        edit_header: Στοιχεία Λογαριασμού
+  hello: Γεια σου κόσμε
+  welcome_back: "Καλώς ήρθες, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Πρόσθεσε έναν δάσκαλο με κωδικό ή με email:"
+      placeholder: Κωδικός (ABCDEF) ή email (teacher@school.edu)
+    submit: Προσθήκη δασκαλου
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: Επίπεδο
+  puzzle: Παζλ
+  trophies: Τρόπαια
+  courses: Μαθήματα
+  of: του
+  more: ΠΕΡΙΣΣΟΤΕΡΟ
+  less: ΛΙΓΟΤΕΡΟ
+  try_hoc: "Δοκίμασε την Ώρα του Κώδικα, κάνε κλικ εδώ >> "
+  try_k8intro: Ή, δοκίμασε το εισαγωγικό μάθημα, κατηγορίας K-8, στην Επιστήμη Υπολογιστών (15-25 ώρες)
+  already_started: "Έχεις ήδη ξεκινήσει; Συνέχισε εδώ >> "
+  demos: "Διαχειριστής: Όλα τα Demo"
+  continue: Συνέχεια
+  prize: βραβείο
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    sign_in_with: "Εγγραφή μέσω  %{provider}"
+    signed_in: Συνδέθηκες!
+    already_signedup: Είσαι γραμμένος ήδη;
+    notyet_signedup: Δεν έχει γραφτεί ακόμα;
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Ξέχασες τον κωδικό σου;
+    need_confirmation: Δεν έλαβες τις οδηγίες επιβεβαίωσης;
+    need_unlock: Δεν έλαβες τις οδηγίες ξεκλειδώματος;
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: Εγγραφή
+    school_name: Όνομα Σχολείου (προαιρετικά)
+    school_address: Διεύθυνση Σχολείου (προαιρετικά)
+    address_placeholder: διεύθυνση, πόλη, περιοχή, ΤΚ
+    gender: Φύλο (προαιρετικά)
+    birthday: Γενέθλια (προαιρετικά)
+    submit: Εγγραφή
+    teacher: Είσαι δάσκαλος;
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Σύνδεση
+    login: Email ή όνομα χρήστη
+    password: Κωδικός
+    remember: Να με θυμάσαι
+    submit: Σύνδεση
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Ξέχασες τον κωδικό σου;
+      email: Διεύθυνση email
+      submit: Στείλε μου οδηγίες μηδενισμού του κωδικού
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Αλλαγή κωδικού
+      new_password: Νέος κωδικός
+      confirm_password: Επιβεβαίωση νέου κωδικού
+      submit: Άλλαξε τον κωδικό μου
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Μπες στην τάξη μου (στο Code.org)
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,107 +80,106 @@ el:
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Η πρόσκληση στάλθηκε
+    added_teacher: "Ο %{name} σε πρόσθεσε ως δάσκαλο"
+    registered: "Εγγράφηκες για το  %{section_name}. Παρακαλώ συνδέσου για να συνεχίσεις"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Παρακαλώ αποσυνδεθείτε πριν συνεχίσετε
+      username_not_found: "Δεν βρέθηκε όνομα χρήστη %{username}"
+      username_in_use: "Το %{username} δεν είναι διαθέσιμο, διάλεξε ένα άλλο"
+      no_teacher: "Δεν έχει εγγραφεί κάποιος με το '%{teacher_email_or_code}'. Παρακαλώ ζητείστε τους να εγγραφούν εδώ και προσπάθησε να τους προσθέσεις ξανά"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Μπες στην τάξη με τον %{teacher_name} στο Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Δεν έχεις πρόσβαση στα στατιστικά αυτού του ατόμου
   crud:
-    new_model: "New %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Νέο %{model}"
+    show: Εμφάνιση
+    edit: Τροποποίηση
+    edit_model: "Τροποποίηση %{model}"
+    update: Ενημέρωση
+    destroy: Καταστροφή
+    back: Πίσω
+    confirm: Είσαι σίγουρος;
+    created: "Το %{model} δημιουργήθηκε με επιτυχία."
+    updated: "Το %{model} ενημερώθηκε με επιτυχία."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: Ολοκλήρωσα την Ώρα του Κώδικα
+      sign_in_to_save: Συνδέσου για να αποθηκεύσεις την πρόοδό σου
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      classroom: Οι μαθητές μου
+      label: "Γεια σου %{username}"
+      stats: Η πρόοδός μου
+      settings: Ο λογαριασμός μου
+      prizes: Βραβεία
+      logout: Αποσύνδεση
+      signin: Σύνδεση
+      signup: Εγγραφή
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: Η πρόοδός σου
+      lines: "Συνολικές γραμμές κώδικα: %{lines}"
+      close: ΚΛΕΙΣΙΜΟ
+      mastery: Έννοιες
+      puzzle_map: Επίπεδα
+      prizes: "Μάζεψε όλα τα %{total_trophies} βραβεία και κέρδισε δώρα!"
+      prizes_link: περισσότερα
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "Ο δάσκαλός σους είναι ο %{name}"
+      other: "Οι δάσκάλοι σου:"
+    tools: Εργαλεία Δασκάλου
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: Διαχείριση μαθητών
+      add: Προσθήκη μαθητών
+    rollup: Σύνοψη Προόδου
+    activity: Πρόσφατη δραστηριότητα τμήματος
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (άστο κενό εάν δεν θέλεις να τον αλλάξεις)
+    current_password_hint: (χρειαζόμαστε τον τωρινό κωδικό σου για να επιβαιβεωθούν οι αλλαγές)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: Ακύρωση του λογαριαμού μου
+      hint: Δυσαρεστημένος;
+      button: Ακύρωσε τον λογαριασμό μου
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: Ολοκληρώθηκε
+    tried: Δοκιμάστηκε
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: Πρόσφατη δραστηριότητα
+    show_more: Περισσότερα
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    signin_message: "ή εάν είσαι ήδη εγγεγραμμένος %{link}"
+    student_reg_link: "Μαθητές - Ξεκίνα από εδώ"
+    teacher_reg_link: "Δάσκαλοι - Ξεκίνα από εδώ"
+    teacher_dashboard: Προβολη σύνοψης προόδου
+    teacher_student_count: "Εχεις %{count} μαθητές."
+    teacher_averages: 'Οι μαθητές σου έχουν κερδίσει κατά μέσο όρο %{trophy_average} από %{trophy_max} βραβεία "Μαεστρίας".'
+    classroom: Η αίθουσά σου
+    student_progress: Η πρόοδός σου ως μαθητής
+    student_stats: 'Κέρδισες %{trophy_count} από %{trophy_max} τρόπαια "Μαεστρίας".'
+    student_left_off: "Εκεί που έφυγες:"
+    student_finished: "Ολοκλήρωσες όλα τα εισαγωγικά μαθήματα, πάρε το %{prize_link} και διάλεξε ένα άλλο μάθημα %{online_link} ή στο %{local_school_link}"
+    local_school: τοπικό σχολείο
+    online: σε απευθείας σύνδεση
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: Αγόρι
+    female: Κορίτσι
+    none: Προτιμώ να μην απαντήσω
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Μηχανικοί από την <a href="http://www.google.com">Google</a>, την <a href="http://www.microsoft.com">Microsoft</a>, το <a href="http://www.facebook.com">Facebook</a>, και το <a href="http://www.twitter.com">Twitter</a> βοήθησαν σε αυτό το εισαγωγικό μάθημα.'
+    art_from_html: 'Γραφικά για το <a href="http://www.angrybirds.com">Angry Birds</a> από την <a href="http://www.rovio.com">Rovio</a>, και για το <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> από την <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: Πες τη γνώμη σου
+    translate: Βοηθήστε μας να μεταφράσουμε στη γλώσσα σας
+    tos: Όροι παροχής υπηρεσιών
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: Χρειάζεσε βοήθεια;
+    subtitle: Δες αυτά τα βίντεο και τις υποδείξεις
   video:
-    tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    tab: Βίντεο.
+    notes: Δεν υπάρχει βίντεο; Δείξε σημειώσεις.
+    autoplay_option: Αυτόματη εκτέλεση βίντεο
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: Εργαζόμαστε για την υποστήριξη του προγράμματος περιήγησης που χρησιμοποιείτε.
+    upgrade: Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας.
