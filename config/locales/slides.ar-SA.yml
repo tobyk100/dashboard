@@ -3,37 +3,37 @@ ar:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! I'm Tess, a software engineer at Google. Let's dive right into your first taste of programming."
+        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
       2:
         image: notes/hoc1_2.png
         text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
       3:
         image: notes/hoc1_3.png
-        text: "Most programs are written with text, and under the hood of the blocks you'll be using is text as well."
+        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
       4:
         image: notes/hoc1_4.png
-        text: "You'll be learning the foundations to computer science, which is used to do so many cool things from creating phone apps to controlling the Mars rover."
+        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
       5:
         image: notes/hoc1_5.png
         text: A program is a set of instructions for your computer to follow.
       6:
         image: notes/hoc1_6.png
-        text: "We'll be writing programs that get an angry bird through a maze to the bad piggie."
+        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
       7:
         image: notes/hoc1_7.png
-        text: In Blocky, the left side is the maze where your program will run. The instructions for each puzzle are written below the maze.
+        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
       8:
         image: notes/hoc1_8.png
-        text: "The middle is the toolbox which has the commands that the bird understands. You'll use these blocks to build your code."
+        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag and drop blocks from the toolbox to build your program. And the trash is in the upper right-hand corner if you ever want to delete a block."
+        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block out to your workspace and press "Run Program", the bird moves forward one space on the maze.
+        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
       11:
         image: notes/hoc1_11.png
-        text: If you want your bird to do more than one action, drag out another block to your workspace and wait until the orange arrow appears. When you press the "Run Program" button, the bird will do the commands on the workspace from top to bottom. The command that the bird is currently doing on the maze will be highlighted on the workspace.
+        text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.
       12:
         image: notes/hoc1_12.png
         text: If you run a program and want to fix it and try again, press the "Reset" button.
@@ -51,22 +51,22 @@ ar:
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops."
+        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
       2:
         image: notes/hoc2_2.png
         text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
       3:
         image: notes/hoc2_3.png
-        text: And we can use the new "repeat times" block which is called a loop to help us out.
+        text: We can use the new "repeat" block to help us out.
       4:
         image: notes/hoc2_4.png
         text: Instead of dragging out 5 "move forward" blocks...
       5:
         image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat times" block and write a number in the block to tell it how many times to repeat.
+        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
       6:
         image: notes/hoc2_6.png
-        text: And you can put more than one command inside a "repeat times" block.
+        text: 'And this is important: you can put more than one command inside a "repeat" block.'
       7:
         image: notes/hoc2_7.png
         text: Enjoy using your new "repeat" block!
@@ -74,37 +74,40 @@ ar:
       1:
         image: notes/hoc3_1.png
         text: |-
-          Hi, I'm Sara. Let's try out our new block called the "repeat until" block.
+          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
       2:
         image: notes/hoc3_2.png
-        text: "What if we didn't know how many spaces the bird had to move to get to the pig?"
+        text: "What if we didn't know how far the bird had to move to get to the pig?"
       3:
         image: notes/hoc3_3.png
-        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward until it reaches the pig or crashes into a wall.
+        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
       4:
         image: notes/hoc3_4.png
-        text: And just like the "repeat times" block, we can put multiple blocks inside the "repeat until" block and the bird will repeat those commands over and over again until it reaches the pig or crashes into a wall.
+        text:
+          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
     if:
       1:
         image: notes/hoc4_1.png
-        text: "Hi, I'm Bill! Let's learn about If statements, which is the way that computers make decisions."
+        text: |-
+          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
       2:
         image: notes/hoc4_2.png
-        text: "You use If statments in your everday life. For example, before you go outside in the morning, you say IF it's raining outside, I need to wear my jacket."
+        text: |-
+          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: notes/hoc4_3.png
-        text: "So we can tell the zombie to check IF there's path to the left and if he finds a path to the left, we can have him turn in that direction."
+        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
       4:
         image: notes/hoc4_4.png
         text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside of it.
+          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
       5:
         image: notes/hoc4_5.png
         text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, this will tell the zombie to repeatedly move forward and everytime he moves forward, he'll check if there's a path to the left. Then when he finds a path to the left, he'll turn left and continue moving forward.
+          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
       6:
         image: notes/hoc4_6.png
-        text: If statements are really important in computer science. One of the first programs I ever wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
+        text: If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
       7:
         image: notes/hoc4_7.png
         text: Have fun using the "if" block!
@@ -112,15 +115,15 @@ ar:
       1:
         image: notes/hoc5_1.png
         text: |-
-          Hi, my name is Saloni, and I study computer science and how it applies to health. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
       2:
         image: notes/hoc5_2.png
         text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. If there is a path ahead, the zombie will move forward, and if there isn't a path ahead, the zombie will turn left.
+          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
       3:
         image: notes/hoc5_3.png
         text: |-
-          Just like the "if" block, we can "if else" blocks inside a "repeat" blocks so that the zombie keeps moving forward on the path and the "if else" block will keep checking if there's somewhere to turn.
+          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
         image: notes/hoc5_4.png
         text: Now, get those zombies where they belong!
@@ -143,10 +146,10 @@ ar:
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
-        text: "Congratulations! With the last puzzle you solved, you just wrote the code that can tell any robot how to find it's way through a non-branching maze or tunnel of any complexity or any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
         image: notes/hoc6_2.png
-        text: "The basic concepts you just learned are at the heart of virtually every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and the if else block."
+        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
         image: notes/hoc6_3.png
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."

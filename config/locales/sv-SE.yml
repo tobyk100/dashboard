@@ -2,10 +2,10 @@ sv-SE:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
+        name: Namn
+        email: E-post
+        username: Användarnamn
+        password: Lösenord
         password_confirmation: Password confirmation
         current_password: Current password
         locale: Language
