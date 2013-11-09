@@ -51,8 +51,8 @@ function showVideo(options) {
   $(dialog.div).addClass('video-modal');
 
   dialog.show();
-  // console.log(body);
   body.tabs({
+    event : 'click touchend',
     activate : function(event, ui) {
       if (ui.newTab.contents().attr('href') === "#video") {
         // If it is the video page, restor the src
