@@ -51,7 +51,17 @@ function showVideo(options) {
   $(dialog.div).addClass('video-modal');
 
   dialog.show();
-  body.tabs();
+  body.tabs({
+    event : 'click touchend',
+    activate : function(event, ui) {
+      if (ui.newTab.contents().attr('href') === "#video") {
+        // If it is the video page, restor the src
+        $('#video').get(0).src = options.src;
+      } else {
+        $('#video').get(0).src = '';
+      }
+    }
+  });
   $('.modal-backdrop').addClass('video-backdrop');  // Hack to fix z-index.
 }
 
@@ -93,7 +103,7 @@ function Dialog(options) {
   }
   modalBody.append(body);
   this.div.append(modalBody).appendTo($(document.body));
-  
+
   if (options.onHidden) {
     $(this.div).on(
         'hidden.bs.modal',
@@ -104,7 +114,7 @@ function Dialog(options) {
           options.onHidden();
         });
   }
-  
+
   if (options.onKeydown) {
     $(this.div).on('keydown', options.onKeydown);
   }
