@@ -63,7 +63,7 @@
         turtle_1_6: "Kannst du herausfinden, wie Mann dieses Dreieck und Quadrat zeichnet? Tipp: Zuerst das Dreieck zeichnen, dann rechne aus wie viele Umdrehungen benötigt sind, bevor du das Quadrat zeichnest."
         turtle_1_7: "Ok, lass es uns ein wenig schwieriger machen - mal schauen, ob du diese grüne Brille zeichnen kannst. Die Quadrate haben eine Kantenlänge von jeweils 100 Pixel und sie sind 50 Pixel von einander entfernt. Vergiss nicht Grün zu verwenden!"
         turtle_1_8: "Ok, versuche herauszufinden, was passiert, wenn du diesen Code ausführst (oder drücke \"Run\" um es zu veruschen). Danach wiederhole es so oft, um die Zeichnung fertigzustellen. Die Farben werden jedes Mal unterschiedlich sein."
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
+        turtle_1_9: "Kannst du herausfinden mit welcher Nummer du das Fragezeichen ersetzen musst, um einen Kreis zu zeichnen?"
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
         turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
         turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"

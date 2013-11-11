@@ -71,9 +71,9 @@
         turtle_4_4: "Dapatkah anda menggambar sesuatu yang tampak seperti kapal ini? Kapal ini dapat dibentuk dari sekelompok bentuk-bentuk kecil yang digabungkan, jadi bagilah bentuk yang besar menjadi bagian yang lebih kecil terlebih dahulu."
         maze_karel_1_1: "Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan ladang peternakan sehingga siap tanam. Pindahkan aku ke tumpukan tanah dan menggunakan blok \"Hapus\" untuk menghapusnya."
         maze_karel_1_2: "Selanjutnya, Pindahkan saya ke lubang dan isilah dengan dua skop tanah, menggunakan blok \"Isi\"."
-        maze_karel_1_3: "Pindahkan aku ke tumpukan tanah dan beritahu saya berapa banyak sekop untuk menghapus menggunakan blok sesedikit mungkin."
-        maze_karel_1_4: "Anda dapat membantu saya menghapus semua empat tumpukan tanah? Petunjuk: Gunakan blok ulangi jika Anda bisa."
-        maze_karel_1_5: 'Bantu saya mengisi di semua lubang ini dengan 5 sekop tanah. Petunjuk: Anda dapat menempatkan blok "Ulangi" di dalam "sementara" blok.'
+        maze_karel_1_3: "Pindahkan saya ke tumpukan tanah dan beritahu saya perlu berapa banyak sekop untuk memindahkan tanah menggunakan blok sesedikit mungkin."
+        maze_karel_1_4: "Anda dapat membantu saya menghapus semua empat tumpukan tanah? Petunjuk: Gunakan blok ulangi (repeat) jika Anda bisa."
+        maze_karel_1_5: 'Bantu saya mengisi di semua lubang ini dengan 5 sekop tanah. Petunjuk: Anda dapat menempatkan blok "Ulangi" di dalam blok "sementara".'
         maze_karel_1_6: "Hapus semua tumpukan tanah, menggunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok \"sementara\" beritahu saya jika saya sedang berdiri di tumpukan atau lubang."
         maze_karel_1_7: "Wow, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapat Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
         maze_karel_1_8: "Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin."
