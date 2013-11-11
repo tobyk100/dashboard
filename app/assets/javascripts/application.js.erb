@@ -59,11 +59,12 @@ function showVideo(options) {
   body.tabs({
     event : 'click touchend',
     activate : function(event, ui) {
+      var videoElement = $('#video');
       if (ui.newTab.contents().attr('href') === "#video") {
         // If it is the video page, restor the src
-        $('#video').get(0).src = options.src;
+        videoElement.attr('src', options.src);
       } else {
-        $('#video').get(0).src = '';
+        videoElement.attr('src', '');
       }
     }
   });
