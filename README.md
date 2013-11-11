@@ -21,6 +21,8 @@ The various areas we'd love engineering help on are:
 - [Blockly issues](https://github.com/code-dot-org/blockly/issues)
 - [Dashboard issues](https://github.com/code-dot-org/dashboard/issues)
 
+Here is a [list](https://github.com/code-dot-org/dashboard/wiki/Device-Support) of devices for which we are planning support.
+
 ### Vagrant VM (recommended)
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
