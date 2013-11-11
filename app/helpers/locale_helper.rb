@@ -7,7 +7,7 @@ module LocaleHelper
     }
     # Expand language codes to include regions, if applicable.
     data = Dashboard::Application::LOCALES[best]
-    data.fetch(:expand, best).to_sym
+    (data.is_a?(String) ? data : best).to_sym
   end
 
   # String representing the 2 letter language code.
@@ -34,7 +34,7 @@ module LocaleHelper
   # returns true if we support their first choice of locale
   def support_primary_locale?
     locales = Dashboard::Application::LOCALES.select do |k,v|
-      v.fetch(:enabled, true)
+      I18n.available_locales.include?(k.to_sym)
     end
     languages = locales.keys.map do |key|
       key.split('-').first

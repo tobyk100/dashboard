@@ -27,8 +27,9 @@ module Dashboard
     config.i18n.default_locale = 'en-US'
     LOCALES = YAML.load_file("#{Rails.root}/config/locales.yml")
     LOCALES.each do |locale, data|
+      next unless data.is_a? Hash
       data.symbolize_keys!
-      if data.fetch(:enabled, true) && !(data[:debug] && Rails.env.production?)
+      unless data[:debug] && Rails.env.production?
         config.i18n.available_locales << locale
       end
       if data[:fallback]

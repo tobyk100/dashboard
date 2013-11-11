@@ -1,44 +1,58 @@
-# Root keys are locale codes.
-# name: localized to be recognizable to users who need to switch.
-# enabled: Determines if the language shows up in the dropdown.
-# fallback: Specifies a Rails-level I18n fallback.
-# expand: Used to resolve a language to a locale with default region.
-# debug: Causes a language to only show up for in development env.
+# Root keys are locale codes as strings.
+# Values can either be the string name of another locale or a map.
+#
+# String values are used to expand languages to include a default region.
+#
+# Map values can have the following keys
+#   name: localized to be recognizable to users who need to switch.
+#   fallback: Specifies a Rails-level I18n fallback.
+#   debug: Causes a language to not show up in the production environment.
 
-de:
-  expand: "de-DE"
-  enabled: false
+de: "de-DE"
 de-DE:
   name: "Deutsch"
-  enabled: false
-en:
-  expand: "en-US"
-  enabled: false
+
+el: "el-GR"
+el-GR:
+  name: "ελληνικά"
+
+en: "en-US"
 en-US:
   name: "English"
-  fallback: en
 en-PLOC:
   name: "Pseudolocalized"
   debug: true
-es:
-  expand: 'es-ES'
-  enabled: false
+
+es: "es-ES"
 es-ES:
   name: "Español"
-pt:
-  expand: "pt-BR"
-  enabled: false
+
+fr-FR:
+  name: "Français"
+
+it-IT:
+  name: "Italiano"
+
+nl-NL:
+  name: "Nederlands"
+
 pt-BR:
   name: "Português"
-vi:
-  expand: "vi-VN"
-  enabled: false
+
+ro: "ro-RO"
+ro-RO:
+  name: "Română"
+
+sv: 'sv-SE'
+sv-SE:
+  name: "Svenska"
+
+vi: "vi-VN"
 vi-VN:
   name: "Tiếng Việt"
-  enabled: false
-zh:
-  expand: "zh-TW"
-  enabled: false
+  debug: true
+
+zh: "zh-TW"
 zh-TW:
   name: "正體字"
-  enabled: false
+  debug: true
