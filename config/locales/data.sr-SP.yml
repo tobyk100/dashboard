@@ -9,23 +9,23 @@ sr:
       name:
         Maze: The Maze
         Artist: Уметник
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Artist2: Уметник 2
+        Farmer: Фармер
+        Artist3: Уметник 3
+        Farmer2: Фармер 2
+        Artist4: Уметник 4
+        Farmer3: Фармер 3
+        Artist5: Уметник 5
+        MazeEC: Уметник
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: Бронза
+        Silver: Сребро
+        Gold: Злато
     concept:
       description:
-        sequence: Sequence
-        if: If block
+        sequence: Низ
+        if: Ако блок
         if_else: If-else block
         loop_times: Repeat times block
         loop_until: Repeat until block

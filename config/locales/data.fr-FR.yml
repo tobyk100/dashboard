@@ -36,8 +36,8 @@ fr:
     level:
       instructions:
         maze_2_2: "Salut! Je dois attrapper le petit cochon vert ! Empillez quelques  « aller de l'avant » et appuyez sur « Exécuter le programme » pour m'aider à y arriver. "
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
+        maze_2_1: "Ecris-moi un autre programme afin que  je puisse faire tout le chemin vers  le petit cochon vert. "
+        maze_2_2_5: Comment dois-je faire pour attrapper le petit cochon? ( fais attention au TNT )
         maze_2_3: How should I get to the green pig? (Watch out for the TNT)
         maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
         maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"

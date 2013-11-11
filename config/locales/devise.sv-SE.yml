@@ -1,4 +1,4 @@
-sv-SE:
+"sv-SE":
   devise:
     confirmations:
       confirmed: Ditt konto är bekräftat. Du är nu inloggad.
