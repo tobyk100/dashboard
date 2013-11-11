@@ -89,7 +89,7 @@ en:
         text: "Hi, I'm Bill! Let's learn a new fundamental concept: \"If\" statements. This is how computers make decisions."
       2:
         image: 'notes/hoc4_2.png'
-        text: "You use \"If\" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket."
+        text: "You use \"If\" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket."
       3:
         image: 'notes/hoc4_3.png'
         text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
