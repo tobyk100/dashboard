@@ -90,7 +90,7 @@
       2:
         image: "notes/hoc4_2.png"
         text: |-
-          Je gebruikt dagelijks "Als"-statements. Voor je 's-ochtends naar buiten gaat, zeg je: ALS het regent, dan moet ik mijn regenjas aan.
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "We kunnen de zombie vertellen dat ALS er een pad naar links is, hij die richting op moet draaien."

@@ -64,40 +64,34 @@
         turtle_1_7: "Ok, lass es uns ein wenig schwieriger machen - mal schauen, ob du diese grüne Brille zeichnen kannst. Die Quadrate haben eine Kantenlänge von jeweils 100 Pixel und sie sind 50 Pixel von einander entfernt. Vergiss nicht Grün zu verwenden!"
         turtle_1_8: "Ok, versuche herauszufinden, was passiert, wenn du diesen Code ausführst (oder drücke \"Run\" um es zu veruschen). Danach wiederhole es so oft, um die Zeichnung fertigzustellen. Die Farben werden jedes Mal unterschiedlich sein."
         turtle_1_9: "Kannst du herausfinden mit welcher Nummer du das Fragezeichen ersetzen musst, um einen Kreis zu zeichnen?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
+        turtle_1_10: 'Du hast es geschafft! Jetzt, zeichne was du willst! Hier sind ein paar Ideen: ein Strichmännchen, eine Schneeflocke, oder eine Spirale. Probiere auch den neuen "set width"-Baustein aus. Viel Spaß!'
+        turtle_4_1: "Kannst du ein Bild zeichnen, dass aussieht wie dieses Haus? Denke über die nötigen Schritte nach, um es zu zeichnen - so etwas nennt man einen Algorithmus. Es könnte sein, dass du einige Versuche benötigst bis es gut aussieht. Aber es ist in Ordnung, wenn es nicht perfekt ist!"
+        turtle_4_2: "Versuche jetzt dieses Quadrat zu zeichnen, welches aus 2 Dreiecken besteht. Es könnte ein paar Versuche dauern, um herauszufinden wie weit du es drehen und verschieben musst. Es musst nicht exakt aussehen, aber versuche es einfach!"
         turtle_4_3: "Zeichne einen Pfeil der so aussieht. Denke über alle Schritte nach die du machen musst."
         turtle_4_4: "Kannst du etwas Zeichnen was so aussieht wie dieses Schiff? Es sind viele kleine Schritte zusammen, also versuche das Problem in kleinere Teile aufzuteilen."
         maze_karel_1_1: "Hallo, ich bin ein Bauer. Ich brauche deine Hilfe beim glätten meines Feldes um es für das Sähen vorzubereiten. Bewege mich zum dem Erdblock und nutze den \"Entfernen\" Baustein um diesen zu entfernen."
         maze_karel_1_2: "Anschließend verschiebe mich in das Loch und fülle es mit zwei Schaufelladungen Erde mit dem \"Füllen\"-Block."
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
+        maze_karel_1_3: "Verschiebe mich zum Schmutzhaufen und sag mir, wie viele Schaufeln entfernt werden sollen. Verwende dabei so wenig Bausteine wie möglich."
         maze_karel_1_4: 'Kannst du mir helfen alle vier Haufen Erde zu entfernen? Hinweis: Nutze einen "Wiederholen" Block wenn du kannst.'
         maze_karel_1_5: 'Helfen Sie diese Löcher mit 5 Schaufeln Erde aufzufüllen. Tipp: Sie können eine "Wiederholung" Baustein innerhalb des Bausteins "wenn" setzen.'
         maze_karel_1_6: "Entfernen Sie alle Haufen von Dreck, mit so wenig Bausteine wie möglich. Die neuen Optionen im Dropdown-Menü auf dem Block \"wenn\" sagen mir, ob ich auf einem Haufen oder ein Loch stehe."
         maze_karel_1_7: "Wow, ich habe ein wirklich tiefes Loch gefunden! Ich weiß nicht wie viele Schaufeln von Dreck es braucht. Können Sie ein Programm schreiben, das es ausfüllt, bis der Boden eben ist?"
         maze_karel_1_8: "Hilf mir das Loch am Ende des Feldes zu füllen mit so wenigen Bausteinen wie möglich."
         maze_karel_1_9: 'Bringe mich dazu alle Erdhaufen zu entfernen. Versuche so wenige Bausteine wie möglich zu verwenden. Hinweis: Du kannst einen "Solange" Baustein in einem "Wiederholen" Baustein benutzen.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: "Welcome to using functions, which let you define new blocks! Try the new \"draw a square\" block, found in the \"Functions\" category, to draw a small 50x50 green square."
-        turtle_2_3: "Use the \"repeat\" block (in the \"Loops\" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors."
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: "Use a \"count with\" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart."
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
+        maze_karel_1_10: "Weil ich Überstunden mache und es deshalb draußen schon dunkel ist, kann ich nicht erkennen wie groß die Häufen sind. Jetzt habe ich nicht alle Optionen, die ich sonst beim \"solange\"-Baustein hatte. Bewege mich am Feld entlang und wenn dort ein Haufen ist, dann entferne ihn."
+        maze_karel_1_11: 'Es ist immer noch dunkel draußen. Bewege mich am Feld entlang. Wenn dort ein Haufen ist, dann entferne ihn. Ist dort jedoch ein Loch, dann fülle es auf. Hinweis: verwende das Aufklappmenü des "wenn"-Bausteins.'
+        turtle_2_1: "Hallo. Mich Zombie Künstler. Mich lieben zeichnen! Hilf mir ein Quadrat in einer besonderen Farbe zu zeichnen. Wichtiger Hinweis: du hast die gleichen Bausteine, aber sie wurden jetz in Kategorien sortiert."
+        turtle_2_2: "Willkommen bei der Verwendung von Funktionen. Diese lassen dich neue Bausteine definieren. Probiere den neuen \"draw a square\"-Baustein aus, um ein kleines, grünes 50x50 Quadrat zu zeichnen. Den Baustein findest du in der \"Functions\"-Kategorie."
+        turtle_2_3: "Verwende den \"repeat\"-Baustein (in der \"Schleifen\"-Kategorie), um 3 Quadrate, jeweils 120 Grad entfernt, der Größe 100 zu zeichen. Verwende dazu 3 verschiedene, zufällige Farben."
+        turtle_2_4: "Jetzt wird es nobel. Verändere den Code um 36 Quadrate zu zeichnen, 100 Pixel breit und jeweils 10 Grad von einander entfernt. Hinweis: du kannst den Schiebregler verwenden, um mich schneller werden zu lassen."
+        turtle_2_5: "Zeichne Quadrate mit Seitenlängen von 50, 60, 70, 80 und 90 Pixel. Du wirst die \"draw a square\"-Funkton fünf Mal benötigen."
+        turtle_2_6: 'Ok, dieses Programm verwendet einen Zähler, um die gleichen Quadrate vom letzten Mal zu zeichnen. Du möchtest, dass die Quadrate alle die selbe Größe haben wie der Zähler, deshalb verwende den "Zähler"-Baustein. Hinweis: Er ist in der Variablen Kategorie.'
+        turtle_2_7: "Das ist ein Programm, das Spiralen zeichnet. Jedoch sind die Bausteine deaktiviert, weshalb sie nicht ausgeführt werden. Erstelle ein neues Programm, welches einen \"count with\"-Baustein (in der Schleifen Kategorie) und einen \"Zähler\"-Baustein (in der Variablen Kategorie) verwendet, um die gleiche Spiral zu zeichnen."
+        turtle_2_7_5: "Es gibt eine neue \"zeichne einen Schneemann\"-Funktion (in der Funktionen Kategorie). Zeichne zwei Schneemänner, mit der Höhe 250 und 100."
+        turtle_2_8: "Das ist ein bisschen knifflig. Verwende die \"zeichne einen Schneemann\"-Funktion und den neuen \"springe forwärts\"-Baustein (in der Aktionen Kategorie). Zeichne 3 Schneemänner in verschiedenen Farben, jeweils 100 Pixel von einander entfernt."
+        turtle_2_9: 'Verwend eine "zähle mit"-Schleife, um eine Schneemann-Familie zu zeichen. Verwende folgende Höhen: 110, 100, 90, 80. Die Schneemänner sollten alle 60 Pixel von einander entfernt sein.'
+        turtle_2_10: "Hier ist ein wenig Code, um mit verschiedenen Spiralen experimentieren zu können. Was passiert wenn du den Dreh-Betrag veränderst? Oder wenn du eine zufällige Farbe in der Schleife verwendest? Zeichne was du möchtest."
+        maze_karel_2_1: "Verwende die Bausteine, um mir zu helfen alle Häufen wegzuräumen und alle Löcher im Boden aufzufüllen. Versuche Schleifen anstatt zu viele Bausteine zu verwenden. Hinweis: Du kannst eine Schleife in eine andere Schleife hinein setzen."
         maze_karel_2_2: |-
           We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
         maze_karel_2_3: |-
@@ -119,35 +113,34 @@
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
         turtle_3_9: "Can you re-create the \"draw a house\" function without help? Try it, and then draw a row of houses."
         turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
+        maze_karel_debug_seq_1: "Willkommen zur \"Fehlerbeseitigung\" (debugging)! Mein Code funktioniert nicht richtig. Kannst du das Problem finden und mein Code reparieren, damit ich mein Feld flach bekomme und es bepflanzt werden kann?"
+        maze_karel_debug_seq_2: "Was ist an diesem Programm falsch? Wie kannst du es reparieren, damit ich diesen Haufen entfernen kann?"
+        maze_karel_debug_repeat: "Suche und beseitige die/den Fehler in diesem Programm für mich, damit mein Feld wieder flach und schön wird."
         maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
+        maze_karel_debug_if: "Hilfe! Repariere das Programm, damit mein Feld komplett flach wird."
+        maze_karel_debug_if_else: "Überprüfe dieses Programm auf Fehler und beseitige sie, damit ich alle Löcher auffüllen und alle Häufen entfernen kann."
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
+        maze_karel_debug_function_2: "Kannst du dieses Programm für mich auf Fehler überprüfen und sie beseitigen, damit ich mein Feld flach machen kann?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: "Du benötigst einen \"wenn\"-Baustein in einem \"wiederhole\"-Baustein. Wenn du Probleme hast, dann versuche nochmals das vorherige Level und schau wie es dort läuft."
       tooFewBlocksMsg:
         maze_2_8: 'Um das zu lösen, finde ein sich wiederholendes Muster. Verwende einen "repeat"-Baustein, der die drei folgenden Bausteinen enthält: bewegen, bewegen, rechts abbiegen.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        maze_intro: "Labyrinth Einführung"
+        artist_intro: "Künstler Einführung"
+        farmer_intro: "Bauer Einführung"
+        loop_times: "Wiederhole-Anzahl-Baustein"
+        loop_until: "Wiederhole-Bis-Baustein"
+        if: "Wenn-Baustein"
+        if_else: "Wenn/Sonst-Baustein"
+        function: "Funktionen"
+        loop_while: "Solange-Baustein"
+        loop_for: "Zähler-Baustein"
+        parameters: "Funktionen mit Parametern"
+        hoc_wrapup: "Hour of Code Nachbereitung"
+        20_wrapup: "20-Stunden Nachbereitung"

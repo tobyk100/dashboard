@@ -92,7 +92,7 @@
       2:
         image: "notes/hoc4_2.png"
         text: |-
-          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."

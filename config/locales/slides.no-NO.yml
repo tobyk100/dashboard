@@ -3,67 +3,67 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Velkommen til den første kodetimen! La oss dykke rett inn i ditt første møte med programmering."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Vi skal bruke Blockly, et visuelt programmeringsspråk hvor du drar og slipper blokkene for å skrive kode."
       3:
         image: "notes/hoc1_3.png"
-        text: "Most code is typed, but Blockly is visual. Each blocks corresponds to a line of \"real\" code."
+        text: "De fleste programmeringsspråk bruker tekst, men Blockly er visuelt. Hver blokk tilsvarer en \"ekte\" kodelinje."
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Du vil lære grunnleggende informatikk, med begreper som brukes overalt, helt fra å skrive apper til å lage programmer for å styre Mars-roveren."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Et program er et sett med instruksjoner som datamaskinen skal følge."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "Målet med det første programmet er å få en \"Angry Bird\" gjennom en labyrint slik at den treffer en grønn gris."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Til venstre er labyrinten der programmet kjøres. Instruksjonene for hver oppgave er under labyrinten."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "Den midtre verktøykassen har kommandoene for \"Angry Bird\". Du vil bruke disse for å bygge koden."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Til høyre er arbeidsområdet hvor du skal trekke blokker fra verktøykassen til å bygge programmet med. Hvis du vil slette en blokk, drar du den til papirkurven i hjørnet."
       10:
         image: "notes/hoc1_10.png"
-        text: "Each block is one instruction. If you drag a \"move forward\" block to your workspace and press \"Run Program\", the bird moves one space on the maze."
+        text: "Hver blokk er en instruksjon. Hvis du drar en \"fremover\" blokk til arbeidsområdet og trykker \"Kjør programmet\", flyttes fuglen en plass på labyrinten."
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "For å gjøre mer enn én handling, kan du dra mange blokker til arbeidsområdet og legge dem sammen. Fuglen vil gjøre kommandoene fra topp til bunn."
       12:
         image: "notes/hoc1_12.png"
-        text: "If you run a program and want to fix it and try again, press the \"Reset\" button."
+        text: "Hvis du kjører et program og ønsker å fikse det for å prøve på nytt, kan du trykke på \"Reset\"-knappen."
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "La oss gå og ta de grisene!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Vis notater kommer snart!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Vis notater kommer snart!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Hei, jeg Mark! La oss lære om løkker. Bruk løkker kan du skal be datamaskinen om å gjenta et sett av handlinger igjen og igjen, tusenvis eller milliarder ganger."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "I denne oppgaven ønsker vi å flytte fuglen frem 5 plasser for å ta grisen."
       3:
         image: "notes/hoc2_3.png"
-        text: "We can use the new \"repeat\" block to help us out."
+        text: "Vi kan bruke den nye \"gjenta\" blokken for å hjelpe oss."
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: "I stedet for å dra ut 5 \"fremover\" blokker..."
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: "Vi kan sette \"fremover\" blokken inne i \"gjenta\"-blokken og skrive et nummer i blokken å fortelle den hvor mange ganger det skal gjentas."
       6:
         image: "notes/hoc2_6.png"
         text: 'And this is important: you can put more than one command inside a "repeat" block.'
@@ -92,7 +92,7 @@
       2:
         image: "notes/hoc4_2.png"
         text: |-
-          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."

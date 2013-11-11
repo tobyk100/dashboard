@@ -29,7 +29,7 @@
         if_else: "Hvis-ellers blokk"
         loop_times: "Gjenta ganger blokk"
         loop_until: "Gjenta til blokk"
-        loop_while: "Hvis blokk"
+        loop_while: "Så lenge blokk"
         loop_for: "Teller blokk"
         function: "Funksjoner"
         parameters: "Funksjoner med parametere"
@@ -85,62 +85,60 @@
         turtle_2_3: "Bruk \"gjenta\"-blokken (i \"Sløyfer\" kategorien) til å tegne 3 firkanter med størrelsen 100, som står 120 grader fra hverandre. Gjør dette i tre forskjellige, tilfeldige farger."
         turtle_2_4: "Nå skal vi gjøre noe kult. Endre koden til å tegne 36 firkanter, 100 punkter brede, som hver står 10 grader fra hverandre. Tips: du vil kanskje bruke glidebryteren til å få meg til å gå fortere."
         turtle_2_5: "Tegn firkanter med sider som er 50, 60, 70, 80 og 90 punkter lange. Du må bruke \"tegn firkant\"-funksjonen fem ganger."
-        turtle_2_6: 'Ok, dette programmet vil bruke en teller til å tegne de samme firkantene som sist. Du vil at firkanten skal ha samme størrelse som telleren, så bruk "teller"-blokken. Tips: den finnes i Variabel-kategorien.'
+        turtle_2_6: 'Ok, dette programmet vil bruke en teller til å tegne de samme firkantene som sist. Du vil at firkanten skal ha samme størrelse som telleren, så bruk "teller"-blokken. Tips: den finnes i kategorien Variabler.'
         turtle_2_7: "Her er et program som tegner en spiral, men blokkene er deaktivert slik at de ikke kan kjøre. Lag et nytt program som bruker en \"tell med\" blokk (i kategorien løkker) og \"teller\" blokk (i kategorien variabler) for å tegne den samme spiralen."
-        turtle_2_7_5: "Det finnes en ny funksjon for \"tegne en snowman\" (i kategorien funksjoner). Tegn to snømenn, med høyde 250 og 100."
-        turtle_2_8: "Denne er litt vanskelig. Bruk \"tegn en snømann\"-funksjonen og den nye \"hopp fremover\"-blokken (i Aksjoner-kategorien). Tegn 3 snømenn i forskjellige farger, 100 punkter fra hverandre."
-        turtle_2_9: "Bruk en \"tell med\"-sløyfe til å tegne en snømannfamilie med høydene 110, 100, 90, 80 og 70. Alle snømennene skal stå 60 punkter fra hverandre."
-        turtle_2_10: "Her er litt kode som eksperimenterer med forskjellige spiraler. Hva skjer hvis du endrer på sving-mengden? Eller setter en tilfeldig farge inni sløyfen? Tegn hva du måtte ønske."
+        turtle_2_7_5: "Det finnes en ny funksjon for \"tegne en snømann\" (i kategorien funksjoner). Tegn to snømenn, med høyde 250 og 100."
+        turtle_2_8: "Denne er litt vanskelig. Bruk \"tegn en snømann\"-funksjonen og den nye \"hopp fremover\"-blokken (i kategorien Aksjoner). Tegn 3 snømenn i forskjellige farger, 100 punkter fra hverandre."
+        turtle_2_9: "Bruk en \"tell med\"-løkke til å tegne en snømannfamilie med høydene 110, 100, 90, 80 og 70. Alle snømennene skal stå 60 punkter fra hverandre."
+        turtle_2_10: "Her er litt kode som eksperimenterer med forskjellige spiraler. Hva skjer hvis du endrer på sving-mengden? Eller setter en tilfeldig farge inni løkken? Tegn hva du måtte ønske."
         maze_karel_2_1: "Prøv å bruke blokker for å hjelpe meg med å fjerne alle haugene og fylle alle hullene på bakken. Prøv å bruke løkker i stedet for mange blokker. Tips: du kan sette en løkke inne i en annen løkke."
-        maze_karel_2_2: "Vi har definert vår egen blokk kalt \"fylle 5\", som er nå i kategorien funksjoner. Bruk den for å hjelpe meg med å fylle dette hullet."
+        maze_karel_2_2: "Vi har definert vår egen blokk \"fyll 5\", som nå finnes i kategorien Funksjoner. Bruk den til å hjelpe meg med å fylle dette hullet."
         maze_karel_2_3: "Bruk den nye \"fyll 5\" funksjonsblokken for å la meg meg fylle alle hullene. Du må hente ut \"fyll 5\" blokken fra kategorien funksjoner."
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: "Use two new functions, \"fill 8\" and \"remove 8\", to help me level out the pile and fill in the hole."
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: "Use this new function, \"avoid the cow and remove 1\", to help me remove all the piles."
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: "Using the \"draw a square\" function as an example, create a \"draw a triangle\" function and use it."
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: "See if you can figure out how to use \"draw a square\" and \"draw a triangle\" (and some other blocks) to draw a house around the lion."
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: "Add an input named \"height\" to \"draw a house\" and build a big house for the elephant (with edges 150 pixels long)"
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: "Can you re-create the \"draw a house\" function without help? Try it, and then draw a row of houses."
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_karel_2_4: "Definer en ny funksjon som fjerner 7 spadetak. Bruk den til å skrive et program som hjelper meg med å fjerne alle haugene."
+        maze_karel_2_5: "Lage en ny funksjon som fjerner 6 spadetak fra en haug, og bruk den til å hjelpe meg med å utjevne alle haugene."
+        maze_karel_2_6: "Bruke to nye funksjoner, \"Fyll 8\" og \"Fjern 8\", for å hjelpe meg med å utjevne haugen og fylle hullet."
+        maze_karel_2_7: "Det er en ku på jordet mitt! Skriv en ny funksjon som hjelper meg unngå kua og fjerne haugen. Sett alle blokkene dine innenfor den nye funksjonen."
+        maze_karel_2_8: "Bruk denne nye funksjonen, \"unngå kua og fjerne 1\", for å hjelpe meg med å fjerne alle haugene."
+        maze_karel_2_9: "OK, er her en funksjon som fjerner 4 forskjellige jordhauger i en stabel. Prøv å legge denne funksjonen inne en løkke, slik at du fjerner alle jordhaugene ved bare å bruke et par nye blokker."
+        maze_karel_2_10: "Flytt meg tvers over jordet, og bruk disse to funksjonene for å hjelpe meg med å fjerne alle haugene og fylle igjen hullene."
+        turtle_3_1: 'Denne nøtta viser hvordan "tegn en firkant" og "tegn en sirkel" funksjonene er definert.  Definer en funksjon som ikke kjører sine blokker.  Du må trekke ut "tegne en firkant" blokken slik at den faktisk tegner et kvadrat.'
+        turtle_3_2: 'Ved å benytte funksjonen "tegn en firkant" som et eksempel: Opprett en "tegn en trekant" funksjon og bruk den.'
+        turtle_3_3: "Tegn trekantete gjerder rundt kattene og et firkantet gjerde rundt kua.  Tips: test programmet underveis."
+        turtle_3_4: "Se om du kan finne ut hvordan du bruker \"tegn en firkant\" og \"tegn en trekant\" (og noen andre blokker) for å tegne et hus rundt løven."
+        turtle_3_5: 'Nå skal du lage en ny "tegne et hus" funksjon, og bruke den for å huse to katter. Tips: opprett en ny funksjon med "gjør noe" blokken, og skriv inn egen tekst for å navngi den.'
+        turtle_3_6: 'Ved å bruke "tegn en firkant" som et eksempel: Legg til inndata kalt "lengde" "tegne en trekant". Deretter tegn trekanter i forskjellige størrelser. (Hint: Klikk stjernen for å legge til et nytt parameter til en funksjon)'
+        turtle_3_7: 'Legg til et parameter kalt "høyde" å "tegne et hus" og bygg et stort hus for elefanten (med sider som er  150 piksler lange)'
+        turtle_3_8: 'Her er alle blokkene fra den forrige utfordringen.  Endre "tegne et hus" så jeg ender opp på nedre høyre hjørnet etter et å ha tegnet et nytt hus. Bruk denne forandrete funksjonen til å tegne tre hus.'
+        turtle_3_9: "Kan du gjenopprette funksjonen \"tegn et hus\" uten hjelp? Prøv det, og tegn deretter en rekke med hus."
+        turtle_3_10: "Du har lært mye! Bruk det for å tegne hva du vil. Prøv å tegn en stjerne, eller en spiral eller et fancy snøfnugg."
+        maze_karel_debug_seq_1: "Velkommen til feilsøking! Koden virker ikke riktig. Kan du finne problemet og fikse det slik at jeg kan få gjort jordet jevnt og klar for planting?"
+        maze_karel_debug_seq_2: "Hva er galt med dette programmet? Hvordan kan du fikse det slik at jeg kan fjerne den haugen?"
+        maze_karel_debug_repeat: "Feilsøk dette programmet slik at jordet mitt kan bli flatt og fint."
+        maze_karel_debug_while: "Hvordan vil du endre på dette programmet for å hjelpe meg med å fylle hullet?"
+        maze_karel_debug_if: "Hjelp! Fiks dette programmet slik at åkeren min blir helt flat."
+        maze_karel_debug_if_else: "Finn feilene i dette programmet så jeg kan få fylt hullene og fjernet haugene."
+        maze_karel_debug_function_1: "Hva ville du endret på dette programmet for å hjelpe meg med å fjerne alle haugene?"
+        maze_karel_debug_function_2: "Kan du finne feilene i dette programmet for meg slik at jeg kan gjøre åkeren min flat?"
+        maze_karel_debug_function_3: "Endre på programmet slik at jeg fjerner all haugene på åkeren min. "
+        turtle_5_1: "Benyttet denne muligheten til å tegne hva du måtte ønske! Hvis du ikke kommer på noe, spør sidemannen om et forslag!"
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'For å løse dette, finn mønster som gjentar seg. Bruk en "gjenta"-blokk med følgende 3 blokkene inni seg: fremover, fremover, sving til høyre.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: "Du trenger en \"hvis\"-blokk inni en \"gjenta\"-blokk. Hvis du får vanskeligheter, prøv det forrige nivået en gang til for å se hvordan det fungerte."
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'For å løse dette, finn mønsteret som gjentar seg. Bruk en "gjenta"-blokk med følgende blokker inni seg: fremover, fremover, sving til høyre.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        maze_intro: "Labyrint intro"
+        artist_intro: "Kunstner intro"
+        farmer_intro: "Bonde intro"
+        loop_times: "Gjenta bloggen et antall ganger"
+        loop_until: "Gjenta inntil blokk"
+        if: "hvis-blokk"
+        if_else: "Hvis/ellers blokk"
+        function: "Funksjoner"
+        loop_while: "Mens blokk"
+        loop_for: "Teller-blokk"
+        parameters: "Funksjoner med parametre"
+        hoc_wrapup: "Slutt på Kodetimen"
+        20_wrapup: "Slutt etter 20 timer"

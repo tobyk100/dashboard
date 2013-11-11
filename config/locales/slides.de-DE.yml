@@ -89,7 +89,8 @@
         text: 'Hi, ich bin Bill! Lass uns ein neues, fundamentales Konzept lernen: Die "If"-Anweisungen. Damit trifft der Computer Entscheidungen.'
       2:
         image: "notes/hoc4_2.png"
-        text: 'Du selbst verwendest "If"-Anweisungen täglich. Bevor du am Morgen nach draußen gehst, sagst du zu dir: WENN es draußen regnet, muss ich meine Jacke anziehen.'
+        text: |-
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "Wir können den Zombie anweisen zu überprüfen WENN es einen Weg nach links gibt und wenn er einen Weg nach links findet, dass er sich in diese Richtung drehen soll."

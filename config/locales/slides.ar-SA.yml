@@ -90,7 +90,7 @@
       2:
         image: "notes/hoc4_2.png"
         text: |-
-          أنت بنفسك تستخدم  عبرات "If" (لو) يومياً. من قبل الخروج إلى الخارج كل يوم، أنت تقول 'لو' كان هناك مطر بالخارج، فسوف يجب على لبس الجاكيت.
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "يمكن أن نقول للزومبي التحقق إذا كان هناك المسار إلى اليسار، وإذا كان يجد طريق إلى اليسار، ونحن يمكننا أن نجعلة يدور في هذا الاتجاه."
@@ -141,17 +141,17 @@
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "تهانينا! مع حلك للأخر لغز، لقد كتبت للتو الأرشدات البرمجية التي يمكن أن تقول لأي روبوت كيفية العثور على سبيلها من خلال المتاهات غير المتفرعة أو الأنفاق بأي طول، سواء أكان الزومبي، الطيور، مارس روفر (عربة المريخ)، أو حتى سيارة ذاتية القيادة."
       2:
         image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: 'الفكرة أو المفاهيم الأساسية التي أستخدمتها هى الجوهر لكل البرامج أو التطبيقات التي أستخدمتها في أي وقت مضى.  تعلمنا عن الحلقات المتكررة، عبارة "كرر حتى"   ،   "لو"     و أيضاً عبارة "لو كان".'
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "إذا كنت تحب الساعة الأولى من التعليمات البرمجية خاصتك، قم بزيارة code.org لمواصلة تعلمك علوم الكمبيوتر! بمجرد إكمالك 20 ساعة من دورتنا التعليمية، ستكون قد أتقنت أساسيات البرمجة، ويمكن البدء بتعلم كيفية كتابة تطبيقات الهاتف الخليوي وأوامر الروبوت والألعاب، وأختر ما شئت."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "تغير التكنولوجيا كل شيء نقوم به، ولا يهم إذا كنت شاب أو عجوز، صغير أو كبير: البرمجة متعة و إبداع، ويمكن للجميع تعلمها!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "بيان الملاحظات قريبا!"

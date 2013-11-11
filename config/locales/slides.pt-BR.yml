@@ -89,7 +89,8 @@
         text: 'Oi, eu sou o Bill! Vamos aprender um novo conceito fundamental: declarações "SE". É assim que computadores tomam decisões.'
       2:
         image: "notes/hoc4_2.png"
-        text: "Você mesmo usa a declaração \"SE\" todos os dias. Antes de você ir lá fora todas as manhãs, você diz que SE está chovendo lá fora, você precisa usar sua jaqueta."
+        text: |-
+          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
       3:
         image: "notes/hoc4_3.png"
         text: "Então podemos dizer ao zumbi para verificar SE há caminho para a esquerda e, se ele encontrar um caminho para a esquerda, teremos que virar ele naquela direção."

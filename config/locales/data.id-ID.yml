@@ -75,32 +75,32 @@
         maze_karel_1_4: "Anda dapat membantu saya menghapus semua empat tumpukan tanah? Petunjuk: Gunakan blok ulangi (repeat) jika Anda bisa."
         maze_karel_1_5: 'Bantu saya mengisi di semua lubang ini dengan 5 sekop tanah. Petunjuk: Anda dapat menempatkan blok "Ulangi" di dalam blok "sementara".'
         maze_karel_1_6: "Hapus semua tumpukan tanah, menggunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok \"sementara\" beritahu saya jika saya sedang berdiri di tumpukan atau lubang."
-        maze_karel_1_7: "Wow, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapat Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
+        maze_karel_1_7: "Aduh, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapat Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
         maze_karel_1_8: "Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin."
-        maze_karel_1_9: 'Membuat saya menghapus semua tumpukan tanah. Coba gunakan blok sesedikit mungkin. Petunjuk: Anda dapat menggunakan blok "sementara" (while) di dalam "Ulangi" (repeat) blok.'
-        maze_karel_1_10: "Saya bekerja terlambat, sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang aku tidak memiliki semua pilihan seperti ketika saya gunakan blok \"sementara\" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, hapuslah."
-        maze_karel_1_11: 'Di luar masih gelap. Pindahkan saya sepanjang lapangan. Jika ada tumpukan, hapuslah, dan jika ada lubang, isilah. Petunjuk: Gunakan dropdown menu pilihan di blok "jika".'
-        turtle_2_1: "Halo, Saya zombie artis. Saya suka menggambar! Bantulah saya menggambar segi empat dengan warna khusus. Catatan penting: anda memiliki blok yang sama tapi mereka diatur didalam kategori."
+        maze_karel_1_9: 'Bantu saya memindahkan semua tumpukan tanah. Coba gunakan blok sesedikit mungkin. Petunjuk: Anda dapat menggunakan blok "sementara" (while) di dalam "Ulangi" (repeat) blok.'
+        maze_karel_1_10: "Saya bekerja lembur sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang saya tidak memiliki semua pilihan seperti ketika saya gunakan blok \"sementara\" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, pindahkanlah."
+        maze_karel_1_11: 'Di luar masih gelap. Pindahkan saya sepanjang lapangan. Jika ada tumpukan, buanglah, dan jika ada lubang, isilah. Petunjuk: Gunakan dropdown menu pilihan di blok "jika".'
+        turtle_2_1: "Halo, Saya zombie artis. Saya suka menggambar! Bantulah saya menggambar segi empat dengan warna khusus. Catatan penting: anda memiliki blok-blok yang sama tapi mereka diatur didalam kategori."
         turtle_2_2: "Selamat datang di menggunakan fungsi, yang memungkinkan Anda membuat blok baru! Coba baru \"gambar persegi empat\" blok, yang dapat ditemukan dalam kategori \"Fungsi\", untuk menggambar persegi hijau kecil 50 x 50."
         turtle_2_3: "Gunakan blok \"Ulangi\" (dalam kategori \"Loop\") untuk menarik 3 kotak ukuran 100, dengan 120 derajat terpisah. Dan lakukan dalam 3 warna acak yang berbeda."
-        turtle_2_4: "Sekarang kita akan coba yang sedikit lebih rumit. Ubah kode untuk menggambar 36 kotak, 100 piksel lebar, dan 10 derajat terpisah satu dengan lain. Petunjuk: Anda mungkin ingin menggunakan slider untuk membuatku berjalan lebih cepat."
+        turtle_2_4: "Sekarang kita akan coba yang sedikit lebih keren. Ubah kode untuk menggambar 36 kotak, 100 piksel lebar, dan 10 derajat terpisah satu dengan lain. Petunjuk: Anda mungkin ingin menggunakan slider untuk membuatku berjalan lebih cepat."
         turtle_2_5: 'Menggambar kotak dengan sisi 50, 60, 70, 80, dan 90 pixel.  Anda akan perlu menggunakan fungsi "gambar persegi" lima kali.'
         turtle_2_6: 'OK, program ini akan menggunakan counter, untuk menggambar kotak yang sama seperti sebelumnya. Anda ingin kotak menjadi ukuran yang sama seperti counter, jadi gunakanlah blok "counter". Petunjuk: lihatlah didalam kategori variabel.'
         turtle_2_7: "Ini adalah sebuah program untuk menggambar sebuah spiral, tapi blok dinonaktifkan sehingga mereka tidak akan berjalan. Buatlah sebuah program baru yang menggunakan blok \"hitung dengan\" (dalam kategori loop) dan blok \"counter\" (dalam kategori variabel) untuk menggambar spiral yang sama."
-        turtle_2_7_5: "Ada sebuah fungsi \"menggambar manusia salju\" yang baru (dalam kategori fungsi). Gambar dua manusia salju, yang berketinggian 250 dan 100."
-        turtle_2_8: "Ini sedikit rumit. Gunakan fungsi \"menggambar manusia salju\" dan blok baru \"melompat kedepan\" (dalam kategori tindakan). Gambarlah manusia salju 3 dalam warna yang berbeda dan terpisah 100 pixel satu sama lain."
+        turtle_2_7_5: "Ada sebuah fungsi \"gambar manusia salju\" yang baru (dalam kategori fungsi). Gambar dua manusia salju, yang berketinggian 250 dan 100."
+        turtle_2_8: "Yang ini sedikit rumit. Gunakan fungsi \"gambar manusia salju\" dan blok baru \"lompat ke depan\" (dalam kategori tindakan). Gambarlah manusia salju 3 dalam warna yang berbeda dan terpisah 100 pixel satu sama lain."
         turtle_2_9: 'Gunakan loop "menghitung dengan" untuk menggambar keluarga manusia salju dengan ketinggian dari 110, 90, 100, 80, dan 70. Manusia salju - manusia salju ini harus berjarak 60 piksel satu dengan lainnya.'
-        turtle_2_10: "Berikut adalah beberapa kode untuk mencoba bereksperimen dengan spiral yang berbeda.  Apa yang terjadi jika Anda mengubah jumlah putaran? Atau mengatur warna acak dalam lingkaran?  Gambarlah apa pun yang Anda suka."
+        turtle_2_10: "Berikut adalah beberapa kode untuk mencoba bereksperimen dengan spiral yang berbeda.  Apa yang terjadi jika Anda mengubah jumlah putaran? Atau mengatur warna secara acak dalam lingkaran?  Gambarlah apa pun yang Anda suka."
         maze_karel_2_1: "Cobalah menggunakan blok untuk membantu saya menghapus semua tumpukan dan mengisi di semua lubang di tanah. Cobalah untuk menggunakan loop daripada menggunakan terlalu banyak blok. Petunjuk: Anda dapat menempatkan sebuah loop dalam loop lain."
-        maze_karel_2_2: "Kita sudah didefinisikan blok yang bernama \"Isi 5\", yang kini dalam kategori fungsi. Menggunakannya untuk membantu saya mengisi lubang ini."
+        maze_karel_2_2: "Kita sudah mendefinisikan blok yang bernama \"Isi 5\", yang kini dalam kategori fungsi. Gunakanlah untuk membantu saya mengisi lubang ini."
         maze_karel_2_3: "Gunakan blok fungsi \"Isi 5\" yang baru untuk membuat saya mengisi di semua lubang. Anda harus menyeret keluar blok \"Isi 5\" keluar dari kategori fungsi."
-        maze_karel_2_4: "Definisikan fungsi baru yang menghilangkan 7 sekop-sekop. Kemudian gunakanlah untuk menulis sebuah program yang membantu saya menghapus semua tumpukan."
-        maze_karel_2_5: "Buat fungsi baru yang menghapus 6 sekop-sekop dari tumpukan, dan menggunakanlah untuk membantu saya tingkat keluar semua tumpukan."
-        maze_karel_2_6: "Gunakan kedua fungsi baru, \"Isilah 8\" dan \"Hapus 8\", untuk membantu saya meratakan tumpukan dan mengisi lubang."
-        maze_karel_2_7: "Ada sapi di ladang saya! Buatlah fungsi baru yang membantu saya menghindari sapi dan menghapus tumpukan. Menempatkan semua blok-blok tersebut dalam fungsi tersebut."
-        maze_karel_2_8: "Menggunakan fungsi baru ini, \"hindari sapi dan hapus 1\", untuk membantu saya menghapus semua tumpukan."
-        maze_karel_2_9: "OK, ini adalah sebuah fungsi yang menghilangkan 4 tumpukan tanah berbeda di kolom vertikal. Cobalah menempatkan fungsi ini dalam sebuah loop, sehingga Anda menghapus semua tumpukan tanah hanya dengan menggunakan beberapa blok baru."
-        maze_karel_2_10: "Pindahkan saya di lapangan, dan gunakan kedua fungsi ini untuk membantu saya menghapus semua tumpukan dan mengisi semua lubang."
+        maze_karel_2_4: "Definisikan fungsi baru yang menghilangkan 7 sekop-sekop. Kemudian gunakanlah untuk menulis sebuah program yang membantu saya menghilangkan semua tumpukan."
+        maze_karel_2_5: "Buat fungsi baru yang menghapus 6 sekop-sekop dari tumpukan, dan gunakanlah untuk membantu saya tingkat keluar semua tumpukan."
+        maze_karel_2_6: "Gunakan kedua fungsi baru, \"Isi 8\" dan \"Hapus 8\", untuk membantu saya meratakan tumpukan dan mengisi lubang."
+        maze_karel_2_7: "Ada sapi di ladang! Buatlah fungsi baru yang membantu saya menghindari sapi dan memindahkan tumpukan. Menempatkan semua blok-blok tersebut dalam fungsi tersebut."
+        maze_karel_2_8: "Menggunakan fungsi baru ini, \"hindari sapi dan hapus 1\", untuk membantu saya memindahkan semua tumpukan."
+        maze_karel_2_9: "OK, ini adalah sebuah fungsi yang menghilangkan 4 tumpukan tanah berbeda di kolom vertikal. Cobalah menempatkan fungsi ini dalam sebuah loop, sehingga Anda menghilangkan semua tumpukan tanah hanya dengan menggunakan beberapa blok baru."
+        maze_karel_2_10: "Pindahkan saya di lapangan, dan gunakan kedua fungsi ini untuk membantu saya memindahkan semua tumpukan dan mengisi semua lubang."
         turtle_3_1: 'Teka-teki ini menunjukkan kepada Anda bagaimana fungsi "gambar persegi empat" dan fungsi "gambar sebuah lingkaran" didefinisikan.  Definisikan fungsi tidak menjalankan blok.  Anda harus menarik blok "gambar persegi empat" keluar untuk benar-benar menggambar persegi empat.'
         turtle_3_2: 'Gunakan fungsi "gambar persegi" sebagai contoh, buat fungsi "gambar segitiga" dan  gunakanlah.'
         turtle_3_3: "Gambar pagar segitiga mengelilingi kucing-kucing dan pagar segi empat mengelilingi sapi. Petunjuk: uji program selagi anda membuatnya."
@@ -109,22 +109,22 @@
         turtle_3_6: 'Menggunakan "gambar persegi" sebagai contoh, tambahkan input bernama "panjang" untuk "gambar segitiga". Kemudian, gambar segitiga dalam berbagai ukuran. (Petunjuk: Klik bintang untuk menambahkan masukan ke fungsi)'
         turtle_3_7: "Tambahkan masukan bernama \"tinggi\" untuk \"gambar rumah\" dan membangun sebuah rumah yang besar untuk gajah (dengan panjang 150 pixel)"
         turtle_3_8: 'Berikut adalah semua blok dari teka-teki sebelumnya.  Modifikasi "gambar rumah" sehingga saya berada di sudut kanan bawah setelah mengambar rumah baru. Gunakan fungsi yang telah dimodifikasi ini untuk menggambar tiga rumah.'
-        turtle_3_9: "Dapat Anda kembali membuat fungsi \"gambar sebuah rumah\" tanpa bantuan? Cobalah, dan kemudian gambarlah sederetan rumah."
+        turtle_3_9: "Dapatkah Anda kembali membuat fungsi \"gambar sebuah rumah\" tanpa bantuan? Cobalah, dan kemudian gambarlah sederetan rumah."
         turtle_3_10: "Anda telah banyak belajar! Sekarang gunakanlah untuk menggambar apapun yang anda inginkan. Cobalah untuk menggambar sebuah bintang, sebuah spiral, atau kepingan salju."
-        maze_karel_debug_seq_1: "Selamat datang di debugging! Kode saya tidak bekerja dengan benar. Bisakah anda menemukan masalah dan memperbaikinya sehingga saya bisa mendapat area datar dan siap tanam?"
-        maze_karel_debug_seq_2: "Apa salah dengan program ini? Bagaimana Anda harus memperbaikinya sehingga saya dapat menghapus tumpukan itu?"
-        maze_karel_debug_repeat: "De bug program ini untuk saya sehingga menjadi area yang bagus dan datar."
+        maze_karel_debug_seq_1: "Selamat datang di debugging! Kode saya tidak bekerja dengan benar. Bisakah anda menemukan masalah dan memperbaikinya sehingga saya bisa mendapat lapangan datar dan siap tanam?"
+        maze_karel_debug_seq_2: "Apa salah dengan program ini? Bagaimana Anda harus memperbaikinya sehingga saya dapat memindahkan tumpukan itu?"
+        maze_karel_debug_repeat: "De bug program ini untuk saya sehingga menjadi lapangan yang bagus dan datar."
         maze_karel_debug_while: "Bagaimana anda bisa mengubah program ini untuk menolong saya mengisi lubang?"
-        maze_karel_debug_if: "Tolong! Perbaiki program ini sehingga area saya menjadi benar-benar datar."
-        maze_karel_debug_if_else: "Debug program ini sehingga saya bisa mengisi lubang dan menghapus semua tumpukkan."
-        maze_karel_debug_function_1: "Apa yang harus anda ubah di dalam program ini supaya bisa menolong saya memindahkan semua tumpukan ini?"
-        maze_karel_debug_function_2: "Dapatkah anda men-debug program ini untuk saya supaya saya dapat membuat area ini datar?"
-        maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di area saya. "
-        turtle_5_1: "Ambillah kesempatan saat ini untuk menggambar apapun yang anda inginkan! Jika anda tidak punya ide, tanyalah kepada orang disamping anda untuk memberi saran!"
+        maze_karel_debug_if: "Tolong! Perbaiki program ini sehingga lapangan saya menjadi benar-benar datar."
+        maze_karel_debug_if_else: "Debug program ini sehingga saya bisa mengisi lubang dan memindahkan semua tumpukkan."
+        maze_karel_debug_function_1: "Apa yang harus diubah di dalam program ini supaya bisa menolong saya memindahkan semua tumpukan ini?"
+        maze_karel_debug_function_2: "Dapatkah anda men-debug program ini untuk saya supaya  dapat membuat lapangan ini menjadi datar?"
+        maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di lapangan saya. "
+        turtle_5_1: "Sekarang saatnya untuk menggambar apapun yang anda inginkan! Jika anda tidak punya ide menarik, mintalah saran kepada orang disamping anda!"
       levelIncompleteError:
         maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok kanan.'
       other1StarError:
-        maze_2_14: "Anda perlu blok \"jika\" (if) didalam blok \"ulangi\" (repeat). Jika anda mengalami kesulitan, cobalah level sebelumnya lagi untuk melihat bagaimana caranya."
+        maze_2_14: "Anda perlu blok \"jika\" (if) didalam blok \"ulangi\" (repeat). Jika anda mengalami kesulitan, cobalah level sebelumnya lagi untuk mempelajari bagaimana caranya."
       tooFewBlocksMsg:
         maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "Ulangi" (repeat) dengan ini 3 blok di dalamnya: gerak, gerak, belok kanan.'
     video:
