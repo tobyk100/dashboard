@@ -545,8 +545,6 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 }
 
 #notes {
-  max-height: 500px;
-  overflow: scroll;
   .note {
     padding-bottom: 10px;
     p {
