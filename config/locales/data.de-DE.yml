@@ -2,85 +2,83 @@ de:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: Einführung in die Informatik bis 8. Schuljahr
+        Hour of Code: Programmierstunde
+        Edit Code: Code bearbeiten
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: Das Labyrinth
+        Artist: Der Künstler
+        Artist2: Der Künstler 2
+        Farmer: Der Bauer
+        Artist3: Der Künstler 3
+        Farmer2: Der Bauer 2
+        Artist4: Der Künstler 4
+        Farmer3: Der Bauer 3
+        Artist5: Der Künstler 5
+        MazeEC: Der Künstler
     trophy:
       name:
         Bronze: Bronze
-        Silver: Silver
+        Silver: Silber
         Gold: Gold
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: Sequenz
+        if: Wenn-Baustein
+        if_else: Wenn-Dann-Baustein
+        loop_times: Wiederholen-Baustein
+        loop_until: Wiederholen-bis-Baustein
+        loop_while: Solange-Baustein
+        loop_for: Zähler-Baustein
+        function: Funktionen
+        parameters: Funktionen mit Parametern
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the green pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.
-        maze_2_15: Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.
-        maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
-        maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: Make a square using only 3 blocks.
+        maze_2_2: 'Hallo! Ich muss das grüne Schweinchen schnappen! Stapel ein paar "gehe vorwärts"-Bausteine zusammen und drücke "Programm starten" um mir zu helfen dort hin zu gelangen. '
+        maze_2_1: "Schreibe ein anderes Programm, so dass ich es bis zum grünen Schwein schaffe. "
+        maze_2_2_5: Wie soll ich es zum grünen Schwein schaffen? (Achte auf den Sprengstoff TNT)
+        maze_2_3: Wie soll ich es zum grünen Schwein schaffen? (Achte auf den Sprengstoff TNT)
+        maze_2_4: "Argh! Schreibe ein Programm, das mich am TNT-Sprengstoff vorbei und zum grünen Schwein bringt. "
+        maze_2_5: Es gibt einen Weg, bei dem ich mit nur zwei Bausteinen zum grünen Schwein komme. Findest du ihn?
+        maze_2_6: Versuche, mich zum grünen Schwein zu bringen, indem du nur drei Blöcke verwendest.
+        maze_2_7: Schreib ein Programm, so dass ich es mit so wenig Bausteinen wie möglich bis zum grünen Schwein schaffe . Versuche, mehr als einen "Wiederholen"-Baustein zu benutzen.
+        maze_2_8: Versuche einen "Wiederholen"-Baustein mit folgenden Bausteinen im Inneren "gehe vorwärts, gehe vorwärts, drehe", um dieses Rätsel zu lösen.
+        maze_2_9: 'OK, versuche den neuen "Wiederhole bis"-Block - er wird wiederholt, bis ich das grüne Schwein erreiche.'
+        maze_2_10: "Okay, eine letzte Übung - kannst du das mit nur 4 Bausteinen lösen?"
+        maze_2_11: "Sehr geehrte Person.  Ich Zombie. Ich hungrig. ... Muss... zur... Sonnenblume... gelangen. Kannst du mich mit nur 5 Bausteinen hin bringen?"
+        maze_2_12: OK, das ist ähnlich, aber etwas anders. Schaffst du es in nur 5 Blöcken?
+        maze_2_13: 'Nutze den neuen "Wenn" Baustein um zu entscheiden wann ich mich drehen soll. Hinweis: Du brauchst nur einen weiteren Baustein, aber schau dir an wie wir es gemacht haben um es beim nächsten Mal alleine machen zu können.'
+        maze_2_14: Ok, es ist wie das letzte Puzzle, aber vergiss nicht wie du den "Wenn" Baustein und den "Wiederholen" Baustein zusammen verwendet hast.
+        maze_2_15: Sonnenblume haben will! Benutze einen "Wenn"-Baustein, um mich mit so wenig Bausteinen wie möglich hin zu bringen.
+        maze_2_16: "Ok, lass es uns nochmal versuchen - es ist nicht wirklich anders, aber pass vor den Fleischfressenden Pflanzen auf!"
+        maze_2_17: Der "Wenn-Dann" Baustein überprüft eine Bedingung und macht dann eine Sache ODER eine andere. Versuche den neuen Baustein zu verwenden um mich zu der Sonnenblume zu bringen.
+        maze_2_18: Noch eine Übung mit dem "Wenn-Dann" Baustein, schaffst du es mit dem ersten Versuch?
+        maze_2_19: Können Sie nur 3 Bausteine hinfügen um mir mit ein komplexer Labyrinth zu helfen? Wenn du es richtig machst, kann ich jeden kurvigen Weg gehen, unabhängig von der Länge.
+        turtle_1_1: Hallo, ich bin ein Künstler. Du kannst Code schreiben um fast alles zu malen. Benutze die Bausteine um mich über grauen Linien im Bild malen zu lassen.
+        turtle_1_2: 'Nun zeichnen Sie ein Quadrat. HINWEIS: Verwenden Sie Ihre Lieblingsfarbe von der neue "setze Farbe" Baustein.'
+        turtle_1_3: Mache ein Viereck mit nur 3 Bausteinen.
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
+        turtle_1_6: "Kannst du herausfinden, wie Mann dieses Dreieck und Quadrat zeichnet? Tipp: Zuerst das Dreieck zeichnen, dann rechne aus wie viele Umdrehungen benötigt sind, bevor du das Quadrat zeichnest."
         turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
         turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
         turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
         turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
         turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
+        turtle_4_3: Zeichne einen Pfeil der so aussieht. Denke über alle Schritte nach die du machen musst.
+        turtle_4_4: Kannst du etwas Zeichnen was so aussieht wie dieses Schiff? Es sind viele kleine Schritte zusammen, also versuche das Problem in kleinere Teile aufzuteilen.
+        maze_karel_1_1: Hallo, ich bin ein Bauer. Ich brauche deine Hilfe beim glätten meines Feldes um es für das Sähen vorzubereiten. Bewege mich zum dem Erdblock und nutze den "Entfernen" Baustein um diesen zu entfernen.
+        maze_karel_1_2: Anschließend verschiebe mich in das Loch und fülle es mit zwei Schaufelladungen Erde mit dem "Füllen"-Block.
         maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: Help me fill in the hole at the end of the field, using as few blocks as possible.
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
+        maze_karel_1_4: 'Kannst du mir helfen alle vier Haufen Erde zu entfernen? Hinweis: Nutze einen "Wiederholen" Block wenn du kannst.'
+        maze_karel_1_5: 'Helfen Sie diese Löcher mit 5 Schaufeln Erde aufzufüllen. Tipp: Sie können eine "Wiederholung" Baustein innerhalb des Bausteins "wenn" setzen.'
+        maze_karel_1_6: Entfernen Sie alle Haufen von Dreck, mit so wenig Bausteine wie möglich. Die neuen Optionen im Dropdown-Menü auf dem Block "wenn" sagen mir, ob ich auf einem Haufen oder ein Loch stehe.
+        maze_karel_1_7: Wow, ich habe ein wirklich tiefes Loch gefunden! Ich weiß nicht wie viele Schaufeln von Dreck es braucht. Können Sie ein Programm schreiben, das es ausfüllt, bis der Boden eben ist?
+        maze_karel_1_8: Hilf mir das Loch am Ende des Feldes zu füllen mit so wenigen Bausteinen wie möglich.
+        maze_karel_1_9: 'Bringe mich dazu alle Erdhaufen zu entfernen. Versuche so wenige Bausteine wie möglich zu verwenden. Hinweis: Du kannst einen "Solange" Baustein in einem "Wiederholen" Baustein benutzen.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
@@ -110,10 +108,9 @@ de:
         maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.
         maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
         maze_karel_2_8: Use this new function, "avoid the cow and remove 1", to help me remove all the piles.
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: Move me across the field, and use these two functions to help me remove all the piles and fill all the holes.
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
+        maze_karel_2_9: OK, ist hier eine Funktion, die 4 verschiedene Dreckhaufen in einer vertikalen Spalte entfernt. Versuche diese Funktion in einer Schleife, so dass du alle Haufen mit nur ein paar neuen Bausteinen entfernst.
+        maze_karel_2_10: Bewege mich über das Feld und verwende diese beiden Funktionen, um mir zu helfen, alle Stapel zu entfernen und alle Löcher zu füllen.
+        turtle_3_1: 'Dieses Puzzle zeigt, wie die Funktionen "Zeichne ein Quadrat" und "Zeichne einen Kreis" definiert sind.  Eine Funktion definieren, führt die Bausteine nicht aus.  Du musst den Bausteine "Zeichne ein Quadrat" ziehen, um ein Quadrat zu zeichnen.'
         turtle_3_2: Using the "draw a square" function as an example, create a "draw a triangle" function and use it.
         turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
         turtle_3_4: See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.
@@ -139,7 +136,7 @@ de:
         maze_2_14: |-
           You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Um das zu lösen, finde ein sich wiederholendes Muster. Verwende einen "repeat"-Baustein, der die drei folgenden Bausteinen enthält: bewegen, bewegen, rechts abbiegen.'
     video:
       name:
         maze_intro: Maze Intro

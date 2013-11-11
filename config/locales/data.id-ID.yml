@@ -2,156 +2,143 @@ id:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: Kursus Perkenalan ilmu komputer untuk K-8
+        Hour of Code: Jam kode
+        Edit Code: Mengedit kode
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: Labirin
+        Artist: Artis
+        Artist2: Artis 2
+        Farmer: Petani
+        Artist3: Artis 3
+        Farmer2: Petani 2
+        Artist4: Artis 4
+        Farmer3: Petani 3
+        Artist5: Artis 5
+        MazeEC: Artis
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: Perunggu
+        Silver: Perak
+        Gold: Emas
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: Urutan
+        if: Blok Jika
+        if_else: Blok Jika lain (if-else)
+        loop_times: Blok berulang kali (Repeat)
+        loop_until: Blok Ulangi sampai (Repeat until)
+        loop_while: Blok sementara (while)
+        loop_for: Blok konter (Counter)
+        function: Fungsi
+        parameters: Fungsi dengan parameter
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the green pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.
-        maze_2_15: Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.
-        maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
-        maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: Make a square using only 3 blocks.
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
-        turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
-        maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: Help me fill in the hole at the end of the field, using as few blocks as possible.
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.
-        turtle_2_3: Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles.
-        maze_karel_2_5: Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles.
-        maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: Use this new function, "avoid the cow and remove 1", to help me remove all the piles.
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: Move me across the field, and use these two functions to help me remove all the piles and fill all the holes.
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: Using the "draw a square" function as an example, create a "draw a triangle" function and use it.
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: De-bug this program for me so my field will be nice and flat.
-        maze_karel_debug_while: How should you change this program to help me fill the hole?
-        maze_karel_debug_if: Help! Fix the program so my field will be completely flat.
-        maze_karel_debug_if_else: De-bug this program so I can fill in the holes and remove all the piles.
-        maze_karel_debug_function_1: What should you change about this program to help me remove all the piles?
-        maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_2_2: 'Hai! Saya perlu  dapatkan Piggy hijau! Tumpukkan bersama-sama beberapa blok "maju" dan tekan "Jalankan Program" untuk membantu saya. '
+        maze_2_1: "Beri saya program lain sehingga saya bisa mencapai babi hijau. "
+        maze_2_2_5: Bagaimana cara mendapat babi hijau? (hati-hati terhadap TNT)
+        maze_2_3: Bagaimana cara mendapat babi hijau? (hati-hati terhadap TNT)
+        maze_2_4: "Aduh! Tulis sebuah program yang akan membawa saya menghindari TNT dan menuju babi hijau. "
+        maze_2_5: Ada cara supaya bisa mencapai babi hijau hanya dengan menggunakan 2 blok. Apakah anda bisa menemukannya?
+        maze_2_6: Coba supaya saya mendapatkan babi hijau hanya dengan menggunakan tiga blok.
+        maze_2_7: Tulis untuk saya sebuah program dengan menggunakan jumlah blok sesedikit mungkin sehingga saya bisa mendapatkan untuk babi hijau. Gunakan lebih dari satu blok "berulang kali" (repeat times).
+        maze_2_8: 'Untuk menyelesaikan problem ini, coba blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok.'
+        maze_2_9: 'OK, coba blok baru "ulangi sampai" (repeat until) - ini akan mengulang sampai saya mencapai babi hijau.'
+        maze_2_10: "OK, terakhir kali untuk mempraktekkan - apakah anda dapat menyelesaikan yang satu ini dengan hanya 4 blok?"
+        maze_2_11: Halo manusia. Saya zombie. Saya lapar. Harus... ambil... bunga matahari... Anda bisa membawa saya hanya dengan 5 blok?
+        maze_2_12: OK, ini serupa tapi sedikit berbeda. Anda bisa melakukannya dengan hanya 5 blok?
+        maze_2_13: 'Gunakan blok baru "jika" untuk membiarkan saya memutuskan kapan untuk membelok. Petunjuk: Anda hanya perlu menambahkan satu blok, tapi pelajari bagaimana kami mengatur blok-blok tersebut sehingga lain kali kamu bisa melakukannya sendiri.'
+        maze_2_14: OK, ini seperti teka-teki yang terakhir, tetapi anda harus ingat bagaimana menggunakan blok "if" dan blok "repeat" bersama-sama.
+        maze_2_15: Saya ingin bunga matahari! Gunakan blok "jika" (if) untuk memindahkan saya kesana dengan jumlah blok sesedikit mungkin.
+        maze_2_16: "OK, ayo kita latihan lagi - kali ini sedikit berbeda, tapi hati-hati degnan choppers!"
+        maze_2_17: Blok "Jika-pun" memeriksa kondisi, dan kemudian melakukan satu hal atau hal yang lain. Untuk memberikan saya dengan bunga matahari cobalah menggunakan blok baru.
+        maze_2_18: Cobalah mencoba mempraktekkan blok "jika-lain", bisakah Anda mendapatkannya benar pada percobaan pertama?
+        maze_2_19: Dapatkah Anda menambahkan hanya 3 blok untuk membantu saya memecahkan labirin yang lebih kompleks? Jika Anda melakukannya dengan benar, saya bisa berjalan dijalan melengkung walaupun panjang.
+        turtle_1_1: Hi, saya seorang artis. Anda dapat menulis kode untuk membuat saya menarik hampir apa pun. Gunakan beberapa blok untuk membuat saya mengambil garis abu-abu dalam gambar.
+        turtle_1_2: 'Sekarang, menggambar persegi empat. Catatan: Gunakan warna favorit Anda dengan memilih di blok baru "atur warna".'
+        turtle_1_3: Membuat persegi empat menggunakan hanya 3 blok.
+        turtle_1_4: 'Gambar sebuah segitiga sisi yang memiliki warna yang berbeda, gunakan opsi "acak warna" yang mengambil warna yang berbeda setiap kali. Petunjuk: Anda harus mencari tahu sejauh mana membelok dengan mengklik nomor di blok belok.'
+        turtle_1_5: Sekarang, untuk latihan, gambarlah sebuah segitiga dan kemudian persegi empat gambarlah sebuah amplop.
+        turtle_1_6: "Dapatkah Anda mengetahui bagaimana menggambar segitiga dan segi empat? Petunjuk: Pertama-tama buatlah segitiga, kemudian carilah cara untuk memutar sebelum menggambar persegi empat."
+        turtle_1_7: "OK, mari kita mencoba yang sedikit lebih sulit - Lihat jika Anda dapat menggambar kacamata hijau ini. Segi empat adalah 100 piksel pada setiap sisi, dan mereka berjarak 50 pixel. Jangan lupa untuk menggambar dengan warna hijau!"
+        turtle_1_8: OK, cobalah untuk mencari tahu apa yang terjadi jika Anda menjalankan kode ini (atau tekan "Kerjakan" (run) untuk mencoba). Kemudian, ulangi untuk melengkapi gambar. Warna akan berbeda setiap saat.
+        turtle_1_9: Dapatkah anda mencari tahu angka apa yang harus mengganti tanda tanya sehingga bisa menggambar lingkaran?
+        turtle_1_10: 'Anda berhasil! Sekarang, gambar apapun yang Anda inginkan. Beberapa menyenangkan ide: tongkat, kepingan salju atau spiral. Juga cobalah blok baru "atur lebar". Selamat bersenang-senang!'
+        turtle_4_1: "Dapatkan anda menggambar rumah seperti yang terlihat disini? Pikirkan langkah-langkah yang anda perlukan untuk menggambarnya - ini yang dinamakan algorithm. Mungkin dibutuhkan banyak percobaan untuk dapat terlihat baik, tapi tidak apa-apa jika tidak sempurna!"
+        turtle_4_2: Sekarang gambarlah sebuah segi empat yang terdiri dari dua segi tiga. Mungkin diperlukan beberapa percobaan untuk mengetahui seberapa jauh untuk memutar sebelum bergerak. Jangan khawatir jika tidak terlihat persis, silahkan terus mencoba!
+        turtle_4_3: Gambarlah sebuah tanda panah yang terlihat seperti ini. Pikirkan tentang semua langkah yang Anda perlukan untuk membuatnya.
+        turtle_4_4: Dapatkah anda menggambar sesuatu yang tampak seperti kapal ini? Ini dapat dibentuk dari sekelompok bentuk kecil yang disatukan, jadi urailah bentuk yang besar menjadi bagian yang lebih kecil terlebih dahulu.
+        maze_karel_1_1: Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan area peternakan sehingga siap tanam. Pindahkan aku ke tumpukan tanah dan menggunakan blok "Hapus" untuk menghapusnya.
+        maze_karel_1_2: Selanjutnya, Pindahkan saya ke lubang dan isilah dengan dua skop tanah, menggunakan blok "Isi".
+        maze_karel_1_3: Pindahkan aku ke tumpukan tanah dan beritahu saya berapa banyak sekop untuk menghapus menggunakan blok sesedikit mungkin.
+        maze_karel_1_4: "Anda dapat membantu saya menghapus semua empat tumpukan tanah? Petunjuk: Gunakan blok ulangi jika Anda bisa."
+        maze_karel_1_5: 'Bantu saya mengisi di semua lubang ini dengan 5 sekop tanah. Petunjuk: Anda dapat menempatkan blok "Ulangi" di dalam "sementara" blok.'
+        maze_karel_1_6: Hapus semua tumpukan tanah, menggunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok "sementara" beritahu saya jika saya sedang berdiri di tumpukan atau lubang.
+        maze_karel_1_7: Wow, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapat Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?
+        maze_karel_1_8: Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin.
+        maze_karel_1_9: 'Membuat saya menghapus semua tumpukan tanah. Coba gunakan blok sesedikit mungkin. Petunjuk: Anda dapat menggunakan blok "sementara" (while) di dalam "Ulangi" (repeat) blok.'
+        maze_karel_1_10: Saya bekerja terlambat, sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang aku tidak memiliki semua pilihan seperti ketika saya gunakan blok "sementara" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, hapuslah.
+        maze_karel_1_11: 'Di luar masih gelap. Pindahkan saya sepanjang lapangan. Jika ada tumpukan, hapuslah, dan jika ada lubang, isilah. Petunjuk: Gunakan dropdown menu pilihan di blok "jika".'
+        turtle_2_1: "Halo, Saya zombie artis. Saya suka menggambar! Bantulah saya menggambar segi empat dengan warna khusus. Catatan penting: anda memiliki blok yang sama tapi mereka diatur didalam kategori."
+        turtle_2_2: Selamat datang di menggunakan fungsi, yang memungkinkan Anda membuat blok baru! Coba baru "gambar persegi empat" blok, yang dapat ditemukan dalam kategori "Fungsi", untuk menggambar persegi hijau kecil 50 x 50.
+        turtle_2_3: Gunakan blok "Ulangi" (dalam kategori "Loop") untuk menarik 3 kotak ukuran 100, dengan 120 derajat terpisah. Dan lakukan dalam 3 warna acak yang berbeda.
+        turtle_2_4: "Sekarang kita akan coba yang sedikit lebih rumit. Ubah kode untuk menggambar 36 kotak, 100 piksel lebar, dan 10 derajat terpisah satu dengan lain. Petunjuk: Anda mungkin ingin menggunakan slider untuk membuatku berjalan lebih cepat."
+        turtle_2_5: 'Menggambar kotak dengan sisi 50, 60, 70, 80, dan 90 pixel.  Anda akan perlu menggunakan fungsi "gambar persegi" lima kali.'
+        turtle_2_6: 'OK, program ini akan menggunakan counter, untuk menggambar kotak yang sama seperti sebelumnya. Anda ingin kotak menjadi ukuran yang sama seperti counter, jadi gunakanlah blok "counter". Petunjuk: lihatlah didalam kategori variabel.'
+        turtle_2_7: Ini adalah sebuah program untuk menggambar sebuah spiral, tapi blok dinonaktifkan sehingga mereka tidak akan berjalan. Buatlah sebuah program baru yang menggunakan blok "hitung dengan" (dalam kategori loop) dan blok "counter" (dalam kategori variabel) untuk menggambar spiral yang sama.
+        turtle_2_7_5: Ada sebuah fungsi "menggambar manusia salju" yang baru (dalam kategori fungsi). Gambar dua manusia salju, yang berketinggian 250 dan 100.
+        turtle_2_8: Ini sedikit rumit. Gunakan fungsi "menggambar manusia salju" dan blok baru "melompat kedepan" (dalam kategori tindakan). Gambarlah manusia salju 3 dalam warna yang berbeda dan terpisah 100 pixel satu sama lain.
+        turtle_2_9: 'Gunakan loop "menghitung dengan" untuk menggambar keluarga manusia salju dengan ketinggian dari 110, 90, 100, 80, dan 70. Manusia salju - manusia salju ini harus berjarak 60 piksel satu dengan lainnya.'
+        turtle_2_10: "Berikut adalah beberapa kode untuk mencoba bereksperimen dengan spiral yang berbeda.  Apa yang terjadi jika Anda mengubah jumlah putaran? Atau mengatur warna acak dalam lingkaran?  Gambarlah apa pun yang Anda suka."
+        maze_karel_2_1: "Cobalah menggunakan blok untuk membantu saya menghapus semua tumpukan dan mengisi di semua lubang di tanah. Cobalah untuk menggunakan loop daripada menggunakan terlalu banyak blok. Petunjuk: Anda dapat menempatkan sebuah loop dalam loop lain."
+        maze_karel_2_2: Kita sudah didefinisikan blok yang bernama "Isi 5", yang kini dalam kategori fungsi. Menggunakannya untuk membantu saya mengisi lubang ini.
+        maze_karel_2_3: Gunakan blok fungsi "Isi 5" yang baru untuk membuat saya mengisi di semua lubang. Anda harus menyeret keluar blok "Isi 5" keluar dari kategori fungsi.
+        maze_karel_2_4: Definisikan fungsi baru yang menghilangkan 7 sekop-sekop. Kemudian gunakanlah untuk menulis sebuah program yang membantu saya menghapus semua tumpukan.
+        maze_karel_2_5: Buat fungsi baru yang menghapus 6 sekop-sekop dari tumpukan, dan menggunakanlah untuk membantu saya tingkat keluar semua tumpukan.
+        maze_karel_2_6: Gunakan kedua fungsi baru, "Isilah 8" dan "Hapus 8", untuk membantu saya meratakan tumpukan dan mengisi lubang.
+        maze_karel_2_7: Ada sapi di ladang saya! Buatlah fungsi baru yang membantu saya menghindari sapi dan menghapus tumpukan. Menempatkan semua blok-blok tersebut dalam fungsi tersebut.
+        maze_karel_2_8: Menggunakan fungsi baru ini, "hindari sapi dan hapus 1", untuk membantu saya menghapus semua tumpukan.
+        maze_karel_2_9: OK, ini adalah sebuah fungsi yang menghilangkan 4 tumpukan tanah berbeda di kolom vertikal. Cobalah menempatkan fungsi ini dalam sebuah loop, sehingga Anda menghapus semua tumpukan tanah hanya dengan menggunakan beberapa blok baru.
+        maze_karel_2_10: Pindahkan saya di lapangan, dan gunakan kedua fungsi ini untuk membantu saya menghapus semua tumpukan dan mengisi semua lubang.
+        turtle_3_1: 'Teka-teki ini menunjukkan kepada Anda bagaimana fungsi "gambar persegi empat" dan fungsi "gambar sebuah lingkaran" didefinisikan.  Definisikan fungsi tidak menjalankan blok.  Anda harus menarik blok "gambar persegi empat" keluar untuk benar-benar menggambar persegi empat.'
+        turtle_3_2: 'Gunakan fungsi "gambar persegi" sebagai contoh, buat fungsi "gambar segitiga" dan  gunakanlah.'
+        turtle_3_3: "Gambar pagar segitiga mengelilingi kucing-kucing dan pagar segi empat mengelilingi sapi. Petunjuk: uji program selagi anda membuatnya."
+        turtle_3_4: Lihat jika anda dapat mengetahui bagaimana menggunakan "gambar persegi empat" dan "gambar segitiga" (dan blok-blok lain) untuk menggambar rumah mengelilingi singa.
+        turtle_3_5: 'Sekarang buatlah fungsi baru "gambar sebuah rumah" dan gunakan untuk membuat rumah untuk dua kucing. Petunjuk: membuat fungsi baru menggunakan blok "lakukan sesuatu", dan ketik teks Anda sendiri untuk memberi nama blok tersebut.'
+        turtle_3_6: 'Menggunakan "gambar persegi" sebagai contoh, tambahkan input bernama "panjang" untuk "gambar segitiga". Kemudian, gambar segitiga dalam berbagai ukuran. (Petunjuk: Klik bintang untuk menambahkan masukan ke fungsi)'
+        turtle_3_7: Tambahkan masukan bernama "tinggi" untuk "gambar rumah" dan membangun sebuah rumah yang besar untuk gajah (dengan panjang 150 pixel)
+        turtle_3_8: 'Berikut adalah semua blok dari teka-teki sebelumnya.  Modifikasi "gambar rumah" sehingga saya berada di sudut kanan bawah setelah mengambar rumah baru. Gunakan fungsi yang telah dimodifikasi ini untuk menggambar tiga rumah.'
+        turtle_3_9: Dapat Anda kembali membuat fungsi "gambar sebuah rumah" tanpa bantuan? Cobalah, dan kemudian gambarlah sederetan rumah.
+        turtle_3_10: Anda telah banyak belajar! Sekarang gunakanlah untuk menggambar apapun yang anda inginkan. Cobalah untuk menggambar sebuah bintang, sebuah spiral, atau kepingan salju.
+        maze_karel_debug_seq_1: Selamat datang di debugging! Kode saya tidak bekerja dengan benar. Bisakah anda menemukan masalah dan memperbaikinya sehingga saya bisa mendapat area datar dan siap tanam?
+        maze_karel_debug_seq_2: Apa salah dengan program ini? Bagaimana Anda harus memperbaikinya sehingga saya dapat menghapus tumpukan itu?
+        maze_karel_debug_repeat: De bug program ini untuk saya sehingga menjadi area yang bagus dan datar.
+        maze_karel_debug_while: Bagaimana anda bisa mengubah program ini untuk menolong saya mengisi lubang?
+        maze_karel_debug_if: Tolong! Perbaiki program ini sehingga area saya menjadi benar-benar datar.
+        maze_karel_debug_if_else: Debug program ini sehingga saya bisa mengisi lubang dan menghapus semua tumpukkan.
+        maze_karel_debug_function_1: Apa yang harus anda ubah di dalam program ini supaya bisa menolong saya memindahkan semua tumpukan ini?
+        maze_karel_debug_function_2: Dapatkah anda men-debug program ini untuk saya supaya saya dapat membuat area ini datar?
+        maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di area saya. "
+        turtle_5_1: Ambillah kesempatan saat ini untuk menggambar apapun yang anda inginkan! Jika anda tidak punya ide, tanyalah kepada orang disamping anda untuk memberi saran!
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok kanan.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: Anda perlu blok "jika" (if) didalam blok "ulangi" (repeat). Jika anda mengalami kesulitan, cobalah level sebelumnya lagi untuk melihat bagaimana caranya.
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "Ulangi" (repeat) dengan ini 3 blok di dalamnya: gerak, gerak, belok kanan.'
     video:
       name:
-        maze_intro: Maze Intro
-        artist_intro: Artist Intro
-        farmer_intro: Farmer Intro
-        loop_times: Repeat Times Block
-        loop_until: Repeat Until Block
-        if: If Block
-        if_else: If/else Block
-        function: Functions
-        loop_while: While Block
-        loop_for: Counter Block
-        parameters: Functions with Parameters
-        hoc_wrapup: Hour of Code Wrapup
-        20_wrapup: 20-Hour Wrapup
+        maze_intro: "Introduksi: labirin"
+        artist_intro: "Introduksi: Artis"
+        farmer_intro: "Introduksi: Petani"
+        loop_times: Blok Ulangi
+        loop_until: Blok Ulangi Sampai
+        if: Blok Jika (if)
+        if_else: Blok jika/maka (if/else)
+        function: Fungsi
+        loop_while: Blok Sementara (while)
+        loop_for: Blok konter (Counter)
+        parameters: Fungsi dengan parameter
+        hoc_wrapup: Jam Wrapup kode
+        20_wrapup: 20 Jam Wrapup

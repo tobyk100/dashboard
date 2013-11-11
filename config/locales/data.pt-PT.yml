@@ -60,19 +60,18 @@ pt-PT:
         turtle_1_3: Make a square using only 3 blocks.
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
+        turtle_1_5: Agora, para a prática, desenhe um triângulo e, em seguida, um quadrado, desenhar um envelope.
         turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
+        turtle_1_7: "Ok, vamos dificultar um pouco - veja se podes desenhar esses óculos verdes. Os quadrados são 100 pixels de cada lado, e eles são separados 50 pixels. Não te esqueças de desenhar no verde!"
+        turtle_1_8: Ok, tente descobrir o que acontece se você executar esse código (ou pressione "Executar" para experimentá-lo). Em seguida, repeti-lo várias vezes para completar o desenho. As cores serão diferentes a cada execução.
         turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
         turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
         turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
+        turtle_4_3: Desenhe uma seta que se parece com este. Pense em todas as etapas que você precisará pra fazer isso.
         turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
+        maze_karel_1_1: Oi, eu sou um fazendeiro. Preciso de sua ajuda para achatar o campo na minha fazenda, então está pronto para o plantio. Mover-me para o monte de terra e use o bloco de "remove" para removê-lo.
+        maze_karel_1_2: Em seguida, move-me para o buraco e preenchê-lo com dois shovelfuls de terra, usando o bloco de "preenchimento".
         maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
         maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
         maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
@@ -90,8 +89,7 @@ pt-PT:
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
         turtle_2_5: |-
           Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
+        turtle_2_6: 'Ok, este programa irá utilizar um contador, pra desenhar os mesmos quadrado da última vez. Você quer o quadrado para ser do mesmo tamanho que o contador, então use o bloco de "contador". Dica: É na categoria de variáveis.'
         turtle_2_7: |-
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
         turtle_2_7_5: |-

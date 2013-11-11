@@ -2,46 +2,46 @@ ja:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: 名前
+        email: 電子メール
+        username: ユーザー名
+        password: パスワード
+        password_confirmation: パスワードの確認
+        current_password: "現在のパスワード:"
+        locale: 言語
+        gender: 性別
+        edit_header: アカウントの詳細を編集します。
+  hello: ハローワールド
+  welcome_back: "ようこそお帰りなさい, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: コードか電子メール アドレスで教師を追加します。
+      placeholder: コード (ABCDEF) か電子メール (teacher@school.edu)
+    submit: 先生を追加します。
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: ステージ
+  puzzle: パズル
+  trophies: トロフィー
+  courses: コース
+  of: の
+  more: もっと
+  less: 少ない
+  try_hoc: "ここをクリックしてコードの時間を試してください >>"
+  try_k8intro: "または、私たちの K- 8 イントロ計算機科学コース (15-25 時間)を試してください。"
+  already_started: "既に開始しましたか？ここで再開してください >>"
+  demos: 管理者： 全部のデモ
+  continue: 続行しますか？
+  prize: 賞を受賞
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
+    sign_in_with: "%{provider} を使用してサインインします。"
+    signed_in: ログイン ！
+    already_signedup: すでににサインアップしましたか？
+    notyet_signedup: まだサインアップしていないですか？
+    google_oauth2: Google +
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
+    forgot_password: パスワードをお忘れですか？
     need_confirmation: "Didn't receive confirmation instructions?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:

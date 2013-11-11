@@ -3,61 +3,61 @@ tr:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: İlk kod saatinize hoş geldiniz! Haydi programlamanın ilk zevkinin tam içine dalalım.
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Kod yazmak için blokları sürükleyip bırakacağınız bir görsel programlama dili olan Blockly'i kullanacağız."
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: Çoğu kod yazılır, fakat Blockly görseldir. Her blok "gerçek" bir kod satırına karşılık gelir.
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: Bilgisayar biliminin temellerini, Mars aracını kontrol etmekten uygulamalar yapmaya kadar her yerde kullanılan kavramları öğreneceksiniz.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: Program, bilgisayarınızı izlemek için talimatlar kümesidir.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: İlk programınızın amacı, Yeşil Domuzu vurmak için labirent aracılığıyla bir Angry Bird elde etmektir.
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: Sol taraf programın çalıştığı labirenttir. Her bulmaca için talimatlar labirent altındadır.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: Ortadaki araç kutusu Angry Bird için komutlara sahiptir. Kodunuzu oluşturmak için bunları kullanacaksınız.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: Sağ taraf, programınızı inşa etmek için araç kutusundan blok sürükleyeceğiniz çalışma alanıdır. Blok silmek için, bloğu köşedeki çöp kutusuna sürükleyin.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
+        text: Her blok bir talimattır. Eğer "ileri taşı" bloğunu çalışma alanına sürükleyip "Programı Çalıştır"a basarsanız, kuş labirent üzerinde bir boşluk hareket eder.
       11:
         image: notes/hoc1_11.png
-        text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.
+        text: Bir hareket daha yapmak için, çalışma alanınızda birçok blok sürükleyebilir ve onları birlikte ekleyebilirsiniz. Kuş yukarıdan aşağıya doğru komutları yapacaktır.
       12:
         image: notes/hoc1_12.png
-        text: If you run a program and want to fix it and try again, press the "Reset" button.
+        text: Eğer bir programı çalıştırmak ve düzeltme yapıp tekrar denemek istiyorsanız "Sıfırla" düğmesine basın.
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: Haydi gidip oradaki domuzları alalım!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: Merhaba, ben Mark! Haydi döngüleri öğrenelim. Döngüleri kullanarak, bir bilgisayara herhangi bir komut dizisini defalarca tekrar etmesini söyleyebilirsiniz, hatta binlerce ve milyarlarca kez.
       2:
         image: notes/hoc2_2.png
-        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+        text: Bu bulmacada, domuzu almak için kuşu 5 boşluk ileri hareket ettirmek istiyoruz.
       3:
         image: notes/hoc2_3.png
-        text: We can use the new "repeat" block to help us out.
+        text: Biz bize yardımcı olması için yeni "tekrar" bloğunu kullanabiliriz.
       4:
         image: notes/hoc2_4.png
         text: Instead of dragging out 5 "move forward" blocks...
@@ -83,8 +83,7 @@ tr:
         text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png
@@ -130,19 +129,19 @@ tr:
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
@@ -159,4 +158,4 @@ tr:
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notları gösterme yakında geliyor!

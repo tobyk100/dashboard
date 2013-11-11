@@ -3,60 +3,60 @@ ca:
     attributes:
       user:
         name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
+        email: Correu electrònic
+        username: "Nom d'usuari"
+        password: Contrasenya
+        password_confirmation: Confirmació de la contrasenya
         current_password: Current password
-        locale: Language
+        locale: idioma
         gender: Gender
         edit_header: Edit Account Details
-  hello: Hello world
+  hello: Hola món
   welcome_back: "Welcome back, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"
       placeholder: Code (ABCDEF) or email (teacher@school.edu)
     submit: Add teacher
-  appname: Code.org
+  appname: Codi.org
   stage: Stage
   puzzle: Puzzle
   trophies: Trophies
   courses: Courses
   of: of
-  more: MORE
-  less: LESS
+  more: MÉS
+  less: MENYS
   try_hoc: "Try the Hour of Code, click here >> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
   continue: Continue
-  prize: prize
+  prize: Premi
   auth:
     sign_in_with: "Sign in with %{provider}"
     signed_in: Signed in!
     already_signedup: Already signed up?
     notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
+    google_oauth2: Google +
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
+    forgot_password: Ha oblidat la constrasenya?
     need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_unlock: No ha rebut les instruccions de desbloqueig?
   signup_form:
     title: Sign up
-    school_name: School Name (optional)
+    school_name: "Nom de l'escola (opcional)"
     school_address: School Address (optional)
     address_placeholder: address, city, state, zip
     gender: Gender (optional)
     birthday: Birthday (optional)
     submit: Sign up
-    teacher: Are you a teacher?
+    teacher: És vostè un professor?
   signin_form:
     title: Sign in
-    login: Email or username
-    password: Password
+    login: "E-mail o nom d'usuari"
+    password: Contrasenya
     remember: Remember me
     submit: Sign in
   password:
@@ -96,10 +96,10 @@ ca:
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: Show
-    edit: Edit
+    show: Mostra
+    edit: Editar
     edit_model: "Edit %{model}"
-    update: Update
+    update: Actualitza
     destroy: Destroy
     back: Back
     confirm: Are you sure?

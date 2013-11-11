@@ -2,185 +2,186 @@ id:
   activerecord:
     attributes:
       user:
-        name: Name
+        name: Nama
         email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        username: Nama Pengguna
+        password: Sandi
+        password_confirmation: Konfirmasi sandi
+        current_password: Sandi saat ini
+        locale: Bahasa
+        gender: Jenis kelamin
+        edit_header: Edit rincian account
+  hello: Halo dunia
+  welcome_back: "Selamat datang kembali, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Tambahkan guru dengan kode atau alamat email:"
+      placeholder: Kode (ABCDEF) atau email (guru@sekolah.edu)
+    submit: Tambahkan guru
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: Tahap
+  puzzle: Teka-teki
+  trophies: Piala-piala
+  courses: Kursus
+  of: dari
+  more: lebih
+  less: KURANG
+  try_hoc: "Coba jam kode, klik di sini >> "
+  try_k8intro: "Atau, coba kursus perkenalan ilmu komputer tingkat K-8  (15-25 jam)"
+  already_started: "Sudah mulai? Lanjutkan di sini >> "
+  demos: "Admin: Semua demo"
+  continue: Lanjutkan
+  prize: hadiah
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    sign_in_with: "Masuk dengan %{provider}"
+    signed_in: Masuk!
+    already_signedup: Sudah mendaftar?
+    notyet_signedup: Belum bergabung?
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Lupa kata sandi?
+    need_confirmation: Tidak menerima instruksi konfirmasi?
+    need_unlock: Tidak menerima instruksi untuk membuka?
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: Daftar
+    school_name: Nama sekolah (opsional)
+    school_address: Alamat sekolah (opsional)
+    address_placeholder: Alamat, kota, propinsi, zip
+    gender: Jenis kelamin (opsional)
+    birthday: Tanggal ulang tahun (opsional)
+    submit: Daftar
+    teacher: Apakah anda seorang guru?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Masuk
+    login: Email atau nama pengguna
+    password: Kata sandi
+    remember: Ingat saya
+    submit: Masuk
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Lupa kata sandi?
+      email: Alamat email
+      submit: Kirim saya instruksi untuk mereset kata sandi
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Ganti kata sandi
+      new_password: Kata sandi baru
+      confirm_password: Konfirmasi kata sandi baru
+      submit: Ganti kata sandi saya
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Gabung dengan kelas saya (di Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Klik link dibawah untuk masuk bergabung dengan ilmu komputer tutorial di Code.org (dengan saya sebagai "guru"mu):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Kursus ini menyenangkan, menarik untuk dilihat, dan mengajar konsep dasar ilmu informatika menggunakan kegiatan  yang sederhana, teratur, dan dalam bentuk permainan. Pelajari bagaimana cara memprogram dari Bill Gates, Mark Zuckerberg, Angry Birds, dan Plants vs. Zombies! :-)
       
       %{name}
+      Hide context | Request context
+      root -> welcome_email -> body
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Undangan telah dikirim
+    added_teacher: "%{name} ditambahkan sebagai guru Anda"
+    registered: "Anda sudah terdaftar untuk %{section_name}. Silakan masuk untuk melanjutkan"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Silahkan logout sebelum melanjutkan
+      username_not_found: "Nama akun %{username} tidak ditemukan"
+      username_in_use: "%{username} sudah diambil, silakan memilih lain"
+      no_teacher: "Tidak dapat menemukan siapa pun dengan '%{teacher_email_or_code}'. Silakan meminta mereka untuk registrasi di sini dan kemudian mencoba menambahkan mereka lagi"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Bergabung dengan kelas dengan %{teacher_name} di Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Anda tidak memiliki akses untuk melihat statistik orang ini
   crud:
-    new_model: "New %{model}"
-    show: Show
+    new_model: "%{model} baru"
+    show: Tampilkan
     edit: Edit
     edit_model: "Edit %{model}"
     update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    destroy: Hancurkan
+    back: Kembali
+    confirm: Anda yakin?
+    created: "%{model} berhasil dibuat."
+    updated: "%{model} berhasil dibuat."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: Saya telah menyelesaikan jam kode
+      sign_in_to_save: login untuk menyimpan kemajuan
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      classroom: Murid-murid saya
+      label: "Halo %{username}"
+      stats: Kemajuan saya
+      settings: Account saya
+      prizes: Hadiah
+      logout: Keluar
+      signin: Masuk
+      signup: Daftar
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: Kemajuan Anda
+      lines: "Jumlah baris kode: %{lines}"
+      close: TUTUP
+      mastery: Konsep
+      puzzle_map: Tahap
+      prizes: "Kumpulkan semua Piala %{total_trophies} dan memenangkan hadiah!"
+      prizes_link: Info lebih lanjut
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "Guru Anda adalah %{name}"
+      other: "Guru Anda:"
+    tools: Peralatan Guru
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: Mengelola siswa
+      add: Tambahkan siswa
+    rollup: "Dashboard Kemajuan "
+    activity: Aktivitas kelas
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (Kosongkan jika Anda tidak ingin mengubahnya)
+    current_password_hint: (kita perlu password Anda saat ini untuk mengkonfirmasi perubahan Anda)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: Batalkan akun saya
+      hint: Tidak Puas?
+      button: Batalkan account saya
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: Selesai
+    tried: Mencoba
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: Aktivitas terakhir
+    show_more: Tunjukkan lebih banyak
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
+    signin_message: "atau jika anda sudah terdaftar %{link}"
+    student_reg_link: "Siswa - mulailah disini"
+    teacher_reg_link: "Guru - mulailah disini"
+    teacher_dashboard: Lihat kemajuan di dasbor
+    teacher_student_count: "Anda memiliki  %{count} siswa."
+    teacher_averages: 'Rata-rata siswa anda telah mendapatkan %{trophy_average} dari %{trophy_max} piala "Penguasaan konsep".'
+    classroom: Kelas anda
+    student_progress: Kemajuan anda sebagai siswa
+    student_stats: 'Anda telah menerima  %{trophy_count} dari total %{trophy_max} piala "Penguasaan Konsep".'
+    student_left_off: "Terakhir kali anda tinggalkan:"
+    student_finished: "Anda telah menyelesaikan semua tutorial, klaim piala anda  %{prize_link} dan pilih kelas lain di  %{online_link} atau di sini %{local_school_link}"
+    local_school: sekolah lokal
     online: online
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: Laki-laki
+    female: Wanita
+    none: Memilih untuk tidak menjawab
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Insinyur dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a> membantu menciptakan tutorial ini.'
+    art_from_html: 'Karya seni dari <a href="http://www.angrybirds.com"> Angry Birds</a> oleh <a href="http://www.rovio.com"> Rovio</a>, dan <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> oleh <a href="http://www.popcap.com"> PopCap permainan</a>.'
+    feedback: Memberikan pendapat
+    translate: Bantu kami menerjemahkan ke bahasa anda
+    tos: Persyaratan Layanan
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: Perlu bantuan?
+    subtitle: Lihat video ini dan petunjuk lainnya
   video:
     tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    notes: Tidak ada video? Tunjukkan catatan.
+    autoplay_option: Autoplay video
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda.
+    upgrade: Silakan upgrade browser Anda.

@@ -72,13 +72,13 @@ el:
   welcome_email:
     subject: Μπες στην τάξη μου (στο Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Κάντε κλικ παρακάτω για να εγγραφείτε στα μαθήματα επιστήμης υπολογιστών του Code.org (με μένα για "δάσκαλο"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Τα μαθήματα είναι διασκέδαση, ενδιαφέροντα στο μάτι και διδάσκουν τις βασικές έννοιες της πληροφορικής, χρησιμοποιώντας μια απλή, ξενάγηση, σαν παιχνίδι. Μάθετε κώδικα με τον Bill Gates, το Mark Zuckerberg, τα Angry Birds και τα Plants vs Zombies :-)
       
-      %{name}
+       %{name}
   follower:
     invite_sent: Η πρόσκληση στάλθηκε
     added_teacher: "Ο %{name} σε πρόσθεσε ως δάσκαλο"

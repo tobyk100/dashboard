@@ -1,57 +1,57 @@
 ar:
   devise:
     confirmations:
-      confirmed: Your account was successfully confirmed. You are now signed in.
-      send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes.
+      confirmed: تم تأكيد حسابك بنجاح , يمكنك الان تسجيل الدخول .
+      send_instructions: أنت ستستلم رسالة عبر البريد الالكتروني والتي تحتوي على ارشادات حول كيفية تأكيد الحساب الخاص بك في بضع دقائق .
+      send_paranoid_instructions: أذا كان عنوان بريدك الالكتروني موجود في قاعدة بياناتنا , أنت ستستلم رسالة عبر البريد الالكتروني والتي تحتوي على ارشادات حول كيفية تأكيد الحساب الخاص بك في بضع دقائق .
     failure:
-      already_authenticated: You are already signed in.
-      inactive: Your account was not activated yet.
-      invalid: Invalid email or password.
-      invalid_token: Invalid authentication token.
-      locked: Your account is locked.
-      not_found_in_database: Invalid email or password.
-      timeout: Your session expired, please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your account before continuing.
+      already_authenticated: أنت الان متصل حاليا .
+      inactive: لم يتم تفعيل الحساب الخاص بك لحد الان .
+      invalid: البريد الالكتروني او كلمة المرور غير صحيحة .
+      invalid_token: رمز المصادقة غير صالح .
+      locked: الحساب الخاص بك مغلق .
+      not_found_in_database: البريد الالكتروني او كلمة المرور غير صحيحة.
+      timeout: أنتهت مدة صلاحية جلسة العمل الخاصة بك , الرجاء تسجيل الدخول مرة اخرى للاستمرار .
+      unauthenticated: أنت تحتاج الى تسجيل الدخول او قم بالتسجيل قبل الاستمرار .
+      unconfirmed: أنت يجب ان تقوم بتأكيد الحساب الخاص بك قبل الاستمرار .
     mailer:
       confirmation_instructions:
-        subject: Confirmation instructions
+        subject: تعليمات التأكيد
       reset_password_instructions:
-        subject: Reset password instructions
+        subject: تعليمات اعادة تغيير كلمة المرور
       unlock_instructions:
-        subject: Unlock Instructions
+        subject: تعليمات اعادة الفتح
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: "نعتذر على عدم المصادقة لك من %{kind} بسبب %{reason} ."
+      success: "تم المصادقة بنجاح من حساب %{kind} ."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password was changed successfully. You are now signed in.
-      updated_not_active: Your password was changed successfully.
+      no_token: أنت لايمكنك الوصول الى هذه الصفحة بدون الرجوع من خلال اعادة تغيير كلمة مرور البريد الالكتروني . اذا أنت رجعت من من خلال اعادة تغيير كلمة مرور البريد الالكتروني, الرجاء التأكد من استخدام عنوان الانترنت المزود لكم .
+      send_instructions: أنت ستستلم رسالة عبر البريد الالكتروني تحتوي على ارشادات حول كيفية اعادة تغيير كلمة المرور الخاصة بك في بضع دقائق .
+      send_paranoid_instructions: اذا كان عنوان بريدك الالكتروني موجود في قاعدة بياناتنا , أنت ستستلم رابط استرجاع كلمة المرور على عنوان البريد الالكتروني الخاص بك في بضع دقائق .
+      updated: تم تغيير كلمة المرور الخاصة بك بنجاح , يمكنك الان تسجيل الدخول .
+      updated_not_active: تم تغيير كلمة المرور الخاصة بك بنجاح.
     registrations:
-      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address.
-      updated: You updated your account successfully.
+      destroyed: مع السلامة! تم إلغاء الحساب الخاص بك بنجاح. ونأمل أن نراكم مرة أخرى قريبا.
+      signed_up: مرحبا! لقد تم التسجيل بنجاح.
+      signed_up_but_inactive: لقد تم التسجيل بنجاح , ومع ذلك نحن نعتذر على تسجيل دخولك بسبب لم يتم تفعيل الحساب الخاص بك .
+      signed_up_but_locked: لقد تم التسجيل بنجاح , ومع ذلك نحن نعتذر على تسجيل دخولك بسبب الحساب الخاص بك مغلق .
+      signed_up_but_unconfirmed: لقد تم ارسال رسالة مع رابط التأكيد الى عنوان بريدك الالكتروني , الرجاء فتح الرابط لتفعيل الحساب الخاص بك .
+      update_needs_confirmation: لقد تم تحديث حسابك بنجاح , ولكن نحن نحتاج الى التحقق من عنوان بريدك الالكتروني . الرجاء التحقق من البريد الالكتروني والضغط على رابط التأكيد من اجل الانتهاء من تأكيد عنوان بريدك الالكتروني الجديد .
+      updated: لقد تم تحديث حسابكم بنجاح .
     sessions:
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      signed_in: تم تسجيل الدخول بنجاح .
+      signed_out: تم تسجيل الخروج بنجاح .
     unlocks:
-      send_instructions: You will receive an email with instructions about how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions about how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      send_instructions: أنت ستستلم رسالة عبر البريد الالكتروني والتي تحتوي على ارشادات حول كيفية فتح الحساب الخاص بك في بضع دقائق.
+      send_paranoid_instructions: اذا حسابك موجود , أنت ستستلم رسالة عبر البريد الالكتروني والتي تحتوي على ارشادات حول كيفية فتحه في بضع دقائق.
+      unlocked: تم فتح الحساب الخاص بك بنجاح , الرجاء تسجيل الدخول للاستمرار .
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      already_confirmed: تم التأكيد, الرجاء محاولة تسجيل الدخول
+      confirmation_period_expired: "يحتاج لتكون مؤكدا خلال %{period}, الرجاء القيام بطلب جديد"
+      expired: لقد أنتهت صلاحيتها, الرجاء القيام بطلب جديد
+      not_found: غير موجود
+      not_locked: لم يكن مغلقا
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "الخطأ 1 يمنع هذا %{resource} من الحفظ :"
+        other: "%{count} أخطاء تمنع هذا %{resource} من الحفظ :"

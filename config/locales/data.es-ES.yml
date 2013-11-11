@@ -124,7 +124,7 @@ es-ES:
       levelIncompleteError:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
       other1StarError:
-        maze_2_14: Necesitas un bloque "si" dentro de un bloque "repetir". Si tienes problemas, prueba el nivel anterior otra vez para ver cómo funcionaba.
+        maze_2_14: Necesitas un bloque "si" dentro de un bloque "repetir". Si tienes problemas, intenta completar el nivel anterior otra vez para ver cómo funcionaba.
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
     video:

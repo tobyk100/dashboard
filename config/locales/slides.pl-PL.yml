@@ -39,19 +39,19 @@ pl:
         text: If you run a program and want to fix it and try again, press the "Reset" button.
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: Chodźmy zabrać te świnie!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: Cześć, jestem Mark! Zaczynamy naukę o pętlach. Za pomocą pętli można powiedzieć komputerowi "Powtórz" każdy zestaw działań w kółko, tysiące lub nawet miliardy razy.
       2:
         image: notes/hoc2_2.png
         text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
@@ -83,8 +83,7 @@ pl:
         text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png
@@ -110,7 +109,7 @@ pl:
         text: If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
       7:
         image: notes/hoc4_7.png
-        text: Have fun using the "if" block!
+        text: Miłej zabawy przy użyciu bloku "if"!
     if_else:
       1:
         image: notes/hoc5_1.png
@@ -130,19 +129,19 @@ pl:
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
@@ -159,4 +158,4 @@ pl:
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Pokaż notatki już wkrótce!

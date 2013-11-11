@@ -1,57 +1,57 @@
 ro:
   devise:
     confirmations:
-      confirmed: Your account was successfully confirmed. You are now signed in.
-      send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes.
+      confirmed: Contul tău a fost confirmat cu succes. Acum ești logat.
+      send_instructions: Vei primi un email cu instrucţiuni despre cum să îți confirmi contul în câteva minute.
+      send_paranoid_instructions: Dacă adresa ta de email există în baza noastră de date, vei primi un email cu instrucţiuni despre cum să îți confirmi contul în câteva minute.
     failure:
-      already_authenticated: You are already signed in.
-      inactive: Your account was not activated yet.
-      invalid: Invalid email or password.
-      invalid_token: Invalid authentication token.
-      locked: Your account is locked.
-      not_found_in_database: Invalid email or password.
-      timeout: Your session expired, please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your account before continuing.
+      already_authenticated: Ești deja logat.
+      inactive: Contul tău nu a fost încă activat.
+      invalid: Email sau parolă invalidă.
+      invalid_token: Token invalid de autentificare.
+      locked: Contul tău este blocat.
+      not_found_in_database: Email sau parolă invalidă.
+      timeout: Sesiunea ta a expirat, te rugăm să te loghezi din nou pentru a continua.
+      unauthenticated: Trebuie să te loghezi sau să te înregistrezi înainte de a continua.
+      unconfirmed: Trebuie să îți confirmi contul înainte de a continua.
     mailer:
       confirmation_instructions:
-        subject: Confirmation instructions
+        subject: Instrucțiuni de confirmare
       reset_password_instructions:
-        subject: Reset password instructions
+        subject: Instrucţiuni de resetare a parolei
       unlock_instructions:
-        subject: Unlock Instructions
+        subject: Instrucţiuni de deblocare
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: 'Nu te-ai putut autentifica la %{kind} pentru că "%{reason}".'
+      success: "Te-ai autentificat cu succes din contul %{kind}."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password was changed successfully. You are now signed in.
-      updated_not_active: Your password was changed successfully.
+      no_token: Nu poţi accesa această pagină fără să pornești de la un email de resetare a parolei. Dacă revii prin accesarea unui email de resetare a parolei, te rugăm să te asiguri că ai folosit URL-ul furnizat acolo.
+      send_instructions: Vei primi un email cu instrucţiuni despre cum să îți resetezi parola în câteva minute.
+      send_paranoid_instructions: Daca adresa ta de email există în baza noastră de date, vei primi un email ce conține linkul pentru recuperarea parolei.
+      updated: Parola ta a fost schimbată cu succes. Acum eștii logat.
+      updated_not_active: Parola ta a fost schimbată cu succes.
     registrations:
-      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address.
-      updated: You updated your account successfully.
+      destroyed: La revedere! Contul tău a fost anulat. Sperăm sa te revedem curând.
+      signed_up: Bine ai venit! Ai fost logat cu succes.
+      signed_up_but_inactive: Te-ai înregistrat cu succes. Totuși, nu poți să te loghezi deoarece contul tău nu este încă activat.
+      signed_up_but_locked: Te-ai înregistrat cu succes. Totuși, nu te poți loga deoarece contul tău este blocat.
+      signed_up_but_unconfirmed: Un mesaj cu un link de confirmare a fost trimis la adresa ta de email. Te rugăm să accesezi link-ul pentru a vă activa contul.
+      update_needs_confirmation: Ți-ai actualizat contul cu succes, dar noi trebuie sa verificam noua ta adresa de email. Te rugăm să îți verifici emailul și să dai click pe linkul de confirmare pentru a finaliza modificarea adresei.
+      updated: Ți-ai actualizat contul cu succes.
     sessions:
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      signed_in: Te-ai logat cu succes.
+      signed_out: Te-ai delogat cu succes.
     unlocks:
-      send_instructions: You will receive an email with instructions about how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions about how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      send_instructions: Vei primi un email cu instrucţiuni despre cum să îți deblochezi contul în câteva minute.
+      send_paranoid_instructions: Dacă acest cont există, vei primi un email cu instrucțiuni despre cum să-l deblochezi în câteva minute.
+      unlocked: Contul dumneavoastră a fost deblocat cu succes. Vă rugăm să vă logaţi pentru a continua.
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      already_confirmed: a fost confirmat deja, vă rugăm să incercaţi să vă logati
+      confirmation_period_expired: "trebuie sa fie confirmat in %{period}, va rugam cereti unul nou"
+      expired: a expirat, vă rugăm să solicitaţi unul nou
+      not_found: nu a fost găsit
+      not_locked: nu a fost blocat
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "O eroare oprestre %{resource} de la a fi salvat:"
+        other: "%{count} erori interzic acestui %{resource} să fie salvat:"

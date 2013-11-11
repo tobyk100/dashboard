@@ -2,10 +2,10 @@ cs:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
+        name: Jméno
+        email: E-mail
+        username: Uživatelské jméno
+        password: Heslo
         password_confirmation: Password confirmation
         current_password: Current password
         locale: Language

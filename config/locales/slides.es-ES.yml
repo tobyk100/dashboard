@@ -9,13 +9,13 @@ es-ES:
         text: Usaremos Blockly, un lenguaje de programación visual donde puedes arrastrar y soltar bloques para escribir código.
       3:
         image: notes/hoc1_3.png
-        text: La mayoría del código se escribe, en cambio Blockly es visual. Cada bloque corresponde a una línea de código "real".
+        text: La mayoría del código se escribe a mano, en cambio Blockly es visual. Cada bloque corresponde a una línea de código "real".
       4:
         image: notes/hoc1_4.png
-        text: Aprenderás los fundamentos de las ciencias de la computación, conceptos que se usan en cualquier situación, desde hacer aplicaciones hasta controlar el Mars rover.
+        text: Aprenderás los fundamentos de la informática, los conceptos que se utilizan en cualquier lugar, desde hacer aplicaciones hasta controlar el Mars rover.
       5:
         image: notes/hoc1_5.png
-        text: Un programa es un conjunto de instrucciones que sigue tu computadora.
+        text: Un programa es un conjunto de instrucciones seguidas por tu computadora.
       6:
         image: notes/hoc1_6.png
         text: El objetivo de tu primer programa es guiar un Angry Bird a través de un laberinto para golpear al cerdo verde.
@@ -82,8 +82,7 @@ es-ES:
         text: Si ponemos un bloque "avanzar" dentro del bloque "repetir hasta" , el pájaro avanzará HASTA que alcance al cerdo (o choque con una pared).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;al igual que antes, podemos poner varios bloques dentro del bloque "repetir hasta", y todos serán repetidos.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png

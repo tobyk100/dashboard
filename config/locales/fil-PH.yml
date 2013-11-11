@@ -2,36 +2,36 @@ fil:
   activerecord:
     attributes:
       user:
-        name: Name
+        name: Pangalan
         email: Email
         username: Username
         password: Password
         password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
+        current_password: Kasalukuyang Password
+        locale: Lengwahe
+        gender: Kasarian
         edit_header: Edit Account Details
   hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+  welcome_back: "Maligayang pagbabalik, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"
       placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+    submit: Magdagdag ng guro
   appname: Code.org
   stage: Stage
   puzzle: Puzzle
   trophies: Trophies
   courses: Courses
-  of: of
+  of: ng
   more: MORE
   less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
+  try_hoc: "Subukan ang Hour of Code, i-click dito >> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  continue: Magpatuloy
+  prize: Gantimpala
   auth:
     sign_in_with: "Sign in with %{provider}"
     signed_in: Signed in!
@@ -41,18 +41,18 @@ fil:
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
+    forgot_password: Hindi matandaan ang password?
+    need_confirmation: Hindi nakatanggap ng kumpirmasyon?
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
     title: Sign up
-    school_name: School Name (optional)
+    school_name: Pangalan ng Paaralan (optional)
     school_address: School Address (optional)
     address_placeholder: address, city, state, zip
-    gender: Gender (optional)
+    gender: Kasarian (optional)
     birthday: Birthday (optional)
     submit: Sign up
-    teacher: Are you a teacher?
+    teacher: Ikaw ba ay isang guro?
   signin_form:
     title: Sign in
     login: Email or username

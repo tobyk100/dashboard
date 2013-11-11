@@ -2,40 +2,40 @@ fr:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: "K-8 Intro au cours d'informatique"
+        Hour of Code: Heure de Code
+        Edit Code: Modifier le Code
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: Le Labyrinthe
+        Artist: "L'Artiste"
+        Artist2: "L'Artiste 2"
+        Farmer: Le Fermier
+        Artist3: "L'Artiste 3"
+        Farmer2: Le Fermier 2
+        Artist4: "L'Artiste 4"
+        Farmer3: Le Fermier 3
+        Artist5: "L'Artiste 5"
+        MazeEC: "L'Artiste"
     trophy:
       name:
         Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Silver: Argent
+        Gold: Or
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: Séquence
+        if: Si bloc
+        if_else: Sinon bloc
+        loop_times: Répéter fois bloc
+        loop_until: "Répéter jusqu'au bloc"
+        loop_while: Pendant bloc
+        loop_for: Compteur Bloc
+        function: Fonctions
+        parameters: Fonctions avec paramètres
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_2: "Salut! Je dois attrapper le petit cochon vert ! Empillez quelques  « aller de l'avant » et appuyez sur « Exécuter le programme » pour m'aider à y arriver. "
         maze_2_1: "Write me another program so I can make it all the way to the green pig. "
         maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
         maze_2_3: How should I get to the green pig? (Watch out for the TNT)
@@ -142,16 +142,16 @@ fr:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
     video:
       name:
-        maze_intro: Maze Intro
-        artist_intro: Artist Intro
-        farmer_intro: Farmer Intro
-        loop_times: Repeat Times Block
-        loop_until: Repeat Until Block
-        if: If Block
-        if_else: If/else Block
-        function: Functions
-        loop_while: While Block
-        loop_for: Counter Block
-        parameters: Functions with Parameters
+        maze_intro: Intro au Labyrinthe
+        artist_intro: "Intro à l'Artiste"
+        farmer_intro: Intro au Fermier
+        loop_times: Répéter fois bloc
+        loop_until: "Répéter jusqu'au bloc"
+        if: Si bloc
+        if_else: Sinon bloc
+        function: Fonctions
+        loop_while: Pendant bloc
+        loop_for: Compteur Bloc
+        parameters: Fonctions avec paramètres
         hoc_wrapup: Hour of Code Wrapup
         20_wrapup: 20-Hour Wrapup

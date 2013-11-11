@@ -3,7 +3,7 @@ pt-BR:
     script:
       name:
         20-hour: Introdução ao curso de ciência da computação para primeira a nona série.
-        Hour of Code: Hora do código
+        Hour of Code: Hora do Código
         Edit Code: Editar o código
     game:
       name:
@@ -100,7 +100,7 @@ pt-BR:
         maze_karel_2_7: Há uma vaca no meu campo! Escreva uma nova função que me ajuda a evitar a vaca e remover a pilha. Coloque todos os seus blocos dentro da nova função.
         maze_karel_2_8: Use esta nova função, "evitar a vaca e remover 1", para me ajudar a remover todas as pilhas.
         maze_karel_2_9: Ok, aqui está uma função que remove 4 pilhas diferentes de terra em uma coluna vertical. Tente colocar essa função dentro de um laço, para que você remova todas as pilhas de terra usando apenas alguns blocos novos.
-        maze_karel_2_10: Mover-me através do campo e usar essas duas funções para me ajudar a remover todas as pilhas e preencher todos os buracos.
+        maze_karel_2_10: Mova-me através do campo e use essas duas funções para me ajudar a remover todas as pilhas e preencher todos os buracos.
         turtle_3_1: 'Este quebra-cabeça mostra-lhe como as funções "desenhar um quadrado" e "desenhar um círculo"  são definidas.  Definir uma função não executa estes blocos.  Você tem que chamar o bloco "desenhar um quadrado" para realmente desenhar um quadrado.'
         turtle_3_2: Usando a função "desenhar um quadrado" como um exemplo, criar a função "desenhar um triângulo" e utilize-a.
         turtle_3_3: "Desenhe uma cerca triangular em torno dos gatos e uma cerca quadrada em volta da vaca.  Dica: Teste o programa à medida em que você avança."

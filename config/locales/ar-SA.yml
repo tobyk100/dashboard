@@ -15,21 +15,21 @@ ar:
   welcome_back: "أهلا بكم من جديد, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "إضافة معلم عن طريق الرمز أو البريد الإلكتروني:"
+      label: "إضف معلم عن طريق الرمز أو البريد الإلكتروني:"
       placeholder: الرمز (ABCDEF) أو البريد الإلكتروني (teacher@school.edu)
-    submit: إضافة معلم
+    submit: إضف معلم
   appname: Code.org
   stage: المرحلة
   puzzle: لغز
-  trophies: Trophies
-  courses: دورات تدريبية
+  trophies: الجوائز
+  courses: دروس
   of: من
   more: أكثر
   less: أقل
   try_hoc: "قم بتجربة ساعة من البرمجة, انقر هنا>> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
+  try_k8intro: أو جرب مقدمة k-8 الخاص بنا لـ كورس"تخصص علم الحاسوب" (15-25 ساعة)
   already_started: "بدأت بالفعل؟ اكمل من هنا >> "
-  demos: "Admin: All Demos"
+  demos: "المشرف: جميع العروض التوضيحية"
   continue: إستمرار
   prize: جائزة
   auth:
@@ -43,7 +43,7 @@ ar:
     windowslive: ويندوز لايف
     forgot_password: نسيت كلمة المرور؟
     need_confirmation: لم تتلقى تعليمات تأكيد حسابك؟
-    need_unlock: "Didn't receive unlock instructions?"
+    need_unlock: لم تتلقى تعليمات الفتح؟
   signup_form:
     title: تسجيل
     school_name: اسم المدرسة (اختياري)
@@ -83,37 +83,37 @@ ar:
   follower:
     invite_sent: تم إرسال الدعوة
     added_teacher: "%{name} قام بإضافتك كـ معلمه الخاص"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    registered: "لقد قمت بتسجيل %{section_name}. الرجاء تسجيل الدخول للاستمرار"
     error:
       signed_in: من فضلك قم بتسجيل الخروج قبل المتابعة
       username_not_found: "لم يتم العثور على اسم المستخدم %{username}"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      username_in_use: "%{username} مأخود، الرجاء اخنر واحدا آخر من فضلك"
+      no_teacher: "تعذر العثور على أي شخص مسجل ب  '%{teacher_email_or_code}'. من فضلك أطلب منه التسجيل هنا وثم محاولة إضافته مرة أخرى"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "الانضمام إلى فصل %{teacher_name} في Code.org!"
   reports:
     error:
       access_denied: لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم
   crud:
     new_model: "جديد %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
+    show: إظهار
+    edit: تعديل
+    edit_model: "تعديل %{model}"
     update: تحديث
-    destroy: Destroy
-    back: Back
+    destroy: تدمير
+    back: العودة
     confirm: هل أنت متأكد؟
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    created: "تم بنجاح إنشاء %{model}."
+    updated: "تم بنجاح تحديث %{model}."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: لقد انهيت ساعة الكود
+      sign_in_to_save: قم بتسجيل الدخول حفظ التقدم
     user:
       classroom: طلابي
       label: "مرحباً %{username}"
-      stats: My progress
+      stats: التقدم المحرز في بلدي
       settings: حسابي
       prizes: الجوائز
       logout: تسجيل الخروج
@@ -121,48 +121,47 @@ ar:
       signup: تسجيل
     popup:
       progress: إنجازاتك
-      lines: "Total lines of code: %{lines}"
+      lines: "عدد أسطر الكود البرمجية %{lines}"
       close: إغلاق
       mastery: مفاهيم
       puzzle_map: مراحل
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
+      prizes: "اجمع الجوائز ال %{total_trophies} و فز بجوائز قيمة!"
       prizes_link: مزيد من المعلومات
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
+      one: "المعلم الخاص بك هو %{name}"
+      other: "المعلمين الخاصة بك:"
     tools: أدوات المعلم
     students:
       manage: إدارة الطلاب
       add: إضافة الطلاب
-    rollup: Progress Dashboard
+    rollup: لوحة معلومات التقدم
     activity: آخر نشاطات الفصل
   user:
     new_password_hint: (اتركه فارغاً إذا كنت لا ترغب في تغييره)
     current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بك)
     cancel:
       title: إلغاء حسابي
-      hint: Unhappy?
+      hint: غير راض؟
       button: إلغاء حسابي
   user_level:
     completed: مكتمل
-    tried: Tried
+    tried: متعب
   user_stats:
     recent_activity: آخر النشاطات
     show_more: إظهار المزيد
   home:
-    signin_message: "or if you're already registered %{link}"
+    signin_message: "أو إذا كنت مسجلا مسبقا %{link}"
     student_reg_link: "الطلاب - أبدأ من هنا"
     teacher_reg_link: "المعلمون - أبدأ من هنا"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    teacher_dashboard: الق نظرة على لوحة معلومات التقدم
+    teacher_student_count: "لديك %{count} طلاب."
+    teacher_averages: 'في المتوسط فاز طلابك ب %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
+    classroom: الفصول الدراسية الخاصة بك
+    student_progress: التقدم المحرز الخاص بك كطالب
+    student_stats: 'لقد فزت  ب %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".'
     student_left_off: "حيث كنت آخر مرة:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "لقد أتممت جميع الدروس, استلم %{prize_link} قم باختيارفصل آخر %{online_link} أو في %{local_school_link}"
     local_school: مدرسة محلية
     online: متصل
   gender:
@@ -170,18 +169,18 @@ ar:
     female: أنثى
     none: أفضل بعدم الإجابة
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
+    help_from_html: 'مهندسون من <a href="http://www.google.com"> جوجل</a> و <a href="http://www.microsoft.com"> مايكروسوفت</a> و <a href="http://www.facebook.com"> فيس بوك</a> و <a href="http://www.twitter.com"> تويتر</a> ساعدوا في إنشاء هذا البرنامج التعليمي.'
+    art_from_html: 'الأعمال الفنية من <a href="http://www.angrybirds.com"> Angry Birds</a> ل <a href="http://www.rovio.com"> Rovio</a>، و <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies </a> <a href="http://www.popcap.com"> PopCap Games</a>.'
+    feedback: توفير التغذية المرتدة
     translate: ساعدنا على ترجمة اللغة الخاصة بك
     tos: شروط الخدمة
   reference_area:
     title: بحاجة إلى مساعدة؟
-    subtitle: See these videos and hints
+    subtitle: مشاهدة أشرطة الفيديو هذه وتلميحات
   video:
     tab: فيديو.
     notes: لا يوجد فيديو؟ اظهر الملاحظات.
-    autoplay_option: Autoplay videos
+    autoplay_option: "'تشغيل تلقائي' أشرطة الفيديو"
   compatability:
     working: نحن نعمل على دعم متصفح الأنترنت الخاص بك.
     upgrade: من فضلك قم بتحديث متصفح الأنترنت الخاص بك.

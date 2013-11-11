@@ -2,15 +2,15 @@ zh-CN:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
+        name: 姓名
+        email: 电子邮件
+        username: "用户名:"
+        password: "密码:"
+        password_confirmation: 密码确认：
+        current_password: 当前密码：
+        locale: 语言：
+        gender: "性别:"
+        edit_header: 编辑用户信息
   hello: Hello world
   welcome_back: "Welcome back, %{name}"
   add_teacher_form:

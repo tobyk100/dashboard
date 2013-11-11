@@ -2,30 +2,30 @@ zh-TW:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: 名稱
+        email: "電郵地址 "
+        username: "使用者名稱 "
+        password: 密碼
+        password_confirmation: 密碼確認
+        current_password: 已注册的密碼：
+        locale: 語言
+        gender: 性別
+        edit_header: 編輯帳戶的詳細資訊
+  hello: 世界您好
+  welcome_back: "歡迎回來，%{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: 通過代碼或電郵地址添加一個老師：
+      placeholder: 代碼 (ABCDEF) 或電郵地址 (teacher@school.edu)
+    submit: 添加老師
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
+  stage: 關
+  puzzle: 謎題
+  trophies: 獎盃
+  courses: 課程
+  of: 的
+  more: 更多
+  less: 更少
   try_hoc: "Try the Hour of Code, click here >> "
   try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
   already_started: "Already started? Resume here >> "

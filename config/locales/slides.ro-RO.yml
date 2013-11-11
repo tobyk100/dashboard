@@ -3,160 +3,151 @@ ro:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: Bine aţi venit la prima ora de cod! Haideţi să pătrundem direct în prima încercare de programare.
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: Vom folosi Blockly, un limbaj de programare vizuală, în care trageţi si scăpaţi blocuri pentru a scrie un cod.
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: Majoritatea codului e scris, dar Blockly e vizual. Fiecare bloc corespunde unei linii de cod "real".
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Vei învăța bazele informaticii, concepte care sunt folosite în orice domeniu de la crearea de aplicații până la controlul roboților trimiși pe Marte. "
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: Un program este un set de instrucțiuni pe care calculatorul tău să le urmeze.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: Scopul primului tău program este să lovești un Porc Verde cu o Pasare Furioasă printr-un labirint.
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: Partea stângă este labirintul în care programul se execută. Instrucțiunile pentru fiecare puzzle se găsesc sub labirint.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: Cutia de instrumente din mijloc conține comenzile pentru Pasărea Furioasă. Le vei utiliza pe acestea pentru ați construi codul.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: În dreapta este spațiul de lucru unde vei trage blocuri din cutia de instrumente pentru ati construi programul. Ca să stergi un bloc trage-l la gunoi în colț.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
+        text: Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte" catre spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută cu un spațiu pe labirint.
       11:
         image: notes/hoc1_11.png
-        text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.
+        text: Ca să faci mai mult de o acțiune, poți trage mai multe blocuri în spațiul tau de lucru și să le atașezi împreună. Pasărea va executa comezile de sus până jos.
       12:
         image: notes/hoc1_12.png
-        text: If you run a program and want to fix it and try again, press the "Reset" button.
+        text: Dacă rulezi un program și vrei să îl repari și să încerci din nou, apasă pe butonul "Reset".
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: Hai să prindem porcii!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     loop_times:
       1:
         image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: Salut, sunt Mark! Hai să învățam despre bucle. Folosind bucle poți spune unui computer să repete orice set de acțiuni din nou și din nou, de mii sau chiar de miliarde de ori.
       2:
         image: notes/hoc2_2.png
-        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+        text: În acest puzzle, vrem să facem pasărea să se mute înainte 5 spații pentru a ajunge la porc.
       3:
         image: notes/hoc2_3.png
-        text: We can use the new "repeat" block to help us out.
+        text: Putem să folosim noul bloc "repetă" ca să ne ajute.
       4:
         image: notes/hoc2_4.png
-        text: Instead of dragging out 5 "move forward" blocks...
+        text: În loc să tragem 5 blocuri de tip "mută înainte"...
       5:
         image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+        text: Putem să așezăm blocul "mută înainte" în interiorul blocului "repetă" și să scriem un număr în bloc ca să îi spunem de câte ori să repete acțiunea.
       6:
         image: notes/hoc2_6.png
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'Și asta este important: poți să pui mai multe de o singură comandă în interiorul blocului "repetă".'
       7:
         image: notes/hoc2_7.png
-        text: Enjoy using your new "repeat" block!
+        text: Bucurați-vă de utilitatea noului bloc "repetă"!
     loop_until:
       1:
         image: notes/hoc3_1.png
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul "Repetaţi până când".
       2:
         image: notes/hoc3_2.png
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: Cum ar fi dacă nu am ști cât de departe trebuie pasărea să se mute pentru a ajunge la porc?
       3:
         image: notes/hoc3_3.png
-        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
+        text: Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc(sau se lovește de un perete).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Salut, sunt Bill! Hai să învâțăm un nou concept fundamental: Afirmațile de tip "Dacă" acesta este felul în care computerele iau decizii.'
       2:
         image: notes/hoc4_2.png
-        text: |-
-          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Și tu folosesți afirmații de tip "Dacă" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui  că DACĂ plouă afară, am nevoie să port o geacă.'
       3:
         image: notes/hoc4_3.png
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: Putem să-i spunem zombie-ului să verifice DACĂ este o cale catre stânga, și dacă găsește o cale catrew stânga, putem să îl îndreptăm în acea direcție.
       4:
         image: notes/hoc4_4.png
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: Ca să scrii codul pentru asta, trage afară blocul "dacă" și pune un bloc "întoarce la stânga" în interior.
       5:
         image: notes/hoc4_5.png
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Acum dacă punem un bloc "mută înainte" deasupra și un bloc "repetă" în jurul obiectelor, de fiecare dată când un zombie se va mișca, va verifica dacă este o cale către stânga și se va întoarce.  Comanda "repetă" este critică, ca să verifice dacă există o cale alternativă la fiecare pas.'
       6:
         image: notes/hoc4_6.png
-        text: If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
+        text: 'Afirmațiile de tip dacă sunt foarte importante în informatică. Unul din primele programe pe care le-am scris a fost un joc x și 0, și exista o afirmație de tipul "dacă", care spunea în felul următor programului de execuție : Dacă adversarul este pe cale să câștige, blochează locul care îi va permite să câștige.'
       7:
         image: notes/hoc4_7.png
-        text: Have fun using the "if" block!
+        text: Distrează-te folosind blocul "dacă"!
     if_else:
       1:
         image: notes/hoc5_1.png
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Salut, numele meu este Saloni. Eu folosesc informatica să pot ajuta și a gasi soluții în medicină și sănatate. Hai să învățăm  despre blocul "dacă altul". Arată ca blocul "dacă", dar are o parte în plus la sfârșit care spune "altul".'
       2:
         image: notes/hoc5_2.png
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: Dacă pun un bloc "mută înainte" in locul unde spune "execută" și un bloc "mută înainte" unde spune "altul" asta înseamnă că zombie-ul va alege între 2 opțiuni. DACĂ există o cale în față, zombie-ul se va mișca înainte, și ALTFEL (nu există o cale înainte), zombie-ul se va întoarce la stânga.
       3:
         image: notes/hoc5_3.png
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Asemenea blocului "dacă", putem pune blocuri "dacă altul" în interiorul unui bloc "repetă" astfel încât zombie-ul să continue să se deplaseze și blocul "dacă altul" va continua să verifice dacă are unde alerga. '
       4:
         image: notes/hoc5_4.png
-        text: Now, get those zombies where they belong!
+        text: Acum , condu-i pe zombie unde le este locul!
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Felicitări! Cu ultimul puzzle pe care l-ai rezolvat, tocmai ai scris codare ce poate spune ORICĂRUI robot cum să-și găsească drumul printr-un labirint fâră ramificații sau un tunel de orice lungime , fie că e un zombie, o pasăre, un  robot de misune pe marte, sau chiar o mașină ce se conduce singură."
       2:
         image: notes/hoc6_2.png
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: Conceptele de bază pe care le-ai folosit sunt inima oricărui program sau aplicație pe care le vei încerca. Am învățat despre bucle care se repetă, afirmații de tipul "repetă până la", si afiramții de tipul "dacă" sau "altul".
       3:
         image: notes/hoc6_3.png
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: Dacă ți-a plăcut prima oră de cod, vizitează code.org pentru ați continua educația în informatică! Când vei termina cursul nostru de 20 de ore, vei stapâni bazele programării, și vei putea să înveți cum să scrii aplicații de telefon, întrucțiuni de roboți, jocuri, tu alegi.
       4:
         image: notes/hoc6_4.png
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Tehnologia schimbă tot ceea ce facem și nu contează dacă ești tânăr sau bătran: programarea e distractivă, creativă și oricine poate învăța!"
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Notițele de indicație vor ajunge în curând!

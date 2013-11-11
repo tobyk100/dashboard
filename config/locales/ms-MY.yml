@@ -1,0 +1,178 @@
+ms:
+  activerecord:
+    attributes:
+      user:
+        name: Nama
+        email: E-mel
+        username: Nama pengguna
+        password: Kata laluan
+        password_confirmation: Pengesahan kata laluan
+        current_password: Kata laluan semasa
+        locale: Bahasa
+        gender: Jantina
+        edit_header: Edit Maklumat Akaun
+  hello: Helo dunia
+  welcome_back: "Selamat datang kembali, % {nama}"
+  add_teacher_form:
+    code_or_email:
+      label: "Tambah seorang guru melalui kod atau alamat email:"
+      placeholder: Kod (ABCDEF) atau e-mel (teacher@school.edu)
+    submit: Tambah guru
+  appname: Code.org
+  stage: Peringkat
+  puzzle: Teka-teki
+  trophies: Piala
+  courses: Kursus
+  of: dari
+  more: LAGI
+  less: KURANG
+  try_hoc: "Cuba Kod Sejam, klik di sini >> "
+  try_k8intro: Atau cuba Kursus K-8, Pengenalan kepada Komputer Sains (15-25 jam)
+  already_started: "Sudah mulakan? Sambung di sini >> "
+  demos: "Admin: Semua Demo"
+  continue: Teruskan
+  prize: hadiah
+  auth:
+    sign_in_with: "Daftar Masuk dengan % {pembekal}"
+    signed_in: Daftar masuk!
+    already_signedup: Sudah mendaftar?
+    notyet_signedup: Belum menyertai lagi?
+    google_oauth2: Google +
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Lupa kata laluan anda?
+    need_confirmation: Tidak menerima arahan pengesahan?
+    need_unlock: Tidak menerima kunci arahan?
+  signup_form:
+    title: Mendaftar
+    school_name: Nama sekolah (pilihan)
+    school_address: Alamat sekolah (pilihan)
+    address_placeholder: alamat, bandar, Negeri, zip
+    gender: Jantina (pilihan)
+    birthday: Hari Lahir (pilihan)
+    submit: Mendaftar
+    teacher: Adakah anda seorang guru?
+  signin_form:
+    title: Log masuk
+    login: E-mel atau nama pengguna
+    password: Kata laluan
+    remember: Ingat saya
+    submit: Log masuk
+  password:
+    reset_form:
+      title: Lupa kata laluan anda?
+      email: Alamat e-mel
+      submit: Hantar set semula kata laluan arahan
+    change_form:
+      title: Tukar kata laluan
+      new_password: Kata laluan baru
+      confirm_password: Sahkan kata laluan baru
+      submit: Tukar kata laluan
+  welcome_email:
+    subject: Sertai kelas saya (di Code.org)
+    body: 'Klik pautan di bawah untuk mendaftar bagi tutorial Sains Komputer di Code.org (dengan saya sebagai "guru"): % {link} tutorial ini adalah menyeronokkan, penglibatan visual, dan mengajar konsep asas sains komputer melalui pendekatan mudah, berpandu, seperti-permainan. Belajar kod dari Bill Gates, Mark Zuckerberg, Angry Birds, dan Plants vs Zombie! :-) % {nama}'
+  follower:
+    invite_sent: Jemputan dihantar
+    added_teacher: "%{name} ditambah sebagai guru anda"
+    registered: "Anda telah berdaftar %{section_name}. Sila daftar masuk untuk teruskan"
+    error:
+      signed_in: Sila daftar keluar sebelum teruskan
+      username_not_found: "Pengguna %{username} tidak dijumpai"
+      username_in_use: "%{username} telah dipilih, silih pilih yang lain"
+      no_teacher: "Tidak dapat menemui sesiapa yang mendaftar masuk  dengan '%{teacher_email_or_code}'. Sila minta mereka untuk mendaftar di sini dan cuba tambah mereka lagi"
+    mail:
+      invite_student:
+        subject: "Sertai kelas dengan  %{teacher_name} di Code.org!"
+  reports:
+    error:
+      access_denied: Anda tidak mempunyai akses kepada statistik orang ini
+  crud:
+    new_model: "Baru %{model}"
+    show: Papar
+    edit: Edit
+    edit_model: "Edit %{model}"
+    update: Kemas kini
+    destroy: Hapuskan
+    back: Belakang
+    confirm: Adakah anda pasti?
+    created: "%{model} telah berjaya dicipta."
+    updated: "%{model} telah berjaya diperbaharui."
+  nav:
+    header:
+      finished_hoc: Saya telah menyelesaikan Hour of Code saya
+      sign_in_to_save: Daftar Masuk untuk menyimpan kemajuan
+    user:
+      classroom: Pelajar-pelajar saya
+      label: "Hi %{username}"
+      stats: Kemajuan saya
+      settings: Akaun saya
+      prizes: Hadiah-hadiah
+      logout: Daftar keluar
+      signin: Log masuk
+      signup: Mendaftar
+    popup:
+      progress: Kemajuan anda
+      lines: "Total baris kod: %{lines}"
+      close: TUTUP
+      mastery: Konsep-konsep
+      puzzle_map: Peringkat
+      prizes: "Kumpul semua %{total_trophies} trofi dan menangi hadiah-hadiah!"
+      prizes_link: maklumat lanjut
+  teacher:
+    title:
+      one: "Guru anda ialah %{name}"
+      other: "Guru anda:"
+    tools: Peralatan Guru
+    students:
+      manage: Mengurus pelajar
+      add: Menambah pelajar
+    rollup: Dasbor Perkembangan
+    activity: Aktiviti kelas terkini
+  user:
+    new_password_hint: (biarkan kosong jika anda tidak mahu mengubahnya)
+    current_password_hint: (kami memerlukan kata laluan semasa anda untuk mengesahkan perubahan anda)
+    cancel:
+      title: Batalkan akaun saya
+      hint: Tidak berpuas hati?
+      button: Batalkan akaun saya
+  user_level:
+    completed: Lengkap
+    tried: Telah dicuba
+  user_stats:
+    recent_activity: Aktiviti terkini
+    show_more: Tunjukkan Lagi
+  home:
+    signin_message: "atau jika anda sudah berdaftar % {link}"
+    student_reg_link: "Pelajar - mula disini"
+    teacher_reg_link: "Guru - mula di sini"
+    teacher_dashboard: Lihat dashboard kemajuan
+    teacher_student_count: "Anda mempunyai %{count} pelajar."
+    teacher_averages: 'Secara puratanya, pelajar anda mendapat %{trophy_average} daripada %{trophy_max} "Concept Mastery" trofi.'
+    classroom: Kelas anda
+    student_progress: Kemajuan anda sebagai seorang pelajar
+    student_stats: 'Anda telah memperolehi %{trophy_count} daripada %{trophy_max} "Concept Mastery" trofi.'
+    student_left_off: "Mana anda tinggalkan:"
+    student_finished: "Anda telah melengkapkan kesemua tutorial, tuntut %{prize_link} dan pilih kelas lain %{online_link} atau di %{local_school_link}"
+    local_school: local school
+    online: online
+  gender:
+    male: Male
+    female: Female
+    none: Prefer not to answer
+  footer:
+    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
+    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: Provide feedback
+    translate: Help us translate to your language
+    tos: Terms of service
+  reference_area:
+    title: Need help?
+    subtitle: See these videos and hints
+  video:
+    tab: Video.
+    notes: No video? Show notes.
+    autoplay_option: Autoplay videos
+  compatability:
+    working: We are working on support for your browser.
+    upgrade: Please upgrade your browser.

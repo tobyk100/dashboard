@@ -43,11 +43,11 @@ pt-PT:
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: "Mostrar notas" vem em breve!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: "Mostrar notas" vem em breve!
     loop_times:
       1:
         image: notes/hoc2_1.png
@@ -83,8 +83,7 @@ pt-PT:
         text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png
@@ -130,26 +129,26 @@ pt-PT:
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas vem em breve!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas vem em breve!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas vem em breve!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas vem em breve!
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: Parabéns! Com o último enigma resolveu, você acabou de escrever código que pode dizer qualquer robô como encontrar o seu caminho através de um labirinto de não-ramificação ou túnel de qualquer comprimento, se é um zombi, um pássaro, uma missão a Marte ou até mesmo um carro de auto-condução.
       2:
         image: notes/hoc6_2.png
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "Os conceitos básicos que você usou são o coração de todos os programas ou apps que irás utilizar.  Aprendemos sobre laços de repetição, repita até declarações, se as declarações e se mais declarações."
       3:
         image: notes/hoc6_3.png
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
@@ -159,4 +158,4 @@ pt-PT:
     20_wrapup:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: Mostrar notas vem em breve!

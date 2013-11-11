@@ -1,26 +1,26 @@
 de:
   devise:
     confirmations:
-      confirmed: Your account was successfully confirmed. You are now signed in.
-      send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
+      confirmed: Ihr Konto wurde erfolgreich bestätigt. Sie sind jetzt eingeloggt.
+      send_instructions: Sie erhalten eine E-Mail mit Anweisungen wie Sie Ihr Konto bestätigen in wenigen Minuten.
       send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes.
     failure:
-      already_authenticated: You are already signed in.
-      inactive: Your account was not activated yet.
-      invalid: Invalid email or password.
+      already_authenticated: SIe sind bereits eingeloggt.
+      inactive: Ihr Account wurde bisher noch nicht aktiviert.
+      invalid: Ungültige E-Mail oder Passwort.
       invalid_token: Invalid authentication token.
-      locked: Your account is locked.
-      not_found_in_database: Invalid email or password.
+      locked: Ihr Konto wurde gesperrt.
+      not_found_in_database: Ungültige E-Mail oder Passwort.
       timeout: Your session expired, please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your account before continuing.
+      unauthenticated: Sie müssen sich anmelden oder registrieren, bevor Sie fortfahren.
+      unconfirmed: Sie müssen Ihr Konto zu bestätigen, bevor Sie fortfahren.
     mailer:
       confirmation_instructions:
-        subject: Confirmation instructions
+        subject: Bestätigungs Anweisungen
       reset_password_instructions:
         subject: Reset password instructions
       unlock_instructions:
-        subject: Unlock Instructions
+        subject: Freischaltungs Anweisungen
     omniauth_callbacks:
       failure: 'Could not authenticate you from %{kind} because "%{reason}".'
       success: "Successfully authenticated from %{kind} account."
@@ -29,18 +29,18 @@ de:
       send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
       send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
       updated: Your password was changed successfully. You are now signed in.
-      updated_not_active: Your password was changed successfully.
+      updated_not_active: Ihr Passwort wurde erfolgreich geändert.
     registrations:
-      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
+      destroyed: Tschüss! Ihr Konto wurde erfolgreich geschlossen. Wir hoffen Sie bald wieder zu sehen.
+      signed_up: Herzlich Willkommen! Sie haben sich erfolgreich registriert.
       signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
       signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
       signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address.
-      updated: You updated your account successfully.
+      update_needs_confirmation: Sie haben Ihr Konto erfolgreich aktualisiert, aber Sie müssen Ihre neue E-Mail Adresse noch verifzieren. Bitte überprüfen Sie Ihe E-Mails und klicken sie auf den Bestätigungslink um die Verifizierung abzuschließen.
+      updated: Sie haben Ihr Konto erfolgreich aktualisiert.
     sessions:
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      signed_in: Erfolgreich eingeloggt.
+      signed_out: Erfolgreich ausgeloggt.
     unlocks:
       send_instructions: You will receive an email with instructions about how to unlock your account in a few minutes.
       send_paranoid_instructions: If your account exists, you will receive an email with instructions about how to unlock it in a few minutes.
@@ -49,9 +49,9 @@ de:
     messages:
       already_confirmed: was already confirmed, please try signing in
       confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      expired: ist abgelaufen, bitte fordern Sie erneut eine an
+      not_found: nicht gefunden
+      not_locked: war nicht gesperrt
       not_saved:
         one: "1 error prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"

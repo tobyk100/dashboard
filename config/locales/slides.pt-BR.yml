@@ -18,7 +18,7 @@ pt-BR:
         text: Um programa é um conjunto de instruções para o seu computador seguir.
       6:
         image: notes/hoc1_6.png
-        text: O objetivo do seu primeiro programa é conseguir um Pássaro Irritado através de um labirinto para bater um Porco Verde.
+        text: O objetivo do seu primeiro programa é conduzir um Pássaro Irritado através de um labirinto para abater um Porco Verde.
       7:
         image: notes/hoc1_7.png
         text: O lado esquerdo é o labirinto onde o programa é executado. As instruções para cada quebra-cabeça estão abaixo do labirinto.
@@ -82,8 +82,7 @@ pt-BR:
         text: Se colocarmos um bloco "Avançar" dentro do bloco "repetir até", o pássaro vai seguir em frente ATÉ ele atingir o porco (ou se chocar contra uma parede).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ; como antes, podemos colocar vários blocos dentro do bloco "repeat até", e eles serão todos repetidos.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png

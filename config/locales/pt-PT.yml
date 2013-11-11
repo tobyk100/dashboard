@@ -2,89 +2,92 @@ pt-PT:
   activerecord:
     attributes:
       user:
-        name: Name
+        name: Nome
         email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        username: Nome de utilizador
+        password: Palavra-passe
+        password_confirmation: Confirmar Palavra-passe
+        current_password: Palavra-passe actual
+        locale: Linguagem
+        gender: Gênero
+        edit_header: Editar detalhes da Conta
+  hello: Olá mundo
+  welcome_back: "Bem-vindo, % {name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Adicione um professor por código ou endereço de e-mail:"
+      placeholder: Código (ABCDEF) ou e-mail (teacher@school.edu)
+    submit: Adicionar o professor
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: Nível
+  puzzle: Quebra-cabeças
+  trophies: Troféus
+  courses: Cursos
+  of: de
+  more: MAIS
+  less: MENOS
+  try_hoc: 'Tente a "Hora do código", clique aqui >> '
+  try_k8intro: Ou, tente nosso K-8 Introdução ao curso de ciência da computação (15-25 horas)
+  already_started: "Já começou? Retomar aqui >> "
+  demos: "Administrador: Todas as demonstrações"
+  continue: Continuar
+  prize: Prêmio
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
+    sign_in_with: "Inscreva-se com % {provider}"
+    signed_in: Assinado em!
+    already_signedup: Já se inscreveu?
+    notyet_signedup: Ainda não aderiu?
+    google_oauth2: Google +
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Esqueceu a sua palavra-passe?
+    need_confirmation: Não recebeu as instruções de confirmação?
+    need_unlock: Não recebeu as instruções de desbloqueio?
   signup_form:
     title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
+    school_name: Nome da escola (opcional)
+    school_address: Endereço da escola (opcional)
+    address_placeholder: Morada, cidade, estado, código postal
+    gender: Gênero (opcional)
+    birthday: Aniversário (opcional)
     submit: Sign up
-    teacher: Are you a teacher?
+    teacher: Você é um professor?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Entrar
+    login: E-mail ou nome de utilizador
+    password: Palavra-passe
+    remember: Lembrar-se de mim
+    submit: Entrar
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Esqueceu a sua palavra-passe?
+      email: Endereço de Email
+      submit: Enviar-me as informações para redefinir a palavra-passe
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Alterar palavra-passe
+      new_password: Nova palavra-passe
+      confirm_password: Confirmar palavra-passe
+      submit: Alterar palavra-passe
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Junte-se à minha turma (na Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Cliqye no link abaixo para se inscrever para tutoriais de ciências computorizadas  em Code.org (comigo como o seu "professor"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Os tutoriais são divertidos, visualmente e ensina os conceitos básicos de ciência de computorização utilizando uma experiência simples e guiado como se fosse um jogo. Aprende codigo com o Bill Gates, Mark Zuckerberg, Angry Birds, e Plants vs. Zombies! :-)
       
       %{name}
+      
+      
+       
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Convite enviado
+    added_teacher: "%{name} foi adicionado como seu professor"
+    registered: "Você já registrou % {section_name}. Inscreva-se continuar"
     error:
-      signed_in: Please signout before proceeding
+      signed_in: Por favor desligue-se antes de prosseguir
       username_not_found: "Username %{username} not found"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"

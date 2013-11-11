@@ -35,15 +35,15 @@ pt-BR:
       signed_up: Bem-vindo! Você se inscreveu com êxito.
       signed_up_but_inactive: Você se inscreveu com êxito. No entanto, sua conta ainda não está ativa.
       signed_up_but_locked: Você se inscreveu com êxito. No entanto, sua conta está bloqueada.
-      signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para seu endereço de email. Por favor, abra o link para ativar sua conta.
-      update_needs_confirmation: Você atualizou sua conta com êxito, mas precisamos verificar seu novo endereço de email. Por favor verifique o seu email e clique no link para confirmar seu novo endereço.
+      signed_up_but_unconfirmed: Uma mensagem com um link de confirmação foi enviada para seu endereço de e-mail. Por favor, abra o link para ativar sua conta.
+      update_needs_confirmation: Você atualizou sua conta com êxito, mas precisamos verificar seu novo endereço de e-mail. Por favor verifique o seu e-mail e clique no link para confirmar seu novo endereço.
       updated: Você atualizou sua conta com sucesso.
     sessions:
       signed_in: Autenticado com êxito.
       signed_out: Saiu com êxito.
     unlocks:
-      send_instructions: Você receberá um email, em poucos minutos, com instruções sobre como desbloquear sua conta.
-      send_paranoid_instructions: Se sua conta existir, você receberá um email, em poucos minutos, com instruções sobre como desbloqueá-la.
+      send_instructions: Você receberá um e-mail, em poucos minutos, com instruções sobre como desbloquear sua conta.
+      send_paranoid_instructions: Se sua conta existir, você receberá um e-mail, em poucos minutos, com instruções sobre como desbloqueá-la.
       unlocked: Sua conta foi desbloqueada com sucesso. Faça a autenticação para continuar.
   errors:
     messages:

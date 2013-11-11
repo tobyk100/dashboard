@@ -2,13 +2,13 @@ sr:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: K-8 увод у курс Информатике
+        Hour of Code: Час кода
+        Edit Code: Уреди код
     game:
       name:
         Maze: The Maze
-        Artist: The Artist
+        Artist: Уметник
         Artist2: The Artist 2
         Farmer: The Farmer
         Artist3: The Artist 3

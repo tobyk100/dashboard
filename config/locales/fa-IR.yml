@@ -2,75 +2,75 @@ fa:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: نام
+        email: رایانامه
+        username: نام کاربری
+        password: کلمه عبور
+        password_confirmation: تکرار کلمه عبور
+        current_password: کلمه عبور فعلی
+        locale: زبان
+        gender: جنسیت
+        edit_header: ویرایش اطلاعات کاربری
+  hello: سلام دنیا
+  welcome_back: "%{name} خوش آمدید"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "افزودن معلم از طریق کد شناسایی یا رایانامه:"
+      placeholder: کد شناسایی (ABCDEF) یا رایانامه (teacher@school.edu)
+    submit: افزودن معلم
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: مرحله
+  puzzle: پازل
+  trophies: جمع آوری غنائم
+  courses: دوره ها
+  of: از
+  more: بیشتر
+  less: کمتر
+  try_hoc: "برای انجام ساعت کد اینجا کلیک کنید >>"
+  try_k8intro: یا دوره مقدماتی علوم رایانه ای (15 تا 25 ساعت) را امتحان کنید
+  already_started: "قبلا انجام داده اید؟ از اینجا ادامه بدهید >>"
+  demos: "مدیر: تمام نسخه های نمایشی"
+  continue: ادامه
+  prize: جایزه
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    sign_in_with: "ورود از طریق %{provider}"
+    signed_in: وارد شدید!
+    already_signedup: قبلا ثبت نام کرده اید؟
+    notyet_signedup: تا به حال شرکت نکرده اید؟
+    google_oauth2: گوگل پلاس
+    twitter: توییتر
+    facebook: فیسبوک
+    windowslive: ویندوز لایو
+    forgot_password: کلمه عبور خود را فراموش کرده اید؟
+    need_confirmation: دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟
+    need_unlock: دستورالعمل فعال سازی را دریافت نکرده اید؟
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: ثبت نام
+    school_name: نام مدرسه (اختیاری)
+    school_address: نشانی مدرسه (اختیاری)
+    address_placeholder: نشانی، شهر، استان، کدپستی
+    gender: جنسیت (اختیاری)
+    birthday: تاریخ تولد (اختیاری)
+    submit: ثبت نام
+    teacher: آیا شما یک معلم هستید؟
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: ورود
+    login: رایانامه یا نام کاربری
+    password: کلمه عبور
+    remember: مرا به خاطر بسپار
+    submit: ورود
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: کلمه عبور خود را فراموش کرده اید؟
+      email: نشانی رایانامه
+      submit: دستورالعمل تنظیم مجدد کلمه عبور را برای من بفرستید
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: کلمه عبور خود را تغییر دهید
+      new_password: کلمه عبور جدید
+      confirm_password: تکرار کلمه عبور جدید
+      submit: تغییر کلمه عبور من
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: عضویت در کلاس من (در Code.org)
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,7 +80,7 @@ fa:
       
       %{name}
   follower:
-    invite_sent: Invite sent
+    invite_sent: دعوتنامه ارسال شد
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
@@ -96,12 +96,12 @@ fa:
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
+    show: نمایش
+    edit: ویرایش
+    edit_model: "ویرایش %{model}"
+    update: ذخیره
+    destroy: حذف
+    back: بازگشت
     confirm: Are you sure?
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
@@ -110,50 +110,50 @@ fa:
       finished_hoc: "I've finished my Hour of Code"
       sign_in_to_save: Sign in to save progress
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      classroom: دانش آموزان من
+      label: "سلام %{username}"
+      stats: پیشرفت من
+      settings: حساب کاربری من
+      prizes: جایزه ها
+      logout: خروج
+      signin: ورود
+      signup: ثبت نام
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: پیشرفت شما
+      lines: "تعداد خطوط کد: %{lines}"
+      close: بستن
+      mastery: مفاهیم
+      puzzle_map: مراحل
+      prizes: "تمام %{total_trophies} غنیمت را جمع کنید و جایزه ها را ببرید!"
+      prizes_link: اطلاعات بیشتر
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "معلم شما %{name} می باشد"
+      other: "معلم های شما:"
+    tools: ابزار معلم
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: مدیریت دانش آموزان
+      add: افزودن دانش آموزان
+    rollup: داشبورد پیشرفت
+    activity: آخرین فعالیت های کلاس
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (اگر نمی خواهید تغییر بدهید خالی بگذارید)
+    current_password_hint: (کلمه عبور برای ذخیره تغییرات لازم است)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: حذف حساب کاربری من
+      hint: ناراضی هستید؟
+      button: حذف حساب کاربری من
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: انجام شد
+    tried: سعی شد
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: فعالیت اخیر
+    show_more: نمایش بیشتر
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
+    signin_message: "و یا اگر قبلا ثبت نام کرده اید %{link}"
+    student_reg_link: "دانش آموزان - از اینجا آغاز کنید"
+    teacher_reg_link: "معلمین - از اینجا آغاز کنید"
+    teacher_dashboard: مشاهده داشبورد پیشرفت
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
     classroom: Your classroom

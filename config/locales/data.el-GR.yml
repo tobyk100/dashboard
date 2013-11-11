@@ -2,65 +2,66 @@ el:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: Μάθημα Εισαγωγής στην Επιστήμη Υπολογιστών Πρωτοβάθμιας Εκπαίδευσης
+        Hour of Code: Ώρα κώδικα
+        Edit Code: Επεξεργασία κώδικα
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: Ο Λαβύρινθος
+        Artist: Ο Καλλιτέχνης
+        Artist2: Ο Καλλιτέχνης 2
+        Farmer: Ο Γεωργός
+        Artist3: Ο Καλλιτέχνης 3
+        Farmer2: Ο Γεωργός 2
+        Artist4: Ο Καλλιτέχνης 4
+        Farmer3: Ο Γεωργός 3
+        Artist5: Ο Καλλιτέχνης 5
+        MazeEC: Ο Καλλιτέχνης
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: Χάλκινο
+        Silver: Ασημένιο
+        Gold: Χρυσό
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: Ακολουθία
+        if: Τμήμα Αν
+        if_else: Τμήμα Αν-Αλλιώς
+        loop_times: Πλακίδιο Επανάλαβε Φορές
+        loop_until: Πλακίδιο Επανέλαβε Μέχρις-ότου
+        loop_while: Τμήμα Όσο
+        loop_for: Τμήμα Μετρητής
+        function: Συναρτήσεις
+        parameters: Συναρτήσεις με παραμέτρους
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the green pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.
-        maze_2_15: Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.
-        maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
+        maze_2_2: 'Γεια! Πρέπει να πιάσω το Πράσινο Γουρουνάκι! Στοιβάξτε μαζί ένα λίγα τμήματα "πήγαινε μπρος" και πατήστε "Εκτέλεση προγράμματος" για να με βοηθήσετε να φτάσω ως εκεί. '
+        maze_2_1: "Γράψτε μου άλλο ένα πρόγραμμα, για να το κάνω όλη τη διαδρομή μέχρι το πράσινο γουρούνι. "
+        maze_2_2_5: Πώς θα μπορούσα να πιάσω το πράσινο γουρούνι; (Προσοχή στα εκρηκτικά TNT)
+        maze_2_3: Πώς θα μπορούσα να πιάσω το πράσινο γουρούνι; (Προσοχή στα εκρηκτικά TNT)
+        maze_2_4: "Αααχχχ! Γράψε ένα πρόγραμμα που να με πηγαίνει γύρω από το TNT στο πράσινο γουρούνι. "
+        maze_2_5: Υπάρχει ένας τρόπος να πιάσω το πράσινο γουρούνι χρησιμοποιώντας μόνο 2 πλακίδια. Μπορείς να τον βρεις;
+        maze_2_6: Προσπαθήσει να με πας στο πράσινο γουρούνι χρησιμοποιώντας μόνο τρία πλακίδια.
+        maze_2_7: Γράψτε μου ένα πρόγραμμα, για να πιάσω το πράσινο γουρούνι χρησιμοποιώντας το μικρότερο αριθμό πλακιδίων. Δοκιμάστε να χρησιμοποιήσετε περισσότερα από ένα πλακίδια «Επανάλαβε Φορές».
+        maze_2_8: |-
+          Για να το λύσεις δοκιμάσε ένα πλακίδιο "Επανάλαβε" με αυτά τα 3 πλακίδια μέσα σ ' αυτό: Μετακινήσου, Μετακινήσου, Στρίψε.
+        maze_2_9: 'Εντάξει, δοκιμάστε το νέο πλακίδιο "Επανάλαβε Μέχρις-ότου" - αυτό θα επαναλάβει μέχρι να φτάσω το πράσινο γουρούνι.'
+        maze_2_10: "Εντάξει, μια τελευταία φορά πρακτικής - μπορείς να λύσεις αυτό, χρησιμοποιώντας μόνο 4 πλακίδια;"
+        maze_2_11: "Αγαπητό άτομο.  Εγώ ζόμπι. Εγώ πεινασμένος. Πρέπει να... πάω.. στον Ηλίανθο... Μπορείς να πας εκεί με 5 πλακίδια μόνο;"
+        maze_2_12: Εντάξει, αυτό είναι παρόμοιο, αλλά ελαφρώς διαφορετικό. Μπορείς να το κάνεις σε 5 πλακίδια μόνο;
+        maze_2_13: 'Χρησιμοποιήστε το νέο πλακίδιο "Εάν" για να με βοηθήσετε να αποφασίζω πότε να στρίψω. Υπόδειξη: το μόνο που χρειάζεται είναι ένα πλακίδιο, αλλά μάθετε πώς να το χρησιμοποιείτε για να μπορείτε να το κάνετε μόνοι σας την επόμενη φορα.'
+        maze_2_14: 'Εντάξει, αυτό είναι ακριβώς όπως το τελευταίο παζλ, αλλά που θα πρέπει να θυμάστε πώς χρησιμοποιήσατε το πλακίδιο "Εάν" και το πλακίδιο  «Επανάλαβε» μαζί.'
+        maze_2_15: Εγώ θέλει Ηλίανθος! Χρησιμοποιήστε ένα πλακίδιο "Εάν" για να πάτε εκεί με το μικρότερο αριθμό πλακιδίων.
+        maze_2_16: "Εντάξει, ας κάνουμε και πάλι για εξάσκηση - αυτό δεν είναι και πολύ διαφορετικό, αλλά προσέξτε για τα σαρκοφάγα φυτά!"
+        maze_2_17: 'Το πλακίδιο "Εάν - Αλλιώς" ελέγχει μια συνθήκη, και στη συνέχεια κάνει το ένα πράγμα ή το άλλο. Για να με οδηγήσετε στον Ηλίανθο δοκιμάσετε να χρησιμοποιήσετε αυτό το νέο πλακίδιο.'
+        maze_2_18: 'Μια ακόμη εξάσκηση  του πλακιδίου"Εάν - Αλλιώς", μπορείτε να κάνετε σωστά με την πρώτη δοκιμή;'
         maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: Make a square using only 3 blocks.
+        turtle_1_3: Κάνε ένα τετράγωνο χρησιμοποιώντας μόνο 3 μπλοκ .
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
+        turtle_1_5: Τώρα, για εξάσκηση, σχεδιάστε ένα τρίγωνο και στη συνέχεια ένα τετράγωνο ώστε να σχεδιάσετε ένα φάκελο.
         turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
         turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
         turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.

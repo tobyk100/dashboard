@@ -2,156 +2,143 @@ nl:
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        20-hour: Informaticacursus op basisschool-niveau
+        Hour of Code: Een Uur Code
+        Edit Code: Bewerk de code
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: Het Doolhof
+        Artist: De Artiest
+        Artist2: De Artiest 2
+        Farmer: De Boer
+        Artist3: De Artiest 3
+        Farmer2: De Boer 2
+        Artist4: De Artiest 4
+        Farmer3: De Boer 3
+        Artist5: De Artiest 5
+        MazeEC: De Artiest
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: Brons
+        Silver: Zilver
+        Gold: Goud
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: Rij
+        if: Als Blok
+        if_else: Als-anders blok
+        loop_times: Herhaal aantal block
+        loop_until: Herhaal tot blok
+        loop_while: Zolang blok
+        loop_for: Teller blok
+        function: Functies
+        parameters: Functies met parameters
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the green pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.
-        maze_2_15: Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.
-        maze_2_18: One more practice of the "if-else" block, can you get it right on your first try?
-        maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: Make a square using only 3 blocks.
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
-        turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
-        maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: Help me fill in the hole at the end of the field, using as few blocks as possible.
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.
-        turtle_2_3: Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles.
-        maze_karel_2_5: Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles.
-        maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: Use this new function, "avoid the cow and remove 1", to help me remove all the piles.
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: Move me across the field, and use these two functions to help me remove all the piles and fill all the holes.
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: Using the "draw a square" function as an example, create a "draw a triangle" function and use it.
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: De-bug this program for me so my field will be nice and flat.
-        maze_karel_debug_while: How should you change this program to help me fill the hole?
-        maze_karel_debug_if: Help! Fix the program so my field will be completely flat.
-        maze_karel_debug_if_else: De-bug this program so I can fill in the holes and remove all the piles.
-        maze_karel_debug_function_1: What should you change about this program to help me remove all the piles?
-        maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_2_2: 'Hoi! Ik moet naar het groene biggetje toe! Zet een paar blokken met de tekst "ga naar voren" op elkaar en klik op "start programma" om me daar te krijgen. '
+        maze_2_1: "Schrijf voor mij een ander programma, zodat ik helemaal naar het groene biggetje kan. "
+        maze_2_2_5: Hoe kom ik bij het groene biggetje? (Pas op voor het dynamiet)
+        maze_2_3: Hoe kom ik bij het groene biggetje? (Pas op voor het dynamiet)
+        maze_2_4: "Argh! Schrijf een programma dat me om het dynamiet heen naar het groene biggetje krijgt. "
+        maze_2_5: Ik kan met maar 2 blokken bij het groene biggetje komen. Lukt dat jou ook?
+        maze_2_6: Probeer me bij het groene biggetje te krijgen met maar drie blokken.
+        maze_2_7: Schrijf een programma om me met zo weinig mogelijk blokken naar het groene biggetje te krijgen. Probeer eens meer dan één "herhaal keer"-blok te gebruiken.
+        maze_2_8: 'Probeer om deze op te lossen eens een "herhaal"-blok met 3 blokken erin: vooruit, vooruit, draai.'
+        maze_2_9: 'Ok, probeer het nieuwe "herhalen tot"-blok eens - het herhaalt tot ik het eerste groene biggetje bereik.'
+        maze_2_10: "Ok, nog een laatste keer om te oefenen - kun je deze oplossen met maar 4 blokken?"
+        maze_2_11: Hallo mens. Ik zombie. Ik honger. Moet... naar... zonnebloem... Kun je me met maar 5 blokken naar de zonnebloem krijgen?
+        maze_2_12: Ok, dit lijkt op de vorige, maar ietsjes anders. Kun je het met maar 5 blokken?
+        maze_2_13: 'Gebruik het nieuwe "als"-blok om me te laten beslissen wanneer ik kan omdraaien. Tip: je hebt maar één blok meer nodig, maar kijk goed hoe we het hebben klaargezet zodat je het de volgende keer zelf kunt.'
+        maze_2_14: Ok, deze is net als de vorige puzzel. Weet je nog hoe je het "als"-blok en het "herhaal"-blok samen kunt gebruiken?
+        maze_2_15: Wil zonnebloem! Gebruik een "als"-blok om me daar met zo weinig mogelijk blokken heen te brengen.
+        maze_2_16: "Ok, nog een keer om te oefenen - deze is niet zo anders, maar pas op voor de happers!"
+        maze_2_17: Het "als anders"-blok kijkt naar een voorwaarde, en doet het één OF het ander. Probeer dit blok te gebruiken om me naar de zonnebloem te brengen.
+        maze_2_18: 'Nog een oefening met het "als anders"-blok - lukt deze in één keer?'
+        maze_2_19: Lukt het om een moeilijker doolhof op te lossen door maar 3 blokken toe te voegen? Als je het goed doet kan ik ieder kronkelend pad volgen, hoe lang het ook is.
+        turtle_1_1: Hoi, ik ben een artiest! Je kunt code schrijven om me bijna alles te laten tekenen. Gebruik een paar blokken om me over de grijze lijnen in het plaatje te laten tekenen.
+        turtle_1_2: 'Teken nu een vierkant. Let op: gebruik je favoriete kleur door hem uit te kiezen in het "kies kleur"-blok.'
+        turtle_1_3: Maak een vierkant met maar 3 blokken.
+        turtle_1_4: 'Teken een driehoek met 3 verschillende kleuren, met de "willekeurige kleur" optie die elke keer een andere kleur voor je uitkiest. Hint: je zult zelf uit moeten vinden hoe ver je moet draaien door op het nummer in het draai blok te klikken.'
+        turtle_1_5: Als oefening, teken een driehoek en dan een vierkant om een envelop te tekenen.
+        turtle_1_6: "Kan je uitvinden hoe je deze driehoek en vierkant tekent? Hint: Doe de driehoek eerst, dan kun je daarna uitvinden hoeveel je moet draaien om het vierkant te tekenen."
+        turtle_1_7: "Ok, dan maken we het nu een beetje moeilijker - kijk of je deze groene bril kunt tekenen. De lijnen van de vierkanten zijn 100 pixels en ze staan 50 pixels uit elkaar. Vergeet niet om in groen te tekenen!"
+        turtle_1_8: Ok, kijk nu of je kunt uitvinden wat er gebeurt als je deze code uit zou voeren (of druk op "Uitvoeren" om het uit te voeren). Dan moet je het vaak genoeg herhalen om de tekening af te maken. De kleuren zijn iedere keer anders.
+        turtle_1_9: Kun je uitvinden welk nummer je moet vervangen met het vraagteken om een cirkel te tekenen?
+        turtle_1_10: 'Je hebt het gehaald! Nu kun je tekenen wat je wilt. Wat leuke ideëen: een stick poppetje, sneeuwvlok of een spiraal. Je kunt nu ook het nieuwe "dikte instellen" blok gebruiken. Veel plezier!'
+        turtle_4_1: "Kun je een plaatje tekenen die op dit huis lijkt? Denk na over de stappen die je moet nemen om het huis te tekenen - dat heet een algoritme. Je moet het misschien een paar keer proberen voor hij er goed uit ziet, maar het is niet erg als hij niet perfect is!"
+        turtle_4_2: Probeer nu om dit vierkant te tekenen die gemaakt is uit 2 driehoeken. Misschien moet je het een paar keer proberen voor je uitvindt hoe ver je moet draaien en hoe ver je moet bewegen. Het hoeft er niet perfect uit te zien, maar blijf proberen!
+        turtle_4_3: Teken een pijl die er zo uit ziet. Denk na over de stappen die je nodig hebt om hem te tekenen.
+        turtle_4_4: Kun je iets tekenen dat lijkt op dit schip? Hij bestat uit een aantal kleinere vormen die samengevoegd zijn, dus breek het probleem op in kleinere stukjes.
+        maze_karel_1_1: Hoi, ik ben een boer. Ik heb je hulp nodig om mijn veld plat te maken zodat ik erop kan verbouwen. Beweeg me naar de hoop modder en gebruik het "verwijder" blok om hem te verwijderen.
+        maze_karel_1_2: Beweeg me naar het gat en vul hem met TWEE scheppen modder, door het "vul" blok te gebruiken.
+        maze_karel_1_3: Beweeg me naar de hoop modder en vertel me hoeveel scheppen ik moet verwijderen, met zo weinig blokken mogelijk.
+        maze_karel_1_4: "Kun je me helpen om alle vier modderhopen te verwijderen? Hint: gebruik een herhaal blok als dat nodig is."
+        maze_karel_1_5: 'Help me om al deze gaten te vullen met 5 scheppen modder. Hint: je kunt een "herhaal" blok in het "terwijl" blok zetten.'
+        maze_karel_1_6: Verwijder alle hopen modder met zo weinig blokken mogelijk. De nieuwe opties in het menu van het "terwijl" blok vertellen met of ik op een hoop of een gat sta.
+        maze_karel_1_7: Wow, ik heb een superdiep gat gevonden! Ik weet niet hoeveel scheppen ervoor nodig zijn. Kun je een programma schrijven die het gat vult totdat hij opgevuld is?
+        maze_karel_1_8: Help me om het gat aan het einde van het veld te vullen, met zo weinig blokken mogelijk.
+        maze_karel_1_9: 'Gebruik me om al deze modderhopen op te vullen. Probeer zo weinig mogelijk blokken te gebruiken. Hint: je kunt een "terwijl" blok in een "herhaal" blok zetten.'
+        maze_karel_1_10: Ik moet tot laat werken, dus het is donker buiten, en ik kan zo niet zien hoe hoog de hopen zijn. Ik heb niet alle opties meer die ik had op het "while" blok. Beweeg me over het veld, en als er een heuvel is, verwijder hem.
+        maze_karel_1_11: 'Het is nog steeds donker buiten. Beweeg me over het veld. Als er een heuvel is, haal hem weg, en als ereen gat is, vul hem op. Hint: gebruik het menu van opties bij het "if" blok.'
+        turtle_2_1: "Hallo. Ik zombie artist. Ik gek op tekenen! Help me om een vierkant in een speciale kleur te tekenen. Belangrijk: je hebt dezelfde blokken maar ze zijn nu opgedeeld in categorieën."
+        turtle_2_2: Welkom bij het gebruiken van functies, die je nieuwe blokken laten maken! Gebruik het nieuwe "teken een vierkant" blok, die je kunt vinden in de "Functies" categorie, om een klein 50x50 groen vierkant te tekenen.
+        turtle_2_3: Gebruik het "herhaal" blok (in de "Lussen" categorie) om 3 vierkanten te tekenen van grootte 100, 120 graden uit elkaar. En doe het met 3 verschillende, willekeurige kleuren.
+        turtle_2_4: "Nu gaan we echt iets leuks doen. Verander de code om 36 vierkanten te tekenen, 100 pixels breed en 10 graden uit elkaar. Hint: je kunt de schuifregelaar gebruiken om me sneller te laten gaan."
+        turtle_2_5: Teken vierkanten met zijdes van 50, 60, 70, 80 en 90 pixels. Je hebt de "teken een vierkant" functie 5 keer nodig.
+        turtle_2_6: 'Ok, dit programma gebruikt een teller om dezelfde vierkanten te tekenen als de laatste keer. Je wilt dat het vierkant dezelfde grootte is als de teller, dus gebruik het "teller" blok. Hint: Hij staat in de "Variabelen" categorie.'
+        turtle_2_7: Hier is een programma om een spiraal te tekenen, maar de blokken zijn uitgeschakeld dus ze werken niet. Maak een nieuw programma met het "tel met" blok (in de Lussen categorie) en het "teller" blok (in de Variabelen categorie) om dezelfde spiraal te tekenen.
+        turtle_2_7_5: Er is een nieuwe "teken een sneeuwman" functie (in de Functies categorie). Teken 2 sneeuwmannen, met hoogte 250 en 100.
+        turtle_2_8: Deze is al wat lastiger. Gebruik de "teken een sneeuwman" functie en het nieuwe "spring vooruit" blok (in de Acties categorie). Teken 3 sneeuwmannen in verschillende kleuren, 100 pixels uit elkaar.
+        turtle_2_9: Gebruik een "tel met" lus om een familie van sneeuwmannen te tekenen met hoogtes 110, 100, 90, 80 en 70. De sneeuwmannen moeten 60 pixels uit elkaar staan.
+        turtle_2_10: Hier is wat code om te experimenteren met verschillende spiralen. Wat gebeurt er als je de draaihoek verandert? Of als je een willekeurige kleur toewijst in de lus? Teken wat je maar wilt.
+        maze_karel_2_1: "Probeer om de blokken te gebruiken om alle hopen te verwijderen en de gaten op te vullen. Probeer om lussen te gebruiken in plaats van teveel blokken. Hint: je kunt een lus in een lus gebruiken."
+        maze_karel_2_2: We hebben ons eigen blok gemaakt die "vul 5" heet, die nu in de Functies categorie staat. Gebruik deze om dit gat op te vullen.
+        maze_karel_2_3: Gebruik het nieuwe "vul 5" functie blok om me alle gaten in te laten vullen. Je moet het "vul 5" blok uit de Functies categorie slepen.
+        maze_karel_2_4: Maak een nieuwe functie die 7 scheppen verwijdert. Daarna kun je deze gebruiken om een programma te schrijven om al deze hopen op te verwijderen.
+        maze_karel_2_5: Maak een nieuwe functie die 6 scheppen verwijdert van een hoop, en gebruik deze om alle hopen vlak te maken.
+        maze_karel_2_6: Gebruik 2 nieuwe functies, "vul 8" en "verwijder 8", om de hoop vlak te maken en het gat op te vullen.
+        maze_karel_2_7: Er staat een koe in mijn veld! Schrijf een nieuwe functie de me helpt om de koe te vermijden en de hoop te verwijderen. Stop al je blokken in deze nieuwe functie.
+        maze_karel_2_8: Gebruik deze nieuwe functie, "vermijd de koe en verwijder 1", om me te helpen om alle hopen te verwijderen.
+        maze_karel_2_9: Ok, hier is een functie die 4 verschillende hopen in een verticale kolom verwijdert. Probeer om deze functie in een lus te zetten, zodat je alle modderhopen kunt verwijderen met slechts een paar blokken.
+        maze_karel_2_10: Beweeg me over het veld en gebruik deze 2 functies om me te helpen om alle hopen af te vlakken en om alle gaten op te vullen.
+        turtle_3_1: Deze puzzel laat je zien hoe de "teken een vierkant" en "teken een cirkel" functies werken. Als je een functie maakt, worden zijn blokken niet uitgevoerd. Je moet het "teken een vierkant" blok eruit slepen om daadwerkelijk een vierkant te tekenen.
+        turtle_3_2: Gebruik de "teken een vierkant" functie als een voorbeeld om een "teken een driehoek" functie te maken en te gebruiken.
+        turtle_3_3: "Teken driehoekige hekken rond de katten en een vierkant hek rondom de koe. Tip: test het programma terwijl je bezig bent."
+        turtle_3_4: Kijk of je uit kan vinden hoe je "teken een vierkant" en "teken een driehoek" (en wat andere blokken) kunt gebruiken om een huis om de leeuw te tekenen.
+        turtle_3_5: 'Maak nu een "teken een huis" functie en gebruik hem om deze 2 katten een huis te geven. Hint: maak een nieuwe functie met behulp van het "doe iets" blok, en typ je eigen naam om het blok een naam te geven.'
+        turtle_3_6: 'Gebruik "teken een vierkant" als een voorbeeld om een invoer genaamd "lengte" toe te voegen om "teken een driehoek" te maken. Maak vervolgens driehoeken in verschillende groottes. (Hint: klik op de ster om een invoer aan een functie toe te voegen)'
+        turtle_3_7: Voeg een invoer genaamd "hoogte" toe om "teken een huis" te maken en bouw een groot huis voor de olifant (met zijdes van 150 pixels lang)
+        turtle_3_8: Hier zijn alle blokken van de vorige puzzel. Bewerk "teken een huis" zodat ik rechts onderin eindig na het tekenen van een nieuw huis. Gebruik deze bewerkte functie om drie huizen te tekenen.
+        turtle_3_9: Kan je deze "teken een huis" functie namaken zonder hulp? Probeer het, en teken daarna een rijtje huizen.
+        turtle_3_10: Je hebt al een heleboel geleerd! Nu kun je het gebruiken om te tekenen wat je maar wilt. Probeer bijvoorbeeld eens om een ster, spiraal of coole sneeuwvlok te tekenen.
+        maze_karel_debug_seq_1: Welkom bij foutopsporing! Mijn code doet het niet helemaal goed. Kan jij het probleem vinden en oplossen zodat ik mijn veld vlak kan maken voor het verbouwen?
+        maze_karel_debug_seq_2: Wat is er mis met dit programma? Hoe kun je de fout oplossen zodat ik die hoop kan verwijderen?
+        maze_karel_debug_repeat: Los de fouten in dit programma op zodat mijn veld mooi vlak wordt.
+        maze_karel_debug_while: Hoe kun je dit programma bewerken zodat je me kunt helpen om dit gat te vullen?
+        maze_karel_debug_if: Help! Maak het programma zodat mijn veld helemaal vlak wordt.
+        maze_karel_debug_if_else: Los de fouten op in het programma zodat ik alle gaten kan opvullen en de modderhopen kan verwijderen.
+        maze_karel_debug_function_1: Wat kun je veranderen aan dit programma om alle hopen te verwijderen?
+        maze_karel_debug_function_2: Kan je dit programma maken zodat ik mijn veld mooi vlak kan maken?
+        maze_karel_debug_function_3: "Bewerk dit programma zodat ik alle hopen op mijn veld verwijder. "
+        turtle_5_1: Neem de tijd om te tekenen wat je maar wilt! Als je niets kunt verzinnen, vraag dan of degene naast je goede ideëen heeft!
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Om dit op te lossen, moet je het patroon vinden dat herhaalt. Gebruik een "herhaal" blok met deze 3 blokken erin: beweeg, beweeg, draai rechts.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: Je hebt een "als" blok in een "herhaal" blok nodig. Als je vastloopt, probeer dan de vorige level nog eens om te kijken hoe het werkte.
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Om deze op te lossen moet het patroon vinden die herhaalt. Gebruik het "herhaal" blok met deze 3 blokken erin: beweeg, beweeg, draai rechts.'
     video:
       name:
-        maze_intro: Maze Intro
-        artist_intro: Artist Intro
-        farmer_intro: Farmer Intro
-        loop_times: Repeat Times Block
-        loop_until: Repeat Until Block
-        if: If Block
-        if_else: If/else Block
-        function: Functions
-        loop_while: While Block
-        loop_for: Counter Block
-        parameters: Functions with Parameters
-        hoc_wrapup: Hour of Code Wrapup
-        20_wrapup: 20-Hour Wrapup
+        maze_intro: Doolhof Intro
+        artist_intro: Artiest Intro
+        farmer_intro: Boer Intro
+        loop_times: Herhaal Keer blok
+        loop_until: Herhaal Totdat Blok
+        if: Als Blok
+        if_else: Als/anders Blok
+        function: Functies
+        loop_while: Terwijl Blok
+        loop_for: Teller Blok
+        parameters: Functies met Parameters
+        hoc_wrapup: Hour of Code Samenvatting
+        20_wrapup: 20-Uur Samenvatting

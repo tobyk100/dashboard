@@ -3,31 +3,31 @@ ar:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "مرحباً  بك إلى أول ساعة من    Code  دعنا نتجه إلى تذوقك الأول للبرمجة ."
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: سنقوم بأستخدام بلوكلي , لغة برمجية مرئية حيث يمكنك من سحب وافلات البلوكات لكتابة الكود البرمجي.
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: تتم كتابة معظم الاكواد البرمجية، ولكن بلوكلي هو مرئي. كل البلوكات تطابق سطر من الكود البرمجي " الحقيقي ".
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: أنت ستتعلم أسس علوم الكمبيوتر، والمفاهيم التي يتم استخدامها في أي مكان من صنع تطبيقات للتحكم في تجول المريخ.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: البرنامج هو مجموعة من الإيعازات التي يتبعها جهاز الكمبيوتر الخاص بك.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: الهدف من البرنامج الاول هو الحصول على لعبة "الطيور الغاضبة" عبر الاحجية لضرب " الخنزير الاخضر".
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: الجانب الايسر هو مكان تنفيذ الاحجية. حيث يمكنك ايجاد الارشادات لكل لغز والتي تكون اسفل الاحجية.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: شريط الادوات الوسطي يمتلك مجموعة من الاوامر المتعلقة بلعبة "الطيور الغاضبة" . والتي ستستخدم في بناء الكود البرمجي الخاص بك.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: على الجانب الايمن توجد مساحة عمل بيضاء حيث يتم عليها سحب البلوكات من شريط الادوات من اجل بناء برنامجك . لحذف البلوك الغير مرغوب , عليك القيام بسحبه الى سلة المهملات الواقعة في الزاوية.
       10:
         image: notes/hoc1_10.png
         text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
@@ -39,15 +39,15 @@ ar:
         text: If you run a program and want to fix it and try again, press the "Reset" button.
       13:
         image: notes/hoc1_13.png
-        text: "Let's go get those pigs!"
+        text: دعنا نذهب للحصول على الخنازير!
     artist_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     farmer_intro:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     loop_times:
       1:
         image: notes/hoc2_1.png
@@ -83,8 +83,7 @@ ar:
         text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
       4:
         image: notes/hoc3_4.png
-        text:
-          And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.
+        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: notes/hoc4_1.png
@@ -130,19 +129,19 @@ ar:
     function:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     loop_while:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     loop_for:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     parameters:
       1:
         image: notes/bird.png
-        text: Show notes coming soon!
+        text: بيان الملاحظات قريبا!
     hoc_wrapup:
       1:
         image: notes/hoc6_1.png

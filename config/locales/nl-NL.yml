@@ -2,185 +2,184 @@ nl:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: naam
+        email: email
+        username: Gebruikersnaam
+        password: Wachtwoord
+        password_confirmation: Wachtwoord bevestiging
+        current_password: Huidig wachtwoord
+        locale: Taal
+        gender: Geslacht
+        edit_header: Accountdetails bewerken
+  hello: Hallo wereld
+  welcome_back: "Welkom terug, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Voeg een leraar met code of e-mailadres:"
+      placeholder: code (ABCDEF) of email (teacher@school.edu)
+    submit: voeg leraar toe
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  stage: level
+  puzzle: puzzel
+  trophies: trofeeën
+  courses: cursussen
+  of: van
+  more: MEER
+  less: MINDER
+  try_hoc: "Probeer the Hour of Code, klik hier >> "
+  try_k8intro: of probeer onze K-8 intro voor Computer Science les (15-25 uur)
+  already_started: "al begonnen? ga hier verder >> "
+  demos: "Admin: alle demo's"
+  continue: verder gaan
+  prize: prijs
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    sign_in_with: "Meld je aan met %{provider}"
+    signed_in: Ingelogd!
+    already_signedup: Al aangemeld?
+    notyet_signedup: nog niet aangesloten?
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Wachtwoord vergeten?
+    need_confirmation: Geen bevestigings instructies ontvangen?
+    need_unlock: Nog niet uw ontgrendel instructies ontvangen?
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: Meld je aan
+    school_name: School naam (optioneel)
+    school_address: Schooladres (optioneel)
+    address_placeholder: adres, stad, staat, zip
+    gender: Geslacht (optioneel)
+    birthday: Verjaardag (optioneel)
+    submit: Meld je aan
+    teacher: Bent u een leraar?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Aanmelden
+    login: Email of gebruikersnaam
+    password: Wachtwoord
+    remember: Onthoud me
+    submit: Log in
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Wachtwoord vergeten?
+      email: Email-adres
+      submit: Stuur me uitleg over wachtwoord resetten
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Verander je wachtwoord
+      new_password: Nieuw wachtwoord
+      confirm_password: Bevestig je nieuwe wachtwoord
+      submit: Verander mijn wachtwoord
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Doe mee met mijn klas (op Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Klik op de link hieronder om je aan te melden voor informatica-opdrachten op Code.org (met mij als je "leraar"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      De opdrachten zijn leuk, visueel boeiend, en leggen de basisbeginselen van de informatie uit in een eenvoudige, begeleide, speelse ervaring. Leer programmeren van Bill Gates, Mark Zuckerberg, Angry Bird en Planten tegen de Zombies :-)
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Uitnodiging verstuurd
+    added_teacher: "%{name} toegevoegd als je leraar"
+    registered: "Je hebt je aangemeld voor %{section_name}. Log in om verder te gaan"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Log uit om verder te gaan
+      username_not_found: "Gebruikersnaam %{username} niet gevonden"
+      username_in_use: "%{username} wordt al gebruikt, kies een andere"
+      no_teacher: "Er is niemand ingelogd met '%{teacher_email_or_code}'. Vraag ze hier aan te melden en probeer ze dan nog eens toe te voegen"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Doe mee met een klas met %{teacher_name} op Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Je hebt geen toegang tot de statistieken van deze persoon
   crud:
-    new_model: "New %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Nieuw %{model}"
+    show: Toon
+    edit: Bewerk
+    edit_model: "Bewerk %{model}"
+    update: Bijwerken
+    destroy: Verwijderen
+    back: Terug
+    confirm: Weet je het zeker?
+    created: "%{model} aangemaakt."
+    updated: "%{model} bijgewerkt."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: Ik heb mijn Uur Code afgemaakt
+      sign_in_to_save: Log in om je vooruitgang op te slaan
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      classroom: Mijn leerlingen
+      label: "Hallo %{username}"
+      stats: Mijn vooruitgang
+      settings: Mijn account
+      prizes: Prijzen
+      logout: Uitloggen
+      signin: Log in
+      signup: Aanmelden
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: Je vooruitgang
+      lines: "Totaal aantal regels code: %{lines}"
+      close: SLUITEN
+      mastery: Begrippen
+      puzzle_map: Levels
+      prizes: "Verzamel alle %{total_trophies} trofeeën en win prijzen!"
+      prizes_link: meer info
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "Je leraar is %{name}"
+      other: "Je leraren:"
+    tools: Hulpmiddelen voor Leraren
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: Beheer student
+      add: voeg leerling toe
+    rollup: Voorgangsoverzicht
+    activity: Recente klasactiviteiten
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: (laat leeg als je hem niet wilt veranderen)
+    current_password_hint: (we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen)
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: Annuleer mijn account
+      hint: Ontevreden?
+      button: Annuleer mijn account
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: Voltooid
+    tried: Probeerde
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: Recente activiteiten
+    show_more: Toon meer
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
+    signin_message: "of als je al geregistreerd bent %{link}"
+    student_reg_link: "Studenten - start hier"
+    teacher_reg_link: "Leraren - start hier"
+    teacher_dashboard: Ga naar voorgangsoverzicht
+    teacher_student_count: "Je hebt %{count} studenten."
+    teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
+    classroom: Je klas
+    student_progress: Je voortgang als een student
+    student_stats: 'Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery" trofeeën.'
+    student_left_off: "Waar je geëindigd bent:"
+    student_finished: "Je hebt alle tutorials voltooid, claim je prijs %{prize_link} en zoek een andere klas %{online_link} of bij een %{local_school_link}"
+    local_school: lokale school
     online: online
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: Man
+    female: Vrouw
+    none: Wil ik liever niet zeggen
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Ingenieurs van <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, en <a href="http://www.twitter.com">Twitter</a> hielpen mee om deze tutorial te maken.'
+    art_from_html: 'Artwork van <a href="http://www.angrybirds.com">Angry Birds</a> van <a href="http://www.rovio.com">Rovio</a>, en <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> van <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: Geef feedback
+    translate: Help ons om te vertalen naar uw taal
+    tos: Algemene gebruiksvoorwaarden
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: Hulp nodig?
+    subtitle: "Bekijk deze video's en hints"
   video:
     tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    notes: Geen video? Laat notities zien.
+    autoplay_option: "Video's automatisch afspelen"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: We zijn bezig om ondersteuning voor je browser toe te voegen.
+    upgrade: Upgrade je browser.

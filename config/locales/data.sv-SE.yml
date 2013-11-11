@@ -26,7 +26,7 @@ sv-SE:
       description:
         sequence: Sekvens
         if: "Om"-block
-        if_else: "Om-annars"-block
+        if_else: "Om/annars"-block
         loop_times: "Upprepa"-block
         loop_until: "Upprepa tills"-block
         loop_while: "Medan"-block
@@ -52,105 +52,93 @@ sv-SE:
         maze_2_14: Ok, detta är precis som det förra pusslet, men du måste komma ihåg hur du använder "Om"-blocket och "Upprepa"-blocket tillsammans.
         maze_2_15: Jag vill ha solros! Använd ett "Om"-block för att få mig dit med minsta antalet block.
         maze_2_16: "Ok, låt oss göra det igen för övningens skull - detta inte är mycket olikt, men se upp för de köttätande växterna!"
-        maze_2_17: "Om-annars"-blocket kontrollerar ett villkor, och gör sen en sak ELLER en annan. För att få mig till solrosen försök att använda det här blocket.
-        maze_2_18: Mer träning med "Om-annars"-blocket, kan du få det rätt på första försöket?
+        maze_2_17: "Om/annars"-blocket kontrollerar ett villkor, och gör sen en sak ELLER en annan. För att få mig till solrosen försök att använda det här blocket.
+        maze_2_18: Mer träning med "Om/annars"-blocket, kan du få det rätt på första försöket?
         maze_2_19: Kan du lägga till bara 3 block för att hjälpa mig att lösa en svårare labyrint? Om du gör det rätt, kommer jag kunna gå vilken väg som helst oberoende av längden.
         turtle_1_1: Hej, jag är en konstnär. Du kan skriva kod för att få mig att rita nästan vad som helst. Använda några block för att få mig att rita över de grå linjerna i bilden.
         turtle_1_2: 'Nu, rita en fyrkant. OBS: Använd din favorit färg genom att välja det i de nya "sätta färg"-blocket.'
         turtle_1_3: Gör en kvadrat med bara 3 block.
         turtle_1_4: 'Rita en triangel vars sidor alla är i olika färger med hjälp av "slumpmässig färg"-alternativet  som väljer en ny färg varje gång. Tips: du måste räkna ut hur långt du ska vrida genom att klicka på siffran i "rund"-blocket.'
         turtle_1_5: Nu, som övning, rita en triangel och sedan en kvadrat för att rita ett kuvert.
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.
-        turtle_1_9: Can you figure out what number to replace the question marks with to draw a circle?
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.
-        maze_karel_1_3: Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible.
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: Help me fill in the hole at the end of the field, using as few blocks as possible.
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.
-        turtle_2_3: Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles.
-        maze_karel_2_5: Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles.
-        maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: Use this new function, "avoid the cow and remove 1", to help me remove all the piles.
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: Move me across the field, and use these two functions to help me remove all the piles and fill all the holes.
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: Using the "draw a square" function as an example, create a "draw a triangle" function and use it.
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: De-bug this program for me so my field will be nice and flat.
-        maze_karel_debug_while: How should you change this program to help me fill the hole?
-        maze_karel_debug_if: Help! Fix the program so my field will be completely flat.
-        maze_karel_debug_if_else: De-bug this program so I can fill in the holes and remove all the piles.
-        maze_karel_debug_function_1: What should you change about this program to help me remove all the piles?
-        maze_karel_debug_function_2: Can you de-bug this program for me so I can make my field flat?
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        turtle_1_6: "Kan du komma på hur man kan rita den här triangeln och kvadraten? Tips: Gör triangeln först och räkna sedan ut hur mycket du måste svänga innan du börjar rita kvadraten."
+        turtle_1_7: "Ok, låt oss göra det lite svårare - se om du kan rita de här gröna glasen. Kvadraterna är 100 pixlar långa på varje sida, och det är 50 pixlar emellan dem. Glöm inte att rita med grön!"
+        turtle_1_8: Ok, försök lista ut vad som händer om du kör den här koden (eller tryck på "Kör" för att prova). Upprepa det sedan tillräckligt många gånger för att göra klart målningen. Färgerna kommer vara olika varje gång.
+        turtle_1_9: Kan du gissa vilket nummer som ska ersätta frågetecknen för att rita en cirkel?
+        turtle_1_10: 'Du klarade det! Nu, rita vad du vill. Några roliga idéer: en streckfigur, snöflinga eller spiral. Prova också det nya "Bredd"-blocket. Ha kul!'
+        turtle_4_1: "Kan du rita en bild som ser ut som det här huset? Tänk igenom de steg du måste göra för att rita det - det kallas en algoritm. Det kan ta några försök för att få det ser bra ut, men det är okej om det inte är perfekt!"
+        turtle_4_2: Försök nu att rita den här kvadraten som är gjord i 2 trianglar. Det kan ta några försök för att komma fram till hur mycket du ska svänga och gå. Det behöver inte se exakt ut, men fortsätt försök!
+        turtle_4_3: Rita en pil som ser ut så här. Tänk igenom de steg som behövs för att göra den.
+        turtle_4_4: Kan du rita något som ser ut som det här fartyget? Det är en massa mindre former ihopsatta till en, så dela upp problemet i mindre delar.
+        maze_karel_1_1: Hej, är jag en bonde. Jag behöver din hjälp med att platta till åkern på min gård så den blir redo för plantering. Flytta mig till högen av jord och använda "ta bort"-blocket för att ta bort den.
+        maze_karel_1_2: Nu, flytta mig till hålet och fyll den med TVÅ spadar med jord, använd "fyll"-blocket.
+        maze_karel_1_3: Flytta mig till högen med jord och berätta med så få block som möjligt hur många spadar som ska tas bort.
+        maze_karel_1_4: 'Kan du hjälpa mig ta bort alla fyra högarna med jord? Tips: Använd ett "upprepa"-block om du kan.'
+        maze_karel_1_5: 'Hjälp mig fylla i alla hålen med 5 spadar med jord. Tips: du kan sätta ett "Upprepa"-block inuti "medan"-blocket.'
+        maze_karel_1_6: Ta bort alla högarna med jord med så få block som möjligt. De nya alternativen i rullgardinsmenyn på "medan"-blocket berättar för mig om jag står på en hög eller hål.
+        maze_karel_1_7: Wow, jag har hittat ett riktigt djupt hål! Jag vet inte hur många spadar med jord som krävs. Kan du skriva ett program som fyller det tills marken jämn?
+        maze_karel_1_8: Hjälp mig fylla i hålet i slutet av åkern med så få block som möjligt.
+        maze_karel_1_9: 'Få mig att ta bort alla högarna med jord. Försök att använda så få block som möjligt. Tips: använd ett "medan"-block inuti ett "Upprepa"-block.'
+        maze_karel_1_10: Jag jobbar sent, så det är mörkt ute och jag kan inte se hur stora högar är. Nu har jag inte alla alternativen som jag hade innan på "medan"-blocket. Flytta runt mig på åkern och om det finns en hög, ta bort den.
+        maze_karel_1_11: 'Det är fortfarande mörkt ute. Flytta runt mig på åkern. Om det finns en hög, ta bort den, och om det finns ett hål, fyll det. Tips: Använd rullgardinsmenyn på "om"-blocket.'
+        turtle_2_1: "Hej. Jag zombie konstnär. Jag älskar rita! Hjälp mig att rita en fyrkant i en speciell färg. Obs: du har fortfarande samma block men de har nu blivit ordnade i kategorier."
+        turtle_2_2: Välkommen till att använda funktioner. De låter dig skapa nya block! Prova det nya "Rita en fyrkant"-blocket som drar en liten grön 50x50 fyrkant. Det finns i kategorin "Funktioner".
+        turtle_2_3: 'Använd "Upprepa"-blocket (i kategorin "Loopar")  till att rita 3 kvadrater med storleken 100 med 120 grader emellan varandra. Och gör det i 3 olika, slumpmässiga färger.'
+        turtle_2_4: "Nu ska vi höja nivån lite. Ändra koden så du ritar 36 rutor, 100 pixlar breda, och varje 10 grader isär. Tips: du kanske vill använda glidaren för att få mig att gå snabbare."
+        turtle_2_5: Rita fem fyrkanter med sidorna 50, 60, 70, 80 och 90 pixlar vardera. Du ska använda "Rita en fyrkant"-funktionen fem gånger.
+        turtle_2_6: 'Ok, det här programmet kommer använda en räknare för att rita samma rutor som förra gången. Du vill att kvadraterna ska vara i samma storlek som räknaren så använd "räknar"-blocket. Tips: Det är i kategorin variabler.'
+        turtle_2_7: Här är ett program för att rita en spiral, men blocken inaktiveras så att de inte körs. Gör ett nytt program som använder ett "räkna med"-block (i kategorin loopar) och ett "räknare" block (i kategorin variabler) för att rita samma spiral.
+        turtle_2_7_5: Det finns en ny "Rita en snögubbe"-funktion (i kategorin funktioner). Rita två snögubbar med höjden 250 och 100 respektive.
+        turtle_2_8: Den här är lite knepig. Använd "Rita en snögubbe"-funktionen och det nya "hoppa framåt"-blocket (i kategorin Handlingar). Rita 3 snögubbar i olika färger som är 100 pixlar isär.
+        turtle_2_9: Använd en "räkna med"-loop för att rita en familj av snögubbar med höjden 110, 100, 90, 80 och 70 respektive. Det ska vara 60 pixlar emellan snögubbarna.
+        turtle_2_10: "Här är lite kod för att experimentera med olika spiraler.  Vad händer om du ändrar mängden den svänger med? Eller anger en slumpmässig färg i loopen? Du är fri att rita vad du vill."
+        maze_karel_2_1: "Försök att använda blocken för att hjälpa mig med att ta bort alla högar och fylla i alla hål i marken. Försök att använda loopar istället för att använda en massa block. Tips: du kan sätta en loop inuti en annan loop."
+        maze_karel_2_2: Vi har gjort vår egna block som vi kallat "fyll 5" som nu finns i kategorin funktioner. Använda det för att hjälpa mig med att fylla i det här hålet.
+        maze_karel_2_3: Använd det nya "fyll 5"-funktionsblocket för att få mig att fylla i alla hål. Du måste dra ut "fyll 5"-blocket från kategorin funktioner.
+        maze_karel_2_4: Gör en ny funktion som tar bort 7 spadar. använd den sen för att skriva ett program som hjälper mig att ta bort alla högar.
+        maze_karel_2_5: Skapa en ny funktion som tar bort 6 spadar från en hög. Använd den sen för att hjälpa mig gräva bort alla högar.
+        maze_karel_2_6: Använd två nya funktioner, "fyll 8" och "ta bort 8" för att hjälpa mig att gräva bort högen och fylla hålet.
+        maze_karel_2_7: Det står en ko på min åker! Skriv en ny funktion som hjälper mig att undvika kon och ta bort alla högar. sätt alla dina block inuti den nya funktionen.
+        maze_karel_2_8: Använd den nya funktionen "undvik kon och ta bort 1" för att hjälpa mig att ta bort alla högar.
+        maze_karel_2_9: OK, är här en funktion som tar bort 4 olika högar med jord i en lodrät kolumn. Prova att sätta den här funktionen inuti en loop så att du tar bort alla högar med jord med bara några få nya block.
+        maze_karel_2_10: Flytta mig över åkern och använd de här två funktionerna för att hjälpa mig ta bort alla högar och fylla alla hål.
+        turtle_3_1: 'Detta pussel visar dig hur "Rita en fyrkant"- och "Rita en cirkel"-funktionerna är gjorda.  När du gör en funktion körs den inte,  du måste dra ut "Rita en fyrkant"-blocket för att faktiskt rita en fyrkant.'
+        turtle_3_2: Med funktionen "Rita en fyrkant" som exempel, skapa en "Rita en triangel"-funktion och använd den.
+        turtle_3_3: "Rita trekantiga staket runt katterna och ett fyrkantigt staket runt kon.  Tips: testa programmet allt eftersom."
+        turtle_3_4: 'Se om du kan lista ut hur man använder "Rita en fyrkant"- och "Rita en triangel"-blocken (och några andra block) för att rita ett hus runt lejonet.'
+        turtle_3_5: 'Skapa nu en ny "rita ett hus"-funktion och använd den för att sätta hus runt två katter. Tips: skapa en ny funktion som använder "gör något"-blocket och skriv din egen text för att namnge blocket.'
+        turtle_3_6: 'Med "Rita en fyrkant" som ett exempel, lägg till en ruta som heter "längd" till "Rita en triangel". Rita sedan trianglar i olika storlekar. (Tips: Klicka på stjärnan för att lägga till en ruta till en funktion)'
+        turtle_3_7: Lägga till en ruta som heter "höjd" till "rita ett hus" och bygg ett stort hus till elefanten (med 150 pixlar långa kanter)
+        turtle_3_8: 'Här är alla blocken från förra pusslet.  Ändra "rita ett hus" så att jag hamnar i det nedre högra hörnet efter att jag ritat nytt hus. Använd den här ändrade funktionen för att rita tre hus.'
+        turtle_3_9: Kan du återskapa funktionen "rita ett hus" utan hjälp? Prova. Rita sedan en rad av hus.
+        turtle_3_10: "Du har lärt dig mycket! Använd nu  det för att rita vad du vill. Försök att rita en stjärna, eller en spiral eller en snygg snöflinga."
+        maze_karel_debug_seq_1: Välkommen till felsökning! Min kod fungerar inte rätt. Kan du hitta felet och fixa det så att jag kan få min åker platt och redo för plantering?
+        maze_karel_debug_seq_2: Vad är fel med det här programmet? Hur ska du fixa det så jag kan ta bort högen?
+        maze_karel_debug_repeat: Fixa det här programmet för mig så att min åker blir fin och platt.
+        maze_karel_debug_while: Hur kan du ändra det här programmet för att hjälpa mig fylla hålet?
+        maze_karel_debug_if: Hjälp! Fixa programmet så min åker blir helt platt.
+        maze_karel_debug_if_else: Fixa det här programmet så att jag fyller hålen och tar bort alla högar.
+        maze_karel_debug_function_1: Vad ska du ändra i det här programmet för att hjälpa mig ta bort alla högar?
+        maze_karel_debug_function_2: Kan du fixa det här programmet för mig så att jag gör min åker platt?
+        maze_karel_debug_function_3: "Fixa det här programmet så att jag tar bort alla högar på min åker. "
+        turtle_5_1: Ta och rita vad du vill! Om du inte kan komma på något, fråga personen bredvid dig för förslag!
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'För att lösa detta måste du hitta det mönster som upprepas. Använd ett "Upprepa"-block med dessa 3 block inuti: gå, gå, sväng höger.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: Du behöver ett "Om"-block inuti ett "Upprepa"-block. Om du har svårt med det här, gör förra nivån igen för att se hur det funkade.
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'För att lösa detta måste du hitta det mönster som upprepas. Använd ett "Upprepa"-block med dessa 3 block inuti: gå, gå, sväng höger.'
     video:
       name:
-        maze_intro: Maze Intro
-        artist_intro: Artist Intro
-        farmer_intro: Farmer Intro
-        loop_times: Repeat Times Block
-        loop_until: Repeat Until Block
-        if: If Block
-        if_else: If/else Block
-        function: Functions
-        loop_while: While Block
-        loop_for: Counter Block
-        parameters: Functions with Parameters
-        hoc_wrapup: Hour of Code Wrapup
-        20_wrapup: 20-Hour Wrapup
+        maze_intro: Labyrint Introduktion
+        artist_intro: Konstnär Introduktion
+        farmer_intro: Bonde Introduktion
+        loop_times: "Upprepa"-Block
+        loop_until: "Upprepa tills"-Block
+        if: "Om"-block
+        if_else: "Om/annars"-block
+        function: Funktioner
+        loop_while: "Medan"-block
+        loop_for: "Räknar"-block
+        parameters: Funktioner med parametrar
+        hoc_wrapup: Timmen med Kod Sammanfattning
+        20_wrapup: 20-Timmars sammanfattning

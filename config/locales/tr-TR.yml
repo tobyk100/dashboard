@@ -15,26 +15,26 @@ tr:
   welcome_back: "Hoş geldiniz % {name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
+      label: "Koda veya e-posta adresine göre bir öğretmen ekleyin:"
+      placeholder: Kod (ABCDEF) veya e-posta (teacher@school.edu)
     submit: Öğretmen Ekle
   appname: Code.org
-  stage: Stage
+  stage: Kademe
   puzzle: Bulmaca
-  trophies: Trophies
+  trophies: Kupalar
   courses: Kurslar
-  of: of
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
+  of: /
+  more: DAHA FAZLA
+  less: DAHA AZ
+  try_hoc: "Kod Saati'ni denemek için buraya tıklayın >> "
+  try_k8intro: Veya, K-8 Bilgisayar Bilimlerine Giriş Kursumuzu deneyin (15-25 saat)
+  already_started: "Zaten başladınız mı? Buradan devam edin >> "
+  demos: "Yönetici: Tüm Demolar"
   continue: Devam
-  prize: prize
+  prize: ödül
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
+    sign_in_with: "%{provider} ile giriş yapın"
+    signed_in: Giriş yapıldı!
     already_signedup: Zaten kayıtlı mısınız?
     notyet_signedup: Henüz kaydolmadınız mı?
     google_oauth2: Google +
@@ -42,13 +42,13 @@ tr:
     facebook: Facebook
     windowslive: Windows Live
     forgot_password: Şifrenizi mi unuttunuz?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_confirmation: Onay talimatlarını almadınız mı?
+    need_unlock: Kilit açma talimatlarını almadınız mı?
   signup_form:
     title: Kaydol
     school_name: Okul Adı (isteğe bağlı)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
+    school_address: Okul Adresi (isteğe bağlı)
+    address_placeholder: adres, şehir, eyalet, posta kodu
     gender: Cinsiyet (isteğe bağlı)
     birthday: Doğum Günü (isteğe bağlı)
     submit: Kaydol
@@ -63,91 +63,88 @@ tr:
     reset_form:
       title: Şifrenizi mi unuttunuz?
       email: E-posta adresi
-      submit: Send me reset password instructions
+      submit: Şifre sıfırlama talimatlarını gönder
     change_form:
-      title: Change your password
+      title: Şifrenizi değiştirin
       new_password: Yeni şifre
       confirm_password: Yeni şifreyi doğrula
       submit: Şifremi değiştir
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Sınıf katılımım (Code.org üzerinde)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
-      
+      Code.org taki bilgisayar bilimleri öğretici bölümlerine kayıt olmak için aşağıda ki link'e tıklayın(sizin "öğretmeniniz" olarak benle)
       %{link}
-      
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
-      
+      Öğretici bölümler eğlenceli,görsel olarak alımlı,ve bilgisayar biliminin temel konseptini basit,yönlendirerek,oyun-benzeri tecrübeleri kullanarak öğretir.Kodlamayı Bill Gates'den,Mark Zuckerberg'den,Angry Birds'den, ve Bitkilere karşı Zombiler'den öğrenin! :-)
       %{name}
   follower:
     invite_sent: Davetiye gönderildi
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    added_teacher: "%{name} öğretmeniniz olarak eklendi"
+    registered: "%{section_name} için kaydoldunuz. Devam etmek için lütfen giriş yapınız"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
+      signed_in: Devam etmeden önce lütfen çıkış yapınız
+      username_not_found: "%{username} kullanıcı adı bulunamadı"
+      username_in_use: "%{username} önceden alınmış, lütfen başka bir tane seçiniz"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:
         subject: "Join a class with %{teacher_name} at Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Bu kişinin istatistiklerine erişemezsiniz
   crud:
-    new_model: "New %{model}"
-    show: Show
+    new_model: "Yeni %{model}"
+    show: Göster
     edit: Düzenle
-    edit_model: "Edit %{model}"
+    edit_model: "%{model} düzenle"
     update: Güncelle
-    destroy: Destroy
+    destroy: Yok et
     back: Geri
     confirm: Emin misiniz?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    created: "%{model} başarılı bir şekilde oluşturuldu."
+    updated: "%{model} başarılı bir şekilde güncellendi."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: "Kod Saati'ni tamamladım"
+      sign_in_to_save: İlerleme kaydetmek için oturum açın
     user:
       classroom: Öğrencilerim
       label: "Merhaba % {username}"
-      stats: My progress
+      stats: İlerlemem
       settings: Hesabım
-      prizes: Prizes
+      prizes: Ödüller
       logout: Çıkış Yap
       signin: Giriş Yap
       signup: Kaydol
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
+      progress: İlerlemeniz
+      lines: "Toplam kod satırı: %{lines}"
       close: KAPAT
-      mastery: Concepts
-      puzzle_map: Stages
+      mastery: Kavramlar
+      puzzle_map: Kademeler
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      prizes_link: daha fazla bilgi
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
+      one: "%{name} sizin öğretmeninizdir"
+      other: "Öğretmeniniz:"
     tools: Öğretmen Araçları
     students:
-      manage: Manage students
+      manage: Öğrencileri yönet
       add: Öğrenciler Ekle
-    rollup: Progress Dashboard
+    rollup: İlerleme Kontrol Paneli
     activity: Recent class activity
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
     current_password_hint: (we need your current password to confirm your changes)
     cancel:
-      title: Cancel my account
+      title: Hesabımı iptal et
       hint: Unhappy?
-      button: Cancel my account
+      button: Hesabımı iptal et
   user_level:
     completed: Tamamlandı
     tried: Tried
   user_stats:
-    recent_activity: Recent activity
+    recent_activity: Son etkinlik
     show_more: Show more
   home:
     signin_message: "or if you're already registered %{link}"
@@ -165,8 +162,8 @@ tr:
     local_school: local school
     online: online
   gender:
-    male: Male
-    female: Female
+    male: Erkek
+    female: Kadın
     none: Prefer not to answer
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'

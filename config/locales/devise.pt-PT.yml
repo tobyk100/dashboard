@@ -7,20 +7,20 @@ pt-PT:
     failure:
       already_authenticated: You are already signed in.
       inactive: Your account was not activated yet.
-      invalid: Invalid email or password.
+      invalid: Palavra-passe ou e-mail inválido.
       invalid_token: Invalid authentication token.
-      locked: Your account is locked.
-      not_found_in_database: Invalid email or password.
+      locked: Sua conta está bloqueada.
+      not_found_in_database: Palavra-passe ou e-mail inválido.
       timeout: Your session expired, please sign in again to continue.
       unauthenticated: You need to sign in or sign up before continuing.
       unconfirmed: You have to confirm your account before continuing.
     mailer:
       confirmation_instructions:
-        subject: Confirmation instructions
+        subject: Instruções de confirmação
       reset_password_instructions:
         subject: Reset password instructions
       unlock_instructions:
-        subject: Unlock Instructions
+        subject: Instruções de desbloqueio
     omniauth_callbacks:
       failure: 'Could not authenticate you from %{kind} because "%{reason}".'
       success: "Successfully authenticated from %{kind} account."
@@ -31,8 +31,8 @@ pt-PT:
       updated: Your password was changed successfully. You are now signed in.
       updated_not_active: Your password was changed successfully.
     registrations:
-      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
+      destroyed: Adeus! Sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve.
+      signed_up: Bem-vindo! Você inscreveu-se com êxito.
       signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
       signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
       signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
@@ -50,8 +50,8 @@ pt-PT:
       already_confirmed: was already confirmed, please try signing in
       confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
       expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      not_found: "' não encontrado"
+      not_locked: Não foi bloqueado
       not_saved:
         one: "1 error prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"

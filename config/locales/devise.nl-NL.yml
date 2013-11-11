@@ -1,57 +1,57 @@
 nl:
   devise:
     confirmations:
-      confirmed: Your account was successfully confirmed. You are now signed in.
-      send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes.
+      confirmed: Je account is bevestigd, je bent nu ingelogd.
+      send_instructions: Je ontvangt binnen een paar minuten een email om je account te kunnen bevestigen.
+      send_paranoid_instructions: Wanneer je emailadres al in onze administratie bestaat dan ontvang je binnen enkele minuteen een email om je account te bevestigen.
     failure:
-      already_authenticated: You are already signed in.
-      inactive: Your account was not activated yet.
-      invalid: Invalid email or password.
-      invalid_token: Invalid authentication token.
-      locked: Your account is locked.
-      not_found_in_database: Invalid email or password.
-      timeout: Your session expired, please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your account before continuing.
+      already_authenticated: Je bent al ingelogd.
+      inactive: Je account is nog niet geactiveerd.
+      invalid: Verkeerd email-adres of wachtwoord.
+      invalid_token: Verkeerd authenticatie-token.
+      locked: Je account is geblokkeerd.
+      not_found_in_database: Verkeer email-adres of wachtwoord.
+      timeout: Je sessie is verlopen, log opnieuw in om verder te gaan.
+      unauthenticated: Je moet inloggen of aanmelden voor je verder kunt gaan.
+      unconfirmed: Je moet je account bevestigen voor je verder kunt gaan.
     mailer:
       confirmation_instructions:
-        subject: Confirmation instructions
+        subject: Uitleg voor bevestigen
       reset_password_instructions:
-        subject: Reset password instructions
+        subject: Uitleg voor wachtwoord resetten
       unlock_instructions:
-        subject: Unlock Instructions
+        subject: Uitleg voor deblokkeren
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: "Kan je niet inloggen van %{kind} omdat %{reason}."
+      success: "Ingelogd op basis van je %{kind}-account."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password was changed successfully. You are now signed in.
-      updated_not_active: Your password was changed successfully.
+      no_token: Je kunt deze pagina niet openen als je niet van een wachtwoord-reset-email komt. Wanneer je wel van een wachtwoord-reset-email komt, zorg dan dat je de volledige URL uit de mail gebruikt.
+      send_instructions: Je krijgt binnen een paar minuten een email met uitleg hoe je je wachtwoord kunt resetten.
+      send_paranoid_instructions: Als je emailadres al bestaat in onze administratie krijg je binnen een paar minuten een mailtje met een link om je wachtwoord te resetten.
+      updated: Je wachtwoord is aangepast. Je bent nu ingelogd.
+      updated_not_active: Je wachtwoord is aangepast.
     registrations:
-      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address.
-      updated: You updated your account successfully.
+      destroyed: Tot ziens! Je account is opgezegd. Hopelijk tot snel.
+      signed_up: Welkom! Je bent geregistreerd.
+      signed_up_but_inactive: Je bent geregistreerd, maar je kunt nog niet inloggen omdat je account nog niet geactiveerd is.
+      signed_up_but_locked: Je bent geregistreerd, maar je kunt niet inloggen omdat je account geblokkeerd is.
+      signed_up_but_unconfirmed: We hebben een bericht met een bevestigingslink naar je email-adres gestuurd. Klik op de link om je account te activeren.
+      update_needs_confirmation: Je account is bijgewerkt, maar je moet je nieuwe email-adres nog bevestigen. Check je email en klik op de bevestigingslink om je nieuwe adres te bevestigen.
+      updated: Je account is bijgewerkt.
     sessions:
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      signed_in: Je bent ingelogd.
+      signed_out: Je bent uitgelogd.
     unlocks:
-      send_instructions: You will receive an email with instructions about how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions about how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      send_instructions: Binnen een paar minuten krijg je een email met uitleg over het deblokkeren van je account.
+      send_paranoid_instructions: Als je account bestaat krijg je binnen een paar minuten een mail waarin wordt uitgelegd hoe je het kunt deblokkeren.
+      unlocked: Je account is gedeblokkeerd. Log in om verder te gaan.
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      already_confirmed: al bevestigd, probeer in te loggen
+      confirmation_period_expired: "je moet binnen %{period} bevestigen, vraag een nieuwe aan"
+      expired: is verlopen, vraag een nieuwe aan
+      not_found: niet gevonden
+      not_locked: niet geblokkeerd
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "Door 1 fout kon %{resource} niet opgeslagen worden:"
+        other: "Door %{count} fouten kon deze %{resource} niet worden opgeslagen:"

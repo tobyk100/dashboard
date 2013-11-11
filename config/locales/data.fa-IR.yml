@@ -4,47 +4,47 @@ fa:
       name:
         20-hour: K-8 Intro to Computer Science Course
         Hour of Code: Hour of Code
-        Edit Code: Edit Code
+        Edit Code: ویرایش کد
     game:
       name:
-        Maze: The Maze
-        Artist: The Artist
-        Artist2: The Artist 2
-        Farmer: The Farmer
-        Artist3: The Artist 3
-        Farmer2: The Farmer 2
-        Artist4: The Artist 4
-        Farmer3: The Farmer 3
-        Artist5: The Artist 5
-        MazeEC: The Artist
+        Maze: پیچ و خم
+        Artist: هنرمند
+        Artist2: هنرمند 2
+        Farmer: کشاورز
+        Artist3: هنرمند 3
+        Farmer2: کشاورز 2
+        Artist4: هنرمند 4
+        Farmer3: کشاورز 3
+        Artist5: هنرمند 5
+        MazeEC: هنرمند
     trophy:
       name:
-        Bronze: Bronze
-        Silver: Silver
-        Gold: Gold
+        Bronze: برنز
+        Silver: نقره
+        Gold: طلا
     concept:
       description:
-        sequence: Sequence
-        if: If block
-        if_else: If-else block
-        loop_times: Repeat times block
-        loop_until: Repeat until block
-        loop_while: While block
-        loop_for: Counter block
-        function: Functions
-        parameters: Functions with parameters
+        sequence: دنباله
+        if: بلوک if
+        if_else: بلوک if-else
+        loop_times: بلوک repeat times
+        loop_until: "بلوک  repeat until"
+        loop_while: بلوک while
+        loop_for: بلوک شمارنده
+        function: توابع
+        parameters: توابع با پارامترها
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_3: How should I get to the green pig? (Watch out for the TNT)
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: Try to get me to the green pig using only three blocks.
-        maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
+        maze_2_2: "من باید اون خوک سبز رو بگیرم! چند جعبه 'به جلو برو' را کنار هم قرار بده و دکمه 'اجرا برنامه' را فشار بده تا من رو به اونجا برسونی. "
+        maze_2_1: "برای من برنامه دیگری بنویس تا بتونم به اون خوک سبز برسم. "
+        maze_2_2_5: چطوری می تونم به اون خوک سبز برسم؟ (مواظب بمب باش!)
+        maze_2_3: چطوری می تونم به اون خوک سبز برسم؟ (مواظب بمب باش!)
+        maze_2_4: "اوه! برای من برنامه ای بنویس تا بتونم بمب رو دور بزنم و به خوک سبز برسم. "
+        maze_2_5: راهی هست که من رو فقط با دو جعبه به خوک سبز می رسونه! می تونی اون رو پیدا کنی؟
+        maze_2_6: سعی کن من رو فقط با سه جعبه به خوک سبز برسونی.
+        maze_2_7: "برنامه ای برای من بنویس تا بتونم  با کمترین جعبه به خوک سبز برسم. سعی بیش از یک جعبه 'تکرار' استفاده کنی."
+        maze_2_8: برای حل این سوال، سعی کن یک جعبه تکرار استفاده کنی که در آن جعبه های حرکت، حرکت و گردش باشد.
+        maze_2_9: خوب! سعی کن از جعبه جدید `تکرار تا` استفاده کنی. تا زمانی که من به خوک سبز برسم اون تکرار میشه!
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
         maze_2_12: Ok, this is similar, but slightly different. Can you do it in only 5 blocks?

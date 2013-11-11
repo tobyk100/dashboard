@@ -2,28 +2,28 @@ no:
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        username: Username
-        password: Password
-        password_confirmation: Password confirmation
-        current_password: Current password
-        locale: Language
-        gender: Gender
-        edit_header: Edit Account Details
-  hello: Hello world
-  welcome_back: "Welcome back, %{name}"
+        name: Navn
+        email: E-post
+        username: Brukernavn
+        password: Passord
+        password_confirmation: Bekreftelse på passord
+        current_password: Nåværende passord
+        locale: Språk
+        gender: Kjønn
+        edit_header: Rediger kontodetaljer
+  hello: Hei, verden
+  welcome_back: "Velkommen tilbake, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
+      label: "Legg til en lærer ved kode eller e-postadresse:"
+      placeholder: Kode (ABCDEF) eller e-post (navn@skole.no)
+    submit: Legg til lærer
   appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
+  stage: Innholdet er ett spill som er delt opp i flere steg, steg 1 og steg 2. Etter du er ferdig med hvert steg, går du videre til neste.
+  puzzle: Puslespill
+  trophies: Pokaler
+  courses: Kurs
+  of: av
   more: MORE
   less: LESS
   try_hoc: "Try the Hour of Code, click here >> "
