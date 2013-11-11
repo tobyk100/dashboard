@@ -344,16 +344,16 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 
 .video-player {
   width: 100%;
-  height: 500px;
+  height: 100%;
   margin: 0;
 }
 
 .video-modal {
   z-index: 10000;
 
-  &.modal{
-    width: 800px;
-    margin-left: -400px;
+  .ui-tabs {
+    height: 100%;
+    width: 100%;
   }
 }
 
