@@ -20,7 +20,7 @@ en: "en-US"
 en-US:
   name: "English"
 en-PLOC:
-  name: "Pseudolocalized"
+  name: "Pseudoloc"
   debug: true
 
 es: "es-ES"

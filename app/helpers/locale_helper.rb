@@ -25,7 +25,9 @@ module LocaleHelper
     options = []
     Dashboard::Application::LOCALES.each do |locale, data|
       if I18n.available_locales.include? locale.to_sym
-        options << [data[:name], locale]
+        name = data[:name]
+        name = (data[:debug] ? "#{name} DBG" : name)
+        options << [name, locale]
       end
     end
     options
