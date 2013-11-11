@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: Tên
-        email: Email
-        username: Tên đăng nhập
-        password: Mật khẩu
-        password_confirmation: Xác nhận mật khẩu
-        current_password: Mật khẩu hiện tại
-        locale: Ngôn ngữ
-        gender: Giới tính
-        edit_header: Chỉnh sửa thông tin tài khoản
-  hello: Hello world
+        name: "Tên"
+        email: "Email"
+        username: "Tên đăng nhập"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+        current_password: "Mật khẩu hiện tại"
+        locale: "Ngôn ngữ"
+        gender: "Giới tính"
+        edit_header: "Chỉnh sửa thông tin tài khoản"
+  hello: "Hello world"
   welcome_back: "Chào mừng bạn %{name}"
   add_teacher_form:
     code_or_email:
       label: "Nhập mã giáo viên hoặc địa chỉ email:"
-      placeholder: Mã (ABCDEF) hoặc email (teacher@school.edu)
-    submit: Thêm giáo viên
-  appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Các khóa học
-  of: of
-  more: MORE
-  less: LESS
+      placeholder: "Mã (ABCDEF) hoặc email (teacher@school.edu)"
+    submit: "Thêm giáo viên"
+  appname: "Code.org"
+  stage: "Stage"
+  puzzle: "Puzzle"
+  trophies: "Trophies"
+  courses: "Các khóa học"
+  of: "of"
+  more: "MORE"
+  less: "LESS"
   try_hoc: "Thử Hour of Code, bấm vào đây >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
+  try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Tiếp tục
-  prize: giải thưởng
+  continue: "Tiếp tục"
+  prize: "giải thưởng"
   auth:
     sign_in_with: "Đăng nhập bằng %{provider}"
-    signed_in: Đăng nhập!
-    already_signedup: Đã đăng ký?
-    notyet_signedup: Chưa tham gia?
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Quên mật khẩu?
-    need_confirmation: Không nhận được hướng dẫn xác nhận?
+    signed_in: "Đăng nhập!"
+    already_signedup: "Đã đăng ký?"
+    notyet_signedup: "Chưa tham gia?"
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Quên mật khẩu?"
+    need_confirmation: "Không nhận được hướng dẫn xác nhận?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    title: Đăng ký
-    school_name: Tên trường (tùy chọn)
-    school_address: Địa chỉ trường (tùy chọn)
-    address_placeholder: địa chỉ, thành phố, tỉnh, mã bưu điện
-    gender: Giới tính (tùy chọn)
-    birthday: Ngày sinh (tùy chọn)
-    submit: Đăng ký
-    teacher: Bạn có phải là giáo viên?
+    title: "Đăng ký"
+    school_name: "Tên trường (tùy chọn)"
+    school_address: "Địa chỉ trường (tùy chọn)"
+    address_placeholder: "địa chỉ, thành phố, tỉnh, mã bưu điện"
+    gender: "Giới tính (tùy chọn)"
+    birthday: "Ngày sinh (tùy chọn)"
+    submit: "Đăng ký"
+    teacher: "Bạn có phải là giáo viên?"
   signin_form:
-    title: Đăng nhập
-    login: Email hoặc tên người dùng
-    password: Mật khẩu
-    remember: Remember me
-    submit: Sign in
+    title: "Đăng nhập"
+    login: "Email hoặc tên người dùng"
+    password: "Mật khẩu"
+    remember: "Remember me"
+    submit: "Sign in"
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: "Forgot your password?"
+      email: "Email address"
+      submit: "Send me reset password instructions"
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: "Change your password"
+      new_password: "New password"
+      confirm_password: "Confirm new password"
+      submit: "Change my password"
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: "Join my class (on Code.org)"
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Invite sent
+    invite_sent: "Invite sent"
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
-      signed_in: Please signout before proceeding
+      signed_in: "Please signout before proceeding"
       username_not_found: "Username %{username} not found"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -96,91 +96,91 @@
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: Show
-    edit: Edit
+    show: "Show"
+    edit: "Edit"
     edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
+    update: "Update"
+    destroy: "Destroy"
+    back: "Back"
+    confirm: "Are you sure?"
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
     header:
       finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      sign_in_to_save: "Sign in to save progress"
     user:
-      classroom: My students
+      classroom: "My students"
       label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Đăng ký
+      stats: "My progress"
+      settings: "My account"
+      prizes: "Prizes"
+      logout: "Sign out"
+      signin: "Sign in"
+      signup: "Đăng ký"
     popup:
-      progress: Your progress
+      progress: "Your progress"
       lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
+      close: "CLOSE"
+      mastery: "Concepts"
+      puzzle_map: "Stages"
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: Thông tin thêm
+      prizes_link: "Thông tin thêm"
   teacher:
     title:
       one: "Giáo viên của bạn là %{name}"
       other: "Giáo viên của bạn:"
-    tools: Công cụ dành cho giáo viên
+    tools: "Công cụ dành cho giáo viên"
     students:
-      manage: Quản lý học sinh
-      add: Thêm học sinh
-    rollup: Bảng tiến trình
-    activity: Hoạt động gần đây của lớp
+      manage: "Quản lý học sinh"
+      add: "Thêm học sinh"
+    rollup: "Bảng tiến trình"
+    activity: "Hoạt động gần đây của lớp"
   user:
-    new_password_hint: (để trống nếu bạn không muốn thay đổi nó)
-    current_password_hint: (chúng tôi cần mật khẩu của bạn để xác nhận thay đổi)
+    new_password_hint: "(để trống nếu bạn không muốn thay đổi nó)"
+    current_password_hint: "(chúng tôi cần mật khẩu của bạn để xác nhận thay đổi)"
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: "Cancel my account"
+      hint: "Unhappy?"
+      button: "Cancel my account"
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: "Completed"
+    tried: "Tried"
   user_stats:
-    recent_activity: Recent activity
-    show_more: Hiển thị thêm
+    recent_activity: "Recent activity"
+    show_more: "Hiển thị thêm"
   home:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: "Students - start here"
     teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
+    teacher_dashboard: "See progress dashboard"
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Lớp học của bạn
-    student_progress: Your progress as a student
+    classroom: "Lớp học của bạn"
+    student_progress: "Your progress as a student"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Where you left off:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: trường học ở địa phương
-    online: trực tuyến
+    local_school: "trường học ở địa phương"
+    online: "trực tuyến"
   gender:
-    male: Nam
-    female: Nữ
-    none: Prefer not to answer
+    male: "Nam"
+    female: "Nữ"
+    none: "Prefer not to answer"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Cung cấp thông tin phản hồi
-    translate: Giúp chúng tôi dịch sang ngôn ngữ của bạn
-    tos: Điều khoản Dịch vụ
+    feedback: "Cung cấp thông tin phản hồi"
+    translate: "Giúp chúng tôi dịch sang ngôn ngữ của bạn"
+    tos: "Điều khoản Dịch vụ"
   reference_area:
-    title: Cần trợ giúp?
-    subtitle: Xem các video và gợi ý
+    title: "Cần trợ giúp?"
+    subtitle: "Xem các video và gợi ý"
   video:
-    tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    tab: "Video."
+    notes: "No video? Show notes."
+    autoplay_option: "Autoplay videos"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: "We are working on support for your browser."
+    upgrade: "Please upgrade your browser."

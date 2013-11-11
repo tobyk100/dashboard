@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: Име
-        email: E-mail адреса
-        username: Корисничко име
-        password: Лозинка
-        password_confirmation: Потврдите лозинку
-        current_password: Тренутна лозинка
-        locale: Језик
-        gender: Пол
-        edit_header: Уреди детаље налога
-  hello: Здраво свете
+        name: "Име"
+        email: "E-mail адреса"
+        username: "Корисничко име"
+        password: "Лозинка"
+        password_confirmation: "Потврдите лозинку"
+        current_password: "Тренутна лозинка"
+        locale: "Језик"
+        gender: "Пол"
+        edit_header: "Уреди детаље налога"
+  hello: "Здраво свете"
   welcome_back: "Добродошао назад, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Додај предавача кодом или емаил адресом:"
-      placeholder: Код (ABCDEF) или емаил (teacher@school.edu)
-    submit: Додај наставника
-  appname: Code.org
-  stage: Ниво
-  puzzle: Пузле
-  trophies: Трофеји
-  courses: Курсеви
-  of: од
-  more: ВИШЕ
-  less: МАЊЕ
+      placeholder: "Код (ABCDEF) или емаил (teacher@school.edu)"
+    submit: "Додај наставника"
+  appname: "Code.org"
+  stage: "Ниво"
+  puzzle: "Пузле"
+  trophies: "Трофеји"
+  courses: "Курсеви"
+  of: "од"
+  more: "ВИШЕ"
+  less: "МАЊЕ"
   try_hoc: "Испробајте Hour of Code.Кликните овде >> "
-  try_k8intro: Или, покушајте наш К-8 курс "Увод у Рачунарске Науке" (15-25 часова)
+  try_k8intro: "Или, покушајте наш К-8 курс \"Увод у Рачунарске Науке\" (15-25 часова)"
   already_started: "Већ почели? Наставите овде >>"
   demos: "Admin: All Demos"
-  continue: Наставите
-  prize: награда
+  continue: "Наставите"
+  prize: "награда"
   auth:
     sign_in_with: "Пријавите се помоћу %{provider}"
-    signed_in: Пријављени сте!
-    already_signedup: Већ сте направили налог?
-    notyet_signedup: Нисте се придружили?
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Заборавили сте лозинку?
-    need_confirmation: Нисте примили инструкције за потврду?
-    need_unlock: Нисте примили инструкције за откључавање?
+    signed_in: "Пријављени сте!"
+    already_signedup: "Већ сте направили налог?"
+    notyet_signedup: "Нисте се придружили?"
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Заборавили сте лозинку?"
+    need_confirmation: "Нисте примили инструкције за потврду?"
+    need_unlock: "Нисте примили инструкције за откључавање?"
   signup_form:
-    title: Региструј се
-    school_name: Име школе (опционо)
-    school_address: Адреса школе (опционо)
-    address_placeholder: адреса, град, држава, поштански код
-    gender: Пол (опционо)
-    birthday: Датум рођења (опционо)
-    submit: Региструј се
-    teacher: Да ли сте наставник?
+    title: "Региструј се"
+    school_name: "Име школе (опционо)"
+    school_address: "Адреса школе (опционо)"
+    address_placeholder: "адреса, град, држава, поштански код"
+    gender: "Пол (опционо)"
+    birthday: "Датум рођења (опционо)"
+    submit: "Региструј се"
+    teacher: "Да ли сте наставник?"
   signin_form:
-    title: Пријави се
-    login: E-mail или корисничко име
-    password: Лозинка
-    remember: Запамти ме
-    submit: Пријави се
+    title: "Пријави се"
+    login: "E-mail или корисничко име"
+    password: "Лозинка"
+    remember: "Запамти ме"
+    submit: "Пријави се"
   password:
     reset_form:
-      title: Заборавили сте лозинку?
-      email: Емаил адреса
-      submit: Пошаљите ми инструкције за ресетовање лозинке
+      title: "Заборавили сте лозинку?"
+      email: "Емаил адреса"
+      submit: "Пошаљите ми инструкције за ресетовање лозинке"
     change_form:
-      title: Промените вашу лозинку
-      new_password: Нова лозинка
-      confirm_password: Потврдите нову лозинку
-      submit: Промени моју лозинку
+      title: "Промените вашу лозинку"
+      new_password: "Нова лозинка"
+      confirm_password: "Потврдите нову лозинку"
+      submit: "Промени моју лозинку"
   welcome_email:
-    subject: Придружи се мом предавању (на Code.org)
+    subject: "Придружи се мом предавању (на Code.org)"
     body: |
       Кликни линк испод како би се пријавио за туторијале на Code.org (ја ћу ти бити "учителј"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Позивница послата
+    invite_sent: "Позивница послата"
     added_teacher: "%{name} вас је додао као предавача"
     registered: "Регистровали сте се за %{section_name}. Молимо вас да се пријавите да би сте наставили"
     error:
-      signed_in: Молимо вас да се одјавите пре наставка
+      signed_in: "Молимо вас да се одјавите пре наставка"
       username_not_found: "Корисничко име %{username} није пронађено"
       username_in_use: "%{username} је заузето, молимо узмите друго"
       no_teacher: "Нисмо нашли никога пријавлјеног са '%{teacher_email_or_code}'. Молимо затражите да се поновно пријаве и онда их покушајте поновно додати"
@@ -93,93 +93,93 @@
         subject: "Придружи се разреду %{teacher_name} на Code.org!"
   reports:
     error:
-      access_denied: Немате приступ овој особи
+      access_denied: "Немате приступ овој особи"
   crud:
     new_model: "Нови %{model}"
-    show: Покажи
-    edit: Уреди
+    show: "Покажи"
+    edit: "Уреди"
     edit_model: "Уреди %{model}"
-    update: Ажурирај
-    destroy: Уништи
-    back: Побратак
-    confirm: Јесте ли сигурни?
+    update: "Ажурирај"
+    destroy: "Уништи"
+    back: "Побратак"
+    confirm: "Јесте ли сигурни?"
     created: "%{model} је успешно направлјен."
     updated: "%{model} је успешно ажуриран."
   nav:
     header:
-      finished_hoc: Завршио сам свој Сат Програмиранја
-      sign_in_to_save: Пријави се да сачуваш напредак
+      finished_hoc: "Завршио сам свој Сат Програмиранја"
+      sign_in_to_save: "Пријави се да сачуваш напредак"
     user:
-      classroom: Моји студенти
+      classroom: "Моји студенти"
       label: "Здраво %{username}"
-      stats: Мој напредак
-      settings: Мој рачун
-      prizes: Награде
-      logout: Одјави се
-      signin: Пријави се
-      signup: Региструј се
+      stats: "Мој напредак"
+      settings: "Мој рачун"
+      prizes: "Награде"
+      logout: "Одјави се"
+      signin: "Пријави се"
+      signup: "Региструј се"
     popup:
-      progress: Напредак
+      progress: "Напредак"
       lines: "Укупно линија кода: %{lines}"
-      close: ЗАТВОРИ
-      mastery: Концепти
-      puzzle_map: Нивои
+      close: "ЗАТВОРИ"
+      mastery: "Концепти"
+      puzzle_map: "Нивои"
       prizes: "Сакупи све %{total_trophies} трофеје и освоји награде!"
-      prizes_link: више информација
+      prizes_link: "више информација"
   teacher:
     title:
       one: "Твој учителј је %{name}"
       other: "Твоји учителји:"
-    tools: Учителјева помагала
+    tools: "Учителјева помагала"
     students:
-      manage: Рспоредити студенте
-      add: Сви студенти
-    rollup: Плоча напретка
-    activity: Скорашнје активности разреда
+      manage: "Рспоредити студенте"
+      add: "Сви студенти"
+    rollup: "Плоча напретка"
+    activity: "Скорашнје активности разреда"
   user:
-    new_password_hint: (остави празно ако не желиш промијенити)
-    current_password_hint: (потребна нам је твоја тренутна лозинка како би потврдили твоје промјене)
+    new_password_hint: "(остави празно ако не желиш промијенити)"
+    current_password_hint: "(потребна нам је твоја тренутна лозинка како би потврдили твоје промјене)"
     cancel:
-      title: Угаси мој рачун
-      hint: Незадоволјни?
-      button: Угаси мој рачун
+      title: "Угаси мој рачун"
+      hint: "Незадоволјни?"
+      button: "Угаси мој рачун"
   user_level:
-    completed: Готово
-    tried: Покушао
+    completed: "Готово"
+    tried: "Покушао"
   user_stats:
-    recent_activity: Недавна активност
-    show_more: Покажи још
+    recent_activity: "Недавна активност"
+    show_more: "Покажи још"
   home:
     signin_message: "или ако сте већ регистрирани %{link}"
     student_reg_link: "Студенти - почните овде"
-    teacher_reg_link: Учителји почните овде
-    teacher_dashboard: Видјети плочу напретка
+    teacher_reg_link: "Учителји почните овде"
+    teacher_dashboard: "Видјети плочу напретка"
     teacher_student_count: "Ви имате %{count} студената."
     teacher_averages: 'У просјеку су ваши студенти зарадили %{trophy_average} од %{trophy_max} "Concept Mastery" трофеја.'
-    classroom: Ваша учионица
-    student_progress: Ваш напредак као ученик
+    classroom: "Ваша учионица"
+    student_progress: "Ваш напредак као ученик"
     student_stats: 'Ви сте зарадили %{trophy_count} од %{trophy_max} "Concept Mastery" трофеја.'
     student_left_off: "Гдје сте оставили заднји пут:"
     student_finished: "Завршили сте све туторијале, узмите своју %{prize_link} и изаберите неки други разред %{online_link} или у %{local_school_link} "
-    local_school: локална школа
-    online: пријавлјен
+    local_school: "локална школа"
+    online: "пријавлјен"
   gender:
-    male: Мушко
-    female: Женско
-    none: Желим задржати приватност
+    male: "Мушко"
+    female: "Женско"
+    none: "Желим задржати приватност"
   footer:
     help_from_html: 'Инженјери са <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, и <a href="http://www.twitter.com">Twitter</a> су помогли направити овај туторијал.'
     art_from_html: 'Дизајн са <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Обезбедити податке о резултатима
-    translate: Помози нам превести на твој језик
-    tos: Увјети кориштенја
+    feedback: "Обезбедити податке о резултатима"
+    translate: "Помози нам превести на твој језик"
+    tos: "Увјети кориштенја"
   reference_area:
-    title: Требаш помоћ?
-    subtitle: Погледај ове снимке и савете
+    title: "Требаш помоћ?"
+    subtitle: "Погледај ове снимке и савете"
   video:
-    tab: Видео.
-    notes: Нема видеа? Покаћи забилјешке.
-    autoplay_option: Аутоматски покрени видео
+    tab: "Видео."
+    notes: "Нема видеа? Покаћи забилјешке."
+    autoplay_option: "Аутоматски покрени видео"
   compatability:
-    working: Радимо на потпори за твој претраживаћ.
-    upgrade: Молимо набавите савременији претраживаћ.
+    working: "Радимо на потпори за твој претраживаћ."
+    upgrade: "Молимо набавите савременији претраживаћ."

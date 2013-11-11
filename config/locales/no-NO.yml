@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: Navn
-        email: E-post
-        username: Brukernavn
-        password: Passord
-        password_confirmation: Bekreftelse på passord
-        current_password: Nåværende passord
-        locale: Språk
-        gender: Kjønn
-        edit_header: Rediger kontodetaljer
-  hello: Hei, verden
+        name: "Navn"
+        email: "E-post"
+        username: "Brukernavn"
+        password: "Passord"
+        password_confirmation: "Bekreftelse på passord"
+        current_password: "Nåværende passord"
+        locale: "Språk"
+        gender: "Kjønn"
+        edit_header: "Rediger kontodetaljer"
+  hello: "Hei, verden"
   welcome_back: "Velkommen tilbake, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Legg til en lærer ved kode eller e-postadresse:"
-      placeholder: Kode (ABCDEF) eller e-post (navn@skole.no)
-    submit: Legg til lærer
-  appname: Code.org
-  stage: Innholdet er ett spill som er delt opp i flere steg, steg 1 og steg 2. Etter du er ferdig med hvert steg, går du videre til neste.
-  puzzle: Puslespill
-  trophies: Pokaler
-  courses: Kurs
-  of: av
-  more: MER
-  less: MINDRE
+      placeholder: "Kode (ABCDEF) eller e-post (navn@skole.no)"
+    submit: "Legg til lærer"
+  appname: "Code.org"
+  stage: "Scene"
+  puzzle: "Oppgave"
+  trophies: "Premier"
+  courses: "Kurs"
+  of: "av"
+  more: "MER"
+  less: "MINDRE"
   try_hoc: "Prøv Hour of Code, klikk her>> "
-  try_k8intro: Eller prøv vårt barneskoleintroduksjon til Informatikk-kurs (15-25 timer)
+  try_k8intro: "Eller prøv vårt barneskoleintroduksjon til Informatikk-kurs (15-25 timer)"
   already_started: "Har du allerede startet? Fortsett her >> "
   demos: "Administrator: Alle demoer"
-  continue: Fortsett
-  prize: premie
+  continue: "Fortsett"
+  prize: "premie"
   auth:
     sign_in_with: "Logg inn med %{provider}"
-    signed_in: Logget inn!
-    already_signedup: Allerede meldt på?
-    notyet_signedup: Er du blitt medlem ennå?
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Har du glemt ditt passord?
-    need_confirmation: Mottok du ikke instruksjoner om hvordan du bekrefter?
-    need_unlock: Mottok du ingen instruksjoner om hvordan du låser opp?
+    signed_in: "Logget inn!"
+    already_signedup: "Allerede meldt på?"
+    notyet_signedup: "Er du blitt medlem ennå?"
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Har du glemt ditt passord?"
+    need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
+    need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
-    title: Meld deg på
-    school_name: Skolens navn (valgfritt)
-    school_address: Skolens adresse (valgfritt)
-    address_placeholder: adresse, by, fylke, postkode
-    gender: Kjønn (valgfritt)
-    birthday: Bursdag (valgfritt)
-    submit: Meld deg på
-    teacher: Er du en lærer?
+    title: "Meld deg på"
+    school_name: "Skolens navn (valgfritt)"
+    school_address: "Skolens adresse (valgfritt)"
+    address_placeholder: "adresse, by, fylke, postkode"
+    gender: "Kjønn (valgfritt)"
+    birthday: "Bursdag (valgfritt)"
+    submit: "Meld deg på"
+    teacher: "Er du en lærer?"
   signin_form:
-    title: Logg inn
-    login: E-post eller brukernavn
-    password: Passord
-    remember: Husk meg
-    submit: Logg inn
+    title: "Logg inn"
+    login: "E-post eller brukernavn"
+    password: "Passord"
+    remember: "Husk meg"
+    submit: "Logg inn"
   password:
     reset_form:
-      title: Har du glemt ditt passord?
-      email: E-postadresse
-      submit: Send meg instruksjoner om å tilbakestille passordet
+      title: "Har du glemt ditt passord?"
+      email: "E-postadresse"
+      submit: "Send meg instruksjoner om å tilbakestille passordet"
     change_form:
-      title: Endre ditt passord
-      new_password: Nytt passord
-      confirm_password: Bekreft nytt passord
-      submit: Endre mitt passord
+      title: "Endre ditt passord"
+      new_password: "Nytt passord"
+      confirm_password: "Bekreft nytt passord"
+      submit: "Endre mitt passord"
   welcome_email:
-    subject: Delta i min klasse (på Code.org)
+    subject: "Delta i min klasse (på Code.org)"
     body: |
       Klikk linken under for å melde deg på informatikk kurs på Code.org (med meg som din "lærer"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Invitasjon er sendt
+    invite_sent: "Invitasjon er sendt"
     added_teacher: "%{name} er lagt til som din lærer"
     registered: "Du er blitt meldt på %{section_name}. Vennligst logg inn for å fortsette"
     error:
-      signed_in: Vennligst logg ut før du fortsetter
+      signed_in: "Vennligst logg ut før du fortsetter"
       username_not_found: "Brukernavnet %{username} finnes ikke"
       username_in_use: "%{username} er allerede tatt. Vennligst velg et annet"
       no_teacher: "Kan ikke finne noen som er logget på med '%{teacher_email_or_code}'. Vennligst be dem melde seg på og forsøk deretter å legge dem til på nytt"
@@ -93,93 +93,93 @@
         subject: "Bli med i en av klassene til %{teacher_name} på Code.org!"
   reports:
     error:
-      access_denied: Du har ikke tilgang til denne personens statistikk
+      access_denied: "Du har ikke tilgang til denne personens statistikk"
   crud:
     new_model: "Ny %{model}"
-    show: Vis
-    edit: Rediger
+    show: "Vis"
+    edit: "Rediger"
     edit_model: "Rediger %{model}"
-    update: Oppdater
-    destroy: Ødelegg
-    back: Tilbake
-    confirm: Er du sikker?
+    update: "Oppdater"
+    destroy: "Ødelegg"
+    back: "Tilbake"
+    confirm: "Er du sikker?"
     created: "%{model} ble opprettet."
     updated: "%{model} ble oppdatert."
   nav:
     header:
-      finished_hoc: Jeg har fullført min Hour of Code
-      sign_in_to_save: Logg inn for å lagre fremdrift
+      finished_hoc: "Jeg har fullført min Hour of Code"
+      sign_in_to_save: "Logg inn for å lagre fremdrift"
     user:
-      classroom: Mine elever
+      classroom: "Mine elever"
       label: "Hei %{username}"
-      stats: Min fremdrift
-      settings: Min konto
-      prizes: Premier
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      stats: "Min fremdrift"
+      settings: "Min konto"
+      prizes: "Premier"
+      logout: "Logg ut"
+      signin: "Logg inn"
+      signup: "Meld deg på"
     popup:
-      progress: Your progress
-      lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      progress: "Din fremdrift"
+      lines: "Totalt antall linjer kode: %{lines}"
+      close: "LUKK"
+      mastery: "Konsepter"
+      puzzle_map: "Stadier"
+      prizes: "Samle alle %{total_trophies} trofeer og vinn premier!"
+      prizes_link: "mer info"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: Teacher Tools
+      one: "%{name} er lærer'n din"
+      other: "Dine lærere:"
+    tools: "Lærerverktøy"
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: "Administrer elever"
+      add: "Legg til elever"
+    rollup: "Fremdriftsoversikt"
+    activity: "Nylig klasseaktivitet"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    new_password_hint: "(la stå tomt hvis du ikke vil endre det)"
+    current_password_hint: "(vi trenger ditt gjeldende passord for å bekrefte dine endringer)"
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: "Avslutt kontoen min"
+      hint: "Utilfreds?"
+      button: "Avslutt kontoen min"
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: "Fullført"
+    tried: "Forsøkt"
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: "Nylig aktivitet"
+    show_more: "Vis mer"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Fremdriften din som student
+    signin_message: "eller hvis du allerede er registrert %{link}"
+    student_reg_link: "Elever - start her"
+    teacher_reg_link: "Lærere - start her"
+    teacher_dashboard: "Se fremdriftsoversikt"
+    teacher_student_count: "Du har %{count} elever."
+    teacher_averages: 'I gjennomsnitt har dine elever tjent %{trophy_average} av totalt %{trophy_max} "Konseptmestring" trofeer.'
+    classroom: "Ditt klasserom"
+    student_progress: "Fremdriften din som student"
     student_stats: 'Du har tjent %{trophy_count} av maks %{trophy_max} "Konseptmestring" trofeer.'
     student_left_off: "Der du slapp:"
     student_finished: "Du har fullført alle opplæringsprogrammer. Krev din %{prize_link} og velg en annen klasse %{online_link} eller på %{local_school_link}"
-    local_school: den lokale skolen
-    online: på nett
+    local_school: "den lokale skolen"
+    online: "på nett"
   gender:
-    male: Mann
-    female: Kvinne
-    none: Foretrekker å ikke svare
+    male: "Mann"
+    female: "Kvinne"
+    none: "Foretrekker å ikke svare"
   footer:
     help_from_html: 'Ingeniører fra <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> og <a href="http://www.twitter.com">Twitter</a> har bidratt til å skape dette opplæringsprogrammet.'
     art_from_html: 'Kunstverk fra <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Gi tilbakemelding
-    translate: Hjelpe oss med å oversette til ditt språk
-    tos: Bruksvilkår
+    feedback: "Gi tilbakemelding"
+    translate: "Hjelpe oss med å oversette til ditt språk"
+    tos: "Bruksvilkår"
   reference_area:
-    title: Trenger du hjelp?
-    subtitle: Se disse videoene og tipsene
+    title: "Trenger du hjelp?"
+    subtitle: "Se disse videoene og tipsene"
   video:
-    tab: Video.
-    notes: Ingen video? Vis notater.
-    autoplay_option: Autovisning av videoer
+    tab: "Video."
+    notes: "Ingen video? Vis notater."
+    autoplay_option: "Autovisning av videoer"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: "Vi arbeider med å lage støtte for din nettleser."
+    upgrade: "Vennligst oppgrader din nettleser."

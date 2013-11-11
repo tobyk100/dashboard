@@ -2,160 +2,156 @@
   slides:
     maze_intro:
       1:
-        image: notes/hoc1_1.png
-        text: "مرحباً  بك إلى أول ساعة من    Code  دعنا نتجه إلى تذوقك الأول للبرمجة ."
+        image: "notes/hoc1_1.png"
+        text: "مرحباً في أول ساعة من Code! دعنا نتجه إلى تذوقك الأول للبرمجة ."
       2:
-        image: notes/hoc1_2.png
-        text: سنقوم بأستخدام بلوكلي , لغة برمجية مرئية حيث يمكنك من سحب وافلات البلوكات لكتابة الكود البرمجي.
+        image: "notes/hoc1_2.png"
+        text: "سنقوم بأستخدام بلوكلي , لغة برمجية مرئية حيث يمكنك من سحب وافلات البلوكات لكتابة الكود البرمجي."
       3:
-        image: notes/hoc1_3.png
-        text: تتم كتابة معظم الاكواد البرمجية، ولكن بلوكلي هو مرئي. كل البلوكات تطابق سطر من الكود البرمجي " الحقيقي ".
+        image: "notes/hoc1_3.png"
+        text: "تتم كتابة معظم الاكواد البرمجية، ولكن بلوكلي هو مرئي. كل البلوكات تطابق سطر من الكود البرمجي \" الحقيقي \"."
       4:
-        image: notes/hoc1_4.png
-        text: أنت ستتعلم أسس علوم الكمبيوتر، والمفاهيم التي يتم استخدامها في أي مكان من صنع تطبيقات للتحكم في تجول المريخ.
+        image: "notes/hoc1_4.png"
+        text: "أنت ستتعلم أسس علوم الكمبيوتر، والمفاهيم التي يتم استخدامها في أي مكان من صنع تطبيقات للتحكم في تجول المريخ."
       5:
-        image: notes/hoc1_5.png
-        text: البرنامج هو مجموعة من الإيعازات التي يتبعها جهاز الكمبيوتر الخاص بك.
+        image: "notes/hoc1_5.png"
+        text: "البرنامج هو مجموعة من الإيعازات التي يتبعها جهاز الكمبيوتر الخاص بك."
       6:
-        image: notes/hoc1_6.png
-        text: الهدف من البرنامج الاول هو الحصول على لعبة "الطيور الغاضبة" عبر الاحجية لضرب " الخنزير الاخضر".
+        image: "notes/hoc1_6.png"
+        text: "الهدف من البرنامج الاول هو الحصول على لعبة \"الطيور الغاضبة\" عبر الاحجية لضرب \" الخنزير الاخضر\"."
       7:
-        image: notes/hoc1_7.png
-        text: الجانب الايسر هو مكان تنفيذ الاحجية. حيث يمكنك ايجاد الارشادات لكل لغز والتي تكون اسفل الاحجية.
+        image: "notes/hoc1_7.png"
+        text: "الجانب الايسر هو مكان تنفيذ الاحجية. حيث يمكنك ايجاد الارشادات لكل لغز والتي تكون اسفل الاحجية."
       8:
-        image: notes/hoc1_8.png
-        text: شريط الادوات الوسطي يمتلك مجموعة من الاوامر المتعلقة بلعبة "الطيور الغاضبة" . والتي ستستخدم في بناء الكود البرمجي الخاص بك.
+        image: "notes/hoc1_8.png"
+        text: "شريط الادوات الوسطي يمتلك مجموعة من الاوامر المتعلقة بلعبة \"الطيور الغاضبة\" . والتي ستستخدم في بناء الكود البرمجي الخاص بك."
       9:
-        image: notes/hoc1_9.png
-        text: على الجانب الايمن توجد مساحة عمل بيضاء حيث يتم عليها سحب البلوكات من شريط الادوات من اجل بناء برنامجك . لحذف البلوك الغير مرغوب , عليك القيام بسحبه الى سلة المهملات الواقعة في الزاوية.
+        image: "notes/hoc1_9.png"
+        text: "على الجانب الايمن توجد مساحة عمل بيضاء حيث يتم عليها سحب البلوكات من شريط الادوات من اجل بناء برنامجك . لحذف البلوك الغير مرغوب , عليك القيام بسحبه الى سلة المهملات الواقعة في الزاوية."
       10:
-        image: notes/hoc1_10.png
+        image: "notes/hoc1_10.png"
         text: 'كل قطعة تحتوي على إرشاد واحد. إذا سحبت قطعة "move forward" في مساحة العمل خاصتك وضغطت على  "Run Program" ، سوف تتحرك العصفورة مسافة واحدة في المتاهة.'
       11:
-        image: notes/hoc1_11.png
-        text: للقيام بأداء واحد أو أكثر، يمكنك سحب الكثير من القطع إلى مساحة العمل خاصتك وربطهم معاً. سوف تقوم الطيور بنفيذ الأوامر من الأعلى إلى الأسفل.
+        image: "notes/hoc1_11.png"
+        text: "للقيام بأداء واحد أو أكثر، يمكنك سحب الكثير من القطع إلى مساحة العمل خاصتك وربطهم معاً. سوف تقوم الطيور بنفيذ الأوامر من الأعلى إلى الأسفل."
       12:
-        image: notes/hoc1_12.png
-        text: If you run a program and want to fix it and try again, press the "Reset" button.
+        image: "notes/hoc1_12.png"
+        text: "إذا قمت بتشغيل برنامج وتريد إصلاحه والمحاولة مرة أخرى، اضغط على الزر \"Reset\"."
       13:
-        image: notes/hoc1_13.png
-        text: دعنا نذهب للحصول على الخنازير!
+        image: "notes/hoc1_13.png"
+        text: "دعنا نذهب للحصول على الخنازير!"
     artist_intro:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     farmer_intro:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     loop_times:
       1:
-        image: notes/hoc2_1.png
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        image: "notes/hoc2_1.png"
+        text: "مرحباً، أنا مارك! دعنا نتعرف على الحلقات التكرارية. بإستخدام الحلقات التكرارية يمكنك أن تأمر الكمبيوتر بتكرار أي مجموعة من الإجراءات عدة مرات، بآلاف أو حتى بلايين المرات."
       2:
-        image: notes/hoc2_2.png
-        text: In this puzzle, we want to make the bird move forward 5 spaces to get to the pig.
+        image: "notes/hoc2_2.png"
+        text: "في هذا اللغز، نريد أن نحرك الطيور 5 خطواط  إلى الأمام للوصول إلى الخنزير."
       3:
-        image: notes/hoc2_3.png
-        text: We can use the new "repeat" block to help us out.
+        image: "notes/hoc2_3.png"
+        text: "يمكننا استخدام قطعة \"repeat\" الجديدة لمساعدتنا."
       4:
-        image: notes/hoc2_4.png
-        text: Instead of dragging out 5 "move forward" blocks...
+        image: "notes/hoc2_4.png"
+        text: 'بدلاً من جلب / سحب 5  قطع "move forward" ...'
       5:
-        image: notes/hoc2_5.png
-        text: We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.
+        image: "notes/hoc2_5.png"
+        text: "يمكننا وضع قطعة \"move forward\" داخل قطعة \"repeat\" وكتابة رقم (عدد) في القطعة للمرات التي يجب أن تكرر."
       6:
-        image: notes/hoc2_6.png
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        image: "notes/hoc2_6.png"
+        text: 'وهذا أمر مهم: يمكنك وضع أمر واحد أو أكثر داخل القطعة "repeat".'
       7:
-        image: notes/hoc2_7.png
-        text: Enjoy using your new "repeat" block!
+        image: "notes/hoc2_7.png"
+        text: "تمتع بإستخدام قطعتك الخاصة \"repeat\" الجديدة!"
     loop_until:
       1:
-        image: notes/hoc3_1.png
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        image: "notes/hoc3_1.png"
+        text: "مرحبا، أنا كريس. قبل أنضمامي إلى \"ميامي هيت\"، ذهبت إلى معهد \"جورجيا للتكنولوجيا\" لدراسة \"علوم الكمبيوتر\". دعونا نجرب قطعتنا الجديدة، قطعة \"repeat until\"."
       2:
-        image: notes/hoc3_2.png
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        image: "notes/hoc3_2.png"
+        text: "ماذا لو لم نكن نعرف ما مدى يجب على الطيور التحرك للحصول على للخنزير؟"
       3:
-        image: notes/hoc3_3.png
-        text: If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).
+        image: "notes/hoc3_3.png"
+        text: "إذا وضعنا قطعة \"move forward\" داخل قطعة \"repeat until\" ، سوف تتحرك العصفورة إلي الأمام حتى تصل للخنزير (أو تتحطم في الجدار)"
       4:
-        image: notes/hoc3_4.png
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        image: "notes/hoc3_4.png"
+        text: "وهذا أمر مهم:؛ تماماً مثل قبل، يمكننا أن نضع قطع متعددة داخل قطعة \"repeat until\"، وجميعهم سوف يتكرر."
     if:
       1:
-        image: notes/hoc4_1.png
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        image: "notes/hoc4_1.png"
+        text: 'مرحبا، أنا بيل! دعونا نتعلم مفهوم أساسي جديد: عبارات "If".هذه هي الطريقة التي تجعل أجهزة الكمبيوتر تتخذ القرارات.'
       2:
-        image: notes/hoc4_2.png
+        image: "notes/hoc4_2.png"
         text: |-
-          You use "If" statments yoruself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+          أنت بنفسك تستخدم  عبرات "If" (لو) يومياً. من قبل الخروج إلى الخارج كل يوم، أنت تقول 'لو' كان هناك مطر بالخارج، فسوف يجب على لبس الجاكيت.
       3:
-        image: notes/hoc4_3.png
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        image: "notes/hoc4_3.png"
+        text: "يمكن أن نقول للزومبي التحقق إذا كان هناك المسار إلى اليسار، وإذا كان يجد طريق إلى اليسار، ونحن يمكننا أن نجعلة يدور في هذا الاتجاه."
       4:
-        image: notes/hoc4_4.png
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        image: "notes/hoc4_4.png"
+        text: "لكتابة الرمز أو التعليمات البرمجية لهذا، دعونا نجلب قطعة \"if\" ونضعها داخل قطعة \"turn left\"."
       5:
-        image: notes/hoc4_5.png
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        image: "notes/hoc4_5.png"
+        text: "الآن، إذا وضعنا قطعة \"move forward\" فوقه وقطعة \"repeat\" حول كل شيء، وفي كل مرة يتحرك الزومبي، سوف يتحقق إذا كان هناك مسار إلى الأنعتاف لليسار. أمر \"repeat\" الحاسم، للتحقق من وجود منعطفاً في كل خطوة."
       6:
-        image: notes/hoc4_6.png
-        text: If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win.
+        image: "notes/hoc4_6.png"
+        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
-        image: notes/hoc4_7.png
-        text: Have fun using the "if" block!
+        image: "notes/hoc4_7.png"
+        text: "Have fun using the \"if\" block!"
     if_else:
       1:
-        image: notes/hoc5_1.png
+        image: "notes/hoc5_1.png"
         text: |-
           Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
       2:
-        image: notes/hoc5_2.png
+        image: "notes/hoc5_2.png"
         text: |-
           If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
       3:
-        image: notes/hoc5_3.png
+        image: "notes/hoc5_3.png"
         text: |-
           Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
-        image: notes/hoc5_4.png
-        text: Now, get those zombies where they belong!
+        image: "notes/hoc5_4.png"
+        text: "Now, get those zombies where they belong!"
     function:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     loop_while:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     loop_for:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     parameters:
       1:
-        image: notes/bird.png
-        text: بيان الملاحظات قريبا!
+        image: "notes/bird.png"
+        text: "بيان الملاحظات قريبا!"
     hoc_wrapup:
       1:
-        image: notes/hoc6_1.png
+        image: "notes/hoc6_1.png"
         text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
-        image: notes/hoc6_2.png
+        image: "notes/hoc6_2.png"
         text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
-        image: notes/hoc6_3.png
+        image: "notes/hoc6_3.png"
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
-        image: notes/hoc6_4.png
+        image: "notes/hoc6_4.png"
         text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
     20_wrapup:
       1:
-        image: notes/bird.png
-        text: Show notes coming soon!
+        image: "notes/bird.png"
+        text: "Show notes coming soon!"

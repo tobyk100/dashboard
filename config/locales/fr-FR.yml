@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: Nom
-        email: E-mail
+        name: "Nom"
+        email: "E-mail"
         username: "Nom d'utilisateur"
-        password: Mot de passe
-        password_confirmation: Confirmation du mot de passe
-        current_password: Mot de passe actuel
-        locale: Langue
-        gender: Sexe
-        edit_header: Modifier les détails du compte
-  hello: Salut monde entier
+        password: "Mot de passe"
+        password_confirmation: "Confirmation du mot de passe"
+        current_password: "Mot de passe actuel"
+        locale: "Langue"
+        gender: "Sexe"
+        edit_header: "Modifier les détails du compte"
+  hello: "Salut monde entier"
   welcome_back: "Bienvenue, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Ajoutez un professeur par code ou adresse email :"
-      placeholder: Code (ABCDEF) ou email (professeur@école.edu)
-    submit: Ajouter un professeur
-  appname: Code.org
-  stage: Etape
-  puzzle: Puzzle
-  trophies: Trophées
-  courses: Cours
-  of: de
-  more: PLUS
-  less: MOINS
+      placeholder: "Code (ABCDEF) ou email (professeur@école.edu)"
+    submit: "Ajouter un professeur"
+  appname: "Code.org"
+  stage: "Etape"
+  puzzle: "Puzzle"
+  trophies: "Trophées"
+  courses: "Cours"
+  of: "de"
+  more: "PLUS"
+  less: "MOINS"
   try_hoc: "Essaye l'heure de Code, clique ici >> "
   try_k8intro: "Ou, essaye l'Intro K-8 au cours d'informatique (15-25 heures)"
   already_started: "Déjà commencé ? Reprends ici >> "
   demos: "Admin : Tous les démos"
-  continue: Continue
-  prize: prix
+  continue: "Continue"
+  prize: "prix"
   auth:
     sign_in_with: "Se connecter avec %{provider}"
-    signed_in: Connecté!
-    already_signedup: Déjà inscrit ?
-    notyet_signedup: Pas encore rejoint?
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Mot de passe oublié ?
+    signed_in: "Connecté!"
+    already_signedup: "Déjà inscrit ?"
+    notyet_signedup: "Pas encore rejoint?"
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Mot de passe oublié ?"
     need_confirmation: "Vous n'avez pas reçu les instructions de confirmation ?"
-    need_unlock: Pas encore reçu les instructions de déverrouillage ?
+    need_unlock: "Pas encore reçu les instructions de déverrouillage ?"
   signup_form:
-    title: S’inscrire
+    title: "S’inscrire"
     school_name: "Nom de l'école (facultatif)"
     school_address: "Adresse de l'école (facultatif)"
-    address_placeholder: adresse, ville, état, code postal
-    gender: Sexe (facultatif)
-    birthday: Date de naissance (optionnel)
-    submit: S’inscrire
-    teacher: Etes-vous un professeur?
+    address_placeholder: "adresse, ville, état, code postal"
+    gender: "Sexe (facultatif)"
+    birthday: "Date de naissance (optionnel)"
+    submit: "S’inscrire"
+    teacher: "Etes-vous un professeur?"
   signin_form:
-    title: Connexion
+    title: "Connexion"
     login: "E-mail ou nom d'utilisateur"
-    password: Mot de passe
-    remember: Se souvenir de moi
-    submit: Connexion
+    password: "Mot de passe"
+    remember: "Se souvenir de moi"
+    submit: "Connexion"
   password:
     reset_form:
-      title: Mot de passe oublié ?
-      email: Adresse email
-      submit: Envoie-moi des instructions de réinitialisation de mot de passe
+      title: "Mot de passe oublié ?"
+      email: "Adresse email"
+      submit: "Envoie-moi des instructions de réinitialisation de mot de passe"
     change_form:
-      title: Modifier votre mot de passe
-      new_password: Nouveau mot de passe
-      confirm_password: Confirmer le nouveau mot de passe
-      submit: Changer mon mot de passe
+      title: "Modifier votre mot de passe"
+      new_password: "Nouveau mot de passe"
+      confirm_password: "Confirmer le nouveau mot de passe"
+      submit: "Changer mon mot de passe"
   welcome_email:
-    subject: Rejoindre ma classe (sur Code.org)
+    subject: "Rejoindre ma classe (sur Code.org)"
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Invitation envoyée
+    invite_sent: "Invitation envoyée"
     added_teacher: "%{name} ajouté en tant que professeur"
     registered: "Vous vous êtes inscrit pour %{section_name}. Veuillez vous connecter pour continuer"
     error:
-      signed_in: Veuillez vous déconnecter avant de procéder
+      signed_in: "Veuillez vous déconnecter avant de procéder"
       username_not_found: "Nom d'utilisateur %{username} introuvable"
       username_in_use: "%{username} est déjà pris, veuillez en choisir un autre"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -96,91 +96,91 @@
       access_denied: "Vous n'avez pas accès aux stats de cette personne"
   crud:
     new_model: "Nouveau %{model}"
-    show: Afficher
-    edit: Modifier
+    show: "Afficher"
+    edit: "Modifier"
     edit_model: "Modifier %{model}"
-    update: Mise à jour
-    destroy: Détruire
-    back: Retour
-    confirm: Etes-vous sûr?
+    update: "Mise à jour"
+    destroy: "Détruire"
+    back: "Retour"
+    confirm: "Etes-vous sûr?"
     created: "%{model} a été créé avec succès."
     updated: "%{model} a été mis à jour avec succès."
   nav:
     header:
       finished_hoc: "J'ai fini mon heure de Code"
-      sign_in_to_save: Connectez-vous pour enregistrer les progrès
+      sign_in_to_save: "Connectez-vous pour enregistrer les progrès"
     user:
-      classroom: Mes élèves
+      classroom: "Mes élèves"
       label: "Salut %{username}"
-      stats: Mon progrès
-      settings: Mon compte
-      prizes: Prix
-      logout: Déconnexion
-      signin: Connexion
-      signup: Inscription
+      stats: "Mon progrès"
+      settings: "Mon compte"
+      prizes: "Prix"
+      logout: "Déconnexion"
+      signin: "Connexion"
+      signup: "Inscription"
     popup:
-      progress: Votre progrès
+      progress: "Votre progrès"
       lines: "Lignes en total de code: %{lines}"
-      close: FERMER
-      mastery: Conceptes
-      puzzle_map: Etapes
+      close: "FERMER"
+      mastery: "Conceptes"
+      puzzle_map: "Etapes"
       prizes: "Collecte tous les %{total_trophies} trophées et gagne des prix!"
       prizes_link: "plus d'informations"
   teacher:
     title:
       one: "Votre professeur est %{name}"
       other: "Vos professeurs:"
-    tools: Outils du professeur
+    tools: "Outils du professeur"
     students:
-      manage: Gérer les élèves
-      add: Ajouter des élèves
-    rollup: Tableau de bord de progression
-    activity: Activité récente de la classe
+      manage: "Gérer les élèves"
+      add: "Ajouter des élèves"
+    rollup: "Tableau de bord de progression"
+    activity: "Activité récente de la classe"
   user:
-    new_password_hint: (laissez vide si vous ne voulez pas changer)
-    current_password_hint: (nous avons besoin de votre mot de passe actuel pour confirmer vos modifications)
+    new_password_hint: "(laissez vide si vous ne voulez pas changer)"
+    current_password_hint: "(nous avons besoin de votre mot de passe actuel pour confirmer vos modifications)"
     cancel:
-      title: Annuler mon compte
-      hint: Malheureux ?
-      button: Annuler mon compte
+      title: "Annuler mon compte"
+      hint: "Malheureux ?"
+      button: "Annuler mon compte"
   user_level:
-    completed: Terminé
-    tried: Essayé
+    completed: "Terminé"
+    tried: "Essayé"
   user_stats:
-    recent_activity: Activité récente
-    show_more: Voir plus
+    recent_activity: "Activité récente"
+    show_more: "Voir plus"
   home:
     signin_message: "ou si vous êtes déjà inscrit %{link}"
     student_reg_link: "Étudiants - commencer ici"
     teacher_reg_link: "Professeurs - commencer ici"
-    teacher_dashboard: Voir le tableau de bord de progression
+    teacher_dashboard: "Voir le tableau de bord de progression"
     teacher_student_count: "Vous avez %{count} étudiants."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Votre classe
+    classroom: "Votre classe"
     student_progress: "Vos progrès en tant qu'étudiant"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Où vous vous êtes arrêté:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: école locale
-    online: en ligne
+    local_school: "école locale"
+    online: "en ligne"
   gender:
-    male: Homme
-    female: Femme
-    none: Préfère ne pas répondre
+    male: "Homme"
+    female: "Femme"
+    none: "Préfère ne pas répondre"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Donner un FeedBack
-    translate: Aidez-nous à traduire dans votre langue
+    feedback: "Donner un FeedBack"
+    translate: "Aidez-nous à traduire dans votre langue"
     tos: "Conditions d'utilisation"
   reference_area:
     title: "Besoin d'aide ?"
-    subtitle: Voir ces vidéos et conseils
+    subtitle: "Voir ces vidéos et conseils"
   video:
-    tab: Vidéo.
-    notes: Pas de vidéo ? Montrer les notes.
-    autoplay_option: AutoPlay les vidéos
+    tab: "Vidéo."
+    notes: "Pas de vidéo ? Montrer les notes."
+    autoplay_option: "AutoPlay les vidéos"
   compatability:
-    working: Nous sommes en train de travailler pour le support de votre navigateur.
-    upgrade: Veuillez mettre à jour votre navigateur.
+    working: "Nous sommes en train de travailler pour le support de votre navigateur."
+    upgrade: "Veuillez mettre à jour votre navigateur."

@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: الاسم
-        email: البريد الإلكتروني
-        username: اسم المستخدم
-        password: كلمة المرور
-        password_confirmation: تأكيد كلمة المرور
-        current_password: كلمة المرور الحالية
-        locale: اللغة
-        gender: الجنس
-        edit_header: تعديل تفاصيل الحساب
-  hello: مرحباً بالعالم
+        name: "الاسم"
+        email: "البريد الإلكتروني"
+        username: "اسم المستخدم"
+        password: "كلمة المرور"
+        password_confirmation: "تأكيد كلمة المرور"
+        current_password: "كلمة المرور الحالية"
+        locale: "اللغة"
+        gender: "الجنس"
+        edit_header: "تعديل تفاصيل الحساب"
+  hello: "مرحباً بالعالم"
   welcome_back: "أهلا بكم من جديد, %{name}"
   add_teacher_form:
     code_or_email:
       label: "إضف معلم عن طريق الرمز أو البريد الإلكتروني:"
-      placeholder: الرمز (ABCDEF) أو البريد الإلكتروني (teacher@school.edu)
-    submit: إضف معلم
-  appname: Code.org
-  stage: المرحلة
-  puzzle: لغز
-  trophies: الجوائز
-  courses: دروس
-  of: من
-  more: أكثر
-  less: أقل
+      placeholder: "الرمز (ABCDEF) أو البريد الإلكتروني (teacher@school.edu)"
+    submit: "إضف معلم"
+  appname: "Code.org"
+  stage: "المرحلة"
+  puzzle: "لغز"
+  trophies: "الجوائز"
+  courses: "دروس"
+  of: "من"
+  more: "أكثر"
+  less: "أقل"
   try_hoc: "قم بتجربة ساعة من البرمجة, انقر هنا>> "
-  try_k8intro: أو جرب مقدمة k-8 الخاص بنا لـ كورس"تخصص علم الحاسوب" (15-25 ساعة)
+  try_k8intro: "أو جرب مقدمة k-8 الخاص بنا لـ كورس\"تخصص علم الحاسوب\" (15-25 ساعة)"
   already_started: "بدأت بالفعل؟ اكمل من هنا >> "
   demos: "المشرف: جميع العروض التوضيحية"
-  continue: أستمر
-  prize: جائزة
+  continue: "أستمر"
+  prize: "جائزة"
   auth:
     sign_in_with: "تسجيل الدخول باستخدام %{provider}"
-    signed_in: تم تسجيل الدخول!
-    already_signedup: قمت بالتسجيل مسبقاً؟
-    notyet_signedup: لم تنضم إلينا بعد؟
-    google_oauth2: جوجل+
-    twitter: تويتر
-    facebook: فيس بوك
-    windowslive: ويندوز لايف
-    forgot_password: نسيت كلمة المرور؟
-    need_confirmation: لم تتلقى تعليمات تأكيد حسابك؟
-    need_unlock: لم أستلم تعليمات فتح الحساب؟
+    signed_in: "تم تسجيل الدخول!"
+    already_signedup: "قمت بالتسجيل مسبقاً؟"
+    notyet_signedup: "لم تنضم إلينا بعد؟"
+    google_oauth2: "جوجل+"
+    twitter: "تويتر"
+    facebook: "فيس بوك"
+    windowslive: "ويندوز لايف"
+    forgot_password: "نسيت كلمة المرور؟"
+    need_confirmation: "لم تتلقى تعليمات تأكيد حسابك؟"
+    need_unlock: "لم أستلم تعليمات فتح الحساب؟"
   signup_form:
-    title: تسجيل
-    school_name: اسم المدرسة (اختياري)
-    school_address: عنوان المدرسة (اختياري)
-    address_placeholder: العنوان، المدينة، الدولة، الرمز البريدي
-    gender: الجنس (اختياري)
-    birthday: تاريخ الميلاد (اختياري)
-    submit: تسجيل
-    teacher: هل أنت معلم؟
+    title: "تسجيل"
+    school_name: "اسم المدرسة (اختياري)"
+    school_address: "عنوان المدرسة (اختياري)"
+    address_placeholder: "العنوان، المدينة، الدولة، الرمز البريدي"
+    gender: "الجنس (اختياري)"
+    birthday: "تاريخ الميلاد (اختياري)"
+    submit: "تسجيل"
+    teacher: "هل أنت معلم؟"
   signin_form:
-    title: تسجيل الدخول
-    login: البريد الإلكتروني أو اسم المستخدم
-    password: كلمة المرور
-    remember: تذكرني
-    submit: تسجيل الدخول
+    title: "تسجيل الدخول"
+    login: "البريد الإلكتروني أو اسم المستخدم"
+    password: "كلمة المرور"
+    remember: "تذكرني"
+    submit: "تسجيل الدخول"
   password:
     reset_form:
-      title: نسيت كلمة المرور؟
-      email: البريد الإلكتروني
-      submit: أرسل لي معلومات إعادة تعيين كلمة المرور
+      title: "نسيت كلمة المرور؟"
+      email: "البريد الإلكتروني"
+      submit: "أرسل لي معلومات إعادة تعيين كلمة المرور"
     change_form:
-      title: تغيير كلمة مرور حسابك
-      new_password: كلمة مرور جديدة
-      confirm_password: تأكيد كلمة المرور الجديدة
-      submit: تغيير كلمة المرور الخاصة بي
+      title: "تغيير كلمة مرور حسابك"
+      new_password: "كلمة مرور جديدة"
+      confirm_password: "تأكيد كلمة المرور الجديدة"
+      submit: "تغيير كلمة المرور الخاصة بي"
   welcome_email:
-    subject: أنضم إلى صفي (في Code.org)
+    subject: "أنضم إلى صفي (في Code.org)"
     body: |
       انقر على الرابط أدناه للتسجيل في دروس علم الكومبيوتر في Code.org ( مثل "معلمك الخاص"): 
       
@@ -81,11 +81,11 @@
       
       %{name}
   follower:
-    invite_sent: تم إرسال الدعوة
+    invite_sent: "تم إرسال الدعوة"
     added_teacher: "%{name} تم اضافتك كمعلم"
     registered: "لقد قمت بتسجيل %{section_name}. الرجاء تسجيل الدخول للاستمرار"
     error:
-      signed_in: من فضلك قم بتسجيل الخروج قبل المتابعة
+      signed_in: "من فضلك قم بتسجيل الخروج قبل المتابعة"
       username_not_found: "اسم المستخدم %{username} غير موجود"
       username_in_use: "%{username} مستخدم، الرجاء اختر واحدا آخر من فضلك"
       no_teacher: "تعذر العثور على أي شخص مسجل بـ  '%{teacher_email_or_code}'. من فضلك أطلب منهم التسجيل هنا و من ثم محاولة إضافتهم مرة أخرى"
@@ -94,93 +94,93 @@
         subject: "أنضم إلى الصف مع %{teacher_name} في Code.org!"
   reports:
     error:
-      access_denied: لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم
+      access_denied: "لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم"
   crud:
     new_model: "جديد %{model}"
-    show: إظهار
-    edit: تعديل
+    show: "إظهار"
+    edit: "تعديل"
     edit_model: "تعديل %{model}"
-    update: تحديث
-    destroy: تدمير
-    back: العودة
-    confirm: هل أنت متأكد؟
+    update: "تحديث"
+    destroy: "تدمير"
+    back: "العودة"
+    confirm: "هل أنت متأكد؟"
     created: "تم بنجاح إنشاء %{model}."
     updated: "تم بنجاح تحديث %{model}."
   nav:
     header:
       finished_hoc: "لقد انهيت ساعة من البرمجة "
-      sign_in_to_save: قم بتسجيل الدخول لحفظ التقدم
+      sign_in_to_save: "قم بتسجيل الدخول لحفظ التقدم"
     user:
-      classroom: طلابي
+      classroom: "طلابي"
       label: "مرحباً %{username}"
-      stats: أنجازاتك
-      settings: حسابي
-      prizes: الجوائز
-      logout: تسجيل الخروج
-      signin: تسجيل الدخول
-      signup: تسجيل
+      stats: "أنجازاتك"
+      settings: "حسابي"
+      prizes: "الجوائز"
+      logout: "تسجيل الخروج"
+      signin: "تسجيل الدخول"
+      signup: "تسجيل"
     popup:
-      progress: إنجازاتك
+      progress: "إنجازاتك"
       lines: "عدد أسطر الكود البرمجي : %{lines}"
-      close: إغلاق
-      mastery: مفاهيم
-      puzzle_map: مراحل
+      close: "إغلاق"
+      mastery: "مفاهيم"
+      puzzle_map: "مراحل"
       prizes: "اجمع الجوائز الـ %{total_trophies} و فز بجوائز قيمة!"
-      prizes_link: مزيد من المعلومات
+      prizes_link: "مزيد من المعلومات"
   teacher:
     title:
       one: "معلمك هو %{name}"
       other: "معلميك:"
-    tools: أدوات المعلم
+    tools: "أدوات المعلم"
     students:
-      manage: إدارة الطلاب
-      add: إضف الطلاب
-    rollup: لوحة معلومات التقدم
-    activity: آخر نشاطات الصف
+      manage: "إدارة الطلاب"
+      add: "إضف الطلاب"
+    rollup: "لوحة معلومات التقدم"
+    activity: "آخر نشاطات الصف"
   user:
-    new_password_hint: (اتركه فارغاً إذا كنت لا ترغب في تغييره)
-    current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بحسابك)
+    new_password_hint: "(اتركه فارغاً إذا كنت لا ترغب في تغييره)"
+    current_password_hint: "(أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بحسابك)"
     cancel:
-      title: إلغاء حسابي
-      hint: غير سعيد؟
-      button: إلغاء حسابي
+      title: "إلغاء حسابي"
+      hint: "غير سعيد؟"
+      button: "إلغاء حسابي"
   user_level:
-    completed: أكمل
-    tried: محاول
+    completed: "أكمل"
+    tried: "محاول"
   user_stats:
-    recent_activity: آخر النشاطات
-    show_more: إظهار المزيد
+    recent_activity: "آخر النشاطات"
+    show_more: "إظهار المزيد"
   home:
     signin_message: "أو إذا كنت مسجلا مسبقا %{link}"
     student_reg_link: "الطلاب - أبدأ من هنا"
     teacher_reg_link: "المعلمين - أبدأ من هنا"
-    teacher_dashboard: انظر على لوحة معلومات التقدم
+    teacher_dashboard: "انظر على لوحة معلومات التقدم"
     teacher_student_count: "لديك %{count} طلاب."
     teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
-    classroom: فصلك الدراسي
-    student_progress: تقدمك كطالب
+    classroom: "فصلك الدراسي"
+    student_progress: "تقدمك كطالب"
     student_stats: 'لقد حصلت %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".'
     student_left_off: "اين كنت آخر مرة:"
     student_finished: "لقد أتممت جميع الدروس, اطلب %{prize_link} وقم باختيار صف آخر %{online_link} أو في %{local_school_link}"
-    local_school: مدرسة محلية
-    online: متصل
+    local_school: "مدرسة محلية"
+    online: "متصل"
   gender:
-    male: ذكر
-    female: أنثى
-    none: أفضل بعدم الإجابة
+    male: "ذكر"
+    female: "أنثى"
+    none: "أفضل بعدم الإجابة"
   footer:
     help_from_html: 'مهندسون من <a href="http://www.google.com"> جوجل</a> و <a href="http://www.microsoft.com"> مايكروسوفت</a> و <a href="http://www.facebook.com"> فيس بوك</a> و <a href="http://www.twitter.com"> تويتر</a> ساعدوا في إنشاء هذا البرنامج التعليمي.'
     art_from_html: 'الأعمال الفنية من <a href="http://www.angrybirds.com"> Angry Birds</a> ل <a href="http://www.rovio.com"> Rovio</a>، و <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies </a> <a href="http://www.popcap.com"> PopCap Games</a>.'
-    feedback: توفير التغذية الرجعية
-    translate: ساعدنا على ترجمة لغتك
-    tos: شروط الخدمة
+    feedback: "توفير التغذية الرجعية"
+    translate: "ساعدنا على ترجمة لغتك"
+    tos: "شروط الخدمة"
   reference_area:
-    title: بحاجة إلى مساعدة؟
-    subtitle: مشاهدة اشرطة الفيديو والتلميحات
+    title: "بحاجة إلى مساعدة؟"
+    subtitle: "مشاهدة اشرطة الفيديو والتلميحات"
   video:
-    tab: فيديو.
-    notes: لا يوجد فيديو؟ اظهر الملاحظات.
-    autoplay_option: تشغيل تلقائي لاشرطة الفيديو
+    tab: "فيديو."
+    notes: "لا يوجد فيديو؟ اظهر الملاحظات."
+    autoplay_option: "تشغيل تلقائي لاشرطة الفيديو"
   compatability:
-    working: نحن نعمل على دعم متصفح الأنترنت الخاص بك.
-    upgrade: من فضلك قم بتحديث متصفح الأنترنت الخاص بك.
+    working: "نحن نعمل على دعم متصفح الأنترنت الخاص بك."
+    upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."

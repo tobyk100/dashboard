@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: Nafn
-        email: Netfang
-        username: Notendanafn
-        password: Lykilorð
-        password_confirmation: Lykilorð staðfest
-        current_password: Núverandi lykilorð
-        locale: Tungumál
-        gender: Kyn
-        edit_header: Breyta Reikning
-  hello: Halló heimur
+        name: "Nafn"
+        email: "Netfang"
+        username: "Notendanafn"
+        password: "Lykilorð"
+        password_confirmation: "Lykilorð staðfest"
+        current_password: "Núverandi lykilorð"
+        locale: "Tungumál"
+        gender: "Kyn"
+        edit_header: "Breyta Reikning"
+  hello: "Halló heimur"
   welcome_back: "Welcome back, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Add a teacher by code or email address:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Add teacher
-  appname: Code.org
-  stage: Stage
-  puzzle: Puzzle
-  trophies: Trophies
-  courses: Courses
-  of: of
-  more: MORE
-  less: LESS
+      placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
+    submit: "Add teacher"
+  appname: "Code.org"
+  stage: "Stage"
+  puzzle: "Puzzle"
+  trophies: "Trophies"
+  courses: "Courses"
+  of: "of"
+  more: "MORE"
+  less: "LESS"
   try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
+  try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
-  continue: Halda áfram
-  prize: prize
+  continue: "Halda áfram"
+  prize: "prize"
   auth:
     sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
+    signed_in: "Signed in!"
+    already_signedup: "Already signed up?"
     notyet_signedup: "Haven't joined yet?"
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Gleymdir þú lykilorðinu þínu ?
-    need_confirmation: Fékstu ekki sendar staðfestingar leiðbeiningar?
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Gleymdir þú lykilorðinu þínu ?"
+    need_confirmation: "Fékstu ekki sendar staðfestingar leiðbeiningar?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    title: Skráning
-    school_name: Nafn skóla (valfrjálst)
-    school_address: Heimilisfang skóla (valfrjálst)
-    address_placeholder: götuheiti, borg, fylki, póstfang
-    gender: Kyn (valfrjálst)
-    birthday: afmælisdagur (valfrjálst)
-    submit: Skráning
-    teacher: Ertu kennari?
+    title: "Skráning"
+    school_name: "Nafn skóla (valfrjálst)"
+    school_address: "Heimilisfang skóla (valfrjálst)"
+    address_placeholder: "götuheiti, borg, fylki, póstfang"
+    gender: "Kyn (valfrjálst)"
+    birthday: "afmælisdagur (valfrjálst)"
+    submit: "Skráning"
+    teacher: "Ertu kennari?"
   signin_form:
-    title: Innskráning
-    login: Netfang eða notendanafn
-    password: Lykilorð
-    remember: Remember me
-    submit: Sign in
+    title: "Innskráning"
+    login: "Netfang eða notendanafn"
+    password: "Lykilorð"
+    remember: "Remember me"
+    submit: "Sign in"
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: "Forgot your password?"
+      email: "Email address"
+      submit: "Send me reset password instructions"
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: "Change your password"
+      new_password: "New password"
+      confirm_password: "Confirm new password"
+      submit: "Change my password"
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: "Join my class (on Code.org)"
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Invite sent
+    invite_sent: "Invite sent"
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
-      signed_in: Please signout before proceeding
+      signed_in: "Please signout before proceeding"
       username_not_found: "Username %{username} not found"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -96,91 +96,91 @@
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: Show
-    edit: Edit
+    show: "Show"
+    edit: "Edit"
     edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
+    update: "Update"
+    destroy: "Destroy"
+    back: "Back"
+    confirm: "Are you sure?"
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
     header:
       finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      sign_in_to_save: "Sign in to save progress"
     user:
-      classroom: My students
+      classroom: "My students"
       label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
-      logout: Sign out
-      signin: Sign in
-      signup: Sign up
+      stats: "My progress"
+      settings: "My account"
+      prizes: "Prizes"
+      logout: "Sign out"
+      signin: "Sign in"
+      signup: "Sign up"
     popup:
-      progress: Your progress
+      progress: "Your progress"
       lines: "Total lines of code: %{lines}"
-      close: CLOSE
-      mastery: Concepts
-      puzzle_map: Stages
+      close: "CLOSE"
+      mastery: "Concepts"
+      puzzle_map: "Stages"
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: more info
+      prizes_link: "more info"
   teacher:
     title:
       one: "Your teacher is %{name}"
       other: "Your teachers:"
-    tools: Teacher Tools
+    tools: "Teacher Tools"
     students:
-      manage: Manage students
-      add: Add students
-    rollup: Progress Dashboard
-    activity: Recent class activity
+      manage: "Manage students"
+      add: "Add students"
+    rollup: "Progress Dashboard"
+    activity: "Recent class activity"
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    current_password_hint: "(we need your current password to confirm your changes)"
     cancel:
-      title: Cancel my account
-      hint: Unhappy?
-      button: Cancel my account
+      title: "Cancel my account"
+      hint: "Unhappy?"
+      button: "Cancel my account"
   user_level:
-    completed: Completed
-    tried: Tried
+    completed: "Completed"
+    tried: "Tried"
   user_stats:
-    recent_activity: Recent activity
-    show_more: Show more
+    recent_activity: "Recent activity"
+    show_more: "Show more"
   home:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: "Students - start here"
     teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: See progress dashboard
+    teacher_dashboard: "See progress dashboard"
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
+    classroom: "Your classroom"
+    student_progress: "Your progress as a student"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Where you left off:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    local_school: "local school"
+    online: "online"
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: "Male"
+    female: "Female"
+    none: "Prefer not to answer"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    feedback: "Provide feedback"
+    translate: "Help us translate to your language"
+    tos: "Terms of service"
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: "Need help?"
+    subtitle: "See these videos and hints"
   video:
-    tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    tab: "Video."
+    notes: "No video? Show notes."
+    autoplay_option: "Autoplay videos"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: "We are working on support for your browser."
+    upgrade: "Please upgrade your browser."

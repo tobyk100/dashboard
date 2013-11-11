@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: naam
-        email: email
-        username: Gebruikersnaam
-        password: Wachtwoord
-        password_confirmation: Wachtwoord bevestiging
-        current_password: Huidig wachtwoord
-        locale: Taal
-        gender: Geslacht
-        edit_header: Accountdetails bewerken
-  hello: Hallo wereld
+        name: "naam"
+        email: "email"
+        username: "Gebruikersnaam"
+        password: "Wachtwoord"
+        password_confirmation: "Wachtwoord bevestiging"
+        current_password: "Huidig wachtwoord"
+        locale: "Taal"
+        gender: "Geslacht"
+        edit_header: "Accountdetails bewerken"
+  hello: "Hallo wereld"
   welcome_back: "Welkom terug, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Voeg een leraar met code of e-mailadres:"
-      placeholder: code (ABCDEF) of email (teacher@school.edu)
-    submit: voeg leraar toe
-  appname: Code.org
-  stage: level
-  puzzle: puzzel
-  trophies: trofeeën
-  courses: cursussen
-  of: van
-  more: MEER
-  less: MINDER
+      placeholder: "code (ABCDEF) of email (teacher@school.edu)"
+    submit: "voeg leraar toe"
+  appname: "Code.org"
+  stage: "level"
+  puzzle: "puzzel"
+  trophies: "trofeeën"
+  courses: "cursussen"
+  of: "van"
+  more: "MEER"
+  less: "MINDER"
   try_hoc: "Probeer the Hour of Code, klik hier >> "
-  try_k8intro: of probeer onze K-8 intro voor Computer Science les (15-25 uur)
+  try_k8intro: "of probeer onze K-8 intro voor Computer Science les (15-25 uur)"
   already_started: "al begonnen? ga hier verder >> "
   demos: "Admin: alle demo's"
-  continue: verder gaan
-  prize: prijs
+  continue: "verder gaan"
+  prize: "prijs"
   auth:
     sign_in_with: "Meld je aan met %{provider}"
-    signed_in: Ingelogd!
-    already_signedup: Al aangemeld?
-    notyet_signedup: nog niet aangesloten?
-    google_oauth2: Google+
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Wachtwoord vergeten?
-    need_confirmation: Geen bevestigings instructies ontvangen?
-    need_unlock: Nog niet uw ontgrendel instructies ontvangen?
+    signed_in: "Ingelogd!"
+    already_signedup: "Al aangemeld?"
+    notyet_signedup: "nog niet aangesloten?"
+    google_oauth2: "Google+"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Wachtwoord vergeten?"
+    need_confirmation: "Geen bevestigings instructies ontvangen?"
+    need_unlock: "Nog niet uw ontgrendel instructies ontvangen?"
   signup_form:
-    title: Meld je aan
-    school_name: School naam (optioneel)
-    school_address: Schooladres (optioneel)
-    address_placeholder: adres, stad, staat, zip
-    gender: Geslacht (optioneel)
-    birthday: Verjaardag (optioneel)
-    submit: Meld je aan
-    teacher: Bent u een leraar?
+    title: "Meld je aan"
+    school_name: "School naam (optioneel)"
+    school_address: "Schooladres (optioneel)"
+    address_placeholder: "adres, stad, staat, zip"
+    gender: "Geslacht (optioneel)"
+    birthday: "Verjaardag (optioneel)"
+    submit: "Meld je aan"
+    teacher: "Bent u een leraar?"
   signin_form:
-    title: Aanmelden
-    login: Email of gebruikersnaam
-    password: Wachtwoord
-    remember: Onthoud me
-    submit: Log in
+    title: "Aanmelden"
+    login: "Email of gebruikersnaam"
+    password: "Wachtwoord"
+    remember: "Onthoud me"
+    submit: "Log in"
   password:
     reset_form:
-      title: Wachtwoord vergeten?
-      email: Email-adres
-      submit: Stuur me uitleg over wachtwoord resetten
+      title: "Wachtwoord vergeten?"
+      email: "Email-adres"
+      submit: "Stuur me uitleg over wachtwoord resetten"
     change_form:
-      title: Verander je wachtwoord
-      new_password: Nieuw wachtwoord
-      confirm_password: Bevestig je nieuwe wachtwoord
-      submit: Verander mijn wachtwoord
+      title: "Verander je wachtwoord"
+      new_password: "Nieuw wachtwoord"
+      confirm_password: "Bevestig je nieuwe wachtwoord"
+      submit: "Verander mijn wachtwoord"
   welcome_email:
-    subject: Doe mee met mijn klas (op Code.org)
+    subject: "Doe mee met mijn klas (op Code.org)"
     body: |
       Klik op de link hieronder om je aan te melden voor informatica-opdrachten op Code.org (met mij als je "leraar"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: Uitnodiging verstuurd
+    invite_sent: "Uitnodiging verstuurd"
     added_teacher: "%{name} toegevoegd als je leraar"
     registered: "Je hebt je aangemeld voor %{section_name}. Log in om verder te gaan"
     error:
-      signed_in: Log uit om verder te gaan
+      signed_in: "Log uit om verder te gaan"
       username_not_found: "Gebruikersnaam %{username} niet gevonden"
       username_in_use: "%{username} wordt al gebruikt, kies een andere"
       no_teacher: "Er is niemand ingelogd met '%{teacher_email_or_code}'. Vraag ze hier aan te melden en probeer ze dan nog eens toe te voegen"
@@ -93,93 +93,93 @@
         subject: "Doe mee met een klas met %{teacher_name} op Code.org!"
   reports:
     error:
-      access_denied: Je hebt geen toegang tot de statistieken van deze persoon
+      access_denied: "Je hebt geen toegang tot de statistieken van deze persoon"
   crud:
     new_model: "Nieuw %{model}"
-    show: Toon
-    edit: Bewerk
+    show: "Toon"
+    edit: "Bewerk"
     edit_model: "Bewerk %{model}"
-    update: Bijwerken
-    destroy: Verwijderen
-    back: Terug
-    confirm: Weet je het zeker?
+    update: "Bijwerken"
+    destroy: "Verwijderen"
+    back: "Terug"
+    confirm: "Weet je het zeker?"
     created: "%{model} aangemaakt."
     updated: "%{model} bijgewerkt."
   nav:
     header:
-      finished_hoc: Ik heb mijn Uur Code afgemaakt
-      sign_in_to_save: Log in om je vooruitgang op te slaan
+      finished_hoc: "Ik heb mijn Uur Code afgemaakt"
+      sign_in_to_save: "Log in om je vooruitgang op te slaan"
     user:
-      classroom: Mijn leerlingen
+      classroom: "Mijn leerlingen"
       label: "Hallo %{username}"
-      stats: Mijn vooruitgang
-      settings: Mijn account
-      prizes: Prijzen
-      logout: Uitloggen
-      signin: Log in
-      signup: Aanmelden
+      stats: "Mijn vooruitgang"
+      settings: "Mijn account"
+      prizes: "Prijzen"
+      logout: "Uitloggen"
+      signin: "Log in"
+      signup: "Aanmelden"
     popup:
-      progress: Je vooruitgang
+      progress: "Je vooruitgang"
       lines: "Totaal aantal regels code: %{lines}"
-      close: SLUITEN
-      mastery: Begrippen
-      puzzle_map: Levels
+      close: "SLUITEN"
+      mastery: "Begrippen"
+      puzzle_map: "Levels"
       prizes: "Verzamel alle %{total_trophies} trofeeën en win prijzen!"
-      prizes_link: meer info
+      prizes_link: "meer info"
   teacher:
     title:
       one: "Je leraar is %{name}"
       other: "Je leraren:"
-    tools: Hulpmiddelen voor Leraren
+    tools: "Hulpmiddelen voor Leraren"
     students:
-      manage: Beheer student
-      add: voeg leerling toe
-    rollup: Voorgangsoverzicht
-    activity: Recente klasactiviteiten
+      manage: "Beheer student"
+      add: "voeg leerling toe"
+    rollup: "Voorgangsoverzicht"
+    activity: "Recente klasactiviteiten"
   user:
-    new_password_hint: (laat leeg als je hem niet wilt veranderen)
-    current_password_hint: (we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen)
+    new_password_hint: "(laat leeg als je hem niet wilt veranderen)"
+    current_password_hint: "(we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen)"
     cancel:
-      title: Annuleer mijn account
-      hint: Ontevreden?
-      button: Annuleer mijn account
+      title: "Annuleer mijn account"
+      hint: "Ontevreden?"
+      button: "Annuleer mijn account"
   user_level:
-    completed: Voltooid
-    tried: Probeerde
+    completed: "Voltooid"
+    tried: "Probeerde"
   user_stats:
-    recent_activity: Recente activiteiten
-    show_more: Toon meer
+    recent_activity: "Recente activiteiten"
+    show_more: "Toon meer"
   home:
     signin_message: "of als je al geregistreerd bent %{link}"
     student_reg_link: "Studenten - start hier"
     teacher_reg_link: "Leraren - start hier"
-    teacher_dashboard: Ga naar voorgangsoverzicht
+    teacher_dashboard: "Ga naar voorgangsoverzicht"
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
-    classroom: Je klas
-    student_progress: Je voortgang als een student
+    classroom: "Je klas"
+    student_progress: "Je voortgang als een student"
     student_stats: 'Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery" trofeeën.'
     student_left_off: "Waar je geëindigd bent:"
     student_finished: "Je hebt alle tutorials voltooid, claim je prijs %{prize_link} en zoek een andere klas %{online_link} of bij een %{local_school_link}"
-    local_school: lokale school
-    online: online
+    local_school: "lokale school"
+    online: "online"
   gender:
-    male: Man
-    female: Vrouw
-    none: Wil ik liever niet zeggen
+    male: "Man"
+    female: "Vrouw"
+    none: "Wil ik liever niet zeggen"
   footer:
     help_from_html: 'Ingenieurs van <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, en <a href="http://www.twitter.com">Twitter</a> hielpen mee om deze tutorial te maken.'
     art_from_html: 'Artwork van <a href="http://www.angrybirds.com">Angry Birds</a> van <a href="http://www.rovio.com">Rovio</a>, en <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> van <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Geef feedback
-    translate: Help ons om te vertalen naar uw taal
-    tos: Algemene gebruiksvoorwaarden
+    feedback: "Geef feedback"
+    translate: "Help ons om te vertalen naar uw taal"
+    tos: "Algemene gebruiksvoorwaarden"
   reference_area:
-    title: Hulp nodig?
+    title: "Hulp nodig?"
     subtitle: "Bekijk deze video's en hints"
   video:
-    tab: Video.
-    notes: Geen video? Laat notities zien.
+    tab: "Video."
+    notes: "Geen video? Laat notities zien."
     autoplay_option: "Video's automatisch afspelen"
   compatability:
-    working: We zijn bezig om ondersteuning voor je browser toe te voegen.
-    upgrade: Upgrade je browser.
+    working: "We zijn bezig om ondersteuning voor je browser toe te voegen."
+    upgrade: "Upgrade je browser."

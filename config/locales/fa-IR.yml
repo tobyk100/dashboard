@@ -2,75 +2,75 @@
   activerecord:
     attributes:
       user:
-        name: نام
-        email: رایانامه
-        username: نام کاربری
-        password: کلمه عبور
-        password_confirmation: تکرار کلمه عبور
-        current_password: کلمه عبور فعلی
-        locale: زبان
-        gender: جنسیت
-        edit_header: ویرایش اطلاعات کاربری
-  hello: سلام دنیا
+        name: "نام"
+        email: "رایانامه"
+        username: "نام کاربری"
+        password: "کلمه عبور"
+        password_confirmation: "تکرار کلمه عبور"
+        current_password: "کلمه عبور فعلی"
+        locale: "زبان"
+        gender: "جنسیت"
+        edit_header: "ویرایش اطلاعات کاربری"
+  hello: "سلام دنیا"
   welcome_back: "%{name} خوش آمدید"
   add_teacher_form:
     code_or_email:
       label: "افزودن معلم از طریق کد شناسایی یا رایانامه:"
-      placeholder: کد شناسایی (ABCDEF) یا رایانامه (teacher@school.edu)
-    submit: افزودن معلم
-  appname: Code.org
-  stage: مرحله
-  puzzle: پازل
-  trophies: جمع آوری غنائم
-  courses: دوره ها
-  of: از
-  more: بیشتر
-  less: کمتر
+      placeholder: "کد شناسایی (ABCDEF) یا رایانامه (teacher@school.edu)"
+    submit: "افزودن معلم"
+  appname: "Code.org"
+  stage: "مرحله"
+  puzzle: "پازل"
+  trophies: "جمع آوری غنائم"
+  courses: "دوره ها"
+  of: "از"
+  more: "بیشتر"
+  less: "کمتر"
   try_hoc: "برای انجام ساعت کد اینجا کلیک کنید >>"
-  try_k8intro: یا دوره مقدماتی علوم رایانه ای (15 تا 25 ساعت) را امتحان کنید
+  try_k8intro: "یا دوره مقدماتی علوم رایانه ای (15 تا 25 ساعت) را امتحان کنید"
   already_started: "قبلا انجام داده اید؟ از اینجا ادامه بدهید >>"
   demos: "مدیر: تمام نسخه های نمایشی"
-  continue: ادامه
-  prize: جایزه
+  continue: "ادامه"
+  prize: "جایزه"
   auth:
     sign_in_with: "ورود از طریق %{provider}"
-    signed_in: وارد شدید!
-    already_signedup: قبلا ثبت نام کرده اید؟
-    notyet_signedup: تا به حال شرکت نکرده اید؟
-    google_oauth2: گوگل پلاس
-    twitter: توییتر
-    facebook: فیسبوک
-    windowslive: ویندوز لایو
-    forgot_password: کلمه عبور خود را فراموش کرده اید؟
-    need_confirmation: دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟
-    need_unlock: دستورالعمل فعال سازی را دریافت نکرده اید؟
+    signed_in: "وارد شدید!"
+    already_signedup: "قبلا ثبت نام کرده اید؟"
+    notyet_signedup: "تا به حال شرکت نکرده اید؟"
+    google_oauth2: "گوگل پلاس"
+    twitter: "توییتر"
+    facebook: "فیسبوک"
+    windowslive: "ویندوز لایو"
+    forgot_password: "کلمه عبور خود را فراموش کرده اید؟"
+    need_confirmation: "دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟"
+    need_unlock: "دستورالعمل فعال سازی را دریافت نکرده اید؟"
   signup_form:
-    title: ثبت نام
-    school_name: نام مدرسه (اختیاری)
-    school_address: نشانی مدرسه (اختیاری)
-    address_placeholder: نشانی، شهر، استان، کدپستی
-    gender: جنسیت (اختیاری)
-    birthday: تاریخ تولد (اختیاری)
-    submit: ثبت نام
-    teacher: آیا شما یک معلم هستید؟
+    title: "ثبت نام"
+    school_name: "نام مدرسه (اختیاری)"
+    school_address: "نشانی مدرسه (اختیاری)"
+    address_placeholder: "نشانی، شهر، استان، کدپستی"
+    gender: "جنسیت (اختیاری)"
+    birthday: "تاریخ تولد (اختیاری)"
+    submit: "ثبت نام"
+    teacher: "آیا شما یک معلم هستید؟"
   signin_form:
-    title: ورود
-    login: رایانامه یا نام کاربری
-    password: کلمه عبور
-    remember: مرا به خاطر بسپار
-    submit: ورود
+    title: "ورود"
+    login: "رایانامه یا نام کاربری"
+    password: "کلمه عبور"
+    remember: "مرا به خاطر بسپار"
+    submit: "ورود"
   password:
     reset_form:
-      title: کلمه عبور خود را فراموش کرده اید؟
-      email: نشانی رایانامه
-      submit: دستورالعمل تنظیم مجدد کلمه عبور را برای من بفرستید
+      title: "کلمه عبور خود را فراموش کرده اید؟"
+      email: "نشانی رایانامه"
+      submit: "دستورالعمل تنظیم مجدد کلمه عبور را برای من بفرستید"
     change_form:
-      title: کلمه عبور خود را تغییر دهید
-      new_password: کلمه عبور جدید
-      confirm_password: تکرار کلمه عبور جدید
-      submit: تغییر کلمه عبور من
+      title: "کلمه عبور خود را تغییر دهید"
+      new_password: "کلمه عبور جدید"
+      confirm_password: "تکرار کلمه عبور جدید"
+      submit: "تغییر کلمه عبور من"
   welcome_email:
-    subject: عضویت در کلاس من (در Code.org)
+    subject: "عضویت در کلاس من (در Code.org)"
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -80,11 +80,11 @@
       
       %{name}
   follower:
-    invite_sent: دعوتنامه ارسال شد
+    invite_sent: "دعوتنامه ارسال شد"
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:
-      signed_in: Please signout before proceeding
+      signed_in: "Please signout before proceeding"
       username_not_found: "Username %{username} not found"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -96,91 +96,91 @@
       access_denied: "You don't have access to this person's stats"
   crud:
     new_model: "New %{model}"
-    show: نمایش
-    edit: ویرایش
+    show: "نمایش"
+    edit: "ویرایش"
     edit_model: "ویرایش %{model}"
-    update: ذخیره
-    destroy: حذف
-    back: بازگشت
-    confirm: Are you sure?
+    update: "ذخیره"
+    destroy: "حذف"
+    back: "بازگشت"
+    confirm: "Are you sure?"
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
     header:
       finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      sign_in_to_save: "Sign in to save progress"
     user:
-      classroom: دانش آموزان من
+      classroom: "دانش آموزان من"
       label: "سلام %{username}"
-      stats: پیشرفت من
-      settings: حساب کاربری من
-      prizes: جایزه ها
-      logout: خروج
-      signin: ورود
-      signup: ثبت نام
+      stats: "پیشرفت من"
+      settings: "حساب کاربری من"
+      prizes: "جایزه ها"
+      logout: "خروج"
+      signin: "ورود"
+      signup: "ثبت نام"
     popup:
-      progress: پیشرفت شما
+      progress: "پیشرفت شما"
       lines: "تعداد خطوط کد: %{lines}"
-      close: بستن
-      mastery: مفاهیم
-      puzzle_map: مراحل
+      close: "بستن"
+      mastery: "مفاهیم"
+      puzzle_map: "مراحل"
       prizes: "تمام %{total_trophies} غنیمت را جمع کنید و جایزه ها را ببرید!"
-      prizes_link: اطلاعات بیشتر
+      prizes_link: "اطلاعات بیشتر"
   teacher:
     title:
       one: "معلم شما %{name} می باشد"
       other: "معلم های شما:"
-    tools: ابزار معلم
+    tools: "ابزار معلم"
     students:
-      manage: مدیریت دانش آموزان
-      add: افزودن دانش آموزان
-    rollup: داشبورد پیشرفت
-    activity: آخرین فعالیت های کلاس
+      manage: "مدیریت دانش آموزان"
+      add: "افزودن دانش آموزان"
+    rollup: "داشبورد پیشرفت"
+    activity: "آخرین فعالیت های کلاس"
   user:
-    new_password_hint: (اگر نمی خواهید تغییر بدهید خالی بگذارید)
-    current_password_hint: (کلمه عبور برای ذخیره تغییرات لازم است)
+    new_password_hint: "(اگر نمی خواهید تغییر بدهید خالی بگذارید)"
+    current_password_hint: "(کلمه عبور برای ذخیره تغییرات لازم است)"
     cancel:
-      title: حذف حساب کاربری من
-      hint: ناراضی هستید؟
-      button: حذف حساب کاربری من
+      title: "حذف حساب کاربری من"
+      hint: "ناراضی هستید؟"
+      button: "حذف حساب کاربری من"
   user_level:
-    completed: انجام شد
-    tried: سعی شد
+    completed: "انجام شد"
+    tried: "سعی شد"
   user_stats:
-    recent_activity: فعالیت اخیر
-    show_more: نمایش بیشتر
+    recent_activity: "فعالیت اخیر"
+    show_more: "نمایش بیشتر"
   home:
     signin_message: "و یا اگر قبلا ثبت نام کرده اید %{link}"
     student_reg_link: "دانش آموزان - از اینجا آغاز کنید"
     teacher_reg_link: "معلمین - از اینجا آغاز کنید"
-    teacher_dashboard: مشاهده داشبورد پیشرفت
+    teacher_dashboard: "مشاهده داشبورد پیشرفت"
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Your classroom
-    student_progress: Your progress as a student
+    classroom: "Your classroom"
+    student_progress: "Your progress as a student"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Where you left off:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    local_school: "local school"
+    online: "online"
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: "Male"
+    female: "Female"
+    none: "Prefer not to answer"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    feedback: "Provide feedback"
+    translate: "Help us translate to your language"
+    tos: "Terms of service"
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: "Need help?"
+    subtitle: "See these videos and hints"
   video:
-    tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    tab: "Video."
+    notes: "No video? Show notes."
+    autoplay_option: "Autoplay videos"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Please upgrade your browser.
+    working: "We are working on support for your browser."
+    upgrade: "Please upgrade your browser."

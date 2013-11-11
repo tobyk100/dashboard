@@ -2,86 +2,86 @@
   activerecord:
     attributes:
       user:
-        name: Nume
-        email: E-mail
-        username: Nume de utilizator
-        password: Parolă
-        password_confirmation: Confirmarea parolei
-        current_password: Parolă curentă
-        locale: Limbă
-        gender: Sex
-        edit_header: Editează detaliile contului
-  hello: Salutare lume
+        name: "Nume"
+        email: "E-mail"
+        username: "Nume de utilizator"
+        password: "Parolă"
+        password_confirmation: "Confirmarea parolei"
+        current_password: "Parolă curentă"
+        locale: "Limbă"
+        gender: "Sex"
+        edit_header: "Editează detaliile contului"
+  hello: "Salutare lume"
   welcome_back: "Bine ai revenit, % {name}"
   add_teacher_form:
     code_or_email:
       label: "Adaugă un profesor prin cod sau adresă de email:"
-      placeholder: Code (ABCDEF) or email (teacher@school.edu)
-    submit: Adaugă profesor
-  appname: Code.org
-  stage: etapa
-  puzzle: Puzzle
-  trophies: trofee
-  courses: cursuri
-  of: de
-  more: MAI MULT
-  less: MAI PUŢIN
+      placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
+    submit: "Adaugă profesor"
+  appname: "Code.org"
+  stage: "etapa"
+  puzzle: "Puzzle"
+  trophies: "trofee"
+  courses: "cursuri"
+  of: "de"
+  more: "MAI MULT"
+  less: "MAI PUŢIN"
   try_hoc: "Încercaţi oră codul, faceţi clic aici >> "
-  try_k8intro: sau incercati K-8 Cursul nostru de introducere in stiinta calculatoarelor (15-25 ore )
+  try_k8intro: "sau incercati K-8 Cursul nostru de introducere in stiinta calculatoarelor (15-25 ore )"
   already_started: "Ai incept deja ? rezuma aici >>"
   demos: "Admin: Toate demo-uri"
-  continue: Continuaţi
-  prize: Premiul
+  continue: "Continuaţi"
+  prize: "Premiul"
   auth:
     sign_in_with: "inregistrati-va cu %{furnizor}"
-    signed_in: inregistrati-va !
-    already_signedup: Deja înscris?
-    notyet_signedup: Nu te-ai alăturat încă?
-    google_oauth2: Google+
-    twitter: twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Ai uitat parola?
-    need_confirmation: Nu ai primit confirmarea instrucţiuni?
-    need_unlock: Nu ai primit instrucţiunile de deblocare?
+    signed_in: "inregistrati-va !"
+    already_signedup: "Deja înscris?"
+    notyet_signedup: "Nu te-ai alăturat încă?"
+    google_oauth2: "Google+"
+    twitter: "twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Ai uitat parola?"
+    need_confirmation: "Nu ai primit confirmarea instrucţiuni?"
+    need_unlock: "Nu ai primit instrucţiunile de deblocare?"
   signup_form:
-    title: înscrie-te
-    school_name: Numele şcolii (opţional)
-    school_address: Adresa şcolii (opţional)
-    address_placeholder: adresă, oraş, județ, zip
-    gender: Gen (opţional)
-    birthday: Ziua de naştere (opţional)
-    submit: înscrie-te
-    teacher: Esti un profesor?
+    title: "înscrie-te"
+    school_name: "Numele şcolii (opţional)"
+    school_address: "Adresa şcolii (opţional)"
+    address_placeholder: "adresă, oraş, județ, zip"
+    gender: "Gen (opţional)"
+    birthday: "Ziua de naştere (opţional)"
+    submit: "înscrie-te"
+    teacher: "Esti un profesor?"
   signin_form:
-    title: Logheaza-te
-    login: E-mail sau nume de utilizator
-    password: Parolă
-    remember: Tine-ma minte
-    submit: Logheaza-te
+    title: "Logheaza-te"
+    login: "E-mail sau nume de utilizator"
+    password: "Parolă"
+    remember: "Tine-ma minte"
+    submit: "Logheaza-te"
   password:
     reset_form:
-      title: Ai uitat parola?
-      email: Adresa de email
-      submit: trimite-mi instructiunile cu resetare parolei
+      title: "Ai uitat parola?"
+      email: "Adresa de email"
+      submit: "trimite-mi instructiunile cu resetare parolei"
     change_form:
-      title: Schimbaţi-vă parola
-      new_password: Noua parola
-      confirm_password: Confirma noua parola
-      submit: Schimba parola
+      title: "Schimbaţi-vă parola"
+      new_password: "Noua parola"
+      confirm_password: "Confirma noua parola"
+      submit: "Schimba parola"
   welcome_email:
-    subject: Alăturaţi-vă clasei mele (pe Code.org)
+    subject: "Alăturaţi-vă clasei mele (pe Code.org)"
     body: |
       Faceţi clic pe linkul de mai jos pentru a vă înscrie pentru tutorialele de stiinta calculatoarelor  pe Code.org (cu mine ca "Profesorul" tau):
        % {link}
        Tutoriale sunt distractive, implica vizualizarea, şi învaţă conceptele de bază din informatică folosind   simple, ghiduri, jocuri-ca experienta . Invatati sa codati de la  Bill Gates, Mark Zuckerberg,  păsări şi plante Angry-Birds si Planeta -Zombie! :-)
        % {name}
   follower:
-    invite_sent: trimite invitatia
+    invite_sent: "trimite invitatia"
     added_teacher: "% {nume}  adăugat ca si  profesorul tău"
     registered: "V-aţi înregistrat pentru % {section_name}. Vă rugăm să faceţi sign in pentru a continua"
     error:
-      signed_in: Vă rugăm să va delogati înainte de a continua
+      signed_in: "Vă rugăm să va delogati înainte de a continua"
       username_not_found: "Uutilizatorul % {utilizatorul} nu a fost găsit"
       username_in_use: "% {username} este deja luat, vă rugăm să alegeţi un altul"
       no_teacher: "Nu am putut gasi pe nimeni logat cu  '%{teacher_email_or_code}'.Va rugam sa le cereti sa se logheze aici si sa incercati sa-i mai   adaugati  inca o data"
@@ -90,62 +90,62 @@
         subject: "Alăturaţi-vă  clasei cu % {teacher_name} la Code.org!"
   reports:
     error:
-      access_denied: Nu aveţi acces la status-ul acestei persoane
+      access_denied: "Nu aveţi acces la status-ul acestei persoane"
   crud:
     new_model: "Nou % {modelul}"
-    show: Arată
-    edit: Editare
+    show: "Arată"
+    edit: "Editare"
     edit_model: "Editare % {Modelul}"
-    update: Actualizare
-    destroy: Distruge
-    back: Înapoi
-    confirm: eşti sigur?
+    update: "Actualizare"
+    destroy: "Distruge"
+    back: "Înapoi"
+    confirm: "eşti sigur?"
     created: "% {modelul} a fost creat cu succes."
     updated: "% {modelul} a fost actualizat cu succes."
   nav:
     header:
-      finished_hoc: Am terminat ora mea de cod
-      sign_in_to_save: Conectaţi-vă pentru a salva progresul
+      finished_hoc: "Am terminat ora mea de cod"
+      sign_in_to_save: "Conectaţi-vă pentru a salva progresul"
     user:
-      classroom: Elevii mei
+      classroom: "Elevii mei"
       label: "Salut % {username}"
-      stats: Progresul meu
-      settings: Contul meu
-      prizes: Premii
-      logout: Deloghează
-      signin: Logheaza-te
-      signup: înscrie-te
+      stats: "Progresul meu"
+      settings: "Contul meu"
+      prizes: "Premii"
+      logout: "Deloghează"
+      signin: "Logheaza-te"
+      signup: "înscrie-te"
     popup:
-      progress: Progresul tau
+      progress: "Progresul tau"
       lines: "Total  linii de cod: % {linii}"
-      close: ÎNCHIDE
-      mastery: Concepte
-      puzzle_map: Etapele
+      close: "ÎNCHIDE"
+      mastery: "Concepte"
+      puzzle_map: "Etapele"
       prizes: "Colecteaza toate % {trofeele_totale} trofeele si castiga premii!"
-      prizes_link: mai multe informaţii
+      prizes_link: "mai multe informaţii"
   teacher:
     title:
       one: "Profesorul tău este % {nume}"
       other: "Profesorii dumneavoastră:"
-    tools: Instrumente de profesor
+    tools: "Instrumente de profesor"
     students:
-      manage: Studentii implicati in proiect
-      add: Adauga elevi
-    rollup: Progres tabloul de bord
-    activity: Activitatea recentă a clasei
+      manage: "Studentii implicati in proiect"
+      add: "Adauga elevi"
+    rollup: "Progres tabloul de bord"
+    activity: "Activitatea recentă a clasei"
   user:
-    new_password_hint: (lăsaţi necompletat dacă nu doriţi să-l schimbi)
-    current_password_hint: (avem nevoie de parola pentru a confirma modificările)
+    new_password_hint: "(lăsaţi necompletat dacă nu doriţi să-l schimbi)"
+    current_password_hint: "(avem nevoie de parola pentru a confirma modificările)"
     cancel:
-      title: anuleaza-mi contul
-      hint: Nefericit?
-      button: anuleaza-mi contul
+      title: "anuleaza-mi contul"
+      hint: "Nefericit?"
+      button: "anuleaza-mi contul"
   user_level:
-    completed: Finalizat
-    tried: Încercat
+    completed: "Finalizat"
+    tried: "Încercat"
   user_stats:
     recent_activity: "Activitate recenta "
-    show_more: Arată mai multe
+    show_more: "Arată mai multe"
   home:
     signin_message: "sau dacă sunteţi deja înregistrat % {link}"
     student_reg_link: "Studenţii - start aici"
@@ -153,30 +153,30 @@
     teacher_dashboard: "A se vedea progresul  pe tabloul de bord"
     teacher_student_count: "Aveţi % {count} studenţi."
     teacher_averages: 'In medie studentii dumneavoastra au castigat %{trofee_medii} in loc {trofee_maxime} "Conceptul Master" trofee.'
-    classroom: Clasă dvs.
-    student_progress: Progresul tău ca un student
+    classroom: "Clasă dvs."
+    student_progress: "Progresul tău ca un student"
     student_stats: 'Ai câştigat % % {trophy_count}in loc de{trophy_max} "Conceptul stăpânirea" trofee.'
     student_left_off: "Unde ati ramas :"
     student_finished: "Ai completat toate tutoriale, pretindeti al  dumneavoastră % {prize_link} si alege o altă clasă % {online_link} sau la un % {local_school_link}"
-    local_school: şcoala locală
-    online: online
+    local_school: "şcoala locală"
+    online: "online"
   gender:
-    male: De sex masculin
-    female: De sex feminin
-    none: Prefer să nu răspund
+    male: "De sex masculin"
+    female: "De sex feminin"
+    none: "Prefer să nu răspund"
   footer:
     help_from_html: 'Ingineri de la  <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> ne-au ajutat sa cream acest tutorial.'
     art_from_html: 'opera de la  <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: oferiti feedback
+    feedback: "oferiti feedback"
     translate: "Ajuta-ne sa  traduce în limba dumneavoastră"
-    tos: Conditii de utilizare
+    tos: "Conditii de utilizare"
   reference_area:
-    title: ai nevoie de ajutor?
-    subtitle: Vezi aceste clipuri şi sugestii
+    title: "ai nevoie de ajutor?"
+    subtitle: "Vezi aceste clipuri şi sugestii"
   video:
-    tab: video.
-    notes: Nici un video? Arată Note.
-    autoplay_option: AutoPlay videoclipuri
+    tab: "video."
+    notes: "Nici un video? Arată Note."
+    autoplay_option: "AutoPlay videoclipuri"
   compatability:
-    working: Lucram la un suport pentru browser-ul dumneavoastra.
-    upgrade: Vă rugăm să actualizaţi browser-ul.
+    working: "Lucram la un suport pentru browser-ul dumneavoastra."
+    upgrade: "Vă rugăm să actualizaţi browser-ul."

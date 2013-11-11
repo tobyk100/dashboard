@@ -2,86 +2,86 @@
   activerecord:
     attributes:
       user:
-        name: İsim
-        email: E-Posta
-        username: Kullanıcı Adı
-        password: Şifre
-        password_confirmation: Şifre Doğrulama
-        current_password: Geçerli Şifre
-        locale: Dil
-        gender: Cinsiyet
-        edit_header: Hesap Bilgilerini Düzenle
-  hello: Merhaba Dünya
+        name: "İsim"
+        email: "E-Posta"
+        username: "Kullanıcı Adı"
+        password: "Şifre"
+        password_confirmation: "Şifre Doğrulama"
+        current_password: "Geçerli Şifre"
+        locale: "Dil"
+        gender: "Cinsiyet"
+        edit_header: "Hesap Bilgilerini Düzenle"
+  hello: "Merhaba Dünya"
   welcome_back: "Hoş geldiniz % {name}"
   add_teacher_form:
     code_or_email:
       label: "Koda veya e-posta adresine göre bir öğretmen ekleyin:"
-      placeholder: Kod (ABCDEF) veya e-posta (teacher@school.edu)
-    submit: Öğretmen Ekle
-  appname: Code.org
-  stage: Kademe
-  puzzle: Bulmaca
-  trophies: Kupalar
-  courses: Kurslar
-  of: /
-  more: DAHA FAZLA
-  less: DAHA AZ
+      placeholder: "Kod (ABCDEF) veya e-posta (teacher@school.edu)"
+    submit: "Öğretmen Ekle"
+  appname: "Code.org"
+  stage: "Kademe"
+  puzzle: "Bulmaca"
+  trophies: "Kupalar"
+  courses: "Kurslar"
+  of: "/"
+  more: "DAHA FAZLA"
+  less: "DAHA AZ"
   try_hoc: "Kod Saati'ni denemek için buraya tıklayın >> "
-  try_k8intro: Veya, K-8 Bilgisayar Bilimlerine Giriş Kursumuzu deneyin (15-25 saat)
+  try_k8intro: "Veya, K-8 Bilgisayar Bilimlerine Giriş Kursumuzu deneyin (15-25 saat)"
   already_started: "Zaten başladınız mı? Buradan devam edin >> "
   demos: "Yönetici: Tüm Demolar"
-  continue: Devam
-  prize: ödül
+  continue: "Devam"
+  prize: "ödül"
   auth:
     sign_in_with: "%{provider} ile giriş yapın"
-    signed_in: Giriş yapıldı!
-    already_signedup: Zaten kayıtlı mısınız?
-    notyet_signedup: Henüz kaydolmadınız mı?
-    google_oauth2: Google +
-    twitter: Twitter
-    facebook: Facebook
-    windowslive: Windows Live
-    forgot_password: Şifrenizi mi unuttunuz?
-    need_confirmation: Onay talimatlarını almadınız mı?
-    need_unlock: Kilit açma talimatlarını almadınız mı?
+    signed_in: "Giriş yapıldı!"
+    already_signedup: "Zaten kayıtlı mısınız?"
+    notyet_signedup: "Henüz kaydolmadınız mı?"
+    google_oauth2: "Google +"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    windowslive: "Windows Live"
+    forgot_password: "Şifrenizi mi unuttunuz?"
+    need_confirmation: "Onay talimatlarını almadınız mı?"
+    need_unlock: "Kilit açma talimatlarını almadınız mı?"
   signup_form:
-    title: Kaydol
-    school_name: Okul Adı (isteğe bağlı)
-    school_address: Okul Adresi (isteğe bağlı)
-    address_placeholder: adres, şehir, eyalet, posta kodu
-    gender: Cinsiyet (isteğe bağlı)
-    birthday: Doğum Günü (isteğe bağlı)
-    submit: Kaydol
-    teacher: Öğretmen misini?
+    title: "Kaydol"
+    school_name: "Okul Adı (isteğe bağlı)"
+    school_address: "Okul Adresi (isteğe bağlı)"
+    address_placeholder: "adres, şehir, eyalet, posta kodu"
+    gender: "Cinsiyet (isteğe bağlı)"
+    birthday: "Doğum Günü (isteğe bağlı)"
+    submit: "Kaydol"
+    teacher: "Öğretmen misini?"
   signin_form:
-    title: Giriş Yap
-    login: Kullanıcı adınız veya e-posta
-    password: Şifre
-    remember: Beni hatırla
-    submit: Giriş Yap
+    title: "Giriş Yap"
+    login: "Kullanıcı adınız veya e-posta"
+    password: "Şifre"
+    remember: "Beni hatırla"
+    submit: "Giriş Yap"
   password:
     reset_form:
-      title: Şifrenizi mi unuttunuz?
-      email: E-posta adresi
-      submit: Şifre sıfırlama talimatlarını gönder
+      title: "Şifrenizi mi unuttunuz?"
+      email: "E-posta adresi"
+      submit: "Şifre sıfırlama talimatlarını gönder"
     change_form:
-      title: Şifrenizi değiştirin
-      new_password: Yeni şifre
-      confirm_password: Yeni şifreyi doğrula
-      submit: Şifremi değiştir
+      title: "Şifrenizi değiştirin"
+      new_password: "Yeni şifre"
+      confirm_password: "Yeni şifreyi doğrula"
+      submit: "Şifremi değiştir"
   welcome_email:
-    subject: Sınıf katılımım (Code.org üzerinde)
+    subject: "Sınıf katılımım (Code.org üzerinde)"
     body: |
       Code.org taki bilgisayar bilimleri öğretici bölümlerine kayıt olmak için aşağıda ki link'e tıklayın(sizin "öğretmeniniz" olarak benle)
       %{link}
       Öğretici bölümler eğlenceli,görsel olarak alımlı,ve bilgisayar biliminin temel konseptini basit,yönlendirerek,oyun-benzeri tecrübeleri kullanarak öğretir.Kodlamayı Bill Gates'den,Mark Zuckerberg'den,Angry Birds'den, ve Bitkilere karşı Zombiler'den öğrenin! :-)
       %{name}
   follower:
-    invite_sent: Davetiye gönderildi
+    invite_sent: "Davetiye gönderildi"
     added_teacher: "%{name} öğretmeniniz olarak eklendi"
     registered: "%{section_name} için kaydoldunuz. Devam etmek için lütfen giriş yapınız"
     error:
-      signed_in: Devam etmeden önce lütfen çıkış yapınız
+      signed_in: "Devam etmeden önce lütfen çıkış yapınız"
       username_not_found: "%{username} kullanıcı adı bulunamadı"
       username_in_use: "%{username} önceden alınmış, lütfen başka bir tane seçiniz"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -90,94 +90,94 @@
         subject: "Join a class with %{teacher_name} at Code.org!"
   reports:
     error:
-      access_denied: Bu kişinin istatistiklerine erişemezsiniz
+      access_denied: "Bu kişinin istatistiklerine erişemezsiniz"
   crud:
     new_model: "Yeni %{model}"
-    show: Göster
-    edit: Düzenle
+    show: "Göster"
+    edit: "Düzenle"
     edit_model: "%{model} düzenle"
-    update: Güncelle
-    destroy: Yok et
-    back: Geri
-    confirm: Emin misiniz?
+    update: "Güncelle"
+    destroy: "Yok et"
+    back: "Geri"
+    confirm: "Emin misiniz?"
     created: "%{model} başarılı bir şekilde oluşturuldu."
     updated: "%{model} başarılı bir şekilde güncellendi."
   nav:
     header:
       finished_hoc: "Kod Saati'ni tamamladım"
-      sign_in_to_save: İlerleme kaydetmek için oturum açın
+      sign_in_to_save: "İlerleme kaydetmek için oturum açın"
     user:
-      classroom: Öğrencilerim
+      classroom: "Öğrencilerim"
       label: "Merhaba % {username}"
-      stats: İlerlemem
-      settings: Hesabım
-      prizes: Ödüller
-      logout: Çıkış Yap
-      signin: Giriş Yap
-      signup: Kaydol
+      stats: "İlerlemem"
+      settings: "Hesabım"
+      prizes: "Ödüller"
+      logout: "Çıkış Yap"
+      signin: "Giriş Yap"
+      signup: "Kaydol"
     popup:
-      progress: İlerlemeniz
+      progress: "İlerlemeniz"
       lines: "Toplam kod satırı: %{lines}"
-      close: KAPAT
-      mastery: Kavramlar
-      puzzle_map: Kademeler
+      close: "KAPAT"
+      mastery: "Kavramlar"
+      puzzle_map: "Kademeler"
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: daha fazla bilgi
+      prizes_link: "daha fazla bilgi"
   teacher:
     title:
       one: "%{name} sizin öğretmeninizdir"
       other: "Öğretmeniniz:"
-    tools: Öğretmen Araçları
+    tools: "Öğretmen Araçları"
     students:
-      manage: Öğrencileri yönet
-      add: Öğrenciler Ekle
-    rollup: İlerleme Kontrol Paneli
-    activity: Recent class activity
+      manage: "Öğrencileri yönet"
+      add: "Öğrenciler Ekle"
+    rollup: "İlerleme Kontrol Paneli"
+    activity: "Recent class activity"
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: (we need your current password to confirm your changes)
+    current_password_hint: "(we need your current password to confirm your changes)"
     cancel:
-      title: Hesabımı iptal et
-      hint: Unhappy?
-      button: Hesabımı iptal et
+      title: "Hesabımı iptal et"
+      hint: "Unhappy?"
+      button: "Hesabımı iptal et"
   user_level:
-    completed: Tamamlandı
-    tried: Tried
+    completed: "Tamamlandı"
+    tried: "Tried"
   user_stats:
-    recent_activity: Son etkinlik
-    show_more: Show more
+    recent_activity: "Son etkinlik"
+    show_more: "Show more"
   home:
     signin_message: "or if you're already registered %{link}"
     student_reg_link: "Öğrenciler - buradan başlayın"
     teacher_reg_link: "Öğretmenler - buradan başlayın"
-    teacher_dashboard: See progress dashboard
+    teacher_dashboard: "See progress dashboard"
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: Sınıfınız
-    student_progress: Your progress as a student
+    classroom: "Sınıfınız"
+    student_progress: "Your progress as a student"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Where you left off:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    local_school: "local school"
+    online: "online"
   gender:
-    male: Erkek
-    female: Kadın
-    none: Prefer not to answer
+    male: "Erkek"
+    female: "Kadın"
+    none: "Prefer not to answer"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    feedback: "Provide feedback"
+    translate: "Help us translate to your language"
+    tos: "Terms of service"
   reference_area:
-    title: Yardım ister misiniz?
-    subtitle: See these videos and hints
+    title: "Yardım ister misiniz?"
+    subtitle: "See these videos and hints"
   video:
-    tab: Video.
-    notes: Video yok? Notları göster.
-    autoplay_option: Autoplay videos
+    tab: "Video."
+    notes: "Video yok? Notları göster."
+    autoplay_option: "Autoplay videos"
   compatability:
-    working: We are working on support for your browser.
-    upgrade: Lütfen tarayıcınızı yükseltin.
+    working: "We are working on support for your browser."
+    upgrade: "Lütfen tarayıcınızı yükseltin."
