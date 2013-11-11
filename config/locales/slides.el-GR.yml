@@ -3,28 +3,28 @@
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: 'Καλώς ήρθατε στην 1η  συνεδρία που αφορά στη δράση "One Hour of Code"! Ας ξεκινήσουμε παίρνοντας μια πρώτη γεύση  προγραμματισμού.'
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Θα χρησιμοποιήσουμε το  Blockly, μια οπτική γλώσσα προγραμματισμού στην οποία προγραμματίζετε σύροντας και αποθέτοντας τμήματα (μπλοκ) που συνθέτουν τον κώδικα του προγράμματός σας."
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: Στα περισσότερα προγράμματα πρέπει κάποιος να πληκτρολογήσει τον κώδικα του προγράμματος, αλλά στο Blockly ο προγραμματισμός είναι οπτικός. Κάθε μπλοκ αντιστοιχεί σε μια "πραγματική" γραμμή κώδικα .
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: Θα μάθετε τις βασικές αρχές της επιστήμης των υπολογιστών, έννοιες που χρησιμοποιούνται από την κατασκευή εφαρμογών για υπολογιστές μέχρι τον έλεγχο ρομπότ για την εξερεύνηση πλανητών.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: Το πρόγραμμα είναι ένα σύνολο οδηγιών που πρέπει να εκτελέσει ο υπολογιστή.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: "Ο στόχος του πρώτου προγράμματος είναι να καθοδηγήσει το πουλί (Angry Bird)  ώστε να κινηθεί μέσα στο λαβύρινθο και να πιάσει το πράσινο γουρουνάκι."
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: Στο αριστερό μέρος της οθόνης εμφανίζεται ο λαβύρινθος μέσα στον οποίο εκτελείται το πρόγραμμα. Οι εντολές για κάθε puzzle εμφανίζονται κάτω από το λαβύρινθο.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: Στη μεσαία εργαλειοθήκη εμφανίζονται οι εντολές που μπορεί να εκτελέσει το πουλάκι. Μπορείτε να χρησιμοποιήσετε αυτές τις εντολές για να κατασκευάσετε το δικό σας πρόγραμμα που λύνει το γρίφο.
       9:
         image: notes/hoc1_9.png
         text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."

@@ -41,7 +41,7 @@
         maze_2_3: كيف يمكنني الوصول الى الخنزير الأخضر؟ (احترس من المتفجرات)
         maze_2_4: "آاااخ! اكتب لي برنامجًا يساعدني على الوصول الى الخنزير الأخضر مع الاحتراس من المتفجرات. "
         maze_2_5: "هناك طريقة تمكنني من الحصول على الخنازير الخضراء عن طريق أمرين فقط ،فهل  يمكنك معرفتها؟"
-        maze_2_6: Try to get me to the green pig using only three blocks.
+        maze_2_6: أرجوك حاول أن توصلني لمطعم "جرين بيج" ، فهو يبعد عن ثلاث مباني فقط.
         maze_2_7: Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.
         maze_2_8: 'لحل هذا اللغز يجب عليك ان تستخدم قطعة " أكرر حتى " مع وضع ثلاث قطع داخلها والتي هي : تقدم , تقدم , اتجه .'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
@@ -57,7 +57,7 @@
         maze_2_19: Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length.
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: Make a square using only 3 blocks.
+        turtle_1_3: اصنع مربع بإستخدام 3 قطع فقط.
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: Now, for practice, draw a triangle and then a square to draw an envelope.

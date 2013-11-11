@@ -72,26 +72,26 @@
   welcome_email:
     subject: أنضم إلى صفي (في Code.org)
     body: |
-      انقر على الرابط أدناه للتسجيل في دروس علوم الحاسب في Code.org (معي كـ "معلمك"): 
+      انقر على الرابط أدناه للتسجيل في دروس علم الكومبيوتر في Code.org ( مثل "معلمك الخاص"): 
       
       %{link}
       
       
-      الدروس ممتعة، المتعة البصرية، وتعلم المفاهيم الأساسية لعلوم الحاسب الآلي باستخدام تجربة بسيطة، المصحوبة بمرشدين، والشبيهة بالألعاب. تعلم البرمجة من بيل جيتس ومارك زوكربيرج، الطيور الغاضبة والنباتات ضد الزومبيز! :-)
+      الدروس تجلب لكم المتعة لانها تعمل بشكل مرئي وتقدم لكم مجموعة من المفاهيم الأساسية لعلم الكومبيوتر الآلي باستخدام التبسيط  والارشادات. تعلم البرمجة من بيل جيتس ومارك زوكربيرج، الطيور الغاضبة والنباتات ضد الزومبيز! :-)
       
       %{name}
   follower:
     invite_sent: تم إرسال الدعوة
-    added_teacher: "%{name} قام بإضافتك كـ معلمه الخاص"
+    added_teacher: "%{name} تم اضافتك كمعلم"
     registered: "لقد قمت بتسجيل %{section_name}. الرجاء تسجيل الدخول للاستمرار"
     error:
       signed_in: من فضلك قم بتسجيل الخروج قبل المتابعة
-      username_not_found: "لم يتم العثور على اسم المستخدم %{username}"
-      username_in_use: "%{username} مأخود، الرجاء اخنر واحدا آخر من فضلك"
-      no_teacher: "تعذر العثور على أي شخص مسجل ب  '%{teacher_email_or_code}'. من فضلك أطلب منه التسجيل هنا وثم محاولة إضافته مرة أخرى"
+      username_not_found: "اسم المستخدم %{username} غير موجود"
+      username_in_use: "%{username} مستخدم، الرجاء اختر واحدا آخر من فضلك"
+      no_teacher: "تعذر العثور على أي شخص مسجل بـ  '%{teacher_email_or_code}'. من فضلك أطلب منهم التسجيل هنا و من ثم محاولة إضافتهم مرة أخرى"
     mail:
       invite_student:
-        subject: "الانضمام إلى فصل %{teacher_name} في Code.org!"
+        subject: "أنضم إلى الصف مع %{teacher_name} في Code.org!"
   reports:
     error:
       access_denied: لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم
@@ -108,12 +108,12 @@
     updated: "تم بنجاح تحديث %{model}."
   nav:
     header:
-      finished_hoc: لقد انهيت ساعة الكود
-      sign_in_to_save: قم بتسجيل الدخول حفظ التقدم
+      finished_hoc: "لقد انهيت ساعة من البرمجة "
+      sign_in_to_save: قم بتسجيل الدخول لحفظ التقدم
     user:
       classroom: طلابي
       label: "مرحباً %{username}"
-      stats: التقدم المحرز في بلدي
+      stats: أنجازاتك
       settings: حسابي
       prizes: الجوائز
       logout: تسجيل الخروج
@@ -121,66 +121,66 @@
       signup: تسجيل
     popup:
       progress: إنجازاتك
-      lines: "عدد أسطر الكود البرمجية %{lines}"
+      lines: "عدد أسطر الكود البرمجي : %{lines}"
       close: إغلاق
       mastery: مفاهيم
       puzzle_map: مراحل
-      prizes: "اجمع الجوائز ال %{total_trophies} و فز بجوائز قيمة!"
+      prizes: "اجمع الجوائز الـ %{total_trophies} و فز بجوائز قيمة!"
       prizes_link: مزيد من المعلومات
   teacher:
     title:
-      one: "المعلم الخاص بك هو %{name}"
-      other: "المعلمين الخاصة بك:"
+      one: "معلمك هو %{name}"
+      other: "معلميك:"
     tools: أدوات المعلم
     students:
       manage: إدارة الطلاب
-      add: إضافة الطلاب
+      add: إضف الطلاب
     rollup: لوحة معلومات التقدم
-    activity: آخر نشاطات الفصل
+    activity: آخر نشاطات الصف
   user:
     new_password_hint: (اتركه فارغاً إذا كنت لا ترغب في تغييره)
-    current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بك)
+    current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بحسابك)
     cancel:
       title: إلغاء حسابي
-      hint: غير راض؟
+      hint: غير سعيد؟
       button: إلغاء حسابي
   user_level:
-    completed: مكتمل
-    tried: متعب
+    completed: أكمل
+    tried: محاول
   user_stats:
     recent_activity: آخر النشاطات
     show_more: إظهار المزيد
   home:
     signin_message: "أو إذا كنت مسجلا مسبقا %{link}"
     student_reg_link: "الطلاب - أبدأ من هنا"
-    teacher_reg_link: "المعلمون - أبدأ من هنا"
-    teacher_dashboard: الق نظرة على لوحة معلومات التقدم
+    teacher_reg_link: "المعلمين - أبدأ من هنا"
+    teacher_dashboard: انظر على لوحة معلومات التقدم
     teacher_student_count: "لديك %{count} طلاب."
-    teacher_averages: 'في المتوسط فاز طلابك ب %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
-    classroom: الفصول الدراسية الخاصة بك
-    student_progress: التقدم المحرز الخاص بك كطالب
-    student_stats: 'لقد فزت  ب %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".'
-    student_left_off: "حيث كنت آخر مرة:"
-    student_finished: "لقد أتممت جميع الدروس, استلم %{prize_link} قم باختيارفصل آخر %{online_link} أو في %{local_school_link}"
+    teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
+    classroom: فصلك الدراسي
+    student_progress: تقدمك كطالب
+    student_stats: 'لقد حصلت %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".'
+    student_left_off: "اين كنت آخر مرة:"
+    student_finished: "لقد أتممت جميع الدروس, اطلب %{prize_link} وقم باختيار صف آخر %{online_link} أو في %{local_school_link}"
     local_school: مدرسة محلية
     online: متصل
   gender:
-    male: أنثى
+    male: ذكر
     female: أنثى
     none: أفضل بعدم الإجابة
   footer:
     help_from_html: 'مهندسون من <a href="http://www.google.com"> جوجل</a> و <a href="http://www.microsoft.com"> مايكروسوفت</a> و <a href="http://www.facebook.com"> فيس بوك</a> و <a href="http://www.twitter.com"> تويتر</a> ساعدوا في إنشاء هذا البرنامج التعليمي.'
     art_from_html: 'الأعمال الفنية من <a href="http://www.angrybirds.com"> Angry Birds</a> ل <a href="http://www.rovio.com"> Rovio</a>، و <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies </a> <a href="http://www.popcap.com"> PopCap Games</a>.'
-    feedback: توفير التغذية المرتدة
-    translate: ساعدنا على ترجمة اللغة الخاصة بك
+    feedback: توفير التغذية الرجعية
+    translate: ساعدنا على ترجمة لغتك
     tos: شروط الخدمة
   reference_area:
     title: بحاجة إلى مساعدة؟
-    subtitle: مشاهدة أشرطة الفيديو هذه وتلميحات
+    subtitle: مشاهدة اشرطة الفيديو والتلميحات
   video:
     tab: فيديو.
     notes: لا يوجد فيديو؟ اظهر الملاحظات.
-    autoplay_option: "'تشغيل تلقائي' أشرطة الفيديو"
+    autoplay_option: تشغيل تلقائي لاشرطة الفيديو
   compatability:
     working: نحن نعمل على دعم متصفح الأنترنت الخاص بك.
     upgrade: من فضلك قم بتحديث متصفح الأنترنت الخاص بك.

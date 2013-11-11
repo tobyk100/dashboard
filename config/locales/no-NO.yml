@@ -35,7 +35,7 @@
   auth:
     sign_in_with: "Logg inn med %{provider}"
     signed_in: Logget inn!
-    already_signedup: Allerede registrert?
+    already_signedup: Allerede meldt på?
     notyet_signedup: Er du blitt medlem ennå?
     google_oauth2: Google+
     twitter: Twitter
@@ -45,76 +45,76 @@
     need_confirmation: Mottok du ikke instruksjoner om hvordan du bekrefter?
     need_unlock: Mottok du ingen instruksjoner om hvordan du låser opp?
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: Meld deg på
+    school_name: Skolens navn (valgfritt)
+    school_address: Skolens adresse (valgfritt)
+    address_placeholder: adresse, by, fylke, postkode
+    gender: Kjønn (valgfritt)
+    birthday: Bursdag (valgfritt)
+    submit: Meld deg på
+    teacher: Er du en lærer?
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: Logg inn
+    login: E-post eller brukernavn
+    password: Passord
+    remember: Husk meg
+    submit: Logg inn
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: Har du glemt ditt passord?
+      email: E-postadresse
+      submit: Send meg instruksjoner om å tilbakestille passordet
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: Endre ditt passord
+      new_password: Nytt passord
+      confirm_password: Bekreft nytt passord
+      submit: Endre mitt passord
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: Delta i min klasse (på Code.org)
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Klikk linken under for å melde deg på informatikk kurs på Code.org (med meg som din "lærer"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Kursene er morsomme, visuelt stimulerende og lærer deg de grunnleggende koseptene innenfor informatikk ved å benytte en enkel, spill-lignende opplevelse som du loses igjennom. Lær å kode av Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :)
       
       %{name}
   follower:
-    invite_sent: Invite sent
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: Invitasjon er sendt
+    added_teacher: "%{name} er lagt til som din lærer"
+    registered: "Du er blitt meldt på %{section_name}. Vennligst logg inn for å fortsette"
     error:
-      signed_in: Please signout before proceeding
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: Vennligst logg ut før du fortsetter
+      username_not_found: "Brukernavnet %{username} finnes ikke"
+      username_in_use: "%{username} er allerede tatt. Vennligst velg et annet"
+      no_teacher: "Kan ikke finne noen som er logget på med '%{teacher_email_or_code}'. Vennligst be dem melde seg på og forsøk deretter å legge dem til på nytt"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Bli med i en av klassene til %{teacher_name} på Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: Du har ikke tilgang til denne personens statistikk
   crud:
-    new_model: "New %{model}"
-    show: Show
-    edit: Edit
-    edit_model: "Edit %{model}"
-    update: Update
-    destroy: Destroy
-    back: Back
-    confirm: Are you sure?
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Ny %{model}"
+    show: Vis
+    edit: Rediger
+    edit_model: "Rediger %{model}"
+    update: Oppdater
+    destroy: Ødelegg
+    back: Tilbake
+    confirm: Er du sikker?
+    created: "%{model} ble opprettet."
+    updated: "%{model} ble oppdatert."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: Sign in to save progress
+      finished_hoc: Jeg har fullført min Hour of Code
+      sign_in_to_save: Logg inn for å lagre fremdrift
     user:
-      classroom: My students
-      label: "Hi %{username}"
-      stats: My progress
-      settings: My account
-      prizes: Prizes
+      classroom: Mine elever
+      label: "Hei %{username}"
+      stats: Min fremdrift
+      settings: Min konto
+      prizes: Premier
       logout: Sign out
       signin: Sign in
       signup: Sign up
@@ -157,30 +157,29 @@
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
     classroom: Your classroom
-    student_progress: Your progress as a student
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: local school
-    online: online
+    student_progress: Fremdriften din som student
+    student_stats: 'Du har tjent %{trophy_count} av maks %{trophy_max} "Konseptmestring" trofeer.'
+    student_left_off: "Der du slapp:"
+    student_finished: "Du har fullført alle opplæringsprogrammer. Krev din %{prize_link} og velg en annen klasse %{online_link} eller på %{local_school_link}"
+    local_school: den lokale skolen
+    online: på nett
   gender:
-    male: Male
-    female: Female
-    none: Prefer not to answer
+    male: Mann
+    female: Kvinne
+    none: Foretrekker å ikke svare
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: Provide feedback
-    translate: Help us translate to your language
-    tos: Terms of service
+    help_from_html: 'Ingeniører fra <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> og <a href="http://www.twitter.com">Twitter</a> har bidratt til å skape dette opplæringsprogrammet.'
+    art_from_html: 'Kunstverk fra <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: Gi tilbakemelding
+    translate: Hjelpe oss med å oversette til ditt språk
+    tos: Bruksvilkår
   reference_area:
-    title: Need help?
-    subtitle: See these videos and hints
+    title: Trenger du hjelp?
+    subtitle: Se disse videoene og tipsene
   video:
     tab: Video.
-    notes: No video? Show notes.
-    autoplay_option: Autoplay videos
+    notes: Ingen video? Vis notater.
+    autoplay_option: Autovisning av videoer
   compatability:
     working: We are working on support for your browser.
     upgrade: Please upgrade your browser.

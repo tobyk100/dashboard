@@ -30,10 +30,10 @@
         text: على الجانب الايمن توجد مساحة عمل بيضاء حيث يتم عليها سحب البلوكات من شريط الادوات من اجل بناء برنامجك . لحذف البلوك الغير مرغوب , عليك القيام بسحبه الى سلة المهملات الواقعة في الزاوية.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
+        text: 'كل قطعة تحتوي على إرشاد واحد. إذا سحبت قطعة "move forward" في مساحة العمل خاصتك وضغطت على  "Run Program" ، سوف تتحرك العصفورة مسافة واحدة في المتاهة.'
       11:
         image: notes/hoc1_11.png
-        text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.
+        text: للقيام بأداء واحد أو أكثر، يمكنك سحب الكثير من القطع إلى مساحة العمل خاصتك وربطهم معاً. سوف تقوم الطيور بنفيذ الأوامر من الأعلى إلى الأسفل.
       12:
         image: notes/hoc1_12.png
         text: If you run a program and want to fix it and try again, press the "Reset" button.

@@ -42,35 +42,35 @@
     facebook: Facebook
     windowslive: Windows Live
     forgot_password: パスワードをお忘れですか？
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_confirmation: 確認イーメイルが来ませんでしたか？
+    need_unlock: ロックを解除をするインストラクションとど来ましたか？
   signup_form:
-    title: Sign up
-    school_name: School Name (optional)
-    school_address: School Address (optional)
-    address_placeholder: address, city, state, zip
-    gender: Gender (optional)
-    birthday: Birthday (optional)
-    submit: Sign up
-    teacher: Are you a teacher?
+    title: 入会
+    school_name: 学校名 (省略可能)
+    school_address: 学校の住所（オプションです）
+    address_placeholder: 住所、市、県、郵便番号
+    gender: 性別 （オプションです）
+    birthday: 誕生日 (optionalです)
+    submit: 入会
+    teacher: あなたは教師ですか？
   signin_form:
-    title: Sign in
-    login: Email or username
-    password: Password
-    remember: Remember me
-    submit: Sign in
+    title: ログイン
+    login: メールまたはユーザー名
+    password: パスワード
+    remember: ログインを覚えてください。
+    submit: ログイン
   password:
     reset_form:
-      title: Forgot your password?
-      email: Email address
-      submit: Send me reset password instructions
+      title: パスワードをお忘れですか？
+      email: イーメイルアドレス
+      submit: パスワードリセット手順の送信
     change_form:
-      title: Change your password
-      new_password: New password
-      confirm_password: Confirm new password
-      submit: Change my password
+      title: パスワードを変更します。
+      new_password: 新しいパスワード
+      confirm_password: 新しいパスワードを確認します。
+      submit: パスワードを変更します。
   welcome_email:
-    subject: Join my class (on Code.org)
+    subject: 私のクラス (Code.org) に参加します。
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
