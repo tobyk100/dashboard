@@ -1,4 +1,4 @@
-ro:
+"ro":
   slides:
     maze_intro:
       1:
@@ -82,7 +82,7 @@ ro:
         text: Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc(sau se lovește de un perete).
       4:
         image: notes/hoc3_4.png
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Şi asta este important: ;la fel ca inainte, putem pune mai multe blocuri inăuntrul blocului "repetă până când" şi toate se vor repeta.'
     if:
       1:
         image: notes/hoc4_1.png

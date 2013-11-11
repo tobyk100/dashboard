@@ -1,4 +1,4 @@
-it:
+"it":
   devise:
     confirmations:
       confirmed: "Il tuo account è stato confermato con successo. Hai effettuato l'accesso."

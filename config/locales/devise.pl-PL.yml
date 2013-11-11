@@ -1,4 +1,4 @@
-pl:
+"pl":
   devise:
     confirmations:
       confirmed: Twoje konto zostało pomyślnie potwierdzone. Jesteś teraz zarejestrowany(-a).

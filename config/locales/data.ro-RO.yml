@@ -1,4 +1,4 @@
-ro:
+"ro":
   data:
     script:
       name:
@@ -94,10 +94,8 @@ ro:
         turtle_2_9: 'Folosește o buclă " numără cu " pentru a desena o familie de oameni de zăpadă cu înalțimi de 110, 100, 90, 80 și 70. Aceștia ar trebui să fie la 6- de pixeli distanță unul de altul.'
         turtle_2_10: Aici este un cod ca să încercaţi sa experimantaţi cu diferite spirale. Ce se întamplă dacă schimbaţi cantitatea rundei? Sau dacă setaţi o culoare la întamplare în bucla? Desenaţi orice vă place.
         maze_karel_2_1: "Încercaţi să folosiţi blocurile ca să mă ajutaţi să elimin toate grămezile şi să umplu toate gropile din pămant. Încercaţi să folosiţi bucle în locul utilizării a prea multe bucle. Indiciu: puteţi folosi o buclă în alta buclă."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
+        maze_karel_2_2: Ne-am definit propriul nostru bloc numit "umple 5", care este acum în categoria Funcţiilor. Foloseşte-l ca să mă ajuţi să umplu această groapa.
+        maze_karel_2_3: Utilizaţi din nou blocul-funcţie "umple 5" ca să mă faceţi sa umplu toate gropile. Veţi avea de tras blocul "umple 5" din categoria Funcţiilor.
         maze_karel_2_4: Definește o nouă funcție ce înlatura 7 lopeți. Apoi folosește-le pentru a scrie un program ce mă poate ajuta să înlatur toate grămezile.
         maze_karel_2_5: Crează o nouă funcție ce înlătură 6 lopeți pline din o grămadă, și folosește-o pentru a ma ajuta să nivelez grămezile.
         maze_karel_2_6: Folosiţi două funcţii noi, "umpleţi 8" şi "eliminaţi 8", pentru a mă ajuta să nivelez grămada şi să umplu groapa.

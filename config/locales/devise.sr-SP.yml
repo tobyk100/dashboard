@@ -1,4 +1,4 @@
-sr:
+"sr":
   devise:
     confirmations:
       confirmed: Баш налог је успешно активиран.Сада сте пријављени .

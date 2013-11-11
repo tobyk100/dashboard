@@ -1,4 +1,4 @@
-bn:
+"bn":
   activerecord:
     attributes:
       user:

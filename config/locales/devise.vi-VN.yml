@@ -1,4 +1,4 @@
-vi:
+"vi":
   devise:
     confirmations:
       confirmed: Tài khoản của bạn đã được xác nhận. Đã đăng nhập.

@@ -1,4 +1,4 @@
-cs:
+"cs":
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. You are now signed in.

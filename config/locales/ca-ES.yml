@@ -1,4 +1,4 @@
-ca:
+"ca":
   activerecord:
     attributes:
       user:

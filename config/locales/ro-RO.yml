@@ -1,4 +1,4 @@
-ro:
+"ro":
   activerecord:
     attributes:
       user:

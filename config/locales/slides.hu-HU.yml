@@ -1,36 +1,36 @@
-hu:
+"hu":
   slides:
     maze_intro:
       1:
         image: notes/hoc1_1.png
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: Üdvözlünk az első kód órádba! Merüljünk bele az első programozási ízelítőbe.
       2:
         image: notes/hoc1_2.png
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: A Blockly-t fogjuk használni, vizuális programozási nyelvezetet ahol húzni és beillesztéssel rakod össze a kód blokkodat.
       3:
         image: notes/hoc1_3.png
-        text: Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.
+        text: A kódot legtöbbször írják, de a Blockly vizuális. Minden blokk megfelel egy "igazi" sor kódnak.
       4:
         image: notes/hoc1_4.png
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: Megtanulod a számítógép-tudomány alapjait, koncepciókat melyet mindenhol használnak elkezdve az alkalmazástól a Mars vándor kezeléséig.
       5:
         image: notes/hoc1_5.png
-        text: A program is a set of instructions for your computer to follow.
+        text: A program egy csomó utasítás amit a számítógép elvégez.
       6:
         image: notes/hoc1_6.png
-        text: The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig.
+        text: Az első programod célja ,hogy egy Angry Bird-t a labirintuson át vezetni, úgy hogy megüsse a Zöld Disznót.
       7:
         image: notes/hoc1_7.png
-        text: The left side is the maze where your program is run. The instructions for each puzzle are below the maze.
+        text: A bal oldal egy labirintus ahol fut a programod. Minden rejtvény utasítása a labirintus alatt található.
       8:
         image: notes/hoc1_8.png
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: A középső eszköztár tartalmazza az Angry Bird parancsait. Ezeket használni fogod a kódod felépítésében.
       9:
         image: notes/hoc1_9.png
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: A jobb oldalon találod a munkaterületedet ahonnan húzod kell a blokkokat az eszköztárból programod felépítéséhez. Ahhoz hogy egy blokkot kitörölj húzd a lomtárba, amely a sarokba található.
       10:
         image: notes/hoc1_10.png
-        text: Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.
+        text: Minden blokk egy utasítás. Ha húzol egy "előrelépő" blokkot a munkaterületedre és megnyomod a "Program Futtatás"-t, a madár mozogni fog egy pozíciót a labirintusba.
       11:
         image: notes/hoc1_11.png
         text: To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom.

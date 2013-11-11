@@ -1,4 +1,4 @@
-ro:
+"ro":
   devise:
     confirmations:
       confirmed: Contul tău a fost confirmat cu succes. Acum ești logat.

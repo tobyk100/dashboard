@@ -1,4 +1,4 @@
-id:
+"id":
   devise:
     confirmations:
       confirmed: Akun anda telah berhasil dikonfirmasi. Anda sekarang telah masuk.
