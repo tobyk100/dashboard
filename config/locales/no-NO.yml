@@ -24,26 +24,26 @@
   trophies: Pokaler
   courses: Kurs
   of: av
-  more: MORE
-  less: LESS
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: Or, try our K-8 Intro to Computer Science Course (15-25 hours)
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
-  continue: Continue
-  prize: prize
+  more: MER
+  less: MINDRE
+  try_hoc: "Prøv Hour of Code, klikk her>> "
+  try_k8intro: Eller prøv vårt barneskoleintroduksjon til Informatikk-kurs (15-25 timer)
+  already_started: "Har du allerede startet? Fortsett her >> "
+  demos: "Administrator: Alle demoer"
+  continue: Fortsett
+  prize: premie
   auth:
-    sign_in_with: "Sign in with %{provider}"
-    signed_in: Signed in!
-    already_signedup: Already signed up?
-    notyet_signedup: "Haven't joined yet?"
+    sign_in_with: "Logg inn med %{provider}"
+    signed_in: Logget inn!
+    already_signedup: Allerede registrert?
+    notyet_signedup: Er du blitt medlem ennå?
     google_oauth2: Google+
     twitter: Twitter
     facebook: Facebook
     windowslive: Windows Live
-    forgot_password: Forgot your password?
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: Har du glemt ditt passord?
+    need_confirmation: Mottok du ikke instruksjoner om hvordan du bekrefter?
+    need_unlock: Mottok du ingen instruksjoner om hvordan du låser opp?
   signup_form:
     title: Sign up
     school_name: School Name (optional)

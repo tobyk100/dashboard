@@ -30,7 +30,7 @@
   try_k8intro: أو جرب مقدمة k-8 الخاص بنا لـ كورس"تخصص علم الحاسوب" (15-25 ساعة)
   already_started: "بدأت بالفعل؟ اكمل من هنا >> "
   demos: "المشرف: جميع العروض التوضيحية"
-  continue: إستمرار
+  continue: أستمر
   prize: جائزة
   auth:
     sign_in_with: "تسجيل الدخول باستخدام %{provider}"
@@ -43,7 +43,7 @@
     windowslive: ويندوز لايف
     forgot_password: نسيت كلمة المرور؟
     need_confirmation: لم تتلقى تعليمات تأكيد حسابك؟
-    need_unlock: لم تتلقى تعليمات الفتح؟
+    need_unlock: لم أستلم تعليمات فتح الحساب؟
   signup_form:
     title: تسجيل
     school_name: اسم المدرسة (اختياري)
@@ -63,9 +63,9 @@
     reset_form:
       title: نسيت كلمة المرور؟
       email: البريد الإلكتروني
-      submit: أرسل لي إرشادات إعادة تعيين كلمة المرور
+      submit: أرسل لي معلومات إعادة تعيين كلمة المرور
     change_form:
-      title: تغيير كلمة المرور الخاصة بك
+      title: تغيير كلمة مرور حسابك
       new_password: كلمة مرور جديدة
       confirm_password: تأكيد كلمة المرور الجديدة
       submit: تغيير كلمة المرور الخاصة بي
