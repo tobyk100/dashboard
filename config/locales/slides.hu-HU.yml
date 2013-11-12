@@ -9,7 +9,7 @@
         text: "A Blockly-t fogjuk használni, vizuális programozási nyelvezetet ahol húzni és beillesztéssel rakod össze a kód blokkodat."
       3:
         image: "notes/hoc1_3.png"
-        text: "A kódot legtöbbször írják, de a Blockly vizuális. Minden blokk megfelel egy \"igazi\" sor kódnak."
+        text: 'A kódot legtöbbször írják, de a Blockly vizuális. Minden blokk megfelel egy "igazi" sor kódnak.'
       4:
         image: "notes/hoc1_4.png"
         text: "Megtanulod a számítógép-tudomány alapjait, koncepciókat melyet mindenhol használnak elkezdve az alkalmazástól a Mars vándor kezeléséig."
@@ -30,91 +30,85 @@
         text: "A jobb oldalon találod a munkaterületedet ahonnan húzod kell a blokkokat az eszköztárból programod felépítéséhez. Ahhoz hogy egy blokkot kitörölj húzd a lomtárba, amely a sarokba található."
       10:
         image: "notes/hoc1_10.png"
-        text: "Minden blokk egy utasítás. Ha húzol egy \"előrelépő\" blokkot a munkaterületedre és megnyomod a \"Program Futtatás\"-t, a madár mozogni fog egy pozíciót a labirintusba."
+        text: 'Minden blokk egy utasítás. Ha húzol egy "előrelépő" blokkot a munkaterületedre és megnyomod a "Program Futtatás"-t, a madár mozogni fog egy pozíciót a labirintusba.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Ahhoz hogy több műveletet lehessen elvégezni húzd a blokkokat a munkaterületedre és illeszd őket össze. A madár el fogja végezni az utasításokat  fentről lefele haladva."
       12:
         image: "notes/hoc1_12.png"
-        text: "If you run a program and want to fix it and try again, press the \"Reset\" button."
+        text: 'Ha lefuttattad a programot és megakarod javítani vagy újra szeretnéd próbálni nyomd meg a "Újrakezd" gombot.'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "Gyerünk kapjuk el azokat a disznókat!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Helló, Márk vagyok! Gyere tanuljuk meg a ciklusokat. A ciklust használva megmondod a számítógépnek, hogy egy bizonyos utasítást újra és újra csinálja ezer akár egy billió alkalommal."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "Ebbe a puzzelbe azt akarjuk elérni, hogy a madár 5 lépest menjen előre hogy érje el a malacot."
       3:
         image: "notes/hoc2_3.png"
-        text: "We can use the new \"repeat\" block to help us out."
+        text: 'Használhatjuk a új "Ismétlés" blokkot a feladat megoldásához.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: 'Ahelyett hogy 5 alkalommal kihúzd és betegyed az "előrelépés" blokkot...'
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: 'Betehetjük az "előrelépés" blokkot az "ismétlés" blokk belsejébe és beírjuk egy számot a blokkba, amivel megadjuk hányszor ismételje az utasítást.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: "Ez fontos: az ismétlő blokkba több mint egy utasítást is betehetsz."
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: "Élvezd használni az új ismétlő blokkot!"
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Szia, Chris vagyok. Mielőtt a Miami Heat-hez csatlakoztam Georgiába mentem, hogy számítógép tudományt tanulhassak. Gyere próbáljuk ki az új "ismételd amíg" blokkot.'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Mi van ha nem tudjuk milyen messzire kell a madárnak mennie, hogy elérje a malacot?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'Ha az "előrelépés" blokkot az "ismételd amíg" blokkba helyezzük, akkor a madár addig fog előre haladni AMÍG eléri a malacot (vagy a falnak ütközik).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'És ez fontos: akárcsak az ismétlő blokkba az "ismétel amíg" blokkba is több utasítást helyezhetsz.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Szia, Bill vagyok! Tanuljunk meg egy új alapvető koncepciót az "ha" állítást. Eszerint hoznak a számítógépek döntéseket.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'A "ha" állítást naponta használjuk. Minden reggel mielőtt elmennél, azt mondod HA esik az eső fel kell vennem a kabátom.'
       3:
         image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Megmondhatjuk egy zombinak HA van út balra és ha megtalálja az utat, akkor forduljon abba az irányba."
       4:
         image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Ahhoz hogy megírjuk azt a kódot húzzuk ki a "ha" blokkot és helyezzük a "balra fordul" blokkot a belsejébe.'
       5:
         image: "notes/hoc4_5.png"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Most ha az "előrelépés" blokkot föléje és az "ismétlés" blokkot a kód köré helyezzük, minden alkalommal mikor a zombi halad ellenőrzi ha létezik út balra és ha van akkor arra fordul. A ismétlő parancs fontos, mivel minden lépésnél kell ellenőrizze hogy létezik-e út.'
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: "A ha állítás nagyon fontos a számítógép-tudományba. Az első programjaim közé tartozik egy X és 0 játék, amelybe írtam egy ha állítást ami ezt mondta: HA az ellenfél oda lép és avval a lépéssel legyőz akkor ne engedd oda lépni."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Jó szórakozást a "ha" blokk használásával!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Szia a nevem Erika. Én a számítógép-tudományt arra használom, hogy tudjak segíteni megoldani egészségügyi és orvostudományi problémákat. Ismerjük meg a "másképp" blokkot.'
       2:
         image: "notes/hoc5_2.png"
         text: |-

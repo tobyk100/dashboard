@@ -3,43 +3,43 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Добро пожаловать на ваш первый час кода! Приглашаем Вас погрузиться в первый урок программирования."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Мы будем использовать Blockly, визуальный язык программирования, где для создания программы Вы будете просто перетаскивать специальные блоки."
       3:
         image: "notes/hoc1_3.png"
-        text: "Most code is typed, but Blockly is visual. Each blocks corresponds to a line of \"real\" code."
+        text: "Большинство программ состоят из строк кода, но Blockly визуальный язык программирования. Каждый блок - это строка «реального» кода."
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Вы получите знания об основах компьютерных технологий, понятий, которые используются и для создания простых программ, и для контроля роботов на Марсе."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Программа - это набор инструкций или команд, по которым должен работать Ваш компьютер."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "Цель Вашей первой программы: Angry Bird летит к Green Pig по лабиринту и ударяет ее."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Левая часть экрана - это лабиринт, в котором будет запущена Ваша программа. Инструкции для каждой головоломки написаны ниже лабиринта."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: 'Средняя часть экрана - это панель инструментов с командами для управления Angry Bird. Вы будете использовать их для создания "кода" программы.'
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Справа на экране — рабочее пространство, куда Вы будете перетаскивать блоки из средней панели инструментов для создания программы. Чтобы удалить блок, перетащите его в корзину в углу."
       10:
         image: "notes/hoc1_10.png"
-        text: "Each block is one instruction. If you drag a \"move forward\" block to your workspace and press \"Run Program\", the bird moves one space on the maze."
+        text: "Каждый блок - это одна инструкция. Если вы перетащите блок «двигаться вперед» в рабочую область и нажмете кнопку «Запуск программы», птичка продвинется в лабиринте на один квадратик вперед."
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Чтобы сделать более одного действия, можно перетащить несколько блоков в рабочую область и составить их в один набор. Птичка будет выполнять все действия, указанные в командах сверху вниз."
       12:
         image: "notes/hoc1_12.png"
-        text: "If you run a program and want to fix it and try again, press the \"Reset\" button."
+        text: "Если Вы запустили программу, а затем хотите что-то исправит и снова ее запустить, нажмите кнопку «Сброс»."
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "Давайте зададим этим хрюшкам!"
     artist_intro:
       1:
         image: "notes/bird.png"
@@ -51,25 +51,25 @@
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Привет, меня зовут Марк! Давайте узнаем что такое циклы в программировании. С помощью цикла вы можете сказать компьютеру, чтобы он повторил любой набор команд снова и снова, тысячи или даже миллиарды раз."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "В этой головоломке мы хотим сделать так, чтобы птичка двигалась вперед на 5 клеток пазла и добралась до хрюшки."
       3:
         image: "notes/hoc2_3.png"
-        text: "We can use the new \"repeat\" block to help us out."
+        text: "Мы можем использовать новый блок «повторить», чтобы упростить создание программы."
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: "Вместо перетаскивания 5-ти блоков «двигаться вперед»..."
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: "Мы можем поставить блок «двигаться вперед» внутри блока «повторить» и написать цифру в блоке - количество необходимых повторений."
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: "И это важно: вы можете вставить более одной команды внутри блока «повторить»."
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: "Наслаждайтесь, используя новый изученный блок «повторить»!"
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -80,15 +80,14 @@
         text: "What if we didn't know how far the bird had to move to get to the pig?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
       4:
         image: "notes/hoc3_4.png"
         text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: "Привет! Меня зовут Билл! Давайте узнаем новое фундаментальное понятие: команду «Если». Эта команда управляет тем, как компьютер принимает решения."
       2:
         image: "notes/hoc4_2.png"
         text: |-
@@ -109,7 +108,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: "Просто используйте блок «Если»!"
     if_else:
       1:
         image: "notes/hoc5_1.png"

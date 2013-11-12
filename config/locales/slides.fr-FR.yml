@@ -36,7 +36,7 @@
         text: "Pour faire plus d'une action, tu peux faire glisser beaucoup de blocs de ton espace de travail et les assembler. L'oiseau va exécuter les commandes du haut jusqu'en bas."
       12:
         image: "notes/hoc1_12.png"
-        text: "Si tu exécutes un programme et tu veux le corriger et réessayer, appuie sur le bouton \" Réessayer\"."
+        text: 'Si tu exécutes un programme et tu veux le corriger et réessayer, appuie sur le bouton " Réessayer".'
       13:
         image: "notes/hoc1_13.png"
         text: "Allons attraper ces cochons!"
@@ -57,10 +57,10 @@
         text: "Dans ce puzzle, nous voulons faire bouger l'oiseau à l'avant de 5 places pour arriver au cochon."
       3:
         image: "notes/hoc2_3.png"
-        text: "Nous pouvons utiliser le nouveau bloc \"répéter\" pour nous aider."
+        text: 'Nous pouvons utiliser le nouveau bloc "répéter" pour nous aider.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Au lieu de faire glisser 5 blocs de type \"avancer\"..."
+        text: 'Au lieu de faire glisser 5 blocs de type "avancer"...'
       5:
         image: "notes/hoc2_5.png"
         text: |-
@@ -71,7 +71,7 @@
           Et ceci est important: "tu peux mettre plus d'une commande à l'intérieur d'un bloc \" répéter \" ."
       7:
         image: "notes/hoc2_7.png"
-        text: "Amuses-toi en utilisant ton nouveau bloc \"répéter\"!"
+        text: 'Amuses-toi en utilisant ton nouveau bloc "répéter"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -104,13 +104,13 @@
           Afin  d'écrire le code pour ceci, glissons un bloc "si" et mettons-y un bloc "tourner à gauche" à l'intérieur.
       5:
         image: "notes/hoc4_5.png"
-        text: "Maintenant, si nous mettons un bloc \"avancer\" au-dessus et un bloc \"répéter\" autour de tout, chaque fois que le zombie bouge, il va vérifier si il y a un chemin à gaucher et tourner. La commande \"répéter\" est critique, pour vérifier si on peut tourner à chaque étape."
+        text: 'Maintenant, si nous mettons un bloc "avancer" au-dessus et un bloc "répéter" autour de tout, chaque fois que le zombie bouge, il va vérifier si il y a un chemin à gaucher et tourner. La commande "répéter" est critique, pour vérifier si on peut tourner à chaque étape.'
       6:
         image: "notes/hoc4_6.png"
         text: "Si les affirmations sont vraiment importantes dans l'informatique. Un des premiers programmes que j'ai écrit était un jeu d'OXO, et il y avait une affirmation Si qui disait SI l'autre personne est sur le point de gagner, bloque la case qui va le faire gagner."
       7:
         image: "notes/hoc4_7.png"
-        text: "Amuses-toi à utiliser le bloc \"si\"!"
+        text: 'Amuses-toi à utiliser le bloc "si"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"

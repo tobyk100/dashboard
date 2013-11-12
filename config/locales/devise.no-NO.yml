@@ -11,7 +11,7 @@
       invalid_token: "Ugyldig godkjenningstoken."
       locked: "Kontoen er låst."
       not_found_in_database: "Ugyldig epostadresse eller passord."
-      timeout: "Økten utløpt, Logg på igjen å fortsette."
+      timeout: "Økten utløpt, Logg på igjen for å fortsette."
       unauthenticated: "Du må logge på eller registrere deg før du fortsetter."
       unconfirmed: "Du må bekrefte kontoen før du fortsetter."
     mailer:
@@ -25,7 +25,7 @@
       failure: 'Kunne ikke godkjenne deg fra %{kind} fordi "%{reason}".'
       success: "Godkjent fra %{kind} konto."
     passwords:
-      no_token: "Du får ikke tilgang til denne siden uten å komme via en passord-reset email. Hvis du kommer via en passord-reset email, kontroller at du brukte hele URL-adressen."
+      no_token: "Du får ikke tilgang til denne siden uten å komme via en passord-tilbakestilling e-post. Hvis du kommer via en passord-tilbakestilling e-post, kontroller at du brukte hele URL-adressen."
       send_instructions: "Om noen minutter vil du motta en e-post med instruksjoner om hvordan du tilbakestiller passordet."
       send_paranoid_instructions: "Hvis e-postadressen din finnes i vår database, vil du motta en gjenopprett passord-kobling om et par minutter."
       updated: "Passordet ble endret. Du er nå logget på."
@@ -53,5 +53,5 @@
       not_found: "ikke funnet"
       not_locked: "var ikke låst"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 feil forhindret denne %{resource} fra å bli reddet:"
+        other: "%{count} feil forhindret denne %{resource} fra å bli reddet:"

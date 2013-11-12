@@ -1,24 +1,24 @@
 "ru":
   devise:
     confirmations:
-      confirmed: "Your account was successfully confirmed. You are now signed in."
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      confirmed: "Ваша учетная запись была успешно подтверждена. Вход выполнен."
+      send_instructions: "Для завершения регистрации, на Вашу электронную почту отправлено письмо с инструкцией."
+      send_paranoid_instructions: "Если ваш адрес электронной почты существует в нашей базе данных, вы получите письмо с инструкциями о том, как подтвердить свой аккаунт в течение нескольких минут."
     failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account was not activated yet."
-      invalid: "Invalid email or password."
+      already_authenticated: "Вы уже вошли."
+      inactive: "Ваш аккаунт не был активирован."
+      invalid: "Неверный адрес электронной почты или пароль."
       invalid_token: "Invalid authentication token."
-      locked: "Your account is locked."
-      not_found_in_database: "Invalid email or password."
-      timeout: "Your session expired, please sign in again to continue."
-      unauthenticated: "You need to sign in or sign up before continuing."
-      unconfirmed: "You have to confirm your account before continuing."
+      locked: "Ваша учетная запись заблокирована."
+      not_found_in_database: "Неверный адрес электронной почты или пароль."
+      timeout: "Время сессии закончилось, войдите снова, чтобы продолжить."
+      unauthenticated: "Вам нужно войти или зарегистрироваться для продолжения."
+      unconfirmed: "Вы должны подтвердить свой аккаунт, прежде чем продолжить."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Письмо-подтверждение"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "Инструкция для сброса пароля"
       unlock_instructions:
         subject: "Unlock Instructions"
     omniauth_callbacks:
@@ -50,7 +50,7 @@
       already_confirmed: "was already confirmed, please try signing in"
       confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
       expired: "has expired, please request a new one"
-      not_found: "not found"
+      not_found: "не найден"
       not_locked: "was not locked"
       not_saved:
         one: "1 error prohibited this %{resource} from being saved:"

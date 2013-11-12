@@ -42,18 +42,18 @@
         maze_2_4: "¡Argh! Escribe un programa que me permita esquivar el TNT y llegar al cerdo verde. "
         maze_2_5: "Hay una forma de llegar al cerdo verde utilizando sólo 2 bloques. ¿Puedes encontrarla?"
         maze_2_6: "Intenta llevarme al cerdo verde utilizando sólo tres bloques."
-        maze_2_7: "Escribe un programa para que pueda llegar al cerdo verde utilizando la menor cantidad posible de bloques. Prueba usando más de un bloque \"repetir veces\"."
+        maze_2_7: 'Escribe un programa para que pueda llegar al cerdo verde utilizando la menor cantidad posible de bloques. Prueba usando más de un bloque "repetir veces".'
         maze_2_8: 'Para solucionar este, prueba con un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar.'
         maze_2_9: 'Ok, prueba el nuevo bloque "repetir hasta" - repetirá hasta que llegue al cerdo verde.'
         maze_2_10: "Ok, una última vez para practicar - se puede resolver éste usando solo 4 bloques?"
         maze_2_11: "Hola persona.  Yo zombi. Yo hambriento. Debo... llegar... al girasol... ¿Me puedes llevar ahí con sólo 5 bloques?"
         maze_2_12: "Ok, esto es similar, pero un poco diferente. ¿Puedes hacerlo en sólo 5 bloques?"
         maze_2_13: 'Usa el nuevo bloque "si" para dejarme decidir cuándo girar. Sugerencia: solo necesitas un bloque más, pero aprende cómo lo hicimos así puedes hacerlo tú solo la próxima vez.'
-        maze_2_14: "Ok, esto es como el último puzzle, pero tienes que recordar cómo usaste el bloque \"si\" y el bloque \"repetir\" juntos."
-        maze_2_15: "¡Yo querer girasol! Usa un bloque \"si\" para llevarme allí con la menor cantidad posible de bloques."
+        maze_2_14: 'Ok, esto es como el último puzzle, pero tienes que recordar cómo usaste el bloque "si" y el bloque "repetir" juntos.'
+        maze_2_15: '¡Yo querer girasol! Usa un bloque "si" para llevarme allí con la menor cantidad posible de bloques.'
         maze_2_16: "Ok, vamos hacer esto nuevamente para practicar - esto no es muy diferente, pero ten cuidado con los masticadores!"
-        maze_2_17: "Los bloques \"si-sino\" comprueban una condición, y luego hacen una cosa U otra. Para llevarme al girasol intenta usar este nuevo bloque."
-        maze_2_18: "Una práctica más del bloque \"si-sino\", ¿Puedes hacerlo bien en tu primer intento?"
+        maze_2_17: 'Los bloques "si-sino" comprueban una condición, y luego hacen una cosa U otra. Para llevarme al girasol intenta usar este nuevo bloque.'
+        maze_2_18: 'Una práctica más del bloque "si-sino", ¿Puedes hacerlo bien en tu primer intento?'
         maze_2_19: "¿Puedes agregar sólo 3 bloques para ayudarme a resolver un laberinto más complejo? Si lo haces bien, puedo caminar cualquier camino con curvas sin importar su longitud."
         turtle_1_1: "Hola, soy un artista. Puedes escribir código para hacerme dibujar casi cualquier cosa. Utiliza algunos bloques para hacerme dibujar por encima de las líneas grises de la imagen."
         turtle_1_2: 'Ahora, dibuja un cuadrado. Nota: usa tu color favorito eligiéndolo en el nuevo bloque "definir color".'
@@ -62,54 +62,54 @@
         turtle_1_5: "Ahora, para practicar, dibuja un triángulo y un cuadrado para dibujar un sobre."
         turtle_1_6: "¿Puedes darte cuenta cómo dibujar este triángulo y cuadrado? Ayuda: Haz el triángulo primero, y luego averigua cuánto girar antes de dibujar el cuadrado."
         turtle_1_7: "Ok, vamos hacerlo un poco más difícil - ve si puedes dibujar estos anteojos verdes. Los cuadrados tienen 100 píxeles en cada lado, y están separados por 50 píxeles. ¡No te olvides de dibujar en verde!"
-        turtle_1_8: "Muy bien, tratemos de averiguar qué pasa si ejecutas este código (o presionas \"Ejecutar\" para probarlo). Luego, repítelo las veces necesarias para completar el dibujo. Los colores serán diferentes cada vez."
+        turtle_1_8: 'Muy bien, tratemos de averiguar qué pasa si ejecutas este código (o presionas "Ejecutar" para probarlo). Luego, repítelo las veces necesarias para completar el dibujo. Los colores serán diferentes cada vez.'
         turtle_1_9: "¿Puedes adivinar con qué número reemplazarías a los signos de interrogación para dibujar un círculo?"
         turtle_1_10: '¡Lo lograste! Ahora, a dibujar cualquier cosa que quieras. Algunas ideas divertidas: un muñeco de palitos, un copo de nieve o un espiral. Prueba también el nuevo bloque "ajuste de ancho". ¡Que te diviertas!'
         turtle_4_1: "¿Puedes dibujar esta casa? Piensa los pasos que necesitas para dibujarla - eso se llama algoritmo. Es probable que necesites muchos intentos para hacerla lucir bien, ¡pero está bien si no está perfecta!"
         turtle_4_2: "Ahora intenta dibujar este cuadrado que está hecho con dos triángulos. Puede tomarte varios intentos para averiguar cuánto avanzar y cuánto girar. No tiene que verse exacto, pero sigue intentándolo!"
         turtle_4_3: "Dibuja una flecha que tenga este aspecto. Piensa en todos los pasos que tendrás que hacer para lograrlo."
         turtle_4_4: "¿Puedes dibujar algo que se parece a este barco? Es un grupo de figuras más pequeñas juntas, así que te sugerimos descomponer el problema en partes más pequeñas."
-        maze_karel_1_1: "Hola, soy un granjero. Necesito que me ayudes a aplanar el campo en mi granja para que esté listo para sembrar. Muéveme a la pila de tierra y utiliza el bloque \"eliminar\" para quitarla."
-        maze_karel_1_2: "A continuación, muéveme hacia el agujero y llénalo con DOS paladas de tierra, usando el bloque \"llenar\"."
+        maze_karel_1_1: 'Hola, soy un granjero. Necesito que me ayudes a aplanar el campo en mi granja para que esté listo para sembrar. Muéveme a la pila de tierra y utiliza el bloque "eliminar" para quitarla.'
+        maze_karel_1_2: 'A continuación, muéveme hacia el agujero y llénalo con DOS paladas de tierra, usando el bloque "llenar".'
         maze_karel_1_3: "Muéveme a la pila de tierra y dime cuantas paladas de eliminar debo dar usando la menor cantidad de bloques posible."
         maze_karel_1_4: "¿Puedes ayudarme a quitar las cuatro pilas de tierra? Sugerencia: usa un bloque repetir si puedes."
         maze_karel_1_5: 'Ayúdame a llenar todos estos agujeros con 5 paladas de tierra. Sugerencia: puedes poner un bloque "repetir" dentro del bloque "mientras".'
-        maze_karel_1_6: "Quita todas las pilas de tierra, utilizando la menor cantidad de bloques que sea posible. Las nuevas opciones en el menú desplegable del bloque \"mientras\" me dicen si estoy parado en una pila o un agujero."
+        maze_karel_1_6: 'Quita todas las pilas de tierra, utilizando la menor cantidad de bloques que sea posible. Las nuevas opciones en el menú desplegable del bloque "mientras" me dicen si estoy parado en una pila o un agujero.'
         maze_karel_1_7: "Vaya, encontré un agujero muy profundo! No sé cuantas paladas de tierra necesita. ¿Puedes escribir un programa que lo llene hasta que la tierra esté plana?"
         maze_karel_1_8: "Ayúdame a llenar en el agujero en el otro extremo del campo, con la menor cantidad posible de bloques."
         maze_karel_1_9: 'Hazme quitar todas estas pilas de tierra. Trata de usar la menor cantidad posible de bloques. Sugerencia: puedes utilizar un bloque "mientras" dentro de un bloque "repetir".'
-        maze_karel_1_10: "Estoy trabajando hasta tarde, así que está oscuro afuera, y no sé qué tan grandes son las pilas. Ahora no tengo todas las opciones que solía tener en el bloque \"mientras\". Muéveme a lo largo del campo y si hay una pila, quítala."
+        maze_karel_1_10: 'Estoy trabajando hasta tarde, así que está oscuro afuera, y no sé qué tan grandes son las pilas. Ahora no tengo todas las opciones que solía tener en el bloque "mientras". Muéveme a lo largo del campo y si hay una pila, quítala.'
         maze_karel_1_11: 'Todavía está oscuro afuera. Muéveme a lo largo del campo. Si hay una pila, quítala y si hay un agujero, rellénalo. Sugerencia: utiliza el menú desplegable de opciones del bloque "si".'
         turtle_2_1: "Hola. Yo artista zombi. ¡Me encanta dibujar! Ayúdame a dibujar un cuadrado con un color especial. Nota importante: dispones de los mismos bloques pero ahora han sido organizados en categorías."
-        turtle_2_2: "¡Bienvenido al uso de funciones, que permiten definir nuevos bloques! Prueba el bloque nuevo \"dibujar un cuadrado\", en la categoría \"Funciones\", para dibujar un pequeño cuadrado verde de 50 x 50."
-        turtle_2_3: "Usa el bloque \"repetir\" (en la categoría \"Iteraciones\") para dibujar tres cuadrados de tamaño 100, cada uno separado 120 grados. Y hazlo en 3 colores diferentes, al azar."
+        turtle_2_2: '¡Bienvenido al uso de funciones, que permiten definir nuevos bloques! Prueba el bloque nuevo "dibujar un cuadrado", en la categoría "Funciones", para dibujar un pequeño cuadrado verde de 50 x 50.'
+        turtle_2_3: 'Usa el bloque "repetir" (en la categoría "Iteraciones") para dibujar tres cuadrados de tamaño 100, cada uno separado 120 grados. Y hazlo en 3 colores diferentes, al azar.'
         turtle_2_4: "Ahora vamos a hacer algo sofisticado. Cambia el código para dibujar 36 cuadrados, de 100 píxeles de ancho, cada uno separado por 10 grados. Sugerencia: podrías utilizar el control deslizante para hacerme ir más rápido."
         turtle_2_5: 'Dibuja cuadrados con lados de 50, 60, 70, 80 y 90 píxeles.  Necesitarás utilizar la función "dibujar un cuadrado" cinco veces.'
         turtle_2_6: 'Bien, este programa utilizará un contador, para dibujar los mismos cuadrados que la última vez. Haz que el cuadrado sea del mismo tamaño que el contador, usando el bloque "contador". Sugerencia: Está en la categoría Variables.'
-        turtle_2_7: "Este es un programa para dibujar un espiral, pero los bloques están desactivados así que no funcionan. Haz un nuevo programa utilizando un bloque \"contar con\" (en la categoría Iteraciones) y \"contador\" (en la categoría Variables) para dibujar el mismo espiral."
-        turtle_2_7_5: "Hay una nueva función de \"dibujar un muñeco de nieve\" (en la categoría de funciones). Dibuja dos muñecos de nieve, de 250 y 100 de altura."
-        turtle_2_8: "Éste es un poco complicado. Utiliza la función \"dibujar un muñeco de nieve\" y el bloque nuevo \"saltar adelante\" (en la categoría de Acciones). Dibuja 3 muñecos de nieve en diferentes colores, separados por 100 píxeles."
-        turtle_2_9: "Utiliza una iteración \"contar con\" para dibujar una familia de muñecos de nieve, con alturas de 110, 100, 80, 90 y 70. Los muñecos de nieve deberían estar separados por 60 píxeles."
+        turtle_2_7: 'Este es un programa para dibujar un espiral, pero los bloques están desactivados así que no funcionan. Haz un nuevo programa utilizando un bloque "contar con" (en la categoría Iteraciones) y "contador" (en la categoría Variables) para dibujar el mismo espiral.'
+        turtle_2_7_5: 'Hay una nueva función de "dibujar un muñeco de nieve" (en la categoría de funciones). Dibuja dos muñecos de nieve, de 250 y 100 de altura.'
+        turtle_2_8: 'Éste es un poco complicado. Utiliza la función "dibujar un muñeco de nieve" y el bloque nuevo "saltar adelante" (en la categoría de Acciones). Dibuja 3 muñecos de nieve en diferentes colores, separados por 100 píxeles.'
+        turtle_2_9: 'Utiliza una iteración "contar con" para dibujar una familia de muñecos de nieve, con alturas de 110, 100, 80, 90 y 70. Los muñecos de nieve deberían estar separados por 60 píxeles.'
         turtle_2_10: "Aquí hay algo de código para probar experimentando con diferentes espirales.  ¿Qué sucede si cambias la cantidad del giro? O estableces un color al azar en la iteración.  Dibuja cualquier cosa que quieras."
         maze_karel_2_1: "Trata de usar los bloques para ayudarme a quitar todas las pilas y llenar todos los agujeros del suelo. Intenta utilizar iteraciones en lugar de usar demasiados bloques. Sugerencia: puedes poner una iteración dentro de otra iteración."
-        maze_karel_2_2: "Hemos definido nuestro propio bloque llamado \"llenar 5\", que está ahora en la categoría de Funciones. Usalo para ayudarme a llenar este agujero."
-        maze_karel_2_3: "Usa el nuevo bloque de función \"llenar 5\" para hacerme rellenar todos los agujeros. Tendrás que arrastrar el bloque \"llenar 5\" de la categoría Funciones."
+        maze_karel_2_2: 'Hemos definido nuestro propio bloque llamado "llenar 5", que está ahora en la categoría de Funciones. Usalo para ayudarme a llenar este agujero.'
+        maze_karel_2_3: 'Usa el nuevo bloque de función "llenar 5" para hacerme rellenar todos los agujeros. Tendrás que arrastrar el bloque "llenar 5" de la categoría Funciones.'
         maze_karel_2_4: "Define una nueva función que saque 7 paladas. Luego úsala para escribir un programa que me ayuda a eliminar todas las pilas."
         maze_karel_2_5: "Crea una nueva función que elimine 6 paladas de una pila y úsala para ayudarme a nivelar todas las pilas."
-        maze_karel_2_6: "Usa dos nuevas funciones, \"llenar 8\" y \"quitar 8\", que me ayuden a nivelar la pila y rellenar el agujero."
+        maze_karel_2_6: 'Usa dos nuevas funciones, "llenar 8" y "quitar 8", que me ayuden a nivelar la pila y rellenar el agujero.'
         maze_karel_2_7: "¡Hay una vaca en mi campo! Escribe una nueva función que me ayude a esquivar la vaca y quite la pila. Pon todos los bloques dentro de la nueva función."
-        maze_karel_2_8: "Usa la nueva función, \"evitar la vaca y quitar 1\", para ayudarme a eliminar todas las pilas."
+        maze_karel_2_8: 'Usa la nueva función, "evitar la vaca y quitar 1", para ayudarme a eliminar todas las pilas.'
         maze_karel_2_9: "Ok, aquí hay una función que elimina 4 diferentes pilas de tierra en una columna vertical. Intenta poner esta función dentro de una iteración, para eliminar todas las pilas de tierra usando sólo unos pocos bloques."
         maze_karel_2_10: "Muéveme a través del campo y utiliza estas dos funciones para ayudarme a quitar todas las pilas y tapar todos los agujeros."
         turtle_3_1: 'Este puzzle te muestra cómo se definen las funciones "dibujar un cuadrado" y "dibujar un círculo".  Definir una función no ejecuta sus bloques.  Tienes que usar el bloque "dibujar un cuadrado" para realmente dibujar un cuadrado.'
-        turtle_3_2: "Usando la función \"dibujar un cuadrado\" como ejemplo, crea una función \"dibujar un triángulo\" y úsala."
+        turtle_3_2: 'Usando la función "dibujar un cuadrado" como ejemplo, crea una función "dibujar un triángulo" y úsala.'
         turtle_3_3: "Dibuja cercas triangulares alrededor de los gatos y una cerca cuadrada alrededor de la vaca.  Sugerencia: prueba el programa a medida que avanzas."
-        turtle_3_4: "Ve si puedes descubrir cómo usar \"dibujar un cuadrado\" y \"dibujar un triángulo\" (y algunos otros bloques) para dibujar una casa alrededor del León."
+        turtle_3_4: 'Ve si puedes descubrir cómo usar "dibujar un cuadrado" y "dibujar un triángulo" (y algunos otros bloques) para dibujar una casa alrededor del León.'
         turtle_3_5: 'Ahora crea una nueva función "dibujar una casa" y úsala para albergar dos gatos. Sugerencia: crea una nueva función usando el bloque "hacer algo" y escribe tu propio texto para nombrar el bloque.'
         turtle_3_6: 'Usando "dibujar un cuadrado" como ejemplo, agrega una entrada llamada "longitud" a "dibujar un triángulo". Luego, dibuja triángulos de diferentes tamaños. (Sugerencia: haz clic en la estrella para agregar una entrada a una función)'
-        turtle_3_7: "Agrega una entrada denominada \"altura\" a \"dibujar una casa\" y construye una casa grande para el elefante (con bordes de 150 píxeles de largo)"
+        turtle_3_7: 'Agrega una entrada denominada "altura" a "dibujar una casa" y construye una casa grande para el elefante (con bordes de 150 píxeles de largo)'
         turtle_3_8: 'Aquí están todos los bloques del puzzle anterior.  Modifica "dibujar una casa" así termino en la esquina inferior derecha después de dibujar una nueva casa. Utiliza esta función modificada para dibujar tres casas.'
-        turtle_3_9: "¿Puedes volver a crear la función \"dibujar una casa\" sin ayuda? Pruébalo y luego dibuja una hilera de casas."
+        turtle_3_9: '¿Puedes volver a crear la función "dibujar una casa" sin ayuda? Pruébalo y luego dibuja una hilera de casas.'
         turtle_3_10: "¡Has aprendido mucho! Ahora úsalo para dibujar lo que quieras. Intentar dibujar una estrella, o un espiral o un copo de nieve sofisticado."
         maze_karel_debug_seq_1: "¡Bienvenido a la depuración! Mi código no funciona bien. ¿Puedes detectar el problema y arreglarlo para que pueda aplanar mi campo y dejarlo listo para la siembra?"
         maze_karel_debug_seq_2: "¿Qué funciona mal en este programa? ¿Cómo deberías arreglarlo para quitar esa pila?"
@@ -124,7 +124,7 @@
       levelIncompleteError:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
       other1StarError:
-        maze_2_14: "Necesitas un bloque \"si\" dentro de un bloque \"repetir\". Si tienes problemas, intenta completar el nivel anterior otra vez para ver cómo funcionaba."
+        maze_2_14: 'Necesitas un bloque "si" dentro de un bloque "repetir". Si tienes problemas, intenta completar el nivel anterior otra vez para ver cómo funcionaba.'
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
     video:

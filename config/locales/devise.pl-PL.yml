@@ -5,33 +5,33 @@
       send_instructions: "Otrzymasz e-maila z instrukcjami jak potwierdzić konto w ciągu najbliższych kilku minut."
       send_paranoid_instructions: "Jeśli Twój adres e-mail istnieje w naszej bazie danych, otrzymasz email z instrukcjami jak potwierdzić swoje konto w ciągu kilku najbliższych minut."
     failure:
-      already_authenticated: "Jesteś już zarejestrowany(-a)."
+      already_authenticated: "Jesteś już zalogowany."
       inactive: "Twoje konto nie zostało jeszcze aktywowane."
       invalid: "Nieprawidłowy adres e-mail lub hasło."
       invalid_token: "Nieprawidłowy token uwierzytelnienia."
       locked: "Twoje konto jest zablokowane."
       not_found_in_database: "Nieprawidłowy adres e-mail lub hasło."
-      timeout: "Your session expired, please sign in again to continue."
-      unauthenticated: "You need to sign in or sign up before continuing."
-      unconfirmed: "You have to confirm your account before continuing."
+      timeout: "Twoja sesja wygasła, Proszę Zaloguj się ponownie aby kontynuować."
+      unauthenticated: "Musisz się zalogować lub zarejestrować aby kontynuować."
+      unconfirmed: "Musisz potwierdzić swoje konto przed kontynuowaniem."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Instrukcje potwierdzenia"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "Instrukcja resetowania hasła"
       unlock_instructions:
-        subject: "Unlock Instructions"
+        subject: "Instrukcja odblokowania"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: 'Nie można uwierzytelnić Ciebie z %{kind} ponieważ "%{reason}".'
+      success: "Pomyślnie uwierzytelniono z konta %{kind}."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password was changed successfully. You are now signed in."
-      updated_not_active: "Your password was changed successfully."
+      no_token: "Nie masz dostępu do tej strony jeżeli nie wchodzisz tu z linku służącym do resetowania hasła. Jeżeli wchodzisz z linku z wiadomości resetowania hasła, upewnij się że wpisałeś pełen adres URL."
+      send_instructions: "Wkrótce otrzymasz wiadomość email z instrukcją resetowania hasła."
+      send_paranoid_instructions: "Jeśli twój adres E-Mail istnieje w naszej bazie danych, wkrótce otrzymasz wiadomość z linkiem do odzyskiwania hasła."
+      updated: "Hasło zostało zmienione. Możesz się zalogować."
+      updated_not_active: "Hasło zostało zmienione."
     registrations:
-      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
+      destroyed: "Do widzenia! Twoje konto zostało pomyślnie anulowane. Mamy nadzieję zobaczyć Cię ponownie, wkrótce."
       signed_up: "Welcome! You have signed up successfully."
       signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
       signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."

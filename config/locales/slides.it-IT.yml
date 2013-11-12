@@ -3,159 +3,161 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Benvenuti alla vostra prima ora di programmazione! Tuffiamoci subito in un tuo primo assaggio della programmazione."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Useremo il Blockly, un linguaggio di programmazione visivo dove trascini e rilasci i blocchi per scrivere codice."
       3:
         image: "notes/hoc1_3.png"
-        text: "Most code is typed, but Blockly is visual. Each blocks corresponds to a line of \"real\" code."
+        text: 'Gran parte del codice è digitato, ma Blockly è visivo. Ciascun blocchi corrisponde ad una riga di codice "reale".'
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Imparerai i fondamenti dell'informatica, concetti che sono utilizzati per creare app e controllare il rover marziano."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Un programma è un insieme di istruzioni per il tuo computer da seguire."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "L'obiettivo del tuo primo programma è quello di ottenere un Uccello Arrabbiato attraverso un labirinto per colpire un maiale verde."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Il lato sinistro è il labirinto nel quale viene eseguito il tuo programma. Le istruzioni per ciascun puzzle sono al di sotto del labirinto."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "La casella degli strumenti in mezzo ha i comandi per l'uccello arrabbiato. Li Userai per costruire il tuo codice."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Sulla destra è la tua area di lavoro dove trascinerai bloochi dalla casella degli strumenti per costruire il tuo programma. Per eliminare un blocco, trascinarlo nel cestino nell'angolo."
       10:
         image: "notes/hoc1_10.png"
-        text: "Each block is one instruction. If you drag a \"move forward\" block to your workspace and press \"Run Program\", the bird moves one space on the maze."
+        text: |-
+          Ciascun blocco è un istruzione. Se trascini un blocco "andare avanti" nell'area di lavoro e premi "Esegui programma", l'uccello si muove uno spazio sul labirinto.
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Per fare più di una azione, è possibile trascinare molti blocco nell'area di lavoro e collegarli insieme. L'uccello farà i comandi dall'alto verso il basso."
       12:
         image: "notes/hoc1_12.png"
-        text: "If you run a program and want to fix it and try again, press the \"Reset\" button."
+        text: 'Se esegui un programma e vuoi risolverlo e provare di nuovo, premere il pulsante "Reimposta".'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "Andiamo a prendere quei maiali!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Ciao, sono Mark! Impariamo dei cicli. Utilizzando i cicli puoi dire a un computer di ripetere qualsiasi serie di azioni più e più volte, migliaia o addirittura miliardi di volte."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "In questo puzzle, vogliamo fare in mdo che l'uccello si sposti avanti 5 spazi per raggiungere il maiale."
       3:
         image: "notes/hoc2_3.png"
-        text: "We can use the new \"repeat\" block to help us out."
+        text: 'Possiamo usare il nuovo blocco "Ripeti" per aiutarci.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: 'Invece di trascinare fuori 5 blocchi "andare avanti" ...'
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: |-
+          Possiamo mettere il blocco "andare avanti" all'interno del blocco "ripetizione" e scrivere un numero nel blocco per dirlo quante volte ripetere.
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: |-
+          E questo è importante: è possibile inserire più di un comando all'interno di un blocco "ripetizione".
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: 'Divertiti usando il nuovo blocco "ripetere"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Ciao, sono Chris. Prima di entrare al Miami Heat, sono andato al Georgia Tech a studiare Informatica. Proviamo il nostro nuovo blocco, il blocco "ripetere fino a".'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Cosa succede se non sapevamo quanto l'uccello a dovuto spostarsi per raggiungere il maiale?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: |-
+          Se mettiamo un blocco "andare avanti" all'interno del blocco "ripetizione fino a", l'uccello si sposta in avanti FINO A che raggiunge il maiale (o si schianta contro un muro).
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: |-
+          E questo è importante: ;proprio come prima, possiamo mettere più blocchi all'interno del blocco "ripetere fino a", ed essi saranno tutti ripetuti.
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Ciao, sono Bill! Impariamo un nuovo concetto fondamentale: istruzioni "If". Questo è come i computer prendono decisioni.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Tu stesso usi istruzioni "If" ogni giorno. Prima di andare fuori al mattino, dici SE fuori piove, ho bisogno di indossare la mia giacca.'
       3:
         image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Possiamo dire al zombie di verificare se c'è un sentiero a sinistra, e se trova un sentiero a sinistra, possiamo farlo girare in quella direzione."
       4:
         image: "notes/hoc4_4.png"
         text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+          Per scrivere il codice per questo, trasciniamo fuori il nostro blocco "se" e mettiamo un blocco "gira a sinistra" all'interno di esso.
       5:
         image: "notes/hoc4_5.png"
         text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+          Ora, se mettiamo un blocco "andare avanti" al di sopra di esso e un blocco "ripetizione" intorno a tutto, ogni volta che lo zombie si muove, controllerà se c'è un sentiero a sinistra e girerà. Il comando "repeat" è fondamentale, per verificare una curva ad ogni passo.
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: "Le dichiarazioni se sono davvero importanti in informatica. Uno dei primi programmi che ho scritto era un gioco di tic-tac-toe, e c'era una dichiarazione se che diceva se l'altra persona sta per vincere, bloccare il posto che consente loro di vincere."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Divertiti utilizzando il blocco "se"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
         text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+          Ciao, mi chiamo Saloni. Uso l'informatica per aiutare a risolvere i problemi nella salute e in medicina. Impariamo riguardo il blocco "se atrimenti". Sembra che il blocco "se", ma ha una parte supplementare alla fine che dice "altrimenti".
       2:
         image: "notes/hoc5_2.png"
         text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+          Se metto un blocco "andare avanti" nel posto dove dice "fare" e un blocco "sinistra" dove dice "altrimenti" ciò significa che lo zombie sceglierà tra 2 opzioni. SE c'è un percorso avanti, lo zombie si muoverà in avanti e IN CASO CONTRARIO (non c'è un percorso davanti), lo zombie svolterà a sinistra.
       3:
         image: "notes/hoc5_3.png"
         text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+          Proprio come il blocco "se", possiamo mettere blocchi "se altrimenti" all'interno un blocco "ripetizione" in modo che lo zombie continua a muoversi e il blocco "se altrimenti" manterrà a controllare se esiste un posto dove girare.
       4:
         image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        text: "Ora, prendi quei zombie laddove appartengono!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Complimenti! Con l'ultimo puzzle che hai risolto, hai appena scritto il codice che dice QUALUNQUE robot come trovare la sua strada attraverso un labirinto privo di ramificazione o tunnel di qualsiasi lunghezza, che si tratti di uno zombie, un uccello, un rover marziano o anche una macchina auto-guida."
       2:
         image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "I concetti di base che hai utilizzato sono al centro di ogni programma o applicazione che proverai.  Abbiamo imparato dei cicli di ripetizione, dichiarazioni ripetere fino a, dichiarazioni se, ed istruzioni se altrimenti."
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Se ti è piaciuto la tua prima ora di programmazione, visitare code.org per continuare la vostra formazione sull'informatica! Dopo che hai completato il nostro corso di 20 ore, avrai imparato le basi della programmazione e puoi iniziare ad imparare come scrivere applicazioni per telefoni, istruzioni per robot, giochi, e molto altro."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "La tecnologia sta cambiando tutto ciò che facciamo e non importa se sei giovane o anziano: la programmazione è divertente, è creativo, e chiunque può imparare!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Visualizza note in arrivo!"
