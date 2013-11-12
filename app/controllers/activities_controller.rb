@@ -21,18 +21,20 @@ class ActivitiesController < ApplicationController
     trophy_updates = []
     level_source = LevelSource.lookup(level, params[:program])
 
-    milestone_logger.info "Milestone Report:" +
-                          "\t#{(current_user ? current_user.id.to_s : ("s:" + session.id))}" +
-                          "\t#{request.remote_ip}" +
-                          "\t#{params[:app]}" +
-                          "\t#{params[:level]}" +
-                          "\t#{params[:result]}" +
-                          "\t#{params[:testResult]}" +
-                          "\t#{params[:time]}" +
-                          "\t#{params[:attempt]}" +
-                          "\t#{params[:lines]}" +
-                          "\t#{level_source.id.to_s}" +
-                          "\t#{request.user_agent}"
+    log_string = "Milestone Report:"
+    log_string += "\t#{(current_user ? current_user.id.to_s : ("s:" + session.id))}"
+    log_string += "\t#{request.remote_ip}"
+    log_string += "\t#{params[:app]}"
+    log_string += "\t#{params[:level]}"
+    log_string += "\t#{params[:result]}"
+    log_string += "\t#{params[:testResult]}"
+    log_string += "\t#{params[:time]}"
+    log_string += "\t#{params[:attempt]}"
+    log_string += "\t#{params[:lines]}"
+    log_string += "\t#{level_source.id.to_s}"
+    log_string += "\t#{request.user_agent}"
+    
+    milestone_logger.info log_string
 
     if current_user
       authorize! :create, Activity
