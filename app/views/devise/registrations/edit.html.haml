@@ -6,15 +6,12 @@
   %div
   .field
     = f.label :name
-    %br/
     = f.text_field :name, :autofocus => true
   .field
     = f.label :email
-    %br/
     = f.email_field :email
   .field
     = f.label :username
-    %br/
     = f.text_field :username
   - if devise_mapping.confirmable? && resource.pending_reconfirmation?
     %div
@@ -27,7 +24,6 @@
       = f.password_field :password, :autocomplete => "off"
     %div
       = f.label :password_confirmation
-      %br/
       = f.password_field :password_confirmation
     %div
       = f.label :current_password
@@ -36,11 +32,9 @@
       = f.password_field :current_password
   .field
     = f.label :locale
-    %br/
     = f.select :locale, options_for_locale_select, selected: locale
   .field
     = f.label :gender
-    %br/
     = f.select :gender, gender_options
   %div= f.submit t('crud.update')
 -#%h3= t('user.cancel.title')

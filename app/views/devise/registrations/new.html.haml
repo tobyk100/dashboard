@@ -31,11 +31,9 @@
       - if resource.student?
         .field
           = f.label t('signup_form.gender')
-          %br/
           = f.select :gender, gender_options
         .field
           = f.label t('signup_form.birthday')
-          %br/
           :javascript
             $(function() {
               $( "#user_birthday" ).datepicker({
