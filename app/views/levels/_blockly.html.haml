@@ -68,6 +68,15 @@
       },
       Dialog: Dialog,
       levelId: '#{@level.level_num}',
+      showInstructionsWrapper: function(handler) {
+        if ('#{@autoplay_video}') {
+          $('.video-modal').on('hidden.bs.modal', function () {
+            handler();
+          });
+        } else {
+          handler();
+        }
+      },
       level: {
         puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
         stage_total: #{@level.game.levels.count},
