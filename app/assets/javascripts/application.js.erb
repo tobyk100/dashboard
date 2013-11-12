@@ -89,6 +89,9 @@ function showVideo(options) {
     marginTop: ($div.height() / -2) + 'px',
     marginLeft: ($div.width() / -2) + 'px'
   });
+
+  var tabHeight = $div.find('.ui-tabs-nav').height();
+  $(video).height($div.height() - tabHeight);
 }
 
 function embed_thumbnail_image(data) {
