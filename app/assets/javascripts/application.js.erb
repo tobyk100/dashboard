@@ -147,8 +147,9 @@ function Dialog(options) {
     $(this.div).on('keydown', options.onKeydown);
   }
 
-  addClickTouchEvent(close, $.proxy(function() {
+  addClickTouchEvent(close, $.proxy(function(e) {
     this.hide();
+    e.stopPropagation();
   }, this));
 }
 
