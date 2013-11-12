@@ -33,7 +33,7 @@
         text: 'Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte" către spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută cu un spațiu pe labirint.'
       11:
         image: "notes/hoc1_11.png"
-        text: "Ca să faci mai mult de o acțiune, poți trage mai multe blocuri în spațiul tau de lucru și să le atașezi împreună. Pasărea va executa comezile de sus până jos."
+        text: "Ca să faci mai mult de o singură acțiune, poți trage mai multe blocuri în spațiul tau de lucru și să le atașezi împreună. Pasărea va executa comezile de sus până jos."
       12:
         image: "notes/hoc1_12.png"
         text: 'Dacă rulezi un program și vrei să îl repari și să încerci din nou, apasă pe butonul "Reset".'
@@ -82,17 +82,17 @@
         text: 'Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc (sau se lovește de un perete).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Şi asta este important: la fel ca inainte, putem pune mai multe blocuri inăuntrul blocului "repetă până când" şi toate se vor repeta.'
     if:
       1:
         image: "notes/hoc4_1.png"
         text: 'Salut, sunt Bill! Hai să învâțăm un nou concept fundamental: Afirmațile de tip "Dacă." Acesta este felul în care computerele iau decizii.'
       2:
         image: "notes/hoc4_2.png"
-        text: 'Voi utilizați afirmații de tip "Dacă" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui că Dacă plouă afară, am nevoie să port o geacă.'
+        text: 'Voi utilizați afirmații de tip "Dacă" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui că DACĂ plouă afară, am nevoie să port o geacă.'
       3:
         image: "notes/hoc4_3.png"
-        text: "Putem să-i spunem zombie-ului să verifice DACĂ este o cale catre stânga, și dacă găsește o cale catrew stânga, putem să îl îndreptăm în acea direcție."
+        text: "Putem să-i spunem zombie-ului să verifice DACĂ este o cale catre stânga, și dacă găsește o cale catre stânga, putem să îl îndreptăm în acea direcție."
       4:
         image: "notes/hoc4_4.png"
         text: 'Ca să scrii codul pentru asta, trage afară blocul "dacă" și pune un bloc "întoarce la stânga" în interior.'
@@ -108,7 +108,7 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Salut, numele meu este Saloni. Eu folosesc informatica să pot ajuta și a gasi soluții în medicină și sănatate. Hai să învățăm  despre blocul "dacă altul". Arată ca blocul "dacă", dar are o parte în plus la sfârșit care spune "altul".'
+        text: 'Salut, numele meu este Saloni. Eu folosesc informatica să pot ajuta și a gasi soluții în medicină și sănatate. Hai să învățăm  despre blocul "dacă altul". Arată ca blocul "dacă", dar are o parte în plus la sfârșit care spune "altfel".'
       2:
         image: "notes/hoc5_2.png"
         text: 'Dacă pun un bloc "mută înainte" in locul unde spune "execută" și un bloc "mută înainte" unde spune "altul" asta înseamnă că zombie-ul va alege între 2 opțiuni. DACĂ există o cale în față, zombie-ul se va mișca înainte, și ALTFEL (nu există o cale înainte), zombie-ul se va întoarce la stânga.'
@@ -121,19 +121,19 @@
     function:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"

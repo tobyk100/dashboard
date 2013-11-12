@@ -82,7 +82,7 @@
         text: 'Ha az "előrelépés" blokkot az "ismételd amíg" blokkba helyezzük, akkor a madár addig fog előre haladni AMÍG eléri a malacot (vagy a falnak ütközik).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'És ez fontos: akárcsak az ismétlő blokkba az "ismétel amíg" blokkba is több utasítást helyezhetsz.'
     if:
       1:
         image: "notes/hoc4_1.png"
@@ -108,48 +108,46 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Szia a nevem Erika. Én a számítógép-tudományt arra használom, hogy tudjak segíteni megoldani egészségügyi és orvostudományi problémákat. Ismerjük meg a "másképp" blokkot.'
+        text: 'Szia a nevem Erika. Én a számítógép-tudományt arra használom, hogy tudjak segíteni megoldani egészségügyi és orvostudományi problémákat. Ismerjük meg a "ha más" blokkot.Olyan mint a "ha" blokk csak van egy más része is a "más" ("ha" nélkül használva "másképp" a neve).'
       2:
         image: "notes/hoc5_2.png"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Ha teszel egy "előrelépés" blokkot a "csináld" helyett és a "balra fordul" blokkot a "másképp" helyére azt jelenti hogy a zombi 2 lehetőség közül kell válasszon. HA van út előre akkor a zombi előre halad MÁSKÉPP (nincs út előre), a zombi balra fordul.'
       3:
         image: "notes/hoc5_3.png"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Csakúgy mint a "ha" blokkot a "ha más" blokkot is betehetjük ismétlő blokkba, tehát a "ha más" blokk ellenőrizni fogja ha lehet valamerre fordulni.'
       4:
         image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        text: "Most vidd a zombikat oda ahova tartoznak!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Gratulálok! Az utolsó játékba megírtál egy kódot amely egy BÁRMILYEN robotnak megmondja hogyan kapja meg az utat egy nem elágazó labirintusba vagy barlangba, attól független hogy egy zombi, madár, mars kutató vagy akár egy saját magát vezető autó."
       2:
         image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "Ezek az alapok minden program vagy alkalmazás szíve. Megismertük az ismétlő ciklusokat, ha állítást és a másképp állítást."
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Ha tetszett az első kód órád akkor látogass el a code.org weboldalra hogy tovább folytathasd a tanulást. Miután befejezte a 20 órás kurzusunkat, mestere leszel a programozás alapjainak, nekikezdhetsz telefon alkalmazásokat írni, robot utasításokat, játékokat és így tovább."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "A technológia mindent megváltoztat amit csinálunk és nem számít ha fiatal vagy öreg vagy a programozás szórakoztató, rád van bízva hogyan alkotod meg és akárki megtanulhatja!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Útmutató jegyzetek hamarosan!"
