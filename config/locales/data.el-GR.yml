@@ -115,9 +115,9 @@
           This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
         turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
         turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
+        turtle_3_4: "Δες αν μπορείς να σκεφτείς πώς να χρησιμοποιήσεις το «σχεδίασε ένα τετράγωνο» και «σχεδίασε ένα τρίγωνο» (και κάποια άλλα πλακίδια) για να δημιουργήσεις ένα σπίτι γύρω από το λιοντάρι."
+        turtle_3_5: 'Τώρα δημιούργησε μια νέα συνάρτηση "σχεδίασε ένα σπίτι" και χρησιμοποίησέ την για να στεγάσεις δύο γάτες. Υπόδειξη: δημιούργησε μια καινούρια συνάρτηση χρησιμοποιώντας το  "κάνε κάτι" πλακίδιο και πληκτρολογήστε το δικό σου κείμενο για να ονομάσεις το πλακίδιο αυτό.'
+        turtle_3_6: 'Χρησιμοποιώντας το "σχεδίασε ένα τετράγωνο" σαν παράδειγμα, πρόσθεσε ένα δεδομένο εισόδου με το όνομα "μήκος" στο "σχεδίασε ένα τρίγωνο". Στη συνέχεια, σχεδίασε τρίγωνα με διαφορετικά μεγέθη. (Συμβουλή: κάνε κλικ στο αστέρι για να προσθέσεις ένα δεδομένο εισόδου σε μια συνάρτηση)'
         turtle_3_7: 'Πρόσθεσε ένα δεδομένο εισόδου με όνομα "ύψος" ώστε να "σχεδίασε ένα σπίτι" και δημιούργησε ένα μεγάλο σπίτι για τον ελέφαντα (με πλευρές μήκους 150 εικονοστοιχεία)'
         turtle_3_8: 'Εδώ είναι όλα τα πλακίδια από το προηγούμενο παζλ.  Τροποποίησε το "σχεδίασε ένα σπίτι" έτσι ώστε να καταλήξω στην κάτω δεξιά γωνία, μετά την σχεδίαση ενός νέου σπιτιού. Χρησιμοποίησε αυτή την τροποποιημένη συνάρτηση ώστε να σχεδιάσεις τρία σπίτια.'
         turtle_3_9: 'Μπορείς να δημιουργήσεις εκ νέου τη συνάρτηση "σχεδίασε ένα σπίτι" χωρίς βοήθεια; Δοκίμασέ το, και στη συνέχεια να σχεδιάσεις μια σειρά από σπίτια.'

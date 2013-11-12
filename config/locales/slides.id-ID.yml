@@ -3,16 +3,16 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Selamat datang pada penkodingan pertama anda. Ayo mulai mencicipi rasa pertama anda melakukan pemrograman."
+        text: "Selamat datang pada jam pertama belajar mengkode. Ayo mulai rasakan pengalaman pertama anda memprogram."
       2:
         image: "notes/hoc1_2.png"
         text: "Kita akan mengunakan Blockly, sebuah bahasa pemrograman dimana anda tinggal menarik dan menempatkan blok untuk menuliskan kode."
       3:
         image: "notes/hoc1_3.png"
-        text: "Kebanyakan kode dituliskan, tetapi Blockly menggunakan visual. Setiap blok merespon terhadap sebuah baris dari kode asli."
+        text: "Kebanyakan kode harus ditulis, tetapi Blockly menggunakan visual. Setiap satu blok sama dengan sebuah baris dari kode asli."
       4:
         image: "notes/hoc1_4.png"
-        text: "Kalian akan mempelajari fondasi ilmu komputer, berdasarkan konsep-konsep yang digunakan dimana saja dari  pembuatan aplikasi kontorl mars rover."
+        text: "Kalian akan mempelajari fondasi ilmu komputer, berdasarkan konsep-konsep yang digunakan dimana-mana, mulai dari  pembuatan app sampai mengkontrol rover di planet Mars."
       5:
         image: "notes/hoc1_5.png"
         text: "Program merupakan sekumpulan instruksi yang harus dikerjakan komputer."
@@ -24,16 +24,16 @@
         text: "Pada sisi kiri merupakan labirin dimana program anda akan dijalankan. Instruksi dari setiap teka-teki ada dibawah labirin."
       8:
         image: "notes/hoc1_8.png"
-        text: "Pada kotak perkakas ditengah memiliki semua perintah untuk Angry Bird. Anda akan menggunakan itu untuk membuat kode anda."
+        text: "Pada kotak perkakas ditengah memiliki semua perintah untuk Angry Bird. Anda akan menggunakannya untuk membangun kode anda."
       9:
         image: "notes/hoc1_9.png"
-        text: "Pada bagian kanan adalah area kerja dimana anda akan menarik blok dari kotak perkakas untuk membuat program. Untuk menghapus blok, tarik kedalam tempat sampah yang ada disudut."
+        text: "Pada bagian kanan adalah area kerja dimana anda akan menarik blok dari kotak perkakas untuk membuat program. Untuk menghapus blok, tarik kedalam tempat sampah yang berada disudut."
       10:
         image: "notes/hoc1_10.png"
         text: 'Setiap blok berisi satu instruksi. Jika ada menarik "move forward" blok kedalam area kerja anda dan menekan "Run Program", maka burung akan berpindah satu petak dalam labirin.'
       11:
         image: "notes/hoc1_11.png"
-        text: "Untuk melakukan lebih banyak aksi, anda dapat menarik beberapa blok pada area kerja dan melampirkanny secara bersama. Burung kemudian akan melakukan perintah dari yang teratas sampai terbawah."
+        text: "Untuk melakukan lebih banyak aksi, anda dapat menarik beberapa blok pada area kerja dan melampirkannya secara bersama. Burung tersebut kemudian akan melakukan perintah dari yang teratas sampai terbawah."
       12:
         image: "notes/hoc1_12.png"
         text: 'Jika anda menjalankan program dan ingin meperbaiki dan mencobanya kembali, tekan tombol "Atur Ulang".'
@@ -51,19 +51,19 @@
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hai, Saya Mark! Ayo kita belajar mengenai perulangan. Dengan menggunakan perulangan anda dapat mengatakan pada komputer untuk mengulangi sekumpulan aksi berulang ulang kali, beribu kali atau bahkan milayaran kali."
+        text: "Hai, Saya Mark! Ayo kita belajar mengenai perulangan (loop). Dengan menggunakan perulangan anda dapat mengatakan pada komputer untuk mengulangi sekumpulan aksi berulang ulang kali, ribuan kali atau bahkan milayaran kali."
       2:
         image: "notes/hoc2_2.png"
         text: "Dalam teka-teki ini, kita menginginkan untuk membuat burung berpindah 5 petak menuju babi."
       3:
         image: "notes/hoc2_3.png"
-        text: 'Kita dapat menggunakan "repeat" blok yang baru untuk membantu kita.'
+        text: 'Kita dapat menggunakan blok "repeat" untuk membantu kita.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Daripada menarik 5 "move forward" blok...'
+        text: 'Daripada menarik 5 blok "move forward"...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'Kita dapat menempatkan blok "move forward" dalam "repeat" blok dan menuliskan angka dalam blok untuk menentukan berapa banyak perulangan yang harus dilakukan.'
+        text: 'Kita dapat menempatkan blok "move forward" dalam blok "repeat" dan menuliskan angka dalam blok untuk menentukan berapa banyak perulangan yang harus dilakukan.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Dan yang terpenting: anda dapat menempatkan lebih dari satu perintah dalam sebuah blok "repeat".'
@@ -73,7 +73,7 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: 'Hai, Saya Chris. Sebelum bergabung dengan Miami Heat, saya pergi ke Georgia Tech untuk mempelajari Ilmu Komputer. Ayo kita coba blok baru kita, yaitu "repeat until" blok.'
+        text: 'Hai, Saya Chris. Sebelum bergabung dengan Miami Heat, saya pergi ke Georgia Tech untuk mempelajari Ilmu Komputer. Ayo kita coba blok baru kita, yaitu blok "repeat until".'
       2:
         image: "notes/hoc3_2.png"
         text: "bagaimana jika kita tidak mengetahui berapa jarak untuk burung harus berpindah untuk sampai kepada babi?"
@@ -82,7 +82,7 @@
         text: 'Jika kita meletakan blok "move forward" kedalam blok "repeat until", maka burung akan begerak maju sampai ia mencapai babi (atau menabrak tembok).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Dan jangan lupa: sama seperti sebelumnya, kita dapat menaruh beberapa blok didalam blok "ulangi sampai" (repeat until) dan blok blok tersebut akan diulang.'
     if:
       1:
         image: "notes/hoc4_1.png"
@@ -104,7 +104,7 @@
         text: "Pernyataan if sangatlah penting dalam ilmu komputer. Salah satu dari program yang pertama saya tulis adalah game tik-tak-tol, dan ada sebuah pernyataan if yang mengatakan jika pemain yang lain hampir menang, maka halangi kotak yang akan membuat ia menang."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Selamat bersenag-senang dengan blok "jika"!'
+        text: 'Selamat bersenang-senang dengan blok "jika"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
@@ -146,7 +146,7 @@
         text: "Jika anda menyukai waktu pertama anda mengkoding, maka kunjungilah code.org untuk melanjutkan edukasi dalam ilmu pengetahuan komputer. Saat anda menyelesaikan kursus 20 jam, maka anda akan menguasai dasar pemrograman, dan anda dapat memulai belajar cara membuat aplikasi hp, instruksi robot, games, apa pun yang anda ingin lakukan."
       4:
         image: "notes/hoc6_4.png"
-        text: "Teknologi merubah segala sesuatu yang kita lakukan dan tidak peduli apakah anda muda atau tua: Pemrograman sangant menyenangkan, kreatif dan dapat dipelajari oleh semua orang."
+        text: "Teknologi merubah segala sesuatu yang kita lakukan dan tidak peduli apakah anda muda atau tua: Pemrograman sangat menyenangkan, kreatif dan dapat dipelajari oleh semua orang."
     20_wrapup:
       1:
         image: "notes/bird.png"
