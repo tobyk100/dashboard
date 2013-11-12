@@ -9,7 +9,7 @@
         text: "Chúng ta sẽ sử dụng Blockly, một ngôn ngữ lập trình trực quan nơi mà bạn kéo và thả những khối để viết dòng lệnh."
       3:
         image: "notes/hoc1_3.png"
-        text: "Hầu hết các dòng lệnh được đánh máy, nhưng Blockly thì trực quan hơn. Mỗi khối tương ứng với 1 dòng lệnh \"thực sự\"."
+        text: 'Hầu hết các dòng lệnh được đánh máy, nhưng Blockly thì trực quan hơn. Mỗi khối tương ứng với 1 dòng lệnh "thực sự".'
       4:
         image: "notes/hoc1_4.png"
         text: "Bạn sẽ học căn bản của khoa học máy tính, những khái niệm được sử dụng tại bất kì đâu từ tạo những ứng dụng cho đến điều khiển tàu thám hiểm sao Hỏa."
@@ -30,13 +30,13 @@
         text: "Ở bên phải là chỗ làm việc nơi mà bạn sẽ kéo từng khối từ hộp công cụ để xây dựng chương trình của bạn. Để xóa một khối, kéo nó vào thùng rác ở trong góc."
       10:
         image: "notes/hoc1_10.png"
-        text: "Mỗi khối là một chỉ dẫn. Nếu bạn kéo một khối \"tiến lên\" vào trong không gian làm việc và ấn \"Chạy chương trình\", con chim sẽ đi vào một khu vực trong mê cung."
+        text: 'Mỗi khối là một chỉ dẫn. Nếu bạn kéo một khối "tiến lên" vào trong không gian làm việc và ấn "Chạy chương trình", con chim sẽ đi vào một khu vực trong mê cung.'
       11:
         image: "notes/hoc1_11.png"
         text: "Để làm nhiều hơn một hành động, bạn có thể kéo nhiều khối vào không gian làm việc và gắn chúng với nhau. Con chim sẽ thực hiện những dòng lệnh từ trên đến dưới."
       12:
         image: "notes/hoc1_12.png"
-        text: "Nếu bạn chạy một chương trình và muốn sửa nó và thử lại, ấn nút \"Khởi động lại\"."
+        text: 'Nếu bạn chạy một chương trình và muốn sửa nó và thử lại, ấn nút "Khởi động lại".'
       13:
         image: "notes/hoc1_13.png"
         text: "Tiếp tục với những con lợn nào!"
@@ -57,19 +57,19 @@
         text: "Trong câu đố này, chúng tôi muốn làm con chim tiến lên phía trước 5 đoạn để trúng vào con lợn."
       3:
         image: "notes/hoc2_3.png"
-        text: "Chúng ta có thể sử dụng khối \"lặp\" mới để giúp đỡ."
+        text: 'Chúng ta có thể sử dụng khối "lặp" mới để giúp đỡ.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Thay vì kéo ra 5 khối \"tiến lên phía trước\"..."
+        text: 'Thay vì kéo ra 5 khối "tiến lên phía trước"...'
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
       6:
         image: "notes/hoc2_6.png"
         text: 'And this is important: you can put more than one command inside a "repeat" block.'
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: 'Enjoy using your new "repeat" block!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -80,10 +80,10 @@
         text: "What if we didn't know how far the bird had to move to get to the pig?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
@@ -109,7 +109,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Have fun using the "if" block!'
     if_else:
       1:
         image: "notes/hoc5_1.png"

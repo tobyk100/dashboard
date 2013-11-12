@@ -86,7 +86,7 @@
           Si nous mettons un bloc "avancer" à l'intérieur d'un bloc " répéter jusqu'à", l'oiseau va avancer JUSQU'À ce qu'il atteigne le cochon( ou qu'il cogne un mur).
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"

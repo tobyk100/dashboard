@@ -15,7 +15,7 @@
         text: "Vei învăța bazele informaticii, concepte care sunt folosite în orice domeniu de la crearea de aplicații până la controlul roboților trimiși pe Marte. "
       5:
         image: "notes/hoc1_5.png"
-        text: "Un program este un set de instrucțiuni pe care calculatorul tău să le urmeze."
+        text: "Un program este un set de instrucțiuni ca calculatorul tău să le urmeze."
       6:
         image: "notes/hoc1_6.png"
         text: "Scopul primului tău program este să lovești un Porc Verde cu o Pasare Furioasă printr-un labirint."
@@ -27,10 +27,10 @@
         text: "Cutia de instrumente din mijloc conține comenzile pentru Pasărea Furioasă. Le vei utiliza pe acestea pentru ați construi codul."
       9:
         image: "notes/hoc1_9.png"
-        text: "În dreapta este spațiul de lucru unde vei trage blocuri din cutia de instrumente pentru ati construi programul. Ca să stergi un bloc trage-l la gunoi în colț."
+        text: "În dreapta este spațiul de lucru unde vei trage blocuri din cutia de instrumente pentru ați construi programul. Ca să ștergi un bloc trage-l la gunoi în colț."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte" catre spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută cu un spațiu pe labirint.'
+        text: 'Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte" către spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută cu un spațiu pe labirint.'
       11:
         image: "notes/hoc1_11.png"
         text: "Ca să faci mai mult de o acțiune, poți trage mai multe blocuri în spațiul tau de lucru și să le atașezi împreună. Pasărea va executa comezile de sus până jos."
@@ -43,11 +43,11 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Notițele de indicație vor ajunge în curând!"
+        text: "Arată notificările care vor apărea în curând!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
@@ -69,7 +69,7 @@
         text: 'Și asta este important: poți să pui mai multe de o singură comandă în interiorul blocului "repetă".'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Bucurați-vă de utilitatea noului bloc "repetă"!'
+        text: 'Bucurați-vă de folosirea noului bloc "repetă"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -79,17 +79,17 @@
         text: "Cum ar fi dacă nu am ști cât de departe trebuie pasărea să se mute pentru a ajunge la porc?"
       3:
         image: "notes/hoc3_3.png"
-        text: 'Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc(sau se lovește de un perete).'
+        text: 'Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc (sau se lovește de un perete).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'Şi asta este important: ;la fel ca inainte, putem pune mai multe blocuri inăuntrul blocului "repetă până când" şi toate se vor repeta.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: 'Salut, sunt Bill! Hai să învâțăm un nou concept fundamental: Afirmațile de tip "Dacă" acesta este felul în care computerele iau decizii.'
+        text: 'Salut, sunt Bill! Hai să învâțăm un nou concept fundamental: Afirmațile de tip "Dacă." Acesta este felul în care computerele iau decizii.'
       2:
         image: "notes/hoc4_2.png"
-        text: 'Utilizați afirmații de tip "If" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui că IF plouă afară, am nevoie să port o geacă.'
+        text: 'Voi utilizați afirmații de tip "Dacă" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui că Dacă plouă afară, am nevoie să port o geacă.'
       3:
         image: "notes/hoc4_3.png"
         text: "Putem să-i spunem zombie-ului să verifice DACĂ este o cale catre stânga, și dacă găsește o cale catrew stânga, putem să îl îndreptăm în acea direcție."

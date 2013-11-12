@@ -9,7 +9,7 @@
         text: "Vi kommer använda Blocky, ett visuellt programmeringsspråk där du drar ut block och sätter ihop för att skriva kod."
       3:
         image: "notes/hoc1_3.png"
-        text: "Kod är mestadels skriven med Blocky är visuellt. Varje block representerar en rad med \"riktig\" kod."
+        text: 'Kod är mestadels skriven med Blocky är visuellt. Varje block representerar en rad med "riktig" kod.'
       4:
         image: "notes/hoc1_4.png"
         text: "Du kommer lära dig grunderna för datavetenskap, grunder som används för att göra allt från appar till instruktioner till marslandare."
@@ -30,13 +30,13 @@
         text: "Till höger är arbetsytan dit du ska dra block från verktygslådan för att sätta ihop ditt program. För att ta bort ett block, dra det till papperskorgen i hörnet."
       10:
         image: "notes/hoc1_10.png"
-        text: "Varje block är en instruktion. Om du drar ett \"gå framåt\"-block till arbetsytan och trycker på \"Kör programmet\" så kommer fågeln gå ett steg fram i labyrinten."
+        text: 'Varje block är en instruktion. Om du drar ett "gå framåt"-block till arbetsytan och trycker på "Kör programmet" så kommer fågeln gå ett steg fram i labyrinten.'
       11:
         image: "notes/hoc1_11.png"
         text: "För att göra mer än en handling: dra mer än ett block till arbetsytan och sätta ihop dem. Då kommer fågeln göra uppgifterna från toppen till botten."
       12:
         image: "notes/hoc1_12.png"
-        text: "Om du kör ett program men vill fixa det och försöka igen, tryck på knappen \"Återställ\"."
+        text: 'Om du kör ett program men vill fixa det och försöka igen, tryck på knappen "Återställ".'
       13:
         image: "notes/hoc1_13.png"
         text: "Låt oss gå och få tag på grisarna!"
@@ -57,32 +57,32 @@
         text: "I detta pussel vill vi få fågeln att gå 5 steg framåt för att komma till grisen."
       3:
         image: "notes/hoc2_3.png"
-        text: "Vi kan använda det nya \"Upprepa\"-blocket för att klara det."
+        text: 'Vi kan använda det nya "Upprepa"-blocket för att klara det.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Istället för att dra ut 5 \"gå framåt\"-block..."
+        text: 'Istället för att dra ut 5 "gå framåt"-block...'
       5:
         image: "notes/hoc2_5.png"
-        text: "Så kan vi sätta \"gå framåt\"-blocket inuti \"upprepa\"-blocket och skriva det nummer på blocket som representerar hur många gånger vi vill att handlingen ska upprepas."
+        text: 'Så kan vi sätta "gå framåt"-blocket inuti "upprepa"-blocket och skriva det nummer på blocket som representerar hur många gånger vi vill att handlingen ska upprepas.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Och detta är viktigt: du kan sätta mer än en handling i ett "Upprepa"-block.'
       7:
         image: "notes/hoc2_7.png"
-        text: "Lycka till med att använda ditt nya \"upprepa\"-block!"
+        text: 'Lycka till med att använda ditt nya "upprepa"-block!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: "Hej, är jag Chris. Innan jag gick med i Miami Heat, gick jag på Georgia Tech för att studera datavetenskap. Låt oss prova vårt nya block, \"upprepa tills\"-blocket."
+        text: 'Hej, är jag Chris. Innan jag gick med i Miami Heat, gick jag på Georgia Tech för att studera datavetenskap. Låt oss prova vårt nya block, "upprepa tills"-blocket.'
       2:
         image: "notes/hoc3_2.png"
         text: "Vad skulle hända om vi inte visste hur långt fågeln var tvungen att gå för att komma till grisen?"
       3:
         image: "notes/hoc3_3.png"
-        text: "Om vi sätter ett \"gå framåt\"-block inuti \"upprepa tills\"-blocket så kommer fågeln att gå framåt TILLS den når grisen (eller kraschar in i väggen)."
+        text: 'Om vi sätter ett "gå framåt"-block inuti "upprepa tills"-blocket så kommer fågeln att gå framåt TILLS den når grisen (eller kraschar in i väggen).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
@@ -99,23 +99,23 @@
         text: 'För att skriva koden till detta: dra ut "om"-blocket och sätt ett "sväng vänster"-block inuti det.'
       5:
         image: "notes/hoc4_5.png"
-        text: "Om vi nu sätter en \"gå framåt\"-block ovanför det och en \"upprepa\"-block runt allt så kommer zombien varje gång den går kolla om det finns en väg till vänster och i så fall svänga. \"Upprepa\"-blocket är viktigt för annars skulle zombien bara ta ett steg."
+        text: 'Om vi nu sätter en "gå framåt"-block ovanför det och en "upprepa"-block runt allt så kommer zombien varje gång den går kolla om det finns en väg till vänster och i så fall svänga. "Upprepa"-blocket är viktigt för annars skulle zombien bara ta ett steg.'
       6:
         image: "notes/hoc4_6.png"
-        text: "\"Om\"-satser är väldigt viktigt i programmering. Ett av det första spelen jag skrev var ett tre i rad spela, och i det fanns en \"Om\"-sats som sa OM den andra spelaren håller på att vinna, stoppa honom."
+        text: '"Om"-satser är väldigt viktigt i programmering. Ett av det första spelen jag skrev var ett tre i rad spela, och i det fanns en "Om"-sats som sa OM den andra spelaren håller på att vinna, stoppa honom.'
       7:
         image: "notes/hoc4_7.png"
-        text: "Ha kul med \"om\"-blocket!"
+        text: 'Ha kul med "om"-blocket!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: "Hej, jag heter Saloni. Jag använder programmering för att lösa problem inom hälsa och medicin. Låt oss läras om \"om/annars\"-blocket, det ser ut som \"om\"-blocket men den har en extra del i slutet som säger \"annars\"."
+        text: 'Hej, jag heter Saloni. Jag använder programmering för att lösa problem inom hälsa och medicin. Låt oss läras om "om/annars"-blocket, det ser ut som "om"-blocket men den har en extra del i slutet som säger "annars".'
       2:
         image: "notes/hoc5_2.png"
-        text: "Om jag sätter ett \"gå framåt\"-block på platsen där det står \"gör\" och ett \"sväng vänster\"-block där det står \"annars\" innebär det att zombien kommer att välja mellan 2 alternativ. OM det finns en väg framåt så kommer zombien att gå framåt, och annars (det finns inte en väg framåt) kommer zombien svänga vänster."
+        text: 'Om jag sätter ett "gå framåt"-block på platsen där det står "gör" och ett "sväng vänster"-block där det står "annars" innebär det att zombien kommer att välja mellan 2 alternativ. OM det finns en väg framåt så kommer zombien att gå framåt, och annars (det finns inte en väg framåt) kommer zombien svänga vänster.'
       3:
         image: "notes/hoc5_3.png"
-        text: "Precis som med \"om\"-block kan vi sätta in \"om/annars\"-block inuti ett \"upprepa\"-block så att zombien fortsätter gå samtidigt som \"om/annars\"-blocket kollar om det går att svänga."
+        text: 'Precis som med "om"-block kan vi sätta in "om/annars"-block inuti ett "upprepa"-block så att zombien fortsätter gå samtidigt som "om/annars"-blocket kollar om det går att svänga.'
       4:
         image: "notes/hoc5_4.png"
         text: "Nu, få de här zombien dit de hör hemma!"

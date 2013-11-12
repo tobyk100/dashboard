@@ -82,7 +82,7 @@
         text: 'Jika kita letakkan "maju" dalam blok "ulang hingga", burung itu akan bergerak ke depan HINGGA ia mencapai pig (atau melanggar ke dinding).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'Ini adalah penting: ;sama seperti sebelum ini, kita boleh meletakkan beberapa blok dalam blok "ulang hingga", dan kesemuanya akan berulang.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"

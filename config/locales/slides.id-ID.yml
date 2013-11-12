@@ -82,7 +82,7 @@
         text: 'Jika kita meletakan blok "move forward" kedalam blok "repeat until", maka burung akan begerak maju sampai ia mencapai babi (atau menabrak tembok).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'Dan jangan lupa: sama seperti sebelumnya, kita dapat menaruh beberapa blok didalam blok "ulangi sampai" (repeat until) dan blok blok tersebut akan diulang.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"

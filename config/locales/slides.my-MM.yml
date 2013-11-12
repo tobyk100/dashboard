@@ -30,13 +30,13 @@
         text: "ညာဘက္က workspace ျဖစ္ျပီး toolbox ထဲက block ေတြကို program တည္ေဆာက္ဖုိ႔အတြက္ ဆြဲထည့္ဖုိ႔ပါ။ block ကိုဖ်က္ခ်င္တယ္ဆုိရင္ အစြန္မွာရွိတဲ့ အမိႈက္ပံုးထဲကို ဆြဲထည့္လုိက္ပါ။"
       10:
         image: "notes/hoc1_10.png"
-        text: "Block တစ္ခုမွာ instruction တစ္ခုပါတယ္။ \"move forward ေရွ႔သုိ ့\" ဆုိတဲ့ block ကို workspace ထဲဆြဲထည့္လုိက္ျပီး \"Run Program\" ကိုႏွိပ္လုိက္ရင္ ဌက္ကေလးက maze ေပၚကို တစ္ေနရာေရြ ႔သြားမွာျဖစ္တယ္။"
+        text: 'Block တစ္ခုမွာ instruction တစ္ခုပါတယ္။ "move forward ေရွ႔သုိ ့" ဆုိတဲ့ block ကို workspace ထဲဆြဲထည့္လုိက္ျပီး "Run Program" ကိုႏွိပ္လုိက္ရင္ ဌက္ကေလးက maze ေပၚကို တစ္ေနရာေရြ ႔သြားမွာျဖစ္တယ္။'
       11:
         image: "notes/hoc1_11.png"
         text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
       12:
         image: "notes/hoc1_12.png"
-        text: "If you run a program and want to fix it and try again, press the \"Reset\" button."
+        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
       13:
         image: "notes/hoc1_13.png"
         text: "Let's go get those pigs!"
@@ -57,19 +57,19 @@
         text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
       3:
         image: "notes/hoc2_3.png"
-        text: "We can use the new \"repeat\" block to help us out."
+        text: 'We can use the new "repeat" block to help us out.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: 'Instead of dragging out 5 "move forward" blocks...'
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
       6:
         image: "notes/hoc2_6.png"
         text: 'And this is important: you can put more than one command inside a "repeat" block.'
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: 'Enjoy using your new "repeat" block!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -80,10 +80,10 @@
         text: "What if we didn't know how far the bird had to move to get to the pig?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
@@ -109,7 +109,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Have fun using the "if" block!'
     if_else:
       1:
         image: "notes/hoc5_1.png"

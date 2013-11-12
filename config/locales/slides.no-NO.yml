@@ -82,7 +82,7 @@
         text: 'Hvis vi setter en "fremover" blokk inne i en "Gjenta til" blokk, vil fuglen bevege seg fremover til den når grisen (eller krasjer inn i en vegg).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'Og dette er viktig: Akkurat som før kan vi sette flere blokker inni "Gjenta til" blokken, og de vil alle bli gjentatt.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"

@@ -63,7 +63,7 @@
     reset_form:
       title: "Glömt ditt lösenord?"
       email: "E-postadress"
-      submit: "Skicka \"byta lösenord\"-instruktioner till mig"
+      submit: 'Skicka "byta lösenord"-instruktioner till mig'
     change_form:
       title: "Ändra ditt lösenord"
       new_password: "Nytt lösenord"

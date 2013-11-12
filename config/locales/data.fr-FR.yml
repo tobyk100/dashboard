@@ -61,18 +61,17 @@
         turtle_1_1: "Salut, je suis un artiste. Vous pouvez écrire du code pour me faire dessiner presque n'importe quoi. Utiliser quelques blocs pour me faire dessiner sur les lignes grises dans l'image."
         turtle_1_2: "Maintenant, tracez un carré. NOTE : utilisez votre couleur préférée en prenant dedans le nouveau « jeu de couleur »."
         turtle_1_3: "Faire un carré à l'aide de seulement 3 blocs."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
+        turtle_1_4: "Dessiner un triangle dont les côtés sont tous de couleurs différentes, en utilisant l'option « random color » qui prend une couleur différente chaque fois. Remarque : vous devrez comprendre jusqu'ou  tourner en cliquant sur le numéro sur le bloc de contour."
+        turtle_1_5: "Maintenant, pour la pratique, tracez un triangle, puis un carré pour dessiner une enveloppe."
+        turtle_1_6: "Savez-vous comment dessiner ce triangle et le carré ? Conseil : Faites d'abord le triangle, puis essayez de voir comment tourner avant de dessiner le carré."
+        turtle_1_7: "OK, nous allons un peu plus difficile - voir si vous pouvez dessiner ces lunettes vertes. Les carrés sont de 100 pixels de chaque côté, et ils sont reliés par 50 pixels apart. N'oubliez pas de dessiner en vert !"
+        turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différents chaque fois."
+        turtle_1_9: "Savez vous par quel numéro remplacer les points d'interrogation pour dessiner un cercle ?"
+        turtle_1_10: "Vous l'avez fait ! Maintenant, tracez tout ce que vous voulez. : ce Qui vous amuse:  un bonhomme allumette, flocon de neige ou un spirale. Essayez aussi le nouveau bloc « largeur définie ». Amusez-vous!"
+        turtle_4_1: "Vous pouvez dessiner une image qui ressemble à cette maison ? Pensez aux étapes que vous devez dessiner - on appel  cela  un algorithme. Ca  pourrait prendre un tas de tentatives pour le faire au beau fixe, mais c'est pas grave si ce n'est pas parfait !"
+        turtle_4_2: "Maintenant, essayez ce carré qui est faite de 2 triangles. Cela peut prendre quelques essais avant de comprendre comment tourner  et comment bien se déplacer. Ca n'a pas besoin d'être exacte, mais juste continuer à essayer !"
+        turtle_4_3: "Dessiner une flèche qui ressemble à ceci. Pensez à toutes les étapes  qui  vont vous permettre d'y arriver."
+        turtle_4_4: "Pouvez vous dessiner quelque chose qui ressemble à ce navire ? C'est un tas de petites formes mis en place, donc décomposez le problème en des parties plus petites."
         maze_karel_1_1: |-
           Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
         maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'

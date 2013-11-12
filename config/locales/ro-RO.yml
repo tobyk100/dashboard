@@ -33,7 +33,7 @@
   continue: "Continuaţi"
   prize: "Premiul"
   auth:
-    sign_in_with: "inregistrati-va cu %{furnizor}"
+    sign_in_with: "inregistrati-va cu %{provider}"
     signed_in: "inregistrati-va !"
     already_signedup: "Deja înscris?"
     notyet_signedup: "Nu te-ai alăturat încă?"

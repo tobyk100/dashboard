@@ -82,7 +82,7 @@
         text: 'Ha az "előrelépés" blokkot az "ismételd amíg" blokkba helyezzük, akkor a madár addig fog előre haladni AMÍG eléri a malacot (vagy a falnak ütközik).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'És ez fontos: akárcsak az ismétlő blokkba az "ismétel amíg" blokkba is több utasítást helyezhetsz.'
+        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
         image: "notes/hoc4_1.png"
