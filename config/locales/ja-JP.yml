@@ -72,39 +72,39 @@
   welcome_email:
     subject: "私のクラス (Code.org) に参加します。"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      どうぞ下のリンクを使ってコンピュータ科学のチュートリアルにサインアップしてくださいい（Code.org から、私とあなたの「先生」として） 。
       
-      %{link}
+      %{link} 
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      チュートリアルは、視覚的に魅力的な楽しい、シンプル、ガイド付きのゲームのような経験を使用してコンピュータ ・ サイエンスの基本的な概念を習います。ビル ・ ゲイツ氏、Mark Zuckerbergさん、アングリーバード、地球　ｖｓ。ゾンビからコードを学ぼう ！:-)
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "招待状を送りました"
+    added_teacher: "%{name} あなたの先生として追加"
+    registered: " %{section_name} を登録しました。引き続きサインインしてください。"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "Signout 続行する前にsignou してください。"
+      username_not_found: "ユーザー名 %{username} が見つかりません"
+      username_in_use: "%{username} は既に取られています、別を選択してください。"
+      no_teacher: "誰もが '%{teacher_email_or_code}'. を使用してサインインした人を見つけられない場合っわ、ここでサインアップをしてもらって、それらをもう一度先生を追加してください。"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "%{teacher_name} のクラスを Code.org で参加 ！%{teacher_name}"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "この人の統計情報へのアクセス権を持っていません。"
   crud:
-    new_model: "New %{model}"
-    show: "Show"
-    edit: "Edit"
-    edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "新しい%{model}"
+    show: "表示"
+    edit: "編集"
+    edit_model: "%{model} を編集します。"
+    update: "更新のプログラム"
+    destroy: "破壊します。"
+    back: "戻る"
+    confirm: "確かですか。"
+    created: "%{model} はエラーなく、作成されました。"
+    updated: "%{model} はエラーなく更新しました。"
   nav:
     header:
       finished_hoc: "I've finished my Hour of Code"

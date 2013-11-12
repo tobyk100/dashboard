@@ -20,8 +20,8 @@
     submit: "Dodaj nauczyciela"
   appname: "Code.org"
   stage: "Etap"
-  puzzle: "Puzzle"
-  trophies: "Trophies"
+  puzzle: "Łamigłówka"
+  trophies: "Trofea"
   courses: "Kursy"
   of: "of"
   more: "WIĘCEJ"
@@ -31,7 +31,7 @@
   already_started: "Already started? Resume here >> "
   demos: "Admin: All Demos"
   continue: "Kontynuuj"
-  prize: "prize"
+  prize: "nagroda"
   auth:
     sign_in_with: "Sign in with %{provider}"
     signed_in: "Zalogowany!"
@@ -45,24 +45,24 @@
     need_confirmation: "Didn't receive confirmation instructions?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    title: "Sign up"
-    school_name: "School Name (optional)"
-    school_address: "School Address (optional)"
-    address_placeholder: "address, city, state, zip"
-    gender: "Gender (optional)"
-    birthday: "Birthday (optional)"
-    submit: "Sign up"
-    teacher: "Are you a teacher?"
+    title: "Zarejestruj się"
+    school_name: "Nazwa szkoły (opcjonalnie)"
+    school_address: "Adres szkoły (opcjonalnie)"
+    address_placeholder: "adres, miasto, województwo, kod pocztowy"
+    gender: "Płeć (opcjonalnie)"
+    birthday: "Data urodzenia (opcjonalnie)"
+    submit: "Zarejestruj się"
+    teacher: "Jesteś nauczycielem?"
   signin_form:
-    title: "Sign in"
-    login: "Email or username"
+    title: "Zaloguj się"
+    login: "E-mail lub nazwa użytkownika"
     password: "Hasło"
-    remember: "Remember me"
-    submit: "Sign in"
+    remember: "Zapamiętaj mnie"
+    submit: "Zaloguj się"
   password:
     reset_form:
-      title: "Forgot your password?"
-      email: "Email address"
+      title: "Nie pamiętasz hasła?"
+      email: "Adres e-mail"
       submit: "Send me reset password instructions"
     change_form:
       title: "Change your password"
@@ -95,13 +95,13 @@
     error:
       access_denied: "You don't have access to this person's stats"
   crud:
-    new_model: "New %{model}"
+    new_model: "Nowy %{model}"
     show: "Pokaż"
     edit: "Edycja"
-    edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
+    edit_model: "Edytuj %{model}"
+    update: "Zaktualizuj"
+    destroy: "Zniszcz"
+    back: "Wstecz"
     confirm: "Jesteś pewny?"
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
@@ -141,7 +141,7 @@
     current_password_hint: "(we need your current password to confirm your changes)"
     cancel:
       title: "Cancel my account"
-      hint: "Unhappy?"
+      hint: "Niezadowolony?"
       button: "Cancel my account"
   user_level:
     completed: "Completed"
@@ -165,13 +165,13 @@
     local_school: "local school"
     online: "online"
   gender:
-    male: "Male"
-    female: "Female"
+    male: "Mężczyzna"
+    female: "Kobieta"
     none: "Prefer not to answer"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
+    feedback: "Wyraź swoją opinię"
     translate: "Help us translate to your language"
     tos: "Warunki korzystania z usługi"
   reference_area:

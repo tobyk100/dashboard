@@ -3,13 +3,13 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Bine aţi venit la prima ora de cod! Haideţi să pătrundem direct în prima încercare de programare."
+        text: "Bine aţi venit la prima oră de cod! Haideţi să pătrundem direct în prima încercare de programare."
       2:
         image: "notes/hoc1_2.png"
         text: "Vom folosi Blockly, un limbaj de programare vizuală, în care trageţi si scăpaţi blocuri pentru a scrie un cod."
       3:
         image: "notes/hoc1_3.png"
-        text: "Majoritatea codului e scris, dar Blockly e vizual. Fiecare bloc corespunde unei linii de cod \"real\"."
+        text: 'Majoritatea codului e scris, dar Blockly e vizual. Fiecare bloc corespunde unei linii de cod "real".'
       4:
         image: "notes/hoc1_4.png"
         text: "Vei învăța bazele informaticii, concepte care sunt folosite în orice domeniu de la crearea de aplicații până la controlul roboților trimiși pe Marte. "
@@ -30,13 +30,13 @@
         text: "În dreapta este spațiul de lucru unde vei trage blocuri din cutia de instrumente pentru ati construi programul. Ca să stergi un bloc trage-l la gunoi în colț."
       10:
         image: "notes/hoc1_10.png"
-        text: "Fiecare bloc este o instrucție. Dacă tragi un bloc de tip \"mută înainte\" catre spațiul tău de lucru și apeși pe \"Execută Programul\" pasărea se mută cu un spațiu pe labirint."
+        text: 'Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte" catre spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută cu un spațiu pe labirint.'
       11:
         image: "notes/hoc1_11.png"
         text: "Ca să faci mai mult de o acțiune, poți trage mai multe blocuri în spațiul tau de lucru și să le atașezi împreună. Pasărea va executa comezile de sus până jos."
       12:
         image: "notes/hoc1_12.png"
-        text: "Dacă rulezi un program și vrei să îl repari și să încerci din nou, apasă pe butonul \"Reset\"."
+        text: 'Dacă rulezi un program și vrei să îl repari și să încerci din nou, apasă pe butonul "Reset".'
       13:
         image: "notes/hoc1_13.png"
         text: "Hai să prindem porcii!"
@@ -57,29 +57,29 @@
         text: "În acest puzzle, vrem să facem pasărea să se mute înainte 5 spații pentru a ajunge la porc."
       3:
         image: "notes/hoc2_3.png"
-        text: "Putem să folosim noul bloc \"repetă\" ca să ne ajute."
+        text: 'Putem să folosim noul bloc "repetă" ca să ne ajute.'
       4:
         image: "notes/hoc2_4.png"
-        text: "În loc să tragem 5 blocuri de tip \"mută înainte\"..."
+        text: 'În loc să tragem 5 blocuri de tip "mută înainte"...'
       5:
         image: "notes/hoc2_5.png"
-        text: "Putem să așezăm blocul \"mută înainte\" în interiorul blocului \"repetă\" și să scriem un număr în bloc ca să îi spunem de câte ori să repete acțiunea."
+        text: 'Putem să așezăm blocul "mută înainte" în interiorul blocului "repetă" și să scriem un număr în bloc ca să îi spunem de câte ori să repete acțiunea.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Și asta este important: poți să pui mai multe de o singură comandă în interiorul blocului "repetă".'
       7:
         image: "notes/hoc2_7.png"
-        text: "Bucurați-vă de utilitatea noului bloc \"repetă\"!"
+        text: 'Bucurați-vă de utilitatea noului bloc "repetă"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: "Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul \"Repetaţi până când\"."
+        text: 'Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul "Repetaţi până când".'
       2:
         image: "notes/hoc3_2.png"
         text: "Cum ar fi dacă nu am ști cât de departe trebuie pasărea să se mute pentru a ajunge la porc?"
       3:
         image: "notes/hoc3_3.png"
-        text: "Dacă punem un bloc \"mută înainte\" în interiorul blocului \"repetă până\", pasărea se va muta înainte PÂNĂ va ajunge la porc(sau se lovește de un perete)."
+        text: 'Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până", pasărea se va muta înainte PÂNĂ va ajunge la porc(sau se lovește de un perete).'
       4:
         image: "notes/hoc3_4.png"
         text: 'Şi asta este important: ;la fel ca inainte, putem pune mai multe blocuri inăuntrul blocului "repetă până când" şi toate se vor repeta.'
@@ -89,14 +89,13 @@
         text: 'Salut, sunt Bill! Hai să învâțăm un nou concept fundamental: Afirmațile de tip "Dacă" acesta este felul în care computerele iau decizii.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Utilizați afirmații de tip "If" în fiecare zi. Înainte să mergi afară în fiecare dimineață spui că IF plouă afară, am nevoie să port o geacă.'
       3:
         image: "notes/hoc4_3.png"
         text: "Putem să-i spunem zombie-ului să verifice DACĂ este o cale catre stânga, și dacă găsește o cale catrew stânga, putem să îl îndreptăm în acea direcție."
       4:
         image: "notes/hoc4_4.png"
-        text: "Ca să scrii codul pentru asta, trage afară blocul \"dacă\" și pune un bloc \"întoarce la stânga\" în interior."
+        text: 'Ca să scrii codul pentru asta, trage afară blocul "dacă" și pune un bloc "întoarce la stânga" în interior.'
       5:
         image: "notes/hoc4_5.png"
         text: 'Acum dacă punem un bloc "mută înainte" deasupra și un bloc "repetă" în jurul obiectelor, de fiecare dată când un zombie se va mișca, va verifica dacă este o cale către stânga și se va întoarce.  Comanda "repetă" este critică, ca să verifice dacă există o cale alternativă la fiecare pas.'
@@ -105,14 +104,14 @@
         text: 'Afirmațiile de tip dacă sunt foarte importante în informatică. Unul din primele programe pe care le-am scris a fost un joc x și 0, și exista o afirmație de tipul "dacă", care spunea în felul următor programului de execuție : Dacă adversarul este pe cale să câștige, blochează locul care îi va permite să câștige.'
       7:
         image: "notes/hoc4_7.png"
-        text: "Distrează-te folosind blocul \"dacă\"!"
+        text: 'Distrează-te folosind blocul "dacă"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
         text: 'Salut, numele meu este Saloni. Eu folosesc informatica să pot ajuta și a gasi soluții în medicină și sănatate. Hai să învățăm  despre blocul "dacă altul". Arată ca blocul "dacă", dar are o parte în plus la sfârșit care spune "altul".'
       2:
         image: "notes/hoc5_2.png"
-        text: "Dacă pun un bloc \"mută înainte\" in locul unde spune \"execută\" și un bloc \"mută înainte\" unde spune \"altul\" asta înseamnă că zombie-ul va alege între 2 opțiuni. DACĂ există o cale în față, zombie-ul se va mișca înainte, și ALTFEL (nu există o cale înainte), zombie-ul se va întoarce la stânga."
+        text: 'Dacă pun un bloc "mută înainte" in locul unde spune "execută" și un bloc "mută înainte" unde spune "altul" asta înseamnă că zombie-ul va alege între 2 opțiuni. DACĂ există o cale în față, zombie-ul se va mișca înainte, și ALTFEL (nu există o cale înainte), zombie-ul se va întoarce la stânga.'
       3:
         image: "notes/hoc5_3.png"
         text: 'Asemenea blocului "dacă", putem pune blocuri "dacă altul" în interiorul unui bloc "repetă" astfel încât zombie-ul să continue să se deplaseze și blocul "dacă altul" va continua să verifice dacă are unde alerga. '
@@ -141,7 +140,7 @@
         text: "Felicitări! Cu ultimul puzzle pe care l-ai rezolvat, tocmai ai scris codare ce poate spune ORICĂRUI robot cum să-și găsească drumul printr-un labirint fâră ramificații sau un tunel de orice lungime , fie că e un zombie, o pasăre, un  robot de misune pe marte, sau chiar o mașină ce se conduce singură."
       2:
         image: "notes/hoc6_2.png"
-        text: "Conceptele de bază pe care le-ai folosit sunt inima oricărui program sau aplicație pe care le vei încerca. Am învățat despre bucle care se repetă, afirmații de tipul \"repetă până la\", si afiramții de tipul \"dacă\" sau \"altul\"."
+        text: 'Conceptele de bază pe care le-ai folosit sunt inima oricărui program sau aplicație pe care le vei încerca. Am învățat despre bucle care se repetă, afirmații de tipul "repetă până la", si afiramții de tipul "dacă" sau "altul".'
       3:
         image: "notes/hoc6_3.png"
         text: "Dacă ți-a plăcut prima oră de cod, vizitează code.org pentru ați continua educația în informatică! Când vei termina cursul nostru de 20 de ore, vei stapâni bazele programării, și vei putea să înveți cum să scrii aplicații de telefon, întrucțiuni de roboți, jocuri, tu alegi."

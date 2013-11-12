@@ -72,21 +72,19 @@
   welcome_email:
     subject: "عضویت در کلاس من (در Code.org)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      روی لینک زیر برای ثبت نام آموزش علوم کامپیوتر در Code.org کلیک کنید ( با من به عنوان " معلم " ):
       
-      %{link}
+      آموزشها جالب و مصور هستند و مفاهیم اساسی کامپیوتر را به سادگی تجربه یک بازی به شما یاد میدهند کد نویسی را از بیل گیتس ، مارک زاکربرگ ، angry birds و plants vs. zombies یاد بگیرید.
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
       
-      %{name}
   follower:
     invite_sent: "دعوتنامه ارسال شد"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    added_teacher: "%{name} به عنوان معلم شما افزوده شد"
+    registered: "ثبت نام شما برای %{section_name} انجام شد. لطفا برای ادامه وارد سایت شوید"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
+      signed_in: "لطفا قبل از هر اقدامی از سایت خارج شوید"
+      username_not_found: "نام کاربری %{username} یافت نشد"
+      username_in_use: "%{username} قبلا انتخاب شده است، لطفا یک نام کاربری دیگر را امتحان کنید"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:

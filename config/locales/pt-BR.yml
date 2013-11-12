@@ -82,7 +82,7 @@
   follower:
     invite_sent: "Convite enviado"
     added_teacher: "%{name} foi adicionado como seu professor"
-    registered: "Você já se registrou para %{section_name}. Inscreva-se continuar"
+    registered: "Você já se registrou para %{section_name}. Inscreva-se para continuar"
     error:
       signed_in: "Por favor saia antes de prosseguir"
       username_not_found: "Nome de usuário %{username} não encontrado"
@@ -108,7 +108,7 @@
   nav:
     header:
       finished_hoc: "Eu terminei a minha Hora de Código"
-      sign_in_to_save: "Cadastre-se salvar o progresso"
+      sign_in_to_save: "Cadastre-se para salvar o progresso"
     user:
       classroom: "Meus alunos"
       label: "Oi, %{username}"
@@ -124,7 +124,7 @@
       close: "FECHAR"
       mastery: "Conceitos"
       puzzle_map: "Estágios"
-      prizes: "Colete todos os troféus %{total_trophies} e ganhe prêmios!"
+      prizes: "Colete todos os %{total_trophies} troféus e ganhe prêmios!"
       prizes_link: "mais informação"
   teacher:
     title:

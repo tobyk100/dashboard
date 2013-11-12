@@ -9,7 +9,7 @@
         text: "Vamos usar o Blockly, uma linguagem de programação visual onde você arrasta e solta blocos para escrever código."
       3:
         image: "notes/hoc1_3.png"
-        text: "Grande parte do código é digitado, mas Blockly é visual. Cada bloco corresponde a uma linha de código \"real\"."
+        text: 'Grande parte do código é digitado, mas Blockly é visual. Cada bloco corresponde a uma linha de código "real".'
       4:
         image: "notes/hoc1_4.png"
         text: "Você vai aprender os fundamentos da ciência da computação, conceitos que são usados em qualquer lugar de fazer aplicativos para controlar um veículo não tripulado em missão a Marte."
@@ -30,13 +30,13 @@
         text: "À direita é o seu espaço de trabalho onde você vai arrastar blocos da caixa de ferramentas para construir o seu programa. Para excluir um bloco, arraste-o para o lixo no canto."
       10:
         image: "notes/hoc1_10.png"
-        text: "Cada bloco é uma instrução. Se você arrastar um bloco \"Avançar\" para a sua área de trabalho e pressionar \"Executar Programa\", o pássaro se move um espeço para a frente no labirinto."
+        text: 'Cada bloco é uma instrução. Se você arrastar um bloco "Avançar" para a sua área de trabalho e pressionar "Executar Programa", o pássaro se move um espeço para a frente no labirinto.'
       11:
         image: "notes/hoc1_11.png"
         text: "Para fazer mais de uma ação, você pode arrastar muitos blocos para o seu espaço de trabalho e anexá-los juntos. O pássaro vai fazer os comandos de cima para baixo."
       12:
         image: "notes/hoc1_12.png"
-        text: "Se você executa um programa e quer corrigi-lo e tentar novamente, pressione o botão \"Refazer\"."
+        text: 'Se você executa um programa e quer corrigi-lo e tentar novamente, pressione o botão "Refazer".'
       13:
         image: "notes/hoc1_13.png"
         text: "Vamos pegar esses porcos!"
@@ -57,65 +57,64 @@
         text: "Neste quebra-cabeça, queremos fazer o pássaro avançar 5 espaços para chegar ao porco."
       3:
         image: "notes/hoc2_3.png"
-        text: "Podemos usar o novo bloco \"repetir\" para nos ajudar."
+        text: 'Podemos usar o novo bloco "repetir" para nos ajudar.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Em vez de arrastar 5 blocos \"Avançar\"..."
+        text: 'Em vez de arrastar 5 blocos "Avançar"...'
       5:
         image: "notes/hoc2_5.png"
-        text: "Podemos colocar o bloco \"Avançar\" dentro do bloco \"repetir\" e escrever um número no bloco para dizer quantas vezes repetir."
+        text: 'Podemos colocar o bloco "Avançar" dentro do bloco "repetir" e escrever um número no bloco para dizer quantas vezes repetir.'
       6:
         image: "notes/hoc2_6.png"
         text: 'E isto é importante: você pode colocar mais de um comando dentro de um bloco "repetir".'
       7:
         image: "notes/hoc2_7.png"
-        text: "Aproveite o uso do seu novo bloco \"repetir\"!"
+        text: 'Aproveite o uso do seu novo bloco "repetir"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: "Oi, eu sou o Chris. Antes de entrar para o Miami Heat, fui para Georgia Tecnologia para estudar Ciência da Computação. Vamos tentar o nosso novo bloco, o bloco \"repetir até\"."
+        text: 'Oi, eu sou o Chris. Antes de entrar para o Miami Heat, fui para Georgia Tecnologia para estudar Ciência da Computação. Vamos tentar o nosso novo bloco, o bloco "repetir até".'
       2:
         image: "notes/hoc3_2.png"
         text: "E se nós não soubermos quanto o pássaro teve que se mover para chegar ao porco?"
       3:
         image: "notes/hoc3_3.png"
-        text: "Se colocarmos um bloco \"Avançar\" dentro do bloco \"repetir até\", o pássaro vai seguir em frente ATÉ ele atingir o porco (ou se chocar contra uma parede)."
+        text: 'Se colocarmos um bloco "Avançar" dentro do bloco "repetir até", o pássaro vai seguir em frente ATÉ ele atingir o porco (ou se chocar contra uma parede).'
       4:
         image: "notes/hoc3_4.png"
-        text: "E isto é importante:; tal como antes, podemos colocar vários blocos dentro do bloco \"repeat até\", e todos eles serão repetidos."
+        text: 'E isto é importante:; tal como antes, podemos colocar vários blocos dentro do bloco "repeat até", e todos eles serão repetidos.'
     if:
       1:
         image: "notes/hoc4_1.png"
         text: 'Oi, eu sou o Bill! Vamos aprender um novo conceito fundamental: declarações "SE". É assim que computadores tomam decisões.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Você mesmo usa a declaração "SE" todos os dias. Antes de você sair todas as manhãs, você diz SE estiver chovendo lá fora, eu precisarei da minha jaqueta.'
       3:
         image: "notes/hoc4_3.png"
         text: "Então podemos dizer ao zumbi para verificar SE há caminho para a esquerda e, se ele encontrar um caminho para a esquerda, teremos que virar ele naquela direção."
       4:
         image: "notes/hoc4_4.png"
-        text: "Para escrever o código para isto, vamos arrastar o nosso bloco \"SE\" e colocar um bloco de \"virar à esquerda\" dentro dele."
+        text: 'Para escrever o código para isto, vamos arrastar o nosso bloco "SE" e colocar um bloco de "virar à esquerda" dentro dele.'
       5:
         image: "notes/hoc4_5.png"
-        text: "Agora, se colocarmos um bloco \"Avançar\" acima dele e um bloco \"repetir\" ao redor de tudo, cada vez que o zumbi se move, ele vai verificar se há um caminho para a esquerda e virar. O comando \"repetir\" é fundamental, para verificar se há uma virada a cada passo."
+        text: 'Agora, se colocarmos um bloco "Avançar" acima dele e um bloco "repetir" ao redor de tudo, cada vez que o zumbi se move, ele vai verificar se há um caminho para a esquerda e virar. O comando "repetir" é fundamental, para verificar se há uma virada a cada passo.'
       6:
         image: "notes/hoc4_6.png"
-        text: "Declarações \"SE\" são muito importantes para a ciência da computação. Um dos primeiros programas escrevi foi um jogo da velha, e havia uma instrução \"SE\" que dizia que SE a outra pessoa está prestes a ganhar, bloqueie o lugar que lhe permitiria ganhar."
+        text: 'Declarações "SE" são muito importantes para a ciência da computação. Um dos primeiros programas escrevi foi um jogo da velha, e havia uma instrução "SE" que dizia que SE a outra pessoa está prestes a ganhar, bloqueie o lugar que lhe permitiria ganhar.'
       7:
         image: "notes/hoc4_7.png"
         text: 'Divirta-se usando o bloco  "SE"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: "Oi, meu nome é Saloni. Eu uso a ciência da computação para ajudar a resolver problemas de saúde e medicina. Vamos aprender sobre o bloco \"SE... SENÃO\". É semelhante ao bloco \"SE\", mas tem uma parte extra no final que diz \"SENÃO\"."
+        text: 'Oi, meu nome é Saloni. Eu uso a ciência da computação para ajudar a resolver problemas de saúde e medicina. Vamos aprender sobre o bloco "SE... SENÃO". É semelhante ao bloco "SE", mas tem uma parte extra no final que diz "SENÃO".'
       2:
         image: "notes/hoc5_2.png"
-        text: "Se eu colocar um bloco \"Avançar\" no local onde diz \"fazer\" e um bloco \"Vire à esquerda\" onde se diz \"senão\", significa que o zumbi vai escolher entre 2 opções. Se há um caminho pela frente, o zumbi vai avançar, e CASO CONTRÁRIO (não há um caminho em frente), o zumbi vai virar à esquerda."
+        text: 'Se eu colocar um bloco "Avançar" no local onde diz "fazer" e um bloco "Vire à esquerda" onde se diz "senão", significa que o zumbi vai escolher entre 2 opções. Se há um caminho pela frente, o zumbi vai avançar, e CASO CONTRÁRIO (não há um caminho em frente), o zumbi vai virar à esquerda.'
       3:
         image: "notes/hoc5_3.png"
-        text: "Como o bloco \"SE\", podemos colocar blocos \"SE... SENÃO\" dentro de um bloco \"repetir\" para que o zumbi continue se movendo e o bloco \"SE... SENÃO\" irá manter a verificação se há algum lugar para virar."
+        text: 'Como o bloco "SE", podemos colocar blocos "SE... SENÃO" dentro de um bloco "repetir" para que o zumbi continue se movendo e o bloco "SE... SENÃO" irá manter a verificação se há algum lugar para virar.'
       4:
         image: "notes/hoc5_4.png"
         text: "Agora coloque os zumbis onde eles devem ficar!"

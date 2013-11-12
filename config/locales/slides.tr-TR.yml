@@ -9,7 +9,7 @@
         text: "Kod yazmak için blokları sürükleyip bırakacağınız bir görsel programlama dili olan Blockly'i kullanacağız."
       3:
         image: "notes/hoc1_3.png"
-        text: "Çoğu kod yazılır, fakat Blockly görseldir. Her blok \"gerçek\" bir kod satırına karşılık gelir."
+        text: 'Çoğu kod yazılır, fakat Blockly görseldir. Her blok "gerçek" bir kod satırına karşılık gelir.'
       4:
         image: "notes/hoc1_4.png"
         text: "Bilgisayar biliminin temellerini, Mars aracını kontrol etmekten uygulamalar yapmaya kadar her yerde kullanılan kavramları öğreneceksiniz."
@@ -30,13 +30,13 @@
         text: "Sağ taraf, programınızı inşa etmek için araç kutusundan blok sürükleyeceğiniz çalışma alanıdır. Blok silmek için, bloğu köşedeki çöp kutusuna sürükleyin."
       10:
         image: "notes/hoc1_10.png"
-        text: "Her blok bir talimattır. Eğer \"ileri taşı\" bloğunu çalışma alanına sürükleyip \"Programı Çalıştır\"a basarsanız, kuş labirent üzerinde bir boşluk hareket eder."
+        text: 'Her blok bir talimattır. Eğer "ileri taşı" bloğunu çalışma alanına sürükleyip "Programı Çalıştır"a basarsanız, kuş labirent üzerinde bir boşluk hareket eder.'
       11:
         image: "notes/hoc1_11.png"
         text: "Bir hareket daha yapmak için, çalışma alanınızda birçok blok sürükleyebilir ve onları birlikte ekleyebilirsiniz. Kuş yukarıdan aşağıya doğru komutları yapacaktır."
       12:
         image: "notes/hoc1_12.png"
-        text: "Eğer bir programı çalıştırmak ve düzeltme yapıp tekrar denemek istiyorsanız \"Sıfırla\" düğmesine basın."
+        text: 'Eğer bir programı çalıştırmak ve düzeltme yapıp tekrar denemek istiyorsanız "Sıfırla" düğmesine basın.'
       13:
         image: "notes/hoc1_13.png"
         text: "Haydi gidip oradaki domuzları alalım!"
@@ -57,19 +57,19 @@
         text: "Bu bulmacada, domuzu almak için kuşu 5 boşluk ileri hareket ettirmek istiyoruz."
       3:
         image: "notes/hoc2_3.png"
-        text: "Biz bize yardımcı olması için yeni \"tekrar\" bloğunu kullanabiliriz."
+        text: 'Biz bize yardımcı olması için yeni "tekrar" bloğunu kullanabiliriz.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Instead of dragging out 5 \"move forward\" blocks..."
+        text: 'Instead of dragging out 5 "move forward" blocks...'
       5:
         image: "notes/hoc2_5.png"
-        text: "We can put the \"move forward\" block inside the \"repeat\" block and write a number in the block to tell it how many times to repeat."
+        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
       6:
         image: "notes/hoc2_6.png"
         text: 'And this is important: you can put more than one command inside a "repeat" block.'
       7:
         image: "notes/hoc2_7.png"
-        text: "Enjoy using your new \"repeat\" block!"
+        text: 'Enjoy using your new "repeat" block!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
@@ -80,7 +80,7 @@
         text: "What if we didn't know how far the bird had to move to get to the pig?"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
       4:
         image: "notes/hoc3_4.png"
         text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
@@ -109,7 +109,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Have fun using the "if" block!'
     if_else:
       1:
         image: "notes/hoc5_1.png"

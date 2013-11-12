@@ -9,7 +9,7 @@
         text: "Θα χρησιμοποιήσουμε το  Blockly, μια οπτική γλώσσα προγραμματισμού στην οποία προγραμματίζετε σύροντας και αποθέτοντας τμήματα (μπλοκ) που συνθέτουν τον κώδικα του προγράμματός σας."
       3:
         image: "notes/hoc1_3.png"
-        text: "Στα περισσότερα προγράμματα πρέπει κάποιος να πληκτρολογήσει τον κώδικα του προγράμματος, αλλά στο Blockly ο προγραμματισμός είναι οπτικός. Κάθε μπλοκ αντιστοιχεί σε μια \"πραγματική\" γραμμή κώδικα ."
+        text: 'Στα περισσότερα προγράμματα πρέπει κάποιος να πληκτρολογήσει τον κώδικα του προγράμματος, αλλά στο Blockly ο προγραμματισμός είναι οπτικός. Κάθε μπλοκ αντιστοιχεί σε μια "πραγματική" γραμμή κώδικα .'
       4:
         image: "notes/hoc1_4.png"
         text: "Θα μάθετε τις βασικές αρχές της επιστήμης των υπολογιστών, έννοιες που χρησιμοποιούνται από την κατασκευή εφαρμογών για υπολογιστές μέχρι τον έλεγχο ρομπότ για την εξερεύνηση πλανητών."
@@ -30,13 +30,13 @@
         text: "Στα δεξιά είναι ο χώρος εργασίας σας, όπου θα μεταφέρετε πλακίδια από την εργαλειοθήκη για την δημιουργία του προγράμματός σας. Για να διαγράψετε ένα πλακίδιο, σύρετε στα σκουπίδια στην γωνία."
       10:
         image: "notes/hoc1_10.png"
-        text: "Κάθε πλακίδιο είναι μια εντολή. Εάν σύρετε το πλακίδιο \"Μετακίνηση προς τα εμπρός\" στο χώρο εργασίας σας και πατήστε το \"Εκτέλεση Προγράμματος\", το πουλί κάνει ένα βήμα στο λαβύρινθο."
+        text: 'Κάθε πλακίδιο είναι μια εντολή. Εάν σύρετε το πλακίδιο "Μετακίνηση προς τα εμπρός" στο χώρο εργασίας σας και πατήστε το "Εκτέλεση Προγράμματος", το πουλί κάνει ένα βήμα στο λαβύρινθο.'
       11:
         image: "notes/hoc1_11.png"
         text: "Για να κάνετε περισσότερες από μία ενέργειες, μπορείτε να σύρετε πολλά πλακίδια στο χώρο εργασίας σας και να τα τοποθετήσετε μαζί. Το πουλί θα κάνει τις εντολές από την κορυφή προς τα κάτω."
       12:
         image: "notes/hoc1_12.png"
-        text: "Εάν εκτελέσετε ένα πρόγραμμα και θέλετε να το διορθώσετε και να προσπαθήστε ξανά, πατήστε το κουμπί \"Επαναφορά\"."
+        text: 'Εάν εκτελέσετε ένα πρόγραμμα και θέλετε να το διορθώσετε και να προσπαθήστε ξανά, πατήστε το κουμπί "Επαναφορά".'
       13:
         image: "notes/hoc1_13.png"
         text: "Πάμε να πιάσουμε εκείνα τα γουρουνάκια!"
@@ -60,10 +60,10 @@
         text: "Μπορούμε να χρησιμοποιήσουμε το νέο πλακίδιο «επανάληψης» για να μας βοηθήσει."
       4:
         image: "notes/hoc2_4.png"
-        text: "Αντί να χρησιμοποιήσετε 5 πλακίδια \"Μετακίνηση προς τα εμπρός\"..."
+        text: 'Αντί να χρησιμοποιήσετε 5 πλακίδια "Μετακίνηση προς τα εμπρός"...'
       5:
         image: "notes/hoc2_5.png"
-        text: "Μπορούμε να βάλουμε το πλακίδιο \"Μετακίνηση προς τα εμπρός\" στο εσωτερικό του πλακιδίου \"Επανάληψη\" και να γράψουμε έναν αριθμό στο πλακίδιο για να του πούμε πόσες φορές να το επαναλάβει."
+        text: 'Μπορούμε να βάλουμε το πλακίδιο "Μετακίνηση προς τα εμπρός" στο εσωτερικό του πλακιδίου "Επανάληψη" και να γράψουμε έναν αριθμό στο πλακίδιο για να του πούμε πόσες φορές να το επαναλάβει.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Και αυτό είναι σημαντικό: μπορείτε να βάλετε περισσότερες από μία εντολές μέσα σε ένα πλακίδιο  "Επανάληψης".'
@@ -73,89 +73,84 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Γεια, είμαι ο Chris. Πριν έρθω στους Miami Heat πήγα στο πανεπιστήμιο Georgia Tech να σπουδάσω Πληροφορική. Ας προσπαθήσουμε ένα νέο μπλοκ, to "επανάλαβε μέχρι".'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Κι αν δεν ξέραμε πόσο μακριά πρέπει να πάει το πουλί για να φτάσει το γουρούνι;"
       3:
         image: "notes/hoc3_3.png"
-        text: "If we put a \"move forward\" block inside the \"repeat until\" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall)."
+        text: 'Αν βάλουμε ένα "Μετακίνηση προς τα εμπρός" μπλοκ στο εσωτερικό του "Επανάλαβε μέχρι" μπλοκ, το πουλί θα κινηθεί προς τα εμπρός, ΜΕΧΡΙ να φτάσει το γουρούνι (ή να πέσει πάνω σε έναν τοίχο).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: ;just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Και αυτό είναι σημαντικό: ακριβώς όπως πριν, μπορούμε να βάλουμε πολλά πλακίδια (μπλοκ) στο εσωτερικό του "επανάλαβε μέχρι" μπλοκ και όλα αυτά μαζί θα επαναληφθούν.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Γεια σου, είμαι ο Βασίλης! Ας μάθουμε μια νέα θεμελιώδη έννοια: τις εντολές  "If" («Εάν»). Με αυτόν τον τρόπο οι υπολογιστές παίρνουν αποφάσεις.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Χρησιμοποιείς τις  "If" (εάν) δηλώσεις καθημερινά στη ζωή σου. Κάθε πρωί, πριν βγεις για να πας στο σχολείο, σκέφτεσαι: αν βρέχει έξω, πρέπει να φορέσω το αδιάβροχό μου.'
       3:
         image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Μπορούμε να πούμε στο ζόμπι να ελέγξει IF (εάν) υπάρχει μονοπάτι προς τα αριστερά, και αν πράγματι βρει μονοπάτι προς τα αριστερά, να τον κάνουμε να στρίψει προς αυτή την κατεύθυνση."
       4:
         image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Για να γράψεις τον κωδικό για αυτό, σύρε έξω το "if"  ("εάν") μπλοκ και θέσε ένα  "στρίψε αριστερά" μπλοκ μέσα σε αυτό.'
       5:
         image: "notes/hoc4_5.png"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Τώρα, εάν βάλουμε ένα "κινήσου μπροστά" μπλοκ πάνω από αυτό και ένα "επανάλαβε" μπλοκ γύρω από όλα, κάθε φορά που κινείται το ζόμπι, θα ελέγχει εάν υπάρχει ένα μονοπάτι προς τα αριστερά και θα στρίβει. Η εντολή "επανάλαβε" είναι κρίσιμη, για τον έλεγχο της στροφής σε κάθε βήμα.'
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: |-
+          Οι εντολές "if" (εάν) είναι πραγματικά σημαντικές στην επιστήμη των υπολογιστών. Ένα από τα πρώτα προγράμματα που έγραψα ήταν ένα παιχνίδι τρίλιζας στο οποίο υπήρχε μια 'If" εντολή που δήλωνε ότι EAN ο άλλος παίκτης πλησιάζει στο να κερδίσει, μπλόκαρε το σημείο που του επιτρέπει να κερδίσει.
       7:
         image: "notes/hoc4_7.png"
-        text: "Have fun using the \"if\" block!"
+        text: 'Καλή διασκέδαση με το μπλοκ "εάν"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Γεια, το όνομά μου είναι Σαλόνι. Χρησιμοποιώ την επιστήμη των υπολογιστών για την επίλυση προβλημάτων στην ιατρική και την φαρμακευτική. Ας μάθουμε για το "εάν... αλλιώς" μπλοκ. Μοιάζει με το μπλοκ "εάν", αλλά έχει ένα επιπλέον μέρος στο τέλος του που ονομάζεται "αλλιώς".'
       2:
         image: "notes/hoc5_2.png"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Αν βάλω ένα μπλοκ "Μετακίνηση προς τα εμπρός" στο σημείο όπου λέει "κάνε" και ένα μπλοκ "Στρίψε αριστερά" εκεί που λέει "αλλιώς" τότε σημαίνει ότι το ζόμπι θα επιλέξει μεταξύ 2 επιλογών. ΕΑΝ υπάρχει μονοπάτι μπροστά, το ζόμπι θα κινηθεί προς τα εμπρός, ΑΛΛΙΏΣ (δεν υπάρχει μονοπάτι μπροστά), το ζόμπι θα στρίψετε αριστερά.'
       3:
         image: "notes/hoc5_3.png"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Ακριβώς όπως το μπλοκ "εάν", μπορούμε να βάλουμε ένα "αν αλλιώς" μπλοκ μέσα σε ένα μπλοκ "επανάλαβε" έτσι ώστε το ζόμπι να συνεχίζει να κινείται και το μπλοκ "αν αλλιώς" να ελέγχει συνέχεια αν υπάρχει κάποιο σημείο για να στρίψει.'
       4:
         image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        text: "Τώρα, στείλε τα ζόμπι εκεί που ανήκουν!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Σημειώσεις, σύντομα κοντά σας!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Σημειώσεις, σύντομα κοντά σας!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Σημειώσεις, σύντομα κοντά σας!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Σημειώσεις, σύντομα κοντά σας!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Συγχαρητήρια! Με το τελευταίο παζλ που λύσατε, γράψατε τον κώδικα που μπορεί να πει σε οποιοδήποτε robot πώς να βρει την έξοδο σε έναν λαβύρινθο που δεν έχει πολύπλοκους διαδρόμους ή σε μια σήραγγα οποιουδήποτε μήκους. Το ρομπότ σας μπορεί να είναι ένα ζόμπι, ένα πουλί, ένα όχημα που κινείται στον πλανήτη Άρη, ή ακόμη και ένα αυτο-οδηγούμενο (χωρίς οδηγό) αυτοκίνητο."
       2:
         image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: 'Οι βασικές έννοιες που χρησιμοποίησες είναι η καρδιά κάθε προγράμματος ή εφαρμογής που μπορεί να συναντήσεις.  Μάθαμε για βρόχους επανάληψης, για εντολές "επανάλαβε μέχρι", για εντολές "εάν" και "εάν αλλιώς".'
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Αν σου άρεσε η πρώτη σου ώρα στον προγραμματισμό, επισκέψου τον ιστότοπο code.org για να συνεχίσεις την εκπαίδευσή σου στην Πληροφορική! Μόλις ολοκληρώσεις την 20ώρη σειρά μαθημάτων μας, θα έχεις κατακτήσει τις βασικές γνώσεις του προγραμματισμού και θα μπορείς να αρχίσεις να μαθαίνεις πώς να γράψεις εφαρμογές για κινητά, οδηγίες για ρομπότ, παιχνίδια και ότι άλλο φανταστείς."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: |
+          Η τεχνολογία αλλάζει όλα όσα κάνουμε και δεν έχει σημασία αν είσαι μικρός ή μεγάλος:
+          ο προγραμματισμός είναι διασκεδαστικός, δημιουργικός και όλοι μπορούν να μάθουν!
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Σημειώσεις, σύντομα κοντά σας!"

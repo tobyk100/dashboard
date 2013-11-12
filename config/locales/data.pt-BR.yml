@@ -25,8 +25,8 @@
     concept:
       description:
         sequence: "Sequência"
-        if: "Bloco \"Se\""
-        if_else: "Bloco \"se-senão\""
+        if: 'Bloco "Se"'
+        if_else: 'Bloco "se-senão"'
         loop_times: "Repetir o bloco por um determinado número de vezes"
         loop_until: "Repetir um bloco até satisfazer uma condição"
         loop_while: "Repetir um bloco enquanto uma condição é verdadeira"
@@ -42,18 +42,18 @@
         maze_2_4: "Aff! Escreva um programa que me leva ao redor da dinamite para o porco verde. "
         maze_2_5: "Há uma maneira de chegar ao porco verde usando apenas 2 blocos. Você consegue fazer isso?"
         maze_2_6: "Tente me levar ao porco verde usando apenas três blocos."
-        maze_2_7: "Escreva-me um programa para que eu possa ir até o porco verde usando o menor número de blocos. Tente usar mais de um bloco \"repetir vezes\"."
+        maze_2_7: 'Escreva-me um programa para que eu possa ir até o porco verde usando o menor número de blocos. Tente usar mais de um bloco "repetir vezes".'
         maze_2_8: 'Para resolver este, tente um bloco "repetir" com estes 3 blocos no seu interior: andar, andar, vire.'
         maze_2_9: 'Ok, tente o novo bloco "repetir até que" - ele irá repetir até que eu alcance o porco verde.'
         maze_2_10: "Ok, pratique mais uma vez - você pode resolver isto usando apenas 4 blocos?"
         maze_2_11: "Pessoa querida.  Mim zumbi. Mim com fome. Devo... chegar... no girassol... Me ajude a chegar lá com apenas 5 blocos?"
         maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Você pode fazê-lo em apenas 5 blocos?"
         maze_2_13: 'Use o novo bloco "SE" para me deixar decidir quando virar. Dica: você só precisa de mais um bloco, mas aprenda como podemos configurá-lo, então você mesmo poderá fazê-lo na próxima vez.'
-        maze_2_14: "Ok, isso é apenas como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco \"SE\" e o bloco \"repetir\" juntos."
-        maze_2_15: "Eu quero o girassol! Use um bloco \"SE\" para obter com o menor número de blocos."
+        maze_2_14: 'Ok, isso é apenas como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco "SE" e o bloco "repetir" juntos.'
+        maze_2_15: 'Eu quero o girassol! Use um bloco "SE" para obter com o menor número de blocos.'
         maze_2_16: 'Ok, vamos fazer isto novamente para praticar - isso não é muito diferente, mas fique de olho nos "chompers"!'
-        maze_2_17: "Os blocos \"se-caso contrário\" verificam uma condição, e em seguida, fazem uma coisa ou outra. Para me levar ao girassol tente usar este novo bloco."
-        maze_2_18: "Mais uma prática do bloco \"se-caso contrário\", você consegue na primeira tentativa?"
+        maze_2_17: 'Os blocos "se-caso contrário" verificam uma condição, e em seguida, fazem uma coisa ou outra. Para me levar ao girassol tente usar este novo bloco.'
+        maze_2_18: 'Mais uma prática do bloco "se-caso contrário", você consegue na primeira tentativa?'
         maze_2_19: "Você pode adicionar apenas 3 blocos para me ajudar a resolver um labirinto mais complexo? Se você fizer isso direito, eu posso andar qualquer caminho cheio de curvas, não importa o comprimento."
         turtle_1_1: "Oi, eu sou um artista. Você pode escrever código para fazer-me desenhar quase tudo. Use alguns blocos para me fazer desenhar as linhas de cinza na imagem."
         turtle_1_2: 'Agora, desenhe um quadrado. NOTA: use a sua cor preferida pegando-a no novo bloco "definir cor".'
@@ -62,23 +62,23 @@
         turtle_1_5: "Agora, para praticar, desenhe um triângulo e, em seguida, um quadrado para desenhar um envelope."
         turtle_1_6: "você consegue descobrir como desenhar esse triângulo e esse quadrado? Dica: Faça o triângulo primeiro e, em seguida, descubra o quanto virar antes de desenhar o quadrado."
         turtle_1_7: "Ok, vamos dificultar um pouco - veja se você pode desenhar esses óculos verdes. Os quadrados tem 100 pixels de cada lado, e eles são separados por 50 pixels. Não se esqueça de desenhar com a cor verde!"
-        turtle_1_8: "Ok, tente descobrir o que acontece se você executar esse código (ou pressione \"Executar\" para experimentá-lo). Em seguida, repita-o várias vezes para completar o desenho. As cores serão diferentes a cada vez que o código for executado."
+        turtle_1_8: 'Ok, tente descobrir o que acontece se você executar esse código (ou pressione "Executar" para experimentá-lo). Em seguida, repita-o várias vezes para completar o desenho. As cores serão diferentes a cada vez que o código for executado.'
         turtle_1_9: "Você consegue descubrir qual número você precisa para substituir os pontos de interrogação para desenhar um círculo?"
         turtle_1_10: 'Você conseguiu! Agora, desenhe o que quiser. Algumas idéias para se divertir: um boneco, floco de neve ou espiral. Tente também o novo bloco de "definir largura". Divirta-se!'
         turtle_4_1: "Você pode fazer um desenho que se parece como esta casa? Pense sobre as etapas que você precisa para desenhá-la - isso chama-se algoritmo. Pode levar um monte de tentativas para obtê-lo com bom aspecto, mas está tudo bem se não ficar perfeito!"
         turtle_4_2: "Agora tente desenhar este quadrado que é feito de dois triângulos. Pode levar algumas tentativas para descobrir até onde girar e mover. Não precisa ficar igual, mas continue tentando!"
         turtle_4_3: "Desenhe uma seta que se parece com essa. Pense em todas as etapas que você precisará fazer isso."
         turtle_4_4: "Você pode desenhar algo que se parece com este navio? É um monte de formas menores juntas, então divida o problema em partes menores."
-        maze_karel_1_1: "Oi, eu sou um fazendeiro. Preciso de sua ajuda para planificar o campo na minha fazenda para que esteja pronto para o plantio. Mova o monte de terra e use o bloco de \"remover\" para removê-lo."
-        maze_karel_1_2: "Em seguida, me leve para perto do buraco e coloque com DUAS pás cheias de terra, usando o bloco \"preencher\"."
+        maze_karel_1_1: 'Oi, eu sou um fazendeiro. Preciso de sua ajuda para planificar o campo na minha fazenda para que esteja pronto para o plantio. Mova o monte de terra e use o bloco de "remover" para removê-lo.'
+        maze_karel_1_2: 'Em seguida, me leve para perto do buraco e coloque com DUAS pás cheias de terra, usando o bloco "preencher".'
         maze_karel_1_3: "Leve-me para a pilha de terra e diga-me quantas pás cheias devo remover, usando o mínimo número de blocos possível."
         maze_karel_1_4: "Você pode me ajudar a remover todas as quatro pilhas de terra? Dica: Se puder, use um bloco de repetição."
         maze_karel_1_5: 'Ajude-me a encher todos esses buracos com 5 pás cheias de terra. Dica: Você pode usar um bloco "repetir" dentro de um bloco "enquanto".'
-        maze_karel_1_6: "Remova todas as pilhas de terra, usando o mínimo de blocos possível. As novas opções no menu no bloco \"enquanto\" me dizem se eu estou em cima de uma pilha de terra ou um buraco."
+        maze_karel_1_6: 'Remova todas as pilhas de terra, usando o mínimo de blocos possível. As novas opções no menu no bloco "enquanto" me dizem se eu estou em cima de uma pilha de terra ou um buraco.'
         maze_karel_1_7: "Uau, eu encontrei um buraco muito fundo! Não sei quantas pás de terra precisa. Você pode escrever um programa para encher-lo até o chão, não é mesmo?"
         maze_karel_1_8: "Ajuda-me a preencher o buraco no final do campo, usando o minimo de blocos possível."
         maze_karel_1_9: 'Faça-me remover este monte de sujeira. Tente usar o minimo de blocos possível. Dica: você pode usar um bloco de "enquanto" dentro de um bloco "repetir".'
-        maze_karel_1_10: "Estou trabalhando até tarde, então está escuro, e eu não posso dizer o quanto essas pilhas são grandes. Agora eu não tenho todas as opções que eu costumava ter sobre o bloco \"enquanto\". Mova-me ao longo do campo e se houver uma pilha, remova-a."
+        maze_karel_1_10: 'Estou trabalhando até tarde, então está escuro, e eu não posso dizer o quanto essas pilhas são grandes. Agora eu não tenho todas as opções que eu costumava ter sobre o bloco "enquanto". Mova-me ao longo do campo e se houver uma pilha, remova-a.'
         maze_karel_1_11: 'Ainda está escuro lá fora. Mova-me ao longo do campo. Se houver uma pilha, remova-a e se houver um buraco, preencha-o. Dica: use o menu suspenso de opções no bloco "se".'
         turtle_2_1: "Oie! Mim artista zumbi. Eu gostar desenho! Me ajude a desenhar um quadrado com uma cor especial. Importante: você tem todos os mesmos blocos de antes, mas agora eles estão divididos em categorias."
         turtle_2_2: 'Bem-vindo ao uso de funções, permitindo,assim, que você defina novos blocos! Tente o novo bloco  "desenhar um quadrado", encontrado na categoria "Funções", para desenhar um pequeno quadrado verde de 50 x 50.'
@@ -86,30 +86,30 @@
         turtle_2_4: "Agora vamos ficar chiques. Mude o código para desenhar 36 quadrados, 100 pixels de largura e 10 graus entre eles. Dica: você pode usar a barra deslizante para me fazer ir mais rápido."
         turtle_2_5: 'Desenhe quadrados com lados de 50, 60, 70, 80 e 90 pixels.  Você vai precisar usar a função "desenhar um quadrado" cinco vezes.'
         turtle_2_6: 'Ok, este programa irá utilizar um contador para desenhar as mesmas praças da última vez. Você quer a praça do mesmo tamanho que o contador, então use o bloco "contador". Dica: É na categoria Variáveis.'
-        turtle_2_7: "Aqui esta um programa para desenhar uma espiral, mas os blocos estão desativados para que eles não funcionem. Faça um novo programa usando um bloco de \"contar com\" (na categoria de Laços) e bloco de \"contador\" (na categoria de Variáveis) para desenhar a mesma espiral."
-        turtle_2_7_5: "Há uma nova função \"desenhar um boneco de neve\" (na categoria de funções). Desenhe dois bonecos de neve, de 250 e 100 de altura."
-        turtle_2_8: "Este é um pouco complicado. Use a função \"desenhar um boneco de neve\" e o bloco novo \"avançar\" (na categoria de Ações). Desenhe 3 bonecos de neve em cores diferentes, separados por 100 pixels."
-        turtle_2_9: "Use um laço \"contar com\" para desenhar uma família de bonecos de neve, com alturas de 100, 110, 90, 80 e 70. Os bonecos de neve devem estar separados por 60 pixels."
+        turtle_2_7: 'Aqui esta um programa para desenhar uma espiral, mas os blocos estão desativados para que eles não funcionem. Faça um novo programa usando um bloco de "contar com" (na categoria de Laços) e bloco de "contador" (na categoria de Variáveis) para desenhar a mesma espiral.'
+        turtle_2_7_5: 'Há uma nova função "desenhar um boneco de neve" (na categoria de funções). Desenhe dois bonecos de neve, de 250 e 100 de altura.'
+        turtle_2_8: 'Este é um pouco complicado. Use a função "desenhar um boneco de neve" e o bloco novo "avançar" (na categoria de Ações). Desenhe 3 bonecos de neve em cores diferentes, separados por 100 pixels.'
+        turtle_2_9: 'Use um laço "contar com" para desenhar uma família de bonecos de neve, com alturas de 100, 110, 90, 80 e 70. Os bonecos de neve devem estar separados por 60 pixels.'
         turtle_2_10: "Aqui está algum código para vocêr experimentar em diferentes espirais.  O que acontece se você alterar a quantidade de voltas? Ou definir uma cor aleatória no laço?  Desenhe o que você quiser."
         maze_karel_2_1: "Tente usar os blocos para me ajudar a remover todas as pilhas de terra e preencha todos os buracos no chão. Tente usar laços ao invés de usar muitos blocos. Dica: você pode colocar um laço dentro de outro laço."
-        maze_karel_2_2: "Definimos nosso próprio bloco chamado \"encher 5\", que agora está na categoria de Funções. Use-o para me ajudar a preencher esse buraco."
-        maze_karel_2_3: "Use o novo bloco de função \"preencher 5\"para fazer-me preencher todos os buracos. Você terá que arrastar o bloco \"preencher 5\" para fora da categoria de funções."
+        maze_karel_2_2: 'Definimos nosso próprio bloco chamado "encher 5", que agora está na categoria de Funções. Use-o para me ajudar a preencher esse buraco.'
+        maze_karel_2_3: 'Use o novo bloco de função "preencher 5"para fazer-me preencher todos os buracos. Você terá que arrastar o bloco "preencher 5" para fora da categoria de funções.'
         maze_karel_2_4: "Defina uma nova função que remova 7 pás. Em seguida, use-a para escrever um programa que me ajude a remover todas as pilhas de terra."
         maze_karel_2_5: "Crie uma nova função que remove 6 pás de uma pilha e use-a para me ajudar a nivelar todas as pilhas."
-        maze_karel_2_6: "Usar duas novas funções, \"preencher 8\" e \"remover 8\", para ajudar-me a nivelar a pilha e preencher o buraco."
+        maze_karel_2_6: 'Usar duas novas funções, "preencher 8" e "remover 8", para ajudar-me a nivelar a pilha e preencher o buraco.'
         maze_karel_2_7: "Há uma vaca no meu campo! Escreva uma nova função que me ajuda a evitar a vaca e remover a pilha. Coloque todos os seus blocos dentro da nova função."
-        maze_karel_2_8: "Use esta nova função, \"evitar a vaca e remover 1\", para me ajudar a remover todas as pilhas."
+        maze_karel_2_8: 'Use esta nova função, "evitar a vaca e remover 1", para me ajudar a remover todas as pilhas.'
         maze_karel_2_9: "Ok, aqui está uma função que remove 4 pilhas diferentes de terra em uma coluna vertical. Tente colocar essa função dentro de um laço, para que você remova todas as pilhas de terra usando apenas alguns blocos novos."
         maze_karel_2_10: "Mova-me através do campo e use essas duas funções para me ajudar a remover todas as pilhas e preencher todos os buracos."
         turtle_3_1: 'Este quebra-cabeça mostra-lhe como as funções "desenhar um quadrado" e "desenhar um círculo"  são definidas.  Definir uma função não executa estes blocos.  Você tem que chamar o bloco "desenhar um quadrado" para realmente desenhar um quadrado.'
-        turtle_3_2: "Usando a função \"desenhar um quadrado\" como um exemplo, criar a função \"desenhar um triângulo\" e utilize-a."
+        turtle_3_2: 'Usando a função "desenhar um quadrado" como um exemplo, criar a função "desenhar um triângulo" e utilize-a.'
         turtle_3_3: "Desenhe uma cerca triangular em torno dos gatos e uma cerca quadrada em volta da vaca.  Dica: Teste o programa à medida em que você avança."
-        turtle_3_4: "Veja se você pode descobrir como usar \"desenhar um quadrado\" e \"desenhar um triângulo\" (e alguns outros blocos) para desenhar uma casa em torno do leão."
+        turtle_3_4: 'Veja se você pode descobrir como usar "desenhar um quadrado" e "desenhar um triângulo" (e alguns outros blocos) para desenhar uma casa em torno do leão.'
         turtle_3_5: 'Agora crie uma nova função "desenhar uma casa" e use para abrigar dos dois gatos. Dica: Crie uma nova função usando o bloco de "fazer algo" e digite seu texto para nomear o bloco.'
         turtle_3_6: 'Usando "desenhar um quadrado", por exemplo, adicione uma entrada denominada "comprimento" para "desenhar um triângulo". Em seguida, desenhe triângulos em tamanhos diferentes. (Dica: clique na estrela para adicionar uma entrada para uma função)'
-        turtle_3_7: "Adicione uma entrada denominada \"altura\" em \"desenhar uma casa\" e construa uma casa grande para o elefante (com bordas de 150 pixels de largura)"
+        turtle_3_7: 'Adicione uma entrada denominada "altura" em "desenhar uma casa" e construa uma casa grande para o elefante (com bordas de 150 pixels de largura)'
         turtle_3_8: 'Aqui estão todos os blocos do quebra-cabeça anterior.  Modifique "desenhar uma casa" de forma que eu acabe no canto direito inferior depois de desenhar uma nova casa. Use essa função modificada para desenhar três casas.'
-        turtle_3_9: "Você pode re-criar a função de \"desenhar uma casa\" sem ajuda? Tente, e em seguida desenhe uma fileira de casas."
+        turtle_3_9: 'Você pode re-criar a função de "desenhar uma casa" sem ajuda? Tente, e em seguida desenhe uma fileira de casas.'
         turtle_3_10: "Você aprendeu muito! Agora, use para desenhar o que quiser. Tente desenhar uma estrela, ou uma espiral, ou um floco de neve."
         maze_karel_debug_seq_1: "Bem-vindo à depuração! Meu código não está funcionando bem. Você pode achar o problema e corrigí-lo para que eu possa deixar meu campo pronto para o plantio?"
         maze_karel_debug_seq_2: "O que há de errado com este programa? Como você deve corrigi-lo para que eu possa remover essa pilha?"
@@ -124,7 +124,7 @@
       levelIncompleteError:
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos no seu interior:  mover, mover, vire à direita.'
       other1StarError:
-        maze_2_14: "Você precisa de um bloco \"se\" dentro de um bloco \"repetir\". Se você está tendo problemas, tente o nível anterior novamente para ver como funcionava."
+        maze_2_14: 'Você precisa de um bloco "se" dentro de um bloco "repetir". Se você está tendo problemas, tente o nível anterior novamente para ver como funcionava.'
       tooFewBlocksMsg:
         maze_2_8: 'Para resolver isto, encontre o padrão que se repete. Utilize um bloco "repetir" com estes 3 blocos dentro dele: "mover", "mover" e "virar à direita".'
     video:
@@ -132,13 +132,13 @@
         maze_intro: "Introdução ao Labirinto"
         artist_intro: "Introdução ao Artista"
         farmer_intro: "Introdução ao Fazendeiro"
-        loop_times: "Bloco \"Repetir Vezes\""
-        loop_until: "Bloco \"Repita até que\""
-        if: "Bloco \"se\""
-        if_else: "Bloco \"Se/Senão\""
+        loop_times: 'Bloco "Repetir Vezes"'
+        loop_until: 'Bloco "Repita até que"'
+        if: 'Bloco "se"'
+        if_else: 'Bloco "Se/Senão"'
         function: "Funções"
-        loop_while: "Bloco \"Enquanto\""
-        loop_for: "Bloco \"contador\""
+        loop_while: 'Bloco "Enquanto"'
+        loop_for: 'Bloco "contador"'
         parameters: "Funções com parâmetros"
         hoc_wrapup: "Finalizando a Hora de Código"
         20_wrapup: "Concluindo as 20-horas"

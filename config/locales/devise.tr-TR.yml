@@ -9,11 +9,11 @@
       inactive: "Your account was not activated yet."
       invalid: "Invalid email or password."
       invalid_token: "Invalid authentication token."
-      locked: "Your account is locked."
-      not_found_in_database: "Invalid email or password."
-      timeout: "Your session expired, please sign in again to continue."
+      locked: "Hesabınız kilitlendi."
+      not_found_in_database: "Geçersiz e-posta veya şifre."
+      timeout: "Oturumunuzun süresi doldu, lütfen tekrar devam etmek oturum açın."
       unauthenticated: "You need to sign in or sign up before continuing."
-      unconfirmed: "You have to confirm your account before continuing."
+      unconfirmed: "Devam etmeden önce hesabınızı onaylamanız gerekir."
     mailer:
       confirmation_instructions:
         subject: "Confirmation instructions"
@@ -40,7 +40,7 @@
       updated: "You updated your account successfully."
     sessions:
       signed_in: "Signed in successfully."
-      signed_out: "Signed out successfully."
+      signed_out: "Başarıyla oturum kapatıldı."
     unlocks:
       send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."

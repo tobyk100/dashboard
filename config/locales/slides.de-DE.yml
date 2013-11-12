@@ -9,7 +9,7 @@
         text: "Wir werden Blocky, eine Grafische Programmiersprache in der du mit Drag & Drop Bausteine setzt, benutzen um Code zu schreiben."
       3:
         image: "notes/hoc1_3.png"
-        text: "Meistens wird Code geschrieben, aber Blockly ist grafisch. Jeder Baustein entspricht einer Zeile \"echten\" Codes."
+        text: 'Meistens wird Code geschrieben, aber Blockly ist grafisch. Jeder Baustein entspricht einer Zeile "echten" Codes.'
       4:
         image: "notes/hoc1_4.png"
         text: "Du wirst die Grundlagen der Informatik lernen. Konzepte die überall genutzt werden, von erstellen von Apps bis zum Kontrollieren des Mars Rovers."
@@ -30,13 +30,13 @@
         text: "Rechts ist der Arbeitsbereich, wo die Bausteine aus dem Werkzeugkasten zum Programm zusammengesteckt werden. Um einen Block zu löschen, ziehe ihn in den Papierkorb in der Ecke."
       10:
         image: "notes/hoc1_10.png"
-        text: "Jeder Baustein ist eine Anweisung. Wenn du einen \"move forward\"-Baustein auf deinen Arbeitsbereich ziehst und anschließend \"Run Programm\" drückst, dann bewegt sich der Vogel im Labyrinth einen Schritt nach vorne."
+        text: 'Jeder Baustein ist eine Anweisung. Wenn du einen "move forward"-Baustein auf deinen Arbeitsbereich ziehst und anschließend "Run Programm" drückst, dann bewegt sich der Vogel im Labyrinth einen Schritt nach vorne.'
       11:
         image: "notes/hoc1_11.png"
         text: "Um mehr als eine Aktion zu tun, kannst du viele Bausteine in den Arbeitsbereich ziehen und sie zusammenstecken. Der Vogel wird die Befehle von oben nach unten abarbeiten."
       12:
         image: "notes/hoc1_12.png"
-        text: "Wenn Du ein Programm reparieren und es nochmals versuchen möchtest, dann drücke den \"Reset\" Knopf."
+        text: 'Wenn Du ein Programm reparieren und es nochmals versuchen möchtest, dann drücke den "Reset" Knopf.'
       13:
         image: "notes/hoc1_13.png"
         text: "Holen wir die Schweine!"
@@ -57,29 +57,29 @@
         text: "In diesem Puzzle möchten wir, dass sich der Vogel 5 Schritte nach vorne zum Schwein bewegt."
       3:
         image: "notes/hoc2_3.png"
-        text: "Wir können den neuen \"Wiederholen/Repeat\"-Block verwenden, um uns zu helfen."
+        text: 'Wir können den neuen "Wiederholen/Repeat"-Block verwenden, um uns zu helfen.'
       4:
         image: "notes/hoc2_4.png"
-        text: "Anstatt 5 Bausteine \"vorwärts gehen/move forward\" zu stapeln..."
+        text: 'Anstatt 5 Bausteine "vorwärts gehen/move forward" zu stapeln...'
       5:
         image: "notes/hoc2_5.png"
-        text: "können wir den \"gehe vorwärts/move forward\"-Baustein in einen \"Wiederhole\"-Block ziehen und eine Zahl im Baustein angeben, wie oft es wiederholt werden soll."
+        text: 'können wir den "gehe vorwärts/move forward"-Baustein in einen "Wiederhole"-Block ziehen und eine Zahl im Baustein angeben, wie oft es wiederholt werden soll.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Und wichtig: Man kann mehr als einen Bausteinen in einen "Wiederholen/Repeat"-Block packen.'
       7:
         image: "notes/hoc2_7.png"
-        text: "Viel Spaß mit deinem neuen \"repeat\" Baustein!"
+        text: 'Viel Spaß mit deinem neuen "repeat" Baustein!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: "Hi, ich bin Chris. Bevor ich angefangen habe Basketball für das Team \"Miami Heat\" zu spielen, habe ich an der \"Georgia Tech\"-Universität Informatik studiert. Lass uns den neuen \"repeat until\"-Baustein ausprobieren."
+        text: 'Hi, ich bin Chris. Bevor ich angefangen habe Basketball für das Team "Miami Heat" zu spielen, habe ich an der "Georgia Tech"-Universität Informatik studiert. Lass uns den neuen "repeat until"-Baustein ausprobieren.'
       2:
         image: "notes/hoc3_2.png"
         text: "Was wäre wenn wir nicht wüssten, wie weit sich der Vogel bewegen muss, um zum Schwein zu kommen?"
       3:
         image: "notes/hoc3_3.png"
-        text: "Wenn wir einen \"move forward\"-Baustein in den \"repeat unti\"-Baustein setzten, wird sich der Vogel nach vorne bewegen BIS er bei einem Schwein ankommt (oder in eine Wand kracht)."
+        text: 'Wenn wir einen "move forward"-Baustein in den "repeat unti"-Baustein setzten, wird sich der Vogel nach vorne bewegen BIS er bei einem Schwein ankommt (oder in eine Wand kracht).'
       4:
         image: "notes/hoc3_4.png"
         text: 'Und das ist wichtig: ;genau wie zuvor kannst du in den "repeat-unitl"-Baustein mehrere Bausteine setzen, welche alle wiederholt werden.'
@@ -89,23 +89,22 @@
         text: 'Hi, ich bin Bill! Lass uns ein neues, fundamentales Konzept lernen: Die "If"-Anweisungen. Damit trifft der Computer Entscheidungen.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Du benutzt "If"-Anweisungen tagtäglich selbst. Zum Beispiel überlegst Du jeden Morgen bevor du aus dem Haus gehst: Wenn ("If")  es regnet, muss ich meine Regenmantel anziehen.'
       3:
         image: "notes/hoc4_3.png"
         text: "Wir können den Zombie anweisen zu überprüfen WENN es einen Weg nach links gibt und wenn er einen Weg nach links findet, dass er sich in diese Richtung drehen soll."
       4:
         image: "notes/hoc4_4.png"
-        text: "Um den Code für das zu schreiben, ziehe zuerst unseren \"if\"-Baustein heraus und setze danach einen \"turn left\"-Baustein hinein."
+        text: 'Um den Code für das zu schreiben, ziehe zuerst unseren "if"-Baustein heraus und setze danach einen "turn left"-Baustein hinein.'
       5:
         image: "notes/hoc4_5.png"
-        text: "Wenn wir jetzt einen \"gehe vorwärts/move Forward\"-Baustein darüber stapeln und um alles einen \"Wiederhole/Repeat\"-Baustein legen, wird der Zombie bei jeder Bewegung prüfen, ob es einen Weg nach links gibt und sich in dem Fall drehen. Der \"Wiederhole/Repeat\"-Befehl ist wichtig, um bei jedem Schritt auf eine Drehmöglichkeit zu prüfen."
+        text: 'Wenn wir jetzt einen "gehe vorwärts/move Forward"-Baustein darüber stapeln und um alles einen "Wiederhole/Repeat"-Baustein legen, wird der Zombie bei jeder Bewegung prüfen, ob es einen Weg nach links gibt und sich in dem Fall drehen. Der "Wiederhole/Repeat"-Befehl ist wichtig, um bei jedem Schritt auf eine Drehmöglichkeit zu prüfen.'
       6:
         image: "notes/hoc4_6.png"
         text: "Wenn-dann-Befehle sind in der Informatik wirklich wichtig sind. Eines meiner ersten Programme war Tic Tac Toe, und es gab eine Wenn-dann-Anweisung, die sagte, wenn die andere Person gewinnen sollte, blockiere das Feld, mit dem sie gewinnen kann."
       7:
         image: "notes/hoc4_7.png"
-        text: "Viel Spaß mit dem \"if\"-Baustein!"
+        text: 'Viel Spaß mit dem "if"-Baustein!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
@@ -115,7 +114,7 @@
         text: 'Wenn ich einen "gehe vorwärts/move forward"-Baustein, an der Stelle, wo es heißt "tun", und eine "drehe links/turn left"-Baustein, wo es heißt "sonst", setzte, kann der Zombie zwischen 2 Optionen wählen. Gibt es einen Weg geradeaus, bewegt sich der Zombie vorwärts.  Gibt es ist keinen Weg geradeaus, dreht sich der Zombie nach links.'
       3:
         image: "notes/hoc5_3.png"
-        text: "Genau wie einen \"Wenn/If\"-Baustein, können wir einen \"Wenn-sonst/If else\"-Baustein in einen \"Wiederhole/Repeat\"-Baustein setzen, so dass der Zombie sich weiter bewegt und der \"Wenn-sonst/If else\"-Baustein prüft, ob es einen Weg zum Drehen gibt."
+        text: 'Genau wie einen "Wenn/If"-Baustein, können wir einen "Wenn-sonst/If else"-Baustein in einen "Wiederhole/Repeat"-Baustein setzen, so dass der Zombie sich weiter bewegt und der "Wenn-sonst/If else"-Baustein prüft, ob es einen Weg zum Drehen gibt.'
       4:
         image: "notes/hoc5_4.png"
         text: "Jetzt bewege die Zombies dahin, wo sie hingehören!"

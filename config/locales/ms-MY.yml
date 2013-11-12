@@ -154,25 +154,25 @@
     student_stats: 'Anda telah memperolehi %{trophy_count} daripada %{trophy_max} "Concept Mastery" trofi.'
     student_left_off: "Mana anda tinggalkan:"
     student_finished: "Anda telah melengkapkan kesemua tutorial, tuntut %{prize_link} dan pilih kelas lain %{online_link} atau di %{local_school_link}"
-    local_school: "local school"
+    local_school: "sekolah tempatan"
     online: "online"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "Lelaki"
+    female: "Perempuan"
+    none: "Memilih untuk tidak menjawab"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    help_from_html: 'Jurutera daripada <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> telah membantu mencipta tutorial ini.'
+    art_from_html: 'Karya seni dari <a href="http://www.angrybirds.com">Angry Birds</a> oleh <a href="http://www.rovio.com">Rovio</a>, dan <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> oleh <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: "Sediakan maklum balas"
+    translate: "Bantu kami menterjemahkan ke bahasa anda"
+    tos: "Syarat-syarat perkhidmatan"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "Perlukan bantuan?"
+    subtitle: "Lihat video dan petunjuk ini"
   video:
     tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    notes: "Tiada video? Lihat nota."
+    autoplay_option: "Video AutoMain"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "Kami sedang berusaha menyokong pelayar anda."
+    upgrade: "Sila naik taraf pelayar anda."
