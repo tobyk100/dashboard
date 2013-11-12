@@ -4,55 +4,69 @@
 # String values are used to expand languages to include a default region.
 #
 # Map values can have the following keys
-#   name: localized to be recognizable to users who need to switch.
+#   english: Name of language in English.
+#   native: Name of language in the language itself.
 #   fallback: Specifies a Rails-level I18n fallback.
 #   debug: Causes a language to not show up in the production environment.
 
 de: "de-DE"
 de-DE:
-  name: "Deutsch"
+  english: "German"
+  native: "Deutsch"
 
 el: "el-GR"
 el-GR:
-  name: "ελληνικά"
+  english: "Greek"
+  native: "ελληνικά"
 
 en: "en-US"
 en-US:
-  name: "English"
+  english: "English"
+  native: "English"
 en-PLOC:
-  name: "Pseudoloc"
+  english: "Pseudoloc"
+  native: "Pseudoloc"
   debug: true
 
 es: "es-ES"
 es-ES:
-  name: "Español"
+  english: "Spanish"
+  native: "Español"
 
 fr-FR:
-  name: "Français"
+  english: "French"
+  native: "Français"
 
 it-IT:
-  name: "Italiano"
+  english: "Italian"
+  native: "Italiano"
 
 nl-NL:
-  name: "Nederlands"
+  english: "Dutch"
+  native: "Nederlands"
 
 pt-BR:
-  name: "Português"
+  english: "Portuguese"
+  native: "Português"
 
 ro: "ro-RO"
 ro-RO:
-  name: "Română"
+  english: "Romanian"
+  native: "Română"
 
 sv: 'sv-SE'
 sv-SE:
-  name: "Svenska"
+  english: "Swedish"
+  native: "Svenska"
 
 vi: "vi-VN"
 vi-VN:
-  name: "Tiếng Việt"
+  english: "Vietnamese"
+  native: "Tiếng Việt"
   debug: true
 
 zh: "zh-TW"
 zh-TW:
-  name: "正體字"
+  english: "Chinese"
+  native: "正體字"
   debug: true
