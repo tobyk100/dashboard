@@ -22,17 +22,17 @@ class ActivitiesController < ApplicationController
     level_source = LevelSource.lookup(level, params[:program])
 
     milestone_logger.info "Milestone Report:" +
-                          "\t" + (current_user ? current_user.id.to_s : ("s:" + session.id)) +
-                          "\t" + request.remote_ip +
-                          "\t" + params[:app] +
-                          "\t" + params[:level] +
-                          "\t" + params[:result] +
-                          "\t" + params[:testResult] +
-                          "\t" + params[:time] +
-                          "\t" + params[:attempt] +
-                          "\t" + params[:lines] +
-                          "\t" + level_source.id.to_s +
-                          "\t" + request.user_agent
+                          "\t#{(current_user ? current_user.id.to_s : ("s:" + session.id))}" +
+                          "\t#{request.remote_ip}" +
+                          "\t#{params[:app]}" +
+                          "\t#{params[:level]}" +
+                          "\t#{params[:result]}" +
+                          "\t#{params[:testResult]}" +
+                          "\t#{params[:time]}" +
+                          "\t#{params[:attempt]}" +
+                          "\t#{params[:lines]}" +
+                          "\t#{level_source.id.to_s}" +
+                          "\t#{request.user_agent}"
 
     if current_user
       authorize! :create, Activity
