@@ -9,240 +9,240 @@
 #   fallback: Specifies a Rails-level I18n fallback.
 #   debug: Causes a language to not show up in the production environment.
 
-az: "az-AZ"
-az-AZ:
+"az": "az-AZ"
+"az-AZ":
   english: "Azerbaijani"
   native: "azərbaycan dili"
   debug: true
 
-bn: "bn-BD"
-bn-BD:
+"bn": "bn-BD"
+"bn-BD":
   english: "Bengali"
   native: "বাংলা"
   debug: true
 
-ca: "ca-ES"
-ca-ES:
+"ca": "ca-ES"
+"ca-ES":
   english: "Catalan"
   native: "català"
   debug: true
 
-cs: "cs-CZ"
-cs-CZ:
+"cs": "cs-CZ"
+"cs-CZ":
   english: "Czech"
   native: "čeština"
   debug: true
 
-da: "da-DK"
-da-DK:
+"da": "da-DK"
+"da-DK":
   english: "Danish"
   native: "dansk"
   debug: true
 
-de: "de-DE"
-de-DE:
+"de": "de-DE"
+"de-DE":
   english: "German"
   native: "Deutsch"
 
-el: "el-GR"
-el-GR:
+"el": "el-GR"
+"el-GR":
   english: "Greek"
   native: "ελληνικά"
 
-en: "en-US"
-en-US:
+"en": "en-US"
+"en-US":
   english: "English"
   native: "English"
   fallback: "en" # Need this because source files use "en", not "en-US"
-en-PLOC:
+"en-PLOC":
   english: "Pseudoloc"
   native: "Pseudoloc"
   debug: true
 
-es: "es-ES"
-es-ES:
+"es": "es-ES"
+"es-ES":
   english: "Spanish"
   native: "español"
 
-fa: "fa-IR"
-fa-IR:
+"fa": "fa-IR"
+"fa-IR":
   english: "Persian"
   native: "فارسی"
   debug: true
 
-fi: "fi-FI"
-fi-FI:
+"fi": "fi-FI"
+"fi-FI":
   english: "Finnish"
   native: "suomi"
   debug: true
 
-fil: "fil-PH"
-fil-PH:
+"fil": "fil-PH"
+"fil-PH":
   english: "Filipino"
   native: "Pilipino"
   debug: true
 
-fr-FR:
+"fr-FR":
   english: "French"
   native: "français"
 
-he: "he-IL"
-he-IL:
+"he": "he-IL"
+"he-IL":
   english: "Hebrew"
   native: "עברית"
   debug: true
 
-hi: "hi-IN"
-hi-IN:
+"hi": "hi-IN"
+"hi-IN":
   english: "Hindi"
   native: "हिन्दी, हिंदी"
   debug: true
 
-hu: "hu-HU"
-hu-HU:
+"hu": "hu-HU"
+"hu-HU":
   english: "Hungarian"
   native: "magyar"
   debug: true
 
-id: "id-ID"
-id-ID:
+"id": "id-ID"
+"id-ID":
   english: "Indonesian"
   native: "Bahasa Indonesia"
   debug: true
 
-is: "is-IS"
-is-IS:
+"is": "is-IS"
+"is-IS":
   english: "Icelandic"
   native: "Íslenska"
   debug: true
 
-it-IT:
+"it-IT":
   english: "Italian"
   native: "Italiano"
 
-ja: "ja-JP"
-ja-JP:
+"ja": "ja-JP"
+"ja-JP":
   english: "Japanese"
   native: "日本語"
   debug: true
 
-ko: "ko-KR"
-ko-KR:
+"ko": "ko-KR"
+"ko-KR":
   english: "Korean"
   native: "한국어"
   debug: true
 
-ms: "ms-MY"
-ms-MY:
+"ms": "ms-MY"
+"ms-MY":
   english: "Malay"
   native: "بهاس ملايو"
   debug: true
 
-my: "my-MM"
-my-MM:
+"my": "my-MM"
+"my-MM":
   english: "Burmese"
   native: "ဗမာစာ"
   debug: true
 
-nl-NL:
+"nl-NL":
   english: "Dutch"
   native: "Nederlands"
 
 "no": "no-NO"
-no-NO:
+"no-NO":
   english: "Norwegian"
   native: "Norsk"
   debug: true
 
-pl: "pl-PL"
-pl-PL:
+"pl": "pl-PL"
+"pl-PL":
   english: "Polish"
   native: "język polski"
   debug: true
 
-pt-BR:
+"pt-BR":
   #TODO: When pt-PT is turned on, indicate Brazil in names.
   english: "Portuguese"
   native: "Português"
 
-pt: "pt-PT"
-pt-PT:
+"pt": "pt-PT"
+"pt-PT":
   english: "Portuguese"
   native: "Português"
   debug: true
 
-ro: "ro-RO"
-ro-RO:
+"ro": "ro-RO"
+"ro-RO":
   english: "Romanian"
   native: "Română"
 
-ru: "ru-RU"
-ru-RU:
+"ru": "ru-RU"
+"ru-RU":
   english: "Russian"
   native: "русский язык"
   debug: true
 
-sq: "sq-AL"
-sq-AL:
+"sq": "sq-AL"
+"sq-AL":
   english: "Albanian"
   native: "gjuha shqipe"
   debug: true
 
-sr: "sr-SP"
-sr-SP:
+"sr": "sr-SP"
+"sr-SP":
   english: "Serbian"
   native: "српски језик"
   debug: true
 
-sv: 'sv-SE'
-sv-SE:
+"sv": 'sv-SE'
+"sv-SE":
   english: "Swedish"
   native: "Svenska"
 
-ta: "ta-IN"
-ta-IN:
+"ta": "ta-IN"
+"ta-IN":
   english: "Tamil"
   native: "தமிழ்"
   debug: true
 
-th: "th-TH"
-th-TH:
+"th": "th-TH"
+"th-TH":
   english: "Thai"
   native: "ไทย"
   debug: true
 
-tr: "tr-TR"
-tr-TR:
+"tr": "tr-TR"
+"tr-TR":
   english: "Turkish"
   native: "Türkçe"
   debug: true
 
-uk: "uk-UA"
-uk-UA:
+"uk": "uk-UA"
+"uk-UA":
   english: "Ukrainian"
   native: "українська мова"
   debug: true
 
-ur: "ur-PK"
-ur-PK:
+"ur": "ur-PK"
+"ur-PK":
   english: "Urdu"
   native: "اردو"
   debug: true
 
-vi: "vi-VN"
-vi-VN:
+"vi": "vi-VN"
+"vi-VN":
   english: "Vietnamese"
   native: "Tiếng Việt"
   debug: true
 
-zh: "zh-CN"
-zh-CN:
+"zh": "zh-CN"
+"zh-CN":
   english: "Chinese (Traditional)"
   native: "簡體字"
   debug: true
 
-zh: "zh-TW"
-zh-TW:
+"zh": "zh-TW"
+"zh-TW":
   english: "Chinese (Simplified)"
   native: "简体字"
   debug: true
