@@ -99,6 +99,19 @@ class ActivitiesController < ApplicationController
       end
 
       next_level = script_level.next_level
+      # If this is the end of the current script
+      if !next_level
+        # If the current script is hour of code, continue on to twenty-hour
+        if script_level.script.hoc?
+          next_level = ScriptLevel.find_by_script_id_and_chapter(Script.find_twenty_hour_script.id, script_level.chapter + 1)
+          redirect = current_user ? build_script_level_path(next_level) : "http://code.org/api/hour/finish"
+        end
+        # Get the wrap up video
+        video = script_level.script.wrapup_video
+        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key), redirect: redirect} if video
+        response[:message] = 'no more levels'
+      end
+      # Get the next_level setup
       if next_level
         response[:redirect] = build_script_level_path(next_level)
 
@@ -106,17 +119,13 @@ class ActivitiesController < ApplicationController
           response[:stage_changing] = {
               previous: { number: level.game_id, name: level.game.name },
               new: { number: next_level.level.game_id, name: next_level.level.game.name }
-              }
+          }
         end
 
         if (level.skin != next_level.level.skin)
           response[:skin_changing] = { previous: level.skin,
             new: next_level.level.skin }
         end
-      else
-        video = script_level.script.wrapup_video
-        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key)} if video
-        response[:message] = 'no more levels'
       end
       render json: response
     else

@@ -32,6 +32,7 @@ function getShowNotes(key, container) {
 //   src - the url to the video
 //   key - an uid.
 //   name - a string.
+//   redirect - the redirect page after the video is dismissed.
 function showVideo(options) {
   var widthRatio = .8;
   var heightRatio = .8;
@@ -51,7 +52,7 @@ function showVideo(options) {
   body.append(notesDiv);
   getShowNotes(options.key, notesDiv);
 
-  var dialog = new Dialog({ body: body });
+  var dialog = new Dialog({ body: body, redirect : options.redirect });
   $div = $(dialog.div);
   $div.addClass('video-modal');
 
@@ -111,7 +112,8 @@ var addClickTouchEvent = function(element, handler) {
 /**
  * Create a custom modal dialog box which takes a configurable options object.
  * Currently supported options include 'header' and 'body', which are DOM
- * elements.
+ * elements; 'redirect', which specifies the redirect page after the video is
+ * dismissed if provided.
  */
 function Dialog(options) {
   var body = options.body;
@@ -149,6 +151,9 @@ function Dialog(options) {
 
   addClickTouchEvent(close, $.proxy(function(e) {
     this.hide();
+    if (options.redirect) {
+      window.location.href = options.redirect;
+    }
     e.stopPropagation();
   }, this));
 }
