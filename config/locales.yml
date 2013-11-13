@@ -15,6 +15,12 @@
   native: "Afrikaans"
   debug: true
 
+"ar": "ar-SA"
+"aa-SA":
+  english: "Arabic"
+  native: "العربية"
+  debug: true
+
 "az": "az-AZ"
 "az-AZ":
   english: "Azerbaijani"
