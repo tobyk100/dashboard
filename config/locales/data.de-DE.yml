@@ -92,26 +92,24 @@
         turtle_2_9: 'Verwend eine "zähle mit"-Schleife, um eine Schneemann-Familie zu zeichen. Verwende folgende Höhen: 110, 100, 90, 80. Die Schneemänner sollten alle 60 Pixel von einander entfernt sein.'
         turtle_2_10: "Hier ist ein wenig Code, um mit verschiedenen Spiralen experimentieren zu können. Was passiert wenn du den Dreh-Betrag veränderst? Oder wenn du eine zufällige Farbe in der Schleife verwendest? Zeichne was du möchtest."
         maze_karel_2_1: "Verwende die Bausteine, um mir zu helfen alle Häufen wegzuräumen und alle Löcher im Boden aufzufüllen. Versuche Schleifen anstatt zu viele Bausteine zu verwenden. Hinweis: Du kannst eine Schleife in eine andere Schleife hinein setzen."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
+        maze_karel_2_2: 'Wir haben unseren eigenen Baustein, der "fülle 5" heißt, definiert. Er ist jetzt in der Funktionen-Kategorie. Verwende ihn, um mir dabei zu helfen die Löcher aufzufüllen.'
+        maze_karel_2_3: 'Verwende den neuen "fülle 5"-Funktion-Baustein, damit ich alle Löcher auffülle. Du musst den "fülle 5"-Baustein aus der Funktionen-Kategorie herausziehen.'
+        maze_karel_2_4: "Definiere eine neue Funktion, die 7 Schaufeln voller Schmutz beseitigt. Den verwende sie, um ein Programm zu schreiben, das mir hilft alle Häufen zu entfernen."
+        maze_karel_2_5: "Erstelle eine neue Funktion, die 6 Schaufeln voller Schmutz von einem Haufen entfernt und hilf mir mit der Funktion alle Häufen platt zu machen."
+        maze_karel_2_6: 'Verwende zwei neue Funktionen, "fülle 8" und "entferne 8", um mir zu helfen die Häufen platt zu machen und die Löcher aufzufüllen.'
         maze_karel_2_7: "Da ist eine Kuh in meinem Feld. Schreibe eine Funktion, die mir hilft, der Kuh auszuweichen und den Haufen zu entfernen. Ziehe alle dafür dazu nötigen Code-Blöcke in die neue Funktion."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
+        maze_karel_2_8: 'Verwende diese neue Funktion "vermeide die Kuh und entferne 1", um mir zu helfen alle Häufen zu entfernen.'
         maze_karel_2_9: "OK, ist hier eine Funktion, die 4 verschiedene Dreckhaufen in einer vertikalen Spalte entfernt. Versuche diese Funktion in einer Schleife, so dass du alle Haufen mit nur ein paar neuen Bausteinen entfernst."
         maze_karel_2_10: "Bewege mich über das Feld und verwende diese beiden Funktionen, um mir zu helfen, alle Stapel zu entfernen und alle Löcher zu füllen."
         turtle_3_1: 'Dieses Puzzle zeigt, wie die Funktionen "Zeichne ein Quadrat" und "Zeichne einen Kreis" definiert sind.  Eine Funktion definieren, führt die Bausteine nicht aus.  Du musst den Bausteine "Zeichne ein Quadrat" ziehen, um ein Quadrat zu zeichnen.'
         turtle_3_2: 'Benutze die "Zeichne Quadrat"-Funktion als Grundlage und erstelle eine "Zeichne Dreieck"-Funktion und verwende diese entsprechend.'
         turtle_3_3: "Zeichne mehrere dreieckige Zäune um die Katzen und einen quadratischen Zaun um die Kuh. Tip: Am Besten du testest das Programm zwischen durch immer mal wieder."
         turtle_3_4: 'Probiere mal, ob du herausfinden kannst, wie du die Funktionen "Zeiche Quadrat" und "Zeichne Dreieck" (und weitere) dazu benutzen kannst, ein Haus um den Löwen herum zu zeichnen.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
+        turtle_3_5: 'Erstelle jetzt eine neue "zeichne ein Haus"-Funktion und verwende sie um zwei Katzen unterzubringen. Hinweis: erstelle eine neue Funktion mit Hilfe des "mach etwas"-Bausteins und gib einen Namen für den Baustein ein.'
+        turtle_3_6: 'Füge eine Eingabe, die "Länge" heißen soll, zu "zeichne ein Dreieck" hinzu, wie im Beispiel "zeichne ein Quadrat". Anschließend, zeichne verschieden große Dreiecke. (Hinweis: klicke auf den Stern, um bei einer Funktion eine Eingabe hinzu zufügen)'
+        turtle_3_7: 'Füge eine Eingabe, die "Höhe" heißen soll, zu "zeichne ein Haus" hinzu und baue ein Haus, das groß genug für einen Elefanten ist (die Kanten sollen 150 Pixel lang sein)'
+        turtle_3_8: 'Das hier sind alle Bausteine von den vorherigen Puzzles. Ändere "zeichne ein Haus", so dass ich in der unteren, rechten Ecke lande, nach dem ein neues Haus gezeichnet worden ist. Verwende diese modifizierte Funktion, um drei Häuser zu zeichnen.'
+        turtle_3_9: 'Kannst du die "zeichne ein Haus"-Funktion ohne Hilfe wieder erstellen? Versuche es und zeichne anschließend eine ganze Reihe von Häusern.'
         turtle_3_10: 'Glückwunsch, du hast jetzt schon viel gelernt. Jetzt kannst alles zeichnen was dir einfällt. Versuch doch mal einen Stern, ein Spirale, oder eine "coole" Schneeflocke.'
         maze_karel_debug_seq_1: 'Willkommen zur "Fehlerbeseitigung" (debugging)! Mein Code funktioniert nicht richtig. Kannst du das Problem finden und mein Code reparieren, damit ich mein Feld flach bekomme und es bepflanzt werden kann?'
         maze_karel_debug_seq_2: "Was ist an diesem Programm falsch? Wie kannst du es reparieren, damit ich diesen Haufen entfernen kann?"

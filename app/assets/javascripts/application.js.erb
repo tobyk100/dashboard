@@ -103,9 +103,13 @@ function embed_thumbnail_image(data) {
 }
 
 var addClickTouchEvent = function(element, handler) {
+  var wrapper = function(e) {
+    handler(e);
+    e.preventDefault();
+  };
   element.on({
-    'touchend': handler,
-    'click': handler
+    'touchstart': wrapper,
+    'click': wrapper
   });
 };
 
@@ -154,7 +158,6 @@ function Dialog(options) {
     if (options.redirect) {
       window.location.href = options.redirect;
     }
-    e.stopPropagation();
   }, this));
 }
 

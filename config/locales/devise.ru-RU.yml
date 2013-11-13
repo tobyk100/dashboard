@@ -27,15 +27,15 @@
     passwords:
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password was changed successfully. You are now signed in."
-      updated_not_active: "Your password was changed successfully."
+      send_paranoid_instructions: "Если ваш адрес электронной почты существует в нашей базе данных, вы получите ссылку для восстановления пароля на ваш адрес электронной почты в течение нескольких минут."
+      updated: "Ваш пароль был успешно изменен. Теперь вы вошли."
+      updated_not_active: "Ваш пароль был успешно изменен."
     registrations:
-      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
-      signed_up: "Welcome! You have signed up successfully."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      destroyed: "До свидания! Ваша учетная запись была успешно отменена. Мы надеемся увидеть вас снова скоро."
+      signed_up: "Добро пожаловать! Вы успешно зарегистрировались."
+      signed_up_but_inactive: "Вы успешно зарегистрировались. Однако мы не можем выполнить вход, так как ваша учетная запись еще не активирована."
+      signed_up_but_locked: "Вы успешно зарегистрировались. Однако мы не можем выполнить вход потому, что ваша учетная запись заблокирована."
+      signed_up_but_unconfirmed: "Сообщение с ссылкой для подтверждения отправлен на ваш адрес электронной почты. Пожалуйста, перейдите по ссылке для активации вашей учетной записи."
       update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
       updated: "You updated your account successfully."
     sessions:

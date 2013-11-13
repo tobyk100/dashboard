@@ -3,13 +3,13 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Добродошли на Ваш први час програмирања! Хајдемо видети Ваш укус за програмирање."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Користићемо  Blockly, програмски језик за визуелно програмирање где ћете превлачењем блокова креирати код."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'Већина кода је углавном откуцана, али Blockly је визуелан. Сваки блок одговара линији  "правог" кода.'
       4:
         image: "notes/hoc1_4.png"
         text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."

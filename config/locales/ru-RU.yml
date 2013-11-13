@@ -98,13 +98,13 @@
     new_model: "New %{model}"
     show: "Показать"
     edit: "Редактировать"
-    edit_model: "Edit %{model}"
+    edit_model: "Изменить %{model}"
     update: "Обновить"
     destroy: "Уничтожить"
     back: "Назад"
     confirm: "Уверен?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    created: "%{model} был успешно создан."
+    updated: "%{model} был успешно обновлен."
   nav:
     header:
       finished_hoc: "Я закончил мой Час Кода"
@@ -120,27 +120,27 @@
       signup: "Зарегистрироваться"
     popup:
       progress: "Ваши достижения"
-      lines: "Total lines of code: %{lines}"
+      lines: "Всего строк кода: %{lines}"
       close: "ЗАКРЫТЬ"
-      mastery: "Concepts"
+      mastery: "Основные понятия"
       puzzle_map: "Этапы"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
+      prizes: "Соберите все трофеи %{total_trophies} и выигрывайте призы!"
       prizes_link: "подробнее"
   teacher:
     title:
-      one: "Your teacher is %{name}"
+      one: "Ваш преподаватель  %{name}"
       other: "Ваши преподаватели:"
     tools: "Инструментарий учителя"
     students:
       manage: "Управление студентами"
       add: "Добавить студента"
-    rollup: "Progress Dashboard"
+    rollup: "Панель мониторинга хода выполнения"
     activity: "Последние данные по активности класса"
   user:
     new_password_hint: "(оставьте пустым, если вы не хотите ничего менять)"
     current_password_hint: "(нам нужен ваш текущий пароль для подтверждения изменений)"
     cancel:
-      title: "Cancel my account"
+      title: "Отменить мой аккаунт"
       hint: "Недоволен?"
       button: "Cancel my account"
   user_level:

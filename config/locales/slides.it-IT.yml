@@ -86,7 +86,8 @@
           Se mettiamo un blocco "andare avanti" all'interno del blocco "ripetizione fino a", l'uccello si sposta in avanti FINO A che raggiunge il maiale (o si schianta contro un muro).
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: |-
+          E questo è importante: proprio come prima, possiamo mettere più blocchi all'interno del blocco "ripetere fino al", ed essi saranno tutti essere ripetuto.
     if:
       1:
         image: "notes/hoc4_1.png"

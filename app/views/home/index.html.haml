@@ -1,3 +1,8 @@
+%div{ style: "width: 100%; background: #b9bf15; color: white; padding: 30px"}
+  %b BETA - EARLY PREVIEW OF THE HOUR OF CODE
+  %br/
+  %br/
+  Final tutorials will arrive on December 9
 - if current_user
   .row
     .span12
@@ -40,7 +45,7 @@
           = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
             = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
         - else
-          = raw t('home.student_finished', prize_link: link_to(t('prize'), 'http://code.org/prize'), online_link: link_to(t('home.online'), 'http://code.org/learn2'), local_school_link: link_to(t('home.local_school'), 'http://aws.code.org/search'))
+          = raw t('home.student_finished', prize_link: link_to(t('prize'), 'http://code.org/prize'), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
 - else
   %h1= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)

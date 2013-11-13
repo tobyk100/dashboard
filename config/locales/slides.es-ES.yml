@@ -82,7 +82,7 @@
         text: 'Si ponemos un bloque "avanzar" dentro del bloque "repetir hasta" , el pájaro avanzará HASTA que alcance al cerdo (o choque con una pared).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Y esto es importante; así como antes, podemos poner múltiples bloques dentro del bloque "repetir hasta" y todo ello se repetirá.'
     if:
       1:
         image: "notes/hoc4_1.png"

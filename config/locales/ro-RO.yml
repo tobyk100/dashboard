@@ -35,14 +35,14 @@
   auth:
     sign_in_with: "inregistrati-va cu %{provider}"
     signed_in: "inregistrati-va !"
-    already_signedup: "Deja înscris?"
+    already_signedup: "Deja te-ai înscris?"
     notyet_signedup: "Nu te-ai alăturat încă?"
     google_oauth2: "Google+"
     twitter: "twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Ai uitat parola?"
-    need_confirmation: "Nu ai primit confirmarea instrucţiuni?"
+    need_confirmation: "Nu ai primit instrucţiuni de confirmare?"
     need_unlock: "Nu ai primit instrucţiunile de deblocare?"
   signup_form:
     title: "înscrie-te"

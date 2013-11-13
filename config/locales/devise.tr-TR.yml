@@ -1,13 +1,13 @@
 "tr":
   devise:
     confirmations:
-      confirmed: "Your account was successfully confirmed. You are now signed in."
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      confirmed: "Hesabınız onaylandı ! Oturum açtınız."
+      send_instructions: "Az sonra hesabınızı nasıl aktifleştireceğinize dair bir mail alacaksınız."
+      send_paranoid_instructions: "Eğer emailiniz sistemimizde bulunuyorsa, az sonra hesabınızı nasıl aktifleştireceğinize dair bir mail alacaksınız."
     failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account was not activated yet."
-      invalid: "Invalid email or password."
+      already_authenticated: "Zaten oturum açtınız."
+      inactive: "Hesabınız aktifleştirilmedi."
+      invalid: "Geçersiz email ya da şifre."
       invalid_token: "Invalid authentication token."
       locked: "Hesabınız kilitlendi."
       not_found_in_database: "Geçersiz e-posta veya şifre."

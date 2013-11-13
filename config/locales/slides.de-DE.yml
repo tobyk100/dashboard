@@ -82,7 +82,7 @@
         text: 'Wenn wir einen "move forward"-Baustein in den "repeat unti"-Baustein setzten, wird sich der Vogel nach vorne bewegen BIS er bei einem Schwein ankommt (oder in eine Wand kracht).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Und das ist wichtig: wie zuvor auch, können wir in den "wiederhole bis"-Baustein mehrere Bausteine setzten, die dann alle wiederholt werden.'
     if:
       1:
         image: "notes/hoc4_1.png"
