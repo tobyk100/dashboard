@@ -66,9 +66,9 @@
     var password = $(this).val();
     var password_message = $('#password_message');
     if (!password || password.length < 6) {
-      password_message.text("Password must be at least 6 characters");
+      password_message.text("#{t('signup_form.invalid_password')}");
     } else {
-      password_message.text("Valid password!");
+      password_message.text("#{t('signup_form.valid_password')}");
     }
   });
 
@@ -77,7 +77,7 @@
     var origin_password = $('#user_password').val();
     var password_message = $('#password_message');
     if (conf_password !== origin_password) {
-      password_message.text("The two passwords you entered do not match");
+      password_message.text("#{t('signup_form.mismatch_password')}");
     } else {
       password_message.text("");
     }

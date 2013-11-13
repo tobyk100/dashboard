@@ -6,12 +6,12 @@ class HomeController < ApplicationController
 
   def check_username
     if !params[:username] || params[:username].length < 5
-      render json: { message: "Username must be at least 5 characters", available: false }
+      render json: { message: I18n.t('signup_form.invalid_username'), available: false }
     else
       if User.exists?(username: params[:username])
-        render json: { message: "Username is already taken", available: false }
+        render json: { message: I18n.t('signup_form.taken_username'), available: false }
       else
-        render json: { message: "Available!", available: true }
+        render json: { message: I18n.t('signup_form.valid_username'), available: true }
       end
     end
   end

@@ -74,6 +74,12 @@ en:
     birthday: 'Birthday (optional)'
     submit: 'Sign up'
     teacher: 'Are you a teacher?'
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: 'Sign in'
     login: 'Email or username'
