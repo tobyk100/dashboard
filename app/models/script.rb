@@ -13,7 +13,7 @@ class Script < ActiveRecord::Base
   def script_levels_from_game(game_index)
     script_levels.includes({ level: :game }, :script).order(:chapter).where(['games.id = :index', { :index => game_index}]).references(:game)
   end
-  
+
   def multiple_games?
     # simplified check to see if we are in a script that has only one game (stage)
     levels.first.game_id != levels.last.game_id
@@ -29,5 +29,9 @@ class Script < ActiveRecord::Base
 
   def find_script_level(level_id)
     self.script_levels.detect { |sl| sl.level_id == level_id }
+  end
+
+  def self.find_twenty_hour_script
+    Script.find_by_id(TWENTY_HOUR_ID)
   end
 end

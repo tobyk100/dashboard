@@ -55,10 +55,10 @@
         sendReport(report);
       },
       onContinue: function() {
-        if (nextRedirect) {
-          window.location.href = nextRedirect;
-        } else if (videoInfo) {
+        if (videoInfo) {
           showVideo(videoInfo);
+        } else if (nextRedirect) {
+          window.location.href = nextRedirect;
         }
       },
       backToPreviousLevel: function() {
