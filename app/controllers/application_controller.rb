@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+  include SeamlessDatabasePool::ControllerFilter
+  use_database_pool :all => :persistent, [:create, :update, :destroy] => :master
 
   include LocaleHelper
 

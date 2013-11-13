@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 gem 'rails-i18n', '~> 4.0.0'
 
 gem 'mysql2'
+gem 'seamless_database_pool'
 
 group :development, :test do
   gem 'capistrano'

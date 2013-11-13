@@ -2,8 +2,22 @@ mysql_defaults: &mysql_defaults
   adapter: mysql2
   encoding: utf8
   username: root
-  host: localhost
+  pool: 2
+  master:
+    host: localhost
+  read-pool:
+    - host: localhost
+
+prod_mysql_defaults: &prod_mysql_defaults
+  adapter: mysql2
+  encoding: utf8
+  username: db
+  password: Az3GjKlP
   pool: 5
+  master:
+    host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
+  read-pool:
+    - host: drupal-dbreplica1.ceidnfhvpbck.us-east-1.rds.amazonaws.com
 
 development:
   <<: *mysql_defaults
@@ -18,16 +32,9 @@ test:
   database: dashboard_test
 
 staging:
-  <<: *mysql_defaults
+  <<: *prod_mysql_defaults
   database: dashboard_staging
-  username: db
-  password: Az3GjKlP
-  host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
 
 production:
-  <<: *mysql_defaults
+  <<: *prod_mysql_defaults
   database: dashboard_production
-  username: db
-  password: Az3GjKlP
-  host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
-
