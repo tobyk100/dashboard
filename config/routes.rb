@@ -9,6 +9,10 @@ Dashboard::Application.routes.draw do
 
   post '/signup_check/username', to: 'home#check_username'
 
+  post '/signup_check/password', to: 'home#check_password'
+
+  post '/signup_check/confirm_password', to: 'home#confirm_password'
+
   root :to => "home#index"
   get '/home_insert', to: 'home#home_insert'
 

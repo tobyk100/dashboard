@@ -16,6 +16,23 @@ class HomeController < ApplicationController
     end
   end
 
+  def check_password
+    if !params[:password] || params[:password].length < 6
+      render json: { message: "Password must be at least 6 characters"}
+    else
+      render json: { message: "Valid password!"}
+    end
+  end
+
+  def confirm_password
+    if !params[:new_password] || !params[:old_password] ||
+        params[:new_password] != params[:old_password]
+      render json: { message: "The two passwords you entered do not match."}
+    else
+      render json: { message: ""}
+    end
+  end
+
   def home_insert
     if current_user
       render 'index', layout: false

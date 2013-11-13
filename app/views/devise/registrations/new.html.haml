@@ -16,9 +16,10 @@
       %span#username_message
       %br/
       - if f.object.password_required?
-        = f.password_field :password, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password')
-        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password_confirmation')
+        = f.password_field :password, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password'), 'data-autocheck-url' => "/signup_check/password"
+        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password_confirmation'), 'data-autocheck-url' => "/signup_check/confirm_password"
         %br/
+        %span#password_message
 
       - if resource.teacher?
         = f.text_field :school, class: 'input-xlarge', placeholder: t('signup_form.school_name')
@@ -59,4 +60,16 @@
     $.post($(this).data('autocheckUrl'),{ username:$(this).val() } ,function(data) {
       $('#username_message').text(data.message);
     });
+  });
+
+  $( "#user_password" ).on('input',function(e){
+    $.post($(this).data('autocheckUrl'),{ password:$(this).val() } ,function(data) {
+      $('#password_message').text(data.message);
+    });
+  });
+
+  $( "#user_password_confirmation" ).on('input',function(e){
+    $.post($(this).data('autocheckUrl'),{ old_password:$("#user_password").val(), new_password:$(this).val() } ,function(data) {
+      $('#password_message').text(data.message);
+    })
   });
