@@ -82,15 +82,14 @@
         text: 'Om vi sätter ett "gå framåt"-block inuti "upprepa tills"-blocket så kommer fågeln att gå framåt TILLS den når grisen (eller kraschar in i väggen).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Och detta är viktigt: precis som tidigare, kan vi sätta flera block inuti blocket "upprepa tills", och de kommer alla att upprepas.'
     if:
       1:
         image: "notes/hoc4_1.png"
         text: 'Hej, är jag Bill! Låt oss lära oss ett nytt grundläggande koncept: "Om"-satser. Detta är hur datorer fatta beslut.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Du använder "Om" uttalanden själv varje dag. Innan du går ut varje morgon, säger du OM det regnar ute,  behöver använda min jacka.'
       3:
         image: "notes/hoc4_3.png"
         text: "Vi kan säga till zombien att kolla om det finns väg till vänster, och om han hittar en väg till vänster så ska han vända i den riktningen."

@@ -35,20 +35,20 @@
         parameters: "функције са параметрима"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
+        maze_2_2: 'Ћао! Потребно ми је да узмем Зелену касицу прасицу! Сложите пар "move forward" блокова заједно и притисните "Run Program" како би сте ми помогли да стигнем тамо.'
+        maze_2_1: "Напишите ми други програм како бих могао да пређем цео пут до касице прасице."
+        maze_2_2_5: "Како да дођем до зелене свинје? (Пази се TNT експлозива)"
+        maze_2_3: "Како да дођем до зелене свинје? (Пази се TNT експлозива)"
+        maze_2_4: "Аххх! Напишите програм који ће ми помоћи да заобиђем ТНТ експлозив и довести ме до зелене свинје."
+        maze_2_5: "Постоји начин на који могу доћи до зелене свинје користећи само 2 блока. можете ли да откријете како?"
+        maze_2_6: "Покушајте да ме доведете до зелене свинје користећи само три блока."
+        maze_2_7: 'Напишите ми програм тако да могу да дођем до зелене свинје користећи што мањи број блокова. Покушајте да користите  више од једанпут "repeat times" блок.'
+        maze_2_8: 'Како бих сте решили овај, покушајте са "repeat" блоком са ова три блока унутар нјега: move, move, turn.'
+        maze_2_9: 'Уреду, покушајте са новим "repeat until" блоком - Понављаће се док ја не стигнем до зелене свинје.'
+        maze_2_10: "Ок, последнји пут ради увежбавања - можете ли да решите ово користећи само 4 блока?"
+        maze_2_11: "Драга особо. Ја зомби. Ја гладан. Морам... доћи... до сунцокрета... Можете ли ме довести до њега са само 5 блокова?"
+        maze_2_12: "Уреду, ово је слично, али мало другачије. Можете ли урадити то са само 5 блокова?"
+        maze_2_13: 'Користите нови "if" блок како бих мога да одредим када да скренем. Помоћ: Потребан вам је само још један блок, али научите тако како смо га ми подесили да бисте ви могли да га урадите следећи пут сами.'
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
         maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
         maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"

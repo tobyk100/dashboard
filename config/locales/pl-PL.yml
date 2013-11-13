@@ -65,8 +65,8 @@
       email: "Adres e-mail"
       submit: "Send me reset password instructions"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
+      title: "Zmień swoje hasło"
+      new_password: "Nowe hasło"
       confirm_password: "Confirm new password"
       submit: "Change my password"
   welcome_email:
@@ -80,7 +80,7 @@
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
+    invite_sent: "Zaproszenie wysłane"
     added_teacher: "%{name} added as your teacher"
     registered: "You've registered for %{section_name}. Please sign in to continue"
     error:

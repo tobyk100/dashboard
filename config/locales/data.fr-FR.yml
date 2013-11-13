@@ -72,20 +72,18 @@
         turtle_4_2: "Maintenant, essayez ce carré qui est faite de 2 triangles. Cela peut prendre quelques essais avant de comprendre comment tourner  et comment bien se déplacer. Ca n'a pas besoin d'être exacte, mais juste continuer à essayer !"
         turtle_4_3: "Dessiner une flèche qui ressemble à ceci. Pensez à toutes les étapes  qui  vont vous permettre d'y arriver."
         turtle_4_4: "Pouvez vous dessiner quelque chose qui ressemble à ce navire ? C'est un tas de petites formes mis en place, donc décomposez le problème en des parties plus petites."
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
+        maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
+        maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."
+        maze_karel_1_3: "déplace moi vers le tas de boue et me dire combien de pelletées supprimer à l'aide d'aussi peu de blocs que possible."
+        maze_karel_1_4: "Pouvez-vous m'aider à supprimer toutes les quatre piles de boue ? Conseil : utiliser un bloc répéter si vous le pouvez."
+        maze_karel_1_5: "aider moi à remplir tous ces trous avec 5 pelletées de terre. Astuce : vous pouvez mettre un bloc « répéter » dans le bloc « while »."
+        maze_karel_1_6: "Retirez toutes les piles de boue, à l'aide d'aussi peu de blocs que possible. Les nouvelles options dans le menu déroulant sur le bloc « jusqu'à », dis moi si je suis debout sur une pile ou un trou."
+        maze_karel_1_7: "Wow, j'ai trouvé un trou très profond ! Je ne sais pas combien de pelletées de boue, il a besoin. Pouvez-vous écrire un programme qui remplit jusqu'à ce que le trou soit remplis ?"
+        maze_karel_1_8: "aide moi à remplir le trou à l'extrémité du champ, à l'aide du moins de blocs possible."
+        maze_karel_1_9: "fais moi enlever tous ces tas de boue. Essayez d'utiliser le moins de blocs possible. Conseil : vous pouvez utiliser un bloc « jusqu'à » à l'intérieur d'un bloc « répéter »."
+        maze_karel_1_10: |-
+          Je travaille tard, il fait noir dehors, et je ne peux pas dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long du champ et s'il y a un tas, retirez-le.
+        maze_karel_1_11: "Il fait encore noir dehors. Déplace moi le long du champ. S'il y a un tas, l'enlever et s'il y a un trou, remplis-le. Conseil : utilisez le menu déroulant des options sur le bloc « if »."
         turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
         turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
