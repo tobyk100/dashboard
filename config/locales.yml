@@ -9,6 +9,12 @@
 #   fallback: Specifies a Rails-level I18n fallback.
 #   debug: Causes a language to not show up in the production environment.
 
+"af": "af-ZA"
+"af-ZA":
+  english: "Afrikaans"
+  native: "Afrikaans"
+  debug: true
+
 "az": "az-AZ"
 "az-AZ":
   english: "Azerbaijani"
