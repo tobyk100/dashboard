@@ -72,65 +72,65 @@
   welcome_email:
     subject: "Sinifimizə qoşulun (Code.org -da)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Code.org-dakı informatika dərslərinə qeydiyyatdan keçmək üçün aşağıdakı linki klikləyin (mən sizin "müəlliminiz" kimi):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Dərslər əyləncəli, vizual olaraq cəlbedici olmaqla yanaşı həm də sadə, istiqamətləndirici, oyunabənzər 	təcrübələrdən istifadə edərək informatikanın sadə anlayışlarını öyrədir. Kodlaşdırmağı Bill Gates, Mark Zuckerberg, Angry Birds və "Plants vs. Zombies"dən öyrənin! :-)
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "Dəvətnamə göndərildi"
+    added_teacher: "%{name} müəlliminiz kimi əlavə olundu"
+    registered: "Siz %{section_name} üçün qeydiyyatdan keçmisiniz. Davam etmək üçün, zəhmət olmasa, daxil olun"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "Zəhmət olmasa, davam etməzdən öncə sistemdən çıxın"
+      username_not_found: "%{username} istifadəçi adı tapılmadı"
+      username_in_use: "%{username} artıq istifadə olunur, zəhmət olmasa, digərini seçin"
+      no_teacher: "'%{teacher_email_or_code}' ilə daxil olan heç kim tapılmadı. Zəhmət olmasa, onlardan burada qeydiyyatdan keçməyi xahiş edin və sonra onları yenidən əlavə etməyə çalışın"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Code.org-da %{teacher_name} ilə dərsə qoşulun!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "Bu şəxsin statistikasına icazəniz yoxdur"
   crud:
-    new_model: "New %{model}"
-    show: "Show"
-    edit: "Edit"
-    edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Yeni %{model}"
+    show: "Göstər"
+    edit: "Düzəliş et"
+    edit_model: "%{model} düzəliş et"
+    update: "Yenilə"
+    destroy: "Məhv et"
+    back: "Geri"
+    confirm: "Əminsiniz?"
+    created: "%{model} müvəffəqiyyətlə yaradıldı."
+    updated: "%{model} müvəffəqiyyətlə yeniləndi."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "Kod Saatımı bitirdim"
+      sign_in_to_save: "Gedişatı yadda saxlamaq üçün daxil olun"
     user:
-      classroom: "My students"
-      label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
-      prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      classroom: "Mənim tələbələrim"
+      label: "Salam %{username}"
+      stats: "Mənim inkişafım"
+      settings: "Mənim hesabım"
+      prizes: "Mükafatlar"
+      logout: "Çıxın"
+      signin: "Daxil olun"
+      signup: "Qeydiyyatdan keçin"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: "more info"
+      progress: "Sənin inkişafın"
+      lines: "Yekun kod sətiri: %{lines}"
+      close: "BAĞLA"
+      mastery: "Anlayışlar"
+      puzzle_map: "Mərhələlər"
+      prizes: "Bütün %{total_trophies} kuboklarını yığ və hədiyyə qazan!"
+      prizes_link: "daha çox məlumat"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "%{name} sizin müəlliminizdir"
+      other: "Müəllimləriniz:"
+    tools: "Müəllim Alətləri"
     students:
       manage: "Tələbələri idarə et"
       add: "Tələbələri əlavə et"

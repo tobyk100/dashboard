@@ -82,7 +82,7 @@
         text: 'إذا وضعنا قطعة "تقدم للامام" داخل قطعة "أكرر حتى" ، سوف يتقدم الطير إلي الأمام حتى يصل للمخلوق الاخضر (أو يتحطم في الجدار).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'هذا مهم كما في السابق، نحن نستطيع أن نضع قطع متعددة داخل قطعة "أكرر حتى"، من اجل تكرار القطع جميعا.'
     if:
       1:
         image: "notes/hoc4_1.png"

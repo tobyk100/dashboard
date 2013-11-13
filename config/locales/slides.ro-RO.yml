@@ -66,7 +66,7 @@
         text: 'Putem să așezăm blocul "mută înainte" în interiorul blocului "repetă" și să scriem un număr în bloc ca să îi spunem de câte ori să repete acțiunea.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'Și asta este important: poți să pui mai multe de o singură comandă în interiorul blocului "repetă".'
+        text: 'Și asta este important: poți să pui mai mult de o singură comandă în interiorul blocului "repetă".'
       7:
         image: "notes/hoc2_7.png"
         text: 'Bucurați-vă de folosirea noului bloc "repetă"!'
