@@ -16,8 +16,8 @@
       %span#username_message
       %br/
       - if f.object.password_required?
-        = f.password_field :password, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password'), 'data-autocheck-url' => "/signup_check/password"
-        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password_confirmation'), 'data-autocheck-url' => "/signup_check/confirm_password"
+        = f.password_field :password, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password')
+        = f.password_field :password_confirmation, class: 'input-xlarge', placeholder: t('activerecord.attributes.user.password_confirmation')
         %br/
         %span#password_message
 
@@ -63,13 +63,22 @@
   });
 
   $( "#user_password" ).on('input',function(e){
-    $.post($(this).data('autocheckUrl'),{ password:$(this).val() } ,function(data) {
-      $('#password_message').text(data.message);
-    });
+    var password = $(this).val();
+    var password_message = $('#password_message');
+    if (!password || password.length < 6) {
+      password_message.text("Password must be at least 6 characters");
+    } else {
+      password_message.text("Valid password!");
+    }
   });
 
   $( "#user_password_confirmation" ).on('input',function(e){
-    $.post($(this).data('autocheckUrl'),{ old_password:$("#user_password").val(), new_password:$(this).val() } ,function(data) {
-      $('#password_message').text(data.message);
-    })
+    var conf_password = $(this).val();
+    var origin_password = $('#user_password').val();
+    var password_message = $('#password_message');
+    if (conf_password !== origin_password) {
+      password_message.text("The two passwords you entered do not match");
+    } else {
+      password_message.text("");
+    }
   });
