@@ -1,4 +1,8 @@
 class TeacherBonusPrizesController < ApplicationController
+  before_filter :authenticate_user!
+  check_authorization
+  load_and_authorize_resource
+  
   before_action :set_teacher_bonus_prize, only: [:show, :edit, :update, :destroy]
 
   # GET /teacher_bonus_prizes
@@ -70,5 +74,10 @@ class TeacherBonusPrizesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def teacher_bonus_prize_params
       params.require(:teacher_bonus_prize).permit(:prize_provider_id, :code, :user_id)
+    end
+
+    # this is to fix a ForbiddenAttributesError cancan issue
+    prepend_before_filter do
+      params[:teacher_bonus_prize] &&= teacher_bonus_prize_params
     end
 end

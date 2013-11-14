@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
   has_many :trophies, through: :user_trophies, source: :trophy
 
   has_many :followers
-  has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id'
+  has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id', :order => 'id'
 
   has_many :students, through: :followers, source: :student_user
   has_many :teachers, through: :followeds, source: :user
@@ -41,6 +41,9 @@ class User < ActiveRecord::Base
   validates_length_of :username, within: 5..20
   validates_format_of :username, with: /\A[a-z0-9\-\_\.]+\z/i, on: :create
   validates_uniqueness_of :username, allow_nil: false, allow_blank: false, case_sensitive: false
+  validates_uniqueness_of :prize_id, allow_nil: true
+  validates_uniqueness_of :teacher_prize_id, allow_nil: true
+  validates_uniqueness_of :teacher_bonus_prize_id, allow_nil: true
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|

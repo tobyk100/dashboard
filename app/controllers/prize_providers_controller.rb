@@ -1,4 +1,8 @@
 class PrizeProvidersController < ApplicationController
+  before_filter :authenticate_user!
+  check_authorization
+  load_and_authorize_resource
+  
   before_action :set_prize_provider, only: [:show, :edit, :update, :destroy]
 
   # GET /prize_providers
@@ -70,5 +74,10 @@ class PrizeProvidersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def prize_provider_params
       params.require(:prize_provider).permit(:name, :url, :description_token, :image_name)
+    end
+    
+    # this is to fix a ForbiddenAttributesError cancan issue
+    prepend_before_filter do
+      params[:prize_provider] &&= prize_provider_params
     end
 end
