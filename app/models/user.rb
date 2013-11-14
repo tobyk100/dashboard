@@ -12,6 +12,9 @@ class User < ActiveRecord::Base
   TYPE_PARENT = 'parent'
 
   GENDER_OPTIONS = [[nil, ''], ['gender.male', 'm'], ['gender.female', 'f'], ['gender.none', '-']]
+  
+  STUDENTS_COMPLETED_FOR_PRIZE = 10
+  STUDENTS_FEMALE_FOR_BONUS = 0.4
 
   attr_accessor :login
 
@@ -165,6 +168,28 @@ from (
     group by f.student_user_id
     ) trophy_counts
 SQL
+  end
+
+  # determines and returns teacher_prize, teacher_bonus_prize
+  # ** Does not change values on this User object **
+  def check_teacher_prize_eligibility
+    completed_students = 0
+    completed_female_students = 0
+    total_students = self.students.length
+    if total_students >= STUDENTS_COMPLETED_FOR_PRIZE
+      self.students.each do |student|
+        if student.prize_earned
+          completed_students += 1
+          if student.gender == "f"
+            completed_female_students += 1
+          end
+        end
+      end
+    end
+    
+    teacher_prize = completed_students >= STUDENTS_COMPLETED_FOR_PRIZE
+    teacher_bonus_prize = teacher_prize && (completed_female_students.to_f / completed_students) >= STUDENTS_FEMALE_FOR_BONUS
+    return teacher_prize, teacher_bonus_prize
   end
 
   def trophy_count

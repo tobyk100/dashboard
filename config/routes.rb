@@ -1,4 +1,12 @@
 Dashboard::Application.routes.draw do
+  resources :teacher_bonus_prizes
+
+  resources :teacher_prizes
+
+  resources :prizes
+
+  resources :prize_providers
+
   resources :callouts
   resources :videos
   resources :concepts

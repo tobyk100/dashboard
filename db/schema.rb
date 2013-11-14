@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131113000531) do
+ActiveRecord::Schema.define(version: 20131113214500) do
 
   create_table "activities", force: true do |t|
     t.integer  "user_id"
@@ -100,6 +100,26 @@ ActiveRecord::Schema.define(version: 20131113000531) do
 
   add_index "levels", ["game_id"], name: "index_levels_on_game_id", using: :btree
 
+  create_table "prize_providers", force: true do |t|
+    t.string   "name"
+    t.string   "url"
+    t.string   "description_token"
+    t.string   "image_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "prizes", force: true do |t|
+    t.integer  "prize_provider_id", null: false
+    t.string   "code",              null: false
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "prizes", ["prize_provider_id"], name: "index_prizes_on_prize_provider_id", using: :btree
+  add_index "prizes", ["user_id"], name: "index_prizes_on_user_id", using: :btree
+
   create_table "script_levels", force: true do |t|
     t.integer  "level_id",     null: false
     t.integer  "script_id",    null: false
@@ -134,6 +154,28 @@ ActiveRecord::Schema.define(version: 20131113000531) do
   add_index "sections", ["code"], name: "index_sections_on_code", unique: true, using: :btree
   add_index "sections", ["user_id", "name"], name: "index_sections_on_user_id_and_name", unique: true, using: :btree
 
+  create_table "teacher_bonus_prizes", force: true do |t|
+    t.integer  "prize_provider_id", null: false
+    t.string   "code",              null: false
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "teacher_bonus_prizes", ["prize_provider_id"], name: "index_teacher_bonus_prizes_on_prize_provider_id", using: :btree
+  add_index "teacher_bonus_prizes", ["user_id"], name: "index_teacher_bonus_prizes_on_user_id", using: :btree
+
+  create_table "teacher_prizes", force: true do |t|
+    t.integer  "prize_provider_id", null: false
+    t.string   "code",              null: false
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "teacher_prizes", ["prize_provider_id"], name: "index_teacher_prizes_on_prize_provider_id", using: :btree
+  add_index "teacher_prizes", ["user_id"], name: "index_teacher_prizes_on_user_id", using: :btree
+
   create_table "trophies", force: true do |t|
     t.string   "name"
     t.string   "image_name"
@@ -165,12 +207,12 @@ ActiveRecord::Schema.define(version: 20131113000531) do
   add_index "user_trophies", ["user_id", "trophy_id", "concept_id"], name: "index_user_trophies_on_user_id_and_trophy_id_and_concept_id", unique: true, using: :btree
 
   create_table "users", force: true do |t|
-    t.string   "email",                               default: "",      null: false
-    t.string   "encrypted_password",                  default: "",      null: false
+    t.string   "email",                                   default: "",      null: false
+    t.string   "encrypted_password",                      default: "",      null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",                       default: 0
+    t.integer  "sign_in_count",                           default: 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -181,25 +223,34 @@ ActiveRecord::Schema.define(version: 20131113000531) do
     t.string   "provider"
     t.string   "uid"
     t.boolean  "admin"
-    t.string   "gender",                 limit: 1
+    t.string   "gender",                     limit: 1
     t.string   "name"
-    t.string   "locale",                 limit: 10,   default: "en-US", null: false
+    t.string   "locale",                     limit: 10,   default: "en-US", null: false
     t.date     "birthday"
     t.string   "parent_email"
-    t.string   "user_type",              limit: 16
+    t.string   "user_type",                  limit: 16
     t.string   "school"
-    t.string   "full_address",           limit: 1024
+    t.string   "full_address",               limit: 1024
     t.string   "address"
     t.string   "city"
     t.string   "state"
     t.string   "zip"
     t.float    "lat"
     t.float    "lon"
-    t.integer  "total_lines",                         default: 0,       null: false
+    t.integer  "total_lines",                             default: 0,       null: false
+    t.boolean  "prize_earned",                            default: false
+    t.integer  "prize_id"
+    t.boolean  "teacher_prize_earned",                    default: false
+    t.integer  "teacher_prize_id"
+    t.boolean  "teacher_bonus_prize_earned",              default: false
+    t.integer  "teacher_bonus_prize_id"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", using: :btree
+  add_index "users", ["prize_id"], name: "index_users_on_prize_id", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+  add_index "users", ["teacher_bonus_prize_id"], name: "index_users_on_teacher_bonus_prize_id", unique: true, using: :btree
+  add_index "users", ["teacher_prize_id"], name: "index_users_on_teacher_prize_id", unique: true, using: :btree
   add_index "users", ["username"], name: "index_users_on_username", unique: true, using: :btree
 
   create_table "videos", force: true do |t|

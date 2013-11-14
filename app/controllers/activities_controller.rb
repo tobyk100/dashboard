@@ -69,6 +69,10 @@ class ActivitiesController < ApplicationController
       rescue Exception => e
         Rails.logger.error "Error updating trophy exception: #{e.inspect}"
       end
+      
+      if trophy_updates.length > 0
+        prize_check(current_user)
+      end
     else
       session_progress = session[:progress] || {}
 
@@ -231,6 +235,34 @@ class ActivitiesController < ApplicationController
     end
 
     trophy_updates
+  end
+
+  def prize_check(user)
+    if user.trophy_count == (Concept.count * Trophy::TROPHIES_PER_CONCEPT)
+      if !user.prize_earned
+        # send e-mail
+        user.prize_earned = true
+        user.save!
+      end
+      
+      # for awarding prizes, we only honor the first (primary) teacher
+      teacher = user.teachers[0]
+      
+      if teacher
+        t_prize, t_bonus = teacher.check_teacher_prize_eligibility
+        if t_prize && !teacher.teacher_prize_earned
+          # send e-mail
+          teacher.teacher_prize_earned = true
+          teacher.save!
+        end
+        
+        if t_bonus && !teacher.teacher_bonus_prize_earned
+          # send e-mail
+          teacher.teacher_bonus_prize_earned = true
+          teacher.save!
+        end
+      end
+    end
   end
 
   private
