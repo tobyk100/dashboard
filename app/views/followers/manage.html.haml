@@ -19,7 +19,7 @@
       %colgroup
         %col{ width: 50 }
         %col{ width: 250 }
-        %col{ width: 350 }
+        %col{ width: 100 }
         %col{ width: 200 }
 
       %tr
@@ -32,7 +32,7 @@
         %tr
           %td= add_section_ui ? check_box_tag('follower_ids[]', followed.id) : ''
           %td.fixed_width_cell= link_to followed.student_user.name || followed.student_user.username, user_stats_path(followed.student_user)
-          %td= followed.student_user.email.blank? ? link_to("Edit", student_edit_password_path(followed.student_user)) : followed.student_user.email
+          %td= followed.student_user.email.blank? ? link_to("Edit", student_edit_password_path(followed.student_user)) : ''
           %td= followed.section.try(:name)
 
 %br/
