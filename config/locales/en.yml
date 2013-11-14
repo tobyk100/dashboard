@@ -202,6 +202,13 @@ en:
     feedback: 'Provide feedback'
     translate: 'Help us translate to your language'
     tos: 'Terms of service'
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: 'Need help?'
     subtitle: 'See these videos and hints'
