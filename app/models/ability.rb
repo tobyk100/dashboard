@@ -9,6 +9,7 @@ class Ability
       can :manage, :all
     else
       can :read, :all
+      cannot :read, [Prize, TeacherPrize, TeacherBonusPrize]
     end
     if user.id
       can :manage, user

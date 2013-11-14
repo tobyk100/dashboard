@@ -13,6 +13,9 @@
   - if current_user && user == current_user
     .stage_separator
     .prize_msg
-      #{t('nav.popup.prizes', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+      - if current_user.prize_earned
+        #{t('nav.popup.prize_earned', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
+      - elsif
+        #{t('nav.popup.prizes', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
       <br>
       =link_to t('nav.popup.prizes_link'), 'http://code.org/prize'

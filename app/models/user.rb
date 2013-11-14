@@ -12,6 +12,9 @@ class User < ActiveRecord::Base
   TYPE_PARENT = 'parent'
 
   GENDER_OPTIONS = [[nil, ''], ['gender.male', 'm'], ['gender.female', 'f'], ['gender.none', '-']]
+  
+  STUDENTS_COMPLETED_FOR_PRIZE = 10
+  STUDENTS_FEMALE_FOR_BONUS = 0.4
 
   attr_accessor :login
 
@@ -22,7 +25,7 @@ class User < ActiveRecord::Base
   has_many :trophies, through: :user_trophies, source: :trophy
 
   has_many :followers
-  has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id'
+  has_many :followeds, :class_name => 'Follower', :foreign_key => 'student_user_id', :order => 'id'
 
   has_many :students, through: :followers, source: :student_user
   has_many :teachers, through: :followeds, source: :user
@@ -38,6 +41,9 @@ class User < ActiveRecord::Base
   validates_length_of :username, within: 5..20
   validates_format_of :username, with: /\A[a-z0-9\-\_\.]+\z/i, on: :create
   validates_uniqueness_of :username, allow_nil: false, allow_blank: false, case_sensitive: false
+  validates_uniqueness_of :prize_id, allow_nil: true
+  validates_uniqueness_of :teacher_prize_id, allow_nil: true
+  validates_uniqueness_of :teacher_bonus_prize_id, allow_nil: true
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_create do |user|
@@ -165,6 +171,28 @@ from (
     group by f.student_user_id
     ) trophy_counts
 SQL
+  end
+
+  # determines and returns teacher_prize, teacher_bonus_prize
+  # ** Does not change values on this User object **
+  def check_teacher_prize_eligibility
+    completed_students = 0
+    completed_female_students = 0
+    total_students = self.students.length
+    if total_students >= STUDENTS_COMPLETED_FOR_PRIZE
+      self.students.each do |student|
+        if student.prize_earned
+          completed_students += 1
+          if student.gender == "f"
+            completed_female_students += 1
+          end
+        end
+      end
+    end
+    
+    teacher_prize = completed_students >= STUDENTS_COMPLETED_FOR_PRIZE
+    teacher_bonus_prize = teacher_prize && (completed_female_students.to_f / completed_students) >= STUDENTS_FEMALE_FOR_BONUS
+    return teacher_prize, teacher_bonus_prize
   end
 
   def trophy_count

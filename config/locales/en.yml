@@ -153,6 +153,7 @@ en:
       mastery: 'Concepts'
       puzzle_map: 'Stages'
       prizes: 'Collect all %{total_trophies} trophies and win prizes!'
+      prize_earned: 'All %{total_trophies} trophies collected. Prize won!'
       prizes_link: 'more info'
   teacher:
     title:
