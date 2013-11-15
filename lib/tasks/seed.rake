@@ -111,6 +111,39 @@ namespace :seed do
     Trophy.create!(name: 'Silver', image_name: 'silvertrophy.png')
     Trophy.create!(name: 'Gold', image_name: 'goldtrophy.png')
   end
+  
+  task prize_providers: :environment do
+    # placeholder data - id's are assumed to start at 1 so prizes below can be loaded properly
+    PrizeProvider.connection.execute('truncate table prize_providers')
+    PrizeProvider.create!(name: 'Apple iTunes', description_token: 'apple_itunes', url: 'http://www.apple.com/itunes/', image_name: 'goldtrophy.png')
+    PrizeProvider.create!(name: 'Dropbox', description_token: 'dropbox', url: 'http://www.dropbox.com/', image_name: 'bronzetrophy.png')
+    PrizeProvider.create!(name: 'Valve Portal', description_token: 'valve', url: 'http://www.valvesoftware.com/games/portal.html', image_name: 'goldtrophy.png')
+    PrizeProvider.create!(name: 'EA Origin Bejeweled 3', description_token: 'ea_bejeweled', url: 'https://www.origin.com/en-us/store/buy/181609/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'silvertrophy.png')
+    PrizeProvider.create!(name: 'EA Origin FIFA Soccer 13', description_token: 'ea_fifa', url: 'https://www.origin.com/en-us/store/buy/fifa-2013/pc-download/base-game/standard-edition-ANW.html', image_name: 'bronzetrophy.png')
+    PrizeProvider.create!(name: 'EA Origin SimCity 4 Deluxe', description_token: 'ea_simcity', url: 'https://www.origin.com/en-us/store/buy/sim-city-4/pc-download/base-game/deluxe-edition-ANW.html', image_name: 'goldtrophy.png')
+    PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'silvertrophy.png')
+    PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'goldtrophy.png')
+    PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'silvertrophy.png')
+  end
+
+  task dummy_prizes: :environment do
+    # placeholder data
+    Prize.connection.execute('truncate table prizes')
+    TeacherPrize.connection.execute('truncate table teacher_prizes')
+    TeacherBonusPrize.connection.execute('truncate table teacher_bonus_prizes')
+    10.times do |n|
+      string = n.to_s
+      Prize.create!(prize_provider_id: 1, code: "APPL-EITU-NES0-000" + string)
+      Prize.create!(prize_provider_id: 2, code: "DROP-BOX0-000" + string)
+      Prize.create!(prize_provider_id: 3, code: "VALV-EPOR-TAL0-000" + string)
+      Prize.create!(prize_provider_id: 4, code: "EAOR-IGIN-BEJE-000" + string)
+      Prize.create!(prize_provider_id: 5, code: "EAOR-IGIN-FIFA-000" + string)
+      Prize.create!(prize_provider_id: 6, code: "EAOR-IGIN-SIMC-000" + string)
+      Prize.create!(prize_provider_id: 7, code: "EAOR-IGIN-PVSZ-000" + string)
+      TeacherPrize.create!(prize_provider_id: 8, code: "DONO-RSCH-OOSE-750" + string)
+      TeacherBonusPrize.create!(prize_provider_id: 9, code: "DONO-RSCH-OOSE-250" + string)
+    end
+  end
 
   task :import_users, [:file] => :environment do |t, args|
     CSV.read(args[:file], { col_sep: "\t", headers: true }).each do |row|
@@ -124,5 +157,5 @@ namespace :seed do
     end
   end
 
-  task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies]
+  task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies, :prize_providers, :dummy_prizes]
 end
