@@ -23,13 +23,13 @@ Dashboard::Application.routes.draw do
   end
 
   resources :scripts, only: [], path: '/s/' do
-    resources :script_levels, as: :levels, only: [:show], path: "/level"
+    resources :script_levels, as: :levels, only: [:show], path: "/level", format: false
   end
 
   get '/hoc/reset', to: 'script_levels#show', script_id: Script::HOC_ID, reset:true, as: 'hoc_reset'
-  get '/hoc/:chapter', to: 'script_levels#show', script_id: Script::HOC_ID, as: 'hoc_chapter'
+  get '/hoc/:chapter', to: 'script_levels#show', script_id: Script::HOC_ID, as: 'hoc_chapter', format: false
 
-  get '/k8intro/:chapter', to: 'script_levels#show', script_id: Script::TWENTY_HOUR_ID, as: 'k8intro_chapter'
+  get '/k8intro/:chapter', to: 'script_levels#show', script_id: Script::TWENTY_HOUR_ID, as: 'k8intro_chapter', format: false
 
   resources :followers, only: [:new, :create, :index]
   get '/followers/:teacher_user_id/accept', to: 'followers#accept', as: 'follower_accept'
