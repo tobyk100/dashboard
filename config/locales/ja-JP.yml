@@ -53,6 +53,12 @@
     birthday: "誕生日 (optionalです)"
     submit: "入会"
     teacher: "あなたは教師ですか？"
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "ログイン"
     login: "メールまたはユーザー名"
@@ -94,6 +100,31 @@
   reports:
     error:
       access_denied: "この人の統計情報へのアクセス権を持っていません。"
+  redeem_prizes:
+    title: "Redeem Prizes: %{name}"
+    provider: "Provider:"
+    code: "Code:"
+    providers:
+      apple_itunes: "Apple iTunes"
+      donors_choose: "DonorsChoose.org $750"
+      donors_choose_bonus: "DonorsChoose.org $250"
+      dropbox: "Dropbox"
+      valve: "Valve Portal"
+      ea_bejeweled: "EA Origin Bejeweled 3"
+      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      ea_pvz: "EA Origin Plants vs. Zombies"
+    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    msg:
+      choose: "Choose a prize:"
+      earned: "You have earned a prize!"
+      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      teacher:
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
+        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        bonus:
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "新しい%{model}"
     show: "表示"
@@ -107,73 +138,80 @@
     updated: "%{model} はエラーなく更新しました。"
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "私のコードの時間を終わった"
+      sign_in_to_save: "プログレスを保存するためにはサインインをしてください。"
     user:
-      classroom: "My students"
-      label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
-      prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      classroom: "私の生徒"
+      label: "こんにちは  %{username}"
+      stats: "私のプログレス"
+      settings: "私のアカウント"
+      prizes: "賞品"
+      logout: "サインアウトします。"
+      signin: "ログイン"
+      signup: "入会"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prizes_link: "more info"
+      progress: "あなたのプログレス"
+      lines: "コードの行の合計:  %{lines}"
+      close: "閉じる"
+      mastery: "アイデア"
+      puzzle_map: "ステージ"
+      prizes: "%{total_trophies}　トロフィーをあつめて、賞品を獲得しよう ！"
+      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prizes_link: "詳細情報"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "あなたの先生わ %{name}です"
+      other: "あなたの先生:"
+    tools: "教師のツール"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "学生の管理。"
+      add: "生徒を追加する"
+    rollup: "プログレスダッシュ ボード"
+    activity: "最近のクラスの活動"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "（変更したくない場合は空白のままにしてください）"
+    current_password_hint: "（変更をするためんいわ現在のパスワードを確認する必要があります)"
     cancel:
-      title: "Cancel my account"
-      hint: "Unhappy?"
-      button: "Cancel my account"
+      title: "アカウントをキャンセルします。"
+      hint: "不満足ですか？"
+      button: "アカウントをキャンセルします。"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "実行完了"
+    tried: "しようとしました。"
   user_stats:
-    recent_activity: "Recent activity"
-    show_more: "Show more"
+    recent_activity: "最近の活動"
+    show_more: "もっと見る"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your progress as a student"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
+    signin_message: "すでに登録されていましたら %{link}"
+    student_reg_link: "生徒さんわ、ここからスタートしてください"
+    teacher_reg_link: "先生わ ここからスタートしてください"
+    teacher_dashboard: "プログレス状況わ、ダッシュ ボードを参照してください。"
+    teacher_student_count: "あなたわ、%{count}の学生がいます。"
+    teacher_averages: '平均であなたの学生わ %{trophy_max}のうち%{trophy_average}　"コンセプト習得"のトロフィーを獲得しています。'
+    classroom: "あなたの教室"
+    student_progress: "あなの学業のプログレス"
+    student_stats: '%{trophy_max}このうち%{trophy_count} の"コンセプト"習得のトロフィーを獲得しました。'
+    student_left_off: "中断したところから。"
+    student_finished: "すべてのチュートリアルを完了したら、あなたの %{prize_link} を主張した後、別のクラス %{online_link} か%{local_school_link}を選らんでください"
+    local_school: "地元の学校"
+    online: "オンライン"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "男性"
+    female: "女性"
+    none: "答えたくないです。"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
+    help_from_html: 'チュートリアルを作成わ<a href="http://www.google.com">Google</a>、<a href="http://www.microsoft.com">マイクロソフト</a>、<a href="http://www.facebook.com">Facebook</a>、<a href="http://www.twitter.com"> Twitter</a> からのエンジニアの援助で完成しました'
     art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: "Provide feedback"
     translate: "Help us translate to your language"
     tos: "Terms of service"
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: "Need help?"
     subtitle: "See these videos and hints"

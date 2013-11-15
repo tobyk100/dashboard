@@ -65,10 +65,17 @@
         turtle_1_8: 'Ok, kijk nu of je kunt uitvinden wat er gebeurt als je deze code uit zou voeren (of druk op "Uitvoeren" om het uit te voeren). Dan moet je het vaak genoeg herhalen om de tekening af te maken. De kleuren zijn iedere keer anders.'
         turtle_1_9: "Kun je uitvinden welk nummer je moet vervangen met het vraagteken om een cirkel te tekenen?"
         turtle_1_10: 'Je hebt het gehaald! Nu kun je tekenen wat je wilt. Wat leuke ideëen: een stick poppetje, sneeuwvlok of een spiraal. Je kunt nu ook het nieuwe "dikte instellen" blok gebruiken. Veel plezier!'
-        turtle_4_1: "Kun je een plaatje tekenen die op dit huis lijkt? Denk na over de stappen die je moet nemen om het huis te tekenen - dat heet een algoritme. Je moet het misschien een paar keer proberen voor hij er goed uit ziet, maar het is niet erg als hij niet perfect is!"
-        turtle_4_2: "Probeer nu om dit vierkant te tekenen die gemaakt is uit 2 driehoeken. Misschien moet je het een paar keer proberen voor je uitvindt hoe ver je moet draaien en hoe ver je moet bewegen. Het hoeft er niet perfect uit te zien, maar blijf proberen!"
-        turtle_4_3: "Teken een pijl die er zo uit ziet. Denk na over de stappen die je nodig hebt om hem te tekenen."
-        turtle_4_4: "Kun je iets tekenen dat lijkt op dit schip? Hij bestat uit een aantal kleinere vormen die samengevoegd zijn, dus breek het probleem op in kleinere stukjes."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hoi, ik ben een boer. Ik heb je hulp nodig om mijn veld plat te maken zodat ik erop kan verbouwen. Beweeg me naar de hoop modder en gebruik het "verwijder" blok om hem te verwijderen.'
         maze_karel_1_2: 'Beweeg me naar het gat en vul hem met TWEE scheppen modder, door het "vul" blok te gebruiken.'
         maze_karel_1_3: "Beweeg me naar de hoop modder en vertel me hoeveel scheppen ik moet verwijderen, met zo weinig blokken mogelijk."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "Kan je dit programma maken zodat ik mijn veld mooi vlak kan maken?"
         maze_karel_debug_function_3: "Bewerk dit programma zodat ik alle hopen op mijn veld verwijder. "
         turtle_5_1: "Neem de tijd om te tekenen wat je maar wilt! Als je niets kunt verzinnen, vraag dan of degene naast je goede ideëen heeft!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'Om dit op te lossen, moet je het patroon vinden dat herhaalt. Gebruik een "herhaal" blok met deze 3 blokken erin: beweeg, beweeg, draai rechts.'
       other1StarError:

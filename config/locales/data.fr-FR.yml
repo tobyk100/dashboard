@@ -68,10 +68,17 @@
         turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différents chaque fois."
         turtle_1_9: "Savez vous par quel numéro remplacer les points d'interrogation pour dessiner un cercle ?"
         turtle_1_10: "Vous l'avez fait ! Maintenant, tracez tout ce que vous voulez. : ce Qui vous amuse:  un bonhomme allumette, flocon de neige ou un spirale. Essayez aussi le nouveau bloc « largeur définie ». Amusez-vous!"
-        turtle_4_1: "Vous pouvez dessiner une image qui ressemble à cette maison ? Pensez aux étapes que vous devez dessiner - on appel  cela  un algorithme. Ca  pourrait prendre un tas de tentatives pour le faire au beau fixe, mais c'est pas grave si ce n'est pas parfait !"
-        turtle_4_2: "Maintenant, essayez ce carré qui est faite de 2 triangles. Cela peut prendre quelques essais avant de comprendre comment tourner  et comment bien se déplacer. Ca n'a pas besoin d'être exacte, mais juste continuer à essayer !"
-        turtle_4_3: "Dessiner une flèche qui ressemble à ceci. Pensez à toutes les étapes  qui  vont vous permettre d'y arriver."
-        turtle_4_4: "Pouvez vous dessiner quelque chose qui ressemble à ce navire ? C'est un tas de petites formes mis en place, donc décomposez le problème en des parties plus petites."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
         maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."
         maze_karel_1_3: "déplace moi vers le tas de boue et me dire combien de pelletées supprimer à l'aide d'aussi peu de blocs que possible."
@@ -84,21 +91,19 @@
         maze_karel_1_10: |-
           Je travaille tard, il fait noir dehors, et je ne peux pas dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long du champ et s'il y a un tas, retirez-le.
         maze_karel_1_11: "Il fait encore noir dehors. Déplace moi le long du champ. S'il y a un tas, l'enlever et s'il y a un trou, remplis-le. Conseil : utilisez le menu déroulant des options sur le bloc « if »."
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
+        turtle_2_1: "Salut. Moi être artiste Zombie. Moi aimer dessiner! Toi aider moi dessiner un carré dans couleur spéciale. Note importante: tu as tous les mêmes blocs mais ils ont été maintenant arrangés dans des catégories."
+        turtle_2_2: |-
+          Bienvenue à l'utilisation de fonctions qui te permet de définir de nouveaux blocs! Essaye le nouveau bloc "dessiner un carré", qui se trouve dans la catégorie "Fonctions", pour dessiner un petit carré vert de 50x50.
+        turtle_2_3: 'Utilises le bloc "répéter" ( dans la catégorie "Boucles") pour dessiner 3 carrés de taille 100, chacun 120 degrés à part. Et fais-le dans 3 couleurs différentes au hasard.'
+        turtle_2_4: "Maintenant nous allons être créatifs. Change le code pour dessiner 36 carrés, 100 pixels de largeur, et chacun 10 degrés à part. Indice: tu pourrais utiliser le curseur pour me faire aller plus vite."
+        turtle_2_5: 'Dessine des carrés avec les cotés de 50, 60, 70, 80, et 90 pixels. Tu devras utiliser la fonction "dessine un carré" 5 fois.'
         turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
+          Ok, ce programme va utiliser un compteur, pour dessiner les mêmes carrés en moins de temps. Si tu veux que ton carré soit de même taille que ton compteur, utilises alors le bloc "compteur". Indice: C'est dans la catégorie des Variables.
+        turtle_2_7: 'Voilà un programme pour dessiner une spirale, mais les blocs sont désactivés dons elles ne fonctionnent pas. Fais un nouveau programme en utilisant un bloc " compte avec" (dans la catégorie Boucles) et un bloc "compteur" (dans la catégorie des Variables) pour dessiner la même spirale.'
         turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
+          Il y a une nouvelle fonction "dessine un bonhomme de neige" (dans la catégorie Fonctions). Dessine deux bonhommes de neige, un de hauteur 250 et l'autre 100.
+        turtle_2_8: 'Celui-ci est un peu délicat. Utilise la fonction "dessine un bonhomme de neige" et le nouveau bloc " saute au-dessus" ( dans la catégorie Actions). Dessine 3 bonhommes de neige de différentes couleurs, 100 pixels chacun.'
+        turtle_2_9: 'Utilise une boucle " compte avec" pour dessine une famille de bonhommes de neige avec les hauteurs de 110, 100, 90, 80, et 70. Les bonhommes de neige doivent tous avoir 60 pixels chacun.'
         turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
         maze_karel_2_2: |-
@@ -133,6 +138,10 @@
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:

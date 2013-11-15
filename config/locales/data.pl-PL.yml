@@ -2,7 +2,7 @@
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
+        20-hour: Wprowadzający kurs z informatyki dla uczniów szkoły podstawowej i gimnazjum
         Hour of Code: "Godzina kodowania"
         Edit Code: "Edytuj kod"
     game:
@@ -35,13 +35,13 @@
         parameters: "Funkcje z parametrami"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
+        maze_2_2: 'Cześć! Muszę dorwać Zieloną Świnkę! Poustawiaj na sobie kilka bloków "idź do przodu" i naciśnij "Uruchom Program", aby pomóc mi się tam dostać.'
+        maze_2_1: "Napisz kolejny program, bym mógł dostać się do zielonej świnki."
+        maze_2_2_5: "W jaki sposób mogę dostać się do zielonej świnki? (Uważaj na ładunki wybuchowe)"
+        maze_2_3: "W jaki sposób mogę dostać się do zielonej świnki? (Uważaj na ładunki wybuchowe)"
+        maze_2_4: "Argh! Napisz program, który poprowadzi mnie do zielonej świnki i zarazem wokół ładunków wybuchowych."
+        maze_2_5: "Istnieje możliwość, abym dostał się do zielonej świnki przy użyciu zaledwie 2 bloków. Czy potrafisz to zrobić?"
+        maze_2_6: "Spróbuj przeprowadzić mnie do zielonej świnki używając tylko 3 bloków."
         maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
@@ -66,10 +66,17 @@
         turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
         turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "Can you draw a picture that looks like this house? Think about the steps you need to draw it - that's called an algorithm. It might take a bunch of tries to get it looking good, but it's okay if it's not perfect!"
-        turtle_4_2: "Now try drawing this square that's made of 2 triangles. It might take a few tries to figure out how far to turn and how far to move. It doesn't have to look exact, but just keep trying!"
-        turtle_4_3: "Draw an arrow that looks like this. Think about all the steps that you'll need to make it."
-        turtle_4_4: "Can you draw something that looks like this ship? It's a bunch of smaller shapes put together, so break the problem down into smaller parts."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Cześć, jestem rolnikiem. Potrzebuję twojej pomocy, aby spłaszczyć pola w moim gospodarstwie, by były gotowe do obsadzenia. Przenieś mnie na kupę brudu i użyj bloku "Usuń" by go usunąć.'
         maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
         maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
@@ -129,6 +136,10 @@
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:

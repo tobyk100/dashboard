@@ -53,6 +53,12 @@
     birthday: "Дата рождения (опционально)"
     submit: "Зарегистрироваться"
     teacher: "Вы учитель?"
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "Войти"
     login: "Электронная почта или логин"
@@ -86,7 +92,7 @@
     error:
       signed_in: "Please signout before proceeding"
       username_not_found: "Пользователь %{username} не найден"
-      username_in_use: "%{username} is already taken, please pick another"
+      username_in_use: "%{username} уже принято, пожалуйста, выбирайте другой"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:
@@ -94,6 +100,31 @@
   reports:
     error:
       access_denied: "You don't have access to this person's stats"
+  redeem_prizes:
+    title: "Redeem Prizes: %{name}"
+    provider: "Provider:"
+    code: "Code:"
+    providers:
+      apple_itunes: "Apple iTunes"
+      donors_choose: "DonorsChoose.org $750"
+      donors_choose_bonus: "DonorsChoose.org $250"
+      dropbox: "Dropbox"
+      valve: "Valve Portal"
+      ea_bejeweled: "EA Origin Bejeweled 3"
+      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      ea_pvz: "EA Origin Plants vs. Zombies"
+    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    msg:
+      choose: "Choose a prize:"
+      earned: "You have earned a prize!"
+      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      teacher:
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
+        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        bonus:
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "New %{model}"
     show: "Показать"
@@ -125,6 +156,7 @@
       mastery: "Основные понятия"
       puzzle_map: "Этапы"
       prizes: "Соберите все трофеи %{total_trophies} и выигрывайте призы!"
+      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
       prizes_link: "подробнее"
   teacher:
     title:
@@ -170,10 +202,17 @@
     none: "Предпочитаю не отвечать"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Художественные произведения от <a href="http://www.angrybirds.com"> Angry Birds</a> от <a href="http://www.rovio.com"> Rovio</a> и <a href="http://www.popcap.com/plants-vs-zombies"> растения против зомби</a>, <a href="http://www.popcap.com"> PopCap Games</a>.'
     feedback: "Provide feedback"
     translate: "Помогите нам выполнить перевод на ваш язык"
     tos: "Условия использования"
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: "Нужна помощь?"
     subtitle: "Смотрите эти видео и советы"

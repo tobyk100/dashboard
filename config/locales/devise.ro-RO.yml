@@ -2,7 +2,7 @@
   devise:
     confirmations:
       confirmed: "Contul tău a fost confirmat cu succes. Acum ești logat."
-      send_instructions: "Vei primi un email cu instrucţiuni despre cum să îți confirmi contul în câteva minute."
+      send_instructions: "Vei primi un e-mail cu instrucţiuni despre cum să îți confirmi contul în câteva minute."
       send_paranoid_instructions: "Dacă adresa ta de email există în baza noastră de date, vei primi un email cu instrucţiuni despre cum să îți confirmi contul în câteva minute."
     failure:
       already_authenticated: "Ești deja logat."
@@ -47,11 +47,11 @@
       unlocked: "Contul dumneavoastră a fost deblocat cu succes. Vă rugăm să vă logaţi pentru a continua."
   errors:
     messages:
-      already_confirmed: "a fost confirmat deja, vă rugăm să incercaţi să vă logati"
+      already_confirmed: "a fost confirmat deja, te rugăm să încerci să te loghezi"
       confirmation_period_expired: "trebuie sa fie confirmat in %{period}, va rugam cereti unul nou"
       expired: "a expirat, vă rugăm să solicitaţi unul nou"
       not_found: "nu a fost găsit"
       not_locked: "nu a fost blocat"
       not_saved:
-        one: "O eroare oprestre %{resource} de la a fi salvat:"
+        one: "O eroare interzice acestui %{resource} să fie salvat:"
         other: "%{count} erori interzic acestui %{resource} să fie salvat:"

@@ -65,10 +65,17 @@
         turtle_1_8: 'Ok, versuche herauszufinden, was passiert, wenn du diesen Code ausführst (oder drücke "Run" um es zu veruschen). Danach wiederhole es so oft, um die Zeichnung fertigzustellen. Die Farben werden jedes Mal unterschiedlich sein.'
         turtle_1_9: "Kannst du herausfinden mit welcher Nummer du das Fragezeichen ersetzen musst, um einen Kreis zu zeichnen?"
         turtle_1_10: 'Du hast es geschafft! Jetzt, zeichne was du willst! Hier sind ein paar Ideen: ein Strichmännchen, eine Schneeflocke, oder eine Spirale. Probiere auch den neuen "set width"-Baustein aus. Viel Spaß!'
-        turtle_4_1: "Kannst du ein Bild zeichnen, dass aussieht wie dieses Haus? Denke über die nötigen Schritte nach, um es zu zeichnen - so etwas nennt man einen Algorithmus. Es könnte sein, dass du einige Versuche benötigst bis es gut aussieht. Aber es ist in Ordnung, wenn es nicht perfekt ist!"
-        turtle_4_2: "Versuche jetzt dieses Quadrat zu zeichnen, welches aus 2 Dreiecken besteht. Es könnte ein paar Versuche dauern, um herauszufinden wie weit du es drehen und verschieben musst. Es musst nicht exakt aussehen, aber versuche es einfach!"
-        turtle_4_3: "Zeichne einen Pfeil der so aussieht. Denke über alle Schritte nach die du machen musst."
-        turtle_4_4: "Kannst du etwas Zeichnen was so aussieht wie dieses Schiff? Es sind viele kleine Schritte zusammen, also versuche das Problem in kleinere Teile aufzuteilen."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hallo, ich bin ein Bauer. Ich brauche deine Hilfe beim glätten meines Feldes um es für das Sähen vorzubereiten. Bewege mich zum dem Erdblock und nutze den "Entfernen" Baustein um diesen zu entfernen.'
         maze_karel_1_2: 'Anschließend verschiebe mich in das Loch und fülle es mit zwei Schaufelladungen Erde mit dem "Füllen"-Block.'
         maze_karel_1_3: "Verschiebe mich zum Schmutzhaufen und sag mir, wie viele Schaufeln entfernt werden sollen. Verwende dabei so wenig Bausteine wie möglich."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "Kannst du dieses Programm für mich auf Fehler überprüfen und sie beseitigen, damit ich mein Feld flach machen kann?"
         maze_karel_debug_function_3: "Bearbeite das Programm so, dass ich alle Stapel von meinem Feld entferne. "
         turtle_5_1: "Jetzt kannst du zeichnen, was immer du möchtest. Falls dir nichts einfallen sollte, frag doch einfach mal deinen Nachbarn!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'Um dieses Problem zu lösen, suche nach einem Muster, dass sich wiederholt. Benutze dann den "wiederhole"-Block mit diesen drei Codeblöcken im Inneren: gehe vorwärts, gehe vorwärts, nach rechts drehen.'
       other1StarError:

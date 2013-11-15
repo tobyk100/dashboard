@@ -65,10 +65,17 @@
         turtle_1_8: 'Muy bien, tratemos de averiguar qué pasa si ejecutas este código (o presionas "Ejecutar" para probarlo). Luego, repítelo las veces necesarias para completar el dibujo. Los colores serán diferentes cada vez.'
         turtle_1_9: "¿Puedes adivinar con qué número reemplazarías a los signos de interrogación para dibujar un círculo?"
         turtle_1_10: '¡Lo lograste! Ahora, a dibujar cualquier cosa que quieras. Algunas ideas divertidas: un muñeco de palitos, un copo de nieve o un espiral. Prueba también el nuevo bloque "ajuste de ancho". ¡Que te diviertas!'
-        turtle_4_1: "¿Puedes dibujar esta casa? Piensa los pasos que necesitas para dibujarla - eso se llama algoritmo. Es probable que necesites muchos intentos para hacerla lucir bien, ¡pero está bien si no está perfecta!"
-        turtle_4_2: "Ahora intenta dibujar este cuadrado que está hecho con dos triángulos. Puede tomarte varios intentos para averiguar cuánto avanzar y cuánto girar. No tiene que verse exacto, pero sigue intentándolo!"
-        turtle_4_3: "Dibuja una flecha que tenga este aspecto. Piensa en todos los pasos que tendrás que hacer para lograrlo."
-        turtle_4_4: "¿Puedes dibujar algo que se parece a este barco? Es un grupo de figuras más pequeñas juntas, así que te sugerimos descomponer el problema en partes más pequeñas."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hola, soy un granjero. Necesito que me ayudes a aplanar el campo en mi granja para que esté listo para sembrar. Muéveme a la pila de tierra y utiliza el bloque "eliminar" para quitarla.'
         maze_karel_1_2: 'A continuación, muéveme hacia el agujero y llénalo con DOS paladas de tierra, usando el bloque "llenar".'
         maze_karel_1_3: "Muéveme a la pila de tierra y dime cuantas paladas de eliminar debo dar usando la menor cantidad de bloques posible."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "¿Puedes depurar este programa para mí así puedo dejar mi campo plano?"
         maze_karel_debug_function_3: "Edita este programa para que pueda eliminar todas las pilas de mi campo. "
         turtle_5_1: "¡Aprovecha este momento para dibujar lo que quieras! Si no puedes pensar en nada, pídele a la persona a tu lado una sugerencia!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'Para resolver este, encuentra el bloque que repite. Usa un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar a la derecha.'
       other1StarError:

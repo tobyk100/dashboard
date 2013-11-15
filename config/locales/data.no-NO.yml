@@ -65,10 +65,17 @@
         turtle_1_8: 'Ok, klarer du å se hva som kommer til å skje hvis du kjører denne koden (eller så kan du kjøre den ved å trykke "Kjør"). Deretter, gjentar du dette helt til bildet er ferdig. Fargene blir forskjellig hver gang.'
         turtle_1_9: "Ser du hvilket tall du må erstatte spørsmålstegnet med for å tegne en sirkel?"
         turtle_1_10: 'Du klarte det! Nå kan du tegne hva du selv vil. Her er noen morsomme ideer: en strekmann, snøfnugg eller en spiral. Du kan også prøve den nye "sett bredde"-blokken. Kos deg!'
-        turtle_4_1: "Klarer du å tegne et bildet som ligner på dette huset? Tenk på stegene du må gjennomføre for å tegne det - stegene kalles en algoritme. Det kan kreve mange forsøk for å få huset til å se bra ut, men det trenger ikke å være perfekt!"
-        turtle_4_2: "Prøv nå å tegne denne firkanten som er laget av to trekanter. Det må kanskje prøve noen ganger før du finner ut hvor mye du skal svinge og hvor langt du skal bevege deg fremover. Det må ikke se helt likt ut, men ikke gi opp!"
-        turtle_4_3: "Tegn en pil som ser ut som dette. Tenk igjennom hvilke steg du må gjennomføre for å få det til."
-        turtle_4_4: "Klarer du å tegne noe som ligner på dette skipet? Skipet er laget av mange små figurer som er satt sammen, så splitt oppgaven i små deler."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hei, jeg er en bonde. Jeg trenger hjelp til å gjøre åkern min flat slik at den er klar for planting. Flytt meg til jordhaugen og bruk "fjern"-blokken til å fjerne den.'
         maze_karel_1_2: 'Flytt meg så til hullet og fyll det med TO spader jord ved å bruke "fyll"-blokken.'
         maze_karel_1_3: "Flytte meg til haugen med jord, og fortell meg hvor mange spadetak jeg skal fjerne, med så få blokker som mulig."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "Kan du finne feilene i dette programmet for meg slik at jeg kan gjøre jordet mitt flatt?"
         maze_karel_debug_function_3: "Endre på programmet slik at jeg fjerner all haugene på jordet mitt. "
         turtle_5_1: "Benytt denne muligheten til å tegne hva du måtte ønske! Hvis du ikke kommer på noe, spør sidemannen om et forslag!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'For å løse dette, finn mønster som gjentar seg. Bruk en "gjenta"-blokk med følgende 3 blokkene inni seg: fremover, fremover, sving til høyre.'
       other1StarError:

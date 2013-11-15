@@ -47,7 +47,7 @@
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Arată notificările care vor apărea în curând!"
+        text: "Arată notițele care vor apărea în curând!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"

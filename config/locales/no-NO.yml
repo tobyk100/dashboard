@@ -26,8 +26,8 @@
   of: "av"
   more: "MER"
   less: "MINDRE"
-  try_hoc: "Prøv Hour of Code, klikk her>> "
-  try_k8intro: "Eller prøv vårt barneskoleintroduksjon til Informatikk-kurs (15-25 timer)"
+  try_hoc: "Prøv Hour of Code, klikk her >> "
+  try_k8intro: "Eller prøv vår barneskoleintroduksjon til informatikk-kurs (15-25 timer)"
   already_started: "Har du allerede startet? Fortsett her >> "
   demos: "Administrator: Alle demoer"
   continue: "Fortsett"
@@ -35,13 +35,13 @@
   auth:
     sign_in_with: "Logg inn med %{provider}"
     signed_in: "Logget inn!"
-    already_signedup: "Allerede meldt på?"
+    already_signedup: "Allerede registrert?"
     notyet_signedup: "Er du blitt medlem ennå?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Har du glemt ditt passord?"
+    forgot_password: "Har du glemt passordet ditt?"
     need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
     need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
@@ -51,8 +51,14 @@
     address_placeholder: "adresse, by, fylke, postkode"
     gender: "Kjønn (valgfritt)"
     birthday: "Bursdag (valgfritt)"
-    submit: "Meld deg på"
+    submit: "Registrer deg"
     teacher: "Er du en lærer?"
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "Logg inn"
     login: "E-post eller brukernavn"
@@ -61,22 +67,22 @@
     submit: "Logg inn"
   password:
     reset_form:
-      title: "Har du glemt ditt passord?"
+      title: "Har du glemt passordet ditt?"
       email: "E-postadresse"
       submit: "Send meg instruksjoner om å tilbakestille passordet"
     change_form:
-      title: "Endre ditt passord"
+      title: "Endre passordet ditt"
       new_password: "Nytt passord"
       confirm_password: "Bekreft nytt passord"
-      submit: "Endre mitt passord"
+      submit: "Endre passordet mitt"
   welcome_email:
     subject: "Delta i min klasse (på Code.org)"
     body: |
-      Klikk linken under for å melde deg på informatikk kurs på Code.org (med meg som din "lærer"):
+      Klikk linken under for å melde deg på informatikk-kurs på Code.org (med meg som din "lærer"):
       
       %{link}
       
-      Kursene er morsomme, visuelt stimulerende og lærer deg de grunnleggende koseptene innenfor informatikk ved å benytte en enkel, spill-lignende opplevelse som du loses igjennom. Lær å kode av Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :)
+      Kursene er morsomme, visuelt stimulerende og lærer deg de grunnleggende konseptene innenfor informatikk ved å benytte en enkel, spill-lignende opplevelse som du loses igjennom. Lær å kode av Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :)
       
       %{name}
   follower:
@@ -94,6 +100,31 @@
   reports:
     error:
       access_denied: "Du har ikke tilgang til denne personens statistikk"
+  redeem_prizes:
+    title: "Redeem Prizes: %{name}"
+    provider: "Provider:"
+    code: "Code:"
+    providers:
+      apple_itunes: "Apple iTunes"
+      donors_choose: "DonorsChoose.org $750"
+      donors_choose_bonus: "DonorsChoose.org $250"
+      dropbox: "Dropbox"
+      valve: "Valve Portal"
+      ea_bejeweled: "EA Origin Bejeweled 3"
+      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      ea_pvz: "EA Origin Plants vs. Zombies"
+    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    msg:
+      choose: "Choose a prize:"
+      earned: "You have earned a prize!"
+      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      teacher:
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
+        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        bonus:
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "Ny %{model}"
     show: "Vis"
@@ -125,10 +156,11 @@
       mastery: "Konsepter"
       puzzle_map: "Stadier"
       prizes: "Samle alle %{total_trophies} trofeer og vinn premier!"
+      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
       prizes_link: "mer info"
   teacher:
     title:
-      one: "%{name} er lærer'n din"
+      one: "%{name} er læreren din"
       other: "Dine lærere:"
     tools: "Lærerverktøy"
     students:
@@ -173,6 +205,13 @@
     feedback: "Gi tilbakemelding"
     translate: "Hjelpe oss med å oversette til ditt språk"
     tos: "Bruksvilkår"
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: "Trenger du hjelp?"
     subtitle: "Se disse videoene og tipsene"

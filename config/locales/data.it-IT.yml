@@ -70,10 +70,17 @@
         turtle_1_9: "Riesci a capire con quale numero devi sostituire i punti interrogativi per disegnare un cerchio?"
         turtle_1_10: |-
           C'è l'hai fatta! Ora, disegna qualunque cosa. Alcune idee divertenti: una figura stilizzata, fiocco di neve o spirale. Provare anche il nuovo blocco "impostare larghezza". Buon divertimento!
-        turtle_4_1: "Riesci a disegnare un quadro che assomiglia a questa casa? Pensare ai passi necessari per disegnarlo - questo si chiama un algoritmo. Potrebbe prendere un sacco di tentativi per ottenere un bel aspetto, ma va bene se non è perfetto!"
-        turtle_4_2: "Ora provate a disegnare questo triangolo che è composto da 2 triangoli. Potrebbe richiedere un paio di tentativi per capire quanto lontano girare e quanto lontano mouversi. Non deve sembrare esatto, ma continua a provare!"
-        turtle_4_3: "Disegnare una freccia che assomiglia a questo. Pensa a tutti i passaggi che avrete bisogno per farlo."
-        turtle_4_4: "Riesci a disegnare qualcosa che assomiglia a questa nave? È un mucchio di forme più piccole messi insieme, quindi scomporre il problema in parti più piccole."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: |-
           Ciao, io sono un contadino. Ho bisogno del vostro aiuto per appiattire il campo nella mia fattoria, cosi' è pronto per la semina. Muovimi verso il mucchi di sporcizia e utilizzare il blocco "rimuovi" per rimuoverlo.
         maze_karel_1_2: "Successivamente, muovimi verso il foro e riempirlo con TWO badilate di sporco, usando il blocco di «riempi»."
@@ -136,6 +143,10 @@
         maze_karel_debug_function_2: "Riesci a de-bug questo programma per me così che posso fare il mio campo piatto?"
         maze_karel_debug_function_3: "Modificare questo programma così che io possa rimuovere tutti i mucchi sul mio campo. "
         turtle_5_1: "Prendere questo tempo per disegnare qualsiasi cosa tu voglia! Se non riesci pensare a nulla, chiedi alla persona accanto a te per un suggerimento!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: |-
           Per risolvere questo, trovare il modello che si ripete. Utilizzare un blocco "ripetizione" con questi 3 blocchi all'interno di esso: muoversi, muoversi, girare a destra.

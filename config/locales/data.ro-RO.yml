@@ -30,7 +30,7 @@
         loop_times: "Repetă ori bloc"
         loop_until: "Repetă până la bloc"
         loop_while: "În timp ce bloc"
-        loop_for: "Bloc Counter"
+        loop_for: "Bloc opus"
         function: "Funcţii"
         parameters: "Funcţii cu parametri"
     level:
@@ -67,10 +67,17 @@
         turtle_1_8: 'Ok, înceearcă să îți dai seama ce se întamplă dacă execuți acest cod (sau apasă "Run" pentru a încerca). Apoi repetăl de cate ori e nevoie pentru a completa desenul. Culorile vor fi diferite de fiecare dată.'
         turtle_1_9: "Poți să îți dai seama cu ce număr să înlocuiești semnele de întrebare pentru a desena un cerc?"
         turtle_1_10: 'Ai reușit! Acum , desenează orice vrei. Căteva îdei: un om din 5 linii și un cerc, fulg de zăpadă sau spirală. Poți de asemena să încerci nou bloc "lățime set". Distrează-te!'
-        turtle_4_1: "Puteţi desena o imagine care să arate ca această casă? Gândiţi-vă la paşii necesari pentru a desena, acest proces  numim un algoritm. Poate dura o mulţime de  încearcări ca să arate bine, dar este bine, dacă nu arată perfect!"
-        turtle_4_2: "Acum încercaţi să desenaţi acest pătrat care este format din 2 triunghiuri. Poate dura  cîteva încercări pentru a figura cît de departe trebuie mişcat şi întors . Aceasta nu trebuie să arate exact ca pătratul dat, dar continuă să încerci!"
-        turtle_4_3: "Trage o săgeată care arata ca acesta. Gîndeștete la toate etapele care aveţi  nevoie pentru a face săgeata."
-        turtle_4_4: "Puteţi desena ceva care arată ca această navă? Este o grămadă de forme mai mici puse împreună, deci rupe problema  în părţi mai mici."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Bună, eu sunt un fermier. Am nevoie de ajutorul dumneavoastră pentru a aplatiza câmpul fermei mele ca sa fie gata de plantare. Mutaţi-mă la grămada de pămant şi folosiţi blocul "remove" pentru a o elimina.'
         maze_karel_1_2: 'Apoi, mutaţi-mă la groapă si umpleţi-o cu doua lopeţi de pământ folosind blocul "fill".'
         maze_karel_1_3: "Mută-mă la grămada de mizerie și spune-mi cât de multe lopeți pline să iau folosind blocuri pe cât de puțin posibil."
@@ -123,6 +130,10 @@
         maze_karel_debug_function_2: "Puteti depana acest program pentru mine ca sa pot sa-mi fac campul plat?"
         maze_karel_debug_function_3: "Editaţi acest program ca să elimin toate grămezile de pe camp. "
         turtle_5_1: "Folosește acest timp pentru a desena tot ce te dorești! Dacă nu poți să te gândești la nimic, întreabă persoana de lângă tine pentru o sugestie!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'Pentru a rezolva asta, găsește modelul care se repetă. Folosește un bloc "repetă" care să conțină următoarele 3 blocuri în el , mută, mută, întoarce la dreapta.'
       other1StarError:

@@ -5,7 +5,7 @@
         name: "Όνομα"
         email: "Email"
         username: "Όνομα χρήστη"
-        password: "Κωδικός πρόσβασης"
+        password: "Κωδικός"
         password_confirmation: "Επιβεβαίωση κωδικού"
         current_password: "Τρέχων κωδικός"
         locale: "Γλώσσα"
@@ -24,8 +24,8 @@
   trophies: "Τρόπαια"
   courses: "Μαθήματα"
   of: "του"
-  more: "ΠΕΡΙΣΣΟΤΕΡΟ"
-  less: "ΛΙΓΟΤΕΡΟ"
+  more: "ΠΕΡΙΣΣΟΤΕΡΑ"
+  less: "ΛΙΓΟΤΕΡΑ"
   try_hoc: "Δοκίμασε την Ώρα του Κώδικα, κάνε κλικ εδώ >> "
   try_k8intro: "Ή, δοκίμασε το εισαγωγικό μάθημα, κατηγορίας K-8, στην Επιστήμη Υπολογιστών (15-25 ώρες)"
   already_started: "Έχεις ήδη ξεκινήσει; Συνέχισε εδώ >> "
@@ -35,7 +35,7 @@
   auth:
     sign_in_with: "Εγγραφή μέσω  %{provider}"
     signed_in: "Συνδέθηκες!"
-    already_signedup: "Είσαι γραμμένος ήδη;"
+    already_signedup: "Είσαι ήδη γραμμένος;"
     notyet_signedup: "Δεν έχει γραφτεί ακόμα;"
     google_oauth2: "Google+"
     twitter: "Twitter"
@@ -53,6 +53,12 @@
     birthday: "Γενέθλια (προαιρετικά)"
     submit: "Εγγραφή"
     teacher: "Είσαι δάσκαλος;"
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "Σύνδεση"
     login: "Email ή όνομα χρήστη"
@@ -72,11 +78,11 @@
   welcome_email:
     subject: "Μπες στην τάξη μου (στο Code.org)"
     body: |
-      Κάντε κλικ παρακάτω για να εγγραφείτε στα μαθήματα επιστήμης υπολογιστών του Code.org (με μένα για "δάσκαλο"):
+      Κάνε κλικ στον παρακάτω σύνδεσμο να εγγραφείς στα μαθήματα της επιστήμης των υπολογιστών του Code.org (με μένα ως "δάσκαλό" σου):
       
       %{link}
       
-      Τα μαθήματα είναι διασκέδαση, ενδιαφέροντα στο μάτι και διδάσκουν τις βασικές έννοιες της πληροφορικής, χρησιμοποιώντας μια απλή, ξενάγηση, σαν παιχνίδι. Μάθετε κώδικα με τον Bill Gates, το Mark Zuckerberg, τα Angry Birds και τα Plants vs Zombies :-)
+      Τα μαθήματα είναι διασκεδαστικά, με όμορφα σχέδια, και η διδασκαλία των βασικών έννοιών της επιστήμης των υπολογιστών γίνεται με απλό, καθοδηγούμενο τρόπο, που μοιάζει με παιχνίδι. Μάθε να προγραμματίζεις με τον Bill Gates, το Mark Zuckerberg, τα Angry Birds και τα Plants vs Zombies :-)
       
        %{name}
   follower:
@@ -94,6 +100,31 @@
   reports:
     error:
       access_denied: "Δεν έχεις πρόσβαση στα στατιστικά αυτού του ατόμου"
+  redeem_prizes:
+    title: "Redeem Prizes: %{name}"
+    provider: "Provider:"
+    code: "Code:"
+    providers:
+      apple_itunes: "Apple iTunes"
+      donors_choose: "DonorsChoose.org $750"
+      donors_choose_bonus: "DonorsChoose.org $250"
+      dropbox: "Dropbox"
+      valve: "Valve Portal"
+      ea_bejeweled: "EA Origin Bejeweled 3"
+      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      ea_pvz: "EA Origin Plants vs. Zombies"
+    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    msg:
+      choose: "Choose a prize:"
+      earned: "You have earned a prize!"
+      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      teacher:
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
+        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        bonus:
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "Νέο %{model}"
     show: "Εμφάνιση"
@@ -125,11 +156,12 @@
       mastery: "Έννοιες"
       puzzle_map: "Επίπεδα"
       prizes: "Μάζεψε όλα τα %{total_trophies} βραβεία και κέρδισε δώρα!"
+      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
       prizes_link: "περισσότερα"
   teacher:
     title:
       one: "Ο δάσκαλός σους είναι ο %{name}"
-      other: "Οι δάσκάλοι σου:"
+      other: "Οι δασκάλοι σου:"
     tools: "Εργαλεία Δασκάλου"
     students:
       manage: "Διαχείριση μαθητών"
@@ -162,7 +194,7 @@
     student_left_off: "Εκεί που έφυγες:"
     student_finished: "Ολοκλήρωσες όλα τα εισαγωγικά μαθήματα, πάρε το %{prize_link} και διάλεξε ένα άλλο μάθημα %{online_link} ή στο %{local_school_link}"
     local_school: "τοπικό σχολείο"
-    online: "σε απευθείας σύνδεση"
+    online: "σε σύνδεση"
   gender:
     male: "Αγόρι"
     female: "Κορίτσι"
@@ -173,13 +205,20 @@
     feedback: "Πες τη γνώμη σου"
     translate: "Βοηθήστε μας να μεταφράσουμε στη γλώσσα σας"
     tos: "Όροι παροχής υπηρεσιών"
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: "Χρειάζεσε βοήθεια;"
     subtitle: "Δες αυτά τα βίντεο και τις υποδείξεις"
   video:
     tab: "Βίντεο."
     notes: "Δεν υπάρχει βίντεο; Δείξε σημειώσεις."
-    autoplay_option: "Αυτόματη εκτέλεση βίντεο"
+    autoplay_option: "Αυτόματη αναπαραγωγή βίντεο"
   compatability:
     working: "Εργαζόμαστε για την υποστήριξη του προγράμματος περιήγησης που χρησιμοποιείτε."
     upgrade: "Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας."

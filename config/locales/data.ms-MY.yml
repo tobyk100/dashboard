@@ -65,10 +65,17 @@
         turtle_1_8: 'OK, fahamkan apa yang akan berlaku jika anda menjalankan kod ini (atau tekan "Main" untuk mencuba). Kemudian, ulangi dengan mencukupi masa untuk menyiapkan lukisan. Warna akan berbeza setiap kali.'
         turtle_1_9: "Bolehkah anda memikirkan apa nombor untuk menggantikan tanda soal untuk melukis bulatan?"
         turtle_1_10: 'Anda berjaya! Sekarang, lukis apa sahaja yang anda mahu. Antara idea yang menyeronokkan: rajah kayu, snowman atau lingkaran. Juga, cuba blok baru "set lebar". selamat bergembira!'
-        turtle_4_1: "Bolehkah anda melukis gambar yang kelihatan seperti rumah ini? Fikirkan tentang langkah-langkah untuk melukisnya - ianya dinamakan sebagai algoritma. Ianya mungkin mengambil sekumpulan cuba untuk mendapatkan ia kelihatan baik, tetapi tidak mengapa jika ianya tidak sempurna!"
-        turtle_4_2: "Sekarang cuba lukis segi empat yang dibuat dari 2 segi tiga. Ia mungkin mengambil masa untuk memikirkan sejauh mana untuk membelok dan bergerak jauh. Ia tidak perlu kelihatan sama, tetapi teruskan mencuba!"
-        turtle_4_3: "Lukiskan satu anak panah yang kelihatan seperti ini. Fikirkan tentang semua langkah-langkah yang anda akan perlu untuk menjadikannya."
-        turtle_4_4: "Bolehkah anda melukis sesuatu yang kelihatan seperti kapal ini? Ianya merupakan sekumpulan kecil bentuk yang diletakkan bersama-sama, jadi pecahkan masalah kepada bahagian-bahagian kecil."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hai, saya ialah farmer. Saya perlukan pertolongan anda untuk meratakan kawasan kebun saya supaya sedia untuk penanaman. Gerakkan saya ke timbunan kotor dan gunakan "alihkan" blok utuk mengalihkannya.'
         maze_karel_1_2: 'Seterusnya, pindahkan saya ke lubang dan isi dengan DUA  penggali kotoran, menggunakan blok "isi".'
         maze_karel_1_3: "Pindahkan saya ke longgokan kotoran dan beritahu saya berapa banyak penggali untuk mengalih keluar menggunakan blok-blok yang sedikit mungkin."
@@ -124,6 +131,10 @@
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:

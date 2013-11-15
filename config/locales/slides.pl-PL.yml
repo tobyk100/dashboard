@@ -3,28 +3,28 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Wiataj podczas swojej pierwszej godziny kodowania! Wejdź prosto w swoją pierwszą przygodę z programowaniem."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Będziemy używać Blockiego, wizualnego języka programowania, gdzie możesz przeciągać i upuszczać bloki by stworzyć kod."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'Większość kodów jest pisana, ale Blockly jest wizualny. Każdy blok oznacza "prawdziwą" linie kodu.'
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Nauczysz się podstaw informatyki, pojęć, które są używane w wielu sytuacjach, od tworzenia aplikacji komputerowych po kierowanie pojazdem na Marsie."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Program jest zestawem poleceń, które ma wykonać komputer."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "Twój pierwszy program ma spowodować, że Rozgniewany Ptak trafi w labiryncie na Zieloną Świnkę."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Po lewej stronie znajduje się labirynt, w którym ma być wykonany Twój program. Polecenia dla każdej zagadki znajdują się poniżej labiryntu."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "Przybornik pośrodku zawiera polecenia dla Rozgniewanego Ptaka. Możesz ich użyć do zbudowania swojego programu."
       9:
         image: "notes/hoc1_9.png"
         text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."

@@ -65,10 +65,17 @@
         turtle_1_8: 'OK, cobalah untuk mencari tahu apa yang terjadi jika Anda menjalankan kode ini (atau tekan "Kerjakan" (run) untuk mencoba). Kemudian, ulangi untuk melengkapi gambar. Warna akan berbeda setiap saat.'
         turtle_1_9: "Apa anda tahu tanda tanya ini harus diganti angka berapa sehingga bisa menggambar lingkaran?"
         turtle_1_10: 'Anda berhasil! Sekarang, gambarlah apapun yang Anda inginkan. Beberapa ide menarik: tongkat, kepingan salju atau spiral. Cobalah lah blok baru "atur lebar". Selamat bersenang-senang!'
-        turtle_4_1: "Dapatkan anda menggambar rumah seperti yang terlihat disini? Pikirkan langkah-langkah yang anda perlukan untuk menggambarnya - ini yang dinamakan algorithm. Anda mungkin perlu mencoba beberapa kali untuk dapat terlihat bagus, tapi tidak perlu khawatir jika tidak sempurna!"
-        turtle_4_2: "Sekarang gambarlah sebuah segi empat yang terdiri dari dua segi tiga. Mungkin anda perlu mencoba beberapa kali untuk mengetahui seberapa jauh untuk memutar sebelum bergerak. Jangan khawatir jika tidak terlihat persis sama, yang terpenting teruslah mencoba!"
-        turtle_4_3: "Gambarlah sebuah tanda panah yang terlihat seperti ini. Pikirkan tentang semua langkah yang Anda perlukan untuk membuatnya."
-        turtle_4_4: "Dapatkah anda menggambar sesuatu yang tampak seperti kapal ini? Kapal ini dapat dibentuk dari sekelompok bentuk-bentuk kecil yang digabungkan, jadi bagilah bentuk yang besar menjadi bagian yang lebih kecil terlebih dahulu."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan ladang peternakan sehingga siap tanam. Pindahkan aku ke tumpukan tanah dan menggunakan blok "Hapus" untuk menghapusnya.'
         maze_karel_1_2: 'Selanjutnya, Pindahkan saya ke lubang dan isilah dengan dua skop tanah, menggunakan blok "Isi".'
         maze_karel_1_3: "Pindahkan saya ke tumpukan tanah dan beritahu saya perlu berapa banyak sekop untuk memindahkan tanah menggunakan blok sesedikit mungkin."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "Dapatkah anda men-debug program ini untuk saya supaya  dapat membuat lapangan ini menjadi datar?"
         maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di lapangan saya. "
         turtle_5_1: "Sekarang saatnya untuk menggambar apapun yang anda inginkan! Jika anda tidak punya ide menarik, mintalah saran kepada orang disamping anda!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok kanan.'
       other1StarError:

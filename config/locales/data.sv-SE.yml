@@ -65,10 +65,17 @@
         turtle_1_8: 'Ok, försök lista ut vad som händer om du kör den här koden (eller tryck på "Kör" för att prova). Upprepa det sedan tillräckligt många gånger för att göra klart målningen. Färgerna kommer vara olika varje gång.'
         turtle_1_9: "Kan du gissa vilket nummer som ska ersätta frågetecknen för att rita en cirkel?"
         turtle_1_10: 'Du klarade det! Nu, rita vad du vill. Några roliga idéer: en streckfigur, snöflinga eller spiral. Prova också det nya "Bredd"-blocket. Ha kul!'
-        turtle_4_1: "Kan du rita en bild som ser ut som det här huset? Tänk igenom de steg du måste göra för att rita det - det kallas en algoritm. Det kan ta några försök för att få det ser bra ut, men det är okej om det inte är perfekt!"
-        turtle_4_2: "Försök nu att rita den här kvadraten som är gjord i 2 trianglar. Det kan ta några försök för att komma fram till hur mycket du ska svänga och gå. Det behöver inte se exakt ut, men fortsätt försök!"
-        turtle_4_3: "Rita en pil som ser ut så här. Tänk igenom de steg som behövs för att göra den."
-        turtle_4_4: "Kan du rita något som ser ut som det här fartyget? Det är en massa mindre former ihopsatta till en, så dela upp problemet i mindre delar."
+        turtle_4_1: "TBA"
+        turtle_4_2: "TBA"
+        turtle_4_3: "TBA"
+        turtle_4_4: "TBA"
+        turtle_4_5: "TBA"
+        turtle_4_6: "TBA"
+        turtle_4_7: "TBA"
+        turtle_4_8: "TBA"
+        turtle_4_9: "TBA"
+        turtle_4_10: "TBA"
+        turtle_4_11: "TBA"
         maze_karel_1_1: 'Hej, är jag en bonde. Jag behöver din hjälp med att platta till åkern på min gård så den blir redo för plantering. Flytta mig till högen av jord och använda "ta bort"-blocket för att ta bort den.'
         maze_karel_1_2: 'Nu, flytta mig till hålet och fyll den med TVÅ spadar med jord, använd "fyll"-blocket.'
         maze_karel_1_3: "Flytta mig till högen med jord och berätta med så få block som möjligt hur många spadar som ska tas bort."
@@ -121,6 +128,10 @@
         maze_karel_debug_function_2: "Kan du fixa det här programmet för mig så att jag gör min åker platt?"
         maze_karel_debug_function_3: "Fixa det här programmet så att jag tar bort alla högar på min åker. "
         turtle_5_1: "Ta och rita vad du vill! Om du inte kan komma på något, fråga personen bredvid dig för förslag!"
+        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_2: "Write me a program, so I can make it all the way to the pig."
+        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
+        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
       levelIncompleteError:
         maze_2_8: 'För att lösa detta måste du hitta det mönster som upprepas. Använd ett "Upprepa"-block med dessa 3 block inuti: gå, gå, sväng höger.'
       other1StarError:

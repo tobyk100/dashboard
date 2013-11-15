@@ -53,6 +53,12 @@
     birthday: "Birthday (optional)"
     submit: "Sign up"
     teacher: "És vostè un professor?"
+    valid_username: "Available!"
+    invalid_username: "Username must be at least 5 characters"
+    taken_username: "Username is already taken"
+    valid_password: "Valid password!"
+    invalid_password: "Password must be at least 6 characters"
+    mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "Sign in"
     login: "E-mail o nom d'usuari"
@@ -94,6 +100,31 @@
   reports:
     error:
       access_denied: "You don't have access to this person's stats"
+  redeem_prizes:
+    title: "Redeem Prizes: %{name}"
+    provider: "Provider:"
+    code: "Code:"
+    providers:
+      apple_itunes: "Apple iTunes"
+      donors_choose: "DonorsChoose.org $750"
+      donors_choose_bonus: "DonorsChoose.org $250"
+      dropbox: "Dropbox"
+      valve: "Valve Portal"
+      ea_bejeweled: "EA Origin Bejeweled 3"
+      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      ea_pvz: "EA Origin Plants vs. Zombies"
+    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    msg:
+      choose: "Choose a prize:"
+      earned: "You have earned a prize!"
+      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      teacher:
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
+        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        bonus:
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "New %{model}"
     show: "Mostra"
@@ -125,6 +156,7 @@
       mastery: "Concepts"
       puzzle_map: "Stages"
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
+      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
       prizes_link: "more info"
   teacher:
     title:
@@ -174,6 +206,13 @@
     feedback: "Provide feedback"
     translate: "Help us translate to your language"
     tos: "Terms of service"
+  prize_mail:
+    prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_prize_earned:
+      subject: "Redeem your prize at Code.org!"
+    teacher_bonus_prize_earned:
+      subject: "Redeem your bonus prize at Code.org!"
   reference_area:
     title: "Need help?"
     subtitle: "See these videos and hints"
