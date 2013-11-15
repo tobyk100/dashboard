@@ -73,7 +73,7 @@ class TeacherPrizesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def teacher_prize_params
-      params.require(:teacher_prize).permit(:prize_provider, :code, :user)
+      params.require(:teacher_prize).permit(:prize_provider_id, :code, :user_id)
     end
 
     # this is to fix a ForbiddenAttributesError cancan issue

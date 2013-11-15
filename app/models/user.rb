@@ -29,6 +29,10 @@ class User < ActiveRecord::Base
 
   has_many :students, through: :followers, source: :student_user
   has_many :teachers, through: :followeds, source: :user
+  
+  has_one :prize
+  has_one :teacher_prize
+  has_one :teacher_bonus_prize
 
   validates_format_of :email, with: Devise::email_regexp, allow_blank: true, on: :create
   #validates_length_of :first_name, maximum: 35

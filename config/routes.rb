@@ -1,12 +1,8 @@
 Dashboard::Application.routes.draw do
   resources :teacher_bonus_prizes
-
   resources :teacher_prizes
-
   resources :prizes
-
   resources :prize_providers
-
   resources :callouts
   resources :videos
   resources :concepts
@@ -56,6 +52,7 @@ Dashboard::Application.routes.draw do
   get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'
   get '/stats/level/:level_id', to: 'reports#level_stats', as: 'level_stats'
   get '/popup/stats', to: 'reports#header_stats', as: 'header_stats'
+  get '/redeemprizes', to: 'reports#prizes', as: 'my_prizes'
 
   get '/notes/:key', to: 'notes#index'
 

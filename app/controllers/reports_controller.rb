@@ -28,6 +28,10 @@ SQL
     render file: "shared/_user_stats", layout: false, locals: { user: current_user }
   end
 
+  def prizes
+    authorize! :read, current_user
+  end
+
   def usage
     # arbitrary way to find admins
     @user = User.find(params[:user_id])

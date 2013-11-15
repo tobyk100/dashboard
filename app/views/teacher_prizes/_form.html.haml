@@ -7,13 +7,13 @@
           %li= msg
 
   .field
-    = f.label :prize_provider
-    = f.text_field :prize_provider
+    = f.label :prize_provider_id
+    = f.number_field :prize_provider_id
   .field
     = f.label :code
     = f.text_field :code
   .field
-    = f.label :user
-    = f.text_field :user
+    = f.label :user_id
+    = f.number_field :user_id
   .actions
     = f.submit 'Save'
