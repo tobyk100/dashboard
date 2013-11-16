@@ -1,4 +1,7 @@
 class HomeController < ApplicationController
+  include SeamlessDatabasePool::ControllerFilter
+  use_database_pool :all => :persistent
+
   def set_locale
     session[:locale] = params[:locale] if params[:locale]
     redirect_to params[:return_to]
