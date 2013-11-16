@@ -16,6 +16,8 @@
   %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
   %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
 
+  /[if lt IE 9]
+    %script{src: "#{blockly_path}svgweb/svg.js"}
   %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
   %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"}
 
