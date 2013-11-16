@@ -53,12 +53,12 @@
     birthday: "تاريخ الميلاد (اختياري)"
     submit: "تسجيل"
     teacher: "هل أنت معلم؟"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "متاح!"
+    invalid_username: "اسم المستخدم يجب ان يكون على الاقل 5 احرف"
+    taken_username: "اسم المستخدم الان موجود"
+    valid_password: "كلمة المرور متاحة!"
+    invalid_password: "كلمة المرور يجب ان تكون على الاقل 6 احرف"
+    mismatch_password: "كلمة المرور التي ادخلتها غير متطابقة"
   signin_form:
     title: "تسجيل الدخول"
     login: "البريد الإلكتروني أو اسم المستخدم"
@@ -102,30 +102,30 @@
     error:
       access_denied: "لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "استبدال الجوائز :%{name}"
+    provider: "المزود:"
+    code: "الكود البرمجي :"
     providers:
-      apple_itunes: "Apple iTunes"
+      apple_itunes: "أبل اي تيونز"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "بوابة صمام"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "انت اكملت جميع الدروس التعليمية . بعد ان تقوم بطلب الجائزة , اختر درس اخر من %{online_link} او من %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "اختر الجائزة :"
+      earned: "لقد حصلت على جائزة!"
+      not_earned: "اجمع جميع الجوائز %{num_trophies} للفوز بجائزة!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 أو أكثر من الطلاب جمع جميع الجوائز%{num_trophies}. انت قد فزت بجائزة معلم!"
+        not_earned: "إذا كان 10 من الطلاب جمع جميع الجوائز %{num_trophies}، يمكنك الفوز بجائزة!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% أو أكثر من طلابك الذين جمعوا جميع الجوائز %{num_trophies} هم من الإناث. انت قد فزت بجائزة مكافأة!"
+          not_earned: "إذا كان 10 أو أكثر من الطلاب جمع جميع الجوائز%{num_trophies}، وعلى الأقل 40% من هؤلاء الطلبة هم من الإناث، يمكنك الفوز بجائزة المكافأة!"
   crud:
     new_model: "جديد %{model}"
     show: "إظهار"
@@ -157,7 +157,7 @@
       mastery: "مفاهيم"
       puzzle_map: "مراحل"
       prizes: "اجمع الجوائز الـ %{total_trophies} و فز بجوائز قيمة!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "كل الجوائز %{total_trophies} جمعت . فزت بجائزة!"
       prizes_link: "مزيد من المعلومات"
   teacher:
     title:
@@ -208,11 +208,11 @@
     tos: "شروط الخدمة"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "استبدال الجائزة الخاصة بك في Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "استبدال الجائزة الخاصة بك في Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "استبدال اجائزة المكافأة الخاصة بك في Code.org!"
   reference_area:
     title: "بحاجة إلى مساعدة؟"
     subtitle: "مشاهدة اشرطة الفيديو والتلميحات"

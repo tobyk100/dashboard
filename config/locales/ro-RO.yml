@@ -29,7 +29,7 @@
   try_hoc: "Încearcă Ora de Cod, dă clic aici >> "
   try_k8intro: "Sau, încearcă Cursul nostru K-8 de introducere în Informatică (15-25 ore)"
   already_started: "Ai început deja? Continuă aici >>"
-  demos: "Admin: Toate demo-uri"
+  demos: "Admin: Toate demo-urile"
   continue: "Continuă"
   prize: "Premiu"
   auth:
@@ -61,20 +61,20 @@
     mismatch_password: "The two passwords you entered do not match"
   signin_form:
     title: "Loghează-te"
-    login: "E-mail sau nume de utilizator"
+    login: "Email sau nume de utilizator"
     password: "Parolă"
     remember: "Ține-mă minte"
     submit: "Loghează-te"
   password:
     reset_form:
       title: "Ai uitat parola?"
-      email: "Adresa de email"
+      email: "Adresă de email"
       submit: "Trimite-mi instrucțiunile pentru resetarea parolei"
     change_form:
       title: "Schimbă-ți parola"
       new_password: "Parolă nouă"
       confirm_password: "Confirmă noua parolă"
-      submit: "Schimbă parola"
+      submit: "Schimbă-mi parola"
   welcome_email:
     subject: "Alătură-te clasei mele (pe Code.org)"
     body: |
@@ -92,11 +92,11 @@
     error:
       signed_in: "Te rugăm să te deloghezi înainte de a continua"
       username_not_found: "Utilizatorul %{username} nu a fost găsit"
-      username_in_use: "%{username} este deja luat, vă rugăm să alegeţi altul"
-      no_teacher: "Nu am putut găsi pe nimeni logat cu  '%{teacher_email_or_code}'. Vă rugăm sa le cereți să se înregistreze aici și să încercați să-i adăugați incă o dată"
+      username_in_use: "%{username} este deja luat, te rugăm să alegi altul"
+      no_teacher: "Nu am găsit pe nimeni logat cu  '%{teacher_email_or_code}'. Te rugăm să le ceri să se înregistreze aici și apoi încearcă să-i mai adăugi o dată"
     mail:
       invite_student:
-        subject: "Alăturaţi-vă clasei cu %{teacher_name} la Code.org!"
+        subject: "Alătură-te clasei cu %{teacher_name} la Code.org!"
   reports:
     error:
       access_denied: "Nu ai acces la statisticile de progress ale acestei persoane"
@@ -126,7 +126,7 @@
           earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
           not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
-    new_model: "Nou %{model}"
+    new_model: "%{model} nou"
     show: "Arată"
     edit: "Editează"
     edit_model: "Editează %{model}"
@@ -138,7 +138,7 @@
     updated: "%{model} a fost actualizat cu succes."
   nav:
     header:
-      finished_hoc: "Am terminat ora mea de cod"
+      finished_hoc: "Am terminat Ora mea de Cod"
       sign_in_to_save: "Loghează-te pentru a salva progresul"
     user:
       classroom: "Elevii mei"
@@ -160,9 +160,9 @@
       prizes_link: "mai multe informaţii"
   teacher:
     title:
-      one: "Profesorul tău este % {nume}"
+      one: "Profesorul tău este %{nume}"
       other: "Profesorii tăi:"
-    tools: "Instrumente de profesor"
+    tools: "Instrumente pentru profesor"
     students:
       manage: "Gestionează studenţii"
       add: "Adaugă elevi"
@@ -185,8 +185,8 @@
     signin_message: "sau dacă sunteţi deja înregistrat %{link}"
     student_reg_link: "Studenţi - începeți aici"
     teacher_reg_link: "Profesori - începeţi aici"
-    teacher_dashboard: "Vezi progresul pe tabloul de bord"
-    teacher_student_count: "Aveţi %{count} studenţi."
+    teacher_dashboard: "Vezi tabelul de progres"
+    teacher_student_count: "Ai %{count} elevi."
     teacher_averages: 'In medie, studenții Dumneavoastră au câștigat %{trophy_average} din %{trophy_max} "Conceptul Master" trofee.'
     classroom: "Clasa dvs."
     student_progress: "Progresul tău ca student"

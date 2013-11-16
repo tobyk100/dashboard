@@ -2,60 +2,60 @@
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: "Hour of Code"
-        Edit Code: "Edit Code"
+        20-hour: Introdução ao curso de ciência da computação até ao 3º ciclo
+        Hour of Code: "Hora de Código"
+        Edit Code: "Editar código"
     game:
       name:
-        Maze: "The Maze"
-        Artist: "The Artist"
-        Artist2: "The Artist 2"
-        Farmer: "The Farmer"
-        Artist3: "The Artist 3"
-        Farmer2: "The Farmer 2"
-        Artist4: "The Artist 4"
-        Farmer3: "The Farmer 3"
-        Artist5: "The Artist 5"
-        MazeEC: "The Artist"
+        Maze: "O Labirinto"
+        Artist: "O Artista"
+        Artist2: "O Artista 2"
+        Farmer: "O Fazendeiro"
+        Artist3: "O Artista 3"
+        Farmer2: "O Fazendeiro 2"
+        Artist4: "O Artista 4"
+        Farmer3: "O Fazendeiro 3"
+        Artist5: "O Artista 5"
+        MazeEC: "O Artista"
     trophy:
       name:
         Bronze: "Bronze"
-        Silver: "Silver"
-        Gold: "Gold"
+        Silver: "Prata"
+        Gold: "Ouro"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
-        function: "Functions"
-        parameters: "Functions with parameters"
+        sequence: "Seqüência"
+        if: "Bloco Se"
+        if_else: "Bloco Se-Senão"
+        loop_times: "Bloco Repetir vezes"
+        loop_until: "Bloco Repetir até"
+        loop_while: "Bloco Enquanto"
+        loop_for: "Bloco Contador"
+        function: "Funções"
+        parameters: "Funções com parâmetros"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
+        maze_2_2: 'Olá! Eu preciso ir buscar o Porquinho Verde! Empilha uns Blocos "Avançar" e pressiona "Executar Programa" para me ajudar a chegar lá. '
+        maze_2_1: "Escreve outro programa para que eu possa fazer todo o caminho até ao porco verde. "
+        maze_2_2_5: "Como devo chegar ao porco verde? (Cuidado com o TNT)"
+        maze_2_3: "Como devo chegar ao porco verde? (Cuidado com o TNT)"
+        maze_2_4: "Argh! Escreva um programa que me faça contornar o TNT e chegar ao porco verde. "
+        maze_2_5: "Há uma maneira de chegar ao porco verde usando apenas a 2 blocos. Consegues descobrir?"
+        maze_2_6: "Tente levar-me ao porco verde usando apenas a três blocos."
+        maze_2_7: 'Escreva-me um programa para que eu possa chegar ao porco verde usando o menor número de blocos. Tente usar mais de um bloco "Repetir vezes".'
+        maze_2_8: 'Para resolver este, tente um bloco "Repetir" com estes 3 blocos no seu interior: mover, mover,virar.'
+        maze_2_9: 'Ok, tente o novo bloco "Repetir até" - irá repetir até eu alcançar o porco verde.'
+        maze_2_10: "Ok, uma última vez para praticar - você pode resolver este um usando apenas 4 blocos?"
+        maze_2_11: "Querida pessoa.  Me zombie. Eu com fome. Deve... ir... girassol... Arranja-me lá com apenas 5 blocos?"
+        maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Consegue fazê-lo com apenas 5 blocos?"
+        maze_2_13: 'Use o novo bloco "se" para me deixar decidir quando virar. Dica: só precisas de mais um bloco, mas aprende como podemos configurá-lo para que possas fazer sozinho na próxima vez.'
+        maze_2_14: 'Ok, isto é como o último quebra-cabeça, mas precisas lembrar-te de como usaste o bloco "se" e o bloco "repetir" juntos.'
+        maze_2_15: 'Eu querer girassol! Use um bloco "se" para levar-me lá, com o menor número de blocos.'
+        maze_2_16: "Ok, vamos fazer novamente para a praticar - isso não é muito diferente, mas tem cuidado com os os comilões!"
+        maze_2_17: 'Os blocos "se-senão" verifica uma condição, e em seguida, faz uma coisa OU outra. Para me levar para o girassol tente usar este novo bloco.'
+        maze_2_18: 'Pratica mais uma vez o bloco "se-senão", consegues à primeira tentativa?'
+        maze_2_19: "Podes adicionar mais 3 blocos para me ajudares a resolver este complexo labirinto? Se conseguires podes andar em qualquer caminho com curvas qualquer que seja o tamanho."
+        turtle_1_1: "Olá, eu sou um artista. Podes escrever código para que eu possa desenhar quase tudo. Usa alguns blocos para me fazer desenhar sobre as linhas cinza na imagem."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
         turtle_1_3: "Make a square using only 3 blocks."
         turtle_1_4: |-
@@ -66,17 +66,19 @@
         turtle_1_8: 'Ok, tente descobrir o que acontece se você executar esse código (ou pressione "Executar" para experimentá-lo). Em seguida, repeti-lo várias vezes para completar o desenho. As cores serão diferentes a cada execução.'
         turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "TBA"
-        turtle_4_2: "TBA"
-        turtle_4_3: "TBA"
-        turtle_4_4: "TBA"
-        turtle_4_5: "TBA"
-        turtle_4_6: "TBA"
-        turtle_4_7: "TBA"
-        turtle_4_8: "TBA"
-        turtle_4_9: "TBA"
-        turtle_4_10: "TBA"
-        turtle_4_11: "TBA"
+        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_4_2: |-
+          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
+        turtle_4_3: |-
+          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
+        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
+        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
+        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
+        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: 'Oi, eu sou um fazendeiro. Preciso de sua ajuda para achatar o campo na minha fazenda, então está pronto para o plantio. Mover-me para o monte de terra e use o bloco de "remove" para removê-lo.'
         maze_karel_1_2: 'Em seguida, move-me para o buraco e preenchê-lo com dois shovelfuls de terra, usando o bloco de "preenchimento".'
         maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."

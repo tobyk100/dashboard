@@ -27,16 +27,16 @@
         text: "Przybornik pośrodku zawiera polecenia dla Rozgniewanego Ptaka. Możesz ich użyć do zbudowania swojego programu."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Po prawej stronie znajduje się Twój obszar roboczy, do którego możesz przenosić bloki z przybornika, by budować swój program. Aby usunąć blok z programu, przeciągnij go do kosza w rogu po prawej stronie."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'Każdy blok jest instrukcję. Jeśli przeciągniesz blok "przejdź do przodu" do obszaru roboczego i naciśniesz przycisk "Uruchom Program", to ptak przesunie się o jedno pole w labiryncie.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Aby wykonać więcej niż jeden ruch, możesz przeciągnąć wiele bloków do swojego obszaru roboczego i połączyć je ze sobą. Ptak wykona wszystkie polecenia od góry do dołu."
       12:
         image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Jeśli uruchomiłeś program i chce go poprawić, a później uruchomić ponownie, to naciśnij przycisk "Reset".'
       13:
         image: "notes/hoc1_13.png"
         text: "Chodźmy zabrać te świnie!"
@@ -54,10 +54,10 @@
         text: 'Cześć, jestem Mark! Zaczynamy naukę o pętlach. Za pomocą pętli można powiedzieć komputerowi "Powtórz" każdy zestaw działań w kółko, tysiące lub nawet miliardy razy.'
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "W tej łamigłówce chcemy, aby ptak przesunął się 5 pól do przodu, by dosięgnąć świnkę."
       3:
         image: "notes/hoc2_3.png"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'Możemy użyć nowego bloku "powtórzyć", by sobie pomóc.'
       4:
         image: "notes/hoc2_4.png"
         text: 'Instead of dragging out 5 "move forward" blocks...'
@@ -109,7 +109,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Miłej zabawy przy użyciu bloku "if"!'
+        text: 'Miłej zabawy przy korzystaniu z bloku "if"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"

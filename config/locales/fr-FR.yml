@@ -53,12 +53,12 @@
     birthday: "Date de naissance (optionnel)"
     submit: "S’inscrire"
     teacher: "Etes-vous un professeur?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Disponible !"
+    invalid_username: "Le nom d'utilisateur doit contenir au moins 5 caractères"
+    taken_username: "Nom d'utilisateur déjà pris"
+    valid_password: "Mot de passe valide !"
+    invalid_password: "Le mot de passe doit comporter au moins 6 caractères"
+    mismatch_password: "Les deux mots de passe que tu as entré ne correspondent pas"
   signin_form:
     title: "Connexion"
     login: "E-mail ou nom d'utilisateur"
@@ -101,30 +101,30 @@
     error:
       access_denied: "Vous n'avez pas accès aux stats de cette personne"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Obtenir les Prix: %{name}"
+    provider: "Fournisseur :"
+    code: "Code :"
     providers:
       apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
+      donors_choose: "DonorsChoose.org 750 $"
+      donors_choose_bonus: "DonorsChoose.org 250 $"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "Portal valve"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      ea_pvz: "EA Origin Plants vs Zombies"
+    student_finished: "Tu as terminé tous les tutoriaux. Après avoir réclamé tes prix, choisis une autre classe %{online_link} ou à une %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Choisis un prix :"
+      earned: "Tu as gagné un prix !"
+      not_earned: "Collectes tous les  %{num_trophies} trophées pour gagner un prix!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 ou plus élèves ont collecté tous les %{num_trophies} trophées. Tu as gagné un prix de professeur!"
+        not_earned: "Si 10 étudiants collectent tous les  %{num_trophies} trophées, tu gagnes un prix!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% ou plus de tes élèves qui ont collecté tous les %{num_trophies} trophées sont des filles. Tu as gagné un prix bonus!"
+          not_earned: "Si 10 élèves ou plus collectent tous les  %{num_trophies} trophées et au moins 40% de ces élèves sont des filles, tu gagnes un prix bonus!"
   crud:
     new_model: "Nouveau %{model}"
     show: "Afficher"
@@ -156,7 +156,7 @@
       mastery: "Conceptes"
       puzzle_map: "Etapes"
       prizes: "Collecte tous les %{total_trophies} trophées et gagne des prix!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Tous les %{total_trophies} trophées collectés. Prix gagné!"
       prizes_link: "plus d'informations"
   teacher:
     title:
@@ -207,11 +207,11 @@
     tos: "Conditions d'utilisation"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Réclame ton prix sur Code.org !"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Réclame ton prix sur Code.org !"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Réclame ton prix bonus sur Code.org !"
   reference_area:
     title: "Besoin d'aide ?"
     subtitle: "Voir ces vidéos et conseils"

@@ -66,17 +66,19 @@
         turtle_1_8: 'Εντάξει,προσπάθησε να καταλάβεις τι συμβαίνει εάν εκτελέσεις αυτόν τον κώδικα (ή πάτησε "Εκτέλεση", για να το δοκιμάσεις). Στη συνέχεια, επανάλαβέ το αρκετές φορές για να ολοκληρώσεις το σχέδιο. Τα χρώματα θα είναι διαφορετικά κάθε φορά.'
         turtle_1_9: "Μπορείς να υπολογίσεις με ποιο αριθμό πρέπει να αντικαταστήσεις τα ερωτηματικά για να σχεδιάσεις έναν κύκλο;"
         turtle_1_10: 'Τα κατάφερες! Τώρα, ζωγράφισε ό, τι θέλεις. Κάποιες διασκεδαστικές ιδέες: ένα ραβδί, νιφάδα χιονιού ή σπείρα. Επίσης δοκίμασε το νέο μπλοκ "ορισμός πλάτους" . Να περάσεις καλά!'
-        turtle_4_1: "TBA"
-        turtle_4_2: "TBA"
-        turtle_4_3: "TBA"
-        turtle_4_4: "TBA"
-        turtle_4_5: "TBA"
-        turtle_4_6: "TBA"
-        turtle_4_7: "TBA"
-        turtle_4_8: "TBA"
-        turtle_4_9: "TBA"
-        turtle_4_10: "TBA"
-        turtle_4_11: "TBA"
+        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_4_2: |-
+          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
+        turtle_4_3: |-
+          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
+        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
+        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
+        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
+        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: 'Γεια σου, είμαι ένας αγρότης. Χρειάζομαι τη βοήθειά σου για να ισιώσω το χωράφι στο αγρόκτημά μου, έτσι ώστε να είναι έτοιμο για τη φύτευση. Μετακίνησέ με στο σωρό από χώμα και χρησιμοποίησε το μπλοκ "Αφαίρεσε" για να το αφαιρέσεις.'
         maze_karel_1_2: 'Στη συνέχεια, μετακίνησέ με στην τρύπα και γέμισέ τη με ΔΥΟ φτυαριές χώμα, χρησιμοποιώντας το μπλοκ "Γέμισε".'
         maze_karel_1_3: "Μετακίνησέ με στο σωρό με το χώμα και πες μου με πόσες φτυαριές να την απομακρύνω χρησιμοποιώντας όσο το δυνατό λιγότερα πλακίδια."
@@ -130,10 +132,10 @@
         maze_karel_debug_function_2: "Μπορείς να εντοπίσεις και να εξαλείψεις τα λάθη σε αυτό το πρόγραμμα έτσι ώστε να  μπορώ να κάνω επίπεδο το χωράφι μου;"
         maze_karel_debug_function_3: "Τροποποίησε αυτό το πρόγραμμα, έτσι ώστε να απομακρύνω όλους τους σωρούς από χώμα από το χωράφι μου. "
         turtle_5_1: "Σχεδιάστε ό,τι σας αρέσει! Εάν δεν μπορείτε να σκεφτείτε κάτι, ζητήστε από τον διπλανό σας να σάς προτείνει κάτι!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_1: "Πρέπει να πάω σε αυτό το γουρούνι! Πληκτρολόγησε μερικές εντολές κινήσου() ώστε να πάρω πίσω τα αυγά μου."
+        maze_3_2: "Γράψε μου ένα πρόγραμμα, έτσι ώστε να μπορέσω να κάνω όλη τη διαδρομή μέχρι το γουρούνι."
+        maze_3_3: "Πώς να φτάσω στο γουρούνι; Βεβαιώσου ότι δεν θα πέσω πάνω στο κουτί με τον δυναμίτη!"
+        maze_3_4: "Αααα! Γράψε μου ένα πρόγραμμα που να με πηγαίνει γύρω από το δυναμίτη και να φτάνω στο γουρούνι."
       levelIncompleteError:
         maze_2_8: |-
           Για να λυθεί αυτό, βρες το μοτίβο που επαναλαμβάνεται. Χρησιμοποίησε ένα "επανάλαβε" πλακίδιο με αυτά τα 3 πλακίδια μέσα σ ' αυτό: κινήσου, κινήσου, στρίψε δεξιά.

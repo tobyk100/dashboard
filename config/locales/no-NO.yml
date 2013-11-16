@@ -53,12 +53,12 @@
     birthday: "Bursdag (valgfritt)"
     submit: "Registrer deg"
     teacher: "Er du en lærer?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Tilgjengelig!"
+    invalid_username: "Brukernavn må bestå av minimum fem tegn"
+    taken_username: "Brukernavn er allerede tatt"
+    valid_password: "Gyldig passord!"
+    invalid_password: "Passordet må bestå av minimum seks tegn"
+    mismatch_password: "De to passordene du skrev inn samsvarer ikke"
   signin_form:
     title: "Logg inn"
     login: "E-post eller brukernavn"
@@ -105,7 +105,7 @@
     provider: "Provider:"
     code: "Code:"
     providers:
-      apple_itunes: "Apple iTunes"
+      apple_itunes: "Apples iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
@@ -116,7 +116,7 @@
       ea_pvz: "EA Origin Plants vs. Zombies"
     student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
+      choose: "Velg en premie:"
       earned: "You have earned a prize!"
       not_earned: "Collect all %{num_trophies} trophies to win a prize!"
       teacher:
@@ -207,11 +207,11 @@
     tos: "Bruksvilkår"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Løs inn premien på Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Løs inn premien på Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Løs inn bonuspremien din på Code.org!"
   reference_area:
     title: "Trenger du hjelp?"
     subtitle: "Se disse videoene og tipsene"

@@ -53,12 +53,12 @@
     birthday: "誕生日 (optionalです)"
     submit: "入会"
     teacher: "あなたは教師ですか？"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "利用可能 ！"
+    invalid_username: "ユーザー名は 5 文字以上である必要があります。"
+    taken_username: "ユーザー名は既に使用されています。"
+    valid_password: "有効なパスワード ！"
+    invalid_password: "パスワードを%d文字以上で入力してください"
+    mismatch_password: "入力した 2 つのパスワードが一致しません"
   signin_form:
     title: "ログイン"
     login: "メールまたはユーザー名"
@@ -101,29 +101,31 @@
     error:
       access_denied: "この人の統計情報へのアクセス権を持っていません。"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "交換賞品： %{name}"
+    provider: "プロバイダー:"
+    code: "コード:"
     providers:
-      apple_itunes: "Apple iTunes"
+      apple_itunes: "アップルの iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      dropbox: "ドロップボックス"
+      valve: "バルブのポータル "
+      ea_bejeweled: |
+        EA オリジン　びじゅえるど　３
+        
+      ea_fifa: "EA オリジンfifa ワールド カップ サッカー 13"
+      ea_simcity: "EAオリジン　シムシティ 4 デラックス版"
+      ea_pvz: "EA 　オリジン植物　ｖｓ　ゾンビー"
+    student_finished: "すべてのチュートリアルを完了しました。あなたの賞品を貰ったあと、別のクラス % %{online_link} または %{local_school_link}を選択してください"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "賞品を選択します。"
+      earned: "賞品を獲得した ！"
+      not_earned: "トロフィー%{num_trophies}収集してするすべての賞品を獲得 "
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 人以上の学生が%{num_trophies} こ、全部のすべてのトロフィーを収集しました。教師賞品を獲得している ！"
+        not_earned: "もし10人の 学生が %{num_trophies}こ、すべてのトロフィーを収集すると、あなたは賞品を獲得 ！"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          earned: "%{num_trophies} のトロフィーを収集したあなたの学生のわ40 ％ 以上が女性です。ボーナス賞品を獲得した ！"
           not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "新しい%{model}"

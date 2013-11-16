@@ -48,35 +48,36 @@
         maze_2_10: "Yaxşı, sonuncu çalışma - bunu yalnız 4 blok istifadə edərək həll edə bilərsinizmi?"
         maze_2_11: "Hörmətli insan. Mən zombiyəm. Mən acam. Günəbaxana ... çatmalıyam ... Məni yalnız 5 blok istifadə edərək ora çatdıra bilərsən?"
         maze_2_12: "Yaxşı, bu oxşardır, amma bir az fərqi var. Yalnız 5 blok istifadə edərək bunu edə bilərsiniz?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
+        maze_2_13: 'Mənə nə vaxt dönəcəyimi demək üçün yeni "if" blokundan istifadə edin. İpucu: sizin yalnız 1 artıq bloka ehtiyacınız var, amma bizim bunu necə etdiyimizi öyrənin ki, gələn dəfə bunu özünüz köməksiz edə biləsiniz.'
+        maze_2_14: 'Yaxşı, bu sonuncu tapmaca kimidir, amma siz "if" və "repeat" bloklarını bir yerdə necə işlətdiyinizi yadınıza salmalısınız.'
+        maze_2_15: 'Günəbaxan istəyirəm! "if" blokundan ən az sayda istifadə etməklə məni ora çatdır.'
+        maze_2_16: "Yaxşı, məşq üçün bunu bir daha edək - bu çox da fərqli deyil, amma xart-xurtlardan ehtiyatlı ol!"
+        maze_2_17: '"If-else" bloku şərti yoxlayır və sonra bir və ya başqa şeyi icra edir. Məni günəbaxana çatdırmaq üçün bu yeni bloku istifadə etməyə çalışın.'
+        maze_2_18: '"If-else" bloku üçün daha bir təcrübə, birinci cəhdinizdə bunu düzgün həll edə bilərsinizmi?'
+        maze_2_19: "Sadəcə 3 blok əlavə etməklə mənə daha çətin labirinti həll etməkdə kömək edə bilərsinizmi? Əgər bunu düzgüz etsəniz mən uzunluğundan asılı olmayaraq ixtiyari əyri yolla gedə bilərəm."
+        turtle_1_1: "Salam, mən rəssamam. Siz kod yazmaqla mənə, demək olar ki, istənilən şəkli çəkdirə bilərsiniz. Bir neçə blokdan istifadə etməklə mənə şəkildəki boz xətlərin üzərini cızmağa şərait yaradın."
+        turtle_1_2: 'İndi bir kvadrat çəkin. QEYD: yeni "set color" blokundan götürməklə öz sevimli rənginizdən istifadə edin.'
+        turtle_1_3: "Yalnız 3 blokdan istifadə etməklə kvadrat düzəldin."
+        turtle_1_4: 'Hər dəfə fərqli rəng seçən "random color" blokundan istifadə etməklə bütün tərəfləri fərqli rənglərdə olan üçbucaq çəkin. İpucu: dönmək blokunu üzərindəki rəqəmi klikləməklə nə qədər dönməli olduğunuzu tapmalı olacaqsınız.'
+        turtle_1_5: "İndi, məşq üçün, zərf çəkməkdən ötrü bir üçbucaq və sonra bir kvadrat çəkin."
+        turtle_1_6: "Bu üçbucağı və kvadratı necə çəkmək olar? İpucu: Əvvəl üçbucağı çəkin, sonra kvadratı çəkməzdən öncə nə qədər dönmək lazım olduğunu hesablayın."
+        turtle_1_7: "Yaxşı, gəlin məsələni bir az çətinləşdirək - görün bu yaşıl eynəyi çəkə bilərsinizmi. Kvadratlar hər iki tərəfdən 100 pikseldir və onlar bir-birindən 50 piksel aralıdırlar. Yaşılla çəkməyi unutmayın!"
         turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
         turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
         turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: "TBA"
-        turtle_4_2: "TBA"
-        turtle_4_3: "TBA"
-        turtle_4_4: "TBA"
-        turtle_4_5: "TBA"
-        turtle_4_6: "TBA"
-        turtle_4_7: "TBA"
-        turtle_4_8: "TBA"
-        turtle_4_9: "TBA"
-        turtle_4_10: "TBA"
-        turtle_4_11: "TBA"
+        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_4_2: |-
+          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
+        turtle_4_3: |-
+          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
+        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
+        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
+        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
+        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: |-
           Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
         maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'

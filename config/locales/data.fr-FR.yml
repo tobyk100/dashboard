@@ -68,17 +68,19 @@
         turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différents chaque fois."
         turtle_1_9: "Savez vous par quel numéro remplacer les points d'interrogation pour dessiner un cercle ?"
         turtle_1_10: "Vous l'avez fait ! Maintenant, tracez tout ce que vous voulez. : ce Qui vous amuse:  un bonhomme allumette, flocon de neige ou un spirale. Essayez aussi le nouveau bloc « largeur définie ». Amusez-vous!"
-        turtle_4_1: "TBA"
-        turtle_4_2: "TBA"
-        turtle_4_3: "TBA"
-        turtle_4_4: "TBA"
-        turtle_4_5: "TBA"
-        turtle_4_6: "TBA"
-        turtle_4_7: "TBA"
-        turtle_4_8: "TBA"
-        turtle_4_9: "TBA"
-        turtle_4_10: "TBA"
-        turtle_4_11: "TBA"
+        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_4_2: |-
+          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
+        turtle_4_3: |-
+          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
+        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
+        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
+        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
+        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
         maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."
         maze_karel_1_3: "déplace moi vers le tas de boue et me dire combien de pelletées supprimer à l'aide d'aussi peu de blocs que possible."
@@ -87,7 +89,8 @@
         maze_karel_1_6: "Retirez toutes les piles de boue, à l'aide d'aussi peu de blocs que possible. Les nouvelles options dans le menu déroulant sur le bloc « jusqu'à », dis moi si je suis debout sur une pile ou un trou."
         maze_karel_1_7: "Wow, j'ai trouvé un trou très profond ! Je ne sais pas combien de pelletées de boue, il a besoin. Pouvez-vous écrire un programme qui remplit jusqu'à ce que le trou soit remplis ?"
         maze_karel_1_8: "aide moi à remplir le trou à l'extrémité du champ, à l'aide du moins de blocs possible."
-        maze_karel_1_9: "fais moi enlever tous ces tas de boue. Essayez d'utiliser le moins de blocs possible. Conseil : vous pouvez utiliser un bloc « jusqu'à » à l'intérieur d'un bloc « répéter »."
+        maze_karel_1_9: |-
+          Fais-moi enlever tous ces tas de boue. Essayes d'utiliser le moins de blocs possible. Conseil : tu peux utiliser un bloc  "pendant que" à l'intérieur d'un bloc « répéter ».
         maze_karel_1_10: |-
           Je travaille tard, il fait noir dehors, et je ne peux pas dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long du champ et s'il y a un tas, retirez-le.
         maze_karel_1_11: "Il fait encore noir dehors. Déplace moi le long du champ. S'il y a un tas, l'enlever et s'il y a un trou, remplis-le. Conseil : utilisez le menu déroulant des options sur le bloc « if »."
@@ -104,25 +107,24 @@
           Il y a une nouvelle fonction "dessine un bonhomme de neige" (dans la catégorie Fonctions). Dessine deux bonhommes de neige, un de hauteur 250 et l'autre 100.
         turtle_2_8: 'Celui-ci est un peu délicat. Utilise la fonction "dessine un bonhomme de neige" et le nouveau bloc " saute au-dessus" ( dans la catégorie Actions). Dessine 3 bonhommes de neige de différentes couleurs, 100 pixels chacun.'
         turtle_2_9: 'Utilise une boucle " compte avec" pour dessine une famille de bonhommes de neige avec les hauteurs de 110, 100, 90, 80, et 70. Les bonhommes de neige doivent tous avoir 60 pixels chacun.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
+        turtle_2_10: "Voici un code pour essayez d'expérimenter les différentes spirales.  Que se passe-t-il si tu modifies le montant du tour ? Ou si tu définis une couleur au hasard dans la boucle ?  Dessine ce que tu veux."
+        maze_karel_2_1: "Essaye d'utiliser les blocs pour m'aider à enlever toutes les piles et de remplir tous les trous par terre. Essaye d'utiliser les boucles au lieu d'utiliser beaucoup de blocs. Astuce: tu peux mettre une boucle à l'intérieur d'une autre boucle."
+        maze_karel_2_2: "Nous avons défini notre propre bloc appelé « remplir 5 », qui se trouve maintenant dans la catégorie des Fonctions. Utilise-le pour m'aider à remplir ce trou."
+        maze_karel_2_3: "Utilise le nouveau bloc avec la fonction « remplir 5 » pour me faire remplir tous les trous. Tu devra faire glisser le bloc « remplir 5 » hors de la catégorie des Fonctions."
+        maze_karel_2_4: "Définis une nouvelle fonction qui supprime 7 pelles. Puis utilises-la pour écrire un programme qui me permet de supprimer tous les piles."
+        maze_karel_2_5: "Crée une nouvelle fonction qui supprime 6 pelles du tas, et utilises-la pour m'aider à niveler tous les tas."
+        maze_karel_2_6: |-
+          Utilises 2 nouvelles fonctions, "remplir 8" et "supprimer 8", pour m'aider à niveler le tas et remplir le trou.
+        maze_karel_2_7: "Il y a une vache dans mon terrain! Ecris une nouvelle fonction qui va m'aider à éviter la vache et enlever le tas. Mets tous tes blocs dans la nouvelle fonction."
+        maze_karel_2_8: |-
+          Utilises cette nouvelle fonction, "éviter la vache et enlever 1", pour m'aider à enlever tous les tas.
+        maze_karel_2_9: "Ok,  voilà une fonction qui supprime 4 tas de saleté différents dans une colonne verticale. Essaye de mettre cette fonction dans une boucle, pour que tu supprimes tous les tas de saleté en utilisant que quelques blocs."
+        maze_karel_2_10: "Déplaces-moi à travers le terrain, et utilises ces deux fonctions pour m'aider à supprimer tous les tas et remplir tous les trous."
+        turtle_3_1: 'Ce puzzle te montre comment les fonctions "dessiner un carré" et "dessiner un cercle" sont définies. Définir une fonction ne fais pas fonctionner ses blocs. Tu dois retirer le bloc "dessiner un carré" pour vraiment dessiner un carré.'
+        turtle_3_2: 'En utilisant la fonction "dessiner un carré" comme exemple, crée une fonction "dessiner un triangle" et utilises-la.'
+        turtle_3_3: "Dessine des clôtures triangulaires autour des chats et une clôture carrée autour de la vache.  Conseil : testes le programme tout en avançant."
+        turtle_3_4: 'Regardes si tu peux comprendre comment utiliser "dessiner un carré" et "dessiner un triangle" ( et quelques autres blocs) pour dessiner une maison autour du lion.'
+        turtle_3_5: 'Maintenant, crée une nouvelle fonction " crée une maison" et utilises-la pour abriter deux chats. Astuce: Crée une nouvelle fonction en utilisant le bloc "faire quelque chose", et écris ton propre texte pour nommer le bloc.'
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: 'Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'

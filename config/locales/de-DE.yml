@@ -53,12 +53,12 @@
     birthday: "Geburtstag (optional)"
     submit: "Anmelden"
     teacher: "Sind Sie ein Lehrer?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Verfügbar!"
+    invalid_username: "Benutzernamen müssen mindestens 5 Zeichen lang sein"
+    taken_username: "Der Benutzername ist bereits vergeben"
+    valid_password: "Gültiges Passwort!"
+    invalid_password: "Das Passwort muss mindestens 6 Zeichen lang sein"
+    mismatch_password: "Die eingegebenen Passwörter stimmen nicht überein"
   signin_form:
     title: "Einloggen"
     login: "E-Mail oder Benutzername"
@@ -101,8 +101,8 @@
     error:
       access_denied: "Sie haben keinen Zugang zu den Statistiken dieser Person"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
+    title: "Preise Einlösen: %{name}"
+    provider: "Anbieter:"
     code: "Code:"
     providers:
       apple_itunes: "Apple iTunes"
@@ -111,13 +111,13 @@
       dropbox: "Dropbox"
       valve: "Valve Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
+      ea_fifa: "EA Origin FIFA Fussball 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
     student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
+      choose: "Wähle einen Preis:"
+      earned: "Du hast dir einen Preis verdient!"
       not_earned: "Collect all %{num_trophies} trophies to win a prize!"
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
@@ -207,11 +207,11 @@
     tos: "Nutzungsbedingungen"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Löse deinen Preis auf Code.org ein!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Löse deinen Preis auf Code.org ein!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Löse deinen Bonus-Preis auf Code.org ein!"
   reference_area:
     title: "Brauchen Sie Hilfe?"
     subtitle: "Sehen Sie sich diese Videos und Hinweise an"

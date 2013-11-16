@@ -24,7 +24,7 @@
         text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "Ekranın ortasındakı alətlər qutusunda Acıqlı Quş üçün əmrlər yerləşir. Öz kodunuzu qurmaq üçün onlardan istifadə edəcəksiniz."
       9:
         image: "notes/hoc1_9.png"
         text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
