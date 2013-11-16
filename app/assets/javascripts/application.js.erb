@@ -159,6 +159,16 @@ function Dialog(options) {
       window.location.href = options.redirect;
     }
   }, this));
+
+  // If escape key is pressed, close the dialog.
+  $(this.div).on('keyup', $.proxy(function(e) {
+    if (e.keyCode == 27) { // The escape key
+      this.hide();
+      if (options.redirect) {
+        window.location.href = options.redirect;
+      }
+    }
+  }, this));
 }
 
 /**
