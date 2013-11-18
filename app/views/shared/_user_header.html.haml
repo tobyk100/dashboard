@@ -14,7 +14,5 @@
         = link_to t('nav.user.prizes'), my_prizes_path
         %br/
         = link_to t('nav.user.logout'), destroy_user_session_url
-- else
-  = link_to t('nav.user.signup'), new_user_registration_url
-  |
-  = link_to t('nav.user.signin'), new_user_session_url
+- elsif params[:controller] !~ /^devise/
+  = link_to t('nav.user.signin'), new_user_session_url, class: "btn btn-lg btn-primary"
