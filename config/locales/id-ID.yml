@@ -53,12 +53,12 @@
     birthday: "Tanggal ulang tahun (opsional)"
     submit: "Daftar"
     teacher: "Apakah anda seorang guru?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Tersedia!"
+    invalid_username: "Pengguna harus minimal 5 karakter"
+    taken_username: "Nama pengguna ini sudah dipakai"
+    valid_password: "Kata sandi valid!"
+    invalid_password: "Kata sandi harus minimal 6 karakter"
+    mismatch_password: "kedua password yang anda masukkan tidak sama"
   signin_form:
     title: "Masuk"
     login: "Email atau nama pengguna"
@@ -103,30 +103,30 @@
     error:
       access_denied: "Anda tidak memiliki akses untuk melihat statistik orang ini"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Ambil hadiah: %{name}"
+    provider: "Penyedia:"
+    code: "Kode:"
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "Katup Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      ea_simcity: "EA Origin SimCity 4 edisi Deluxe"
+      ea_pvz: "EA Origin Plants vs Zombies"
+    student_finished: "Anda telah menyelesaikan semua tutorial. Setelah Anda ambil hadiah Anda, pilihlah kelas lain %{online_link} atau %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Pilih hadiah:"
+      earned: "Anda mendapatkan hadiah!"
+      not_earned: "Kumpulkan %{num_trophies} piala untuk memenangkan hadiah!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "lebih dair 10 siswa telah mengumpulkan %{num_trophies} piala. Anda berhak mendapat hadiah sebagai seorang guru!"
+        not_earned: "Jika 10 siswa berhasil mengumpulkan %{num_trophies} piala, Anda akan menangkan hadiah!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "lebih dari 40% siswa anda yang berhasil mendapatkan %{num_trophies} piala adalah perempuan. Anda telah memenangkan hadiah bonus!"
+          not_earned: "Jika 10 atau lebih siswa mengumpulkan %{num_trophies} piala dan sekurang-kurangnya 40% siswa perempuan, Anda akan menangkan hadiah bonus!"
   crud:
     new_model: "%{model} baru"
     show: "Tampilkan"
@@ -158,7 +158,7 @@
       mastery: "Konsep"
       puzzle_map: "Tahap"
       prizes: "Kumpulkan semua Piala %{total_trophies} dan memenangkan hadiah!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Semua Piala %{total_trophies} telah terkumpul. Memenangkan hadiah!"
       prizes_link: "Info lebih lanjut"
   teacher:
     title:
@@ -209,11 +209,11 @@
     tos: "Persyaratan Layanan"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Ambil hadiah Anda di Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Ambil hadiah Anda di Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Ambil hadiah bonus Anda di Code.org!"
   reference_area:
     title: "Perlu bantuan?"
     subtitle: "Lihat video ini dan petunjuk lainnya"

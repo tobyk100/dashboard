@@ -42,7 +42,7 @@
         maze_2_4: "Арр! Напешите программу, которая ведёт меня вокруг взрывчатки и до зелёный хрюшки. "
         maze_2_5: "Есть способ добраться до зеленой хрюшки, используя только 2 блока. Вы можете сделать это?"
         maze_2_6: "Попробуйте добраться до зеленых хрюшек, используя только три блока."
-        maze_2_7: 'Напишите мне программу, чтобы я мог дойти до зеленой хрюшке, используя наименьшее количество блоков. Попробуйте исолзовать более одного блока "повторить раз".'
+        maze_2_7: 'Напишите программу, чтобы я мог дойти до зеленой хрюшки, используя наименьшее количество блоков. Попробуйте используя более одного блока "повторить".'
         maze_2_8: 'Чтобы сделать это, используйте блок "Повтор" с 3 блоками внутри него: двигаться, двигаться, повернуть.'
         maze_2_9: 'Теперь попробуйте новый блок "Повтор до" - он будет повторять действия пока птичка не долетит на место зеленых хрюшек.'
         maze_2_10: "Сейчас практикуемся в последний раз - вы можете сделать это использованием только 4 блоков?"
@@ -79,10 +79,9 @@
         turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
         turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
         turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
+        maze_karel_1_1: 'Привет, я фермер. Мне нужна Ваша помощь, чтобы выровнять поле на моей ферме, так чтобы оно было готово для посадки. Передвиньте меня к куче грязи и используйте блок "удалить", для того чтобы удалить его.'
+        maze_karel_1_2: 'Затем передвиньте меня к дыре и заполните её ДВУМЯ лопатами грязи, используя блок "заливка".'
+        maze_karel_1_3: "Передвиньте меня к куче грязи и скажите мне сколько лопат взять используя как можно меньше блоков."
         maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
         maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
         maze_karel_1_6: |-

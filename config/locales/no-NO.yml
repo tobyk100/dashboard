@@ -15,7 +15,7 @@
   welcome_back: "Velkommen tilbake, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Legg til en lærer ved kode eller e-postadresse:"
+      label: "Legg til en lærer med kode eller e-postadresse:"
       placeholder: "Kode (ABCDEF) eller e-post (navn@skole.no)"
     submit: "Legg til lærer"
   appname: "Code.org"
@@ -26,7 +26,7 @@
   of: "av"
   more: "MER"
   less: "MINDRE"
-  try_hoc: "Prøv Hour of Code, klikk her >> "
+  try_hoc: "Prøv Hour of Code (kodetimen), klikk her >> "
   try_k8intro: "Eller prøv vår barneskoleintroduksjon til informatikk-kurs (15-25 timer)"
   already_started: "Har du allerede startet? Fortsett her >> "
   demos: "Administrator: Alle demoer"
@@ -36,7 +36,7 @@
     sign_in_with: "Logg inn med %{provider}"
     signed_in: "Logget inn!"
     already_signedup: "Allerede registrert?"
-    notyet_signedup: "Er du blitt medlem ennå?"
+    notyet_signedup: "Har du ikke blitt medlem ennå?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
@@ -54,8 +54,8 @@
     submit: "Registrer deg"
     teacher: "Er du en lærer?"
     valid_username: "Tilgjengelig!"
-    invalid_username: "Brukernavn må bestå av minimum fem tegn"
-    taken_username: "Brukernavn er allerede tatt"
+    invalid_username: "Brukernavnet må bestå av minimum fem tegn"
+    taken_username: "Brukernavnet er allerede tatt"
     valid_password: "Gyldig passord!"
     invalid_password: "Passordet må bestå av minimum seks tegn"
     mismatch_password: "De to passordene du skrev inn samsvarer ikke"
@@ -78,11 +78,11 @@
   welcome_email:
     subject: "Delta i min klasse (på Code.org)"
     body: |
-      Klikk linken under for å melde deg på informatikk-kurs på Code.org (med meg som din "lærer"):
+      Klikk linken under for å melde deg på informatikk-kurs på Code.org (med meg som lærer):
       
       %{link}
       
-      Kursene er morsomme, visuelt stimulerende og lærer deg de grunnleggende konseptene innenfor informatikk ved å benytte en enkel, spill-lignende opplevelse som du loses igjennom. Lær å kode av Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :)
+      Kursene er morsomme, visuelt stimulerende og lærer deg de grunnleggende konseptene innen informatikk ved å benytte en enkel, spill-lignende opplevelse som du loses igjennom. Lær å kode av Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :)
       
       %{name}
   follower:
@@ -101,30 +101,30 @@
     error:
       access_denied: "Du har ikke tilgang til denne personens statistikk"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Hent dine premier: %{name}"
+    provider: "Tilbyder:"
+    code: "Kode:"
     providers:
       apple_itunes: "Apples iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "Valve Portalen"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Du har gjennomført alle øvelsene. Etter at du har hentet din premie, kan du velge en annen klasse  %{online_link} eller %{local_school_link}"
     msg:
       choose: "Velg en premie:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      earned: "Du har vunnet en premie!"
+      not_earned: "Samle alle %{num_trophies} premiene for å vinne!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 eller flere elever har samlet alle %{num_trophies} troféene. Du har vunnet en lærer premie!"
+        not_earned: "Hvis 10 studenter samler alle %{num_trophies} troféene, vinner du en premie!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% eller flere av dine elever som har samlet alle %{num_trophies} troféene er jenter. Du har vunnet en bonuspremie!"
+          not_earned: "Om 10 eller flere av elevene som har samlet alle  %{num_trophies} troféene er jenter, vinner du en bonuspremie!"
   crud:
     new_model: "Ny %{model}"
     show: "Vis"
@@ -138,7 +138,7 @@
     updated: "%{model} ble oppdatert."
   nav:
     header:
-      finished_hoc: "Jeg har fullført min Hour of Code"
+      finished_hoc: "Jeg har fullført min Kodetimen"
       sign_in_to_save: "Logg inn for å lagre fremdrift"
     user:
       classroom: "Mine elever"
@@ -156,7 +156,7 @@
       mastery: "Konsepter"
       puzzle_map: "Stadier"
       prizes: "Samle alle %{total_trophies} trofeer og vinn premier!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Alle %{total_trophies} premiene er samlet. Premien er vunnet!"
       prizes_link: "mer info"
   teacher:
     title:
@@ -187,10 +187,10 @@
     teacher_reg_link: "Lærere - start her"
     teacher_dashboard: "Se fremdriftsoversikt"
     teacher_student_count: "Du har %{count} elever."
-    teacher_averages: 'I gjennomsnitt har dine elever tjent %{trophy_average} av totalt %{trophy_max} "Konseptmestring" trofeer.'
+    teacher_averages: 'I gjennomsnitt har dine elever fått %{trophy_average} av totalt %{trophy_max}  pokaler for "Konseptmestring".'
     classroom: "Ditt klasserom"
     student_progress: "Fremdriften din som student"
-    student_stats: 'Du har tjent %{trophy_count} av maks %{trophy_max} "Konseptmestring" trofeer.'
+    student_stats: "Du har fått %{trophy_count} av maks %{trophy_max} pokaler for Konseptmestring."
     student_left_off: "Der du slapp:"
     student_finished: "Du har fullført alle opplæringsprogrammer. Krev din %{prize_link} og velg en annen klasse %{online_link} eller på %{local_school_link}"
     local_school: "den lokale skolen"

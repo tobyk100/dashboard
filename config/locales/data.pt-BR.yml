@@ -65,19 +65,17 @@
         turtle_1_8: 'Ok, tente descobrir o que acontece se você executar esse código (ou pressione "Executar" para experimentá-lo). Em seguida, repita-o várias vezes para completar o desenho. As cores serão diferentes a cada vez que o código for executado.'
         turtle_1_9: "Você consegue descubrir qual número você precisa para substituir os pontos de interrogação para desenhar um círculo?"
         turtle_1_10: 'Você conseguiu! Agora, desenhe o que quiser. Algumas idéias para se divertir: um boneco, floco de neve ou espiral. Tente também o novo bloco de "definir largura". Divirta-se!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_1: 'Você pode desenhar um triângulo (com bordas de 100 pixels) com apenas 3 blocos? Dica: use um bloco de "repetir".'
+        turtle_4_2: 'Tente adicionar um bloco para completar este quebra-cabeça. Dica: fornecemos blocos para desenhar dois triângulos idênticos, você precisa colocar um "volta" no meio e decidir quando virar.'
+        turtle_4_3: 'Ok, aqui está o código que você escreveu para desenhar um único triângulo. Você pode adicionar um bloco "repetir" e "virar" para fazer uma linda flor?'
+        turtle_4_4: "Aqui está o mesmo código de quebra-cabeça anterior, mas virando apenas 36 graus depois de desenhar cada triângulo. Quantas vezes isso precisa repetir? (Dica: depois de 360 graus o desenho será um círculo completo)"
+        turtle_4_5: "Aqui está o mesmo código de quebra-cabeça anterior, mas repetindo a curva 36 vezes. Quantos graus devem ter as curvas? (Dica: depois de 360 graus o desenho será um círculo completo)"
+        turtle_4_6: "Usando apenas 3 blocos, você pode desenhar um quadrado com arestas de 20 pixeis?"
+        turtle_4_7: "Aqui está o código para desenhar o quadrado do último quebra-cabeça. Você pode repetir isso para desenhar 10 quadrados adjacentes como uma escada? Dica: você só precisa de 2 blocos."
+        turtle_4_8: "Aqui está a solução para o quebra-cabeça anterior. Você pode adicionar apenas mais 2 blocos para completar o desenho?"
+        turtle_4_9: "Aqui está a solução para o quebra-cabeça anterior. Quantos graus você deve virar para completar o desenho? (Você provavelmente precisará chutar algumas vezes)"
+        turtle_4_10: "Aqui está a solução para o quebra-cabeça anterior. Quantas vezes você deve repetir para completar o desenho?"
+        turtle_4_11: 'Tente alterar os números nos blocos  "virar" e "repetir" para fazer padrões diferentes. Ou então, experimente mudar o resto do código para desenhar o que quiser.'
         maze_karel_1_1: 'Oi, eu sou um fazendeiro. Preciso de sua ajuda para planificar o campo na minha fazenda para que esteja pronto para o plantio. Mova o monte de terra e use o bloco de "remover" para removê-lo.'
         maze_karel_1_2: 'Em seguida, me leve para perto do buraco e coloque com DUAS pás cheias de terra, usando o bloco "preencher".'
         maze_karel_1_3: "Leve-me para a pilha de terra e diga-me quantas pás cheias devo remover, usando o mínimo número de blocos possível."
@@ -130,10 +128,10 @@
         maze_karel_debug_function_2: "Você pode depurar este programa para mim, para que eu possa deixar meu campo plano?"
         maze_karel_debug_function_3: "Edite este programa para eu remover todas as pilhas no meu campo. "
         turtle_5_1: "Aproveite este momento para desenhar o que você tiver vontade! Se você não conseguir pensar em nada, pergunte a pessoa ao seu lado, ela pode te dar uma sugestão!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_1: "Eu preciso conseguir aquele porco! Digite algumas chamadas para move(); para que eu poder pegar meus ovos de volta."
+        maze_3_2: "Escreva-me um programa, então eu poderei fazer todo o caminho até o porco."
+        maze_3_3: "Como eu devo chegar até o porco? Certifique-se de que eu não vou até a caixa de dinamite (TNT)!"
+        maze_3_4: "Escreva para mim um programa que me leve até o porco, contornando a dinamite (TNT)."
       levelIncompleteError:
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos no seu interior:  mover, mover, vire à direita.'
       other1StarError:

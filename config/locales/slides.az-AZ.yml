@@ -6,13 +6,13 @@
         text: "Birinci kod saatınıza xoş gəldiniz! Proqramlaşdırmanın ilk ləzzətini çıxartmağa baş vuraq."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: 'Kod yazmaq üçün blokları sürükləyib buraxacağınız bir vizual proqramlaşdırma dili olan "Blockly"dən ("Blokli") istifadə edəcəyik.'
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'Proqram kodu çox vaxt yazılır, lakin "Blockly" vizualdır. Hər bir blok "həqiqi" kodun bir sətrinə uyğun gəlir.'
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Siz informatikanın əsaslarını, telefon üçün proqram yazmaqdan tutmuş Marsda özüyeriyən aparatları idarə etməyə qədər hər yerdə istifadə olunan anlayışları öyrənəcəksiniz."
       5:
         image: "notes/hoc1_5.png"
         text: "Proqram kompüterinizin əməl etməsi üçün əmrlər çoxluğudur."
@@ -21,19 +21,19 @@
         text: "İlk proqramınızın məqsədi Acıqlı Quşu labirintdən keçirməkdir ki, Yaşıl Donuzu vusun."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Ekranın sol tərəfində proqramınızın icra olunduğu labirint yerləşir. Hər tapmaca üçün təlimatlar labirintin aşağısında verilir."
       8:
         image: "notes/hoc1_8.png"
         text: "Ekranın ortasındakı alətlər qutusunda Acıqlı Quş üçün əmrlər yerləşir. Öz kodunuzu qurmaq üçün onlardan istifadə edəcəksiniz."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Sağınızda sizin iş sahənizdir. Burada, siz, alətlər qutusundan blokları seçməklə öz proqramınızı yaradacaqsınız. Bloku pozmaq üçün, bloku küncdəki zibil qutusuna sürükləyiniz."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'Hər bir blok bir göstərişdir. Əgər siz "İrəli get" blokunu iş yerinizə sürükləsəz və "Proqramı icra et" -i seçsəniz, quş labirintdə bir xana irəliləyəcəkdir.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Birdən çox əməliyyatı yerinə yetirməkdən ötəri, siz bir çox bloku öz iş yerinizə sürüklüyə bilər və onları bir-birlərinə qoşa bilərsiniz. Quş bu əməliyyatları yuxarıdan aşağıya doğru ardıcıllıqla yerinə yetirəcəkdir."
       12:
         image: "notes/hoc1_12.png"
         text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
@@ -43,15 +43,15 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Salam, mən Markam! Gəlin, dövrləri öyrənək. Dövrlərdən istifadə edərək siz kompüterə tapşıra bilərsiniz ki, istənilən əmrlər çoxluğunu dəfələrlə, neçə min, hətta neçə milyard dəfə təkrar etsin."
       2:
         image: "notes/hoc2_2.png"
         text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
@@ -87,8 +87,7 @@
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Salam, mən Billəm! Gəlin, yeni bir təməl anlayışı öyrənək: "əgər" ifadələri. Kompüterlər qərarları belə onların köməyi ilə verir.'
       2:
         image: "notes/hoc4_2.png"
         text: |-
@@ -109,7 +108,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Have fun using the "if" block!'
+        text: '"Əgər" blokunu istifadə etməyin kefini çıxardın!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
@@ -129,11 +128,11 @@
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     loop_for:
       1:
         image: "notes/bird.png"
@@ -151,7 +150,7 @@
         text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "İlk kod saatınızı bəyəndinizsə, infromatika təhsilinizi davam etdirmək üçün code.org ünvanına baş çəkin! Bizim 20 saatlıq kursumuzu başa vurduqdan sonra proqramlaşdırmanın əsaslarını mənimsəyib, telefonlar üçün proqramlar, robotlar üçün əmrlər, oyunlar, ürəyiniz istəyən hər şeyi necə yazmağı öyrənməyə başlaya bilərsiniz."
       4:
         image: "notes/hoc6_4.png"
         text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"

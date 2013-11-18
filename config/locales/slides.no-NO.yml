@@ -43,11 +43,11 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
@@ -63,7 +63,7 @@
         text: 'I stedet for å dra ut 5 "fremover" blokker...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'Kan vi sette "fremover" blokken inne i "gjenta"-blokken og skrive et nummer i blokken for å fortelle den hvor mange ganger det skal gjentas.'
+        text: 'Vi kan sette "fremover" blokken inne i "gjenta"-blokken og skrive et nummer i blokken å fortelle den hvor mange ganger det skal gjentas.'
       6:
         image: "notes/hoc2_6.png"
         text: 'Og dette er viktig: Du kan sette mer enn én kommando i en "gjenta"-blokk.'
@@ -73,7 +73,7 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: 'Hei, jeg heter Chris. Før jeg startet i Miami Heat, studerte jeg informatikk. La oss prøve vår nye blokk, "Gjenta til" blokken.'
+        text: 'Hei, er jeg Chris. Før jeg startet i Miami Heat, studerte jeg informatikk. La oss prøve våre ny blokk, "Gjenta til" blokken.'
       2:
         image: "notes/hoc3_2.png"
         text: "Hva hvis vi ikke visste hvor langt fuglen måtte bevege seg for å komme til grisen?"
@@ -86,7 +86,7 @@
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: "Hei, jeg heter Bill! La oss lære et nytt grunnleggende konsept: hvis-uttrykk. Dette er hvordan datamaskiner ta beslutninger."
+        text: "Hei, er jeg Bill! La oss lære et nytt grunnleggende konsept: hvis-uttrykk. Dette er hvordan datamaskiner tar beslutninger."
       2:
         image: "notes/hoc4_2.png"
         text: 'Du bruker "hvis"-uttrykk selv hver dag. Før du går ut hver morgen sier du: "HVIS det regner ute må jeg ta på meg jakke".'
@@ -121,19 +121,19 @@
     function:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
@@ -150,4 +150,4 @@
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Vis notater kommer snart!"
+        text: "Video-notater kommer snart!"

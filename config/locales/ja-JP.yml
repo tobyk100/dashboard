@@ -126,7 +126,7 @@
         not_earned: "もし10人の 学生が %{num_trophies}こ、すべてのトロフィーを収集すると、あなたは賞品を獲得 ！"
         bonus:
           earned: "%{num_trophies} のトロフィーを収集したあなたの学生のわ40 ％ 以上が女性です。ボーナス賞品を獲得した ！"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          not_earned: "もし10 人以上の学生が ぜんぶの%{num_trophies} トロフィーを収集し、学生が少なくとも 40% は女性である場合あなたのボーナス賞品を獲得 ！"
   crud:
     new_model: "新しい%{model}"
     show: "表示"
@@ -158,7 +158,7 @@
       mastery: "アイデア"
       puzzle_map: "ステージ"
       prizes: "%{total_trophies}　トロフィーをあつめて、賞品を獲得しよう ！"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "% {Total_trophies} こ、すべてのトロフィーを集めました。とくべつ賞品もらｔった ！"
       prizes_link: "詳細情報"
   teacher:
     title:
@@ -203,24 +203,24 @@
     none: "答えたくないです。"
   footer:
     help_from_html: 'チュートリアルを作成わ<a href="http://www.google.com">Google</a>、<a href="http://www.microsoft.com">マイクロソフト</a>、<a href="http://www.facebook.com">Facebook</a>、<a href="http://www.twitter.com"> Twitter</a> からのエンジニアの援助で完成しました'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    art_from_html: '<a href="http://www.angrybirds.com">怒りの鳥</a> <a href="http://www.rovio.com"> Rovio</a> と <a href="http://www.popcap.com/plants-vs-zombies"> 植物　vsゾンビ</a> <a href="http://www.popcap.com"> PopCap</a> のゲームからのアートワーク。'
+    feedback: "フィードバックを提供します。"
+    translate: "あなたの言語に翻訳をお手伝い"
+    tos: "サービス利用規約"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Code.org であなたの賞品を交換 ！"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Code.org であなたの賞品を交換 ！"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Code.org であなたのボーナス賞品を交換 ！"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "助けが必要ですか？"
+    subtitle: "ビデオやヒントを見る"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "ビデオ。"
+    notes: "ビデオなしですか？ショーのノートをみてみてください。"
+    autoplay_option: "動画の自動再生"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "お使いのブラウザーのサポートに取り組みちゅうです。"
+    upgrade: "お使いのブラウザーをアップグレードしてください。"

@@ -15,8 +15,8 @@
   welcome_back: "Vítej zpět, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
-      placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
+      label: "Přidej učitele zadáním kódu či e-mailové adresy:"
+      placeholder: "Kód (ABCDEF) nebo e-mail (ucitel@skola.edu)"
     submit: "Přidat učitele"
   appname: "Code.org"
   stage: "Fáze"
@@ -26,9 +26,9 @@
   of: "z"
   more: "UKAŽ VÍCE"
   less: "UKAŽ MÉNĚ"
-  try_hoc: "Try the Hour of Code, click here >> "
+  try_hoc: "Zkus Hodinu Kódu kliknutím zde >> "
   try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
-  already_started: "Already started? Resume here >> "
+  already_started: "Už jsi začal? Pokračuj zde >> "
   demos: "Admin: Všechny ukázky"
   continue: "Pokračovat"
   prize: "cena"
@@ -36,14 +36,14 @@
     sign_in_with: "Přihlásit přes %{provider}"
     signed_in: "Přihlášen!"
     already_signedup: "Již jsi zaregistrován?"
-    notyet_signedup: "Haven't joined yet?"
+    notyet_signedup: "Ještě ses nepřidal?"
     google_oauth2: "Google +"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Zapomněl si své heslo?"
     need_confirmation: "Nedostal jsi potvrzovací instrukce?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_unlock: "Nezískal si odemykací instrukce?"
   signup_form:
     title: "Registrace"
     school_name: "Název školy (volitelné)"
@@ -53,30 +53,30 @@
     birthday: "Narozeniny (volitelné)"
     submit: "Registrace"
     teacher: "Jste učitel?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "K dispozici!"
+    invalid_username: "Uživatelské jméno musí mít nejméně 5 znaků"
+    taken_username: "Uživatelské jméno je již obsazeno"
+    valid_password: "Platné heslo!"
+    invalid_password: "Heslo musí obsahovat nejméně 6 znaků"
+    mismatch_password: "Zadaná hesla nejsou stejná"
   signin_form:
     title: "Přihlásit"
     login: "Uživatelské jméno nebo e-mail"
     password: "Heslo"
-    remember: "Remember me"
+    remember: "Zapamatovat si"
     submit: "Přihlásit se"
   password:
     reset_form:
       title: "Zapomněl si své heslo?"
       email: "e-mailová adresa"
-      submit: "Send me reset password instructions"
+      submit: "Zašlete mi instrukce na reset hesla"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
-      confirm_password: "Confirm new password"
-      submit: "Change my password"
+      title: "Změna hesla"
+      new_password: "Nové heslo"
+      confirm_password: "Potvrď nové heslo"
+      submit: "Změnit heslo"
   welcome_email:
-    subject: "Join my class (on Code.org)"
+    subject: "Připojit se do mé třídy (na Code.org)"
     body: |
       Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
       
@@ -86,24 +86,24 @@
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "Pozvánka odeslána"
+    added_teacher: "%{name} přidán jako tvůj učitel"
+    registered: "Zaregistroval ses na %{section_name}. Chceš-li pokračovat, přihlaš se"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
+      signed_in: "Odhlaš se, prosím, před pokračováním"
+      username_not_found: "Uživatelské jméno %{username} nebylo nalezeno"
+      username_in_use: "%{username} je již zabráno, prosím, vyber si jiné"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Přidat se do třídy s %{teacher_name} na Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "Nemáte přístup k statistikám této osoby"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Získat ceny: %{name}"
+    provider: "Poskytovatel:"
+    code: "Kód:"
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -116,8 +116,8 @@
       ea_pvz: "EA Origin Plants vs. Zombies"
     student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
+      choose: "Zvol cenu:"
+      earned: "Získal si cenu!"
       not_earned: "Collect all %{num_trophies} trophies to win a prize!"
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
@@ -126,29 +126,29 @@
           earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
           not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
-    new_model: "New %{model}"
-    show: "Show"
-    edit: "Edit"
-    edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    new_model: "Nový %{model}"
+    show: "Zobrazit"
+    edit: "Upravit"
+    edit_model: "Upravit %{model}"
+    update: "Aktualizovat"
+    destroy: "Zničit"
+    back: "Zpět"
+    confirm: "Opravdu?"
+    created: "%{model} byl úspěšně vytvořen."
+    updated: "%{model} byl úspěšně aktualizován."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "Dokončil jsem svou Hodinu Kódu"
+      sign_in_to_save: "Přihlaš se pro uložení pokroku"
     user:
-      classroom: "My students"
-      label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
-      prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      classroom: "Moji studenti"
+      label: "Ahoj %{username}"
+      stats: "Můj pokrok"
+      settings: "Můj účet"
+      prizes: "Ceny"
+      logout: "Odhlásit se"
+      signin: "Přihlásit se"
+      signup: "Registrace"
     popup:
       progress: "Your progress"
       lines: "Total lines of code: %{lines}"
@@ -176,50 +176,50 @@
       hint: "Unhappy?"
       button: "Cancel my account"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "Dokončeno"
+    tried: "Snažil se"
   user_stats:
-    recent_activity: "Recent activity"
-    show_more: "Show more"
+    recent_activity: "Nedávná aktivita"
+    show_more: "Zobrazit více"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
+    signin_message: "nebo pokud jsi již registrován %{link}"
+    student_reg_link: "Studenti - začněte zde"
+    teacher_reg_link: "Učitelé - začněte zde"
+    teacher_dashboard: "Zobrazit tabulku pokroku"
+    teacher_student_count: "Máš %{count} studentů."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your progress as a student"
+    classroom: "Tvá třída"
+    student_progress: "Tvůj postup jako student"
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
+    student_left_off: "Kde jsi přestal:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
+    local_school: "místní škola"
     online: "online"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "Muž"
+    female: "Žena"
+    none: "Nechci odpovědět"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    help_from_html: 'Inženýři od <a href="http://www.google.com"> Googlu</a>, <a href="http://www.microsoft.com"> Microsoftu</a>, <a href="http://www.facebook.com"> Facebooku</a> a <a href="http://www.twitter.com"> Twitteru</a> pomohli vytvořit tento kurz.'
+    art_from_html: 'Kresby jsou z <a href="http://www.angrybirds.com">Angry Birds</a> od <a href="http://www.rovio.com">Rovia</a> a z <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> od <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: "Poskytnout zpětnou vazbu"
+    translate: "Pomož nám v překladu do tvého jazyka"
+    tos: "Podmínky služby"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Získej tvou cenu na Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Získej tvou cenu na Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Získej tvou bonusovou cenu na Code.org!"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "Potřebuješ pomoc?"
+    subtitle: "Viz tyto videa a rady"
   video:
     tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    notes: "Žádné video? Zobraz poznámky."
+    autoplay_option: "Automatické přehrávání videa"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "Pracujeme na podpoře pro tvůj prohlížeč."
+    upgrade: "Aktualizuj si svůj prohlížeč."

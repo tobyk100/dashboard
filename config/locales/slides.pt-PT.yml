@@ -3,43 +3,43 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Bem-vindo à tua primeira hora de código! Vamos mergulhar logo no teu primeiro contacto com a programação."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Estaremos usando Blockly, uma linguagem de programação visual onde podes arrastar e soltar blocos para escrever código."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'Grande parte do código é digitado, mas a Blockly é visual. Cada bloco corresponde a uma linha de código "real".'
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Você vai aprender os fundamentos da ciência da computação, conceitos que são usados para fazer aplicações para telemóveis ou até para controlar o robô que está em Marte."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Um programa é um conjunto de instruções para o teu computador seguir."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "O objetivo do teu primeiro programa é conseguir que o Angry Bird atravesse um labirinto para chegar ao Porco Verde."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "O lado esquerdo é o labirinto onde o programa é executado. As instruções para cada quebra-cabeça estão abaixo do labirinto."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "a caixa de ferramentas do meio possui os comandos para o Angry Bird. Usarás estas para construir o teu código."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "À direita é a tua área de trabalho onde irás arrastar blocos da caixa de ferramentas para construir o teu programa. Para apagar um bloco, arrasta-o para o lixo no canto."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'Cada bloco é uma instrução. Se arrastares o bloco "Avançar" para a tua área de trabalho e pressione "Executar programa", o pássaro move-se um espaço no labirinto.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Para fazer mais do que uma ação, Podes arrastar muitos bloco para a tua área de trabalho e juntá-los. O pássaro vai fazer os comandos de cima para baixo."
       12:
         image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Se corres um programa e depois quiseres corrigi-lo e tentar novamente, pressione o botão "Redefinir".'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "Vamos apanhar esses porcos!"
     artist_intro:
       1:
         image: "notes/bird.png"
@@ -51,33 +51,32 @@
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Olá, sou o Mark! Vamos aprender sobre ciclos. Usando ciclos podes dizer um computador para repetir qualquer conjunto de ações repetidamente, milhares ou mesmo milhões de vezes."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "Neste quebra-cabeça, queremos que o pássaro move-se para a frente 5 espaços para chegar ao porco."
       3:
         image: "notes/hoc2_3.png"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'Podemos usar o novo bloco "repetir" para nos ajudar.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'Em vez de arrastares 5 blocos "Avançar" ...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'Podemos colocar o bloco "Avançar" dentro do bloco "repetir" e escrever um número no bloco para definir quantas vezes repetir.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'E isto é importante: podes colocar mais de um comando dentro de um bloco "repetir".'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Diverte-te a usar o teu novo bloco "repetir"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Oi, eu sou o Chris. Antes de entrar para os Miami Heat, estive na escola Georgia Tech a estudar ciência da computação. Vamos tentar o nosso novo bloco, o bloco "repeat até".'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "E se nós não soubéssemos quão longe o pássaro teve que se mover para chegar ao porco?"
       3:
         image: "notes/hoc3_3.png"
         text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'

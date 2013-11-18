@@ -26,7 +26,7 @@
   of: "/"
   more: "DAHA ÇOX"
   less: "DAHA AZ"
-  try_hoc: "Proqramlaşdırma Saatında özünüzü sınamaq üçün buraya klikləyin "
+  try_hoc: "Kod Saatında özünüzü sınayın, buraya klikləyin >> "
   try_k8intro: "Və ya, bizim K-8 Kompüter Elmləri Kursuna Girişi (15-25 saat) sınayın"
   already_started: "Artıq başlamısınız? Burada davam edin >> "
   demos: "Admin: Bütün Demolar"
@@ -54,11 +54,11 @@
     submit: "Qeydiyyatdan keç"
     teacher: "Müəllimsiniz?"
     valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
+    invalid_username: "İstifadəçi adı ən azı 5 simvoldan ibarət olmalıdır"
+    taken_username: "Bu istifadəçi adı artıq götürülüb"
     valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    invalid_password: "Parol ən azı 6 simvol olmalıdır"
+    mismatch_password: "Daxil etdiyiniz iki parol üst-üstə düşmür"
   signin_form:
     title: "Daxil olun"
     login: "E-poçt və ya istifadəçi adı"
@@ -103,12 +103,12 @@
   redeem_prizes:
     title: "Redeem Prizes: %{name}"
     provider: "Provider:"
-    code: "Code:"
+    code: "Kod:"
     providers:
-      apple_itunes: "Apple iTunes"
+      apple_itunes: '"Apple iTunes"'
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
+      dropbox: '"Dropbox"'
       valve: "Valve Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"

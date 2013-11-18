@@ -62,10 +62,10 @@
         turtle_1_5: "İndi, məşq üçün, zərf çəkməkdən ötrü bir üçbucaq və sonra bir kvadrat çəkin."
         turtle_1_6: "Bu üçbucağı və kvadratı necə çəkmək olar? İpucu: Əvvəl üçbucağı çəkin, sonra kvadratı çəkməzdən öncə nə qədər dönmək lazım olduğunu hesablayın."
         turtle_1_7: "Yaxşı, gəlin məsələni bir az çətinləşdirək - görün bu yaşıl eynəyi çəkə bilərsinizmi. Kvadratlar hər iki tərəfdən 100 pikseldir və onlar bir-birindən 50 piksel aralıdırlar. Yaşılla çəkməyi unutmayın!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_1_8: 'Yaxşı, bu kodu çalışdırsanız nə baş verəcəyini tapmağa çalışın (və ya yoxlamaq üçün "İcra et" düyməsini basın). Sonra rəsmi bitirmək üçün onu kifayət qədər çalışdırın. Rənglər hər dəfə fərqli olacaq.'
+        turtle_1_9: "Çevrə çəkmək üçün sual işarəsini hansı rəqəmlə əvəz etmək lazım olduğunu tapa bilərsinizmi?"
+        turtle_1_10: 'Siz bunu bacardınız! İndi nə istəsəniz çəkə bilərsiniz. Bir neçə maraqlı ideya: çubuq adam, qar dənəciyi ve ya spiral. Həm də yeni "set width" blokunu sınaqdan keçirin. Əylənin!'
+        turtle_4_1: '3 blokdan istifadə edərək tərəfləri 100 piksel olan üçbucaq çəkə bilərsiniz? İpucu: "repeat" blokundan istifadə edin.'
         turtle_4_2: |-
           Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
         turtle_4_3: |-
@@ -92,7 +92,7 @@
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
+        turtle_2_1: "Salam. Mən zombi rəssam. Mən şəkil çəkməyi sevir! Xüsusi rəngli bir kvadrat çəkməkdə mənə kömək edir. Mühüm qeyd: əlinizdə olan bloklar eynidir, amma indi onlar kateqoriyalara ayrılıb."
         turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
@@ -158,12 +158,12 @@
         artist_intro: "Artist Intro"
         farmer_intro: "Farmer Intro"
         loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
+        loop_until: '"Təkrar et, o vaxta qədər ki" bloku'
+        if: '"Əgər" bloku'
+        if_else: '"Əgər/əks halda" bloku'
+        function: "Funksiyalar"
+        loop_while: '"Hələ ki" bloku'
+        loop_for: "Sayğac bloku"
+        parameters: "Parametrli funksiyalar"
+        hoc_wrapup: "Kod Saatının yekunu"
         20_wrapup: "20-Hour Wrapup"

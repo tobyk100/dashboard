@@ -43,11 +43,11 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Примітки показу скоро будуть!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Примітки показу скоро будуть!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"

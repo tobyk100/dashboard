@@ -68,15 +68,14 @@
         turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différents chaque fois."
         turtle_1_9: "Savez vous par quel numéro remplacer les points d'interrogation pour dessiner un cercle ?"
         turtle_1_10: "Vous l'avez fait ! Maintenant, tracez tout ce que vous voulez. : ce Qui vous amuse:  un bonhomme allumette, flocon de neige ou un spirale. Essayez aussi le nouveau bloc « largeur définie ». Amusez-vous!"
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_4_1: 'Peux-tu dessiner un triangles(avec des bords de 100 pixels) avec seulement 3 blocs? Conseil: utilises un bloc "répéter".'
         turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+          Essaye d'ajouter un bloc pour compléter ce puzzle. Conseil: nous avons fourni des blocs pour dessiner deux triangles identiques, tu dois mettre un "tourner" entre, et décider combien tourner.
+        turtle_4_3: 'Ok, voilà le code que tu as écris pour dessiner un seul triangle. Peux-tu ajouter un bloc " répéter " et un bloc "tourner" pour faire une jolie fleur?'
+        turtle_4_4: "Voici le même code du puzzle précédent, mais retourné de seulement 36 degrés après avoir dessiné chaque triangle. Combien de fois ça doit répéter? (Astuce: après 360 degrés de rotation, le dessin va devenir un cercle)"
+        turtle_4_5: "Voici le même code du puzzle précédent, mais en répétant les retournements 36 fois. Combien de degrés doivent être les retournements? (Astuce : après 360 degrés de rotation, le dessin va devenir un cercle)"
+        turtle_4_6: "En utilisant seulement 3 blocs, peux-tu dessiner un carré avec des bords de 20 pixels?"
+        turtle_4_7: "Voilà le code pour dessiner un carré du dernier puzzle. Peux-tu le répéter pour dessiner 10 carrés qui se touchent l'un à la suite de l'autre pour ressembler à une échelle? Astuce: tu as seulement besoin de 2 autres blocs."
         turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
         turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
         turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"

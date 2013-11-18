@@ -53,12 +53,12 @@
     birthday: "Ziua de naştere (opţional)"
     submit: "Înscrie-te"
     teacher: "Ești profesor?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Disponibil!"
+    invalid_username: "Numele de utilizator trebuie să aibe cel puțin 5 caractere"
+    taken_username: "Numele de utilizator este deja luat"
+    valid_password: "Parolă validă!"
+    invalid_password: "Parola trebuie să conţină cel puțin 6 caractere"
+    mismatch_password: "Cele două parole introduse nu se potrivesc"
   signin_form:
     title: "Loghează-te"
     login: "Email sau nume de utilizator"
@@ -82,7 +82,7 @@
       
        %{link}
       
-      Tutorialele sunt distractive, te implică vizual şi te învaţă conceptele de bază din informatică folosind o metodă simplă, ghidată, similară jocului. Învățați să codați de la  Bill Gates, Mark Zuckerberg, Angry-Birds și Plants vs. Zombies! :-)
+      Tutorialele sunt distractive, te implică vizual şi te învaţă conceptele de bază din informatică folosind o metodă simplă, ghidată, similară jocului. Învață să codezi de la  Bill Gates, Mark Zuckerberg, Angry-Birds și Plants vs. Zombies! :-)
       
       %{name}
   follower:
@@ -101,30 +101,30 @@
     error:
       access_denied: "Nu ai acces la statisticile de progress ale acestei persoane"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Revendică Premii: %{name}"
+    provider: "Furnizor:"
+    code: "Cod:"
     providers:
       apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      donors_choose: "DonorsChoose.org 750 dolari"
+      donors_choose_bonus: "DonorsChoose.org 250 dolari"
+      dropbox: "Căsuța-drop"
+      valve: "Portal Valvă"
+      ea_bejeweled: "Bejeweled 3 de origine EA"
+      ea_fifa: "FIFA Soccer 13 de origine EA"
+      ea_simcity: "SimCity 4 Deluxe Edition de origine EA"
+      ea_pvz: "Plants vs Zombies de origine EA"
+    student_finished: "Ai finalizat toate tutorialele. După ce iți revendici premiul, alege o altă clasă %{online_link} sau la o %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Alege un premiu:"
+      earned: "Ai câştigat un premiu!"
+      not_earned: "Colectează toate trofeele %{num_trophies} pentru a câştiga un premiu!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 sau mai mulți elevi au colectat toate trofeele %{num_trophies}. Ai câștigat un premiu de profesor!"
+        not_earned: "Dacă 10 elevii colectează toate trofeele %{num_trophies}, vei câştiga un premiu!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% sau mai mult dintre elevii tăi care au colectat toate premiile %{num_trophies} sunt de sex feminin. Ai câștigat un premiu bonus!"
+          not_earned: "Dacă 10 sau mai mulți elevi colectează toate premiile %{num_trophies} şi cel puţin 40% dintre aceștia sunt de sex feminin, vei câştiga un premiu bonus!"
   crud:
     new_model: "%{model} nou"
     show: "Arată"
@@ -133,7 +133,7 @@
     update: "Actualizează"
     destroy: "Distruge"
     back: "Înapoi"
-    confirm: "Eşti sigur?"
+    confirm: "Eşti sigur(ă)?"
     created: "%{model} a fost creat cu succes."
     updated: "%{model} a fost actualizat cu succes."
   nav:
@@ -156,7 +156,7 @@
       mastery: "Concepte"
       puzzle_map: "Etape"
       prizes: "Colectează toate %{total_trophies} trofee și câștigă premii!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Toate trofeele %{total_trophies} au fost colectate. Premiu câștigat!"
       prizes_link: "mai multe informaţii"
   teacher:
     title:
@@ -164,9 +164,9 @@
       other: "Profesorii tăi:"
     tools: "Instrumente pentru profesor"
     students:
-      manage: "Gestionează studenţii"
+      manage: "Gestionează elevi"
       add: "Adaugă elevi"
-    rollup: "Tabel de progress"
+    rollup: "Grilă de progress"
     activity: "Activitatea recentă a clasei"
   user:
     new_password_hint: "(lasă necompletat dacă nu dorești să schimbi)"
@@ -182,17 +182,17 @@
     recent_activity: "Activitate recentă"
     show_more: "Arată mai mult"
   home:
-    signin_message: "sau dacă sunteţi deja înregistrat %{link}"
+    signin_message: "sau dacă ești deja înregistrat %{link}"
     student_reg_link: "Studenţi - începeți aici"
     teacher_reg_link: "Profesori - începeţi aici"
-    teacher_dashboard: "Vezi tabelul de progres"
+    teacher_dashboard: "Vezi grilla de progres"
     teacher_student_count: "Ai %{count} elevi."
-    teacher_averages: 'In medie, studenții Dumneavoastră au câștigat %{trophy_average} din %{trophy_max} "Conceptul Master" trofee.'
-    classroom: "Clasa dvs."
+    teacher_averages: 'În medie, elevii tăi au câștigat %{trophy_average} din %{trophy_max} trofee de "Concept de Măestrie"'
+    classroom: "Clasa ta"
     student_progress: "Progresul tău ca student"
-    student_stats: 'Ai câştigat %{trophy_count} din {trophy_max} "Conceptul Master" trofee.'
-    student_left_off: "Unde ați rămas:"
-    student_finished: "Ai completat toate tutorialele, pretindeți la %{prize_link} și alege altă clasă % {online_link} sau la % {local_school_link}"
+    student_stats: 'Ai câştigat %{trophy_count} din %{trophy_max} trofee de "Concept de Măestrie"'
+    student_left_off: "Unde ai rămas:"
+    student_finished: "Ai completat toate tutorialele, revendică-ți %{prize_link} și alege altă clasă % {online_link} sau la o % {local_school_link}"
     local_school: "şcoală locală"
     online: "online"
   gender:
@@ -201,22 +201,20 @@
     none: "Prefer să nu răspund"
   footer:
     help_from_html: 'Ingineri de la <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> au ajutat la crearea acestui tutorial.'
-    art_from_html: |
-      Imaginile de la 
-      <a href="http://www.angrybirds.com">Angry Birds</a> de <a href="http://www.rovio.com">Rovio</a>, și <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> de <a href="http://www.popcap.com">PopCap Games</a>.
-    feedback: "Oferiți Feedback"
-    translate: "Ajută-ne să  traducem în limba voastră"
-    tos: "Condiții de utilizare"
+    art_from_html: 'Creație artistică de la <a href="http://www.angrybirds.com">Angry Birds</a> de <a href="http://www.rovio.com">Rovio</a>, și <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> de <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: "Oferă Feedback"
+    translate: "Ajută-ne să  traducem în limba ta"
+    tos: "Termeni de utilizare"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Revendică-ți premiul la Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Revendică-ți premiul la Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Revendică-ți premiul bonus la Code.org!"
   reference_area:
     title: "Ai nevoie de ajutor?"
-    subtitle: "Vezi aceste clipuri şi sugestii"
+    subtitle: "Vezi aceste clipuri video şi sugestii"
   video:
     tab: "Video."
     notes: "Nici un video? Arată note."

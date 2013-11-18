@@ -65,19 +65,17 @@
         turtle_1_8: 'OK, cobalah untuk mencari tahu apa yang terjadi jika Anda menjalankan kode ini (atau tekan "Kerjakan" (run) untuk mencoba). Kemudian, ulangi untuk melengkapi gambar. Warna akan berbeda setiap saat.'
         turtle_1_9: "Apa anda tahu tanda tanya ini harus diganti angka berapa sehingga bisa menggambar lingkaran?"
         turtle_1_10: 'Anda berhasil! Sekarang, gambarlah apapun yang Anda inginkan. Beberapa ide menarik: tongkat, kepingan salju atau spiral. Cobalah lah blok baru "atur lebar". Selamat bersenang-senang!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_1: 'Dapatkan Anda menggambar segitiga (dengan panjang 100 piksel) dengan menggunakan hanya 3 blok? Petunjuk: Gunakanlah blok "Ulangi".'
+        turtle_4_2: 'Coba tambahkan satu blok untuk menyelesaikan teka-teki ini. Petunjuk: kami telah menyediakan blok untuk menggambar 2 segitiga yang identik, Anda perlu untuk menempatkan "belok" (turn) diantara keduanya, dan memutuskan jauh apa untuk membelok.'
+        turtle_4_3: 'OK, di sini adalah kode yang anda tulis untuk menggambar sebuah segitiga. Dapatkah Anda menambahkan blok "Ulangi" dan blok "Belok" untuk membuat sebuah bunga yang cantik?'
+        turtle_4_4: "Berikut adalah kode yang sama dari teka-teki sebelumnya, tetapi mengubah hanya 36 derajat setelah gambar untuk setiap segitiga. Berapa kali Apakah ini perlu mengulangi? (Petunjuk: setelah 360 derajat berputar gambar akan terbuatlah sebuah lingkaran)"
+        turtle_4_5: "Berikut adalah kode yang sama dari teka-teki sebelumnya, tetapi mengulangi perputaran 36 kali. Berapa banyak derajat yang diperlukan? (Petunjuk: setelah 360 derajat akan terbentuklah sebuah lingkaran)"
+        turtle_4_6: "Menggunakan hanya 3 blok, dapat Anda menggambar persegi dengan sisi 20 pixel?"
+        turtle_4_7: "Berikut adalah kode untuk menggambar persegi siku siku dari teka-teki yang terakhir. Dapatkah anda ulangi untuk menarik 10 kotak berdekatan seperti tangga? Petunjuk: Anda hanya perlu 2  blok extra."
+        turtle_4_8: "Berikut adalah solusi untuk teka-teki sebelumnya. Dapatkah Anda tambahkan hanya 2 blok lain untuk menyelesaikan gambar ini?"
+        turtle_4_9: "Berikut adalah solusi untuk teka-teki sebelumnya. Berapa banyak derajat yang harus Anda ubah untuk melengkapi gambar? (Anda mungkin perlu untuk menebak beberapa kali)"
+        turtle_4_10: "Berikut adalah solusi untuk teka-teki sebelumnya. Berapa kali harus Anda mengulangi untuk melengkapi gambar?"
+        turtle_4_11: 'Cobalah mengubah nomor di blok "Belok" dan blok "Ulangi" untuk membuat pola yang berbeda. Atau, percobaan mengubah seluruh kode untuk menggambar apapun yang Anda inginkan.'
         maze_karel_1_1: 'Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan ladang peternakan sehingga siap tanam. Pindahkan aku ke tumpukan tanah dan menggunakan blok "Hapus" untuk menghapusnya.'
         maze_karel_1_2: 'Selanjutnya, Pindahkan saya ke lubang dan isilah dengan dua skop tanah, menggunakan blok "Isi".'
         maze_karel_1_3: "Pindahkan saya ke tumpukan tanah dan beritahu saya perlu berapa banyak sekop untuk memindahkan tanah menggunakan blok sesedikit mungkin."
@@ -130,10 +128,12 @@
         maze_karel_debug_function_2: "Dapatkah anda men-debug program ini untuk saya supaya  dapat membuat lapangan ini menjadi datar?"
         maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di lapangan saya. "
         turtle_5_1: "Sekarang saatnya untuk menggambar apapun yang anda inginkan! Jika anda tidak punya ide menarik, mintalah saran kepada orang disamping anda!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_1: "Saya perlu dapatkan babi itu! Ketik beberapa panggilan untuk move(); sehingga saya bisadapatkan telur saya kembali."
+        maze_3_2: "Buatkan saya sebuah program, sehingga saya bisa mencapai babi itu."
+        maze_3_3: "Bagaimanacara saya bisa dapatkan babi itu? Pastikan saya tidak menabrak kotak TNT!"
+        maze_3_4: |
+          Aduh! Buatkan saya sebuah program yang membantu saya mencapai babi tetapi menghindari TNT.
+          
       levelIncompleteError:
         maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok kanan.'
       other1StarError:

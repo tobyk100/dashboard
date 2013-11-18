@@ -2,8 +2,8 @@
   data:
     script:
       name:
-        20-hour: K-8 Introducere la cursul de Informatică
-        Hour of Code: "Ora Codului"
+        20-hour: Introducerea K-8 la cursul de Informatică
+        Hour of Code: "Oră de cod"
         Edit Code: "Editează codul"
     game:
       name:
@@ -25,61 +25,59 @@
     concept:
       description:
         sequence: "Secvenţă"
-        if: "blocul dacă"
-        if_else: "blocul dacă-atunci"
-        loop_times: "Repetă ori bloc"
-        loop_until: "Repetă până la bloc"
-        loop_while: "În timp ce bloc"
-        loop_for: "Bloc opus"
+        if: "bloc dacă"
+        if_else: "bloc dacă-altfel"
+        loop_times: "bloc repetă ori"
+        loop_until: "bloc repetă până la"
+        loop_while: "bloc în timp ce"
+        loop_for: "Bloc numărător"
         function: "Funcţii"
         parameters: "Funcţii cu parametri"
     level:
       instructions:
-        maze_2_2: 'Salut! Am nevoie să obţin Porcuşorul Verde! Stivuieşte o pereche de blocuri "mergi mai departe" şi apasă "Rulează Programul" pentru a mă ajuta să ajung la el. '
-        maze_2_1: "Scrie-mi un alt program, astfel încât să reuşesc să ajung până la porcul verde. "
-        maze_2_2_5: "Cum ar trebui să iau la porcul verde? (Ai grijă la TNT)"
-        maze_2_3: "Cum ar trebui să iau la porcul verde? (Ai grijă de TNT)"
-        maze_2_4: "Argh! Scrie un program care mă duce pe lângă TNT şi până la porcul verde. "
-        maze_2_5: "Există o modalitate prin care pot ajunge la porcul verde folosind doar 2 blocuri. Poți să-ți dai seama cum?"
-        maze_2_6: "Încearcă să mă duci la porcul verde folosind doar trei blocuri."
-        maze_2_7: 'Scrie-mi un program, astfel încât să pot ajunge la porcul verde folosind cel mai mic număr de blocuri. Încearcă să folosești mai mult de un bloc de "repeat times".'
+        maze_2_2: 'Salut! Am nevoie să obţin Porcuşorul Verde! Stivuieşte o pereche de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta să ajung la el. '
+        maze_2_1: "Scrie-mi un alt program, astfel încât să reuşesc să ajung până la porcușorul verde. "
+        maze_2_2_5: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"
+        maze_2_3: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"
+        maze_2_4: "Grrr! Scrie un program care mă duce pe lângă TNT şi până la porcușorul verde. "
+        maze_2_5: "Există o modalitate prin care pot ajunge la porcușorul verde folosind doar 2 blocuri. Poți să-ți dai seama cum?"
+        maze_2_6: "Încearcă să mă duci la porcușorul verde folosind doar trei blocuri."
+        maze_2_7: 'Scrie-mi un program, astfel încât să pot ajunge la porcușorul verde folosind cel mai mic număr de blocuri. Încearcă să folosești mai mult de un bloc "repetă ori".'
         maze_2_8: |
-          Pentru a rezolva acest lucru, încearcă un bloc "repeat" cu aceste 3 blocuri în interiorul acstuia: mută, mută, 
+          Pentru a rezolva acest lucru, încearcă un bloc "repetă" cu aceste 3 blocuri în interiorul acestuia: mută, mută, 
           întoarce.
-        maze_2_9: 'OK, încearcă noul bloc "repeat until" - va repeta până când am ajuns la porcul verde.'
+        maze_2_9: 'Ok, încearcă noul bloc "repetă până la" - va repeta până când am ajuns la porcușorul verde.'
         maze_2_10: "OK, ultima dată pentru practică - poți rezolva acest lucru folosind doar 4 blocuri?"
         maze_2_11: "Dragă persoană. Eu zombie. Mie foame. Trebuie... să ajung... la floarea soarelui... Poți să mă duci acolo cu doar 5 blocuri?"
         maze_2_12: "OK, această situație este similară, dar uşor diferită. Poți s-o faci în doar 5 blocuri?"
-        maze_2_13: 'Utilizează noul bloc "if" pentru a mă lăsa să decid când să întorc. Sugestie: mai ai nevoie doar un singur bloc, dar învață cum am aranjat noi așa încât să o poți face pe cont propriul data viitoare.'
-        maze_2_14: 'OK, această situație este la fel ca în ultimul puzzle, dar trebuie să îți amintești cum ai folosit împreună blocul "if" şi blocul "repeat".'
-        maze_2_15: 'Eu vreau floarea soarelui! Utilizează un bloc "if" pentru a mă duce acolo cu cel mai mic număr de blocuri.'
+        maze_2_13: 'Utilizează noul bloc "dacă" pentru a mă lăsa să decid când să întorc. Sugestie: mai ai nevoie doar un singur bloc, dar învață cum am aranjat noi așa încât să o poți face pe cont propriul data viitoare.'
+        maze_2_14: 'Ok, această situație este la fel ca și în ultimul puzzle, dar trebuie să îți amintești cum ai folosit împreună blocul "dacă" şi blocul "repetă".'
+        maze_2_15: 'Eu vreau floarea soarelui! Utilizează un bloc "dacă" pentru a mă duce acolo folosind cel mai mic număr de blocuri.'
         maze_2_16: "OK, hai s-o facem din nou pentru practică - nu este foarte diferit, dar fii atent la chompers!"
-        maze_2_17: 'Blocurile "If-else" verifică o condiţie, şi apoi fac un lucru sau altul. Pentru a mă duce la floarea-soarelui încearcă să utilizezi acest bloc nou.'
-        maze_2_18: 'Încă un exercițiu de practică cu blocul "if-else", poate îl reușești chiar prima încercare?'
+        maze_2_17: 'Blocurile "Dacă-altfel" verifică o condiţie, şi apoi fac un lucru sau altul. Pentru a mă duce la floarea-soarelui încearcă să utilizezi acest bloc nou.'
+        maze_2_18: 'Încă un exercițiu de practică cu blocul "dacă-altfel", poate îl reușești chiar prima încercare?'
         maze_2_19: "Poţi adăuga doar 3 blocuri pentru a mă ajuta să rezolv un labirint mai complex? Dacă o faci corect, eu pot merge pe orice cale curbată indiferent de lungime."
         turtle_1_1: "Bună, eu sunt un artist. Poți scrie un cod care să mă facă să desenez aproape orice. Utilizează câteva blocuri care să mă facă sa desenez peste liniile gri din imagine."
-        turtle_1_2: 'Acum, desenează un pătrat. Notă: utilizează culoarea ta preferată selectând-o în noul bloc "set color".'
+        turtle_1_2: 'Acum, desenează un pătrat. NOTĂ: utilizează culoarea ta preferată selectând-o în noul bloc "setează culoare".'
         turtle_1_3: "Fă un pătrat utilizând numai 3 blocuri."
-        turtle_1_4: 'Desenează un triunghi ale cărui laturi sunt toate în culori diferite, folosind opţiunea "random color" care selectează o culoare diferită de fiecare dată. Sugestie: va trebui să-ți dai seama cât de departe să te întorci făcând clic pe numărul în blocul de întoarcere.'
+        turtle_1_4: 'Desenează un triunghi ale cărui laturi sunt toate în culori diferite, folosind opţiunea "culoare la întâmplare" care selectează o culoare diferită de fiecare dată. Sugestie: va trebui să-ți dai seama cât de departe să te întorci făcând clic pe numărul în blocul de întoarcere.'
         turtle_1_5: "Acum, pentru antrenament , desenează un triunghi, pe urmă un pătrat pentru a obține un plic."
-        turtle_1_6: "Îți poți da seama cum să desenezi acest triunghi și pătrat? Indiciu: desenează mai întâi triunghiul, apoi dă-ți seama cât de mmult să întorci înainte de a desena pătratul."
-        turtle_1_7: "În regulă, hai să facem lucrurile un pic mai complicate- vezi dacă poți desena acesti ochelari  verzi. Pătratele au 100 de pixeli pe ficare parte, și sunt 50 de pixeli între ele. Nu uita să desenezi cu verde!"
-        turtle_1_8: 'Ok, înceearcă să îți dai seama ce se întamplă dacă execuți acest cod (sau apasă "Run" pentru a încerca). Apoi repetăl de cate ori e nevoie pentru a completa desenul. Culorile vor fi diferite de fiecare dată.'
+        turtle_1_6: "Îți poți da seama cum să desenezi acest triunghi și acest pătrat? Indiciu: desenează mai întâi triunghiul, apoi dă-ți seama cât de mult să întorci înainte de a desena pătratul."
+        turtle_1_7: "În regulă, hai să facem lucrurile un pic mai complicate - vezi dacă poți desena acești ochelari verzi. Pătratele au 100 de pixeli pe ficare parte, și sunt la 50 de pixeli între ele. Nu uita să desenezi cu verde!"
+        turtle_1_8: 'Ok, încearcă să îți dai seama ce se întamplă dacă rulezi acest cod (sau apasă "Rulează" pentru a-l încerca). Apoi repetă-l de câte ori e nevoie ca să completezi desenul. Culorile vor fi diferite de fiecare dată.'
         turtle_1_9: "Poți să îți dai seama cu ce număr să înlocuiești semnele de întrebare pentru a desena un cerc?"
-        turtle_1_10: 'Ai reușit! Acum , desenează orice vrei. Căteva îdei: un om din 5 linii și un cerc, fulg de zăpadă sau spirală. Poți de asemena să încerci nou bloc "lățime set". Distrează-te!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_1_10: 'Ai reușit! Acum, desenează orice vrei. Căteva idei nostime: un om din 5 bețe si un cerc , fulg de zăpadă sau spirală. Încearcă, de asemenea, și noul bloc "setează lățimea". Distrează-te!'
+        turtle_4_1: 'Poţi desena un triunghi (cu margini de 100 pixeli) cu numai 3 blocuri? Sugestie: utilizează un bloc "repetare".'
+        turtle_4_2: 'Încearcă să adăugi un bloc pentru a finaliza acest puzzle. Sugestie: am furnizat blocuri să traseze 2 triunghiuri identice, tu trebuie să plasezi un "întoarce" între ele, şi să decizi cât de mult să se întoarcă.'
+        turtle_4_3: 'OK, aici ai codul pe care l-ai scris așa încât să traseze un singur triunghi. Poți să adăugi un bloc "repetă" şi "întoarce" pentru a face o floricică drăguță?'
+        turtle_4_4: "Aici ai acelaşi cod de la puzzle-ul anterior, dar cu o întoarcere de numai 36 de grade după trasarea fiecărui triunghi. De cât de multe ori acest lucru trebuie să se repete? (Sugestie: după o întoarcere de 360 de grade desenul va deveni cerc complet)"
+        turtle_4_5: "Aici ai acelaşi cod de la puzzle-ul anterior, dar repetarea cotiturilor se va face de 36 de ori. La câte grade trebuie să fie întoarcerile? (Sugestie: după o întoarcere de 360 de grade desenul va deveni cerc complet)"
+        turtle_4_6: "Folosind numai 3 blocuri, ai putea desena un pătrat cu muchii de 20 de pixeli?"
+        turtle_4_7: "Aici este codul pentru desenul pătrat din ultimul puzzle. Poți să-l repeți astfel încât să trasezi 10 pătrate adiacente cum ar fi o scară? Sugestie: ai nevoie doar de încă 2 blocuri."
+        turtle_4_8: "Aici este soluţia pentru puzzle-ul anterior. Poţi adăuga doar încă 2 blocuri pentru a finaliza desenul?"
+        turtle_4_9: "Aici este soluţia de la puzzle-ul anterior. Cu câte grade ar trebui să cotești pentru a finaliza desenul? (Probabil vei avea nevoie să ghicești de căteva ori)"
+        turtle_4_10: "Aici este soluţia de la puzzle-ul anterior. De câte ori trebuie să repeţi pentru a finaliza desenul?"
+        turtle_4_11: 'Încearcă să schimbi numerele în blocurile "întoarce" şi "repetă" pentru a crea modele diferite. Sau, experimentează schimbarea restului de cod pentru a desena orice ce vrei.'
         maze_karel_1_1: 'Bună, eu sunt un fermier. Am nevoie de ajutorul dumneavoastră pentru a aplatiza câmpul fermei mele ca sa fie gata de plantare. Mutaţi-mă la grămada de pămant şi folosiţi blocul "remove" pentru a o elimina.'
         maze_karel_1_2: 'Apoi, mutaţi-mă la groapă si umpleţi-o cu doua lopeţi de pământ folosind blocul "fill".'
         maze_karel_1_3: "Mută-mă la grămada de mizerie și spune-mi cât de multe lopeți pline să iau folosind blocuri pe cât de puțin posibil."
@@ -132,10 +130,10 @@
         maze_karel_debug_function_2: "Puteti depana acest program pentru mine ca sa pot sa-mi fac campul plat?"
         maze_karel_debug_function_3: "Editaţi acest program ca să elimin toate grămezile de pe camp. "
         turtle_5_1: "Folosește acest timp pentru a desena tot ce te dorești! Dacă nu poți să te gândești la nimic, întreabă persoana de lângă tine pentru o sugestie!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_1: "Am nevoie să ajung la acel porcușor! Tastează două chemări de mutare(); să-mi recuperez ouălele."
+        maze_3_2: "Scrie-mi un program, ca să reușesc să ajung până la porcușor."
+        maze_3_3: "Cum să ajung la porcușor? Asigură-te că nu intru într-o cutie cu TNT!"
+        maze_3_4: "Argh! Scrie-mi un program care mă duce de jur împrejurul minelor de TNT şi până la porcușor."
       levelIncompleteError:
         maze_2_8: 'Pentru a rezolva asta, găsește modelul care se repetă. Folosește un bloc "repetă" care să conțină următoarele 3 blocuri în el , mută, mută, întoarce la dreapta.'
       other1StarError:
