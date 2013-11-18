@@ -296,7 +296,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 }
 
 .user_menu {
-  a:hover { background-color: transparent; text-decoration: none; }
+  a:hover { background-color: transparent; text-decoration: none; display: inline-block; }
 }
 
 .user_menu a {
