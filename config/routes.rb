@@ -61,6 +61,7 @@ Dashboard::Application.routes.draw do
   get '/zuck', to: redirect('/s/1/level/5')
 
   get '/api/user_menu', to: 'api#user_menu', as: 'user_menu'
+  get '/api/user_hero', to: 'api#user_hero', as: 'user_hero'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

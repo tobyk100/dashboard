@@ -1,0 +1,31 @@
+- if current_user
+  %h1= t('welcome_back', name: current_user.name)
+  %hr.narrow_hr
+
+  %div{ style: 'width: 50%; float: left;'}
+    %h4 #{t('home.student_progress')}:
+    = t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
+    = link_to t('home.see_details'), root_url
+    %br/
+
+    %div{ style: 'padding-top: 10px; padding-bottom: 30px;'}
+      - script_level = current_user.next_untried_level(Script.twenty_hour_script)
+      - if script_level
+        #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
+        = form_tag(build_script_level_url(script_level), method: 'get', style: "display:inline;") do
+          = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
+      - else
+        = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_url), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
+
+  - if current_user.students.length > 0
+    %div{ style: 'width: 50%; float: left;'}
+      %h4 #{t('home.classroom')}:
+
+      %p
+        = t('home.teacher_student_count', count: current_user.students.length)
+        = link_to t('teacher.students.manage'), manage_followers_url
+        %br/
+        = t('home.teacher_averages', trophy_average: ("%.1f" % current_user.average_student_trophies), trophy_max: Trophy::TROPHY_MAX)
+
+      = link_to t('home.teacher_dashboard'), followers_url
+  %div{ style: 'clear:both;' }

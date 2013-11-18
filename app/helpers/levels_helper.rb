@@ -7,7 +7,15 @@ module LevelsHelper
     end
   end
 
-  # this defines which levels should be seeded with th last result from a different level
+  def build_script_level_url(script_level)
+    url_from_path(build_script_level_path(script_level))
+  end
+
+  def url_from_path(path)
+    "#{root_url.chomp('/')}#{path}"
+  end
+
+    # this defines which levels should be seeded with th last result from a different level
   def initial_blocks(user, level)
     if params[:initial_code]
       return params[:initial_code]
