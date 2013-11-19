@@ -138,16 +138,24 @@ function Dialog(options) {
   modalBody.append(body);
   this.div.append(modalBody).appendTo($(document.body));
 
-  if (options.onHidden) {
-    $(this.div).on(
-        'hidden.bs.modal',
-        function() {
-          if (options.onKeydown) {
-            $(this.div).off('keydown', options.onKeydown);
-          }
+  // When the dialog is hidden, unhook the keydown event handler.
+  // If onHidden option is passed in, call that as well.
+  // If redirect option is passed in, redirect the page.
+  // After that, close the dialog.
+  $(this.div).on(
+      'hidden.bs.modal',
+      function() {
+        if (options.onKeydown) {
+          $(this.div).off('keydown', options.onKeydown);
+        }
+        if (options.onHidden) {
           options.onHidden();
-        });
-  }
+        }
+        if (options.redirect) {
+          window.location.href = options.redirect;
+        }
+        $(this).remove();
+  });
 
   if (options.onKeydown) {
     $(this.div).on('keydown', options.onKeydown);
@@ -155,9 +163,6 @@ function Dialog(options) {
 
   addClickTouchEvent(close, $.proxy(function(e) {
     this.hide();
-    if (options.redirect) {
-      window.location.href = options.redirect;
-    }
   }, this));
 }
 
@@ -175,10 +180,10 @@ Dialog.prototype.show = function(options) {
 
   this.div.offset(options);
 }
+
 Dialog.prototype.hide = function() {
   // Hide let's bootstrap cleanup first, then we remove.
   $(this.div).modal('hide');
-  $(this.div).remove();
 }
 
 $(document).ready(function() {
