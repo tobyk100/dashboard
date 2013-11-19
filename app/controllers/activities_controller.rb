@@ -14,65 +14,69 @@ class ActivitiesController < ApplicationController
 
   def milestone
     solved = 'true' == params[:result]
+    total_lines = 0
+    trophy_updates = []
     test_result = params[:testResult].to_i
     lines = params[:lines].to_i
     script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
     level = script_level.level
-    trophy_updates = []
-    level_source = LevelSource.lookup(level, params[:program])
-    
-    log_milestone(level_source, params)
 
-    if current_user
-      authorize! :create, Activity
-      authorize! :create, UserLevel
+    if params[:program]
+      level_source = LevelSource.lookup(level, params[:program])
 
-      Activity.create!(
-          user: current_user,
-          level: level,
-          action: solved,
-          test_result: test_result,
-          attempt: params[:attempt].to_i,
-          lines: lines,
-          time: params[:time].to_i,
-          level_source: level_source )
+      log_milestone(level_source, params)
 
-      user_level = UserLevel.where(user: current_user, level: level).first_or_create
-      user_level.attempts += 1 unless user_level.best?
-      user_level.best_result = user_level.best_result ?
-          [test_result, user_level.best_result].max :
-          test_result
-      user_level.save!
+      if current_user
+        authorize! :create, Activity
+        authorize! :create, UserLevel
 
-      if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
-        current_user.total_lines += lines
-        current_user.save!
-      end
+        Activity.create!(
+            user: current_user,
+            level: level,
+            action: solved,
+            test_result: test_result,
+            attempt: params[:attempt].to_i,
+            lines: lines,
+            time: params[:time].to_i,
+            level_source: level_source )
 
-      total_lines = current_user.total_lines
+        user_level = UserLevel.where(user: current_user, level: level).first_or_create
+        user_level.attempts += 1 unless user_level.best?
+        user_level.best_result = user_level.best_result ?
+            [test_result, user_level.best_result].max :
+            test_result
+        user_level.save!
 
-      begin
-        trophy_updates = trophy_check(current_user)
-      rescue Exception => e
-        Rails.logger.error "Error updating trophy exception: #{e.inspect}"
-      end
-      
-      if trophy_updates.length > 0
-        prize_check(current_user)
-      end
-    else
-      session_progress = session[:progress] || {}
+        if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
+          current_user.total_lines += lines
+          current_user.save!
+        end
 
-      if test_result > session_progress.fetch(level.id, -1)
-        session_progress[level.id] = test_result
-        session[:progress] = session_progress
-      end
+        total_lines = current_user.total_lines
 
-      total_lines = session[:lines] || 0
+        begin
+          trophy_updates = trophy_check(current_user)
+        rescue Exception => e
+          Rails.logger.error "Error updating trophy exception: #{e.inspect}"
+        end
 
-      if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
-        total_lines += lines
-        session[:lines] = total_lines
+        if trophy_updates.length > 0
+          prize_check(current_user)
+        end
+      else
+        session_progress = session[:progress] || {}
+
+        if test_result > session_progress.fetch(level.id, -1)
+          session_progress[level.id] = test_result
+          session[:progress] = session_progress
+        end
+
+        total_lines = session[:lines] || 0
+
+        if lines > 0 && test_result >= Activity::MINIMUM_PASS_RESULT
+          total_lines += lines
+          session[:lines] = total_lines
+        end
       end
     end
 
@@ -275,7 +279,7 @@ class ActivitiesController < ApplicationController
     end
     log_string += "\t#{request.remote_ip}\t#{params[:app]}\t#{params[:level]}\t#{params[:result]}" +
                   "\t#{params[:testResult]}\t#{params[:time]}\t#{params[:attempt]}\t#{params[:lines]}"
-    log_string += level_source.id ? "\t#{level_source.id.to_s}" : "\tnone"
+    log_string += "\t#{level_source.id.to_s}"
     log_string += "\t#{request.user_agent}"
     
     milestone_logger.info log_string
