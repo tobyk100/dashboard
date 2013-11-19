@@ -2,16 +2,20 @@ require 'fileutils'
 
 namespace :blockly do
 
-  def npm_project
+  def dist_project
     'blockly-mooc'
   end
 
-  def npm_root
-    "https://registry.npmjs.org/#{npm_project}"
+  def dist_root
+    "https://s3.amazonaws.com/cdo-dist/#{dist_project}"
   end
 
-  def npm_file(version)
-    "#{npm_root}/-/#{npm_project}-#{version}.tgz"
+  def dist_version
+    "#{dist_root}/VERSION"
+  end
+
+  def dist_file(version)
+    "#{dist_root}/#{dist_project}-v#{version}.tgz"
   end
 
   def dest
@@ -28,16 +32,15 @@ namespace :blockly do
   end
 
   task latest: :environment do
-    puts "Asking #{npm_root} for latest version number"
-    metadata = `curl --silent --insecure #{npm_root}`
-    latest = metadata.scan(/"latest":"(.*?)"/)[0][0]
+    puts "Asking #{dist_version} for latest version number"
+    latest = `curl --silent --insecure #{dist_version}`
     puts "Latest version: #{latest}"
     Rake::Task['blockly:get'].invoke(latest)
   end
 
   task :get, [:version] => :environment do |t, args|
     clean!
-    filepath = npm_file(args[:version])
+    filepath = dist_file(args[:version])
     puts "Downloading and extracting #{filepath}"
     curl_cmd = "curl --silent --insecure #{filepath}"
     dirname = File.dirname(dest)
