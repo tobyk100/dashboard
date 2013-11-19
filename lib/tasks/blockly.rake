@@ -55,7 +55,7 @@ namespace :blockly do
     unless src
       raise 'Expected argument: path to blockly mooc source.'
     end
-    fullsrc = "#{File.absolute_path(src)}/dist"
+    fullsrc = "#{File.absolute_path(src)}/build/package"
     unless File.directory?(fullsrc)
       raise "No such directory: #{fullsrc}"
     end
