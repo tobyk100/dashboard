@@ -68,80 +68,77 @@
   password:
     reset_form:
       title: "忘记了您的密码吗？"
-      email: "Email address"
-      submit: "Send me reset password instructions"
+      email: "电子邮件地址"
+      submit: "发送给我重置密码的指令"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
-      confirm_password: "Confirm new password"
-      submit: "Change my password"
+      title: "更换密码"
+      new_password: "新密码"
+      confirm_password: "确认新密码"
+      submit: "更改我的密码"
   welcome_email:
-    subject: "Join my class (on Code.org)"
+    subject: "加入我所在的班级"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
-      
-      %{link}
-      
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
-      
+      请单击下面的链接来报名参加计算机科学教程（我将成为你的"老师"）： 
+      %{链接} 
+      本教程轻松有趣吸引眼球，它将教导您如何使用一个简单的、 指导性的、 类似游戏经验的计算机科学的基本概念。快来学习从比尔 · 盖茨、 马克 · 扎克伯格到愤怒的小鸟、 植物大战僵尸的代码吧 ！:-) 
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "发送邀请"
+    added_teacher: "添加%{name}为你的老师"
+    registered: "您已成功注册%{section_name}，请登录后继续。"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "请在注销后继续下一步操作。"
+      username_not_found: "找不到用户名 %{用户名}"
+      username_in_use: "%{用户名} 已经被占用，请选择其他用户名。"
+      no_teacher: "找不到用户名 %{teacher_email_or_code}。请让该用户先注册，再次尝试添加。"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "加入 %{teacher_name} 老师的班级吧！"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "您没有权限访问此人的信息。"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "奖品兑换: %{name}"
+    provider: "提供者"
+    code: "代码："
     providers:
-      apple_itunes: "Apple iTunes"
+      apple_itunes: "苹果 iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "传送门"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "您已经完成了所有教程。领取全部的奖金后再挑选另外一个课程吧： %{online_link} 或 {local_school_link} %"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "选择奖励："
+      earned: "你获得了一个奖励！"
+      not_earned: "收集所有 %{num_trophies} 奖杯，即可赢取大奖哦 ！"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 个或以上的学生集齐所有 %{num_trophies} 奖杯，你就能获得教师奖了哦！"
+        not_earned: "只要10个 学生集齐所有 %{num_trophies} 奖杯，你就能获得一个奖励 ！"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          earned: "集齐奖杯的学生中有40%或以上为女性学员，你就能获得额外的奖励！"
           not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "New %{model}"
-    show: "Show"
-    edit: "Edit"
-    edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    show: "显示"
+    edit: "编辑"
+    edit_model: "编辑 %{型号}"
+    update: "更新"
+    destroy: "销毁"
+    back: "返回"
+    confirm: "是否确定？"
+    created: "%{model} 已成功创建。"
+    updated: "%{model} 已成功更新。"
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "我已经完成了我的Hour of Code项目。"
+      sign_in_to_save: "登录以保存进度"
     user:
-      classroom: "My students"
+      classroom: "我的学生"
       label: "你好%{username}"
       stats: "我的进程"
       settings: "我的账户"

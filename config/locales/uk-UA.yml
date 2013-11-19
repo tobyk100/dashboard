@@ -189,13 +189,13 @@
     teacher_student_count: "У вас %{count} студентів."
     teacher_averages: 'У середньому ваші студенти вже здобули %{trophy_average} із %{trophy_max} трофеїв "Concept Mastery".'
     classroom: "Ваш клас"
-    student_progress: "Your learning progress"
+    student_progress: "Ваші навчальні досягнення"
     student_stats: 'Ви здобули %{trophy_count} із %{trophy_max} трофеїв "Concept Mastery".'
     student_left_off: "Де ви зупинилися:"
     student_finished: "Ви вже завершили усі підручники, вимагайте свій %{prize_link} та виберіть інший клас %{online_link} або %{local_school_link}"
     local_school: "місцева школа"
     online: "онлайн"
-    see_details: "See details"
+    see_details: "Див. докладніше"
   gender:
     male: "Чоловік"
     female: "Жінка"

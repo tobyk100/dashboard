@@ -27,31 +27,31 @@
   more: "MEHR"
   less: "WENIGER"
   try_hoc: "Versuchen Sie, The Hour of Code, klicken Sie hier >> "
-  try_k8intro: "Oder, versuchen Sie unseren K-8 Einführungskurs in Computer Science (15-25 Stunden)"
+  try_k8intro: "Oder, versuchen Sie unseren Einführungskurs bis 8. Klasse in Informatik (15-25 Stunden)"
   already_started: "Schon begonnen? Hier fortsetzen >> "
   demos: "Admin: Alle Demos"
   continue: "Weiter"
   prize: "Preis"
   auth:
     sign_in_with: "Anmelden mit %{provider}"
-    signed_in: "Eingeloggt!"
-    already_signedup: "Bereits angemeldet?"
-    notyet_signedup: "Noch nicht angemeldet?"
-    google_oauth2: "Google +"
+    signed_in: "Angemeldet!"
+    already_signedup: "Bereits registriert?"
+    notyet_signedup: "Noch nicht registriert?"
+    google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Passwort vergessen?"
     need_confirmation: "Keine Anmeldebestätigung erhalten?"
-    need_unlock: "Keine Anweisungen zum entsperren erhalten?"
+    need_unlock: "Keine Anweisungen zum Entsperren erhalten?"
   signup_form:
-    title: "Anmelden"
+    title: "Registrieren"
     school_name: "Name der Schule (optional)"
     school_address: "Adresse der Schule (optional)"
     address_placeholder: "Adresse, Ort, Bundesland, PLZ"
     gender: "Geschlecht (optional)"
     birthday: "Geburtstag (optional)"
-    submit: "Anmelden"
+    submit: "Registrieren"
     teacher: "Sind Sie ein Lehrer?"
     valid_username: "Verfügbar!"
     invalid_username: "Benutzernamen müssen mindestens 5 Zeichen lang sein"
@@ -60,7 +60,7 @@
     invalid_password: "Das Passwort muss mindestens 6 Zeichen lang sein"
     mismatch_password: "Die eingegebenen Passwörter stimmen nicht überein"
   signin_form:
-    title: "Einloggen"
+    title: "Anmelden"
     login: "E-Mail oder Benutzername"
     password: "Passwort"
     remember: "Merken"
@@ -69,7 +69,7 @@
     reset_form:
       title: "Passwort vergessen?"
       email: "E-Mail-Adresse"
-      submit: "Send mir Anweisungen um das Kennwort zurückzusetzen"
+      submit: "Sende mir Anweisungen um das Kennwort zurückzusetzen"
     change_form:
       title: "Ändern Sie Ihr Passwort"
       new_password: "Neues Passwort"
@@ -78,22 +78,22 @@
   welcome_email:
     subject: "Besuchen Sie meine Klasse (auf Code.org)"
     body: |
-      Klicken Sie auf untenstehenden Link um sich für die Computer Science Tutorials von Code.org (mit mir als Ihrem "Lehrer") anzumelden:
+      Klicken Sie auf untenstehenden Link um sich für die Informatik Tutorials von Code.org (mit mir als Ihren "Lehrer") anzumelden:
       
       %{link}
       
-      Die Anleitungen machen Spass, sind grafisch ansprechend  und lehren das Grundkonzept der Informatik, indem einfache, geführte, Spiele ähnliche Erfahrungen verwendet werden. Lernen Sie von Bill Gates, Mark Zuckerberg, Angry Birds und Plants vs. Zombies zu programmieren! :-)
+      Die Anleitungen machen Spass, sind grafisch ansprechend und lehren das Grundkonzept der Informatik, indem einfache, geführte, Spiele ähnliche Erfahrungen verwendet werden. Lernen Sie von Bill Gates, Mark Zuckerberg, Angry Birds und Plants vs. Zombies zu programmieren! :-)
       
       %{name}
   follower:
     invite_sent: "Einladung gesendet"
-    added_teacher: "%{name} wurde als Ihr Leher hinzugefügt"
-    registered: "Sie haben sich für %{section_name} angemeldet. Loggen Sie sich ein um fortzufahren"
+    added_teacher: "%{name} wurde als Ihr Lehrer hinzugefügt"
+    registered: "Sie haben sich für %{section_name} registriert. Melden Sie sich an um fortzufahren"
     error:
       signed_in: "Bitte melden Sie sich ab bevor Sie fortfahren"
       username_not_found: "Benutzername %{username} wurde nicht gefunden"
       username_in_use: "%{username} ist bereits vergeben, bitte wählen Sie einen anderen"
-      no_teacher: "Es konnte niemand angemeldet mit '%{teacher_email_or_code}' gefunden werden. Bitten Sie bitte diejenigen sich hier anzumelden und versuchen Sie dann erneut sie hinzuzufügen."
+      no_teacher: "Es konnte niemand angemeldet mit '%{teacher_email_or_code}' gefunden werden. Bitten Sie bitte denjenigen sich hier registrieren und versuchen Sie es dann erneut."
     mail:
       invite_student:
         subject: "Besuchen Sie eine Klasse von %{teacher_name} auf Code.org!"
@@ -114,17 +114,17 @@
       ea_fifa: "EA Origin FIFA Fussball 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Sie haben alle Tutorials abgeschlossen. Nachdem Sie Ihren Preis beansprucht haben, wählen Sie eine andere Klasse %{online_link} oder in einer %{local_school_link}"
     msg:
       choose: "Wähle einen Preis:"
       earned: "Du hast dir einen Preis verdient!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      not_earned: "Sammeln Sie alle %{num_trophies} Trophäen um einen Preis zu gewinnen!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 oder mehr Studenten haben alle %{num_trophies} Trophäen gesammelt. Sie haben einen Lehrer-Preis gewonnen!"
+        not_earned: "Wenn 10 Studenten alle %{num_trophies} Trophäen gesammelt haben gewinnen Sie einen Preis!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% oder mehr von Ihren Schülern, die alle %{num_trophies} Trophäen gesammelt sind weiblich. Sie haben einen Bonus-Preis gewonnen!"
+          not_earned: "Wenn 10 oder mehr Schüler alle %{num_trophies} Trophäen gesammelt haben und mindestens 40 % der Schüler weiblich sind, gewinnen Sie einen Bonus-Preis!"
   crud:
     new_model: "Neu %{model}"
     show: "Anzeigen"
@@ -138,8 +138,8 @@
     updated: "%{model} wurde erfolgreich aktualisiert."
   nav:
     header:
-      finished_hoc: "Ich habe meine Hour of Code beendet."
-      sign_in_to_save: "Melden Sie sich an, um Ihren Fortschritt zu speichern"
+      finished_hoc: "Ich habe meine Programmierstunde beendet."
+      sign_in_to_save: "Melden Sie sich an um Ihren Fortschritt zu speichern"
     user:
       classroom: "Meine Schüler"
       label: "Hallo %{username}"
@@ -156,7 +156,7 @@
       mastery: "Konzepte"
       puzzle_map: "Teile"
       prizes: "Sammeln Sie alle %{total_trophies} Trophäen und gewinnen Sie Preise!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Alle %{total_trophies} Trophäen gesammelt. Preis gewonnen!"
       prizes_link: "weitere Informationen"
   teacher:
     title:
@@ -167,12 +167,12 @@
       manage: "Studenten verwalten"
       add: "Schüler hinzufügen"
     rollup: "Fortschrittsanzeige"
-    activity: "Letze Aktivitäten der Klasse"
+    activity: "Letzte Aktivitäten der Klasse"
   user:
     new_password_hint: "(freilassen, wenn Sie es nicht verändern möchten)"
     current_password_hint: "(wir benötigen Ihr aktuelle Kennwort, um Ihre Änderungen zu bestätigen)"
     cancel:
-      title: "Mein Konto kündigen"
+      title: "Mein Konto auflösen"
       hint: "Unglücklich?"
       button: "Mein Konto kündigen"
   user_level:
@@ -187,22 +187,22 @@
     teacher_reg_link: "Lehrer - hier starten"
     teacher_dashboard: "Fortschrittsanzeige einsehen"
     teacher_student_count: "Sie haben %{count} Studenten."
-    teacher_averages: 'Im Durchschnitt haben Ihre Studenten %{trophy_average} von %{trophy_max} "Concept Mastery" Punkten erreicht.'
+    teacher_averages: 'Im Durchschnitt haben Ihre Schüler %{trophy_average} von %{trophy_max} "Concept Mastery" Trophäen erreicht.'
     classroom: "Ihr Klassenzimmer"
-    student_progress: "Your learning progress"
-    student_stats: 'Sie haben %{trophy_count} von %{trophy_max} "Concept Mastery" Punkten.'
+    student_progress: "Ihr Lernfortschritt"
+    student_stats: 'Sie haben %{trophy_count} von %{trophy_max} "Concept Mastery" Trophäen.'
     student_left_off: "Wo Sie aufgehört haben:"
     student_finished: "Sie haben alle Tutorials abgeschlossen, holen Sie sich Ihren %{prize_link} und wählen Sie eine andere Klasse über den %{online_link} oder in Ihrer %{local_school_link}"
     local_school: "örtliche Schule"
     online: "online"
-    see_details: "See details"
+    see_details: "Zeige Details"
   gender:
     male: "Männlich"
     female: "Weiblich"
     none: "Möchte ich nicht beantworten"
   footer:
     help_from_html: 'Ingenieure von <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, und <a href="http://www.twitter.com">Twitter</a> haben geholfen diese Anleitungen zu erstellen.'
-    art_from_html: 'Artwork von <a href="http://www.angrybirds.com">Angry Birds</a> von <a href="http://www.rovio.com">Rovio</a>, und <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> von <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Bildmaterial von <a href="http://www.angrybirds.com">Angry Birds</a> von <a href="http://www.rovio.com">Rovio</a>, und <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> von <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: "Feedback geben"
     translate: "Helfen Sie uns in Ihre Sprache zu übersetzen"
     tos: "Nutzungsbedingungen"
@@ -218,7 +218,7 @@
     subtitle: "Sehen Sie sich diese Videos und Hinweise an"
   video:
     tab: "Video."
-    notes: "Kein Video? Notizen anzeigen."
+    notes: "Kein Video? Im Text Format anzeigen."
     autoplay_option: "Autoplay Videos"
   compatability:
     working: "Wir arbeiten an der Unterstützung für Ihren Browser."

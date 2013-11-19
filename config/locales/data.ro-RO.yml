@@ -3,8 +3,8 @@
     script:
       name:
         20-hour: Introducerea K-8 la cursul de Informatică
-        Hour of Code: "Oră de cod"
-        Edit Code: "Editează codul"
+        Hour of Code: "Oră de Cod"
+        Edit Code: "Editează Codul"
     game:
       name:
         Maze: "Labirintul"
@@ -25,7 +25,7 @@
     concept:
       description:
         sequence: "Secvenţă"
-        if: "bloc dacă"
+        if: "bloc Dacă"
         if_else: "bloc dacă-altfel"
         loop_times: "bloc repetă ori"
         loop_until: "bloc repetă până la"
@@ -35,7 +35,7 @@
         parameters: "Funcţii cu parametri"
     level:
       instructions:
-        maze_2_2: 'Salut! Am nevoie să obţin Porcuşorul Verde! Stivuieşte o pereche de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta să ajung la el. '
+        maze_2_2: 'Salut! Am nevoie să ajung la Porcuşorul Verde! Stivuieşte o pereche de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta să ajung la el. '
         maze_2_1: "Scrie-mi un alt program, astfel încât să reuşesc să ajung până la porcușorul verde. "
         maze_2_2_5: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"
         maze_2_3: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"

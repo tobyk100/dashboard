@@ -189,13 +189,13 @@
     teacher_student_count: "Você tem %{count} alunos."
     teacher_averages: 'Em média os seus alunos ganharam %{trophy_average} de %{trophy_max} em troféus de "Conceito de Maestria".'
     classroom: "Sua sala de aula"
-    student_progress: "Your learning progress"
+    student_progress: "Seu progresso de aprendizagem"
     student_stats: 'Você ganhou  %{trophy_count} de %{trophy_max} em troféus de "Conceito de Maestria".'
     student_left_off: "Onde você parou:"
     student_finished: "Você completou todos os tutoriais, reivindicar seu %{prize_link} e escolha outra aula em %{online_link} ou %{local_school_link}"
     local_school: "escola local"
     online: "on-line"
-    see_details: "See details"
+    see_details: "Ver detalhes"
   gender:
     male: "Masculino"
     female: "Feminino"

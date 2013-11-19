@@ -189,20 +189,20 @@
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'I gjennomsnitt har dine elever fått %{trophy_average} av totalt %{trophy_max}  pokaler for "Konseptmestring".'
     classroom: "Ditt klasserom"
-    student_progress: "Your learning progress"
+    student_progress: "Din læringskurve"
     student_stats: "Du har fått %{trophy_count} av maks %{trophy_max} pokaler for Konseptmestring."
     student_left_off: "Der du slapp:"
     student_finished: "Du har fullført alle opplæringsprogrammer. Krev din %{prize_link} og velg en annen klasse %{online_link} eller på %{local_school_link}"
     local_school: "den lokale skolen"
     online: "på nett"
-    see_details: "See details"
+    see_details: "Se detaljer"
   gender:
     male: "Mann"
     female: "Kvinne"
     none: "Foretrekker å ikke svare"
   footer:
     help_from_html: 'Ingeniører fra <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> og <a href="http://www.twitter.com">Twitter</a> har bidratt til å skape dette opplæringsprogrammet.'
-    art_from_html: 'Kunstverk fra <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Grafikk fra <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: "Gi tilbakemelding"
     translate: "Hjelpe oss med å oversette til ditt språk"
     tos: "Bruksvilkår"

@@ -1,11 +1,11 @@
 "de":
   devise:
     confirmations:
-      confirmed: "Ihr Konto wurde erfolgreich bestätigt. Sie sind jetzt eingeloggt."
+      confirmed: "Ihr Konto wurde erfolgreich bestätigt. Sie sind jetzt angemeldet."
       send_instructions: "Sie erhalten eine E-Mail mit Anweisungen wie Sie Ihr Konto bestätigen in wenigen Minuten."
       send_paranoid_instructions: "Wenn deine Email-Adresse in unserer Datenbank vorhanden ist, wirst du in einigen Minuten eine Email mit weiteren Anweisungen bekommen, wie du dein Konto bestätigen kannst."
     failure:
-      already_authenticated: "SIe sind bereits eingeloggt."
+      already_authenticated: "SIe sind bereits angemeldet."
       inactive: "Ihr Account wurde bisher noch nicht aktiviert."
       invalid: "Ungültige E-Mail oder Passwort."
       invalid_token: "Ungültiger Authentifizierungs-Token."
@@ -23,35 +23,35 @@
         subject: "Freischaltungs Anweisungen"
     omniauth_callbacks:
       failure: 'Du konntest nicht authentifiziert werden von %{kind} wegen "%{reason}".'
-      success: "Erfolgreich authentifiziert von  %{kind} Konto."
+      success: "Erfolgreich authentifiziert vom  %{kind} Konto."
     passwords:
-      no_token: "Du kannst auf diese Seite nicht zugreifen, wenn du nicht von einer Email zur Passwort-Zurücksetzungs kommst. Wenn du von einer Passwort-Zurücksetzungs-Email kommst, dann stelle sicher, dass du die komplette URL verwendest."
+      no_token: "Du kannst auf diese Seite nicht zugreifen, wenn du nicht von einer E-Mail zur Passwort-Zurücksetzung kommst. Wenn du von einer Passwort-Zurücksetzungs-Email kommst, dann stelle sicher, dass du die komplette URL verwendest."
       send_instructions: "Du erhälst eine Email mit Anweisungen wie du dein Passwort zurücksetzen kannst in wenigen Minuten."
       send_paranoid_instructions: "Wenn deine Email-Adresse in unserer Datenbank vorhanden ist, wirst du in wenigen Minuten einen Link zur Passwort-Wiederherstellung zugeschickt bekommen."
-      updated: "Dein Passwort wurde erfolgreich geändert. Du bist jetzt eingeloggt."
+      updated: "Dein Passwort wurde erfolgreich geändert. Du bist jetzt angemeldet."
       updated_not_active: "Ihr Passwort wurde erfolgreich geändert."
     registrations:
       destroyed: "Tschüss! Ihr Konto wurde erfolgreich geschlossen. Wir hoffen Sie bald wieder zu sehen."
       signed_up: "Herzlich Willkommen! Sie haben sich erfolgreich registriert."
-      signed_up_but_inactive: "Du hast dich erfolgreich registriert. Jedoch konnten wir dich noch nicht einloggen, da dein Konto noch nicht aktiviert wurde."
-      signed_up_but_locked: "Du hast dich erfolgreich registriert. Jedoch konnten wir dich noch nicht einloggen, da dein Konto gesperrt ist."
-      signed_up_but_unconfirmed: "Es wurde eine Email mit einem Bestätigungs-Link an deine Adresse verschickt. Bitte öffne den Link, um dein Konto zu aktivieren."
+      signed_up_but_inactive: "Du hast dich erfolgreich registriert. Jedoch konnten wir dich noch nicht anmelden, da dein Konto noch nicht aktiviert wurde."
+      signed_up_but_locked: "Du hast dich erfolgreich registriert. Jedoch konnten wir dich noch nicht anmelden, da dein Konto gesperrt ist."
+      signed_up_but_unconfirmed: "Es wurde eine Email mit einem Bestätigungs-Link an deine E-Mail Adresse verschickt. Bitte öffne den Link, um dein Konto zu aktivieren."
       update_needs_confirmation: "Sie haben Ihr Konto erfolgreich aktualisiert, aber Sie müssen Ihre neue E-Mail Adresse noch verifzieren. Bitte überprüfen Sie Ihe E-Mails und klicken sie auf den Bestätigungslink um die Verifizierung abzuschließen."
       updated: "Sie haben Ihr Konto erfolgreich aktualisiert."
     sessions:
-      signed_in: "Erfolgreich eingeloggt."
-      signed_out: "Erfolgreich ausgeloggt."
+      signed_in: "Erfolgreich angemeldet."
+      signed_out: "Erfolgreich abgemeldet."
     unlocks:
       send_instructions: "Du wirst in wenigen Minuten eine Email mit Aweisungen erhalten, wie du dein Konto bestätigen kannst."
       send_paranoid_instructions: "Wenn dein Konto vorhanden ist, wirst du in wenigen Minuten eine Email mit Anweisungen erhalten, wie du es entsperren kannst."
-      unlocked: "Dein Konto wurde erfolgreich freigeschalten. Bitte melde dich an, um fortzufahren."
+      unlocked: "Dein Konto wurde erfolgreich freigeschaltet. Bitte melde dich an, um fortzufahren."
   errors:
     messages:
       already_confirmed: "wurde bereits bestätigt, bitte melde dich an"
-      confirmation_period_expired: "muss innerhalb von %{period} bestätigt werden. Bitte fordere eine neue an"
+      confirmation_period_expired: "muss innerhalb von %{period} bestätigt werden, bitte fordere einen Neuen an"
       expired: "ist abgelaufen, bitte fordern Sie erneut eine an"
       not_found: "nicht gefunden"
       not_locked: "war nicht gesperrt"
       not_saved:
-        one: "1 Fehler verhinderte dieses %{resource} vom gespeichert werden:"
-        other: "%{count} Fehler verhinderten dieses %{resource} vom gespeichert werden:"
+        one: "1 Fehler verhinderte das Speichern von %{resource}:"
+        other: "%{count} Fehler verhinderten das Speichern von %{resource}:"

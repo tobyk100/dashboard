@@ -3,10 +3,10 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Bine aţi venit la prima oră de cod! Haideţi să pătrundem direct în prima încercare de programare."
+        text: "Bine ai venit la prima oră de cod! Hai să pătrundem direct în prima încercare de programare."
       2:
         image: "notes/hoc1_2.png"
-        text: "Vom folosi Blockly, un limbaj de programare vizuală, în care trageţi si scăpaţi blocuri pentru a scrie un cod."
+        text: "Vom folosi Blockly, un limbaj de programare vizuală, în care tragi si scapi blocuri pentru a scrie un cod."
       3:
         image: "notes/hoc1_3.png"
         text: 'Majoritatea codului e scris, dar Blockly e vizual. Fiecare bloc corespunde unei linii de cod "real".'
@@ -73,7 +73,7 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: 'Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul "Repetaţi până când".'
+        text: 'Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul "repetaţi până când".'
       2:
         image: "notes/hoc3_2.png"
         text: "Cum ar fi dacă nu am ști cât de departe trebuie pasărea să se mute pentru a ajunge la porc?"

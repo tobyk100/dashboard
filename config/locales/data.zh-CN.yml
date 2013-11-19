@@ -2,47 +2,47 @@
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
+        20-hour: K-8 计算机科学课程简介
         Hour of Code: "Hour of Code"
-        Edit Code: "Edit Code"
+        Edit Code: "编辑代码"
     game:
       name:
-        Maze: "The Maze"
-        Artist: "The Artist"
-        Artist2: "The Artist 2"
-        Farmer: "The Farmer"
-        Artist3: "The Artist 3"
-        Farmer2: "The Farmer 2"
-        Artist4: "The Artist 4"
-        Farmer3: "The Farmer 3"
-        Artist5: "The Artist 5"
-        MazeEC: "The Artist"
+        Maze: "迷宫"
+        Artist: "艺术家"
+        Artist2: "艺术家 2"
+        Farmer: "农夫"
+        Artist3: "艺术家 3"
+        Farmer2: "农民 2"
+        Artist4: "艺术家 4"
+        Farmer3: " 农夫3"
+        Artist5: "艺术家 5"
+        MazeEC: "艺术家"
     trophy:
       name:
-        Bronze: "Bronze"
-        Silver: "Silver"
-        Gold: "Gold"
+        Bronze: "铜色"
+        Silver: "银色"
+        Gold: "金色"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
-        function: "Functions"
-        parameters: "Functions with parameters"
+        sequence: "序列"
+        if: "”假设“板块"
+        if_else: "”假设其他“板块"
+        loop_times: "”重复次数“版块"
+        loop_until: '”重复...直到..."版块'
+        loop_while: "“同时”版块"
+        loop_for: "“计数”版块"
+        function: "函数"
+        parameters: "参数函数"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: "嘿！我要找到绿色小猪！请堆叠几个“向前”的模块，按下“运行程序”来帮助我到达那里吧！"
+        maze_2_1: "再写一个程序来帮助我直达绿色小猪所在处吧！"
+        maze_2_2_5: "怎样才能到达绿色小猪那里呢？（小心炸药）"
+        maze_2_3: "怎样才能到达绿色小猪那里呢？（小心炸药）"
+        maze_2_4: "啊！编写一个程序来帮助我绕过炸弹直达绿色小猪吧！"
+        maze_2_5: "只需两个模块我就能到达绿色小猪了，你能找到吗？"
+        maze_2_6: "尝试一下只用三个模块就把我送到绿色小猪的身边吧。"
+        maze_2_7: "用最少数量的模块编写一个程序帮助我找到绿色小猪吧，请至少使用一次“重复次数”模块。"
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"

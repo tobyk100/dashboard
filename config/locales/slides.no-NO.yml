@@ -33,7 +33,7 @@
         text: 'Hver blokk er en instruksjon. Hvis du drar en "fremover" blokk til arbeidsområdet og trykker "Kjør programmet", flyttes fuglen en plass på labyrinten.'
       11:
         image: "notes/hoc1_11.png"
-        text: "For å gjøre mer enn én handling, kan du dra mange blokker til arbeidsområdet og legge dem sammen. Fuglen vil gjøre kommandoene fra topp til bunn."
+        text: "For å utføre mer enn én handling, kan du dra mange blokker til arbeidsområdet og legge dem sammen. Fuglen vil utføre kommandoene fra topp til bunn."
       12:
         image: "notes/hoc1_12.png"
         text: 'Hvis du kjører et program og ønsker å fikse det for å prøve på nytt, kan du trykke på "Reset"-knappen.'

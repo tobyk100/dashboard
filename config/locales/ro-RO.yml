@@ -189,13 +189,13 @@
     teacher_student_count: "Ai %{count} elevi."
     teacher_averages: 'În medie, elevii tăi au câștigat %{trophy_average} din %{trophy_max} trofee de "Concept de Măestrie"'
     classroom: "Clasa ta"
-    student_progress: "Your learning progress"
+    student_progress: "Progresul de învăţare"
     student_stats: 'Ai câştigat %{trophy_count} din %{trophy_max} trofee de "Concept de Măestrie"'
     student_left_off: "Unde ai rămas:"
     student_finished: "Ai completat toate tutorialele, revendică-ți %{prize_link} și alege altă clasă % {online_link} sau la o % {local_school_link}"
     local_school: "şcoală locală"
     online: "online"
-    see_details: "See details"
+    see_details: "Vezi detalii"
   gender:
     male: "Masculin"
     female: "Feminin"
