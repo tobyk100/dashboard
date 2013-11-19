@@ -33,7 +33,7 @@ namespace :blockly do
 
   task latest: :environment do
     puts "Asking #{dist_version} for latest version number"
-    latest = `curl --silent --insecure #{dist_version}`
+    latest = `curl --silent --insecure #{dist_version}`.strip
     puts "Latest version: #{latest}"
     Rake::Task['blockly:get'].invoke(latest)
   end

@@ -46,7 +46,7 @@ fi
 export CDO_BUILD_PATH=/usr/src
 
 if [[ ! -f $CDO_BUILD_PATH/ruby-2.0.0-p247.tar.gz ]]; then
-  wget -P $CDO_BUILD_PATH http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+  wget -P $CDO_BUILD_PATH https://s3.amazonaws.com/cdo-dist/ruby/ruby-2.0.0-p247.tar.gz
   tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/ruby-2.0.0-p247.tar.gz
   (
     cd $CDO_BUILD_PATH/ruby-2.0.0-p247
@@ -84,8 +84,8 @@ service nginx restart
 # Configure Node.js
 if [[ $CDO_DEV ]]; then
   if [[ ! -d $CDO_BUILD_PATH/node-0.10.20 ]]; then
-    wget -P $CDO_BUILD_PATH https://github.com/joyent/node/archive/v0.10.20.tar.gz
-    tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/v0.10.20.tar.gz
+    wget -P $CDO_BUILD_PATH https://s3.amazonaws.com/cdo-dist/nodejs/nodejs-v0.10.20.tar.gz
+    tar -C $CDO_BUILD_PATH -xzvf $CDO_BUILD_PATH/nodejs-v0.10.20.tar.gz
     (
       cd $CDO_BUILD_PATH/node-0.10.20
       ./configure
