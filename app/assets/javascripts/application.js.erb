@@ -52,13 +52,7 @@ function showVideo(options) {
   body.append(notesDiv);
   getShowNotes(options.key, notesDiv);
 
-  var dialog = new Dialog({
-    body: body,
-    redirect : options.redirect,
-    onHidden : function(e) {
-       $(dialog.div).remove();
-    }
-  });
+  var dialog = new Dialog({ body: body, redirect : options.redirect });
   $div = $(dialog.div);
   $div.addClass('video-modal');
 
@@ -147,6 +141,7 @@ function Dialog(options) {
   // When the dialog is hidden, unhook the keydown event handler.
   // If onHidden option is passed in, call that as well.
   // If redirect option is passed in, redirect the page.
+  // After that, close the dialog.
   $(this.div).on(
       'hidden.bs.modal',
       function() {
@@ -159,6 +154,7 @@ function Dialog(options) {
         if (options.redirect) {
           window.location.href = options.redirect;
         }
+        $(this.div).remove();
   });
 
   if (options.onKeydown) {
@@ -183,11 +179,6 @@ Dialog.prototype.show = function(options) {
   }, this));
 
   this.div.offset(options);
-}
-Dialog.prototype.hide = function() {
-  // Hide let's bootstrap cleanup first, then we remove.
-  $(this.div).modal('hide');
-  $(this.div).remove();
 }
 
 $(document).ready(function() {
