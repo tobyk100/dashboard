@@ -22,8 +22,8 @@
       unlock_instructions:
         subject: "Instruções de desbloqueio"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: 'Não foi possível autenticá-lo como %{kind} porque "%{reason}".'
+      success: "Autenticado com êxito com a conta  %{kind}."
     passwords:
       no_token: "Você não pode aceder a esta página sem ter vindo de um  e-mail para redefinição da senha. Se você vem de um email de redefinição da senha, certifique-se que usou o URL completo."
       send_instructions: "Você receberá um e-mail com instruções sobre como redefinir a sua senha em alguns minutos."
@@ -48,10 +48,10 @@
   errors:
     messages:
       already_confirmed: "já foi confirmado, por favor, tente entrar"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      confirmation_period_expired: "precisa de ser confirmado dentro de %{period}, por favor, solicite um novo"
       expired: "expirou, por favor solicite uma nova"
       not_found: "' não encontrado"
       not_locked: "Não foi bloqueado"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 erro proibido este %{resource} de ser salvo:"
+        other: "%{count} erros não permite este %{resource} sendo salvo:"

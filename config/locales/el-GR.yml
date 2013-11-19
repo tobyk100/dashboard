@@ -189,12 +189,13 @@
     teacher_student_count: "Εχεις %{count} μαθητές."
     teacher_averages: 'Οι μαθητές σου έχουν κερδίσει κατά μέσο όρο %{trophy_average} από %{trophy_max} βραβεία "Μαεστρίας".'
     classroom: "Η αίθουσά σου"
-    student_progress: "Η πρόοδός σου ως μαθητής"
+    student_progress: "Your learning progress"
     student_stats: 'Κέρδισες %{trophy_count} από %{trophy_max} τρόπαια "Μαεστρίας".'
     student_left_off: "Εκεί που έφυγες:"
     student_finished: "Ολοκλήρωσες όλα τα εισαγωγικά μαθήματα, πάρε το %{prize_link} και διάλεξε ένα άλλο μάθημα %{online_link} ή στο %{local_school_link}"
     local_school: "τοπικό σχολείο"
     online: "σε σύνδεση"
+    see_details: "See details"
   gender:
     male: "Αγόρι"
     female: "Κορίτσι"

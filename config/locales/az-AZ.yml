@@ -189,12 +189,13 @@
     teacher_student_count: "Sizin %{count} tələbəniz var."
     teacher_averages: 'Sizin tələbələriniz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan orta hesabla %{trophy_average} saydasını qazandılar.'
     classroom: "Sinifiniz"
-    student_progress: "Sizin tələbə kimi inkişafınız"
+    student_progress: "Your learning progress"
     student_stats: 'Siz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan %{trophy_count} saydasını qazandınız.'
     student_left_off: "Sizin sonuncu qaldığınız yer:"
     student_finished: "Siz bütün tədris materialını bitirdiniz, %{prize_link} -nizi tələb edin və %{online_link} ve ya %{local_school_link} -da başqa dərs seçin"
     local_school: "yerli məktəb"
     online: "onlayn"
+    see_details: "See details"
   gender:
     male: "Kişi"
     female: "Qadın"

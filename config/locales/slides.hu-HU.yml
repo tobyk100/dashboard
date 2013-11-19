@@ -108,13 +108,13 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Szia a nevem Erika. Én a számítógép-tudományt arra használom, hogy tudjak segíteni megoldani egészségügyi és orvostudományi problémákat. Ismerjük meg a "ha más" blokkot.Olyan mint a "ha" blokk csak van egy más része is a "más" ("ha" nélkül használva "másképp" a neve).'
+        text: 'Szia a nevem Erika. Én a számítógép-tudományt arra használom, hogy tudjak segíteni megoldani egészségügyi és orvostudományi problémákat. Ismerjük meg a "ha más" blokkot.Olyan mint a "ha" blokk csak van egy más része is a "másképp" .'
       2:
         image: "notes/hoc5_2.png"
         text: 'Ha teszel egy "előrelépés" blokkot a "csináld" helyett és a "balra fordul" blokkot a "másképp" helyére azt jelenti hogy a zombi 2 lehetőség közül kell válasszon. HA van út előre akkor a zombi előre halad MÁSKÉPP (nincs út előre), a zombi balra fordul.'
       3:
         image: "notes/hoc5_3.png"
-        text: 'Csakúgy mint a "ha" blokkot a "ha más" blokkot is betehetjük ismétlő blokkba, tehát a "ha más" blokk ellenőrizni fogja ha lehet valamerre fordulni.'
+        text: 'Csakúgy mint a "ha" blokkot a "ha más" blokkot is betehetjük ismétlő blokkba, tehát a "másképp ha" blokk ellenőrizni fogja ha lehet valamerre fordulni.'
       4:
         image: "notes/hoc5_4.png"
         text: "Most vidd a zombikat oda ahova tartoznak!"

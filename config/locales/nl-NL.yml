@@ -189,12 +189,13 @@
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
     classroom: "Je klas"
-    student_progress: "Je voortgang als een student"
+    student_progress: "Your learning progress"
     student_stats: 'Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery" trofeeën.'
     student_left_off: "Waar je geëindigd bent:"
     student_finished: "Je hebt alle tutorials voltooid, claim je prijs %{prize_link} en zoek een andere klas %{online_link} of bij een %{local_school_link}"
     local_school: "lokale school"
     online: "online"
+    see_details: "See details"
   gender:
     male: "Man"
     female: "Vrouw"

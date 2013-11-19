@@ -53,12 +53,12 @@
     birthday: "Compleanno (opzionale)"
     submit: "Registrati"
     teacher: "Sei un insegnante?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Disponibile!"
+    invalid_username: "Nome utente deve essere almeno 5 caratteri"
+    taken_username: "Nome utente è già stato preso"
+    valid_password: "Password valida!"
+    invalid_password: "La password deve essere lunga almeno 6 caratteri"
+    mismatch_password: "Le due password che hai inserito non corrispondono"
   signin_form:
     title: "Accedi"
     login: "E-mail o nome utente"
@@ -101,30 +101,30 @@
     error:
       access_denied: "Non hai accesso alle statistiche di questa persona"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
+    title: "Redimere Premi: %{name}"
+    provider: "Fornitore:"
+    code: "Codice:"
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
+      valve: "Valvola Portal"
+      ea_bejeweled: "EA origine Bejeweled 3"
+      ea_fifa: "Origine EA FIFA Soccer 13"
+      ea_simcity: "EA origine SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Hai completato tutti i tutorial. Dopo che hai richiesto il tuo premio, scegliere un'altra classe %{online_link} o ad una %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Scegli un premio:"
+      earned: "Hai guadagnato un premio!"
+      not_earned: "Raccogliere tutti i %{num_trophies} trofei per vincere un premio!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 o più studenti hanno raccolto tutti i %{num_trophies} trofei. Hai vinto un premio di insegnante!"
+        not_earned: "Se 10 studenti raccolgono tutti i %{num_trophies} trofei, vincerete un premio!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% o più dei vostri studenti, che hanno raccolto tutti i %{num_trophies} trofei sono femmine. Hai vinto un premio bonus!"
+          not_earned: "Se 10 o più studenti raccolgono tutti i %{num_trophies} trofei e almeno il 40% di quei studenti sono femmine, vincerete un premio bonus!"
   crud:
     new_model: "Nuovo %{model}"
     show: "Visualizza"
@@ -156,7 +156,7 @@
       mastery: "Concetti"
       puzzle_map: "Fasi"
       prizes: "Colleziona tutti i %{total_trophies} trofei e vinci premi!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Tutti i %{total_trophies} trofei raccolti }. Premio vinto!"
       prizes_link: "più informazioni"
   teacher:
     title:
@@ -189,12 +189,13 @@
     teacher_student_count: "Hai %{count} studenti."
     teacher_averages: 'In media i tuoi studenti hanno guadagnato %{trophy_average} trofei su %{trophy_max} in "Padronanza del concetto".'
     classroom: "La tua aula"
-    student_progress: "I tuoi progressi da studente"
+    student_progress: "Your learning progress"
     student_stats: 'Hai guadagnato %{trophy_count} trofei su %{trophy_max} in "Padronanza del concetto".'
     student_left_off: "Dove avevi interrotto:"
     student_finished: "Hai completato tutti i tutorial, rivendica il tuo %{prize_link} e scegli un'altra classe %{online_link} o una %{local_school_link}"
     local_school: "scuola locale"
     online: "in linea"
+    see_details: "See details"
   gender:
     male: "Maschile"
     female: "Femminile"
@@ -207,11 +208,11 @@
     tos: "Termini di servizio"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Redimere il tuo premio presso Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Redimere il tuo premio presso Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Redimere il tuo premio bonus presso Code.org!"
   reference_area:
     title: "Hai bisogno di aiuto?"
     subtitle: "Guarda questi video e suggerimenti"

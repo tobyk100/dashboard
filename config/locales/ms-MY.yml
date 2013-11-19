@@ -182,12 +182,13 @@
     teacher_student_count: "Anda mempunyai %{count} pelajar."
     teacher_averages: 'Secara puratanya, pelajar anda mendapat %{trophy_average} daripada %{trophy_max} "Concept Mastery" trofi.'
     classroom: "Kelas anda"
-    student_progress: "Kemajuan anda sebagai seorang pelajar"
+    student_progress: "Your learning progress"
     student_stats: 'Anda telah memperolehi %{trophy_count} daripada %{trophy_max} "Concept Mastery" trofi.'
     student_left_off: "Mana anda tinggalkan:"
     student_finished: "Anda telah melengkapkan kesemua tutorial, tuntut %{prize_link} dan pilih kelas lain %{online_link} atau di %{local_school_link}"
     local_school: "sekolah tempatan"
     online: "online"
+    see_details: "See details"
   gender:
     male: "Lelaki"
     female: "Perempuan"

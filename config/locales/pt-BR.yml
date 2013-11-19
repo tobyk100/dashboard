@@ -78,17 +78,17 @@
   welcome_email:
     subject: "Junte-se à minha turma (no Code.org)"
     body: |
-      Clique no link abaixo para se inscrever para tutoriais de ciências de computação no Code.org (comigo como seu "professor"):
+      Clique no link abaixo para se inscrever para tutoriais em ciência de computação no Code.org (comigo como seu "professor"):
       
       %{link}
       
-      Os tutoriais são divertidos, visualmente envolventes e ensinam os conceitos básicos de informática usando uma experiência simples, guiada e como um jogo. Aprenda a programar com a ajuda de Bill Gates, Mark Zuckerberg, Angry Birds e Plants vs Zombies! :-)
+      Os tutoriais são divertidos, visualmente envolventes e ensinam os conceitos básicos de  computação usando uma experiência como um jogo, simples e orientada. Aprenda a programar com a ajuda de Bill Gates, Mark Zuckerberg, Angry Birds e Plants vs Zombies! :-)
       
       %{name}
   follower:
     invite_sent: "Convite enviado"
     added_teacher: "%{name} foi adicionado como seu professor"
-    registered: "Você já se registrou para %{section_name}. Inscreva-se para continuar"
+    registered: "Você já se registrou para %{section_name}. Cadastre-se para continuar"
     error:
       signed_in: "Por favor saia antes de prosseguir"
       username_not_found: "Nome de usuário %{username} não encontrado"
@@ -96,7 +96,7 @@
       no_teacher: "Não consegui encontrar ninguém que se cadastrou com '%{teacher_email_or_code}'. Por favor, peça-lhes para se inscrever aqui e tente adicioná-los novamente"
     mail:
       invite_student:
-        subject: "Junte-se a uma classe com %{teacher_name} em Code.org!"
+        subject: "Junte-se a uma aula com %{teacher_name} em Code.org!"
   reports:
     error:
       access_denied: "Você não tem acesso a estatísticas desta pessoa"
@@ -109,12 +109,12 @@
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Portal da Valve"
+      valve: "Valve Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs Zombies"
-    student_finished: "Você completou todos os tutoriais. Depois de reclamar o seu prêmio, escolha outra aula %{online_link} ou em uma %{local_school_link}"
+    student_finished: "Você completou todos os tutoriais. Depois de resgatar  seu prêmio, escolha outra aula %{online_link} ou em uma %{local_school_link}"
     msg:
       choose: "Escolha um prêmio:"
       earned: "Você ganhou um prêmio!"
@@ -123,8 +123,8 @@
         earned: "10 ou mais estudantes conquistaram todos os %{num_trophies} troféus. Você ganhou um prêmio de professor!"
         not_earned: "Se 10 estudantes conquistarem todos os %{num_trophies} troféus, você ganha um prêmio!"
         bonus:
-          earned: "40% ou mais de seus alunos que conquistaram todos os %{num_trophies} troféus são meninas. Você ganhou um prêmio de bônus!"
-          not_earned: "Se 10 ou mais estudantes conquistarem todos os %{num_trophies} troféus e se pelo menos 40% dos alunos forem meninas, ganha um prêmio bônus!"
+          earned: "40% ou mais dos alunos que colecionou todos os %{num_trophies} troféus são do sexo feminino. Você ganhou um prémio bónus!"
+          not_earned: "Se 10 ou mais estudantes colecionarem todos os %{num_trophies} troféus e se pelo menos 40% dos alunos forem do sexo feminino, você ganha um prémio bónus!"
   crud:
     new_model: "Novo %{model}"
     show: "Mostrar"
@@ -189,12 +189,13 @@
     teacher_student_count: "Você tem %{count} alunos."
     teacher_averages: 'Em média os seus alunos ganharam %{trophy_average} de %{trophy_max} em troféus de "Conceito de Maestria".'
     classroom: "Sua sala de aula"
-    student_progress: "Seu progresso como estudante"
+    student_progress: "Your learning progress"
     student_stats: 'Você ganhou  %{trophy_count} de %{trophy_max} em troféus de "Conceito de Maestria".'
     student_left_off: "Onde você parou:"
     student_finished: "Você completou todos os tutoriais, reivindicar seu %{prize_link} e escolha outra aula em %{online_link} ou %{local_school_link}"
     local_school: "escola local"
     online: "on-line"
+    see_details: "See details"
   gender:
     male: "Masculino"
     female: "Feminino"

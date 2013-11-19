@@ -191,12 +191,13 @@
     teacher_student_count: "あなたわ、%{count}の学生がいます。"
     teacher_averages: '平均であなたの学生わ %{trophy_max}のうち%{trophy_average}　"コンセプト習得"のトロフィーを獲得しています。'
     classroom: "あなたの教室"
-    student_progress: "あなの学業のプログレス"
+    student_progress: "Your learning progress"
     student_stats: '%{trophy_max}このうち%{trophy_count} の"コンセプト"習得のトロフィーを獲得しました。'
     student_left_off: "中断したところから。"
     student_finished: "すべてのチュートリアルを完了したら、あなたの %{prize_link} を主張した後、別のクラス %{online_link} か%{local_school_link}を選らんでください"
     local_school: "地元の学校"
     online: "オンライン"
+    see_details: "See details"
   gender:
     male: "男性"
     female: "女性"

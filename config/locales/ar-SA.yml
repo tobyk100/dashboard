@@ -190,12 +190,13 @@
     teacher_student_count: "لديك %{count} طلاب."
     teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
     classroom: "فصلك الدراسي"
-    student_progress: "تقدمك كطالب"
+    student_progress: "Your learning progress"
     student_stats: 'لقد حصلت %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".'
     student_left_off: "اين كنت آخر مرة:"
     student_finished: "لقد أتممت جميع الدروس, اطلب %{prize_link} وقم باختيار صف آخر %{online_link} أو في %{local_school_link}"
     local_school: "مدرسة محلية"
     online: "متصل"
+    see_details: "See details"
   gender:
     male: "ذكر"
     female: "أنثى"

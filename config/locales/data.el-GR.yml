@@ -29,7 +29,7 @@
         if_else: "Πλακίδιο Αν-Αλλιώς"
         loop_times: "Πλακίδιο Επανάλαβε Φορές"
         loop_until: "Πλακίδιο Επανέλαβε Μέχρις-ότου"
-        loop_while: "Τμήμα Όσο"
+        loop_while: "While block"
         loop_for: "Πλακίδιο Μετρητής"
         function: "Συναρτήσεις"
         parameters: "Συναρτήσεις με παραμέτρους"

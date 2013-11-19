@@ -189,12 +189,13 @@
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'Eleverna har i genomsnitt samlat %{trophy_average} av %{trophy_max} "Koncept-bemästring" troféer.'
     classroom: "Ditt klassrum"
-    student_progress: "Dina framsteg som elev"
+    student_progress: "Your learning progress"
     student_stats: 'Du har samlat %{trophy_count} av %{trophy_max} "Koncept-bemästring" troféer.'
     student_left_off: "Där du slutade senast:"
     student_finished: "Du har slutfört alla övningar, få ditt %{prize_link} och välj en annan klass %{online_link} eller på en %{local_school_link}"
     local_school: "närliggande skola"
     online: "Online"
+    see_details: "See details"
   gender:
     male: "Man"
     female: "Kvinna"

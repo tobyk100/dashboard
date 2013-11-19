@@ -36,7 +36,7 @@
         text: "Birdən çox əməliyyatı yerinə yetirməkdən ötəri, siz bir çox bloku öz iş yerinizə sürüklüyə bilər və onları bir-birlərinə qoşa bilərsiniz. Quş bu əməliyyatları yuxarıdan aşağıya doğru ardıcıllıqla yerinə yetirəcəkdir."
       12:
         image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Əgər bir proqramı icra edirsiniz və onu düzəldib yenidən cəhd etmək istəyirsinizsə, "Yenidən başla" düyməsini basın.'
       13:
         image: "notes/hoc1_13.png"
         text: "Haydı, gedək o donuzların dərsini verək!"
@@ -69,12 +69,11 @@
         text: 'And this is important: you can put more than one command inside a "repeat" block.'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Yeni "təkrar et" blokunuzu istifadə etməyin dadını çıxardın!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Salam, mənim adım Krisdir. "Miami Heat" komandasına qoşulmazdan əvvəl mən Corciya Texnologiya İnstitutunda İnformatika oxumuşam. Gəlin, yeni blokumuzu sınaqdan keçirək, "təkrar et, ona qədər ki" blokunu.'
       2:
         image: "notes/hoc3_2.png"
         text: "What if we didn't know how far the bird had to move to get to the pig?"

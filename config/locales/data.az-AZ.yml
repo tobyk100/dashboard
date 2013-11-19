@@ -27,8 +27,8 @@
         sequence: "Ardıcıllıq"
         if: "if bloku"
         if_else: "if-else bloku"
-        loop_times: "Repeat times bloku"
-        loop_until: "Repeat until bloku"
+        loop_times: '"Təkrar et, neçə dəfə" bloku'
+        loop_until: '"Təkrar et, o vaxta qədər ki" bloku'
         loop_while: "While bloku"
         loop_for: "Sayğac bloku"
         function: "Funksiyalar"

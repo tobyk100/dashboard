@@ -189,12 +189,13 @@
     teacher_student_count: "Ви имате %{count} студената."
     teacher_averages: 'У просјеку су ваши студенти зарадили %{trophy_average} од %{trophy_max} "Concept Mastery" трофеја.'
     classroom: "Ваша учионица"
-    student_progress: "Ваш напредак као ученик"
+    student_progress: "Your learning progress"
     student_stats: 'Ви сте зарадили %{trophy_count} од %{trophy_max} "Concept Mastery" трофеја.'
     student_left_off: "Гдје сте оставили заднји пут:"
     student_finished: "Завршили сте све туторијале, узмите своју %{prize_link} и изаберите неки други разред %{online_link} или у %{local_school_link} "
     local_school: "локална школа"
     online: "пријавлјен"
+    see_details: "See details"
   gender:
     male: "Мушко"
     female: "Женско"
