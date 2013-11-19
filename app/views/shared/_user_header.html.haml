@@ -15,4 +15,5 @@
         %br/
         = link_to t('nav.user.logout'), destroy_user_session_url
 - elsif params[:controller] !~ /^devise/
-  = link_to t('nav.user.signin'), new_user_session_url, class: "btn btn-lg btn-primary"
+  = link_to(new_user_session_url) do
+    %button.btn.btn-primary.header-button{ style: "width: 80px;"}= t('nav.user.signin')
