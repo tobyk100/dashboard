@@ -55,12 +55,9 @@ function showVideo(options) {
   var dialog = new Dialog({
     body: body,
     redirect : options.redirect,
-    onHidden : $.proxy(function(e) {
-      dialog.hide();
-      if (options.redirect) {
-        window.location.href = options.redirect;
-      }
-    }, dialog)
+    onHidden : function(e) {
+       $(dialog.div).remove();
+    }
   });
   $div = $(dialog.div);
   $div.addClass('video-modal');
@@ -147,27 +144,30 @@ function Dialog(options) {
   modalBody.append(body);
   this.div.append(modalBody).appendTo($(document.body));
 
-  if (options.onHidden) {
-    $(this.div).on(
-        'hidden.bs.modal',
-        function() {
-          if (options.onKeydown) {
-            $(this.div).off('keydown', options.onKeydown);
-          }
+  // When the dialog is hidden, unhook the keydown event handler.
+  // If onHidden option is passed in, call that as well.
+  // If redirect option is passed in, redirect the page.
+  $(this.div).on(
+      'hidden.bs.modal',
+      function() {
+        if (options.onKeydown) {
+          $(this.div).off('keydown', options.onKeydown);
+        }
+        if (options.onHidden) {
           options.onHidden();
-        });
-  }
+        }
+        if (options.redirect) {
+          window.location.href = options.redirect;
+        }
+  });
 
   if (options.onKeydown) {
     $(this.div).on('keydown', options.onKeydown);
   }
 
-  addClickTouchEvent(close, $.proxy(function(e) {
-    this.hide();
-    if (options.redirect) {
-      window.location.href = options.redirect;
-    }
-  }, this));
+  addClickTouchEvent(close, function(e) {
+    $(this.div).modal('hide');
+  });
 }
 
 /**
