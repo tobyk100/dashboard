@@ -161,9 +161,9 @@ function Dialog(options) {
     $(this.div).on('keydown', options.onKeydown);
   }
 
-  addClickTouchEvent(close, function(e) {
-    $(this.div).modal('hide');
-  });
+  addClickTouchEvent(close, $.proxy(function(e) {
+    this.hide();
+  }, this));
 }
 
 /**
@@ -174,11 +174,16 @@ Dialog.prototype.show = function(options) {
 
   $(this.div).modal('show');
 
-  addClickTouchEvent($(this.div).next(), function() {
-    $(this.div).modal('hide');
-  });
+  addClickTouchEvent($(this.div).next(), $.proxy(function() {
+    this.hide();
+  }, this));
 
   this.div.offset(options);
+}
+
+Dialog.prototype.hide = function() {
+  // Hide let's bootstrap cleanup first, then we remove.
+  $(this.div).modal('hide');
 }
 
 $(document).ready(function() {
