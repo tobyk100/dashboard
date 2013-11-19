@@ -154,7 +154,7 @@ function Dialog(options) {
         if (options.redirect) {
           window.location.href = options.redirect;
         }
-        $(this.div).remove();
+        $(this).remove();
   });
 
   if (options.onKeydown) {
@@ -174,9 +174,9 @@ Dialog.prototype.show = function(options) {
 
   $(this.div).modal('show');
 
-  addClickTouchEvent($(this.div).next(), $.proxy(function() {
-    this.hide();
-  }, this));
+  addClickTouchEvent($(this.div).next(), function() {
+    $(this.div).modal('hide');
+  });
 
   this.div.offset(options);
 }
