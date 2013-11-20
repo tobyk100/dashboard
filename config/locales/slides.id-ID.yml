@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Selamat datang pada jam pertama belajar mengkode. Ayo mulai rasakan pengalaman pertama anda memprogram."
+        text: "Selamat datang pada jam pertama belajar mengkode. Ayo coba pengalaman pertama anda memprogram."
       2:
         image: "notes/hoc1_2.png"
         text: "Kita akan mengunakan Blockly, sebuah bahasa pemrograman dimana anda tinggal menarik dan menempatkan blok untuk menuliskan kode."
@@ -39,7 +39,7 @@
         text: 'Jika anda menjalankan program dan ingin meperbaiki dan mencobanya kembali, tekan tombol "Atur Ulang".'
       13:
         image: "notes/hoc1_13.png"
-        text: "Ayo kita pergi dan ambil babi-babi tersebut!"
+        text: "Ayo kita ambil babi-babi tersebut!"
     artist_intro:
       1:
         image: "notes/bird.png"
@@ -47,7 +47,7 @@
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
@@ -86,7 +86,7 @@
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: 'Hai, Saya Bill! Mari kita belajar konsep fundamental yang baru: pernyataan "if". Ini yang dapat membuat komputer untuk membuat keputusan.'
+        text: 'Hai, Saya Bill! Mari kita belajar konsep fundamental yang baru: pernyataan "jika" (if). Ini yang dapat membuat komputer untuk membuat keputusan.'
       2:
         image: "notes/hoc4_2.png"
         text: 'Sehari-hari andapun terbiasa menggunakan menggunakan pernyataan "jika" (if). Misalnya: setiap pagi sebelum keluar dari rumah , anda berkata: "jika" diluar hujan, maka saya perlu menggunakan jas hujan.'
@@ -95,52 +95,52 @@
         text: "Kita dapat membuat zombie untuk memeriksa jika ada jalan ke kiri, dan jika ia menemukannya, kita dapat membuat ia untuk menuju ke arah tersebut."
       4:
         image: "notes/hoc4_4.png"
-        text: 'Untuk menuliskan kode seperti ini, mari kita menarik keluar blok "if" dan menempatkan blok "turn left" kedalamnya.'
+        text: 'Untuk menuliskan kode seperti ini, mari kita menarik keluar blok "jika" (if) dan menempatkan blok "belok kiri" (turn left) kedalamnya.'
       5:
         image: "notes/hoc4_5.png"
-        text: 'Sekarang, jika kita tempatkan sebuah blok "move forward" paling pertama dan sebuah blok "repeat" menyelimuti seluruh bagian, maka setiap zombie bergerak, ia akan mengecek apakah ada jalan ke kiri dan berbelok menuju arah tersebut. Perintah "repeat" sangatlah penting, untuk melakukan pengecekan setiap belokan pada setiap langkah.'
+        text: 'Sekarang, jika kita tempatkan sebuah blok "maju kedepan" (move forward) paling pertama dan sebuah blok "ulangi" (repeat) menyelimuti seluruh bagian, maka setiap zombie bergerak, ia akan mengecek apakah ada jalan ke kiri dan berbelok menuju arah tersebut. Perintah "ulangi" (repeat) sangatlah penting, untuk melakukan pengecekan setiap belokan pada setiap langkah.'
       6:
         image: "notes/hoc4_6.png"
         text: "Pernyataan if sangatlah penting dalam ilmu komputer. Salah satu dari program yang pertama saya tulis adalah game tik-tak-tol, dan ada sebuah pernyataan if yang mengatakan jika pemain yang lain hampir menang, maka halangi kotak yang akan membuat ia menang."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Selamat bersenang-senang dengan blok "jika"!'
+        text: 'Selamat berexperimen dengan blok "jika" (if)!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Hai, nama saya adalah Saloni. Saya mengunakan ilmu komputer untuk membantu menyelesaikan masalah dalam kesehatan dan obat-obatan. Mari kita belajar mengenai blok "if else". Ini terlihat seperti blok "if", tetapi ini memiliki bagian extra yang mengatakan "else".'
+        text: 'Hai, nama saya adalah Saloni. Saya mengunakan ilmu komputer untuk membantu menyelesaikan masalah dalam kesehatan dan obat-obatan. Mari kita belajar mengenai blok "jika - jika tidak" (if else). Ini terlihat seperti blok "jika" (if), tetapi ini memiliki bagian extra yang mengatakan "jika tidak" (else).'
       2:
         image: "notes/hoc5_2.png"
-        text: 'Jika saya menaruh "maju" blok di tempat bertanda "lakukan" blok, dan menaruh "belok kiri" blok ditempat bertanda "lain" blok yang berarti bahwa zombie akan memilih antara 2 pilihan. Jika ada jalan ke depan, zombie akan bergerak maju, dan sebaliknya (tidak ada jalan ke depan), zombie akan berbelok ke kiri.'
+        text: 'Jika saya menaruh blok "gerak" (move) di tempat bertanda blok "lakukan", dan menaruh blok "belok kiri" (turn left)  ditempat bertanda blok "jika tidak" (else) yang berarti bahwa zombie akan memilih antara 2 pilihan. Jika ada jalan ke depan, zombie akan bergerak maju, dan sebaliknya (tidak ada jalan ke depan), zombie akan berbelok ke kiri.'
       3:
         image: "notes/hoc5_3.png"
-        text: 'Seperti blok "jika", kita dapat menempatkan "jika lain" blok dalam blok "Ulangi"  sehingga zombie terus bergerak dan blok "jika lain" akan terus menerus mengecek apakah ada tempat untuk belok.'
+        text: 'Seperti blok "jika" (if), kita dapat menempatkan blok "jika tidak" (else) dalam blok "Ulangi" (repeat)  sehingga zombie terus bergerak dan blok "jika tidak" (else) akan terus menerus mengecek apakah ada tempat untuk belok.'
       4:
         image: "notes/hoc5_4.png"
         text: "Sekarang, ayo dapatkan zombie-zombie itu!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
         text: "Selamat! Dengan teka-teki terakhir yang anda pecahkan, anda telah menuliskan kode yang dapat mengerakan robot untuk mencari jalan keluar dari labirin tidak bercabang atau terowongan dengan berbagai panjang, apakah itu sebuah zombie, burung, mars rover, atau bahkan pengemudi otomatis mobil."
       2:
         image: "notes/hoc6_2.png"
-        text: "Konsep dasar yang anda gunakan merupakan jatung dari setiap pemrograman atau app yang anda pernah gunakan. Kita mempelajari menangani perulangan repeat, pernyataan repeat until, pernyataan if dan pernyataan if else."
+        text: "Konsep dasar yang anda gunakan merupakan jatung dari setiap pemrograman atau app yang anda pernah gunakan. Kita mempelajari menangani perulangan (loops), ulangi (repeat), pernyataan ulangi sampai (repeat until), pernyataan jika (if) dan pernyataan jika-jika tidak (if else)."
       3:
         image: "notes/hoc6_3.png"
         text: "Jika anda menyukai waktu pertama anda mengkoding, maka kunjungilah code.org untuk melanjutkan edukasi dalam ilmu pengetahuan komputer. Saat anda menyelesaikan kursus 20 jam, maka anda akan menguasai dasar pemrograman, dan anda dapat memulai belajar cara membuat aplikasi hp, instruksi robot, games, apa pun yang anda ingin lakukan."
@@ -150,4 +150,4 @@
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"

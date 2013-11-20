@@ -28,8 +28,8 @@
       no_token: "Anda tidak dapat mengakses halaman ini tanpa datang dari password reset email. Jika Anda datang dari password reset email, pastikan Anda menggunakan URL lengkap yang disediakan."
       send_instructions: "Anda akan menerima email berisi instruksi tentang cara mereset sandi Anda dalam beberapa menit."
       send_paranoid_instructions: "Jika alamat email Anda ada dalam database kami, Anda akan menerima link pemulihan sandi pada alamat email Anda dalam beberapa menit."
-      updated: "Sandi berhasil diubah. Anda sekarang masuk."
-      updated_not_active: "Sandi berhasil diubah."
+      updated: "Kata sandi berhasil diubah. Anda sekarang masuk."
+      updated_not_active: "Kata Sandi berhasil diubah."
     registrations:
       destroyed: "Selamat tinggal! Akun Anda berhasil dibatalkan. Kami berharap untuk bertemu lagi segera."
       signed_up: "Selamat datang! Anda telah berhasil mendaftar."
@@ -49,7 +49,7 @@
     messages:
       already_confirmed: "sudah dikonfirmasi, silahkan coba login"
       confirmation_period_expired: "perlu dikonfirmasikan dalam %{period}, silakan meminta yang baru"
-      expired: "telah berakhir, silakan meminta yang baru"
+      expired: "telah kadarluarsa, silakan meminta yang baru"
       not_found: "Tidak ditemukan"
       not_locked: "tidak terkunci"
       not_saved:

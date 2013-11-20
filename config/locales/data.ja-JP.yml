@@ -2,49 +2,55 @@
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
-        Hour of Code: "Hour of Code"
-        Edit Code: "Edit Code"
+        20-hour: K-8(アメリカでの中学校）ではコンピューターサイエンスコースが紹介されている。
+        Hour of Code: "コードの時間(Hour of code)"
+        Edit Code: "コードを編集します。"
     game:
       name:
-        Maze: "The Maze"
-        Artist: "The Artist"
-        Artist2: "The Artist 2"
-        Farmer: "The Farmer"
-        Artist3: "The Artist 3"
-        Farmer2: "The Farmer 2"
-        Artist4: "The Artist 4"
-        Farmer3: "The Farmer 3"
-        Artist5: "The Artist 5"
-        MazeEC: "The Artist"
+        Maze: "迷路"
+        Artist: "アーティスト"
+        Artist2: "アーティスト 2"
+        Farmer: "農民"
+        Artist3: "アーティスト 3"
+        Farmer2: "農民 2"
+        Artist4: "アーティスト 4"
+        Farmer3: "農民 3"
+        Artist5: "アーティスト 5"
+        MazeEC: "アーティスト"
     trophy:
       name:
-        Bronze: "Bronze"
-        Silver: "Silver"
-        Gold: "Gold"
+        Bronze: "銅"
+        Silver: |
+          銀
+          
+        Gold: "金"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
-        function: "Functions"
-        parameters: "Functions with parameters"
+        sequence: "連続"
+        if: |
+          if ブロック
+          
+        if_else: "If else ブロック"
+        loop_times: "Timesブロックを繰り返す"
+        loop_until: "untilブロックを繰り返す"
+        loop_while: "Whileブロック"
+        loop_for: "Counterブロック"
+        function: "関数"
+        parameters: "パラメーターを持つ関数"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
+        maze_2_2: "こんにちは！みどりのブタちゃんを捕まえなくてはいけません！「進め」ブロックをいくつか重ねて、「プログラムの実行」キーを押して、私を助けてください。"
+        maze_2_1: "私がみどりのブタちゃんのところへたどり着けるよう、別のプログラムを書いてください。"
+        maze_2_2_5: "どうしたらみどりのブタにたどり着けるでしょうか？（TNTに気をつけて）"
+        maze_2_3: "どうしたらみどりのブタにたどり着けるでしょうか？（TNTに気をつけて）"
+        maze_2_4: |
+          なんてこった ！TNTを避けてみどりのブタちゃんのところへたどり着くプログラムを書いて。
+          
+        maze_2_5: "ブロックを２つだけ使って、みどりのブタへたどり着ける方法があります。どうやるか解けますか？"
+        maze_2_6: " ブロックを３つだけ使用してみどりのブタを捕まえさせてください。"
+        maze_2_7: "最小限のブロック数でみどりのブタを捕まえられるプログラムを書いてください。「繰り返し」ブロックは1つ以上使用してください。"
+        maze_2_8: "次の３つのブロック： 移動、移動、曲がるを中に入れた「繰り返し」ブロックでこの問題を解決してください。"
+        maze_2_9: "Ok, 新しく「まで繰り返し(Repeat until)」ブロックを試してください。私がみどりのブタに着くまで繰り返されます。"
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
         maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"

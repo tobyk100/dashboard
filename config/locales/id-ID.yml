@@ -94,7 +94,7 @@
     error:
       signed_in: "Silahkan logout sebelum melanjutkan"
       username_not_found: "Nama akun %{username} tidak ditemukan"
-      username_in_use: "%{username} sudah diambil, silakan memilih lain"
+      username_in_use: "%{username} sudah diambil, silakan memilih nama lain"
       no_teacher: "Tidak dapat menemukan siapa pun dengan '%{teacher_email_or_code}'. Silakan meminta mereka untuk registrasi di sini dan kemudian mencoba menambahkan mereka lagi"
     mail:
       invite_student:
@@ -106,6 +106,14 @@
     title: "Ambil hadiah: %{name}"
     provider: "Penyedia:"
     code: "Kode:"
+    success: "Your prize was succesfully redeemed, see code below."
+    error: "Your prize could not be redeemed, please try again."
+    confirm:
+      title: "Please Confirm"
+      "no": No
+      "yes": Yes
+      msg: "Are you sure you want to claim the %{prize_name} prize?"
+      msg_student: "NOTE: You can only choose one type of prize."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -125,7 +133,7 @@
         earned: "lebih dair 10 siswa telah mengumpulkan %{num_trophies} piala. Anda berhak mendapat hadiah sebagai seorang guru!"
         not_earned: "Jika 10 siswa berhasil mengumpulkan %{num_trophies} piala, Anda akan menangkan hadiah!"
         bonus:
-          earned: "lebih dari 40% siswa anda yang berhasil mendapatkan %{num_trophies} piala adalah perempuan. Anda telah memenangkan hadiah bonus!"
+          earned: "lebih dari 40% siswa anda yang berhasil mendapatkan %{num_trophies} piala adalah anak perempuan. Anda telah memenangkan hadiah bonus!"
           not_earned: "Jika 10 atau lebih siswa mengumpulkan %{num_trophies} piala dan sekurang-kurangnya 40% siswa perempuan, Anda akan menangkan hadiah bonus!"
   crud:
     new_model: "%{model} baru"
@@ -146,7 +154,7 @@
       classroom: "Murid-murid saya"
       label: "Halo %{username}"
       stats: "Kemajuan saya"
-      settings: "Account saya"
+      settings: "Akun saya"
       prizes: "Hadiah"
       logout: "Keluar"
       signin: "Masuk"
@@ -176,7 +184,7 @@
     cancel:
       title: "Batalkan akun saya"
       hint: "Tidak Puas?"
-      button: "Batalkan account saya"
+      button: "Batalkan akun saya"
   user_level:
     completed: "Selesai"
     tried: "Mencoba"
@@ -191,13 +199,13 @@
     teacher_student_count: "Anda memiliki  %{count} siswa."
     teacher_averages: 'Rata-rata siswa anda telah mendapatkan %{trophy_average} dari %{trophy_max} piala "Penguasaan konsep".'
     classroom: "Kelas anda"
-    student_progress: "Your learning progress"
+    student_progress: "Kemajuan belajar Anda"
     student_stats: 'Anda telah menerima  %{trophy_count} dari total %{trophy_max} piala "Penguasaan Konsep".'
     student_left_off: "Terakhir kali anda tinggalkan:"
     student_finished: "Anda telah menyelesaikan semua tutorial, klaim piala anda  %{prize_link} dan pilih kelas lain di  %{online_link} atau di sini %{local_school_link}"
     local_school: "sekolah lokal"
     online: "online"
-    see_details: "See details"
+    see_details: "Lihat rincian"
   gender:
     male: "Laki-laki"
     female: "Wanita"
@@ -220,7 +228,7 @@
     subtitle: "Lihat video ini dan petunjuk lainnya"
   video:
     tab: "Video."
-    notes: "Tidak ada video? Tunjukkan catatan."
+    notes: "Tidak ada video? Tunjukkan catatan kaki."
     autoplay_option: "Autoplay video"
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."

@@ -54,7 +54,7 @@
         text: "Salam, mən Markam! Gəlin, dövrləri öyrənək. Dövrlərdən istifadə edərək siz kompüterə tapşıra bilərsiniz ki, istənilən əmrlər çoxluğunu dəfələrlə, neçə min, hətta neçə milyard dəfə təkrar etsin."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "Bu tapmacada quşu 5 mövqe irəli hərəkət etdirərək onun donuzu tutmağını istəyirik."
       3:
         image: "notes/hoc2_3.png"
         text: 'We can use the new "repeat" block to help us out.'

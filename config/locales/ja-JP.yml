@@ -104,6 +104,14 @@
     title: "交換賞品： %{name}"
     provider: "プロバイダー:"
     code: "コード:"
+    success: "Your prize was succesfully redeemed, see code below."
+    error: "Your prize could not be redeemed, please try again."
+    confirm:
+      title: "Please Confirm"
+      "no": No
+      "yes": Yes
+      msg: "Are you sure you want to claim the %{prize_name} prize?"
+      msg_student: "NOTE: You can only choose one type of prize."
     providers:
       apple_itunes: "アップルの iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -191,13 +199,13 @@
     teacher_student_count: "あなたわ、%{count}の学生がいます。"
     teacher_averages: '平均であなたの学生わ %{trophy_max}のうち%{trophy_average}　"コンセプト習得"のトロフィーを獲得しています。'
     classroom: "あなたの教室"
-    student_progress: "Your learning progress"
+    student_progress: "学習の進行状況"
     student_stats: '%{trophy_max}このうち%{trophy_count} の"コンセプト"習得のトロフィーを獲得しました。'
     student_left_off: "中断したところから。"
     student_finished: "すべてのチュートリアルを完了したら、あなたの %{prize_link} を主張した後、別のクラス %{online_link} か%{local_school_link}を選らんでください"
     local_school: "地元の学校"
     online: "オンライン"
-    see_details: "See details"
+    see_details: "詳細はこちら"
   gender:
     male: "男性"
     female: "女性"

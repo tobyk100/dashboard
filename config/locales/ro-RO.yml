@@ -26,12 +26,12 @@
   of: "de"
   more: "MAI MULT"
   less: "MAI PUŢIN"
-  try_hoc: "Încearcă Ora de Cod, dă clic aici >> "
+  try_hoc: "Încercaţi o Oră de Cod, faceţi clic aici >> "
   try_k8intro: "Sau, încearcă Cursul nostru K-8 de introducere în Informatică (15-25 ore)"
-  already_started: "Ai început deja? Continuă aici >>"
+  already_started: "Ai început deja? Rezuma aici >>"
   demos: "Admin: Toate demo-urile"
   continue: "Continuă"
-  prize: "Premiu"
+  prize: "premiu"
   auth:
     sign_in_with: "Loghează-te cu %{provider}"
     signed_in: "Înregistrat!"
@@ -45,7 +45,7 @@
     need_confirmation: "Nu ai primit instrucţiuni de confirmare?"
     need_unlock: "Nu ai primit instrucţiunile de deblocare?"
   signup_form:
-    title: "înscrie-te"
+    title: "Inregistrează-te"
     school_name: "Numele şcolii (opţional)"
     school_address: "Adresa şcolii (opţional)"
     address_placeholder: "adresă, oraş, județ, cod poștal"
@@ -87,7 +87,7 @@
       %{name}
   follower:
     invite_sent: "Invitație trimisă"
-    added_teacher: "%{nume}  adăugat(ă) ca și  profesorul tău"
+    added_teacher: "%{name}  adăugat(ă) ca și  profesorul tău"
     registered: "Te-ai înregistrat pentru %{section_name}. Te rugăm să te loghezi pentru a continua"
     error:
       signed_in: "Te rugăm să te deloghezi înainte de a continua"
@@ -104,11 +104,19 @@
     title: "Revendică Premii: %{name}"
     provider: "Furnizor:"
     code: "Cod:"
+    success: "Your prize was succesfully redeemed, see code below."
+    error: "Your prize could not be redeemed, please try again."
+    confirm:
+      title: "Please Confirm"
+      "no": No
+      "yes": Yes
+      msg: "Are you sure you want to claim the %{prize_name} prize?"
+      msg_student: "NOTE: You can only choose one type of prize."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org 750 dolari"
       donors_choose_bonus: "DonorsChoose.org 250 dolari"
-      dropbox: "Căsuța-drop"
+      dropbox: "Dropbox"
       valve: "Portal Valvă"
       ea_bejeweled: "Bejeweled 3 de origine EA"
       ea_fifa: "FIFA Soccer 13 de origine EA"
@@ -118,9 +126,9 @@
     msg:
       choose: "Alege un premiu:"
       earned: "Ai câştigat un premiu!"
-      not_earned: "Colectează toate trofeele %{num_trophies} pentru a câştiga un premiu!"
+      not_earned: "Colectează toate %{num_trophies} de trofee pentru a câştiga un premiu!"
       teacher:
-        earned: "10 sau mai mulți elevi au colectat toate trofeele %{num_trophies}. Ai câștigat un premiu de profesor!"
+        earned: "10 sau mai mulți elevi au colectat toate %{num_trophies} de trofee. Ai câștigat un premiu de profesor!"
         not_earned: "Dacă 10 elevii colectează toate trofeele %{num_trophies}, vei câştiga un premiu!"
         bonus:
           earned: "40% sau mai mult dintre elevii tăi care au colectat toate premiile %{num_trophies} sunt de sex feminin. Ai câștigat un premiu bonus!"
