@@ -7,7 +7,7 @@
     %p.help_title= t('reference_area.title')
     %p.help_subtitle= t('reference_area.subtitle')
     = render partial: 'levels/video', collection: @videos
-    %div{ style: "clear: both;"}
+  %div{ style: "clear: both;"}
 
   - if can? :edit, @level
     %br/
