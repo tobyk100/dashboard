@@ -62,7 +62,7 @@ module ApplicationHelper
   end
 
   def video_thumbnail_url(video)
-    "#{root_url}/c/video_thumbnails/#{video.id}.jpg"
+    asset_url("/c/video_thumbnails/#{video.id}.jpg")
   end
 
   def format_xml(xml)
