@@ -3,7 +3,7 @@ class PrizeProvidersController < ApplicationController
   check_authorization
   load_and_authorize_resource
   
-  before_action :set_prize_provider, only: [:show, :edit, :update, :destroy]
+  before_action :set_prize_provider, only: [:show, :edit, :update, :destroy, :claim_prize]
 
   # GET /prize_providers
   # GET /prize_providers.json
@@ -19,6 +19,37 @@ class PrizeProvidersController < ApplicationController
   # GET /prize_providers/new
   def new
     @prize_provider = PrizeProvider.new
+  end
+
+  # GET /prize_providers/1/claim_prize
+  def claim_prize
+    authorize! :claim_prize, current_user
+    respond_to do |format|
+      if @prize_provider
+        raise 'type parameter missing' if !params[:type].present?
+        prize = case params[:type].downcase
+        when 'teacher'
+          TeacherPrize.assign_to_user(current_user, @prize_provider)
+        when 'teacher_bonus'
+          TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
+        when 'student'
+          Prize.assign_to_user(current_user, @prize_provider)
+        else
+          raise 'type parameter missing'
+        end
+
+        if prize.present?
+          format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.success') }
+          format.json { head :no_content }
+        else
+          format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.error') }
+          format.json { head :no_content }
+        end
+      else
+        format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.error') }
+        format.json { render json: @prize_provider.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   # GET /prize_providers/1/edit
@@ -73,7 +104,7 @@ class PrizeProvidersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def prize_provider_params
-      params.require(:prize_provider).permit(:name, :url, :description_token, :image_name)
+      params.require(:prize_provider).permit(:name, :url, :description_token, :image_name, :type)
     end
     
     # this is to fix a ForbiddenAttributesError cancan issue
