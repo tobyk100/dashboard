@@ -105,14 +105,14 @@
     title: "استبدال الجوائز :%{name}"
     provider: "المزود:"
     code: "الكود البرمجي :"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "تم استرداد جائزتك بنجاح, راجع الكود البرمجي ادناه."
+    error: "لم يتم استرداد جائزتك بنجاح, الرجاء المحاولة مرة اخرى."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "الرجاء تأكيد"
+      "no": لا
+      "yes": نعم
+      msg: "هل انت متأكد من المطالبة بالجائزة %{prize_name} ؟"
+      msg_student: "ملاحظة: يمكنك فقط اختيار نوع واحد من الجائزة."
     providers:
       apple_itunes: "أبل اي تيونز"
       donors_choose: "DonorsChoose.org $750"

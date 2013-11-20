@@ -104,14 +104,14 @@
     title: "Εξαργυρώσετε τα βραβεία: %{name}"
     provider: "Πάροχος:"
     code: "Κωδικός:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Το βραβείο σας εξαργυρώθηκε με επιτυχία, δες τον παρακάτω κωδικό."
+    error: "Το βραβείο σας δεν ήταν δυνατόν να εξαργυρωθεί, παρακαλώ προσπαθήστε ξανά."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Παρακαλώ Επιβεβαιώστε"
+      "no": Όχι
+      "yes": Ναι
+      msg: "Είστε βέβαιοι ότι θέλετε να διεκδικήσετε το βραβείο %{prize_name};"
+      msg_student: "Σημείωση: Μπορείτε να επιλέξετε μόνο έναν είδος βραβείου."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $250"

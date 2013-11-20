@@ -104,14 +104,14 @@
     title: "Hent dine premier: %{name}"
     provider: "Tilbyder:"
     code: "Kode:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Premien din ble innløst, se koden nedenfor."
+    error: "Premien din kunne ikke løses inn, prøv igjen."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Vennligst bekreft"
+      "no": Nei
+      "yes": Ja
+      msg: "Er du sikker på at du vil be om %{prize_name} premien?"
+      msg_student: "Merk: Du kan bare velge én type premie."
     providers:
       apple_itunes: "Apples iTunes"
       donors_choose: "DonorsChoose.org $750"

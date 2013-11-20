@@ -108,7 +108,7 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Hai, nama saya adalah Saloni. Saya mengunakan ilmu komputer untuk membantu menyelesaikan masalah dalam kesehatan dan obat-obatan. Mari kita belajar mengenai blok "jika - jika tidak" (if else). Ini terlihat seperti blok "jika" (if), tetapi ini memiliki bagian extra yang mengatakan "jika tidak" (else).'
+        text: 'Hai, nama saya adalah Saloni. Saya mengunakan ilmu komputer untuk membantu menyelesaikan masalah dalam kesehatan dan obat-obatan. Mari kita belajar mengenai blok "jika tidak" (if else). Ini terlihat seperti blok "jika" (if), tetapi ini memiliki bagian extra yang mengatakan "jika tidak" (else).'
       2:
         image: "notes/hoc5_2.png"
         text: 'Jika saya menaruh blok "gerak" (move) di tempat bertanda blok "lakukan", dan menaruh blok "belok kiri" (turn left)  ditempat bertanda blok "jika tidak" (else) yang berarti bahwa zombie akan memilih antara 2 pilihan. Jika ada jalan ke depan, zombie akan bergerak maju, dan sebaliknya (tidak ada jalan ke depan), zombie akan berbelok ke kiri.'
@@ -140,7 +140,7 @@
         text: "Selamat! Dengan teka-teki terakhir yang anda pecahkan, anda telah menuliskan kode yang dapat mengerakan robot untuk mencari jalan keluar dari labirin tidak bercabang atau terowongan dengan berbagai panjang, apakah itu sebuah zombie, burung, mars rover, atau bahkan pengemudi otomatis mobil."
       2:
         image: "notes/hoc6_2.png"
-        text: "Konsep dasar yang anda gunakan merupakan jatung dari setiap pemrograman atau app yang anda pernah gunakan. Kita mempelajari menangani perulangan (loops), ulangi (repeat), pernyataan ulangi sampai (repeat until), pernyataan jika (if) dan pernyataan jika-jika tidak (if else)."
+        text: "Konsep dasar yang anda gunakan merupakan jatung dari setiap pemrograman atau app yang anda pernah gunakan. Kita mempelajari menangani perulangan (loops), ulangi (repeat), pernyataan ulangi sampai (repeat until), pernyataan jika (if) dan pernyataan jika tidak (if else)."
       3:
         image: "notes/hoc6_3.png"
         text: "Jika anda menyukai waktu pertama anda mengkoding, maka kunjungilah code.org untuk melanjutkan edukasi dalam ilmu pengetahuan komputer. Saat anda menyelesaikan kursus 20 jam, maka anda akan menguasai dasar pemrograman, dan anda dapat memulai belajar cara membuat aplikasi hp, instruksi robot, games, apa pun yang anda ingin lakukan."

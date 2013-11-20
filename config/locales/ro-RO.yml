@@ -104,20 +104,20 @@
     title: "Revendică Premii: %{name}"
     provider: "Furnizor:"
     code: "Cod:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Ți-ai revendicat cu succes premiul, vezi codul de mai jos."
+    error: "Premiul tău nu a putut fi revendicat, te rugăm să încerci din nou."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Te rugăm să confirmi"
+      "no": Nu
+      "yes": Da
+      msg: "Ești sigur(ă) ca vrei să revendici premiul %{prize_name}?"
+      msg_student: "NOTĂ: Poți să alegi doar unul din aceste premii."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org 750 dolari"
       donors_choose_bonus: "DonorsChoose.org 250 dolari"
       dropbox: "Dropbox"
-      valve: "Portal Valvă"
+      valve: "Portal Valve"
       ea_bejeweled: "Bejeweled 3 de origine EA"
       ea_fifa: "FIFA Soccer 13 de origine EA"
       ea_simcity: "SimCity 4 Deluxe Edition de origine EA"
@@ -126,13 +126,13 @@
     msg:
       choose: "Alege un premiu:"
       earned: "Ai câştigat un premiu!"
-      not_earned: "Colectează toate %{num_trophies} de trofee pentru a câştiga un premiu!"
+      not_earned: "Colectează toate cele %{num_trophies} trofee pentru a câştiga un premiu!"
       teacher:
-        earned: "10 sau mai mulți elevi au colectat toate %{num_trophies} de trofee. Ai câștigat un premiu de profesor!"
-        not_earned: "Dacă 10 elevii colectează toate trofeele %{num_trophies}, vei câştiga un premiu!"
+        earned: "10 sau mai mulți elevi au colectat toate cele %{num_trophies} trofee. Ai câștigat un premiu de profesor!"
+        not_earned: "Dacă 10 elevi colectează toate toate cele %{num_trophies} trofee, vei câştiga un premiu!"
         bonus:
-          earned: "40% sau mai mult dintre elevii tăi care au colectat toate premiile %{num_trophies} sunt de sex feminin. Ai câștigat un premiu bonus!"
-          not_earned: "Dacă 10 sau mai mulți elevi colectează toate premiile %{num_trophies} şi cel puţin 40% dintre aceștia sunt de sex feminin, vei câştiga un premiu bonus!"
+          earned: "40% sau mai mulți dintre elevii tăi care au colectat toate cele %{num_trophies} trofee sunt de sex feminin. Ai câștigat un premiu bonus!"
+          not_earned: "Dacă 10 sau mai mulți elevi colectează toate cele %{num_trophies} trofee şi cel puţin 40% dintre aceștia sunt de sex feminin, vei câştiga un premiu bonus!"
   crud:
     new_model: "%{model} nou"
     show: "Arată"
@@ -163,8 +163,8 @@
       close: "ÎNCHIDE"
       mastery: "Concepte"
       puzzle_map: "Etape"
-      prizes: "Colectează toate %{total_trophies} trofee și câștigă premii!"
-      prize_earned: "Toate trofeele %{total_trophies} au fost colectate. Premiu câștigat!"
+      prizes: "Colectează toate cele %{total_trophies} trofee și câștigă premii!"
+      prize_earned: "Toate %{total_trophies} de trofee au fost colectate. Premiu câștigat!"
       prizes_link: "mai multe informaţii"
   teacher:
     title:
@@ -191,14 +191,14 @@
     show_more: "Arată mai mult"
   home:
     signin_message: "sau dacă ești deja înregistrat %{link}"
-    student_reg_link: "Studenţi - începeți aici"
+    student_reg_link: "Elevi - începeți aici"
     teacher_reg_link: "Profesori - începeţi aici"
-    teacher_dashboard: "Vezi grilla de progres"
+    teacher_dashboard: "Vezi grila de progres"
     teacher_student_count: "Ai %{count} elevi."
-    teacher_averages: 'În medie, elevii tăi au câștigat %{trophy_average} din %{trophy_max} trofee de "Concept de Măestrie"'
+    teacher_averages: 'În medie, elevii tăi au câștigat %{trophy_average} din cele %{trophy_max} trofee de "Concept de Măestrie"'
     classroom: "Clasa ta"
-    student_progress: "Progresul de învăţare"
-    student_stats: 'Ai câştigat %{trophy_count} din %{trophy_max} trofee de "Concept de Măestrie"'
+    student_progress: "Progresul tău de învățare"
+    student_stats: 'Ai câştigat %{trophy_count} din cele %{trophy_max} trofee de "Concept de Măestrie"'
     student_left_off: "Unde ai rămas:"
     student_finished: "Ai completat toate tutorialele, revendică-ți %{prize_link} și alege altă clasă % {online_link} sau la o % {local_school_link}"
     local_school: "şcoală locală"

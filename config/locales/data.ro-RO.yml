@@ -66,16 +66,16 @@
         turtle_1_7: "În regulă, hai să facem lucrurile un pic mai complicate - vezi dacă poți desena acești ochelari verzi. Pătratele au 100 de pixeli pe fiecare parte, și sunt la 50 de pixeli între ele. Nu uita să desenezi cu verde!"
         turtle_1_8: 'Ok, încearcă să îți dai seama ce se întamplă dacă rulezi acest cod (sau apasă "Rulează" pentru a-l încerca). Apoi repetă-l de câte ori e nevoie ca să completezi desenul. Culorile vor fi diferite de fiecare dată.'
         turtle_1_9: "Poți să îți dai seama cu ce număr să înlocuiești semnele de întrebare pentru a desena un cerc?"
-        turtle_1_10: 'Ai reușit! Acum, desenează orice vrei. Căteva idei nostime: un om din 5 bețe si un cerc , fulg de zăpadă sau spirală. Încearcă, de asemenea, și noul bloc "setează lățimea". Distrează-te!'
+        turtle_1_10: 'Ai reușit! Acum, desenează orice vrei. Câteva idei nostime: un om din 5 bețe si un cerc , fulg de zăpadă sau spirală. Încearcă, de asemenea, și noul bloc "setează lățimea". Distrează-te!'
         turtle_4_1: 'Poţi desena un triunghi (cu margini de 100 pixeli) cu numai 3 blocuri? Sugestie: utilizează un bloc "repetă".'
         turtle_4_2: 'Încearcă să adăugi un bloc pentru a finaliza acest puzzle. Sugestie: am furnizat blocuri să traseze 2 triunghiuri identice, tu trebuie să plasezi un "întoarce" între ele, şi să decizi cât de mult să se întoarcă.'
         turtle_4_3: 'OK, aici ai codul pe care l-ai scris așa încât să traseze un singur triunghi. Poți să adăugi un bloc "repetă" şi unul "întoarce" pentru a face o floricică drăguță?'
         turtle_4_4: "Aici ai acelaşi cod de la puzzle-ul anterior, dar cu o întoarcere de numai 36 de grade după trasarea fiecărui triunghi. De câte ori trebuie să se repete acesta? (Sugestie: după o întoarcere de 360 de grade desenul va deveni cerc complet)"
-        turtle_4_5: "Aici ai acelaşi cod de la puzzle-ul anterior, dar cu repetarea întoarcerilor de 36 de ori. La câte grade trebuie să fie întoarcerile? (Sugestie: după o întoarcere de 360 de grade desenul va deveni cerc complet)"
+        turtle_4_5: "Aici ai acelaşi cod de la puzzle-ul anterior, dar repetarea cotiturilor se va face de 36 de ori. La câte grade trebuie să fie întoarcerile? (Sugestie: după o întoarcere de 360 de grade desenul va deveni cerc complet)"
         turtle_4_6: "Folosind numai 3 blocuri, ai putea desena un pătrat cu muchii de 20 de pixeli?"
         turtle_4_7: "Aici este codul pentru desenul pătrat din ultimul puzzle. Poți să-l repeți astfel încât să trasezi 10 pătrate adiacente cum ar fi o scară? Sugestie: ai nevoie doar de încă 2 blocuri."
         turtle_4_8: "Aici este soluţia pentru puzzle-ul anterior. Mai poți adăuga doar 2 blocuri pentru a finaliza desenul?"
-        turtle_4_9: "Aici este soluţia de la puzzle-ul precedent. Cu câte grade ar trebui să cotești pentru a finaliza desenul? (Probabil vei avea nevoie să ghicești de căteva ori)"
+        turtle_4_9: "Aici este soluţia de la puzzle-ul precedent. Cu câte grade ar trebui să cotești pentru a finaliza desenul? (Probabil vei avea nevoie să ghicești de câteva ori)"
         turtle_4_10: "Aici ai soluţia de la puzzle-ul anterior. De câte ori trebuie să repeţi pentru a finaliza desenul?"
         turtle_4_11: 'Încearcă să schimbi numerele în blocurile "întoarce" şi "repetă" pentru a crea modele diferite. Sau, experimentează schimbarea restului de cod pentru a desena orice ce vrei tu.'
         maze_karel_1_1: 'Bună, eu sunt un fermier. Am nevoie de ajutorul tău să netezesc terenul fermei mele ca să fie gata de plantare. Mută-mă la o stivă de pământ şi folosește blocul "elimină" pentru a o înlătura.'

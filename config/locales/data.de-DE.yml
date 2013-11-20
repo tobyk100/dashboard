@@ -68,8 +68,8 @@
         turtle_4_1: 'Kannst du ein Dreieck (mit den Kanten von 100 Pixeln) mit nur 3 Bausteinen zeichnen? Tipp: Verwenden Sie einen "Wiederholen"-Baustein.'
         turtle_4_2: 'Versuche einen Block hinzuzufügen um dieses Puzzle abzuschließen. Hinweis: Es gibt Bausteine um 2 identische Dreiecke zu zeichnen, setze einen "Drehen"-Baustein dazwischen und entscheide wie weit dieser sich drehen soll.'
         turtle_4_3: 'Ok, hier ist das Programm das du geschrieben hast um ein einzelnes Dreieck zu zeichnen. Kannst du einen "Wiederholen"- und "Drehen"-Baustein hinzufügen um eine hübsche Blume zu zeichnen?'
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
+        turtle_4_4: "Hier ist das gleiche Programm aus dem vorherigen Puzzle, aber diesmal nur 36 Grad drehend nach dem Zeichnen jedes Dreiecks. Wie oft muss das wiederholt werden? (Hinweis: nach 360 Grad wird die Zeichnung zu einem vollen Kreis)"
+        turtle_4_5: "Hier ist der gleiche Programm aus dem vorherigen Puzzle, aber dieses Mal werden die Drehungen 36 Mal wiederholt. Um wie viel Grad müssen die Drehungen sein? (Hinweis: nach 360 Grad wird die Zeichnung zu einem vollen Kreis)"
         turtle_4_6: "Kannst du ein Viereck mit der Kantenlänge von 20 Pixeln mit nur 3 Bausteinen zeichnen?"
         turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
         turtle_4_8: "Hier ist die Lösung für das vorherige Puzzle. Können Sie nur zwei weitere Bausteine benutzen um die Zeichnung zu beenden?"

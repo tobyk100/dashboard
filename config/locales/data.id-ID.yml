@@ -25,8 +25,8 @@
     concept:
       description:
         sequence: "Urutan"
-        if: "Blok Jika"
-        if_else: "Blok Jika lain (if-else)"
+        if: "Blok Jika (if)"
+        if_else: "Blok jika tidak (if/else)"
         loop_times: "Blok berulang kali (Repeat)"
         loop_until: "Blok Ulangi sampai (Repeat until)"
         loop_while: "Blok selagi (while)"
@@ -35,14 +35,14 @@
         parameters: "Fungsi dengan parameter"
     level:
       instructions:
-        maze_2_2: 'Hai! Saya perlu  dapatkan Piggy hijau! Tumpukkan bersama-sama beberapa blok "maju" dan tekan "Jalankan Program" untuk membantu saya. '
+        maze_2_2: 'Hai! Saya perlu  dapatkan babi hijau! Tumpukkan bersama-sama beberapa blok "maju" dan tekan "Jalankan Program" untuk membantu saya. '
         maze_2_1: "Beri saya program lain sehingga saya bisa mencapai babi hijau. "
         maze_2_2_5: "Bagaimana cara saya bisa mendapat babi hijau? (hati-hati terhadap TNT)"
         maze_2_3: "Bagaimana cara saya bisa mendapat babi hijau? (hati-hati terhadap TNT)"
-        maze_2_4: "Aduh! Tulislah sebuah program yang akan membawa saya menghindari TNT dan mencapai babi hijau. "
+        maze_2_4: "Waduh! Tulislah sebuah program yang akan membawa saya menghindari TNT dan mencapai babi hijau. "
         maze_2_5: "Ada cara supaya bisa mencapai babi hijau hanya dengan menggunakan 2 blok. Apakah anda bisa menemukannya?"
-        maze_2_6: "Usahakan supaya saya bisa mendapatkan babi hijau dengan menggunakan tiga blok saja."
-        maze_2_7: 'Tuliskan saya sebuah program dengan menggunakan jumlah blok sesedikit mungkin sehingga saya bisa mendapatkan babi hijau. Gunakan lebih dari satu blok "berulang kali" (repeat times).'
+        maze_2_6: "Usahakan supaya saya bisa dapatkan babi hijau dengan tiga blok saja."
+        maze_2_7: 'Buatkan saya sebuah program dengan menggunakan jumlah blok sesedikit mungkin sehingga saya bisa dapatkan babi hijau. Gunakan lebih dari satu blok "berulang kali" (repeat times).'
         maze_2_8: 'Untuk menyelesaikan problem ini, coba blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok.'
         maze_2_9: 'OK, coba blok baru "ulangi sampai" (repeat until) - blok ini akan mengulang sampai saya mencapai babi hijau.'
         maze_2_10: "Ayo latihan sekali lagi - apakah anda dapat menyelesaikan yang satu ini dengan hanya 4 blok?"
@@ -52,16 +52,16 @@
         maze_2_14: 'OK, ini seperti teka-teki yang terakhir, tetapi anda harus ingat bagaimana menggunakan blok "jika" (if) dan blok "ulangi" (repeat) bersama-sama.'
         maze_2_15: 'Saya ingin bunga matahari! Gunakan blok "jika" (if) untuk menggerakkan saya kesana dengan jumlah blok sesedikit mungkin.'
         maze_2_16: "OK, ayo kita latihan lagi - kali ini sedikit berbeda, tapi hati-hati dengan chompers!"
-        maze_2_17: 'Blok "Jika maka - jika tidak" (if-else) akan memeriksa kondisi, dan kemudian melakukan satu hal atau hal yang lain. Untuk memberikan saya dengan bunga matahari cobalah menggunakan blok baru.'
-        maze_2_18: 'Sekali lagi cobalah mempraktekkan blok "Jika maka - jika tidak" (if-else), bisakah Anda mendapatkannya jawaban yang benar pada percobaan pertama?'
+        maze_2_17: 'Blok "jika tidak" (if-else) akan memeriksa kondisi, lalu  melakukan satu hal atau hal yang lain. Untuk membantu saya mendapatkan bunga matahari cobalah gunakan blok baru.'
+        maze_2_18: 'Sekali lagi cobalah mempraktekkan blok "jika tidak" (if-else), bisakah Anda mendapatkannya jawaban yang benar pada percobaan pertama?'
         maze_2_19: "Dapatkah Anda menambahkan hanya 3 blok untuk membantu saya memecahkan labirin yang lebih kompleks? Jika Anda melakukannya dengan benar, saya bisa berjalan melewati jalur berbelok manapun tidak perduli berapa panjangnya."
         turtle_1_1: "Hi, saya seorang artis. Anda dapat menulis kode untuk membuat saya menggambar  apa pun. Gunakan beberapa blok untuk membuat saya mengambil garis abu-abu dalam gambar."
         turtle_1_2: 'Sekarang, gambarlah persegi empat. Catatan: Gunakan warna favorit Anda dengan memilih di blok baru "atur warna".'
-        turtle_1_3: "Buatlah persegi empat menggunakan hanya 3 blok."
+        turtle_1_3: "Buatlah persegi empat dengan hanya 3 blok."
         turtle_1_4: 'Gambarlah sebuah segitiga sisi yang memiliki warna yang berbeda, gunakan opsi "acak warna" yang mengambil warna yang berbeda setiap kali. Petunjuk: Anda harus mencari tahu sejauh mana membelok dengan mengklik nomor di blok belok.'
         turtle_1_5: "Sekarang, untuk latihan, gambarlah sebuah amplop dengan menggunakan sebuah segitiga dan kemudian persegi empat."
         turtle_1_6: "Dapatkah Anda mengetahui bagaimana menggambar segitiga dan segi empat? Petunjuk: Pertama-tama buatlah segitiga, kemudian carilah cara untuk memutar sebelum menggambar persegi empat."
-        turtle_1_7: "OK, ayo kita mencoba yang sedikit lebih sulit - Coba gambar kacamata hijau ini. Segi empat adalah 100 piksel pada setiap sisi, dan mereka berjarak 50 pixel. Jangan lupa untuk menggambar menggunakan warna hijau!"
+        turtle_1_7: "OK, ayo kita coba yang sedikit lebih sulit - Cobalah gambar kacamata hijau ini. Segi empat adalah 100 piksel pada setiap sisi, dan mereka berjarak 50 pixel. Jangan lupa untuk menggambar menggunakan warna hijau!"
         turtle_1_8: 'OK, cobalah untuk mencari tahu apa yang terjadi jika Anda menjalankan kode ini (atau tekan "Kerjakan" (run) untuk mencoba). Kemudian, ulangi untuk melengkapi gambar. Warna akan berbeda setiap saat.'
         turtle_1_9: "Apa anda tahu tanda tanya ini harus diganti angka berapa sehingga bisa menggambar lingkaran?"
         turtle_1_10: 'Anda berhasil! Sekarang, gambarlah apapun yang Anda inginkan. Beberapa ide menarik: tongkat, kepingan salju atau spiral. Cobalah lah blok baru "atur lebar". Selamat bersenang-senang!'
@@ -70,19 +70,19 @@
         turtle_4_3: 'OK, di sini adalah kode yang anda tulis untuk menggambar sebuah segitiga. Dapatkah Anda menambahkan blok "Ulangi" (repeat) dan blok "Belok" (turn) untuk membuat sebuah bunga yang cantik?'
         turtle_4_4: "Berikut adalah kode yang sama dari teka-teki sebelumnya, tetapi mengubah hanya 36 derajat setelah gambar untuk setiap segitiga. Berapa kali Apakah ini perlu mengulangi? (Petunjuk: setelah 360 derajat berputar gambar akan terbuatlah sebuah lingkaran)"
         turtle_4_5: "Berikut adalah kode yang sama dari teka-teki sebelumnya, tetapi mengulangi perputaran 36 kali. Berapa banyak derajat yang diperlukan? (Petunjuk: setelah 360 derajat akan terbentuklah sebuah lingkaran)"
-        turtle_4_6: "Menggunakan hanya 3 blok, dapat Anda menggambar persegi dengan sisi 20 pixel?"
+        turtle_4_6: "Dengan menggunakan hanya 3 blok, dapatkah Anda menggambar persegi dengan sisi 20 pixel?"
         turtle_4_7: "Berikut adalah kode untuk menggambar persegi siku siku dari teka-teki yang terakhir. Dapatkah anda ulangi untuk menarik 10 kotak berdekatan seperti tangga? Petunjuk: Anda hanya perlu 2  blok extra."
         turtle_4_8: "Berikut adalah solusi untuk teka-teki sebelumnya. Dapatkah Anda tambahkan hanya 2 blok lain untuk menyelesaikan gambar ini?"
         turtle_4_9: "Berikut adalah solusi untuk teka-teki sebelumnya. Berapa banyak derajat yang harus Anda ubah untuk melengkapi gambar? (Anda mungkin perlu untuk mencobanya beberapa kali)"
         turtle_4_10: "Berikut adalah solusi untuk teka-teki sebelumnya. Berapa kali harus Anda mengulangi untuk melengkapi gambar?"
         turtle_4_11: 'Cobalah mengubah nomor di blok "Belok" (turn) dan blok "Ulangi" (repeat) untuk membuat pola yang berbeda. Atau, percobaan mengubah seluruh kode untuk menggambar apapun yang Anda inginkan.'
-        maze_karel_1_1: 'Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan ladang peternakan sehingga siap tanam. Pindahkan aku ke tumpukan tanah dan menggunakan blok "Hapus" untuk menghapusnya.'
-        maze_karel_1_2: 'Selanjutnya, Pindahkan saya ke lubang dan isilah dengan dua skop tanah, menggunakan blok "Isi".'
-        maze_karel_1_3: "Pindahkan saya ke tumpukan tanah dan beritahu saya perlu berapa banyak sekop untuk memindahkan tanah menggunakan blok sesedikit mungkin."
+        maze_karel_1_1: 'Hi, saya seorang petani. Saya butuh bantuan Anda untuk meratakan ladang sehingga siap tanam. Pindahkan saya ke tumpukan tanah dan gunakan blok "Hapus" untuk menghapusnya.'
+        maze_karel_1_2: 'Lalu pindahkan saya ke lubang dan isilah dengan dua skop tanah, gunakan blok "Isi".'
+        maze_karel_1_3: "Pindahkan saya ke tumpukan tanah dan beritahu saya perlu berapa banyak sekop untuk pindahkan tanah menggunakan blok sesedikit mungkin."
         maze_karel_1_4: "Anda dapat membantu saya menghapus semua empat tumpukan tanah? Petunjuk: Gunakan blok ulangi (repeat) jika Anda bisa."
         maze_karel_1_5: 'Bantu saya mengisi di semua lubang ini dengan 5 sekop tanah. Petunjuk: Anda dapat menempatkan blok "Ulangi" di dalam blok "sementara".'
-        maze_karel_1_6: 'Hapus semua tumpukan tanah, menggunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok "selagi" (while) beritahu saya jika saya sedang berdiri di tumpukan atau lubang.'
-        maze_karel_1_7: "Aduh, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapat Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
+        maze_karel_1_6: 'Hapus semua tumpukan tanah, gunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok "selagi" (while) beritahu saya jika saya sedang berdiri di tumpukan atau lubang.'
+        maze_karel_1_7: "Waduh, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapatkah Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
         maze_karel_1_8: "Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin."
         maze_karel_1_9: 'Bantu saya memindahkan semua tumpukan tanah. Coba gunakan blok sesedikit mungkin. Petunjuk: Anda dapat menggunakan blok "sementara" (while) di dalam "Ulangi" (repeat) blok.'
         maze_karel_1_10: 'Saya bekerja lembur sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang saya tidak memiliki semua pilihan seperti ketika saya gunakan blok "sementara" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, pindahkanlah.'
@@ -132,7 +132,7 @@
         maze_3_2: "Buatkan saya sebuah program, sehingga saya bisa mencapai babi itu."
         maze_3_3: "Bagaimanacara saya bisa dapatkan babi itu? Pastikan saya tidak menabrak kotak TNT!"
         maze_3_4: |
-          Aduh! Buatkan saya sebuah program yang membantu saya mencapai babi tetapi menghindari TNT.
+          Waduh! Buatkan saya sebuah program yang membantu saya mencapai babi tetapi menghindari TNT.
           
       levelIncompleteError:
         maze_2_8: 'Untuk memecahkan masalah ini, temukan pola yang berulang. Gunakan blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok kanan.'
@@ -148,7 +148,7 @@
         loop_times: "Blok Ulangi"
         loop_until: "Blok Ulangi Sampai"
         if: "Blok Jika (if)"
-        if_else: "Blok jika/jika tidak (if/else)"
+        if_else: "Blok jika tidak (if/else)"
         function: "Fungsi"
         loop_while: "Blok Selagi (while)"
         loop_for: "Blok konter (Counter)"

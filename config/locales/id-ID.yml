@@ -95,7 +95,7 @@
       signed_in: "Silahkan logout sebelum melanjutkan"
       username_not_found: "Nama akun %{username} tidak ditemukan"
       username_in_use: "%{username} sudah diambil, silakan memilih nama lain"
-      no_teacher: "Tidak dapat menemukan siapa pun dengan '%{teacher_email_or_code}'. Silakan meminta mereka untuk registrasi di sini dan kemudian mencoba menambahkan mereka lagi"
+      no_teacher: "Tidak di temukan siapapun dengan akun '%{teacher_email_or_code}'. Mintalah mereka untuk registrasi di sini dan kemudian cobalah lagi untuk tambahkan mereka "
     mail:
       invite_student:
         subject: "Bergabung dengan kelas dengan %{teacher_name} di Code.org!"
@@ -106,14 +106,14 @@
     title: "Ambil hadiah: %{name}"
     provider: "Penyedia:"
     code: "Kode:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Hadiah Anda telah berhasil ditebus, silahkan lihat kode di bawah ini."
+    error: "Hadiah Anda tidak bisa ditebus, silakan coba lagi."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Silakan konfirmasi"
+      "no": Tidak
+      "yes": Ya
+      msg: "Apakah Anda yakin Anda ingin mengambil hadiah %{prize_name}?"
+      msg_student: "Catatan: Anda hanya dapat memilih satu jenis hadiah."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -148,7 +148,7 @@
     updated: "%{model} berhasil dibuat."
   nav:
     header:
-      finished_hoc: "Saya telah menyelesaikan jam kode"
+      finished_hoc: "Saya telah menyelesaikan jam kode!"
       sign_in_to_save: "login untuk menyimpan kemajuan"
     user:
       classroom: "Murid-murid saya"
