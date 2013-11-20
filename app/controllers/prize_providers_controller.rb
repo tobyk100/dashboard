@@ -26,17 +26,19 @@ class PrizeProvidersController < ApplicationController
     authorize! :claim_prize, current_user
     respond_to do |format|
       if @prize_provider
-        prize = nil
-        case params[:type].downcase
+        raise 'type parameter missing' if !params[:type].present?
+        prize = case params[:type].downcase
         when 'teacher'
-          prize = TeacherPrize.assign_to_user(current_user, @prize_provider)
+          TeacherPrize.assign_to_user(current_user, @prize_provider)
         when 'teacher_bonus'
-          prize = TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
+          TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
         when 'student'
-          prize = Prize.assign_to_user(current_user, @prize_provider)
+          Prize.assign_to_user(current_user, @prize_provider)
+        else
+          raise 'type parameter missing'
         end
 
-        if (prize)
+        if prize.present?
           format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.success') }
           format.json { head :no_content }
         else

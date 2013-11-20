@@ -4,10 +4,10 @@ class Prize < ActiveRecord::Base
   
   def self.assign_to_user(user, prize_provider_id)
     prize = nil
-    if (user.prize)
-      Rails.logger.error "PRIZE ERROR: assign_to_user() called when user already has prize"
-    elsif (!user.prize_earned)
-      Rails.logger.error "PRIZE ERROR: assign_to_user() called when user has not earned prize"
+    if user.prize.present?
+      raise "assign_to_user() called when user already has prize"
+    elsif !user.prize_earned
+      raise "assign_to_user() called when user has not earned prize"
     else
       prize = self.where(user_id: nil, prize_provider_id: prize_provider_id).lock(true).first
       if prize
