@@ -8,12 +8,12 @@
     = link_to t('home.see_details'), root_url
     %br/
 
-    %div{ style: 'padding-top: 10px; padding-bottom: 30px;'}
+    %div{ style: 'padding-top: 10px'}
       - script_level = current_user.next_untried_level(Script.twenty_hour_script)
       - if script_level
         #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
         = form_tag(build_script_level_url(script_level), method: 'get', style: "display:inline;") do
-          = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
+          = submit_tag t('continue'), name: nil, class: 'btn btn-primary button-continue', id: 'continue_button'
       - else
         = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_url), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
 
