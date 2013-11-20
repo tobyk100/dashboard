@@ -20,6 +20,7 @@
   english: "Arabic"
   native: "العربية"
   debug: true
+  dir: 'rtl'
 
 "az": "az-AZ"
 "az-AZ":
@@ -81,6 +82,7 @@
   english: "Persian"
   native: "فارسی"
   debug: true
+  dir: 'rtl'
 
 "fi": "fi-FI"
 "fi-FI":
@@ -103,6 +105,7 @@
   english: "Hebrew"
   native: "עברית"
   debug: true
+  dir: 'rtl'
 
 "hi": "hi-IN"
 "hi-IN":
@@ -240,6 +243,7 @@
   english: "Urdu"
   native: "اردو"
   debug: true
+  dir: 'rtl'
 
 "vi": "vi-VN"
 "vi-VN":
