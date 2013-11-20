@@ -13,7 +13,8 @@ class SectionsController < ApplicationController
   end
 
   def create
-    @section = Section.new(section_params)
+    # this will quietly do nothing if this section already exists
+    @section = Section.where(user: current_user, name: section_params[:name]).first_or_create!
     @section.user = current_user
 
     respond_to do |format|
