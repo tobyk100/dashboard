@@ -1,6 +1,15 @@
 #blocklyApp
   .loading
 
+#notes-content{:style => 'display: none;'}
+  %ul
+    %li
+      %a{:href => '#video'}
+        = I18n.t('video.tab')
+        %span.video-name
+    %li
+      %a{:href => '#notes'}= I18n.t('video.notes')
+
 - content_for :body_scripts do
   -# Common scripts and styles
   - blockly_path = "#{ActionController::Base.asset_host}/blockly/"

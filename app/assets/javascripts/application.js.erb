@@ -39,8 +39,9 @@ function showVideo(options) {
   var aspectRatio = 16 / 9;
 
   var body = $('<div/>');
-
-  body.append($('<ul><li><a href="#video"><%= I18n.t('video.tab') %> ' + options.name + '</a></li><li><a href="#notes"><%= I18n.t('video.notes') %></a></li></ul>'));
+  var content = $('#notes-content').contents().clone();
+  content.find('.video-name').text(options.name);
+  body.append(content);
 
   var video = $('<iframe id="video"/>').addClass('video-player').attr({
     src: options.src,
@@ -61,7 +62,7 @@ function showVideo(options) {
     event : 'click touchend',
     activate : function(event, ui) {
       var videoElement = $('#video');
-      if (ui.newTab.contents().attr('href') === "#video") {
+      if (ui.newTab.find('a').attr('href') === "#video") {
         // If it is the video page, restor the src
         videoElement.attr('src', options.src);
       } else {
