@@ -23,7 +23,6 @@ class PrizeProvidersController < ApplicationController
 
   # GET /prize_providers/1/claim_prize
   def claim_prize
-    authorize! :claim_prize, current_user
     respond_to do |format|
       if @prize_provider
         raise 'type parameter missing' if !params[:type].present?
