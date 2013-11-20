@@ -338,6 +338,15 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   max-height: none;
 }
 
+.dash_modal {
+  width: 640px;
+  margin-left: -320px;
+}
+
+.dash_modal_body {
+  padding-right: 25px;
+}
+
 .btn#dataConfirmOK:hover {
   color: white;
   background-color: orange;

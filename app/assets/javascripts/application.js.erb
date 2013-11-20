@@ -127,7 +127,9 @@ function Dialog(options) {
                          .addClass('x-close')
                          .attr('data-dismiss', 'modal');
   this.div = $('<div tabindex="-1"/>').addClass('modal');
+  this.div.addClass('dash_modal');
   var modalBody = $('<div/>').addClass('modal-body');
+  modalBody.addClass('dash_modal_body');
   if (header) {
     var modalHeader = $('<div/>').addClass('modal-header')
                                  .append(close)
