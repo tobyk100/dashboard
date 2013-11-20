@@ -157,5 +157,5 @@ namespace :seed do
     end
   end
 
-  task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies, :prize_providers, :dummy_prizes]
+  task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies, :prize_providers]
 end
