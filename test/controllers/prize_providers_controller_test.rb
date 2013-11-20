@@ -1,8 +1,12 @@
 require 'test_helper'
 
 class PrizeProvidersControllerTest < ActionController::TestCase
+  include Devise::TestHelpers
+
   setup do
     @prize_provider = prize_providers(:one)
+    @user = create(:admin)
+    sign_in(@user)
   end
 
   test "should get index" do
