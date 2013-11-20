@@ -19,8 +19,7 @@
       - if Prize.where(:prize_provider_id => provider.id).count > 0
         %div{style:"min-width: 300px;float:left;"}
           %p
-            = image_tag provider.image_name
-          %b= t('redeem_prizes.provider')
+            = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'student'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token)) + '<br><br>' + t('redeem_prizes.confirm.msg_student')
           = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
   %div{style:"clear:left;"}
     %br/
@@ -56,8 +55,7 @@
         - if TeacherPrize.where(:prize_provider_id => provider.id).count > 0
           %div{style:"min-width: 300px;float:left;"}
             %p
-              = image_tag provider.image_name
-            %b= t('redeem_prizes.provider')
+              = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'teacher'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token))
             = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
   - else
     %h4= t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX)
@@ -75,12 +73,23 @@
         - if TeacherBonusPrize.where(:prize_provider_id => provider.id).count > 0
           %div{style:"min-width: 300px;float:left;"}
             %p
-              = image_tag provider.image_name
-            %b= t('redeem_prizes.provider')
+              = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'teacher_bonus'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token))
             = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
   - else
     %h4= t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX)
   %div{style:"clear:left;"}
     %br/
+:javascript
+  $(document).ready(function() {
+    $('a[data-confirm]').click(function(ev) {
+      var href = $(this).attr('href');
 
-
+      if (!$('#dataConfirmModal').length) {
+        $('body').append('<div id="dataConfirmModal" tabindex="-1" class="modal" role="dialog" aria-labelledby="dataConfirmLabel" aria-hidden="true"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="dataConfirmLabel">#{t('redeem_prizes.confirm.title')}</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">#{t('redeem_prizes.confirm.no')}</button><a id="prize_confirm" class="btn btn-primary" id="dataConfirmOK">#{t('redeem_prizes.confirm.yes')}</a></div></div>');
+      }
+      $('#dataConfirmModal').find('.modal-body').html($(this).attr('data-confirm'));
+      $('#dataConfirmOK').attr('href', href);
+      $('#dataConfirmModal').modal({show:true});
+      return false;
+    });
+  });

@@ -2,7 +2,6 @@ Dashboard::Application.routes.draw do
   resources :teacher_bonus_prizes
   resources :teacher_prizes
   resources :prizes
-  resources :prize_providers
   resources :callouts
   resources :videos
   resources :concepts
@@ -30,6 +29,9 @@ Dashboard::Application.routes.draw do
   get '/hoc/:chapter', to: 'script_levels#show', script_id: Script::HOC_ID, as: 'hoc_chapter', format: false
 
   get '/k8intro/:chapter', to: 'script_levels#show', script_id: Script::TWENTY_HOUR_ID, as: 'k8intro_chapter', format: false
+
+  resources :prize_providers
+  get '/prize_providers/:id/claim_prize', to: 'prize_providers#claim_prize', as: 'prize_provider_claim_prize'
 
   resources :followers, only: [:new, :create, :index]
   get '/followers/:teacher_user_id/accept', to: 'followers#accept', as: 'follower_accept'
