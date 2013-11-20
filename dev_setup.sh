@@ -10,7 +10,7 @@ if [[ ! -d $DASH_ROOT/blockly ]]; then
     sudo npm install  # Must be executed from same directory as package.json.
     grunt
   )
-  ln -s $DASH_ROOT/blockly/dist/ $DASH_ROOT/public/blockly
+  ln -s $DASH_ROOT/blockly/build/package/ $DASH_ROOT/public/blockly
 fi
 
 # Fix binstub issue.
