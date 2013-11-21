@@ -104,14 +104,14 @@
     title: "Здобути призи: %{name}"
     provider: "Постачальник:"
     code: "Код:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Ви успішно отримали приз, дивіться код нижче."
+    error: "Ваш виграш не може бути отримано, спробуйте ще раз."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Будь ласка, підтвердіть"
+      "no": Ні
+      "yes": Так
+      msg: "Ви впевнені, що ви хочете отримати приз %{prize_name}?"
+      msg_student: "Примітка: Ви можете вибрати тільки один тип нагороди."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"

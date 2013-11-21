@@ -3,7 +3,7 @@
     attributes:
       user:
         name: "Nume"
-        email: "E-mail"
+        email: "Email"
         username: "Nume de utilizator"
         password: "Parolă"
         password_confirmation: "Confirmarea parolei"
@@ -26,7 +26,7 @@
   of: "de"
   more: "MAI MULT"
   less: "MAI PUŢIN"
-  try_hoc: "Încercaţi o Oră de Cod, faceţi clic aici >> "
+  try_hoc: "Încearcă Ora de Cod, faceți clic aici >> "
   try_k8intro: "Sau, încearcă Cursul nostru K-8 de introducere în Informatică (15-25 ore)"
   already_started: "Ai început deja? Rezuma aici >>"
   demos: "Admin: Toate demo-urile"
@@ -69,7 +69,7 @@
     reset_form:
       title: "Ai uitat parola?"
       email: "Adresă de email"
-      submit: "Trimite-mi instrucțiunile pentru resetarea parolei"
+      submit: "Trimite-mi instrucțiuni de resetare a parolei"
     change_form:
       title: "Schimbă-ți parola"
       new_password: "Parolă nouă"
@@ -82,18 +82,18 @@
       
        %{link}
       
-      Tutorialele sunt distractive, te implică vizual şi te învaţă conceptele de bază din informatică folosind o metodă simplă, ghidată, similară jocului. Învață să codezi de la  Bill Gates, Mark Zuckerberg, Angry-Birds și Plants vs. Zombies! :-)
+      Tutorialele sunt distractive, captivante vizual şi te învaţă conceptele de bază din informatică folosind o metodă simplă, ghidată, similară jocului. Învață să codezi de la Bill Gates, Mark Zuckerberg, Angry-Birds și Plants vs. Zombies! :-)
       
       %{name}
   follower:
     invite_sent: "Invitație trimisă"
-    added_teacher: "%{name}  adăugat(ă) ca și  profesorul tău"
-    registered: "Te-ai înregistrat pentru %{section_name}. Te rugăm să te loghezi pentru a continua"
+    added_teacher: "%{name} adăugat(ă) ca și profesorul tău"
+    registered: "Te-ai înscris la %{section_name}. Te rugăm să te loghezi pentru a continua"
     error:
       signed_in: "Te rugăm să te deloghezi înainte de a continua"
       username_not_found: "Utilizatorul %{username} nu a fost găsit"
       username_in_use: "%{username} este deja luat, te rugăm să alegi altul"
-      no_teacher: "Nu am găsit pe nimeni logat cu  '%{teacher_email_or_code}'. Te rugăm să le ceri să se înregistreze aici și apoi încearcă să-i mai adăugi o dată"
+      no_teacher: "Nu am găsit pe nimeni logat cu '%{teacher_email_or_code}'. Te rugăm să le ceri să se înregistreze aici și apoi încearcă să-i mai adăugi o dată"
     mail:
       invite_student:
         subject: "Alătură-te clasei cu %{teacher_name} la Code.org!"
@@ -164,11 +164,11 @@
       mastery: "Concepte"
       puzzle_map: "Etape"
       prizes: "Colectează toate cele %{total_trophies} trofee și câștigă premii!"
-      prize_earned: "Toate %{total_trophies} de trofee au fost colectate. Premiu câștigat!"
+      prize_earned: "Toate cele %{total_trophies} trofee au fost colectate. Premiu câștigat!"
       prizes_link: "mai multe informaţii"
   teacher:
     title:
-      one: "Profesorul tău este %{nume}"
+      one: "Profesorul tău este %{name}"
       other: "Profesorii tăi:"
     tools: "Instrumente pentru profesor"
     students:
@@ -188,7 +188,7 @@
     tried: "Încercat"
   user_stats:
     recent_activity: "Activitate recentă"
-    show_more: "Arată mai mult"
+    show_more: "Arată mai multe"
   home:
     signin_message: "sau dacă ești deja înregistrat %{link}"
     student_reg_link: "Elevi - începeți aici"
@@ -200,20 +200,20 @@
     student_progress: "Progresul tău de învățare"
     student_stats: 'Ai câştigat %{trophy_count} din cele %{trophy_max} trofee de "Concept de Măestrie"'
     student_left_off: "Unde ai rămas:"
-    student_finished: "Ai completat toate tutorialele, revendică-ți %{prize_link} și alege altă clasă % {online_link} sau la o % {local_school_link}"
+    student_finished: "Ai completat toate tutorialele, revendică %{prize_link} și alege altă clasă % {online_link} sau la o %{local_school_link}"
     local_school: "şcoală locală"
     online: "online"
     see_details: "Vezi detalii"
   gender:
-    male: "Masculin"
-    female: "Feminin"
+    male: "De sex masculin"
+    female: "De sex feminin"
     none: "Prefer să nu răspund"
   footer:
-    help_from_html: 'Ingineri de la <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> au ajutat la crearea acestui tutorial.'
+    help_from_html: 'Ingineri de la <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> și <a href="http://www.twitter.com">Twitter</a> au ajutat la crearea acestui tutorial.'
     art_from_html: 'Creație artistică de la <a href="http://www.angrybirds.com">Angry Birds</a> de <a href="http://www.rovio.com">Rovio</a>, și <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> de <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Oferă Feedback"
+    feedback: "Oferă feedback"
     translate: "Ajută-ne să  traducem în limba ta"
-    tos: "Termeni de utilizare"
+    tos: "Termeni de utilizare a serviciului"
   prize_mail:
     prize_earned:
       subject: "Revendică-ți premiul la Code.org!"
@@ -227,7 +227,7 @@
   video:
     tab: "Video."
     notes: "Nici un video? Arată note."
-    autoplay_option: "AutoPlay clipuri video"
+    autoplay_option: "Redare Automată clipuri video"
   compatability:
-    working: "Momentan lucrăm la un suport pentru browser-ul tău."
+    working: "Momentan efectuăm lucrări de susținere a browser-ului tău."
     upgrade: "Te rugăm să-ți actualizezi browser-ul."

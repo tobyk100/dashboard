@@ -104,14 +104,14 @@
     title: "Redimere Premi: %{name}"
     provider: "Fornitore:"
     code: "Codice:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Il premio è stato succesfully redento, vedere il codice riportato di seguito."
+    error: "Il premio non poteva essere redento, riprovare."
     confirm:
-      title: "Please Confirm"
+      title: "Si prega di confermare"
       "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      "yes": Sì
+      msg: "Sei sicuro di voler reclamare il premio %{prize_name}?"
+      msg_student: "Nota: Puoi solo scegliere un tipo di premio."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -197,13 +197,13 @@
     teacher_student_count: "Hai %{count} studenti."
     teacher_averages: 'In media i tuoi studenti hanno guadagnato %{trophy_average} trofei su %{trophy_max} in "Padronanza del concetto".'
     classroom: "La tua aula"
-    student_progress: "Your learning progress"
+    student_progress: "I tuoi progressi di apprendimento"
     student_stats: 'Hai guadagnato %{trophy_count} trofei su %{trophy_max} in "Padronanza del concetto".'
     student_left_off: "Dove avevi interrotto:"
     student_finished: "Hai completato tutti i tutorial, rivendica il tuo %{prize_link} e scegli un'altra classe %{online_link} o una %{local_school_link}"
     local_school: "scuola locale"
     online: "in linea"
-    see_details: "See details"
+    see_details: "Vedi dettagli"
   gender:
     male: "Maschile"
     female: "Femminile"

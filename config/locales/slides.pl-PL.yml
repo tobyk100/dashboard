@@ -60,16 +60,16 @@
         text: 'Możemy użyć nowego bloku "powtórzyć", by sobie pomóc.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'Zamiast 5 razy napisać blok "idź do przodu"...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'Możemy umieścić blok "idź do przodu" wewnątrz bloku "repeat" i napisać w nim liczbę powtórzeń aby powiedzieć mu ile razy ma powtórzyć.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'Ważna uwaga: Możesz umieścić więcej niż 1 komendę w bloku "repeat".'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Miłego korzystania z twojego nowego bloku "repeat"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"

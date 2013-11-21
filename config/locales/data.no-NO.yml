@@ -114,7 +114,7 @@
         turtle_3_4: 'Se om du kan finne ut hvordan du bruker "tegn en firkant" og "tegn en trekant" (og noen andre blokker) for å tegne et hus rundt dyret.'
         turtle_3_5: 'Nå skal du lage en ny "tegne et hus" funksjon, og bruke den for å huse to katter. Tips: opprett en ny funksjon med "gjør noe" blokken, og skriv inn egen tekst for å navngi den.'
         turtle_3_6: 'Ved å bruke "tegn en firkant" som et eksempel: Legg til parameter kalt "lengde" "tegne en trekant". Tegn deretter trekanter i forskjellige størrelser. (Hint: Klikk på stjernen for å legge til et nytt parameter til en funksjon)'
-        turtle_3_7: 'Legg til et parameter kalt "høyde" å "tegne et hus" og bygg et stort hus for elefanten (med sider som er 150 pixel lange)'
+        turtle_3_7: 'Legg til et parameter kalt "høyde" til "tegn et hus"-funksjonen, og bygg et stort hus for elefanten (med sider som er 150 pixel lange)'
         turtle_3_8: 'Her er alle blokkene fra den forrige utfordringen.  Endre "tegne et hus" så jeg ender opp på nedre høyre hjørnet etter et å ha tegnet et nytt hus. Bruk denne endrede funksjonen til å tegne tre hus.'
         turtle_3_9: 'Kan du gjenskape funksjonen "tegn et hus" uten hjelp? Prøv det, og tegn deretter en rekke med hus.'
         turtle_3_10: "Du har lært mye! Bruk det for å tegne hva du vil. Prøv å tegn en stjerne, eller en spiral eller et fancy snøfnugg."

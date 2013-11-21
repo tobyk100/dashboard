@@ -27,10 +27,10 @@
         sequence: "Sekwencja"
         if: 'blok "jeśli"'
         if_else: "blok If-else"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
+        loop_times: "blok powtarzania"
+        loop_until: "Blok powtarzania dopóki"
         loop_while: "While block"
-        loop_for: "Counter block"
+        loop_for: "blok zliczania"
         function: "Funkcje"
         parameters: "Funkcje z parametrami"
     level:
@@ -42,8 +42,8 @@
         maze_2_4: "Argh! Napisz program, który poprowadzi mnie do zielonej świnki i zarazem wokół ładunków wybuchowych."
         maze_2_5: "Istnieje możliwość, abym dostał się do zielonej świnki przy użyciu zaledwie 2 bloków. Czy potrafisz to zrobić?"
         maze_2_6: "Spróbuj przeprowadzić mnie do zielonej świnki używając tylko 3 bloków."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
+        maze_2_7: 'Napisz dla mnie program, bym mógł dostać się to zielonej świnki używając najmniejszej liczby bloków. Sprobuj czegoś jak blok "powtórz".'
+        maze_2_8: 'Aby rozwiązać ten problem spróbuj uży bloku "powtórz" z 3 blokami wewnątrz: idź, idź, skręć.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"

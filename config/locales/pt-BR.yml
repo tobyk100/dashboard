@@ -88,7 +88,7 @@
   follower:
     invite_sent: "Convite enviado"
     added_teacher: "%{name} foi adicionado como seu professor"
-    registered: "Você já se registrou para %{section_name}. Cadastre-se para continuar"
+    registered: "Você já se registrou para %{section_name}. Inscreva-se para continuar"
     error:
       signed_in: "Por favor saia antes de prosseguir"
       username_not_found: "Nome de usuário %{username} não encontrado"
@@ -104,14 +104,14 @@
     title: "Resgatar prêmios: %{name}"
     provider: "Fornecedor:"
     code: "Código:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Seu prêmio foi redimido com êxito, veja o código abaixo."
+    error: "O prêmio não pode ser redimido, por favor tente novamente."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Por favor, confirme"
+      "no": Não
+      "yes": Sim
+      msg: "Tem certeza que quer reivindicar o prêmio %{prize_name}?"
+      msg_student: "NOTA: Você só pode escolher um tipo de prêmio."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"

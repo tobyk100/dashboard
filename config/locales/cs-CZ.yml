@@ -27,7 +27,7 @@
   more: "UKAŽ VÍCE"
   less: "UKAŽ MÉNĚ"
   try_hoc: "Zkus Hodinu Kódu kliknutím zde >> "
-  try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
+  try_k8intro: "Nebo zkus naš kurz K-8 Do světa Informatiky(15-25 hodin)"
   already_started: "Už jsi začal? Pokračuj zde >> "
   demos: "Admin: Všechny ukázky"
   continue: "Pokračovat"
@@ -78,11 +78,11 @@
   welcome_email:
     subject: "Připojit se do mé třídy (na Code.org)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Klikni na odkaz níže, aby ses registroval do tutoriálů informatiky na Code.org(se mnou jako "učitelem"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Tutoriály jsou zábavné a založené na obrázcích. Učí základy informatiky pomocí jednoduchých, doprovázených herních hádanek. Naučíš se programovat s pomocí Billa Gatese, Marka Zuckerberga, Angry Birds a Plants vs. Zombies! :-)
       
       %{name}
   follower:
@@ -107,9 +107,9 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
+      title: "Prosím, potvrď"
+      "no": Ne
+      "yes": Ano
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
     providers:
@@ -158,31 +158,31 @@
       signin: "Přihlásit se"
       signup: "Registrace"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prizes_link: "more info"
+      progress: "Tvůj pokrok"
+      lines: "Celkový počet řádků kódu: %{lines}"
+      close: "ZAVŘÍT"
+      mastery: "Pojmy"
+      puzzle_map: "Fáze"
+      prizes: "Posbírej celkem %{total_trophies} trojejí a vyhraj cenu!"
+      prize_earned: "Máš %{total_trophies} trofejí. Vyhrál si cenu!"
+      prizes_link: "Další informace"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "Tvůj učitel je %{name}"
+      other: "Tví učitelé:"
+    tools: "Nástroje pro učitele"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "Správa studentů"
+      add: "Přidat studenty"
+    rollup: "Panel pokroku"
+    activity: "Nedávné aktivity třídy"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(zanech prázdné, pokud nechceš měnit)"
+    current_password_hint: "(potřebujeme tvé aktuální heslo pro potvrzení změny)"
     cancel:
-      title: "Cancel my account"
-      hint: "Unhappy?"
-      button: "Cancel my account"
+      title: "Zrušit účet"
+      hint: "Nešťastný?"
+      button: "Zrušit účet"
   user_level:
     completed: "Dokončeno"
     tried: "Snažil se"
@@ -195,16 +195,15 @@
     teacher_reg_link: "Učitelé - začněte zde"
     teacher_dashboard: "Zobrazit tabulku pokroku"
     teacher_student_count: "Máš %{count} studentů."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    teacher_averages: 'V průměru tví studenti získali %{trophy_average} z %{trophy_max} trofejí "Koncepce Zvládnutí".'
     classroom: "Tvá třída"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    student_progress: "Tvůj pokrok v učení"
+    student_stats: 'Získal jsi %{trophy_count} z možných %{trophy_max} trofejí "Koncepce Zvládnutí".'
     student_left_off: "Kde jsi přestal:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Zvládl jsi všechny tutoriály. Vyzvedni si %{prize_link} a vyber další třídu %{online_link} nebo %{local_school_link}"
     local_school: "místní škola"
     online: "online"
-    see_details: "See details"
+    see_details: "Viz podrobnosti"
   gender:
     male: "Muž"
     female: "Žena"

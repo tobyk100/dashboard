@@ -10,7 +10,7 @@
       invalid: "Email ou senha inválido."
       invalid_token: "Chave de autenticação inválida."
       locked: "Sua conta está bloqueada."
-      not_found_in_database: "Email ou senha inválido."
+      not_found_in_database: "E-mail ou senha inválido."
       timeout: "Sua sessão expirou, por favor entre novamente para continuar."
       unauthenticated: "Você precisa entrar ou cadastrar-se antes de continuar."
       unconfirmed: "Você tem que confirmar sua conta antes de continuar."
@@ -25,10 +25,10 @@
       failure: 'Não foi possível autenticar você de %{kind} porque "%{reason}".'
       success: "Conta %{kind} autenticada com êxito."
     passwords:
-      no_token: "Você não pode acessar esta página sem passar por uma redefinição de senha ou email. Se você redefiniu sua senha ou email, por favor, certifique-se você usou o URL completo fornecido."
-      send_instructions: "Você receberá um email em alguns minutos com instruções sobre como redefinir sua senha."
-      send_paranoid_instructions: "Se o seu endereço de email existe no nosso banco de dados, você receberá um link de recuperação de senha no seu endereço de email em poucos minutos."
-      updated: "Sua senha foi alterada com êxito. Você está agora conectado."
+      no_token: "Você não pode acessar esta página sem passar por uma redefinição de senha ou e-mail. Se você redefiniu sua senha ou e-mail, por favor, certifique-se você usou o URL completo fornecido."
+      send_instructions: "Você receberá um e-mail em alguns minutos com instruções sobre como redefinir sua senha."
+      send_paranoid_instructions: "Se o seu endereço de e-mail existe no nosso banco de dados, você receberá um link de recuperação de senha no seu endereço de e-mail em poucos minutos."
+      updated: "Sua senha foi alterada com êxito. Você está conectado agora."
       updated_not_active: "Sua senha foi alterada com êxito."
     registrations:
       destroyed: "Sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve. Tchau!"
@@ -48,7 +48,7 @@
   errors:
     messages:
       already_confirmed: "já confirmado, por favor, tente entrar"
-      confirmation_period_expired: "precisa ser confirmado dentro %{period}, por favor, solicite um novo"
+      confirmation_period_expired: "precisa ser confirmado dentro de %{period}, por favor, solicite um novo"
       expired: "expirado, por favor, solicite um novo"
       not_found: "não encontrado"
       not_locked: "não foi bloqueado"

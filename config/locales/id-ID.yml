@@ -78,15 +78,11 @@
   welcome_email:
     subject: "Gabung dengan kelas saya (di Code.org)"
     body: |
-      Klik link dibawah untuk masuk bergabung dengan ilmu komputer tutorial di Code.org (dengan saya sebagai "guru"mu):
+      Klik link dibawah untuk masuk bergabung dengan ilmu komputer tutorial di Code.org (saya akan menjadi "guru"mu): %{link}
       
-      %{link}
-      
-      Kursus ini menyenangkan, menarik untuk dilihat, dan mengajar konsep dasar ilmu informatika menggunakan kegiatan  yang sederhana, teratur, dan dalam bentuk permainan. Pelajari bagaimana cara memprogram dari Bill Gates, Mark Zuckerberg, Angry Birds, dan Plants vs. Zombies! :-)
-      
+      Kursus ini menyenangkan, menarik untuk dilihat, dan mengajar konsep dasar ilmu informatika menggunakan latihan  yang sederhana, teratur, dan dalam bentuk permainan. Belajarlah cara memprogram dari Bill Gates, Mark Zuckerberg, Angry Birds, dan Plants vs. Zombies! :-)
       %{name}
-      Hide context | Request context
-      root -> welcome_email -> body
+      
   follower:
     invite_sent: "Undangan telah dikirim"
     added_teacher: "%{name} ditambahkan sebagai guru Anda"

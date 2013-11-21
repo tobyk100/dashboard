@@ -49,13 +49,13 @@
         maze_2_11: "Pessoa querida.  Mim zumbi. Mim com fome. Devo... chegar... no girassol... Me ajude a chegar lá com apenas 5 blocos?"
         maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Você pode fazê-lo em apenas 5 blocos?"
         maze_2_13: 'Use o novo bloco "SE" para me deixar decidir quando virar. Dica: você só precisa de mais um bloco, mas aprenda como podemos configurá-lo, então você mesmo poderá fazê-lo na próxima vez.'
-        maze_2_14: 'Ok, isso é apenas como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco "SE" e o bloco "repetir" juntos.'
-        maze_2_15: 'Eu quero o girassol! Use um bloco "SE" para obter com o menor número de blocos.'
-        maze_2_16: 'Ok, vamos fazer isto novamente para praticar - isso não é muito diferente, mas fique de olho nos "chompers"!'
-        maze_2_17: 'Os blocos "se-caso contrário" verificam uma condição, e em seguida, fazem uma coisa ou outra. Para me levar ao girassol tente usar este novo bloco.'
-        maze_2_18: 'Mais uma prática do bloco "se-caso contrário", você consegue na primeira tentativa?'
+        maze_2_14: 'Ok, isso é como o último quebra-cabeça, mas você precisa se lembrar de como você usou o bloco "SE" e o bloco "repetir" juntos.'
+        maze_2_15: 'Mim quer girassol! Use um bloco "SE" para que eu chegue lá com o menor número de blocos.'
+        maze_2_16: "Ok, vamos fazer isto novamente para praticar - isso não é muito diferente, mas fique de olho nos comilões!"
+        maze_2_17: 'Os blocos "se-senão" verificam uma condição, e em seguida, fazem uma coisa ou outra. Para me levar ao girassol tente usar este novo bloco.'
+        maze_2_18: 'Mais um treino para o bloco "se-senão", você consegue na primeira tentativa?'
         maze_2_19: "Você pode adicionar apenas 3 blocos para me ajudar a resolver um labirinto mais complexo? Se você fizer isso direito, eu posso andar qualquer caminho cheio de curvas, não importa o comprimento."
-        turtle_1_1: "Oi, eu sou um artista. Você pode escrever código para fazer-me desenhar quase tudo. Use alguns blocos para me fazer desenhar as linhas de cinza na imagem."
+        turtle_1_1: "Oi, eu sou um artista. Você pode escrever um código para fazer-me desenhar quase tudo. Use alguns blocos para me fazer desenhar sobre as linhas cinza na imagem."
         turtle_1_2: 'Agora, desenhe um quadrado. NOTA: use a sua cor preferida pegando-a no novo bloco "definir cor".'
         turtle_1_3: "Faça um quadrado usando apenas 3 blocos."
         turtle_1_4: 'Desenhe um triângulo cujos lados são todos em cores diferentes, usando a opção "cor aleatória" que escolhe uma cor diferente cada vez que é executado. Dica: você terá que descobrir até onde girar clicando no número do bloco de girar.'
@@ -66,7 +66,7 @@
         turtle_1_9: "Você consegue descubrir qual número você precisa para substituir os pontos de interrogação para desenhar um círculo?"
         turtle_1_10: 'Você conseguiu! Agora, desenhe o que quiser. Algumas idéias para se divertir: um boneco, floco de neve ou espiral. Tente também o novo bloco de "definir largura". Divirta-se!'
         turtle_4_1: 'Você pode desenhar um triângulo (com bordas de 100 pixels) com apenas 3 blocos? Dica: use um bloco de "repetir".'
-        turtle_4_2: 'Tente adicionar um bloco para completar este quebra-cabeça. Dica: fornecemos blocos para desenhar dois triângulos idênticos, você precisa colocar um "volta" no meio e decidir quando virar.'
+        turtle_4_2: 'Tente adicionar um bloco para completar este quebra-cabeça. Dica: fornecemos blocos para desenhar dois triângulos idênticos, você precisa colocar um "virar" no meio e decidir quanto virar.'
         turtle_4_3: 'Ok, aqui está o código que você escreveu para desenhar um único triângulo. Você pode adicionar um bloco "repetir" e "virar" para fazer uma linda flor?'
         turtle_4_4: "Aqui está o mesmo código de quebra-cabeça anterior, mas virando apenas 36 graus depois de desenhar cada triângulo. Quantas vezes isso precisa repetir? (Dica: depois de 360 graus o desenho será um círculo completo)"
         turtle_4_5: "Aqui está o mesmo código de quebra-cabeça anterior, mas repetindo a curva 36 vezes. Quantos graus devem ter as curvas? (Dica: depois de 360 graus o desenho será um círculo completo)"
@@ -76,7 +76,7 @@
         turtle_4_9: "Aqui está a solução para o quebra-cabeça anterior. Quantos graus você deve virar para completar o desenho? (Você provavelmente precisará chutar algumas vezes)"
         turtle_4_10: "Aqui está a solução para o quebra-cabeça anterior. Quantas vezes você deve repetir para completar o desenho?"
         turtle_4_11: 'Tente alterar os números nos blocos  "virar" e "repetir" para fazer padrões diferentes. Ou então, experimente mudar o resto do código para desenhar o que quiser.'
-        maze_karel_1_1: 'Oi, eu sou um fazendeiro. Preciso de sua ajuda para planificar o campo na minha fazenda para que esteja pronto para o plantio. Mova o monte de terra e use o bloco de "remover" para removê-lo.'
+        maze_karel_1_1: 'Oi, eu sou um fazendeiro. Preciso de sua ajuda para planificar o campo na minha fazenda para que esteja pronto para o plantio. Mova o monte de terra e use o bloco "remover" para removê-lo.'
         maze_karel_1_2: 'Em seguida, me leve para perto do buraco e coloque com DUAS pás cheias de terra, usando o bloco "preencher".'
         maze_karel_1_3: "Leve-me para a pilha de terra e diga-me quantas pás cheias devo remover, usando o mínimo número de blocos possível."
         maze_karel_1_4: "Você pode me ajudar a remover todas as quatro pilhas de terra? Dica: Se puder, use um bloco de repetição."
