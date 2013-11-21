@@ -400,7 +400,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 .header_level_container {
   border-bottom: 1px solid $inset_color;
   border-bottom-style: inset;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   display: inline-block;
 }
 
@@ -620,6 +620,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   width: 60px;
   height: 60px;
   z-index: 1;
+  cursor: pointer;
   &:hover {
     width: 62px;
     height: 62px;
