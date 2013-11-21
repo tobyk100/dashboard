@@ -544,9 +544,8 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   }
 
   .video_link {
-    display: block;
-    float: left;
-    margin: 8px;
+    display: inline-block;
+    margin: 6px;
   }
 
   .video_name {
