@@ -1,2 +1,2 @@
 set :rails_env, 'staging'
-server "learn.dev-code.org", :app, :web, :db, :primary => true
+server "dash1.dev-code.org", :app, :web, :db, :primary => true
