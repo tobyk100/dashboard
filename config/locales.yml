@@ -19,14 +19,12 @@
 "ar-SA":
   english: "Arabic"
   native: "العربية"
-  debug: true
   dir: 'rtl'
 
 "az": "az-AZ"
 "az-AZ":
   english: "Azerbaijani"
   native: "azərbaycan dili"
-  debug: true
 
 "bn": "bn-BD"
 "bn-BD":
@@ -81,7 +79,6 @@
 "fa-IR":
   english: "Persian"
   native: "فارسی"
-  debug: true
   dir: 'rtl'
 
 "fi": "fi-FI"
@@ -123,7 +120,6 @@
 "id-ID":
   english: "Indonesian"
   native: "Bahasa Indonesia"
-  debug: true
 
 "is": "is-IS"
 "is-IS":
@@ -167,7 +163,6 @@
 "no-NO":
   english: "Norwegian"
   native: "Norsk"
-  debug: true
 
 "pl": "pl-PL"
 "pl-PL":
@@ -195,7 +190,6 @@
 "ru-RU":
   english: "Russian"
   native: "русский язык"
-  debug: true
 
 "sq": "sq-AL"
 "sq-AL":
@@ -207,7 +201,6 @@
 "sr-SP":
   english: "Serbian"
   native: "српски језик"
-  debug: true
 
 "sv": 'sv-SE'
 "sv-SE":
@@ -230,13 +223,11 @@
 "tr-TR":
   english: "Turkish"
   native: "Türkçe"
-  debug: true
 
 "uk": "uk-UA"
 "uk-UA":
   english: "Ukrainian"
   native: "українська мова"
-  debug: true
 
 "ur": "ur-PK"
 "ur-PK":
@@ -261,4 +252,3 @@
 "zh-CN":
   english: "Chinese (Simplified)"
   native: "简体字"
-  debug: true
