@@ -76,7 +76,7 @@
         }
       },
       Dialog: Dialog,
-      referenceArea: '#{escape_javascript render partial: "levels/reference_area"}',
+      referenceArea: '#{escape_javascript(render partial: "levels/reference_area")}',
       levelId: '#{@level.level_num}',
       showInstructionsWrapper: function(handler) {
         if ('#{@autoplay_video}') {
