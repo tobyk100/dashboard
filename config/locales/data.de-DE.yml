@@ -69,9 +69,9 @@
         turtle_4_2: 'Versuche einen Block hinzuzufügen um dieses Puzzle abzuschließen. Hinweis: Es gibt Bausteine um 2 identische Dreiecke zu zeichnen, setze einen "Drehen"-Baustein dazwischen und entscheide wie weit dieser sich drehen soll.'
         turtle_4_3: 'Ok, hier ist das Programm das du geschrieben hast um ein einzelnes Dreieck zu zeichnen. Kannst du einen "Wiederholen"- und "Drehen"-Baustein hinzufügen um eine hübsche Blume zu zeichnen?'
         turtle_4_4: "Hier ist das gleiche Programm aus dem vorherigen Puzzle, aber diesmal nur 36 Grad drehend nach dem Zeichnen jedes Dreiecks. Wie oft muss das wiederholt werden? (Hinweis: nach 360 Grad wird die Zeichnung zu einem vollen Kreis)"
-        turtle_4_5: "Hier ist der gleiche Programm aus dem vorherigen Puzzle, aber dieses Mal werden die Drehungen 36 Mal wiederholt. Um wie viel Grad müssen die Drehungen sein? (Hinweis: nach 360 Grad wird die Zeichnung zu einem vollen Kreis)"
+        turtle_4_5: "Hier ist das gleiche Programm aus dem vorherigen Puzzle, aber diesmal werden die Drehungen 36 Mal wiederholt. Wie viel Grad müssten die Drehungen sein? (Hinweis: nach 360 Grad wird die Zeichnung zu einem vollen Kreis)"
         turtle_4_6: "Kannst du ein Viereck mit der Kantenlänge von 20 Pixeln mit nur 3 Bausteinen zeichnen?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
+        turtle_4_7: "Das ist der Code vom letzten Puzzle, der Quadrate zeichnen kann. Kannst du ihn wiederholen, damit er 10 angrenzende Quadrate zeichnet, die zusammen aussehen wie eine Leiter? Hinweis: du brauchst nur zwei weitere Bausteine."
         turtle_4_8: "Hier ist die Lösung für das vorherige Puzzle. Können Sie nur zwei weitere Bausteine benutzen um die Zeichnung zu beenden?"
         turtle_4_9: "Hier ist die Lösung für das vorherige Puzzle. Wie weit muss gedreht werden um die Zeichnung zu beenden? (Du musst wahrscheinlich ein paar Mal probieren)"
         turtle_4_10: "Hier ist die Lösung für das vorherige Puzzle. Wie oft musst du wiederholen um die Zeichnung zu beenden?"
@@ -114,7 +114,7 @@
         turtle_3_4: 'Probiere mal, ob du herausfinden kannst, wie du die Funktionen "Zeichne Quadrat" und "Zeichne Dreieck" (und weitere) dazu benutzen kannst, ein Haus um den Löwen herum zu zeichnen.'
         turtle_3_5: 'Erstelle jetzt eine neue "zeichne ein Haus"-Funktion und verwende sie um zwei Katzen unterzubringen. Hinweis: erstelle eine neue Funktion mit Hilfe des "mach etwas"-Bausteins und gib einen Namen für den Baustein ein.'
         turtle_3_6: 'Füge eine Eingabe, die "Länge" heißen soll, zu "zeichne ein Dreieck" hinzu, wie im Beispiel "zeichne ein Quadrat". Anschließend, zeichne verschieden große Dreiecke. (Hinweis: klicke auf den Stern, um bei einer Funktion eine Eingabe hinzu zufügen)'
-        turtle_3_7: 'Füge eine Eingabe, die "Höhe" heißen soll, zu "zeichne ein Haus" hinzu und baue ein Haus, das groß genug für einen Elefanten ist (die Kanten sollen 150 Pixel lang sein)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Das hier sind alle Bausteine von den vorherigen Puzzles. Ändere "zeichne ein Haus", so das ich in der unteren, rechten Ecke lande, nachdem ein neues Haus gezeichnet worden ist. Verwende diese modifizierte Funktion um drei Häuser zu zeichnen.'
         turtle_3_9: 'Kannst du die "zeichne ein Haus"-Funktion ohne Hilfe wieder erstellen? Versuche es und zeichne anschließend eine ganze Reihe von Häusern.'
         turtle_3_10: "Glückwunsch, du hast jetzt schon viel gelernt. Jetzt kannst alles zeichnen was dir einfällt. Versuch doch mal einen Stern, ein Spirale, oder eine hübsche Schneeflocke."
@@ -128,7 +128,7 @@
         maze_karel_debug_function_2: "Kannst du dieses Programm für mich auf Fehler überprüfen und sie beseitigen, damit ich mein Feld flach machen kann?"
         maze_karel_debug_function_3: "Bearbeite das Programm so, dass ich alle Erdhaufen von meinem Feld entferne. "
         turtle_5_1: "Jetzt kannst du zeichnen, was immer du möchtest. Falls dir nichts einfallen sollte, frag doch einfach mal deinen Nachbarn!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
+        maze_3_1: "Ich muss zu diesem Schwein kommen! Schreibe ein paar Aufrufe von bewegen(); damit ich mir meine Eier zurückholen kann."
         maze_3_2: "Schreibe mir ein Programm mit dem ich es bis zu dem Schwein schaffe."
         maze_3_3: "Wie komme ich zum Schwein? Passe auf das ich nicht in den TNT-Sprengstoff laufe!"
         maze_3_4: "Argh! Schreibe mir ein Programm das mich um den TNT-Sprengstoff zum Schwein bringt."

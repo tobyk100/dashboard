@@ -108,7 +108,7 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Hej, jag heter Saloni. Jag använder programmering för att lösa problem inom hälsa och medicin. Låt oss läras om "om/annars"-blocket, det ser ut som "om"-blocket men den har en extra del i slutet som säger "annars".'
+        text: 'Hej, jag heter Saloni. Jag använder programmering för att lösa problem inom hälsa och medicin. Låt oss lära oss om "om/annars"-blocket. Det ser ut som "om"-blocket men den har en extra del i slutet som kallas "annars".'
       2:
         image: "notes/hoc5_2.png"
         text: 'Om jag sätter ett "gå framåt"-block på platsen där det står "gör" och ett "sväng vänster"-block där det står "annars" innebär det att zombien kommer att välja mellan 2 alternativ. OM det finns en väg framåt så kommer zombien att gå framåt, och annars (det finns inte en väg framåt) kommer zombien svänga vänster.'

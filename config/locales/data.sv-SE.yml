@@ -116,7 +116,7 @@
         turtle_3_4: 'Se om du kan lista ut hur man använder "Rita en fyrkant"- och "Rita en triangel"-blocken (och några andra block) för att rita ett hus runt lejonet.'
         turtle_3_5: 'Skapa nu en ny "rita ett hus"-funktion och använd den för att sätta hus runt två katter. Tips: skapa en ny funktion som använder "gör något"-blocket och skriv din egen text för att namnge blocket.'
         turtle_3_6: 'Med "Rita en fyrkant" som ett exempel, lägg till en ruta som heter "längd" till "Rita en triangel". Rita sedan trianglar i olika storlekar. (Tips: Klicka på stjärnan för att lägga till en ruta till en funktion)'
-        turtle_3_7: 'Lägga till en ruta som heter "höjd" till "rita ett hus" och bygg ett stort hus till elefanten (med 150 pixlar långa kanter)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Här är alla blocken från förra pusslet.  Ändra "rita ett hus" så att jag hamnar i det nedre högra hörnet efter att jag ritat nytt hus. Använd den här ändrade funktionen för att rita tre hus.'
         turtle_3_9: 'Kan du återskapa funktionen "rita ett hus" utan hjälp? Prova. Rita sedan en rad av hus.'
         turtle_3_10: "Du har lärt dig mycket! Använd nu  det för att rita vad du vill. Försök att rita en stjärna, eller en spiral eller en snygg snöflinga."

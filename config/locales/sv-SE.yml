@@ -36,14 +36,14 @@
     sign_in_with: "Logga in med %{provider}"
     signed_in: "Inloggad!"
     already_signedup: "Redan registrerad?"
-    notyet_signedup: "Har du inte gått ännu?"
+    notyet_signedup: "Har du inte gått  med ännu?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Glömt ditt lösenord?"
     need_confirmation: "Har du inte fått bekräftelseinstruktioner?"
-    need_unlock: "har du inte fått upplåsningsinstruktioner?"
+    need_unlock: "Har du inte fått instruktioner för att låsa upp?"
   signup_form:
     title: "Registrera dig"
     school_name: "Skolans namn (valfritt)"
@@ -53,12 +53,12 @@
     birthday: "Födelsedag (valfritt)"
     submit: "Registrera dig"
     teacher: "Är du en lärare?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Tillgänglig!"
+    invalid_username: "Användarnamnet måste innehålla minst fem tecken"
+    taken_username: "Användarnamnet är upptaget"
+    valid_password: "Giltigt lösenord!"
+    invalid_password: "Lösenordet måste vara minst 6 tecken långt"
+    mismatch_password: "De två lösenord du skrev matchar inte varandra"
   signin_form:
     title: "Logga in"
     login: "E-post eller användarnamn"
@@ -101,17 +101,17 @@
     error:
       access_denied: "Du har inte tillgång till denna personens uppgifter"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "Lös in priser: %{name}"
+    provider: "Leverantör:"
+    code: "Kod:"
+    success: "Ditt pris har lösts in, se nedan."
+    error: "Ditt pris kunde inte lösas in, försök igen."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Vänligen bekräfta"
+      "no": Nej
+      "yes": Ja
+      msg: "Är du säker på att du vill begära %{prize_name} priset?"
+      msg_student: "OBS: Du kan bara välja en sorts pris."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -121,18 +121,20 @@
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      ea_pvz: |
+        EA Origin Plants vs. Zombies
+        
+    student_finished: "Du har gjort alla övningarna. När du har begärt ditt pris kan du fortsätta med en annan klass%{online_link} eller vid en %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Välj ett pris:"
+      earned: "Du har vunnit ett pris!"
+      not_earned: "Samla alla % {num_trophies} troféer för att vinna ett pris!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 eller fler studenter samlade alla %{num_trophies} troféerna. Du har vunnit ett lärar pris!"
+        not_earned: "Om 10 studenter samlar alla %{num_trophies} troféerna vinner du ett pris!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% eller fler av dina studenter som samlade alla %{num_trophies} troféerna är kvinnor. Du har vunnit ett bonus pris!"
+          not_earned: "Om 10 eller fler studenter samlar alla %{num_trophies} troféerna, och minst 40% av dem är kvinnor, vinner du ett bonus pris!"
   crud:
     new_model: "Ny %{model}"
     show: "Visa"
@@ -164,7 +166,7 @@
       mastery: "koncept"
       puzzle_map: "Nivåer"
       prizes: "Samla in alla %{total_trophies} troféer och vinn priser!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Alla %{total_trophies} troféerna är insamlade. Pris vunnet!"
       prizes_link: "Mer information"
   teacher:
     title:
@@ -197,13 +199,13 @@
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'Eleverna har i genomsnitt samlat %{trophy_average} av %{trophy_max} "Koncept-bemästring" troféer.'
     classroom: "Ditt klassrum"
-    student_progress: "Your learning progress"
+    student_progress: "Dina framsteg"
     student_stats: 'Du har samlat %{trophy_count} av %{trophy_max} "Koncept-bemästring" troféer.'
     student_left_off: "Där du slutade senast:"
     student_finished: "Du har slutfört alla övningar, få ditt %{prize_link} och välj en annan klass %{online_link} eller på en %{local_school_link}"
     local_school: "närliggande skola"
     online: "Online"
-    see_details: "See details"
+    see_details: "Se detaljer"
   gender:
     male: "Man"
     female: "Kvinna"
@@ -216,11 +218,11 @@
     tos: "Användarvillkor"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Lös in ditt pris hos Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Lös in ditt pris hos Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Lös in ditt bonus pris hos Code.org!"
   reference_area:
     title: "Behöver du hjälp?"
     subtitle: "Se dessa filmer och tips"

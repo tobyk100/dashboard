@@ -114,7 +114,7 @@
         turtle_3_4: 'Tenta descobrir como usar "desenhar um quadrado" e "desenhar um triângulo" (e alguns outros blocos) para desenhar uma casa em torno do leão.'
         turtle_3_5: 'Agora cria uma nova função "desenhar uma casa" e usa-a para hospedar dois gatos. Dica: Crie uma nova função usando o bloco "fazer algo" e digite o teu próprio texto para o nome do bloco.'
         turtle_3_6: 'Usando "desenhar um quadrado" como exemplo, adiciona uma entrada denominada "comprimento" para "desenhar um triângulo". Em seguida, desenha triângulos em tamanhos diferentes. (Dica: clique na estrela para adicionar uma entrada para uma função)'
-        turtle_3_7: 'Adicionar uma entrada denominada "altura" para "desenhar uma casa" e constrói uma casa grande para o elefante (com bordas de 150 pixeis)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Aqui estão todos os blocos do quebra-cabeça anterior.  Modifica "desenhar uma casa" para eu acabar no canto inferior direito depois de desenhar uma nova casa. Usa esta função modificada para desenhar três casas.'
         turtle_3_9: 'Podes recriar a função "Desenha uma casa" sem ajuda? Tenta, e depois desenha uma fileira de casas.'
         turtle_3_10: "Aprendeste muito! Agora, já consegues desenhar o que quiseres. Tenta desenhar uma estrela, ou uma espiral ou um floco de neve fantasia."

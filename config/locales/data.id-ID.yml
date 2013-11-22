@@ -114,7 +114,7 @@
         turtle_3_4: 'Lihat jika anda dapat mengetahui bagaimana menggunakan "gambar persegi empat" dan "gambar segitiga" (dan blok-blok lain) untuk menggambar rumah mengelilingi singa.'
         turtle_3_5: 'Sekarang buatlah fungsi baru "gambar sebuah rumah" dan gunakan untuk membuat rumah untuk dua kucing. Petunjuk: membuat fungsi baru menggunakan blok "lakukan sesuatu", dan ketik teks Anda sendiri untuk memberi nama blok tersebut.'
         turtle_3_6: 'Menggunakan "gambar persegi" sebagai contoh, tambahkan input bernama "panjang" untuk "gambar segitiga". Kemudian, gambar segitiga dalam berbagai ukuran. (Petunjuk: Klik bintang untuk menambahkan masukan ke fungsi)'
-        turtle_3_7: 'Tambahkan masukan bernama "tinggi" untuk "gambar rumah" dan membangun sebuah rumah yang besar untuk gajah (dengan panjang 150 pixel)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Berikut adalah semua blok dari teka-teki sebelumnya.  Modifikasi "gambar rumah" sehingga saya berada di sudut kanan bawah setelah mengambar rumah baru. Gunakan fungsi yang telah dimodifikasi ini untuk menggambar tiga rumah.'
         turtle_3_9: 'Dapatkah Anda kembali membuat fungsi "gambar sebuah rumah" tanpa bantuan? Cobalah, dan kemudian gambarlah sederetan rumah.'
         turtle_3_10: "Anda telah banyak belajar! Sekarang gunakanlah untuk menggambar apapun yang anda inginkan. Cobalah untuk menggambar sebuah bintang, sebuah spiral, atau kepingan salju."

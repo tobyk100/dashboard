@@ -68,25 +68,23 @@
         turtle_4_1: '3 blokdan istifadə edərək tərəfləri 100 piksel olan üçbucaq çəkə bilərsiniz? İpucu: "repeat" blokundan istifadə edin.'
         turtle_4_2: 'Bu tapmacanı tamamlamaq üçün bir blok daha əlavə etməyə çalışın. Məsləhət: Biz sizə 2 oxşar üçbucaq çəkmək üçün bloklar vermişik, siz isə bu blokların arasında "dönmə" əlavə etməlisiniz və nə qədər dönəcəyinizi təyin etməlisiniz.'
         turtle_4_3: 'Ok, bu bir üçbucaq çəkmək üçün yazdığınız koddur. "Təkrar et" və "dönmə" bloklarını əlavə etməklə gözəl bir gül düzəldə bilərsiniz mi?'
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
+        turtle_4_4: "Burada keçən tapmacadaki kod ilə eyni olan koddur, lakin burada hər üçbucaq çəkildikdən sonra 36 dərəcə dönürülür. Bu neçə dəfə təkrarlanmalıdır? (İpucu: 360 dərəcə dönüşdən sonra çəkmə prosesi bir tam dövrə edəcəkdir)"
+        turtle_4_5: "Burada keçən tapmacadaki kod ilə eyni olan koddur, lakin burada 36 dəfə dönülür. Hər dəfə neçə dərəcə dönülməlidir? (İpucu: 360 dərəcə dönüşdən sonra çəkmə prosesi bir tam dövrə edəcəkdir)"
+        turtle_4_6: "3 blokdan istifadə etməklə, tərəfləri 20 piksel olan kvadrat çəkə bilərsiniz mi?"
+        turtle_4_7: "Burada, keçən tapmacadan, kvadratların çəkilməsi üçün istifadə olunan kodu görə bilərsiz. Siz bu prosesi təkrarlamaqla, 10 bir-birinə qonşu olan və nərdivanı xatırladan kvadratları çəkə bilərsiniz mi? İpucu: Sizə yalnız 2 əlavə blok lazımdır."
+        turtle_4_8: "Burada əvvəlki tapmacanın həllini görə bilərsiniz. Siz 2 blok əlavə etməklə çəkmə prosesini tamamlaya bilərsiniz mi?"
+        turtle_4_9: "Burada əvvəlki tapmacanın həllini görə bilərsiniz. Çəkmə prosesini tamamlamaq üçün neçə dərəcə dönməlisiniz? (Çox güman siz bir neçə dəfə təxmin etməlisiniz)"
+        turtle_4_10: "Burada əvvəlki tapmacanın həllidir. Bunu neçə dəfə təkrarlamaqla şəkili tamamlaya bilərsiniz?"
+        turtle_4_11: '"Dönmə" və "Təkrar et" bloklarındaki ədədləri dəyişməklə digər nümunələr yaratmağa çalışın. Və ya, kodun qalan hissəsini dəyişməklə istədiyiniz şeyi çəkməyi sınaya bilərsiniz.'
+        maze_karel_1_1: 'Salam, mən fermerəm. Ferma sahəmin əkinə hazırlanması üçün yastılanmasında köməyə ehtiyacım var. Məni kir topasına doğru hərəkət etdir və bu topanı silmək üçün "Sil" blokundan istifadə edin.'
+        maze_karel_1_2: 'Sonra, məni boşluğa doğru hərəkət etdirin və boşluğu "doldur" blokunun köməyi ilə, iki kürək dolusu kir ilə doldurun.'
+        maze_karel_1_3: "Məni kir topasına doğru hərəkət etdirin və mənə neçə kürək dolusu kir topasını silməyimi minimal blok sayından istifadə etməklə deyin."
+        maze_karel_1_4: 'Mənə bütün dörd kir topasının silinməsində kömək edə bilərsiniz? İpucu: "Təkrar et" blokundan istifadə etməyə çalışın.'
+        maze_karel_1_5: 'Mənə bütün boşluqları 5 kürək dolusu kir ilə doldurmaqda kömək edin. İpucu: Siz "təkrar et" blokunu "hələ ki" blokunun içində istifadə edə bilərsiniz.'
+        maze_karel_1_6: 'Minimal sayda bloklardan istifadə etməklə, bütün kir topalarını silin. "Hələ ki" blokunun aşağı açılan menyusundaki yeni seçim imkanları mənə topanın və ya boşluğun üstündə dayandığımı deyə bilirlər.'
+        maze_karel_1_7: "Vau, çox dərin bir boşluq tapdım! Boşluğa lazım olan kürək dolusu kirlərin sayını bilmirəm. Boşluğa hamar olmadığı müddətcə kürək dolusu kir dolduracaq proqram yaza bilərsiniz mi?"
+        maze_karel_1_8: "Sahənin sonundaki boşluğu minimal sayda blokdan istifadə etməklə doldurmaqda mənə kömək edin."
+        maze_karel_1_9: 'Mənə bütün kir topalarını sildirin. Minimal sayda blokdan istifadə etməyə çalışın. İpucu: Siz, "təkrar et" blokunun içində "hələ ki" blokunu istifadə edə bilərsiniz.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
@@ -125,24 +123,24 @@
         turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
         turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "height" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
         turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
         turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
         maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
         maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
+        maze_karel_debug_while: "Bu proqramı necə dəyişməlisiniz ki, mənə bütün boşluqları doldurmaqda kömək etsin?"
+        maze_karel_debug_if: "Kömək edin! Proqramı elə düzəldin ki, mənim sahəm tamamilə hamar olsun."
         maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
+        maze_karel_debug_function_3: "Bu proqrama elə düzəliş edin ki, mən sahəmdəki bütün topaları silim. "
         turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_4: "Lənət olsun! Mənə, məni bombadan qurtaracaq və donuza aparacaq olan proqram yazın."
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:

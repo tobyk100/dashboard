@@ -3,31 +3,31 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Velkomin/nn í þinn fyrsta tíma í forritun. Við skulum hefjumst handa."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Við munum nota Blockly, sjónrænt forritunartungumál þar sem þú dregur litla búta af kóða til að skrifa þinn eiginn."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: "Þó að almennur kóði sé venjulega skrifaður, þá er Blockly kerfið sjónrænt og hver bútur af kóða sem þú notar vísar í 'alvöru' kóða."
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Þú munt læra grunninn í tölvunarfræði, hugtök sem eru notuð víða. Allt frá því að gera smáforrit upp í að stýra geim bílum."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Forrit, er eins og leiðbeiningbók fyrir tölvuna að fylgja."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "Markmið fyrsta forritsins sem þú gerir er að láta fugl komast í gegnum völundarhús til að lúskra á grænu svíni."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Vinstri hliðin er völundarhúsið þar sem forritið þitt er keyrt. Leiðbeiningarnar fyrir hverja þraut eru fyrir neðan völundarhúsið."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "Verkfærakistan í miðjunni inniheldur skipanirnar fyrir fuglinn. Þú kemur til með að nota þær til að byggja kóðann þinn upp."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Til hægri er vinnusvæðið þitt þar sem þú munt draga búta af kóða úr verkfæra kistunni til að skapa forritið þitt. Til að henda búta, getur þú dregið hann í ruslið í fötunni."
       10:
         image: "notes/hoc1_10.png"
         text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'

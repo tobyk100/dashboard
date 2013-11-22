@@ -114,7 +114,7 @@
         turtle_3_4: 'Ve si puedes descubrir cómo usar "dibujar un cuadrado" y "dibujar un triángulo" (y algunos otros bloques) para dibujar una casa alrededor del León.'
         turtle_3_5: 'Ahora crea una nueva función "dibujar una casa" y úsala para albergar dos gatos. Sugerencia: crea una nueva función usando el bloque "hacer algo" y escribe tu propio texto para nombrar el bloque.'
         turtle_3_6: 'Usando "dibujar un cuadrado" como ejemplo, agrega una entrada llamada "longitud" a "dibujar un triángulo". Luego, dibuja triángulos de diferentes tamaños. (Sugerencia: haz clic en la estrella para agregar una entrada a una función)'
-        turtle_3_7: 'Agrega una entrada denominada "altura" a "dibujar una casa" y construye una casa grande para el elefante (con bordes de 150 píxeles de largo)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Aquí están todos los bloques del puzzle anterior.  Modifica "dibujar una casa" así termino en la esquina inferior derecha después de dibujar una nueva casa. Utiliza esta función modificada para dibujar tres casas.'
         turtle_3_9: '¿Puedes volver a crear la función "dibujar una casa" sin ayuda? Pruébalo y luego dibuja una hilera de casas.'
         turtle_3_10: "¡Has aprendido mucho! Ahora úsalo para dibujar lo que quieras. Intentar dibujar una estrella, o un espiral o un copo de nieve sofisticado."

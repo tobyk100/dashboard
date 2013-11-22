@@ -101,24 +101,24 @@
     title: "奖品兑换: %{name}"
     provider: "提供者"
     code: "代码："
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "你的奖金已经成功兑现，请参见下面的代码。"
+    error: "你的奖品无法兑现，请重新尝试。"
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "请确认"
+      "no": 否
+      "yes": 是
+      msg: "你确定你希望领取奖品%{prize_name}吗？"
+      msg_student: "注意：你只能选择一种奖品。"
     providers:
       apple_itunes: "苹果 iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
       valve: "传送门"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      ea_bejeweled: "美国艺电 Origin 宝石迷阵 3"
+      ea_fifa: "美国艺电 Origin FIFA Soccer 13"
+      ea_simcity: "美国艺电 Origin 模拟城市 4 豪华版"
+      ea_pvz: "美国艺电 Origin 植物大战僵尸"
     student_finished: "您已经完成了所有教程。领取全部的奖金后再挑选另外一个课程吧： %{online_link} 或 {local_school_link} %"
     msg:
       choose: "选择奖励："
@@ -129,9 +129,9 @@
         not_earned: "只要10个 学生集齐所有 %{num_trophies} 奖杯，你就能获得一个奖励 ！"
         bonus:
           earned: "集齐奖杯的学生中有40%或以上为女性学员，你就能获得额外的奖励！"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          not_earned: "如果有大于等于10个学生集齐了所有的奖杯并且至少有40%的学生是女性，你就可以获得一个额外奖品！"
   crud:
-    new_model: "New %{model}"
+    new_model: "新%{model}"
     show: "显示"
     edit: "编辑"
     edit_model: "编辑 %{型号}"
@@ -192,40 +192,39 @@
     teacher_reg_link: "教师-从这里开始"
     teacher_dashboard: "看进度板"
     teacher_student_count: "你有 %{count} 个学生。"
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
-    see_details: "See details"
+    teacher_averages: "平均下来，您的学生获得了%{trophy_average}/%{trophy_max}个“概念掌握”奖杯。"
+    classroom: "你的教室"
+    student_progress: "你的学习进度"
+    student_stats: "你已经获得了%{trophy_count}/%{trophy_max}个“概念掌握”奖杯。"
+    student_left_off: "你上次离开的地方："
+    student_finished: "你已经完成了所有的教程，领取你的%{prize_link}并选择另一个班%{online_link}或者学校%{local_school_link}"
+    local_school: "本地学校"
+    online: "在线"
+    see_details: "查看详细信息"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "男性"
+    female: "女性"
+    none: "不愿回答"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    help_from_html: '<a href="http://www.google.com">谷歌</a>, <a href="http://www.microsoft.com">微软</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>的软件工程师帮助编写了教程。'
+    art_from_html: '<a href="http://www.angrybirds.com">愤怒的小鸟</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">植物大战僵尸</a> by <a href="http://www.popcap.com">PopCap Games</a>提供了图稿。'
+    feedback: "提供反馈"
+    translate: "帮助我们翻译成你的语言"
+    tos: "服务条款"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "领取你在 Code.org 的奖品！"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "领取你在 Code.org 的奖品！"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "领取你在 Code.org 的额外奖品！"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "需要帮助吗？"
+    subtitle: "看看这些视频和提示"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "视频。"
+    notes: "没有视频吗？请看笔记。"
+    autoplay_option: "自动播放视频"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "我们在努力加入对你的浏览器的支持。"
+    upgrade: "请升级你的浏览器。"

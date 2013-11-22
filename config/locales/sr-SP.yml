@@ -53,12 +53,12 @@
     birthday: "Датум рођења (опционо)"
     submit: "Региструј се"
     teacher: "Да ли сте наставник?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Доступно!"
+    invalid_username: "Корисничко име мора имати барем 5 знакова"
+    taken_username: "Корисничко име заузето"
+    valid_password: "Валидна лозинка!"
+    invalid_password: "Лозинка мора имати барем 6 знакова"
+    mismatch_password: "Лозинке се не поклапају"
   signin_form:
     title: "Пријави се"
     login: "E-mail или корисничко име"
@@ -101,38 +101,38 @@
     error:
       access_denied: "Немате приступ овој особи"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "Откупи награду: %{name}"
+    provider: "Пружаоц услуга:"
+    code: "Код:"
+    success: "Ваша је награда успешно откуплјена, погледајте код испод."
+    error: "Ваша награда није могла бити откуплјена, молимо покушајте поновно."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Молимо потврдите"
+      "no": Не
+      "yes": Да
+      msg: "Јесте ли сигурни да желите узети %{prize_name} награду?"
+      msg_student: "Запамтите: Можете узети само један тип награде."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
       donors_choose_bonus: "DonorsChoose.org $250"
       dropbox: "Dropbox"
-      valve: "Valve Portal"
+      valve: "Вентил портал"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Завршили сте све вјежбе. Након што узмете своју награду, изаберите други курс %{online_link} или на %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Изабери награду:"
+      earned: "Заслужили сте награду!"
+      not_earned: "Узми све %{num_trophies} трофеје како би освојио награду!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 или више студената су скупили све %{num_trophies} трофеје. Ви сте освојили ѕчителјску награду!"
+        not_earned: "Ако 10 студената скупи све %{num_trophies} трофеје, ви ћете освојити награду!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% или више од ваших студената који су сакупили све %{num_trophies} су жене. Освојили сте бонус награду!"
+          not_earned: "Ако 10 или више студената сакупе све %{num_trophies} трофеје и ако најманје 40% од тих студената буду жене, ви ћете освојити бонус награду!"
   crud:
     new_model: "Нови %{model}"
     show: "Покажи"
@@ -164,7 +164,7 @@
       mastery: "Концепти"
       puzzle_map: "Нивои"
       prizes: "Сакупи све %{total_trophies} трофеје и освоји награде!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Сви %{total_trophies} трофеји сакуплјени. Награда освојена!"
       prizes_link: "више информација"
   teacher:
     title:
@@ -197,13 +197,13 @@
     teacher_student_count: "Ви имате %{count} студената."
     teacher_averages: 'У просјеку су ваши студенти зарадили %{trophy_average} од %{trophy_max} "Concept Mastery" трофеја.'
     classroom: "Ваша учионица"
-    student_progress: "Your learning progress"
+    student_progress: "Ваш напредак у ученју"
     student_stats: 'Ви сте зарадили %{trophy_count} од %{trophy_max} "Concept Mastery" трофеја.'
     student_left_off: "Гдје сте оставили заднји пут:"
     student_finished: "Завршили сте све туторијале, узмите своју %{prize_link} и изаберите неки други разред %{online_link} или у %{local_school_link} "
     local_school: "локална школа"
     online: "пријавлјен"
-    see_details: "See details"
+    see_details: "Погледај деталје"
   gender:
     male: "Мушко"
     female: "Женско"
@@ -216,11 +216,11 @@
     tos: "Увјети кориштенја"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Откупи своји награду на Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Откупи своји награду на Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Откупи своју бонус награду на Code.org!"
   reference_area:
     title: "Требаш помоћ?"
     subtitle: "Погледај ове снимке и савете"

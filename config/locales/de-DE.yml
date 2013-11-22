@@ -26,7 +26,7 @@
   of: "von"
   more: "MEHR"
   less: "WENIGER"
-  try_hoc: "Versuchen Sie, The Hour of Code, klicken Sie hier >> "
+  try_hoc: 'Probiere "The Hour of Code" aus, klicke hier >> '
   try_k8intro: "Oder, versuchen Sie unseren Einführungskurs bis 8. Klasse in Informatik (15-25 Stunden)"
   already_started: "Schon begonnen? Hier fortsetzen >> "
   demos: "Admin: Alle Demos"
@@ -104,14 +104,14 @@
     title: "Preise Einlösen: %{name}"
     provider: "Anbieter:"
     code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Dein Preis wurde erfolgreich eingelöst, siehe Code unten."
+    error: "Dein Preis konnte nicht eingelöst werden, bitte versuche es erneut."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Bitte Bestätigen"
+      "no": Nein
+      "yes": Ja
+      msg: "Bist du sicher, dass du den %{prize_name} Preis beanspruchen möchtest?"
+      msg_student: "HINWEIS: Du kannst dir nur einen Preis-Typ aussuchen."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"

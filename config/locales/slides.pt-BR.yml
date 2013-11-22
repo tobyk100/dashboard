@@ -30,7 +30,7 @@
         text: "À direita é o seu espaço de trabalho onde você vai arrastar blocos da caixa de ferramentas para construir o seu programa. Para excluir um bloco, arraste-o para o lixo no canto."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Cada bloco é uma instrução. Se você arrastar um bloco "Avançar" para a sua área de trabalho e pressionar "Executar Programa", o pássaro se move um espeço para a frente no labirinto.'
+        text: 'Cada bloco é uma instrução. Se você arrastar um bloco "Avançar" para a sua área de trabalho e pressionar "Executar Programa", o pássaro se move um espaço para a frente no labirinto.'
       11:
         image: "notes/hoc1_11.png"
         text: "Para fazer mais de uma ação, você pode arrastar muitos blocos para o seu espaço de trabalho e anexá-los juntos. O pássaro vai fazer os comandos de cima para baixo."
@@ -51,7 +51,7 @@
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Olá, sou Mark! Vamos aprender sobre repetições. Usando as repetições pode dizer para um computador repetir qualquer conjunto de ações repetidamente, milhares ou mesmo milhões de vezes."
+        text: "Olá, sou Mark! Vamos aprender sobre repetições. Usando as repetições você pode dizer para um computador repetir qualquer conjunto de ações repetidamente, milhares ou mesmo milhões de vezes."
       2:
         image: "notes/hoc2_2.png"
         text: "Neste quebra-cabeça, queremos fazer o pássaro avançar 5 espaços para chegar ao porco."

@@ -84,14 +84,14 @@
         maze_karel_1_4: 'Mă poți ajuta să elimin toate cele patru mormane de pământ? Indiciu: folosește un bloc "repetă" dacă poți.'
         maze_karel_1_5: 'Ajută-mă să umplu aceste gropi cu 5 lopeți pline de pământ. Indiciu: poți pune un bloc "repetă" în interiorul unui bloc "în timp ce".'
         maze_karel_1_6: 'Elimină toate grămezile de pământ, folosind cât mai puține blocuri posibile. Noile opțiuni din meniul vertical de pe blocul "în timp ce" îmi spun dacă stau pe un morman sau pe o groapă.'
-        maze_karel_1_7: "Wow, am găsit o groapă foarte adâncă! Nu știu de căte lopți de mizerie are nevoie. Poți scrie un program care umple până cand pământul e netend?"
-        maze_karel_1_8: "Ajută-mă să umplu groapa de la capătul terenului,  folosind cât mai puține blocuri posibile."
-        maze_karel_1_9: 'Fă-mă să îndepărtez aceste grămezi de mizerie. Încearcă să folosești cât mai puține blocuri posibile. Indiciu: poți folosi un bloc de tipul "în timp ce" în interiorul unui bloc "repetă".'
-        maze_karel_1_10: 'Lucrez până târziu, așa că e întuneric afară, și nu-mi pot da seama cât de mari sunt grămezile. Acum nu am toate opțiunile pe care le aveam la blocul "în timp ce". Mută-mă pe câmp și dacă e acolo o gramadă, înlătur-o.'
-        maze_karel_1_11: 'Încă e întuneric afară. Mută-mă pe câmp. Dacă găsești o gramadă, înlatur-o, și dacă găsești o groapă, umple-o. Indiciu: folosește meniul vertical de opțiuni din blocul "dacă".'
-        turtle_2_1: "Salut. Eu artist zombie. Eu iubesc desenez! Ajută-mă să desenez un pătrat într-o culoare specială. Notă importantă: ai aceleași blocuri dar acum sunt aranjate în categorii."
-        turtle_2_2: 'Bine ai venit la utilizarea funcțiilor, care te lasă să definești blocuri noi! Încearcă noul bloc "desenează un pătrat" care se găsește în cetegoria "Funcții", ca să desenezi un pătrat mic verde de dimensiuni 50x50.'
-        turtle_2_3: 'Folosește blocul "repetă" (în categoria "Bucle") ca să desenzi 3 pătrate cu latura de 100, ficare la 120 de grade distanță unul de altul. Fă acest lucru folosind 3 culor diferite alese la întâmplare.'
+        maze_karel_1_7: "Wow, am găsit o groapă foarte adâncă! Nu ştiu de cât de multe lopeți de pământ e nevoie să se umple. Puteţi scrie un program care o umple până când solul este drept?"
+        maze_karel_1_8: "Ajută-mă să umplu groapa de la capătul terenului, folosind cât mai puține blocuri posibile."
+        maze_karel_1_9: 'Fă-mă să îndepărtez aceste grămezi de pământ. Încearcă să folosești cât mai puține blocuri posibile. Indiciu: poți folosi un bloc "în timp ce" în interiorul unui bloc "repetă".'
+        maze_karel_1_10: 'Lucrez până târziu, așa că e întuneric afară, și nu-mi pot da seama cât de mari sunt grămezile. Acum nu mai am toate opțiunile pe care le aveam la blocul "în timp ce". Mută-mă de-a lungul câmpului și dacă există pe-acolo vreo gramadă, înlătur-o.'
+        maze_karel_1_11: 'Încă e întuneric afară. Mută-mă de-a lungul câmpului. Dacă găsești o grămadă, înlătur-o și dacă găsești o groapă, umple-o. Indiciu: folosește meniul vertical de opțiuni din blocul "dacă".'
+        turtle_2_1: "Salut. Eu artist zombie. Eu iubesc desenez! Ajută-mă să desenez un pătrat într-o culoare specială. Notă importantă: ai aceleași blocuri dar acum sunt aranjate pe categorii."
+        turtle_2_2: 'Bine ai venit la utilizarea funcțiilor, care te lasă să definești blocuri noi! Încearcă noul bloc "desenează un pătrat" care se găsește în categoria "Funcții", ca să desenezi un pătrat mic verde de dimensiuni 50x50.'
+        turtle_2_3: 'Folosește blocul "repetă" (în categoria "Bucle") ca să desenezi 3 pătrate cu latura de 100, fiecare la 120 de grade distanță unul de altul. Fă acest lucru folosind 3 culori diferite alese la întâmplare.'
         turtle_2_4: "Acum avem să devenim cretivi. Schimbă codul ca să deseneze 36 de pătrate, largi de 100 și la 10 grade departare unul de altul. Indiciu: e posibil să vrei să folosești cursorul ca să ma determii să ma misc mai repede."
         turtle_2_5: 'Desenează pătrate cu laturile de 50, 60, 70, 80, și 90 de pixeli. Vei avea nevoie să folosești de cinci ori funcția "deseneză un pătrat".'
         turtle_2_6: 'Ok, acest pătrat va folosi un numărător, pentru a folosi aceleași pătrate ca ultima oară. Vrei ca pătratele să fie de aceași marime ca și numaratorul, așa că folosește blocul "numărător". Indiciu: Se găsește în categoria Variabile.'
@@ -116,7 +116,7 @@
         turtle_3_4: 'Vezi dacă vă puteţi să aflați cum să utilizaţi "draw a square" şi "draw a triangle" (şi alte blocuri) să desenați o casă în apropiere de leu.'
         turtle_3_5: 'Acum creaţi o nouă "draw a house" funcţie şi utilizaţi-o pentru a găzdui două pisici. Sugestie: creaţi o nouă funcţie folosind blocul "do something," şi introduceţi propriul text pentru a numi blocul.'
         turtle_3_6: 'Folosind "desenează un pătrat" de exemplu, adăugaţi o intrare numită "lungime" să "desenează un triunghi". Apoi, desenaţi triunghiuri în dimensiuni diferite. (Sugestie: faceţi clic pe stea pentru a adăuga o intrare pentru o funcție).'
-        turtle_3_7: 'Adăugaţi o intrare numit "height" pentru a "draw a house" şi de a construi o casă mare pentru elefant (cu margini 150 pixeli lung)'
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Aici sunt toate blocurile de puzzle anterioare.  Modifica "trage o casa" astfel încât să ajung la colţul din dreapta după ce desen o casa nouă. Utilizaţi această funcţie modificată să elaboreze trei case.'
         turtle_3_9: 'Puteţi recrea funcţia "desenaţi o casă" fără ajutor? Încercaţi si apoi desenaţi un rând de case.'
         turtle_3_10: "Ai învăţat o mulţime! Acum folosește pentru a desena tot ce vrei. Încerca să deseni o stea, sau o spirală sau un fulg de nea."

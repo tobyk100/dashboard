@@ -80,7 +80,7 @@
         turtle_4_8: "Ecco la soluzione del puzzle precedente. Riesci ad aggiungere solo 2 blocchi in più per completare il disegno?"
         turtle_4_9: "Ecco la soluzione del puzzle precedente. Quanti gradi dovresti girare per completare il disegno? (È probabilmente necessario indovinare un paio di volte)"
         turtle_4_10: "Ecco la soluzione del puzzle precedente. Quante volte dovresti ripetere per completare il disegno?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_11: 'Provare a cambiare i numeri nei blocchi "girare" e "ripetere" per fare modelli differenti. O, sperimenta cambiando il resto del codice per disegnare tutto ciò che vuoi.'
         maze_karel_1_1: |-
           Ciao, io sono un contadino. Ho bisogno del vostro aiuto per appiattire il campo nella mia fattoria, cosi' è pronto per la semina. Muovimi verso il mucchi di sporcizia e utilizzare il blocco "rimuovi" per rimuoverlo.
         maze_karel_1_2: "Successivamente, muovimi verso il foro e riempirlo con TWO badilate di sporco, usando il blocco di «riempi»."
@@ -127,8 +127,7 @@
         turtle_3_4: 'Vedi se riesci a capire come utilizzare "disegnare un quadrato" e "disegnare un triangolo" (e alcuni altri blocchi) per disegnare una casa attorno al leone.'
         turtle_3_5: 'Ora creare una nuova funzione "disegnare una casa" e utilizzarlo per alloggiare due gatti. Suggerimento: creare una nuova funzione utilizzando il blocco "fare qualcosa" e digitare il proprio testo per nominare il blocco.'
         turtle_3_6: 'Utilizzando "disegnare un quadrato" come esempio, aggiungere un input chiamato "lunghezza" per "disegnare un triangolo". Quindi, disegnare triangoli di diverse dimensioni. (Suggerimento: fare clic sulla stella per aggiungere un input in una funzione)'
-        turtle_3_7: |-
-          Aggiungere un input chiamato "altezza" per "disegnare una casa" e costruire una casa grande per l'elefante (con bordi lunghi 150 pixel)
+        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: |-
           Qui ci sono tutti i blocchi dal puzzle precedente.  Modificare "disegnare una casa" così che finisco all'angolo inferiore destro dopo aver disegnato una nuova casa. Utilizzare questa funzione modificata per disegnare tre case.
         turtle_3_9: 'Riesci a ricreare la funzione "disegnare una casa" senza aiuto? Provate e quindi disegnare una fila di case.'
@@ -143,10 +142,10 @@
         maze_karel_debug_function_2: "Riesci a de-bug questo programma per me così che posso fare il mio campo piatto?"
         maze_karel_debug_function_3: "Modificare questo programma così che io possa rimuovere tutti i mucchi sul mio campo. "
         turtle_5_1: "Prendere questo tempo per disegnare qualsiasi cosa tu voglia! Se non riesci pensare a nulla, chiedi alla persona accanto a te per un suggerimento!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_1: "Ho bisogno di prendere quel maiale! Digitare un paio di istruzioni per muoversi(); così che posso riprendere le mie uova."
+        maze_3_2: "Scrivimi un programma, cosi riesco a fare tutta la strada verso il maiale."
+        maze_3_3: "Come dovrei arrivare al maiale? Assicurati che non vada contro la cassetta di TNT!"
+        maze_3_4: "Argh! Scrivimi un programma che mi faccia andare intorno il TNT e verso il maiale."
       levelIncompleteError:
         maze_2_8: |-
           Per risolvere questo, trovare il modello che si ripete. Utilizzare un blocco "ripetizione" con questi 3 blocchi all'interno di esso: muoversi, muoversi, girare a destra.

@@ -53,12 +53,12 @@
     birthday: "تاریخ تولد (اختیاری)"
     submit: "ثبت نام"
     teacher: "آیا شما یک معلم هستید؟"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "موجود است!"
+    invalid_username: "نام کاربری باید حداقل 5 حرف باشد"
+    taken_username: "نام کاربری قبلاً گرفته شده است"
+    valid_password: "رمز عبور معتبر!"
+    invalid_password: "رمز عبور باید حداقل 6 حرف باشد"
+    mismatch_password: "دو کلمه عبور واردشده یکی نیستند"
   signin_form:
     title: "ورود"
     login: "رایانامه یا نام کاربری"
@@ -91,25 +91,25 @@
       signed_in: "لطفا قبل از هر اقدامی از سایت خارج شوید"
       username_not_found: "نام کاربری %{username} یافت نشد"
       username_in_use: "%{username} قبلا انتخاب شده است، لطفا یک نام کاربری دیگر را امتحان کنید"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      no_teacher: "کسی با  '%{teacher_email_or_code}' وارد نشده است. لطفا از ایشان بخواهید تا ثبت نام کنند و بعد دوباره اضافه کردنشان را امتحان کنید"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "در یک کلاس با %{teacher_name} در Code.org شرکت کنید!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "شما به اطلاعات این شخص دسترسی ندارید"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "آزاد کردن جوایز: %{name}"
+    provider: "فراهم کننده:"
+    code: "کد:"
+    success: "جایزه شما با موفقیت آزاد شد، کد زیر را مشاهده کنید."
+    error: "جایزه شما قابل آزاد شدن نیست, لطفا دوباره سعی کنید."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "لطفا تایید کنید"
+      "no": نه
+      "yes": بله
+      msg: "آیا شما در مورد ادعای جایزه %{prize_name} مطمئنید؟"
+      msg_student: "توجه: شما تنها می توانید یک نوع جایزه انتخاب کنید."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -120,16 +120,16 @@
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "شما همه دوره های آموزشی را کامل کرده اید. پس از گرفتن جایزه، کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "یک جایزه انتخاب کنید:"
+      earned: "شما یک جایزه دریافت کرده اید!"
+      not_earned: "همه %{num_trophies} گنج را جمع کنید تا یک جایزه ببرید!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 یا تعداد بیشتری دانش آموز همه %{num_trophies}  گنج را جمع آوری کرده اند. شما یک جایزه معلم را برده اید!"
+        not_earned: "اگر 10 دانش آموز همه %{num_trophies} گنج را جمع آوری کنند، شما یک جایزه خواهید گرفت!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
+          earned: "40 درصد یا بیشتر از دانش آموزان شما که همه %{num_trophies} گنج را جمع کرده اند، زن هستند. شما یک جایزه برده اید!"
           not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
   crud:
     new_model: "New %{model}"
