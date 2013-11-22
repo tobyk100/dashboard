@@ -24,7 +24,7 @@ EOF
 
 if [[ $RAILS_ENV = 'production' ]]; then
 cat <<EOF
-    if ($host != "learn.code.org") {
+    if (\$host != "learn.code.org") {
       rewrite /?(.*) http://learn.code.org/$1 permanent;
     }
 EOF
