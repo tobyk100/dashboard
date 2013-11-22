@@ -3,7 +3,7 @@
     attributes:
       user:
         name: "Nome"
-        email: "Email"
+        email: "E-mail"
         username: "Nome de usuário"
         password: "Senha"
         password_confirmation: "Confirmação de senha"
@@ -104,8 +104,8 @@
     title: "Resgatar prêmios: %{name}"
     provider: "Fornecedor:"
     code: "Código:"
-    success: "Seu prêmio foi redimido com êxito, veja o código abaixo."
-    error: "O prêmio não pode ser redimido, por favor tente novamente."
+    success: "Seu prêmio foi resgatado com êxito, veja o código abaixo."
+    error: "O prêmio não pode ser resgatado, por favor tente novamente."
     confirm:
       title: "Por favor, confirme"
       "no": Não

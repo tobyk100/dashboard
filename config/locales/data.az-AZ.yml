@@ -35,7 +35,7 @@
         parameters: "Parametrli funksiyalar"
     level:
       instructions:
-        maze_2_2: 'Salam! Mənə Yaşıl Donuz Balasını əldə etmək lazımdır! Bir neçə "irəli get" blokunu bir yerə yığın və "Proqramı çalışdır" düyməsini basaraq mənə ora çatmağa kömək edin. '
+        maze_2_2: 'Salam! Mən Yaşıl Donuzcuğu tutmalıyam! Bir neçə "irəli get" blokunu bir yerə yığın və "Proqramı icra et" düyməsini basaraq mənə ora çatmağa kömək edin. '
         maze_2_1: "Mənə başqa bir proqram yazın ki, mən yaşıl donuza gedib çata bilim. "
         maze_2_2_5: "Yaşıl donuza necə gedə bilərəm? (TNT-dən ehtiyatlı olun)"
         maze_2_3: "Yaşıl donuza necə gedə bilərəm? (TNT-dən ehtiyatlı olun)"
@@ -77,14 +77,14 @@
         turtle_4_10: "Burada əvvəlki tapmacanın həllidir. Bunu neçə dəfə təkrarlamaqla şəkili tamamlaya bilərsiniz?"
         turtle_4_11: '"Dönmə" və "Təkrar et" bloklarındaki ədədləri dəyişməklə digər nümunələr yaratmağa çalışın. Və ya, kodun qalan hissəsini dəyişməklə istədiyiniz şeyi çəkməyi sınaya bilərsiniz.'
         maze_karel_1_1: 'Salam, mən fermerəm. Ferma sahəmin əkinə hazırlanması üçün yastılanmasında köməyə ehtiyacım var. Məni kir topasına doğru hərəkət etdir və bu topanı silmək üçün "Sil" blokundan istifadə edin.'
-        maze_karel_1_2: 'Sonra, məni boşluğa doğru hərəkət etdirin və boşluğu "doldur" blokunun köməyi ilə, iki kürək dolusu kir ilə doldurun.'
-        maze_karel_1_3: "Məni kir topasına doğru hərəkət etdirin və mənə neçə kürək dolusu kir topasını silməyimi minimal blok sayından istifadə etməklə deyin."
-        maze_karel_1_4: 'Mənə bütün dörd kir topasının silinməsində kömək edə bilərsiniz? İpucu: "Təkrar et" blokundan istifadə etməyə çalışın.'
-        maze_karel_1_5: 'Mənə bütün boşluqları 5 kürək dolusu kir ilə doldurmaqda kömək edin. İpucu: Siz "təkrar et" blokunu "hələ ki" blokunun içində istifadə edə bilərsiniz.'
-        maze_karel_1_6: 'Minimal sayda bloklardan istifadə etməklə, bütün kir topalarını silin. "Hələ ki" blokunun aşağı açılan menyusundaki yeni seçim imkanları mənə topanın və ya boşluğun üstündə dayandığımı deyə bilirlər.'
-        maze_karel_1_7: "Vau, çox dərin bir boşluq tapdım! Boşluğa lazım olan kürək dolusu kirlərin sayını bilmirəm. Boşluğa hamar olmadığı müddətcə kürək dolusu kir dolduracaq proqram yaza bilərsiniz mi?"
+        maze_karel_1_2: 'Sonra, məni boşluğa doğru hərəkət etdirin və boşluğu "doldur" blokunun köməyi ilə, iki kürək dolusu palçıq ilə doldurun.'
+        maze_karel_1_3: "Məni palçıq topasına doğru hərəkət etdirin və mənə neçə kürək dolusu palçıq topasını silməyimi minimal blok sayından istifadə etməklə deyin."
+        maze_karel_1_4: 'Mənə bütün dörd palçıq topasının silinməsində kömək edə bilərsiniz? İpucu: "Təkrar et" blokundan istifadə etməyə çalışın.'
+        maze_karel_1_5: 'Mənə bütün boşluqları 5 kürək dolusu palçıq ilə doldurmaqda kömək edin. İpucu: Siz "təkrar et" blokunu "hələ ki" blokunun içində istifadə edə bilərsiniz.'
+        maze_karel_1_6: 'Minimal sayda bloklardan istifadə etməklə, bütün palçıq topalarını silin. "Hələ ki" blokunun aşağı açılan menyusundaki yeni seçim imkanları mənə topanın və ya boşluğun üstündə dayandığımı deyə bilirlər.'
+        maze_karel_1_7: "Vay, çox dərin bir boşluq tapdım! Boşluğa lazım olan kürək dolusu palçığın sayını bilmirəm. Boşluğa hamar olmadığı müddətcə kürək dolusu palçıq dolduracaq proqram yaza bilərsiniz mi?"
         maze_karel_1_8: "Sahənin sonundaki boşluğu minimal sayda blokdan istifadə etməklə doldurmaqda mənə kömək edin."
-        maze_karel_1_9: 'Mənə bütün kir topalarını sildirin. Minimal sayda blokdan istifadə etməyə çalışın. İpucu: Siz, "təkrar et" blokunun içində "hələ ki" blokunu istifadə edə bilərsiniz.'
+        maze_karel_1_9: 'Mənə bütün palçıq topalarını sildirin. Minimal sayda blokdan istifadə etməyə çalışın. İpucu: Siz, "təkrar et" blokunun içində "hələ ki" blokunu istifadə edə bilərsiniz.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
@@ -98,10 +98,8 @@
           Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
         turtle_2_7: |-
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
+        turtle_2_7_5: 'Yeni "qar adamı çək" funksiyası var (Funksiyalar kateqoriyasında). Hündürlüyü 250 və 100 olan iki qar adamı çəkin.'
+        turtle_2_8: 'Bu dəfə balaca fənd işlətməlisiniz. "Qar adamı çək" funksiyası və yeni "irəliyə atıl" blokundan (Əmrlər kateqoriyasında) istifadə edin. Bir-birindən 100 piksel aralı müxtəlif rəngdə 3 qar adamı çəkin.'
         turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
         turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
@@ -134,26 +132,25 @@
         maze_karel_debug_if: "Kömək edin! Proqramı elə düzəldin ki, mənim sahəm tamamilə hamar olsun."
         maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
+        maze_karel_debug_function_2: "Sahəmi hamarlaya bilməyim üçün bu proqramı mənim üçün sazlaya bilərsiniz?"
         maze_karel_debug_function_3: "Bu proqrama elə düzəliş edin ki, mən sahəmdəki bütün topaları silim. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Lənət olsun! Mənə, məni bombadan qurtaracaq və donuza aparacaq olan proqram yazın."
+        turtle_5_1: "Bu dəfə nə istəyirsiniz onu çəkin! Əgər ağlınıza heç nə gəlmirsə, yanınızdakı adamdan bir təklif verməyini xahiş edin!"
+        maze_3_1: "Bu donuzun dərsini verməliyəm!  Bir neçə move(); əmri yazın ki, yumurtalarımı geri ala bilim."
+        maze_3_2: "Mənə bir proqram yazın ki, gedib düz bu donuzun yanına çıxa bilim."
+        maze_3_3: "Bu donuzun yanına necə getməliyəm? Elə edin ki, partladıcı TNT qutusunun üstünə çıxmayım!"
+        maze_3_4: "Lənət olsun! Elə proqram yaz ki, məni bombadan yan keçirərək donuza çatdırsın."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Bu məsələni həll etmək üçün təkrar olunan hissəni tapın. İçərisində növbəti 3 blok olan "təkrar et" blokundan istifadə edin: get, get, sağa dön.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: 'Sizə "təkrar et" blokunun daxilində "əgər" bloku lazımdır. Əgər çətinlik çəkirsinizsə, əvvəlki mərhələni bir də keçin ki, bunu necə etdiyinizi görəsiniz.'
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Bu məsələni həll etmək üçün təkrar olunan hissəni tapın. İçərisində növbəti 3 blok olan "təkrar et" blokundan istifadə edin: get, get, sağa dön.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
+        maze_intro: "Labirint oyununa giriş"
+        artist_intro: "Rəssam oyununa giriş"
+        farmer_intro: "Fermer oyununa giriş"
+        loop_times: '"Təkrar et, neçə dəfə" bloku'
         loop_until: '"Təkrar et, o vaxta qədər ki" bloku'
         if: '"Əgər" bloku'
         if_else: '"Əgər/əks halda" bloku'
@@ -162,4 +159,4 @@
         loop_for: "Sayğac bloku"
         parameters: "Parametrli funksiyalar"
         hoc_wrapup: "Kod Saatının yekunu"
-        20_wrapup: "20-Hour Wrapup"
+        20_wrapup: "20 saatın yekunu"

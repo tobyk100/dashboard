@@ -21,7 +21,7 @@
   appname: "Code.org"
   stage: "Scene"
   puzzle: "Oppgave"
-  trophies: "Premier"
+  trophies: "Pokaler"
   courses: "Kurs"
   of: "av"
   more: "MER"
@@ -163,7 +163,7 @@
       close: "LUKK"
       mastery: "Konsepter"
       puzzle_map: "Stadier"
-      prizes: "Samle alle %{total_trophies} trofeer og vinn premier!"
+      prizes: "Samle alle %{total_trophies} pokalene og vinn premier!"
       prize_earned: "Alle %{total_trophies} premiene er samlet. Premien er vunnet!"
       prizes_link: "mer info"
   teacher:

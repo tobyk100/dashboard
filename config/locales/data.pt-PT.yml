@@ -10,11 +10,11 @@
         Maze: "O Labirinto"
         Artist: "O Artista"
         Artist2: "O Artista 2"
-        Farmer: "O Fazendeiro"
+        Farmer: "O Agricultor"
         Artist3: "O Artista 3"
-        Farmer2: "O Fazendeiro 2"
+        Farmer2: "O Agricultor 2"
         Artist4: "O Artista 4"
-        Farmer3: "O Fazendeiro 3"
+        Farmer3: "O Agricultor 3"
         Artist5: "O Artista 5"
         MazeEC: "O Artista"
     trophy:
@@ -35,37 +35,37 @@
         parameters: "Funções com parâmetros"
     level:
       instructions:
-        maze_2_2: 'Olá! Eu preciso ir buscar o Porquinho Verde! Empilha uns Blocos "Avançar" e pressiona "Executar Programa" para me ajudar a chegar lá. '
+        maze_2_2: 'Olá! Eu preciso ir buscar o Porquinho Verde! Empilha uns Blocos "avançar" e pressiona "Executar Programa" para me ajudar a chegar lá. '
         maze_2_1: "Escreve outro programa para que eu possa fazer todo o caminho até ao porco verde. "
         maze_2_2_5: "Como devo chegar ao porco verde? (Cuidado com o TNT)"
         maze_2_3: "Como devo chegar ao porco verde? (Cuidado com o TNT)"
-        maze_2_4: "Argh! Escreva um programa que me faça contornar o TNT e chegar ao porco verde. "
+        maze_2_4: "Argh! Escreve um programa que me faça contornar o TNT e chegar ao porco verde. "
         maze_2_5: "Há uma maneira de chegar ao porco verde usando apenas a 2 blocos. Consegues descobrir?"
-        maze_2_6: "Tente levar-me ao porco verde usando apenas a três blocos."
-        maze_2_7: 'Escreva-me um programa para que eu possa chegar ao porco verde usando o menor número de blocos. Tente usar mais de um bloco "Repetir vezes".'
-        maze_2_8: 'Para resolver este, tente um bloco "Repetir" com estes 3 blocos no seu interior: mover, mover,virar.'
-        maze_2_9: 'Ok, tente o novo bloco "Repetir até" - irá repetir até eu alcançar o porco verde.'
-        maze_2_10: "Ok, uma última vez para praticar - você pode resolver este um usando apenas 4 blocos?"
-        maze_2_11: "Querida pessoa.  Me zombie. Eu com fome. Deve... ir... girassol... Arranja-me lá com apenas 5 blocos?"
-        maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Consegue fazê-lo com apenas 5 blocos?"
-        maze_2_13: 'Use o novo bloco "se" para me deixar decidir quando virar. Dica: só precisas de mais um bloco, mas aprende como podemos configurá-lo para que possas fazer sozinho na próxima vez.'
-        maze_2_14: 'Ok, isto é como o último quebra-cabeça, mas precisas lembrar-te de como usaste o bloco "se" e o bloco "repetir" juntos.'
-        maze_2_15: 'Eu querer girassol! Use um bloco "se" para levar-me lá, com o menor número de blocos.'
-        maze_2_16: "Ok, vamos fazer novamente para a praticar - isso não é muito diferente, mas tem cuidado com os os comilões!"
-        maze_2_17: 'Os blocos "se-senão" verifica uma condição, e em seguida, faz uma coisa OU outra. Para me levar para o girassol tente usar este novo bloco.'
+        maze_2_6: "Tenta levar-me ao porco verde usando apenas a três blocos."
+        maze_2_7: 'Escreve-me um programa para que eu possa chegar ao porco verde usando o menor número de blocos. Tenta usar mais de um bloco "repetir vezes".'
+        maze_2_8: 'Para resolver este, tente um bloco "repetir" com estes 3 blocos no seu interior: mover, mover, virar.'
+        maze_2_9: 'Ok, tente o novo bloco "repetir até" - irá repetir até eu alcançar o porco verde.'
+        maze_2_10: "Ok, uma última vez para praticar - consegues resolver este um usando apenas 4 blocos?"
+        maze_2_11: "Querida pessoa.  Eu zombie. Eu com fome. Tenho... ir... girassol... Consegues colocar-me lá com apenas 5 blocos?"
+        maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Consegues fazê-lo com apenas 5 blocos?"
+        maze_2_13: 'Usa o novo bloco "se" para me deixar decidir quando virar. Dica: só precisas de mais um bloco, mas aprende como podemos configurá-lo para que possas fazer sozinho na próxima vez.'
+        maze_2_14: 'Ok, isto é como o último quebra-cabeças, mas precisas de te lembrar de como usaste o bloco "se" e o bloco "repetir" juntos.'
+        maze_2_15: 'Eu querer girassol! Usa um bloco "se" para levar-me lá, com o menor número de blocos.'
+        maze_2_16: "Ok, vamos fazer novamente para praticar - isso não é muito diferente, mas tem cuidado com os comilões!"
+        maze_2_17: 'Os blocos "se-senão" verificam uma condição, e em seguida, fazem uma coisa OU outra. Para me levar para o girassol tenta usar este novo bloco.'
         maze_2_18: 'Pratica mais uma vez o bloco "se-senão", consegues à primeira tentativa?'
         maze_2_19: "Podes adicionar mais 3 blocos para me ajudares a resolver este complexo labirinto? Se conseguires podes andar em qualquer caminho com curvas qualquer que seja o tamanho."
         turtle_1_1: "Olá, eu sou um artista. Podes escrever código para que eu possa desenhar quase tudo. Usa alguns blocos para me fazer desenhar sobre as linhas cinza na imagem."
-        turtle_1_2: 'Agora, desenha um quadrado. Nota: escolha a sua cor preferida usando o bloco "definir cor".'
+        turtle_1_2: 'Agora, desenha um quadrado. Nota: escolhe a tua cor preferida usando o bloco "definir cor".'
         turtle_1_3: "Faz um quadrado usando só três blocos."
-        turtle_1_4: 'Desenha um triângulo cujos lados tenham todos cores diferentes, usando a opção "cor aleatória" que escolhe uma cor diferente de cada vez.Dica: Tens que descobrir até onde virar, clicando no número do bloco virar.'
-        turtle_1_5: "Agora, para a prática, desenhe um triângulo e, em seguida, um quadrado, desenhar um envelope."
+        turtle_1_4: 'Desenha um triângulo cujos lados tenham todos cores diferentes, usando a opção "cor aleatória" que escolhe uma cor diferente de cada vez. Dica: tens que descobrir até onde virar, clicando no número do bloco virar.'
+        turtle_1_5: "Agora, para praticar, desenha um triângulo e, em seguida, um quadrado para desenhar um envelope."
         turtle_1_6: "Consegues descobrir como desenhar este triângulo e quadrado? Dica: Faz o triângulo primeiro, e depois tenta descobrir o quanto virar antes de desenhar o quadrado."
-        turtle_1_7: "Ok, vamos dificultar um pouco - veja se podes desenhar esses óculos verdes. Os quadrados são 100 pixels de cada lado, e eles são separados 50 pixels. Não te esqueças de desenhar no verde!"
-        turtle_1_8: 'Ok, tente descobrir o que acontece se você executar esse código (ou pressione "Executar" para experimentá-lo). Em seguida, repeti-lo várias vezes para completar o desenho. As cores serão diferentes a cada execução.'
+        turtle_1_7: "Bem, vamos dificultar um pouco - vê se podes desenhar esses óculos verdes. Os quadrados são 100 pixeis de cada lado e são separados 50 pixeis. Não te esqueças de desenhar no verde!"
+        turtle_1_8: 'Bem, tenta descobrir o que acontece se executares esse código (ou pressiona "Executar" para experimentá-lo). Em seguida, repete-o várias vezes para completar o desenho. As cores serão diferentes a cada execução.'
         turtle_1_9: "Consegues descobrir qual o número que substitui os pontos de interrogação para que possas desenhar um círculo?"
         turtle_1_10: 'Conseguiste! Agora desenha o que quiseres. Algumas ideias engraçadas: um boneco, um floco de neve ou uma espiral. Experimenta também o novo bloco "definir largura". Diverte-te!'
-        turtle_4_1: 'Consegues desenhar um triângulo (com 100 pixeis de lado) com apenas 3 blocos? Dica: use o bloco "repetir".'
+        turtle_4_1: 'Consegues desenhar um triângulo (com 100 pixeis de lado) com apenas 3 blocos? Dica: usa o bloco "repetir".'
         turtle_4_2: 'Experimenta adicionar um bloco para completar o puzzle. Dica: nós fornecemos dois triângulos idênticos, tens que usar um "virar" entre eles, e decidir até onde virar.'
         turtle_4_3: 'Ok, aqui está o código que você escreveu para desenhar um único triângulo. Você pode adicionar um bloco "repetir" e "virar" para fazer uma linda flor?'
         turtle_4_4: "Aqui está o mesmo código de quebra-cabeça anterior, mas virando apenas 36 graus e depois desenhando cada triângulo. Quantas vezes isto precisa repetir-se? (Dica: depois de 360 graus viragem o desenho será um círculo completo)"
@@ -114,7 +114,7 @@
         turtle_3_4: 'Tenta descobrir como usar "desenhar um quadrado" e "desenhar um triângulo" (e alguns outros blocos) para desenhar uma casa em torno do leão.'
         turtle_3_5: 'Agora cria uma nova função "desenhar uma casa" e usa-a para hospedar dois gatos. Dica: Crie uma nova função usando o bloco "fazer algo" e digite o teu próprio texto para o nome do bloco.'
         turtle_3_6: 'Usando "desenhar um quadrado" como exemplo, adiciona uma entrada denominada "comprimento" para "desenhar um triângulo". Em seguida, desenha triângulos em tamanhos diferentes. (Dica: clique na estrela para adicionar uma entrada para uma função)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Adiciona uma entrada chamada "altura" para "desenhar uma casa" e constrói uma casa grande para o elefante ( com arestas de 150 pixeis de comprimento)'
         turtle_3_8: 'Aqui estão todos os blocos do quebra-cabeça anterior.  Modifica "desenhar uma casa" para eu acabar no canto inferior direito depois de desenhar uma nova casa. Usa esta função modificada para desenhar três casas.'
         turtle_3_9: 'Podes recriar a função "Desenha uma casa" sem ajuda? Tenta, e depois desenha uma fileira de casas.'
         turtle_3_10: "Aprendeste muito! Agora, já consegues desenhar o que quiseres. Tenta desenhar uma estrela, ou uma espiral ou um floco de neve fantasia."
@@ -124,7 +124,7 @@
         maze_karel_debug_while: "Como deverás alterar este programa para me ajudar a preencher o buraco?"
         maze_karel_debug_if: "Ajuda! Corrige o programa para que o meu campo fique completamente plano."
         maze_karel_debug_if_else: "Corrige este programa para que possa tapar os buracos e remover todas as pilhas."
-        maze_karel_debug_function_1: "O que deverás mudar neste programa para me ajudar a remover todas as pilhas?"
+        maze_karel_debug_function_1: "O que deverás mudar neste programa para me ajudar a remover todos os montes?"
         maze_karel_debug_function_2: "Podes corrigir este programa por mim para que eu possa ficar com o campo plano?"
         maze_karel_debug_function_3: "Edite este programa para que eu possa remover todas as pilhas no meu campo. "
         turtle_5_1: "Aproveita este momento para desenhar o que te apetecer! Se não conseguires pensar em nada, pede uma sugestão a alguém que esteja perto!"
@@ -140,16 +140,16 @@
         maze_2_8: 'Para resolver isso, encontre o padrão que se repete. Use um bloco "repetir" com estes 3 blocos dentro: move, move, virar à direita.'
     video:
       name:
-        maze_intro: "Labirinto Intro"
-        artist_intro: "Artista Intro"
-        farmer_intro: "Fazendeiro Intro"
+        maze_intro: "Introdução ao labirinto"
+        artist_intro: "Introdução ao artista"
+        farmer_intro: "Introdução ao agricultor"
         loop_times: "Bloco Repetir Vezes"
         loop_until: "Bloco Repetir Até"
         if: "Bloco Se"
-        if_else: "Bloco Se/Senão"
+        if_else: "Bloco Se/senão"
         function: "Funções"
         loop_while: "Bloco Enquanto"
         loop_for: "Bloco Contador"
         parameters: "Funções com parâmetros"
-        hoc_wrapup: "Embrulho Hora de Código"
-        20_wrapup: "Embrulho 20 Horas"
+        hoc_wrapup: "Resumo Hora de Código"
+        20_wrapup: "Resumo de 20 Horas"

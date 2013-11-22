@@ -6,13 +6,13 @@
         text: "Bem-vindo à tua primeira hora de código! Vamos mergulhar logo no teu primeiro contacto com a programação."
       2:
         image: "notes/hoc1_2.png"
-        text: "Estaremos usando Blockly, uma linguagem de programação visual onde podes arrastar e soltar blocos para escrever código."
+        text: "Estaremos a usar o Blockly, uma linguagem de programação visual onde podes arrastar e soltar blocos para escrever código."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Grande parte do código é digitado, mas a Blockly é visual. Cada bloco corresponde a uma linha de código "real".'
+        text: 'Grande parte do código é digitado, mas o Blockly é visual. Cada bloco corresponde a uma linha de código "real".'
       4:
         image: "notes/hoc1_4.png"
-        text: "Você vai aprender os fundamentos da ciência da computação, conceitos que são usados para fazer aplicações para telemóveis ou até para controlar o robô que está em Marte."
+        text: "Vais aprender os fundamentos da ciência da computação, conceitos que são usados para fazer aplicações para telemóveis ou até para controlar o robô que está em Marte."
       5:
         image: "notes/hoc1_5.png"
         text: "Um programa é um conjunto de instruções para o teu computador seguir."
@@ -24,19 +24,19 @@
         text: "O lado esquerdo é o labirinto onde o programa é executado. As instruções para cada quebra-cabeça estão abaixo do labirinto."
       8:
         image: "notes/hoc1_8.png"
-        text: "a caixa de ferramentas do meio possui os comandos para o Angry Bird. Usarás estas para construir o teu código."
+        text: "A caixa de ferramentas do meio possui os comandos para o Angry Bird. Usarás estas para construir o teu código."
       9:
         image: "notes/hoc1_9.png"
         text: "À direita é a tua área de trabalho onde irás arrastar blocos da caixa de ferramentas para construir o teu programa. Para apagar um bloco, arrasta-o para o lixo no canto."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Cada bloco é uma instrução. Se arrastares o bloco "Avançar" para a tua área de trabalho e pressione "Executar programa", o pássaro move-se um espaço no labirinto.'
+        text: 'Cada bloco é uma instrução. Se arrastares o bloco "Avançar" para a tua área de trabalho e pressionares "Executar programa", o pássaro move-se um espaço no labirinto.'
       11:
         image: "notes/hoc1_11.png"
-        text: "Para fazer mais do que uma ação, Podes arrastar muitos bloco para a tua área de trabalho e juntá-los. O pássaro vai fazer os comandos de cima para baixo."
+        text: "Para fazer mais do que uma ação, podes arrastar muitos blocos para a tua área de trabalho e juntá-los. O pássaro vai fazer os comandos de cima para baixo."
       12:
         image: "notes/hoc1_12.png"
-        text: 'Se corres um programa e depois quiseres corrigi-lo e tentar novamente, pressione o botão "Redefinir".'
+        text: 'Se corres um programa e depois quiseres corrigi-lo e tentar novamente, pressiona o botão "Redefinir".'
       13:
         image: "notes/hoc1_13.png"
         text: "Vamos apanhar esses porcos!"
@@ -54,42 +54,42 @@
         text: "Olá, sou o Mark! Vamos aprender sobre ciclos. Usando ciclos podes dizer um computador para repetir qualquer conjunto de ações repetidamente, milhares ou mesmo milhões de vezes."
       2:
         image: "notes/hoc2_2.png"
-        text: "Neste quebra-cabeça, queremos que o pássaro move-se para a frente 5 espaços para chegar ao porco."
+        text: "Neste puzzle, queremos que o pássaro se mova para a frente 5 espaços para chegar ao porco."
       3:
         image: "notes/hoc2_3.png"
         text: 'Podemos usar o novo bloco "repetir" para nos ajudar.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Em vez de arrastares 5 blocos "Avançar" ...'
+        text: 'Em vez de arrastares 5 blocos "avançar" ...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'Podemos colocar o bloco "Avançar" dentro do bloco "repetir" e escrever um número no bloco para definir quantas vezes repetir.'
+        text: 'Podemos colocar o bloco "avançar" dentro do bloco "repetir" e escrever um número no bloco para definir quantas vezes repetir.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'E isto é importante: podes colocar mais de um comando dentro de um bloco "repetir".'
+        text: 'E isto é importante: podes colocar mais do que um comando dentro de um bloco "repetir".'
       7:
         image: "notes/hoc2_7.png"
         text: 'Diverte-te a usar o teu novo bloco "repetir"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: 'Oi, eu sou o Chris. Antes de entrar para os Miami Heat, estive na escola Georgia Tech a estudar ciência da computação. Vamos tentar o nosso novo bloco, o bloco "repeat até".'
+        text: 'Olá, eu sou o Chris. Antes de entrar para os Miami Heat, estive na escola Georgia Tech a estudar ciência da computação. Vamos tentar o nosso novo bloco, o bloco "repeat até".'
       2:
         image: "notes/hoc3_2.png"
         text: "E se nós não soubéssemos quão longe o pássaro teve que se mover para chegar ao porco?"
       3:
         image: "notes/hoc3_3.png"
-        text: 'Se pusermos um bloco "Avançar" dentro do bloco "Repetir Até", o pássaro irá mover-se em frente ATÉ que chegue ao porco (ou choca contra o muro).'
+        text: 'Se pusermos um bloco "avançar" dentro do bloco "repetir até", o pássaro irá mover-se em frente ATÉ que chegue ao porco (ou choque contra o muro).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'E isto é importante: tal como anteriormente, podemos por múltiplos blocos dentro de um bloco "Repetir Até", e todos eles serão repetidos.'
+        text: 'E isto é importante: tal como anteriormente, podemos por múltiplos blocos dentro de um bloco "repetir até", e todos eles serão repetidos.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: 'Olá, eu sou o Bill! Vamos aprender um novo conceito fundamental: instrução "Se". É assim que os computadores tomam decisões.'
+        text: 'Olá, eu sou o Bill! Vamos aprender um novo conceito fundamental: instrução "se". É assim que os computadores tomam decisões.'
       2:
         image: "notes/hoc4_2.png"
-        text: 'Usas instruções "Se" todos os dias. Antes de saíres de casa todas as manhãs, tu dizes  Se estiver a chover lá fora, vou precisar levar o meu casaco.'
+        text: 'Usas instruções "se" todos os dias. Antes de saíres de casa todas as manhãs, tu dizes  SE estiver a chover lá fora, vou precisar de levar o meu casaco.'
       3:
         image: "notes/hoc4_3.png"
         text: "Podemos dizer ao zombie para verificar SE há algum caminho à esquerda, e se ele encontrar o caminho à esquerda, podemos fazer com que ele vire nessa direção."
@@ -98,20 +98,20 @@
         text: 'Para escrever código para este, vamos arrastar o nosso bloco "se" e inserimos dentro dele um bloco "virar esquerda".'
       5:
         image: "notes/hoc4_5.png"
-        text: 'Agora, se pusermos um bloco "avançar" acima dele e um bloco "repetir" a envolver tudo, cada vez que o zombie move-se, irá verificar se existe algum caminho à esquerda e vira. O comando "repetir" é fundamental para verificar, a cada passo, se existe uma viragem.'
+        text: 'Agora, se pusermos um bloco "avançar" acima dele e um bloco "repetir" a envolver tudo, cada vez que o zombie se mova, irá verificar se existe algum caminho à esquerda e vira. O comando "repetir" é fundamental para verificar, a cada passo, se existe uma viragem.'
       6:
         image: "notes/hoc4_6.png"
-        text: "Instruções Se são muito importantes nas ciências da computação. Um dos primeiros programas que escrevi foi o jogo do galo, e há uma instrução que diz: Se a outra pessoa estiver perto de ganhar, bloquear o espaço que a permite ganhar."
+        text: "Instruções se são muito importantes nas ciências da computação. Um dos primeiros programas que escrevi foi o jogo do galo, e há uma instrução que diz: SE a outra pessoa estiver perto de ganhar, bloquear o espaço que a permite ganhar."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Diverte-te usando o bloco "Se"!'
+        text: 'Diverte-te usando o bloco "se"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: 'Olá, o meu nome é Saloni. Eu uso as ciências da computação para resolver problemas em medicina e saúde. Vamos aprender o bloco "Se-senão". É muito parecido com o bloco "Se" mas tem mais uma parte no final que diz "senão".'
+        text: 'Olá, o meu nome é Saloni. Eu uso as ciências da computação para resolver problemas em medicina e saúde. Vamos aprender o bloco "se-senão". É muito parecido com o bloco "se" mas tem mais uma parte no final que diz "senão".'
       2:
         image: "notes/hoc5_2.png"
-        text: 'Se eu puser um bloco "avançar" no sitio que diz "faz" e um bloco "virar esquerda" onde diz "senão" isso quer dizer que o zombie irá escolher entre duas opções. SE existe um caminho em frente, o zombie irá em avançar e caso não exista ( não existe um caminho em frente) o zombie irá virar à esquerda.'
+        text: 'Se eu puser um bloco "avançar" no sitio que diz "faz" e um bloco "virar esquerda" onde diz "senão" isso quer dizer que o zombie irá escolher entre duas opções. SE existe um caminho em frente, o zombie irá avançar e caso não exista (não existe um caminho em frente) o zombie irá virar à esquerda.'
       3:
         image: "notes/hoc5_3.png"
         text: 'Tal como no bloco "se", podemos por blocos "se-senão" dentro de blocos "repetir" para que o zombie continue a ir em frente e o bloco "se-senão" irá verificar sempre se existe algum sítio para virar.'
@@ -137,13 +137,13 @@
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Parabéns! Com o último enigma resolveu, você acabou de escrever código que pode dizer qualquer robô como encontrar o seu caminho através de um labirinto de não-ramificação ou túnel de qualquer comprimento, se é um zombi, um pássaro, uma missão a Marte ou até mesmo um carro de auto-condução."
+        text: "Parabéns! Com o último enigma que resolveste, acabaste de escrever código que pode dizer a qualquer robô como encontrar o seu caminho através de um labirinto de não-ramificação ou túnel de qualquer comprimento, sendo um zombie, um pássaro, uma missão a Marte ou até mesmo um carro de auto-condução."
       2:
         image: "notes/hoc6_2.png"
-        text: "Os conceitos básicos que você usou são o coração de todos os programas ou apps que irás utilizar.  Aprendemos sobre laços de repetição, repita até declarações, se as declarações e se mais declarações."
+        text: "Os conceitos básicos que usaste são o coração de todos os programas ou apps que irás utilizar.  Aprendemos sobre ciclos de repetição, declarações repita até, declarações se e se-então."
       3:
         image: "notes/hoc6_3.png"
-        text: "Se gostaste da tu aprimeira hora de código, visita code.org e continua a tua educação em ciências da computação! Assim que completares as 20 horas de curso, irás dominar as bases da programação e poderás começar a escrever aplicações para telemóveis, instruções para robôs, jogos, etc."
+        text: "Se gostaste da tua primeira hora de código, visita code.org e continua a tua educação em ciências da computação! Assim que completares as 20 horas de curso, irás dominar as bases da programação e poderás começar a escrever aplicações para telemóveis, instruções para robôs, jogos, etc."
       4:
         image: "notes/hoc6_4.png"
         text: "A tecnologia está a mudar tudo o que fazemos e não importa se és novo ou menos novo: a programação é divertida, é criativa e toda a gente pode aprender!"

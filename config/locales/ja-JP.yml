@@ -104,12 +104,12 @@
     title: "交換賞品： %{name}"
     provider: "プロバイダー:"
     code: "コード:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "あなたの賞金は獲得できました。下のコードを参照してください。"
+    error: "あなたの賞金は償還できませんでした、もう一度やり直してください。"
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
+      title: "確認してください"
+      "no": いいえ
+      "yes": はい
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
     providers:

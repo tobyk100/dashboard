@@ -43,11 +43,11 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas em breve!"
+        text: "Transcrições em breve!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas em breve!"
+        text: "Transcrições em breve!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
@@ -89,7 +89,7 @@
         text: 'Oi, eu sou o Bill! Vamos aprender um novo conceito fundamental: declarações "SE". É assim que computadores tomam decisões.'
       2:
         image: "notes/hoc4_2.png"
-        text: 'Você mesmo usa a declaração "SE" todos os dias. Antes de você sair todas as manhãs, você diz SE estiver chovendo lá fora, eu precisarei da minha jaqueta.'
+        text: 'Você usa a declaração "SE" com você mesmo todos os dias. Antes de você sair a cada manhã, você diz SE estiver chovendo lá fora, eu precisarei da minha jaqueta.'
       3:
         image: "notes/hoc4_3.png"
         text: "Então podemos dizer ao zumbi para verificar SE há caminho para a esquerda e, se ele encontrar um caminho para a esquerda, teremos que virar ele naquela direção."
@@ -121,19 +121,19 @@
     function:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas aparecerá em breve!"
+        text: "Transcrições em breve!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas aparecerá em breve!"
+        text: "Transcrições em breve!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas aparecerá em breve!"
+        text: "Transcrições em breve!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas aparecerá em breve!"
+        text: "Transcrições em breve!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
@@ -150,4 +150,4 @@
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Mostrar notas aparecerá em breve!"
+        text: "Transcrições em breve!"

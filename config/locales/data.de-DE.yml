@@ -114,7 +114,7 @@
         turtle_3_4: 'Probiere mal, ob du herausfinden kannst, wie du die Funktionen "Zeichne Quadrat" und "Zeichne Dreieck" (und weitere) dazu benutzen kannst, ein Haus um den Löwen herum zu zeichnen.'
         turtle_3_5: 'Erstelle jetzt eine neue "zeichne ein Haus"-Funktion und verwende sie um zwei Katzen unterzubringen. Hinweis: erstelle eine neue Funktion mit Hilfe des "mach etwas"-Bausteins und gib einen Namen für den Baustein ein.'
         turtle_3_6: 'Füge eine Eingabe, die "Länge" heißen soll, zu "zeichne ein Dreieck" hinzu, wie im Beispiel "zeichne ein Quadrat". Anschließend, zeichne verschieden große Dreiecke. (Hinweis: klicke auf den Stern, um bei einer Funktion eine Eingabe hinzu zufügen)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Füge eine Eingabe, die "Höhe" heißen soll, zu "zeichne ein Haus" hinzu und baue ein Haus, das groß genug für den Elefanten ist (die Kanten sollen 150 Pixel lang sein)'
         turtle_3_8: 'Das hier sind alle Bausteine von den vorherigen Puzzles. Ändere "zeichne ein Haus", so das ich in der unteren, rechten Ecke lande, nachdem ein neues Haus gezeichnet worden ist. Verwende diese modifizierte Funktion um drei Häuser zu zeichnen.'
         turtle_3_9: 'Kannst du die "zeichne ein Haus"-Funktion ohne Hilfe wieder erstellen? Versuche es und zeichne anschließend eine ganze Reihe von Häusern.'
         turtle_3_10: "Glückwunsch, du hast jetzt schon viel gelernt. Jetzt kannst alles zeichnen was dir einfällt. Versuch doch mal einen Stern, ein Spirale, oder eine hübsche Schneeflocke."

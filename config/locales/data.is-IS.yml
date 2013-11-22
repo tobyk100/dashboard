@@ -2,8 +2,8 @@
   data:
     script:
       name:
-        20-hour: K-8 Inngangur að Tölvunarfræði Námskeið
-        Hour of Code: "Klukkutími af Kóða"
+        20-hour: K-8 inngangur að tölvunarfræði
+        Hour of Code: "Klukkustund kóðunar"
         Edit Code: "Breyta kóða"
     game:
       name:
@@ -25,39 +25,39 @@
     concept:
       description:
         sequence: "Runa"
-        if: "if blokk"
-        if_else: "If-else blokk"
-        loop_times: "Endurtek ákveðið oft blokk"
-        loop_until: "Endurtek þangað til blokk"
-        loop_while: "While blokk"
-        loop_for: "Teljara blokk"
+        if: "if eining"
+        if_else: "If-else eining"
+        loop_times: "Endurtaka ákveðið oft eining"
+        loop_until: "Endurtek þangað til eining"
+        loop_while: "Á meðan eining"
+        loop_for: "Teljara eining"
         function: "Föll"
         parameters: "Föll með stikum"
     level:
       instructions:
-        maze_2_2: 'Hæ! Ég þarf að ná í Gæna Svínið! Staflaðu nokkrum "færa áfram" blokkum upp og ýttu á "Keyra Forrit" til þess að hjálpa mér að komast þangað. '
+        maze_2_2: "Hæ! Ég þarf að ná í græna svínið! Staflaðu nokkrum „færa áfram“ einingum upp og veldu „keyra forrit“ til þess að hjálpa mér að komast þangað. "
         maze_2_1: "Skrifaðu annað forrit fyrir mig svo ég geti komist alla leið til græna svínsins. "
-        maze_2_2_5: "Hvernig á ég að ná græna svíninu?(Passaðu þig á Sprengjunum)"
+        maze_2_2_5: "Hvernig á ég að komast að græna svíninu? (Passaðu þig á sprengjunum)"
         maze_2_3: "Hvernig á ég að ná græna svíninu?(Passaðu þig á Sprengjunum)"
         maze_2_4: "Arg! Skrifaðu forrit sem kemur mér í kringum sprengiefnið og að græna svíninu. "
-        maze_2_5: "Það er leið fyrir mig til að komast að græna svíninu með því að nota aðeins 2 kubba. Geturðu fundið út úr því?"
-        maze_2_6: "Reyndu að koma mér að græna svíninu með því að nota aðeins þrjá kubba."
-        maze_2_7: "Skrifaðu forrit sem kemur mér að græna svíninu með því að nota sem fæsta kubba. Reyndu að nota meira en einn „endurtaka“ kubb."
+        maze_2_5: "Það er leið fyrir mig til að komast að græna svíninu með því að nota aðeins 2 einingar. Geturðu fundið út úr því?"
+        maze_2_6: "Reyndu að koma mér að græna svíninu með því að nota aðeins þrjár einingar."
+        maze_2_7: "Skrifaðu forrit sem kemur mér að græna svíninu með því að nota sem fæstar einingar. Reyndu að nota fleiri en eina „endurtaka“ einingu."
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, bara einu sinni til æfingar - geturðu leyst þetta með því að nota aðeins 4 kubba?"
-        maze_2_11: "Kæra manneskja. Ég uppvakningur. Ég svangur. Verð...að...komast...að sólblóminu...Geturðu komið mér þangað með aðeins 5 kubbum?"
-        maze_2_12: "Ok, þetta er svipað en aðeins öðruvísi. Geturðu gert það með aðeins 5 kubbum?"
-        maze_2_13: "Notaðu nýjan „ef“ kubb til að láta mig ákveða hvert ég á að snúa mér. Vísbending: þú þarft aðeins að nota einn kubb til viðbótar, en lærðu hvernig á að setja þetta upp svo þú getir gert þetta á eigin spýtur næst."
+        maze_2_10: "Ok, bara einu sinni til æfingar - geturðu leyst þetta með því að nota aðeins 4 einingar?"
+        maze_2_11: "Kæra manneskja. Ég uppvakningur. Ég svangur. Verð...að...komast...að sólblóminu...Geturðu komið mér þangað með aðeins 5 einingum?"
+        maze_2_12: "Ok, þetta er svipað en aðeins öðruvísi. Geturðu gert það með aðeins 5 einingum?"
+        maze_2_13: "Notaðu nýja „ef“ einingu til að láta mig ákveða hvert ég á að snúa mér. Vísbending: þú þarft aðeins að nota eina einingu til viðbótar, en lærðu hvernig á að setja þetta upp svo þú getir gert þetta á eigin spýtur næst."
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: "Ég vil sólblóm! Notaðu „ef“ kubb til að koma mér þangað með sem fæstum kubbum."
+        maze_2_15: "Ég vilja sólblóm! Notaðu „ef“ einingu til að koma mér þangað með sem fæstum einingum."
         maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
         maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
         maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
         maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hæ, ég er listamaður. Þú getur skrifað forrit sem lætur mig teikna nánast hvað sem er. Notaðu nokkra kubba til að láta mig teikna yfir gráu línurnar á myndinni."
-        turtle_1_2: "Teiknaðu núna ferning. ATH: notaðu uppáhalds litinn þinn með því að velja nýjan „festa lit“ kubb."
-        turtle_1_3: "Búðu til ferning með því að nota aðeins 3 kubba."
+        turtle_1_1: "Hæ, ég er listamaður. Þú getur skrifað forrit sem lætur mig teikna nánast hvað sem er. Notaðu nokkrar einingar til að láta mig teikna yfir gráu línurnar á myndinni."
+        turtle_1_2: "Teiknaðu núna ferning. ATH: notaðu uppáhalds litinn þinn með því að velja nýja „festa lit“ einingu."
+        turtle_1_3: "Búðu til ferning með því að nota aðeins 3 einingar."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
@@ -93,8 +93,8 @@
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Halló. Ég uppvakningslistamaður. Ég elska teikna! Hjálpaðu mér að teikna ferning í ákveðnum lit. Mikilvægt athugasemd: þú ert með sömu kubba og áður en þeim hefur verið skipt í flokka."
-        turtle_2_2: "Velkomin/-n í notkun falla sem leyfa þér að skilgreina nýja kubba! Prófaðu nýja „draga ferning“ kubbinn sem finna má undir flokknum „Föll“ til að teikna lítinn 50x50 grænan ferning."
+        turtle_2_1: "Halló. Ég uppvakningslistamaður. Ég elska teikna! Hjálpaðu mér að teikna ferning í ákveðnum lit. Mikilvægt athugasemd: þú ert með sömu einingar og áður en þeim hefur verið skipt í flokka."
+        turtle_2_2: "Velkomin/-n í notkun falla sem leyfa þér að skilgreina nýjar einingar! Prófaðu nýja „draga ferning“ einingu sem finna má undir flokknum „Föll“ til að teikna lítinn 50x50 grænan ferning."
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
         turtle_2_5: |-
@@ -116,17 +116,16 @@
           Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
         maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
         maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
+        maze_karel_2_6: "Notaðu tvö ný föll, „fylla 8“ og „fjarlægja 8“, til að hjálpa mér að jafna út staflann og fylla upp í holuna."
+        maze_karel_2_7: "Það er kýr á túninu mínu! Skrifaðu nýtt fall sem hjálpar mér að forðast kúnna og fjarlægja staflann. Settu allar einingarnar inn í nýja fallið."
+        maze_karel_2_8: "Notaðu þetta nýja fall, „forðast kúnna og fjarlægja 1“, til að hjálpa mér að fjarlægja allan staflann."
+        maze_karel_2_9: "Ok, hér er fall sem fjarlægjir 4 mismunandi stafla af skít í lóðréttum reit. Reyndu að setja þetta fall inn í lykkju svo að þú getir fjarlægt alla skítastaflana með því að nota aðeins fáar nýjar einingar."
+        maze_karel_2_10: "Færðu mig yfir túnið og notaðu þessi tvö föll til að hjálpa mér að fjarlægja alla staflana og fylla upp í allar holurnar."
+        turtle_3_1: "Þetta verkefni sýnir þér hvernig „teikna ferning“ og „teikna hring“ föllin eru skilgreind. Skilgreining á falli keyrir ekki einingarnar. Þú verður að draga „teikna ferning“ eininguna út til að teikna ferning."
+        turtle_3_2: "Með því að nota „teikna ferning“ fallið sem dæmi, búðu til fallið „teikna þríhyrning“ og notaðu það."
+        turtle_3_3: "Dragðu þríhyrndar girðingar í kringum kettina og ferhyrndar girðingar í kringum kýrnar. Ráðlegging: prófaðu forritið á meðan þú vinnur í því."
+        turtle_3_4: "Athugaðu hvort þú getur fundið út úr því hvernig þú átt að nota „teikna ferning“ og „teikna þríhyrning“ (og nokkrar aðrar einingar) til að teikna hús utanum ljónið."
+        turtle_3_5: "Búðu núna til fallið „teikna hús“ og notaðu það til að hýsa tvo ketti. Vísbending: búðu til nýtt fall með því að nota eininguna „gera eitthvað“ og skrifaðu þinn eiginn texta til að nefna eininguna."
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'

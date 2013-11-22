@@ -3,7 +3,7 @@
     script:
       name:
         20-hour: K-8 计算机科学课程简介
-        Hour of Code: "Hour of Code"
+        Hour of Code: "编程一小时"
         Edit Code: "编辑代码"
     game:
       name:
@@ -43,7 +43,7 @@
         maze_2_5: "只需两个模块我就能到达绿色小猪了，你能找到吗？"
         maze_2_6: "尝试一下只用三个模块就把我送到绿色小猪的身边吧。"
         maze_2_7: "用最少数量的模块编写一个程序帮助我找到绿色小猪吧，请至少使用一次“重复次数”模块。"
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
+        maze_2_8: '要解决这一问题，请尝试在"重复"块中包括这3块： 移动、 移动、 打开。'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"

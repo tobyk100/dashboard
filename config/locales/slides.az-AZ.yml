@@ -18,7 +18,7 @@
         text: "Proqram kompüterinizin əməl etməsi üçün əmrlər çoxluğudur."
       6:
         image: "notes/hoc1_6.png"
-        text: "İlk proqramınızın məqsədi Acıqlı Quşu labirintdən keçirməkdir ki, Yaşıl Donuzu vusun."
+        text: "İlk proqramınızın məqsədi Acıqlı Quşu labirintdən keçirməkdir ki, Yaşıl Donuzu vursun."
       7:
         image: "notes/hoc1_7.png"
         text: "Ekranın sol tərəfində proqramınızın icra olunduğu labirint yerləşir. Hər tapmaca üçün təlimatlar labirintin aşağısında verilir."
@@ -30,7 +30,7 @@
         text: "Sağınızda sizin iş sahənizdir. Burada, siz, alətlər qutusundan blokları seçməklə öz proqramınızı yaradacaqsınız. Bloku pozmaq üçün, bloku küncdəki zibil qutusuna sürükləyiniz."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Hər bir blok bir göstərişdir. Əgər siz "İrəli get" blokunu iş yerinizə sürükləsəz və "Proqramı icra et" -i seçsəniz, quş labirintdə bir xana irəliləyəcəkdir.'
+        text: 'Hər blok bir göstərişdir. "İrəli get" blokunu iş sahənizə sürükləyib "Proqramı icra et"i bassanız, quş labirintdə bir xana irəliləyər.'
       11:
         image: "notes/hoc1_11.png"
         text: "Birdən çox əməliyyatı yerinə yetirməkdən ötəri, siz bir çox bloku öz iş yerinizə sürüklüyə bilər və onları bir-birlərinə qoşa bilərsiniz. Quş bu əməliyyatları yuxarıdan aşağıya doğru ardıcıllıqla yerinə yetirəcəkdir."
@@ -39,7 +39,7 @@
         text: 'Əgər bir proqramı icra edirsiniz və onu düzəldib yenidən cəhd etmək istəyirsinizsə, "Yenidən başla" düyməsini basın.'
       13:
         image: "notes/hoc1_13.png"
-        text: "Haydı, gedək o donuzların dərsini verək!"
+        text: "Haydı, gedək, o donuzların dərsini verək!"
     artist_intro:
       1:
         image: "notes/bird.png"
@@ -101,15 +101,14 @@
         text: 'İndi biz bunun aşağısına "irəli get" bloku yerləşdirsək və hamısını "təkrar et" blokunun daxilinə atsaq, onda hər dəfə zombi yerdəyişmə etdikdə o, sol yolun olub-olmamasını yoxlayacaq və əgər varsa dönəcək. Burada "təkrar et" əmri hər addımda yoxlanış üçün vacibdir.'
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: '"Əgər" ifadələri informatikada həqiqətən də vacib yer tutur. Yazdığım ilk proqramlardan biri "tik-tak-to" oyunu idi və orada bir "əgər" ifadəsi var idi ki, deyirdi: ƏGƏR rəqib oyunu udmağa yaxındrısa, ona qalib gəlmək imkanı verən xananı bağla.'
       7:
         image: "notes/hoc4_7.png"
         text: '"Əgər" blokunu istifadə etməyin kefini çıxardın!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Salam, mənim adım Salonidir. İnformatikadan səhiyyə və tibbdəki məsələləri həll etmək üçün istifadə edirəm. Gəlin, "əgər, əks halda" blokunu öyrənək. Bu, "əgər" blokuna oxşayır, amma axırında "əks halda" söyləyən əlavə bir hissəsi var.'
       2:
         image: "notes/hoc5_2.png"
         text: |-

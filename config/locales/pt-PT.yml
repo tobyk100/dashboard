@@ -8,7 +8,7 @@
         password: "Palavra-passe"
         password_confirmation: "Confirmar Palavra-passe"
         current_password: "Palavra-passe atual"
-        locale: "Linguagem"
+        locale: "Língua"
         gender: "Género"
         edit_header: "Editar detalhes da Conta"
   hello: "Olá mundo"
@@ -17,7 +17,7 @@
     code_or_email:
       label: "Adicione um professor por código ou endereço de e-mail:"
       placeholder: "Código (ABCDEF) ou e-mail (teacher@school.edu)"
-    submit: "Adicionar o professor"
+    submit: "Adicionar professor"
   appname: "Code.org"
   stage: "Nível"
   puzzle: "Quebra-cabeças"
@@ -26,24 +26,24 @@
   of: "de"
   more: "MAIS"
   less: "MENOS"
-  try_hoc: 'Tente a "Hora do código", clique aqui >> '
-  try_k8intro: "Ou, tente a nossa introdução ao curso de ciência da computação (15-25 horas) para o ciclo básico até 3º ciclo."
-  already_started: "Já começou? Retomar aqui >> "
+  try_hoc: 'Tenta a "Hora do código", clica aqui >> '
+  try_k8intro: "Ou, tenta a nossa introdução ao curso de ciência da computação (15-25 horas) para o ciclo básico até 3º ciclo"
+  already_started: "Já começaste? Retomar aqui >> "
   demos: "Administrador: Todas as demonstrações"
   continue: "Continuar"
   prize: "prémio"
   auth:
-    sign_in_with: "Sessão iniciada com % {provider}"
+    sign_in_with: "Sessão iniciada com %{provider}"
     signed_in: "Sessão iniciada!"
-    already_signedup: "Já se registou?"
-    notyet_signedup: "Ainda não aderiu?"
+    already_signedup: "Já te registaste?"
+    notyet_signedup: "Ainda não aderiste?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Esqueceu a sua palavra-passe?"
-    need_confirmation: "Não recebeu as instruções de confirmação?"
-    need_unlock: "Não recebeu as instruções de desbloqueio?"
+    forgot_password: "Esqueceste-te da tua palavra-passe?"
+    need_confirmation: "Não recebeste as instruções de confirmação?"
+    need_unlock: "Não recebeste as instruções de desbloqueio?"
   signup_form:
     title: "Registar"
     school_name: "Nome da escola (opcional)"
@@ -52,13 +52,13 @@
     gender: "Género (opcional)"
     birthday: "Aniversário (opcional)"
     submit: "Registar"
-    teacher: "Você é um professor?"
+    teacher: "És um professor?"
     valid_username: "Disponível!"
     invalid_username: "O nome de utilizador deve ter pelo menos 5 caracteres"
     taken_username: "O nome de utilizador já existe"
     valid_password: "Palavra-passe válida!"
-    invalid_password: "A palavra-passe tem de ter no mínimo %d caracteres"
-    mismatch_password: "As duas palavra-passe que você digitou não correspondem"
+    invalid_password: "A palavra-passe tem de ter no mínimo 6 caracteres"
+    mismatch_password: "As duas palavra-passe que introduziu não correspondem"
   signin_form:
     title: "Entrar"
     login: "E-mail ou nome de utilizador"
@@ -67,7 +67,7 @@
     submit: "Entrar"
   password:
     reset_form:
-      title: "Esqueceu a sua palavra-passe?"
+      title: "Esqueceste-te da tua palavra-passe?"
       email: "Endereço de Email"
       submit: "Enviar-me as informações para redefinir a palavra-passe"
     change_form:
@@ -78,11 +78,11 @@
   welcome_email:
     subject: "Junte-se à minha turma (na Code.org)"
     body: |
-      Cliqye no link abaixo para se inscrever para tutoriais de ciências computorizadas  em Code.org (comigo como o seu "professor"):
+      Clica no link abaixo para te inscreveres para tutoriais de ciências de computadores em Code.org (comigo como o seu "professor"):
       
       %{link}
       
-      Os tutoriais são divertidos, visualmente e ensina os conceitos básicos de ciência de computorização utilizando uma experiência simples e guiado como se fosse um jogo. Aprende codigo com o Bill Gates, Mark Zuckerberg, Angry Birds, e Plants vs. Zombies! :-)
+      Os tutoriais são divertidos, visualmente apelativos e ensinam os conceitos básicos de ciência de computação utilizando uma experiência simples e orientado como se de um jogo se tratasse. Aprende código com o Bill Gates, Mark Zuckerberg, Angry Birds, e Plants vs. Zombies! :-)
       
       %{name}
       
@@ -90,31 +90,31 @@
        
   follower:
     invite_sent: "Convite enviado"
-    added_teacher: "%{name} foi adicionado como seu professor"
-    registered: "Você registou-se em % {section_name}. Inicie sessão para continuar"
+    added_teacher: "%{name} foi adicionado como teu professor"
+    registered: "Registaste-te em %{section_name}. Inicia sessão para continuar"
     error:
-      signed_in: "Por favor termine a sessão antes de prosseguir"
-      username_not_found: "Nome de utilizador % {username} não encontrado"
-      username_in_use: "% {username} já existe, por favor escolha outro"
-      no_teacher: "Não foi possível encontrar ninguém que tenha entrado com '% {teacher_email_or_code}'. Por favor, peça-lhes para se registarem aqui e tente adicioná-los novamente"
+      signed_in: "Por favor termina a sessão antes de prosseguir"
+      username_not_found: "Nome de utilizador %{username} não encontrado"
+      username_in_use: "%{username} já existe, por favor escolhe outro"
+      no_teacher: "Não foi possível encontrar ninguém que tenha entrado com '%{teacher_email_or_code}'. Por favor, pede-lhes para se registarem aqui e tente adicioná-los novamente"
     mail:
       invite_student:
-        subject: "Junte-se a uma aula com % {teacher_name} em Code.org!"
+        subject: "Junta-te a uma aula com %{teacher_name} em Code.org!"
   reports:
     error:
-      access_denied: "Você não tem acesso às estatísticas desta pessoa"
+      access_denied: "Não tem acesso às estatísticas desta pessoa"
   redeem_prizes:
     title: "Recolher prémios: %{name}"
     provider: "Fornecedor:"
     code: "Código:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "O teu prémio foi recolhido com êxito, vê o código abaixo."
+    error: "O teu prémio não pôde ser recolhido, por favor tenta novamente."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Confirma por favor"
+      "no": Não
+      "yes": Sim
+      msg: "Tens a certeza que queres recolher o prémio %{prize_name}?"
+      msg_student: "Nota: Só podes escolher um tipo de prémio."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -125,26 +125,26 @@
       ea_fifa: "EA Origin FIFA futebol 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs Zombies"
-    student_finished: "Completou todos os tutoriais. Depois de reclamar o seu prémio, escolha outra aula % {online_link} ou  {local_school_link} %"
+    student_finished: "Completaste todos os tutoriais. Depois de reclamar o teu prémio, escolhe outra aula %{online_link} ou %{local_school_link}"
     msg:
-      choose: "Escolha um prémio:"
-      earned: "Você ganhou um prémio!"
-      not_earned: "Conquiste todos os troféus % {num_trophies} para ganhar um prémio!"
+      choose: "Escolhe um prémio:"
+      earned: "Ganhaste um prémio!"
+      not_earned: "Colecione todos os troféus %{num_trophies} para ganhar um prémio!"
       teacher:
-        earned: "10 ou mais estudantes recolheram todos os %{num_trophies} troféus. Você ganhou um prémio de professor!"
+        earned: "10 ou mais estudantes recolheram todos os %{num_trophies} troféus. Ganhou um prémio de professor!"
         not_earned: "Se 10 estudantes recolherem todos os %{num_trophies} troféus , você ganha um prémio!"
         bonus:
-          earned: "40% ou mais dos alunos que colecionou todos os %{num_trophies} troféus são do sexo feminino. Você ganhou um prémio bónus!"
+          earned: "40% ou mais dos alunos que colecionaram todos os %{num_trophies} troféus são do sexo feminino. Você ganhou um prémio bónus!"
           not_earned: "Se 10 ou mais estudantes colecionarem todos os %{num_trophies} troféus e se pelo menos 40% dos alunos forem do sexo feminino, você ganha um prémio bónus!"
   crud:
     new_model: "Novo %{model}"
     show: "Mostrar"
     edit: "Editar"
-    edit_model: "Editar % {modelo}"
+    edit_model: "Editar %{model}"
     update: "Actualizar"
-    destroy: "Destruir"
+    destroy: "Eliminar"
     back: "Voltar"
-    confirm: "Tem certeza?"
+    confirm: "Tens a certeza?"
     created: "% {modelo} foi criado com êxito."
     updated: "% {modelo} foi actualizado com sucesso."
   nav:
@@ -152,7 +152,7 @@
       finished_hoc: "Eu terminei a minha Hora de Código"
       sign_in_to_save: "Inicie sessão para gravar o progresso"
     user:
-      classroom: "Meus alunos"
+      classroom: "Os meus estudantes"
       label: "Olá % {username}"
       stats: "O meu progresso"
       settings: "Minha conta"
@@ -161,31 +161,31 @@
       signin: "Iniciar sessão"
       signup: "Registar"
     popup:
-      progress: "O seu progresso"
+      progress: "O teu progresso"
       lines: "Total de linhas de código: % {linhas}"
       close: "FECHAR"
       mastery: "Conceitos"
       puzzle_map: "Etapas"
-      prizes: "Recolha todos os % {total_trophies} troféus e ganhe prémios!"
-      prize_earned: "Recolhidos todos os% {total_trophies} troféus. Ganhou prémio!"
+      prizes: "Recolhe todos os %{total_trophies} troféus e ganha prémios!"
+      prize_earned: "Recolhidos todos os %{total_trophies} troféus. Ganhaste prémio!"
       prizes_link: "mais informação"
   teacher:
     title:
-      one: "Seu professor é %{name}"
-      other: "O seus professores:"
+      one: "O teu professor é %{name}"
+      other: "Os teus professores:"
     tools: "Ferramentas do Professor"
     students:
       manage: "Gerir alunos"
       add: "Adicionar alunos"
     rollup: "Painel de controlo do Progresso"
-    activity: "Atividade recente turma"
+    activity: "Atividade recente da turma"
   user:
-    new_password_hint: "(deixe em branco se não quiser alterá-lo)"
-    current_password_hint: "(precisamos de sua palavra-passe para confirmar as suas alterações)"
+    new_password_hint: "(deixa em branco se não quiseres alterá-lo)"
+    current_password_hint: "(precisamos da tua palavra-passe para confirmar as tuas alterações)"
     cancel:
-      title: "Cancelar minha conta"
+      title: "Cancelar a minha conta"
       hint: "Infeliz?"
-      button: "Cancelar minha conta"
+      button: "Cancelar a minha conta"
   user_level:
     completed: "Concluído"
     tried: "Tentado"
@@ -197,13 +197,13 @@
     student_reg_link: "Alunos - comecem aqui"
     teacher_reg_link: "Professores - comece aqui"
     teacher_dashboard: "Consulte o painel de controlo do progresso"
-    teacher_student_count: "Você tem alunos %{count}."
+    teacher_student_count: "Tem alunos %{count}."
     teacher_averages: 'Em média os seus alunos ganharam %{trophy_average} de %{trophy_max} troféus "Mestria de Conceitos".'
-    classroom: "Sua sala de aula"
-    student_progress: "Seu progresso de aprendizagem"
-    student_stats: 'Você ganhou %{trophy_count} de %{trophy_max}  troféus "Mestria de Conceitos".'
-    student_left_off: "Onde você parou:"
-    student_finished: "Você completou todos os tutoriais, reclame o seu %{prize_link} e escolha outra aula %{online_link} ou em %{local_school_link}"
+    classroom: "A sua sala de aula"
+    student_progress: "O seu progresso de aprendizagem"
+    student_stats: 'Ganhaste %{trophy_count} de %{trophy_max}  troféus "Mestria de Conceitos".'
+    student_left_off: "Onde paraste:"
+    student_finished: "Completaste todos os tutoriais, reclama o teu %{prize_link} e escolhe outra aula %{online_link} ou em %{local_school_link}"
     local_school: "escola local"
     online: "online"
     see_details: "Ver detalhes"
@@ -212,25 +212,25 @@
     female: "Feminino"
     none: "Prefiro não responder"
   footer:
-    help_from_html: 'Informáticos do <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> e <a href="http://www.twitter.com">Twitter</a> ajudam a criar este tutorial.'
-    art_from_html: 'Ilustrações de <a href="http://www.angrybirds.com"> Angry Birds</a> por <a href="http://www.rovio.com">Rovio</a> e  de<a href="http://www.popcap.com/plants-vs-zombies"> plantas vs zumbis</a> pela <a href="http://www.popcap.com">PopCap Games</a>.'
+    help_from_html: 'Engenheiros da <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> e <a href="http://www.twitter.com">Twitter</a> ajudaram a criar este tutorial.'
+    art_from_html: 'Ilustrações de <a href="http://www.angrybirds.com"> Angry Birds</a> por <a href="http://www.rovio.com">Rovio</a> e  de<a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> pela <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: "Fornecer feedback"
-    translate: "Ajude-nos a traduzir para o seu idioma"
+    translate: "Ajuda-nos a traduzir para o teu idioma"
     tos: "Termos de serviço"
   prize_mail:
     prize_earned:
-      subject: "Reclame o seu prémio em Code.org!"
+      subject: "Reclama o teu prémio em Code.org!"
     teacher_prize_earned:
-      subject: "Reclame o seu prémio em Code.org!"
+      subject: "Reclame o teu prémio em Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Reclame o seu prémio bónus em Code.org!"
+      subject: "Reclame o teu prémio bónus em Code.org!"
   reference_area:
-    title: "Precisa de ajuda?"
-    subtitle: "Veja estes vídeos e dicas"
+    title: "Precisas de ajuda?"
+    subtitle: "Vê estes vídeos e dicas"
   video:
     tab: "Vídeo."
     notes: "Nenhum vídeo? Mostrar notas."
     autoplay_option: "visualização automatica de vídeos"
   compatability:
-    working: "Estamos trabalhando no suporte ao seu browser."
-    upgrade: "Por favor, atualize o seu browser."
+    working: "Estamos a trabalhar no suporte ao teu browser."
+    upgrade: "Por favor, atualiza o teu browser."

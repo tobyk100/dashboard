@@ -3,22 +3,22 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "欢迎来到你第一个小时的编程！让我们立刻开始吧。"
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "我们将使用Blockly，一个可视化编程语言。你只需要拖放块来进行编程。"
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: '大多数代码都是通过打字输入的，但Blockly是可视的。每个块对应于一行"真正的"代码。'
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "你将会学习计算机科学的基础概念。这些概念广泛的应用于各个领域，从应用程序到控制火星车。"
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "一个程序是一组让计算机遵循的指令。"
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "您的第一个程序的目标是要让愤怒的小鸟通过一个迷宫去打绿色的猪。"
       7:
         image: "notes/hoc1_7.png"
         text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
@@ -39,7 +39,7 @@
         text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "让我们去抓住那些猪!"
     artist_intro:
       1:
         image: "notes/bird.png"
@@ -51,10 +51,10 @@
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "你好，我是马克 ！让我们来学习循环。通过使用循环你可以让计算机将任何一组动作不停重复, 直至数千或甚至几十亿次。"
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "在这个谜题中，我们想要将这只鸟向前移动 5个空格从而到达那只猪。"
       3:
         image: "notes/hoc2_3.png"
         text: 'We can use the new "repeat" block to help us out.'
@@ -73,8 +73,7 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: '你好，我是克里斯。在加盟迈阿密热之前，我在乔治亚理工学院学习计算机科学。让我们试试我们新的块，在"重复直到"块。'
       2:
         image: "notes/hoc3_2.png"
         text: "What if we didn't know how far the bird had to move to get to the pig?"
@@ -87,8 +86,7 @@
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: '你好，我是比尔！让我们来学习一个新的基本概念："判断"语句。计算机通过这个语句做决定。'
       2:
         image: "notes/hoc4_2.png"
         text: |-
@@ -109,7 +107,7 @@
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
         image: "notes/hoc4_7.png"
-        text: 'Have fun using the "if" block!'
+        text: '学习如何使用"判断"块'
     if_else:
       1:
         image: "notes/hoc5_1.png"
@@ -154,7 +152,7 @@
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "技术正在改变我们所做的一切，而不管你是否年轻： 编程是一件很好玩、 很有创意的事，任何人都可以学习 ！"
     20_wrapup:
       1:
         image: "notes/bird.png"

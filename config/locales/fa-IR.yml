@@ -130,22 +130,22 @@
         not_earned: "اگر 10 دانش آموز همه %{num_trophies} گنج را جمع آوری کنند، شما یک جایزه خواهید گرفت!"
         bonus:
           earned: "40 درصد یا بیشتر از دانش آموزان شما که همه %{num_trophies} گنج را جمع کرده اند، زن هستند. شما یک جایزه برده اید!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          not_earned: "اگر 10 یا تعداد بیشتری دانش آموز تمام %{num_trophies} گنج را جمع آوری کنند و حداقل 40 درصد از آن دانش آموزان زن باشند، شما برنده یک جایزه ویژه خواهید شد!"
   crud:
-    new_model: "New %{model}"
+    new_model: "%{model} جدید"
     show: "نمایش"
     edit: "ویرایش"
     edit_model: "ویرایش %{model}"
     update: "ذخیره"
     destroy: "حذف"
     back: "بازگشت"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    confirm: "مطمئنید؟"
+    created: "%{model} با موفقیت ساخته شد."
+    updated: "%{model} با موفقیت به روز شد."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "من ساعتی با کد خود را به پایان رسانده ام"
+      sign_in_to_save: "وارد گردید تا پیشرفتتان ذخیره شود"
     user:
       classroom: "دانش آموزان من"
       label: "سلام %{username}"
@@ -162,7 +162,7 @@
       mastery: "مفاهیم"
       puzzle_map: "مراحل"
       prizes: "تمام %{total_trophies} غنیمت را جمع کنید و جایزه ها را ببرید!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "تمام %{total_trophies} گنج جمع آوری شد. جایزه داده شد!"
       prizes_link: "اطلاعات بیشتر"
   teacher:
     title:
@@ -192,41 +192,40 @@
     student_reg_link: "دانش آموزان - از اینجا آغاز کنید"
     teacher_reg_link: "معلمین - از اینجا آغاز کنید"
     teacher_dashboard: "مشاهده داشبورد پیشرفت"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    teacher_student_count: "شما %{count} دانش آموز دارید."
+    teacher_averages: "به طور متوسط دانش آموزان شما %{trophy_average} گنج از مجموع %{trophy_max} گنج «تسلط بر مفهوم» را جمع کرده اند."
+    classroom: "کلاس درس شما"
+    student_progress: "میزان پیشرفت یادگیری شما"
+    student_stats: "شما %{trophy_count} گنج از مجموع %{trophy_max} گنج مرتبط با «تسلط بر مفهوم» را به دست آورده اید."
     student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
-    see_details: "See details"
+    student_finished: "شما همه خودآموزهای خود را به پایان بردید، %{prize_link} خود را ادعا کرده و کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
+    local_school: "مدرسه محلی"
+    online: "آنلاین"
+    see_details: "مشاهده جزئیات"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "مرد"
+    female: "زن"
+    none: "ترجیح می دهم چواب ندهم"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    help_from_html: 'مهندسینی از <a href="http://www.google.com"> گوگل</a>، <a href="http://www.microsoft.com"> مایکروسافت</a>، <a href="http://www.facebook.com"> فیس بوک</a> و <a href="http://www.twitter.com"> توییتر</a> در ایجاد این آموزش کمک کرده اند.'
+    art_from_html: 'آثار هنری از  <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    feedback: "ارائه پیشنهادات و انتقادات"
+    translate: "کمک به ما در ترجمه به زبان شما"
+    tos: "شرایط و ضوابط خدمات"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "جایزه خود را در Code.org آزاد کنید!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "جایزه خود را در Code.org آزاد کنید!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "جایزه ویژه خود را در Code.org آزاد کنید!"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "کمک نیاز دارید؟"
+    subtitle: "دیدن این فیلم ها و نکات"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "فیلم."
+    notes: "فیلمی نیست؟ نمایش یادداشت ها."
+    autoplay_option: "پخش خودکار فیلم ها"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "ما در حال کار بر روی پشتیبانی از مرورگر شما هستیم."
+    upgrade: "لطفا مرورگر خود را ارتقا دهید."

@@ -53,10 +53,10 @@
     birthday: "Doğum günü (vacib deyil)"
     submit: "Qeydiyyatdan keç"
     teacher: "Müəllimsiniz?"
-    valid_username: "Available!"
+    valid_username: "Olar!"
     invalid_username: "İstifadəçi adı ən azı 5 simvoldan ibarət olmalıdır"
     taken_username: "Bu istifadəçi adı artıq götürülüb"
-    valid_password: "Valid password!"
+    valid_password: "Düzgün parol!"
     invalid_password: "Parol ən azı 6 simvol olmalıdır"
     mismatch_password: "Daxil etdiyiniz iki parol üst-üstə düşmür"
   signin_form:
@@ -107,9 +107,9 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
+      title: "Zəhmət olmazsa, təsdiq edin"
+      "no": Xeyr
+      "yes": Bəli
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
     providers:
@@ -164,7 +164,7 @@
       mastery: "Anlayışlar"
       puzzle_map: "Mərhələlər"
       prizes: "Bütün %{total_trophies} kuboklarını yığ və hədiyyə qazan!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Siz %{total_trophies} qənimətin hamısımı topladınız. Mükafatı qazandınız!"
       prizes_link: "daha çox məlumat"
   teacher:
     title:
@@ -203,7 +203,7 @@
     student_finished: "Siz bütün tədris materialını bitirdiniz, %{prize_link} -nizi tələb edin və %{online_link} ve ya %{local_school_link} -da başqa dərs seçin"
     local_school: "yerli məktəb"
     online: "onlayn"
-    see_details: "See details"
+    see_details: "Təfərrüatına baxın"
   gender:
     male: "Kişi"
     female: "Qadın"
