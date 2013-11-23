@@ -29,17 +29,17 @@ Artist	Level7	1_7	artist	loop_times
 Artist	Level8	1_8	artist	loop_times	
 Artist	Level9	1_9	artist	loop_times	
 Artist	Level10	1_10	artist	sequence	
-Artist2	Level1	4_1	artist		
-Artist2	Level1	4_2	artist		
-Artist2	Level1	4_3	artist		
-Artist2	Level1	4_4	artist		
-Artist2	Level1	4_5	artist		
-Artist2	Level1	4_6	artist		
-Artist2	Level1	4_7	artist		
-Artist2	Level1	4_8	artist		
-Artist2	Level1	4_9	artist		
-Artist2	Level1	4_10	artist		
-Artist2	Level1	4_11	artist		
+Artist2	Level1	4_1	artist	loop_times	
+Artist2	Level1	4_2	artist	sequence, loop_times	
+Artist2	Level1	4_3	artist	loop_times	
+Artist2	Level1	4_4	artist	loop_times	
+Artist2	Level1	4_5	artist	loop_times	
+Artist2	Level1	4_6	artist	loop_times	
+Artist2	Level1	4_7	artist	loop_times	
+Artist2	Level1	4_8	artist	loop_times	
+Artist2	Level1	4_9	artist	loop_times	
+Artist2	Level1	4_10	artist	loop_times	
+Artist2	Level1	4_11	artist	sequence, loop_times	
 Farmer	Level1	karel_1_1	farmer	sequence	
 Farmer	Level2	karel_1_2	farmer	sequence	
 Farmer	Level3	karel_1_3	farmer	loop_times	
@@ -91,4 +91,9 @@ Farmer3	Level6	karel_debug_if_else	farmer	if_else, loop_times
 Farmer3	Level7	karel_debug_function_1	farmer	function	
 Farmer3	Level8	karel_debug_function_2	farmer	function	
 Farmer3	Level9	karel_debug_function_3	farmer	parameters	
-Artist5	Level1	5_1	artist_zombie	sequence	
+Artist5	Level1	5_1	artist_zombie		
+Artist5	Level1	5_2	artist_zombie		
+Artist5	Level1	5_3	artist_zombie		
+Artist5	Level1	5_4	artist_zombie		
+Artist5	Level1	5_5	artist_zombie		
+Artist5	Level1	5_6	artist_zombie		
