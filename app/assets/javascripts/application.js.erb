@@ -17,6 +17,16 @@
 // Loads all Bootstrap javascripts
 //= require bootstrap
 
+var KEY_ESCAPE = 27;
+
+// Prevent escape from canceling page loads.
+$(document).keydown(function(e) {
+  if (e.keyCode === KEY_ESCAPE) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+});
+
 function getShowNotes(key, container) {
   var callback = function(data) {
     container.html(data);
