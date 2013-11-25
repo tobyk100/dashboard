@@ -199,18 +199,6 @@ Dialog.prototype.hide = function() {
   $(this.div).modal('hide');
 }
 
-$(document).ready(function() {
-  $('.video_link').each(function() {
-    addClickTouchEvent($(this), $.proxy(function() {
-      showVideo({
-        src: $(this).attr('data-src'),
-        name: $(this).attr('data-name'),
-        key: $(this).attr('data-key')
-      });
-    }, this));
-  });
-});
-
 function cache_bust_only() {
     return 'bust cache';
 }
