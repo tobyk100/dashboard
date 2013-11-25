@@ -526,10 +526,21 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   font-weight: 500;
 }
 
-.loading {
-  height: 520px;
-  margin: 20px;
-  background: image-url("spinner-big.gif") no-repeat center center;
+#blocklyApp {
+
+  .loading {
+    height: 520px;
+    margin: 20px;
+    background: image-url("spinner-big.gif") no-repeat center center;
+  }
+
+  .slow_load {
+    display: none;
+    text-align: center;
+    position: relative;
+    top: -230px;
+  }
+
 }
 
 .reference_area {
