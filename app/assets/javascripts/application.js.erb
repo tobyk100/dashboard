@@ -78,7 +78,11 @@ function showVideo(options) {
       } else {
         videoElement.attr('src', '');
       }
-    }
+      // Remember which tab is selected.
+      var selected = ui.newTab.parents('.ui-tabs').tabs('option', 'active');
+      window.sessionStorage.setItem('lastTab', selected);
+    },
+    active: window.sessionStorage.getItem('lastTab') || 0
   });
 
   // Resize modal to fit constraining dimension.
