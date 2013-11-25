@@ -45,6 +45,7 @@
     need_confirmation: "Không nhận được hướng dẫn xác nhận?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Đăng ký"
     school_name: "Tên trường (tùy chọn)"
     school_address: "Địa chỉ trường (tùy chọn)"

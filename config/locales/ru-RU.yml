@@ -45,6 +45,7 @@
     need_confirmation: "Не получили письмо-подтверждение?"
     need_unlock: "Не получили письмо-инструкцию для разблокировки?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Зарегистрироваться"
     school_name: "Название школы (опционально)"
     school_address: "Адрес школы (опционально)"

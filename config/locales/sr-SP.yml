@@ -45,6 +45,7 @@
     need_confirmation: "Нисте примили инструкције за потврду?"
     need_unlock: "Нисте примили инструкције за откључавање?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Региструј се"
     school_name: "Име школе (опционо)"
     school_address: "Адреса школе (опционо)"

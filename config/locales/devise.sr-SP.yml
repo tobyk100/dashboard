@@ -20,7 +20,7 @@
       reset_password_instructions:
         subject: "Reset password instructions"
       unlock_instructions:
-        subject: "Инструкције за откључавање"
+        subject: "Отклјучати инструкције"
     omniauth_callbacks:
       failure: 'Немогуће је обавити аутентикацију из %{kind} због "%{reason}".'
       success: "Successfully authenticated from %{kind} account."

@@ -127,7 +127,12 @@
         maze_karel_debug_function_1: "Hva ville du endret på dette programmet for å hjelpe meg med å fjerne alle haugene?"
         maze_karel_debug_function_2: "Kan du finne feilene i dette programmet for meg slik at jeg kan gjøre jordet mitt flatt?"
         maze_karel_debug_function_3: "Endre på programmet slik at jeg fjerner alle haugene på jordet mitt. "
-        turtle_5_1: "Benytt denne muligheten til å tegne hva du måtte ønske! Hvis du ikke kommer på noe, spør sidemannen om et forslag!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: 'Jeg må komme meg til den grisen! Skriv inn et par kall for å bevege meg ("move();")  så jeg kan få tilbake eggene mine.'
         maze_3_2: "Skriv et program til meg så jeg kan komme meg helt frem til grisen."
         maze_3_3: "Hvordan skal jeg komme meg til grisen? Forsikre deg om at jeg ikke kommer borti boksen med TNT!"

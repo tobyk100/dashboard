@@ -45,6 +45,7 @@
     need_confirmation: "دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟"
     need_unlock: "دستورالعمل فعال سازی را دریافت نکرده اید؟"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "ثبت نام"
     school_name: "نام مدرسه (اختیاری)"
     school_address: "نشانی مدرسه (اختیاری)"
@@ -197,7 +198,7 @@
     classroom: "کلاس درس شما"
     student_progress: "میزان پیشرفت یادگیری شما"
     student_stats: "شما %{trophy_count} گنج از مجموع %{trophy_max} گنج مرتبط با «تسلط بر مفهوم» را به دست آورده اید."
-    student_left_off: "Where you left off:"
+    student_left_off: "جایی که شما ترک کردید:"
     student_finished: "شما همه خودآموزهای خود را به پایان بردید، %{prize_link} خود را ادعا کرده و کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
     local_school: "مدرسه محلی"
     online: "آنلاین"

@@ -2,7 +2,7 @@
   data:
     script:
       name:
-        20-hour: K-8 Intro to Computer Science Course
+        20-hour: معرفی K-8 دوره علوم کامپیوتر
         Hour of Code: "ساعتی با کد"
         Edit Code: "ویرایش کد"
     game:
@@ -45,19 +45,19 @@
         maze_2_7: "برنامه ای برای من بنویس تا بتونم  با کمترین جعبه به خوک سبز برسم. سعی بیش از یک جعبه 'تکرار' استفاده کنی."
         maze_2_8: "برای حل این سوال، سعی کن یک جعبه تکرار استفاده کنی که در آن جعبه های حرکت، حرکت و گردش باشد."
         maze_2_9: "خوب! سعی کن از جعبه جدید `تکرار تا` استفاده کنی. تا زمانی که من به خوک سبز برسم اون تکرار میشه!"
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
+        maze_2_10: "خب، آخرین بار تمرین - آیا شما می توانید فقط با استفاده از ۴ بلوک این یکی را حل کنید؟"
+        maze_2_11: "انسان عزیز.  من خون آشام هستم. من گرسنه هستم. باید... برسم... به آفتاب گردان...  می توانید شما من را برسانید به آنجا فقط با ۵ بلوک؟"
+        maze_2_12: "خب، این مشابه است، اما کمی متفاوت. آیا می توانید آن را فقط با ۵ بلوک انجام دهید؟"
+        maze_2_13: 'با استفاده از بلوک "اگر" به من اجازه بده که تصمیم بگیرم چه موقع بچرخم. تذکر:‌ فقط یک بلوک بیشتر احتیاج داری، پس یاد بگیر چطوری درست کنی که دفعه بعد شما بتوانید به کمک خودت این را انجام دهید.'
+        maze_2_14: 'خب، این درست مثل پازل گذشته است، اما باید به یاد داشته باشید شما چگونه از بلوک "اگر" و بلوک "تکرار" همزمان استفاده کردید.'
+        maze_2_15: 'من آفتاب گردان می خواهم! با استفاده از بلوک "اگر" من را با کمترین تعداد بلوک ها به آنجا برسان.'
+        maze_2_16: "خوب، اجازه بدید که دوباره این تمرین را انجام دهیم - این خیلی متفاوت نیست، اما مراقب بلیدنی ها باش!"
+        maze_2_17: 'بلوکهای "if-else" شرایط را بررسی میکنند، و سپس یک کار یا کار دیگری را انجام میدهند. سعی کن با استفاده از بلوک جدید من را به آفتاب گردان برسانی.'
+        maze_2_18: 'یک تمرین بیشتر با بلوک "if-else"، آیا می توانید با سعی خود جواب درست بدهی؟'
+        maze_2_19: "آيا می توانید با اضافه کردن فقط ۳ تا بلوک به من کمک کنید که مارپیج سخت را حل کنم؟ اگر درست انجام بدهید، من می توانم حرکت کنم هر مسیر مارپیچ را بدون درنظر گرفتن طول آن."
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
+        turtle_1_3: "با استفاده از فقط ۳ بلوک یک مربع بساز."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
@@ -141,7 +141,12 @@
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
@@ -155,16 +160,16 @@
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        maze_intro: "معرفی پیچ و خم"
+        artist_intro: "معرفی هنرمند"
+        farmer_intro: "معرفی کشاورز"
+        loop_times: "بلوک تکرار زمان"
+        loop_until: 'بلوک "Repeat Until"'
+        if: 'بلوک "if"'
+        if_else: 'بلوک "if/else"'
+        function: "معادله"
+        loop_while: "بلوک while"
+        loop_for: "بلوک شمارشگر"
+        parameters: "معادله با پارامترها"
+        hoc_wrapup: "جمع بندی ساعتی با کد"
+        20_wrapup: "۲۰ ساعت جمع بندی"

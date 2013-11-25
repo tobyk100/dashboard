@@ -73,11 +73,10 @@
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: "Hi, jestem Chris. Przed dołączeniem do Miami Heat, wstąpiłem na Georgia Tech, by studiować informatykę. Spróbujmy użyć nasz nowy blok, blok powtarzać aż do."
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Co zrobić, jeśli nie wiedzieliśmy, jak daleko ten ptak miał przenieść się, by dosięgnąć świnkę?"
       3:
         image: "notes/hoc3_3.png"
         text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'

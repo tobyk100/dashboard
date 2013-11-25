@@ -45,6 +45,7 @@
     need_confirmation: "Har du inte fått bekräftelseinstruktioner?"
     need_unlock: "Har du inte fått instruktioner för att låsa upp?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Registrera dig"
     school_name: "Skolans namn (valfritt)"
     school_address: "Skolans adress (valfritt)"

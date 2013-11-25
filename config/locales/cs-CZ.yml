@@ -45,6 +45,7 @@
     need_confirmation: "Nedostal jsi potvrzovací instrukce?"
     need_unlock: "Nezískal si odemykací instrukce?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Registrace"
     school_name: "Název školy (volitelné)"
     school_address: "Adresa školy (volitelné)"
@@ -110,7 +111,7 @@
       title: "Prosím, potvrď"
       "no": Ne
       "yes": Ano
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
+      msg: "Jste si jistí, že si chcete nárokovat %{prize_name} ocenění?"
       msg_student: "NOTE: You can only choose one type of prize."
     providers:
       apple_itunes: "Apple iTunes"
@@ -128,11 +129,11 @@
       earned: "Získal si cenu!"
       not_earned: "Collect all %{num_trophies} trophies to win a prize!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 nebo více studentů přebralo všechna %{num_trophies} ocenění. Vyhráli jste učitelskou cenu!"
+        not_earned: "Pokud alespoň 10 studentů získá všechny %{num_trophies} ocenění, vyhráváte cenu!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "Alespoň 40% Vašich studentů kdo dokázali získat všechny %{num_trophies} ocenění jsou ženy. Vyhráváte bonus!"
+          not_earned: "Pokud alespoň 10 studentů získá všechny %{num_trophies} ocenění a alespoň 40% z nich jsou ženy, získáte bonus. "
   crud:
     new_model: "Nový %{model}"
     show: "Zobrazit"

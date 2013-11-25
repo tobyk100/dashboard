@@ -60,7 +60,7 @@
         text: 'Biz köməklik üçün yeni "təkrar et" blokundan istifadə edə bilərik.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: '5 "irəli get" blokundan istifadə etməkdənsə...'
       5:
         image: "notes/hoc2_5.png"
         text: 'Biz "təkrar et" blokunun içərisində "irəli get" bloku yerləşdirə və bu blokda təkrarlanmaların sayını bildirmək üçün bir ədəd daxil edə bilərik.'
@@ -111,12 +111,10 @@
         text: 'Salam, mənim adım Salonidir. İnformatikadan səhiyyə və tibbdəki məsələləri həll etmək üçün istifadə edirəm. Gəlin, "əgər, əks halda" blokunu öyrənək. Bu, "əgər" blokuna oxşayır, amma axırında "əks halda" söyləyən əlavə bir hissəsi var.'
       2:
         image: "notes/hoc5_2.png"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Əgər mən "İrəli get" blokunu "et" deyilən yerə və "sola dön" blokunu "əks halda" yerə qoysam, bu zombinin 2 seçimdən birini yerinə yetirəcəyini bildirir. Əgər zombinin qarşısında yol varsa, o zaman zombi irəliləyəcəkdir, və ƏKS HALDA(qarşısında irəliləməyə yer yoxdur), zombi sola dönəcəkdir.'
       3:
         image: "notes/hoc5_3.png"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: '"Əgər" bloku kimi, biz "təkrar et" bloklarının daxilinə "əgər əks halda" bloklarını elə qoya bilərik ki, zombi irəliləməkdə davam etsin və "əgər əks halda" bloku hərəkət etdikcə hər hansı bir yerə döngə olub olmadığını yoxlasın.'
       4:
         image: "notes/hoc5_4.png"
         text: "İndi bu zombiləri olmalı olduqları yerə aparın!"
@@ -139,7 +137,7 @@
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Təbrik edirik! Axırıncı tapmacanı həll etməklə elə kod yazdınız ki, İSTƏNİLƏN robota budaqlanmayan istənilən uzunluqda bir labirint və ya tunneldə öz yolunu necə tapacağını söyləyə bilər, onun bir zombi, quş, Marsda özüyeriyən aparat, yaxud hətta bir sürücüsüz avtomatik minik maşını olmasından asılı olmayaraq."
       2:
         image: "notes/hoc6_2.png"
         text: 'Sizin istifadə etmiş olduğunuz əsas anlayışlar sizin baxa biləcəyiniz hər bir proqramın və ya tətbiqetmənin ürəyidir. Biz "təkrar et", "təkrar et, o vaxta qədər ki", "əgər" və "yoxsa əgər" ifadələrini öyrəndik.'

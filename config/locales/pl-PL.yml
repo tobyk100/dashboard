@@ -15,7 +15,7 @@
   welcome_back: "Witaj z powrotem, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Dodaj nauczyciela przez kod lub adres e-mail:"
+      label: "Dodaj nauczyciela używając kod lub adres e-mail:"
       placeholder: "Kod (ABCDEF) lub e-mail (teacher@school.edu)"
     submit: "Dodaj nauczyciela"
   appname: "Code.org"
@@ -23,7 +23,7 @@
   puzzle: "Łamigłówka"
   trophies: "Trofea"
   courses: "Kursy"
-  of: "of"
+  of: "z"
   more: "WIĘCEJ"
   less: "MNIEJ"
   try_hoc: "Spróbuj Godziny Kodowania, kliknij tutaj >>"
@@ -45,190 +45,190 @@
     need_confirmation: "Nie otrzymałeś instrukcji potwierdzania?"
     need_unlock: "Nie otrzymałeś instrukcji odblokowania?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Zarejestruj się"
     school_name: "Nazwa szkoły (opcjonalnie)"
     school_address: "Adres szkoły (opcjonalnie)"
     address_placeholder: "adres, miasto, województwo, kod pocztowy"
     gender: "Płeć (opcjonalnie)"
     birthday: "Data urodzenia (opcjonalnie)"
-    submit: "Zarejestruj się"
-    teacher: "Jesteś nauczycielem?"
+    submit: "Zapisz się"
+    teacher: "Czy jesteś nauczycielem?"
     valid_username: "Dostępny!"
     invalid_username: "Nazwa użytkownika musi zawierać co najmniej 5 znaków"
     taken_username: "Nazwa użytkownika jest już zajęta"
-    valid_password: "Hasło prawidłowe!"
-    invalid_password: "Hasło musi składać się z przynajmniej 6 znaków"
+    valid_password: "Prawidłowe hasło!"
+    invalid_password: "Hasło musi zawierać przynajmniej 6 znaków"
     mismatch_password: "Hasła, które podałeś, nie są zgodne"
   signin_form:
-    title: "Zaloguj się"
+    title: "Zapisz się"
     login: "E-mail lub nazwa użytkownika"
     password: "Hasło"
     remember: "Zapamiętaj mnie"
-    submit: "Zaloguj się"
+    submit: "Zapisz się"
   password:
     reset_form:
-      title: "Nie pamiętasz hasła?"
+      title: "Nie pamiętasz swojego hasła?"
       email: "Adres e-mail"
       submit: "Wyślij mi instrukcje resetowania hasła"
     change_form:
       title: "Zmień swoje hasło"
       new_password: "Nowe hasło"
       confirm_password: "Potwierdź nowe hasło"
-      submit: "Zmień hasło"
+      submit: "Zmień moje hasło"
   welcome_email:
-    subject: "Dołącz do moich zajęć (na Code.org)"
+    subject: "Dołącz do mojej klasy (na Code.org)"
     body: |
-      Kliknij w poniższy link, by zapisać się na kursy z informatyki na Code.org (ze mną w roli twojego "nauczyciela"):
+      Kliknij w poniższy link, aby zapisać się na porady z informatyki na Code.org (ze mną jako Twoim nauczycielem):
       
       %{link}
       
-      Kursy są zabawne, mają ładną oprawę graficzną i uczą podstawowych pojęć z dziedziny informatyki przy użyciu prostych gier z instrukcjami. Naucz się kodowania od Billa Gatesa, Marka Zuckerberga, Angry Birds i Plants vs. Zombies! :)
+      Poradniki są zabawne, angażujące wizualnie, i uczą podstawowych pojęć informatycznych przy użyciu prostych,nadzorowanych prób,przypominających gry. Naucz się programować od Billa Gatesa, Marka Zuckerberga, Angry Birds i Plants vs. Zombies! :)
       
       %{name}
   follower:
     invite_sent: "Zaproszenie wysłane"
     added_teacher: "%{name} dodany jako twój nauczyciel"
-    registered: "Zarejestrowałeś się do %{section_name}. Zaloguj się, by kontynuować"
+    registered: "Zarejestrowałeś się do %{section_name}. Zapisz się, by kontynuować"
     error:
-      signed_in: "Wyloguj się, a potem kontynuuj"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "Wypisz się, zanim będziesz kontynuowała"
+      username_not_found: "Nazwy użytkownika %{username} nie znaleziono"
+      username_in_use: "nazwa użytkownika %{username} jest już zajęta, wybierz inną"
+      no_teacher: "Nie odnaleziono nikogo zarejestrowanego z '%{teacher_email_or_code}'. Poproś ich, by się zarejestrowali tutaj, a następnie spróbuj ich dodać ponownie"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Dołącz do klasy z %{teacher_name} na Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "Nie masz dostępu do statystyk tej osoby"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "Odbierz Nagrody: %{name}"
+    provider: "Dostawca:"
+    code: "Kod:"
+    success: "Twoja nagroda została z powodzeniem odkupiona, zobacz poniższy kod."
+    error: "Twoja nagroda nie może być odkupiona, spróbuj ponownie."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Prosimy o potwierdzenie"
+      "no": Nie
+      "yes": Tak
+      msg: "Jesteś pewien, że chcesz nagrodę %{prize_name}?"
+      msg_student: "Uwaga: Możesz wybrać tylko jeden typ nagrody."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
+      donors_choose_bonus: "DonorsChoose.org $750"
       dropbox: "Dropbox"
       valve: "Valve Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Ukończyłeś wszystkie samouczki. Po zgłoszeniu się po swoją nagrodę, wybierz inną klasę %{online_link} lub %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Wybierz nagrodę:"
+      earned: "Zdobyłeś nagrodę!"
+      not_earned: "Zbierz wszystkie trofea %{num_trophies}, aby wygrać nagrodę!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 lub więcej uczniów zebrało wszystkie %{num_trophies} trofeów. Wygrałeś nagrodę nauczyciela!"
+        not_earned: "Jeśli 10 uczniów zbierze wszystkie %{num_trophies} trofeów, wygrasz nagrodę!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% lub więcej twoich uczniów, którzy zebrali wszystkie %{num_trophies} trofeów, jest płci żeńskiej. Wygrałeś nagrodę dodatkową!"
+          not_earned: "Jeśli 10 lub więcej uczniów zbierze wszystkie %{num_trophies} trofeów i co najmniej 40% z nich jest płci żeńskiej, wygrasz nagrodę dodatkową!"
   crud:
     new_model: "Nowy %{model}"
     show: "Pokaż"
-    edit: "Edycja"
+    edit: "Edytuj"
     edit_model: "Edytuj %{model}"
-    update: "Zaktualizuj"
+    update: "Uaktualnij"
     destroy: "Zniszcz"
     back: "Wstecz"
     confirm: "Jesteś pewny?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    created: "%{model} został pomyślnie utworzony."
+    updated: "%{model} został pomyślnie zaktualizowany."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "Skończyłem moją Godzinę Kodowania (Hour of Code)"
+      sign_in_to_save: "Zaloguj się, by zapisać stan"
     user:
-      classroom: "My students"
-      label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
-      prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      classroom: "Moi uczniowie"
+      label: "Witaj %{username}"
+      stats: "Moje postępy"
+      settings: "Moje konto"
+      prizes: "Nagrody"
+      logout: "Wyloguj"
+      signin: "Zaloguj się"
+      signup: "Zarejestruj się"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
+      progress: "Twoje postępy"
+      lines: "Łączna ilość linii kodu: %{lines}"
       close: "ZAMKNIJ"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prizes_link: "more info"
+      mastery: "Pomysły"
+      puzzle_map: "Etapy"
+      prizes: "Zbierz wszystkie %{total_trophies} trofeów i wygraj nagrody!"
+      prize_earned: "Zebrane zostały wszystkie %{total_trophies} trofeów. Wygrałeś nagrodę!"
+      prizes_link: "więcej informacji"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "Twój nauczyciel to %{name}"
+      other: "Twoi nauczyciele:"
+    tools: "Narzędzia Nauczyciela"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "Zarządzaj uczniami"
+      add: "Dodaj uczniów"
+    rollup: "Tablica Postępów"
+    activity: "Ostatnia aktywność klasy"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(zostaw puste, jeśli nie chcesz, aby to zmienić)"
+    current_password_hint: "(potrzebujemy Twojego aktualnego hasła, aby potwierdzić Twoje zmiany)"
     cancel:
-      title: "Cancel my account"
+      title: "Zlikwiduj moje konto"
       hint: "Niezadowolony?"
-      button: "Cancel my account"
+      button: "Zlikwiduj moje konto"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "Ukończono"
+    tried: "Próbowałem"
   user_stats:
-    recent_activity: "Recent activity"
-    show_more: "Show more"
+    recent_activity: "Ostatnia aktywność"
+    show_more: "Pokaż więcej"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
+    signin_message: "lub jeśli jesteś już zarejestrowany %{link}"
+    student_reg_link: "Uczniowie - zacznij tutaj"
+    teacher_reg_link: "Nauczyciele - zacznij tutaj"
+    teacher_dashboard: "Zobacz panel postępu"
+    teacher_student_count: "Masz %{count} studentów."
+    teacher_averages: 'Średnio Twoi uczniowie zdobyli %{trophy_average} z %{trophy_max} trofeów "Concept Mastery".'
+    classroom: "Twoja klasa"
+    student_progress: "Twoje postępy w nauce"
+    student_stats: 'Zdobyłeś %{trophy_count} z %{trophy_max} trofeów "Concept Mastery".'
+    student_left_off: "Gdzie przerwałeś:"
+    student_finished: "Ukończyłeś wszystkie samouczki, zgłoś się po swoją %{prize_link} i wybierz inną klasę %{online_link} lub %{local_school_link}"
+    local_school: "miejscowa szkoła"
     online: "online"
-    see_details: "See details"
+    see_details: "Zobacz szczegóły"
   gender:
     male: "Mężczyzna"
     female: "Kobieta"
-    none: "Prefer not to answer"
+    none: "Wolę nie odpowiadać"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    help_from_html: 'Inżynierowie z <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, i <a href="http://www.twitter.com">Twitter</a> pomogli utworzyć ten poradnik.'
+    art_from_html: 'Grafika z <a href="http://www.angrybirds.com"> Angry Birds</a> przez <a href="http://www.rovio.com"> Rovio</a> i <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> przez <a href="http://www.popcap.com"> PopCap</a> Games.'
     feedback: "Wyraź swoją opinię"
-    translate: "Help us translate to your language"
+    translate: "Pomóż nam tłumaczyć na Twój język"
     tos: "Warunki korzystania z usługi"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Wykup swoją nagrodę w Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Wykup swoją nagrodę w Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Wykup swój dodatkowa nagrodę w Code.org!"
   reference_area:
     title: "Potrzebujesz pomocy?"
-    subtitle: "See these videos and hints"
+    subtitle: "Zobacz te wideo i wskazówki"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "Wideo."
+    notes: "Brak obrazu? Pokaż uwagi."
+    autoplay_option: "Automatycznie odtwarzaj filmy"
   compatability:
-    working: "We are working on support for your browser."
+    working: "Pracujemy nad wsparciem dla Twojej przeglądarki."
     upgrade: "Uaktualnij przeglądarkę."

@@ -45,6 +45,7 @@
     need_confirmation: "確認イーメイルが来ませんでしたか？"
     need_unlock: "ロックを解除をするインストラクションとど来ましたか？"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "入会"
     school_name: "学校名 (省略可能)"
     school_address: "学校の住所（オプションです）"
@@ -110,8 +111,8 @@
       title: "確認してください"
       "no": いいえ
       "yes": はい
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      msg: "%{prize_name} 賞金を本当に請求するもよろしいですか。"
+      msg_student: "注: 賞品わ、 1 つの種類のみを選択できます。"
     providers:
       apple_itunes: "アップルの iTunes"
       donors_choose: "DonorsChoose.org $750"

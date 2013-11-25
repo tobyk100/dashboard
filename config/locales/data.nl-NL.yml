@@ -65,19 +65,17 @@
         turtle_1_8: 'Ok, kijk nu of je kunt uitvinden wat er gebeurt als je deze code uit zou voeren (of druk op "Uitvoeren" om het uit te voeren). Dan moet je het vaak genoeg herhalen om de tekening af te maken. De kleuren zijn iedere keer anders.'
         turtle_1_9: "Kun je uitvinden welk nummer je moet vervangen met het vraagteken om een cirkel te tekenen?"
         turtle_1_10: 'Je hebt het gehaald! Nu kun je tekenen wat je wilt. Wat leuke ideëen: een stick poppetje, sneeuwvlok of een spiraal. Je kunt nu ook het nieuwe "dikte instellen" blok gebruiken. Veel plezier!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_1: 'Kun je een driehoek tekenen (met randen van 100 pixels) met maar 3 blokken? Tip: gebruik een "herhalen"-blok.'
+        turtle_4_2: "Voeg één blok toe om de puzzel te voltooien. Tip: we hebben al blokken weggezet om 2 dezelfde driehoeken te tekenen. Je moet er een 'draai' tussen zetten, en bedenken hoe ver je moet draaien."
+        turtle_4_3: "OK, hier is de code die je hebt geschreven om een enkele driehoek te tekeken. Kun je een 'herhalen'- en 'draai'-blok toevoegen om een bloemetje te maken?"
+        turtle_4_4: "Hier is dezelfde code van de vorige puzzel, maar nu draaien we maar 36 graden na het tekenen van iedere driehoek. Hoe vaak moeten we dit herhalen? (Tip: na 360 graden draaien hebben we een heel rondje gemaakt)"
+        turtle_4_5: "Hier is dezelfde code als de vorige puzzel, maar nu herhalen we 36 keer. Hoeveel graden moeten we draaien? (Tip: na 360 graden hebben we een heel rondje gedraaid)"
+        turtle_4_6: "Kun je met maar 3 blokken een vierkant tekenen met randen van 20 pixels?"
+        turtle_4_7: "Hier is de code om het vierkant uit de vorige puzzel te tekeken. Kun je deze herhalen om 10 vierkanten tegen elkaar aan te zetten, als een ladder? Tip: je hebt maar 2 extra blokken nodig."
+        turtle_4_8: "Hier is de oplossing voor de vorige puzzel. Kun je nog 2 blokken toevoegen om de tekening compleet te maken?"
+        turtle_4_9: "Hier is de oplossing voor de vorige puzzel. Hoeveel graden moet je draaien om de tekening compleet te maken? (Je moet waarschijnlijk een paar keer gokken)"
+        turtle_4_10: "Hier is de oplossing voor de vorige puzzel. Hoe vaak moet je herhalen om de tekening compleet te maken?"
+        turtle_4_11: 'Verander de nummers in de "draai"- en "herhaal"-blokken om verschillende patronen te maken. Of experimenteer met het veranderen van de rest van de code om alles te tekenen wat je maar wilt.'
         maze_karel_1_1: 'Hoi, ik ben een boer. Ik heb je hulp nodig om mijn veld plat te maken zodat ik erop kan verbouwen. Beweeg me naar de hoop modder en gebruik het "verwijder" blok om hem te verwijderen.'
         maze_karel_1_2: 'Beweeg me naar het gat en vul hem met TWEE scheppen modder, door het "vul" blok te gebruiken.'
         maze_karel_1_3: "Beweeg me naar de hoop modder en vertel me hoeveel scheppen ik moet verwijderen, met zo weinig blokken mogelijk."
@@ -116,7 +114,7 @@
         turtle_3_4: 'Kijk of je uit kan vinden hoe je "teken een vierkant" en "teken een driehoek" (en wat andere blokken) kunt gebruiken om een huis om de leeuw te tekenen.'
         turtle_3_5: 'Maak nu een "teken een huis" functie en gebruik hem om deze 2 katten een huis te geven. Hint: maak een nieuwe functie met behulp van het "doe iets" blok, en typ je eigen naam om het blok een naam te geven.'
         turtle_3_6: 'Gebruik "teken een vierkant" als een voorbeeld om een invoer genaamd "lengte" toe te voegen om "teken een driehoek" te maken. Maak vervolgens driehoeken in verschillende groottes. (Hint: klik op de ster om een invoer aan een functie toe te voegen)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Voeg een input met de naam "lengte" toe aan "teken een huis" en teken een groot huis voor de olifant (met randen van 150 pixels lang)'
         turtle_3_8: 'Hier zijn alle blokken van de vorige puzzel. Bewerk "teken een huis" zodat ik rechts onderin eindig na het tekenen van een nieuw huis. Gebruik deze bewerkte functie om drie huizen te tekenen.'
         turtle_3_9: 'Kan je deze "teken een huis" functie namaken zonder hulp? Probeer het, en teken daarna een rijtje huizen.'
         turtle_3_10: "Je hebt al een heleboel geleerd! Nu kun je het gebruiken om te tekenen wat je maar wilt. Probeer bijvoorbeeld eens om een ster, spiraal of coole sneeuwvlok te tekenen."
@@ -129,11 +127,16 @@
         maze_karel_debug_function_1: "Wat kun je veranderen aan dit programma om alle hopen te verwijderen?"
         maze_karel_debug_function_2: "Kan je dit programma maken zodat ik mijn veld mooi vlak kan maken?"
         maze_karel_debug_function_3: "Bewerk dit programma zodat ik alle hopen op mijn veld verwijder. "
-        turtle_5_1: "Neem de tijd om te tekenen wat je maar wilt! Als je niets kunt verzinnen, vraag dan of degene naast je goede ideëen heeft!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        maze_3_1: "Ik moet naar dat biggetje toe! Tiep een paar aanroepen van move(); in zodat ik mijn eieren terug kan krijgen."
+        maze_3_2: "Schrijf een programma zodat ik helemaal naar het biggetje kan komen."
+        maze_3_3: "Hoe kom ik bij het biggetje? Pas op dat ik niet tegen de doos dynamiet aan loop!"
+        maze_3_4: "Argh! Schrijf een programma dat me om de dynamiet heen krijgt en naar het biggetje."
       levelIncompleteError:
         maze_2_8: 'Om dit op te lossen, moet je het patroon vinden dat herhaalt. Gebruik een "herhaal" blok met deze 3 blokken erin: beweeg, beweeg, draai rechts.'
       other1StarError:

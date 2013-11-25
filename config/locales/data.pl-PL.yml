@@ -27,9 +27,9 @@
         sequence: "Sekwencja"
         if: 'blok "jeśli"'
         if_else: "blok If-else"
-        loop_times: "blok powtarzania"
-        loop_until: "Blok powtarzania dopóki"
-        loop_while: "While block"
+        loop_times: "blok powtarzaj ileś razy"
+        loop_until: "blok powtarzania dopóki"
+        loop_while: "blok dopóki"
         loop_for: "blok zliczania"
         function: "Funkcje"
         parameters: "Funkcje z parametrami"
@@ -44,10 +44,10 @@
         maze_2_6: "Spróbuj przeprowadzić mnie do zielonej świnki używając tylko 3 bloków."
         maze_2_7: 'Napisz dla mnie program, bym mógł dostać się to zielonej świnki używając najmniejszej liczby bloków. Sprobuj czegoś jak blok "powtórz".'
         maze_2_8: 'Aby rozwiązać ten problem spróbuj uży bloku "powtórz" z 3 blokami wewnątrz: idź, idź, skręć.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
+        maze_2_9: 'OK, spróbuj nowy "powtarzaj aż do" blok - będzie powtarzać aż osiągnę Zieloną Świnkę.'
+        maze_2_10: "Ok, ostatni raz na próbę - czy potrafisz rozwiązać tę łamigłówkę używając jedynie 4 bloków?"
+        maze_2_11: "Droga osobo. Ja zombie. Ja głodny. Muszę... dostać się... do słonecznika... Czy potrafisz mnie tam przeprowadzić używając zaledwie 5 bloków?"
+        maze_2_12: "Ok, to jest podobne, ale jednak trochę inne. Czy potrafisz rozwiązać zadanie używając zaledwie 5 bloków?"
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
         maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
@@ -131,13 +131,18 @@
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
         maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
         maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "Jak zmieniłbyś program żeby pomóc mi wypełnić dziurę?"
-        maze_karel_debug_if: "Pomocy! Napraw program tak, by pole było zupełnie płaskie."
+        maze_karel_debug_while: "Jak zmieniłbyś ten program, aby pomóc mi wypełnić dziurę?"
+        maze_karel_debug_if: "Pomocy! Napraw program tak, by moje pole było całkowicie płaskie."
         maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
@@ -156,10 +161,10 @@
         farmer_intro: "Rolnik - wprowadzenie"
         loop_times: "Repeat Times Block"
         loop_until: "Repeat Until Block"
-        if: 'blok "jeśli"'
+        if: "blok jeśli"
         if_else: "If/else Block"
         function: "Funkcje"
-        loop_while: 'blok "dopóki"'
+        loop_while: "blok dopóki"
         loop_for: "Counter Block"
         parameters: "Functions with Parameters"
         hoc_wrapup: "Hour of Code Wrapup"

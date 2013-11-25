@@ -12,13 +12,13 @@
       locked: "Hesabınız kilitlendi."
       not_found_in_database: "Geçersiz e-posta veya şifre."
       timeout: "Oturumunuzun süresi doldu, lütfen tekrar devam etmek oturum açın."
-      unauthenticated: "You need to sign in or sign up before continuing."
+      unauthenticated: "Devam etmeden önce kayıt olun veya giriş yapın."
       unconfirmed: "Devam etmeden önce hesabınızı onaylamanız gerekir."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Talimatlarin Onayı"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "Şifre talimatlarını sıfırlayın"
       unlock_instructions:
         subject: "Unlock Instructions"
     omniauth_callbacks:
@@ -26,7 +26,7 @@
       success: "Successfully authenticated from %{kind} account."
     passwords:
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+      send_instructions: "Birkaç dakika içinde parolanızı nasıl sıfırlamanız hakkında yönergeler içeren bir e-posta alacaksınız."
       send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
       updated: "Your password was changed successfully. You are now signed in."
       updated_not_active: "Your password was changed successfully."

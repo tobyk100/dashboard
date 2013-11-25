@@ -45,6 +45,7 @@
     need_confirmation: "Fékstu ekki sendar staðfestingar leiðbeiningar?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Skráning"
     school_name: "Nafn skóla (valfrjálst)"
     school_address: "Heimilisfang skóla (valfrjálst)"

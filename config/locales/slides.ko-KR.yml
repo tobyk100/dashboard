@@ -3,159 +3,151 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.png"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Hour of code 에 오신 것을 환영합니다. 프로그래밍의 재미를 느껴 보세요."
       2:
         image: "notes/hoc1_2.png"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "코드를 작성하기 위해, 드래그 & 드롭 방식의 비주얼 프로그래밍 언어인 블러클리(Blockly)를 사용합니다."
       3:
         image: "notes/hoc1_3.png"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: "대부분의 프로그래밍언어들은 텍스트로 작성해야 하지만, 블러클리는 그래픽 방식의 블럭들로 프로그래밍 합니다. 각 각의 블럭들은 실제 코드와 1:1로 대응합니다."
       4:
         image: "notes/hoc1_4.png"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "화성 탐사선을 제어하는 것과 같이, 어디서나 사용할 수 있는 프로그램들을 만들어 내기 위한 기본적인 개념들과, 컴퓨터과학의 기초 내용들을 배울 수 있습니다."
       5:
         image: "notes/hoc1_5.png"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "프로그램은 컴퓨터가 실행해야하는 명령들의 집합이라고 할 수 있습니다."
       6:
         image: "notes/hoc1_6.png"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "처음 프로그램의 목표는, 앵그리버드가 미로를 움직여 녹색 돼지를 잡을 수 있도록 하는 것 입니다."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "왼쪽에는 프로그램이 실행되어 적용되는 미로입니다. 각 퍼즐에서의 해결 목표들은 미로의 아래쪽에 나타납니다."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "가운데 도구상자는 앵그리버드를 움직이기 위한 명령들이 있습니다. 이 블럭들을 사용해 코드를 만들 수 있습니다."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "오른쪽의 공간은, 프로그램을 만들기 위해 도구상자에서 블럭들을 꺼내어 놓는 곳입니다. 블럭을 삭제하기 위해서는 구석에 있는 휴지통으로 끌어다 놓으면 됩니다. "
       10:
         image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: '각각의 블럭들은 하나의 명령을 의미합니다. "move forward" 블럭을 오른쪽 프로그래밍 공간에 가져다 놓은 후, "Run Program" 을 누르면, 미로에 있는 앵그리 버드가 한 칸 이동합니다.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "하나 이상의 동작을 실행시키기 위해서, 여러 개의 블럭을 가져다 놓고 서로 연결시켜 붙이면 됩니다. 앵그리버드는, 블럭들이 붙여져 있는 위에서 아래의, 순서로 명령들을 실행해 갑니다."
       12:
         image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: '프로그램을 실행 시킨 후, 수정하고 싶거나, 다시 실행 하고 싶으면, "Reset" 버튼을 누르면 됩니다.'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "자 이제 돼지들을 잡으러 가 봅시다."
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "안녕하세요! 여러분? 저는 마크 입니다. 반복 실행 구조인 루프(loop) 에 대해 살펴 볼까요? 반복 실행 구조를 사용해, 원하는 작업을 반복적으로... 수 천 번... 수 백 만 번 실행 시킬 수 있습니다."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "이 퍼즐에서는 새가 돼지까지,  5번 전진(move forward) 하도록 해야 합니다."
       3:
         image: "notes/hoc2_3.png"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: '새로운 "repeat" 블럭을 사용해 해결 할 수 있습니다.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: '"move forward" 블럭 5개를 가져와 사용하는 대신...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: '"move forward" 블럭을 "repeat" 블럭 안에 집어 넣고, 반복 해야 할 횟수를 숫자로 작성해 넣으면 됩니다.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: '그리고 이렇게 하는 것은 매우 중요합니다 : 왜냐하면 "repeat" 블럭 안에는 여러 개의 명령 블럭을 넣어 실행시킬 수 있기 때문입니다.'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        text: '"repeat" 블럭을 잘 사용해 보세요!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: '안녕하세요! 여러분? 저는 크리스입니다. 제가 마이애미 히트(Miami Heat)에서 일하기 전에, 저는 조지아 공과대학(Georgia Tech)에서 컴퓨터과학(Computer Science)을 공부했습니다. 새로운 블럭인 "repeat until" 블럭을 살펴보도록 하겠습니다.'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "돼지를 잡기 위해, 앵그리버드가 이동해야하는 거리를 모른다?면 어떻게 해야 할까요?"
       3:
         image: "notes/hoc3_3.png"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: '"move forward" 블럭을 "repeat until" 블럭 안에 넣으면, 돼지에게 도착할 때 까지(UNTIL)나, 벽에 부딫힐 때까지, 앵그리버드가 이동하게 됩니다.'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: '그리고 이렇게 하는 것은 매우 중요합니다 : 왜냐하면, 이전과 마찬가지로 여러 개의 블럭들을 "repeat until" 블럭 안에 넣어서, 반복되도록 할 수 있기 때문입니다.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: '안녕하세요! 저는 빌이에요! 이제 새로운 기초 개념들을 배워 봅시다: "if" 명령입니다. 이 명령을 이용해 컴퓨터가 어떤 판단을 하는 것처럼 만들 수 있습니다.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: '"if" 명령은 매일 매일 사용하고 있습니다. 매일 아침 밖에 나가기 전에 "만약" 밖에 비가 내리면? 점퍼를 입어야 합니다.'
       3:
         image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: '우리는 좀비에게 "앞에 길이 있는지?" 를 확인하고, "왼쪽에 길이 있는지?"를 살펴보도록 한 후, 그 방향으로 이동 방향을 바꾸도록 할 수 있습니다.'
       4:
         image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: '그렇게 하기 위해서는, "if" 블럭 안에 "turn left" 블럭을 넣으면 됩니다.'
       5:
         image: "notes/hoc4_5.png"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: '그런 다음, "move forward" 블럭을 그 위에 붙이고, 그렇게 만든 것을 "repeat" 블럭에 감싸 넣으면.. 좀비가 움직일 때마다 왼쪽에 길이 있는지 확인 한 다음 그 쪽 방향으로 이동하게 됩니다. "repeat" 명령에서, 움직일 때마다 이동할 방향을 결정하는 작업은 매우 중요합니다.'
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: '실제로 "if" 명령은 컴퓨터과학에서 매우 중요합니다. 제가 처음 만들었던 프로그램 중 하나는 3*3 크기의 표 안에 O 와 X를 번갈아 작성해 넣는 틱택토(tic-tac-toe) 퍼즐이었는데, 그 안에서 "if" 명령은 어떤 사람이 이겼는지 결정해 주었습니다. "if" 블럭이 그렇게 이긴 사람을 결정하는 역할을 해 줄 수 있습니다.'
       7:
         image: "notes/hoc4_7.png"
-        text: 'Have fun using the "if" block!'
+        text: '"if" 블럭을 잘 사용해 보세요!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: '안녕하세요? 저는 살로니에요. 저는 건강과 의료 분야에 컴퓨터과학 지식을 활용했어요. "if else" 블럭을 어떻게 사용할 수 있는지 살펴보도록 하죠. "if" 블럭과 비슷하지만, "else"라고 부르는 부분이 더 있어요.'
       2:
         image: "notes/hoc5_2.png"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: '"move forward" 블럭을 "do" 라고 쓰여진 부분에 넣고, "turn left" 블럭을 "else"라고 쓰여진 부분에 넣으면, 좀비는 2가지 중에서 하나 만 선택하게 되요. "만약 길이 앞에 있으면" 좀비가 앞으로 이동하고, 아니면?(즉, 앞에 길이 없으면), 좀비가 왼쪽으로 이동하게 되요.'
       3:
         image: "notes/hoc5_3.png"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: '"if" 블럭하고 비슷한, "if else" 블럭들을 "repeat" 블럭에 넣으면, "if else" 블럭으로 회전해야 하는지 판단하면서 계속 움직이게 되는 거에요.'
       4:
         image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        text: "자, 이제 좀비를 움직여 보세요!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "축하합니다! 마지막 퍼즐을 해결함으로서, 여러분은 어떤 미로/동굴/터널 속에서도 길을 찾아 움직일 수 있는 로봇을 만들 수 있게 되었습니다. 좀비, 새, 화성탐사선, 스스로 움직이는 자동차에도 적용시킬 수 있겠죠?"
       2:
         image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "지금까지 사용한 기초적인 개념들은, 매일 매일 사용하고 있는 앱(응용프로그램)들을 만들어 낼 수 있는 가장 근본적인 개념들입니다. 지금까지 반복 실행을 위한 repeat, repeat until 명령과 선택 실행을 위한 if, if else 명령들을 배워 보았습니다. "
       3:
         image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "First Hour of Code 가 재미 있었으면, http://code.org 를 방문해 컴퓨터과학 분야와 관계된 공부들을 더 해보세요! 일단, 20 시간의 코스를 끝내고 나면, 프로그래밍을 위한 기초적인 지식을 모두 배울 수 있을 것입니다. 그러면, 스마트폰 앱 만들기, 로봇 조종하기, 게임만들기 등 원하는 것을 모두 할 수 있는 기본적인 지식을 얻게 됩니다."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "기술은 인간의 모든 생활방식을 바꿔가고 있으며, 나이에 상관하지 않습니다 : 프로그래밍은 재미있고, 창의적이며 누구나 배울 수 있습니다!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "관련 동영상과 자료가 제공될 예정입니다."

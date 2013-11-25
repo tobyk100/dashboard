@@ -15,13 +15,13 @@
   welcome_back: "Welkom terug, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Voeg een leraar met code of e-mailadres:"
+      label: "voeg een leraar toe door code of e-mail adres:"
       placeholder: "code (ABCDEF) of email (teacher@school.edu)"
     submit: "voeg leraar toe"
   appname: "Code.org"
-  stage: "level"
+  stage: "niveau"
   puzzle: "puzzel"
-  trophies: "trofeeën"
+  trophies: "Medailles"
   courses: "cursussen"
   of: "van"
   more: "MEER"
@@ -42,9 +42,10 @@
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Wachtwoord vergeten?"
-    need_confirmation: "Geen bevestigings instructies ontvangen?"
+    need_confirmation: "Geen bevestigingsinstructies ontvangen?"
     need_unlock: "Nog niet uw ontgrendel instructies ontvangen?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Meld je aan"
     school_name: "School naam (optioneel)"
     school_address: "Schooladres (optioneel)"
@@ -53,12 +54,12 @@
     birthday: "Verjaardag (optioneel)"
     submit: "Meld je aan"
     teacher: "Bent u een leraar?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Beschikbaar!"
+    invalid_username: "Gebruikersnaam moet minstens 5 tekens zijn"
+    taken_username: "Gebruikersnaam is al in gebruik"
+    valid_password: "Geldig wachtwoord!"
+    invalid_password: "Wachtwoord moet ten minste 6 tekens lang zijn"
+    mismatch_password: "De twee wachtwoorden komen niet overeen"
   signin_form:
     title: "Aanmelden"
     login: "Email of gebruikersnaam"
@@ -101,17 +102,17 @@
     error:
       access_denied: "Je hebt geen toegang tot de statistieken van deze persoon"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
+    title: "Geef prijzen vrij: %{name}"
+    provider: "Aanbieder:"
     code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Je prijs is vrijgegeven, gebruik de code hieronder."
+    error: "Je prijs kon niet worden vrijgegeven, probeer het opnieuw."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Bevestigen"
+      "no": Nee
+      "yes": Ja
+      msg: "Weet je zeker dat je de prijs '%{prize_name}' wil kiezen?"
+      msg_student: "Let op: je kunt maar een soort prijs kiezen."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -122,17 +123,17 @@
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Je hebt alle opdrachten volbracht. Kies nadat je je prijs gekozen hebt nog een les %{online_link} of op een %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Kies een prijs:"
+      earned: "Je hebt een prijs verdiend!"
+      not_earned: "Verzamel alle %{num_trophies} bekers om een prijs te winnen!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 of meer leerlingen hebben alle %{num_trophies} bekers verzameld. Je hebt een lerarenprijs gewonnen!"
+        not_earned: "Wanneer 10 leerlingen alle %{num_trophies} bekers verzamelen win je een prijs!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "Meer dan 40% van je leerlingen die alle %{num_trophies} bekers hebben verzameld zijn vrouw. Je hebt een bonusprijs gewonnen!"
+          not_earned: "Wanneer 10 of meer leerlingen alle %{num_trophies} bekers hebben verzameld, en minstens 40% hiervan vrouw zijn, dan win je een bonusprijs!"
   crud:
     new_model: "Nieuw %{model}"
     show: "Toon"
@@ -164,7 +165,7 @@
       mastery: "Begrippen"
       puzzle_map: "Levels"
       prizes: "Verzamel alle %{total_trophies} trofeeën en win prijzen!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prize_earned: "Alle %{total_trophies} bekers verzameld!"
       prizes_link: "meer info"
   teacher:
     title:
@@ -174,10 +175,10 @@
     students:
       manage: "Beheer student"
       add: "voeg leerling toe"
-    rollup: "Voorgangsoverzicht"
+    rollup: "Overzicht vooruitgang"
     activity: "Recente klasactiviteiten"
   user:
-    new_password_hint: "(laat leeg als je hem niet wilt veranderen)"
+    new_password_hint: "(laat leeg als je het niet wilt veranderen)"
     current_password_hint: "(we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen)"
     cancel:
       title: "Annuleer mijn account"
@@ -197,13 +198,13 @@
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
     classroom: "Je klas"
-    student_progress: "Your learning progress"
+    student_progress: "Je voortgang"
     student_stats: 'Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery" trofeeën.'
     student_left_off: "Waar je geëindigd bent:"
     student_finished: "Je hebt alle tutorials voltooid, claim je prijs %{prize_link} en zoek een andere klas %{online_link} of bij een %{local_school_link}"
     local_school: "lokale school"
     online: "online"
-    see_details: "See details"
+    see_details: "Bekijk details"
   gender:
     male: "Man"
     female: "Vrouw"
@@ -216,11 +217,11 @@
     tos: "Algemene gebruiksvoorwaarden"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Geef je prijs vrij op Code.org!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Geef je prijs vrij op Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Geef je bonusprijs vrij op Code.org!"
   reference_area:
     title: "Hulp nodig?"
     subtitle: "Bekijk deze video's en hints"

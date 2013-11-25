@@ -24,23 +24,23 @@
         Gold: "Altın"
     concept:
       description:
-        sequence: "Sequence"
+        sequence: "Sıra"
         if: "Eğer bloğu"
         if_else: "Eğer-değilse bloğu"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
+        loop_times: "Bloğu tekrarlayın"
+        loop_until: "-e kadar bloğu tekrarla"
+        loop_while: "Blok ise"
         loop_for: "Sayaç bloğu"
         function: "Fonksiyonlar"
-        parameters: "Functions with parameters"
+        parameters: "Fonksiyon parametreleri"
     level:
       instructions:
-        maze_2_2: 'Hi! I need to get the Green Piggy! Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "Write me another program so I can make it all the way to the green pig. "
-        maze_2_2_5: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "Argh! Write a program that gets me around the TNT and to the green pig. "
-        maze_2_5: "There's a way I can get to the green pig using only 2 blocks. Can you figure it out?"
+        maze_2_2: 'Merhaba! Yeşil domuzcuk almam gerekiyor! Oraya gitmeme yardım etmek için birkaç "ilerleme" bloğunu bir araya getir ve "Programı Çalıştır" a bas. '
+        maze_2_1: "Bana başka bir program yaz ki tüm yollardan yeşil domuzcuğa ulaşayım. "
+        maze_2_2_5: "Yeşil domuzcuğu nasıl alabilirim? (TNT'ya dikkat et)"
+        maze_2_3: "Yeşil domuzcuğu nasıl alabilirim? (TNT'ya dikkat et)"
+        maze_2_4: "Ahh! Bana TNT çevresinden geçip yeşil domuzcuğu alabileceğim programı yaz. "
+        maze_2_5: "2 blok kullanarak yeşil domuzcuğu alabileceğim bir yol var. Bunu bulabilir misin?"
         maze_2_6: "Try to get me to the green pig using only three blocks."
         maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
@@ -141,7 +141,12 @@
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"

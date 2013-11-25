@@ -45,6 +45,7 @@
     need_confirmation: "لم استلم تعليمات تأكيد الحساب؟"
     need_unlock: "لم أستلم تعليمات فتح الحساب؟"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "تسجيل"
     school_name: "اسم المدرسة (اختياري)"
     school_address: "عنوان المدرسة (اختياري)"

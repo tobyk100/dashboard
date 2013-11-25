@@ -120,7 +120,7 @@
           Погляньте, як ви можете з'ясувати використання "намалювати квадрат" і "намалювати трикутник" (і деякі інші блоки) для побудови будинку навколо лева.
         turtle_3_5: 'Тепер створіть нову функцію "намалювати будинок" і використайте її для розміщення двох кішок у будинку. Підказка: створіть нову функцію за допомогою блоку "щось зробити" і введіть власний текст, щоб назвати блок.'
         turtle_3_6: 'Використовуючи "намалювати квадрат" як приклад, додайте введення довжини, щоб „намалювати трикутник". Потім намалюйте трикутники різних розмірів. (Підказка: натисніть зірочку, щоб додати введення до функції)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Додайте змінну введення, з назвою "довжина" для того, щоб "намалювати будинок" і створіть великий будинок для слона (зі сторонами в 150 пікселів)'
         turtle_3_8: 'Ось тут є усі блоки з попередньої головоломки.  Змінити "намалювати будинок", аби я опинився у нижньому правому куті після малювання нового будинку. Використовуйте цю змінену функцію, щоб намалювати три будинки.'
         turtle_3_9: 'Ви можете повторно створити функцію "намалювати будинок" без допомоги? Спробуйте це, а потім намалювати ряд будинків.'
         turtle_3_10: "Ви багато чому навчилися! Тепер використайте це, щоб зробити все, що ви хочете. Спробуйте намалювати зірку або спіраль або сніжинку."
@@ -133,7 +133,12 @@
         maze_karel_debug_function_1: "Що вам потрібно змінити у цій програмі, щоб допомогти мені видалити всі купи?"
         maze_karel_debug_function_2: "Можете ви виправити цю програму для мене так, щоби я зміг зробити рівним моє поле?"
         maze_karel_debug_function_3: "Відредагуйте цю програму, бо я буду вилучати усі купи на моєму полі. "
-        turtle_5_1: "Намалювати все, що вам подобається! Якщо ви не можете нічого придумати, попросіть сусіда, щоб рекомендував вам щось!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "Мені потрібно дістатися до цієї свиня! Введіть кілька викликів move(); для переміщення аби я міг дістатися цілим назад."
         maze_3_2: "Напишіть мені програму, щоби я міг зробити шлях аж до свині."
         maze_3_3: "Як я повинен дістатися до свині? Зробіть так, аби я не зачепив у полі вибухівку!"

@@ -21,95 +21,90 @@
         text: "هدف اولین برنامه شما پرتاب یک گرفتن یک پرنده خشمگین برای زدن یک خوک سبز است."
       7:
         image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "جایی که برنامه شما اجرا می شود سمت چپ پازل، پیچ و خم است. دستورالعمل پازل در زیر پیچ و خم پازل است."
       8:
         image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "دستورات پرنده عصبانی در وسط جعبه ابزار است. از این جعبه ابزار برای ساخت کد خود استفاده کنید."
       9:
         image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "سمت راست فضای کاری شما جایی که در آن می توانید بلوک ها را از جعبه ابزار بکشید و برنامه خود را بسازید. برای حذف یک بلوک، آن را به سطل زباله که در گوشه قرار دارد بیندازید."
       10:
         image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'هر بلوک یک دستوری دارد. اگر شما یک بلوک "move forward" را به فضای کاری خود بکشید و "run" را فشار دهید، پرنده یک فاصله در پیچ و خم حرکت می کند.'
       11:
         image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "برای انجام بیش از یک عمل، شما می توانید هر چند بلوک را به فضای کاری خود بکشید و آنها را به هم وصل کنید. پرنده دستورات را از بالا به پایین انجام خواهد داد."
       12:
         image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'اگر شما برنامه را اجرا کردید و می خواهید آن را تعمیر کنید و دوباره اجرا کنید، دکمه "Reset" را فشار دهید.'
       13:
         image: "notes/hoc1_13.png"
-        text: "Let's go get those pigs!"
+        text: "بیایید برویم آن خوکها را بگیریم!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     loop_times:
       1:
         image: "notes/hoc2_1.png"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "سلام, من مارک هستم! بیایید در باره حلقه ها یاد بگیریم. با استفاده از حلقه ها شما می توانید به کامپیوتر بگویید که بارها دستورالعمل را هزاران یا حتی بیلیون بار تکرار کند."
       2:
         image: "notes/hoc2_2.png"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "در این پازل، ما می خواهیم که پرنده را ۵ فاصله به جلو حرکت بدهیم که به خوک برسد."
       3:
         image: "notes/hoc2_3.png"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'ما می توانیم از بلوک جدید "repeat" استفاده کنیم که به ما کمک کند.'
       4:
         image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'به جای بیرون کشیدن ۵ بلوک "move forward"...'
       5:
         image: "notes/hoc2_5.png"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'ما می توانیم بلوک "move forward" را در داخل بلوک "repeat" قرار دهیم و یک عدد را در آن بلوک بنویسیم که به آن بگه چند بار آن را تکرار کند.'
       6:
         image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'و این مهم است: شما می توانید بیش از یک دستور داخل بلوک "repeat" قرار دهید.'
       7:
         image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'لذت ببرید با استفاده از بلوک "repeat"!'
     loop_until:
       1:
         image: "notes/hoc3_1.png"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'سلام من کریس هستم. قبل از پیوستن به میامی هیت، من برای تحصیل علوم کامپیوتر به دانشگاه جورجیا تک رفتم. بیایید بلوک جدید "repeat until" را امتحان کنیم.'
       2:
         image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "چگونه میتوانیم بدانیم که چقدر پرنده باید حرکت کند که به خوک برسد؟"
       3:
         image: "notes/hoc3_3.png"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'اگر ما بلوک "move forward" را در داخل بلوک "repeat unit" قرار دهیم, پرنده به جلو حرکت خواهد کرد تا اینکه به خوک برسد (یا اینکه با دیواد برخورد کند).'
       4:
         image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'و این مهم است: درست مثل قبل، ما می توانیم چند تا بلوک را داخل بلوک "repeat until" قرار دهیم، و آنها تکرار خواهند شد.'
     if:
       1:
         image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'سلام, من بیل هستم! اجازه دهید یک مفهوم اساسی جدید را یاد بگیریم: بیانیه "if". این نشان میدهد که چگونه کامپیوترها تصمیم گیری می کنند.'
       2:
         image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'شما هر روز بیانیه "if" را استفاده می کنید. قبل از اینکه شما هر روز صبح از خانه خارج شوید، شما می گویند اگر بیرون باران بیاید، آن وقت من نیاز دارم که ژاکت بپوشم.'
       3:
         image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "ما می توانیم به آدم خورها بگوییم که بررسی کنند اگر مسیری در چپ وجود دارد، و اگر او بتواند مسیری در سمت چپ پیدا کند، ما به او اجازه می دهیم که به آن سمت بچرخد."
       4:
         image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'برای نوشتن این کد، بیایید  بلوک "if" را بیرون بکشیم و بلوک "turn left" را داخل آن قرار دهیم.'
       5:
         image: "notes/hoc4_5.png"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'حالا، اگر ما بلوک "move forward" را بالای آن و بلوک "repeat" را اطراف همه چیز بگذاریم، هر زمان که آدم خور حرکت می کند، او بررسی می کند که اگر مسیری به چپ وجود داشته باشد، او می چرخد. استفاده از دستور "repeat" حیاتی است، به دلیل اینکه هر چرخش را در هر مرحله بررسی می کند.'
       6:
         image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: 'بیانیه "if" در علم کامپیوتر واقعا مهم است. یکی از اولین برنامه هایی که من نوشته بودم بازی تیک-تک-تو بود، که در آن بیانیه "if" وجود داشت که می گفت، اگر فرد دیگری داره برنده می شود، جا را برایش ببند، که آنها برنده شوند.'
       7:
         image: "notes/hoc4_7.png"
-        text: 'Have fun using the "if" block!'
+        text: 'لذت ببرید با استفاده از بلوک "if"!'
     if_else:
       1:
         image: "notes/hoc5_1.png"
@@ -125,23 +120,23 @@
           Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
         image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        text: "حالا، آن آدم خورها را به جایی که آنها تعلق دارند بگذار!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.png"
@@ -154,8 +149,8 @@
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
         image: "notes/hoc6_4.png"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "هر چیزی را که ما انجام می دهیم تکنولوژی تغییر میدهد و مهم نیست که شما جوان باشید یا پیر:‌ برنامه نویسی لذت بخش است، خلاق است، و هر کسی می تواند یاد بگیرد!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "به زودی نوتها نشان داده می شود!"

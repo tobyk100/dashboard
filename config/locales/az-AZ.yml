@@ -45,6 +45,7 @@
     need_confirmation: "Təsdiq göstərişlərini almamisiniz?"
     need_unlock: "Kilidaçma göstərişlərini almamisiniz?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Qeydiyyatdan keç"
     school_name: "Məktəbin Adı (vacib deyil)"
     school_address: "Məktəbin Adresi (vacib deyil)"
@@ -101,38 +102,38 @@
     error:
       access_denied: "Bu şəxsin statistikasına icazəniz yoxdur"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
+    title: "Mükafatları xərcləyin: %{name}"
+    provider: "Təminatçı:"
     code: "Kod:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "Mükafatınızı müvəffəqiyyətlə xərclədiniz, aşağıdakı koda baxın."
+    error: "Mükafatınızı xərcləmək mümkün olmadı, lütfən bir də cəhd edin."
     confirm:
       title: "Zəhmət olmazsa, təsdiq edin"
       "no": Xeyr
       "yes": Bəli
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      msg: "%{prize_name} mükafatını tələb emək istədiyinizə əminsiniz?"
+      msg_student: "QEYD: Ancaq bir növ mükafat seçə bilərsiniz."
     providers:
       apple_itunes: '"Apple iTunes"'
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
+      donors_choose: '"DonorsChoose.org" 750 dollar'
+      donors_choose_bonus: '"DonorsChoose.org" 250 dollar'
       dropbox: '"Dropbox"'
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+      valve: '"Valve Portal"'
+      ea_bejeweled: '"EA Origin Bejeweled 3"'
+      ea_fifa: '"EA Origin FIFA Soccer 13"'
+      ea_simcity: '"EA Origin SimCity 4 Deluxe Edition"'
+      ea_pvz: '"EA Origin Plants vs. Zombies"'
+    student_finished: "Bütün dərslikləri başa vurdunuz. Mükafatınızı əldə etdikdən sonra, başqa bir sinif seçin %{online_link} və ya buradan: %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Mükafat seçin:"
+      earned: "Bir mükafat qazandınız!"
+      not_earned: "%{num_trophies} qənimətin hamısın toplayın və bir mükafat qazanın!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 və ya daha çox şagird %{num_trophies} qənimətin hamısını topladı. Siz bir müəllim mükafatı qazandınız!"
+        not_earned: "Əgər 10 şagird %{num_trophies} qənimətin hamısını toplasa, siz mükafat qazanacaqsınız!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "%{num_trophies} qənimətin hamısını toplamış şagirdlərinizin 40 və ya daha çox faizi qızlardır. Siz bonus mükafat qazandınız!"
+          not_earned: "Əgər 10 və ya daha çox şagird %{num_trophies} qənimətin hamısını toplasa və onların ən azı 40 faizi qızlar olsa, siz bonus mükafat qazanacaqsınız!"
   crud:
     new_model: "Yeni %{model}"
     show: "Göstər"
@@ -197,7 +198,7 @@
     teacher_student_count: "Sizin %{count} tələbəniz var."
     teacher_averages: 'Sizin tələbələriniz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan orta hesabla %{trophy_average} saydasını qazandılar.'
     classroom: "Sinifiniz"
-    student_progress: "Your learning progress"
+    student_progress: "Sizin öyrənmə irəliləyişiniz"
     student_stats: 'Siz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan %{trophy_count} saydasını qazandınız.'
     student_left_off: "Sizin sonuncu qaldığınız yer:"
     student_finished: "Siz bütün tədris materialını bitirdiniz, %{prize_link} -nizi tələb edin və %{online_link} ve ya %{local_school_link} -da başqa dərs seçin"
@@ -216,11 +217,11 @@
     tos: "Xidmətin şərtləri"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: 'Mükafatınızı "Code.org"da xərcləyin!'
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: 'Mükafatınızı "Code.org"da xərcləyin!'
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: 'Bonus mükafatınızı "Code.org"da xərcləyin!'
   reference_area:
     title: "Kömək lazımdır?"
     subtitle: "Bu videolara və məsləhətlərə baxın"

@@ -127,7 +127,8 @@
         turtle_3_4: 'Vedi se riesci a capire come utilizzare "disegnare un quadrato" e "disegnare un triangolo" (e alcuni altri blocchi) per disegnare una casa attorno al leone.'
         turtle_3_5: 'Ora creare una nuova funzione "disegnare una casa" e utilizzarlo per alloggiare due gatti. Suggerimento: creare una nuova funzione utilizzando il blocco "fare qualcosa" e digitare il proprio testo per nominare il blocco.'
         turtle_3_6: 'Utilizzando "disegnare un quadrato" come esempio, aggiungere un input chiamato "lunghezza" per "disegnare un triangolo". Quindi, disegnare triangoli di diverse dimensioni. (Suggerimento: fare clic sulla stella per aggiungere un input in una funzione)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: |-
+          Aggiungere un input chiamato "altezza" per "disegnare una casa" e costruire una casa grande per l'elefante (con bordi lunghi 150 pixel)
         turtle_3_8: |-
           Qui ci sono tutti i blocchi dal puzzle precedente.  Modificare "disegnare una casa" così che finisco all'angolo inferiore destro dopo aver disegnato una nuova casa. Utilizzare questa funzione modificata per disegnare tre case.
         turtle_3_9: 'Riesci a ricreare la funzione "disegnare una casa" senza aiuto? Provate e quindi disegnare una fila di case.'
@@ -141,7 +142,12 @@
         maze_karel_debug_function_1: "Che cosa dovresti cambiare riguardo a questo programma per aiutarmi a rimuovere tutti i mucchi?"
         maze_karel_debug_function_2: "Riesci a de-bug questo programma per me così che posso fare il mio campo piatto?"
         maze_karel_debug_function_3: "Modificare questo programma così che io possa rimuovere tutti i mucchi sul mio campo. "
-        turtle_5_1: "Prendere questo tempo per disegnare qualsiasi cosa tu voglia! Se non riesci pensare a nulla, chiedi alla persona accanto a te per un suggerimento!"
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "Ho bisogno di prendere quel maiale! Digitare un paio di istruzioni per muoversi(); così che posso riprendere le mie uova."
         maze_3_2: "Scrivimi un programma, cosi riesco a fare tutta la strada verso il maiale."
         maze_3_3: "Come dovrei arrivare al maiale? Assicurati che non vada contro la cassetta di TNT!"

@@ -45,6 +45,7 @@
     need_confirmation: "Не отримали вказівок підтвердження?"
     need_unlock: "Не отримали вказівок розблокування?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Зареєструватися"
     school_name: "Назва учбового закладу (за бажанням)"
     school_address: "Школа адресу (необов'язково)"

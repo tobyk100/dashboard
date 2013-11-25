@@ -45,6 +45,7 @@
     need_confirmation: "Onay talimatlarını almadınız mı?"
     need_unlock: "Kilit açma talimatlarını almadınız mı?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Kaydol"
     school_name: "Okul Adı (isteğe bağlı)"
     school_address: "Okul Adresi (isteğe bağlı)"
@@ -53,12 +54,12 @@
     birthday: "Doğum Günü (isteğe bağlı)"
     submit: "Kaydol"
     teacher: "Öğretmen misini?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    valid_username: "Mevcut!"
+    invalid_username: "Kullanıcı adı en az 5 karakter uzunluğunda olmalıdır"
+    taken_username: "Kullanıcı adı zaten alınmıştır"
+    valid_password: "Geçerli parola!"
+    invalid_password: "Parola en az 6 karakter olmalıdır"
+    mismatch_password: "Girdiğiniz iki parola aynı değil"
   signin_form:
     title: "Giriş Yap"
     login: "Kullanıcı adınız veya e-posta"
@@ -90,46 +91,46 @@
       signed_in: "Devam etmeden önce lütfen çıkış yapınız"
       username_not_found: "%{username} kullanıcı adı bulunamadı"
       username_in_use: "%{username} önceden alınmış, lütfen başka bir tane seçiniz"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      no_teacher: "Herhangi biri '% {teacher_email_or_code}' ile imzalanan bulamadı. Lütfen şurayı imzalayın isteyin ve sonra onları yeniden eklemeyi deneyin."
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Code.org'ta %{teacher_name} ile bir sınıfa katıl!"
   reports:
     error:
       access_denied: "Bu kişinin istatistiklerine erişemezsiniz"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "Ödülü alın:%{name}"
+    provider: "Sağlayıcı:"
+    code: "Kod:"
+    success: "Ödülünüzü başarılı bir şekilde kullandınız, aşağıdaki koda bakın."
+    error: "Ödülünüzü kullanamazsınız, lütfen tekrar deneyin."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Lütfen onaylayın"
+      "no": Hayır
+      "yes": Evet
+      msg: "%{prize_name} ödülünü talep etmek istediğinize emin misiniz?"
+      msg_student: "Not: Yalnızca bir tür ödül seçebilirsiniz."
     providers:
       apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
+      donors_choose: "DonorsChoose.org 750 $"
+      donors_choose_bonus: "DonorsChoose.org 250 $"
       dropbox: "Dropbox"
       valve: "Valve Portal"
       ea_bejeweled: "EA Origin Bejeweled 3"
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Tüm eğitimleri tamamladınız. Ödülünüzü talep ettikten sonra başka bir sınıf seçin  %{online_link} ya da buradan %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Bir ödül seçin:"
+      earned: "Bir ödül kazandınız!"
+      not_earned: "Bir ödül kazanmak için %{num_trophies} kupanın hepsini topla!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 yada daha fazla öğrenci %{num_trophies} kupanın hepsini topladığında öğretmen ödülünü kazanırsın!"
+        not_earned: "Eğer 10 öğrenci %{num_trophies} kupanın hepsini aldığında ödül kazanırsın!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "Kız öğrencilerden % 40 ya da daha fazlası %{num_trophies} kupanın hepsini kazandığında bonus hediye kazanırsın!"
+          not_earned: "Eğer 10 ya da daha fazla öğrenci %{num_trophies} kupanın hepsini aldğında ve bunların en az  %40'ı kızsa, bonus ödül kazanırsın!"
   crud:
     new_model: "Yeni %{model}"
     show: "Göster"
@@ -160,8 +161,8 @@
       close: "KAPAT"
       mastery: "Kavramlar"
       puzzle_map: "Kademeler"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
+      prizes: "%{total_trophies} kupanın hepsini topla ve ödül kazan!"
+      prize_earned: "%{total_trophies} kupanın hepsi toplandı. Ödül kazandın!"
       prizes_link: "daha fazla bilgi"
   teacher:
     title:
@@ -172,60 +173,61 @@
       manage: "Öğrencileri yönet"
       add: "Öğrenciler Ekle"
     rollup: "İlerleme Kontrol Paneli"
-    activity: "Recent class activity"
+    activity: "Son sınıf etkinlikleri"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(Eğer değiştirmek iştemiyorsanız boş bırakın)"
+    current_password_hint: "(Değişikliklerinizi onaylamak için geçerli parolanız gerekiyor)"
     cancel:
       title: "Hesabımı iptal et"
-      hint: "Unhappy?"
+      hint: "Mutsuz?"
       button: "Hesabımı iptal et"
   user_level:
     completed: "Tamamlandı"
-    tried: "Tried"
+    tried: "Denenmiş"
   user_stats:
     recent_activity: "Son etkinlik"
-    show_more: "Show more"
+    show_more: "Daha fazla göster"
   home:
-    signin_message: "or if you're already registered %{link}"
+    signin_message: "veya zaten kayıtlıysanız %{link}"
     student_reg_link: "Öğrenciler - buradan başlayın"
     teacher_reg_link: "Öğretmenler - buradan başlayın"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    teacher_dashboard: "İlerleme kontrol paneli bakın"
+    teacher_student_count: "%{count} öğrenciye sahipsiniz."
+    teacher_averages: 'Öğrencileriniz "Kavram Ustalığı" kupalarından ortalama olarak %{trophy_max} kupadan %{trophy_average} kupayı kazanmıştır.'
     classroom: "Sınıfınız"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
-    see_details: "See details"
+    student_progress: "Öğrenme ilerlemeniz"
+    student_stats: '"Kavram Ustalığı" kupalarından %{trophy_max} kupadan %{trophy_count} kupayı kazandınız.'
+    student_left_off: "Kaldığınız yer:"
+    student_finished: "Bütün eğitimleri tamamladınız, %{prize_link} talep ediniz ve başka bir sınıf seçin %{online_link} ya da %{local_school_link}"
+    local_school: "Yerel okul"
+    online: "Online"
+    see_details: "Ayrıntılara bakınız"
   gender:
     male: "Erkek"
     female: "Kadın"
-    none: "Prefer not to answer"
+    none: "Cevap vermemeyi tercih ederim"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
-    feedback: "Provide feedback"
-    translate: "Help us translate to your language"
-    tos: "Terms of service"
+    help_from_html: |-
+      Bu eğitimin oluşturulmasında  <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter'dan</a> mühendisler yardım etti.
+    art_from_html: |-
+      Çizimler <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games'den</a>.
+    feedback: "Geri besleme sağla"
+    translate: "Kendi dilinize çevirmek bize yardım edin"
+    tos: "Hizmet Şartları"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Ödülünüzü Code.org'ta bozdurun!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Ödülünüzü Code.org'ta bozdurun!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Bonus ödülünüzü Code.org'ta bozdurun!"
   reference_area:
     title: "Yardım ister misiniz?"
-    subtitle: "See these videos and hints"
+    subtitle: "Bu videoları ve ipuçlarına bakın"
   video:
     tab: "Video."
     notes: "Video yok? Notları göster."
-    autoplay_option: "Autoplay videos"
+    autoplay_option: "Otomatik oynayan video"
   compatability:
-    working: "We are working on support for your browser."
+    working: "Tarayıcı desteği üzerinde çalışıyoruz."
     upgrade: "Lütfen tarayıcınızı yükseltin."

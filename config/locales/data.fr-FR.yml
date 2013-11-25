@@ -37,17 +37,17 @@
       instructions:
         maze_2_2: "Salut! Je dois attrapper le petit cochon vert ! Empillez quelques  « aller de l'avant » et appuyez sur « Exécuter le programme » pour m'aider à y arriver. "
         maze_2_1: "Ecris-moi un autre programme afin que  je puisse faire tout le chemin vers  le petit cochon vert. "
-        maze_2_2_5: "Comment dois-je faire pour attrapper le petit cochon? ( fais attention au TNT )"
+        maze_2_2_5: "Comment dois-je faire pour rejoindre le cochon vert ? (fais attention aux explosifs)"
         maze_2_3: "comment faire pour aller jusqu'au cochon vert? (Surveillez les TNT)"
-        maze_2_4: "ah! Ecris un programme qui me fait contourner le TNT et me fait arriver jusqu'au cochon."
-        maze_2_5: "Il y a une façon qui peut me faire arriver au petit cochon vert avec seulement 2 bloc. Peut tu la deviner?"
-        maze_2_6: "essaies de me faire arriver au petit cochon vert avec avec seulement 2 blocs."
+        maze_2_4: "Zut! Ecris un programme qui me fait contourner l'explosif et me fait arriver au cochon vert. "
+        maze_2_5: "Il y a une façon qui peut me faire arriver au cochon vert en utilisant seulement 2 blocs. Peux-tu la trouver?"
+        maze_2_6: "Essaies de me faire arriver au cochon vert en utilisant seulement trois blocs."
         maze_2_7: |-
-          ecris moi un programme qui peut me faire arriver au petit cochon vert en utilisant le plus petit nombre de blocs. Essaie donc d'utiliser plus que 1 "Repeat times" blocs.
-        maze_2_8: "Pour résoudre celui-ci, essayez un bloc « répéter » avec ces 3 blocs à l'intérieur : se déplacer, déplacer, tourner."
+          Ecris-moi un programme qui peut me faire arriver au cochon vert en utilisant le plus petit nombre de blocs. Essaie d'utiliser plus d'un bloc "Répéter".
+        maze_2_8: "Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3 blocs à l'intérieur : déplacer, déplacer, tourner."
         maze_2_9: "OK, essayez le nouveau bloc « répéter jusqu'à » - il répétera jusqu'à ce que j'atteigne le cochon vert."
-        maze_2_10: "OK, une dernière fois pour pratiquer - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
-        maze_2_11: "Cher personne.  Moi zombie. Moi faim. Doit... obtenir... de tournesol... Pouvez vous me l'obtenir avec seulement 5 blocs ?"
+        maze_2_10: "OK, une dernière fois pour s'entraîner - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
+        maze_2_11: "Cher personne.  Moi zombie. Moi faim. Doit... arriver... au tournesol... Pouvez vous me l'obtenir avec seulement 5 blocs ?"
         maze_2_12: "OK, c'est semblable, mais légèrement différent. Pouvez-vous le faire en seulement 5 blocs ?"
         maze_2_13: "Utilisez le nouveau bloc « if » et laissé moi décider du moment pour tourner. Conseil : vous ne nécessitez que d'un bloc de plus, mais apprenez comment nous avons fait afin que vous puissiez le faire par vous même la prochaine fois."
         maze_2_14: "OK, c'est comme le dernier puzzle, mais vous devez vous rappeler comment vous avez utilisé le bloc « if » et le bloc « répéter » ensemble."
@@ -138,18 +138,23 @@
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Take this time to draw whatever you feel like! If you can't think of anything, ask the person next to you for a suggestion!"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        maze_3_1: "Je dois arriver à ce cochon ! Tapez  une série d'appels à avance(); pour que je puisse retrouver mes oeufs."
+        maze_3_2: "Ecrivez-moi un programme pour que je puisse aller jusqu'à ce cochon."
+        maze_3_3: "Comment puis-je atteindre le cochon ? Assurez-vous que je ne trébuche pas sur la boîte d'explosifs !"
+        maze_3_4: "Zut! Ecrivez-moi un programme qui me fasse éviter les explosifs et qui me conduise au cochon."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Pour résoudre ceci, trouvez le schémas qui se répète. Utilisez un bloc "Répéter" contenant ces trois blocs: avancer, avancer, tourner à droite.'
       other1StarError:
         maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+          Vous avez besoin d'un bloc "si" à l'intérieur d'un bloc "répéter". Si vous rencontrez des difficultés, essayez à nouveau le niveau précédent pour voir comment cela fonctionnait.
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Pour résoudre ceci, trouvez un schémas qui se répète. Utilisez un bloc "répéter" contenant les 3 blocs: avancer, avancer, tourner à droite.'
     video:
       name:
         maze_intro: "Intro au Labyrinthe"
@@ -163,5 +168,5 @@
         loop_while: "Pendant bloc"
         loop_for: "Compteur Bloc"
         parameters: "Fonctions avec paramètres"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        hoc_wrapup: "Conclusion de l'heure de programmation"
+        20_wrapup: "Conclusion de 20 heures"

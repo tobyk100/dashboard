@@ -45,6 +45,7 @@
     need_confirmation: "Tidak menerima instruksi konfirmasi?"
     need_unlock: "Tidak menerima instruksi untuk membuka?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Daftar"
     school_name: "Nama sekolah (opsional)"
     school_address: "Alamat sekolah (opsional)"

@@ -2,22 +2,22 @@
   activerecord:
     attributes:
       user:
-        name: "Name"
-        email: "Email"
-        username: "Username"
-        password: "Password"
-        password_confirmation: "Password confirmation"
-        current_password: "Current password"
-        locale: "Language"
-        gender: "Gender"
-        edit_header: "Edit Account Details"
+        name: "이름"
+        email: "이메일"
+        username: "아이디"
+        password: "비밀번호"
+        password_confirmation: "비밀번호 재확인"
+        current_password: "현재 패스워드"
+        locale: "언어"
+        gender: "성별"
+        edit_header: "개인정보 수정"
   hello: "Hello world"
-  welcome_back: "Welcome back, %{name}"
+  welcome_back: "%{name} 님, 어서오세요. "
   add_teacher_form:
     code_or_email:
-      label: "Add a teacher by code or email address:"
+      label: "코드번호나 이메일 주소로 선생님을 등록하세요 : "
       placeholder: "Code (ABCDEF) or email (teacher@school.edu)"
-    submit: "Add teacher"
+    submit: "선생님 추가"
   appname: "Code.org"
   stage: "Stage"
   puzzle: "Puzzle"
@@ -26,92 +26,93 @@
   of: "of"
   more: "MORE"
   less: "LESS"
-  try_hoc: "Try the Hour of Code, click here >> "
-  try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
-  already_started: "Already started? Resume here >> "
+  try_hoc: "Hour of Code 해보러 가기  -->> "
+  try_k8intro: "K-8(유치원부터 중학교 2학년 정도) 정보과학(Computer Science) 과정(15-25 시간 소요)"
+  already_started: "이전에 했었으면? 그 단계부터 시작 -->>"
   demos: "Admin: All Demos"
   continue: "Continue"
   prize: "prize"
   auth:
     sign_in_with: "Sign in with %{provider}"
-    signed_in: "Signed in!"
-    already_signedup: "Already signed up?"
-    notyet_signedup: "Haven't joined yet?"
+    signed_in: "가입하기!"
+    already_signedup: "이미 가입되어 있나요?"
+    notyet_signedup: "아직 가입하지 않았나요?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Forgot your password?"
-    need_confirmation: "Didn't receive confirmation instructions?"
-    need_unlock: "Didn't receive unlock instructions?"
+    forgot_password: "패스워드를 잃어버렸나요?"
+    need_confirmation: "확인 메일을 받지 못 했나요?"
+    need_unlock: "해제 메일을 받지 못 했나요?"
   signup_form:
-    title: "Sign up"
-    school_name: "School Name (optional)"
-    school_address: "School Address (optional)"
-    address_placeholder: "address, city, state, zip"
-    gender: "Gender (optional)"
-    birthday: "Birthday (optional)"
-    submit: "Sign up"
-    teacher: "Are you a teacher?"
-    valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
+    title: "가입"
+    school_name: "학교명(옵션)"
+    school_address: "학교주소(옵션)"
+    address_placeholder: "주소, 군구, 시도, 우편번호"
+    gender: "성별(옵션)"
+    birthday: "생일(옵션)"
+    submit: "가입"
+    teacher: "선생님이신가요?"
+    valid_username: "사용가능!"
+    invalid_username: "아이디는 최소 5문자 이상이어야 합니다."
+    taken_username: "이미 사용하고 있는 아이디입니다."
+    valid_password: "사용 가능한 패스워드!"
+    invalid_password: "패스워드는 최소 6 문자 이상이어야 합니다."
+    mismatch_password: "패스워드가 일치하지 않습니다."
   signin_form:
-    title: "Sign in"
-    login: "Email or username"
-    password: "Password"
-    remember: "Remember me"
-    submit: "Sign in"
+    title: "가입하기"
+    login: "이메일 또는 아이디"
+    password: "패스워드"
+    remember: "기억하기"
+    submit: "제출하기"
   password:
     reset_form:
-      title: "Forgot your password?"
-      email: "Email address"
-      submit: "Send me reset password instructions"
+      title: "패스워드를 분실하였나요?"
+      email: "이메일"
+      submit: "제출하기"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
-      confirm_password: "Confirm new password"
-      submit: "Change my password"
+      title: "패스워드 변경"
+      new_password: "새 패스워드"
+      confirm_password: "새 패스워드 재입력"
+      submit: "패스워드 변경하기"
   welcome_email:
-    subject: "Join my class (on Code.org)"
+    subject: "내 학급 들어가기(on Code.org)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      정보과학(Computer Science) 교사인 경우 아래의 Code.org 정보과학 과정에 참여하세요.
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      재미있고 간단하면서도 게임과 비슷하고, 학습과정을 안내해주는 튜토리얼들을 통해, 정보과학(Computer Science)의 기초 개념들을 가르치세요.  Learn to code 는 Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies 등과 함께 합니다.
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "초대 메시지 발송"
+    added_teacher: "%{name} 를 선생님으로 추가하였습니다"
+    registered: " %{section_name} 과정에 등록되었습니다. 계속하기 위해 로그인 하세요."
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "계속하기 전에 로그아웃 하세요."
+      username_not_found: "%{username} 는 존재 하지 않습니다."
+      username_in_use: "%{username} 는 이미 추가되었습니다, 다른 아이디를 선택하세요."
+      no_teacher: "선생님 아이디 '%{teacher_email_or_code}' 를 찾을 수 없습니다. 선생님의 등록 여부를 확인하고, 다시 시도하세요."
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Code.org 에서 %{teacher_name} 선생님 과정을 개설하세요!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "이 학생의 학습 상태에 접근할 수 없습니다"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
+    title: "Redeem 기념품 코드: %{name}"
     provider: "Provider:"
     code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    success: "기념품이 Redeem 코드로 부여되었습니다."
+    error: "기념품을 Redeem 코드로 바꿀 수 없습니다. 다시 시도하세요."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "확인하세요."
+      "no": 예
+      "yes": 아니요
+      msg: "%{prize_name} 을 기념품 코드로 바꾸시겠습니까?"
+      msg_student: "주의 : 한 가지 기념품만 선택할 수 있습니다."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -122,17 +123,17 @@
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "모든 튜토리얼을 완료하였습니다. 기념품을 신청해 받은 후에 다른 %{online_link} 이나 %{local_school_link} 에 참여하세요."
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "기념품을 선택하세요:"
+      earned: "기념품을 얻었습니다!"
+      not_earned: "상을 얻기 위해, %{num_trophies} 개의 트로피를 모으세요!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "모든 트로피를 모은 학생들이 10명 이상이되면, 교사 상품이 주어집니다!"
+        not_earned: "10 명의 학생들이, 트로피  %{num_trophies} 개를 모두 모으면, 기념품을 받을 수 있습니다. "
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "트로피  %{num_trophies} 개를 모두 모은 학생들 중 여학생이 40% 이상이면, 추가적인 기념품을 받을 수 있습니다. "
+          not_earned: "트로피  %{num_trophies} 개를 모두 모은 학생들이 10명 이상히고, 그 중 여학생이 40% 이상이면, 추가적인 기념품을 받을 수 있습니다."
   crud:
     new_model: "New %{model}"
     show: "Show"
@@ -141,94 +142,93 @@
     update: "Update"
     destroy: "Destroy"
     back: "Back"
-    confirm: "Are you sure?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    confirm: "확실한가요?"
+    created: "%{model} 가 성공적으로 만들어졌습니다."
+    updated: "%{model} 가 성공적으로 수정되었습니다."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "나는 Hour of Code 를 모두 해결했습니다."
+      sign_in_to_save: "저장하기 위해 로그인"
     user:
-      classroom: "My students"
-      label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
-      prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      classroom: "나의 학생들"
+      label: "안녕하세요. %{username} 님."
+      stats: "나의 진도"
+      settings: "나의 계정"
+      prizes: "상들"
+      logout: "로그 아웃"
+      signin: "로그인"
+      signup: "로그인"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
+      progress: "진도"
+      lines: "현재까지의 코드 라인 개수 : %{lines}"
       close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prizes_link: "more info"
+      mastery: "개념"
+      puzzle_map: "단계"
+      prizes: "%{total_trophies} 개의 트로피를 모두 모아, 상품을 받으세요!"
+      prize_earned: "%{total_trophies} 개의 트로피를 모두 모았습니다. 상품을 받으세요!"
+      prizes_link: "상품 알아보기"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "선생님은 %{name} 입니다"
+      other: "나의 선생님:"
+    tools: "선생님 메뉴"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "학생 관리"
+      add: "학생 추가"
+    rollup: "학습 진행 살펴보기"
+    activity: "최근 학급 활동"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(원하지 않으면 비워 두세요)"
+    current_password_hint: "(변경하기 위해 한 번 더 입력해 주세요)"
     cancel:
-      title: "Cancel my account"
-      hint: "Unhappy?"
-      button: "Cancel my account"
+      title: "계정 취소"
+      hint: "불쾌한가요?"
+      button: "계정 취소"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "완료"
+    tried: "시도"
   user_stats:
-    recent_activity: "Recent activity"
-    show_more: "Show more"
+    recent_activity: "최근 활동"
+    show_more: "자세히 살펴보기"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
-    see_details: "See details"
+    signin_message: "또는, 이미 %{link} 로 등록되어있습니다."
+    student_reg_link: "학생 - 여기서 시작하세요"
+    teacher_reg_link: "선생님 - 여기서 시작하세요"
+    teacher_dashboard: "학습 진행 정도를 살펴보세요"
+    teacher_student_count: "학생이 %{count} 명 입니다."
+    teacher_averages: '선생님의 학생들은, %{trophy_max}  개의 "개념 학습 완료" 트로피에 대해,  평균 %{trophy_average} 개를 획득했습니다.'
+    classroom: "내 학급"
+    student_progress: "학습 진도"
+    student_stats: '%{trophy_max}  개의 "개념 학습 완료" 트로피 중,  %{trophy_count} 개를 획득했습니다.'
+    student_left_off: "이전 마지막 위치 : "
+    student_finished: "모든 튜토리얼을 완수하였습니다. 상품으로 바꾸고(%{prize_link}), 학교(%{local_school_link})에서 다른 수업(%{online_link})에 참여해 보세요. "
+    local_school: "학교"
+    online: "온라인"
+    see_details: "자세히 살펴보기"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "남"
+    female: "여"
+    none: "응답 안 함"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Artwork from <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> 의 공학자들이 이 튜토리얼을 만들기 위해 도움을 주었습니다.'
+    art_from_html: '<a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a> 의 이미지들이 사용 되었습니다.'
     feedback: "Provide feedback"
-    translate: "Help us translate to your language"
+    translate: "언어별 번역을 위해 도움을 주세요."
     tos: "Terms of service"
   prize_mail:
     prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Code.org 상품을 Redeem 코드로 바꾸기!"
     teacher_prize_earned:
-      subject: "Redeem your prize at Code.org!"
+      subject: "Code.org 상품을 Redeem 코드로 바꾸기!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "Code.org 상품을 Redeem 코드로 바꾸세요!"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "도움이 필요한가요?"
+    subtitle: "이 비디오와 힌트를 살펴보세요"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "비디오."
+    notes: "비디오가 없나요? 참고 살펴보기."
+    autoplay_option: "비디오 자동 실행"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "이 웹브라우져를 지원합니다."
+    upgrade: "웹 브라우져를 업그레이드 하세요."

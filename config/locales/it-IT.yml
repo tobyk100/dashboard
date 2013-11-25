@@ -45,6 +45,7 @@
     need_confirmation: "Non ha ricevuto istruzioni di conferma?"
     need_unlock: "Non hai ricevuto istruzioni di sblocco?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Registrati"
     school_name: "Nome della scuola (facoltativo)"
     school_address: "Indirizzo della scuola (facoltativo)"

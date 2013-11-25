@@ -45,6 +45,7 @@
     need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
     need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "Meld deg på"
     school_name: "Skolens navn (valgfritt)"
     school_address: "Skolens adresse (valgfritt)"

@@ -45,6 +45,7 @@
     need_confirmation: "没有收到确认的说明吗？"
     need_unlock: "没收到解锁指令吗？"
   signup_form:
+    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
     title: "登陆"
     school_name: "学校名称 （可选）"
     school_address: "学校地址 （可选）"
