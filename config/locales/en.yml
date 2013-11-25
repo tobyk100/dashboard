@@ -131,8 +131,8 @@ en:
     error: 'Your prize could not be redeemed, please try again.'
     confirm:
       title: 'Please Confirm'
-      no: 'No'
-      yes: 'Yes'
+      'no': 'No'
+      'yes': 'Yes'
       msg: 'Are you sure you want to claim the %{prize_name} prize?'
       msg_student: 'NOTE: You can only choose one type of prize.'
     providers:
