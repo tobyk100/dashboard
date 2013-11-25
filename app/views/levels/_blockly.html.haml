@@ -76,7 +76,19 @@
         }
       },
       Dialog: Dialog,
-      referenceArea: '#{escape_javascript(render partial: "levels/reference_area")}',
+      referenceArea: function() {
+        var referenceDiv = $('#{escape_javascript(render partial: "levels/reference_area")}');
+        referenceDiv.find('.video_link').each(function() {
+          addClickTouchEvent($(this), $.proxy(function() {
+            showVideo({
+              src: $(this).attr('data-src'),
+              name: $(this).attr('data-name'),
+              key: $(this).attr('data-key')
+            });
+          }, this));
+        });
+        return referenceDiv[0];
+      },
       levelId: '#{@level.level_num}',
       showInstructionsWrapper: function(handler) {
         if ('#{@autoplay_video}') {
