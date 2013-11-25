@@ -72,6 +72,7 @@ function showVideo(options) {
   $div.addClass('video-modal');
 
   dialog.show();
+  var lastTab = window.sessionStorage.getItem('lastTab');
   body.tabs({
     event : 'click touchend',
     activate : function(event, ui) {
@@ -82,7 +83,11 @@ function showVideo(options) {
       } else {
         videoElement.attr('src', '');
       }
-    }
+      // Remember which tab is selected.
+      var selected = ui.newTab.parents('.ui-tabs').tabs('option', 'active');
+      window.sessionStorage.setItem('lastTab', selected);
+    },
+    active: (lastTab !== null) ? lastTab : 0
   });
 
   // Resize modal to fit constraining dimension.
