@@ -250,7 +250,9 @@ en:
   video:
     tab: 'Video.'
     notes: 'No video? Show notes.'
-    autoplay_option: Autoplay videos
+    autoplay_option: 'Autoplay videos'
   compatability:
     working:  "We are working on support for your browser."
     upgrade: "Please upgrade your browser."
+  slow_loading: 'This is taking longer than usual...'
+  try_reloading: 'Try reloading the page'

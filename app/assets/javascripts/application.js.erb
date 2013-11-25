@@ -27,6 +27,10 @@ $(document).keydown(function(e) {
   }
 });
 
+setTimeout(function() {
+  $('#blocklyApp .slow_load').show();
+}, 10000);
+
 function getShowNotes(key, container) {
   var callback = function(data) {
     container.html(data);
