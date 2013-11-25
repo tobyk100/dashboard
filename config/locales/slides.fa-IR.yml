@@ -108,8 +108,7 @@
     if_else:
       1:
         image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'سلام, اسم من سلونی است. من از علم کامپیوتر برای کمک به حل مشکلات در بهداشت و پزشکی استفاده میکنم. بیاید "if else" بلوک را یاد بگیریم. به نظر می رسد مانند بلوک "if" هست، اما بخش اضافی درباره "else" در پایان دارد.'
       2:
         image: "notes/hoc5_2.png"
         text: |-

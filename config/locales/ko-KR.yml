@@ -207,7 +207,7 @@
     see_details: "자세히 살펴보기"
   gender:
     male: "남"
-    female: "여"
+    female: "여"
     none: "응답 안 함"
   footer:
     help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> 의 공학자들이 이 튜토리얼을 만들기 위해 도움을 주었습니다.'
@@ -228,7 +228,7 @@
   video:
     tab: "비디오."
     notes: "비디오가 없나요? 참고 살펴보기."
-    autoplay_option: "비디오 자동 실행"
+    autoplay_option: "비디오 자동 실행"
   compatability:
     working: "이 웹브라우져를 지원합니다."
     upgrade: "웹 브라우져를 업그레이드 하세요."
