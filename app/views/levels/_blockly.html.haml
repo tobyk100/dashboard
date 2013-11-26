@@ -38,10 +38,18 @@
   :javascript
     var nextRedirect;
     var previousLevelRedirect;
+    var FALLBACK_RESPONSE = #{@fallback_response.to_json};
     var sendReport = function(report) {
       var httpRequest = new XMLHttpRequest();
       httpRequest.onload = function() {
-        var response = JSON.parse(httpRequest.responseText);
+        var response;
+        if (httpRequest.status === 200) {
+          response = JSON.parse(httpRequest.responseText);
+        } else if (report.result) {
+          response = FALLBACK_RESPONSE.success;
+        } else {
+          response = FALLBACK_RESPONSE.failure;
+        }
         nextRedirect = response['redirect'];
         previousLevelRedirect = response['previous_level'];
         videoInfo = response['video_info'];

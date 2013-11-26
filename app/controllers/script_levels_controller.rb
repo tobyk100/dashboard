@@ -72,6 +72,10 @@ private
     @full_width = true
     @callouts = Callout.select(:element_id, :text, :qtip_at, :qtip_my)
     @autoplay_video = nil if params[:noautoplay]
+    @fallback_response = {
+      success: milestone_response(script_level: @script_level, solved?: true),
+      failure: milestone_response(script_level: @script_level, solved?: false)
+    }
     render 'levels/show'
   end
 end
