@@ -188,10 +188,10 @@ class ActivitiesController < ApplicationController
         user.prize_earned = true
         user.save!
       end
-      
+
       # for awarding prizes, we only honor the first (primary) teacher
       teacher = user.teachers.first
-      
+
       if teacher && (!teacher.teacher_prize_earned || !teacher.teacher_bonus_prize_earned)
         t_prize, t_bonus = teacher.check_teacher_prize_eligibility
         if t_prize && !teacher.teacher_prize_earned
@@ -200,7 +200,7 @@ class ActivitiesController < ApplicationController
           teacher.teacher_prize_earned = true
           teacher.save!
         end
-        
+
         if t_bonus && !teacher.teacher_bonus_prize_earned
           # send e-mail
           PrizeMailer.teacher_bonus_prize_earned(teacher).deliver
@@ -233,7 +233,7 @@ class ActivitiesController < ApplicationController
                   "\t#{params[:testResult]}\t#{params[:time]}\t#{params[:attempt]}\t#{params[:lines]}"
     log_string += "\t#{level_source.id.to_s}"
     log_string += "\t#{request.user_agent}"
-    
+
     milestone_logger.info log_string
   end
 
