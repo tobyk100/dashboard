@@ -80,7 +80,10 @@ class ActivitiesController < ApplicationController
       end
     end
 
-    render json: milestone_response(script_level, total_lines, trophy_updates, solved)
+    render json: milestone_response(script_level: script_level,
+                                    total_lines: total_lines,
+                                    trophy_updates: trophy_updates,
+                                    solved?: solved)
   end
 
   # GET /activities

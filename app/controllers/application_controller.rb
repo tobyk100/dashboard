@@ -27,8 +27,9 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def milestone_response(script_level, total_lines, trophy_updates, solved)
+  def milestone_response(options)
     response = {}
+    script_level = options[:script_level]
     level = script_level.level
     # figure out the previous level
     previous_level = script_level.previous_level
@@ -37,10 +38,11 @@ class ApplicationController < ActionController::Base
     end
 
     # if they solved it, figure out next level
-    if solved
-      response[:total_lines] = total_lines
+    if options[:solved?]
+      response[:total_lines] = options[:total_lines]
 
-      if (trophy_updates.length > 0)
+      trophy_updates = options.fetch(:trophy_updates, [])
+      if trophy_updates.length > 0
         response[:trophy_updates] = trophy_updates
       end
 
