@@ -73,4 +73,4 @@
   %h3= t(:demos)
   %ul
     - Script.all.each do |script|
-      %li= link_to(data_t('script.name', script.name), script_level_path(script, ScriptLevel::NEXT))
+      %li= link_to(data_t_suffix('script.name', script.name, 'desc'), script_level_path(script, ScriptLevel::NEXT))

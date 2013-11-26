@@ -37,6 +37,17 @@ namespace :seed do
     Game.create!(name: 'Farmer3', app: 'maze')
     Game.create!(name: 'Artist5', app: 'turtle')
     Game.create!(name: 'MazeEC', app: 'maze', intro_video: Video.find_by_key('maze_intro'))
+    Game.create!(name: 'Unplug1', app: 'unplug')
+    Game.create!(name: 'Unplug2', app: 'unplug')
+    Game.create!(name: 'Unplug3', app: 'unplug')
+    Game.create!(name: 'Unplug4', app: 'unplug')
+    Game.create!(name: 'Unplug5', app: 'unplug')
+    Game.create!(name: 'Unplug6', app: 'unplug')
+    Game.create!(name: 'Unplug7', app: 'unplug')
+    Game.create!(name: 'Unplug8', app: 'unplug')
+    Game.create!(name: 'Unplug9', app: 'unplug')
+    Game.create!(name: 'Unplug10', app: 'unplug')
+    Game.create!(name: 'Unplug11', app: 'unplug')
   end
 
   COL_GAME = 'Game'
@@ -115,15 +126,15 @@ namespace :seed do
   task prize_providers: :environment do
     # placeholder data - id's are assumed to start at 1 so prizes below can be loaded properly
     PrizeProvider.connection.execute('truncate table prize_providers')
-    PrizeProvider.create!(name: 'Apple iTunes', description_token: 'apple_itunes', url: 'http://www.apple.com/itunes/', image_name: 'goldtrophy.png')
-    PrizeProvider.create!(name: 'Dropbox', description_token: 'dropbox', url: 'http://www.dropbox.com/', image_name: 'bronzetrophy.png')
-    PrizeProvider.create!(name: 'Valve Portal', description_token: 'valve', url: 'http://www.valvesoftware.com/games/portal.html', image_name: 'goldtrophy.png')
-    PrizeProvider.create!(name: 'EA Origin Bejeweled 3', description_token: 'ea_bejeweled', url: 'https://www.origin.com/en-us/store/buy/181609/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'silvertrophy.png')
-    PrizeProvider.create!(name: 'EA Origin FIFA Soccer 13', description_token: 'ea_fifa', url: 'https://www.origin.com/en-us/store/buy/fifa-2013/pc-download/base-game/standard-edition-ANW.html', image_name: 'bronzetrophy.png')
-    PrizeProvider.create!(name: 'EA Origin SimCity 4 Deluxe', description_token: 'ea_simcity', url: 'https://www.origin.com/en-us/store/buy/sim-city-4/pc-download/base-game/deluxe-edition-ANW.html', image_name: 'goldtrophy.png')
-    PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'silvertrophy.png')
-    PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'goldtrophy.png')
-    PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'silvertrophy.png')
+    PrizeProvider.create!(name: 'Apple iTunes', description_token: 'apple_itunes', url: 'http://www.apple.com/itunes/', image_name: 'itunes_card.png')
+    PrizeProvider.create!(name: 'Dropbox', description_token: 'dropbox', url: 'http://www.dropbox.com/', image_name: 'dropbox_card.png')
+    PrizeProvider.create!(name: 'Valve Portal', description_token: 'valve', url: 'http://www.valvesoftware.com/games/portal.html', image_name: 'portal2_card.png')
+    PrizeProvider.create!(name: 'EA Origin Bejeweled 3', description_token: 'ea_bejeweled', url: 'https://www.origin.com/en-us/store/buy/181609/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'bejeweled_card.jpg')
+    PrizeProvider.create!(name: 'EA Origin FIFA Soccer 13', description_token: 'ea_fifa', url: 'https://www.origin.com/en-us/store/buy/fifa-2013/pc-download/base-game/standard-edition-ANW.html', image_name: 'fifa_card.jpg')
+    PrizeProvider.create!(name: 'EA Origin SimCity 4 Deluxe', description_token: 'ea_simcity', url: 'https://www.origin.com/en-us/store/buy/sim-city-4/pc-download/base-game/deluxe-edition-ANW.html', image_name: 'simcity_card.jpg')
+    PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'pvz_card.png')
+    PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
+    PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
   end
 
   task dummy_prizes: :environment do

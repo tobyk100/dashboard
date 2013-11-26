@@ -1,0 +1,102 @@
+Unplugged page (placeholder)
+
+%div
+  #{data_t_suffix('script.name', @script.name, @game.name)}
+  #{data_t('game.name', @game.name)}
+
+%b= @game.name
+%b= @level.level_num
+
+%br/
+%br/
+%br/
+
+
+%a{href:"#",onclick:"return handleNextLevelClick();"}
+  I'm finished NEXT LEVEL
+
+%br/
+%br/
+
+
+:javascript
+  var nextRedirect;
+  var previousLevelRedirect;
+  var sendReport = function(report) {
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onload = function() {
+      var response = JSON.parse(httpRequest.responseText);
+      nextRedirect = response['redirect'];
+      previousLevelRedirect = response['previous_level'];
+      videoInfo = response['video_info'];
+      if (report.onComplete) {
+        report.onComplete(response);
+      }
+    };
+    httpRequest.open('POST', '#{@callback}');
+    httpRequest.setRequestHeader('Content-Type',
+        'application/x-www-form-urlencoded');
+    var query = [];
+    for (var key in report) {
+      query.push(key + '=' + report[key]);
+    }
+    query = query.join('&');
+    httpRequest.send(query);
+  };
+  var optionsGlobal;
+  var #{app}Main = function(options) {
+    // insert code here
+    optionsGlobal = options;
+    optionsGlobal.clickedNext = false;
+  };
+  var onReportComplete = function() {
+    optionsGlobal.onContinue();
+  };
+  var handleNextLevelClick = function() {
+    if (!optionsGlobal.clickedNext) {
+      optionsGlobal.clickedNext = true;
+      optionsGlobal.onAttempt({
+          app: 'unplug',
+          level: optionsGlobal.level.id,
+          result: true,
+          testResult: 100,
+          onComplete: onReportComplete
+          });
+    }
+  };
+  #{app}Main({
+    locale: '#{js_locale}',
+    onAttempt: function(report) {
+      sendReport(report);
+    },
+    onContinue: function() {
+      if (videoInfo) {
+        showVideo(videoInfo);
+      } else if (nextRedirect) {
+        window.location.href = nextRedirect;
+      }
+    },
+    backToPreviousLevel: function() {
+      if (previousLevelRedirect) {
+        window.location.href = previousLevelRedirect;
+      }
+    },
+    Dialog: Dialog,
+    levelId: '#{@level.level_num}',
+    showInstructionsWrapper: function(handler) {
+      if ('#{@autoplay_video}') {
+        $('.video-modal').on('hidden.bs.modal', function () {
+          handler();
+        });
+      } else {
+        handler();
+      }
+    },
+    level: {
+      puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
+      stage_total: #{@level.game.levels.count},
+      instructions: '#{escape_javascript(@instructions)}'
+    },
+    skinId: '#{@level.skin}'
+  });
+
