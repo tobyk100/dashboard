@@ -9,7 +9,7 @@ class ScriptLevelsController < ApplicationController
     chapter = params[:chapter]
     script_level_id = params[:id]
     reset = params[:reset]
-    
+
     if reset
       # reset is a special mode which will delete the session if the user is not signed in
       # and start them at the beginning of the script.
@@ -24,7 +24,7 @@ class ScriptLevelsController < ApplicationController
         redirect_to build_script_level_path(current_user.try(:next_untried_level, @script) || @script.script_levels.first)
       else
         session_progress = session[:progress] || {}
-        
+
         @script.script_levels.each do |sl|
           if session_progress.fetch(sl.level_id, -1) < Activity::MINIMUM_PASS_RESULT
             redirect_to build_script_level_path(sl)
@@ -72,6 +72,10 @@ private
     @full_width = true
     @callouts = Callout.select(:element_id, :text, :qtip_at, :qtip_my)
     @autoplay_video = nil if params[:noautoplay]
+    @fallback_response = {
+      success: milestone_response(script_level: @script_level, solved?: true),
+      failure: milestone_response(script_level: @script_level, solved?: false)
+    }
     render 'levels/show'
   end
 end
