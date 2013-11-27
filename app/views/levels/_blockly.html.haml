@@ -45,7 +45,7 @@
         var response;
         if (httpRequest.status === 200) {
           response = JSON.parse(httpRequest.responseText);
-        } else if (report.result) {
+        } else if (report.pass) {
           response = FALLBACK_RESPONSE.success;
         } else {
           response = FALLBACK_RESPONSE.failure;
