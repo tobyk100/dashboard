@@ -1,19 +1,19 @@
 "zh-TW":
   devise:
     confirmations:
-      confirmed: "Your account was successfully confirmed. You are now signed in."
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      confirmed: "您的帳戶認證成功。您現在即將登錄。"
+      send_instructions: "您將收到一封有關如何在幾分鐘內確認您的帳戶說明的電子郵件。"
+      send_paranoid_instructions: "如果您的電子郵件地址存在於我們的資料庫中，您將收到一封與有關如何在幾分鐘內確認您的帳戶說明的電子郵件。"
     failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account was not activated yet."
-      invalid: "Invalid email or password."
+      already_authenticated: "您已經登錄。"
+      inactive: "您的帳戶尚未啟動。"
+      invalid: "不正確的電子郵件或密碼。"
       invalid_token: "Invalid authentication token."
       locked: "Your account is locked."
       not_found_in_database: "Invalid email or password."
-      timeout: "Your session expired, please sign in again to continue."
-      unauthenticated: "You need to sign in or sign up before continuing."
-      unconfirmed: "You have to confirm your account before continuing."
+      timeout: "您的使用時間已過期，請重新登錄以繼續。"
+      unauthenticated: "您需要登錄或註冊才能繼續。"
+      unconfirmed: "你必須認證您的帳戶在繼續之前。"
     mailer:
       confirmation_instructions:
         subject: "Confirmation instructions"
@@ -25,7 +25,7 @@
       failure: 'Could not authenticate you from %{kind} because "%{reason}".'
       success: "Successfully authenticated from %{kind} account."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      no_token: "沒有從一封密碼重設的電子郵件來，您不能訪問此頁面。如果你要從密碼重設的電子郵件來，請確認您使用所提供的完整 URL。"
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
       send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
       updated: "Your password was changed successfully. You are now signed in."
@@ -33,18 +33,18 @@
     registrations:
       destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
       signed_up: "Welcome! You have signed up successfully."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_inactive: "您已成功地簽署。然而，我們無法讓您登錄因為您的帳戶尚未啟動。"
       signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      signed_up_but_unconfirmed: "帶有確認連結的郵件已被發送到您的電子郵件地址。請打開連結來啟動您的帳戶。"
+      update_needs_confirmation: "您成功地更新您的帳戶，但我們需要驗證您的新電子郵件地址。請檢查您的電子郵件，並按一下確認連結以最後確認您的新電子郵件地址。"
       updated: "You updated your account successfully."
     sessions:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
     unlocks:
       send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      send_paranoid_instructions: "如果您的帳戶存在，您將收到一封說明有關如何在幾分鐘內解鎖的電子郵件。"
+      unlocked: "您的帳戶已成功解除鎖定。請登錄以繼續。"
   errors:
     messages:
       already_confirmed: "was already confirmed, please try signing in"

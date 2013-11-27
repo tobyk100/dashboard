@@ -133,9 +133,8 @@
         maze_karel_2_8: '使用这个新功能，"避免母牛和移除 1"，来帮我移除所有的土堆。'
         maze_karel_2_9: "好的，这个函数能移除4个一列的土堆。试试把它放在循环里面，看看你能不能只用几个新的块来移除所有的土堆。"
         maze_karel_2_10: "我要走到田地的另一边，用这两个函数帮我来移除所有的土堆并且填充所有的洞。"
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
+        turtle_3_1: '我们在这个谜题里给了你两个函数，"画一个正方形"和"画一个圆"，的定义。只是定义一个函数是不会运行其中的块的。你必须拖出来"画一个正方形"块才能让它画一个正方形给你。'
+        turtle_3_2: "用”画一个正方形“作为例子，创建一个新的函数，”画一个三角形“，并使用它。"
         turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
         turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
         turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
