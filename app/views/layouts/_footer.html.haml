@@ -18,6 +18,9 @@
         = sanitize(t('footer.art_from_html'), tags: %w(a), attributes: %w(href))
         %br/
         = link_to t('footer.tos'), 'http://code.org/tos'
+        |
+        = link_to t('footer.privacy'), 'http://code.org/privacy'
+
         - if current_user && current_user.admin?
           %br/
           Admin:
