@@ -81,4 +81,16 @@ class ApplicationController < ActionController::Base
     response
   end
 
+  def current_user
+    if Rails.configuration.minimal_mode
+      nil
+    else
+      super
+    end
+  end
+
+  def nonminimal
+    render 'shared/overloaded', status: 502 if Rails.configuration.minimal_mode
+  end
+
 end

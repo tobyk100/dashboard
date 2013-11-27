@@ -53,15 +53,16 @@
   %br/
 
   %hr
-  
+
   %h4= link_to t('try_k8intro'), k8intro_chapter_path(ScriptLevel::NEXT)
 
-  #{ link_to t('home.student_reg_link'), new_user_registration_path}
-  %br/
-  #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
-  %br/
-  = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
-  %br/
+  - unless Rails.configuration.minimal_mode
+    #{ link_to t('home.student_reg_link'), new_user_registration_path}
+    %br/
+    #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
+    %br/
+    = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
+    %br/
   %br/
 
 .row

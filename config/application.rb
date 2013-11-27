@@ -42,5 +42,8 @@ module Dashboard
     # See also LevelsHelper#blockly_cache_bust.
     cache_bust_path = Rails.root.join('.cache_bust')
     ::CACHE_BUST = File.read(cache_bust_path).strip.gsub('.', '_') rescue ''
+
+    # Puts the app in to a read-only mode without logins.
+    config.minimal_mode = false
   end
 end
