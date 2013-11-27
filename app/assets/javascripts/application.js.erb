@@ -72,22 +72,27 @@ function showVideo(options) {
   $div.addClass('video-modal');
 
   dialog.show();
+
+  var tabHandler = function(event, ui) {
+    var tab = ui.tab || ui.newTab;  // Depends on event.
+    var videoElement = $('#video');
+    if (tab.find('a').attr('href') === "#video") {
+      // If it is the video page, restor the src
+      videoElement.attr('src', options.src);
+    } else {
+      videoElement.attr('src', '');
+    }
+    // Remember which tab is selected.
+    var selected = tab.parents('.ui-tabs').tabs('option', 'active');
+    window.sessionStorage.setItem('lastTab', selected);
+  };
+
   var lastTab = window.sessionStorage.getItem('lastTab');
   body.tabs({
     event : 'click touchend',
-    activate : function(event, ui) {
-      var videoElement = $('#video');
-      if (ui.newTab.find('a').attr('href') === "#video") {
-        // If it is the video page, restor the src
-        videoElement.attr('src', options.src);
-      } else {
-        videoElement.attr('src', '');
-      }
-      // Remember which tab is selected.
-      var selected = ui.newTab.parents('.ui-tabs').tabs('option', 'active');
-      window.sessionStorage.setItem('lastTab', selected);
-    },
-    active: (lastTab !== null) ? lastTab : 0
+    activate: tabHandler,
+    create: tabHandler,
+    active: (lastTab !== null) ? lastTab : 0  // Set starting tab.
   });
 
   // Resize modal to fit constraining dimension.
