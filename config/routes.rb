@@ -14,6 +14,7 @@ Dashboard::Application.routes.draw do
 
   root :to => "home#index"
   get '/home_insert', to: 'home#home_insert'
+  get '/health_check', to: 'home#health_check'
 
   post '/locale', to: 'home#set_locale', as: 'locale'
 

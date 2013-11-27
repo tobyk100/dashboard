@@ -26,4 +26,8 @@ class HomeController < ApplicationController
       render text: ''
     end
   end
+
+  def health_check
+    render text: 'healthy!'
+  end
 end
