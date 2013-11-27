@@ -15,7 +15,7 @@
         .stage_separator
       - current_game = sl.level.game_id
       %div
-        #{t(:stage)} #{current_game}
+        #{data_t_suffix('script.name', script.name, sl.level.game.name)}
         #{data_t('game.name', sl.level.game.name)}
     - current_game_chapter = sl.game_chapter
 

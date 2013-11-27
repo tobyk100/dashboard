@@ -23,7 +23,7 @@
 
                 .header_text
                   -if (script.multiple_games?)
-                    #{t(:stage)} #{@game.id}:
+                    #{data_t_suffix('script.name', script.name, @game.name)}:
                   = t(:puzzle)
                 - game_levels.each do |sl|
                   %a{href:build_script_level_path(sl)}

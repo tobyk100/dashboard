@@ -1,6 +1,9 @@
 - @page_title = "#{data_t('game.name', @game.name)} ##{@script_level.try(:game_chapter) || @level.level_num} "
 
-= render partial: "levels/blockly", locals: { app: @game.app }
+- if @game.app == 'unplug'
+  = render partial: "levels/unplug", locals: { app: @game.app }
+- else
+  = render partial: "levels/blockly", locals: { app: @game.app }
 
 - if @autoplay_video
   :javascript
