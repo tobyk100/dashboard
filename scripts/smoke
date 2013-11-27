@@ -20,18 +20,12 @@ MILESTONE_DATA = {
 
 TESTS = [
     { url: '/' },
-    { url: '/hoc/1' },
-    { url: '/milestone/0/1', method: :post, form_data: MILESTONE_DATA },
-    { url: '/hoc/2' },
-    { url: '/milestone/0/2', method: :post, form_data: MILESTONE_DATA },
-    { url: '/hoc/3' },
-    { url: '/milestone/0/3', method: :post, form_data: MILESTONE_DATA },
-    { url: '/hoc/4' },
-    { url: '/milestone/0/4', method: :post, form_data: MILESTONE_DATA },
-    { url: '/hoc/5' },
-    { url: '/milestone/0/5', method: :post, form_data: MILESTONE_DATA },
 ]
 
+20.times do |i|
+  TESTS << { url: "/hoc/#{i+1}" }
+  TESTS << { url: "/milestone/0/#{i+1}", method: :post, form_data: MILESTONE_DATA }
+end
 #
 # parse arguments
 #
