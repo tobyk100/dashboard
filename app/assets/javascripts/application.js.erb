@@ -63,9 +63,9 @@ function showVideo(options) {
   });
   body.append(video);
 
-  var notesDiv = $('<div id="notes"/>');
+  var notesDiv = $('<div id="notes-outer"><div id="notes"/></div>');
   body.append(notesDiv);
-  getShowNotes(options.key, notesDiv);
+  getShowNotes(options.key, notesDiv.children('#notes'));
 
   var dialog = new Dialog({ body: body, redirect : options.redirect });
   $div = $(dialog.div);
@@ -116,7 +116,9 @@ function showVideo(options) {
   });
 
   var tabHeight = $div.find('.ui-tabs-nav').outerHeight();
-  $(video).height($div.innerHeight() - tabHeight);
+  var divHeight = $div.innerHeight() - tabHeight;
+  $(video).height(divHeight);
+  notesDiv.height(divHeight);
 }
 
 function embed_thumbnail_image(data) {

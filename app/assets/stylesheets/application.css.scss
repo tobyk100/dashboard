@@ -525,10 +525,6 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   overflow: visible;
 }
 
-.modal-body > .ui-tabs {
-  overflow-y: scroll;
-}
-
 #blocklyApp {
 
   .loading {
@@ -572,6 +568,9 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   }
 }
 
+#notes-outer {
+  overflow-y: scroll;
+}
 #notes {
   .note {
     padding-bottom: 10px;
