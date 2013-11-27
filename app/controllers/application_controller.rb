@@ -81,7 +81,11 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
-    super unless Rails.configuration.minimal_mode
+    if Rails.configuration.minimal_mode
+      nil
+    else
+      super
+    end
   end
 
   def nonminimal
