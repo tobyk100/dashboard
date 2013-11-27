@@ -520,10 +520,13 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   border-bottom-style: inset;
 }
 
-.prize_msg {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: 500;
+.modal-body {
+  height: 100%;
+  overflow: visible;
+}
+
+.modal-body > .ui-tabs {
+  overflow-y: scroll;
 }
 
 #blocklyApp {
