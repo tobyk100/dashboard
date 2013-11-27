@@ -8,7 +8,11 @@ Dashboard::Application.routes.draw do
   resources :activities
   resources :sections, only: [:new, :create, :edit, :update, :destroy]
 
-  devise_for :users, controllers: {omniauth_callbacks: 'omniauth_callbacks', registrations: 'registrations'}
+  devise_for :users, controllers: {
+    omniauth_callbacks: 'omniauth_callbacks',
+    registrations: 'registrations',
+    sessions: 'sessions'
+  }
 
   post '/signup_check/username', to: 'home#check_username'
 
