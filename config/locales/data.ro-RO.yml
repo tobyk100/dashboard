@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Introducerea K-8 la cursul de Informatică
-        Hour of Code: "Oră de Cod"
-        Edit Code: "Editează Codul"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labirintul"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Artistul"
+        Unplug4: "Algorithms"
         Artist2: "Artistul 2"
+        Unplug5: "Functional"
         Farmer: "Fermierul"
+        Unplug6: "Conditionals"
         Artist3: "Artistul 3"
+        Unplug7: "Song Writing"
         Farmer2: "Fermierul 2"
+        Unplug8: "Abstraction"
         Artist4: "Artistul 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Fermierul 3"
+        Unplug10: "The Internet"
         Artist5: "Artistul 5"
-        MazeEC: "Artistul"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronz"
@@ -86,7 +111,7 @@
         maze_karel_1_6: 'Elimină toate grămezile de pământ, folosind cât mai puține blocuri posibile. Noile opțiuni din meniul vertical de pe blocul "în timp ce" îmi spun dacă stau pe un morman sau pe o groapă.'
         maze_karel_1_7: "Wow, am găsit o groapă foarte adâncă! Nu ştiu de cât de multe lopeți de pământ e nevoie să se umple. Puteţi scrie un program care o umple până când solul este drept?"
         maze_karel_1_8: "Ajută-mă să umplu groapa de la capătul terenului, folosind cât mai puține blocuri posibile."
-        maze_karel_1_9: 'Fă-mă să îndepărtez aceste grămezi de pământ. Încearcă să folosești cât mai puține blocuri posibile. Indiciu: poți folosi un bloc "în timp ce" în interiorul unui bloc "repetă".'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Lucrez până târziu, așa că e întuneric afară, și nu-mi pot da seama cât de mari sunt grămezile. Acum nu mai am toate opțiunile pe care le aveam la blocul "în timp ce". Mută-mă de-a lungul câmpului și dacă există pe-acolo vreo gramadă, înlătur-o.'
         maze_karel_1_11: 'Încă e întuneric afară. Mută-mă de-a lungul câmpului. Dacă găsești o grămadă, înlătur-o și dacă găsești o groapă, umple-o. Indiciu: folosește meniul vertical de opțiuni din blocul "dacă".'
         turtle_2_1: "Salut. Eu artist zombie. Eu iubesc desenez! Ajută-mă să desenez un pătrat într-o culoare specială. Notă importantă: ai aceleași blocuri dar acum sunt aranjate pe categorii."

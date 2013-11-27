@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Kursus Perkenalan ilmu komputer untuk siswa tingkat sekolah dasar dan menengah
-        Hour of Code: "Jam kode"
-        Edit Code: "Mengedit kode"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labirin"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Artis"
+        Unplug4: "Algorithms"
         Artist2: "Artis 2"
+        Unplug5: "Functional"
         Farmer: "Petani"
+        Unplug6: "Conditionals"
         Artist3: "Artis 3"
+        Unplug7: "Song Writing"
         Farmer2: "Petani 2"
+        Unplug8: "Abstraction"
         Artist4: "Artis 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Petani 3"
+        Unplug10: "The Internet"
         Artist5: "Artis 5"
-        MazeEC: "Artis"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Perunggu"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Hapus semua tumpukan tanah, gunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok "selagi" (while) beritahu saya jika saya sedang berdiri di tumpukan atau lubang.'
         maze_karel_1_7: "Waduh, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapatkah Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
         maze_karel_1_8: "Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin."
-        maze_karel_1_9: 'Bantu saya memindahkan semua tumpukan tanah. Coba gunakan blok sesedikit mungkin. Petunjuk: Anda dapat menggunakan blok "sementara" (while) di dalam "Ulangi" (repeat) blok.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Saya bekerja lembur sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang saya tidak memiliki semua pilihan seperti ketika saya gunakan blok "sementara" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, pindahkanlah.'
         maze_karel_1_11: 'Di luar masih gelap. Pindahkan saya sepanjang ladang. Jika ada tumpukan, buanglah, dan jika ada lubang, isilah. Petunjuk: Gunakan dropdown menu pilihan di blok "jika" (if).'
         turtle_2_1: "Halo, Saya zombie artis. Saya suka menggambar! Bantulah saya menggambar segi empat dengan warna khusus. Catatan penting: anda memiliki blok-blok yang sama tapi mereka diatur didalam kategori."

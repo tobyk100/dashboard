@@ -235,3 +235,5 @@
   compatability:
     working: "Estamos a trabalhar no suporte ao teu browser."
     upgrade: "Por favor, atualiza o teu browser."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

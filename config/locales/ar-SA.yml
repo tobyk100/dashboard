@@ -233,3 +233,5 @@
   compatability:
     working: "نحن نعمل على دعم متصفح الأنترنت الخاص بك."
     upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

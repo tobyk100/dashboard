@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Anaokulu-8. sinif bilgisayar bilimi dersi girişi
-        Hour of Code: "Saat Kodu"
-        Edit Code: "Kodu Düzenle"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labirent"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Sanatçı"
+        Unplug4: "Algorithms"
         Artist2: "Sanatçı 2"
+        Unplug5: "Functional"
         Farmer: "Çiftçi"
+        Unplug6: "Conditionals"
         Artist3: "Sanatçı 3"
+        Unplug7: "Song Writing"
         Farmer2: "Çiftçi 2"
+        Unplug8: "Abstraction"
         Artist4: "Sanatçı 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Çiftçi 3"
+        Unplug10: "The Internet"
         Artist5: "Sanatçı 5"
-        MazeEC: "Sanatçı"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Tunç"
@@ -41,14 +66,14 @@
         maze_2_3: "Yeşil domuzcuğu nasıl alabilirim? (TNT'ya dikkat et)"
         maze_2_4: "Ahh! Bana TNT çevresinden geçip yeşil domuzcuğu alabileceğim programı yaz. "
         maze_2_5: "2 blok kullanarak yeşil domuzcuğu alabileceğim bir yol var. Bunu bulabilir misin?"
-        maze_2_6: "Try to get me to the green pig using only three blocks."
-        maze_2_7: 'Write me a program so I can get to the green pig using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
+        maze_2_6: "Sadece üç blok kullanarak bana yeşil domuzu getirmeyi dene."
+        maze_2_7: 'Yeşil domuzu alabilmem için, en az sayıda blok kullanarak bana bir program yazın. Birden fazla kez  "tekrar süresi" bloğunu kullanmayı deneyin.'
+        maze_2_8: 'Bunu çözmek için, bu üç bloğun içinden "tekrar" bloğu kullanmayı deneyin.'
+        maze_2_9: 'Tamam, yeni "e kadar tekrarla" bloğunu dene. Bu ben yelşil domuza ulaşana kadar tekrarlayacak.'
+        maze_2_10: "Tamam, pratik için son kez. Bunu sadece 4 blok kullanarak çözebilir misin?"
+        maze_2_11: "Değerli kişi.Ben zombi.Açım. Ayçiçeklerini almam gerekli.Bana onları sadece 5 blok kullanarak getirebilir misin?"
+        maze_2_12: "Tamam, Bu benzer ama biraz farklı. Bunu sadece 5 blok ile yapabilir misin?"
+        maze_2_13: 'Ne zaman döneceğime karar vermem için yeni "eğer" bloğunu kullan. İpucu: Sadece bir bloğa daha ihtiyacın var. Ancak bunu nasıl kurduğumuzu öğrenki bir dahakine kullanabil.'
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
         maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
         maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
@@ -89,7 +114,7 @@
           Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
         maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
         maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.

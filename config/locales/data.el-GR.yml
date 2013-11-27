@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Εισαγωγή στην Επιστήμη Υπολογιστών Δημοτικού
-        Hour of Code: "Η Ώρα του Κώδικα"
-        Edit Code: "Επεξεργασία κώδικα"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Ο Λαβύρινθος"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Ο Καλλιτέχνης"
+        Unplug4: "Algorithms"
         Artist2: "Ο Καλλιτέχνης 2"
+        Unplug5: "Functional"
         Farmer: "Ο Αγρότης"
+        Unplug6: "Conditionals"
         Artist3: "Ο Καλλιτέχνης 3"
+        Unplug7: "Song Writing"
         Farmer2: "Ο Γεωργός 2"
+        Unplug8: "Abstraction"
         Artist4: "Ο Καλλιτέχνης 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Ο Γεωργός 3"
+        Unplug10: "The Internet"
         Artist5: "Ο Καλλιτέχνης 5"
-        MazeEC: "Ο Καλλιτέχνης"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Χάλκινο"
@@ -85,7 +110,7 @@
         maze_karel_1_6: 'Απομάκρυνε όλους τους σωρούς από χώμα, χρησιμοποιώντας όσο το δυνατό λιγότερα πλακίδια. Οι νέες επιλογές στο πλακίδιο "όσο" μου λένε εάν βρίσκομαι σε σωρό ή σε τρύπα.'
         maze_karel_1_7: "Πω πω, βρήκα μια πραγματικά βαθιά τρυπα! Δεν ξέρω πόσες φτυαριές χώμα χωράει. Μπορείς να γράψεις ένα πρόγραμμα που τη γεμίζει μέχρι πάνω;"
         maze_karel_1_8: "Βοήθησέ με να γεμίσω την τρύπα στο τέλος του χωραφιού, χρησιμοποιώντας όσο το δυνατό λιγότερα πλακίδια."
-        maze_karel_1_9: 'Βάλε με να απομακρύνω όλους τους σωρούς από χώμα. Προσπάθησε να χρησιμοποιήσεις όσο το δυνατό λιγότερα πλακίδια. Υπόδειξη: μπορείς να βάλεις ένα πλακίδια "όσο" μέσα σε ένα πλακίδιο "επανέλαβε".'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Εργάζομαι ως αργά, είναι σκοτεινά και δεν μπορώ δω να πόσο μεγάλοι είναι οι σωροί. Τώρα δεν έχω όλες τις επιλογές στο πλακίδιο "όσο" όπως πριν. Μετακίνησέ με κατα μήκος του χωραφιού, και εάν υπάρχει σωρός, απομάκρυνέ τον.'
         maze_karel_1_11: 'Είναι ακόμα σκοτεινά. Μετακίνησέ με κατά μήκος του χωραφιού. Εάν υπάρχει σωρός, απομάκρυνέ τον, και εάν υπάρχει τρύπα, γέμισέ τη. Υπόδειξη: χρησιμοποίησε τη λίστα επιλογών στο πλακίδιο "εάν".'
         turtle_2_1: "Γεια. Εγώ ζόμπι καλλιτέχνης. Εγώ αρέσει σχέδιο! Βοήθησέ με να σχεδιάσω ένα τετράγωνο με ιδιαίτερο χρώμα. Σημείωση: έχεις και πάλι τα ίδια πλακίδια αλλά τώρα είναι τακτοποιημένα σε κατηγορίες."

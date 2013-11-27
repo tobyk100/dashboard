@@ -110,7 +110,7 @@
     confirm:
       title: "확인하세요."
       "no": 예
-      "yes": 아니요
+      "yes": 예
       msg: "%{prize_name} 을 기념품 코드로 바꾸시겠습니까?"
       msg_student: "주의 : 한 가지 기념품만 선택할 수 있습니다."
     providers:
@@ -228,7 +228,9 @@
   video:
     tab: "비디오."
     notes: "비디오가 없나요? 참고 살펴보기."
-    autoplay_option: "비디오 자동 실행"
+    autoplay_option: "비디오 자동 실행"
   compatability:
     working: "이 웹브라우져를 지원합니다."
     upgrade: "웹 브라우져를 업그레이드 하세요."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

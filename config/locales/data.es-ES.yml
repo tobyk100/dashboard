@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: "Curso K-8  de introducción a las ciencias de la computación"
-        Hour of Code: "Hora del código"
-        Edit Code: "Editar el código"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "El laberinto"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "El artista"
+        Unplug4: "Algorithms"
         Artist2: "El artista 2"
+        Unplug5: "Functional"
         Farmer: "El granjero"
+        Unplug6: "Conditionals"
         Artist3: "El artista 3"
+        Unplug7: "Song Writing"
         Farmer2: "El granjero 2"
+        Unplug8: "Abstraction"
         Artist4: "El artista 4"
+        Unplug9: "Relay Programming"
         Farmer3: "El granjero 3"
+        Unplug10: "The Internet"
         Artist5: "El artista 5"
-        MazeEC: "El artista"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronce"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Quita todas las pilas de tierra, utilizando la menor cantidad de bloques que sea posible. Las nuevas opciones en el menú desplegable del bloque "mientras" me dicen si estoy parado en una pila o un agujero.'
         maze_karel_1_7: "Vaya, encontré un agujero muy profundo! No sé cuantas paladas de tierra necesita. ¿Puedes escribir un programa que lo llene hasta que la tierra esté plana?"
         maze_karel_1_8: "Ayúdame a llenar en el agujero en el otro extremo del campo, con la menor cantidad posible de bloques."
-        maze_karel_1_9: 'Hazme quitar todas estas pilas de tierra. Trata de usar la menor cantidad posible de bloques. Sugerencia: puedes utilizar un bloque "mientras" dentro de un bloque "repetir".'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Estoy trabajando hasta tarde, así que está oscuro afuera, y no sé qué tan grandes son las pilas. Ahora no tengo todas las opciones que solía tener en el bloque "mientras". Muéveme a lo largo del campo y si hay una pila, quítala.'
         maze_karel_1_11: 'Todavía está oscuro afuera. Muéveme a lo largo del campo. Si hay una pila, quítala y si hay un agujero, rellénalo. Sugerencia: utiliza el menú desplegable de opciones del bloque "si".'
         turtle_2_1: "Hola. Yo artista zombi. ¡Me encanta dibujar! Ayúdame a dibujar un cuadrado con un color especial. Nota importante: dispones de los mismos bloques pero ahora han sido organizados en categorías."

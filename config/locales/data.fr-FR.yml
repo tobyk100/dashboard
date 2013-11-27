@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: "K-8 Intro au cours d'informatique"
-        Hour of Code: "Heure de Code"
-        Edit Code: "Modifier le Code"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Le Labyrinthe"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "L'Artiste"
+        Unplug4: "Algorithms"
         Artist2: "L'Artiste 2"
+        Unplug5: "Functional"
         Farmer: "Le Fermier"
+        Unplug6: "Conditionals"
         Artist3: "L'Artiste 3"
+        Unplug7: "Song Writing"
         Farmer2: "Le Fermier 2"
+        Unplug8: "Abstraction"
         Artist4: "L'Artiste 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Le Fermier 3"
+        Unplug10: "The Internet"
         Artist5: "L'Artiste 5"
-        MazeEC: "L'Artiste"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronze"
@@ -88,8 +113,7 @@
         maze_karel_1_6: "Retirez toutes les piles de boue, à l'aide d'aussi peu de blocs que possible. Les nouvelles options dans le menu déroulant sur le bloc « jusqu'à », dis moi si je suis debout sur une pile ou un trou."
         maze_karel_1_7: "Wow, j'ai trouvé un trou très profond ! Je ne sais pas combien de pelletées de boue, il a besoin. Pouvez-vous écrire un programme qui remplit jusqu'à ce que le trou soit remplis ?"
         maze_karel_1_8: "aide moi à remplir le trou à l'extrémité du champ, à l'aide du moins de blocs possible."
-        maze_karel_1_9: |-
-          Fais-moi enlever tous ces tas de boue. Essayes d'utiliser le moins de blocs possible. Conseil : tu peux utiliser un bloc  "pendant que" à l'intérieur d'un bloc « répéter ».
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: |-
           Je travaille tard, il fait noir dehors, et je ne peux pas dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long du champ et s'il y a un tas, retirez-le.
         maze_karel_1_11: "Il fait encore noir dehors. Déplace moi le long du champ. S'il y a un tas, l'enlever et s'il y a un trou, remplis-le. Conseil : utilisez le menu déroulant des options sur le bloc « if »."

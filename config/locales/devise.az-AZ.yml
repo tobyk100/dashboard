@@ -1,7 +1,7 @@
 "az":
   devise:
     confirmations:
-      confirmed: "Hesabınız təsdiq olundu. Artıq qeydiyyatdan keçdiniz."
+      confirmed: "Hesabınız müvəffəqiyyətlə təsdiq olundu. Artıq qeydiyyatdan keçdiniz."
       send_instructions: "Bir neçə dəqiqəyə hesabınızı necə aktivləşdirəcəyiniz barədə bir e-məktub alacaqsınız."
       send_paranoid_instructions: "E-poçt ünvanınız məlumat bazamızda varsa, bir neçə dəqiqəyə içərisində hesabınızı necə təsdiq edəcəyiniz barədə təlimatlar olam e-məktub alacaqsınız."
     failure:

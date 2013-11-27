@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Introduksjon til Informatikk for barne-og ungdomsskolen
-        Hour of Code: "Hour of Code (kodetimen)"
-        Edit Code: "Rediger kode"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labyrinten"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Kunstneren"
+        Unplug4: "Algorithms"
         Artist2: "Kunstneren 2"
+        Unplug5: "Functional"
         Farmer: "Bonden"
+        Unplug6: "Conditionals"
         Artist3: "Kunstneren 3"
+        Unplug7: "Song Writing"
         Farmer2: "Bonden 2"
+        Unplug8: "Abstraction"
         Artist4: "Kunstneren 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Bonden 3"
+        Unplug10: "The Internet"
         Artist5: "Kunstneren 5"
-        MazeEC: "Kunstneren"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronse"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Fjern alle jordhaugene ved å bruke så få blokker som mulig. De nye innslagene i nedtrekksmenyen til "så lenge"-blokken forteller meg om jeg står på en haug eller over et hull.'
         maze_karel_1_7: "Wow, jeg en skikkelig dypt hull! Jeg aner ikke hvor mange spadetak med jord det rommer. Kan du lage et program som fyller det helt til bakken er flat?"
         maze_karel_1_8: "Hjelp meg med å fylle hullet ved enden av åkeren, ved å benytte så få blokker som mulig."
-        maze_karel_1_9: 'Få meg til å fjerne alle disse jordhaugene. Prøv å bruke så få blokker som mulig. Tips: du kan bruke en "så lenge"-blokk inni en "gjenta"-blokk.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Jeg jobber så sent at det er mørkt ute og jeg kan ikke se hvor store jordhaugene er. Nå har jeg ikke lenger alle mulighetene jeg hadde før med "så lenge"-blokken. Flytt meg langs åkeren, og hvis jeg støter på en jordhaug, fjern den.'
         maze_karel_1_11: 'Det er fremdeles mørkt ute. Flytt meg langs åkeren. Hvis jeg støter på en jordhaug, fjern den. Hvis jeg støter på et hull, fyll det. Tips: bruk nedtrekksmenyen på "hvis"-blokken.'
         turtle_2_1: "Hei. Meg zombie artist. Meg elsker å tegne! Hjelpe meg med å tegne en firkant med en spesiell farge. Viktig informasjon: du har tilgang til de samme blokkene, men nå er de omorganisert i kategorier."
@@ -127,12 +152,12 @@
         maze_karel_debug_function_1: "Hva ville du endret på dette programmet for å hjelpe meg med å fjerne alle haugene?"
         maze_karel_debug_function_2: "Kan du finne feilene i dette programmet for meg slik at jeg kan gjøre jordet mitt flatt?"
         maze_karel_debug_function_3: "Endre på programmet slik at jeg fjerner alle haugene på jordet mitt. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
+        turtle_5_2: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
+        turtle_5_3: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
+        turtle_5_4: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
+        turtle_5_5: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
+        turtle_5_6: "Prøv å kjøre dette programmet, og gjør endringer for å se hva som skjer. Kan du finne ut hvordan det fungerer? (Eller fjerne det og erstatte det med noe helt annet)"
         maze_3_1: 'Jeg må komme meg til den grisen! Skriv inn et par kall for å bevege meg ("move();")  så jeg kan få tilbake eggene mine.'
         maze_3_2: "Skriv et program til meg så jeg kan komme meg helt frem til grisen."
         maze_3_3: "Hvordan skal jeg komme meg til grisen? Forsikre deg om at jeg ikke kommer borti boksen med TNT!"

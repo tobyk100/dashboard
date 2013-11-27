@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Informaticacursus op basisschool-niveau
-        Hour of Code: "Een Uur Code"
-        Edit Code: "Bewerk de code"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Het Doolhof"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "De Artiest"
+        Unplug4: "Algorithms"
         Artist2: "De Artiest 2"
+        Unplug5: "Functional"
         Farmer: "De Boer"
+        Unplug6: "Conditionals"
         Artist3: "De Artiest 3"
+        Unplug7: "Song Writing"
         Farmer2: "De Boer 2"
+        Unplug8: "Abstraction"
         Artist4: "De Artiest 4"
+        Unplug9: "Relay Programming"
         Farmer3: "De Boer 3"
+        Unplug10: "The Internet"
         Artist5: "De Artiest 5"
-        MazeEC: "De Artiest"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Brons"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Verwijder alle hopen modder met zo weinig blokken mogelijk. De nieuwe opties in het menu van het "terwijl" blok vertellen met of ik op een hoop of een gat sta.'
         maze_karel_1_7: "Wow, ik heb een superdiep gat gevonden! Ik weet niet hoeveel scheppen ervoor nodig zijn. Kun je een programma schrijven die het gat vult totdat hij opgevuld is?"
         maze_karel_1_8: "Help me om het gat aan het einde van het veld te vullen, met zo weinig blokken mogelijk."
-        maze_karel_1_9: 'Gebruik me om al deze modderhopen op te vullen. Probeer zo weinig mogelijk blokken te gebruiken. Hint: je kunt een "terwijl" blok in een "herhaal" blok zetten.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Ik moet tot laat werken, dus het is donker buiten, en ik kan zo niet zien hoe hoog de hopen zijn. Ik heb niet alle opties meer die ik had op het "while" blok. Beweeg me over het veld, en als er een heuvel is, verwijder hem.'
         maze_karel_1_11: 'Het is nog steeds donker buiten. Beweeg me over het veld. Als er een heuvel is, haal hem weg, en als ereen gat is, vul hem op. Hint: gebruik het menu van opties bij het "if" blok.'
         turtle_2_1: "Hallo. Ik zombie artist. Ik gek op tekenen! Help me om een vierkant in een speciale kleur te tekenen. Belangrijk: je hebt dezelfde blokken maar ze zijn nu opgedeeld in categorieën."

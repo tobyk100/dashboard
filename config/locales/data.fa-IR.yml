@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: معرفی K-8 دوره علوم کامپیوتر
-        Hour of Code: "ساعتی با کد"
-        Edit Code: "ویرایش کد"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "پیچ و خم"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "هنرمند"
+        Unplug4: "Algorithms"
         Artist2: "هنرمند 2"
+        Unplug5: "Functional"
         Farmer: "کشاورز"
+        Unplug6: "Conditionals"
         Artist3: "هنرمند 3"
+        Unplug7: "Song Writing"
         Farmer2: "کشاورز 2"
+        Unplug8: "Abstraction"
         Artist4: "هنرمند 4"
+        Unplug9: "Relay Programming"
         Farmer3: "کشاورز 3"
+        Unplug10: "The Internet"
         Artist5: "هنرمند 5"
-        MazeEC: "هنرمند"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "برنز"
@@ -55,22 +80,19 @@
         maze_2_17: 'بلوکهای "if-else" شرایط را بررسی میکنند، و سپس یک کار یا کار دیگری را انجام میدهند. سعی کن با استفاده از بلوک جدید من را به آفتاب گردان برسانی.'
         maze_2_18: 'یک تمرین بیشتر با بلوک "if-else"، آیا می توانید با سعی خود جواب درست بدهی؟'
         maze_2_19: "آيا می توانید با اضافه کردن فقط ۳ تا بلوک به من کمک کنید که مارپیج سخت را حل کنم؟ اگر درست انجام بدهید، من می توانم حرکت کنم هر مسیر مارپیچ را بدون درنظر گرفتن طول آن."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
+        turtle_1_1: "سلام، من یک هنرمند هستم. شما می توانید با نوشتن کد از من بخواهید تقریبا هر چیزی را ترسیم کنم. با چند بلوک از من بخواهید تا روی خطهای خاکستری در این تصویریک چیزی ترسیم کنم."
+        turtle_1_2: 'حالا، یک مربع ترسم کنید. توجه: رنگ مورد علاقه خود را دربلوک جدید"set color" انتخاب کنید.'
         turtle_1_3: "با استفاده از فقط ۳ بلوک یک مربع بساز."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
+        turtle_1_4: 'یک مثلث با ضعلهایی در رنگ های مختلف ترسیم کنید، از گزینه "random color" که رنگ های مختلف را انتخاب میکند استفاده کنید. راهنمایی: با کلیک کردن روی شماره در بلوک چرخش میزان چرخش را بیابید.'
+        turtle_1_5: "حالا برای تمرین، یک مثلث و بعد یک مربع بکش تا یک پاکت نامه بسازی."
+        turtle_1_6: "می تونی بگی چه جوری میشه این مثلث و مربع رو کشید؟ راهنمایی: اول مثلث رو بکش، بعد ببین چه قدر باید اون رو بچرخونی قبل از اینکه مربع رو بکشی."
         turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
+        turtle_1_8: 'خوب، سعی کن که ببینی چی میشه اگر این کد رو اجرا کنی(یا روی "Run" کلیک کن تا امتحانش کنی). بعد، به تا جایی که لازمه این کار رو تکرار کن تا نقاشی کامل بشه. رنگ ها هر دفعه عوض میشن.'
+        turtle_1_9: "می تونی بفهمی که چه عددی رو باید جای علامت سوال بگذاری تا یک دایره بشه کشید؟"
+        turtle_1_10: 'آفرین، تمومش کردی! حالا هر چی دلت می خواد بکش. یه سری ایده جالب: یه تکه چوب، دونه های برف، مارپیچ. بلوک جدید "set width" رو هم امتحان کن. خوش بگذره!'
+        turtle_4_1: 'می تونی یک مثلث(با طول هر ضلع 100 پیکسل) رو فقط با 3 تا بلوک بکشی؟ راهنمایی: از یک بلوک "repeat" استفاده کن.'
+        turtle_4_2: 'تلاش کن این پازل رو با اضافه کردن یک بلوک کامل کنی. راهنمایی: ما بلوک هایی برای کسیدن دو تا مثلث یک شکل فراهم کرده ایم، تو فقط لازم هست که یک "turn" اون وسط بگذاری و تصمیم بگیری که چه قدر چرخش لازم هست.'
+        turtle_4_3: 'خوب، این کدی هست که برای کشیدن یک عدد مثلث نوشتی. می تونی یک بلوک "repeat"  و یک بلوک "turn" رو برای کشیدن یک گل خوشگل اضافه کنی؟'
         turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
         turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
         turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
@@ -89,7 +111,7 @@
           Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
         maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
         maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.

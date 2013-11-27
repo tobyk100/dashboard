@@ -232,3 +232,5 @@
   compatability:
     working: "Momentan efectuăm lucrări de susținere a browser-ului tău."
     upgrade: "Te rugăm să-ți actualizezi browser-ul."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

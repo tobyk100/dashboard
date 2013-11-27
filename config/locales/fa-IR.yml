@@ -230,3 +230,5 @@
   compatability:
     working: "ما در حال کار بر روی پشتیبانی از مرورگر شما هستیم."
     upgrade: "لطفا مرورگر خود را ارتقا دهید."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

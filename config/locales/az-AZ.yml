@@ -232,3 +232,5 @@
   compatability:
     working: "Biz sizin naviqatorun dəstəklənməsi üzərində işləyirik."
     upgrade: "Zəhmət olmasa, naviqatorunuzu yeniləyin."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

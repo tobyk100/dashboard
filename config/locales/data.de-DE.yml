@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Einführung in die Informatik bis 8. Schuljahr
-        Hour of Code: "Programmierstunde"
-        Edit Code: "Code bearbeiten"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Das Labyrinth"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Der Künstler"
+        Unplug4: "Algorithms"
         Artist2: "Der Künstler 2"
+        Unplug5: "Functional"
         Farmer: "Der Bauer"
+        Unplug6: "Conditionals"
         Artist3: "Der Künstler 3"
+        Unplug7: "Song Writing"
         Farmer2: "Der Bauer 2"
+        Unplug8: "Abstraction"
         Artist4: "Der Künstler 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Der Bauer 3"
+        Unplug10: "The Internet"
         Artist5: "Der Künstler 5"
-        MazeEC: "Der Künstler"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronze"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Entfernen Sie alle Erdhaufen, mit so wenig Bausteine wie möglich. Die neuen Optionen im Dropdown-Menü auf dem "Wenn"-Baustein sagen mir, ob ich auf einem Haufen oder einem Loch stehe.'
         maze_karel_1_7: "Wow, ich habe ein wirklich tiefes Loch gefunden! Ich weiß nicht wie viele Schaufeln von Erde es braucht. Können Sie ein Programm schreiben, das es ausfüllt, bis der Boden eben ist?"
         maze_karel_1_8: "Hilf mir das Loch am Ende des Feldes zu füllen mit so wenigen Bausteinen wie möglich."
-        maze_karel_1_9: 'Bringe mich dazu alle Erdhaufen zu entfernen. Versuche so wenige Bausteine wie möglich zu verwenden. Hinweis: Du kannst einen "Solange" Baustein in einem "Wiederholen" Baustein benutzen.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Weil ich Überstunden mache und es deshalb draußen schon dunkel ist, kann ich nicht erkennen wie groß die Häufen sind. Jetzt habe ich nicht alle Optionen, die ich sonst beim "solange"-Baustein hatte. Bewege mich am Feld entlang und wenn dort ein Haufen ist, dann entferne ihn.'
         maze_karel_1_11: 'Es ist immer noch dunkel draußen. Bewege mich am Feld entlang. Wenn dort ein Haufen ist, dann entferne ihn. Ist dort jedoch ein Loch, dann fülle es auf. Hinweis: verwende das Aufklappmenü des "wenn"-Bausteins.'
         turtle_2_1: "Hallo. Mich Zombie Künstler. Mich lieben zeichnen! Hilf mir ein Quadrat in einer besonderen Farbe zu zeichnen. Wichtiger Hinweis: du hast die gleichen Bausteine, aber sie wurden jetzt in Kategorien sortiert."

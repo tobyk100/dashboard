@@ -156,21 +156,21 @@
       settings: "My account"
       prizes: "Prizes"
       logout: "Sign out"
-      signin: "Sign in"
-      signup: "Sign up"
+      signin: "登入"
+      signup: "登記"
     popup:
-      progress: "Your progress"
+      progress: "您的進度"
       lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
+      close: "關閉"
+      mastery: "觀念"
+      puzzle_map: "階段"
       prizes: "Collect all %{total_trophies} trophies and win prizes!"
       prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prizes_link: "more info"
+      prizes_link: "更多資訊 "
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
+      one: "你的老師是 %{名字}"
+      other: "你的老師："
     tools: "Teacher Tools"
     students:
       manage: "Manage students"
@@ -222,14 +222,16 @@
     teacher_prize_earned:
       subject: "Redeem your prize at Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Redeem your bonus prize at Code.org!"
+      subject: "贖回你在 Code.org 的額外獎勵 ！"
   reference_area:
-    title: "Need help?"
-    subtitle: "See these videos and hints"
+    title: "需要幫忙嗎？"
+    subtitle: "看看這些影片和提示"
   video:
-    tab: "Video."
-    notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
+    tab: "影片"
+    notes: "沒有視頻嗎？顯示注釋。"
+    autoplay_option: "自動播放影片"
   compatability:
-    working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    working: "我們正在支援您的瀏覽器。"
+    upgrade: "請升級您的瀏覽器。"
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

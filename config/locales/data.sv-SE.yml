@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: "grundskolekurs: Introduktion till Datavetenskap"
-        Hour of Code: "Timmen med Kod"
-        Edit Code: "Redigera kod"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labyrinten"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Konstnären"
+        Unplug4: "Algorithms"
         Artist2: "Konstnären 2"
+        Unplug5: "Functional"
         Farmer: "Bonden"
+        Unplug6: "Conditionals"
         Artist3: "Konstnären 3"
+        Unplug7: "Song Writing"
         Farmer2: "Bonden 2"
+        Unplug8: "Abstraction"
         Artist4: "Konstnären 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Bonden 3"
+        Unplug10: "The Internet"
         Artist5: "Konstnären 5"
-        MazeEC: "Konstnären"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Brons"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Ta bort alla högarna med jord med så få block som möjligt. De nya alternativen i rullgardinsmenyn på "medan"-blocket berättar för mig om jag står på en hög eller hål.'
         maze_karel_1_7: "Wow, jag har hittat ett riktigt djupt hål! Jag vet inte hur många spadar med jord som krävs. Kan du skriva ett program som fyller det tills marken jämn?"
         maze_karel_1_8: "Hjälp mig fylla i hålet i slutet av åkern med så få block som möjligt."
-        maze_karel_1_9: 'Få mig att ta bort alla högarna med jord. Försök att använda så få block som möjligt. Tips: använd ett "medan"-block inuti ett "Upprepa"-block.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Jag jobbar sent, så det är mörkt ute och jag kan inte se hur stora högar är. Nu har jag inte alla alternativen som jag hade innan på "medan"-blocket. Flytta runt mig på åkern och om det finns en hög, ta bort den.'
         maze_karel_1_11: 'Det är fortfarande mörkt ute. Flytta runt mig på åkern. Om det finns en hög, ta bort den, och om det finns ett hål, fyll det. Tips: Använd rullgardinsmenyn på "om"-blocket.'
         turtle_2_1: "Hej. Jag zombie konstnär. Jag älskar rita! Hjälp mig att rita en fyrkant i en speciell färg. Obs: du har fortfarande samma block men de har nu blivit ordnade i kategorier."

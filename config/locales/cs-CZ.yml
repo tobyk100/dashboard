@@ -232,3 +232,5 @@
   compatability:
     working: "Pracujeme na podpoře pro tvůj prohlížeč."
     upgrade: "Aktualizuj si svůj prohlížeč."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

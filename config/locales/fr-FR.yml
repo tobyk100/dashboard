@@ -232,3 +232,5 @@
   compatability:
     working: "Nous sommes en train de travailler pour le support de votre navigateur."
     upgrade: "Veuillez mettre à jour votre navigateur."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

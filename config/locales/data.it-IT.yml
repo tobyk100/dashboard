@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Introduzione K-8 al corso di informatica
-        Hour of Code: "Ora di programmazione"
-        Edit Code: "Modifica il codice"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Il labirinto"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "L'artista"
+        Unplug4: "Algorithms"
         Artist2: "L'artista 2"
+        Unplug5: "Functional"
         Farmer: "Il contadino"
+        Unplug6: "Conditionals"
         Artist3: "L'artista 2"
+        Unplug7: "Song Writing"
         Farmer2: "Il contadino 2"
+        Unplug8: "Abstraction"
         Artist4: "L'artista 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Il contadino 3"
+        Unplug10: "The Internet"
         Artist5: "L'artista 5"
-        MazeEC: "L'artista"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronzo"
@@ -91,8 +116,7 @@
         maze_karel_1_6: 'Rimuovere tutti i mucchi di sporcizia, utilizzando il minor numero di blocchi possibili. Le nuove opzioni nel menu a discesa sul blocco "mentre" mi dicono se sto in piedi su un mucchio o un foro.'
         maze_karel_1_7: "Wow, ho trovato un buco davvero profondo! Non so quante badilate di sporco ha bisogno. Riesci a scrivere un programma che lo riempie fino a quando il terreno è uniforme?"
         maze_karel_1_8: "Aiutami a riempire il foro all'estremità del campo, utilizzando il minor numero possibile dii blocchi possibili."
-        maze_karel_1_9: |-
-          Fammi rimuovere tutti questi mucchi di sporcizia. Provare a utilizzare il minor numero possibile di blocchi. Suggerimento: è possibile utilizzare un blocco "mentre" all'interno di un blocco di "ripeti".
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "Sto lavorando tardi, quindi è buio fuori, e non posso dire quanto grande sono i mucchi. Ora non ho tutte le opzioni che avevo sul blocco mentre. Muovimi lungo il campo e se c'è un mucchio, rimuoverlo."
         maze_karel_1_11: |-
           È ancora buio fuori. Muovimi lungo il campo. Se c'è un mucchio, rimuoverlo e se c'è un buco, riempirlo. Suggerimento: utilizzare il menu a discesa delle opzioni sul blocco "se".

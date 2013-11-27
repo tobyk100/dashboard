@@ -234,3 +234,5 @@
   compatability:
     working: "Vi arbetar för stöd till din webbläsare."
     upgrade: "Du måste uppgradera din webbläsare."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

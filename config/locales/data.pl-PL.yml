@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Wprowadzający kurs z informatyki dla uczniów szkoły podstawowej i gimnazjum
-        Hour of Code: "Godzina kodowania"
-        Edit Code: "Edytuj kod"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "Labirynt"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "Artysta"
+        Unplug4: "Algorithms"
         Artist2: "Artysta 2"
+        Unplug5: "Functional"
         Farmer: "Rolnik"
+        Unplug6: "Conditionals"
         Artist3: "Artysta 3"
+        Unplug7: "Song Writing"
         Farmer2: "Rolnik 2"
+        Unplug8: "Abstraction"
         Artist4: "Artysta 4"
+        Unplug9: "Relay Programming"
         Farmer3: "Rolnik 3"
+        Unplug10: "The Internet"
         Artist5: "Artysta 5"
-        MazeEC: "Artysta"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Brąz"
@@ -25,12 +50,12 @@
     concept:
       description:
         sequence: "Sekwencja"
-        if: 'blok "jeśli"'
-        if_else: "blok If-else"
+        if: "blok jeśli"
+        if_else: "blok jeśli-w przeciwnym razie"
         loop_times: "blok powtarzaj ileś razy"
-        loop_until: "blok powtarzania dopóki"
+        loop_until: "blok powtarzaj dopóki"
         loop_while: "blok dopóki"
-        loop_for: "blok zliczania"
+        loop_for: "blok licznika"
         function: "Funkcje"
         parameters: "Funkcje z parametrami"
     level:
@@ -48,16 +73,16 @@
         maze_2_10: "Ok, ostatni raz na próbę - czy potrafisz rozwiązać tę łamigłówkę używając jedynie 4 bloków?"
         maze_2_11: "Droga osobo. Ja zombie. Ja głodny. Muszę... dostać się... do słonecznika... Czy potrafisz mnie tam przeprowadzić używając zaledwie 5 bloków?"
         maze_2_12: "Ok, to jest podobne, ale jednak trochę inne. Czy potrafisz rozwiązać zadanie używając zaledwie 5 bloków?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
+        maze_2_13: 'Użyj nowego bloku "if", abym mógł zdecydować kiedy mam się obrócić. Wskazówka: potrzebujesz do tego tylko jednego dodatkowego bloku, ale przyjrzyj się jak to skonstruowaliśmy, abyś następnym razem potrafił zrobić to sam.'
+        maze_2_14: 'Ok, ta łamigłówka jest podobna do poprzedniej, ale tym razem musisz pamiętać jak należy użyć bloków "if" i "repeat" razem.'
+        maze_2_15: 'Ja chcieć słonecznik! Użyj bloku "if", abym mógł się tam dostać przy pomocy jak najmniejszej liczby bloków.'
+        maze_2_16: "Ok, zróbmy to jeszcze raz dla praktyki - ta łamigłówka niewiele się różni od poprzedniej, ale uważaj na chompery!"
+        maze_2_17: 'Bloki "if-else" sprawdzają warunek i wtedy wykonują pierwszą czynność LUB drugą. Spróbuj doprowadzić mnie do słonecznika przy użyciu tego nowego bloku.'
+        maze_2_18: 'Jeszcze jedno ćwiczenie z bloków "if-else". Czy potrafisz użyć ich prawidłowo przy pierwszym podejściu?'
+        maze_2_19: "Czy potrafisz dodać 3 bloki, by pomóc mi przejść bardziej skomplikowany labirynt? Jeśli zrobisz to prawidłowo, to będę mógł przejść każdą krętą ścieżkę bez względu na jej długość."
+        turtle_1_1: "Witaj, jestem artystą. Pisząc kod możesz sprawić, że narysuję niemalże wszystko. Użyj kilku bloków, abym zaczął rysować ponad szarymi liniami na obrazku."
+        turtle_1_2: 'A teraz narysuj kwadrat. Wskazówka: użyj swojego ulubionego koloru, wybierz go z nowego bloku "ustaw kolor".'
+        turtle_1_3: "Zrób kwadrat używając jedynie 3 bloków."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
@@ -88,7 +113,7 @@
           Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
         maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
         maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: you can use a "while" block inside a "repeat" block.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.

@@ -225,3 +225,5 @@
   compatability:
     working: "Kami sedang berusaha menyokong pelayar anda."
     upgrade: "Sila naik taraf pelayar anda."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

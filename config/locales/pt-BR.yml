@@ -45,7 +45,7 @@
     need_confirmation: "Não recebeu as instruções de confirmação?"
     need_unlock: "Não recebeu as instruções de desbloqueio?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
+    pitch: "Vá além de 1 hora - inscreva-se em nosso Curso de 20 Horas"
     title: "Inscreva-se"
     school_name: "Nome da escola (opcional)"
     school_address: "Endereço da escola (opcional)"
@@ -232,3 +232,5 @@
   compatability:
     working: "Estamos trabalhando no suporte para seu navegador."
     upgrade: "Por favor, atualize seu navegador."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

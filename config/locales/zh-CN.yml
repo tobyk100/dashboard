@@ -229,3 +229,5 @@
   compatability:
     working: "我们在努力加入对你的浏览器的支持。"
     upgrade: "请升级你的浏览器。"
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

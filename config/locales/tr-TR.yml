@@ -231,3 +231,5 @@
   compatability:
     working: "Tarayıcı desteği üzerinde çalışıyoruz."
     upgrade: "Lütfen tarayıcınızı yükseltin."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

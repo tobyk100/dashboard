@@ -230,3 +230,5 @@
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."
     upgrade: "Silakan upgrade browser Anda."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

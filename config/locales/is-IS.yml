@@ -233,3 +233,5 @@
   compatability:
     working: "Við erum að vinna í stuðningi við vafrann sem þú notar."
     upgrade: "Vinsamlegast uppfærðu vafrann þinn."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

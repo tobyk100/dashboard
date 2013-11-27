@@ -234,3 +234,5 @@
   compatability:
     working: "お使いのブラウザーのサポートに取り組みちゅうです。"
     upgrade: "お使いのブラウザーをアップグレードしてください。"
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

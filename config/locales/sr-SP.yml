@@ -232,3 +232,5 @@
   compatability:
     working: "Радимо на потпори за твој претраживаћ."
     upgrade: "Молимо набавите савременији претраживаћ."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

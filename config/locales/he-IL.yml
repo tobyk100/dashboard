@@ -234,3 +234,5 @@
   compatability:
     working: "אנחנו עובדים על תמיכה עבור הדפדפן שלך."
     upgrade: "אנא שדרג את הדפדפן."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

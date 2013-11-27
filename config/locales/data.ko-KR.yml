@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: K-8 학생들에 대한 컴퓨터과학 기초 코스
-        Hour of Code: "Hour of Code"
-        Edit Code: "Edit Code"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "The Maze"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "The Artist"
+        Unplug4: "Algorithms"
         Artist2: "The Artist 2"
+        Unplug5: "Functional"
         Farmer: "The Farmer"
+        Unplug6: "Conditionals"
         Artist3: "The Artist 3"
+        Unplug7: "Song Writing"
         Farmer2: "The Farmer 2"
+        Unplug8: "Abstraction"
         Artist4: "The Artist 4"
+        Unplug9: "Relay Programming"
         Farmer3: "The Farmer 3"
+        Unplug10: "The Internet"
         Artist5: "The Artist 5"
-        MazeEC: "The Artist"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronze"
@@ -84,7 +109,7 @@
         maze_karel_1_6: '최대한 적은 블럭을 사용해 모든 흙더미를 제거시켜줘. "while" 블럭에서 오른쪽 클릭 해서 메뉴를 선택하면 내가 흙더미 위에 있는지, 구덩이 위에 있는지 알 수 있게 되.'
         maze_karel_1_7: "와! 진짜 깊은 구덩이를 발견했어! 이 구덩이를 메꾸려면 몇 번 삽질해야 할 지 모르겠어. 구덩이가 다 메꾸어 질 때까지, 흙을 채우는 프로그램을 만들 수 있겠어?"
         maze_karel_1_8: "블럭을 최대한 적게 사용해서, 밭의 끝에 있는 구멍을 메꿀 수 있게 도와줘."
-        maze_karel_1_9: '모든 흙더미를 없앨 수 있도록 도와줘. 블럭을 최대한 적게 사용하도록 해. 힌트: "repeat" 블럭 안에서 "while" 블럭을 사용할 수 있다.'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: '너무 늦게까지 일했네.. 너무 어두워 져서 흙더미가 어디 어디에 있는지 잘 모르겠어. 그런데 "while" 블럭에서 사용할 수 있었던 옵션들 중에 일부만 사용할 수 있네. 내가 밭을 가로 질러 가면서, 흙더미가 있으면 없앨 수 있게 도와줘.'
         maze_karel_1_11: '아직도 어두워. 밭을 가로질러 가면서, 흙더미가 있으면 없애고, 구덩이가 있으면 채울 수 있게 도와줘. 힌트: "if" 블럭에서 오른쪽 클릭하면 추가 메뉴가 나타남.'
         turtle_2_1: "안녕. 나는 예술가 좀비야. 그림 그리는 걸 좋아해! 원하는 색으로 사각형을 그릴 수 있게 도와줘. 중요: 이전에 사용했던 블럭들을 사용할 수 있지만, 분류되어 있다."

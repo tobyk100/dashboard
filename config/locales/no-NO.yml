@@ -45,7 +45,7 @@
     need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
     need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
+    pitch: "Fortsett etter en time - meld deg på vårt 20-timers kurs"
     title: "Meld deg på"
     school_name: "Skolens navn (valgfritt)"
     school_address: "Skolens adresse (valgfritt)"
@@ -232,3 +232,5 @@
   compatability:
     working: "Vi arbeider med å lage støtte for din nettleser."
     upgrade: "Vennligst oppgrader din nettleser."
+  slow_loading: "This is taking longer than usual..."
+  try_reloading: "Try reloading the page"

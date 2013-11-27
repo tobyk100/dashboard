@@ -2,21 +2,46 @@
   data:
     script:
       name:
-        20-hour: Introdução ao curso de ciência da computação até ao 3º ciclo
-        Hour of Code: "Hora de Código"
-        Edit Code: "Editar código"
+        20-hour:
+          desc: "K-8 Intro to Computer Science Course"
+          Maze: "Stage 1"
+          Artist: "Stage 2"
+          Artist2: "Stage 3"
+          Farmer: "Stage 4"
+          Artist3: "Stage 5"
+          Farmer2: "Stage 6"
+          Artist4: "Stage 7"
+          Farmer3: "Stage 8"
+          Artist5: "Stage 9"
+        Hour of Code:
+          desc: "Hour of Code"
+          Maze: "Stage 1"
+        Edit Code:
+          desc: "Edit Code"
+          MazeEC: "Stage 1"
     game:
       name:
+        Unplug1: "Introduction to Computer Science"
         Maze: "O Labirinto"
+        Unplug2: "Computational Thinking"
+        Unplug3: "Graph Paper Programming"
         Artist: "O Artista"
+        Unplug4: "Algorithms"
         Artist2: "O Artista 2"
+        Unplug5: "Functional"
         Farmer: "O Agricultor"
+        Unplug6: "Conditionals"
         Artist3: "O Artista 3"
+        Unplug7: "Song Writing"
         Farmer2: "O Agricultor 2"
+        Unplug8: "Abstraction"
         Artist4: "O Artista 4"
+        Unplug9: "Relay Programming"
         Farmer3: "O Agricultor 3"
+        Unplug10: "The Internet"
         Artist5: "O Artista 5"
-        MazeEC: "O Artista"
+        Unplug11: "Wrap-up"
+        MazeEC: "The Maze"
     trophy:
       name:
         Bronze: "Bronze"
@@ -84,7 +109,7 @@
         maze_karel_1_6: 'Remove todos os montes de terra, usando o mínimo de blocos quanto possível. As novas opções no menu pendente do bloco "enquanto" dizem-me se estou em cima do monte ou do buraco.'
         maze_karel_1_7: "Uau, eu encontrei um buraco muito fundo! Não sei quantas pazadas de terra serão precisas. Podes escrever um programa que o encha até que o chão fique liso?"
         maze_karel_1_8: "Ajuda-me a preencher o buraco no final do campo, usando o menor número de blocos quanto possível."
-        maze_karel_1_9: 'Faz-me remover todos estes montes de terra. Tenta usar o mínimo de blocos quanto possível. Dica: podes usar um bloco "enquanto" dentro de um bloco "repetir".'
+        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: 'Estou a trabalhar até tarde e como tal está muito escuro e eu não consigo saber o tamanho dos montes de terra. Agora não tenho todas as opções que eu costumava ter no bloco "enquanto". Move-me ao longo do campo e se houver um monte de terra, remove-o.'
         maze_karel_1_11: 'Ainda está escuro lá fora. Move-me ao longo do campo. Se houver um monte, remove-o e se houver um buraco, preenche-o. Dica: usa o menu pendente de opções no bloco "se".'
         turtle_2_1: "Olá. Eu artista zombie. Eu adoro desenhar! Ajuda-me a desenhar um quadrado numa cor especial. Nota importante: continuas a ter os mesmos blocos, mas eles agora foram organizados em categorias."
