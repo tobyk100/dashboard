@@ -231,11 +231,7 @@ class ActivitiesController < ApplicationController
     end
     log_string += "\t#{request.remote_ip}\t#{params[:app]}\t#{params[:level]}\t#{params[:result]}" +
                   "\t#{params[:testResult]}\t#{params[:time]}\t#{params[:attempt]}\t#{params[:lines]}"
-    if level_source.present?
-      log_string += "\t#{level_source.id.to_s}"
-    else
-      log_string += "\t"
-    end
+    log_string += level_source.present? ? "\t#{level_source.id.to_s}" : "\t"
     log_string += "\t#{request.user_agent}"
     
     milestone_logger.info log_string
