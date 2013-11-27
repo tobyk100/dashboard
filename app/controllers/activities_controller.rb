@@ -1,6 +1,5 @@
 class ActivitiesController < ApplicationController
   include LevelsHelper
-  include ApplicationHelper
 
   protect_from_forgery except: :milestone
   check_authorization except: [:milestone]
