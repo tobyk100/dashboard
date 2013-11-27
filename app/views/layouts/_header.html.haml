@@ -20,23 +20,25 @@
                 - script = @script || Script.twenty_hour_script
                 - count = @game.levels.count
                 - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
+                - multiple_puzzles = game_levels.count > 1
 
                 .header_text
-                  -if (script.multiple_games?)
-                    #{data_t_suffix('script.name', script.name, @game.name)}:
-                  = t(:puzzle)
-                - game_levels.each do |sl|
-                  %a{href:build_script_level_path(sl)}
-                  - passed = level_passed({user: current_user, user_level: sl.user_level, level_id: sl.level_id})
+                  - if (script.multiple_games?)
+                    #{data_t_suffix('script.name', script.name, @game.name)+(multiple_puzzles ? ':' : '')}
+                  = t(:puzzle) if multiple_puzzles
+                - if multiple_puzzles
+                  - game_levels.each do |sl|
+                    %a{href:build_script_level_path(sl)}
+                    - passed = level_passed({user: current_user, user_level: sl.user_level, level_id: sl.level_id})
 
-                  - if sl.level_id == @script_level.level_id
-                    .level_current_header{class:"level_highlight"}
-                      = @script_level.game_chapter
-                  - elsif (sl.game_chapter == count)
-                    %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
-                      = count
-                  - else
-                    %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                    - if sl.level_id == @script_level.level_id
+                      .level_current_header{class:"level_highlight"}
+                        = @script_level.game_chapter
+                    - elsif (sl.game_chapter == count)
+                      %a.level_highlight{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
+                        = count
+                    - else
+                      %a.other_level{class:passed ? "level_aced" : "level_undone", href:build_script_level_path(sl)}
                 - if script.hoc?
                   .header_separator
                   .header_finished_link

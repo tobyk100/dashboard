@@ -110,8 +110,8 @@ function showVideo(options) {
     marginLeft: ($div.width() / -2) + 'px'
   });
 
-  var tabHeight = $div.find('.ui-tabs-nav').height();
-  $(video).height($div.height() - tabHeight);
+  var tabHeight = $div.find('.ui-tabs-nav').outerHeight();
+  $(video).height($div.innerHeight() - tabHeight);
 }
 
 function embed_thumbnail_image(data) {

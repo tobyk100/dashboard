@@ -1,5 +1,14 @@
 - @page_title = "#{data_t('game.name', @game.name)} ##{@script_level.try(:game_chapter) || @level.level_num} "
 
+#notes-content{:style => 'display: none;'}
+  %ul
+    %li
+      %a{:href => '#video'}
+        = I18n.t('video.tab')
+        %span.video-name
+    %li
+      %a{:href => '#notes'}= I18n.t('video.notes')
+
 - if @game.app == 'unplug'
   = render partial: "levels/unplug", locals: { app: @game.app }
 - else
