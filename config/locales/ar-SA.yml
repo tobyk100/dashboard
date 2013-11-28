@@ -32,6 +32,7 @@
   demos: "المشرف: "
   continue: "أستمر"
   prize: "جائزة"
+  more_info: "More info"
   auth:
     sign_in_with: "تسجيل الدخول باستخدام %{provider}"
     signed_in: "تم تسجيل الدخول!"
@@ -45,8 +46,10 @@
     need_confirmation: "لم استلم تعليمات تأكيد الحساب؟"
     need_unlock: "لم أستلم تعليمات فتح الحساب؟"
   signup_form:
-    pitch: "بعد اتمامك ساعة واحدة من البرمجة بامكانك التسجيل في الدروس التعليمية لمدة 20 ساعة"
-    title: "تسجيل"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "اسم المدرسة (اختياري)"
     school_address: "عنوان المدرسة (اختياري)"
     address_placeholder: "العنوان، المدينة، الدولة، الرمز البريدي"
@@ -216,6 +219,7 @@
     feedback: "توفير التغذية الرجعية"
     translate: "ساعدنا على ترجمة لغتك"
     tos: "شروط الخدمة"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "استبدال الجائزة الخاصة بك في Code.org!"
@@ -233,5 +237,5 @@
   compatability:
     working: "نحن نعمل على دعم متصفح الأنترنت الخاص بك."
     upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "هذا اخذ وقتا اطول من المعتاد..."
+  try_reloading: "حاول اعادة تحميل الصفحة"

@@ -32,6 +32,7 @@
   demos: "Yönetici: Tüm Demolar"
   continue: "Devam"
   prize: "ödül"
+  more_info: "More info"
   auth:
     sign_in_with: "%{provider} ile giriş yapın"
     signed_in: "Giriş yapıldı!"
@@ -45,8 +46,10 @@
     need_confirmation: "Onay talimatlarını almadınız mı?"
     need_unlock: "Kilit açma talimatlarını almadınız mı?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Kaydol"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Okul Adı (isteğe bağlı)"
     school_address: "Okul Adresi (isteğe bağlı)"
     address_placeholder: "adres, şehir, eyalet, posta kodu"
@@ -214,6 +217,7 @@
     feedback: "Geri besleme sağla"
     translate: "Kendi dilinize çevirmek bize yardım edin"
     tos: "Hizmet Şartları"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Ödülünüzü Code.org'ta bozdurun!"

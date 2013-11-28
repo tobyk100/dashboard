@@ -32,6 +32,7 @@
   demos: "Admin: Alla Demos"
   continue: "Fortsätt"
   prize: "pris"
+  more_info: "More info"
   auth:
     sign_in_with: "Logga in med %{provider}"
     signed_in: "Inloggad!"
@@ -45,8 +46,10 @@
     need_confirmation: "Har du inte fått bekräftelseinstruktioner?"
     need_unlock: "Har du inte fått instruktioner för att låsa upp?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Registrera dig"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Skolans namn (valfritt)"
     school_address: "Skolans adress (valfritt)"
     address_placeholder: "adress, stad, län, postnummer"
@@ -217,6 +220,7 @@
     feedback: "Ge feedback"
     translate: "Hjälp oss översätta till ditt språk"
     tos: "Användarvillkor"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Lös in ditt pris hos Code.org!"

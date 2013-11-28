@@ -32,6 +32,7 @@
   demos: "Administrar: Todas as Demonstrações"
   continue: "Continuar"
   prize: "prêmio"
+  more_info: "More info"
   auth:
     sign_in_with: "Inscreva-se com %{provider}"
     signed_in: "Inscrito!"
@@ -45,8 +46,10 @@
     need_confirmation: "Não recebeu as instruções de confirmação?"
     need_unlock: "Não recebeu as instruções de desbloqueio?"
   signup_form:
-    pitch: "Vá além de 1 hora - inscreva-se em nosso Curso de 20 Horas"
-    title: "Inscreva-se"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Nome da escola (opcional)"
     school_address: "Endereço da escola (opcional)"
     address_placeholder: "logradouro, cidade, estado, CEP"
@@ -215,6 +218,7 @@
     feedback: "Fornecer feedback"
     translate: "Ajude-nos a traduzir para o seu idioma"
     tos: "Termos de serviço"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Resgate seu prêmio no Code.org!"
@@ -232,5 +236,5 @@
   compatability:
     working: "Estamos trabalhando no suporte para seu navegador."
     upgrade: "Por favor, atualize seu navegador."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Isto está levando mais tempo do que o habitual..."
+  try_reloading: "Tente recarregar a página"

@@ -32,6 +32,7 @@
   demos: "管理者： 全部のデモ"
   continue: "続行しますか？"
   prize: "賞を受賞"
+  more_info: "More info"
   auth:
     sign_in_with: "%{provider} を使用してサインインします。"
     signed_in: "ログイン ！"
@@ -45,8 +46,10 @@
     need_confirmation: "確認イーメイルが来ませんでしたか？"
     need_unlock: "ロックを解除をするインストラクションとど来ましたか？"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "入会"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "学校名 (省略可能)"
     school_address: "学校の住所（オプションです）"
     address_placeholder: "住所、市、県、郵便番号"
@@ -217,6 +220,7 @@
     feedback: "フィードバックを提供します。"
     translate: "あなたの言語に翻訳をお手伝い"
     tos: "サービス利用規約"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Code.org であなたの賞品を交換 ！"
@@ -234,5 +238,5 @@
   compatability:
     working: "お使いのブラウザーのサポートに取り組みちゅうです。"
     upgrade: "お使いのブラウザーをアップグレードしてください。"
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "通常よりも長くかかっている..."
+  try_reloading: "ページを再読み込みしてみてください。"

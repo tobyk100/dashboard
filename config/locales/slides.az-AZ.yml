@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "Birinci kod saatınıza xoş gəldiniz! Proqramlaşdırmanın ilk ləzzətini çıxartmağa baş vuraq."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: 'Kod yazmaq üçün blokları sürükləyib buraxacağınız bir vizual proqramlaşdırma dili olan "Blockly"dən ("Blokli") istifadə edəcəyik.'
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'Proqram kodu çox vaxt yazılır, lakin "Blockly" vizualdır. Hər bir blok "həqiqi" kodun bir sətrinə uyğun gəlir.'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Siz informatikanın əsaslarını, telefon üçün proqram yazmaqdan tutmuş Marsda özüyeriyən aparatları idarə etməyə qədər hər yerdə istifadə olunan anlayışları öyrənəcəksiniz."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Proqram kompüterinizin əməl etməsi üçün əmrlər çoxluğudur."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "İlk proqramınızın məqsədi Acıqlı Quşu labirintdən keçirməkdir ki, Yaşıl Donuzu vursun."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "Ekranın sol tərəfində proqramınızın icra olunduğu labirint yerləşir. Hər tapmaca üçün təlimatlar labirintin aşağısında verilir."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "Ekranın ortasındakı alətlər qutusunda Acıqlı Quş üçün əmrlər yerləşir. Öz kodunuzu qurmaq üçün onlardan istifadə edəcəksiniz."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "Sağınızda sizin iş sahənizdir. Burada, siz, alətlər qutusundan blokları seçməklə öz proqramınızı yaradacaqsınız. Bloku pozmaq üçün, bloku küncdəki zibil qutusuna sürükləyiniz."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Hər blok bir göstərişdir. "İrəli get" blokunu iş sahənizə sürükləyib "Proqramı icra et"i bassanız, quş labirintdə bir xana irəliləyər.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "Birdən çox əməliyyatı yerinə yetirməkdən ötəri, siz bir çox bloku öz iş yerinizə sürüklüyə bilər və onları bir-birlərinə qoşa bilərsiniz. Quş bu əməliyyatları yuxarıdan aşağıya doğru ardıcıllıqla yerinə yetirəcəkdir."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Əgər bir proqramı icra edirsiniz və onu düzəldib yenidən cəhd etmək istəyirsinizsə, "Yenidən başla" düyməsini basın.'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "Haydı, gedək, o donuzların dərsini verək!"
     artist_intro:
       1:
@@ -50,73 +50,73 @@
         text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Salam, mən Markam! Gəlin, dövrləri öyrənək. Dövrlərdən istifadə edərək siz kompüterə tapşıra bilərsiniz ki, istənilən əmrlər çoxluğunu dəfələrlə, neçə min, hətta neçə milyard dəfə təkrar etsin."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "Bu tapmacada quşu 5 mövqe irəli hərəkət etdirərək onun donuzu tutmağını istəyirik."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'Biz köməklik üçün yeni "təkrar et" blokundan istifadə edə bilərik.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: '5 "irəli get" blokundan istifadə etməkdənsə...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'Biz "təkrar et" blokunun içərisində "irəli get" bloku yerləşdirə və bu blokda təkrarlanmaların sayını bildirmək üçün bir ədəd daxil edə bilərik.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Bunu bilmək vacibdir: siz "təkrar et" blokunun daxilində birdən çox əmr yerləşdirə bilərsiniz.'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'Yeni "təkrar et" blokunuzu istifadə etməyin dadını çıxardın!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Salam, mənim adım Krisdir. "Miami Heat" komandasına qoşulmazdan əvvəl mən Corciya Texnologiya İnstitutunda İnformatika oxumuşam. Gəlin, yeni blokumuzu sınaqdan keçirək, "təkrar et, ona qədər ki" blokunu.'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "Bəs əgər biz quşun donuza çatması üçün nə qədər yerdəyişmə etməli olduğunu bilməsək necə?"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'Əgər biz "təkrar et, o vaxta qədər ki" blokunun daxilində "irəli get" blokunu yerləşdirsək quş donuza çatana (və ya divara dəyənə) QƏDƏR irəli gedəcək.'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'Bunu bilmək vacibdir: daha əvvəldə olduğu kimi,  biz "təkrar et, o vaxta qədər ki" blokunun daxilində bir neçə blok yerləşdirə bilərik. Bu zaman onların hər biri təkrar olunacaqdır.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: 'Salam, mən Billəm! Gəlin, yeni bir təməl anlayışı öyrənək: "əgər" ifadələri. Kompüterlər qərarları belə onların köməyi ilə verir.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: 'Siz özünüz də gündəlik həyatda "əgər" ifadəsindən istifadə edirsiniz. Hər gün çölə çıxmazdan əvvəl siz deyirsiniz ki, ƏGƏR çöldə yağış yağırsa mən pencəyimi geyinməliyəm.'
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "Biz zombiyə deyə bilərik ki, yoxlasın ƏGƏR sola yol var varmı və əgər o sol yol taparsa biz onu həmin istiqamətə döndərə bilərik."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'Bunun kodunu yazmaq üçün gəlin "əgər" blokunu dartaq və onun daxilinə "sola dön" bloku yerləşdirək.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'İndi biz bunun aşağısına "irəli get" bloku yerləşdirsək və hamısını "təkrar et" blokunun daxilinə atsaq, onda hər dəfə zombi yerdəyişmə etdikdə o, sol yolun olub-olmamasını yoxlayacaq və əgər varsa dönəcək. Burada "təkrar et" əmri hər addımda yoxlanış üçün vacibdir.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: '"Əgər" ifadələri informatikada həqiqətən də vacib yer tutur. Yazdığım ilk proqramlardan biri "tik-tak-to" oyunu idi və orada bir "əgər" ifadəsi var idi ki, deyirdi: ƏGƏR rəqib oyunu udmağa yaxındrısa, ona qalib gəlmək imkanı verən xananı bağla.'
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: '"Əgər" blokunu istifadə etməyin kefini çıxardın!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'Salam, mənim adım Salonidir. İnformatikadan səhiyyə və tibbdəki məsələləri həll etmək üçün istifadə edirəm. Gəlin, "əgər, əks halda" blokunu öyrənək. Bu, "əgər" blokuna oxşayır, amma axırında "əks halda" söyləyən əlavə bir hissəsi var.'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: 'Əgər mən "İrəli get" blokunu "et" deyilən yerə və "sola dön" blokunu "əks halda" yerə qoysam, bu zombinin 2 seçimdən birini yerinə yetirəcəyini bildirir. Əgər zombinin qarşısında yol varsa, o zaman zombi irəliləyəcəkdir, və ƏKS HALDA(qarşısında irəliləməyə yer yoxdur), zombi sola dönəcəkdir.'
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: '"Əgər" bloku kimi, biz "təkrar et" bloklarının daxilinə "əgər əks halda" bloklarını elə qoya bilərik ki, zombi irəliləməkdə davam etsin və "əgər əks halda" bloku hərəkət etdikcə hər hansı bir yerə döngə olub olmadığını yoxlasın.'
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "İndi bu zombiləri olmalı olduqları yerə aparın!"
     function:
       1:
@@ -136,16 +136,16 @@
         text: "Qeydləri göstərmək imkanı tezliklə olacaq!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Təbrik edirik! Axırıncı tapmacanı həll etməklə elə kod yazdınız ki, İSTƏNİLƏN robota budaqlanmayan istənilən uzunluqda bir labirint və ya tunneldə öz yolunu necə tapacağını söyləyə bilər, onun bir zombi, quş, Marsda özüyeriyən aparat, yaxud hətta bir sürücüsüz avtomatik minik maşını olmasından asılı olmayaraq."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: 'Sizin istifadə etmiş olduğunuz əsas anlayışlar sizin baxa biləcəyiniz hər bir proqramın və ya tətbiqetmənin ürəyidir. Biz "təkrar et", "təkrar et, o vaxta qədər ki", "əgər" və "yoxsa əgər" ifadələrini öyrəndik.'
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "İlk kod saatınızı bəyəndinizsə, infromatika təhsilinizi davam etdirmək üçün code.org ünvanına baş çəkin! Bizim 20 saatlıq kursumuzu başa vurduqdan sonra proqramlaşdırmanın əsaslarını mənimsəyib, telefonlar üçün proqramlar, robotlar üçün əmrlər, oyunlar, ürəyiniz istəyən hər şeyi necə yazmağı öyrənməyə başlaya bilərsiniz."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "Texnologiya bizim bütün hərəkətlərimizi dəyişir və fərqi yoxdur, siz cavan yaxud yaşlı olsanız da proqramlaşdırma əyləncəlidir, yaradıcılıqdır və hər kəs onu öyrənə bilər!"
     20_wrapup:
       1:

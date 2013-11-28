@@ -32,6 +32,7 @@
   demos: "Admin: Toate demo-urile"
   continue: "Continuă"
   prize: "premiu"
+  more_info: "More info"
   auth:
     sign_in_with: "Loghează-te cu %{provider}"
     signed_in: "Înregistrat!"
@@ -45,8 +46,10 @@
     need_confirmation: "Nu ai primit instrucţiuni de confirmare?"
     need_unlock: "Nu ai primit instrucţiunile de deblocare?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Inregistrează-te"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Numele şcolii (opţional)"
     school_address: "Adresa şcolii (opţional)"
     address_placeholder: "adresă, oraş, județ, cod poștal"
@@ -215,6 +218,7 @@
     feedback: "Oferă feedback"
     translate: "Ajută-ne să  traducem în limba ta"
     tos: "Termeni de utilizare a serviciului"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Revendică-ți premiul la Code.org!"

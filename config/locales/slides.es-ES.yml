@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "¡Bienvenido a la primera hora del código! Vamos a sumergirnos bien en su primera experiencia de programación."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "Usaremos Blockly, un lenguaje de programación visual donde puedes arrastrar y soltar bloques para escribir código."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'La mayoría del código se escribe a mano, en cambio Blockly es visual. Cada bloque corresponde a una línea de código "real".'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Aprenderás los fundamentos de la informática, los conceptos que se utilizan en cualquier lugar, desde hacer aplicaciones hasta controlar el Mars rover."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Un programa es un conjunto de instrucciones seguidas por tu computadora."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "El objetivo de tu primer programa es guiar un Angry Bird a través de un laberinto para golpear al cerdo verde."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "El lado izquierdo es el laberinto donde se ejecuta el programa. Las instrucciones para cada rompecabezas están debajo del laberinto."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "La barra de herramientas del medio contiene los comandos para el Angry Bird. Puedes usarlos para construir tu código."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "A la derecha está tu área de trabajo donde podrás arrastrar los bloques del cuadro de herramientas para construir tu programa. Para eliminar un bloque, arrástralo a la papelera que se encuentra en la esquina."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Cada bloque es una instrucción. Si arrastras el bloque "avanzar" a tu espacio de trabajo y oprimes el botón "Correr Programa", el pájaro se mueve una casilla en el laberinto.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "Para hacer más de una acción, puedes arrastrar muchos bloque a tu espacio de trabajo y unirlos. El pájaro ejecutará los comandos de arriba hacia abajo."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Si ejecutas un programa y quieres arreglarlo e intentar de nuevo, presiona el botón "Reiniciar".'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "Vamos por esos cerdos!"
     artist_intro:
       1:
@@ -50,73 +50,73 @@
         text: "¡Mostrar notas estará disponible pronto!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Hola, soy Mark! Aprendamos acerca de las iteraciones. Usando iteraciones puedes decirle a una computadora que repita una y otra vez cualquier conjunto de acciones, miles o incluso millones de veces."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "En este puzzle, queremos que el pájaro se mueva hacia adelante 5 espacios para llegar al cerdo."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'Podemos usar el nuevo bloque "repetir" para ayudarnos.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'En lugar arrastrar 5 bloques "avanzar"...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'Podemos poner el bloque "avanzar" dentro del bloque "repetir" y escribir un número en el bloque para decirle cuántas veces debe repetirse.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Y esto es importante: puedes poner más de un comando dentro de un bloque "repetir".'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: '¡Disfruta usando tu nuevo bloque "repetir"!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Hola, soy Chris. Antes de unirme a los Miami Heat, fui a Georgia Tech a estudiar Ciencias de la Computación. Vamos a probar nuestro nuevo bloque, el bloque "repetir hasta".'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "¿Qué sucedería si no supiéramos cuanto debía moverse el pájaro para llegar al cerdo?"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'Si ponemos un bloque "avanzar" dentro del bloque "repetir hasta" , el pájaro avanzará HASTA que alcance al cerdo (o choque con una pared).'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'Y esto es importante; así como antes, podemos poner múltiples bloques dentro del bloque "repetir hasta" y todo ello se repetirá.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: '¡Hola, soy Bill! Aprendamos un nuevo concepto fundamental: las declaraciones "si". A través de ellas las computadoras toman decisiones.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: 'Tu mismo usas "sí", "If", declaraciones diariamente.  Antes de salir afuera cada mañana, dices "sí", "IF", lloviera afuera, yo me pondria una capa.'
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "Podemos decirle al zombie que compruebe si hay un camino a la izquierda, y si encuentra un camino a la izquierda, podemos hacerlo girar en esa dirección."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'Para escribir el código para esto, vamos a sacar nuestro bloque "si" y colocaremos un bloque "dobla a la izquierda" en su interior.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'Ahora, si ponemos un bloque "avanzar" arriba de este, y un bloque "repetir" alrededor de todo, cada vez que el zombie se mueva, el comprobara si hay un camino a la izquierda y girara. El comando "repetir" es critico, para comprobar una vuelta en cada paso.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: 'Las declaraciones "si" son muy importantes en las ciencias de la computación. Uno de los primeros programas que escribí era un juego de tic-tac-toe, y había una declaración "Si" que decía que si la otra persona está a punto de ganar, bloquea el lugar que le permite ganar.'
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: '¡Diviértate cuando usas el bloque "if"!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'Hola, mi nombre es Saloni. Yo uso la informática para ayudar a resolver problema de salud y medicina. Vamos a aprender acerca del bloque "si otro". Se parece al bloque "si", pero tiene una parte extra al fina que dice "otro".'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: 'Si pongo el bloque "avanzar" in el lugar donde dice "hacer" y un bloque "doblar a la izquierda" donde dice "otro" significa que el zombie va a elegir entre dos opciones. Si hay un camino adelante, el zombie va a avanzar, y SINO (no hay un camino adelante), el zombie va a doblar hacia la izquierda.'
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: 'Al igual que el bloque "if", podemos poner bloques "si entonces" dentro de un bloque "repetir" para que el zombie siga moviéndose y el bloque "si entonces" continuará comprobando si hay un lugar para girar.'
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "Ahora, coloquemos a esos zombies donde pertenecen!"
     function:
       1:
@@ -136,16 +136,16 @@
         text: "¡Mostrar notas estará disponible pronto!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "¡Felicidades! Con el último puzzle resuelto, acabas de escribir código que puede decir a cualquier robot cómo encontrar su camino a través de un laberinto sin ramificación o túnel de cualquier longitud, no importa si es un zombie, un pájaro, un rover de Marte o incluso un coche sin conductor."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: 'Los conceptos básicos que utilizaste son el corazón de cualquier programa o aplicación que encuentres.  Aprendimos acerca de iteraciones, las declaraciones "repetir hasta", las declaraciones "si" y las "si entonces".'
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "Si te gustó tu primera hora del código, visita code.org para continuar tu educación en Ciencias de la Computación. Una vez que completes nuestro curso de 20 horas, habrás dominado los fundamentos de la programación y podrás empezar a aprender cómo escribir aplicaciones para teléfonos, instrucciones para robots, juegos, o lo que quieras."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "La tecnología está cambiando todo lo que hacemos y no importa si eres joven o viejo: la programación es divertida, es creativa, y cualquier persona puede aprenderla!"
     20_wrapup:
       1:

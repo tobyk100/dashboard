@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "Introduksjon til Informatikk for barne-og ungdomsskolen"
+          Maze: "Trinn 1"
+          Artist: "Trinn 2"
+          Artist2: "Trinn 3"
+          Farmer: "Trinn 4"
+          Artist3: "Trinn 5"
+          Farmer2: "Trinn 6"
+          Artist4: "Trinn 7"
+          Farmer3: "Trinn 8"
+          Artist5: "Trinn 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Kodetimen"
+          Maze: "Trinn 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Forandre kode"
+          MazeEC: "Trinn 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Introduksjon til informatikk"
         Maze: "Labyrinten"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Programmeringstenkning"
+        Unplug3: "Millimeterpapirprogrammering"
         Artist: "Kunstneren"
-        Unplug4: "Algorithms"
+        Unplug4: "Algoritmer"
         Artist2: "Kunstneren 2"
-        Unplug5: "Functional"
+        Unplug5: "Funksjonell"
         Farmer: "Bonden"
-        Unplug6: "Conditionals"
+        Unplug6: "Betingelser"
         Artist3: "Kunstneren 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Låtskriving"
         Farmer2: "Bonden 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Abstraksjon"
         Artist4: "Kunstneren 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Relé-programmering"
         Farmer3: "Bonden 3"
-        Unplug10: "The Internet"
+        Unplug10: "Internett"
         Artist5: "Kunstneren 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Pakke opp"
+        MazeEC: "Labyrinten"
     trophy:
       name:
         Bronze: "Bronse"
@@ -109,7 +109,7 @@
         maze_karel_1_6: 'Fjern alle jordhaugene ved å bruke så få blokker som mulig. De nye innslagene i nedtrekksmenyen til "så lenge"-blokken forteller meg om jeg står på en haug eller over et hull.'
         maze_karel_1_7: "Wow, jeg en skikkelig dypt hull! Jeg aner ikke hvor mange spadetak med jord det rommer. Kan du lage et program som fyller det helt til bakken er flat?"
         maze_karel_1_8: "Hjelp meg med å fylle hullet ved enden av åkeren, ved å benytte så få blokker som mulig."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'La meg fjerne alle disse haugene med møkk. Prøv å bruke så få blokker som mulig. Tips: Prøv å bruke en "så lenge"-blokk.'
         maze_karel_1_10: 'Jeg jobber så sent at det er mørkt ute og jeg kan ikke se hvor store jordhaugene er. Nå har jeg ikke lenger alle mulighetene jeg hadde før med "så lenge"-blokken. Flytt meg langs åkeren, og hvis jeg støter på en jordhaug, fjern den.'
         maze_karel_1_11: 'Det er fremdeles mørkt ute. Flytt meg langs åkeren. Hvis jeg støter på en jordhaug, fjern den. Hvis jeg støter på et hull, fyll det. Tips: bruk nedtrekksmenyen på "hvis"-blokken.'
         turtle_2_1: "Hei. Meg zombie artist. Meg elsker å tegne! Hjelpe meg med å tegne en firkant med en spesiell farge. Viktig informasjon: du har tilgang til de samme blokkene, men nå er de omorganisert i kategorier."

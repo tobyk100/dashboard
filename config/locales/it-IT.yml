@@ -32,6 +32,7 @@
   demos: "Amminstratore: Tutte le dimostrazioni"
   continue: "Prosegui"
   prize: "Premio"
+  more_info: "More info"
   auth:
     sign_in_with: "Accedi usando %{provider}"
     signed_in: "Sei entrato!"
@@ -45,8 +46,10 @@
     need_confirmation: "Non ha ricevuto istruzioni di conferma?"
     need_unlock: "Non hai ricevuto istruzioni di sblocco?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Registrati"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Nome della scuola (facoltativo)"
     school_address: "Indirizzo della scuola (facoltativo)"
     address_placeholder: "Indirizzo, città, stato, CAP"
@@ -215,6 +218,7 @@
     feedback: "Fornisci un feedback"
     translate: "Aiutaci a tradurre nella tua lingua"
     tos: "Termini di servizio"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Redimere il tuo premio presso Code.org!"

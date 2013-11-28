@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "Vítej u tvé první Hodiny kódu! Pojďme se ponořit do pravého programování."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "Bedeme používat Blockly, vizuální programovaní jazyk, kde píšeš kód pomocí skládání bloků dohromady."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'Většina kódů je psaná, ale Blockly je vizuální. Každá blok odpovídá jednomu řádku "skutečného" kódu.'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Naučíš se základy informatiky, která existuje všude; od různých aplikací po řízení vozítka Mars rover."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Program je sada instrukcí pro počítač, kterými se řídí."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "Cílem tvého prvního programu je dostat Angry Bird skrz bludiště k Zelenému praseti."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "Na levé straně je bludiště, kde program bude běžet. Instrukce pro každou hádanku budou pod bludištěm."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "Prostřední panel obsahuje příkazy pro Angry Bird. Právě s těmito poskládáš tvůj kód."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "Na pravo je tvá pracovní plocha, kde budeš skládat program pomocí bloků z panelu. Pro smazání bloku, přetáhni daný blok do koše v rohu."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Každý blok je jeden příkaz. Pokud dáš blok "posunout vpřed" na pracovní plochu a stiskneš "Spustit program", pták v bludišti se posune o jedno políčko .'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "Pro provedení více jak jedné akce, můžeš dát na pracovní plochu několik bloků a spojit dohromady. Pták se jimi bude řídit od zhora dolů."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Pokud spustíš program a chceš ho opravit a zkusit znovu, klikni klikni na tlačítko "obnovit".'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "Pojďme dostat ty prasata!"
     artist_intro:
       1:
@@ -50,80 +50,77 @@
         text: "Zobrazení poznámek teprve bude!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Ahoj, jsem Mark! Seznámím tě se smyčkami. Pomocí smyček můžeš říct počítači, aby opakoval nastavené akce znovu a znovu; stokrát či i milionkrát."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "V této hádance chceme, aby se pták posunul vpřed o 5 políček, aby dostal prase."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'V tom nám pomůže nový blok "opakovat".'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'Místo používání 5 bloků "posunout vpřed"...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'Můžeme dát pouze jeden blok "posunout vpřed" do bloku "opakovat" a do něj napsat číslo, které řekne, kolikrát to má opakovat.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Tohle je taky důležité: můžeš do bloku "opakovat" dát i více než jeden příkaz.'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'Užij si používání nového bloku "opakovat"!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Čau, jsem Chris. Před mou kariérou v Miami Heat, jsem chodil studovat informatiku na Georgia Tech. Pojďme spolu zkusit nový blok "Opakovat do".'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "Co kdybychom nevěděli, jak daleko se musíme posunout, abychom dostali to prase?"
       3:
-        image: "notes/hoc3_3.png"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        image: "notes/hoc3_3.jpg"
+        text: 'Pokud vložíme blok "jdi vpřed" do bloku "opakuj až do", pták se bude posouvat vpřed až do chvíle, dokud nenarazí na prasátko (nebo do zdi).'
       4:
-        image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        image: "notes/hoc3_4.jpg"
+        text: 'Toto je důležité: stejně jako před tím, můžeme vložit skupinu bloků do "opakuj až do" bloku a všechny tyto bloky se budou opakovat.'
     if:
       1:
-        image: "notes/hoc4_1.png"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        image: "notes/hoc4_1.jpg"
+        text: 'Ahoj, já jsem Bil. Pojďte se naučit nový základní příkaz: "pokud" příkaz. Tento příkaz používají počítače k rozhodování.'
       2:
-        image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        image: "notes/hoc4_2.jpg"
+        text: 'Příkaz "pokud" používáte každý den. Ještě než jdete ráno ven, říkáte si: "Pokud venku prší, budu potřebovat pláštěnku.'
       3:
-        image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        image: "notes/hoc4_3.jpg"
+        text: "Můžeme přikázat zombie, aby ověřila, jestli je vlevo cesta a pokud ano, můžeme ji otočit tímto směrem."
       4:
-        image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        image: "notes/hoc4_4.jpg"
+        text: 'Pro zapsání do kódu, posuňte blok "pokud" a vložte do něj blok "otočit vlevo".'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: |-
           Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: 'Bav se při používání bloků "pokud"!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: |-
           Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: |-
           If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: |-
           Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "Now, get those zombies where they belong!"
     function:
       1:
@@ -143,16 +140,16 @@
         text: "Zobrazení poznámek teprve bude!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
     20_wrapup:
       1:

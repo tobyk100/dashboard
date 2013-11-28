@@ -25,18 +25,18 @@
       failure: '由于"%{原因}"无法验证您属于%{类型}"。'
       success: "成功从 %{类型}帐户 通过身份验证。"
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password was changed successfully. You are now signed in."
-      updated_not_active: "Your password was changed successfully."
+      no_token: "没有密码重置电子邮件，您不能访问此页面。如果你有密码重置电子邮件，请确保你使用了完整URL。"
+      send_instructions: "您将收到一封有关如何重置你的密码的电子邮件。"
+      send_paranoid_instructions: "如果你的电子邮件地址在我们的数据库中，你将在几分钟内收一个含有密码恢复链接的电子邮件。"
+      updated: "你的密码已经更改成功。现在是已登录状态。"
+      updated_not_active: "你的密码已经更改成功。"
     registrations:
       destroyed: "再见 ！您的帐户已被成功取消。我们希望不久能再次见到您。"
       signed_up: "欢迎您 ！您已注册成功。"
       signed_up_but_inactive: "您已注册成功。然而因为您的帐户尚未被激活, 我们尚无法让您登录。"
       signed_up_but_locked: "您已注册成功。然而因为您的帐户已被锁定, 我们尚无法让您登录。"
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      signed_up_but_unconfirmed: "一封带有确认链接的邮件已被发送到您的电子邮件地址。请点击链接来激活您的帐户。"
+      update_needs_confirmation: "你已经成功更新了你的账户，但我们需要验证您的新电子邮件地址。请检查您的电子邮件，并单击确认链接来确认您的新电子邮件地址。"
       updated: "您已成功更新您的帐户。"
     sessions:
       signed_in: "成功登入。"
@@ -44,14 +44,14 @@
     unlocks:
       send_instructions: "您将在几分钟之内收到一封关于如何解锁您的帐户的电子邮件,。"
       send_paranoid_instructions: "如果您的帐户存在，您将在几分钟内收到一封关于如何解锁的电子邮件。"
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      unlocked: "你的账户已经被成功解除锁定。请登录以继续。"
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      already_confirmed: "已经验证，请登录"
+      confirmation_period_expired: "需要在%{period}内被确认，请发送一个新的请求"
       expired: "已过期，请申请一个新"
       not_found: "找不到"
       not_locked: "未被锁定"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "发生了1个错误，%{resource}无法被保存："
+        other: "发生了%{count}个错误，%{resource}无法被保存："

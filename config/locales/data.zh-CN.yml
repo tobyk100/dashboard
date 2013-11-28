@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "K-8 计算机科学课程简介"
+          Maze: "第一阶段"
+          Artist: "第二阶段"
+          Artist2: "第三阶段"
+          Farmer: "第四阶段"
+          Artist3: "第五阶段"
+          Farmer2: "第六阶段"
+          Artist4: "第七阶段"
+          Farmer3: "第八阶段"
+          Artist5: "第九阶段"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "一小时编程"
+          Maze: "第一阶段"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "编辑代码"
+          MazeEC: "第一阶段"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "计算机科学导论"
         Maze: "迷宫"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "计算性思维"
+        Unplug3: "方格纸编程"
         Artist: "艺术家"
-        Unplug4: "Algorithms"
+        Unplug4: "算法"
         Artist2: "艺术家 2"
-        Unplug5: "Functional"
+        Unplug5: "函数"
         Farmer: "农夫"
-        Unplug6: "Conditionals"
+        Unplug6: "条件语句"
         Artist3: "艺术家 3"
-        Unplug7: "Song Writing"
+        Unplug7: "歌曲写作"
         Farmer2: "农民 2"
-        Unplug8: "Abstraction"
+        Unplug8: "抽象化"
         Artist4: "艺术家 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "编程接力"
         Farmer3: " 农夫3"
-        Unplug10: "The Internet"
+        Unplug10: "互联网"
         Artist5: "艺术家 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "总结"
+        MazeEC: "迷宫"
     trophy:
       name:
         Bronze: "铜色"
@@ -109,7 +109,7 @@
         maze_karel_1_6: "删除所有的土堆，尽可能使用尽量少的块。在”当“块的下拉菜单中有新的选项，它能告诉我现在是否站在一个土堆或一个洞上。"
         maze_karel_1_7: "哇，我发现一个很深的洞 ！我不知道它需要多少铲子的土。您能不能编一个程序，往洞里填土直到地面被填平？"
         maze_karel_1_8: "用尽量少的块帮我把田地那边的洞填平。"
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: "请尝试用尽可能少的块来移除所有的土堆。提示：请尝试使用‘while'块"
         maze_karel_1_10: "我工作的太晚了，外面天都黑了。我没办法知道那些土堆有多大了。所以”当“块上的某些选项消失了。把我挪到田地的另一头，如果遇到一个土堆，就移除它。"
         maze_karel_1_11: "外面还是一片漆黑。让我移动到田地的另一边。如果遇到一个土堆，就移除它。相对的，如果遇到一个洞，就填平他。提示：你可以使用”如果“块的下拉菜单中的选项。"
         turtle_2_1: "你好。我是僵尸艺术家。我喜欢画画 ！帮我画一个有颜色的正方形。说明： 现在你可以用的块都被放在了目录里了。"
@@ -135,40 +135,42 @@
         maze_karel_2_10: "我要走到田地的另一边，用这两个函数帮我来移除所有的土堆并且填充所有的洞。"
         turtle_3_1: '我们在这个谜题里给了你两个函数，"画一个正方形"和"画一个圆"，的定义。只是定义一个函数是不会运行其中的块的。你必须拖出来"画一个正方形"块才能让它画一个正方形给你。'
         turtle_3_2: "用”画一个正方形“作为例子，创建一个新的函数，”画一个三角形“，并使用它。"
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        turtle_3_3: "在猫周围画一个三角形围栏，然后在牛周围画一个四方形围栏。提示：请边做边测试"
+        turtle_3_4: "你能否使用“画一个正方形”和“画一个三角形”（和其他一些块）来在狮子周围画一座房子？"
+        turtle_3_5: '现在创建一个新的"画房子"函数，使用它来圈住两只猫。提示： 使用"做点什么"块创建一个新的函数，并给它命名。'
+        turtle_3_6: '以"画一个正方形"为例，给"画一个三角形"加一个“长度”变量。然后画出不同大小的三角形。（提示： 请单击星星标志来为一个函数添加变量)'
+        turtle_3_7: "为“画房子”函数添加一个“长度”变量。给大象建一所大房子（边长150像素）"
+        turtle_3_8: "这儿是之前那道谜题用到的全部的块。编辑“画房子”函数，使得最后一笔落在右下角。用这个编辑过的函数画三个房子。"
+        turtle_3_9: "你能在不看帮助的情况下自己重新创建“画房子”函数吗？试试看！然后画一排房子。"
+        turtle_3_10: "你已经学会了很多东西了！试着用他们画任何你想画的图案。试着画一颗星星，一个螺旋或者一片好看的雪花。"
+        maze_karel_debug_seq_1: "欢迎来到代码调试环节！我的代码不能正常工作。你能研究并且解决一下这个问题吗？我想要把地面铲平以便种植作物。"
+        maze_karel_debug_seq_2: "这段程序错在哪里？你应该怎么修改才能让我移除那块土堆？"
+        maze_karel_debug_repeat: "帮我调试一下这段程序。我希望我的地看起来很平整。"
+        maze_karel_debug_while: |
+          怎么修改这段程序才能帮我填上这个洞？
+          
+          
+        maze_karel_debug_if: "求助！请调试这段程序使得我的地完全平整。"
+        maze_karel_debug_if_else: "请调试这段程序，使得我能把洞填上并且移除所有的土堆。"
+        maze_karel_debug_function_1: "你应该怎么修改这段程序才能够帮我移除所有的土堆呢？"
+        maze_karel_debug_function_2: "你能调试一下这段程序来帮助我铲平我的地吗？"
+        maze_karel_debug_function_3: "请编辑这段程序来使得我能够移除地上所有的土堆。"
+        turtle_5_1: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        turtle_5_2: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        turtle_5_3: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        turtle_5_4: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        turtle_5_5: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        turtle_5_6: "请尝试运行此程序，并进行更改，看看会发生什么。你能弄清楚它是如何工作的吗？（或者你可以把这段程序删掉并且重写成其他任何你想要的程序）"
+        maze_3_1: "我想要抓住那只猪！输入几个 move(); 语句，我就可以拿回我的蛋了。"
+        maze_3_2: "给我写一个程序，让我能够到达那只猪。"
+        maze_3_3: "我怎样才能抓住那只猪？小心别让我撞上TNT炸弹！"
+        maze_3_4: "写个程序，让我绕过那些TNT炸药，抓住那只猪。"
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: "要解决这个谜题，试试找找其中重复的部分。用一个”重复“块，并在里面里面放上三个块：向前，向前，右转。"
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: "你需要放一个”如果“块在”重复“块里。如果你忘记了怎么做，重新试试上一题，看看你是怎么做的。"
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: "要解决这个谜题，试试找找其中重复的部分。用一个”重复“块，并在里面里面放上三个块：向前，向前，右转。"
     video:
       name:
         maze_intro: "迷宫简介"

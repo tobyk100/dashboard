@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "Welkom bij je eerste uur code! We duiken direct je eerste ontmoeting met programmeren in."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "We zullen Blockly gebruiken, een visuele programmeertaal waar je met drag-en-drop code schrijft."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'De meeste code wordt ingetypt, maar Blockly is visueel. Ieder blok komt overeen met een "echte" regel code.'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Je zal de basis van informatica leren. Deze concepten worden overal gebruikt, van apps voor je mobiele telefoon tot het besturen van de Mars-lander."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Een programma is een reeks instructies die de computer opvolgt."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "Het doel van je eerste programma is om een Angry Bird door een doolhof te krijgen om een Groen Varken te raken."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "De linkerkant is het doolhof waar je programma in draait. De opdrachten voor iedere puzzel staan onder het doolhof."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "De middelste toolbox heeft de opdrachten voor de Angry Bird. Deze gebruik je om je code op te bouwen."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "Aan de rechterkant heb je je werkruimte waar je blokken uit je toolbox heen sleept om je programma op te bouwen. Om een blok te verwijderen sleep je het naar de prullenbak in de hoek."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Ieder blok is een opdracht. Wanneer je een "vooruit"-blok naar je werkruimte sleept en op "Voer Programma Uit" klikt, dan beweegt de vogel een stapje in het doolhof.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "Om meer dan een actie uit te voeren, kun je meerder blokken naar je werkruimte slepen en ze aan elkaar plakken. De vogel zal de opdrachten van boven naar beneden uitvoeren."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Wanneer je een programma uit hebt gevoerd en het wil repareren en opnieuw beginnen, klik je op de "Opnieuw"-knop.'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "We zullen dit varkentje wel eens wassen!"
     artist_intro:
       1:
@@ -50,75 +50,75 @@
         text: "Ondertiteling komt eraan!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Hallo, ik ben Mark! We gaan leren over lussen. Met lussen kun je een computer vertellen om een reeks acties telkens te herhalen, duizenden of zelfs miljarden keren."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "In deze puzzel willen we de vogel 5 vakjes naar voren laten bewegen om het varken te krijgen."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'We kunnen het nieuwe "herhaal"-blok gebruiken om ons te helpen.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'In plaats van 5 "vooruit"-blokken hierheen te slepen...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'We kunnen een "vooruit"-blok in het "herhalen"-blok zetten en een getal in het blok zetten om aan te geven hoe vaak het moet herhalen.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Dit is belangrijk: je kunt meer dan een commando in een "herhalen"-blok zetten.'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'Veel plezier met je nieuwe "herhalen"-blok!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Hallo, ik ben Chris. Voordat ik bij Miami Heat ging basketballen heb ik in Amerika Informatica gestudeerd. We gaan nu ons nieuwe blok uitproberen: het "herhalen totdat"-blok.'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "Wat moeten we doen als we niet weten hoe ver de vogel moet bewegen om het varken te krijgen?"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'Wanneer we een "vooruit"-blok binnen een "herhalen totdat"-blok zetten, dan gaat de vogel vooruit TOT het bij het varken komt (of tegen een muur aanloopt).'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'En dit is belangrijk: net als eerder, kunnen we meerdere blokken binnen het "herhalen totdat" blok zetten, en zij zullen allemaal worden herhaald.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: 'Hallo, ik ben Bill! We gaan een fundamenteel nieuw concept leren: "Als"-statements. Zo maken computers beslissingen.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: |-
           Je gebruikt zelf ook dagelijks "Als"-statements. Voor je 's-ochtends naar buiten gaat, zeg je: ALS het regent, dan moet ik mijn regenjas aan.
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "We kunnen de zombie vertellen dat ALS er een pad naar links is, hij die richting op moet draaien."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'Om hier de code voor te schrijven slepen we ons "Als"-blok naar het midden en stoppen we er een "linksaf"-blok in.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'Als we er nu een "vooruit"-blok boven zetten en een "herhalen"-blok om alles heen, dan kijkt de zombie iedere keer als hij beweegt of hij naar een pad naar links kan draaien. Het "herhalen"-commando is belangrijk om te zorgen dat hij iedere stap kijkt of er een pad is.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: |-
           "Als"-statements zijn heel belangrijk in de informatica. Een van de eerste programma's die ik heb geschreven was een boter-, kaas- en eieren-spelletje, en er was een "Als"-statement dat zei dat ALS de ander bijna ging winnen, ik het vakje waarmee hij zou winnen in ging pikken.
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: 'Veel plezier met het "Als"-blok!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'Hallo, ik heet Saloni! Ik gebruik informatie om problemen met gezondheid en medicatie op te lossen. Laten we leren over het "als dan"-blok. Het ziet eruit als het "als"-blok, maar met een extra "dan"-stukje.'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: 'Als ik een "vooruit"-blok zet bij "uitvoeren" en een "linksaf"-blok bij "anders" dan betekent dat dat de zombie kan kiezen uit 2 opties: ALS er een pad vooruit is dan gaat de zombie vooruit, ANDERS (als er geen pad vooruit is) dan draait de zombie naar links.'
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: 'Net als het "als"-blok kunnen we "als anders"-blokken in een "herhalen"-blok zetten zodat de zombie blijft bewegen en het "als anders"-blok blijft kijken of hij kan draaien.'
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "Stuur die zombies naar waar ze horen!"
     function:
       1:
@@ -138,16 +138,16 @@
         text: "Ondertiteling komt eraan!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Gefeliciteerd! Met die oplossing voor de laatste puzzel heb je net code geschreven die IEDERE robot kan vertellen hoe hij uit een doolhof zonder splitsingen moet komen, of het nu een zombie is, een vogel, een Mars-lander of zelfs een automatisch rijdende auto."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: 'De basisbegrippen die je hebt gebruikt zijn de kern van ieder programma of app die je gebruikt. We hebben geleerd over lussen, herhalings-statements, "als"-statements en "als anders"-statements.'
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "Als je je eerste uur code leuk vond, ga dan naar code.org om verder te gaan met je informatica-opleiding! Zogau je onze cursus van 20 uur klaar hebt, beheers je de grondbeginselen van het programmeren, en kun je beginnen te leren hoe je apps kunt maken voor mobiele telefoons, programma's voor robots, spelletjes, je kunt het zo gek niet bedenken."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "Technologie verandert alles wat we doen en of je nu jong of oud bent: programmeren is leuk, creatief, en iedereen kan het leren!"
     20_wrapup:
       1:

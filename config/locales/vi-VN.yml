@@ -32,6 +32,7 @@
   demos: "Admin: All Demos"
   continue: "Tiếp tục"
   prize: "giải thưởng"
+  more_info: "More info"
   auth:
     sign_in_with: "Đăng nhập bằng %{provider}"
     signed_in: "Đăng nhập!"
@@ -45,8 +46,10 @@
     need_confirmation: "Không nhận được hướng dẫn xác nhận?"
     need_unlock: "Didn't receive unlock instructions?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Đăng ký"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Tên trường (tùy chọn)"
     school_address: "Địa chỉ trường (tùy chọn)"
     address_placeholder: "địa chỉ, thành phố, tỉnh, mã bưu điện"
@@ -216,6 +219,7 @@
     feedback: "Cung cấp thông tin phản hồi"
     translate: "Giúp chúng tôi dịch sang ngôn ngữ của bạn"
     tos: "Điều khoản Dịch vụ"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Redeem your prize at Code.org!"

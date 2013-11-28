@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "Selamat datang ke hour of code pertama anda! Mari bersama ke dalam citarasa pengaturcaraan pertama anda."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "Kita akan menggunakan Blockly, bahasa pengaturcaraan visual di mana anda drag and drop blok untuk menulis kod."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'Kebanyakan kod ditaip, tetapi Blockly adalah visual. Setiap blok sepadan dengan baris kod "real".'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Anda akan mempelajari asas sains komputer, konsep yang digunakan di mana jua daripada membuat aplikasi hingga mengawal rover Marikh."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Program ialah suatu set arahan untuk diikuti oleh komputer anda."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "Matlamat program pertama ialah supaya Angry Bird dapat melalui maze untuk melanggar Green Pig."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "Sebelah kiri ialah maze di mana atur cara anda berjalan. Arahan untuk setiap berada di bawah maze."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "Toolbox tengah mempunyai perintah untuk Angry Bird. Anda akan menggunakannya ini untuk membina kod."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "Di sebelah kanan merupakan ruang kerja anda di mana anda akan menyeret blok dari toolbox untuk membina atur cara. Untuk menghapuskan satu blok, seretkan ke dalam bakul sampah di sudut."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Setiap blok adalah satu arahan. Jika anda seret blok "maju" untuk ruang kerja anda dan tekan "Menjalankan Program", burung itu akan bergerak satu ruang pada maze.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "Untuk melakukan lebih daripada satu tindakan, anda boleh seret banyak blok untuk ruang kerja anda dan sertakan mereka bersama-sama. Burung itu akan melakukan arahan dari atas ke bawah."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Jika anda menjalankan aturcara dan ingin membetulkan dan mencubanya lagi, tekan butang "Reset".'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "Mari dapatkan pig itu!"
     artist_intro:
       1:
@@ -50,75 +50,75 @@
         text: "Papar nota yang akan datang!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Hi, saya Mark! Mari belajar tentang gelung. Menggunakan gelung anda boleh memberitahu komputer untuk mengulangi mana-mana set tindakan berulang kali, beribu-ribu atau malah berbilion-bilion kali."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "Dalam puzzle ini, kita ingin menjadikan burung untuk bergerak 5 ruang untuk dapat sampai ke pig."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'Kita boleh gunakan "ulang" blok baru untuk bantu keluar.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'Berbanding mengheret keluar 5 "maju" blok...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'Kita boleh letak blok "maju" dalam blok "ulang" dan tulis nombor dalam blok untuk memberitahu berapa kali ulangan.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Ini adalah penting: anda boleh memasukan lebih dari satu arahan dalam blok "ulang".'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'Berseronok dengan menggunakan blok "ulang" baru anda!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Hi, saya Chris, sebelum menyertai Miami Heat, saya pergi ke Georgia Tech untuk belajar Sains Komputer. Mari cuba blok baru kita, blok "ulang hingga".'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "Apa kata jika kita tidak tahun sejauh mana burung itu perlu bergerak untuk dapat sampai kepada pig?"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'Jika kita letakkan "maju" dalam blok "ulang hingga", burung itu akan bergerak ke depan HINGGA ia mencapai pig (atau melanggar ke dinding).'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: 'Hai, saya Bill! Mari belajar konsep asas baru: Penyata "Jika". Ianya merupakan bagaimana komputer membuat keputusan.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: 'Anda sendiri menggunakan penyata "Jika" setiap hari. Sebelum anda pergi ke luar setiap pagi, anda kata JIKA hujan di luar, saya perlu pakai jaket saya.'
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "Kita boleh memberitahu zombie untuk menyemak jika terdapat laluan ke kiri, dan jika dia mendapati laluan di sebelah kiri, kita boleh membuatkan dia berpaling arah itu."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'Untuk menulis kod ini, mari kita mengheret blok "Jika" dan letakkan blok "belok kiri" di dalamnya.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'Sekarang, jika kita letakkan blok "gerak ke hadapan" di atas dan satu blok "ulang" disekeliling semua, zombie akan mengenalpasti  jika terdapat laluan untuk ke kiri atau ke kanan setiap kali dia bergerak. Arahan "ulang" adalah  kritikal untuk mengenal setiap belokan dalam langkah.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: "Penyata Jika adalah amat penting dalam sains komputer. Satu daripada program pertama yang saya tulis ialah permainan tic-tac-toe, dan terdapat penyata Jika yang menyatakan JIKA orang lain akan menang, block tempat yang membolehkan mereka menang."
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: 'Berseronok menggunakan blok "Jika"!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'Hai, nama saya Saloni. Saya menggunakan sains komputer untuk membantu menyelesaikan masalah dalam perubatan dan kesihatan. Mari belajar mengenai blok "jika selain". ianya kelihat seperti blok "jika", tetapi ianya mempunyai bahagian ekstra di penghujung yang menyatakan "selain".'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: |-
           If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: |-
           Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "Now, get those zombies where they belong!"
     function:
       1:
@@ -138,16 +138,16 @@
         text: "Show notes coming soon!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
     20_wrapup:
       1:

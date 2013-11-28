@@ -2,158 +2,152 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "欢迎来到你第一个小时的编程！让我们立刻开始吧。"
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "我们将使用Blockly，一个可视化编程语言。你只需要拖放块来进行编程。"
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: '大多数代码都是通过打字输入的，但Blockly是可视的。每个块对应于一行"真正的"代码。'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "你将会学习计算机科学的基础概念。这些概念广泛的应用于各个领域，从应用程序到控制火星车。"
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "一个程序是一组让计算机遵循的指令。"
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "您的第一个程序的目标是要让愤怒的小鸟通过一个迷宫去打绿色的猪。"
       7:
-        image: "notes/hoc1_7.png"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        image: "notes/hoc1_7.jpg"
+        text: "左边的迷宫是运行你的程序的地方。迷宫下面是每个谜题的说明。"
       8:
-        image: "notes/hoc1_8.png"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        image: "notes/hoc1_8.jpg"
+        text: "中间的工具栏里有愤怒的小鸟的命令。你将用他们来生成你的代码。"
       9:
-        image: "notes/hoc1_9.png"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        image: "notes/hoc1_9.jpg"
+        text: "在右边是你的工作区，你可以从工具栏里面把块拖到上面来编程。要删除一个块，将它拖到角落的垃圾箱里面。"
       10:
-        image: "notes/hoc1_10.png"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        image: "notes/hoc1_10.jpg"
+        text: "每个块对应一条命令。如果你把”向前移动“块拖到工作区，并按”运行程序“，这只小鸟将在迷宫里向前移动一步。"
       11:
-        image: "notes/hoc1_11.png"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        image: "notes/hoc1_11.jpg"
+        text: "你可以将许多块拖到工作区并把它们连接在一起，来让小鸟执行多个动作。小鸟会由上至下执行命令。"
       12:
-        image: "notes/hoc1_12.png"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        image: "notes/hoc1_12.jpg"
+        text: "如果你运行了一个程序，但是想要修改它再重试，按”重置“按钮。"
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "让我们去抓住那些猪!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "你好，我是马克 ！让我们来学习循环。通过使用循环你可以让计算机将任何一组动作不停重复, 直至数千或甚至几十亿次。"
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "在这个谜题中，我们想要将这只鸟向前移动 5个空格从而到达那只猪。"
       3:
-        image: "notes/hoc2_3.png"
-        text: 'We can use the new "repeat" block to help us out.'
+        image: "notes/hoc2_3.jpg"
+        text: "让我们使用新的”重复“块来帮我们走出迷宫。"
       4:
-        image: "notes/hoc2_4.png"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        image: "notes/hoc2_4.jpg"
+        text: "尝试不用5个”向前移动“块..."
       5:
-        image: "notes/hoc2_5.png"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        image: "notes/hoc2_5.jpg"
+        text: "我们可以在“重复”块里放入”向前移动“块，并且在上面写一个数字来告诉小鸟我们要重复多少次。"
       6:
-        image: "notes/hoc2_6.png"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        image: "notes/hoc2_6.jpg"
+        text: '这一点很重要： 你可以在"重复"块中放多个命令。'
       7:
-        image: "notes/hoc2_7.png"
-        text: 'Enjoy using your new "repeat" block!'
+        image: "notes/hoc2_7.jpg"
+        text: '试试看使用新的"重复"块吧！'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: '你好，我是克里斯。在加盟迈阿密热之前，我在乔治亚理工学院学习计算机科学。让我们试试我们新的块，在"重复直到"块。'
       2:
-        image: "notes/hoc3_2.png"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        image: "notes/hoc3_2.jpg"
+        text: "如果我们不知道小鸟要走多少步才能到达猪呢？"
       3:
-        image: "notes/hoc3_3.png"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        image: "notes/hoc3_3.jpg"
+        text: "如果我们在”重复直到“块里放一个”向前移动“块，小鸟会向前移动知道它抓到猪（或者撞上一堵墙）。"
       4:
-        image: "notes/hoc3_4.png"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        image: "notes/hoc3_4.jpg"
+        text: '这一点很重要： 就像之前，我们可以在"重复直到"块里放多个块，所有这些块都会被重复。'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: '你好，我是比尔！让我们来学习一个新的基本概念："判断"语句。计算机通过这个语句做决定。'
       2:
-        image: "notes/hoc4_2.png"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        image: "notes/hoc4_2.jpg"
+        text: '你每天都在使用"如果"语句。在你早上出门之前，你会想如果外面在下雨，我最好穿上我的夹克。'
       3:
-        image: "notes/hoc4_3.png"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        image: "notes/hoc4_3.jpg"
+        text: "我们可以让僵尸去检查左边是不是有路，而且如果他发现左边确实有路，我们就让他向左转。"
       4:
-        image: "notes/hoc4_4.png"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        image: "notes/hoc4_4.jpg"
+        text: '要编写这段代码，我们需要拖出一个"如果"块，并在里面放一个"左转"块。'
       5:
-        image: "notes/hoc4_5.png"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        image: "notes/hoc4_5.jpg"
+        text: '现在，如果我们在这段代码上面放一个"向前移动"的块，并且用一个"重复"块来包含住这段代码，每一次僵尸移动时候，他就会检查是否左边有路并且向左转。要做到每一步都进行这个检查，"重复"命令是关键。'
       6:
-        image: "notes/hoc4_6.png"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        image: "notes/hoc4_6.jpg"
+        text: "如果语句是计算机科学中非常重要的一种语句。我写的第一个程序是一个井字游戏，在里面，我使用了“如果”语句说，如果对方马上就要赢了，就在那个位置上打上自己的符号。"
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: '学习如何使用"判断"块'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        image: "notes/hoc5_1.jpg"
+        text: '你好，我的名字是 Saloni。我用计算机科学来帮助解决健康和医学上的问题。让我们来学习如何使用"如果其他"块。它看起来很像"如果"块，但它在结尾多出了一部分，"其他"。'
       2:
-        image: "notes/hoc5_2.png"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        image: "notes/hoc5_2.jpg"
+        text: "如果我把”向前移动“块放在写着”执行“的地方，并且把”左转“块放在写着”其他“的地方，这表明僵尸将会在这两者之间做一个选择。如果前面有路，僵尸就会往前走，否则（如果前面没有路），僵尸就会向左转。"
       3:
-        image: "notes/hoc5_3.png"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        image: "notes/hoc5_3.jpg"
+        text: "就想”如果“块一样，我可以把”如果其他“块放在”重复“块里面，这样僵尸就会在重复向前移动，并检查是不是有需要转弯的地方。"
       4:
-        image: "notes/hoc5_4.png"
-        text: "Now, get those zombies where they belong!"
+        image: "notes/hoc5_4.jpg"
+        text: "现在，让这些僵尸去他们应该去的地方吧！"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        image: "notes/hoc6_1.jpg"
+        text: "恭喜你！用你在上一个谜题当中写的程序，你可以让任何一个机器人（僵尸，小鸟，火星探测器，自动驾驶车），在任何一个无分支的迷宫里找到出去的路。"
       2:
-        image: "notes/hoc6_2.png"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        image: "notes/hoc6_2.jpg"
+        text: "你在这里所使用的基本概念是所有程序的核心。我们学习了重复循环语句，重复直到语句，如果语句，和如果其他语句。"
       3:
-        image: "notes/hoc6_3.png"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        image: "notes/hoc6_3.jpg"
+        text: "如果你很喜欢这一个小时的编程体验，欢迎访问 code.org 来继续你在计算机科学的学习！当你完成我们的20小时课程，你就熟练掌握了编程的基础，可以开始学习如何编写手机应用程序，机器人程序，游戏，随便你。"
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "技术正在改变我们所做的一切，而不管你是否年轻： 编程是一件很好玩、 很有创意的事，任何人都可以学习 ！"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "即将推出笔记版本！"

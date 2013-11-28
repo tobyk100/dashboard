@@ -27,11 +27,12 @@
   more: "DAHA ÇOX"
   less: "DAHA AZ"
   try_hoc: "Kod Saatında özünüzü sınayın, buraya klikləyin >> "
-  try_k8intro: "Və ya, bizim K-8 Kompüter Elmləri Kursuna Girişi (15-25 saat) sınayın"
+  try_k8intro: "Yaxud da bizim K-8 İnformatikaya Giriş kursunu (15-25 saat) sınaqdan keçirin"
   already_started: "Artıq başlamısınız? Burada davam edin >> "
   demos: "Admin: Bütün Demolar"
   continue: "Davam et"
   prize: "mükafat"
+  more_info: "More info"
   auth:
     sign_in_with: "%{provider} ilə daxil olun"
     signed_in: "Daxil oldunuz!"
@@ -45,8 +46,10 @@
     need_confirmation: "Təsdiq göstərişlərini almamisiniz?"
     need_unlock: "Kilidaçma göstərişlərini almamisiniz?"
   signup_form:
-    pitch: "1 saatdan daha ötəyə gedin - bizim 20 saatlıq kursumuza yazılın"
-    title: "Qeydiyyatdan keç"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Məktəbin Adı (vacib deyil)"
     school_address: "Məktəbin Adresi (vacib deyil)"
     address_placeholder: "adres, şəhər, vilayət, poçt indeksi"
@@ -215,6 +218,7 @@
     feedback: "Rəy verin"
     translate: "Sizin dilinizə tərcümə etməkdə bizə kömək edin"
     tos: "Xidmətin şərtləri"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: 'Mükafatınızı "Code.org"da xərcləyin!'
@@ -233,4 +237,4 @@
     working: "Biz sizin naviqatorun dəstəklənməsi üzərində işləyirik."
     upgrade: "Zəhmət olmasa, naviqatorunuzu yeniləyin."
   slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  try_reloading: "Səhifəni yenidən yükləməyə cəhd edin"

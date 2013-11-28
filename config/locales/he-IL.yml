@@ -32,6 +32,7 @@
   demos: "Admin: All Demos"
   continue: "המשך"
   prize: "פרס"
+  more_info: "More info"
   auth:
     sign_in_with: "היכנס באמצעות %{provider}"
     signed_in: "נכנסת!"
@@ -45,8 +46,10 @@
     need_confirmation: "לא קיבלת את אישור ההוראות?"
     need_unlock: "לא קיבלת את ההוראות הפתוחות?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "הירשם"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "שם בית הספר (אופציונלי)"
     school_address: "כתובת בית הספר (אופציונלי)"
     address_placeholder: "כתובת, עיר, מדינה, מיקוד"
@@ -217,6 +220,7 @@
     feedback: "משוב"
     translate: "עזרו לנו לתרגם לשפתך"
     tos: "תנאי השירות"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Redeem your prize at Code.org!"

@@ -32,6 +32,7 @@
   demos: "管理员： 所有演示"
   continue: "继续"
   prize: "奖品"
+  more_info: "More info"
   auth:
     sign_in_with: "用%{provider}登录"
     signed_in: "登陆成功！"
@@ -45,8 +46,10 @@
     need_confirmation: "没有收到确认的说明吗？"
     need_unlock: "没收到解锁指令吗？"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "登陆"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "学校名称 （可选）"
     school_address: "学校地址 （可选）"
     address_placeholder: "地址、 城市、 州、 邮编"
@@ -212,6 +215,7 @@
     feedback: "提供反馈"
     translate: "帮助我们翻译成你的语言"
     tos: "服务条款"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "领取你在 Code.org 的奖品！"
@@ -229,5 +233,5 @@
   compatability:
     working: "我们在努力加入对你的浏览器的支持。"
     upgrade: "请升级你的浏览器。"
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "请稍微多等一会..."
+  try_reloading: "请重新刷新页面"

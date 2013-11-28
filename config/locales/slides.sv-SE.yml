@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "Välkommen till din första timme med kod! Låt oss börja direkt med din första träff med programmering."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "Vi kommer använda Blocky, ett visuellt programmeringsspråk där du drar ut block och sätter ihop för att skriva kod."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: 'Kod är mestadels skriven med Blocky är visuellt. Varje block representerar en rad med "riktig" kod.'
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "Du kommer lära dig grunderna för datavetenskap, grunder som används för att göra allt från appar till instruktioner till marslandare."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "Ett program är en grupp instruktioner som din dator kommer följa."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "Målet för ditt första program är att få en Angry Bird genom en labyrint för att träffa en Grön Gris."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "Till vänster är labyrinten där ditt program kommer köra. Instruktionerna för varje puzzel kommer vara nedanför labyrinten."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "I mitten finns verktygslådan där alla kommandon för den Röda Fågeln finns. Du kommer använda de här för att sätta ihop din kod."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "Till höger är arbetsytan dit du ska dra block från verktygslådan för att sätta ihop ditt program. För att ta bort ett block, dra det till papperskorgen i hörnet."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'Varje block är en instruktion. Om du drar ett "gå framåt"-block till arbetsytan och trycker på "Kör programmet" så kommer fågeln gå ett steg fram i labyrinten.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "För att göra mer än en handling: dra mer än ett block till arbetsytan och sätta ihop dem. Då kommer fågeln göra uppgifterna från toppen till botten."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'Om du kör ett program men vill fixa det och försöka igen, tryck på knappen "Återställ".'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "Låt oss gå och få tag på grisarna!"
     artist_intro:
       1:
@@ -50,73 +50,73 @@
         text: "Visa textning kommer snart!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "Hej, är jag Mark! Låt oss lära oss om loopar. Med loopar kan du berätta för en dator att den ska upprepa en grupp med handlingar om och om igen, tusentals eller till och med miljarder gånger."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "I detta pussel vill vi få fågeln att gå 5 steg framåt för att komma till grisen."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'Vi kan använda det nya "Upprepa"-blocket för att klara det.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'Istället för att dra ut 5 "gå framåt"-block...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'Så kan vi sätta "gå framåt"-blocket inuti "upprepa"-blocket och skriva det nummer på blocket som representerar hur många gånger vi vill att handlingen ska upprepas.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'Och detta är viktigt: du kan sätta mer än en handling i ett "Upprepa"-block.'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'Lycka till med att använda ditt nya "upprepa"-block!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'Hej, är jag Chris. Innan jag gick med i Miami Heat, gick jag på Georgia Tech för att studera datavetenskap. Låt oss prova vårt nya block, "upprepa tills"-blocket.'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "Vad skulle hända om vi inte visste hur långt fågeln var tvungen att gå för att komma till grisen?"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'Om vi sätter ett "gå framåt"-block inuti "upprepa tills"-blocket så kommer fågeln att gå framåt TILLS den når grisen (eller kraschar in i väggen).'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'Och detta är viktigt: precis som tidigare, kan vi sätta flera block inuti blocket "upprepa tills", och de kommer alla att upprepas.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: 'Hej, är jag Bill! Låt oss lära oss ett nytt grundläggande koncept: "Om"-satser. Detta är hur datorer fatta beslut.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: 'Du använder "Om" uttalanden själv varje dag. Innan du går ut varje morgon, säger du OM det regnar ute,  behöver använda min jacka.'
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "Vi kan säga till zombien att kolla om det finns väg till vänster, och om han hittar en väg till vänster så ska han vända i den riktningen."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'För att skriva koden till detta: dra ut "om"-blocket och sätt ett "sväng vänster"-block inuti det.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'Om vi nu sätter en "gå framåt"-block ovanför det och en "upprepa"-block runt allt så kommer zombien varje gång den går kolla om det finns en väg till vänster och i så fall svänga. "Upprepa"-blocket är viktigt för annars skulle zombien bara ta ett steg.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: '"Om"-satser är väldigt viktigt i programmering. Ett av det första spelen jag skrev var ett tre i rad spela, och i det fanns en "Om"-sats som sa OM den andra spelaren håller på att vinna, stoppa honom.'
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: 'Ha kul med "om"-blocket!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'Hej, jag heter Saloni. Jag använder programmering för att lösa problem inom hälsa och medicin. Låt oss lära oss om "om/annars"-blocket. Det ser ut som "om"-blocket men den har en extra del i slutet som kallas "annars".'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: 'Om jag sätter ett "gå framåt"-block på platsen där det står "gör" och ett "sväng vänster"-block där det står "annars" innebär det att zombien kommer att välja mellan 2 alternativ. OM det finns en väg framåt så kommer zombien att gå framåt, och annars (det finns inte en väg framåt) kommer zombien svänga vänster.'
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: 'Precis som med "om"-block kan vi sätta in "om/annars"-block inuti ett "upprepa"-block så att zombien fortsätter gå samtidigt som "om/annars"-blocket kollar om det går att svänga.'
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "Nu, få de här zombien dit de hör hemma!"
     function:
       1:
@@ -136,16 +136,16 @@
         text: "Visa anteckningar kommer snart!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Grattis! Med senaste pusslet du löste skrev du kod som kan du få vilken robot som helst att hitta sin väg genom en labyrint eller tunnel utan förgreningar och oberoende längd. Oavsett om det är en zombie, en fågel, en marslandare eller även en självkörande bil."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: 'De grundläggande koncept du använt är kärnan i varje program eller app som du någonsin kommer använda.  Vi lärt oss om "upprepa"-loopar, "upprepa tills"-loopar, "om"-satser, och om "om/annars"-satser.'
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "Om du gillade din första Timme med Kod, besök code.org för att fortsätta din utbildning i programmering! När du är klar med våran 20 timmars kurs så kommer du ha behärskat grunderna i programmering. Då kan du börja lära dig skriva telefon appar, robot instruktioner, spel eller vad du än vill."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "Tekniken förändras allt vi gör och det spelar ingen roll om du är ung eller gammal: programmering är kul, kreativt och alla kan lära sig!"
     20_wrapup:
       1:

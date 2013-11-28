@@ -32,6 +32,7 @@
   demos: "Адмін: Всі демо"
   continue: "Продовжити"
   prize: "Премія"
+  more_info: "More info"
   auth:
     sign_in_with: "Увійти через %{provider}"
     signed_in: "Увійшли!"
@@ -45,8 +46,10 @@
     need_confirmation: "Не отримали вказівок підтвердження?"
     need_unlock: "Не отримали вказівок розблокування?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Зареєструватися"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Назва учбового закладу (за бажанням)"
     school_address: "Школа адресу (необов'язково)"
     address_placeholder: "адреса, місто, штат, індекс"
@@ -215,6 +218,7 @@
     feedback: "Надати відгук"
     translate: "Допоможіть нам перекласти вашою мовою"
     tos: "Умови надання послуг"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Здобудьте свій приз на Code.org!"

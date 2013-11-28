@@ -32,6 +32,7 @@
   demos: "Admin: Semua Demo"
   continue: "Teruskan"
   prize: "hadiah"
+  more_info: "More info"
   auth:
     sign_in_with: "Daftar Masuk dengan % {pembekal}"
     signed_in: "Daftar masuk!"
@@ -45,8 +46,10 @@
     need_confirmation: "Tidak menerima arahan pengesahan?"
     need_unlock: "Tidak menerima kunci arahan?"
   signup_form:
-    pitch: "Go beyond 1 hour - sign up for our 20-Hour Course"
-    title: "Mendaftar"
+    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_title: "Teacher sign up"
+    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_title: "Sign up"
     school_name: "Nama sekolah (pilihan)"
     school_address: "Alamat sekolah (pilihan)"
     address_placeholder: "alamat, bandar, Negeri, zip"
@@ -208,6 +211,7 @@
     feedback: "Sediakan maklum balas"
     translate: "Bantu kami menterjemahkan ke bahasa anda"
     tos: "Syarat-syarat perkhidmatan"
+    privacy: "Privacy Policy"
   prize_mail:
     prize_earned:
       subject: "Redeem your prize at Code.org!"

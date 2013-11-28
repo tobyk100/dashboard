@@ -2,43 +2,43 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.png"
+        image: "notes/hoc1_1.jpg"
         text: "به اولین ساعت کد خود خوش آمدید! اجازه بدهید فورا با اولین تمرین برنامه نویسی آغاز کنیم."
       2:
-        image: "notes/hoc1_2.png"
+        image: "notes/hoc1_2.jpg"
         text: "ما از Blockly استفاده می کنیم، یک زبان برنامه نویسی visual که در آن با کشیدن و رها کردن قطعه های کد، برنامه نویسی می کنید."
       3:
-        image: "notes/hoc1_3.png"
+        image: "notes/hoc1_3.jpg"
         text: "بیشتر کدها آماده هستند، اما Blockly یک زبان visual است. هر قطعه کد مظابق با یک خط کد دنیای واقعی است."
       4:
-        image: "notes/hoc1_4.png"
+        image: "notes/hoc1_4.jpg"
         text: "شما مفاهیم پایه علوم رایانه ای را فرا خواهید گرفت، مفاهیمی که در هر جایی از تولید برنامه های کاربردی تا کنترل یک مریخ نورد استفاده شده اند."
       5:
-        image: "notes/hoc1_5.png"
+        image: "notes/hoc1_5.jpg"
         text: "یک برنامه، مجموعه ای از دستورالعمل ها برای اجرا در رایانه شما می باشد."
       6:
-        image: "notes/hoc1_6.png"
+        image: "notes/hoc1_6.jpg"
         text: "هدف اولین برنامه شما پرتاب یک گرفتن یک پرنده خشمگین برای زدن یک خوک سبز است."
       7:
-        image: "notes/hoc1_7.png"
+        image: "notes/hoc1_7.jpg"
         text: "جایی که برنامه شما اجرا می شود سمت چپ پازل، پیچ و خم است. دستورالعمل پازل در زیر پیچ و خم پازل است."
       8:
-        image: "notes/hoc1_8.png"
+        image: "notes/hoc1_8.jpg"
         text: "دستورات پرنده عصبانی در وسط جعبه ابزار است. از این جعبه ابزار برای ساخت کد خود استفاده کنید."
       9:
-        image: "notes/hoc1_9.png"
+        image: "notes/hoc1_9.jpg"
         text: "سمت راست فضای کاری شما جایی که در آن می توانید بلوک ها را از جعبه ابزار بکشید و برنامه خود را بسازید. برای حذف یک بلوک، آن را به سطل زباله که در گوشه قرار دارد بیندازید."
       10:
-        image: "notes/hoc1_10.png"
+        image: "notes/hoc1_10.jpg"
         text: 'هر بلوک یک دستوری دارد. اگر شما یک بلوک "move forward" را به فضای کاری خود بکشید و "run" را فشار دهید، پرنده یک فاصله در پیچ و خم حرکت می کند.'
       11:
-        image: "notes/hoc1_11.png"
+        image: "notes/hoc1_11.jpg"
         text: "برای انجام بیش از یک عمل، شما می توانید هر چند بلوک را به فضای کاری خود بکشید و آنها را به هم وصل کنید. پرنده دستورات را از بالا به پایین انجام خواهد داد."
       12:
-        image: "notes/hoc1_12.png"
+        image: "notes/hoc1_12.jpg"
         text: 'اگر شما برنامه را اجرا کردید و می خواهید آن را تعمیر کنید و دوباره اجرا کنید، دکمه "Reset" را فشار دهید.'
       13:
-        image: "notes/hoc1_13.png"
+        image: "notes/hoc1_13.jpg"
         text: "بیایید برویم آن خوکها را بگیریم!"
     artist_intro:
       1:
@@ -50,75 +50,75 @@
         text: "به زودی نوتها نشان داده می شود!"
     loop_times:
       1:
-        image: "notes/hoc2_1.png"
+        image: "notes/hoc2_1.jpg"
         text: "سلام, من مارک هستم! بیایید در باره حلقه ها یاد بگیریم. با استفاده از حلقه ها شما می توانید به کامپیوتر بگویید که بارها دستورالعمل را هزاران یا حتی بیلیون بار تکرار کند."
       2:
-        image: "notes/hoc2_2.png"
+        image: "notes/hoc2_2.jpg"
         text: "در این پازل، ما می خواهیم که پرنده را ۵ فاصله به جلو حرکت بدهیم که به خوک برسد."
       3:
-        image: "notes/hoc2_3.png"
+        image: "notes/hoc2_3.jpg"
         text: 'ما می توانیم از بلوک جدید "repeat" استفاده کنیم که به ما کمک کند.'
       4:
-        image: "notes/hoc2_4.png"
+        image: "notes/hoc2_4.jpg"
         text: 'به جای بیرون کشیدن ۵ بلوک "move forward"...'
       5:
-        image: "notes/hoc2_5.png"
+        image: "notes/hoc2_5.jpg"
         text: 'ما می توانیم بلوک "move forward" را در داخل بلوک "repeat" قرار دهیم و یک عدد را در آن بلوک بنویسیم که به آن بگه چند بار آن را تکرار کند.'
       6:
-        image: "notes/hoc2_6.png"
+        image: "notes/hoc2_6.jpg"
         text: 'و این مهم است: شما می توانید بیش از یک دستور داخل بلوک "repeat" قرار دهید.'
       7:
-        image: "notes/hoc2_7.png"
+        image: "notes/hoc2_7.jpg"
         text: 'لذت ببرید با استفاده از بلوک "repeat"!'
     loop_until:
       1:
-        image: "notes/hoc3_1.png"
+        image: "notes/hoc3_1.jpg"
         text: 'سلام من کریس هستم. قبل از پیوستن به میامی هیت، من برای تحصیل علوم کامپیوتر به دانشگاه جورجیا تک رفتم. بیایید بلوک جدید "repeat until" را امتحان کنیم.'
       2:
-        image: "notes/hoc3_2.png"
+        image: "notes/hoc3_2.jpg"
         text: "چگونه میتوانیم بدانیم که چقدر پرنده باید حرکت کند که به خوک برسد؟"
       3:
-        image: "notes/hoc3_3.png"
+        image: "notes/hoc3_3.jpg"
         text: 'اگر ما بلوک "move forward" را در داخل بلوک "repeat unit" قرار دهیم, پرنده به جلو حرکت خواهد کرد تا اینکه به خوک برسد (یا اینکه با دیواد برخورد کند).'
       4:
-        image: "notes/hoc3_4.png"
+        image: "notes/hoc3_4.jpg"
         text: 'و این مهم است: درست مثل قبل، ما می توانیم چند تا بلوک را داخل بلوک "repeat until" قرار دهیم، و آنها تکرار خواهند شد.'
     if:
       1:
-        image: "notes/hoc4_1.png"
+        image: "notes/hoc4_1.jpg"
         text: 'سلام, من بیل هستم! اجازه دهید یک مفهوم اساسی جدید را یاد بگیریم: بیانیه "if". این نشان میدهد که چگونه کامپیوترها تصمیم گیری می کنند.'
       2:
-        image: "notes/hoc4_2.png"
+        image: "notes/hoc4_2.jpg"
         text: 'شما هر روز بیانیه "if" را استفاده می کنید. قبل از اینکه شما هر روز صبح از خانه خارج شوید، شما می گویند اگر بیرون باران بیاید، آن وقت من نیاز دارم که ژاکت بپوشم.'
       3:
-        image: "notes/hoc4_3.png"
+        image: "notes/hoc4_3.jpg"
         text: "ما می توانیم به آدم خورها بگوییم که بررسی کنند اگر مسیری در چپ وجود دارد، و اگر او بتواند مسیری در سمت چپ پیدا کند، ما به او اجازه می دهیم که به آن سمت بچرخد."
       4:
-        image: "notes/hoc4_4.png"
+        image: "notes/hoc4_4.jpg"
         text: 'برای نوشتن این کد، بیایید  بلوک "if" را بیرون بکشیم و بلوک "turn left" را داخل آن قرار دهیم.'
       5:
-        image: "notes/hoc4_5.png"
+        image: "notes/hoc4_5.jpg"
         text: 'حالا، اگر ما بلوک "move forward" را بالای آن و بلوک "repeat" را اطراف همه چیز بگذاریم، هر زمان که آدم خور حرکت می کند، او بررسی می کند که اگر مسیری به چپ وجود داشته باشد، او می چرخد. استفاده از دستور "repeat" حیاتی است، به دلیل اینکه هر چرخش را در هر مرحله بررسی می کند.'
       6:
-        image: "notes/hoc4_6.png"
+        image: "notes/hoc4_6.jpg"
         text: 'بیانیه "if" در علم کامپیوتر واقعا مهم است. یکی از اولین برنامه هایی که من نوشته بودم بازی تیک-تک-تو بود، که در آن بیانیه "if" وجود داشت که می گفت، اگر فرد دیگری داره برنده می شود، جا را برایش ببند، که آنها برنده شوند.'
       7:
-        image: "notes/hoc4_7.png"
+        image: "notes/hoc4_7.jpg"
         text: 'لذت ببرید با استفاده از بلوک "if"!'
     if_else:
       1:
-        image: "notes/hoc5_1.png"
+        image: "notes/hoc5_1.jpg"
         text: 'سلام, اسم من سلونی است. من از علم کامپیوتر برای کمک به حل مشکلات در بهداشت و پزشکی استفاده میکنم. بیاید "if else" بلوک را یاد بگیریم. به نظر می رسد مانند بلوک "if" هست، اما بخش اضافی درباره "else" در پایان دارد.'
       2:
-        image: "notes/hoc5_2.png"
+        image: "notes/hoc5_2.jpg"
         text: |-
           If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
       3:
-        image: "notes/hoc5_3.png"
+        image: "notes/hoc5_3.jpg"
         text: |-
           Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
       4:
-        image: "notes/hoc5_4.png"
+        image: "notes/hoc5_4.jpg"
         text: "حالا، آن آدم خورها را به جایی که آنها تعلق دارند بگذار!"
     function:
       1:
@@ -138,16 +138,16 @@
         text: "به زودی نوتها نشان داده می شود!"
     hoc_wrapup:
       1:
-        image: "notes/hoc6_1.png"
+        image: "notes/hoc6_1.jpg"
         text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
-        image: "notes/hoc6_2.png"
+        image: "notes/hoc6_2.jpg"
         text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
       3:
-        image: "notes/hoc6_3.png"
+        image: "notes/hoc6_3.jpg"
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
-        image: "notes/hoc6_4.png"
+        image: "notes/hoc6_4.jpg"
         text: "هر چیزی را که ما انجام می دهیم تکنولوژی تغییر میدهد و مهم نیست که شما جوان باشید یا پیر:‌ برنامه نویسی لذت بخش است، خلاق است، و هر کسی می تواند یاد بگیرد!"
     20_wrapup:
       1:
