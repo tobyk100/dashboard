@@ -60,17 +60,17 @@
         parameters: "Функції з параметрами"
     level:
       instructions:
-        maze_2_2: 'Привіт! Мені потрібно дістатись до Зеленої свинки! Складіть кілька блоків "рухатись вперед" і клацніть "Запустити програму", щоб допомогти мені у цьому. '
-        maze_2_1: "Складіть іншу програму, щоб я міг дійти аж до самої свинки. "
-        maze_2_2_5: "Як же мені дістатись до зеленої свинки? (Зважайте на динаміт)"
-        maze_2_3: "Як же мені дістатись до зеленої свинки? (Зважайте на динаміт)"
-        maze_2_4: "Ох! Складіть програму, яка допоможе мені дістатись до зеленої свинки, оминувши динаміт. "
-        maze_2_5: "Я можу дістатись до зеленої свинки, використавши лише 2 блоки. Здогадаєтесь як?"
-        maze_2_6: "Спробуйте доставити мене до зеленої свині, використавши три блоки."
-        maze_2_7: 'Складіть програму, щоб я дістався до зеленої свині, використавши найменшу кількість блоків. Спробуйте використати кілька блоків "повторити ... разів".'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: |-
           Щоб розв'язати це завдання, спробуйте використати блок "повтори" з трьома блоками всередині: рухатись, рухатись, повернути.
-        maze_2_9: 'Гаразд, спробуйте новий блок "повторити доки" - він повторюватиме дії, доки не дістанемось зеленої свині.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Гаразд, ще раз для практики - ви зможете розв'язати це завдання, використавши лише 4 блоки?"
         maze_2_11: "Шановна людино. Мені зомбі. Мені голодний. Треба ... їсти ... соняшник. Можна доставити мене туди за 5 блоків?"
         maze_2_12: "Гаразд, це схоже, але трохи відрізняється. Можете справитись, використавши 5 блоків?"

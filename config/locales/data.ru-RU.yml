@@ -60,16 +60,16 @@
         parameters: "Функции с параметрами"
     level:
       instructions:
-        maze_2_2: 'Привет! Мне надо заполучить Green Piggy! Чтобы помочь мне сделать это, соедини вместе несколько команд "двигаться вперед". Нажми "Запустить программу".'
-        maze_2_1: "Составьте другую программу, так что я смогу пройти весь путь до зеленой хрюшки. "
-        maze_2_2_5: "Как же добраться до зеленой хрюшки? (не зацепите взрывчатку)"
-        maze_2_3: "Как же мне добраться до зеленой хрюшки? (Следите за взрывчаткой)"
-        maze_2_4: "Арр! Напешите программу, которая ведёт меня вокруг взрывчатки и до зелёный хрюшки. "
-        maze_2_5: "Есть способ добраться до зеленой хрюшки, используя только 2 блока. Вы можете сделать это?"
-        maze_2_6: "Попробуйте добраться до зеленых хрюшек, используя только три блока."
-        maze_2_7: 'Напишите программу, чтобы я мог дойти до зеленой хрюшки, используя наименьшее количество блоков. Попробуйте используя более одного блока "повторить".'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Чтобы сделать это, используйте блок "Повтор" с 3 блоками внутри него: двигаться, двигаться, повернуть.'
-        maze_2_9: 'Теперь попробуйте новый блок "Повтор до" - он будет повторять действия пока птичка не долетит на место зеленых хрюшек.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Сейчас практикуемся в последний раз - вы можете сделать это использованием только 4 блоков?"
         maze_2_11: "Уважаемый программист. Я зомби. Я голоден. Мне надо......, кушать подсолнечник... Ты можешь отправить меня к нему используя всего 5 команд?"
         maze_2_12: "Ладно, это аналогично, но несколько по-другому. Попробуй сделать это при помощи только 5 блоков?"

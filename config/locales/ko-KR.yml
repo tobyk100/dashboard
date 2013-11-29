@@ -6,7 +6,7 @@
         email: "이메일"
         username: "아이디"
         password: "비밀번호"
-        password_confirmation: "비밀번호 재입력"
+        password_confirmation: "비밀번호 재확인"
         current_password: "현재 비밀번호"
         locale: "언어"
         gender: "성별"
@@ -15,29 +15,29 @@
   welcome_back: "%{name} 님, 어서오세요. "
   add_teacher_form:
     code_or_email:
-      label: "코드번호나 이메일 주소를 사용해 선생님을 등록하세요 : "
+      label: "코드번호나 이메일 주소를 사용해 선생님을 등록하세요:"
       placeholder: "코드번호(ABCDEF) 또는 이메일(teacher@school.edu)"
-    submit: "내 선생님 추가하기"
+    submit: "선생님 추가하기"
   appname: "Code.org"
-  stage: "학습 단계"
+  stage: "단계"
   puzzle: "퍼즐"
   trophies: "트로피"
   courses: "학습 코스"
   of: "중"
-  more: "전체"
-  less: "일부"
-  try_hoc: "Hour of Code 해보기 >>"
-  try_k8intro: "또는, K-8(유치원-중2) 학생들을 위한 컴퓨터과학(Computer Science, 정보과학) 학습 코스(15-25 시간 소요) 해보기"
-  already_started: "이전 학습 단계부터 시작 -->>"
-  demos: "Admin: All Demos"
-  continue: "Continue"
+  more: "전체보기"
+  less: "현재보기"
+  try_hoc: "Hour of Code 해보기! >> "
+  try_k8intro: "또는, K-8유치원~중2(K-8) 학생들을 위한 컴퓨터과학(Computer Science, 정보과학) 코스(15-25시간)"
+  already_started: "학습 계속하기 >>"
+  demos: "관리자: 모든 퍼즐"
+  continue: "계속하기"
   prize: "상품"
-  more_info: "More info"
+  more_info: "자세히"
   auth:
-    sign_in_with: "Sign in with %{provider}"
+    sign_in_with: "%{provider} 계정으로 로그인"
     signed_in: "로그인 되었습니다!"
-    already_signedup: "이미 가입 했나요?"
-    notyet_signedup: "아직 가입 하지 않았나요?"
+    already_signedup: "이미 가입했나요?"
+    notyet_signedup: "아직 가입하지 않았나요?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
@@ -46,17 +46,17 @@
     need_confirmation: "확인 메일을 받지 못 했나요?"
     need_unlock: "잠김 해제 메일을 받지 못 했나요?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "컴퓨터과학(Computer Science, 정보과학)의 내용을, 유치원~중2(K-8) 학생들과 함께 하세요"
+    teacher_title: "선생님으로 등록하기"
+    student_pitch: "Beyond 1 hour:  유치원~중2(K-8) 학생용, 컴퓨터과학(Computer Science, 정보과학) 코스 해보기"
+    student_title: "가입하기"
     school_name: "학교 이름 (옵션)"
     school_address: "학교 주소 (옵션)"
     address_placeholder: "주소, 군구, 시도, 우편번호"
     gender: "성별 (옵션)"
     birthday: "생일 (옵션)"
     submit: "가입 신청하기"
-    teacher: "선생님 이신가요?"
+    teacher: "선생님이신가요?"
     valid_username: "사용 가능!"
     invalid_username: "아이디는 최소 5문자 이상이어야 합니다."
     taken_username: "이미 사용하고 있는 아이디입니다."
@@ -68,53 +68,53 @@
     login: "이메일 또는 아이디"
     password: "비밀번호"
     remember: "아이디 기억하기"
-    submit: "로그인 하기"
+    submit: "로그인하기"
   password:
     reset_form:
       title: "비밀번호를 잊으셨나요?"
       email: "이메일"
-      submit: "비밀번호 변경 방법 받기"
+      submit: "비밀번호 변경하기"
     change_form:
       title: "비밀번호 변경"
       new_password: "새 비밀번호"
       confirm_password: "새 비밀번호 확인"
       submit: "비밀번호 변경하기"
   welcome_email:
-    subject: "내 학급 들어가기(on Code.org)"
+    subject: "내 학급 가기(on Code.org)"
     body: |
-      컴퓨터과학(Computer Science, 정보과학) 교사인 경우 아래의 Code.org 정보과학 과정에 참여하세요.
+      Code.org 의 컴퓨터과학(Computer Science, 정보과학) 기초 안내 과정에 가입하려면, 아래 링크를 누르세요.(선생님을 등록하세요)
       
       %{link}
       
-      학습을 도와주는 흥미있고, 재미있는 튜토리얼들을 통해, 컴퓨터과학(Computer Science, 정보과학)의 기초 개념들을 가르쳐보세요.  Learn to code 는 Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies 등과 함께 합니다.
+      이 과정에서는 재미있는 퍼즐들을 통해, 컴퓨터과학(Computer Science, 정보과학)의 몇가지 기초 개념들을 배울 수 있습니다. Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies 등과 함께 경험해 보세요! :)
       
       %{name}
   follower:
     invite_sent: "초대 메일을 발송하였습니다"
-    added_teacher: "내 선생님으로 %{name} 를 추가하였습니다"
+    added_teacher: "%{name} 가 선생님으로 추가되었습니다"
     registered: " %{section_name} 과정에 등록되었습니다. 계속하려면, 로그인 하세요."
     error:
-      signed_in: "계속하기 전에 로그아웃 하세요."
-      username_not_found: "아이디 %{username} 는 없습니다"
-      username_in_use: "아이디 %{username} 는 이미 있습니다, 다른 아이디를 선택하세요."
-      no_teacher: "아이디 '%{teacher_email_or_code}' 를 찾을 수 없습니다. 선생님의 가입 여부를 확인하고, 다시 시도하세요"
+      signed_in: "먼저, 로그아웃 하세요."
+      username_not_found: "%{username} 는 존재하지 않습니다"
+      username_in_use: "%{username} 는 이미 사용하고 있습니다, 다른 아이디를 선택하세요"
+      no_teacher: "'%{teacher_email_or_code}' 선생님을 찾을 수 없습니다. 선생님의 가입 여부를 확인한 후, 다시 시도하세요"
     mail:
       invite_student:
-        subject: "Code.org 에서 %{teacher_name} 선생님 학급에 참여하세요."
+        subject: "%{teacher_name} 선생님의 학급에 참여하세요. Code.org!"
   reports:
     error:
       access_denied: "이 학생의 학습 상황에 접근할 수 없습니다"
   redeem_prizes:
     title: "Redeem 상품: %{name}"
     provider: "제공:"
-    code: "코드 번호:"
-    success: "상품을, Redeem 코드로 교환하였습니다. 아래 코드를 참조하세요."
-    error: "상품을, Redeem 코드로 교환할 수 없습니다. 다시 시도하세요."
+    code: "Redeem 코드:"
+    success: "상품을 Redeem 코드로 교환하였습니다. 코드를 확인하세요."
+    error: "상품을 Redeem 코드로 교환할 수 없습니다. 다시 시도해 보세요."
     confirm:
-      title: "재확인 하세요"
+      title: "Redeem 코드 확인"
       "no": 아니요
       "yes": 예
-      msg: "이 %{prize_name} 상품이 확실한가요?"
+      msg: "%{prize_name} 상품을 받으시겠습니까?"
       msg_student: "주의 : 한 가지 유형의 상품만 선택할 수 있습니다."
     providers:
       apple_itunes: "Apple iTunes"
@@ -126,54 +126,54 @@
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "모든 튜토리얼을 완료하였습니다. 상품을 받은 후, 다른 학급 %{online_link} 이나 지역 학교 수업 %{local_school_link} 에 참여하세요."
+    student_finished: "모든 기초개념학습 과정을 완료하였습니다. 상품을 받은 후에는 다른 학급 %{online_link} 이나 학교 수업 %{local_school_link} 에 참여해 보세요"
     msg:
       choose: "상품을 선택하세요:"
       earned: "상품을 받았습니다!"
-      not_earned: " 총 %{num_trophies} 개의 트로피를 모두 모아 상품을 받으세요!"
+      not_earned: "트로피를 모두(%{num_trophies} 개) 모아 상품을 받아보세요!"
       teacher:
-        earned: "모든 트로피(총 %{num_trophies} 개)를 모은 학생들이, 10명 이상이 되면, 교사 상품을 드립니다!"
-        not_earned: "모든 트로피(총 %{num_trophies} 개)를 모은 학생들이, 10명이 되면 상품을 드립니다!"
+        earned: "트로피를 모두(%{num_trophies} 개) 모은 학생들이 10명 이상이 되면, 선생님용 상품을 드립니다!"
+        not_earned: "트로피를 모두(%{num_trophies} 개) 모은 학생들이 10명이 되면 상품을 드립니다!"
         bonus:
-          earned: "모든 트로피(총 %{num_trophies} 개)를 모은 학생들 중, 여학생이 40% 이상이면 추가 상품을 드립니다!"
-          not_earned: "모든 트로피(총 %{num_trophies} 개)를 모은 학생들이 10명 이상이고, 그 중 여학생이 40% 이상이면, 추가 상품을 드립니다!"
+          earned: "트로피를 모두(%{num_trophies} 개) 모은 학생들 중, 여학생이 40% 이상이면 보너스 상품을 드립니다!"
+          not_earned: "트로피를 모두(%{num_trophies} 개) 모은 학생들이 10명 이상이고, 그 중 여학생이 40% 이상이면, 보너스 상품을 드립니다!"
   crud:
-    new_model: "%{model} 새로 만들기"
+    new_model: "%{model} 만들기"
     show: "보기"
-    edit: "수정"
-    edit_model: "Edit %{model}"
-    update: "업데이트"
+    edit: "편집"
+    edit_model: "%{model} 수정"
+    update: "갱신"
     destroy: "삭제"
-    back: "취소"
-    confirm: "실행 하시겠습니까?"
+    back: "뒤로"
+    confirm: "확실한가요?"
     created: "%{model} 가 성공적으로 만들어졌습니다."
     updated: "%{model} 가 성공적으로 업데이트 되었습니다."
   nav:
     header:
-      finished_hoc: "나는 Hour of Code 를 모두 해결했습니다"
-      sign_in_to_save: "저장하기 위해 로그인"
+      finished_hoc: "Hour of Code 를 끝냈습니다"
+      sign_in_to_save: "로그인(저장하기)"
     user:
       classroom: "내 학생"
       label: "안녕하세요? %{username} 님"
-      stats: "내 상태"
-      settings: "나의 계정"
-      prizes: "상들"
+      stats: "나의 진도"
+      settings: "내 계정"
+      prizes: "상품"
       logout: "로그 아웃"
       signin: "로그인"
-      signup: "가입 신청하기"
+      signup: "가입 신청"
     popup:
       progress: "내 진도"
-      lines: "총 %{lines} lines"
+      lines: "총 %{lines} 라인"
       close: "닫기"
       mastery: "개념"
       puzzle_map: "단계"
-      prizes: "총 %{total_trophies} 개의 트로피를 모두 모아, 상품을 받으세요!"
+      prizes: "트로피를 모두(%{total_trophies} 개) 모아 상품을 받으세요!"
       prize_earned: "트로피를 모두(총 %{total_trophies} 개) 모았습니다. 상품을 받으세요!"
       prizes_link: "상품 살펴보기"
   teacher:
     title:
-      one: "내 선생님은 %{name} 입니다"
-      other: "내 선생님:"
+      one: "나의 선생님은 %{name} 입니다"
+      other: "나의 선생님들:"
     tools: "선생님 메뉴"
     students:
       manage: "학생 관리"
@@ -182,30 +182,30 @@
     activity: "최근 학습 활동"
   user:
     new_password_hint: "(바꾸고 싶지 않으면, 비워 두세요)"
-    current_password_hint: "(업데이트를 위해, 비밀번호를 한 번 더 입력해 주세요.)"
+    current_password_hint: "(수정하기 위해 비밀번호를 한 번 더 입력해 주세요.)"
     cancel:
       title: "계정 삭제"
-      hint: "만족스럽지 못 한가요?"
-      button: "내 계정을 삭제합니다"
+      hint: "불편한 점이 있나요?"
+      button: "계정 삭제하기"
   user_level:
     completed: "완료"
-    tried: "진행"
+    tried: "시도"
   user_stats:
     recent_activity: "최근 활동"
-    show_more: "자세히 살펴보기"
+    show_more: "자세히"
   home:
-    signin_message: "또는, 이미 %{link} 로 등록되어있습니다."
-    student_reg_link: "학생 - 시작하기"
-    teacher_reg_link: "선생님 - 시작하기"
-    teacher_dashboard: "학습 진행 현황"
-    teacher_student_count: "내 학생은 %{count} 명 입니다."
-    teacher_averages: '내 학생들은, 총 %{trophy_max}  개의 "개념 학습 완료" 트로피 중,  평균 %{trophy_average} 개를 획득했습니다.'
+    signin_message: "또는, %{link} 로 이미 등록되어있다면,"
+    student_reg_link: "학생으로 시작하기"
+    teacher_reg_link: "선생님으로 시작하기"
+    teacher_dashboard: "학습 현황"
+    teacher_student_count: "나의 학생들은 %{count} 명 입니다."
+    teacher_averages: '나의 학생들은, 평균 %{trophy_average} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
     classroom: "내 학급"
-    student_progress: "내 학습 진도"
-    student_stats: '총 %{trophy_max}  개의 "개념 학습 완료" 트로피 중,  %{trophy_count} 개를 획득했습니다.'
-    student_left_off: "이전 학습 종료 위치:"
-    student_finished: "모든 튜토리얼을 완수하였습니다. 상품(%{prize_link})을 신청하고, 다른 학급 %{online_link} 이나, 지역 학교 수업 %{local_school_link} 에 참여해 보세요. "
-    local_school: "지역 학교"
+    student_progress: "나의 학습 진도"
+    student_stats: '%{trophy_count} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
+    student_left_off: "마지막 학습:"
+    student_finished: "모든 기초개념학습 과정을 완료하였습니다. 상품(%{prize_link})을 신청하고, 다른 학급 %{online_link} 이나 학교 수업 %{local_school_link} 에 참여해 보세요"
+    local_school: "학교"
     online: "온라인"
     see_details: "자세히 살펴보기"
   gender:
@@ -213,25 +213,25 @@
     female: "여"
     none: "응답 안 함"
   footer:
-    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>의 소프트웨어 엔지니어들이 이 튜토리얼을 만드는데 도움을 주었습니다.'
+    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>의 소프트웨어 엔지니어들이, 이 기초개념학습 과정을 만드는데 도움을 주었습니다.'
     art_from_html: '<a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a> 의 이미지들이 사용 되었습니다.'
     feedback: "피드백 남기기"
-    translate: "언어별 번역을 위해 도움을 주세요."
-    tos: "Terms of service"
-    privacy: "Privacy Policy"
+    translate: "다른 언어 번역로 번역하기"
+    tos: "사이트 정책"
+    privacy: "개인정보보호 정책"
   prize_mail:
     prize_earned:
-      subject: "Code.org 에서 상품을 Redeem 코드로 바꾸기!"
+      subject: "Code.org 에서 Redeem 코드 상품을 받으세요!"
     teacher_prize_earned:
-      subject: "Code.org 에서 상품을 Redeem 코드로 바꾸기!"
+      subject: "Code.org 에서 Redeem 코드 상품을 받으세요!"
     teacher_bonus_prize_earned:
-      subject: "Code.org 에서 보너스 상품을 Redeem 코드로 바꾸세요!"
+      subject: "Code.org 에서 보너스 Redeem 코드를 받으세요!"
   reference_area:
-    title: "도움이 필요한가요?"
-    subtitle: "동영상과 힌트를 살펴보세요"
+    title: "도움이 필요하신가요?"
+    subtitle: "동영상 및 힌트"
   video:
-    tab: "동영상"
-    notes: "동영상이 없나요? 참고내용 살펴보기."
+    tab: "소개 동영상."
+    notes: "소개 프레젠테이션."
     autoplay_option: "비디오 자동 실행"
   compatability:
     working: "이 웹브라우져를 지원합니다."

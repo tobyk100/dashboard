@@ -60,17 +60,17 @@
         parameters: "Συναρτήσεις με παραμέτρους"
     level:
       instructions:
-        maze_2_2: 'Γεια! Πρέπει να πιάσω το Πράσινο Γουρούνι! Ένωσε δυο πλακίδια "πήγαινε εμπρός" και πάτα "Εκτέλεση Προγράμματος" για να με βοηθήσεις να το φτάσω. '
-        maze_2_1: "Γράψε μου άλλο ένα πρόγραμμα έτσι ώστε να φτάσω στο πράσινο γουρούνι. "
-        maze_2_2_5: "Πώς θα μπορέσω να φτάσω στο πράσινο γουρούνι; (Προσοχή στα εκρηκτικά)"
-        maze_2_3: "Πώς θα μπορέσω να φτάσω στο πράσινο γουρούνι; (Προσοχή στα εκρηκτικά)"
-        maze_2_4: "Αααχ! Γράψε ένα προγραμμα που θα με οδηγήσει στο γουρούνι, αποφεύγοντας τα εκρηκτικά. "
-        maze_2_5: "Υπάρχει ένας τρόπος για να φτάσω στο πράσινο γουρούνι χρησιμοποιώντας μόνο 2 πλακίδια. Μπορείς να τον βρεις;"
-        maze_2_6: "Οδήγησέ με στο πράσινο γουρούνι χρησιμοποιώντας μόνο τρία πλακίδια."
-        maze_2_7: 'Γράψε μου ένα πρόγραμμα για να φτάσω στο πράσινο γουρούνι χρησιμοποιώντας το μικρότερο αριθμό πλακιδίων. Προσπάθησε να χρησιμοποιήσεις περισσότερα από ένα πλακίδια "Επανέλαβε Φορές".'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: |-
           Για να το λύσεις δοκιμάσε ένα πλακίδιο "Επανάλαβε" με αυτά τα 3 πλακίδια μέσα σ ' αυτό: Μετακινήσου, Μετακινήσου, Στρίψε.
-        maze_2_9: 'Εντάξει, δοκίμασε το νέο πλακίδιο "Επανάλαβε Μέχρις-ότου" - αυτό θα επαναλαμβάνεται μέχρι να φτάσω στο πράσινο γουρούνι.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Εντάξει, μια τελευταία άσκηση - μπορείς να τη λύσεις, χρησιμοποιώντας μόνο 4 πλακίδια;"
         maze_2_11: "Αγαπητό άτομο.  Εγώ ζόμπι. Εγώ πεινάει. Πρέπει... πάω.. στο ηλιοτρόπιο... Μπορείς να πας εκεί με 5 μόνο πλακίδια;"
         maze_2_12: "Εντάξει, αυτό είναι παρόμοιο, αλλά ελαφρώς διαφορετικό. Μπορείς να το κάνεις σε 5 πλακίδια μόνο;"

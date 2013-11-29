@@ -3,16 +3,16 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "K-8 inngangur að tölvunarfræði"
+          Maze: "Stig 1"
+          Artist: "Stig 2"
+          Artist2: "Stig 3"
+          Farmer: "Stig 4"
+          Artist3: "Stig 5"
+          Farmer2: "Stig 6"
+          Artist4: "Stig 7"
+          Farmer3: "Stig 8"
+          Artist5: "Stig 9"
         Hour of Code:
           desc: "Hour of Code"
           Maze: "Stage 1"
@@ -60,16 +60,16 @@
         parameters: "Föll með stikum"
     level:
       instructions:
-        maze_2_2: "Hæ! Ég þarf að ná í græna svínið! Staflaðu nokkrum „færa áfram“ einingum upp og veldu „keyra forrit“ til þess að hjálpa mér að komast þangað. "
-        maze_2_1: "Skrifaðu annað forrit fyrir mig svo ég geti komist alla leið til græna svínsins. "
-        maze_2_2_5: "Hvernig á ég að komast að græna svíninu? (Passaðu þig á sprengjunum)"
-        maze_2_3: "Hvernig á ég að ná græna svíninu?(Passaðu þig á Sprengjunum)"
-        maze_2_4: "Arg! Skrifaðu forrit sem kemur mér í kringum sprengiefnið og að græna svíninu. "
-        maze_2_5: "Það er leið fyrir mig til að komast að græna svíninu með því að nota aðeins 2 einingar. Geturðu fundið út úr því?"
-        maze_2_6: "Reyndu að koma mér að græna svíninu með því að nota aðeins þrjár einingar."
-        maze_2_7: "Skrifaðu forrit sem kemur mér að græna svíninu með því að nota sem fæstar einingar. Reyndu að nota fleiri en eina „endurtaka“ einingu."
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the green pig.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ok, bara einu sinni til æfingar - geturðu leyst þetta með því að nota aðeins 4 einingar?"
         maze_2_11: "Kæra manneskja. Ég uppvakningur. Ég svangur. Verð...að...komast...að sólblóminu...Geturðu komið mér þangað með aðeins 5 einingum?"
         maze_2_12: "Ok, þetta er svipað en aðeins öðruvísi. Geturðu gert það með aðeins 5 einingum?"

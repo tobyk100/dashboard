@@ -111,12 +111,10 @@
         text: 'سلام, اسم من سلونی است. من از علم کامپیوتر برای کمک به حل مشکلات در بهداشت و پزشکی استفاده میکنم. بیاید "if else" بلوک را یاد بگیریم. به نظر می رسد مانند بلوک "if" هست، اما بخش اضافی درباره "else" در پایان دارد.'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'اگریک بلوک "move forward" در جایی که می گوید "do" قرار دهم ویک بلوک "turn left" در جایی که می گوید "else", این یعنی زامبی بین 2 گزینه میتواند انتخاب کند. اگر مانعی درمسیر وجود دارد زامبی به جلو میرود و در غیر این صورت (مانعی در مسیر وجود ندارد) به چپ میچرخد.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'درست مانند بلوک "if" می توانیم بلوک "if else" را داخل بلوکهای "repeat" قرار دادهیم تا زامبی بتواند به حرکت خود ادامه دهد و بلوک "if else" چک کند که ایا جایی برای چرخش وجود دارد.'
       4:
         image: "notes/hoc5_4.jpg"
         text: "حالا، آن آدم خورها را به جایی که آنها تعلق دارند بگذار!"
@@ -139,13 +137,13 @@
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "تبریک میگم! با حل آخرین پازل, شما کدی نوشتید که می تواند به هر رباتی بگوید که چگونه راهش را در یک  پیچ و خم غیر انشعابی یا یک تونل با هر طولی  پیدا کند, میتواند یک زامبی,  یک پرنده,  یک مریخ نورد, یا حتی یک ماشین بدون راننده باشد."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: 'مفاهیم اولیه ای که استفاده کردید در قلب هر برنامه و یا نرم افزاری که در اینده خواهید نوشت خواهد بود.  ما در مورد "if", "repeat until" , "repeat" و "if else" یاد گرفتیم.'
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "اگر از اولین یک ساعت کد خوشتان امد, code.org را بازدید کنید تا به تحصیلات خود درعلوم کامپیوتر ادامه دهید! پس از تکمیل دوره 20 ساعته ما, برمبانی برنامه نویسی مسلط خواهید شد, و می توانید شروع کنید به یادگیری نوشتن نرم افزار های تلفن, دستورالعمل های ربات, بازیها، و هر چیزی دیگری که بخواهید."
       4:
         image: "notes/hoc6_4.jpg"
         text: "هر چیزی را که ما انجام می دهیم تکنولوژی تغییر میدهد و مهم نیست که شما جوان باشید یا پیر:‌ برنامه نویسی لذت بخش است، خلاق است، و هر کسی می تواند یاد بگیرد!"

@@ -60,17 +60,17 @@
         parameters: "Funzioni con parametri"
     level:
       instructions:
-        maze_2_2: 'Ciao! Ho bisogno di ottenere il porcellino verde! Impilare insieme un paio di "andare avanti" blocchi e premere "Esegui programma" per aiutarmi ad andare là. '
-        maze_2_1: "Scrivimi un altro programma, così posso arrivare fino al Maialino Verde. "
-        maze_2_2_5: "Come dovrei arrivare al maiale verde? (Attenzione al TNT)"
-        maze_2_3: "Come dovrei arrivare al maiale verde? (Attenzione al TNT)"
-        maze_2_4: "Argh! Scrivere un programma che mi fa girare attorno il TNT e al maiale verde. "
-        maze_2_5: "C'è un modo per arrivare al maiale verde utilizzando solo 2 blocchi. Riesci a trovarlo?"
-        maze_2_6: "Prova a prendermi verso il maiale verde utilizzando solo tre blocchi."
-        maze_2_7: 'Scrivimi un programma così posso arrivare al maiale verde utilizzando il minor numero di blocchi. Provare a utilizzare più di un "ripetere le volte" blocco.'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: |-
           Per risolvere questo, provare un "ripetere" blocco con questi 3 blocchi all'interno di esso: muoversi,  girare.
-        maze_2_9: 'Ok, provare il nuovo "ripetere fino al" blocco - ripeterà fino a quando ho raggiunto il maiale verde.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ok, un'ultima volta per pratica - riesci a risolvere questo utilizzando solo 4 blocchi?"
         maze_2_11: "Cara persona.  Io zombie. Io affamato. Deve... arrivare... al girasole... Riesci a prendermi là con solo 5 blocchi?"
         maze_2_12: "Ok, questo è simile, ma leggermente diverso. Riesci a farlo con solo 5 blocchi?"

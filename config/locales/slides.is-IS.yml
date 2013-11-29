@@ -30,132 +30,124 @@
         text: "Til hægri er vinnusvæðið þitt þar sem þú munt draga búta af kóða úr verkfæra kistunni til að skapa forritið þitt. Til að henda búta, getur þú dregið hann í ruslið í fötunni."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'Hver eining er ein skipun. Ef þú dregur "færa áfram" eininguna yfir í vinnusvæðið og ýtir á "Keyra Forrit", þá mun fuglinn færa sig um eitt svæði í völundarhúsinu.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Til að framkvæma meira en eina aðgerð, þá getur þú dregið margar einingar yfir á vinnusvæðið og tengt þær saman. Fuglinn mun framkvæma skipanirnar frá þeirri efstu til þeirrar neðstu."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Ef að þú keyrir (e. run) forrit og vilt síðan laga það og prófa aftur, ýttu þá á "Upphafsstilla" hnappinn.'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Let's go get those pigs!"
+        text: "Nú skulum við fara að sækja þessi svín!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Hi, ég heiti Mark! Nú skulum við læra um lykkjur (e. loops). Með því að nota lykkjur þá getur þú sagt tölvunni að endurtaka hvaða sett af skipunum sem er aftur og aftur, þúsund eða jafnvel billjón sinnum."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "Í þessari þraut viljum við láta fuglinn færa sig áfram um 5 svæði til að ná svíninu."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'Við getum notað nýju "endurtaka" eininguna til að hjálpa okkur.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'Í staðin fyrir að draga 5 "færa áfram" einingar...'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'Við getum sett "færa áfram" einingu inn í "endurtaka" eininguna og skrifað tölu inn í eininguna sem segir hversu oft við viljum endurtaka.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'Og þetta er mikilvægt: þú getur sett meira en eina skipun inn í "endurtaka" eininguna.'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Njóttu þess að nota nýju "endurtaka" eininguna!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Hæ, ég heiti Chris. Áður en ég fór í Miami Heat, þá fór ég í Georgia Tech til að læra Tölvunarfræði. Prófum nýju eininguna okkar, "endurtaka þangað til" eininguna.'
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Hvað ef við vissum ekki hversu langt fuglinn ætti að færa sig til að ná svíninu?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'Ef við setjum "færa áfram" eininguna inn í "endurtaka þangað til" eininguna, þá mun fuglinn færa sig áfram ÞANGAÐ TIL hann kemur að svíninu (eða lendir á vegg).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Og þetta er mikilvægt: alveg eins og áður, þá getum við sett margar einingar inn í "endurtaka þangað til" eininguna og þr munu allar vera endurteknar.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Hæ, ég heiti Bill! Nú skulum við læra um undirstöðu atriðið: "Ef" (e. if) setninguna. Svona taka tölvur ákvarðanir.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Þú notar sjálf(ur) "Ef" (e. If) setningar á hverjum degi. Áður en þú ferð út á morgnanna segir þú "Ef" að það rignir úti þá þarf ég að fara í jakka.'
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: 'Við getum sagt uppvakningnum (e. zombie) að kanna "Ef" það er leið til vinstri og ef hann finnur leið til vinstri þá getum látið hann snúa sér í þá áttina.'
       4:
         image: "notes/hoc4_4.jpg"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Til að skrifa kóðann fyrir þetta þá skulum við draga "Ef" (e. If) eininguna okkar og setja "færa til vinstri" eininguna inn í hana.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Jæja, ef við setjum "færa áfram" einingu fyrir ofan þetta og "endurtaka" einingu utan um allt, þá mun uppvakningurinn kanna hvort það sé leið til vinstri og snúa sér í hvert skipti sem hann færir sig áfram.'
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: "Ef (e. If) setningar eru ótrúlega mikilvægar í tölvunarfræði. Eitt af fyrstu forritunum sem skrifuð voru var leikurinn mylla (e. tic-tac-toe) og það var Ef setning sem sagði Ef önnur persónan er að fara að vinna, lokaðu svæðinu sem leyfir þeim að vinna."
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Have fun using the "if" block!'
+        text: 'Skemmtu þér við að nota "ef" (e. "if") eininguna!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Hæ, ég heiti Saloni. Ég nota tölvunarfræði til að hjálpa mér við að leysa vandamál í heilsu- og lyfjageiranum. Nú ætlum við að læra um "ef annars" (e. if else) eininguna. Hún lítur út eins og "ef" einingin, en hún hefur auka hluta sem segir "annars".'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Ef ég set "færa áfram" einingu í svæðið sem segir "framkvæma" (e. do) og "snúa til vinstri" einingu þar sem segir "annars" (e. else) þá þýðir það að uppvakningurinn mun velja milli tveggja valmöguleika. Ef það er leið beint framundan, þá mun uppvakningurinn fara áfram, ANNARS (það er ekki leið framundan) mun hann snúa sér til vinstri.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Alveg eins og "ef" einingin, þá getum við sett "ef annars" einingu inn í "endurtaka" einingu þannig að uppvakningurinn haldi áfram að fara áfram og að "ef annars" einingin muni halda áfram að kanna "ef" það sé einhver beygja.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "Jæja, komum þessum uppvakningum þangað sem þeir eiga heima!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Til hamingju! Með því að leysa síðustu þraut þá skrifaðir þú kóða sem getur sagt HVAÐA vélmenni sem er hvernig það finnur leiðina í gegnum einfalt völundarhús eða göng af hvaða lengd sem er, hvort heldur sem það er uppvakningur, fugl, geimbíll, eða sjálfkeyrandi bíll."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "Grunnhugtökin sem þú notaðir eru grunnur allra forrita eða appa sem þú munt prófa. Við höfum lært um endurteknar lykkjur (e. loops), framkvæma þangað til (e. repeat until) setningar, ef (e. if) setningar og ef annars (e. if else) setningar."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Ef þér líkaði við fyrsta klukkustunda kóðunina, heimsæktu þá code.org til að halda áfram menntuninni í forritun! Um leið og þú hefur klárað 20 klst. kennsluna okkar, þá hefur þú náð góðum tökum á grunninum í forritun og getur byrjað að læra hvernig þú skrifar öpp, vélmenna leiðbeiningar, leiki og hvað sem er."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Tækni er að breyta öllu sem við þekkjum og það skiptir ekki máli hvað þú ert gamall/gömul: forritun er skemmtileg, hún er skapandi og allir geta lært að forrita."
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Myndband kemur fljótlega!"

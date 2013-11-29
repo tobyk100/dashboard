@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "Kursus Perkenalan ilmu komputer untuk siswa tingkat sekolah dasar dan menengah"
+          Maze: "Tahap 1"
+          Artist: "Tahap 2"
+          Artist2: "Tahap 3"
+          Farmer: "Tahap 4"
+          Artist3: "Tahap 5"
+          Farmer2: "Tahap 6"
+          Artist4: "Tahap 7"
+          Farmer3: "Tahap 8"
+          Artist5: "Tahap 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Jam kode"
+          Maze: "Tahap 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Edit kode"
+          MazeEC: "Tahap 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Perkenalan ilmu komputer"
         Maze: "Labirin"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Berpikir secara komputasi"
+        Unplug3: "Kertas grafik pemrograman"
         Artist: "Artis"
-        Unplug4: "Algorithms"
+        Unplug4: "Algoritma"
         Artist2: "Artis 2"
-        Unplug5: "Functional"
+        Unplug5: "Fungsi"
         Farmer: "Petani"
-        Unplug6: "Conditionals"
+        Unplug6: "Kondisi"
         Artist3: "Artis 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Menulis lagu"
         Farmer2: "Petani 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Abstraksi"
         Artist4: "Artis 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Pemrograman relay"
         Farmer3: "Petani 3"
-        Unplug10: "The Internet"
+        Unplug10: "Internet"
         Artist5: "Artis 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Penutupan"
+        MazeEC: "Labirin"
     trophy:
       name:
         Bronze: "Perunggu"
@@ -60,16 +60,16 @@
         parameters: "Fungsi dengan parameter"
     level:
       instructions:
-        maze_2_2: 'Hai! Saya ingin menangkap babi hijau! Tumpukkan bersama-sama beberapa blok "gerak maju" dan tekan "Jalankan Program" untuk membantu saya. '
-        maze_2_1: "Beri saya program lain sehingga saya bisa mencapai babi hijau. "
-        maze_2_2_5: "Bagaimana cara saya bisa menangkap babi hijau? (hati-hati ada TNT)"
-        maze_2_3: "Bagaimana cara saya bisa menangkap babi hijau? (hati-hati ada TNT)"
-        maze_2_4: "Waduh! Tulislah sebuah program yang akan membawa saya menghindari TNT dan mencapai babi hijau. "
-        maze_2_5: "Ada cara untuk mendapatkan babi hijau hanya dengan menggunakan 2 blok. Apakah anda bisa menemukannya?"
-        maze_2_6: "Usahakan supaya saya bisa menangkap babi hijau dengan tiga blok saja."
-        maze_2_7: 'Buatkan saya sebuah program dengan menggunakan jumlah blok sesedikit mungkin sehingga saya bisa dapatkan babi hijau. Gunakan lebih dari satu blok "berulang kali" (repeat times).'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Untuk menyelesaikan problem ini, coba blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok.'
-        maze_2_9: 'OK, coba blok baru "ulangi sampai" (repeat until) - blok ini akan mengulang sampai saya mencapai babi hijau.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ayo coba lagi! Apakah anda dapat menyelesaikan yang satu ini dengan hanya 4 blok?"
         maze_2_11: "Halo manusia. Saya zombie. Saya lapar. Harus... ambil... bunga matahari... Anda bisa membawa saya hanya dengan 5 blok?"
         maze_2_12: "OK, yang satu ini sedikit berbeda. Bisakah anda lakukan= hanya menggunakan 5 blok?"
@@ -109,7 +109,7 @@
         maze_karel_1_6: 'Hapus semua tumpukan tanah, gunakan blok sesedikit mungkin. Pilihan baru dalam dropdown menu di blok "selagi" (while) beritahu saya jika saya sedang berdiri di tumpukan atau lubang.'
         maze_karel_1_7: "Waduh, saya menemukan lubang yang sangat dalam! Saya tidak tahu berapa banyak sekop tanah yang dibutuhkan. Dapatkah Anda menulis sebuah program yang mengisi sampai tanah sehingga datar?"
         maze_karel_1_8: "Bantu saya mengisi lubang di ujung area, menggunakan blok sesedikit mungkin."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Buatlah supaya saya bisa memindahkan semua tumpukan tanah. Cobalah gunakan blok sesedikit mungkin. Petunjuk: Coba gunakan blok "Selama".'
         maze_karel_1_10: 'Saya bekerja lembur sehingga malam, dan saya tidak dapat melihat seberapa besar tumpukan ini. Sekarang saya tidak memiliki semua pilihan seperti ketika saya gunakan blok "sementara" (while). Pindahkan saya sepanjang lapangan, dan jika menemukan tumpukan, pindahkanlah.'
         maze_karel_1_11: 'Di luar masih gelap. Pindahkan saya sepanjang ladang. Jika ada tumpukan, buanglah, dan jika ada lubang, isilah. Petunjuk: Gunakan dropdown menu pilihan di blok "jika" (if).'
         turtle_2_1: "Halo, Saya zombie artis. Saya suka menggambar! Bantulah saya menggambar segi empat dengan warna khusus. Catatan penting: anda memiliki blok-blok yang sama tapi mereka diatur didalam kategori."
@@ -152,12 +152,12 @@
         maze_karel_debug_function_1: "Apa yang harus diubah di dalam program ini supaya bisa menolong saya memindahkan semua tumpukan ini?"
         maze_karel_debug_function_2: "Dapatkah anda men-debug program ini untuk saya supaya  dapat membuat ladang ini menjadi datar?"
         maze_karel_debug_function_3: "Edit program ini sehingga saya akan hapus semua tumpukan di ladang saya. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Mencobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
+        turtle_5_2: "Cobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
+        turtle_5_3: "Mencobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
+        turtle_5_4: "Mencobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
+        turtle_5_5: "Mencobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
+        turtle_5_6: "Mencobalah jalankan program ini, dan buatlah perubahan untuk melihat apa yang terjadi. Apa Anda mengetahui bagaimana cara kerjanya? (Atau coba hapuslah dan gantilah dengan sesuatu yang berbeda)"
         maze_3_1: "Saya perlu dapatkan babi itu! Ketik beberapa panggilan untuk move(); sehingga saya bisa dapatkan telur saya kembali."
         maze_3_2: "Buatkan saya sebuah program, sehingga saya bisa mencapai babi itu."
         maze_3_3: "Bagaimanacara saya bisa menangkap babi itu? Pastikan saya tidak menabrak kotak TNT!"

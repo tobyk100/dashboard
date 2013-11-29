@@ -24,7 +24,7 @@
         Unplug1: "Introdução à Ciência da Computação"
         Maze: "O Labirinto"
         Unplug2: "Pensamento Computacional"
-        Unplug3: "Graph Paper Programming"
+        Unplug3: "Papel da Programação Gráfica"
         Artist: "O Artista"
         Unplug4: "Algoritmos"
         Artist2: "O Artista 2"
@@ -36,11 +36,11 @@
         Farmer2: "O Fazendeiro 2"
         Unplug8: "Abstração"
         Artist4: "O Artista 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Programação do relé"
         Farmer3: "O Fazendeiro 3"
         Unplug10: "A Internet"
         Artist5: "O Artista 5"
-        Unplug11: "Wrap-up"
+        Unplug11: "Embrulhe"
         MazeEC: "O Labirinto"
     trophy:
       name:
@@ -60,16 +60,16 @@
         parameters: "Funções com parâmetros"
     level:
       instructions:
-        maze_2_2: 'Oi! Eu preciso pegar o porquinho verde! Empilhe um par de blocos "Avançar" e pressione "Executar programa" para me ajudar a chegar lá. '
-        maze_2_1: "Escreva-me um outro programa, então posso fazer todo o caminho até o porco verde. "
-        maze_2_2_5: "Como devo chegar ao porco verde? (Cuidado com a dinamite)"
-        maze_2_3: "Como devo chegar ao porco verde? (Cuidado com a dinamite)"
-        maze_2_4: "Aff! Escreva um programa que me leva ao redor da dinamite para o porco verde. "
-        maze_2_5: "Há uma maneira de chegar ao porco verde usando apenas 2 blocos. Você consegue fazer isso?"
-        maze_2_6: "Tente me levar ao porco verde usando apenas três blocos."
-        maze_2_7: 'Escreva-me um programa para que eu possa ir até o porco verde usando o menor número de blocos. Tente usar mais de um bloco "repetir vezes".'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Para resolver este, tente um bloco "repetir" com estes 3 blocos no seu interior: andar, andar, vire.'
-        maze_2_9: 'Ok, tente o novo bloco "repetir até que" - ele irá repetir até que eu alcance o porco verde.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ok, pratique mais uma vez - você pode resolver isto usando apenas 4 blocos?"
         maze_2_11: "Pessoa querida.  Mim zumbi. Mim com fome. Devo... chegar... no girassol... Me ajude a chegar lá com apenas 5 blocos?"
         maze_2_12: "Ok, isto é semelhante, mas ligeiramente diferente. Você pode fazê-lo em apenas 5 blocos?"

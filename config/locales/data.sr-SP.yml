@@ -60,16 +60,16 @@
         parameters: "функције са параметрима"
     level:
       instructions:
-        maze_2_2: 'Ћао! Потребно ми је да узмем Зелену касицу прасицу! Сложите пар "move forward" блокова заједно и притисните "Run Program" како би сте ми помогли да стигнем тамо.'
-        maze_2_1: "Напишите ми други програм како бих могао да пређем цео пут до касице прасице."
-        maze_2_2_5: "Како да дођем до зелене свинје? (Пази се TNT експлозива)"
-        maze_2_3: "Како да дођем до зелене свинје? (Пази се TNT експлозива)"
-        maze_2_4: "Аххх! Напишите програм који ће ми помоћи да заобиђем ТНТ експлозив и довести ме до зелене свинје."
-        maze_2_5: "Постоји начин на који могу доћи до зелене свинје користећи само 2 блока. можете ли да откријете како?"
-        maze_2_6: "Покушајте да ме доведете до зелене свинје користећи само три блока."
-        maze_2_7: 'Напишите ми програм тако да могу да дођем до зелене свинје користећи што мањи број блокова. Покушајте да користите  више од једанпут "repeat times" блок.'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Како бих сте решили овај, покушајте са "repeat" блоком са ова три блока унутар нјега: move, move, turn.'
-        maze_2_9: 'Уреду, покушајте са новим "repeat until" блоком - Понављаће се док ја не стигнем до зелене свинје.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ок, последнји пут ради увежбавања - можете ли да решите ово користећи само 4 блока?"
         maze_2_11: "Драга особо. Ја зомби. Ја гладан. Морам... доћи... до сунцокрета... Можете ли ме довести до њега са само 5 блокова?"
         maze_2_12: "Уреду, ово је слично, али мало другачије. Можете ли урадити то са само 5 блокова?"

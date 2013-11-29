@@ -60,16 +60,16 @@
         parameters: "Funktionen mit Parametern"
     level:
       instructions:
-        maze_2_2: 'Hallo! Ich muss das grüne Schweinchen schnappen! Stapel ein paar "gehe vorwärts"-Bausteine zusammen und drücke "Programm starten" um mir zu helfen dort hin zu gelangen. '
-        maze_2_1: "Schreibe ein anderes Programm, so dass ich es bis zum grünen Schwein schaffe. "
-        maze_2_2_5: "Wie soll ich es zum grünen Schwein schaffen? (Achte auf den  TNT-Sprengstoff)"
-        maze_2_3: "Wie soll ich es zum grünen Schwein schaffen? (Achte auf den TNT-Sprengstoff)"
-        maze_2_4: "Argh! Schreibe ein Programm, das mich am TNT-Sprengstoff vorbei und zum grünen Schwein bringt. "
-        maze_2_5: "Es gibt einen Weg bei dem ich mit nur zwei Bausteinen zum grünen Schwein komme. Findest du ihn?"
-        maze_2_6: "Versuche mich zum grünen Schwein zu bringen, indem du nur drei Blöcke verwendest."
-        maze_2_7: 'Schreib ein Programm, so dass ich es mit so wenig Bausteinen wie möglich bis zum grünen Schwein schaffe. Versuche, mehr als einen "Wiederholen"-Baustein zu benutzen.'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Versuche einen "Wiederholen"-Baustein mit folgenden Bausteinen im Inneren "gehe vorwärts, gehe vorwärts, drehe", um dieses Rätsel zu lösen.'
-        maze_2_9: 'OK, versuche den neuen "Wiederhole-bis"-Baustein - dieser wird wiederholt, bis ich das grüne Schwein erreiche.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Okay, eine letzte Übung - kannst du das mit nur 4 Bausteinen lösen?"
         maze_2_11: "Sehr geehrte Person. Ich Zombie. Ich hungrig. ... Muss... zur... Sonnenblume... gelangen. Kannst du mich mit nur 5 Bausteinen hin bringen?"
         maze_2_12: "OK, das ist ähnlich, aber etwas anders. Schaffst du es in nur 5 Bausteinen?"

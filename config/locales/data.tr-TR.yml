@@ -60,16 +60,16 @@
         parameters: "Fonksiyon parametreleri"
     level:
       instructions:
-        maze_2_2: 'Merhaba! Yeşil domuzcuk almam gerekiyor! Oraya gitmeme yardım etmek için birkaç "ilerleme" bloğunu bir araya getir ve "Programı Çalıştır" a bas. '
-        maze_2_1: "Bana başka bir program yaz ki tüm yollardan yeşil domuzcuğa ulaşayım. "
-        maze_2_2_5: "Yeşil domuzcuğu nasıl alabilirim? (TNT'ya dikkat et)"
-        maze_2_3: "Yeşil domuzcuğu nasıl alabilirim? (TNT'ya dikkat et)"
-        maze_2_4: "Ahh! Bana TNT çevresinden geçip yeşil domuzcuğu alabileceğim programı yaz. "
-        maze_2_5: "2 blok kullanarak yeşil domuzcuğu alabileceğim bir yol var. Bunu bulabilir misin?"
-        maze_2_6: "Sadece üç blok kullanarak bana yeşil domuzu getirmeyi dene."
-        maze_2_7: 'Yeşil domuzu alabilmem için, en az sayıda blok kullanarak bana bir program yazın. Birden fazla kez  "tekrar süresi" bloğunu kullanmayı deneyin.'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'Bunu çözmek için, bu üç bloğun içinden "tekrar" bloğu kullanmayı deneyin.'
-        maze_2_9: 'Tamam, yeni "e kadar tekrarla" bloğunu dene. Bu ben yelşil domuza ulaşana kadar tekrarlayacak.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Tamam, pratik için son kez. Bunu sadece 4 blok kullanarak çözebilir misin?"
         maze_2_11: "Değerli kişi.Ben zombi.Açım. Ayçiçeklerini almam gerekli.Bana onları sadece 5 blok kullanarak getirebilir misin?"
         maze_2_12: "Tamam, Bu benzer ama biraz farklı. Bunu sadece 5 blok ile yapabilir misin?"

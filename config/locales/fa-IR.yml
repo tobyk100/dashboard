@@ -32,7 +32,7 @@
   demos: "مدیر: تمام نسخه های نمایشی"
   continue: "ادامه"
   prize: "جایزه"
-  more_info: "More info"
+  more_info: "اطلاعات بیشتر"
   auth:
     sign_in_with: "ورود از طریق %{provider}"
     signed_in: "وارد شدید!"
@@ -46,10 +46,10 @@
     need_confirmation: "دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟"
     need_unlock: "دستورالعمل فعال سازی را دریافت نکرده اید؟"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "آموزش معرفی K-8 درعلوم کامپیوتر در کلاس درس خودتان"
+    teacher_title: "ثبت نام معلم"
+    student_pitch: "فراتر از ساعت 1: معرفی K-8 درعلوم کامپیوترما را امتحان کنید"
+    student_title: "ثبت نام"
     school_name: "نام مدرسه (اختیاری)"
     school_address: "نشانی مدرسه (اختیاری)"
     address_placeholder: "نشانی، شهر، استان، کدپستی"
@@ -216,7 +216,7 @@
     feedback: "ارائه پیشنهادات و انتقادات"
     translate: "کمک به ما در ترجمه به زبان شما"
     tos: "شرایط و ضوابط خدمات"
-    privacy: "Privacy Policy"
+    privacy: "قوانین حفظ حریم خصوصی"
   prize_mail:
     prize_earned:
       subject: "جایزه خود را در Code.org آزاد کنید!"
@@ -234,5 +234,5 @@
   compatability:
     working: "ما در حال کار بر روی پشتیبانی از مرورگر شما هستیم."
     upgrade: "لطفا مرورگر خود را ارتقا دهید."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "این طولانی تر از معمول طول میکشد..."
+  try_reloading: "درخواست مجدد نمایش صفحه"

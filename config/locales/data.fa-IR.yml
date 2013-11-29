@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "معرفی K-8 در دوره علوم کامپیوتر"
+          Maze: "مرحله 1"
+          Artist: "مرحله 2"
+          Artist2: "مرحله 3"
+          Farmer: "مرحله 4"
+          Artist3: "مرحله 5"
+          Farmer2: "مرحله 6"
+          Artist4: "مرحله 7"
+          Farmer3: "مرحله 8"
+          Artist5: "مرحله 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "ساعتی با کد"
+          Maze: "مرحله 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "ویرایش کد"
+          MazeEC: "مرحله 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "آشنایی با علوم کامپیوتر"
         Maze: "پیچ و خم"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "تفکر محاسباتی"
+        Unplug3: "برنامه نویسی روی کاغذ شطرنجی "
         Artist: "هنرمند"
-        Unplug4: "Algorithms"
+        Unplug4: "الگوریتم"
         Artist2: "هنرمند 2"
-        Unplug5: "Functional"
+        Unplug5: "تابع گرا"
         Farmer: "کشاورز"
-        Unplug6: "Conditionals"
+        Unplug6: "شرطها"
         Artist3: "هنرمند 3"
-        Unplug7: "Song Writing"
+        Unplug7: "آهنگ سازی"
         Farmer2: "کشاورز 2"
-        Unplug8: "Abstraction"
+        Unplug8: "انتزاع"
         Artist4: "هنرمند 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "برنامه نویسی رله"
         Farmer3: "کشاورز 3"
-        Unplug10: "The Internet"
+        Unplug10: "اینترنت"
         Artist5: "هنرمند 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "خلاصه"
+        MazeEC: "پیچ و خم"
     trophy:
       name:
         Bronze: "برنز"
@@ -60,16 +60,16 @@
         parameters: "توابع با پارامترها"
     level:
       instructions:
-        maze_2_2: "من باید اون خوک سبز رو بگیرم! چند جعبه 'به جلو برو' را کنار هم قرار بده و دکمه 'اجرا برنامه' را فشار بده تا من رو به اونجا برسونی. "
-        maze_2_1: "برای من برنامه دیگری بنویس تا بتونم به اون خوک سبز برسم. "
-        maze_2_2_5: "چطوری می تونم به اون خوک سبز برسم؟ (مواظب بمب باش!)"
-        maze_2_3: "چطوری می تونم به اون خوک سبز برسم؟ (مواظب بمب باش!)"
-        maze_2_4: "اوه! برای من برنامه ای بنویس تا بتونم بمب رو دور بزنم و به خوک سبز برسم. "
-        maze_2_5: "راهی هست که من رو فقط با دو جعبه به خوک سبز می رسونه! می تونی اون رو پیدا کنی؟"
-        maze_2_6: "سعی کن من رو فقط با سه جعبه به خوک سبز برسونی."
-        maze_2_7: "برنامه ای برای من بنویس تا بتونم  با کمترین جعبه به خوک سبز برسم. سعی بیش از یک جعبه 'تکرار' استفاده کنی."
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: "برای حل این سوال، سعی کن یک جعبه تکرار استفاده کنی که در آن جعبه های حرکت، حرکت و گردش باشد."
-        maze_2_9: "خوب! سعی کن از جعبه جدید `تکرار تا` استفاده کنی. تا زمانی که من به خوک سبز برسم اون تکرار میشه!"
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "خب، آخرین بار تمرین - آیا شما می توانید فقط با استفاده از ۴ بلوک این یکی را حل کنید؟"
         maze_2_11: "انسان عزیز.  من خون آشام هستم. من گرسنه هستم. باید... برسم... به آفتاب گردان...  می توانید شما من را برسانید به آنجا فقط با ۵ بلوک؟"
         maze_2_12: "خب، این مشابه است، اما کمی متفاوت. آیا می توانید آن را فقط با ۵ بلوک انجام دهید؟"
@@ -86,31 +86,29 @@
         turtle_1_4: 'یک مثلث با ضعلهایی در رنگ های مختلف ترسیم کنید، از گزینه "random color" که رنگ های مختلف را انتخاب میکند استفاده کنید. راهنمایی: با کلیک کردن روی شماره در بلوک چرخش میزان چرخش را بیابید.'
         turtle_1_5: "حالا برای تمرین، یک مثلث و بعد یک مربع بکش تا یک پاکت نامه بسازی."
         turtle_1_6: "می تونی بگی چه جوری میشه این مثلث و مربع رو کشید؟ راهنمایی: اول مثلث رو بکش، بعد ببین چه قدر باید اون رو بچرخونی قبل از اینکه مربع رو بکشی."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
+        turtle_1_7: "خوب، حالا کمی سخت تر- ببینید اگر شما می توانید این عینکهای سبز را ترسیم کنید. ضلعهای مربعها 100 پیکسل هستند، ومربعها 50 پیکسل از هم فاصله دارند. فراموش نکنید که دررنگ سبزترسیم کنید!"
         turtle_1_8: 'خوب، سعی کن که ببینی چی میشه اگر این کد رو اجرا کنی(یا روی "Run" کلیک کن تا امتحانش کنی). بعد، به تا جایی که لازمه این کار رو تکرار کن تا نقاشی کامل بشه. رنگ ها هر دفعه عوض میشن.'
         turtle_1_9: "می تونی بفهمی که چه عددی رو باید جای علامت سوال بگذاری تا یک دایره بشه کشید؟"
         turtle_1_10: 'آفرین، تمومش کردی! حالا هر چی دلت می خواد بکش. یه سری ایده جالب: یه تکه چوب، دونه های برف، مارپیچ. بلوک جدید "set width" رو هم امتحان کن. خوش بگذره!'
         turtle_4_1: 'می تونی یک مثلث(با طول هر ضلع 100 پیکسل) رو فقط با 3 تا بلوک بکشی؟ راهنمایی: از یک بلوک "repeat" استفاده کن.'
         turtle_4_2: 'تلاش کن این پازل رو با اضافه کردن یک بلوک کامل کنی. راهنمایی: ما بلوک هایی برای کسیدن دو تا مثلث یک شکل فراهم کرده ایم، تو فقط لازم هست که یک "turn" اون وسط بگذاری و تصمیم بگیری که چه قدر چرخش لازم هست.'
         turtle_4_3: 'خوب، این کدی هست که برای کشیدن یک عدد مثلث نوشتی. می تونی یک بلوک "repeat"  و یک بلوک "turn" رو برای کشیدن یک گل خوشگل اضافه کنی؟'
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
+        turtle_4_4: "حالا کد از پازل قبلی ولی با 36 درجه چرخش پس از ترسم هرمثلث. چند بار این باید تکرار شود؟ (راهنمایی: پس از 360 درجه چرخش رسم دایره کامل خواهد شد)"
+        turtle_4_5: "حالا کد از پازل قبلی، اما با 36 بار تکرار هر چرخش. چرخش چند درجه باید باشد؟ (راهنمایی: پس از 360 درجه چرخش رسم دایره کامل خواهد شد)"
+        turtle_4_6: "با استفاده از تنها 3 بلوک, ایا شما می توانید یک مربع با لبه های 20 پیکسل ترسیم کنید?"
+        turtle_4_7: "این کد برای طراحی مربع از پازل قبلی هست. ایا می توانید با تکرار این کد 10 مربع مجاور مانند نردبان ترسیم کنید? راهنمایی: شما فقط 2 بلوک بیشترنیاز دارید."
+        turtle_4_8: "این جواب پازل قبلی است. ایا می توانید با اضافه کردن فقط 2 بلوک بیشتر این ترسیم را کامل کنید؟"
+        turtle_4_9: "این جواب پازل قبلی است. چند درجه چرخش نیاز است تا این ترسیم را کامل کنید؟ (احتمالا چند بار باید حدس بزنید)"
+        turtle_4_10: "این جواب پازل قبلی است. چند بار این کد باید تکرار شود تا این ترسیم را کامل کنید?"
+        turtle_4_11: 'با تغییر شماره دربلوکهای "turn" و "repeat" الگوهای مختلف را امتحان کنید. یا با تغییر بقیه کد هر چیزی می خواهید ترسیم کنید.'
+        maze_karel_1_1: 'سلام، من یک کشاورز هستم. من  برای مسطح کردن زمین مزرعه ام برای کشت به کمک شما نیاز دارم. من را به توده خاک جابجا کنید وبا استفاده از بلوک "remove" آن را حذف کنید.'
+        maze_karel_1_2: 'بعد، من را داخل سوراخ کنید و انرا با دو بیل خاک پرکنید, از بلوک "fill" استفاده کنید.'
+        maze_karel_1_3: "من را نزدیک توده خاک  جابجا کنید و بگویید با  استفاده از کمترین تعداد بلوک چند تا بیل خاک باید دور ریخته شود."
+        maze_karel_1_4: "ایا می توانید به من کمک کنید تا این چهار کوه خاک را حذف کنم؟ راهنمایی: اگرمی توانید از بلوک تکراراستفاده کنید."
+        maze_karel_1_5: 'به من کمک کنید تا همه این حفره ها را با 5 بیل خاک پر کنم. راهنمایی: می توانید بلوک "repeat" را داخل بلوک "while" قرار دهید.'
+        maze_karel_1_6: 'همه کوههای خاک را با استفاده از کمترین تعداد بلوک از بین ببرید. گزینه های جدید در منوی بلوک "while" به من میگوید ایا من بر روی یک کوه خاک یا یک حفره ایستاده ام.'
         maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
+        maze_karel_1_8: "به من کمک کنید تا سوراخی که در انتهای زمین هست را پر کنم, از کمترین تعداد ممکن بلوک استفاده کنید."
         maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
@@ -156,25 +154,25 @@
         turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
         maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_karel_debug_repeat: "اشکال این برنامه را جوری بیابید تا زمینم خوب و صاف شود."
+        maze_karel_debug_while: "چگونه میتوانید این برنامه را ویرایش کنید تا به من در پر کردن حفره کمک کنید؟"
+        maze_karel_debug_if: "کمک! اشکال برنامه را برطرف کنید تا زمین من کاملا مسطح شود."
+        maze_karel_debug_if_else: "اشکال برنامه را جوری پیدا کنید تا من بتوانم همه چاله ها را پر کنم و همه کوهها را حذف کنم."
+        maze_karel_debug_function_1: "چه چیزی در این برنامه باید ویرایش شود تا به من کمک کنید همه کوهها را حذف کنم؟"
+        maze_karel_debug_function_2: "ایا می توانید این برنامه را جوری ویرایش کنید تا من بتوانم زمینم را مسطح کنم؟"
+        maze_karel_debug_function_3: "این برنامه را جوری ویرایش کنید تا من بتوانم همه کوهها ی روی زمینم را حذف کنم. "
+        turtle_5_1: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        turtle_5_2: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        turtle_5_3: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        turtle_5_4: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        turtle_5_5: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        turtle_5_6: "سعی کن این برنامه رو اجرا کنی و بعد تغییرش بده تا ببینی چه اتفاقی می افتد. می تونی سر دربیاری که چه جوری کار می کنه؟  (یا پاکش کن و با یک چیز کاملا جدید جایگزینش کن)"
+        maze_3_1: "من باید اون خوک رو بگیرم! چند تا فراخوانی move(); رو بنویس تا من بتونم تخم مرغ هام رو پس بگیرم."
+        maze_3_2: "یه برنامه برای من بنویس تا بتونم راه رو تا رسیدن به خوک ادامه بدم."
+        maze_3_3: "من جه جوری باید به خوک برسم؟ حواست باشه که من به اون جعبه های بمب برخورد نکنم!"
+        maze_3_4: "آخ! یه برنامه برام بنویس که من رو از کنار بمب ها بگذرونه و به خوک برسونه."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'برای حل این پازل, الگویی را پیدا کنید که تکرار می شود. از بلوک "repeat" با این 3 بلوک در داخلش: حرکت، حرکت، حرکت به راست استفاده کنید.'
       other1StarError:
         maze_2_14: |-
           You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.

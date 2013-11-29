@@ -32,7 +32,7 @@
   demos: "المشرف: "
   continue: "أستمر"
   prize: "جائزة"
-  more_info: "More info"
+  more_info: "المزيد من المعلومات"
   auth:
     sign_in_with: "تسجيل الدخول باستخدام %{provider}"
     signed_in: "تم تسجيل الدخول!"
@@ -46,10 +46,10 @@
     need_confirmation: "لم استلم تعليمات تأكيد الحساب؟"
     need_unlock: "لم أستلم تعليمات فتح الحساب؟"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "اعطاء مقدمة عن علوم الكمبيوتر للمستوى المبتدئ والمتوسط في فصلك الدراسي"
+    teacher_title: "تسجيل حساب المعلم"
+    student_pitch: "بعد اتمامك ساعة واحدة من البرمجة : حاول بأعطاء مقدمة عن علوم الكمبيوتر للمستوئ المبتدئ والمتوسط"
+    student_title: "تسجيل"
     school_name: "اسم المدرسة (اختياري)"
     school_address: "عنوان المدرسة (اختياري)"
     address_placeholder: "العنوان، المدينة، الدولة، الرمز البريدي"
@@ -156,7 +156,7 @@
     user:
       classroom: "طلابي"
       label: "مرحباً %{username}"
-      stats: "أنجازاتك"
+      stats: "انجازاتي"
       settings: "حسابي"
       prizes: "الجوائز"
       logout: "تسجيل الخروج"
@@ -219,14 +219,14 @@
     feedback: "توفير التغذية الرجعية"
     translate: "ساعدنا على ترجمة لغتك"
     tos: "شروط الخدمة"
-    privacy: "Privacy Policy"
+    privacy: "سياسة الخصوصية"
   prize_mail:
     prize_earned:
       subject: "استبدال الجائزة الخاصة بك في Code.org!"
     teacher_prize_earned:
       subject: "استبدال الجائزة الخاصة بك في Code.org!"
     teacher_bonus_prize_earned:
-      subject: "استبدال اجائزة المكافأة الخاصة بك في Code.org!"
+      subject: "استبدال جائزة المكافأة الخاصة بك في Code.org!"
   reference_area:
     title: "بحاجة إلى مساعدة؟"
     subtitle: "مشاهدة اشرطة الفيديو والتلميحات"

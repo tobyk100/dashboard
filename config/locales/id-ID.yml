@@ -32,7 +32,7 @@
   demos: "Admin: Semua demo"
   continue: "Lanjutkan"
   prize: "hadiah"
-  more_info: "More info"
+  more_info: "Info lebih lanjut"
   auth:
     sign_in_with: "Masuk dengan %{provider}"
     signed_in: "Masuk!"
@@ -46,10 +46,10 @@
     need_confirmation: "Tidak menerima instruksi konfirmasi?"
     need_unlock: "Tidak menerima instruksi untuk membuka?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Mengajar pengantar ilmu komputer untuk sekolah dasar dan sekolah menengah di kelas Anda"
+    teacher_title: "Guru mendaftar"
+    student_pitch: "Setelah 1 jam: Cobalah pengantar ilmu komputer untuk sekolah dasar dan menengah"
+    student_title: "Daftar"
     school_name: "Nama sekolah (opsional)"
     school_address: "Alamat sekolah (opsional)"
     address_placeholder: "Alamat, kota, propinsi, zip"
@@ -216,7 +216,7 @@
     feedback: "Memberikan pendapat"
     translate: "Bantu kami menerjemahkan ke bahasa anda"
     tos: "Persyaratan Layanan"
-    privacy: "Privacy Policy"
+    privacy: "Kebijakan privasi"
   prize_mail:
     prize_earned:
       subject: "Ambil hadiah Anda di Code.org!"
@@ -234,5 +234,5 @@
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."
     upgrade: "Silakan upgrade browser Anda."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Ternyata ini memerlukan waktu yang lebih lama dari biasanya..."
+  try_reloading: "Mencoba menampilkan halaman"

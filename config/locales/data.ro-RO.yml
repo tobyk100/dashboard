@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "Introducerea K-8 la cursul de Informatică"
+          Maze: "Etapa 1"
+          Artist: "Etapa 2"
+          Artist2: "Etapa 3"
+          Farmer: "Etapa 4"
+          Artist3: "Etapa 5"
+          Farmer2: "Etapa 6"
+          Artist4: "Etapa 7"
+          Farmer3: "Etapa 8"
+          Artist5: "Etapa 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Oră de Cod"
+          Maze: "Etapa 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Editează Codul"
+          MazeEC: "Etapa 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Introducere în Informatică"
         Maze: "Labirintul"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Gândire Computațională"
+        Unplug3: "Programare pe Hârtie Milimetrică"
         Artist: "Artistul"
-        Unplug4: "Algorithms"
+        Unplug4: "Algoritmi"
         Artist2: "Artistul 2"
-        Unplug5: "Functional"
+        Unplug5: "Funcţional"
         Farmer: "Fermierul"
-        Unplug6: "Conditionals"
+        Unplug6: "Condiţionale"
         Artist3: "Artistul 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Compunere muzicală"
         Farmer2: "Fermierul 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Abstractizare"
         Artist4: "Artistul 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Programare de releu"
         Farmer3: "Fermierul 3"
-        Unplug10: "The Internet"
+        Unplug10: "Internetul"
         Artist5: "Artistul 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Încheiere"
+        MazeEC: "Labirintul"
     trophy:
       name:
         Bronze: "Bronz"
@@ -60,18 +60,18 @@
         parameters: "Funcţii cu parametri"
     level:
       instructions:
-        maze_2_2: 'Salut! Am nevoie să ajung la Porcuşorul Verde! Stivuieşte o pereche de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta să ajung la el. '
-        maze_2_1: "Scrie-mi un alt program, astfel încât să reuşesc să ajung până la porcușorul verde. "
-        maze_2_2_5: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"
-        maze_2_3: "Cum ar trebui să ajung la porcușorul verde? (Ferește-te de TNT)"
-        maze_2_4: "Grrr! Scrie un program care mă duce pe lângă TNT şi până la porcușorul verde. "
-        maze_2_5: "Există o modalitate prin care pot ajunge la porcușorul verde folosind doar 2 blocuri. Poți să-ți dai seama cum?"
-        maze_2_6: "Încearcă să mă duci la porcușorul verde folosind doar trei blocuri."
-        maze_2_7: 'Scrie-mi un program, astfel încât să pot ajunge la porcușorul verde folosind cel mai mic număr de blocuri. Încearcă să folosești mai mult de un bloc "repetă ori".'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: |
           Pentru a rezolva acest lucru, încearcă un bloc "repetă" cu aceste 3 blocuri în interiorul acestuia: mută, mută, 
           întoarce.
-        maze_2_9: 'Ok, încearcă noul bloc "repetă până la" - va repeta până când am ajuns la porcușorul verde.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "OK, ultima dată pentru practică - poți rezolva acest lucru folosind doar 4 blocuri?"
         maze_2_11: "Dragă persoană. Eu zombie. Mie foame. Trebuie... să ajung... la floarea soarelui... Poți să mă duci acolo cu doar 5 blocuri?"
         maze_2_12: "OK, această situație este similară, dar uşor diferită. Poți s-o faci în doar 5 blocuri?"
@@ -111,58 +111,58 @@
         maze_karel_1_6: 'Elimină toate grămezile de pământ, folosind cât mai puține blocuri posibile. Noile opțiuni din meniul vertical de pe blocul "în timp ce" îmi spun dacă stau pe un morman sau pe o groapă.'
         maze_karel_1_7: "Wow, am găsit o groapă foarte adâncă! Nu ştiu de cât de multe lopeți de pământ e nevoie să se umple. Puteţi scrie un program care o umple până când solul este drept?"
         maze_karel_1_8: "Ajută-mă să umplu groapa de la capătul terenului, folosind cât mai puține blocuri posibile."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Fă-mă să înlătur toate aceste mormane de pământ. Încearcă să utilizezi cât mai puţine blocuri posibil. Sugestie: încearcă să utilizezi un bloc de "în timp ce".'
         maze_karel_1_10: 'Lucrez până târziu, așa că e întuneric afară, și nu-mi pot da seama cât de mari sunt grămezile. Acum nu mai am toate opțiunile pe care le aveam la blocul "în timp ce". Mută-mă de-a lungul câmpului și dacă există pe-acolo vreo gramadă, înlătur-o.'
         maze_karel_1_11: 'Încă e întuneric afară. Mută-mă de-a lungul câmpului. Dacă găsești o grămadă, înlătur-o și dacă găsești o groapă, umple-o. Indiciu: folosește meniul vertical de opțiuni din blocul "dacă".'
         turtle_2_1: "Salut. Eu artist zombie. Eu iubesc desenez! Ajută-mă să desenez un pătrat într-o culoare specială. Notă importantă: ai aceleași blocuri dar acum sunt aranjate pe categorii."
         turtle_2_2: 'Bine ai venit la utilizarea funcțiilor, care te lasă să definești blocuri noi! Încearcă noul bloc "desenează un pătrat" care se găsește în categoria "Funcții", ca să desenezi un pătrat mic verde de dimensiuni 50x50.'
         turtle_2_3: 'Folosește blocul "repetă" (în categoria "Bucle") ca să desenezi 3 pătrate cu latura de 100, fiecare la 120 de grade distanță unul de altul. Fă acest lucru folosind 3 culori diferite alese la întâmplare.'
-        turtle_2_4: "Acum avem să devenim cretivi. Schimbă codul ca să deseneze 36 de pătrate, largi de 100 și la 10 grade departare unul de altul. Indiciu: e posibil să vrei să folosești cursorul ca să ma determii să ma misc mai repede."
+        turtle_2_4: "Acum avem să devenim creativi. Schimbă codul ca să desenez 36 de pătrate, largi de 100 de pixeli și la 10 grade departare unul de altul. Indiciu: e posibil să vrei să folosești cursorul ca să mă determini să mă mișc mai repede."
         turtle_2_5: 'Desenează pătrate cu laturile de 50, 60, 70, 80, și 90 de pixeli. Vei avea nevoie să folosești de cinci ori funcția "deseneză un pătrat".'
-        turtle_2_6: 'Ok, acest pătrat va folosi un numărător, pentru a folosi aceleași pătrate ca ultima oară. Vrei ca pătratele să fie de aceași marime ca și numaratorul, așa că folosește blocul "numărător". Indiciu: Se găsește în categoria Variabile.'
-        turtle_2_7: 'Aici este un program pentru a desena o spirală, dar blocurile sunt dezactivate și nu vor rula. Fă un nou program folosind un bloc de tipul "numara cu" (în categoria bucle) și un bloc "numărător (în categoria variabile) pentru a desena aceași spirală.'
-        turtle_2_7_5: 'Există un nou "trage o snowman" funcţie (în categoria de funcţii). Desenaţi două oameni de zăpadă, de inaltime 250 şi 100.'
-        turtle_2_8: 'Aceasta este puțin dificilă. Folosește funcția "desenează un om de zăpadă" și noul bloc "sari înainte" (în categoria Acțiuni). Desenează 3 oameni de zăpadă în culori diferite, la departare de 100 între ei.'
-        turtle_2_9: 'Folosește o buclă " numără cu " pentru a desena o familie de oameni de zăpadă cu înalțimi de 110, 100, 90, 80 și 70. Aceștia ar trebui să fie la 6- de pixeli distanță unul de altul.'
-        turtle_2_10: "Aici este un cod ca să încercaţi sa experimantaţi cu diferite spirale. Ce se întamplă dacă schimbaţi cantitatea rundei? Sau dacă setaţi o culoare la întamplare în bucla? Desenaţi orice vă place."
-        maze_karel_2_1: "Încercaţi să folosiţi blocurile ca să mă ajutaţi să elimin toate grămezile şi să umplu toate gropile din pămant. Încercaţi să folosiţi bucle în locul utilizării a prea multe bucle. Indiciu: puteţi folosi o buclă în alta buclă."
-        maze_karel_2_2: 'Ne-am definit propriul nostru bloc numit "umple 5", care este acum în categoria Funcţiilor. Foloseşte-l ca să mă ajuţi să umplu această groapa.'
-        maze_karel_2_3: 'Utilizaţi din nou blocul-funcţie "umple 5" ca să mă faceţi sa umplu toate gropile. Veţi avea de tras blocul "umple 5" din categoria Funcţiilor.'
-        maze_karel_2_4: "Definește o nouă funcție ce înlatura 7 lopeți. Apoi folosește-le pentru a scrie un program ce mă poate ajuta să înlatur toate grămezile."
-        maze_karel_2_5: "Crează o nouă funcție ce înlătură 6 lopeți pline din o grămadă, și folosește-o pentru a ma ajuta să nivelez grămezile."
-        maze_karel_2_6: 'Folosiţi două funcţii noi, "umpleţi 8" şi "eliminaţi 8", pentru a mă ajuta să nivelez grămada şi să umplu groapa.'
-        maze_karel_2_7: "E o vacă pe câmpul meu! Scrieţi o funcţie nouă care mă va ajuta să evit vaca şi să elimin grămada. Puneţi toate blocurile în noua funcţie."
-        maze_karel_2_8: 'Folosiţi această funcţie nouă, "feriţi-vă de vacă si eliminaţi 1", ca să mă ajutaţi să elimin toate grămezile.'
-        maze_karel_2_9: "Ok, aici e o funcţie nouă care elimină 4 grămezi de pământ diferite în coloana verticală. Încercaţi să puneţi această funcţie într-o bucla, în asa mod încât să eliminaţi toate grămezile de pământ folosind doar câteva blocuri."
-        maze_karel_2_10: "Mişcaţi-mă de-a lungul câmpului şi folosiţi aceste doua funcţii ca să mă ajutaţi să elimin toate grămezile şi să umplu gropile."
-        turtle_3_1: 'Acest puzzle vă arată cum funcţiile "draw a square" şi "draw a circle" sunt definite.  Definirea unei funcţii nu rula blocurile sale.  Trebuie să trageţi afară blocul "draw a square" pentru a desena un pătrat.'
-        turtle_3_2: 'Folosind funcţia "desenaţi un pătrat" drept exemplu, creaţi o funcţie "desenaţi un triunghi" şi folosiţi-o.'
-        turtle_3_3: "Desenează garduri triungulare în jurul pisicilor şi un gard pătrat în jurul văcii.  Sfat: testă programul de-a lungul lucrului."
-        turtle_3_4: 'Vezi dacă vă puteţi să aflați cum să utilizaţi "draw a square" şi "draw a triangle" (şi alte blocuri) să desenați o casă în apropiere de leu.'
-        turtle_3_5: 'Acum creaţi o nouă "draw a house" funcţie şi utilizaţi-o pentru a găzdui două pisici. Sugestie: creaţi o nouă funcţie folosind blocul "do something," şi introduceţi propriul text pentru a numi blocul.'
-        turtle_3_6: 'Folosind "desenează un pătrat" de exemplu, adăugaţi o intrare numită "lungime" să "desenează un triunghi". Apoi, desenaţi triunghiuri în dimensiuni diferite. (Sugestie: faceţi clic pe stea pentru a adăuga o intrare pentru o funcție).'
-        turtle_3_7: 'Adăugați un input numit "lungime" ca să "desenați o casă" și contruiti o casă mare pentru elefant (cu margine de 150 de pixeli lungime)'
-        turtle_3_8: 'Aici sunt toate blocurile de puzzle anterioare.  Modifica "trage o casa" astfel încât să ajung la colţul din dreapta după ce desen o casa nouă. Utilizaţi această funcţie modificată să elaboreze trei case.'
-        turtle_3_9: 'Puteţi recrea funcţia "desenaţi o casă" fără ajutor? Încercaţi si apoi desenaţi un rând de case.'
-        turtle_3_10: "Ai învăţat o mulţime! Acum folosește pentru a desena tot ce vrei. Încerca să deseni o stea, sau o spirală sau un fulg de nea."
-        maze_karel_debug_seq_1: "Bine aţi venit la depanare! Codul meu nu funcţionează corect. Puteţi descoperi problema şi să o fixaţi astfel încât să pot obţine un teren plat şi gata de plantare?"
-        maze_karel_debug_seq_2: "Ce e în neregula cu acest program? Cum ar trebui să îl fixaţi ca eu să pot elimina acea grămadă?"
-        maze_karel_debug_repeat: "Depanaţi acest program pentru mine în aşa fel în cât câmpul va fi frumos şi plat."
-        maze_karel_debug_while: "Cum ar trebui să schimbaţi acest program ca să mă ajute sa umplu groapa?"
-        maze_karel_debug_if: "Ajutor! Reparaţi programul în aşa mod încât câmpul meu va fi complet plan."
-        maze_karel_debug_if_else: "Găsește erorile în acest program, astfel încât să pot umple în găuri şi elimina toate grămezile."
-        maze_karel_debug_function_1: "Ce ar trebui să modificaţi la acest program pentru a mă ajuta să elimin toate grămezile?"
-        maze_karel_debug_function_2: "Puteti depana acest program pentru mine ca sa pot sa-mi fac campul plat?"
-        maze_karel_debug_function_3: "Editaţi acest program ca să elimin toate grămezile de pe camp. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_2_6: 'Ok, acest program va folosi un numărător, pentru a desena aceleași pătrate ca și ultima oară. Vrei ca pătratul să fie de aceași mărime cu numărătorul, așa că folosește blocul "numărător". Indiciu: Se găsește în categoria Variabile.'
+        turtle_2_7: 'Aici este un program pentru a desena o spirală, dar blocurile sunt dezactivate și nu vor rula. Fă un nou program folosind un bloc de tipul "numără cu" (în categoria Bucle) și un bloc "numărător (în categoria Variabile) pentru a desena aceași spirală.'
+        turtle_2_7_5: 'Există o nouă funcție "desenează un om de zăpadă" (în categoria Funcţii). Desenează doi oameni de zăpadă, de înalțime 250 şi 100.'
+        turtle_2_8: 'Aceasta este puțin mai delicată. Folosește funcția "desenează un om de zăpadă" și noul bloc "sări înainte" (în categoria Acțiuni). Desenează 3 oameni de zăpadă în culori diferite, la departare de 100 de pixeli între ei.'
+        turtle_2_9: 'Folosește o buclă "numără cu" pentru a desena o familie de oameni de zăpadă cu înălțimi de 110, 100, 90, 80 și 70. Oamenii de zăpadă ar trebui să fie la 60 de pixeli distanță unul de altul.'
+        turtle_2_10: "Aici ai un cod ca să încerci să experimentezi cu diferite spirale. Ce se întamplă dacă schimbi cu cât se face întoarcerea? Sau dacă setezi o culoare la întâmplare în buclă? Desenează orice îți place."
+        maze_karel_2_1: "Încearcă să folosești blocurile ca să mă ajuţi să elimin toate grămezile şi să umplu toate gropile din pământ. Încearcă să folosești bucle în loc să utilizezi prea multe blocuri. Sugestie: poți amplasa o buclă în interiorul altei bucle."
+        maze_karel_2_2: 'Ne-am definit propriul nostru bloc numit "umple 5", care este acum în categoria Funcţiilor. Foloseşte-l ca să mă ajuţi să umplu această groapă.'
+        maze_karel_2_3: 'Utilizează din nou blocul-funcţie "umple 5" ca să mă faci să umplu toate gropile. Vei avea de tras înafară blocul "umple 5" din categoria Funcţiilor.'
+        maze_karel_2_4: "Definește o nouă funcție ce înlătură 7 lopeți. Apoi folosește-o pentru a scrie un program ce mă poate ajuta să elimin toate grămezile."
+        maze_karel_2_5: "Creează o nouă funcție ce înlătură 6 lopeți pline dintr-o grămadă, și folosește-o pentru a mă ajuta să nivelez mormanele."
+        maze_karel_2_6: 'Folosește două funcţii noi, "umple 8" şi "elimină 8", pentru a mă ajuta să nivelez grămada şi să umplu groapa.'
+        maze_karel_2_7: "E o vacă pe câmpul meu! Scrie o funcţie nouă care mă ajută să evit vaca şi să elimin grămada. Pune toate blocurile tale în interiorul noii funcţii."
+        maze_karel_2_8: 'Folosește această funcţie nouă, "evită vaca și elimină 1", ca să mă ajuți să elimin toate grămezile.'
+        maze_karel_2_9: "Ok, iată aici o funcţie care elimină 4 grămezi de pământ diferite în coloana verticală. Încearcă să pui această funcţie într-o buclă, astfel încât să elimini toate mormanele de pământ folosind doar câteva blocuri."
+        maze_karel_2_10: "Mişcă-mă de-a lungul câmpului şi folosește aceste două funcţii ca să mă ajuţi să elimin toate grămezile şi să umplu gropile."
+        turtle_3_1: 'Acest puzzle îți arată cum funcţiile "desenează un pătrat" şi "desenează un cerc" sunt definite.  Definirea unei funcţii nu execută blocurile sale. Trebuie să tragi afară blocul "desenează un pătrat" pentru a desena în fapt un pătrat.'
+        turtle_3_2: 'Folosind drept exemplu funcţia "desenează un pătrat", creează o funcţie "desenează un triunghi" şi folosește-o.'
+        turtle_3_3: "Desenează garduri triungulare în jurul pisicilor şi un gard pătrat în jurul văcii.  Sfat: testează programul de-a lungul lucrului."
+        turtle_3_4: 'Vezi dacă poţi să-ți dai seama cum să utilizezi "desenează un pătrat" şi "desenează un triunghi" (şi alte blocuri) pentru a desena o casă în jurul leului.'
+        turtle_3_5: 'Acum creează o nouă funcție "desenează o casă" şi utilizeaz-o pentru a găzdui două pisici. Sugestie: creează o nouă funcţie folosind blocul "fă ceva" şi introdu propriul text pentru a denumi blocul.'
+        turtle_3_6: 'Folosind "desenează un pătrat" de exemplu, adaugă un input numit "lungime" la "desenează un triunghi". Apoi, desenează triunghiuri în dimensiuni diferite. (Sugestie: fă clic pe stea pentru a adăuga o intrare la o funcție)'
+        turtle_3_7: 'Adaugă un input numit "lungime" la "desenează o casă" și contruiește o casă mare pentru elefant (cu margini de 150 de pixeli lungime)'
+        turtle_3_8: 'Aici sunt toate blocurile de la puzzle-ul anterior.  Modifică "desenează o casă" astfel încât să ajung până în colţul de jos din dreapta după ce am desenat o casa nouă. Utilizează această funcţie modificată să desenezi trei case.'
+        turtle_3_9: 'Poţi re-crea funcţia "desenează o casă" fără ajutor? Încearc-o, și apoi desenează un rând de case.'
+        turtle_3_10: "Ai învăţat o mulţime! Acum folosește-ți cunoștințele pentru a desena tot ce vrei. Încercă să deseni o stea, sau o spirală sau un fulg de nea sofisticat."
+        maze_karel_debug_seq_1: "Bine ai venit la depanare! Codul meu nu funcţionează corect. Poţi descoperi problema şi să o repari astfel încât să pot obţine un teren plat şi gata de plantare?"
+        maze_karel_debug_seq_2: "Ce e în neregulă cu acest program? Cum ar trebui să îl repari ca eu să pot elimina acea grămadă?"
+        maze_karel_debug_repeat: "Depanează acest program pentru mine în aşa fel încât terenul va fi frumos şi plat."
+        maze_karel_debug_while: "Cum ar trebui să schimbi acest program ca să mă ajute să umplu groapa?"
+        maze_karel_debug_if: "Ajutor! Repară programul în aşa mod încât câmpul meu va fi complet plan."
+        maze_karel_debug_if_else: "Găsește erorile în acest program, astfel încât să pot umple găurile şi elimina toate grămezile."
+        maze_karel_debug_function_1: "Ce ar trebui să modifici la acest program pentru a mă ajuta să elimin toate grămezile?"
+        maze_karel_debug_function_2: "Poți depana acest program pentru mine ca să pot să-mi fac câmpul plat?"
+        maze_karel_debug_function_3: "Editează acest program, astfel incât să elimin toate grămezile de pe domeniul meu. "
+        turtle_5_1: "Încearcă să rulezi acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
+        turtle_5_2: "Încearcă să rulezi acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
+        turtle_5_3: "Încearcă să rulezi acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
+        turtle_5_4: "Încearcă să execuți acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
+        turtle_5_5: "Încearcă să rulezi acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
+        turtle_5_6: "Încearcă să rulezi acest program, şi fă modificări pentru a vedea ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi înlocuiește-l cu ceva total diferit)"
         maze_3_1: "Am nevoie să ajung la acel porcușor! Tastează două chemări de mutare(); să-mi recuperez ouălele."
         maze_3_2: "Scrie-mi un program, ca să reușesc să ajung până la porcușor."
-        maze_3_3: "Cum să ajung la porcușor? Asigură-te că nu intru într-o cutie cu TNT!"
+        maze_3_3: "Cum să ajung la porcușor? Asigură-te că nu intru în cutia cu TNT!"
         maze_3_4: "Argh! Scrie-mi un program care mă duce de jur împrejurul minelor de TNT şi până la porcușor."
       levelIncompleteError:
         maze_2_8: 'Pentru a rezolva acesta, găsește modelul care repetă. Folosește un bloc "repetă" care să conțină următoarele 3 blocuri în el: mută, mută, întoarce la dreapta.'

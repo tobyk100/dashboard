@@ -60,17 +60,16 @@
         parameters: "Fonctions avec paramètres"
     level:
       instructions:
-        maze_2_2: "Salut! Je dois attrapper le petit cochon vert ! Empillez quelques  « aller de l'avant » et appuyez sur « Exécuter le programme » pour m'aider à y arriver. "
-        maze_2_1: "Ecris-moi un autre programme afin que  je puisse faire tout le chemin vers  le petit cochon vert. "
-        maze_2_2_5: "Comment dois-je faire pour rejoindre le cochon vert ? (fais attention aux explosifs)"
-        maze_2_3: "comment faire pour aller jusqu'au cochon vert? (Surveillez les TNT)"
-        maze_2_4: "Zut! Ecris un programme qui me fait contourner l'explosif et me fait arriver au cochon vert. "
-        maze_2_5: "Il y a une façon qui peut me faire arriver au cochon vert en utilisant seulement 2 blocs. Peux-tu la trouver?"
-        maze_2_6: "Essaies de me faire arriver au cochon vert en utilisant seulement trois blocs."
-        maze_2_7: |-
-          Ecris-moi un programme qui peut me faire arriver au cochon vert en utilisant le plus petit nombre de blocs. Essaie d'utiliser plus d'un bloc "Répéter".
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: "Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3 blocs à l'intérieur : déplacer, déplacer, tourner."
-        maze_2_9: "OK, essayez le nouveau bloc « répéter jusqu'à » - il répétera jusqu'à ce que j'atteigne le cochon vert."
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "OK, une dernière fois pour s'entraîner - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
         maze_2_11: "Cher personne.  Moi zombie. Moi faim. Doit... arriver... au tournesol... Pouvez vous me l'obtenir avec seulement 5 blocs ?"
         maze_2_12: "OK, c'est semblable, mais légèrement différent. Pouvez-vous le faire en seulement 5 blocs ?"

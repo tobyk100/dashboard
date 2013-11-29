@@ -60,16 +60,16 @@
         parameters: "Funktioner med parametre"
     level:
       instructions:
-        maze_2_2: 'Hej! Jeg har brug at få den grønne Grissebasse! Saml et par "Gå fremad" blokke og tryk på "Kør Program" for at hjælpe mig derhen. '
-        maze_2_1: "Skriv mig et andet program, så jeg kan komme det hele vejen hen til den grønne gris. "
-        maze_2_2_5: "Hvordan skal jeg komme hen til den grønne gris? (Pas på TNT)"
-        maze_2_3: "Hvordan skal jeg komme hen til den grønne gris? (Pas på TNT)"
-        maze_2_4: "Argh! Skriv et program, der får mig udenom TNT og hen til den grønne gris. "
-        maze_2_5: "Der er en måde jeg kan komme hen til den grønne gris på, ved hjælp af kun 2 blokke. Kan du regne det ud?"
-        maze_2_6: "Forsøg at få mig hen til den grønne gris ved hjælp af kun tre blokke."
-        maze_2_7: 'Skriv mig et program så jeg kan komme hen til den grønne gris ved hjælp af færrest mulige blokke. Prøv at bruge mere end én "Gentag gange" blok.'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'For at løse denne opgave, prøv en "gentage" blok med disse 3 blokke indeni det: fremad, fremad, drej.'
-        maze_2_9: 'OK, prøv den nye "Gentag indtil" blok - den vil gentage indtil jeg når grønne gris.'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ok, en sidste gang for praksis - kan du løse denne opgave ved brug af kun 4 blokke?"
         maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
         maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"

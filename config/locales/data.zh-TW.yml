@@ -60,16 +60,16 @@
         parameters: "Functions with parameters"
     level:
       instructions:
-        maze_2_2: '你好！我需要去抓綠色小豬 ！堆疊幾個"向前"塊在一起，然後按"運行程式"來幫助我達成。'
-        maze_2_1: "給我寫另一個程式，所以我可以一路向著抓拿綠色豬的路。"
-        maze_2_2_5: "我該如何去抓綠色的豬？(提防 TNT)"
-        maze_2_3: "How should I get to the green pig? (Watch out for the TNT)"
-        maze_2_4: "唉 ！編寫一個程式讓我避開 TNT 並抓到綠色豬。"
-        maze_2_5: "有一種方法可以只使用 2 個塊來抓到綠色豬。你能想出它來嗎？"
-        maze_2_6: "試著只使用三個塊來讓我抓到綠色豬。"
-        maze_2_7: '給我寫一個程式所以我可以在使用最少數目的塊下來抓到綠色豬。請嘗試使用多個"重複次數"塊。'
+        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: '要解決這個問題，請嘗試用這 3 種"重複"塊： 移動、 移動、 打開。'
-        maze_2_9: '好，嘗試這新的"重複直到"塊-它會重複，直到我抓到綠色豬。'
+        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "好，最後一次的練習--你可以解決這個問題只有使用 4 塊嗎？"
         maze_2_11: "親愛的。我的僵屍。我餓了。必須......去拿向日葵......你可以讓我到那裡帶只有用 5 塊嗎？"
         maze_2_12: "好，這個類似，但略有不同。你可以在只有 5 塊完成它嗎？"
@@ -83,14 +83,13 @@
         turtle_1_1: "你好，我是一個藝術者。您可以編寫代碼，使我畫幾乎所有的東西。使用幾個塊，使我在圖片中畫灰色線條。"
         turtle_1_2: '現在，畫一個正方形。注釋：使用您最喜愛的顏色通過在新的"設置顏色"塊中選擇它。'
         turtle_1_3: "請只有使用 3 塊來完成一個正方形。"
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
+        turtle_1_4: '畫一個每邊都是不同顏色的三角形，每次使用"隨機顏色"選項來選取不同的顏色。提示： 你得弄清楚多遠該轉向，藉由在"轉向"塊中上按數字。'
         turtle_1_5: "現在，為了練習，繪製一個三角形然後一個正方形來繪製一個信封。"
         turtle_1_6: "你能想出如何畫此三角形和正方形嗎？提示： 首先畫三角形，然後想出轉動多少來畫正方形。"
         turtle_1_7: "好，讓我們增加點困難度-看看是否您可以繪製這些綠色的眼鏡。正方形是每側 100 個畫素，而他們之間相距 50 畫素）。不要忘記是用綠色繪製 ！"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
+        turtle_1_8: '好, 嘗試了解如果您運行此程式 （或試著按下"執行"） 會發生什麼。然後，重複它足夠多的次數來完成繪圖。每次顏色都會不同。'
+        turtle_1_9: "你能想出該用什麼號碼取代問號用來繪製一個圓嗎？"
+        turtle_1_10: '你成功了 ！現在，繪製任何你想要畫的。一些有趣的想法： 棒圖、 雪花、 或螺旋。也嘗試新的"設置寬度"塊。玩得愉快！'
         turtle_4_1: '你可以畫一個只使用 3 個塊的三角形 （100 畫素的邊）？提示： 使用"重複"塊。'
         turtle_4_2: '嘗試加一個塊來完成這個謎題。提示： 我們提供塊來繪製 2 個相同的三角形，你需要放"轉向"在這之間，並決定多遠轉向。'
         turtle_4_3: |-
