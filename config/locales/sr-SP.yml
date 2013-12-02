@@ -32,7 +32,7 @@
   demos: "Admin: All Demos"
   continue: "Наставите"
   prize: "награда"
-  more_info: "More info"
+  more_info: "Више информација"
   auth:
     sign_in_with: "Пријавите се помоћу %{provider}"
     signed_in: "Пријављени сте!"
@@ -46,10 +46,10 @@
     need_confirmation: "Нисте примили инструкције за потврду?"
     need_unlock: "Нисте примили инструкције за откључавање?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Предавајте К-8 Увод у Компјутерске Науке  вашем разреду"
+    teacher_title: "Учитељ пријављивање"
+    student_pitch: "Изван 1 часа: испробајте К-8 Увод у Компјутерске Науке"
+    student_title: "Пријави се"
     school_name: "Име школе (опционо)"
     school_address: "Адреса школе (опционо)"
     address_placeholder: "адреса, град, држава, поштански код"
@@ -218,7 +218,7 @@
     feedback: "Обезбедити податке о резултатима"
     translate: "Помози нам превести на твој језик"
     tos: "Увјети кориштенја"
-    privacy: "Privacy Policy"
+    privacy: "Политика приватности"
   prize_mail:
     prize_earned:
       subject: "Откупи своји награду на Code.org!"
@@ -236,5 +236,5 @@
   compatability:
     working: "Радимо на потпори за твој претраживаћ."
     upgrade: "Молимо набавите савременији претраживаћ."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Ово траје дуже него што је уобичајено ..."
+  try_reloading: "Покушајте са поновним покретањем странице"

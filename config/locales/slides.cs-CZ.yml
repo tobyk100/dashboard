@@ -9,13 +9,13 @@
         text: "Bedeme používat Blockly, vizuální programovaní jazyk, kde píšeš kód pomocí skládání bloků dohromady."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Většina kódů je psaná, ale Blockly je vizuální. Každá blok odpovídá jednomu řádku "skutečného" kódu.'
+        text: 'Většina kódů je psaná, ale Blockly je vizuální. Každý blok odpovídá jednomu řádku "skutečného" kódu.'
       4:
         image: "notes/hoc1_4.jpg"
         text: "Naučíš se základy informatiky, která existuje všude; od různých aplikací po řízení vozítka Mars rover."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "Program je sada instrukcí pro počítač, kterými se řídí."
+        text: "Program je sada instrukcí pro počítač, kterými se jimi řídí."
       6:
         image: "notes/hoc1_6.jpg"
         text: "Cílem tvého prvního programu je dostat Angry Bird skrz bludiště k Zelenému praseti."

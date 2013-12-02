@@ -32,7 +32,7 @@
   demos: "Διαχειριστής: Όλα τα Demo"
   continue: "Συνέχεια"
   prize: "βραβείο"
-  more_info: "More info"
+  more_info: "Περισσότερες πληροφορίες"
   auth:
     sign_in_with: "Εγγραφή μέσω  %{provider}"
     signed_in: "Συνδέθηκες!"
@@ -46,10 +46,10 @@
     need_confirmation: "Δεν έλαβες τις οδηγίες επιβεβαίωσης;"
     need_unlock: "Δεν έλαβες τις οδηγίες ξεκλειδώματος;"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Δίδαξε την Εισαγωγή στην Επιστήμη Υπολογιστών για το Δημοτικό στην τάξη σου"
+    teacher_title: "Εγγραφή Δασκάλου"
+    student_pitch: "Πέρα από τη 1 ώρα: δοκιμάστε την Εισαγωγή στην Επιστήμη Υπολογιστών για το Δημοτικό"
+    student_title: "Εγγραφή"
     school_name: "Όνομα Σχολείου (προαιρετικά)"
     school_address: "Διεύθυνση Σχολείου (προαιρετικά)"
     address_placeholder: "διεύθυνση, πόλη, περιοχή, ΤΚ"
@@ -218,7 +218,7 @@
     feedback: "Πες τη γνώμη σου"
     translate: "Βοηθήστε μας να μεταφράσουμε στη γλώσσα σας"
     tos: "Όροι παροχής υπηρεσιών"
-    privacy: "Privacy Policy"
+    privacy: "Πολιτική Aπορρήτου"
   prize_mail:
     prize_earned:
       subject: "Εξαργυρώστε το βραβείο σας στο Code.org!"
@@ -236,5 +236,5 @@
   compatability:
     working: "Εργαζόμαστε για την υποστήριξη του προγράμματος περιήγησης που χρησιμοποιείτε."
     upgrade: "Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Αυτό διαρκεί περισσότερο από ότι συνήθως..."
+  try_reloading: "Δοκίμασε να φορτώσεις ξανά τη σελίδα"

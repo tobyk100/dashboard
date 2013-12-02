@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Velkommen til den første kodetimen! La oss dykke rett inn i ditt første møte med programmering."
+        text: "Velkommen til din første kodetime! La oss dykke rett inn i ditt første møte med programmering."
       2:
         image: "notes/hoc1_2.jpg"
         text: "Vi skal bruke Blockly, et visuelt programmeringsspråk hvor du drar og slipper blokkene for å skrive kode."

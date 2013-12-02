@@ -10,46 +10,46 @@
         current_password: "Núverandi lykilorð"
         locale: "Tungumál"
         gender: "Kyn"
-        edit_header: "Breyta upplýsingum um reikning"
+        edit_header: "Breyta upplýsingum reiknings"
   hello: "Halló heimur"
   welcome_back: "Velkomin/-n aftur, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Bættu við kennara eftir kóða eða netfangi:"
-      placeholder: "Kóði (ABCDEF) eða netfang (teacher@school.edu)"
+      label: "Bæta við kennara eftir kóða eða netfangi:"
+      placeholder: "Kóði (ABCDEF) eða netfang (kennari@skoli.is)"
     submit: "Bæta við kennara"
   appname: "Code.org"
-  stage: "Stig"
-  puzzle: "Puzzle"
-  trophies: "Trophies"
-  courses: "Courses"
+  stage: "Borð"
+  puzzle: "Þraut"
+  trophies: "Viðurkenningar"
+  courses: "Námskeið"
   of: "af"
   more: "MEIRA"
   less: "MINNA"
   try_hoc: "Prófaðu Klukkustund kóðunar, ýttu hér >> "
-  try_k8intro: "Or, try our K-8 Intro to Computer Science Course (15-25 hours)"
-  already_started: "Already started? Resume here >> "
-  demos: "Admin: All Demos"
+  try_k8intro: "Eða prófaðu námskeiðið K-8 Intro to Computer Science (15-25 klst.)"
+  already_started: "Ekki að byrja núna? Taktu upp þráðinn hér >> "
+  demos: "Umsjón: Öll sýnidæmi"
   continue: "Halda áfram"
   prize: "verðlaun"
-  more_info: "More info"
+  more_info: "Nánar"
   auth:
-    sign_in_with: "Sign in with %{provider}"
+    sign_in_with: "Innskrá með %{provider}"
     signed_in: "Skráðu/-ur inn!"
     already_signedup: "Búin/-n að skrá þig?"
-    notyet_signedup: "Haven't joined yet?"
+    notyet_signedup: "Ekki skráð þig enn?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Gleymdir þú lykilorðinu þínu ?"
     need_confirmation: "Fékstu ekki sendar staðfestingar leiðbeiningar?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_unlock: "Fékkstu ekki leiðbeiningar um opnun?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Kenndu nemendum þínum K-8 Intro to Computer Science"
+    teacher_title: "Innskráning kennara"
+    student_pitch: "Að lokinni 1 klst: prófaðu K-8 Intro to Computer Science"
+    student_title: "Skrá sig"
     school_name: "Nafn skóla (valfrjálst)"
     school_address: "Heimilisfang skóla (valfrjálst)"
     address_placeholder: "götuheiti, borg, fylki, póstfang"
@@ -65,57 +65,57 @@
     mismatch_password: "Lykilorðin tvö sem þú slóst inn eru ekki eins"
   signin_form:
     title: "Innskráning"
-    login: "Netfang eða notendanafn"
+    login: "Netfang eða notandanafn"
     password: "Lykilorð"
     remember: "Muna eftir mér"
-    submit: "Sign in"
+    submit: "Innskráning"
   password:
     reset_form:
-      title: "Forgot your password?"
-      email: "Email address"
-      submit: "Send me reset password instructions"
+      title: "Gleymt lykilorð?"
+      email: "Netfang"
+      submit: "Fá leiðbeiningar um endurstillingu lykilorðs"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
-      confirm_password: "Confirm new password"
-      submit: "Change my password"
+      title: "Breyta lykilorði"
+      new_password: "Nýtt lykilorð"
+      confirm_password: "Staðfesta nýtt lykilorð"
+      submit: "Breyta lykilorði"
   welcome_email:
-    subject: "Join my class (on Code.org)"
+    subject: "Komdu í bekkinn minn (á Code.org)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Smelltu á krækjuna hér fyrir neðan til að skrá þig í æfingar í tölvunarfræði hjá Code.org (með mig sem "kennara"):
       
       %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
+      Æfingarnar eru skemmtilegar og myndrænar og kenna grunnhugtök í tölvunarfræði í gegnum leik með leiðsögn. Þú færð kennslu í forritun hjá Bill Gates, Mark Zuckerberg, Angry Birds og Plants vs. Zombies! :-)
       
       %{name}
   follower:
-    invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    invite_sent: "Boð send"
+    added_teacher: "%{name} bætt við sem kennara"
+    registered: "Þú hefur skráð þig í %{section_name}. Skráðu þig inn til að halda áfram"
     error:
-      signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      signed_in: "Skráðu þig út fyrst"
+      username_not_found: "Notandaheitið %{username} fannst ekki"
+      username_in_use: "%{username} er í notkun, veldu annað"
+      no_teacher: "Fann engan skráðan inn með '%{teacher_email_or_code}'. Biddu viðkomandi að skrá sig hér og reyndu svo aftur að bæta þeim við"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Komdu í bekk sem %{teacher_name} kennir hjá Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "Þú hefur ekki aðgang að upplýsingum um þennan aðila"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
-    provider: "Provider:"
-    code: "Code:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    title: "Innleysa verðlaun: %{name}"
+    provider: "Veitandi:"
+    code: "Kóði:"
+    success: "Verðlaunin voru innleyst, sjá kóða fyrir neðan."
+    error: "Ekki tókst að innleysa verðlaunin, vinsamlegast reyndu aftur."
     confirm:
-      title: "Please Confirm"
-      "no": No
-      "yes": Yes
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      title: "Vinsamlegast staðfestu"
+      "no": Nei
+      "yes": Já
+      msg: "Ertu viss um að þú viljir gera kröfu um verðlaunin %{prize_name}?"
+      msg_student: "ATHUGAÐU: Þú getur aðeins valið eina tegund verðlauna."
     providers:
       apple_itunes: "Apple iTunes"
       donors_choose: "DonorsChoose.org $750"
@@ -126,17 +126,17 @@
       ea_fifa: "EA Origin FIFA Soccer 13"
       ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
       ea_pvz: "EA Origin Plants vs. Zombies"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "Þú hefur lokið öllu kennsluefninu. Eftir að þú hefur innheimt verðlaun þín, getur þú valið að læra meira á netinu: %{online_link} eða í skóla: %{local_school_link}"
     msg:
-      choose: "Choose a prize:"
-      earned: "You have earned a prize!"
-      not_earned: "Collect all %{num_trophies} trophies to win a prize!"
+      choose: "Veldu verðlaun:"
+      earned: "Þú hefur unnið til verðlauna!"
+      not_earned: "Safnaðu öllum  %{num_trophies} bikurunum til að vinna verðlaun!"
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize!"
-        not_earned: "If 10 students collect all %{num_trophies} trophies, you win a prize!"
+        earned: "10 eða fleiri nemendur söfnuðu öllum %{num_trophies} bikurunum. Þú hefur unnið kennaraverðlaun!"
+        not_earned: "Ef 10 nemendur safna öllum %{num_trophies} bikurunum, færð þú verðlaun!"
         bonus:
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are female. You have won a bonus prize!"
-          not_earned: "If 10 or more students collect all %{num_trophies} trophies and at least 40% of those students are female, you win a bonus prize!"
+          earned: "40% eða fleiri af nemendunum sem söfnuðu öllum %{num_trophies} bikurunum eru kvenkyns. Þú færð sérstök aukaverðlaun!"
+          not_earned: "Ef 10 eða fleiri nemendur safna öllum %{num_trophies} bikurunum og að minnsta kosti 40% af þeim nemendum eru kvenkyns, þá færð þú sérstök aukaverðlaun!"
   crud:
     new_model: "Nýtt %{model}"
     show: "Sýna"
@@ -146,8 +146,8 @@
     destroy: "Eyða"
     back: "Til baka"
     confirm: "Ertu viss?"
-    created: "%{model} was successfully created."
-    updated: "%{model} was successfully updated."
+    created: "Tókst að búa til %{model}."
+    updated: "Tókst að uppfæra %{model}."
   nav:
     header:
       finished_hoc: "Ég hef lokið við mína Klukkustund kóðunar"
@@ -159,67 +159,66 @@
       settings: "Reikningurinn minn"
       prizes: "Verðlaun"
       logout: "Skrá út"
-      signin: "Sign in"
-      signup: "Sign up"
+      signin: "Skrá inn"
+      signup: "Skráning"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prizes_link: "more info"
+      progress: "Árangur þinn"
+      lines: "Samtals línur af kóða: %{lines}"
+      close: "LOKA"
+      mastery: "Hugtök"
+      puzzle_map: "Stig"
+      prizes: "Safnaðu öllum %{total_trophies} bikurunum og fáðu verðlaun!"
+      prize_earned: "Öllum %{total_trophies} bikurunum safnað. Verðlaun unnin!"
+      prizes_link: "nánar"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
-    tools: "Teacher Tools"
+      one: "Kennari þinn er %{name}"
+      other: "Kennarar þínir:"
+    tools: "Tæki kennara"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "Umsjón nemenda"
+      add: "Bæta við nemendum"
+    rollup: "Mælaborð árangurs"
+    activity: "Nýleg virkni bekkjar"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(hafðu autt ef þú vilt ekki breyta því)"
+    current_password_hint: "(við þurfum að fá núverandi lykilorð þitt til að staðfesta breytingarnar)"
     cancel:
-      title: "Cancel my account"
-      hint: "Unhappy?"
-      button: "Cancel my account"
+      title: "Loka reikningi mínum"
+      hint: "Óánægð(ur)?"
+      button: "Loka reikningi mínum"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "Lokið"
+    tried: "Reynt"
   user_stats:
-    recent_activity: "Recent activity"
-    show_more: "Show more"
+    recent_activity: "Nýleg virkni"
+    show_more: "Sýna meira"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
-    teacher_dashboard: "See progress dashboard"
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
-    classroom: "Your classroom"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "local school"
-    online: "online"
-    see_details: "See details"
+    signin_message: "eða ef þú er þegar skráð(ur) %{link}"
+    student_reg_link: "Nemendur - byrja hér"
+    teacher_reg_link: "Kennarar - byrja hér"
+    teacher_dashboard: "Sjá mælaborð árangurs"
+    teacher_student_count: "Þú ert með %{count} nemendur."
+    teacher_averages: 'Að meðaltali hafa nemendur þínir unnið til %{trophy_average} af %{trophy_max} mögulegum "Concept Mastery" bikurum.'
+    classroom: "Bekkjarstofan þín"
+    student_progress: "Námsframvinda þín"
+    student_stats: 'Þú hefur unnið til %{trophy_count} af %{trophy_max} mögulegum "Concept Mastery" bikurum.'
+    student_left_off: "Þú varst hér síðast:"
+    student_finished: "Þú hefur lokið öllu kennsluefninu, innleystu verðlaunin þín %{prize_link} og veldu annað nám á netinu: %{online_link} eða í skóla: %{local_school_link}"
+    local_school: "nálægur skóli"
+    online: "á netinu"
+    see_details: "Sjá nánar"
   gender:
-    male: "Male"
-    female: "Female"
-    none: "Prefer not to answer"
+    male: "Karlkyns"
+    female: "Kvenkyns"
+    none: "Kýs að svara ekki"
   footer:
     help_from_html: 'Verkfræðingar frá <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, og <a href="http://www.twitter.com">Twitter</a> aðstoðuðu við gerð þessara leiðbeininga.'
     art_from_html: 'Grafík frá <a href="http://www.angrybirds.com">Angry Birds</a> eftir<a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> eftir <a href="http://www.popcap.com">PopCap Games</a>.'
     feedback: "Gefðu endurgjöf"
     translate: "Hjálpaðu okkur að þýða yfir á þitt tungumál"
     tos: "Þjónustuskilmálar"
-    privacy: "Privacy Policy"
+    privacy: "Persónuvernd"
   prize_mail:
     prize_earned:
       subject: "Leystu út verðlaunin þín á Code.org!"
@@ -237,5 +236,5 @@
   compatability:
     working: "Við erum að vinna í stuðningi við vafrann sem þú notar."
     upgrade: "Vinsamlegast uppfærðu vafrann þinn."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Þetta tekur lengur en venjulega..."
+  try_reloading: "Reyndu að endurhlaða síðunni"

@@ -60,18 +60,18 @@
         parameters: "Funcţii cu parametri"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'Mă poți ajuta să prind porcușorul buclucaș? Grupează o pereche de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta să ajung acolo. '
+        maze_2_1: "Acest porcușor îmi zburlește penele. Ajută-mă să-l găsesc!"
+        maze_2_2_5: "Trasează calea și du-mă la porcușorul nătâng. Evită TNT-ul sau penele-mi vor zbura!"
+        maze_2_3: "Ghidează-mă la răutatea verde! (Atenție la TNT)"
+        maze_2_4: "Păstrează-ți calmul și ajută-mă să găsesc porcușorul rău. Altfel s-ar putea să mă enervez!"
+        maze_2_5: "Există o modalitate prin care pot ajunge la porcușorul nătâng folosind doar 2 blocuri. Poți să-ți dai seama cum?"
+        maze_2_6: "Încearcă să mă duci la intrusul verde folosind doar trei blocuri."
+        maze_2_7: 'Ajută-mă să alung acest purceluş rău folosind cel mai mic număr de blocuri. Încearcă să folosești mai mult de un bloc "repetă ori".'
         maze_2_8: |
           Pentru a rezolva acest lucru, încearcă un bloc "repetă" cu aceste 3 blocuri în interiorul acestuia: mută, mută, 
           întoarce.
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'Ok, încearcă noul bloc "repetă până la" - va repeta până când am ajuns la porcușorul enervant.'
         maze_2_10: "OK, ultima dată pentru practică - poți rezolva acest lucru folosind doar 4 blocuri?"
         maze_2_11: "Dragă persoană. Eu zombie. Mie foame. Trebuie... să ajung... la floarea soarelui... Poți să mă duci acolo cu doar 5 blocuri?"
         maze_2_12: "OK, această situație este similară, dar uşor diferită. Poți s-o faci în doar 5 blocuri?"

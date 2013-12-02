@@ -60,16 +60,16 @@
         parameters: "دوال مع المتغيرات الخاصة بها"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'هل يمكنك مساعدتي في صيد المخلوق الاخضر؟ اجمع اثنين من قطع "التقدم للامام" معا واضغط على "تنفيذ البرنامج" لمساعدتي على الوصول إلى هناك. '
+        maze_2_1: "هذا المخلوق الاخضر يزعج ريشي. ساعدني في العثور عليه!"
+        maze_2_2_5: "تتبع المسار و قودني إلى المخلوق الاخضر المضحك. تجنب مادة تي أن تي، والا سيطير الريش!"
+        maze_2_3: "ارشدني الى الشر الاخضر (تجنب من مادة تي ان تي)"
+        maze_2_4: "احتفظ بالهدوء وساعدني في العثور على المخلوق الاخضر. وإلا قد اصبح غاضبا!"
+        maze_2_5: "هناك طريقة تمكنني بها من الوصول الى المخلوق الاخضر باستخدام اثنين من القطع فقط، فهل يمكنك معرفتها؟"
+        maze_2_6: "حاول توصيلي الى المتطفل الاخضر باستخدام ثلاث قطع."
+        maze_2_7: 'ساعدني في أبعاد هذا المخلوق الاخضر باستخدام أقل عدد من القطع. حاول استخدام اكثر من قطعة "اكرر مرات" .'
         maze_2_8: 'لحل هذا اللغز يجب عليك ان تستخدم قطعة " أكرر حتى " مع وضع ثلاث قطع داخلها والتي هي : تقدم , تقدم , اتجه .'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'حسناً، جرب القطعة الجديدة "أكرر حتى"- فإنه سيتم تكرارها حتى تصل الى المخلوق الاخضر.'
         maze_2_10: "حسناً، مرة واحدة أخرى للتدريب - ايمكنك حل هذا اللغز باستخدامك 4 قطع فقط؟"
         maze_2_11: "عزيزي الأنسان. أنا الزومبي. أنا جائع. ... ويجب علي .... الوصول ... لزهرة عباد الشمس...... أيمكنك أن توصلني إلي هناك بإستخدامك 5 قطع فقط؟"
         maze_2_12: "حسناً، هذا يبدو مشابهاً، ولكنه مختلف قليلاً. أيمكنك أن تفعل ذلك بإستخدامك 5 قطع فقط؟"

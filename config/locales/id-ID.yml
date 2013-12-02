@@ -26,15 +26,15 @@
   of: "dari"
   more: "lebih"
   less: "KURANG"
-  try_hoc: "Coba jam kode, klik di sini >> "
-  try_k8intro: "Login dengan %{provider}"
+  try_hoc: "Cobalah Jam Kode, klik di sini >> "
+  try_k8intro: "Cobalah kursus pengenalan ilmu komputer untuk sekolah dasar dan sekolah menengah (terbagi menjadi 15-25 jam)"
   already_started: "Sudah mulai? Lanjutkan di sini >> "
   demos: "Admin: Semua demo"
   continue: "Lanjutkan"
   prize: "hadiah"
   more_info: "Info lebih lanjut"
   auth:
-    sign_in_with: "Masuk dengan %{provider}"
+    sign_in_with: "Masuk pakai akun %{provider}"
     signed_in: "Masuk!"
     already_signedup: "Sudah mendaftar?"
     notyet_signedup: "Belum bergabung?"
@@ -149,7 +149,7 @@
   nav:
     header:
       finished_hoc: "Saya telah menyelesaikan jam kode!"
-      sign_in_to_save: "login untuk menyimpan kemajuan"
+      sign_in_to_save: "login untuk mencatat kemajuan belajar"
     user:
       classroom: "Murid-murid saya"
       label: "Halo %{username}"
@@ -187,7 +187,7 @@
       button: "Batalkan akun saya"
   user_level:
     completed: "Selesai"
-    tried: "Mencoba"
+    tried: "Telah mencoba"
   user_stats:
     recent_activity: "Aktivitas terakhir"
     show_more: "Tunjukkan lebih banyak"
@@ -211,10 +211,10 @@
     female: "Wanita"
     none: "Memilih untuk tidak menjawab"
   footer:
-    help_from_html: 'Insinyur dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a> membantu menciptakan tutorial ini.'
-    art_from_html: 'Karya seni dari <a href="http://www.angrybirds.com"> Angry Birds</a> oleh <a href="http://www.rovio.com"> Rovio</a>, dan <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> oleh <a href="http://www.popcap.com"> PopCap permainan</a>.'
-    feedback: "Memberikan pendapat"
-    translate: "Bantu kami menerjemahkan ke bahasa anda"
+    help_from_html: 'Tutorial ini diciptakan atas bantuan programmer-programmer dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a>.'
+    art_from_html: 'Karya seni grafis diperoleh dari <a href="http://www.angrybirds.com"> Angry Birds</a> oleh <a href="http://www.rovio.com"> Rovio</a>, dan <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> oleh <a href="http://www.popcap.com"> PopCap Games</a>.'
+    feedback: "Berikan pendapat"
+    translate: "Bantu menterjemahkan ke bahasa anda"
     tos: "Persyaratan Layanan"
     privacy: "Kebijakan privasi"
   prize_mail:
@@ -226,7 +226,7 @@
       subject: "Ambil hadiah bonus Anda di Code.org!"
   reference_area:
     title: "Perlu bantuan?"
-    subtitle: "Lihat video ini dan petunjuk lainnya"
+    subtitle: "Lihat video ini dan tips lainnya"
   video:
     tab: "Video."
     notes: "Tidak ada video? Tunjukkan catatan kaki."
@@ -234,5 +234,5 @@
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."
     upgrade: "Silakan upgrade browser Anda."
-  slow_loading: "Ternyata ini memerlukan waktu yang lebih lama dari biasanya..."
-  try_reloading: "Mencoba menampilkan halaman"
+  slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
+  try_reloading: "Coba tampilkan halaman lagi"

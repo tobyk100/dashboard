@@ -22,16 +22,16 @@
       unlock_instructions:
         subject: "Unlock Instructions"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: '由於"%{原因}"無法驗證您是從 %{類型}。'
+      success: "成功通過身份驗證是從 %{類型} 帳戶。"
     passwords:
       no_token: "沒有從一封密碼重設的電子郵件來，您不能訪問此頁面。如果你要從密碼重設的電子郵件來，請確認您使用所提供的完整 URL。"
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password was changed successfully. You are now signed in."
-      updated_not_active: "Your password was changed successfully."
+      send_paranoid_instructions: "如果您的電子郵件地址存在於我們的資料庫中，您將在幾分鐘時間收到密碼恢復連結在您的電子郵件內。"
+      updated: "您的密碼已經更改成功。你現在是簽署的。"
+      updated_not_active: "您的密碼已經更改成功。"
     registrations:
-      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
+      destroyed: "再見了 ！您的帳戶已成功取消。我們希望很快再次見到你。"
       signed_up: "Welcome! You have signed up successfully."
       signed_up_but_inactive: "您已成功地簽署。然而，我們無法讓您登錄因為您的帳戶尚未啟動。"
       signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
@@ -42,14 +42,14 @@
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
     unlocks:
-      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+      send_instructions: "您將收到一封有關如何在幾分鐘內確認您的帳戶說明的電子郵件。"
       send_paranoid_instructions: "如果您的帳戶存在，您將收到一封說明有關如何在幾分鐘內解鎖的電子郵件。"
       unlocked: "您的帳戶已成功解除鎖定。請登錄以繼續。"
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: "has expired, please request a new one"
+      already_confirmed: "已經證實，請試著簽署"
+      confirmation_period_expired: "需要被證實在 %{期} 內，請申請一個新的"
+      expired: "已過期，請申請一個新的"
       not_found: "not found"
       not_locked: "was not locked"
       not_saved:

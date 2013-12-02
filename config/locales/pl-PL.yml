@@ -10,7 +10,7 @@
         current_password: "Aktualne hasło"
         locale: "Język"
         gender: "Płeć"
-        edit_header: "Edytuj szczegóły konta"
+        edit_header: "Edytuj dane konta"
   hello: "Witaj świecie"
   welcome_back: "Witaj z powrotem, %{name}"
   add_teacher_form:
@@ -27,12 +27,12 @@
   more: "WIĘCEJ"
   less: "MNIEJ"
   try_hoc: "Spróbuj Godziny Kodowania, kliknij tutaj >>"
-  try_k8intro: "Lub spróbuj naszego wprowadzającego kursu z informatyki dla uczniów szkoły podstawowej i gimnazjum (15-25 godzin)"
-  already_started: "Rozpocząłeś uprzednio? Wznów tutaj >>"
+  try_k8intro: "Lub spróbuj naszego wprowadzającego kursu K-8 z informatyki  (15-25 godzin)"
+  already_started: "Już rozpocząłeś ? Wznów tutaj >> "
   demos: "Admin: Wszystkie dema"
   continue: "Kontynuuj"
   prize: "nagroda"
-  more_info: "More info"
+  more_info: "Więcej informacji"
   auth:
     sign_in_with: "Zaloguj się przy użyciu %{provider}"
     signed_in: "Zalogowany!"
@@ -43,32 +43,32 @@
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Nie pamiętasz hasła?"
-    need_confirmation: "Nie otrzymałeś instrukcji potwierdzania?"
-    need_unlock: "Nie otrzymałeś instrukcji odblokowania?"
+    need_confirmation: "Czy nie otrzymałeś instrukcji potwierdzającej?"
+    need_unlock: "Czy nie otrzymałeś instrukcji, jak odblokować?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Ucz swoją klasę K-8 Wstępu do Informatyki"
+    teacher_title: "Rejestracja nauczyciela"
+    student_pitch: "Poza 1 godziną:  skorzystaj z naszego K-8 Wstępu do Informatyki"
+    student_title: "Zarejestruj się"
     school_name: "Nazwa szkoły (opcjonalnie)"
     school_address: "Adres szkoły (opcjonalnie)"
     address_placeholder: "adres, miasto, województwo, kod pocztowy"
     gender: "Płeć (opcjonalnie)"
     birthday: "Data urodzenia (opcjonalnie)"
-    submit: "Zapisz się"
+    submit: "Zarejestruj się"
     teacher: "Czy jesteś nauczycielem?"
     valid_username: "Dostępny!"
     invalid_username: "Nazwa użytkownika musi zawierać co najmniej 5 znaków"
     taken_username: "Nazwa użytkownika jest już zajęta"
     valid_password: "Prawidłowe hasło!"
     invalid_password: "Hasło musi zawierać przynajmniej 6 znaków"
-    mismatch_password: "Hasła, które podałeś, nie są zgodne"
+    mismatch_password: "Dwa hasła, które podałeś, nie są zgodne"
   signin_form:
-    title: "Zapisz się"
+    title: "Zaloguj się"
     login: "E-mail lub nazwa użytkownika"
     password: "Hasło"
     remember: "Zapamiętaj mnie"
-    submit: "Zapisz się"
+    submit: "Zaloguj się"
   password:
     reset_form:
       title: "Nie pamiętasz swojego hasła?"
@@ -82,22 +82,22 @@
   welcome_email:
     subject: "Dołącz do mojej klasy (na Code.org)"
     body: |
-      Kliknij w poniższy link, aby zapisać się na porady z informatyki na Code.org (ze mną jako Twoim nauczycielem):
+      Kliknij w poniższy link, aby zalogować się na porady z informatyki na Code.org (ze mną jako Twoim nauczycielem):
       
       %{link}
       
-      Poradniki są zabawne, angażujące wizualnie, i uczą podstawowych pojęć informatycznych przy użyciu prostych,nadzorowanych prób,przypominających gry. Naucz się programować od Billa Gatesa, Marka Zuckerberga, Angry Birds i Plants vs. Zombies! :)
+      Poradniki są zabawne, angażują wizualnie, i uczą podstawowych pojęć informatycznych przy użyciu prostych, nadzorowanych prób,przypominających gry. Naucz się programować od Billa Gatesa, Marka Zuckerberga, Angry Birds i Plants vs. Zombies! :)
       
       %{name}
   follower:
     invite_sent: "Zaproszenie wysłane"
     added_teacher: "%{name} dodany jako twój nauczyciel"
-    registered: "Zarejestrowałeś się do %{section_name}. Zapisz się, by kontynuować"
+    registered: "Zarejestrowałeś się do %{section_name}. Zaloguj się, by kontynuować"
     error:
-      signed_in: "Wypisz się, zanim będziesz kontynuowała"
+      signed_in: "Wyloguj się, zanim będziesz kontynuować"
       username_not_found: "Nazwy użytkownika %{username} nie znaleziono"
       username_in_use: "nazwa użytkownika %{username} jest już zajęta, wybierz inną"
-      no_teacher: "Nie odnaleziono nikogo zarejestrowanego z '%{teacher_email_or_code}'. Poproś ich, by się zarejestrowali tutaj, a następnie spróbuj ich dodać ponownie"
+      no_teacher: "Nie odnaleziono osoby zarejestrowanej z '%{teacher_email_or_code}'. Poproś osobę o zarejestrowanie się i spróbuj dodać ją ponownie"
     mail:
       invite_student:
         subject: "Dołącz do klasy z %{teacher_name} na Code.org!"
@@ -108,8 +108,8 @@
     title: "Odbierz Nagrody: %{name}"
     provider: "Dostawca:"
     code: "Kod:"
-    success: "Twoja nagroda została z powodzeniem odkupiona, zobacz poniższy kod."
-    error: "Twoja nagroda nie może być odkupiona, spróbuj ponownie."
+    success: "Twoja nagroda została z powodzeniem odebrana, zobacz poniższy kod."
+    error: "Twoja nagroda nie może być odebrana, spróbuj ponownie."
     confirm:
       title: "Prosimy o potwierdzenie"
       "no": Nie
@@ -135,8 +135,8 @@
         earned: "10 lub więcej uczniów zebrało wszystkie %{num_trophies} trofeów. Wygrałeś nagrodę nauczyciela!"
         not_earned: "Jeśli 10 uczniów zbierze wszystkie %{num_trophies} trofeów, wygrasz nagrodę!"
         bonus:
-          earned: "40% lub więcej twoich uczniów, którzy zebrali wszystkie %{num_trophies} trofeów, jest płci żeńskiej. Wygrałeś nagrodę dodatkową!"
-          not_earned: "Jeśli 10 lub więcej uczniów zbierze wszystkie %{num_trophies} trofeów i co najmniej 40% z nich jest płci żeńskiej, wygrasz nagrodę dodatkową!"
+          earned: "40% lub więcej twoich uczniów, którzy zebrali wszystkie %{num_trophies} trofeów jest płci żeńskiej. Wygrałeś nagrodę dodatkową!"
+          not_earned: "Jeśli 10 lub więcej uczniów zbierze wszystkie %{num_trophies} trofeów i co najmniej 40% z nich jest płci żeńskiej, to wygrasz nagrodę dodatkową!"
   crud:
     new_model: "Nowy %{model}"
     show: "Pokaż"
@@ -181,7 +181,7 @@
     rollup: "Tablica Postępów"
     activity: "Ostatnia aktywność klasy"
   user:
-    new_password_hint: "(zostaw puste, jeśli nie chcesz, aby to zmienić)"
+    new_password_hint: "(zostaw puste, jeśli nie chcesz tego zmienić)"
     current_password_hint: "(potrzebujemy Twojego aktualnego hasła, aby potwierdzić Twoje zmiany)"
     cancel:
       title: "Zlikwiduj moje konto"
@@ -218,23 +218,23 @@
     feedback: "Wyraź swoją opinię"
     translate: "Pomóż nam tłumaczyć na Twój język"
     tos: "Warunki korzystania z usługi"
-    privacy: "Privacy Policy"
+    privacy: "Polityka prywatności"
   prize_mail:
     prize_earned:
-      subject: "Wykup swoją nagrodę w Code.org!"
+      subject: "Odbierz swoją nagrodę w Code.org!"
     teacher_prize_earned:
-      subject: "Wykup swoją nagrodę w Code.org!"
+      subject: "Odbierz swoją nagrodę w Code.org!"
     teacher_bonus_prize_earned:
-      subject: "Wykup swój dodatkowa nagrodę w Code.org!"
+      subject: "Odbierz swoją dodatkowa nagrodę w Code.org!"
   reference_area:
-    title: "Potrzebujesz pomocy?"
-    subtitle: "Zobacz te wideo i wskazówki"
+    title: "Czy potrzebujesz pomocy?"
+    subtitle: "Zobacz te filmiki i wskazówki"
   video:
-    tab: "Wideo."
-    notes: "Brak obrazu? Pokaż uwagi."
+    tab: "Filmiki."
+    notes: "Brak filmu? Pokaż uwagi."
     autoplay_option: "Automatycznie odtwarzaj filmy"
   compatability:
     working: "Pracujemy nad wsparciem dla Twojej przeglądarki."
     upgrade: "Uaktualnij przeglądarkę."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "To trwa dłużej niż zwykle..."
+  try_reloading: "Spróbuj odświeżyć stronę"

@@ -43,7 +43,7 @@
       signed_out: "Berhasil Keluar."
     unlocks:
       send_instructions: "Anda akan menerima sebuah email dalam beberapa menit dengan instruksi cara konfirmasi akun anda."
-      send_paranoid_instructions: "Jika akun anda ada, anda akan menerima email dengan petunjuk tentang cara untuk membuka akun dalam beberapa menit."
+      send_paranoid_instructions: "Jika akun anda ada, dalam beberapa menit anda akan menerima email berisi instruksi cara membuka akun."
       unlocked: "Akun anda telah berhasil dibuka. Silakan masuk untuk melanjutkan."
   errors:
     messages:

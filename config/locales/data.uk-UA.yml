@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "Вступ до інформатики. 8 клас"
+          Maze: "Етап 1"
+          Artist: "Етап 2"
+          Artist2: "Етап 3"
+          Farmer: "Етап 4"
+          Artist3: "Етап 5"
+          Farmer2: "Етап 6"
+          Artist4: "Етап 7"
+          Farmer3: "Етапі 8"
+          Artist5: "Етап 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Година Коду"
+          Maze: "Етап 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Редагування коду"
+          MazeEC: "Етап 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Вступ до інформатики"
         Maze: "Лабіринт"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Обчислювальне мислення"
+        Unplug3: "Програмування у графічній площині"
         Artist: "Художник"
-        Unplug4: "Algorithms"
+        Unplug4: "Алгоритми"
         Artist2: "Художник 2"
-        Unplug5: "Functional"
+        Unplug5: "Функціональний"
         Farmer: "Фермер"
-        Unplug6: "Conditionals"
+        Unplug6: "Умови"
         Artist3: "Художник 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Написання пісень"
         Farmer2: "Фермер 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Абстракції"
         Artist4: "Художник 4"
         Unplug9: "Relay Programming"
         Farmer3: "Фермер 3"
-        Unplug10: "The Internet"
+        Unplug10: "Інтернет"
         Artist5: "Художник 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Підведення підсумків"
+        MazeEC: "Лабіринт"
     trophy:
       name:
         Bronze: "Бронза"
@@ -60,17 +60,17 @@
         parameters: "Функції з параметрами"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'Можете допомогти мені спіймати лиху свиню? Складіть кілька блоків "рухатись вперед" і клацніть "Запустити програму", щоб я до неї дістався. '
+        maze_2_1: "Ця свиня куйовдить мені пір'я. Допоможіть її знайти!"
+        maze_2_2_5: "Простежте шлях і проведіть до дурної свині. Уникайте динаміту, або полетить пір'я!"
+        maze_2_3: "Проведіть мене до зеленої лиходійки! (Важайте на динаміт)"
+        maze_2_4: "Зберігайте спокій та поможіть знайти лиху свиню. Інакше я розізлюсь!"
+        maze_2_5: "Існує спосіб дістатись до лихої свині, використавши лише 2 блоки. Здогадаєтесь як?"
+        maze_2_6: "Спробуйте перевести мене до зеленої порушниці, використавши лише три блоки."
+        maze_2_7: 'Допоможіть прогнати лихе порося, використовуючи найменшу кількість блоків. Спробуйте використати кілька блоків "повторити... разів".'
         maze_2_8: |-
           Щоб розв'язати це завдання, спробуйте використати блок "повтори" з трьома блоками всередині: рухатись, рухатись, повернути.
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'Гаразд, спробуйте новий блок "повторити доки" - дії повторюватимуться, доки я не дістанусь до набридливої свині.'
         maze_2_10: "Гаразд, ще раз для практики - ви зможете розв'язати це завдання, використавши лише 4 блоки?"
         maze_2_11: "Шановна людино. Мені зомбі. Мені голодний. Треба ... їсти ... соняшник. Можна доставити мене туди за 5 блоків?"
         maze_2_12: "Гаразд, це схоже, але трохи відрізняється. Можете справитись, використавши 5 блоків?"
@@ -113,7 +113,7 @@
         maze_karel_1_6: 'Видаліть всі купи землі, використовуючи стільки блоків, скільки потрібно. Нові параметри у розкривному меню блоку "поки" скажуть мені, чи я стою на купі або у ямі.'
         maze_karel_1_7: "Ого, я знайшов дуже глибокі ями! Я не знаю, як багато скільки відер землі для них потрібно. Ви можете написати програму, яка наповнює їх, поки землі не стане рівною?"
         maze_karel_1_8: "Допоможіть мені заповнити яму в кінці поля, використовуючи стільки блоків, скільки потрібно."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Поможіть мені видалити всі ці купи бруду. Спробуйте використати якомога менше блоків. Підказка: спробуйте використати блок "поки".'
         maze_karel_1_10: "Я працюю допізна, тому вже стемнілося. Через це не можу сказати, наскільки великими є купи. Тепер я не маю усіх параметрів, які раніше використовував для блоку поки. Переміщуйте мене по полю і якщо там є купа, то вилучіть її."
         maze_karel_1_11: 'Це вже зовсім стемнілося. Переміщуйте мене по полю. Якщо є купа, вилучіть її, а якщо є яма, то заповніть її. Підказка: використайте розкривне меню параметрів у блоці "Якщо".'
         turtle_2_1: "Вітаю. Я - зомбі художник. Мені подобається малюватися! Допоможіть мені намалювати квадрат особливим кольором. Важливе зауваження: ви маєте усі ті самі блоки, але вони тепер упорядковані за категоріями."
@@ -158,12 +158,12 @@
         maze_karel_debug_function_1: "Що вам потрібно змінити у цій програмі, щоб допомогти мені видалити всі купи?"
         maze_karel_debug_function_2: "Можете ви виправити цю програму для мене так, щоби я зміг зробити рівним моє поле?"
         maze_karel_debug_function_3: "Відредагуйте цю програму, бо я буду вилучати усі купи на моєму полі. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
+        turtle_5_2: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
+        turtle_5_3: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
+        turtle_5_4: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
+        turtle_5_5: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
+        turtle_5_6: "Спробуйте запустити програму, і внести зміни - подивіться, що трапиться. Можете здогадатись, що відбувається? (Або видалити код і замінити його на щось зовсім інше)"
         maze_3_1: "Мені потрібно дістатися до цієї свиня! Введіть кілька викликів move(); для переміщення аби я міг дістатися цілим назад."
         maze_3_2: "Напишіть мені програму, щоби я міг зробити шлях аж до свині."
         maze_3_3: "Як я повинен дістатися до свині? Зробіть так, аби я не зачепив у полі вибухівку!"

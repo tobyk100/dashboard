@@ -32,7 +32,7 @@
   demos: "Administrator: Alle demoer"
   continue: "Fortsett"
   prize: "premie"
-  more_info: "More info"
+  more_info: "Mer info"
   auth:
     sign_in_with: "Logg inn med %{provider}"
     signed_in: "Logget inn!"
@@ -46,10 +46,10 @@
     need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
     need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Lær bort ungdomsskolepensum i informatikk i klassen"
+    teacher_title: "Påmelding for lærere"
+    student_pitch: "Utover 1 time: Prøv vårt ungdomsskole-introduksjon til informatikk"
+    student_title: "Meld deg på"
     school_name: "Skolens navn (valgfritt)"
     school_address: "Skolens adresse (valgfritt)"
     address_placeholder: "adresse, by, fylke, postkode"
@@ -218,7 +218,7 @@
     feedback: "Gi tilbakemelding"
     translate: "Hjelpe oss med å oversette til ditt språk"
     tos: "Bruksvilkår"
-    privacy: "Privacy Policy"
+    privacy: "Personvern"
   prize_mail:
     prize_earned:
       subject: "Løs inn premien på Code.org!"
@@ -237,4 +237,4 @@
     working: "Vi arbeider med å lage støtte for din nettleser."
     upgrade: "Vennligst oppgrader din nettleser."
   slow_loading: "Dette tar lengre tid enn vanlig..."
-  try_reloading: "Oppdatere siden"
+  try_reloading: "Last siden på nytt"

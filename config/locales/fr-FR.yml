@@ -32,7 +32,7 @@
   demos: "Admin : Tous les démos"
   continue: "Continue"
   prize: "prix"
-  more_info: "More info"
+  more_info: "Plus d'informations"
   auth:
     sign_in_with: "Se connecter avec %{provider}"
     signed_in: "Connecté!"
@@ -112,8 +112,8 @@
     error: "Your prize could not be redeemed, please try again."
     confirm:
       title: "Please Confirm"
-      "no": No
-      "yes": Yes
+      "no": Non
+      "yes": Oui
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
     providers:
@@ -201,7 +201,7 @@
     teacher_student_count: "Vous avez %{count} étudiants."
     teacher_averages: 'En moyenne, vos élèves ont acquis  %{trophy_average} sur  %{trophy_max} trophées "Concept de Maîtrise".'
     classroom: "Votre classe"
-    student_progress: "Your learning progress"
+    student_progress: "Votre progression d'apprentissage"
     student_stats: 'Tu as gagné %{trophy_count} sur %{trophy_max} trophées "Concept de Maîtrise".'
     student_left_off: "Où vous vous êtes arrêté:"
     student_finished: "Tu as terminé tous les tutoriaux, reçois tes %{prize_link} et choisis une autre classe  %{online_link} ou chez un   %{local_school_link}"
@@ -218,7 +218,7 @@
     feedback: "Donner un FeedBack"
     translate: "Aidez-nous à traduire dans votre langue"
     tos: "Conditions d'utilisation"
-    privacy: "Privacy Policy"
+    privacy: "Politique de confidentialité"
   prize_mail:
     prize_earned:
       subject: "Réclame ton prix sur Code.org !"

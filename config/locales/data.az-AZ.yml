@@ -68,29 +68,29 @@
         maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
         maze_2_6: "Try to get me to the green intruder using only three blocks."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'Bunu həll etmək üçün, içərisində bu 3 blok olan "repeat" bloku istifadə edin: get, get, dön.'
+        maze_2_8: 'Bunu həll etmək üçün, içərisində bu 3 blok olan "təkrarla" blokunu istifadə edin: get, get, dön.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Yaxşı, sonuncu çalışma - bunu yalnız 4 blok istifadə edərək həll edə bilərsinizmi?"
         maze_2_11: "Hörmətli insan. Mən zombiyəm. Mən acam. Günəbaxana ... çatmalıyam ... Məni yalnız 5 blok istifadə edərək ora çatdıra bilərsən?"
         maze_2_12: "Yaxşı, bu oxşardır, amma bir az fərqi var. Yalnız 5 blok istifadə edərək bunu edə bilərsiniz?"
-        maze_2_13: 'Mənə nə vaxt dönəcəyimi demək üçün yeni "if" blokundan istifadə edin. İpucu: sizin yalnız 1 artıq bloka ehtiyacınız var, amma bizim bunu necə etdiyimizi öyrənin ki, gələn dəfə bunu özünüz köməksiz edə biləsiniz.'
-        maze_2_14: 'Yaxşı, bu sonuncu tapmaca kimidir, amma siz "if" və "repeat" bloklarını bir yerdə necə işlətdiyinizi yadınıza salmalısınız.'
-        maze_2_15: 'Günəbaxan istəyirəm! "if" blokundan ən az sayda istifadə etməklə məni ora çatdır.'
+        maze_2_13: 'Mənə nə vaxt dönəcəyimi demək üçün yeni "əgər" blokundan istifadə edin. İpucu: sizin yalnız 1 artıq bloka ehtiyacınız var, amma bizim bunu necə etdiyimizi öyrənin ki, gələn dəfə bunu özünüz köməksiz edə biləsiniz.'
+        maze_2_14: 'Yaxşı, bu sonuncu tapmaca kimidir, amma siz "əgər" və "təkrarla" bloklarını bir yerdə necə işlətdiyinizi yadınıza salmalısınız.'
+        maze_2_15: 'Günəbaxan istəyirəm! "əgər" blokundan ən az sayda istifadə etməklə məni ora çatdır.'
         maze_2_16: "Yaxşı, məşq üçün bunu bir daha edək - bu çox da fərqli deyil, amma xart-xurtlardan ehtiyatlı ol!"
         maze_2_17: '"Əgər-əks halda" bloku şərti yoxlayır, sonra isə bu VƏ YA digər işi yerinə yetirir. Məni günəbaxana çatdırmaq üçün bu yeni bloku istifadə etməyə çalışın.'
         maze_2_18: '"Əgər-əks halda" blokunu bir daha təcrübədən keçirin, birinci cəhdinizdən bunu düzgün edə bilərsinizmi?'
         maze_2_19: "Sadəcə 3 blok əlavə etməklə mənə daha çətin labirinti həll etməkdə kömək edə bilərsinizmi? Əgər bunu düzgüz etsəniz mən uzunluğundan asılı olmayaraq ixtiyari əyri yolla gedə bilərəm."
         turtle_1_1: "Salam, mən rəssamam. Siz kod yazmaqla mənə, demək olar ki, istənilən şəkli çəkdirə bilərsiniz. Bir neçə blokdan istifadə etməklə mənə şəkildəki boz xətlərin üzərini cızmağa şərait yaradın."
-        turtle_1_2: 'İndi bir kvadrat çəkin. QEYD: yeni "set color" blokundan götürməklə öz sevimli rənginizdən istifadə edin.'
+        turtle_1_2: 'İndi bir kvadrat çəkin. QEYD: yeni "rəng seç" blokundan götürməklə öz sevimli rənginizdən istifadə edin.'
         turtle_1_3: "Yalnız 3 blokdan istifadə etməklə kvadrat düzəldin."
-        turtle_1_4: 'Hər dəfə fərqli rəng seçən "random color" blokundan istifadə etməklə bütün tərəfləri fərqli rənglərdə olan üçbucaq çəkin. İpucu: dönmək blokunu üzərindəki rəqəmi klikləməklə nə qədər dönməli olduğunuzu tapmalı olacaqsınız.'
+        turtle_1_4: 'Hər dəfə fərqli rəng seçən "təsadüfi rəng" blokundan istifadə etməklə bütün tərəfləri fərqli rənglərdə olan üçbucaq çəkin. İpucu: dönmək blokunu üzərindəki rəqəmi klikləməklə nə qədər dönməli olduğunuzu tapmalı olacaqsınız.'
         turtle_1_5: "İndi, məşq üçün, zərf çəkməkdən ötrü bir üçbucaq və sonra bir kvadrat çəkin."
         turtle_1_6: "Bu üçbucağı və kvadratı necə çəkmək olar? İpucu: Əvvəl üçbucağı çəkin, sonra kvadratı çəkməzdən öncə nə qədər dönmək lazım olduğunu hesablayın."
         turtle_1_7: "Yaxşı, gəlin məsələni bir az çətinləşdirək - görün bu yaşıl eynəyi çəkə bilərsinizmi. Kvadratlar hər iki tərəfdən 100 pikseldir və onlar bir-birindən 50 piksel aralıdırlar. Yaşılla çəkməyi unutmayın!"
         turtle_1_8: 'Yaxşı, bu kodu çalışdırsanız nə baş verəcəyini tapmağa çalışın (və ya yoxlamaq üçün "İcra et" düyməsini basın). Sonra rəsmi bitirmək üçün onu kifayət qədər çalışdırın. Rənglər hər dəfə fərqli olacaq.'
         turtle_1_9: "Çevrə çəkmək üçün sual işarəsini hansı rəqəmlə əvəz etmək lazım olduğunu tapa bilərsinizmi?"
-        turtle_1_10: 'Siz bunu bacardınız! İndi nə istəsəniz çəkə bilərsiniz. Bir neçə maraqlı ideya: çubuq adam, qar dənəciyi ve ya spiral. Həm də yeni "set width" blokunu sınaqdan keçirin. Əylənin!'
-        turtle_4_1: '3 blokdan istifadə edərək tərəfləri 100 piksel olan üçbucaq çəkə bilərsiniz? İpucu: "repeat" blokundan istifadə edin.'
+        turtle_1_10: 'Siz bunu bacardınız! İndi nə istəsəniz çəkə bilərsiniz. Bir neçə maraqlı ideya: çubuq adam, qar dənəciyi ve ya spiral. Həm də yeni "enini təyin et" blokunu sınaqdan keçirin. Əylənin!'
+        turtle_4_1: '3 blokdan istifadə edərək tərəfləri 100 piksel olan üçbucaq çəkə bilərsiniz? İpucu: "təkrarla" blokundan istifadə edin.'
         turtle_4_2: 'Bu tapmacanı tamamlamaq üçün bir blok daha əlavə etməyə çalışın. Məsləhət: Biz sizə 2 oxşar üçbucaq çəkmək üçün bloklar vermişik, siz isə bu blokların arasında "dönmə" əlavə etməlisiniz və nə qədər dönəcəyinizi təyin etməlisiniz.'
         turtle_4_3: 'Ok, bu bir üçbucaq çəkmək üçün yazdığınız koddur. "Təkrar et" və "dönmə" bloklarını əlavə etməklə gözəl bir gül düzəldə bilərsiniz mi?'
         turtle_4_4: "Burada keçən tapmacadaki kod ilə eyni olan koddur, lakin burada hər üçbucaq çəkildikdən sonra 36 dərəcə dönürülür. Bu neçə dəfə təkrarlanmalıdır? (İpucu: 360 dərəcə dönüşdən sonra çəkmə prosesi bir tam dövrə edəcəkdir)"

@@ -4,21 +4,21 @@
       name:
         20-hour:
           desc: "유치원-중2(K-8) 학생들을 위한, 컴퓨터과학(Computer Science, 정보과학)"
-          Maze: "단계 1"
-          Artist: "단계 2"
-          Artist2: "단계 3"
-          Farmer: "단계 4"
-          Artist3: "단계 5"
-          Farmer2: "단계 6"
-          Artist4: "단계 7"
-          Farmer3: "단계 8"
-          Artist5: "단계 9"
+          Maze: "1 단계"
+          Artist: "2 단계"
+          Artist2: "3 단계"
+          Farmer: "4 단계"
+          Artist3: "5 단계"
+          Farmer2: "6 단계"
+          Artist4: "7 단계"
+          Farmer3: "8 단계"
+          Artist5: "9 단계"
         Hour of Code:
           desc: "Hour of Code"
-          Maze: "단계 1"
+          Maze: "1 단계"
         Edit Code:
           desc: "코드 수정"
-          MazeEC: "단계 1"
+          MazeEC: "1 단계"
     game:
       name:
         Unplug1: "컴퓨터과학(Computer Science, 정보과학) 소개"
@@ -60,16 +60,16 @@
         parameters: "함수(값 전달)"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: '나쁜 돼지를 잡을 수 있게 도와줄 수 있겠어? "전진" 블럭을 몇 개 모아 붙여서 "프로그램 실행"을 누르면 되. '
+        maze_2_1: "초록 돼지가 내 깃털들을 마구 헝클어 놓고 있어. 돼지를 찾을 수 있게 도와줘!"
+        maze_2_2_5: "길을 따라 움직여서, 바보 같은 돼지 녀석을 잡아줘. TNT 폭탄을 피하고, 깃털들이 헝클어지지 않도록 해야되!"
+        maze_2_3: "초록색 나쁜 놈에게 데려다 줘!(TNT 폭탄 조심)"
+        maze_2_4: "나쁜 돼지를 잡을 수 있게 도와줘, 침착하게 생각하면 되. 돼지를 못 잡으면, 화가 날 것 같아!"
+        maze_2_5: "블럭을 2개 만 더 사용해서, 돼지를 잡을 수 있는 방법이 있어. 어떻게 하는지 알아낼 수 있을까?"
+        maze_2_6: "블럭을 3개 만 사용해서, 자기 마음대로 돌아다니는 초록색 돼지를 잡을 수 있게 해줘."
+        maze_2_7: '블럭을 최대한 적게 사용해서, 나쁜 돼지를 쫓아낼 수 있게 해줘. "반복(횟수)" 블럭을 한 개 이상 사용하면 될꺼야.'
         maze_2_8: '이 문제를 해결하려면 "반복" 블럭 안에 3개의 블럭을 넣어주면 되: 전진, 전진, 회전.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: '"반복(~할 때까지)" 블럭은 짜증나는 돼지에게 도착~할 때까지, 계속 반복시켜 줄 꺼야. '
         maze_2_10: "이번에는 마지막 연습이야 - 블럭을 4개 만 사용해서 해결 할 수 있겠어?"
         maze_2_11: "여~어~러~부~운~~~. 나 좀비... 배고파... 해바라기 가지고 싶어... 블럭 5개 만 가지고 가능할까?"
         maze_2_12: "이번 것도 비슷한데 약간 달라. 블럭을 5개만 가지고 가능하겠어?"

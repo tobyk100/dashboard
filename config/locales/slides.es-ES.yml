@@ -2,22 +2,22 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.jpg"
-        text: "¡Bienvenido a la primera hora del código! Vamos a sumergirnos bien en su primera experiencia de programación."
+        image: "Notas/hoc1_1.jpg"
+        text: "¡Bienvenido a tu primer hora de código! Vamos a sumergirnos bien en tu primera experiencia de programación."
       2:
-        image: "notes/hoc1_2.jpg"
+        image: "Notas/hoc1_2.jpg"
         text: "Usaremos Blockly, un lenguaje de programación visual donde puedes arrastrar y soltar bloques para escribir código."
       3:
-        image: "notes/hoc1_3.jpg"
+        image: "Notas/hoc1_3.jpg"
         text: 'La mayoría del código se escribe a mano, en cambio Blockly es visual. Cada bloque corresponde a una línea de código "real".'
       4:
-        image: "notes/hoc1_4.jpg"
+        image: "Notas/hoc1_4.jpg"
         text: "Aprenderás los fundamentos de la informática, los conceptos que se utilizan en cualquier lugar, desde hacer aplicaciones hasta controlar el Mars rover."
       5:
-        image: "notes/hoc1_5.jpg"
+        image: "Notas/hoc1_5.jpg"
         text: "Un programa es un conjunto de instrucciones seguidas por tu computadora."
       6:
-        image: "notes/hoc1_6.jpg"
+        image: "Notas/hoc1_6.jpg"
         text: "El objetivo de tu primer programa es guiar un Angry Bird a través de un laberinto para golpear al cerdo verde."
       7:
         image: "notes/hoc1_7.jpg"
@@ -39,7 +39,7 @@
         text: 'Si ejecutas un programa y quieres arreglarlo e intentar de nuevo, presiona el botón "Reiniciar".'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Vamos por esos cerdos!"
+        text: "¡Vamos por esos cerdos!"
     artist_intro:
       1:
         image: "notes/bird.png"

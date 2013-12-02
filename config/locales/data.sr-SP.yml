@@ -3,45 +3,45 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "K-8 увод у курс Компјутерских Наука"
+          Maze: "Фаза 1"
+          Artist: "Фаза 2"
+          Artist2: "Фаза 3"
+          Farmer: "Фаза 4"
+          Artist3: "Фаза 5"
+          Farmer2: "Фаза 6"
+          Artist4: "Фаза 7"
+          Farmer3: "Фаза 8"
+          Artist5: "Фаза 9"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Час Кодирања"
+          Maze: "Фаза 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Измени Код"
+          MazeEC: "Фаза 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Увод у Компјутерске Науке"
         Maze: "Лавиринт"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Компјутерско Размишљање"
+        Unplug3: "Графиконско - Папирно Програмирање"
         Artist: "Уметник"
-        Unplug4: "Algorithms"
+        Unplug4: "Алгоритми"
         Artist2: "Уметник 2"
-        Unplug5: "Functional"
+        Unplug5: "Функционалан"
         Farmer: "Фармер"
-        Unplug6: "Conditionals"
+        Unplug6: "Условни"
         Artist3: "Уметник 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Писање Песама"
         Farmer2: "Фармер 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Апстракција"
         Artist4: "Уметник 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Релејно Програмирање"
         Farmer3: "Фармер 3"
-        Unplug10: "The Internet"
+        Unplug10: "Интернет"
         Artist5: "Уметник 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Замотај-Умотај"
+        MazeEC: "Лавиринт"
     trophy:
       name:
         Bronze: "Бронза"
@@ -60,14 +60,14 @@
         parameters: "функције са параметрима"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'Можеш ли ми помоћи да ухватим неваљало прасе? Поређај пар "крећи напред" блокова заједно и притисни "Покрени програм" како бих ми помогао да дођем до тамо.'
+        maze_2_1: "Ово прасе ми разбацује перије. Помози ми да га пронађем!"
+        maze_2_2_5: "Прати стазу и води ме до луцкастог прасета. Избегавај експлозив или ће перије летети!"
+        maze_2_3: "Наводи ме до зеленог зла! (Пази се експлозива)"
+        maze_2_4: "Буди смирен и помози ми да пронађем неваљало прасе. У супротном бих могао да се наљутим!"
+        maze_2_5: "Постоји начин на који могу доћи до луцкастог прасета користећи само два блока. Можеш ли схватити како?"
+        maze_2_6: "Покушај да ме доведеш до зеленог уљеза користећи само три блока."
+        maze_2_7: 'Помози ми да протерам ово неваљало прасе користећи што мањи број блокова. Покушај да искористиш више од једног "Понављај пута" блока.'
         maze_2_8: 'Како бих сте решили овај, покушајте са "repeat" блоком са ова три блока унутар нјега: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ок, последнји пут ради увежбавања - можете ли да решите ово користећи само 4 блока?"
@@ -195,5 +195,5 @@
         loop_while: "Док (While  Петља) Блок"
         loop_for: "Бројач Блок"
         parameters: "функције са параметрима"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        hoc_wrapup: "Час Кодирања Умотавање"
+        20_wrapup: "20-Часовно Умотавање"

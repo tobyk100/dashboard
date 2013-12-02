@@ -11,12 +11,12 @@
       invalid_token: "Nieprawidłowy token uwierzytelnienia."
       locked: "Twoje konto jest zablokowane."
       not_found_in_database: "Nieprawidłowy adres e-mail lub hasło."
-      timeout: "Twoja sesja wygasła, Proszę Zaloguj się ponownie aby kontynuować."
-      unauthenticated: "Musisz się zalogować lub zarejestrować aby kontynuować."
+      timeout: "Twoja sesja wygasła, Proszę zaloguj się ponownie, aby kontynuować."
+      unauthenticated: "Musisz się zalogować lub zarejestrować, aby kontynuować."
       unconfirmed: "Musisz potwierdzić swoje konto przed kontynuowaniem."
     mailer:
       confirmation_instructions:
-        subject: "Instrukcje potwierdzenia"
+        subject: "Instrukcja potwierdzenia"
       reset_password_instructions:
         subject: "Instrukcja resetowania hasła"
       unlock_instructions:
@@ -25,33 +25,33 @@
       failure: 'Nie można uwierzytelnić Ciebie z %{kind} ponieważ "%{reason}".'
       success: "Pomyślnie uwierzytelniono z konta %{kind}."
     passwords:
-      no_token: "Nie masz dostępu do tej strony jeżeli nie wchodzisz tu z linku służącym do resetowania hasła. Jeżeli wchodzisz z linku z wiadomości resetowania hasła, upewnij się że wpisałeś pełen adres URL."
-      send_instructions: "Wkrótce otrzymasz wiadomość email z instrukcją resetowania hasła."
-      send_paranoid_instructions: "Jeśli twój adres E-Mail istnieje w naszej bazie danych, wkrótce otrzymasz wiadomość z linkiem do odzyskiwania hasła."
-      updated: "Hasło zostało zmienione. Możesz się zalogować."
+      no_token: "Nie masz dostępu do tej strony, jeżeli nie wchodzisz tu z linku służącego do resetowania hasła. Jeżeli wchodzisz z linku z wiadomości resetowania hasła, upewnij się, że wpisałeś pełen adres URL."
+      send_instructions: "Wkrótce otrzymasz wiadomość e-mail z instrukcją resetowania hasła."
+      send_paranoid_instructions: "Jeśli twój adres e-mail istnieje w naszej bazie danych, wkrótce otrzymasz wiadomość z linkiem do odzyskiwania hasła."
+      updated: "Hasło zostało zmienione. Jesteś teraz zalogowany."
       updated_not_active: "Hasło zostało zmienione."
     registrations:
       destroyed: "Do widzenia! Twoje konto zostało pomyślnie anulowane. Mamy nadzieję zobaczyć Cię ponownie, wkrótce."
-      signed_up: "Welcome! You have signed up successfully."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
-      updated: "You updated your account successfully."
+      signed_up: "Witaj! Twoja rejestracja przebiegła pomyślnie."
+      signed_up_but_inactive: "Twoja rejestracja przebiegła pomyślnie, ale nie możesz się zalogować, ponieważ twoje konto nie zostało jeszcze aktywowane."
+      signed_up_but_locked: "Twoja rejestracja przebiegła pomyślnie, ale nie możesz się zalogować, ponieważ twoje konto jest zablokowane."
+      signed_up_but_unconfirmed: "Wiadomość z linkiem potwierdzającym została wysłana pod Twój adres mailowy. Otwórz link, żeby aktywować swoje konto."
+      update_needs_confirmation: "Pomyślnie uaktualniłeś swoje konto, ale musimy zweryfikować Twój adres mailowy. Sprawdź swoją skrzynkę i kliknij link, żeby potwierdzić swój adres mailowy."
+      updated: "Pomyślnie uaktualniłeś swoje konto."
     sessions:
-      signed_in: "Signed in successfully."
-      signed_out: "Signed out successfully."
+      signed_in: "Pomyślnie zalogowałeś się."
+      signed_out: "Pomyślnie wylogowałeś się."
     unlocks:
-      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      send_instructions: "Za kilka minut otrzymasz e-mail ze wskazówkami, jak odblokować twoje konto."
+      send_paranoid_instructions: "Jeśli twoje konto istnieje, to otrzymasz e-mail ze wskazówkami, jak odblokować swoje konto."
+      unlocked: "Twoje konto zostało pomyślnie odblokowane. Zaloguj się,aby kontynuować."
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: "has expired, please request a new one"
-      not_found: "not found"
-      not_locked: "was not locked"
+      already_confirmed: "zostało już potwierdzone, spróbuj zalogować się"
+      confirmation_period_expired: "musi być potwierdzone w ciągu %{period}, poproś o nowe"
+      expired: "wygasło, poproś o nowe"
+      not_found: "nie znaleziono"
+      not_locked: "nie było zablokowane"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 błąd zabrania temu %{resource}, by został zapisany:"
+        other: "%{count} błędów zabrania temu %{resource}, by został zapisany:"

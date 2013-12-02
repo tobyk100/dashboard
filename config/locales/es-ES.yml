@@ -32,7 +32,7 @@
   demos: "Administrador: Todas las Demostraciones"
   continue: "Continuar"
   prize: "Premio"
-  more_info: "More info"
+  more_info: "Más información "
   auth:
     sign_in_with: "Iniciar sesión con %{provider}"
     signed_in: "¡Sesión iniciada!"
@@ -47,9 +47,9 @@
     need_unlock: "¿No recibiste las instrucciones de desbloqueo?"
   signup_form:
     teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
+    teacher_title: "Profesor Regístrate"
     student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    student_title: "Registrarse"
     school_name: "Nombre de la escuela (opcional)"
     school_address: "Dirección de la escuela (opcional)"
     address_placeholder: "Dirección, ciudad, estado/provincia, código postal"
@@ -111,11 +111,11 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     confirm:
-      title: "Please Confirm"
+      title: "Confirme por favor"
       "no": No
-      "yes": Yes
+      "yes": Sí
       msg: "Are you sure you want to claim the %{prize_name} prize?"
-      msg_student: "NOTE: You can only choose one type of prize."
+      msg_student: "Nota: Sólo se puede elegir un tipo de premio."
     providers:
       apple_itunes: "ITunes de Apple"
       donors_choose: "DonorsChoose.org $750"
@@ -129,7 +129,7 @@
     student_finished: "Has completado todos los tutoriales. Después de reclamar tu premio, escoge otra clase %{online_link} o en un %{local_school_link}"
     msg:
       choose: "Escoje un premio:"
-      earned: "Te has ganado un premio!"
+      earned: "Has ganado un premio!"
       not_earned: "¡Recoge todos los trofeos %{num_trophies} para ganar un premio!"
       teacher:
         earned: "10 o más estudiantes recogieron todos los trofeos %{num_trophies}. Has ganado un Premio de Maestro!"
@@ -201,13 +201,13 @@
     teacher_student_count: "Tienes %{count} estudiantes."
     teacher_averages: 'Un promedio de tus estudiantes han ganado %{trophy_average} de %{trophy_max} trofeos "Dominio del Concepto" .'
     classroom: "Tu aula"
-    student_progress: "Your learning progress"
+    student_progress: "Su progreso de aprendizaje"
     student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
     student_left_off: "Donde dejaste:"
     student_finished: "Has completado todos los tutoriales, reclama tu %{prize_link} y elige otra clase %{online_link} o en una %{local_school_link}"
     local_school: "escuela local"
     online: "en línea"
-    see_details: "See details"
+    see_details: "Ver detalles"
   gender:
     male: "Hombre"
     female: "Mujer"
@@ -218,7 +218,7 @@
     feedback: "Enviar comentarios"
     translate: "Ayúdanos a traducir a tu idioma"
     tos: "Términos del servicio"
-    privacy: "Privacy Policy"
+    privacy: "Política de Privacidad"
   prize_mail:
     prize_earned:
       subject: "Canjea tu premio en Code.org!"
@@ -236,5 +236,5 @@
   compatability:
     working: "Estamos trabajando en dar soporte para tu navegador."
     upgrade: "Por favor actualiza su navegador."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Esto está tardando más tiempo de lo habitual..."
+  try_reloading: "Intente recargar la página"

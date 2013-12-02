@@ -32,7 +32,7 @@
   demos: "Адмін: Всі демо"
   continue: "Продовжити"
   prize: "Премія"
-  more_info: "More info"
+  more_info: "Детальніше"
   auth:
     sign_in_with: "Увійти через %{provider}"
     signed_in: "Увійшли!"
@@ -46,10 +46,10 @@
     need_confirmation: "Не отримали вказівок підтвердження?"
     need_unlock: "Не отримали вказівок розблокування?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Навчати вступ до інформатики у вашому класі"
+    teacher_title: "Реєстрація вчителя"
+    student_pitch: "Більше 1 години: спробуйте вступ до інформатики"
+    student_title: "Зареєструватися"
     school_name: "Назва учбового закладу (за бажанням)"
     school_address: "Школа адресу (необов'язково)"
     address_placeholder: "адреса, місто, штат, індекс"
@@ -218,7 +218,7 @@
     feedback: "Надати відгук"
     translate: "Допоможіть нам перекласти вашою мовою"
     tos: "Умови надання послуг"
-    privacy: "Privacy Policy"
+    privacy: "Політика конфіденційності"
   prize_mail:
     prize_earned:
       subject: "Здобудьте свій приз на Code.org!"
@@ -236,5 +236,5 @@
   compatability:
     working: "Ми працюємо над підтримкою для вашого браузера."
     upgrade: "Будь ласка обновіть браузер."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
+  slow_loading: "Це займає більше часу, ніж звичайно..."
+  try_reloading: "Спробуйте перезавантажити сторінку"

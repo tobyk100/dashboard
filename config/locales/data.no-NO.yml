@@ -40,7 +40,7 @@
         Farmer3: "Bonden 3"
         Unplug10: "Internett"
         Artist5: "Kunstneren 5"
-        Unplug11: "Pakke opp"
+        Unplug11: "Oppsummering"
         MazeEC: "Labyrinten"
     trophy:
       name:
@@ -60,16 +60,16 @@
         parameters: "Funksjoner med parametere"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'Kan du hjelpe meg å fange den slemme grisen? Sett sammen et par «gå fremover» blokker og trykk "Kjør Program" for å hjelpe meg å komme dit. '
+        maze_2_1: "Den grisen rufser til fjærene mine. Hjelp meg å finne han!"
+        maze_2_2_5: "Følg stien og led meg til den dumme grisen. Unngå dynamitten hvis du ikke vil at jeg skal forsvinne i en sky av fjær!"
+        maze_2_3: "Før meg til den grønne ondskapen! (Se opp for dynamitt)"
+        maze_2_4: "Hold deg i ro og hjelp meg med å finne den slemme grisen. Ellers blir jeg kanskje sinna!"
+        maze_2_5: "Det er mulig å komme seg til den dumme grisen ved å bare bruke to blokker. Klarer du det?"
+        maze_2_6: "Prøv å få meg til bort til den grønne inntrengeren med bare tre blokker."
+        maze_2_7: 'Hjelp meg å bli kvitt den slemme grisen med færrest mulig blokker. Prøv å bruke mer enn en "gjenta" blokk.'
         maze_2_8: 'For å løse denne oppgaven, prøv en "gjenta"-blokk med følgende blokker inni seg: fremover, fremover, sving.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'OK, prøv å bruke den nye "Gjenta inntil" blokken - den vil gjentas inntil jeg når den irriterende grisen.'
         maze_2_10: "Ok, en siste øvelse - klarer du å løse denne oppgaven med bare 4 blokker?"
         maze_2_11: "Kjære person. Meg zombie. Meg sulten. Må... nå frem... til solsikke... Kan du få meg dit med bare 5 blokker?"
         maze_2_12: "Ok, denne ligner, men er litt forskjellig. Klarer du denne med bare 5 blokker?"
@@ -109,7 +109,7 @@
         maze_karel_1_6: 'Fjern alle jordhaugene ved å bruke så få blokker som mulig. De nye innslagene i nedtrekksmenyen til "så lenge"-blokken forteller meg om jeg står på en haug eller over et hull.'
         maze_karel_1_7: "Wow, jeg en skikkelig dypt hull! Jeg aner ikke hvor mange spadetak med jord det rommer. Kan du lage et program som fyller det helt til bakken er flat?"
         maze_karel_1_8: "Hjelp meg med å fylle hullet ved enden av åkeren, ved å benytte så få blokker som mulig."
-        maze_karel_1_9: 'La meg fjerne alle disse haugene med møkk. Prøv å bruke så få blokker som mulig. Tips: Prøv å bruke en "så lenge"-blokk.'
+        maze_karel_1_9: 'La meg fjerne alle disse haugene med jord. Prøv å bruke så få blokker som mulig. Tips: Prøv å bruke en "så lenge"-blokk.'
         maze_karel_1_10: 'Jeg jobber så sent at det er mørkt ute og jeg kan ikke se hvor store jordhaugene er. Nå har jeg ikke lenger alle mulighetene jeg hadde før med "så lenge"-blokken. Flytt meg langs åkeren, og hvis jeg støter på en jordhaug, fjern den.'
         maze_karel_1_11: 'Det er fremdeles mørkt ute. Flytt meg langs åkeren. Hvis jeg støter på en jordhaug, fjern den. Hvis jeg støter på et hull, fyll det. Tips: bruk nedtrekksmenyen på "hvis"-blokken.'
         turtle_2_1: "Hei. Meg zombie artist. Meg elsker å tegne! Hjelpe meg med å tegne en firkant med en spesiell farge. Viktig informasjon: du har tilgang til de samme blokkene, men nå er de omorganisert i kategorier."

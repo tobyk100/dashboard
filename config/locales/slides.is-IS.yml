@@ -6,48 +6,48 @@
         text: "Velkomin/nn í þinn fyrsta tíma í forritun. Við skulum hefjumst handa."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "Við munum nota Blockly, sjónrænt forritunartungumál þar sem þú dregur litla búta af kóða til að skrifa þinn eiginn."
+        text: "Við munum nota Blockly, sjónrænt forritunartungumál þar sem þú býrð til forrit með því að raða saman kubbum."
       3:
         image: "notes/hoc1_3.jpg"
-        text: "Þó að almennur kóði sé venjulega skrifaður, þá er Blockly kerfið sjónrænt og hver bútur af kóða sem þú notar vísar í 'alvöru' kóða."
+        text: 'Forrit eru venjulega skrifuð, en Blockly er sjónrænt. Hver kubbur samsvarar línu af "alvöru" kóða.'
       4:
         image: "notes/hoc1_4.jpg"
-        text: "Þú munt læra grunninn í tölvunarfræði, hugtök sem eru notuð víða. Allt frá því að gera smáforrit upp í að stýra geim bílum."
+        text: "Þú munt læra grunnhugtök í tölvunarfræði, en þessi sömu hugtök eru notuð víða, allt frá því að gera smáforrit upp í að stýra geimjeppanum á Mars."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "Forrit, er eins og leiðbeiningbók fyrir tölvuna að fylgja."
+        text: "Forrit er safn skipana sem tölvan les og fer eftir."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "Markmið fyrsta forritsins sem þú gerir er að láta fugl komast í gegnum völundarhús til að lúskra á grænu svíni."
+        text: "Í fyrsta forritinu þínu þarf að láta Angry Bird fuglinn ferðast um völundarhús svo hann geti lúskrað á grænu svíni."
       7:
         image: "notes/hoc1_7.jpg"
         text: "Vinstri hliðin er völundarhúsið þar sem forritið þitt er keyrt. Leiðbeiningarnar fyrir hverja þraut eru fyrir neðan völundarhúsið."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "Verkfærakistan í miðjunni inniheldur skipanirnar fyrir fuglinn. Þú kemur til með að nota þær til að byggja kóðann þinn upp."
+        text: "Verkfærakistan í miðjunni inniheldur skipanirnar fyrir fuglinn. Þú munt nota þær til að byggja forritið."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "Til hægri er vinnusvæðið þitt þar sem þú munt draga búta af kóða úr verkfæra kistunni til að skapa forritið þitt. Til að henda búta, getur þú dregið hann í ruslið í fötunni."
+        text: "Til hægri er vinnusvæðið, en þangað dregur þú kubba úr verkfærakistunni til að byggja forritið þitt. Ef þú þarft að eyða kubbi skaltu draga hann í fötuna í horninu."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Hver eining er ein skipun. Ef þú dregur "færa áfram" eininguna yfir í vinnusvæðið og ýtir á "Keyra Forrit", þá mun fuglinn færa sig um eitt svæði í völundarhúsinu.'
+        text: 'Hver kubbur er ein skipun. Ef þú dregur "færa áfram" kubbinn yfir á vinnusvæðið og ýtir á "Keyra forrit", þá mun fuglinn færa sig um einn reit í völundarhúsinu.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "Til að framkvæma meira en eina aðgerð, þá getur þú dregið margar einingar yfir á vinnusvæðið og tengt þær saman. Fuglinn mun framkvæma skipanirnar frá þeirri efstu til þeirrar neðstu."
+        text: "Til að láta forritið gera fleiri en eina aðgerð, þá þarf að draga fleiri kubba yfir á vinnusvæðið og láta þá smella saman. Fuglinn mun framkvæma skipanirnar frá þeirri efstu til þeirrar neðstu."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'Ef að þú keyrir (e. run) forrit og vilt síðan laga það og prófa aftur, ýttu þá á "Upphafsstilla" hnappinn.'
+        text: 'Ef þú keyrir forrit og vilt síðan laga það og prófa aftur, ýttu þá á "Endurstilla" hnappinn.'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Nú skulum við fara að sækja þessi svín!"
+        text: "Nú skulum við fara og ná þessum svínum!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -57,83 +57,83 @@
         text: "Í þessari þraut viljum við láta fuglinn færa sig áfram um 5 svæði til að ná svíninu."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'Við getum notað nýju "endurtaka" eininguna til að hjálpa okkur.'
+        text: 'Við getum notað nýja "endurtaka" kubbinn til að hjálpa okkur.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Í staðin fyrir að draga 5 "færa áfram" einingar...'
+        text: 'Í staðinn fyrir að draga 5 "færa áfram" kubba notum við endurtekningu.'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'Við getum sett "færa áfram" einingu inn í "endurtaka" eininguna og skrifað tölu inn í eininguna sem segir hversu oft við viljum endurtaka.'
+        text: 'Við getum sett "færa áfram" kubbinn í "endurtaka" kubbinn og skrifað tölu í kubbinn sem segir honum hve oft hann á að endurtaka sig.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'Og þetta er mikilvægt: þú getur sett meira en eina skipun inn í "endurtaka" eininguna.'
+        text: 'Og þetta er mikilvægt: þú getur sett fleiri en eina skipun inn í "endurtaka" kubbinn.'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Njóttu þess að nota nýju "endurtaka" eininguna!'
+        text: 'Njóttu þess að nota nýja "endurtaka" kubbinn!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: 'Hæ, ég heiti Chris. Áður en ég fór í Miami Heat, þá fór ég í Georgia Tech til að læra Tölvunarfræði. Prófum nýju eininguna okkar, "endurtaka þangað til" eininguna.'
+        text: 'Hæ, ég heiti Chris. Áður en ég fór að spila með Miami Heat, þá fór ég í Georgia Tech til að læra tölvunarfræði. Prófum nýja kubbinn okkar, "endurtaka uns" kubbinn.'
       2:
         image: "notes/hoc3_2.jpg"
         text: "Hvað ef við vissum ekki hversu langt fuglinn ætti að færa sig til að ná svíninu?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'Ef við setjum "færa áfram" eininguna inn í "endurtaka þangað til" eininguna, þá mun fuglinn færa sig áfram ÞANGAÐ TIL hann kemur að svíninu (eða lendir á vegg).'
+        text: 'Ef við setjum "færa áfram" kubbinn inn í "endurtaka uns" kubbinn, þá mun fuglinn færa sig áfram UNS hann nær svíninu (eða rekst á vegg).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'Og þetta er mikilvægt: alveg eins og áður, þá getum við sett margar einingar inn í "endurtaka þangað til" eininguna og þr munu allar vera endurteknar.'
+        text: 'Og þetta er mikilvægt: alveg eins og áður, þá getum við sett marga kubba inn í "endurtaka uns" kubbinn og þeir verða allir endurteknir.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: 'Hæ, ég heiti Bill! Nú skulum við læra um undirstöðu atriðið: "Ef" (e. if) setninguna. Svona taka tölvur ákvarðanir.'
+        text: 'Hæ, ég heiti Bill! Nú skulum við læra nýtt undirstöðuhugtak: "Ef" setningar. Það er svoleiðis sem tölvur taka ákvarðanir.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: 'Þú notar sjálf(ur) "Ef" (e. If) setningar á hverjum degi. Áður en þú ferð út á morgnanna segir þú "Ef" að það rignir úti þá þarf ég að fara í jakka.'
+        text: 'Þú notar "Ef" setningar á hverjum degi. Áður en þú ferð út á morgnana, segir þú EF það rignir úti, þá þarf ég að fara í jakka.'
       3:
         image: "notes/hoc4_3.jpg"
-        text: 'Við getum sagt uppvakningnum (e. zombie) að kanna "Ef" það er leið til vinstri og ef hann finnur leið til vinstri þá getum látið hann snúa sér í þá áttina.'
+        text: 'Við getum sagt uppvakningnum að kanna "Ef" það er leið til vinstri og ef hann finnur leið til vinstri þá getum látið hann snúa sér í þá átt.'
       4:
         image: "notes/hoc4_4.jpg"
-        text: 'Til að skrifa kóðann fyrir þetta þá skulum við draga "Ef" (e. If) eininguna okkar og setja "færa til vinstri" eininguna inn í hana.'
+        text: 'Við skrifum kóða fyrir þetta með því að draga fram "Ef" kubbinn og setja "snúa til vinstri" kubbinn inn í hann.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: 'Jæja, ef við setjum "færa áfram" einingu fyrir ofan þetta og "endurtaka" einingu utan um allt, þá mun uppvakningurinn kanna hvort það sé leið til vinstri og snúa sér í hvert skipti sem hann færir sig áfram.'
+        text: 'Ef við setjum nú "færa áfram" kubb fyrir ofan og "endurtaka" kubb utan um allt, þá mun uppvakningurinn endurtekið færa sig áfram, kanna hvort það sé slóð til vinstri og snúa til vinstri ef svo er. "Endurtaka" skipunin er nauðsynleg til að kanna í hverju skrefi hvort eigi að snúa.'
       6:
         image: "notes/hoc4_6.jpg"
-        text: "Ef (e. If) setningar eru ótrúlega mikilvægar í tölvunarfræði. Eitt af fyrstu forritunum sem skrifuð voru var leikurinn mylla (e. tic-tac-toe) og það var Ef setning sem sagði Ef önnur persónan er að fara að vinna, lokaðu svæðinu sem leyfir þeim að vinna."
+        text: "Ef setningar eru ótrúlega mikilvægar í tölvunarfræði. Eitt af fyrstu forritunum sem ég skrifaði var leikurinn mylla og þar var Ef setning sem sagði Ef andstæðingurinn er að fara að vinna, þá skal loka reitnum sem lætur hann vinna."
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Skemmtu þér við að nota "ef" (e. "if") eininguna!'
+        text: 'Skemmtu þér við að nota "ef" kubbinn!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: 'Hæ, ég heiti Saloni. Ég nota tölvunarfræði til að hjálpa mér við að leysa vandamál í heilsu- og lyfjageiranum. Nú ætlum við að læra um "ef annars" (e. if else) eininguna. Hún lítur út eins og "ef" einingin, en hún hefur auka hluta sem segir "annars".'
+        text: 'Hæ, ég heiti Saloni. Ég nota tölvunarfræði til að við að leysa vandamál í heilsu- og lyfjageiranum. Nú ætlum við að læra um "ef-annars" kubbinn. Hann lítur út eins og "ef" kubburinn, en hefur auka hluta sem segir "annars".'
       2:
         image: "notes/hoc5_2.jpg"
         text: 'Ef ég set "færa áfram" einingu í svæðið sem segir "framkvæma" (e. do) og "snúa til vinstri" einingu þar sem segir "annars" (e. else) þá þýðir það að uppvakningurinn mun velja milli tveggja valmöguleika. Ef það er leið beint framundan, þá mun uppvakningurinn fara áfram, ANNARS (það er ekki leið framundan) mun hann snúa sér til vinstri.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: 'Alveg eins og "ef" einingin, þá getum við sett "ef annars" einingu inn í "endurtaka" einingu þannig að uppvakningurinn haldi áfram að fara áfram og að "ef annars" einingin muni halda áfram að kanna "ef" það sé einhver beygja.'
+        text: 'Alveg eins og með "ef" kubbinn, getum við sett "ef annars" kubb inn í "endurtaka" kubb þannig að uppvakningurinn haldi áfram að hreyfast og "ef-annars" kubburinn að kanna "ef" það er beygja.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Jæja, komum þessum uppvakningum þangað sem þeir eiga heima!"
+        text: "Komdu nú þessum uppvakningum þangað sem þeir eiga heima!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
@@ -143,11 +143,11 @@
         text: "Grunnhugtökin sem þú notaðir eru grunnur allra forrita eða appa sem þú munt prófa. Við höfum lært um endurteknar lykkjur (e. loops), framkvæma þangað til (e. repeat until) setningar, ef (e. if) setningar og ef annars (e. if else) setningar."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "Ef þér líkaði við fyrsta klukkustunda kóðunina, heimsæktu þá code.org til að halda áfram menntuninni í forritun! Um leið og þú hefur klárað 20 klst. kennsluna okkar, þá hefur þú náð góðum tökum á grunninum í forritun og getur byrjað að læra hvernig þú skrifar öpp, vélmenna leiðbeiningar, leiki og hvað sem er."
+        text: "Ef þér líkaði við þessa fyrstu klukkustund kóðunar, heimsæktu þá code.org til að halda áfram að mennta þig í forritun! Ef þú klárar 20 klst. kennsluna okkar, þá hefur þú fengið góðan grunn í forritun og getur byrjað að læra að skrifa öpp, leiðbeiningar vélmenna, leiki og hvað sem er."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Tækni er að breyta öllu sem við þekkjum og það skiptir ekki máli hvað þú ert gamall/gömul: forritun er skemmtileg, hún er skapandi og allir geta lært að forrita."
+        text: "Tölvutæknin er að breyta öllu sem við gerum og það skiptir ekki máli hvað þú ert gamall/gömul: forritun er skemmtileg, hún er skapandi og allir geta lært að forrita!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Myndband kemur fljótlega!"
+        text: "Textun kemur fljótlega!"
