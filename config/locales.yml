@@ -125,7 +125,6 @@
 "is-IS":
   english: "Icelandic"
   native: "Íslenska"
-  debug: true
 
 "it-IT":
   english: "Italian"
