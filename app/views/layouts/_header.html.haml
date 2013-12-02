@@ -18,12 +18,13 @@
             .header_level
               %div{class: "header_level_container"}
                 - script = @script || Script.twenty_hour_script
-                - count = @game.levels.count
-                - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : script.script_levels_from_game(@game.id)
+                - game_script_levels = @script.script_levels_from_game(@game.id)
+                - count = game_script_levels.count
+                - game_levels = current_user ? current_user.levels_from_script(script, @game.id) : game_script_levels
                 - multiple_puzzles = game_levels.count > 1
 
                 .header_text
-                  - if (script.multiple_games?)
+                  - if (script.twenty_hour?)
                     #{data_t_suffix('script.name', script.name, @game.name)}#{multiple_puzzles ? ':' : ''}
                   = t(:puzzle) if multiple_puzzles
                 - if multiple_puzzles
