@@ -1,8 +1,3 @@
-%div{ style: "width: 90%; background: #b9bf15; color: white; padding: 30px"}
-  %b BETA - EARLY PREVIEW OF THE HOUR OF CODE
-  %br/
-  %br/
-  Final tutorials will arrive on December 9
 - if current_user
   .row
     .span12
@@ -47,23 +42,23 @@
         - else
           = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_path), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
 - else
-  %h1= link_to t('try_hoc'), hoc_reset_path()
+  %h3= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)
   %br/
   %br/
 
   %hr
 
-  %h4= link_to t('try_k8intro'), k8intro_chapter_path(ScriptLevel::NEXT)
+  %h3= link_to t('try_k8intro'), k8intro_chapter_path(ScriptLevel::NEXT)
+  = image_tag 'signup_header.jpg'
+  %br/
 
   - unless Rails.configuration.minimal_mode
-    #{ link_to t('home.student_reg_link'), new_user_registration_path}
     %br/
-    #{ link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}
-    %br/
-    = raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))
-    %br/
-  %br/
+    %p
+      #{t('nav.user.signup')}: #{link_to t('home.student_reg_link'), new_user_registration_path} | #{link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)}.
+      #{raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))}.
+
 
 .row
   .span12
