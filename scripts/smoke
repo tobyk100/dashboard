@@ -35,6 +35,7 @@ end
 @host = @host.gsub(/\/$/, "")
 
 thread_count = [ARGV.shift.to_i, 1].max
+repeat_count = [ARGV.shift.to_i, 1].max
 quiet = 'quiet' == ARGV.shift
 
 def run_tests(options = {})
@@ -89,7 +90,7 @@ smoke_start = Time.now
 
 options = { quiet: quiet }
 threads = []
-thread_count.times { threads << Thread.new { run_tests(options) } }
+thread_count.times { threads << Thread.new { repeat_count.times { run_tests(options) } } }
 threads.each { |t| t.join }
 
 printf("Total Time: %.3f\n", (Time.now - smoke_start)) if !options[:quiet]
