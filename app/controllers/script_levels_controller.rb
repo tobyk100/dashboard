@@ -4,7 +4,7 @@ class ScriptLevelsController < ApplicationController
 
   def show
     authorize! :show, ScriptLevel
-    @script = Script.find(params[:script_id])
+    @script = Script.get_from_cache(params[:script_id])
 
     chapter = params[:chapter]
     script_level_id = params[:id]
@@ -40,10 +40,10 @@ class ScriptLevelsController < ApplicationController
     end
 
     if chapter
-      @script_level = ScriptLevel.where(script: @script, chapter: chapter).first
+      @script_level = @script.get_script_level_by_chapter(chapter.to_i)
       raise ActiveRecord::RecordNotFound unless @script_level
     else
-      @script_level = ScriptLevel.find(script_level_id)
+      @script_level = @script.get_script_level_by_id(script_level_id.to_i)
     end
 
     present_level(@script_level)

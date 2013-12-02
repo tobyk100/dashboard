@@ -184,7 +184,7 @@ class ActivitiesController < ApplicationController
   end
 
   def prize_check(user)
-    if user.trophy_count == (Concept.count * Trophy::TROPHIES_PER_CONCEPT)
+    if user.trophy_count == (Concept.cached.length * Trophy::TROPHIES_PER_CONCEPT)
       if !user.prize_earned
         # send e-mail
         PrizeMailer.prize_earned(user).deliver
