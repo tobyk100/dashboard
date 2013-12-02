@@ -14,7 +14,7 @@ class FollowersController < ApplicationController
 
     @all_script_levels = script.script_levels.includes({ level: :game })
     @all_script_levels = @all_script_levels.where(['levels.game_id = ?', params[:game_id].to_i]) if params[:game_id].to_i > 0
-    @all_concepts = Concept.all
+    @all_concepts = Concept.cached
 
     @all_games = Game.where(['id in (select game_id from levels l inner join script_levels sl on sl.level_id = l.id where sl.script_id = ?)', script.id])
   end
