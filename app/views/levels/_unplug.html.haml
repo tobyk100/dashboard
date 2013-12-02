@@ -1,102 +1,42 @@
-Unplugged page (placeholder)
+.unplugged
+  %h2 #{data_t('unplugged', @game.name)[:title]}
 
-%div
-  #{data_t_suffix('script.name', @script.name, @game.name)}
-  #{data_t('game.name', @game.name)}
+  %p #{data_t('unplugged', @game.name)[:desc]}
 
-%b= @game.name
-%b= @level.level_num
+  .buttons
 
-%br/
-%br/
-%br/
+    %a.level_link.next_level
+      Next Level
 
+    - pdfs = data_t('unplugged', @game.name)[:pdfs]
+    - if pdfs
+      - pdfs.each_with_index do |pdf, i|
+        %a.level_link.pdf_button{href: asset_url('/unplugged/' + pdf + '.pdf')}
+          Download PDF #{i + 1}
+    - else
+      %p Downloadable activity coming soon.
 
-%a{href:"#",onclick:"return handleNextLevelClick();"}
-  I'm finished NEXT LEVEL
-
-%br/
-%br/
-
+  - video = data_t('unplugged', @game.name)[:video]
+  - if video
+    %iframe{src: youtube_url(video), scrolling: 'no'}
+  - else
+    %p Video Coming Soon!
 
 :javascript
-  var nextRedirect;
-  var previousLevelRedirect;
-  var sendReport = function(report) {
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.onload = function() {
-      var response = JSON.parse(httpRequest.responseText);
-      nextRedirect = response['redirect'];
-      previousLevelRedirect = response['previous_level'];
-      videoInfo = response['video_info'];
-      if (report.onComplete) {
-        report.onComplete(response);
-      }
-    };
-    httpRequest.open('POST', '#{@callback}');
-    httpRequest.setRequestHeader('Content-Type',
-        'application/x-www-form-urlencoded');
-    var query = [];
-    for (var key in report) {
-      query.push(key + '=' + report[key]);
+  var clickedNext = false;
+  $('a.next_level').click(function() {
+    if (!clickedNext) {
+      clickedNext = true;
+      sendReport({
+        fallbackResponse: '#{@fallback_response.to_json}',
+        callback: '#{@callback}',
+        app: 'unplug',
+        level: '#{@level.level_num}',
+        result: true,
+        testResult: 100,
+        onComplete: function() {
+          if (nextRedirect) { window.location.href = nextRedirect; }
+        }
+      });
     }
-    query = query.join('&');
-    httpRequest.send(query);
-  };
-  var optionsGlobal;
-  var #{app}Main = function(options) {
-    // insert code here
-    optionsGlobal = options;
-    optionsGlobal.clickedNext = false;
-  };
-  var onReportComplete = function() {
-    optionsGlobal.onContinue();
-  };
-  var handleNextLevelClick = function() {
-    if (!optionsGlobal.clickedNext) {
-      optionsGlobal.clickedNext = true;
-      optionsGlobal.onAttempt({
-          app: 'unplug',
-          level: optionsGlobal.level.id,
-          result: true,
-          testResult: 100,
-          onComplete: onReportComplete
-          });
-    }
-  };
-  #{app}Main({
-    locale: '#{js_locale}',
-    onAttempt: function(report) {
-      sendReport(report);
-    },
-    onContinue: function() {
-      if (videoInfo) {
-        showVideo(videoInfo);
-      } else if (nextRedirect) {
-        window.location.href = nextRedirect;
-      }
-    },
-    backToPreviousLevel: function() {
-      if (previousLevelRedirect) {
-        window.location.href = previousLevelRedirect;
-      }
-    },
-    Dialog: Dialog,
-    levelId: '#{@level.level_num}',
-    showInstructionsWrapper: function(handler) {
-      if ('#{@autoplay_video}') {
-        $('.video-modal').on('hidden.bs.modal', function () {
-          handler();
-        });
-      } else {
-        handler();
-      }
-    },
-    level: {
-      puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
-      stage_total: #{@level.game.levels.count},
-      instructions: '#{escape_javascript(@instructions)}'
-    },
-    skinId: '#{@level.skin}'
   });
-

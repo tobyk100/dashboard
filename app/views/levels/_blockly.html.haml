@@ -26,44 +26,24 @@
   - @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
   - @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
 
+  - if @autoplay_video
+    :javascript
+      showVideo({
+        src: #{youtube_url(@autoplay_video.youtube_code).to_json},
+        key: '#{@autoplay_video.key}',
+        name: '#{data_t('video.name', @autoplay_video.key)}'
+      });
+
   :javascript
-    var nextRedirect;
-    var previousLevelRedirect;
-    var FALLBACK_RESPONSE = #{@fallback_response.to_json};
-    var sendReport = function(report) {
-      var httpRequest = new XMLHttpRequest();
-      httpRequest.onload = function() {
-        var response;
-        if (httpRequest.status === 200) {
-          response = JSON.parse(httpRequest.responseText);
-        } else if (report.pass) {
-          response = FALLBACK_RESPONSE.success;
-        } else {
-          response = FALLBACK_RESPONSE.failure;
-        }
-        nextRedirect = response['redirect'];
-        previousLevelRedirect = response['previous_level'];
-        videoInfo = response['video_info'];
-        if (report.onComplete) {
-          report.onComplete(response);
-        }
-      };
-      httpRequest.open('POST', '#{@callback}');
-      httpRequest.setRequestHeader('Content-Type',
-          'application/x-www-form-urlencoded');
-      var query = [];
-      for (var key in report) {
-        query.push(key + '=' + report[key]);
-      }
-      query = query.join('&');
-      httpRequest.send(query);
-    };
+    // See assets/javascripts/sendReport for definition of nextRedirect etc.
     #{app}Main({
       locale: '#{js_locale}',
       containerId: 'blocklyApp',
       baseUrl: '#{blockly_path}',
       cacheBust: '#{blockly_cache_bust}',
       onAttempt: function(report) {
+        report.fallbackResponse = #{@fallback_response.to_json};
+        report.callback = '#{@callback}';
         sendReport(report);
       },
       onContinue: function() {

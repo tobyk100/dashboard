@@ -1,0 +1,30 @@
+var nextRedirect;
+var previousLevelRedirect;
+var sendReport = function(report) {
+  var httpRequest = new XMLHttpRequest();
+  httpRequest.onload = function() {
+    var response;
+    if (httpRequest.status === 200) {
+      response = JSON.parse(httpRequest.responseText);
+    } else if (report.pass) {
+      response = report.fallbackResponse.success;
+    } else {
+      response = report.fallbackResponse.failure;
+    }
+    nextRedirect = response['redirect'];
+    previousLevelRedirect = response['previous_level'];
+    videoInfo = response['video_info'];
+    if (report.onComplete) {
+      report.onComplete(response);
+    }
+  };
+  httpRequest.open('POST', report.callback);
+  httpRequest.setRequestHeader('Content-Type',
+      'application/x-www-form-urlencoded');
+  var query = [];
+  for (var key in report) {
+    query.push(key + '=' + report[key]);
+  }
+  query = query.join('&');
+  httpRequest.send(query);
+};
