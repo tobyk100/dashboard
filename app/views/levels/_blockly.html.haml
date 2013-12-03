@@ -104,7 +104,7 @@
       },
       level: {
         puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
-        stage_total: #{@script.script_levels_from_game(@level.game_id).length},
+        stage_total: #{@script ? @script.script_levels_from_game(@level.game_id).length : @level.game.levels.count},
         instructions: '#{escape_javascript(@instructions)}',
         levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
         other1StarError: '#{escape_javascript(@other1StarError)}',
