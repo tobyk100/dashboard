@@ -11,7 +11,8 @@
     - pdfs = data_t('unplugged', @game.name)[:pdfs]
     - if pdfs
       - pdfs.each_with_index do |pdf, i|
-        %a.level_link.pdf_button{href: asset_url('/unplugged/' + pdf + '.pdf')}
+        %a.level_link.pdf_button{href: asset_url('/unplugged/' + pdf + '.pdf'),
+                                 target: '_blank'}
           = t('download_pdf', :pdf => i + 1)
     - else
       %p Downloadable activity coming soon.
