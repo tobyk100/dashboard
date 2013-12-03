@@ -1,7 +1,8 @@
 class Concept < ActiveRecord::Base
   has_and_belongs_to_many :levels
   belongs_to :video
-  after_save :expire_cache
+  # Can't call static from filter. Leaving in place for fixing later
+  #after_save :expire_cache
 
   def self.cached
     @@all_cache ||= Concept.all
