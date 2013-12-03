@@ -260,3 +260,5 @@ en:
     upgrade: "Please upgrade your browser."
   slow_loading: 'This is taking longer than usual...'
   try_reloading: 'Try reloading the page'
+  next_level: 'Next Level'
+  download_pdf: 'Download PDF'

@@ -13,11 +13,3 @@
   = render partial: "levels/unplug", locals: { app: @game.app }
 - else
   = render partial: "levels/blockly", locals: { app: @game.app }
-
-- if @autoplay_video
-  :javascript
-    showVideo({
-      src: #{youtube_url(@autoplay_video.youtube_code).to_json},
-      key: '#{@autoplay_video.key}',
-      name: '#{data_t('video.name', @autoplay_video.key)}'
-    });

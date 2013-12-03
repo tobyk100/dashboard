@@ -1,0 +1,27 @@
+@import "color";
+
+.unplugged {
+  $page_width: 800px;
+
+  iframe {
+    width: $page_width;
+    height: $page_width / (16 / 9);
+    margin-top: 20px;
+  }
+
+  p {
+    max-width: $page_width;
+  }
+
+  a {
+    padding: 4px;
+  }
+
+  .pdf_button {
+    background-color: $dark_color;
+  }
+  .next_level {
+    background-color: $orange;
+    margin-left: 10px;
+  }
+}
