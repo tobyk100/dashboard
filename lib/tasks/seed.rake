@@ -135,6 +135,7 @@ namespace :seed do
     PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'pvz_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
+    PrizeProvider.create!(name: 'Skype', description_token: 'skype', url: 'http://www.skype.com/', image_name: 'skype_card.png')
   end
 
   task dummy_prizes: :environment do
@@ -153,6 +154,7 @@ namespace :seed do
       Prize.create!(prize_provider_id: 7, code: "EAOR-IGIN-PVSZ-000" + string)
       TeacherPrize.create!(prize_provider_id: 8, code: "DONO-RSCH-OOSE-750" + string)
       TeacherBonusPrize.create!(prize_provider_id: 9, code: "DONO-RSCH-OOSE-250" + string)
+      Prize.create!(prize_provider_id: 10, code: "SKYP-ECRE-DIT0-000" + string)
     end
   end
 

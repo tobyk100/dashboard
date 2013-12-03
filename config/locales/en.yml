@@ -151,14 +151,14 @@ en:
       ea_fifa: 'FIFA Soccer 13 (PC game download)'
       ea_simcity: 'SimCity 4 Deluxe Edition (PC game download)'
       ea_pvz: 'Plants vs. Zombies (PC game download)'
-      skype: 'Skype credit'
+      skype: '$10 Skype credit'
     student_finished: You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}
     msg:
       choose: 'Choose a prize:'
       choose_teacher: 'Click on the logo below to claim your prize:'
       earned: 'You have earned a prize!'
       not_earned_title: 'Finish the tutorial, earn rewards'
-      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last.'
+      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last.'
       teacher:
         earned: '10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!'
         not_earned_title: 'Teach the class, earn up to $1,000 in DonorsChoose.org credits'
