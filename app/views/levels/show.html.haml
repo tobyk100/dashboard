@@ -7,7 +7,7 @@
         = I18n.t('video.tab')
         %span.video-name
     %li
-      %a{:href => '#notes'}= I18n.t('video.notes')
+      %a{:href => '#notes-outer'}= I18n.t('video.notes')
 
 - if @game.app == 'unplug'
   = render partial: "levels/unplug", locals: { app: @game.app }
