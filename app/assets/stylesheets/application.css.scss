@@ -562,6 +562,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 
 #notes-outer {
   overflow-y: scroll;
+  padding: 0;
 }
 #notes {
   .note {
