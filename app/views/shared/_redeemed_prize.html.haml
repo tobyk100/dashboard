@@ -1,9 +1,10 @@
 - provider = prize.prize_provider
-= image_tag provider.image_name
+= image_tag provider.image_name, :class => 'prize_card_img'
 %p
   %b= t('redeem_prizes.provider')
   = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
 %p
   %b= t('redeem_prizes.code')
-  = prize.code
-
+  %span{class: 'prize_code'} #{prize.code}
+%p
+  %span{class: 'prize-redemption'} #{Dashboard::Application::config.prize_providers[provider.description_token]['redemption']}
