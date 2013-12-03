@@ -74,6 +74,7 @@ chmod +x $unicorn_cfg
 $DASH_ROOT/config/unicorn.rb.sh > $DASH_ROOT/config/unicorn.rb
 mkdir -p /var/log/unicorn
 chown $CDO_USER /var/log/unicorn
+/usr/sbin/update-rc.d -f unicorn defaults
 
 # Configure Nginx
 nginx_cfg=/etc/nginx/nginx.conf
