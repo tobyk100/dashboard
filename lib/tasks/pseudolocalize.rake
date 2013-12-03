@@ -12,12 +12,20 @@ task :pseudolocalize => :environment do
     end
   end
 
+  def pseudolocalize_array(a)
+    a.map do |x|
+      pseudolocalize(x)
+    end
+  end
+
   def pseudolocalize(x)
     case x
     when String
       pseudolocalize_string(x)
     when Hash
       pseudolocalize_hash(x)
+    when Array
+      pseudolocalize_array(x)
     else
       raise "Unexpected type in messages YML: #{x.class}"
     end
