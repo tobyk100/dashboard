@@ -15,7 +15,17 @@
   %div{ style: "border: 1px solid red;clear:both"}
     Admin:
     %br
+    name: #{@user.name}
+    %br
     email: #{@user.email}
     %br
     username: #{@user.username}
+    - if @user.birthday
+      %br
+      birthday: #{@user.birthday}
+    - if @user.gender
+      %br
+      gender: #{@user.gender}
+    %br
+    teachers: #{raw @user.teachers.map { |t| link_to(t.name, user_stats_path(t)) }.join(', ')}
 
