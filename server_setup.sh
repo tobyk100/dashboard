@@ -83,6 +83,10 @@ cp $DASH_ROOT/config/nginx.conf $nginx_cfg
 $DASH_ROOT/config/nginx-site.sh > $site_cfg
 service nginx restart
 
+# configure logrotate
+cp $DASH_ROOT/config/logrotate /etc/logrotate.d/cdo
+logrotate /etc/logrotate.d/cdo
+
 # Configure Node.js
 if [[ $CDO_DEV ]]; then
   if [[ ! -d $CDO_BUILD_PATH/node-0.10.20 ]]; then
