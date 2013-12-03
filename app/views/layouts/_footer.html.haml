@@ -13,9 +13,9 @@
         = link_to t('footer.translate'), 'http://eepurl.com/Im_In'
         %br/
         %br/
-        = sanitize(t('footer.help_from_html'), tags: %w(a), attributes: %w(href))
+        = sanitize(t('footer.help_from_html'), tags: %w(a, br), attributes: %w(href))
         %br/
-        = sanitize(t('footer.art_from_html'), tags: %w(a), attributes: %w(href))
+        = sanitize(t('footer.art_from_html'), tags: %w(a br), attributes: %w(href))
         %br/
         = link_to t('footer.tos'), 'http://code.org/tos'
         |
