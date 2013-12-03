@@ -561,6 +561,14 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   width: 105px;
 }
 
+#alert {
+  color: red;
+  font-size: 130%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+}
+
 .modal-body {
   height: 100%;
   overflow: visible;

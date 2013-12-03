@@ -57,6 +57,9 @@ Dashboard::Application.configure do
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   config.action_controller.asset_host = "http://prod.cdn-code.org"
 
+  # Use geocoder server that is "internal" to AWS to improve performance.
+  config.geocoder_server = "ip-10-164-38-97.ec2.internal"
+
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
