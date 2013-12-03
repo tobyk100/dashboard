@@ -84,6 +84,8 @@ en:
     valid_password: "Valid password!"
     invalid_password: "Password must be at least 6 characters"
     mismatch_password: "The two passwords you entered do not match"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian’s permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: 'Sign in'
     login: 'Email or username'
