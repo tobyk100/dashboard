@@ -4,15 +4,26 @@
       name:
         20-hour:
           desc: "K-8 電腦科學課程簡介"
-          Maze: "階段 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
           desc: "Hour of Code"
           Maze: "Stage 1"
@@ -63,9 +74,9 @@
         maze_2_2: '你可以幫我抓住這淘氣的豬嗎？堆疊幾個"向前"塊在一起，然後按"運行程式"來幫我。'
         maze_2_1: "這豬讓我生氣。幫我找到它 ！"
         maze_2_2_5: "延著這條路並帶領我到傻豬那。避免 TNT 或會飛的羽毛 ！"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_3: "引導我到綠色惡運 ！(提防 TNT)"
         maze_2_4: "保持冷靜，並幫我找到壞豬。否則我可能會生氣!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_5: "有一種方法可以只使用 2 個塊來抓到這傻豬。你能想出它來嗎？"
         maze_2_6: "試著把我送到綠色入侵者只使用三個塊。"
         maze_2_7: '幫我驅除這壞豬使用數目最少的塊。請嘗試使用多個"重複次數"的塊。'
         maze_2_8: '要解決這個問題，請嘗試用這 3 種"重複"塊： 移動、 移動、 打開。'
@@ -93,76 +104,66 @@
         turtle_4_1: '你可以畫一個只使用 3 個塊的三角形 （100 畫素的邊）？提示： 使用"重複"塊。'
         turtle_4_2: '嘗試加一個塊來完成這個謎題。提示： 我們提供塊來繪製 2 個相同的三角形，你需要放"轉向"在這之間，並決定多遠轉向。'
         turtle_4_3: '好，這裡是你寫的繪製一個單一的三角形的程式。你可以添加一個"重複"和"轉向"的塊來做出一朵漂亮的花嗎？'
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
+        turtle_4_4: "這裡是從以前的謎題，但在繪製每個三角形後只有轉動 36 度的相同的程式碼。這要重複多少次?（提示： 360 度的轉動之後將繪出完整的圓來)"
+        turtle_4_5: "這裡是從以前的謎題，但重複轉向 36 次的相同程式碼。結果應該是多少度？（提示： 360 度的轉動之後將繪出完整的圓來)"
+        turtle_4_6: "只有使用 3 個塊，你可以畫一個邊長為 20 畫素的正方形嗎？"
+        turtle_4_7: "這裡是從最後一個謎題來繪製正方形的程式。你可以重複它繪製像梯子般的 10 個相鄰方塊嗎？提示： 您只需要多 2 個塊。"
+        turtle_4_8: "這裡是之前難題的解法。您可以只添加多 2 個塊來完成繪圖嗎？"
+        turtle_4_9: "這裡是之前難題的解法。你應該轉多少角度來完成繪圖？（您可能需要猜幾次)"
+        turtle_4_10: "這裡是之前難題的解法。你應該重複多少次才能完成繪圖？"
+        turtle_4_11: '嘗試改變"轉向"和"重複"塊的數目來產生不同圖案。或者，嘗試改變其餘程式碼來繪製你任何想要的。'
+        maze_karel_1_1: '嗨，我是一個農夫。我需要你的協助來填平我的農場上的欄位讓它可以種植作物。把我轉到泥土堆並使用"移除"塊來移除它。'
+        maze_karel_1_2: '下一步，將我移到洞裡和用兩個鏟子量的泥土來填充，使用"填充"塊填充它。'
+        maze_karel_1_3: "把我移到泥土堆，告訴我多少鏟子的量的來移除並盡可能使用較少的塊。"
+        maze_karel_1_4: "你能幫我移除所有四堆的泥土嗎？提示： 如果可以使用重複的塊。"
+        maze_karel_1_5: '幫我填平這些洞用 5 鏟子量的泥土。提示： 您可以用"重複"塊在"當..."塊內。'
+        maze_karel_1_6: '移除所有成堆的泥土，盡可能使用較少的塊。新的選項在下拉式功能表中的"while"塊上告訴我是否我站在一堆或一個洞上。'
+        maze_karel_1_7: "哇，我發現一個很深的洞 ！我不知道它需要多少鏟子量的泥土。您可以寫一個程式來將它填充直到地面是平的嗎？"
+        maze_karel_1_8: "幫我在該欄位尾端使用盡可能少的塊來把坑填滿。"
         maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
+        maze_karel_1_10: '我工作很晚，所以外面很黑，我不能知道土堆有多大。現在我用還沒有所有我能使用的選項塊在"當..."塊上。讓我延著田地邊移動，並移動它，如果有土堆。'
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
+        turtle_2_1: "你好。我僵屍的表演者。我愛繪圖 ！幫我用特殊顏色來畫一個正方形。重要說明： 您有所有同樣的塊，但他們現在已經安置在各類別中。"
         turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
+        turtle_2_5: '繪製邊為 50、 60、 70、 80、90 畫素的正方形。您需要使用"繪製一個正方形"的函數五次。'
+        turtle_2_6: '好的, 這程式將使用一個計數器，來最後一次繪製同樣的正方形。你想要這正方形，將和計數器的大小相同，因此，使用這"計數器"塊。提示： 它是在變數類別中。'
+        turtle_2_7: '這裡是一個繪製一個螺旋的程式，但塊將被禁用，因此它們不會執行。使一個新程式使用"計數..."塊 (在迴圈類別） 和"計數器"塊 (在變數類別） 繪製相同的螺旋。'
+        turtle_2_7_5: '(在函數類別） 中有一個新的"繪製一個雪人"函數。繪製兩個高度 250 和 100 的雪人。'
+        turtle_2_8: '這個有點棘手。使用"繪製一個雪人"功能和新的"跳向前"塊 (在行動類別中）。繪製不同顏色、間距100 個畫素的 3 個雪人。'
+        turtle_2_9: '使用"計數"迴圈來繪製一家的雪人有著 110、 100、 90、 80 和 70 的高度。雪人都應該間距 60 畫素。'
+        turtle_2_10: "這裡是一些程式碼來嘗試使用不同的螺旋。如果您更改轉動量會發生什麼?或在迴圈中設置隨機的顏色嗎？畫你喜歡的東西。"
+        maze_karel_2_1: "請嘗試使用塊來幫我移除所有土堆和填滿在地面上的所有洞。請嘗試使用迴圈而不使用太多塊。提示： 你可以放一個迴圈在另一個迴圈內。"
+        maze_karel_2_2: '我們定義了這在函數類別中稱為"填充 5"的塊。使用它來協助我填充這洞。'
+        maze_karel_2_3: '使用新的"填充 5"功能塊，使我填充所有的洞。你得從函數類別拉出"填充 5"塊來。'
+        maze_karel_2_4: "定義一個新的函數來移除 7 個鏟子量的土堆。然後使用它寫一個程式來協助我移除所有土堆。"
         maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
         maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
+        maze_karel_2_7: "在我的田地上有一頭母牛! 寫一個新的函數來協助我避開母牛並將土堆移除。把你的所有塊放在新函數內。"
+        maze_karel_2_8: '使用這個新功能"避開母牛和移除 1 "，來協助我移除所有土堆。'
+        maze_karel_2_9: "好的，這裡是一個在垂直列中移除 4 堆不同泥土堆的函數。請嘗試將此函數放在迴圈中，以便您移除所有成堆的泥土在只使用幾個塊下。"
+        maze_karel_2_10: "移動我越過這田地，並用這兩個函數來協助我移除所有土堆和填充所有的洞。"
+        turtle_3_1: '這個謎題向您顯示"畫一個正方形"和"畫圓"函式是如何定義的。定義一個不能運行其塊的函數。你必須拉出"繪製一個正方形"塊實際上畫一個正方形。'
+        turtle_3_2: '使用"繪製一個正方形"的函數作為一個例子，創建一個"畫一個三角形"的函數，並使用它。'
         turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
+        turtle_3_4: '看看是否你能找出如何使用"繪製一個正方形"和"繪製一個三角形"（和一些其他塊）來畫一個房子在獅子周圍。'
+        turtle_3_5: '現在創建一個新的"畫房子"的函數，並使用它來藏兩只貓。提示： 創建一個新的函數，使用"做點什麼"塊，並鍵入您自己的文字來為區塊的命名。'
+        turtle_3_6: '使用"繪製一個正方形"為例，添加命名為"長度"的輸入來"繪製一個三角形"。然後，用不同的大小繪製三角形。（提示： 請按一下星星來添加一個輸入到函數)'
+        turtle_3_7: '添加命名"長度"的輸入來"畫房子"，並建立一所大房子給大象 (150 畫素長的邊) '
+        turtle_3_8: '這裡是所有從之前難題來的塊。修改"畫房子"所以在繪製一所新房子後我最終會在右下角。使用此修改的函數來繪製三間房子。'
+        turtle_3_9: '你可以在不需要協助下重新創建這"畫房子"的函數？試一試，然後繪製一排房子。'
         turtle_3_10: "你學到了很多 ！現在用它來繪製任何你想畫的東西。嘗試畫一顆星，一個螺旋或花俏的雪花。"
         maze_karel_debug_seq_1: "歡迎來除錯 ！我的程式不能正常運行。你可以發現問題並修復它，這樣我的田地會是平坦的並能即刻種植作物嗎？"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
+        maze_karel_debug_seq_2: "這程式怎麼了？我應該如何修正它所以我可以移除這土堆呢？"
+        maze_karel_debug_repeat: "除錯此程式所以我的領域將是漂亮和平坦的。"
         maze_karel_debug_while: "你應該如何改變這個程式來協助我補這個缺口？"
         maze_karel_debug_if: "幫我! 修正這個程式所以我的田地將完全是平坦的。"
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
+        maze_karel_debug_if_else: "除錯此程式所以我可以填平這些洞和移除所有土堆。"
+        maze_karel_debug_function_1: "你應該改變有關此程式的什麼來幫我移除所有的土堆？"
+        maze_karel_debug_function_2: "你可以除錯此程式因此我可以使我的田地平坦嗎？"
+        maze_karel_debug_function_3: "編輯此程式所以我會移除所有在我的田地上的土堆。"
         turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"

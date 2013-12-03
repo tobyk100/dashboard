@@ -194,9 +194,9 @@
     recent_activity: "Nýleg virkni"
     show_more: "Sýna meira"
   home:
-    signin_message: "eða ef þú er þegar skráð(ur) %{link}"
-    student_reg_link: "Nemendur - byrja hér"
-    teacher_reg_link: "Kennarar - byrja hér"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Sjá mælaborð árangurs"
     teacher_student_count: "Þú ert með %{count} nemendur."
     teacher_averages: 'Að meðaltali hafa nemendur þínir unnið til %{trophy_average} af %{trophy_max} mögulegum "Concept Mastery" bikurum.'
@@ -238,3 +238,5 @@
     upgrade: "Vinsamlegast uppfærðu vafrann þinn."
   slow_loading: "Þetta tekur lengur en venjulega..."
   try_reloading: "Reyndu að endurhlaða síðunni"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

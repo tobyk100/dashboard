@@ -3,66 +3,77 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "K-8 introducció al curs d'Informàtica"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Hora del codi"
+          Maze: "Etapa 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Edita el codi"
+          MazeEC: "Etapa 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
-        Maze: "The Maze"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
-        Artist: "The Artist"
-        Unplug4: "Algorithms"
-        Artist2: "The Artist 2"
-        Unplug5: "Functional"
-        Farmer: "The Farmer"
-        Unplug6: "Conditionals"
-        Artist3: "The Artist 3"
-        Unplug7: "Song Writing"
-        Farmer2: "The Farmer 2"
-        Unplug8: "Abstraction"
-        Artist4: "The Artist 4"
+        Unplug1: "Introducció a la informàtica"
+        Maze: "El laberint"
+        Unplug2: "Pensament computacional"
+        Unplug3: "Programació de paper quadriculat"
+        Artist: "L'artista"
+        Unplug4: "Algorismes"
+        Artist2: "L'artista 2"
+        Unplug5: "Funcional"
+        Farmer: "L'agricultor"
+        Unplug6: "Condicionals"
+        Artist3: "L'artista 3"
+        Unplug7: "Escriptura de la cançó"
+        Farmer2: "El pagès 2"
+        Unplug8: "Abstracció"
+        Artist4: "L'artista 4"
         Unplug9: "Relay Programming"
-        Farmer3: "The Farmer 3"
-        Unplug10: "The Internet"
-        Artist5: "The Artist 5"
+        Farmer3: "El pagès 3"
+        Unplug10: "Internet"
+        Artist5: "L'artista 5"
         Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        MazeEC: "El laberint"
     trophy:
       name:
         Bronze: "Bronze"
-        Silver: "Silver"
-        Gold: "Gold"
+        Silver: "Plata"
+        Gold: "Or"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
-        function: "Functions"
-        parameters: "Functions with parameters"
+        sequence: "Seqüència"
+        if: "Bloc Si"
+        if_else: "Bloc Si-Sino"
+        loop_times: "Bloc repiteix vegades"
+        loop_until: "Bloc repeteix fins"
+        loop_while: "Bloc mentres"
+        loop_for: "Bloc for"
+        function: "Funcions"
+        parameters: "Funcions amb paràmetres"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
+        maze_2_2: 'Em pots ajudar a atrapar a aquest porc malcriat. Apila un parell de blocs "avança" i prem "Executa programa" per ajudar-me a arribar allí. '
+        maze_2_1: "Aquest porc está enfadant-me. Ajuda'm a trobar-lo!"
+        maze_2_2_5: "Traça el camí i guia'm a l'estúpid porc . Evita el TNT o les plomes volaran!"
         maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
         maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
         maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
@@ -117,15 +128,16 @@
         maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
+          Encara és fosc fora. Mou-me pel camp. Si hi ha una pila, elimina-la, i si hi ha un forat, ompli'l. Pista: usa el bloc "si" del menú desplegable d'opcions.
+        turtle_2_1: "Hola. Jo sóc el zombi artista. M'encanta dibuixar! Ajuda'm a dibuixar un quadrat en un color especial. Nota important: tu tens els mateixos blocs però ara han sigut organitzats en categories."
+        turtle_2_2: 'Benvingut a la utilització de funcions, que te permeten definir nous blocs! Prova el nou "dibuixar un quadrat", trobat en la categoria de "Funcions", per dibuixar un petit quadrat verd 50x50.'
+        turtle_2_3: |-
+          Utilitza el bloc "repetició" (en la categoria "Bucles") per dibuixar 3 quadrats de mida 100, separats 120 graus. I fes-ho en 3 colors diferents a l'atzar.
+        turtle_2_4: "Ara anem a decorar-lo. Canvia el codi per dibuixar 36 quadrats, d'ample 100 píxels i cadascun amb 10 graus de separació. Pista: pots voler usar un deslliçador per fer-me anar més ràpid."
         turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
+          Dibuixar quadrats amb costats de 50, 60, 70, 80 i 90 píxels.  Haureu d'utilitzar la funció "dibuixar un quadrat" cinc vegades.
         turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
+          Correcte, aquest programa farà servir un comptador, per dibuixar els mateixos quadrats que l'última vegada. Si vols que el quadrat siga de la mateixa mida que el comptador, usa el bloc "comptador". Pista: Està en la categoria de Variables.
         turtle_2_7: |-
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
         turtle_2_7_5: |-

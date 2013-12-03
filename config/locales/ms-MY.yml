@@ -187,9 +187,9 @@
     recent_activity: "Aktiviti terkini"
     show_more: "Tunjukkan Lagi"
   home:
-    signin_message: "atau jika anda sudah berdaftar % {link}"
-    student_reg_link: "Pelajar - mula disini"
-    teacher_reg_link: "Guru - mula di sini"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Lihat dashboard kemajuan"
     teacher_student_count: "Anda mempunyai %{count} pelajar."
     teacher_averages: 'Secara puratanya, pelajar anda mendapat %{trophy_average} daripada %{trophy_max} "Concept Mastery" trofi.'
@@ -231,3 +231,5 @@
     upgrade: "Sila naik taraf pelayar anda."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

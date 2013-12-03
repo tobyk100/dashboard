@@ -194,15 +194,15 @@
     recent_activity: "Tapahtumat"
     show_more: "Näytä lisää"
   home:
-    signin_message: "tai jos olet jo käyttäjä %{link}"
-    student_reg_link: "Oppilaat aloittavat tästä"
-    teacher_reg_link: "Opettajat aloittavat tästä"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Näytä edistysminen"
     teacher_student_count: "Sinulla on %{count} oppilasta."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    teacher_averages: 'Keskimäärin oppilaasi ovat ansainneet %{trophy_average}/%{trophy_max} "käsitteiden hallinta" pokaaleista.'
     classroom: "Luokkasi"
     student_progress: "Edistymisesi"
-    student_stats: 'Olet ansainnut %{trophy_count}/%{trophy_max} "käsitteiden hallinta" palkintoa.'
+    student_stats: 'Olet ansainnut %{trophy_count}/%{trophy_max} "käsitteiden hallinta" pokaalia.'
     student_left_off: "Jäit tähän:"
     student_finished: "Olet suorittanut johdannon. Vastaanota %{prize_link} ja valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
     local_school: "koulu"
@@ -241,3 +241,5 @@
     upgrade: "Ole hyvä ja päivitä selaimesi."
   slow_loading: "Tämä kestää kauemmin kuin tavallisesti..."
   try_reloading: "Yritä ladata sivu uudelleen"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

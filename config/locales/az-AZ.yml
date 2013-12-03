@@ -194,9 +194,9 @@
     recent_activity: "Son fəaliyyət"
     show_more: "Daha çox göstər"
   home:
-    signin_message: "və ya əgər siz artıq qeydiyyatdan keçmisinizsə %{link}"
-    student_reg_link: "Tələbələr - buradan başlayın"
-    teacher_reg_link: "Müəllimlər - buradan başlayın"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Gedişat Panelinə baxın"
     teacher_student_count: "Sizin %{count} tələbəniz var."
     teacher_averages: 'Sizin tələbələriniz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan orta hesabla %{trophy_average} saydasını qazandılar.'
@@ -238,3 +238,5 @@
     upgrade: "Zəhmət olmasa, naviqatorunuzu yeniləyin."
   slow_loading: "Bu, adi halda olduğundan daha çox vaxt aparır..."
   try_reloading: "Səhifəni yenidən yükləməyə cəhd edin"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

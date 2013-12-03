@@ -3,45 +3,56 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Maze: "Stage 1"
-          Artist: "Stage 2"
-          Artist2: "Stage 3"
-          Farmer: "Stage 4"
-          Artist3: "Stage 5"
-          Farmer2: "Stage 6"
-          Artist4: "Stage 7"
-          Farmer3: "Stage 8"
-          Artist5: "Stage 9"
+          desc: "Khóa giới thiệu Công Nghệ Thông tin của K-8"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Một tiếng lập trình"
+          Maze: "màn 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Hiệu chỉnh mã"
+          MazeEC: "màn 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
-        Maze: "The Maze"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
-        Artist: "The Artist"
-        Unplug4: "Algorithms"
-        Artist2: "The Artist 2"
-        Unplug5: "Functional"
-        Farmer: "The Farmer"
-        Unplug6: "Conditionals"
-        Artist3: "The Artist 3"
-        Unplug7: "Song Writing"
-        Farmer2: "The Farmer 2"
-        Unplug8: "Abstraction"
-        Artist4: "The Artist 4"
-        Unplug9: "Relay Programming"
-        Farmer3: "The Farmer 3"
-        Unplug10: "The Internet"
-        Artist5: "The Artist 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug1: "Giới thiệu tới công nghệ thông tin"
+        Maze: "Mê cung"
+        Unplug2: "suy nghĩ máy móc"
+        Unplug3: "lập trình đồ thị trên giấy"
+        Artist: "nghệ sĩ"
+        Unplug4: "các bước lập trình"
+        Artist2: "Nghệ sĩ 2"
+        Unplug5: "chức năng"
+        Farmer: "người nông dân"
+        Unplug6: "điều kiện"
+        Artist3: "nghệ sĩ 3"
+        Unplug7: "Viết nhạc"
+        Farmer2: "Người nông dân 2"
+        Unplug8: "Trừu tượng"
+        Artist4: "nghệ sĩ 4"
+        Unplug9: "Chương trình chuyển tiếp"
+        Farmer3: "người nông dân 3"
+        Unplug10: "Internet"
+        Artist5: "Nghệ sĩ 5"
+        Unplug11: "Gói gọn"
+        MazeEC: "mê cung"
     trophy:
       name:
         Bronze: "Đồng"
@@ -49,24 +60,24 @@
         Gold: "Vàng"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
+        sequence: "chuỗi"
+        if: 'khối lệnh "nếu"'
+        if_else: 'khối lệnh "nếu-ngoài ra"'
+        loop_times: 'khối lệnh "lập lại số lần"'
+        loop_until: 'khối lệnh "lặp lại-đến khi"'
+        loop_while: 'khối lệnh "khi mà"'
+        loop_for: 'khối lệnh "trái ngược"'
         function: "Hàm số"
-        parameters: "Functions with parameters"
+        parameters: "phương trình với tham số"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_2: 'Bạn có thể giúp mình bắt những con lợn nghịch ngợm ? Gắn những khối lệnh "đi tới" với nhau và bấm "chạy chương trình" để giúp mình nhé. '
+        maze_2_1: "con lợn đang làm rối lông của tui. Giúp tôi tìm nó!"
+        maze_2_2_5: "lần theo con đường và dẫn tôi tới chú heo ngốc. Nhớ tránh gói thuốc nổ hoặc trò chơi kết thúc!"
+        maze_2_3: "Hãy dẫn dắt tôi tới chỗ chú heo màu xanh lá cây! (Nhớ coi chừng thuốc nổ)"
+        maze_2_4: "Giữ bình tĩnh và giúp mình tìm những chú lợn xấu xa. Hoặc là mình giận đó!"
+        maze_2_5: "Có một cách mà tôi có thể đến chỗ heo ngốc chỉ bằng hai khối. Bạn có làm được không?"
+        maze_2_6: "Hãy đưa mình đến chỗ heo ngốc chỉ trong ba khối."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'

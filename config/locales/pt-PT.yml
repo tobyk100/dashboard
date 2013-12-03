@@ -197,9 +197,9 @@
     recent_activity: "Atividade recente"
     show_more: "Mostrar mais"
   home:
-    signin_message: "ou se já estás registado % {link}"
-    student_reg_link: "Alunos - comecem aqui"
-    teacher_reg_link: "Professores - comece aqui"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Consulte o painel de controlo do progresso"
     teacher_student_count: "Tem alunos %{count}."
     teacher_averages: 'Em média os seus alunos ganharam %{trophy_average} de %{trophy_max} troféus "Mestria de Conceitos".'
@@ -241,3 +241,5 @@
     upgrade: "Por favor, atualiza o teu browser."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

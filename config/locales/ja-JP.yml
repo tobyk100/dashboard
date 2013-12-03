@@ -196,9 +196,9 @@
     recent_activity: "最近の活動"
     show_more: "もっと見る"
   home:
-    signin_message: "すでに登録されていましたら %{link}"
-    student_reg_link: "生徒さんわ、ここからスタートしてください"
-    teacher_reg_link: "先生わ ここからスタートしてください"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "プログレス状況わ、ダッシュ ボードを参照してください。"
     teacher_student_count: "あなたわ、%{count}の学生がいます。"
     teacher_averages: '平均であなたの学生わ %{trophy_max}のうち%{trophy_average}　"コンセプト習得"のトロフィーを獲得しています。'
@@ -240,3 +240,5 @@
     upgrade: "お使いのブラウザーをアップグレードしてください。"
   slow_loading: "通常よりも長くかかっている..."
   try_reloading: "ページを再読み込みしてみてください。"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

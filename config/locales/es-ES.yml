@@ -194,9 +194,9 @@
     recent_activity: "Actividad reciente"
     show_more: "Mostrar más"
   home:
-    signin_message: "o si ya estás registrado %{link}"
-    student_reg_link: "Alumnos - comenzar aquí"
-    teacher_reg_link: "Maestros/as - comenzar aquí"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Ver panel de progreso"
     teacher_student_count: "Tienes %{count} estudiantes."
     teacher_averages: 'Un promedio de tus estudiantes han ganado %{trophy_average} de %{trophy_max} trofeos "Dominio del Concepto" .'
@@ -238,3 +238,5 @@
     upgrade: "Por favor actualiza su navegador."
   slow_loading: "Esto está tardando más tiempo de lo habitual..."
   try_reloading: "Intente recargar la página"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

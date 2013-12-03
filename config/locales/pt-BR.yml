@@ -194,9 +194,9 @@
     recent_activity: "Atividade recente"
     show_more: "Mostrar mais"
   home:
-    signin_message: "ou se já está registado %{link}"
-    student_reg_link: "Alunos - comece aqui"
-    teacher_reg_link: "Professores - comece aqui"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Consulte o painel de controle do progresso"
     teacher_student_count: "Você tem %{count} alunos."
     teacher_averages: 'Em média os seus alunos ganharam %{trophy_average} de %{trophy_max} em troféus de "Conceito de Maestria".'
@@ -238,3 +238,5 @@
     upgrade: "Por favor, atualize seu navegador."
   slow_loading: "Isto está levando mais tempo do que o habitual..."
   try_reloading: "Tente recarregar a página"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

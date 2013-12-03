@@ -195,9 +195,9 @@
     recent_activity: "آخر النشاطات"
     show_more: "إظهار المزيد"
   home:
-    signin_message: "أو إذا كنت مسجلا مسبقا %{link}"
-    student_reg_link: "الطلاب - أبدأ من هنا"
-    teacher_reg_link: "المعلمين - أبدأ من هنا"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "انظر على لوحة معلومات التقدم"
     teacher_student_count: "لديك %{count} طلاب."
     teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
@@ -239,3 +239,5 @@
     upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."
   slow_loading: "هذا اخذ وقتا اطول من المعتاد..."
   try_reloading: "حاول اعادة تحميل الصفحة"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

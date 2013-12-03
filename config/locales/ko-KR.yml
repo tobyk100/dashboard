@@ -24,10 +24,10 @@
   trophies: "트로피"
   courses: "학습 코스"
   of: "중"
-  more: "전체보기"
-  less: "현재보기"
+  more: "전체단계"
+  less: "현재단계"
   try_hoc: "Hour of Code 해보기! >> "
-  try_k8intro: "또는, K-8유치원~중2(K-8) 학생들을 위한 컴퓨터과학(Computer Science, 정보과학) 코스(15-25시간)"
+  try_k8intro: "또는, 유치원~중2(K-8) 학생들을 위한 컴퓨터과학(CS, 정보과학) 코스(15-25시간)"
   already_started: "학습 계속하기 >>"
   demos: "관리자: 모든 퍼즐"
   continue: "계속하기"
@@ -37,7 +37,7 @@
     sign_in_with: "%{provider} 계정으로 로그인"
     signed_in: "로그인 되었습니다!"
     already_signedup: "이미 가입했나요?"
-    notyet_signedup: "아직 가입하지 않았나요?"
+    notyet_signedup: "가입하시겠습니까?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
@@ -48,7 +48,7 @@
   signup_form:
     teacher_pitch: "컴퓨터과학(Computer Science, 정보과학)의 내용을, 유치원~중2(K-8) 학생들과 함께 하세요"
     teacher_title: "선생님으로 등록하기"
-    student_pitch: "Beyond 1 hour:  유치원~중2(K-8) 학생용, 컴퓨터과학(Computer Science, 정보과학) 코스 해보기"
+    student_pitch: "Beyond 1 hour:  컴퓨터과학(Computer Science, 정보과학) 기초개념학습 코스 더 해보기"
     student_title: "가입하기"
     school_name: "학교 이름 (옵션)"
     school_address: "학교 주소 (옵션)"
@@ -82,7 +82,7 @@
   welcome_email:
     subject: "내 학급 가기(on Code.org)"
     body: |
-      Code.org 의 컴퓨터과학(Computer Science, 정보과학) 기초 안내 과정에 가입하려면, 아래 링크를 누르세요.(선생님을 등록하세요)
+      Code.org 의 컴퓨터과학(Computer Science, 정보과학) 기초개념학습 코스에 가입하려면, 아래 링크를 누르세요.(선생님을 등록하세요)
       
       %{link}
       
@@ -146,11 +146,11 @@
     destroy: "삭제"
     back: "뒤로"
     confirm: "확실한가요?"
-    created: "%{model} 가 성공적으로 만들어졌습니다."
-    updated: "%{model} 가 성공적으로 업데이트 되었습니다."
+    created: "%{model} 가 만들어졌습니다."
+    updated: "%{model} 가 수정 되었습니다."
   nav:
     header:
-      finished_hoc: "Hour of Code 를 끝냈습니다"
+      finished_hoc: "Hour of Code 완료"
       sign_in_to_save: "로그인(저장하기)"
     user:
       classroom: "내 학생"
@@ -158,7 +158,7 @@
       stats: "나의 진도"
       settings: "내 계정"
       prizes: "상품"
-      logout: "로그 아웃"
+      logout: "로그아웃"
       signin: "로그인"
       signup: "가입 신청"
     popup:
@@ -194,9 +194,9 @@
     recent_activity: "최근 활동"
     show_more: "자세히"
   home:
-    signin_message: "또는, %{link} 로 이미 등록되어있다면,"
-    student_reg_link: "학생으로 시작하기"
-    teacher_reg_link: "선생님으로 시작하기"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "학습 현황"
     teacher_student_count: "나의 학생들은 %{count} 명 입니다."
     teacher_averages: '나의 학생들은, 평균 %{trophy_average} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
@@ -213,11 +213,11 @@
     female: "여"
     none: "응답 안 함"
   footer:
-    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>의 소프트웨어 엔지니어들이, 이 기초개념학습 과정을 만드는데 도움을 주었습니다.'
+    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>의 소프트웨어 엔지니어들이 기초개념학습 과정을 만드는데 도움을 주었습니다.'
     art_from_html: '<a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a> 의 이미지들이 사용 되었습니다.'
     feedback: "피드백 남기기"
-    translate: "다른 언어 번역로 번역하기"
-    tos: "사이트 정책"
+    translate: "다른 언어로 번역"
+    tos: "서비스 약관"
     privacy: "개인정보보호 정책"
   prize_mail:
     prize_earned:
@@ -238,3 +238,5 @@
     upgrade: "웹 브라우져를 업그레이드 하세요."
   slow_loading: "연결이 느립니다."
   try_reloading: "페이지를 새로고침 해보세요"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

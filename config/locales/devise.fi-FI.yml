@@ -1,29 +1,29 @@
 "fi":
   devise:
     confirmations:
-      confirmed: "Your account was successfully confirmed. You are now signed in."
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      confirmed: "Tilisi on nyt luotu ja olet kirjautunut sisään."
+      send_instructions: "Saat kohta sähköpostiviestin, jossa on ohjeet tilisi vahvistamiseksi."
+      send_paranoid_instructions: "Jos sähköpostiosoitteesi löytyy tietokannastamme, saat kohta sähköpostiviestin, jossa on ohjeet tilisi vahvistamiseksi."
     failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account was not activated yet."
+      already_authenticated: "Jos olet jo kirjautunut sisään."
+      inactive: "Tiliäsi ei ole vielä aktivoitu."
       invalid: "Virheellinen sähköpostiosoite tai salasana."
-      invalid_token: "Invalid authentication token."
+      invalid_token: "Väärä tunnistusavain."
       locked: "Tilisi on lukittu."
       not_found_in_database: "Virheellinen sähköpostiosoite tai salasana."
       timeout: "Istunto on vanhentunut, kirjaudu uudelleen jatkaaksesi."
       unauthenticated: "Sinun täytyy kirjautua sisään tai rekisteröityä ennen jatkamista."
-      unconfirmed: "You have to confirm your account before continuing."
+      unconfirmed: "Sinun tulee vahvistaa tunnuksesi ennen kuin voit jatkaa."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Vahvistusohjeet"
       reset_password_instructions:
         subject: "Salasanan palautusohjeet"
       unlock_instructions:
-        subject: "Unlock Instructions"
+        subject: "Avausohjeet"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: '%{kind} tunnistus epäonnistui, koska "%{reason}".'
+      success: "%{kind} tunnistus onnistui."
     passwords:
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."

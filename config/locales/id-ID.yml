@@ -192,9 +192,9 @@
     recent_activity: "Aktivitas terakhir"
     show_more: "Tunjukkan lebih banyak"
   home:
-    signin_message: "atau jika anda sudah terdaftar %{link}"
-    student_reg_link: "Siswa - mulailah disini"
-    teacher_reg_link: "Guru - mulailah disini"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Lihat kemajuan di dasbor"
     teacher_student_count: "Anda memiliki  %{count} siswa."
     teacher_averages: 'Rata-rata siswa anda telah mendapatkan %{trophy_average} dari %{trophy_max} piala "Penguasaan konsep".'
@@ -236,3 +236,5 @@
     upgrade: "Silakan upgrade browser Anda."
   slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
   try_reloading: "Coba tampilkan halaman lagi"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

@@ -11,7 +11,7 @@
       invalid_token: "인증 코드가 틀립니다."
       locked: "계정이 잠겼습니다."
       not_found_in_database: "이메일 또는 비밀번호가 다릅니다."
-      timeout: "접속이 풀렸습니다. 다시 로그인 하세요."
+      timeout: "접속이 해제 되었습니다. 다시 로그인 하세요."
       unauthenticated: "로그인 하거나, 가입하세요."
       unconfirmed: "계정이 인증되어야 합니다."
     mailer:
@@ -40,7 +40,7 @@
       updated: "계정 정보가 수정되었습니다."
     sessions:
       signed_in: "로그인 되었습니다."
-      signed_out: "로그아웃 됨."
+      signed_out: "로그아웃 되었습니다."
     unlocks:
       send_instructions: "계정 잠김 해제 메일이 전송되었습니다."
       send_paranoid_instructions: "계정이 있는 경우, 계정 잠김 해제 메일이 전송됩니다."

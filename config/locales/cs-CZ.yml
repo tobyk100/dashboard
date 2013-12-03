@@ -194,9 +194,9 @@
     recent_activity: "Nedávná aktivita"
     show_more: "Zobrazit více"
   home:
-    signin_message: "nebo pokud jsi již registrován %{link}"
-    student_reg_link: "Studenti - začněte zde"
-    teacher_reg_link: "Učitelé - začněte zde"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Zobrazit tabulku pokroku"
     teacher_student_count: "Máš %{count} studentů."
     teacher_averages: 'V průměru tví studenti získali %{trophy_average} z %{trophy_max} trofejí "Koncepce Zvládnutí".'
@@ -238,3 +238,5 @@
     upgrade: "Aktualizuj si svůj prohlížeč."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

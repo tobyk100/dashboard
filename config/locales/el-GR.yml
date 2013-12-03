@@ -194,9 +194,9 @@
     recent_activity: "Πρόσφατη δραστηριότητα"
     show_more: "Περισσότερα"
   home:
-    signin_message: "ή εάν είσαι ήδη εγγεγραμμένος %{link}"
-    student_reg_link: "Μαθητές - Ξεκίνα από εδώ"
-    teacher_reg_link: "Δάσκαλοι - Ξεκίνα από εδώ"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Προβολη σύνοψης προόδου"
     teacher_student_count: "Εχεις %{count} μαθητές."
     teacher_averages: 'Οι μαθητές σου έχουν κερδίσει κατά μέσο όρο %{trophy_average} από %{trophy_max} βραβεία "Μαεστρίας".'
@@ -238,3 +238,5 @@
     upgrade: "Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας."
   slow_loading: "Αυτό διαρκεί περισσότερο από ότι συνήθως..."
   try_reloading: "Δοκίμασε να φορτώσεις ξανά τη σελίδα"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

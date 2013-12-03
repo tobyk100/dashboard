@@ -194,9 +194,9 @@
     recent_activity: "Activitate recentă"
     show_more: "Arată mai multe"
   home:
-    signin_message: "sau dacă ești deja înregistrat %{link}"
-    student_reg_link: "Elevi - începeți aici"
-    teacher_reg_link: "Profesori - începeţi aici"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Vezi grila de progres"
     teacher_student_count: "Ai %{count} elevi."
     teacher_averages: 'În medie, elevii tăi au câștigat %{trophy_average} din cele %{trophy_max} trofee de "Concept de Măestrie"'
@@ -238,3 +238,5 @@
     upgrade: "Te rugăm să-ți actualizezi browser-ul."
   slow_loading: "Aceasta durează mai mult decât de obicei..."
   try_reloading: "Încearcă să reîncarci pagina"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

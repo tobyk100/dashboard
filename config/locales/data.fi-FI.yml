@@ -4,15 +4,26 @@
       name:
         20-hour:
           desc: "Ala-asteen johdanto tietojenkäsittelyyn"
-          Maze: "Vaihe 1"
-          Artist: "Vaihe 2"
-          Artist2: "Vaihe 3"
-          Farmer: "Vaihe 4"
-          Artist3: "Vaihe 5"
-          Farmer2: "Vaihe 6"
-          Artist4: "Vaihe 7"
-          Farmer3: "Vaihe 8"
-          Artist5: "9. Etapin"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
           desc: "Kooditunti"
           Maze: "Vaihe 1"
@@ -66,23 +77,23 @@
         maze_2_3: "Auta minut vihreän ilkiön luo! (Varo TNT:tä)"
         maze_2_4: "Ihan rauhallisena nyt. Auta minut pahan possun luo, muuten suutun!"
         maze_2_5: "Löytyy ainakin yksi tapa, jolla pääsen possun luo vain kahta lohkoa käyttäen. Keksitkö mikä se on?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
+        maze_2_6: "Yritä saada minut vihreän tunkeilijan luo käyttäen vain kolmea lohkoa."
+        maze_2_7: 'Auta minua hävittämään tämä paha possu käyttäen pienintä määrää lohkoja. Yritä käyttää enemmän, kuin yhtä "toista" lohkoa.'
+        maze_2_8: 'Ratkaistaksesi tämän thetävän, käytä "toista" lohkoa, jossa on sisällä nämä 3 lohkoa: liiku, liiku, käänny.'
+        maze_2_9: 'Noniin, kokeile nyt uutta "toista kunnes" lohkoa - se toistaa asioita niin kauan, kunnes saavutan tuon ärsyttävän possun.'
+        maze_2_10: "Noniin, viimeinen harjoitus - pystytkö ratkaisemaan tämän tehtävän käyttäen vain neljää lohkoa?"
+        maze_2_11: "Hyvä henkilö. Minä zombi. Minä nälkä. Pakko... saada... auringonkukka... Saatko minut sinne käyttäen vain viittä lohkoa?"
+        maze_2_12: "OK, tämä on samankaltainen, mutta hieman erilainen. Pärjäätkö viidellä lohkolla?"
+        maze_2_13: 'Käytä uutta "jos" lohkoa päättämään, milloin käännyn. Vihje: tarvitset vain yhtä toista lohkoa, mutta opettele nyt miten me teimme sen, jotta osaat itse seuraavalla kerralla.'
+        maze_2_14: 'Hyvä! Tämä on ihan kuin edellinen pulma, mutta nyt sinun pitää itse muistaa, miten "jos" lohkoa ja "toista" lohkoa käytettiin yhdessä.'
+        maze_2_15: 'Tahtoo auringonkukan! Käytä "jos" lohkoa viedäksesi minut sinne käyttäen mahdollisimman pientä määrää lohkoja.'
+        maze_2_16: "Harjoitellaanpa samaa uudestaan - tämä ei kyllä ole kovin vaikea, mutta varo ahmijoita!"
+        maze_2_17: '"Jos - muuten" lohko tarkistaa ehtolausekkeen ja sitten tekee yhden TAI toisen asian. Viedäksesi minut auringonkukan luo, kokeile käyttää tätä uutta lohkoa.'
+        maze_2_18: 'Vielä yksi harjoitus "Jos - muuten" lohkolla. Saatko sen oikein heti ensimmäisellä yrityksellä?'
+        maze_2_19: "Pystytkö lisäämään vain kolme uutta lohkoa ratkaistaksesi tämän monimutkaisemman sokkelon? Jos teet sen oikein, pystyn kulkemaan kiemurtelevan polun riippumatta sen pituudesta."
+        turtle_1_1: "Hei, olen taiteilija. Voit kirjoittaa koodia, joka saa minut piirtämään melkein mitä tahansa. Käytä muutamaa lohkoa saadaksesi minut piirtämään kuvan harmaiden viivojen yli."
+        turtle_1_2: 'Nyt piirrä neliö. HUOM: käytä lempiväriäsi valitsemalla "aseta väri" lohko.'
+        turtle_1_3: "Tee neliö käyttäen vain kolme lohkoa."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."

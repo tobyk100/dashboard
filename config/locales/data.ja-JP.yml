@@ -4,15 +4,26 @@
       name:
         20-hour:
           desc: "K-8(アメリカでの中学校）ではコンピューターサイエンスコースが紹介されている。"
-          Maze: "ステージ 1"
-          Artist: "ステージ 2"
-          Artist2: "ステージ 3"
-          Farmer: "ステージ 4"
-          Artist3: "ステージ 5"
-          Farmer2: "ステージ 6"
-          Artist4: "ステージ７"
-          Farmer3: "ステージ８"
-          Artist5: "ステージ 9"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
           desc: "コードの時間(Hour of code)"
           Maze: "ステージ 1"
@@ -38,7 +49,7 @@
         Farmer2: "農民 2"
         Unplug8: "抽象化"
         Artist4: "アーティスト 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "プログラミングをリレーします。"
         Farmer3: "農民 3"
         Unplug10: "インターネット"
         Artist5: "アーティスト 5"
@@ -66,20 +77,22 @@
         parameters: "パラメーターを持つ関数"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: "いたずら豚を捕まえてくれますか？「進む」のブロックをまとめていくつかを積み上げ、そして「プログラムの実行」のキーを押して私が豚を捕まえられるよう助けてください。"
+        maze_2_1: "この豚は私の羽をしわくちゃにします。私が彼を見つけられるよう助けて ！"
+        maze_2_2_5: "パスをトレースして、おばかなブタのところへ案内してください。TNT を避けないと、羽が飛びます ！"
+        maze_2_3: "緑の悪る者に私を案内して ！(TNT に気を付けてね)"
+        maze_2_4: "落ち着いて、そして悪いブタを見つけるのを助けてください。でないと私は怒るかもよ！"
+        maze_2_5: "ブロックを２つだけ使って、みどりのブタへたどり着ける方法があります。どうやるか解けますか？"
+        maze_2_6: "ブロックを３つだけ使って私を緑の侵入者のところへ行かせてください。"
+        maze_2_7: "一番少ない数のブロックを使ってこの悪いブタを追放するのを手伝ってください。1 つ以上の「繰り返し」ブロックを使用してください。"
         maze_2_8: "次の３つのブロック： 移動、移動、曲がるを中に入れた「繰り返し」ブロックでこの問題を解決してください。"
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
+        maze_2_9: "Ok, 新しい「まで繰り返し(Repeat until)」ブロックを試してください。私がムカつくブタに着くまで繰り返されます。"
+        maze_2_10: "Ok、では 最後の１つになった練習です - これを 4 ブロックをだけ使って解決できますか？"
+        maze_2_11: "親愛なる人。私ゾンビ。私は空腹。。。ヒマワリを取らないといけない。5つの ブロックだけで私をそこまで連れて行ける事ができますか？"
+        maze_2_12: "Ok、 これは似ていますが、ちょっと違います。5つの ブロックだけでできますか？"
+        maze_2_13: |
+          新しい"if"ブロックを使っていつ曲がるかを私に決めさせてください。ヒント: あともう１つのブロックが必要です、でも私たちがどう設定しているかを学んでください、そうしたら次回はあなたができるようになります。
+          
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
         maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
         maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"

@@ -192,9 +192,9 @@
     recent_activity: "فعالیت اخیر"
     show_more: "نمایش بیشتر"
   home:
-    signin_message: "و یا اگر قبلا ثبت نام کرده اید %{link}"
-    student_reg_link: "دانش آموزان - از اینجا آغاز کنید"
-    teacher_reg_link: "معلمین - از اینجا آغاز کنید"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "مشاهده داشبورد پیشرفت"
     teacher_student_count: "شما %{count} دانش آموز دارید."
     teacher_averages: "به طور متوسط دانش آموزان شما %{trophy_average} گنج از مجموع %{trophy_max} گنج «تسلط بر مفهوم» را جمع کرده اند."
@@ -236,3 +236,5 @@
     upgrade: "لطفا مرورگر خود را ارتقا دهید."
   slow_loading: "این طولانی تر از معمول طول میکشد..."
   try_reloading: "درخواست مجدد نمایش صفحه"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

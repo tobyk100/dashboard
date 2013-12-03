@@ -92,9 +92,9 @@
   follower:
     invite_sent: "Invite sent"
     added_teacher: "%{name} added as your teacher"
-    registered: "You've registered for %{section_name}. Please sign in to continue"
+    registered: "你已經註冊了 %{section_name}。請登錄以繼續"
     error:
-      signed_in: "Please signout before proceeding"
+      signed_in: "請在繼續之前登出"
       username_not_found: "Username %{username} not found"
       username_in_use: "%{username} is already taken, please pick another"
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
@@ -182,7 +182,7 @@
     activity: "Recent class activity"
   user:
     new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    current_password_hint: "（我們需要您現在的密碼以確認您的更改）"
     cancel:
       title: "Cancel my account"
       hint: "Unhappy?"
@@ -194,9 +194,9 @@
     recent_activity: "Recent activity"
     show_more: "Show more"
   home:
-    signin_message: "or if you're already registered %{link}"
-    student_reg_link: "Students - start here"
-    teacher_reg_link: "Teachers - start here"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "See progress dashboard"
     teacher_student_count: "You have %{count} students."
     teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
@@ -239,3 +239,5 @@
     upgrade: "請升級您的瀏覽器。"
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

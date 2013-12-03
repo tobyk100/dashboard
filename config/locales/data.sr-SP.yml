@@ -4,15 +4,26 @@
       name:
         20-hour:
           desc: "K-8 увод у курс Компјутерских Наука"
-          Maze: "Фаза 1"
-          Artist: "Фаза 2"
-          Artist2: "Фаза 3"
-          Farmer: "Фаза 4"
-          Artist3: "Фаза 5"
-          Farmer2: "Фаза 6"
-          Artist4: "Фаза 7"
-          Farmer3: "Фаза 8"
-          Artist5: "Фаза 9"
+          Unplug1: "Stage 1"
+          Maze: "Stage 2"
+          Unplug2: "Stage 3"
+          Unplug3: "Stage 4"
+          Artist: "Stage 5"
+          Unplug4: "Stage 6"
+          Artist2: "Stage 7"
+          Unplug5: "Stage 8"
+          Farmer: "Stage 9"
+          Unplug6: "Stage 10"
+          Artist3: "Stage 11"
+          Unplug7: "Stage 12"
+          Farmer2: "Stage 13"
+          Unplug8: "Stage 14"
+          Artist4: "Stage 15"
+          Unplug9: "Stage 16"
+          Farmer3: "Stage 17"
+          Unplug10: "Stage 18"
+          Artist5: "Stage 19"
+          Unplug11: "Stage 20"
         Hour of Code:
           desc: "Час Кодирања"
           Maze: "Фаза 1"
@@ -69,14 +80,14 @@
         maze_2_6: "Покушај да ме доведеш до зеленог уљеза користећи само три блока."
         maze_2_7: 'Помози ми да протерам ово неваљало прасе користећи што мањи број блокова. Покушај да искористиш више од једног "Понављај пута" блока.'
         maze_2_8: 'Како бих сте решили овај, покушајте са "repeat" блоком са ова три блока унутар нјега: move, move, turn.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'Уреду, пробај нови "repeat until - (Понављај док)" блок - понавља ће блок док ја стигнем до досадног прасета.'
         maze_2_10: "Ок, последнји пут ради увежбавања - можете ли да решите ово користећи само 4 блока?"
         maze_2_11: "Драга особо. Ја зомби. Ја гладан. Морам... доћи... до сунцокрета... Можете ли ме довести до њега са само 5 блокова?"
         maze_2_12: "Уреду, ово је слично, али мало другачије. Можете ли урадити то са само 5 блокова?"
         maze_2_13: 'Користите нови "if" блок како бих мога да одредим када да скренем. Помоћ: Потребан вам је само још један блок, али научите тако како смо га ми подесили да бисте ви могли да га урадите следећи пут сами.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
+        maze_2_14: 'Уреду, ово је слично последњој загонетци, али мораш да запамтиш како си користио "if" блок и "repeat" блок заједно.'
+        maze_2_15: 'Ја желим сунцокрет! користи "if" блок да ме доведеш до њега са што мањим бројем блокова.'
+        maze_2_16: "Уреду, хајде да то урадимо још једном ради вежбе - ово није много другачије, али пази се чомпера (Опасна Биљка)"
         maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
         maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
         maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."

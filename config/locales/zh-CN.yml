@@ -191,9 +191,9 @@
     recent_activity: "最近的动态"
     show_more: "显示更多"
   home:
-    signin_message: "或者如果你已经注册了 %{link}"
-    student_reg_link: "学生-从这里开始"
-    teacher_reg_link: "教师-从这里开始"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "看进度板"
     teacher_student_count: "你有 %{count} 个学生。"
     teacher_averages: "平均下来，您的学生获得了%{trophy_average}/%{trophy_max}个“概念掌握”奖杯。"
@@ -235,3 +235,5 @@
     upgrade: "请升级你的浏览器。"
   slow_loading: "请稍微多等一会..."
   try_reloading: "请重新刷新页面"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

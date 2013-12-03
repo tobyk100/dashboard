@@ -194,9 +194,9 @@
     recent_activity: "Недавна активност"
     show_more: "Покажи још"
   home:
-    signin_message: "или ако сте већ регистрирани %{link}"
-    student_reg_link: "Студенти - почните овде"
-    teacher_reg_link: "Учителји почните овде"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Видјети плочу напретка"
     teacher_student_count: "Ви имате %{count} студената."
     teacher_averages: 'У просјеку су ваши студенти зарадили %{trophy_average} од %{trophy_max} "Concept Mastery" трофеја.'
@@ -238,3 +238,5 @@
     upgrade: "Молимо набавите савременији претраживаћ."
   slow_loading: "Ово траје дуже него што је уобичајено ..."
   try_reloading: "Покушајте са поновним покретањем странице"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

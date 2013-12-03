@@ -196,9 +196,9 @@
     recent_activity: "Senaste händelserna"
     show_more: "Visa mer"
   home:
-    signin_message: "eller om du redan är registrerad %{link}"
-    student_reg_link: "Elever - börja här"
-    teacher_reg_link: "Lärare - börja här"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Se framstegs-menyn"
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'Eleverna har i genomsnitt samlat %{trophy_average} av %{trophy_max} "Koncept-bemästring" troféer.'
@@ -240,3 +240,5 @@
     upgrade: "Du måste uppgradera din webbläsare."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

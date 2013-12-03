@@ -194,9 +194,9 @@
     recent_activity: "Letzte Aktivität"
     show_more: "Erweiterte Ansicht"
   home:
-    signin_message: "oder wenn Sie bereits registriert sind %{link}"
-    student_reg_link: "Studenten - hier starten"
-    teacher_reg_link: "Lehrer - hier starten"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Fortschrittsanzeige einsehen"
     teacher_student_count: "Sie haben %{count} Studenten."
     teacher_averages: 'Im Durchschnitt haben Ihre Schüler %{trophy_average} von %{trophy_max} "Concept Mastery" Trophäen erreicht.'
@@ -238,3 +238,5 @@
     upgrade: "Bitte aktualisieren Sie Ihren Browser."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

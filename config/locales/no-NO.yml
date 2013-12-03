@@ -194,9 +194,9 @@
     recent_activity: "Nylig aktivitet"
     show_more: "Vis mer"
   home:
-    signin_message: "eller hvis du allerede er registrert %{link}"
-    student_reg_link: "Elever - start her"
-    teacher_reg_link: "Lærere - start her"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Se fremdriftsoversikt"
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'I gjennomsnitt har dine elever fått %{trophy_average} av totalt %{trophy_max}  pokaler for "Konseptmestring".'
@@ -238,3 +238,5 @@
     upgrade: "Vennligst oppgrader din nettleser."
   slow_loading: "Dette tar lengre tid enn vanlig..."
   try_reloading: "Last siden på nytt"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

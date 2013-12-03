@@ -191,9 +191,9 @@
     recent_activity: "Son etkinlik"
     show_more: "Daha fazla göster"
   home:
-    signin_message: "veya zaten kayıtlıysanız %{link}"
-    student_reg_link: "Öğrenciler - buradan başlayın"
-    teacher_reg_link: "Öğretmenler - buradan başlayın"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "İlerleme kontrol paneli bakın"
     teacher_student_count: "%{count} öğrenciye sahipsiniz."
     teacher_averages: 'Öğrencileriniz "Kavram Ustalığı" kupalarından ortalama olarak %{trophy_max} kupadan %{trophy_average} kupayı kazanmıştır.'
@@ -237,3 +237,5 @@
     upgrade: "Lütfen tarayıcınızı yükseltin."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"

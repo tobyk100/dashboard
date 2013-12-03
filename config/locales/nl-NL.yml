@@ -194,9 +194,9 @@
     recent_activity: "Recente activiteiten"
     show_more: "Toon meer"
   home:
-    signin_message: "of als je al geregistreerd bent %{link}"
-    student_reg_link: "Studenten - start hier"
-    teacher_reg_link: "Leraren - start hier"
+    signin_message: "Or if you're already registered, %{link}"
+    student_reg_link: "Student"
+    teacher_reg_link: "Teacher"
     teacher_dashboard: "Ga naar voorgangsoverzicht"
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
@@ -238,3 +238,5 @@
     upgrade: "Upgrade je browser."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
+  next_level: "Next Level"
+  download_pdf: "Download PDF"
