@@ -57,7 +57,11 @@ class ApplicationController < ActionController::Base
         end
         # Get the wrap up video
         video = script_level.script.wrapup_video
-        response[:video_info] =  video_info(video)[:redirect] = redirect if video
+        if video
+          video_info_response = video_info(video)
+          video_info_response[:redirect] = redirect
+          response[:video_info] = video_info_response
+        end
         response[:message] = 'no more levels'
       end
       # Get the next_level setup
