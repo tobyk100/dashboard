@@ -6,10 +6,12 @@ module ReplaceFreegeoipHostModule
     base.class_eval do
     
       def query_url(query)
-        "#{protocol}://#{" + config.geocoder_server + "}/json/#{query.sanitized_text}"
+        "#{protocol}://#{Dashboard::Application::config.geocoder_server}/json/#{query.sanitized_text}"
       end
       
     end
   end
 
 end
+
+Geocoder::Lookup::Freegeoip.send(:include,ReplaceFreegeoipHostModule)
