@@ -2,9 +2,33 @@
 
 .row
   .span12
-    -#%h2= t('signup_form.pitch')
-    -#= image_tag 'signup_header.png'
-    %h2= t('signup_form.title')
+    %h1= resource.student? ? t('signup_form.student_pitch') : t('signup_form.teacher_pitch')
+    = image_tag 'signup_header.jpg'
+    %br/
+    %br/
+    - if resource.student?
+      This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages.
+
+      %h4 Don't want to sign up?
+      You can #{link_to "browse the various stages and puzzles", "http://learn.code.org"}, but you will need to sign up to save your progress.
+
+      %h4 The first students to complete the course win prizes! (U.S. students only)
+      U.S. students who earn all #{Trophy::TROPHY_MAX} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve.
+      %br/
+      %br/
+      = render partial: 'shared/student_prize_mini_grid'
+      %br/
+      %br/
+
+      %h2= t('signup_form.student_title')
+    - else
+      This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages.
+      = link_to 'See educator guide', 'http://code.org/educate/20hr'
+
+      %h4 Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards
+      In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.
+
+      %h2= t('signup_form.teacher_title')
 
 .row
   .span8
@@ -52,7 +76,9 @@
           = f.text_field(:birthday, id: "user_birthday", placeholder: t('signup_form.birthday'))
 
       = f.submit t('signup_form.submit'), class: "btn btn-primary"
-
+      %br/
+      %br/
+      = resource.student? ? t('signup_form.student_terms') : t('signup_form.teacher_terms')
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
       - if !resource.teacher?
