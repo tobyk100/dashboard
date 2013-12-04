@@ -13,3 +13,6 @@
   = render partial: "levels/unplug", locals: { app: @game.app }
 - else
   = render partial: "levels/blockly", locals: { app: @game.app }
+
+-# special tracking image to make sure a cookie is set when hoc starts (/hoc/1)
+= image_tag('http://code.org/api/hour/begin_codeorg.png') if request.path == hoc_chapter_path(chapter: 1)
