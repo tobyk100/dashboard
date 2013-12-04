@@ -183,15 +183,17 @@ class ActivitiesController < ApplicationController
     trophy_updates
   end
 
+  def eligible_for_prize?
+    # check IP for US users only (ideally, we'd check if the teacher is in the US for teacher prizes)
+    request.location.country_code == 'US'
+  end
+
   def prize_check(user)
     if user.trophy_count == (Concept.cached.length * Trophy::TROPHIES_PER_CONCEPT)
       if !user.prize_earned
         user.prize_earned = true
         user.save!
-        # send e-mail for US users only
-        if request.location.country_code == 'US'
-          PrizeMailer.prize_earned(user).deliver if user.email.present?
-        end
+        PrizeMailer.prize_earned(user).deliver if user.email.present? && eligible_for_prize?
       end
 
       # for awarding prizes, we only honor the first (primary) teacher
@@ -202,19 +204,14 @@ class ActivitiesController < ApplicationController
         if t_prize && !teacher.teacher_prize_earned
           teacher.teacher_prize_earned = true
           teacher.save!
-          # send e-mail for US users only (ideally, we'd check if the teacher is in the US)
-          if request.location.country_code == 'US'
-            PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present?
+          PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present? && eligible_for_prize?
           end
         end
 
         if t_bonus && !teacher.teacher_bonus_prize_earned
           teacher.teacher_bonus_prize_earned = true
           teacher.save!
-          # send e-mail for US users only (ideally, we'd check if the teacher is in the US)
-          if request.location.country_code == 'US'
-            PrizeMailer.teacher_bonus_prize_earned(teacher).deliver if teacher.email.present?
-          end
+          PrizeMailer.teacher_bonus_prize_earned(teacher).deliver if teacher.email.present? && eligible_for_prize?
         end
       end
     end
