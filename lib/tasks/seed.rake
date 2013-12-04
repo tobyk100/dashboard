@@ -211,5 +211,23 @@ namespace :seed do
     import_prize_from_text(args[:file], 10, ",")
   end
 
+  task :import_donorschoose_750, [:file] => :environment do |t, args|
+    Rails.logger.info "Importing teacher prize codes from: " + args[:file] + " for provider id 8"
+    CSV.read(args[:file], { col_sep: ",", headers: true }).each do |row|
+      if row['Gift Code'].present?
+        TeacherPrize.create!(prize_provider_id: 8, code: row['Gift Code'])
+      end
+    end
+  end
+
+  task :import_donorschoose_250, [:file] => :environment do |t, args|
+    Rails.logger.info "Importing teacher bonus prize codes from: " + args[:file] + " for provider id 9"
+    CSV.read(args[:file], { col_sep: ",", headers: true }).each do |row|
+      if row['Gift Code'].present?
+        TeacherBonusPrize.create!(prize_provider_id: 9, code: row['Gift Code'])
+      end
+    end
+  end
+
   task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies, :prize_providers]
 end
