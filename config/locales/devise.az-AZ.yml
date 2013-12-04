@@ -25,7 +25,7 @@
       failure: 'Sizi %{kind} -dən "%{reason}" -ə görə təsdiqləyə bilmədik.'
       success: "%{kind} hesabından müvəffəqiyyətlə təsdiq edildi."
     passwords:
-      no_token: "Bu səhifəyə yalnız parol yeniləmə e-məktubundan gələ bilərsiniz. Əgər siz parol yeniləmə e-məktubundan gəlirsinizsə, xahiş edirik verilmiş tam URL-i istifadə etdiyinizdən əmin olasınız."
+      no_token: "Bu səhifəyə yalnız parol yeniləmə e-məktubundan gələ bilərsiniz. Əgər siz parol yeniləmə e-məktubundan gəlirsinizsə, lütfən əmin olun ki, verilmiş tam URL-ünvandan istifadə etmisiniz."
       send_instructions: "Siz bir neçə dəqiqəyə parolunuzu necə yeniləməniz barədə təlimatları özündə saxlayan bir e-məktub alacaqsınız."
       send_paranoid_instructions: "Əgər sizin e-məktub ünvanınız bizim məlumatlar bazamızda varsa, bir neçə dəqiqə ərzində parol yeniləmə keçidi e-məktub ünvanınıza göndəriləcəkdir."
       updated: "Parolunuz müvəffəqiyyətlə dəyişdirildi. İndi hesabınıza daxil olubsunuz."

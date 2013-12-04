@@ -63,6 +63,8 @@
     valid_password: "رمز عبور معتبر!"
     invalid_password: "رمز عبور باید حداقل 6 حرف باشد"
     mismatch_password: "دو کلمه عبور واردشده یکی نیستند"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "ورود"
     login: "رایانامه یا نام کاربری"
@@ -106,35 +108,43 @@
     title: "آزاد کردن جوایز: %{name}"
     provider: "فراهم کننده:"
     code: "کد:"
+    redeem_header: "To redeem:"
     success: "جایزه شما با موفقیت آزاد شد، کد زیر را مشاهده کنید."
     error: "جایزه شما قابل آزاد شدن نیست, لطفا دوباره سعی کنید."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "لطفا تایید کنید"
       "no": نه
       "yes": بله
       msg: "آیا شما در مورد ادعای جایزه %{prize_name} مطمئنید؟"
       msg_student: "توجه: شما تنها می توانید یک نوع جایزه انتخاب کنید."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "شما همه دوره های آموزشی را کامل کرده اید. پس از گرفتن جایزه، کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
     msg:
       choose: "یک جایزه انتخاب کنید:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "شما یک جایزه دریافت کرده اید!"
-      not_earned: "همه %{num_trophies} گنج را جمع کنید تا یک جایزه ببرید!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 یا تعداد بیشتری دانش آموز همه %{num_trophies}  گنج را جمع آوری کرده اند. شما یک جایزه معلم را برده اید!"
-        not_earned: "اگر 10 دانش آموز همه %{num_trophies} گنج را جمع آوری کنند، شما یک جایزه خواهید گرفت!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "40 درصد یا بیشتر از دانش آموزان شما که همه %{num_trophies} گنج را جمع کرده اند، زن هستند. شما یک جایزه برده اید!"
-          not_earned: "اگر 10 یا تعداد بیشتری دانش آموز تمام %{num_trophies} گنج را جمع آوری کنند و حداقل 40 درصد از آن دانش آموزان زن باشند، شما برنده یک جایزه ویژه خواهید شد!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "%{model} جدید"
     show: "نمایش"
@@ -212,7 +222,7 @@
     none: "ترجیح می دهم چواب ندهم"
   footer:
     help_from_html: 'مهندسینی از <a href="http://www.google.com"> گوگل</a>، <a href="http://www.microsoft.com"> مایکروسافت</a>، <a href="http://www.facebook.com"> فیس بوک</a> و <a href="http://www.twitter.com"> توییتر</a> در ایجاد این آموزش کمک کرده اند.'
-    art_from_html: 'آثار هنری از  <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "ارائه پیشنهادات و انتقادات"
     translate: "کمک به ما در ترجمه به زبان شما"
     tos: "شرایط و ضوابط خدمات"
@@ -237,4 +247,4 @@
   slow_loading: "این طولانی تر از معمول طول میکشد..."
   try_reloading: "درخواست مجدد نمایش صفحه"
   next_level: "Next Level"
-  download_pdf: "Download PDF"
+  download_pdf: "Open Lesson Plan"

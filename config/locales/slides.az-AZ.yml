@@ -111,7 +111,7 @@
         text: 'Salam, mənim adım Salonidir. İnformatikadan səhiyyə və tibbdəki məsələləri həll etmək üçün istifadə edirəm. Gəlin, "əgər, əks halda" blokunu öyrənək. Bu, "əgər" blokuna oxşayır, amma axırında "əks halda" söyləyən əlavə bir hissəsi var.'
       2:
         image: "notes/hoc5_2.jpg"
-        text: 'Əgər mən "İrəli get" blokunu "et" deyilən yerə və "sola dön" blokunu "əks halda" yerə qoysam, bu zombinin 2 seçimdən birini yerinə yetirəcəyini bildirir. Əgər zombinin qarşısında yol varsa, o zaman zombi irəliləyəcəkdir, və ƏKS HALDA(qarşısında irəliləməyə yer yoxdur), zombi sola dönəcəkdir.'
+        text: 'Əgər mən "irəli get" blokunu "et" deyilən yerə və "sola dön" blokunu "əks halda" deyən yerə qoysam, bu o deməkdir ki, zombi 2 seçimdən birini edəcək. Əgər zombinin qarşısında yol varsa, o zaman zombi irəliləyəcək, ƏKS HALDA isə (qarşısında irəliləməyə yol yoxdur), zombi sola dönəcək.'
       3:
         image: "notes/hoc5_3.jpg"
         text: '"Əgər" bloku kimi, biz "təkrar et" bloklarının daxilinə "əgər əks halda" bloklarını elə qoya bilərik ki, zombi irəliləməkdə davam etsin və "əgər əks halda" bloku hərəkət etdikcə hər hansı bir yerə döngə olub olmadığını yoxlasın.'

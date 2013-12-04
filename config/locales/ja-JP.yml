@@ -63,6 +63,8 @@
     valid_password: "有効なパスワード ！"
     invalid_password: "パスワードを%d文字以上で入力してください"
     mismatch_password: "入力した 2 つのパスワードが一致しません"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "ログイン"
     login: "メールまたはユーザー名"
@@ -108,37 +110,43 @@
     title: "交換賞品： %{name}"
     provider: "プロバイダー:"
     code: "コード:"
+    redeem_header: "To redeem:"
     success: "あなたの賞金は獲得できました。下のコードを参照してください。"
     error: "あなたの賞金は償還できませんでした、もう一度やり直してください。"
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "確認してください"
       "no": いいえ
       "yes": はい
       msg: "%{prize_name} 賞金を本当に請求するもよろしいですか。"
       msg_student: "注: 賞品わ、 1 つの種類のみを選択できます。"
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "アップルの iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "ドロップボックス"
-      valve: "バルブのポータル "
-      ea_bejeweled: |
-        EA オリジン　びじゅえるど　３
-        
-      ea_fifa: "EA オリジンfifa ワールド カップ サッカー 13"
-      ea_simcity: "EAオリジン　シムシティ 4 デラックス版"
-      ea_pvz: "EA 　オリジン植物　ｖｓ　ゾンビー"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "すべてのチュートリアルを完了しました。あなたの賞品を貰ったあと、別のクラス % %{online_link} または %{local_school_link}を選択してください"
     msg:
       choose: "賞品を選択します。"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "賞品を獲得した ！"
-      not_earned: "トロフィー%{num_trophies}収集してするすべての賞品を獲得 "
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 人以上の学生が%{num_trophies} こ、全部のすべてのトロフィーを収集しました。教師賞品を獲得している ！"
-        not_earned: "もし10人の 学生が %{num_trophies}こ、すべてのトロフィーを収集すると、あなたは賞品を獲得 ！"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "%{num_trophies} のトロフィーを収集したあなたの学生のわ40 ％ 以上が女性です。ボーナス賞品を獲得した ！"
-          not_earned: "もし10 人以上の学生が ぜんぶの%{num_trophies} トロフィーを収集し、学生が少なくとも 40% は女性である場合あなたのボーナス賞品を獲得 ！"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "新しい%{model}"
     show: "表示"
@@ -216,7 +224,7 @@
     none: "答えたくないです。"
   footer:
     help_from_html: 'チュートリアルを作成わ<a href="http://www.google.com">Google</a>、<a href="http://www.microsoft.com">マイクロソフト</a>、<a href="http://www.facebook.com">Facebook</a>、<a href="http://www.twitter.com"> Twitter</a> からのエンジニアの援助で完成しました'
-    art_from_html: '<a href="http://www.angrybirds.com">怒りの鳥</a> <a href="http://www.rovio.com"> Rovio</a> と <a href="http://www.popcap.com/plants-vs-zombies"> 植物　vsゾンビ</a> <a href="http://www.popcap.com"> PopCap</a> のゲームからのアートワーク。'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "フィードバックを提供します。"
     translate: "あなたの言語に翻訳をお手伝い"
     tos: "サービス利用規約"
@@ -241,4 +249,4 @@
   slow_loading: "通常よりも長くかかっている..."
   try_reloading: "ページを再読み込みしてみてください。"
   next_level: "Next Level"
-  download_pdf: "Download PDF"
+  download_pdf: "Open Lesson Plan"

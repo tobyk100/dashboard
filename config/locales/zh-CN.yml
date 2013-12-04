@@ -32,7 +32,7 @@
   demos: "管理员： 所有演示"
   continue: "继续"
   prize: "奖品"
-  more_info: "More info"
+  more_info: "更多信息"
   auth:
     sign_in_with: "用%{provider}登录"
     signed_in: "登陆成功！"
@@ -46,10 +46,10 @@
     need_confirmation: "没有收到确认的说明吗？"
     need_unlock: "没收到解锁指令吗？"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "在你的课堂里教授 K-8 计算机基础课程"
+    teacher_title: "老师登记"
+    student_pitch: "一小时之后：试试我们的 K-8 计算机基础课程"
+    student_title: "登记"
     school_name: "学校名称 （可选）"
     school_address: "学校地址 （可选）"
     address_placeholder: "地址、 城市、 州、 邮编"
@@ -63,6 +63,8 @@
     valid_password: "有效的密码 ！"
     invalid_password: "密码必须至少为 6 个字符"
     mismatch_password: "您输入的两个密码不匹配"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "登录"
     login: "电子邮件或用户名"
@@ -105,35 +107,43 @@
     title: "奖品兑换: %{name}"
     provider: "提供者"
     code: "代码："
+    redeem_header: "To redeem:"
     success: "你的奖金已经成功兑现，请参见下面的代码。"
     error: "你的奖品无法兑现，请重新尝试。"
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "请确认"
       "no": 否
       "yes": 是
       msg: "你确定你希望领取奖品%{prize_name}吗？"
       msg_student: "注意：你只能选择一种奖品。"
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "苹果 iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "传送门"
-      ea_bejeweled: "美国艺电 Origin 宝石迷阵 3"
-      ea_fifa: "美国艺电 Origin FIFA Soccer 13"
-      ea_simcity: "美国艺电 Origin 模拟城市 4 豪华版"
-      ea_pvz: "美国艺电 Origin 植物大战僵尸"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "您已经完成了所有教程。领取全部的奖金后再挑选另外一个课程吧： %{online_link} 或 {local_school_link} %"
     msg:
       choose: "选择奖励："
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "你获得了一个奖励！"
-      not_earned: "收集所有 %{num_trophies} 奖杯，即可赢取大奖哦 ！"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 个或以上的学生集齐所有 %{num_trophies} 奖杯，你就能获得教师奖了哦！"
-        not_earned: "只要10个 学生集齐所有 %{num_trophies} 奖杯，你就能获得一个奖励 ！"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "集齐奖杯的学生中有40%或以上为女性学员，你就能获得额外的奖励！"
-          not_earned: "如果有大于等于10个学生集齐了所有的奖杯并且至少有40%的学生是女性，你就可以获得一个额外奖品！"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "新%{model}"
     show: "显示"
@@ -191,9 +201,9 @@
     recent_activity: "最近的动态"
     show_more: "显示更多"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "或者如果你已经注册了， %{link}"
+    student_reg_link: "学生"
+    teacher_reg_link: "老师"
     teacher_dashboard: "看进度板"
     teacher_student_count: "你有 %{count} 个学生。"
     teacher_averages: "平均下来，您的学生获得了%{trophy_average}/%{trophy_max}个“概念掌握”奖杯。"
@@ -211,11 +221,11 @@
     none: "不愿回答"
   footer:
     help_from_html: '<a href="http://www.google.com">谷歌</a>, <a href="http://www.microsoft.com">微软</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>的软件工程师帮助编写了教程。'
-    art_from_html: '<a href="http://www.angrybirds.com">愤怒的小鸟</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">植物大战僵尸</a> by <a href="http://www.popcap.com">PopCap Games</a>提供了图稿。'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "提供反馈"
     translate: "帮助我们翻译成你的语言"
     tos: "服务条款"
-    privacy: "Privacy Policy"
+    privacy: "隐私政策"
   prize_mail:
     prize_earned:
       subject: "领取你在 Code.org 的奖品！"
@@ -235,5 +245,5 @@
     upgrade: "请升级你的浏览器。"
   slow_loading: "请稍微多等一会..."
   try_reloading: "请重新刷新页面"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "下一关"
+  download_pdf: "Open Lesson Plan"

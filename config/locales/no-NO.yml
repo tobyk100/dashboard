@@ -63,6 +63,8 @@
     valid_password: "Gyldig passord!"
     invalid_password: "Passordet må bestå av minimum seks tegn"
     mismatch_password: "De to passordene du skrev inn samsvarer ikke"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Logg inn"
     login: "E-post eller brukernavn"
@@ -108,35 +110,43 @@
     title: "Hent dine premier: %{name}"
     provider: "Tilbyder:"
     code: "Kode:"
+    redeem_header: "To redeem:"
     success: "Premien din ble innløst, se koden nedenfor."
     error: "Premien din kunne ikke løses inn, prøv igjen."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Vennligst bekreft"
       "no": Nei
       "yes": Ja
       msg: "Er du sikker på at du vil be om %{prize_name} premien?"
       msg_student: "Merk: Du kan bare velge én type premie."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apples iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portalen"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Du har gjennomført alle øvelsene. Etter at du har hentet din premie, kan du velge en annen klasse  %{online_link} eller %{local_school_link}"
     msg:
       choose: "Velg en premie:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Du har vunnet en premie!"
-      not_earned: "Samle alle %{num_trophies} premiene for å vinne!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 eller flere elever har samlet alle %{num_trophies} troféene. Du har vunnet en lærer premie!"
-        not_earned: "Hvis 10 studenter samler alle %{num_trophies} troféene, vinner du en premie!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "40% eller flere av dine elever som har samlet alle %{num_trophies} troféene er jenter. Du har vunnet en bonuspremie!"
-          not_earned: "Om 10 eller flere av elevene som har samlet alle  %{num_trophies} troféene er jenter, vinner du en bonuspremie!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Ny %{model}"
     show: "Vis"
@@ -194,9 +204,9 @@
     recent_activity: "Nylig aktivitet"
     show_more: "Vis mer"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "Eller hvis du allerede er registrert, %{link}"
+    student_reg_link: "Elev"
+    teacher_reg_link: "Lærer"
     teacher_dashboard: "Se fremdriftsoversikt"
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'I gjennomsnitt har dine elever fått %{trophy_average} av totalt %{trophy_max}  pokaler for "Konseptmestring".'
@@ -214,7 +224,7 @@
     none: "Foretrekker å ikke svare"
   footer:
     help_from_html: 'Ingeniører fra <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> og <a href="http://www.twitter.com">Twitter</a> har bidratt til å skape dette opplæringsprogrammet.'
-    art_from_html: 'Grafikk fra <a href="http://www.angrybirds.com">Angry Birds</a> av <a href="http://www.rovio.com">Rovio</a> og <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> av <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Gi tilbakemelding"
     translate: "Hjelpe oss med å oversette til ditt språk"
     tos: "Bruksvilkår"
@@ -238,5 +248,5 @@
     upgrade: "Vennligst oppgrader din nettleser."
   slow_loading: "Dette tar lengre tid enn vanlig..."
   try_reloading: "Last siden på nytt"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "Neste nivå"
+  download_pdf: "Open Lesson Plan"

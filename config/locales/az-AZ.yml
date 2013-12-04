@@ -63,6 +63,8 @@
     valid_password: "Düzgün parol!"
     invalid_password: "Parol ən azı 6 simvol olmalıdır"
     mismatch_password: "Daxil etdiyiniz iki parol üst-üstə düşmür"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Daxil olun"
     login: "E-poçt və ya istifadəçi adı"
@@ -108,35 +110,43 @@
     title: "Mükafatları xərcləyin: %{name}"
     provider: "Təminatçı:"
     code: "Kod:"
+    redeem_header: "To redeem:"
     success: "Mükafatınızı müvəffəqiyyətlə xərclədiniz, aşağıdakı koda baxın."
     error: "Mükafatınızı xərcləmək mümkün olmadı, lütfən bir də cəhd edin."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Zəhmət olmazsa, təsdiq edin"
       "no": Xeyr
       "yes": Bəli
       msg: "%{prize_name} mükafatını tələb emək istədiyinizə əminsiniz?"
       msg_student: "QEYD: Ancaq bir növ mükafat seçə bilərsiniz."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: '"Apple iTunes"'
-      donors_choose: '"DonorsChoose.org" 750 dollar'
-      donors_choose_bonus: '"DonorsChoose.org" 250 dollar'
-      dropbox: '"Dropbox"'
-      valve: '"Valve Portal"'
-      ea_bejeweled: '"EA Origin Bejeweled 3"'
-      ea_fifa: '"EA Origin FIFA Soccer 13"'
-      ea_simcity: '"EA Origin SimCity 4 Deluxe Edition"'
-      ea_pvz: '"EA Origin Plants vs. Zombies"'
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Bütün dərslikləri başa vurdunuz. Mükafatınızı əldə etdikdən sonra, başqa bir sinif seçin %{online_link} və ya buradan: %{local_school_link}"
     msg:
       choose: "Mükafat seçin:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Bir mükafat qazandınız!"
-      not_earned: "%{num_trophies} qənimətin hamısın toplayın və bir mükafat qazanın!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 və ya daha çox şagird %{num_trophies} qənimətin hamısını topladı. Siz bir müəllim mükafatı qazandınız!"
-        not_earned: "Əgər 10 şagird %{num_trophies} qənimətin hamısını toplasa, siz mükafat qazanacaqsınız!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "%{num_trophies} qənimətin hamısını toplamış şagirdlərinizin 40 və ya daha çox faizi qızlardır. Siz bonus mükafat qazandınız!"
-          not_earned: "Əgər 10 və ya daha çox şagird %{num_trophies} qənimətin hamısını toplasa və onların ən azı 40 faizi qızlar olsa, siz bonus mükafat qazanacaqsınız!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Yeni %{model}"
     show: "Göstər"
@@ -194,9 +204,9 @@
     recent_activity: "Son fəaliyyət"
     show_more: "Daha çox göstər"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "və ya əgər siz artıq qeydiyyatdan keçmisinizsə, %{link}"
+    student_reg_link: "Şagird"
+    teacher_reg_link: "Müəllim"
     teacher_dashboard: "Gedişat Panelinə baxın"
     teacher_student_count: "Sizin %{count} tələbəniz var."
     teacher_averages: 'Sizin tələbələriniz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan orta hesabla %{trophy_average} saydasını qazandılar.'
@@ -214,7 +224,7 @@
     none: "Cavab verməməyə üstünlük verirəm"
   footer:
     help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> və <a href="http://www.twitter.com">Twitter</a>dən olan mühəndislər bu dərsləyi yaratmağa kömək etdilər.'
-    art_from_html: '<a href="http://www.rovio.com">Rovio</a> tərəfindən işlənilən <a href="http://www.angrybirds.com">Hirsli Quşlar</a> və <a href="http://www.popcap.com">PopCap Games</a> tərəfindən hazırlanan <a href="http://www.popcap.com/plants-vs-zombies">Bitkilər Zombilərə Qarşı</a> oyunundan olan incəsənət işləri.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Rəy verin"
     translate: "Sizin dilinizə tərcümə etməkdə bizə kömək edin"
     tos: "Xidmətin şərtləri"
@@ -238,5 +248,5 @@
     upgrade: "Zəhmət olmasa, naviqatorunuzu yeniləyin."
   slow_loading: "Bu, adi halda olduğundan daha çox vaxt aparır..."
   try_reloading: "Səhifəni yenidən yükləməyə cəhd edin"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "Növbəti mərhələ"
+  download_pdf: "Open Lesson Plan"

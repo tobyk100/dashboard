@@ -63,6 +63,8 @@
     valid_password: "كلمة المرور متاحة!"
     invalid_password: "كلمة المرور يجب ان تكون على الاقل 6 احرف"
     mismatch_password: "كلمة المرور التي ادخلتها غير متطابقة"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "تسجيل الدخول"
     login: "البريد الإلكتروني أو اسم المستخدم"
@@ -109,35 +111,43 @@
     title: "استبدال الجوائز :%{name}"
     provider: "المزود:"
     code: "الكود البرمجي :"
+    redeem_header: "To redeem:"
     success: "تم استرداد جائزتك بنجاح, راجع الكود البرمجي ادناه."
     error: "لم يتم استرداد جائزتك بنجاح, الرجاء المحاولة مرة اخرى."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "الرجاء تأكيد"
       "no": لا
       "yes": نعم
       msg: "هل انت متأكد من المطالبة بالجائزة %{prize_name} ؟"
       msg_student: "ملاحظة: يمكنك فقط اختيار نوع واحد من الجائزة."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "أبل اي تيونز"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "بوابة صمام"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "انت اكملت جميع الدروس التعليمية . بعد ان تقوم بطلب الجائزة , اختر درس اخر من %{online_link} او من %{local_school_link}"
     msg:
       choose: "اختر الجائزة :"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "لقد حصلت على جائزة!"
-      not_earned: "اجمع جميع الجوائز %{num_trophies} للفوز بجائزة!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 أو أكثر من الطلاب جمع جميع الجوائز%{num_trophies}. انت قد فزت بجائزة معلم!"
-        not_earned: "إذا كان 10 من الطلاب جمع جميع الجوائز %{num_trophies}، يمكنك الفوز بجائزة!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "40% أو أكثر من طلابك الذين جمعوا جميع الجوائز %{num_trophies} هم من الإناث. انت قد فزت بجائزة مكافأة!"
-          not_earned: "إذا كان 10 أو أكثر من الطلاب جمع جميع الجوائز%{num_trophies}، وعلى الأقل 40% من هؤلاء الطلبة هم من الإناث، يمكنك الفوز بجائزة المكافأة!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "جديد %{model}"
     show: "إظهار"
@@ -195,9 +205,9 @@
     recent_activity: "آخر النشاطات"
     show_more: "إظهار المزيد"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "أو إذا كنت مسجلا مسبقا %{link}"
+    student_reg_link: "الطالب"
+    teacher_reg_link: "المعلم"
     teacher_dashboard: "انظر على لوحة معلومات التقدم"
     teacher_student_count: "لديك %{count} طلاب."
     teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
@@ -215,7 +225,7 @@
     none: "أفضل بعدم الإجابة"
   footer:
     help_from_html: 'مهندسون من <a href="http://www.google.com"> جوجل</a> و <a href="http://www.microsoft.com"> مايكروسوفت</a> و <a href="http://www.facebook.com"> فيس بوك</a> و <a href="http://www.twitter.com"> تويتر</a> ساعدوا في إنشاء هذا البرنامج التعليمي.'
-    art_from_html: 'الأعمال الفنية من <a href="http://www.angrybirds.com"> Angry Birds</a> ل <a href="http://www.rovio.com"> Rovio</a>، و <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies </a> <a href="http://www.popcap.com"> PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "توفير التغذية الرجعية"
     translate: "ساعدنا على ترجمة لغتك"
     tos: "شروط الخدمة"
@@ -239,5 +249,5 @@
     upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."
   slow_loading: "هذا اخذ وقتا اطول من المعتاد..."
   try_reloading: "حاول اعادة تحميل الصفحة"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "المستوى التالي"
+  download_pdf: "Open Lesson Plan"

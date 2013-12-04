@@ -63,6 +63,8 @@
     valid_password: "Kata sandi valid!"
     invalid_password: "Kata sandi harus minimal 6 karakter"
     mismatch_password: "kedua password yang anda masukkan tidak sama"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Masuk"
     login: "Email atau nama pengguna"
@@ -106,35 +108,43 @@
     title: "Ambil hadiah: %{name}"
     provider: "Penyedia:"
     code: "Kode:"
+    redeem_header: "To redeem:"
     success: "Hadiah Anda telah berhasil ditebus, silahkan lihat kode di bawah ini."
     error: "Hadiah Anda tidak bisa ditebus, silakan coba lagi."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Silakan konfirmasi"
       "no": Tidak
       "yes": Ya
       msg: "Apakah Anda yakin Anda ingin mengambil hadiah %{prize_name}?"
       msg_student: "Catatan: Anda hanya dapat memilih satu jenis hadiah."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Katup Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 edisi Deluxe"
-      ea_pvz: "EA Origin Plants vs Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Anda telah menyelesaikan semua tutorial. Setelah Anda ambil hadiah Anda, pilihlah kelas lain %{online_link} atau %{local_school_link}"
     msg:
       choose: "Pilih hadiah:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Anda mendapatkan hadiah!"
-      not_earned: "Kumpulkan %{num_trophies} piala untuk memenangkan hadiah!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "lebih dair 10 siswa telah mengumpulkan %{num_trophies} piala. Anda berhak mendapat hadiah sebagai seorang guru!"
-        not_earned: "Jika 10 siswa berhasil mengumpulkan %{num_trophies} piala, Anda akan menangkan hadiah!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "lebih dari 40% siswa anda yang berhasil mendapatkan %{num_trophies} piala adalah anak perempuan. Anda telah memenangkan hadiah bonus!"
-          not_earned: "Jika 10 atau lebih siswa mengumpulkan %{num_trophies} piala dan sekurang-kurangnya 40% siswa perempuan, Anda akan menangkan hadiah bonus!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "%{model} baru"
     show: "Tampilkan"
@@ -192,9 +202,9 @@
     recent_activity: "Aktivitas terakhir"
     show_more: "Tunjukkan lebih banyak"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "Atau jika Anda sudah terdaftar, %{link}"
+    student_reg_link: "Siswa"
+    teacher_reg_link: "Guru"
     teacher_dashboard: "Lihat kemajuan di dasbor"
     teacher_student_count: "Anda memiliki  %{count} siswa."
     teacher_averages: 'Rata-rata siswa anda telah mendapatkan %{trophy_average} dari %{trophy_max} piala "Penguasaan konsep".'
@@ -212,7 +222,7 @@
     none: "Memilih untuk tidak menjawab"
   footer:
     help_from_html: 'Tutorial ini diciptakan atas bantuan programmer-programmer dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a>.'
-    art_from_html: 'Karya seni grafis diperoleh dari <a href="http://www.angrybirds.com"> Angry Birds</a> oleh <a href="http://www.rovio.com"> Rovio</a>, dan <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> oleh <a href="http://www.popcap.com"> PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Berikan pendapat"
     translate: "Bantu menterjemahkan ke bahasa anda"
     tos: "Persyaratan Layanan"
@@ -236,5 +246,5 @@
     upgrade: "Silakan upgrade browser Anda."
   slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
   try_reloading: "Coba tampilkan halaman lagi"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "Tahap berikutnya"
+  download_pdf: "Open Lesson Plan"

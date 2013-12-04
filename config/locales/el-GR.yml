@@ -63,6 +63,8 @@
     valid_password: "Έγκυρος κωδικός πρόσβασης!"
     invalid_password: "Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 6 χαρακτήρες"
     mismatch_password: "Οι δύο κωδικοί πρόσβασης που καταχωρήσατε δεν ταιριάζουν"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Σύνδεση"
     login: "Email ή όνομα χρήστη"
@@ -108,35 +110,43 @@
     title: "Εξαργυρώσετε τα βραβεία: %{name}"
     provider: "Πάροχος:"
     code: "Κωδικός:"
+    redeem_header: "To redeem:"
     success: "Το βραβείο σας εξαργυρώθηκε με επιτυχία, δες τον παρακάτω κωδικό."
     error: "Το βραβείο σας δεν ήταν δυνατόν να εξαργυρωθεί, παρακαλώ προσπαθήστε ξανά."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Παρακαλώ Επιβεβαιώστε"
       "no": Όχι
       "yes": Ναι
       msg: "Είστε βέβαιοι ότι θέλετε να διεκδικήσετε το βραβείο %{prize_name};"
       msg_student: "Σημείωση: Μπορείτε να επιλέξετε μόνο έναν είδος βραβείου."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $250"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Έχετε ολοκληρώσει όλα τα εκπαιδευτικά σεμινάρια. Αφού διεκδικήσετε το βραβείο σας, επιλέξτε μια άλλη τάξη %{online_link} ή σε ένα %{local_school_link}"
     msg:
       choose: "Επιλέξτε βραβείο:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Έχετε κερδίσει ένα βραβείο!"
-      not_earned: "Συλλέξτε και τα %{num_trophies} τρόπαια για να κερδίσετε ένα βραβείο!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 ή περισσότεροι μαθητές συγκέντρωσαν και τα %{num_trophies} τρόπαια. Έχετε κερδίσει ένα βραβείο δασκάλου!"
-        not_earned: "Εάν 10 μαθητές συλλέξουν και τα %{num_trophies} τρόπαια, κερδίζετε ένα βραβείο!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "Τουλάχιστον το 40% των μαθητών σας που συνέλεξαν και τα %{num_trophies} τρόπαια είναι κορίτσια. Έχετε κερδίσει ένα βραβείο μπόνους!"
-          not_earned: "Εάν 10 ή περισσότεροι μαθητές συλλέξουν και τα %{num_trophies} τρόπαια και τουλάχιστον το 40% αυτών των μαθητών είναι κορίτσια, κερδίζετε ένα βραβείο μπόνους!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Νέο %{model}"
     show: "Εμφάνιση"
@@ -194,9 +204,9 @@
     recent_activity: "Πρόσφατη δραστηριότητα"
     show_more: "Περισσότερα"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "Ή αν είστε ήδη εγγεγραμμένος, %{link}"
+    student_reg_link: "Μαθητής"
+    teacher_reg_link: "Δάσκαλος"
     teacher_dashboard: "Προβολη σύνοψης προόδου"
     teacher_student_count: "Εχεις %{count} μαθητές."
     teacher_averages: 'Οι μαθητές σου έχουν κερδίσει κατά μέσο όρο %{trophy_average} από %{trophy_max} βραβεία "Μαεστρίας".'
@@ -214,7 +224,7 @@
     none: "Προτιμώ να μην απαντήσω"
   footer:
     help_from_html: 'Μηχανικοί από την <a href="http://www.google.com">Google</a>, την <a href="http://www.microsoft.com">Microsoft</a>, το <a href="http://www.facebook.com">Facebook</a>, και το <a href="http://www.twitter.com">Twitter</a> βοήθησαν σε αυτό το εισαγωγικό μάθημα.'
-    art_from_html: 'Γραφικά για το <a href="http://www.angrybirds.com">Angry Birds</a> από την <a href="http://www.rovio.com">Rovio</a>, και για το <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> από την <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Πες τη γνώμη σου"
     translate: "Βοηθήστε μας να μεταφράσουμε στη γλώσσα σας"
     tos: "Όροι παροχής υπηρεσιών"
@@ -238,5 +248,5 @@
     upgrade: "Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας."
   slow_loading: "Αυτό διαρκεί περισσότερο από ότι συνήθως..."
   try_reloading: "Δοκίμασε να φορτώσεις ξανά τη σελίδα"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "Επόμενο Επίπεδο"
+  download_pdf: "Open Lesson Plan"

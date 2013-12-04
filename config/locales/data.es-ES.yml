@@ -4,26 +4,26 @@
       name:
         20-hour:
           desc: "Curso K-8  de introducción a las ciencias de la computación"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "Etapa 1"
+          Maze: "Etapa 2"
+          Unplug2: "Etapa 3"
+          Unplug3: "Etapa 4"
+          Artist: "Etapa 5"
+          Unplug4: "Etapa 6"
+          Artist2: "Etapa 7"
+          Unplug5: "Etapa 8"
+          Farmer: "Etapa 9"
+          Unplug6: "Etapa 10"
+          Artist3: "Etapa 11"
+          Unplug7: "Etapa 12"
+          Farmer2: "Etapa 13"
+          Unplug8: "Etapa 14"
+          Artist4: "Etapa 15"
+          Unplug9: "Etapa 16"
+          Farmer3: "Etapa 17"
+          Unplug10: "Etapa 18"
+          Artist5: "Etapa 19"
+          Unplug11: "Etapa 20"
         Hour of Code:
           desc: "Hora del código"
           Maze: "Etapa 1"
@@ -35,7 +35,7 @@
         Unplug1: "Introducción a la ciencia en computación"
         Maze: "El laberinto"
         Unplug2: "Pensamiento computacional"
-        Unplug3: "Graph Paper Programming"
+        Unplug3: "Programación en papel cuadriculado"
         Artist: "El artista"
         Unplug4: "Algoritmos"
         Artist2: "El artista 2"
@@ -47,11 +47,11 @@
         Farmer2: "El granjero 2"
         Unplug8: "Abstracción"
         Artist4: "El artista 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Programación de relé"
         Farmer3: "El granjero 3"
         Unplug10: "El Internet"
         Artist5: "El artista 5"
-        Unplug11: "Wrap-up"
+        Unplug11: "Cierre"
         MazeEC: "El laberinto"
     trophy:
       name:
@@ -72,15 +72,15 @@
     level:
       instructions:
         maze_2_2: '¿Ayúdame a atrapar el cerdo malo? Apila juntos un par de cuadros "avanzar" y presione "Correr Programa" que me ayude a llegar allí. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_1: "Este cerdo me está poniendo furioso. ¡Ayudame a encontrarlo!"
         maze_2_2_5: "Traza el camino y llévame al cerdo estúpido. Evita el TNT o las plumas volarán!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_3: "Guiame al demonio verde! (Cuidado con el TNT)"
         maze_2_4: "Manten la calma y ayúdame a encontrar el cerdo malo. O de lo contrario, ¡puedo enfadarme!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_5: "Hay una forma de llegar al tonto cerdo utilizando sólo 2 bloques. ¿Puedes encontrarla?"
+        maze_2_6: "Intentar llevarme al intruso verde utilizando sólo tres bloques."
+        maze_2_7: 'Ayúdame a desterrar este cerdito malo usando el menor número de bloques posible. Prueba usando más de un bloque "repetir veces".'
         maze_2_8: 'Para solucionar este, prueba con un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'Ok, prueba el nuevo bloque "repetir hasta" - repetirá hasta que llegue al cerdo molesto.'
         maze_2_10: "Ok, una última vez para practicar - se puede resolver éste usando solo 4 bloques?"
         maze_2_11: "Hola persona.  Yo zombi. Yo hambriento. Debo... llegar... al girasol... ¿Me puedes llevar ahí con sólo 5 bloques?"
         maze_2_12: "Ok, esto es similar, pero un poco diferente. ¿Puedes hacerlo en sólo 5 bloques?"
@@ -120,7 +120,7 @@
         maze_karel_1_6: 'Quita todas las pilas de tierra, utilizando la menor cantidad de bloques que sea posible. Las nuevas opciones en el menú desplegable del bloque "mientras" me dicen si estoy parado en una pila o un agujero.'
         maze_karel_1_7: "Vaya, encontré un agujero muy profundo! No sé cuantas paladas de tierra necesita. ¿Puedes escribir un programa que lo llene hasta que la tierra esté plana?"
         maze_karel_1_8: "Ayúdame a llenar en el agujero en el otro extremo del campo, con la menor cantidad posible de bloques."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Hacerme quitar todas estas pilas de tierra. Trata de usar la menor cantidad de bloques que sea posible. Sugerencia: prueba usando un bloque "mientras".'
         maze_karel_1_10: 'Estoy trabajando hasta tarde, así que está oscuro afuera, y no sé qué tan grandes son las pilas. Ahora no tengo todas las opciones que solía tener en el bloque "mientras". Muéveme a lo largo del campo y si hay una pila, quítala.'
         maze_karel_1_11: 'Todavía está oscuro afuera. Muéveme a lo largo del campo. Si hay una pila, quítala y si hay un agujero, rellénalo. Sugerencia: utiliza el menú desplegable de opciones del bloque "si".'
         turtle_2_1: "Hola. Yo artista zombi. ¡Me encanta dibujar! Ayúdame a dibujar un cuadrado con un color especial. Nota importante: dispones de los mismos bloques pero ahora han sido organizados en categorías."
@@ -150,7 +150,7 @@
         turtle_3_4: 'Ve si puedes descubrir cómo usar "dibujar un cuadrado" y "dibujar un triángulo" (y algunos otros bloques) para dibujar una casa alrededor del León.'
         turtle_3_5: 'Ahora crea una nueva función "dibujar una casa" y úsala para albergar dos gatos. Sugerencia: crea una nueva función usando el bloque "hacer algo" y escribe tu propio texto para nombrar el bloque.'
         turtle_3_6: 'Usando "dibujar un cuadrado" como ejemplo, agrega una entrada llamada "longitud" a "dibujar un triángulo". Luego, dibuja triángulos de diferentes tamaños. (Sugerencia: haz clic en la estrella para agregar una entrada a una función)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
+        turtle_3_7: 'Agrega una entrada denominada "longitud" a "dibujar una casa" y construye una casa grande para el elefante (con bordes de 150 píxeles de largo)'
         turtle_3_8: 'Aquí están todos los bloques del puzzle anterior.  Modifica "dibujar una casa" así termino en la esquina inferior derecha después de dibujar una nueva casa. Utiliza esta función modificada para dibujar tres casas.'
         turtle_3_9: '¿Puedes volver a crear la función "dibujar una casa" sin ayuda? Pruébalo y luego dibuja una hilera de casas.'
         turtle_3_10: "¡Has aprendido mucho! Ahora úsalo para dibujar lo que quieras. Intentar dibujar una estrella, o un espiral o un copo de nieve sofisticado."
@@ -163,11 +163,11 @@
         maze_karel_debug_function_1: "¿Qué deberías cambiar en este programa para ayudarme a eliminar todas las pilas?"
         maze_karel_debug_function_2: "¿Puedes depurar este programa para mí así puedo dejar mi campo plano?"
         maze_karel_debug_function_3: "Edita este programa para que pueda eliminar todas las pilas de mi campo. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Intenta ejecutar este programa y haz cambios para ver que ocurre. ¿Puedes averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
+        turtle_5_2: "Intenta ejecutar este programa y haz cambios para ver que ocurre. ¿Puedes averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
+        turtle_5_3: "Intenta ejecutar este programa y haz cambios para ver que ocurre. ¿Puedes averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
+        turtle_5_4: "Intenta ejecutar este programa y haz cambios para ver que ocurre. ¿Puedes averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
+        turtle_5_5: "Intente ejecutar este programa y haga cambios para ver que ocurre. ¿Puede averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
         turtle_5_6: "Intente ejecutar este programa y haga cambios para ver que ocurre. ¿Puede averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
         maze_3_1: "Tengo que llegar a ese cerdo! Escriba move(); un par de veces, y de esa forma puedo recuperar mis huevos."
         maze_3_2: "Escríbeme un programa,  y así hago todo el camino hasta el cerdo."

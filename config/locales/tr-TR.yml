@@ -63,6 +63,8 @@
     valid_password: "Geçerli parola!"
     invalid_password: "Parola en az 6 karakter olmalıdır"
     mismatch_password: "Girdiğiniz iki parola aynı değil"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Giriş Yap"
     login: "Kullanıcı adınız veya e-posta"
@@ -105,35 +107,43 @@
     title: "Ödülü alın:%{name}"
     provider: "Sağlayıcı:"
     code: "Kod:"
+    redeem_header: "To redeem:"
     success: "Ödülünüzü başarılı bir şekilde kullandınız, aşağıdaki koda bakın."
     error: "Ödülünüzü kullanamazsınız, lütfen tekrar deneyin."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Lütfen onaylayın"
       "no": Hayır
       "yes": Evet
       msg: "%{prize_name} ödülünü talep etmek istediğinize emin misiniz?"
       msg_student: "Not: Yalnızca bir tür ödül seçebilirsiniz."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org 750 $"
-      donors_choose_bonus: "DonorsChoose.org 250 $"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Tüm eğitimleri tamamladınız. Ödülünüzü talep ettikten sonra başka bir sınıf seçin  %{online_link} ya da buradan %{local_school_link}"
     msg:
       choose: "Bir ödül seçin:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Bir ödül kazandınız!"
-      not_earned: "Bir ödül kazanmak için %{num_trophies} kupanın hepsini topla!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 yada daha fazla öğrenci %{num_trophies} kupanın hepsini topladığında öğretmen ödülünü kazanırsın!"
-        not_earned: "Eğer 10 öğrenci %{num_trophies} kupanın hepsini aldığında ödül kazanırsın!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "Kız öğrencilerden % 40 ya da daha fazlası %{num_trophies} kupanın hepsini kazandığında bonus hediye kazanırsın!"
-          not_earned: "Eğer 10 ya da daha fazla öğrenci %{num_trophies} kupanın hepsini aldğında ve bunların en az  %40'ı kızsa, bonus ödül kazanırsın!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Yeni %{model}"
     show: "Göster"
@@ -212,8 +222,7 @@
   footer:
     help_from_html: |-
       Bu eğitimin oluşturulmasında  <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter'dan</a> mühendisler yardım etti.
-    art_from_html: |-
-      Çizimler <a href="http://www.angrybirds.com">Angry Birds</a> by <a href="http://www.rovio.com">Rovio</a>, and <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> by <a href="http://www.popcap.com">PopCap Games'den</a>.
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Geri besleme sağla"
     translate: "Kendi dilinize çevirmek bize yardım edin"
     tos: "Hizmet Şartları"
@@ -238,4 +247,4 @@
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
   next_level: "Next Level"
-  download_pdf: "Download PDF"
+  download_pdf: "Open Lesson Plan"

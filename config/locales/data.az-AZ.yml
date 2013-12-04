@@ -4,26 +4,26 @@
       name:
         20-hour:
           desc: "K-8 İnformatikaya Giriş kursu"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "Mərhələ 1"
+          Maze: "Mərhələ 2"
+          Unplug2: "Mərhələ 3"
+          Unplug3: "Mərhələ 4"
+          Artist: "Mərhələ 5"
+          Unplug4: "Mərhələ 6"
+          Artist2: "Mərhələ 7"
+          Unplug5: "Mərhələ 8"
+          Farmer: "Mərhələ 9"
+          Unplug6: "Mərhələ 10"
+          Artist3: "Mərhələ 11"
+          Unplug7: "Mərhələ 12"
+          Farmer2: "Mərhələ 13"
+          Unplug8: "Mərhələ 14"
+          Artist4: "Mərhələ 15"
+          Unplug9: "Mərhələ 16"
+          Farmer3: "Mərhələ 17"
+          Unplug10: "Mərhələ 18"
+          Artist5: "Mərhələ 19"
+          Unplug11: "Mərhələ 20"
         Hour of Code:
           desc: "Kod Saatı"
           Maze: "Mərhələ 1"
@@ -64,27 +64,27 @@
         if: "if bloku"
         if_else: "Əgər-əks halda bloku"
         loop_times: '"Təkrar et, neçə dəfə" bloku'
-        loop_until: '"Təkrar et, o vaxta qədər ki" bloku'
+        loop_until: '"Təkrar et, ta ki" bloku'
         loop_while: "While bloku"
         loop_for: "Sayğac bloku"
         function: "Funksiyalar"
         parameters: "Parametrli funksiyalar"
     level:
       instructions:
-        maze_2_2: 'Nadinc donuzu tutmaqda mənə kömək edə bilərsiniz? Məni ona çatdırmaq üçün bir neçə "irəli get" blokunu dal-dala düzün və "Proqramı icra et"i basın. '
+        maze_2_2: 'Nadinc donuzu tutmaqda mənə kömək edə bilərsiniz? Məni ona çatdırmaq üçün bir neçə "irəli get" blokunu ard-arda düzün və "Proqramı icra et"i basın. '
         maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
+        maze_2_2_5: "Yolu izləyərək məni səfeh donuza tərəf aparın. Partladıcı TNT qutusundan yayınaq, yoxsa lələklərim göyə sovrular!"
+        maze_2_3: "Məni yaşıl ziyankara aparan yola yönləndirin! (Partladıcı TNT qutusundan ehtiyatlı olun)"
         maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
+        maze_2_5: "Mənim yaşıl donuza 2 blokdan istifadə edərək çatmağım üçün bir yol var. Siz onu tapa bilərsinizmi?"
         maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'Bunu həll etmək üçün, içərisində bu 3 blok olan "təkrarla" blokunu istifadə edin: get, get, dön.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_7: 'Mənə kömək edin ki, ən az sayda blokdan istifadə edərək pis donuzcuğun dərsini verim. Birdən çox "təkrar et, neçə dəfə" blokundan istifadə etməyə çalışın.'
+        maze_2_8: 'Bunu həll etmək üçün, içərisində bu 3 blok olan "təkrar et" blokunu istifadə edin: get, get, dön.'
+        maze_2_9: 'Yaxşı, yeni "təkrar et, ta ki" blokunu sınaqdan keçirin - o mən ta zəhlətökən donuza çatana qədər təkrarlanacaq.'
         maze_2_10: "Yaxşı, sonuncu çalışma - bunu yalnız 4 blok istifadə edərək həll edə bilərsinizmi?"
         maze_2_11: "Hörmətli insan. Mən zombiyəm. Mən acam. Günəbaxana ... çatmalıyam ... Məni yalnız 5 blok istifadə edərək ora çatdıra bilərsən?"
         maze_2_12: "Yaxşı, bu oxşardır, amma bir az fərqi var. Yalnız 5 blok istifadə edərək bunu edə bilərsiniz?"
-        maze_2_13: 'Mənə nə vaxt dönəcəyimi demək üçün yeni "əgər" blokundan istifadə edin. İpucu: sizin yalnız 1 artıq bloka ehtiyacınız var, amma bizim bunu necə etdiyimizi öyrənin ki, gələn dəfə bunu özünüz köməksiz edə biləsiniz.'
+        maze_2_13: 'Nə vaxt dönəcəyim barədə qərar verə bilməyim üçün yeni "əgər" blokundan istifadə edin. Məsləhət: sizə yalnız əlavə bir blok lazımdır, amma bizim bunu necə etdiyimizi öyrənin ki, gələn dəfə özünüz köməksiz edə biləsiniz.'
         maze_2_14: 'Yaxşı, bu sonuncu tapmaca kimidir, amma siz "əgər" və "təkrarla" bloklarını bir yerdə necə işlətdiyinizi yadınıza salmalısınız.'
         maze_2_15: 'Günəbaxan istəyirəm! "əgər" blokundan ən az sayda istifadə etməklə məni ora çatdır.'
         maze_2_16: "Yaxşı, məşq üçün bunu bir daha edək - bu çox da fərqli deyil, amma xart-xurtlardan ehtiyatlı ol!"
@@ -135,13 +135,13 @@
         turtle_2_9: 'Hündürlüyü 110, 100, 90, 80 və 70 olan qar adamları ailəsini çəkmək üçün "say" dövründən istifadə edin. Qar adamları bir-birindən 60 pixel aralı olmalıdır.'
         turtle_2_10: "Burada müxtəlif spirallarla eksperiment aparmaq üçün bir kod var. Dönmə dərəcəsini dəyişəndə nə baş verir? Bəs dövr daxilində təsadüfi rəng təyin edəndə? Ürəyiniz nə istəyirsə onu çəkin."
         maze_karel_2_1: "Bloklardan istifadə etməklə mənə bütün topaları silməkdə və yerdəki boşluqları doldurmaqda kömək edin. Çoxlu sayda blokdan istifadə etmək yerinə, dövrlərdən istifadə etməyə çalışın. İpucu: Siz dövrün içinə dövr qoya bilərsiniz."
-        maze_karel_2_2: 'Biz indi özümüzün "5-ni doldur" adlı blokunu yaratdıq və indi bu bloku Funksiyalar kateqoriyasında tapmaq olar. Bu blokdan istifadə etməklə mənə boşluğu doldurmaqda kömək edin.'
-        maze_karel_2_3: 'Yeni "5-ni doldur" funksional blokundan istifadə etməklə mənə bütün boşluqları doldurmaqda kömək edin. Siz "5-ni doldur" blokunu Funksiyalar kateqoriyasından sürükləməli olacaqsınız.'
+        maze_karel_2_2: 'Biz indi özümüzün "5 doldur" adlı blokumuzu təyin etdik ki, indi Funksiyalar kateqoriyasındadır. Bu blokdan istifadə etməklə mənə bu çuxuru doldurmaqda kömək edin.'
+        maze_karel_2_3: 'Yeni "5 doldur" funksiya blokundan istifadə etməklə mənə bütün boşluqları doldurmaqda kömək edin. Siz "5 doldur" blokunu Funksiyalar kateqoriyasından sürükləməli olacaqsınız.'
         maze_karel_2_4: "7 kürək siləcək yeni funksiya təyin edin. Sonra isə, bu yeni funksiyadan istifadə etməklə mənə bütün topaları silməkdə kömək edəcək proqram yazın."
         maze_karel_2_5: "Təpəcikdən 6 kürək torpaq götürmək üçün yeni bir funksiya düzəldin və bu funksiyadan istifadə etməklə bütün təpəcikləri hamarlamaqda mənə kömək edin."
-        maze_karel_2_6: 'İki yeni funksiyadan ,"8-ni doldurun" və "8-ni pozun", istifadə etməklə mənə topaları hamarlamaqda və boşluqları doldurmaqda kömək edin.'
+        maze_karel_2_6: 'İki yeni funksiya ,"8 doldur" və "8 yığışdır"dan istifadə etməklə mənə təpəcikləri hamarlamaqda və çuxurları doldurmaqda kömək edin.'
         maze_karel_2_7: "Mənim sahəmdə inək var! Yeni funksiya yazmaqla mənə inəkdən yayınmaqda və topanı silməkdə kömək edin. Bütün bloklarınızı yeni funksiyanın daxilinə qoyun."
-        maze_karel_2_8: 'Bu yeni funksiyadan, "inəyə toxunma və birini sil", istifadə etməklə mənə bütün topaları silməkdə kömək edin.'
+        maze_karel_2_8: 'Bu yeni funksiya, "inəyə toxunma və birini sil"dən istifadə etməklə mənə bütün çuxurları yığışdırmaqda kömək edin.'
         maze_karel_2_9: "Yaxşı, burada bir şaquli sütunda 4 müxtəlif torpaq təpəciyini yığışdıran funksiya var. Bu funksiyanı dövr daxilində istifadə etməyə çalışın ki, ancaq az sayda yeni blokdan istifadə etməklə bütün torpaq təpəciklərini yığışdırasınız."
         maze_karel_2_10: "Məni sahə üzrə irəlilədin, və bu iki funksiyadan istifadə etməklə mənə bütün topaları silməkdə və boşluqları doldurmaqda kömək edin."
         turtle_3_1: 'Bu tapmaca sizə "kvadrat çək" və "çevrə çək" funksiyalarının necə təyin olunduğunu göstərəcək. Funksiyanı təyin etmək onun bloklarını icra etmir. Siz kvadratı çəkmək üçün "kvadrat çək" blokunu sürükləməlisiniz.'
@@ -172,7 +172,7 @@
         maze_3_1: "Bu donuzun dərsini verməliyəm!  Bir neçə move(); əmri yazın ki, yumurtalarımı geri ala bilim."
         maze_3_2: "Mənə bir proqram yazın ki, gedib düz bu donuzun yanına çıxa bilim."
         maze_3_3: "Bu donuzun yanına necə getməliyəm? Elə edin ki, partladıcı TNT qutusunun üstünə çıxmayım!"
-        maze_3_4: "Lənət olsun! Elə proqram yaz ki, məni bombadan yan keçirərək donuza çatdırsın."
+        maze_3_4: "Ax! Mənim üçün elə proqram yazın ki, məni partladıcı TNT qutusundan yan keçirərək donuza çatdırsın."
       levelIncompleteError:
         maze_2_8: 'Bu məsələni həll etmək üçün təkrar olunan hissəni tapın. İçərisində növbəti 3 blok olan "təkrar et" blokundan istifadə edin: get, get, sağa dön.'
       other1StarError:
@@ -185,7 +185,7 @@
         artist_intro: "Rəssam oyununa giriş"
         farmer_intro: "Fermer oyununa giriş"
         loop_times: '"Təkrar et, neçə dəfə" bloku'
-        loop_until: '"Təkrar et, o vaxta qədər ki" bloku'
+        loop_until: '"Təkrar et, ta ki" bloku'
         if: '"Əgər" bloku'
         if_else: '"Əgər/əks halda" bloku'
         function: "Funksiyalar"

@@ -32,7 +32,7 @@
   demos: "Admin: alle demo's"
   continue: "verder gaan"
   prize: "prijs"
-  more_info: "More info"
+  more_info: "Meer info"
   auth:
     sign_in_with: "Meld je aan met %{provider}"
     signed_in: "Ingelogd!"
@@ -46,10 +46,10 @@
     need_confirmation: "Geen bevestigingsinstructies ontvangen?"
     need_unlock: "Nog niet uw ontgrendel instructies ontvangen?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_pitch: "Gebruik de Introductie in de Informatica op basisschoolniveau in jouw klas"
+    teacher_title: "Inschijven voor leraren"
+    student_pitch: "Verder dan 1 uur: probeer onze Introductie in de Informatie op basisschoolniveau"
+    student_title: "Inschrijven"
     school_name: "School naam (optioneel)"
     school_address: "Schooladres (optioneel)"
     address_placeholder: "adres, stad, staat, zip"
@@ -63,6 +63,8 @@
     valid_password: "Geldig wachtwoord!"
     invalid_password: "Wachtwoord moet ten minste 6 tekens lang zijn"
     mismatch_password: "De twee wachtwoorden komen niet overeen"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Aanmelden"
     login: "Email of gebruikersnaam"
@@ -108,35 +110,43 @@
     title: "Geef prijzen vrij: %{name}"
     provider: "Aanbieder:"
     code: "Code:"
+    redeem_header: "To redeem:"
     success: "Je prijs is vrijgegeven, gebruik de code hieronder."
     error: "Je prijs kon niet worden vrijgegeven, probeer het opnieuw."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Bevestigen"
       "no": Nee
       "yes": Ja
       msg: "Weet je zeker dat je de prijs '%{prize_name}' wil kiezen?"
       msg_student: "Let op: je kunt maar een soort prijs kiezen."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "Apple iTunes"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Valve Portal"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Je hebt alle opdrachten volbracht. Kies nadat je je prijs gekozen hebt nog een les %{online_link} of op een %{local_school_link}"
     msg:
       choose: "Kies een prijs:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Je hebt een prijs verdiend!"
-      not_earned: "Verzamel alle %{num_trophies} bekers om een prijs te winnen!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 of meer leerlingen hebben alle %{num_trophies} bekers verzameld. Je hebt een lerarenprijs gewonnen!"
-        not_earned: "Wanneer 10 leerlingen alle %{num_trophies} bekers verzamelen win je een prijs!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "Meer dan 40% van je leerlingen die alle %{num_trophies} bekers hebben verzameld zijn vrouw. Je hebt een bonusprijs gewonnen!"
-          not_earned: "Wanneer 10 of meer leerlingen alle %{num_trophies} bekers hebben verzameld, en minstens 40% hiervan vrouw zijn, dan win je een bonusprijs!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Nieuw %{model}"
     show: "Toon"
@@ -194,9 +204,9 @@
     recent_activity: "Recente activiteiten"
     show_more: "Toon meer"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "Of als je al ingeschreven bent, %{link}"
+    student_reg_link: "Leerling"
+    teacher_reg_link: "Leraar"
     teacher_dashboard: "Ga naar voorgangsoverzicht"
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
@@ -214,7 +224,7 @@
     none: "Wil ik liever niet zeggen"
   footer:
     help_from_html: 'Ingenieurs van <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, en <a href="http://www.twitter.com">Twitter</a> hielpen mee om deze tutorial te maken.'
-    art_from_html: 'Artwork van <a href="http://www.angrybirds.com">Angry Birds</a> van <a href="http://www.rovio.com">Rovio</a>, en <a href="http://www.popcap.com/plants-vs-zombies">Plants vs Zombies</a> van <a href="http://www.popcap.com">PopCap Games</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Geef feedback"
     translate: "Help ons om te vertalen naar uw taal"
     tos: "Algemene gebruiksvoorwaarden"
@@ -236,7 +246,7 @@
   compatability:
     working: "We zijn bezig om ondersteuning voor je browser toe te voegen."
     upgrade: "Upgrade je browser."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  slow_loading: "Dit duurt langer dan normaal..."
+  try_reloading: "Probeer de pagina opnieuw te laden"
+  next_level: "Volgend Level"
+  download_pdf: "Open Lesson Plan"

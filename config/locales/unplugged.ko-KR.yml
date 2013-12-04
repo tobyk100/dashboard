@@ -2,13 +2,13 @@
   data:
     unplugged:
       Unplug1:
-        title: "Introduction to Computer Science"
-        desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the complicated vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
+        title: "컴퓨터과학(Computer Science, 정보과학) 소개"
+        desc: "이 과정에서는 컴퓨터과학(CS, 정보과학)에서 배울 수 있는, 프로그래밍언어 기초를 소개하고, 컴퓨터과학자(정보과학자)가 어떤 일들을 하는지 설명합니다. 그렇게 함으로서, 학생들이 컴퓨터과학자(정보과학자)의 역할을 알 수 있게 합니다. 활동의 마지막 부분에서 과제가 제시될 수 있습니다. 이후의 여러 과정과 관련된 용어나 단어에 대한 학습을 그냥 넘길 수도 있지만, 나중에 학습하는 것보다, 지금 재미있게 지금 설명해 두는 것이 훨씬 효과적입니다."
         video: "Q1R8gWOAgQw"
         pdfs:
-          - unplug1
+          - 오프라인 활동
       Unplug2:
-        title: "Computational Thinking"
+        title: "컴퓨터과학적사고(Computational Thinking, 정보과학적사고)"
         desc: "With nothing but paper and markers, students will learn the four steps of computational thinking. After a brief introduction, students should be split into groups where they will have to create directions for other students to draw a specific monster (from a catalog of pre-selected monsters). The entire task must be decomposed, then teams will analyze all monsters in the catalog for patterns, abstract similar details from the monsters, then use that information to create an algorithm (directions) for another team to draw a certain monster. Teams will then switch algorithms with another group and draw the monster based on what that algorithm indicates. Is the drawing what the original team intended?"
       Unplug3:
         title: "Graph Paper Programming"

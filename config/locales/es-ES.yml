@@ -46,9 +46,9 @@
     need_confirmation: "¿No recibiste las instrucciones de confirmación?"
     need_unlock: "¿No recibiste las instrucciones de desbloqueo?"
   signup_form:
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_pitch: "Enseña la Introducción K-8 a la informática en tu aula"
     teacher_title: "Profesor Regístrate"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    student_pitch: "Más allá de 1 hora: prueba nuestra Introducción a la informática K-8"
     student_title: "Registrarse"
     school_name: "Nombre de la escuela (opcional)"
     school_address: "Dirección de la escuela (opcional)"
@@ -63,6 +63,8 @@
     valid_password: "Contraseña válida!"
     invalid_password: "La Contraseña debe tener al menos 6 caracteres"
     mismatch_password: "Las dos contraseñas que introdujo no coinciden"
+    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
+    teacher_terms: "I agree to be bound by the Code.org terms of service."
   signin_form:
     title: "Iniciar Sesión"
     login: "Correo electrónico o nombre de usuario"
@@ -108,35 +110,43 @@
     title: "Canjear premios: %{name}"
     provider: "Proveedor:"
     code: "Código:"
-    success: "Your prize was succesfully redeemed, see code below."
-    error: "Your prize could not be redeemed, please try again."
+    redeem_header: "To redeem:"
+    success: "Su premio fue exitosamente redimido, vea el código más abajo."
+    error: "El premio no puede ser redimido, inténtelo nuevamente."
+    error_us_only: "The prize offer is only valid for US users."
     confirm:
       title: "Confirme por favor"
       "no": No
       "yes": Sí
-      msg: "Are you sure you want to claim the %{prize_name} prize?"
+      msg: "¿Seguro que desea reclamar el premio %{prize_name} ?"
       msg_student: "Nota: Sólo se puede elegir un tipo de premio."
+      msg_visit_website: "Visit website"
     providers:
-      apple_itunes: "ITunes de Apple"
-      donors_choose: "DonorsChoose.org $750"
-      donors_choose_bonus: "DonorsChoose.org $250"
-      dropbox: "Dropbox"
-      valve: "Portal válvula"
-      ea_bejeweled: "EA Origin Bejeweled 3"
-      ea_fifa: "EA Origin FIFA Soccer 13"
-      ea_simcity: "EA Origin SimCity 4 Deluxe Edition"
-      ea_pvz: "EA Origin Plants vs. Zombies"
+      apple_itunes: "$10 iTunes Gift Card"
+      donors_choose: "DonorsChoose.org $750 credit"
+      donors_choose_bonus: "DonorsChoose.org $250 credit"
+      dropbox: "10GB of Dropbox Storage"
+      valve: "Portal 2 (PC or Mac game download)"
+      ea_bejeweled: "Bejeweled 3 (PC game download)"
+      ea_fifa: "FIFA Soccer 13 (PC game download)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
+      ea_pvz: "Plants vs. Zombies (PC game download)"
+      skype: "$10 Skype credit"
     student_finished: "Has completado todos los tutoriales. Después de reclamar tu premio, escoge otra clase %{online_link} o en un %{local_school_link}"
     msg:
       choose: "Escoje un premio:"
+      choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Has ganado un premio!"
-      not_earned: "¡Recoge todos los trofeos %{num_trophies} para ganar un premio!"
+      not_earned_title: "Finish the tutorial, earn rewards"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
       teacher:
-        earned: "10 o más estudiantes recogieron todos los trofeos %{num_trophies}. Has ganado un Premio de Maestro!"
-        not_earned: "Si 10 estudiantes recogen todos los trofeos %{num_trophies}, ¡tú ganas un premio!"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
+        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
+        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
         bonus:
-          earned: "40% o más de tus estudiantes que recogieron todos los trofeos %{num_trophies} son mujeres. ¡Has ganado un premio de bonificación!"
-          not_earned: "Si 10 o más estudiantes recogen todos los trofeos %{num_trophies} y al menos el 40% de esos estudiantes son mujeres, ¡tú ganas un premio de bonificación!"
+          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
+          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
   crud:
     new_model: "Nuevo %{model}"
     show: "Mostrar"
@@ -194,9 +204,9 @@
     recent_activity: "Actividad reciente"
     show_more: "Mostrar más"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "o si ya estás registrado %{link}"
+    student_reg_link: "Alumno"
+    teacher_reg_link: "Profesor"
     teacher_dashboard: "Ver panel de progreso"
     teacher_student_count: "Tienes %{count} estudiantes."
     teacher_averages: 'Un promedio de tus estudiantes han ganado %{trophy_average} de %{trophy_max} trofeos "Dominio del Concepto" .'
@@ -214,7 +224,7 @@
     none: "Prefiero no contestar"
   footer:
     help_from_html: 'Los ingenieros de <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> y <a href="http://www.twitter.com"> Twitter</a> ayudaron a crear este tutorial.'
-    art_from_html: 'Ilustraciones de <a href="http://www.angrybirds.com"> Angry Birds</a> de <a href="http://www.rovio.com"> Rovio</a> y <a href="http://www.popcap.com/plants-vs-zombies"> Plants vs Zombies</a> por <a href="http://www.popcap.com"> Popcap</a>.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
     feedback: "Enviar comentarios"
     translate: "Ayúdanos a traducir a tu idioma"
     tos: "Términos del servicio"
@@ -238,5 +248,5 @@
     upgrade: "Por favor actualiza su navegador."
   slow_loading: "Esto está tardando más tiempo de lo habitual..."
   try_reloading: "Intente recargar la página"
-  next_level: "Next Level"
-  download_pdf: "Download PDF"
+  next_level: "Siguiente nivel"
+  download_pdf: "Open Lesson Plan"
