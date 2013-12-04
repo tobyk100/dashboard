@@ -166,7 +166,6 @@
 "pl-PL":
   english: "Polish"
   native: "język polski"
-  debug: true
 
 "pt-BR":
   #TODO: When pt-PT is turned on, indicate Brazil in names.
