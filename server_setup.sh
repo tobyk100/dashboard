@@ -77,12 +77,7 @@ chown $CDO_USER /var/log/unicorn
 /usr/sbin/update-rc.d -f unicorn defaults
 
 # Configure Nginx
-nginx_cfg=/etc/nginx/nginx.conf
-site_cfg=/etc/nginx/sites-enabled/dashboard
-rm -f /etc/nginx/sites-enabled/default $nginx_cfg $site_cfg
-cp $DASH_ROOT/config/nginx.conf $nginx_cfg
-$DASH_ROOT/config/nginx-site.sh > $site_cfg
-service nginx restart
+$DASH_ROOT/scripts/cfg_nginx
 
 # configure logrotate
 cp $DASH_ROOT/config/logrotate /etc/logrotate.d/cdo
