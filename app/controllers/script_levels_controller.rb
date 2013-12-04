@@ -61,7 +61,7 @@ private
     seen = session[:videos_seen] || Set.new()
     @videos.each do |v|
       if !seen.include?(v.key)
-        @autoplay_video_info = video_info(v)
+        @autoplay_video_info = params[:noautoplay] ? nil : video_info(v)
         seen.add(v.key)
         session[:videos_seen] = seen
         break
@@ -71,7 +71,6 @@ private
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
     @callouts = Callout.select(:element_id, :text, :qtip_at, :qtip_my)
-    @autoplay_video_info = nil if params[:noautoplay]
     @fallback_response = {
       success: milestone_response(script_level: @script_level, solved?: true),
       failure: milestone_response(script_level: @script_level, solved?: false)
