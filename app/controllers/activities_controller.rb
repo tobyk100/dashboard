@@ -18,7 +18,7 @@ class ActivitiesController < ApplicationController
     trophy_updates = []
     test_result = params[:testResult].to_i
     lines = params[:lines].to_i
-    script_level = ScriptLevel.find(params[:script_level_id], include: [:script, :level])
+    script_level = ScriptLevel.cache_find(params[:script_level_id].to_i)
     level = script_level.level
 
     if params[:program]

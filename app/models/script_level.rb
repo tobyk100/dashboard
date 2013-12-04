@@ -14,4 +14,9 @@ class ScriptLevel < ActiveRecord::Base
   def previous_level
     self.script.get_script_level_by_chapter(self.chapter - 1)
   end
+
+  def self.cache_find(id)
+    @@script_level_map ||= ScriptLevel.includes(:level, :script).index_by(&:id)
+    @@script_level_map[id]
+  end
 end
