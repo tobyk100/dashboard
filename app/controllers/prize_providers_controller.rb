@@ -23,31 +23,35 @@ class PrizeProvidersController < ApplicationController
 
   # GET /prize_providers/1/claim_prize
   def claim_prize
-    respond_to do |format|
-      if @prize_provider
-        raise 'type parameter missing' if !params[:type].present?
-        prize = case params[:type].downcase
-        when 'teacher'
-          TeacherPrize.assign_to_user(current_user, @prize_provider)
-        when 'teacher_bonus'
-          TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
-        when 'student'
-          Prize.assign_to_user(current_user, @prize_provider)
-        else
-          raise 'type parameter missing'
-        end
-
-        if prize.present?
-          format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.success') }
-          format.json { head :no_content }
-        else
-          format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.error') }
-          format.json { head :no_content }
-        end
+    raise 'no prize_provider' if !@prize_provider.present?
+    raise 'type parameter missing' if !params[:type].present?
+    # confirm that user is in the US here
+    us_user = true if request.location.country_code == 'US'
+    if us_user
+      prize = case params[:type].downcase
+      when 'teacher'
+        TeacherPrize.assign_to_user(current_user, @prize_provider)
+        # e-mail confirmation with code?
+        # PrizeMailer.prize_redeemed(user).deliver
+      when 'teacher_bonus'
+        TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
+        # e-mail confirmation with code?
+        # PrizeMailer.teacher_prize_redeemed(user).deliver
+      when 'student'
+        Prize.assign_to_user(current_user, @prize_provider)
+        # e-mail confirmation with code?
+        # PrizeMailer.teacher_bonus_prize_redeemed(user).deliver
       else
-        format.html { redirect_to my_prizes_url, notice: t('redeem_prizes.error') }
-        format.json { render json: @prize_provider.errors, status: :unprocessable_entity }
+        raise 'type parameter missing'
       end
+    end
+
+    if prize.present?
+      redirect_to my_prizes_url, notice: t('redeem_prizes.success')
+    elsif !us_user
+      redirect_to my_prizes_url, alert: t('redeem_prizes.error_us_only')
+    else
+      redirect_to my_prizes_url, alert: t('redeem_prizes.error')
     end
   end
 

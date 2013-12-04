@@ -76,3 +76,6 @@ gem 'honeybadger'
 gem 'redcarpet'
 
 gem 'newrelic_rpm'
+
+gem 'geocoder'
+

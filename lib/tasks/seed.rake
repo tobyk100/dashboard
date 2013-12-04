@@ -126,15 +126,16 @@ namespace :seed do
   task prize_providers: :environment do
     # placeholder data - id's are assumed to start at 1 so prizes below can be loaded properly
     PrizeProvider.connection.execute('truncate table prize_providers')
-    PrizeProvider.create!(name: 'Apple iTunes', description_token: 'apple_itunes', url: 'http://www.apple.com/itunes/', image_name: 'itunes_card.png')
-    PrizeProvider.create!(name: 'Dropbox', description_token: 'dropbox', url: 'http://www.dropbox.com/', image_name: 'dropbox_card.png')
+    PrizeProvider.create!(name: 'Apple iTunes', description_token: 'apple_itunes', url: 'http://www.apple.com/itunes/', image_name: 'itunes_card.jpg')
+    PrizeProvider.create!(name: 'Dropbox', description_token: 'dropbox', url: 'http://www.dropbox.com/', image_name: 'dropbox_card.jpg')
     PrizeProvider.create!(name: 'Valve Portal', description_token: 'valve', url: 'http://www.valvesoftware.com/games/portal.html', image_name: 'portal2_card.png')
     PrizeProvider.create!(name: 'EA Origin Bejeweled 3', description_token: 'ea_bejeweled', url: 'https://www.origin.com/en-us/store/buy/181609/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'bejeweled_card.jpg')
     PrizeProvider.create!(name: 'EA Origin FIFA Soccer 13', description_token: 'ea_fifa', url: 'https://www.origin.com/en-us/store/buy/fifa-2013/pc-download/base-game/standard-edition-ANW.html', image_name: 'fifa_card.jpg')
     PrizeProvider.create!(name: 'EA Origin SimCity 4 Deluxe', description_token: 'ea_simcity', url: 'https://www.origin.com/en-us/store/buy/sim-city-4/pc-download/base-game/deluxe-edition-ANW.html', image_name: 'simcity_card.jpg')
-    PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'pvz_card.png')
+    PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'pvz_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
+    PrizeProvider.create!(name: 'Skype', description_token: 'skype', url: 'http://www.skype.com/', image_name: 'skype_card.jpg')
   end
 
   task dummy_prizes: :environment do
@@ -153,6 +154,7 @@ namespace :seed do
       Prize.create!(prize_provider_id: 7, code: "EAOR-IGIN-PVSZ-000" + string)
       TeacherPrize.create!(prize_provider_id: 8, code: "DONO-RSCH-OOSE-750" + string)
       TeacherBonusPrize.create!(prize_provider_id: 9, code: "DONO-RSCH-OOSE-250" + string)
+      Prize.create!(prize_provider_id: 10, code: "SKYP-ECRE-DIT0-000" + string)
     end
   end
 
@@ -165,6 +167,65 @@ namespace :seed do
           password: row['Password'],
           password_confirmation: row['Password'],
           birthday: row['Birthday'].blank? ? nil : Date.parse(row['Birthday']))
+    end
+  end
+  
+  def import_prize_from_text(file, provider_id, col_sep)
+    Rails.logger.info "Importing prize codes from: " + file + " for provider id " + provider_id.to_s
+    CSV.read(file, { col_sep: col_sep, headers: false }).each do |row|
+      if row[0].present?
+        Prize.create!(prize_provider_id: provider_id, code: row[0])
+      end
+    end
+  end
+
+  task :import_itunes, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 1, "\t")
+  end
+
+  task :import_dropbox, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 2, "\t")
+  end
+
+  task :import_valve, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 3, "\t")
+  end
+
+  task :import_ea_bejeweled, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 4, "\t")
+  end
+
+  task :import_ea_fifa, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 5, "\t")
+  end
+
+  task :import_ea_simcity, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 6, "\t")
+  end
+
+  task :import_ea_pvz, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 7, "\t")
+  end
+
+  task :import_skype, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 10, ",")
+  end
+
+  task :import_donorschoose_750, [:file] => :environment do |t, args|
+    Rails.logger.info "Importing teacher prize codes from: " + args[:file] + " for provider id 8"
+    CSV.read(args[:file], { col_sep: ",", headers: true }).each do |row|
+      if row['Gift Code'].present?
+        TeacherPrize.create!(prize_provider_id: 8, code: row['Gift Code'])
+      end
+    end
+  end
+
+  task :import_donorschoose_250, [:file] => :environment do |t, args|
+    Rails.logger.info "Importing teacher bonus prize codes from: " + args[:file] + " for provider id 9"
+    CSV.read(args[:file], { col_sep: ",", headers: true }).each do |row|
+      if row['Gift Code'].present?
+        TeacherBonusPrize.create!(prize_provider_id: 9, code: row['Gift Code'])
+      end
     end
   end
 

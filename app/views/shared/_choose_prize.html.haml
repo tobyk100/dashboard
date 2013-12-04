@@ -1,0 +1,11 @@
+- PrizeProvider.all.each do |provider|
+  - if prize_collection.where(:prize_provider_id => provider.id).count > 0
+    .prize-item-grid
+      %p
+        - confirm_msg = '<h4>' + t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token)) + '</h4>'
+        - confirm_msg += (t('redeem_prizes.confirm.msg_student') + '<br><br>') if (prize_type === 'student')
+        - confirm_msg += '<a target="_blank" href="' + provider.url + '">' + t('redeem_prizes.confirm.msg_visit_website') + '</a>'
+        - confirm_msg += '<br><br><div class="prize-confirm-redemption">' + Dashboard::Application::config.prize_providers[provider.description_token]['redemption'] + '</div>'
+        = link_to prize_provider_claim_prize_path(provider.id, :type => prize_type), :confirm => confirm_msg do
+          = image_tag(provider.image_name, :class => 'prize-card-img')
+          = t('redeem_prizes.providers.' + provider.description_token)

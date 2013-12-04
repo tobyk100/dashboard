@@ -187,7 +187,7 @@ class ActivitiesController < ApplicationController
     if user.trophy_count == (Concept.cached.length * Trophy::TROPHIES_PER_CONCEPT)
       if !user.prize_earned
         # send e-mail
-        PrizeMailer.prize_earned(user).deliver
+        PrizeMailer.prize_earned(user).deliver if user.email.present?
         user.prize_earned = true
         user.save!
       end
@@ -199,14 +199,14 @@ class ActivitiesController < ApplicationController
         t_prize, t_bonus = teacher.check_teacher_prize_eligibility
         if t_prize && !teacher.teacher_prize_earned
           # send e-mail
-          PrizeMailer.teacher_prize_earned(teacher).deliver
+          PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present?
           teacher.teacher_prize_earned = true
           teacher.save!
         end
 
         if t_bonus && !teacher.teacher_bonus_prize_earned
           # send e-mail
-          PrizeMailer.teacher_bonus_prize_earned(teacher).deliver
+          PrizeMailer.teacher_bonus_prize_earned(teacher).deliver if teacher.email.present?
           teacher.teacher_bonus_prize_earned = true
           teacher.save!
         end

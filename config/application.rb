@@ -1,6 +1,9 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+
+require_relative 'geocoder'
+
 require 'bootstrap-sass'
 
 # Require the gems listed in Gemfile, including any gems
@@ -15,6 +18,8 @@ module Dashboard
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    
+    config.geocoder_server = "ec2-54-224-106-25.compute-1.amazonaws.com"
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
@@ -36,6 +41,8 @@ module Dashboard
         config.i18n.fallbacks[locale] = data[:fallback]
       end
     end
+
+    config.prize_providers = YAML.load_file("#{Rails.root}/config/prize_providers.yml")
 
     # Hack for cache busting.
     # Extracts version number from package.json of Blockly apps.

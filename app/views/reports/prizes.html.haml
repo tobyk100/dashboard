@@ -3,39 +3,7 @@
 %h1= @page_title
 
 %br/
-%h4 #{t('home.student_progress')}:
-= t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
-%br/
-%br/
-
-- if current_user.prize_earned
-  %h4= t('redeem_prizes.msg.earned')
-  - if current_user.prize
-    = render partial: 'shared/redeemed_prize', locals: { prize: current_user.prize }
-  - else
-    #{t('redeem_prizes.msg.choose')}
-    %br/
-    - PrizeProvider.all.each do |provider|
-      - if Prize.where(:prize_provider_id => provider.id).count > 0
-        %div{style:"min-width: 300px;float:left;"}
-          %p
-            = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'student'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token)) + '<br><br>' + t('redeem_prizes.confirm.msg_student')
-          = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
-  %div{style:"clear:left;"}
-    %br/
-    = raw t('redeem_prizes.student_finished', online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
-- else
-  %h4= t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)
-  - script_level = current_user.next_untried_level(Script.twenty_hour_script)
-  - if script_level
-    #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
-    = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
-      = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
-
-%br/
-%br/
 - if current_user.students.length > 0
-  %hr/
   %h4 #{t('home.classroom')}:
 
   %p
@@ -49,36 +17,69 @@
     - if current_user.teacher_prize
       = render partial: 'shared/redeemed_prize', locals: { prize: current_user.teacher_prize }
     - else
-      #{t('redeem_prizes.msg.choose')}
+      = t('redeem_prizes.msg.choose_teacher')
       %br/
-      - PrizeProvider.all.each do |provider|
-        - if TeacherPrize.where(:prize_provider_id => provider.id).count > 0
-          %div{style:"min-width: 300px;float:left;"}
-            %p
-              = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'teacher'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token))
-            = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
+      %br/
+      = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherPrize, prize_type: 'teacher' }
   - else
-    %h4= t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX)
+    %h4= t('redeem_prizes.msg.teacher.not_earned_title')
+    = t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX)
   %div{style:"clear:left;"}
     %br/
 
-  - if current_user.teacher_bonus_prize_earned
-    %h4= t('redeem_prizes.msg.teacher.bonus.earned', num_trophies: Trophy::TROPHY_MAX)
-    - if current_user.teacher_bonus_prize
-      = render partial: 'shared/redeemed_prize', locals: { prize: current_user.teacher_bonus_prize }
+  - if current_user.teacher_prize_earned
+    - if current_user.teacher_bonus_prize_earned
+      %h4= t('redeem_prizes.msg.teacher.bonus.earned', num_trophies: Trophy::TROPHY_MAX)
+      - if current_user.teacher_bonus_prize
+        = render partial: 'shared/redeemed_prize', locals: { prize: current_user.teacher_bonus_prize }
+      - else
+        = t('redeem_prizes.msg.choose_teacher')
+        %br/
+        %br/
+        = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherBonusPrize, prize_type: 'teacher_bonus' }
     - else
-      #{t('redeem_prizes.msg.choose')}
-      %br/
-      - PrizeProvider.all.each do |provider|
-        - if TeacherBonusPrize.where(:prize_provider_id => provider.id).count > 0
-          %div{style:"min-width: 300px;float:left;"}
-            %p
-              = link_to image_tag(provider.image_name), prize_provider_claim_prize_path(provider.id, :type => 'teacher_bonus'), :confirm => t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token))
-            = link_to(t('redeem_prizes.providers.' + provider.description_token), provider.url)
+      %h4= t('redeem_prizes.msg.teacher.bonus.not_earned_title')
+      = t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX)
+    %div{style:"clear:left;"}
+  %hr/
+%h4 #{t('home.student_progress')}:
+= t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
+%br/
+%br/
+
+- if current_user.prize_earned
+  %h4= t('redeem_prizes.msg.earned')
+  - if current_user.prize
+    = render partial: 'shared/redeemed_prize', locals: { prize: current_user.prize }
   - else
-    %h4= t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX)
+    = t('redeem_prizes.msg.choose')
+    %br/
+    %br/
+    = render partial: 'shared/choose_prize', locals: { prize_collection: Prize, prize_type: 'student' }
   %div{style:"clear:left;"}
     %br/
+    = raw t('redeem_prizes.student_finished', online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
+- else
+  %h4= t('redeem_prizes.msg.not_earned_title')
+  = t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)
+  %br/
+  %br/
+  %div{style:"clear:left;"}
+  - PrizeProvider.all.each do |provider|
+    - if Prize.where(:prize_provider_id => provider.id).count > 0
+      .prize-item-mini-grid
+        %p
+          = image_tag(provider.image_name, :class => 'prize-card-mini-img')
+  %div{style:"clear:left;"}
+  %br/
+  %br/
+  - script_level = current_user.next_untried_level(Script.twenty_hour_script)
+  - if script_level
+    #{t('home.student_left_off')} #{t('stage')} #{script_level.level.game_id} #{t('puzzle')} #{script_level.game_chapter}
+    = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
+      = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
+
+%br/
 :javascript
   $(document).ready(function() {
     $('a[data-confirm]').click(function(ev) {
