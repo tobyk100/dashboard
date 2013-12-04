@@ -186,10 +186,12 @@ class ActivitiesController < ApplicationController
   def prize_check(user)
     if user.trophy_count == (Concept.cached.length * Trophy::TROPHIES_PER_CONCEPT)
       if !user.prize_earned
-        # send e-mail
-        PrizeMailer.prize_earned(user).deliver if user.email.present?
         user.prize_earned = true
         user.save!
+        # send e-mail for US users only
+        if request.location.country_code == 'US'
+          PrizeMailer.prize_earned(user).deliver if user.email.present?
+        end
       end
 
       # for awarding prizes, we only honor the first (primary) teacher
@@ -198,17 +200,21 @@ class ActivitiesController < ApplicationController
       if teacher && (!teacher.teacher_prize_earned || !teacher.teacher_bonus_prize_earned)
         t_prize, t_bonus = teacher.check_teacher_prize_eligibility
         if t_prize && !teacher.teacher_prize_earned
-          # send e-mail
-          PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present?
           teacher.teacher_prize_earned = true
           teacher.save!
+          # send e-mail for US users only (ideally, we'd check if the teacher is in the US)
+          if request.location.country_code == 'US'
+            PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present?
+          end
         end
 
         if t_bonus && !teacher.teacher_bonus_prize_earned
-          # send e-mail
-          PrizeMailer.teacher_bonus_prize_earned(teacher).deliver if teacher.email.present?
           teacher.teacher_bonus_prize_earned = true
           teacher.save!
+          # send e-mail for US users only (ideally, we'd check if the teacher is in the US)
+          if request.location.country_code == 'US'
+            PrizeMailer.teacher_bonus_prize_earned(teacher).deliver if teacher.email.present?
+          end
         end
       end
     end
