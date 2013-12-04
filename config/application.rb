@@ -6,12 +6,16 @@ require_relative 'geocoder'
 
 require 'bootstrap-sass'
 
+require_relative 'middleware/video_filter'
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
 module Dashboard
   class Application < Rails::Application
+    config.middleware.insert_before(ActionDispatch::Static, VideoFilter)
+
     config.generators do |g|
       g.template_engine :haml
     end

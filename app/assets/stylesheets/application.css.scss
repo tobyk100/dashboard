@@ -691,6 +691,21 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   }
 }
 
+a.download-video {
+  z-index: 1;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  &:hover {
+    background: none;
+  }
+  img:hover {
+    width: 41px;
+    height: 41px;
+    margin-bottom: -1px;
+  }
+}
+
 #warning-banner {
   font-size: 36px;
   line-height: 36px;

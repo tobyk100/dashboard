@@ -57,7 +57,7 @@ class ApplicationController < ActionController::Base
         end
         # Get the wrap up video
         video = script_level.script.wrapup_video
-        response[:video_info] = { src: youtube_url(video.youtube_code),  key: video.key, name: data_t('video.name', video.key), redirect: redirect} if video
+        response[:video_info] =  video_info(video)[:redirect] = redirect if video
         response[:message] = 'no more levels'
       end
       # Get the next_level setup

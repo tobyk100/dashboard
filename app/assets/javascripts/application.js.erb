@@ -118,6 +118,12 @@ function showVideo(options) {
   var tabHeight = $div.find('.ui-tabs-nav').outerHeight();
   var divHeight = $div.innerHeight() - tabHeight;
   $(video).height(divHeight);
+
+  var download = $('<a/>').append($('<img src="<%= asset_path 'download_button.png' %>"/>'))
+                          .addClass('download-video')
+                          .attr('href', options.download);
+  var nav = $('.ui-tabs-nav');
+  nav.append(download);
   notesDiv.height(divHeight);
 }
 
