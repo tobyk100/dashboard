@@ -136,6 +136,7 @@ en:
     success: 'Your prize was succesfully redeemed, see code below.'
     error: 'Your prize could not be redeemed, please try again.'
     error_us_only: 'The prize offer is only valid for U.S. users.'
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: 'Please Confirm'
       'no': 'No'
