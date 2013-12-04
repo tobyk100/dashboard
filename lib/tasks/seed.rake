@@ -135,7 +135,7 @@ namespace :seed do
     PrizeProvider.create!(name: 'EA Origin Plants vs. Zombies', description_token: 'ea_pvz', url: 'https://www.origin.com/en-us/store/buy/plants-vs-zombies/mac-pc-download/base-game/standard-edition-ANW.html', image_name: 'pvz_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $750', description_token: 'donors_choose', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
     PrizeProvider.create!(name: 'DonorsChoose.org $250', description_token: 'donors_choose_bonus', url: 'http://www.donorschoose.org/', image_name: 'donorschoose_card.jpg')
-    PrizeProvider.create!(name: 'Skype', description_token: 'skype', url: 'http://www.skype.com/', image_name: 'skype_card.png')
+    PrizeProvider.create!(name: 'Skype', description_token: 'skype', url: 'http://www.skype.com/', image_name: 'skype_card.jpg')
   end
 
   task dummy_prizes: :environment do
@@ -168,6 +168,47 @@ namespace :seed do
           password_confirmation: row['Password'],
           birthday: row['Birthday'].blank? ? nil : Date.parse(row['Birthday']))
     end
+  end
+  
+  def import_prize_from_text(file, provider_id, col_sep)
+    Rails.logger.info "Importing prize codes from: " + file + " for provider id " + provider_id.to_s
+    CSV.read(file, { col_sep: col_sep, headers: false }).each do |row|
+      if row[0].present?
+        Prize.create!(prize_provider_id: provider_id, code: row[0])
+      end
+    end
+  end
+
+  task :import_itunes, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 1, "\t")
+  end
+
+  task :import_dropbox, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 2, "\t")
+  end
+
+  task :import_valve, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 3, "\t")
+  end
+
+  task :import_ea_bejeweled, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 4, "\t")
+  end
+
+  task :import_ea_fifa, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 5, "\t")
+  end
+
+  task :import_ea_simcity, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 6, "\t")
+  end
+
+  task :import_ea_pvz, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 7, "\t")
+  end
+
+  task :import_skype, [:file] => :environment do |t, args|
+    import_prize_from_text(args[:file], 10, ",")
   end
 
   task all: [:videos, :concepts, :games, :callouts, :scripts, :trophies, :prize_providers]
