@@ -22,8 +22,8 @@
       %br/
       = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherPrize, prize_type: 'teacher' }
   - else
-    %h4= t('redeem_prizes.msg.teacher.not_earned_title')
-    = t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX)
+    %h4= sanitize(t('redeem_prizes.msg.teacher.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
+    = sanitize(t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
   %div{style:"clear:left;"}
     %br/
 
@@ -38,8 +38,8 @@
         %br/
         = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherBonusPrize, prize_type: 'teacher_bonus' }
     - else
-      %h4= t('redeem_prizes.msg.teacher.bonus.not_earned_title')
-      = t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX)
+      %h4= sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
+      = sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
     %div{style:"clear:left;"}
   %hr/
 %h4 #{t('home.student_progress')}:
@@ -64,13 +64,7 @@
   = t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)
   %br/
   %br/
-  %div{style:"clear:left;"}
-  - PrizeProvider.all.each do |provider|
-    - if Prize.where(:prize_provider_id => provider.id).count > 0
-      .prize-item-mini-grid
-        %p
-          = image_tag(provider.image_name, :class => 'prize-card-mini-img')
-  %div{style:"clear:left;"}
+  = render partial: 'shared/student_prize_mini_grid'
   %br/
   %br/
   - script_level = current_user.next_untried_level(Script.twenty_hour_script)
