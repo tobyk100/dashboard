@@ -26,7 +26,7 @@ class PrizeProvidersController < ApplicationController
     raise 'no prize_provider' if !@prize_provider.present?
     raise 'type parameter missing' if !params[:type].present?
     # confirm that user is in the US here
-    us_user = true if (request.location.country_code === 'US')
+    us_user = true if request.location.country_code == 'US'
     if us_user
       prize = case params[:type].downcase
       when 'teacher'
