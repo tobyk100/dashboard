@@ -1,13 +1,13 @@
 Key	Name	Concepts	YoutubeCode	Download
-maze_intro	Maze Intro		bQilo5ecSX4	code-lit-small.mov
-artist_intro	Artist Intro		ws8rmHcqXeM
-farmer_intro	Farmer Intro		G6N67RXQ9fk
-loop_times	Repeat times block	loop_times	mgooqyWMTxk
-loop_until	Repeat until block	loop_until	G2hdlhDYICw
-if	If block	if	m2Ux2PnJe6E
-if_else	If/else block	if_else	JtL7w6ja5iI
-function	Functions	function	Esp1kkKFpg0
-loop_while	While block	loop_while	F8H-41bpJ6E
-loop_for	Counter block	loop_for	6t666o9-HHs
+maze_intro	Maze Intro		bQilo5ecSX4	https://s3.amazonaws.com/cdo-videos/HoC-1-intro_1.mp4
+artist_intro	Artist Intro		ws8rmHcqXeM	https://s3.amazonaws.com/cdo-videos/Stage_5-artist-intro_1.mp4
+farmer_intro	Farmer Intro		G6N67RXQ9fk	https://s3.amazonaws.com/cdo-videos/Stage_9-farmer-intro.mp4
+loop_times	Repeat times block	loop_times	mgooqyWMTxk	https://s3.amazonaws.com/cdo-videos/HoC-2-zuck-repeat-loop_1.mp4
+loop_until	Repeat until block	loop_until	G2hdlhDYICw	https://s3.amazonaws.com/cdo-videos/HoC-3-Bosh-Repeat-Until_1.mp4
+if	If block	if	m2Ux2PnJe6E	https://s3.amazonaws.com/cdo-videos/HoC-4-Bill+Gates-IF-STATEMENTS_1.mp4
+if_else	If/else block	if_else	JtL7w6ja5iI	https://s3.amazonaws.com/cdo-videos/HoC-5-saloni-ifelse_1.mp4
+function	Functions	function	Esp1kkKFpg0	https://s3.amazonaws.com/cdo-videos/Stage_15-artist4-function-w-parameters_1.mp4
+loop_while	While block	loop_while	F8H-41bpJ6E	https://s3.amazonaws.com/cdo-videos/Stage_13_farmer2-while-block_1.mp4
+loop_for	Counter block	loop_for	6t666o9-HHs	https://s3.amazonaws.com/cdo-videos/Stage_11-artist3-counter-loops_1.mp4
 parameters	Functions with parameters	parameters	w6T7nynqRpw
-hoc_wrapup	HoC wrapup		98Wft30gUQE
+hoc_wrapup	HoC wrapup		98Wft30gUQE	https://s3.amazonaws.com/cdo-videos/HoC-6-wrap-up-final_1.mp4
