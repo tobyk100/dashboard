@@ -18,4 +18,4 @@
       - elsif
         #{t('nav.popup.prizes', total_trophies: concept_progress.length * Trophy::TROPHIES_PER_CONCEPT)}
       <br>
-      =link_to t('nav.popup.prizes_link'), my_prizes_path
+      #{t('nav.popup.prize_us_only')} #{link_to t('nav.popup.prizes_link'), my_prizes_path}
