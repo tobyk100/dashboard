@@ -2,9 +2,34 @@
 
 .row
   .span12
-    -#%h2= t('signup_form.pitch')
-    -#= image_tag 'signup_header.png'
-    %h2= t('signup_form.title')
+    %h1= resource.student? ? t('signup_form.student_pitch') : t('signup_form.teacher_pitch')
+    = image_tag 'signup_header.jpg'
+    %br/
+    %br/
+    - if resource.student?
+      = t('signup_form.overview')
+
+      %h4= t('signup_form.no_signup_header')
+      = sanitize(t('signup_form.no_signup_message').html_safe, tags: %w(a), attributes: %w(href target))
+
+      %h4= t('signup_form.prizes_header')
+      = t('signup_form.prizes_message', num_trophies: Trophy::TROPHY_MAX)
+      %br/
+      %br/
+      = render partial: 'shared/student_prize_mini_grid'
+      %br/
+      %br/
+
+      %h2= t('signup_form.student_title')
+    - else
+      = t('signup_form.overview')
+      = link_to t('signup_form.teacher_educator_guide'), 'http://code.org/educate/20hr', :target => '_blank'
+
+      = # Remove two lines of comments Monday when DonorsChoose is public
+      = # %h4= sanitize(t('signup_form.teacher_prize_header').html_safe, tags: %w(a), attributes: %w(href target))
+      = # = sanitize(t('signup_form.teacher_prize_message').html_safe, tags: %w(a), attributes: %w(href target))
+
+      %h2= t('signup_form.teacher_title')
 
 .row
   .span8
@@ -52,7 +77,9 @@
           = f.text_field(:birthday, id: "user_birthday", placeholder: t('signup_form.birthday'))
 
       = f.submit t('signup_form.submit'), class: "btn btn-primary"
-
+      %br/
+      %br/
+      = resource.student? ? t('signup_form.student_terms') : t('signup_form.teacher_terms')
   .span4
     %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }
       - if !resource.teacher?

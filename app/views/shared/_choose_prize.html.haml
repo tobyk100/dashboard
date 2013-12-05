@@ -1,5 +1,7 @@
+- found_provider = false
 - PrizeProvider.all.each do |provider|
-  - if prize_collection.where(:prize_provider_id => provider.id).count > 0
+  - if prize_collection.where(:prize_provider_id => provider.id).where(:user_id => nil).count > 0
+    - found_provider = true
     .prize-item-grid
       %p
         - confirm_msg = '<h4>' + t('redeem_prizes.confirm.msg', prize_name: t('redeem_prizes.providers.' + provider.description_token)) + '</h4>'
@@ -9,3 +11,9 @@
         = link_to prize_provider_claim_prize_path(provider.id, :type => prize_type), :confirm => confirm_msg do
           = image_tag(provider.image_name, :class => 'prize-card-img')
           = t('redeem_prizes.providers.' + provider.description_token)
+- if !found_provider
+  %br/
+  %br/
+  = t('redeem_prizes.no_prizes_available')
+  %br/
+  %br/
