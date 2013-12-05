@@ -9,6 +9,12 @@ server {
   listen 80 default deferred;
   # server_name example.com;
 
+  location /nginx_status {
+    stub_status on;
+    access_log off;
+    break;
+  }
+
   root ${DASH_ROOT}/public;
   try_files \$uri/index.html \$uri @unicorn;
 
