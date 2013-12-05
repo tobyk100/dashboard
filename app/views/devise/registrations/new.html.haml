@@ -7,13 +7,13 @@
     %br/
     %br/
     - if resource.student?
-      This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages.
+      = t('signup_form.overview')
 
-      %h4 Don't want to sign up?
-      You can #{link_to "browse the various stages and puzzles", "http://learn.code.org"}, but you will need to sign up to save your progress.
+      %h4= t('signup_form.no_signup_header')
+      = sanitize(t('signup_form.no_signup_message').html_safe, tags: %w(a), attributes: %w(href target))
 
-      %h4 The first students to complete the course win prizes! (U.S. students only)
-      U.S. students who earn all #{Trophy::TROPHY_MAX} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve.
+      %h4= t('signup_form.prizes_header')
+      = t('signup_form.prizes_message', num_trophies: Trophy::TROPHY_MAX)
       %br/
       %br/
       = render partial: 'shared/student_prize_mini_grid'
@@ -22,12 +22,12 @@
 
       %h2= t('signup_form.student_title')
     - else
-      This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages.
-      = link_to 'See educator guide', 'http://code.org/educate/20hr'
+      = t('signup_form.overview')
+      = link_to t('signup_form.teacher_educator_guide'), 'http://code.org/educate/20hr', :target => '_blank'
 
       = # Remove two lines of comments Monday when DonorsChoose is public
-      = # %h4 Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards
-      = # In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.
+      = # %h4= sanitize(t('signup_form.teacher_prize_header').html_safe, tags: %w(a), attributes: %w(href target))
+      = # = sanitize(t('signup_form.teacher_prize_message').html_safe, tags: %w(a), attributes: %w(href target))
 
       %h2= t('signup_form.teacher_title')
 
