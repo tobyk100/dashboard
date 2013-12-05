@@ -8,7 +8,7 @@
   });
 
 - if !@section
-  Url didn't include a valid code, please enter the code shared with you by your teacher. It's a 6-character code made up of letters and numbers
+  Please enter the code shared with you by your teacher. It's a 6-character code made up of letters and numbers
   %br/
   = form_tag(student_user_new_path, method: 'GET') do
     = text_field_tag(:section_code, params[:section_code], placeholder: "6-character code (ABCDEF)")

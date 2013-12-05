@@ -11,7 +11,7 @@
           = link_to t('home.teacher_student_count', count: current_user.students.length), manage_followers_path
           = t('home.teacher_averages', trophy_average: ("%.1f" % current_user.average_student_trophies), trophy_max: Trophy::TROPHY_MAX)
 
-        = link_to t('home.teacher_dashboard'), followers_path
+        = render partial: 'shared/teacher_nav', locals: { current: 'home' }
         %hr
 
       %h4 #{t('home.student_progress')}:
