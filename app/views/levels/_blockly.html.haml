@@ -26,13 +26,9 @@
   - @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
   - @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
 
-  - if @autoplay_video
+  - if @autoplay_video_info
     :javascript
-      showVideo({
-        src: #{youtube_url(@autoplay_video.youtube_code).to_json},
-        key: '#{@autoplay_video.key}',
-        name: '#{data_t('video.name', @autoplay_video.key)}'
-      });
+      showVideo(#{@autoplay_video_info.to_json})
 
   :javascript
     // See assets/javascripts/sendReport for definition of nextRedirect etc.
@@ -66,7 +62,8 @@
             showVideo({
               src: $(this).attr('data-src'),
               name: $(this).attr('data-name'),
-              key: $(this).attr('data-key')
+              key: $(this).attr('data-key'),
+              download: $(this).attr('data-download')
             });
           }, this));
         });

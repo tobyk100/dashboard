@@ -65,6 +65,10 @@ module ApplicationHelper
     asset_url("/c/video_thumbnails/#{video.id}.jpg")
   end
 
+  def video_info(video)
+    { src: youtube_url(video.youtube_code), key: video.key, name: data_t('video.name', video.key), download: video.download }
+  end
+
   def format_xml(xml)
     doc = Nokogiri::XML(xml)
     doc.to_xhtml
