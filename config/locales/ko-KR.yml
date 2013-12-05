@@ -46,6 +46,14 @@
     need_confirmation: "확인 메일을 받지 못 했나요?"
     need_unlock: "잠김 해제 메일을 받지 못 했나요?"
   signup_form:
+    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
+    no_signup_header: "Don't want to sign up?"
+    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    teacher_educator_guide: "See educator guide"
+    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "컴퓨터과학(Computer Science, 정보과학)의 내용을, 유치원~중2(K-8) 학생들과 함께 하세요"
     teacher_title: "선생님으로 등록하기"
     student_pitch: "Beyond 1 hour:  컴퓨터과학(Computer Science, 정보과학) 기초개념학습 코스 더 해보기"
@@ -63,8 +71,8 @@
     valid_password: "사용 가능한 비밀번호!"
     invalid_password: "비밀번호는 최소 6 문자 이상이어야 합니다"
     mismatch_password: "입력한 비밀번호가 일치하지 않습니다."
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "Code.org 의 서비스 약관을 준수할 것에 동의합니다. 13세 미만의 경우, 부모님 또는 보호자의 허락을 얻어 Code.org 사이트의 서비스를 사용하는 것임을 확인합니다."
+    teacher_terms: "Code.org 의 서비스 약관을 준수할 것에 동의합니다."
   signin_form:
     title: "로그인"
     login: "이메일 또는 아이디"
@@ -113,7 +121,8 @@
     redeem_header: "To redeem:"
     success: "상품을 Redeem 코드로 교환하였습니다. 코드를 확인하세요."
     error: "상품을 Redeem 코드로 교환할 수 없습니다. 다시 시도해 보세요."
-    error_us_only: "The prize offer is only valid for US users."
+    error_us_only: "The prize offer is only valid for U.S. users."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Redeem 코드 확인"
       "no": 아니요
@@ -135,18 +144,18 @@
     student_finished: "모든 기초개념학습 과정을 완료하였습니다. 상품을 받은 후에는 다른 학급 %{online_link} 이나 학교 수업 %{local_school_link} 에 참여해 보세요"
     msg:
       choose: "상품을 선택하세요:"
-      choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "상품을 받았습니다!"
-      not_earned_title: "Finish the tutorial, earn rewards"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
+      choose_teacher: "아래에서 상품 로고를 선택하세요:"
+      earned: "You have earned a prize! (U.S. students only)"
+      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
-        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
-        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
-          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
-          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
+          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "%{model} 만들기"
     show: "보기"
@@ -179,6 +188,7 @@
       puzzle_map: "단계"
       prizes: "트로피를 모두(%{total_trophies} 개) 모아 상품을 받으세요!"
       prize_earned: "트로피를 모두(총 %{total_trophies} 개) 모았습니다. 상품을 받으세요!"
+      prize_us_only: "(U.S. students only)"
       prizes_link: "상품 살펴보기"
   teacher:
     title:
@@ -208,6 +218,7 @@
     student_reg_link: "학생 가입"
     teacher_reg_link: "선생님 가입"
     teacher_dashboard: "학습 현황"
+    teacher_student_count_one: "You have %{count} student."
     teacher_student_count: "나의 학생들은 %{count} 명 입니다."
     teacher_averages: '나의 학생들은, 평균 %{trophy_average} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
     classroom: "내 학급"

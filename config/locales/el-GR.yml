@@ -46,6 +46,14 @@
     need_confirmation: "Δεν έλαβες τις οδηγίες επιβεβαίωσης;"
     need_unlock: "Δεν έλαβες τις οδηγίες ξεκλειδώματος;"
   signup_form:
+    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
+    no_signup_header: "Don't want to sign up?"
+    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    teacher_educator_guide: "See educator guide"
+    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "Δίδαξε την Εισαγωγή στην Επιστήμη Υπολογιστών για το Δημοτικό στην τάξη σου"
     teacher_title: "Εγγραφή Δασκάλου"
     student_pitch: "Πέρα από τη 1 ώρα: δοκιμάστε την Εισαγωγή στην Επιστήμη Υπολογιστών για το Δημοτικό"
@@ -63,8 +71,8 @@
     valid_password: "Έγκυρος κωδικός πρόσβασης!"
     invalid_password: "Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 6 χαρακτήρες"
     mismatch_password: "Οι δύο κωδικοί πρόσβασης που καταχωρήσατε δεν ταιριάζουν"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "Συμφωνώ ότι δεσμεύομαι από τους όρους της υπηρεσίας Code.org. Εάν είμαι κάτω των 13 ετών, επιβεβαιώνω με την υποβολή αυτής της φόρμας ότι έχω την άδεια του γονέα ή νόμιμου κηδεμόνα να χρησιμοποιήσω τις υπηρεσίες του Code.org."
+    teacher_terms: "Συμφωνώ ότι δεσμεύομαι από τους όρους της υπηρεσίας Code.org."
   signin_form:
     title: "Σύνδεση"
     login: "Email ή όνομα χρήστη"
@@ -113,7 +121,8 @@
     redeem_header: "To redeem:"
     success: "Το βραβείο σας εξαργυρώθηκε με επιτυχία, δες τον παρακάτω κωδικό."
     error: "Το βραβείο σας δεν ήταν δυνατόν να εξαργυρωθεί, παρακαλώ προσπαθήστε ξανά."
-    error_us_only: "The prize offer is only valid for US users."
+    error_us_only: "The prize offer is only valid for U.S. users."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Παρακαλώ Επιβεβαιώστε"
       "no": Όχι
@@ -136,17 +145,17 @@
     msg:
       choose: "Επιλέξτε βραβείο:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "Έχετε κερδίσει ένα βραβείο!"
-      not_earned_title: "Finish the tutorial, earn rewards"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
+      earned: "You have earned a prize! (U.S. students only)"
+      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
-        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
-        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
-          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
-          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
+          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Νέο %{model}"
     show: "Εμφάνιση"
@@ -179,6 +188,7 @@
       puzzle_map: "Επίπεδα"
       prizes: "Μάζεψε όλα τα %{total_trophies} βραβεία και κέρδισε δώρα!"
       prize_earned: "Συλλέχθηκαν και τα %{total_trophies} τρόπαια. Κερδίσατε ένα βραβείο!"
+      prize_us_only: "(U.S. students only)"
       prizes_link: "περισσότερα"
   teacher:
     title:
@@ -208,6 +218,7 @@
     student_reg_link: "Μαθητής"
     teacher_reg_link: "Δάσκαλος"
     teacher_dashboard: "Προβολη σύνοψης προόδου"
+    teacher_student_count_one: "You have %{count} student."
     teacher_student_count: "Εχεις %{count} μαθητές."
     teacher_averages: 'Οι μαθητές σου έχουν κερδίσει κατά μέσο όρο %{trophy_average} από %{trophy_max} βραβεία "Μαεστρίας".'
     classroom: "Η αίθουσά σου"
@@ -249,4 +260,4 @@
   slow_loading: "Αυτό διαρκεί περισσότερο από ότι συνήθως..."
   try_reloading: "Δοκίμασε να φορτώσεις ξανά τη σελίδα"
   next_level: "Επόμενο Επίπεδο"
-  download_pdf: "Open Lesson Plan"
+  download_pdf: "Σχέδιο ανοικτού μαθήματος"

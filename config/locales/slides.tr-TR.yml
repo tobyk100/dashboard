@@ -60,72 +60,65 @@
         text: 'Biz bize yardımcı olması için yeni "tekrar" bloğunu kullanabiliriz.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: '5 "ilerle" blogunu dışarı sürüklemek yerine...'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: '"İlerle" blogunu "tekrar" blogunun içine koyabilir ve blogun içine kaç kez tekrarlaması gerektiğini gösteren bir sayı yazabiliriz.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 've bu önemli: "Tekrar" blogunun içine birden fazla komut yerleştirebiliriz.'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Yeni "Tekrar" blogunu kullanmanın keyfini çıkar!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
         text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+          Merhaba, ben Chris . Miami Heat'e katılmadan önce Bilgisayar Bilimleri Eğitim için Georgia Tech 'e gittim. Hadi bizim yeni "tekrar et" bloğumuzu deneyelim.
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Eğer kuşun domuzu alması için gitmesi gereken uzaklığı bilmeseydik?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'Eğer, "ilerle" blogunu "repeat until" blogunun içine koyarsak, kuş domuzu alana kadar (veya bir duvara çarpana kadar) ilerler.'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'bu önemli: önceki gibi, "repeat until" blogunun içine birden fazla blok yerleştirebiliriz ve bunların tamamı tekrarlanır.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Merhaba, ben Bill! Yeni bir temel kavram öğrenelim: "Eğer" deyimleri. Bunlar bilgisayarlar kararları nasıl aldığını gösterir.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Sen de "eğer" ifadesini her gün kullanıyorsun. Her sabah dışarı çıkmadan önce EĞER dersin, dışarıda yağmur yağıyorsa, ceketimi giyinmeliyim.'
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Zombiye solda bir yol olup olmadığını kontrol etmesini, ve EĞER solda bir yol bulursa o yöne dönmesi gerektiğini söyleyebiliriz."
       4:
         image: "notes/hoc4_4.jpg"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Bunun için kod yazmak için, "if" blogunu dışarı sürükle ve bir "sola dön" blogunu onun içine yerleştir.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Şimdi, eğer bunun üzerine bir  "ilerle" blogu ve hepsinin çevresine bir "takrar" blogu koyarsak, zombi her hareket edişinde, solda bir patika olup olmadığını kontrol edecek ve dönecek. "Tekrar" komutu her adımda dönüşü kontrol etmek için çok önemli.'
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: "Eğer deyimleri Bilgisayar Biliminde çok önemli. Yazdığım ilk programlardan biri Tic Tac Toe oyunu, ve orada şöyle bir Eğer deyimi vardı:  EĞER bir kişi kazanmak üzereyse, kazanmasını engellemek üzere o noktanın önünü kes."
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Have fun using the "if" block!'
+        text: '"if" blogunu kullanarak eğlenin!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Merhaba, benim adım Saloni olduğunu. Bilgisayar Bilimlerini sağlık ve tıp sorunları çözmeye yardımcı olmak için kullanıyorum. Hadi "Eğer başka" blogu hakkında bir şeyler öğrenelim. "Eğer" bloğu gibi görünüyor ama "başka" diyor sonunda, fazladan bir parçası vardır.'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Eğer "yap" diyen noktaya "ilerle" blogu ve "başka" diyen noktaya da "sola dön" blogu yerleştirirsem bu demektir ki zombi iki seçenekten birini seçecektir. EĞER önünde yol varsa, zombi ileri hareket edecek, aksi takdirde (önünde yol yoksa), zombi sola dönecektir.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: '"eğer" blogu gibi, "eğer başka" blogunu da "tekrar" blogunun içine yerleştirebiliriz, bu sayede zombi hareket etmeye devam edecek ve aynı zamanda "eğer başka" blogu da dönülecek bir yer olup olmadığını kontrol edecek.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "Şimdi, zombileri ait oldukları yerden al!"
     function:
       1:
         image: "notes/bird.png"
@@ -145,16 +138,16 @@
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Tebrikler! Çözdüğün son bulmacayla, HERHANGİ bir robota - bir zombi, bir kuş, bir mars gezgini ve hatta otomatik bir arabaya- dallara ayrılmayan bir labirentte veya herhangi bir uzunluktaki bir tünelde yolunu nasıl bulacağını söyleyen kodu yazmış oldun."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "Kullandığın basit temeller deneyeceğin her türlü program yada uygulamanın merkezinde yer alır. Tekrar döngülerini, repeat until deyimini, eğer deyimini, ve eğer başka deyimlerini öğrendik."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Eğer kod yazımının ilk saatinden hoşlandıysan, bilgisayar bilimi eğitimine devam etmek için code.org 'u ziyaret et! 20 saat kursu tamamladığında, programlamanın temellerine hakim olacaksın ve telefon uygulamalarının, robot talimatlarının nasıl yazıldığını öğrenmeye başlayabilirsin, adını sen koy."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Genç ya da yaşlı olmanız farketmez, teknoloji yaptığımız herşeyi değiştiriyor: programlama eğlenceli, yaratıcı ve herkes öğrenebilir!"
     20_wrapup:
       1:
         image: "notes/bird.png"

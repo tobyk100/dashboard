@@ -34,8 +34,8 @@
       name:
         Unplug1: "Introduktion till datavetenskap"
         Maze: "Labyrinten"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Uträkningstänkande"
+        Unplug3: "Kalkyleringsprogrammering"
         Artist: "Konstnären"
         Unplug4: "Algoritmer"
         Artist2: "Konstnären 2"
@@ -51,8 +51,8 @@
         Farmer3: "Bonden 3"
         Unplug10: "Internet"
         Artist5: "Konstnären 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Gör klart"
+        MazeEC: "Labyrinten"
     trophy:
       name:
         Bronze: "Brons"
@@ -71,16 +71,17 @@
         parameters: "Funktioner med parametrar"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: |-
+          Kan du hjälpa mig att fånga den otäcka grisen? Stapla några "gå framåt" block och tryck på 'Kör program' för att hjälpa mig att komma dit.
+        maze_2_1: "Den här grisen stör mig. Hjälp mig att hitta honom!"
+        maze_2_2_5: "Lägg ut vägen och led mig till den dumma grisen. Undvik TNT:t annars flyger fjädrarna!"
+        maze_2_3: "Led mig till den gröna elakheten! (Se upp för TNT)"
+        maze_2_4: "Håll dig lugn och hjälp mig att hitta den elaka grisen. Annars kan det hända att jag blir arg!"
+        maze_2_5: "Det finns ett sätt för mig att nå den dumma grisen genom att använda bara två block. Kan du lista ut det?"
+        maze_2_6: "Försök få mig till den gröna inkräktaren genom att använda bara tre block."
+        maze_2_7: "Hjälp mig att bannlysa den här dumma grisen genom att använda så få block som möjligt. Försök att använda mer än ett 'upprepa gånger' block."
         maze_2_8: 'För att lösa detta, prova ett "Upprepa"-block med dessa 3 block inuti: gå, gå, sväng.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: "Ok, försök nu att använda det nya 'upprepa tills' blocket - det kommer att 'upprepa tills' jag når den irriterande grisen."
         maze_2_10: "Ok, en sista gång för att övning - kan du lösa den här med endast 4 block?"
         maze_2_11: "Kära person.  Mig zombie. Mig hungrig. Måste... komma... till solros... Kan du få mig dit med bara 5 block?"
         maze_2_12: "Ok, detta är liknande, men lita annorlunda. Kan du göra det på bara 5 block?"
@@ -120,7 +121,7 @@
         maze_karel_1_6: 'Ta bort alla högarna med jord med så få block som möjligt. De nya alternativen i rullgardinsmenyn på "medan"-blocket berättar för mig om jag står på en hög eller hål.'
         maze_karel_1_7: "Wow, jag har hittat ett riktigt djupt hål! Jag vet inte hur många spadar med jord som krävs. Kan du skriva ett program som fyller det tills marken jämn?"
         maze_karel_1_8: "Hjälp mig fylla i hålet i slutet av åkern med så få block som möjligt."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: "Gör så att jag tar bort alla dessa högar av jord. Försök använda så få block som möjligt. Ledtråd: försök med ett 'medans' block."
         maze_karel_1_10: 'Jag jobbar sent, så det är mörkt ute och jag kan inte se hur stora högar är. Nu har jag inte alla alternativen som jag hade innan på "medan"-blocket. Flytta runt mig på åkern och om det finns en hög, ta bort den.'
         maze_karel_1_11: 'Det är fortfarande mörkt ute. Flytta runt mig på åkern. Om det finns en hög, ta bort den, och om det finns ett hål, fyll det. Tips: Använd rullgardinsmenyn på "om"-blocket.'
         turtle_2_1: "Hej. Jag zombie konstnär. Jag älskar rita! Hjälp mig att rita en fyrkant i en speciell färg. Obs: du har fortfarande samma block men de har nu blivit ordnade i kategorier."
@@ -163,12 +164,12 @@
         maze_karel_debug_function_1: "Vad ska du ändra i det här programmet för att hjälpa mig ta bort alla högar?"
         maze_karel_debug_function_2: "Kan du fixa det här programmet för mig så att jag gör min åker platt?"
         maze_karel_debug_function_3: "Fixa det här programmet så att jag tar bort alla högar på min åker. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
+        turtle_5_2: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
+        turtle_5_3: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
+        turtle_5_4: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
+        turtle_5_5: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
+        turtle_5_6: "Prova att köra det här programmet och göra ändringar under tiden för att se vad som händer. Kan du lista ut hur det fungerar? (Eller ta bort det och ersätt det med någonting totalt annorlunda)"
         maze_3_1: "Jag måste komma till den där grisen! Skriv in några order för att röra på(); så att jag kan få mina ägg tillbaka."
         maze_3_2: "Skriv ett program till mig som gör att jag kan gå hela vägen till grisen."
         maze_3_3: "Hur ska jag komma till grisen? Försäkra dig om att jag inte springer in i lådan med TNT!"

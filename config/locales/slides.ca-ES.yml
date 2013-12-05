@@ -3,159 +3,162 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Benvingut a la teva primera hora de codi! Anem a submergir-nos en la teva primera experiència de programació."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Farem servir Blockly, un llenguatge de programació visual on pots arrossegar i deixar anar blocs per escriure codi."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: |-
+          La majoria de codi s'escriu a mà, però Blocky és visual. Cada bloc correspon a una línia de codi "real".
       4:
         image: "notes/hoc1_4.jpg"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Aprendràs els fundaments de la informàtica, conceptes que s'utilitzen en qualsevol lloc, des de fer aplicacions fins a controlar el Mars rover."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Un programa és un conjunt d'instruccions que el teu ordinador segueix."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "L'objectiu del teu primer programa és guiar un Angry Bird a través d'un laberint per colpejar al porc verd."
       7:
         image: "notes/hoc1_7.jpg"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "El costat esquerra és el laberint on s'executa el teu programa. Les instruccions per a cada puzzle estan a sota el laberint."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "La caixa d'eines d'enmig té els comandaments per l'Angry Birds. Els utilitzaràs per construir el teu codi."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "A la dreta hi ha la teva àrea de treball on podràs arrossegar els blocs de la caixa d'eines per construir el teu programa. Per eliminar un bloc, arrossega'l a la paperera del cantó."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: |-
+          Cada bloc és una instrucció. Si arrossegues el bloc "avançar" a la teva àrea de treball i prems "Executar Programa", l'ocell es mou un espai en el laberint.
       11:
         image: "notes/hoc1_11.jpg"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Per fer més d'una acció, pots arrossegar molts blocs a la teva àrea de treball i unir-los. L'ocell executarà els comandaments des de dalt a baix."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Si executes un programa i el vol arreglar i provar de nou, prem el botó "Reset".'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Let's go get those pigs!"
+        text: "Anem a per aquells porcs!"
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aivat!"
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Hola, sóc Mark! Anem aprendre sobre els bucles. Utilitzant bucles pots dir-li a l'ordinador que repeteixi un conjunt d'accions una y una altra vegada, milers o fins i tot milers de millons de vegades."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "En aquest puzzle, volem fer l'ocell avançar 5 espais per agafar el porc."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'Podem utilitzar el nou bloc "repetir" per ajudar-nos.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: |-
+          En lloc d'arrossegar 5 blocs "avançar"...
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'Podem posar el bloc "avançar" dins el bloc "repetir" i escriure un nombre en el bloc per dir-li quantes vegades ha de repetir.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: |-
+          I això és important: pots posar més d'un comandament dins un bloc "repetir".
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Disfruta utilitztant el teu nou bloc "repetir"!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
         text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+          Hola, sóc Chris. Abans d'unir-me als Miami Heat, vaig anar a Georgia Tech per estudiar Informàtica. Anem a probar el nostre nou bloc, el bloc "repeteix fins".
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Què passaria si no sabéssim quant tindria que moure's l'ocell per arribar al porc?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: |-
+          Si posam un bloc "avança" dins un bloc "repetir fins", l'ocell avançarà FINS que alcanci el porc (o xoqui amb una paret).
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'I això és important: com abans, podem posar varis blocs dins el bloc "repetir fins", i tots es repetiran.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Hola, sóc Bill! Anem a aprendre un nou concepte fundamental: les declaracions "Si". Així és com els ordinadors prenen decisions.'
       2:
         image: "notes/hoc4_2.jpg"
         text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+          Tu mateix utilitzes les declaracions "Si" cada dia. Abans de que surtis cada matí, dius SI està plovent, necessit agafar l'impermeable.
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Podem dir-li al zombie que comprovi SI hi ha un camí a l'esquerra, i si troba un camí a l'esquerra, podem fer-lo girar en aquella direcció."
       4:
         image: "notes/hoc4_4.jpg"
         text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+          Per escriure el codi per a això, anem a arrossegar el bloc "si" i posar un bloc "girar a l'esquerra" a dins.
       5:
         image: "notes/hoc4_5.jpg"
         text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+          Ara, si posam un bloc "avançar" damunt aquest i un bloc "repetir" al voltant de tot, cada vegada que el zombie es mogui, ell comprovarà si hi ha algun camí a l'esquerra i girarà. El comandament "repetir" és crític per comprovar si té que girar en cada pas.
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: |-
+          Les delcaracions "Si" són molt importants en la informàtica. Un dels primers programes que vaig escriure era un joc de tic-tac-toe, i hi havia tres declaracions "Si" que deien: SI l'altre persona estaà a punt de guanyar, bloqueja el lloc que li permeti guanyar.
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Have fun using the "if" block!'
+        text: 'Diverteix-te utilitzant el bloc "Si"!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Hola, el meu nom és Saloni. Utilitzo la informàtica per ajudar a resoldre problemes de salut i medicina. Anem a aprendre sobre el bloc "si altre". Pareix el bloc "si", però té una part extra al final que diu "altre".'
       2:
         image: "notes/hoc5_2.jpg"
         text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+          Si poso el bloc "avançar" en el lloc on posa "fer" i el bloc "girar a l'esquerra" on diu "altre", significa que el zombie eligirà entre dos 2 opcions. SI hi ha un camí davant, el zombie avançarà, i SINÓ (no hi ha un camí davant), el zombie girarà a l'esquerra.
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Igual que el bloc "si", podem posar els blocs "si altre" a dins els blocs "repetir" de manera que el zombie es manté en moviment i el bloc "si altre" continuarà comprovant si hi ha algun lloc on girar.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "Ara, col·loca aquells zombies al lloc on pertanyen!"
     function:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Felicitats! Amb l'últim puzzle que has resolt, acabes d'escriure codi que pot dir-li a QUALSEVOL robot com trobar el seu camí a través d'un laberint sense ramificació o túnel de qualsevol longitud. No importa si és un zombie, un ocell, un rover de Mart o fins i tot un cotxe sense conductor."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: 'Els conceptes bàsics que has utilitzat són el cor de qualsevol programa o aplicació que provis. Hem après sobre bucles, declaracions "repetir fins", "si" i "si altre".'
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Si t'ha agradat la teva primera hora de codi, visita code.org per continuar la teva educació informàtica! Una vegada has complet el nostre curs de 20 hores, hauràs dominat els fundaments bàsics de programació, i podràs començar a aprendre a escriure aplicacions mòbils, instruccions de robots, jocs, el que tu vulguis."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "La tecnologia està canviant tot el que feim i no importa si ets jove o vell: programar és divertit, és creatiu, i qualsevol pot aprendre!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Les notes animades estaran disponibles aviat!"

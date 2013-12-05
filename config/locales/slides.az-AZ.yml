@@ -79,10 +79,10 @@
         text: "Bəs əgər biz quşun donuza çatması üçün nə qədər yerdəyişmə etməli olduğunu bilməsək necə?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'Əgər biz "təkrar et, o vaxta qədər ki" blokunun daxilində "irəli get" blokunu yerləşdirsək quş donuza çatana (və ya divara dəyənə) QƏDƏR irəli gedəcək.'
+        text: 'Əgər biz "təkrar et, ta ki" blokunun daxilində "irəli get" blokunu yerləşdirsək, quş donuza çatana (və ya divara dəyənə) QƏDƏR irəli gedəcək.'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'Bunu bilmək vacibdir: daha əvvəldə olduğu kimi,  biz "təkrar et, o vaxta qədər ki" blokunun daxilində bir neçə blok yerləşdirə bilərik. Bu zaman onların hər biri təkrar olunacaqdır.'
+        text: 'Bunu bilmək vacibdir: daha əvvəldə olduğu kimi,  biz "təkrar et, ta ki" blokunun daxilində bir neçə blok yerləşdirə bilərik. Bu zaman onların hər biri təkrar olunacaqdır.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
@@ -140,7 +140,7 @@
         text: "Təbrik edirik! Axırıncı tapmacanı həll etməklə elə kod yazdınız ki, İSTƏNİLƏN robota budaqlanmayan istənilən uzunluqda bir labirint və ya tunneldə öz yolunu necə tapacağını söyləyə bilər, onun bir zombi, quş, Marsda özüyeriyən aparat, yaxud hətta bir sürücüsüz avtomatik minik maşını olmasından asılı olmayaraq."
       2:
         image: "notes/hoc6_2.jpg"
-        text: 'Sizin istifadə etmiş olduğunuz əsas anlayışlar sizin baxa biləcəyiniz hər bir proqramın və ya tətbiqetmənin ürəyidir. Biz "təkrar et", "təkrar et, o vaxta qədər ki", "əgər" və "yoxsa əgər" ifadələrini öyrəndik.'
+        text: 'İstifadə etdiyiniz əsas anlayışlar nə vaxtsa sınaqdan keçirdiyiniz hər bir proqramın və ya mobil əlavənin ürəyidir. Biz "təkrar et", "təkrar et, ta ki", "əgər" və "əgər-əks halda" ifadələri barədə öyrəndik.'
       3:
         image: "notes/hoc6_3.jpg"
         text: "İlk kod saatınızı bəyəndinizsə, infromatika təhsilinizi davam etdirmək üçün code.org ünvanına baş çəkin! Bizim 20 saatlıq kursumuzu başa vurduqdan sonra proqramlaşdırmanın əsaslarını mənimsəyib, telefonlar üçün proqramlar, robotlar üçün əmrlər, oyunlar, ürəyiniz istəyən hər şeyi necə yazmağı öyrənməyə başlaya bilərsiniz."

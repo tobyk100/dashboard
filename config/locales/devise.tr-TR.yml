@@ -8,7 +8,7 @@
       already_authenticated: "Zaten oturum açtınız."
       inactive: "Hesabınız aktifleştirilmedi."
       invalid: "Geçersiz email ya da şifre."
-      invalid_token: "Invalid authentication token."
+      invalid_token: "Geçersiz kimlik doğrulama belirteci."
       locked: "Hesabınız kilitlendi."
       not_found_in_database: "Geçersiz e-posta veya şifre."
       timeout: "Oturumunuzun süresi doldu, lütfen tekrar devam etmek oturum açın."
@@ -20,12 +20,12 @@
       reset_password_instructions:
         subject: "Şifre talimatlarını sıfırlayın"
       unlock_instructions:
-        subject: "Unlock Instructions"
+        subject: "Talimatların kilidini aç"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: "%{kind} kimliği %{reason} nedeniyle doğrulanamadı."
+      success: "%{kind} hesabından başarıyla kimlik doğrulandı."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      no_token: "Bir parola sıfırlama maili olmadan bu sayfaya erişemezsiniz. Eğer bir parola sıfırlama mailinden geldiyseniz, lütfen verilen URL'nin tamamını kullandığınızdan emin olun."
       send_instructions: "Birkaç dakika içinde parolanızı nasıl sıfırlamanız hakkında yönergeler içeren bir e-posta alacaksınız."
       send_paranoid_instructions: "Eğer e-posta adresiniz veritabanımızda kayıtlı ise, birkaç dakika içinde parola kurtarma bağlantısı içeren bir e-posta alacaksınız."
       updated: "Parolanız başarıyla değiştirildi.Şu anda giriş yaptınız."
@@ -53,5 +53,5 @@
       not_found: "bulunamadı"
       not_locked: "kilitli değil"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 hata %{resource} kaynağın kaydedilmesini engelledi:"
+        other: "%{count} hata %{resource} kaynağının kaydedilmesini engelledi:"

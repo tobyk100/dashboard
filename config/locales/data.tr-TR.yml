@@ -34,7 +34,7 @@
       name:
         Unplug1: "Bilgisayar Bilimine Giriş"
         Maze: "Labirent"
-        Unplug2: "Sayısal düşünme"
+        Unplug2: "Bilgisayımsal düşünme"
         Unplug3: "Grafik kağıdı programlama"
         Artist: "Sanatçı"
         Unplug4: "Algoritmalar"
@@ -55,7 +55,7 @@
         MazeEC: "Labirent"
     trophy:
       name:
-        Bronze: "Tunç"
+        Bronze: "Bronz"
         Silver: "Gümüş"
         Gold: "Altın"
     concept:
@@ -65,7 +65,7 @@
         if_else: "Eğer-değilse bloğu"
         loop_times: "Bloğu tekrarlayın"
         loop_until: "-e kadar bloğu tekrarla"
-        loop_while: "Blok ise"
+        loop_while: "olduğu müddetçe  tekrar et"
         loop_for: "Sayaç bloğu"
         function: "Fonksiyonlar"
         parameters: "Fonksiyon parametreleri"
@@ -73,10 +73,10 @@
       instructions:
         maze_2_2: 'Yaramaz domuzu yakalamama yardım edebilir misin? Oraya gitmem için birkaç "İlerle" bloğunu birleştirmeli ve "Programı Çalıştır" tuşuna basmalısın. '
         maze_2_1: "Bu domuz benim tüylerimi diken diken ediyor. Onu bulmama yardımcı ol!"
-        maze_2_2_5: "Yolu takip et ve beni sersem domuza götür. Patlayıcı ve uçan tüylerden sakınmayı unutma!"
+        maze_2_2_5: "Yolu takip et ve beni sersem domuza götür. Patlayıcıdan ve uçan tüylerden sakınmayı unutma!"
         maze_2_3: "Yeşil şeytana gitmeme önderlik et! (Patlayıcılara dikkat et)"
         maze_2_4: "Sakin ol ve kötü domuzu bulmama yardımcı ol. Aksi halde kızmaya başlayabilirim!"
-        maze_2_5: "2 blok kullanarak yeşil domuzcuğu alabileceğim bir yol var. Bunu bulabilir misin?"
+        maze_2_5: "2 blok kullanarak yeşil domuzcuğa ulaşabileceğim bir yol var. Bunu çözebilir misin?"
         maze_2_6: "Sadece üç blok kullanarak beni yeşil haine ulaştırmaya çalış."
         maze_2_7: 'Bloklar en az sayıda kullanarak bu kötü domuzcuğu ortadan kaldırmama yardım et. Birden fazla "defa tekrar" bloğu kullanmayı dene.'
         maze_2_8: 'Bunu çözmek için, bu üç bloğun içinden "tekrar" bloğu kullanmayı deneyin.'
@@ -89,38 +89,34 @@
         maze_2_15: 'Ayçiçeğini istiyorum! Sadece bir "Eğer" bloğu kullanarak, en az sayıda blok ile oraya ulaşmamı sağla.'
         maze_2_16: "Tamam, sadece alıştırma olsun diye bunu tekrar yapalım - çok farklı değil, sadece canavar bitkilere dikkat et!"
         maze_2_17: '"Eğer-Değilse" bloğu bir koşulu kontrol eder ve bir şeyi YA DA diğerini yapar. Ayçiçeğine ulaşmam için bu yeni bloğu kullanmayı dene.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
+        maze_2_18: '"Eğer değilse" bloğunun bir örneğini daha, ilk denemenizde doğru yapabildiniz mi?'
+        maze_2_19: "Daha karmaşık bir labireti sadece 3 blok ekleyerek çözmeme yardımcı olur musun? Eğer doğru yaptıysan, bu kıvrımlı yolda uzunluğu ne olursa olsun yürüyebilirim."
+        turtle_1_1: "Merhaba , ben bir sanatçıyım. İstediğin herhangi bir şeyi çizmek için beni programlayabilirsin. Resimdeki gri çizgileri çizdirmek için bir kaç blok kulllan."
+        turtle_1_2: 'Şimdi bir kare çiz. Not: Bunu "rengi belirle" bloğununda en sevdiğin rengi seçerek yapabilirsin.'
         turtle_1_3: "Sadece 3 blok kullanarak bir kare yapın."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
+        turtle_1_4: 'Her seferinde farklı bir renk alan "rastgele renk" seçeneğini kullanarak tüm kenarları farklı renkte olan bir üçgen çizin. İpucu: Ne kadar uzağa dönmeniz gerektiğini dönüş blogundaki numaraya tıklayarak bulmanız gerek.'
+        turtle_1_5: "Şimdi, uygulama için bir üçgen ve sonra bir zarf çizmek için bir kare çizin."
+        turtle_1_6: "Bir karenin ve bir üçgenin nasıl çizileceğini anlayabildiniz mi? İpucu: Önce üçgeni çizin, sonra kare çizmeden önce kaç kez dönmeniz gerektiğini bulun."
+        turtle_1_7: "Hadi biraz daha zorlaştıralım - yeşil gözlükleri çizip çizemeyeceğinizi görelim. Her köşede bulunan kareler 100 piksel büyüklüğünde birbirlerinden 50 piksel uzaklıktadır. Çizgilerinizi yeşik renk ile çizmeyi unutmayın!"
+        turtle_1_8: 'Tamam, bu kodu çalıştırıdığınızda ne olduğunu görelim (ya da "Çalıştır" düğmesini tıklayın). O halde, çizimi tamalamak için yeteri kadar tekrar edin. Renkler her defasında farkı olsun.'
+        turtle_1_9: "Çember çizmek için soru işaretli yere gelmesi gereken sayısı bulabilir misiniz?"
+        turtle_1_10: 'Başardınız! Şimdi, istediğiniz her hangi bir şeyi çiziniz.Eğlenceli olabilecek bazı fikirler:kartanesi ya da spiral olabilir.Ayrıca "kalınlığını belirleyin " bloğunu kullanabilirisniz.Eğlenin!'
+        turtle_4_1: 'Sadece 3 blok kullanarak bir üçgen(her kenarı 100 piksel olacka) çizebilir misin? İpucu:"tekrar" bloğu kullanın.'
+        turtle_4_2: 'Bu sorunu çözmek için bir blok ekleyin. İpucu: Sizin için iki özdeş üçgen çizdik. İhtiyacınız olan şey bunların arasına "dön" komutu yerleştirmek ve ne kadar döneceklerini belirlemek.'
+        turtle_4_3: 'Tamam, bir üçgen çizmek için yazdığınız kod burda."Tekrarla" ve "dön" bloğu ile güzel bir çiçek yapabilir misiniz?'
+        turtle_4_4: "Bir önceki labirent ile aynı kodları verdik , fakat her üçgen çizdikten sonra 36 derecelik bir açıyla döneceğiz.Bu işlemi kaç kez tekrar etmelisiniz? (İpucu: Tam bir çember oluşturmak için 360 derece dönmeniz gerekmektedir.)"
+        turtle_4_5: "Bir önceki bulmaca ile aynı kodları görüyorsunuz fakat 36 kez dönme işlemi uygulanıyor. Her defasında kaç derecelik bir açıyla döndürülmeli?(İpucu:Tam bir çember 360 derece döndürülerek oluşturulabilir.)"
+        turtle_4_6: "Sadece üç blok kullanarak bir kenarı 20 piksel lacak bir kare çizebilir misiniz?"
+        turtle_4_7: "İşte kare çizmek için son bulmacadan bir kod. Bu kodu birbirine merdiven gibi bitişik 10 tane kare çizmek için tekrarlayabilir misin? İpucu: Yalnızca iki bloga daha ihtiyacın var."
+        turtle_4_8: "Önceki bulmaca çözümü burada. Çizimi tamamlamak için sadece 2 blok daha ekleyebilir misin?"
+        turtle_4_9: "Önceki bulmaca çözümü burada. Kaç derece çizimin tamamlanması için kaç derece dönmen gerekir? (Birkaç kez tahmin etmen gerekebilir)"
+        turtle_4_10: "Önceki bulmaca çözümü burada. Çizimi tamamlamak için kaç kere tekrar gerekli?"
+        turtle_4_11: 'Farklı desenler yapmak için "dön" ve "tekrarla bloklarındaki sayıları değiştirmeyi dene. Ya da, istediğin herhangi bir şeyi çizmek için kodun geri kalanını değiştirmeyi dene.'
+        maze_karel_1_1: 'Merhaba, ben bir çiftçiyim. Çiftlikteki alanı ekime hazır yani düzleştirmek için yardımına ihtiyacım var. Beni bir toprak yığınına doğru hareket ettir ve "Kaldır" blogunu kaldırmak için kullan.'
+        maze_karel_1_2: 'Daha sonra beni deliğe hareket ve  deliği "doldur" blogunu kullanarak, iki kürek dolusu toprak ile doldur.'
+        maze_karel_1_3: "Beni toprak yığınına doğru hareket ettir ve olabildiğince az blok kullanarak kaç kürek dolusu boşaltmam gerektiğini söyle."
+        maze_karel_1_4: "Tüm toprak yığınlarını kaldırmama yardımcı olabilir miin? İpucu: Mümkünse repeat blogunu kullan."
+        maze_karel_1_5: 'Delikleri 5 kürekdolusu toprakla doldurmam için bana yardım et. İpucu: "While" blogunun içine "tekrar" blogunu yerleştirebilirsin.'
         maze_karel_1_6: |-
           Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
         maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"

@@ -77,10 +77,10 @@
         maze_2_3: "Breng me naar de groene naarling! (Pas op voor dynamiet)"
         maze_2_4: "Rustig blijven, help me het slechte biggetje te vinden. Anders word ik misschien nog boos!"
         maze_2_5: "Er is een manier om bij het biggetje te komen met maar 2 blokken. Lukt het jou?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_6: "Breng me naar de groene indringer door maar drie blokken te gebruiken."
+        maze_2_7: 'Help me dit gemene biggetje te verbannen met zo weinig mogelijk blokken. Gebruik meer dan een "herhaal"-blokken.'
         maze_2_8: 'Probeer om deze op te lossen eens een "herhaal"-blok met 3 blokken erin: vooruit, vooruit, draai.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'Ok, probeer het nieuwe "herhalen tot"-blok eens - het herhaalt tot ik het eerste groene biggetje bereik.'
         maze_2_10: "Ok, nog een laatste keer om te oefenen - kun je deze oplossen met maar 4 blokken?"
         maze_2_11: "Hallo mens. Ik zombie. Ik honger. Moet... naar... zonnebloem... Kun je me met maar 5 blokken naar de zonnebloem krijgen?"
         maze_2_12: "Ok, dit lijkt op de vorige, maar ietsjes anders. Kun je het met maar 5 blokken?"
@@ -120,7 +120,7 @@
         maze_karel_1_6: 'Verwijder alle hopen modder met zo weinig blokken mogelijk. De nieuwe opties in het menu van het "terwijl" blok vertellen met of ik op een hoop of een gat sta.'
         maze_karel_1_7: "Wow, ik heb een superdiep gat gevonden! Ik weet niet hoeveel scheppen ervoor nodig zijn. Kun je een programma schrijven die het gat vult totdat hij opgevuld is?"
         maze_karel_1_8: "Help me om het gat aan het einde van het veld te vullen, met zo weinig blokken mogelijk."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Zorg dat ik alle hopen modder weghaal. Gebruik zo weinig mogelijk blokken te gebruiken. Tip: probeer een "herhaal zolang"-blok te gebruiken.'
         maze_karel_1_10: 'Ik moet tot laat werken, dus het is donker buiten, en ik kan zo niet zien hoe hoog de hopen zijn. Ik heb niet alle opties meer die ik had op het "while" blok. Beweeg me over het veld, en als er een heuvel is, verwijder hem.'
         maze_karel_1_11: 'Het is nog steeds donker buiten. Beweeg me over het veld. Als er een heuvel is, haal hem weg, en als ereen gat is, vul hem op. Hint: gebruik het menu van opties bij het "if" blok.'
         turtle_2_1: "Hallo. Ik zombie artist. Ik gek op tekenen! Help me om een vierkant in een speciale kleur te tekenen. Belangrijk: je hebt dezelfde blokken maar ze zijn nu opgedeeld in categorieën."
@@ -163,12 +163,12 @@
         maze_karel_debug_function_1: "Wat kun je veranderen aan dit programma om alle hopen te verwijderen?"
         maze_karel_debug_function_2: "Kan je dit programma maken zodat ik mijn veld mooi vlak kan maken?"
         maze_karel_debug_function_3: "Bewerk dit programma zodat ik alle hopen op mijn veld verwijder. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
+        turtle_5_2: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
+        turtle_5_3: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
+        turtle_5_4: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
+        turtle_5_5: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
+        turtle_5_6: "Probeer dit programma uit te voeren, en verander het om te zien wat er gebeurt. Kun je erachter te komen hoe het werkt? (Of het verwijder het en vervang het door iets totaal anders)"
         maze_3_1: "Ik moet naar dat biggetje toe! Tiep een paar aanroepen van move(); in zodat ik mijn eieren terug kan krijgen."
         maze_3_2: "Schrijf een programma zodat ik helemaal naar het biggetje kan komen."
         maze_3_3: "Hoe kom ik bij het biggetje? Pas op dat ik niet tegen de doos dynamiet aan loop!"

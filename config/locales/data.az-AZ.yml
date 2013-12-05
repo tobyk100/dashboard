@@ -61,23 +61,23 @@
     concept:
       description:
         sequence: "Ardıcıllıq"
-        if: "if bloku"
-        if_else: "Əgər-əks halda bloku"
+        if: '"Əgər" bloku'
+        if_else: '"Əgər-əks halda" bloku'
         loop_times: '"Təkrar et, neçə dəfə" bloku'
         loop_until: '"Təkrar et, ta ki" bloku'
-        loop_while: "While bloku"
+        loop_while: '"Hələ ki" bloku'
         loop_for: "Sayğac bloku"
         function: "Funksiyalar"
         parameters: "Parametrli funksiyalar"
     level:
       instructions:
         maze_2_2: 'Nadinc donuzu tutmaqda mənə kömək edə bilərsiniz? Məni ona çatdırmaq üçün bir neçə "irəli get" blokunu ard-arda düzün və "Proqramı icra et"i basın. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
+        maze_2_1: "Bu donuzun əlindən lələklərim biz-biz olur. Mənə kömək edin ki, onu tapım!"
         maze_2_2_5: "Yolu izləyərək məni səfeh donuza tərəf aparın. Partladıcı TNT qutusundan yayınaq, yoxsa lələklərim göyə sovrular!"
         maze_2_3: "Məni yaşıl ziyankara aparan yola yönləndirin! (Partladıcı TNT qutusundan ehtiyatlı olun)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_4: "Təmkinli ol və pis donuzu tapmağıma kömək et. Yoxsa mən acıqlana bilərəm!"
         maze_2_5: "Mənim yaşıl donuza 2 blokdan istifadə edərək çatmağım üçün bir yol var. Siz onu tapa bilərsinizmi?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_6: "Məni ancaq üç blokdan istifadə edərək yaşıl cinayətkara çatıdrmağa çalışın."
         maze_2_7: 'Mənə kömək edin ki, ən az sayda blokdan istifadə edərək pis donuzcuğun dərsini verim. Birdən çox "təkrar et, neçə dəfə" blokundan istifadə etməyə çalışın.'
         maze_2_8: 'Bunu həll etmək üçün, içərisində bu 3 blok olan "təkrar et" blokunu istifadə edin: get, get, dön.'
         maze_2_9: 'Yaxşı, yeni "təkrar et, ta ki" blokunu sınaqdan keçirin - o mən ta zəhlətökən donuza çatana qədər təkrarlanacaq.'
@@ -112,7 +112,7 @@
         turtle_4_9: "Burada əvvəlki tapmacanın həllini görə bilərsiniz. Çəkmə prosesini tamamlamaq üçün neçə dərəcə dönməlisiniz? (Çox güman siz bir neçə dəfə təxmin etməlisiniz)"
         turtle_4_10: "Burada əvvəlki tapmacanın həllidir. Bunu neçə dəfə təkrarlamaqla şəkili tamamlaya bilərsiniz?"
         turtle_4_11: '"Dönmə" və "Təkrar et" bloklarındaki ədədləri dəyişməklə digər nümunələr yaratmağa çalışın. Və ya, kodun qalan hissəsini dəyişməklə istədiyiniz şeyi çəkməyi sınaya bilərsiniz.'
-        maze_karel_1_1: 'Salam, mən fermerəm. Ferma sahəmin əkinə hazırlanması üçün yastılanmasında köməyə ehtiyacım var. Məni kir topasına doğru hərəkət etdir və bu topanı silmək üçün "Sil" blokundan istifadə edin.'
+        maze_karel_1_1: 'Salam, mən fermerəm.  Əkinə hazır olmağı üçün fermadakı sahəmi hamarlamaqda köməyinizə ehtiyacım var. Məni torpaq təpəciyinə doğru hərəkət etdirin və onu yiğışdırmaq üçün "yığışdır" blokundan istifadə edin.'
         maze_karel_1_2: 'Sonra məni çuxura doğru hərəkət etdirin və "doldur" blokundan istifadə edərək onu İKİ kürək torpaqla doldurun.'
         maze_karel_1_3: "Məni torpaq təpəciyinə doğru hərəkət etdirin və mümkün qədər az blokdan istifadə edərək mənə deyin ki, neçə kürək torpağı yığışdırım."
         maze_karel_1_4: 'Mənə dörd torpaq təpəciyinin hamısını yığışdırmaqda kömək edə bilərsiniz? Məsləhət: bacarırsınızsa, "təkrar et" blokundan istifadə edin.'
@@ -121,7 +121,7 @@
         maze_karel_1_7: "Vay, çox dərin bir çuxur tapdım! Buna neçə kürək torpağın lazım olduğunu bilmirəm. Onu yer hamar olana qədər dolduracaq bir proqram yaza bilərsinizmi?"
         maze_karel_1_8: "Sahənin sonundaki boşluğu minimal sayda blokdan istifadə etməklə doldurmaqda mənə kömək edin."
         maze_karel_1_9: 'Torpaq təpəciklərinin hamısını mənə yığışdırtdırın. Mümkün qədər az blokdan istifadə etməyə çalışın. Məsləhət: "hələ ki" blokundan istifadə etməyə çalışın.'
-        maze_karel_1_10: 'Mən gec saata qədər işləyirəm, ona görə də çöldə qaranlıqdır və mən topaların nə qədər böyük olduğunu deyə bilmirəm. Ona görə də, indi "hələ də" blokunda əvvəlki seçimlərimin hamısı yoxdur. Məni sahə üzrə hərəkət etdir, və əgər topa varsa, topanı sil.'
+        maze_karel_1_10: 'Mən gec saata qədər işləyirəm, ona görə də çöldə qaranlıqdır və mən təpəciklərin nə qədər böyük olduğunu deyə bilmirəm. Bu dəfə "hələ də" blokunda əvvəlki seçimlərimin hamısı yoxdur. Məni sahə boyu hərəkət etdir və əgər təpəcik varsa, onu yığışdır.'
         maze_karel_1_11: 'Bayırda hələ qaranlıqdır. Məni tarladan keçirin. Əgər bir təpəcik varsa, onu yığışdırın, əgər bir çuxur varsa, onu doldurun. Məsləhət: "əgər" blokunda aşağı açılan seçim menyusundan istifadə edin.'
         turtle_2_1: "Salam. Mən zombi rəssam. Mən şəkil çəkməyi sevir! Xüsusi rəngli bir kvadrat çəkməkdə mənə kömək edir. Mühüm qeyd: əlinizdə olan bloklar eynidir, amma indi onlar kateqoriyalara ayrılıb."
         turtle_2_2: 'Buyurun, yeni bloklar təyin etmək imkanı verən funksiyalardan istifadə edin! Kiçik bir 50x50 ölçülü, yaşıl kvadrat çəkmək üçün "Funksiyalar" kateqoriyasındakı yeni "kvadrat çək" blokunu sınaqdan keçirin.'

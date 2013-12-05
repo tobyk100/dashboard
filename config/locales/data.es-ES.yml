@@ -25,7 +25,7 @@
           Artist5: "Etapa 19"
           Unplug11: "Etapa 20"
         Hour of Code:
-          desc: "Hora del código"
+          desc: "La hora del código"
           Maze: "Etapa 1"
         Edit Code:
           desc: "Editar el código"
@@ -49,7 +49,7 @@
         Artist4: "El artista 4"
         Unplug9: "Programación de relé"
         Farmer3: "El granjero 3"
-        Unplug10: "El Internet"
+        Unplug10: "Internet"
         Artist5: "El artista 5"
         Unplug11: "Cierre"
         MazeEC: "El laberinto"
@@ -77,7 +77,7 @@
         maze_2_3: "Guiame al demonio verde! (Cuidado con el TNT)"
         maze_2_4: "Manten la calma y ayúdame a encontrar el cerdo malo. O de lo contrario, ¡puedo enfadarme!"
         maze_2_5: "Hay una forma de llegar al tonto cerdo utilizando sólo 2 bloques. ¿Puedes encontrarla?"
-        maze_2_6: "Intentar llevarme al intruso verde utilizando sólo tres bloques."
+        maze_2_6: "Intenta llevarme al intruso verde utilizando sólo tres bloques."
         maze_2_7: 'Ayúdame a desterrar este cerdito malo usando el menor número de bloques posible. Prueba usando más de un bloque "repetir veces".'
         maze_2_8: 'Para solucionar este, prueba con un bloque "repetir" con estos 3 bloques en su interior: avanzar, avanzar, girar.'
         maze_2_9: 'Ok, prueba el nuevo bloque "repetir hasta" - repetirá hasta que llegue al cerdo molesto.'
@@ -101,17 +101,17 @@
         turtle_1_8: 'Muy bien, tratemos de averiguar qué pasa si ejecutas este código (o presionas "Ejecutar" para probarlo). Luego, repítelo las veces necesarias para completar el dibujo. Los colores serán diferentes cada vez.'
         turtle_1_9: "¿Puedes adivinar con qué número reemplazarías a los signos de interrogación para dibujar un círculo?"
         turtle_1_10: '¡Lo lograste! Ahora, a dibujar cualquier cosa que quieras. Algunas ideas divertidas: un muñeco de palitos, un copo de nieve o un espiral. Prueba también el nuevo bloque "ajuste de ancho". ¡Que te diviertas!'
-        turtle_4_1: 'Puedes dibujar un triángulo (con bordes de 100 pixeles) usando sólo tres bloques? Pista: Usa un bloque "repeat".'
+        turtle_4_1: '¿Puedes dibujar un triángulo (con bordes de 100 pixeles) usando sólo tres bloques? Pista: Usa un bloque "repeat".'
         turtle_4_2: 'Intenta agregar un bloque para completar este puzzle. Pista: te entregamos bloques para dibujar dos triángulos idénticos, necesitas poner un "turn" entre ellos, y decidir cuánto lo girarás.'
-        turtle_4_3: 'OK, acá está el código que escribiste para dibujar un único triángulo. Puedes agregar un bloque "repeat" y un bloque "turn" para crear una hermosa flor?'
-        turtle_4_4: "Aquí está el mismo código del puzzle anterior, pero girado sólo 36 grados después de dibujar cada triángulo. ¿Cuántas veces necesitas repetir esto? (Pista: después de girar el dibujo 360 grados, este se volverá un círculo completo)."
-        turtle_4_5: "Aquí está el mismo código del puzzle anterior, pero repitiendo los giros 36 veces. ¿Cuántas veces necesitas repetir esto? (Pista: después de girar el dibujo 360 grados, este se volverá un círculo completo)."
+        turtle_4_3: 'OK, este es el código que escribiste para dibujar un único triángulo. Puedes agregar un bloque "repeat" y un bloque "turn" para crear una hermosa flor?'
+        turtle_4_4: "Aquí está el mismo código del puzzle anterior, pero girado sólo 36 grados después de dibujar cada triángulo. ¿Cuántas veces necesitas repetir esto? (Pista: después de girar el dibujo 360 grados, este se convertirá en un círculo completo)."
+        turtle_4_5: "Aquí está el mismo código del puzzle anterior, pero repitiendo los giros 36 veces. ¿De cuántos grados debería ser el giro? (Pista: después de girar el dibujo 360 grados, este se volverá un círculo completo)."
         turtle_4_6: "Usando sólo 3 bloques, ¿puedes dibujar un cuadrado con bordes de 20 pixeles?"
         turtle_4_7: "Aquí está el código para dibujar el cuadrado del puzzle anterior. Puedes repetirlo para dibujar 10 cuadrados adyacentes como una escalera? Pista: sólo necesitas 2 bloques más."
         turtle_4_8: "Aquí está la solución al puzzle anterior. ¿Puedes agregar sólo 2 bloques más para completar el dibujo?"
         turtle_4_9: "Aquí está la solución al puzzle previo. ¿Cuántos grados deberías girar para completar el dibujo? (Probablemente necesitas intentarlo unas cuantas veces)"
         turtle_4_10: "Aquí está la solución al puzzle anterior. ¿Cuántas veces deberías repetirlo para completar el dibujo?"
-        turtle_4_11: 'Intenta cambiar los números en los bloques "turn" y "reperat" para crear patrones diferentes. O experimenta cambiando el resto del código para dibujar cualquier cosa que quieras.'
+        turtle_4_11: 'Intenta cambiar los números en los bloques "turn" y "repeat" para crear patrones diferentes. O experimenta cambiando el resto del código para dibujar cualquier cosa que quieras.'
         maze_karel_1_1: 'Hola, soy un granjero. Necesito que me ayudes a aplanar el campo en mi granja para que esté listo para sembrar. Muéveme a la pila de tierra y utiliza el bloque "eliminar" para quitarla.'
         maze_karel_1_2: 'A continuación, muéveme hacia el agujero y llénalo con DOS paladas de tierra, usando el bloque "llenar".'
         maze_karel_1_3: "Muéveme a la pila de tierra y dime cuantas paladas de eliminar debo dar usando la menor cantidad de bloques posible."
@@ -169,8 +169,8 @@
         turtle_5_4: "Intenta ejecutar este programa y haz cambios para ver que ocurre. ¿Puedes averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
         turtle_5_5: "Intente ejecutar este programa y haga cambios para ver que ocurre. ¿Puede averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
         turtle_5_6: "Intente ejecutar este programa y haga cambios para ver que ocurre. ¿Puede averiguar cómo funciona? (o elimínalo y reemplazalo con algo totalmente diferente)"
-        maze_3_1: "Tengo que llegar a ese cerdo! Escriba move(); un par de veces, y de esa forma puedo recuperar mis huevos."
-        maze_3_2: "Escríbeme un programa,  y así hago todo el camino hasta el cerdo."
+        maze_3_1: "Tengo que llegar a ese cerdo! Escriba move() un par de veces, y de esa forma poder recuperar mis huevos."
+        maze_3_2: "Escríbeme un programa para haga todo el camino hasta el cerdo."
         maze_3_3: "¿Cómo llego al cerdo? Asegúrate de que no pasar por la caja de TNT!"
         maze_3_4: "¡Argh! Escríbeme un programa que me haga esquivar el TNT y llegue hasta el cerdo."
       levelIncompleteError:

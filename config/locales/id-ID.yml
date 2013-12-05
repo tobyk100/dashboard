@@ -46,7 +46,15 @@
     need_confirmation: "Tidak menerima instruksi konfirmasi?"
     need_unlock: "Tidak menerima instruksi untuk membuka?"
   signup_form:
-    teacher_pitch: "Mengajar pengantar ilmu komputer untuk sekolah dasar dan sekolah menengah di kelas Anda"
+    overview: "Kursus selama 20 jam ini memperkenalkan ilmu komputer tingkat dasar dan konsep-konsep pemrograman. Kursus ini dirancang untuk digunakan di ruang kelas untuk sekolah dasar dan menengah, tapi tetap menyenangkan dipelajari untuk semua usia."
+    no_signup_header: "Tidak ingin mendaftar?"
+    no_signup_message: 'Anda dapat <a target="_blank" href="http://learn.code.org"> mencoba berbagai tahap dan berbagai teka-teki</a>, tetapi Anda akan perlu untuk masuk supaya kemajuan belajar Anda dapat dicatat.'
+    prizes_header: "Para siswa yang pertama yang menyelesaikan kursus akan memenangkan hadiah! (hanya untuk siswa di Amerika Serikat)"
+    prizes_message: "Siswa dari Amerika Serikat yang memperoleh semua %{num_trophies} konsep Piala dapat memilih berbagai hadiah termasuk kartu hadiah iTunes, Penyimpanan Dropbox gratis, Skype kredit dan unduh permainan dari Electronic Arts and Valve."
+    teacher_educator_guide: "Lihat panduan guru"
+    teacher_prize_header: 'Memenangkan $1.000 hadiah dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
+    teacher_prize_message: 'Bekerja sama dengan <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org menawarkan hadiah sampai $1.000 dalam kelas pendanaan untuk guru dari Amerika Serikat yang memimpin setidaknya 10 siswa melalui kursus ini.'
+    teacher_pitch: "Ajarilah ilmu komputer tingkat pemula di kelas Anda"
     teacher_title: "Guru mendaftar"
     student_pitch: "Setelah 1 jam: Cobalah pengantar ilmu komputer untuk sekolah dasar dan menengah"
     student_title: "Daftar"
@@ -63,8 +71,8 @@
     valid_password: "Kata sandi valid!"
     invalid_password: "Kata sandi harus minimal 6 karakter"
     mismatch_password: "kedua password yang anda masukkan tidak sama"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "Saya setuju segala persyaratan layanan Code.org. Jika saya di bawah usia 13 tahun, saya mengkonfirmasi bahwa dengan mengirimkan formulir ini saya telah memiliki izin dari orang tua atau wali untuk menggunakan layanan Code.org."
+    teacher_terms: "Saya setuju dengan segala persyaratan layanan Code.org."
   signin_form:
     title: "Masuk"
     login: "Email atau nama pengguna"
@@ -108,10 +116,11 @@
     title: "Ambil hadiah: %{name}"
     provider: "Penyedia:"
     code: "Kode:"
-    redeem_header: "To redeem:"
+    redeem_header: "Untuk menebus:"
     success: "Hadiah Anda telah berhasil ditebus, silahkan lihat kode di bawah ini."
     error: "Hadiah Anda tidak bisa ditebus, silakan coba lagi."
-    error_us_only: "The prize offer is only valid for US users."
+    error_us_only: "Tawaran hadiah hanya berlaku untuk pengguna yang berdomisili di Amerika Serikat."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Silakan konfirmasi"
       "no": Tidak
@@ -134,17 +143,17 @@
     msg:
       choose: "Pilih hadiah:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "Anda mendapatkan hadiah!"
-      not_earned_title: "Finish the tutorial, earn rewards"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
+      earned: "Anda mendapatkan hadiah! (hanya untuk siswa dari Amerika Serikat)"
+      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned: "Pelajari konsep-konsep ilmu komputer, Kumpulkan semua Piala %{num_trophies}, dan dapatkan hadiah. Anda dapat memilih antara kartu hadiah iTunes $10, 10GB penyimpanan Dropbox gratis $10 di Skype kredit, dan unduh permainan gratis. Catatan: Penawaran hanya berlaku untuk siswa dari Amerika Serikat, dan hadiah berlaku selama ada persediaan."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
-        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
-        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
+        earned: "10 atau lebih siswa mengumpulkan semua Piala %{num_trophies}. Anda telah memenangkan hadiah $750 guru! (hanya untuk guru dari Amerika Serikat)"
+        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+        not_earned: 'Untuk memberi penghargaan kepada guru ilmu komputer baru, Anda bisa mendapatkan hadiah sehingga $1.000 dari <a href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit untuk membimbing kelas melalui kursus intro sekolah dasar. Untuk memenuhi syarat, Anda perlu untuk berhasil memiliki setidaknya 10 siswa-siswi menyelesaikan kursus, dengan minimal 10 siswa-siswi telah menyelesaikan semua tutorial dan mendapatkan semua Piala %{num_trophies}. Jika siswa-siswi Anda yang mendapatkan Piala terdiri dari setidaknya 40% anak perempuan, hadiah Anda adalah $1.000 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. Jika tidak, hadiah Anda adalah $750 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat digunakan oleh guru-guru di sekolah umum di Amerika Serikat.'
         bonus:
-          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
-          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
+          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+          earned: "40% atau lebih dari siswa yang mengumpulkan semua Piala %{num_trophies} adalah perempuan. Anda telah memenangkan hadiah bonus $250! (hanya untuk guru dari Amerika Serikat)"
+          not_earned: 'Jika siswa-siswi Anda yang telah mendapatkan semua Piala %{num_trophies} terdiri dari setidaknya 40% anak perempuan, Anda mendapat tambahan hadian $250 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat berlaku untuk guru-guru di sekolah umum Amerika Serikat.'
   crud:
     new_model: "%{model} baru"
     show: "Tampilkan"
@@ -159,7 +168,7 @@
   nav:
     header:
       finished_hoc: "Saya telah menyelesaikan jam kode!"
-      sign_in_to_save: "login untuk mencatat kemajuan belajar"
+      sign_in_to_save: "Masuk untuk mencatat kemajuan belajar"
     user:
       classroom: "Murid-murid saya"
       label: "Halo %{username}"
@@ -177,6 +186,7 @@
       puzzle_map: "Tahap"
       prizes: "Kumpulkan semua Piala %{total_trophies} dan memenangkan hadiah!"
       prize_earned: "Semua Piala %{total_trophies} telah terkumpul. Memenangkan hadiah!"
+      prize_us_only: "(Hanya untuk siswa dari Amerika Serikat)"
       prizes_link: "Info lebih lanjut"
   teacher:
     title:
@@ -206,6 +216,7 @@
     student_reg_link: "Siswa"
     teacher_reg_link: "Guru"
     teacher_dashboard: "Lihat kemajuan di dasbor"
+    teacher_student_count_one: "Anda memiliki  %{count} siswa."
     teacher_student_count: "Anda memiliki  %{count} siswa."
     teacher_averages: 'Rata-rata siswa anda telah mendapatkan %{trophy_average} dari %{trophy_max} piala "Penguasaan konsep".'
     classroom: "Kelas anda"
@@ -222,7 +233,7 @@
     none: "Memilih untuk tidak menjawab"
   footer:
     help_from_html: 'Tutorial ini diciptakan atas bantuan programmer-programmer dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a>.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
+    art_from_html: 'Angry Birds ™ & © 2009-2013 <a href="http://www.rovio.com"> adalah hak cipta dan hak milik Rovio Entertainment Ltd</a>. <br/> Tanaman vs Zombies ™ & © 2013 adalah hak cipta dan hak milik <a href="http://www.ea.com"> Electronic Arts Inc.</a>'
     feedback: "Berikan pendapat"
     translate: "Bantu menterjemahkan ke bahasa anda"
     tos: "Persyaratan Layanan"
@@ -247,4 +258,4 @@
   slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
   try_reloading: "Coba tampilkan halaman lagi"
   next_level: "Tahap berikutnya"
-  download_pdf: "Open Lesson Plan"
+  download_pdf: "Rencana pelajaran terbuka"

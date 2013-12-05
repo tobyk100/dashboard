@@ -43,11 +43,11 @@
     artist_intro:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia!"
+        text: "Catatan sedang dipersiapkan!"
     farmer_intro:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -121,19 +121,19 @@
     function:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"
     loop_while:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"
     loop_for:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"
     parameters:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
@@ -150,4 +150,4 @@
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Catatan sedang dipersiapkan dan akan segera tersedia secepatnya!"
+        text: "Catatan sedang dipersiapkan!"

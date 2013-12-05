@@ -46,6 +46,14 @@
     need_confirmation: "¿No recibiste las instrucciones de confirmación?"
     need_unlock: "¿No recibiste las instrucciones de desbloqueo?"
   signup_form:
+    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
+    no_signup_header: "Don't want to sign up?"
+    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    teacher_educator_guide: "See educator guide"
+    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "Enseña la Introducción K-8 a la informática en tu aula"
     teacher_title: "Profesor Regístrate"
     student_pitch: "Más allá de 1 hora: prueba nuestra Introducción a la informática K-8"
@@ -63,8 +71,8 @@
     valid_password: "Contraseña válida!"
     invalid_password: "La Contraseña debe tener al menos 6 caracteres"
     mismatch_password: "Las dos contraseñas que introdujo no coinciden"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "Estoy de acuerdo con las condiciones del servicio Code.org. Si soy menor de 13 años de edad, al enviar este formulario confirmo que tengo autorización de mis padres o de mi tutor legal para utilizar los servicios de Code.org."
+    teacher_terms: "Estoy de acuerdo con las condiciones de servicio de Code.org."
   signin_form:
     title: "Iniciar Sesión"
     login: "Correo electrónico o nombre de usuario"
@@ -111,9 +119,10 @@
     provider: "Proveedor:"
     code: "Código:"
     redeem_header: "To redeem:"
-    success: "Su premio fue exitosamente redimido, vea el código más abajo."
-    error: "El premio no puede ser redimido, inténtelo nuevamente."
-    error_us_only: "The prize offer is only valid for US users."
+    success: "Su premio fue exitosamente compensado, vea el código más abajo."
+    error: "El premio no puede ser canjeado, inténtelo nuevamente."
+    error_us_only: "The prize offer is only valid for U.S. users."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Confirme por favor"
       "no": No
@@ -136,17 +145,17 @@
     msg:
       choose: "Escoje un premio:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "Has ganado un premio!"
-      not_earned_title: "Finish the tutorial, earn rewards"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to US users, and only as long as supplies last."
+      earned: "You have earned a prize! (U.S. students only)"
+      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize!"
-        not_earned_title: "Teach the class, earn up to $1,000 in DonorsChoose.org credits"
-        not_earned: "To reward first-time computer science teachers, you can earn up to $1,000 in DonorsChoose.org credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in DonorsChoose.org credits. Otherwise, your reward is $750 in DonorsChoose.org credits.  DonorsChoose.org credits can only be used by teachers in US public schools."
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
-          not_earned_title: "You can still earn an additional $250 in DonorsChoose.org credits"
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize!"
-          not_earned: "If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in DonorsChoose.org credits."
+          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Nuevo %{model}"
     show: "Mostrar"
@@ -179,6 +188,7 @@
       puzzle_map: "Etapas"
       prizes: "Recoger todos los %{total_trophies} trofeos y ganar premios!"
       prize_earned: "Todos los trofeos %{total_trophies} han sido recogidos. ¡Premio ganado!"
+      prize_us_only: "(U.S. students only)"
       prizes_link: "más información"
   teacher:
     title:
@@ -208,10 +218,11 @@
     student_reg_link: "Alumno"
     teacher_reg_link: "Profesor"
     teacher_dashboard: "Ver panel de progreso"
+    teacher_student_count_one: "You have %{count} student."
     teacher_student_count: "Tienes %{count} estudiantes."
     teacher_averages: 'Un promedio de tus estudiantes han ganado %{trophy_average} de %{trophy_max} trofeos "Dominio del Concepto" .'
     classroom: "Tu aula"
-    student_progress: "Su progreso de aprendizaje"
+    student_progress: "Tu progreso de aprendizaje"
     student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
     student_left_off: "Donde dejaste:"
     student_finished: "Has completado todos los tutoriales, reclama tu %{prize_link} y elige otra clase %{online_link} o en una %{local_school_link}"
@@ -224,7 +235,7 @@
     none: "Prefiero no contestar"
   footer:
     help_from_html: 'Los ingenieros de <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> y <a href="http://www.twitter.com"> Twitter</a> ayudaron a crear este tutorial.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Todos los derechos reservados.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Todos los derechos reservados.'
     feedback: "Enviar comentarios"
     translate: "Ayúdanos a traducir a tu idioma"
     tos: "Términos del servicio"
@@ -249,4 +260,4 @@
   slow_loading: "Esto está tardando más tiempo de lo habitual..."
   try_reloading: "Intente recargar la página"
   next_level: "Siguiente nivel"
-  download_pdf: "Open Lesson Plan"
+  download_pdf: "Abrir la planificación de la lección"

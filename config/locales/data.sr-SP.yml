@@ -4,26 +4,26 @@
       name:
         20-hour:
           desc: "K-8 увод у курс Компјутерских Наука"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "Фаза 1"
+          Maze: "Фаза 2"
+          Unplug2: "Фаза 3"
+          Unplug3: "Фаза 4"
+          Artist: "Фаза 5"
+          Unplug4: "Фаза 6"
+          Artist2: "Фаза 7"
+          Unplug5: "Фаза 8"
+          Farmer: "Фаза 9"
+          Unplug6: "Фаза 10"
+          Artist3: "Фаза 11"
+          Unplug7: "Фаза 12"
+          Farmer2: "Фаза 13"
+          Unplug8: "Фаза 14"
+          Artist4: "Фаза 15"
+          Unplug9: "Фаза 16"
+          Farmer3: "Фаза 17"
+          Unplug10: "Фаза 18"
+          Artist5: "Фаза 19"
+          Unplug11: "Фаза 20"
         Hour of Code:
           desc: "Час Кодирања"
           Maze: "Фаза 1"
@@ -88,32 +88,29 @@
         maze_2_14: 'Уреду, ово је слично последњој загонетци, али мораш да запамтиш како си користио "if" блок и "repeat" блок заједно.'
         maze_2_15: 'Ја желим сунцокрет! користи "if" блок да ме доведеш до њега са што мањим бројем блокова.'
         maze_2_16: "Уреду, хајде да то урадимо још једном ради вежбе - ово није много другачије, али пази се чомпера (Опасна Биљка)"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        maze_2_17: '"If-else" блок проверава услов, и затим извршава једну или другу ствар. Како бих ме довео до сунцокрета покушај да користиш овај нови блок.'
+        maze_2_18: 'Још једна вежба "If-else" блока, можеш ли је урадити како треба из првог пута?'
+        maze_2_19: "Можеш ли додати само три блока како бих ми помогао да решим компликованији лавиринт? Ако га урадиш како треба, моћи ћу да шетам по било којом кривудавом стазом без обзира на њену дужину."
+        turtle_1_1: "Здраво, ја сам уметник. Можеш написати код да нацртам скоро било шта. Користи пар блокова да цртам преко сивих линија на слици."
+        turtle_1_2: 'А сада, нацртај квадрат. НАПОМЕНА: користи своју најомиљенију боју узимајући је са новог "set color" блока.'
+        turtle_1_3: "Направи квадрат користећи само 3 блока."
+        turtle_1_4: 'Нацртај троугао чије су странице различитих боја, користећи "random color" опција која сваки пут бира различиту боју. Савет: мораћете да схватите колико далеко да се окренете кликћујући број у турн блоку.'
+        turtle_1_5: "А сада, ради вежбе, нацртај троугао па затим квадрат како бих нацртали коверту."
+        turtle_1_6: "Да ли можете да схватите како извући овај троугао и квадрат? Савет: Урадите прво троугао, а затим схватите колико вам је потребно да окренете пре цртања квадрата ."
+        turtle_1_7: "Уреду, хајде да мало закомпликујемо - видите да ли можете да нацртате ове зелене наочаре. Квадрати су 100 пиксела са свих страна, и 50 пиксела је раздаљина између њих. Не заоравите да их нацртате зеленом бојом. "
+        turtle_1_8: 'Уреду, пробај да сазнаш шта ће се десити ако покренеш овај код (или кликни "Run" да испробаш). Затим, понови онолико пута колико је потребно да завршиш цртање. Боје ће сваки пут бити другачије.'
+        turtle_1_9: "Можеш ли да сазнаш који број да замениш у наводницима како бих нацртао круг?"
+        turtle_1_10: 'Успео си! А сада нацртај шта год желиш. Неке интересантне идеје: фигуру штапа, пахуљица, или спирала. Такође испробај "set width" (подеси дужину) блок. Уживај!'
+        turtle_4_1: 'Можеш ли нацртати троугао (са ивицама 100 пиксела) са само три блока? Савет: користи "repeat"(понављање) блок.'
+        turtle_4_2: 'Пробај додати један блок да завршиш ову загонетку. Савет: ми смо обезбедили блокове да нацртамо 2 идентична троугла, потребно је да ставиш "turn" (скрени) између, и одлучиш када да скренеш.'
+        turtle_4_3: 'Уреду, ево га код који си написао да нацрташ троугао. Можеш ли додати "repeat" и "turn" блок како бих направио леп цвет?'
+        turtle_4_4: "Ево га исти код као из предходне загонетке, али скрећући само 36 степени  после цртања сваког троугла. Колико пута је ово потребно да се понови? (Савет: после 360 степени скретања цртеж ће постати цео круг)"
+        turtle_4_5: "Ево га исти код као из предходне загонетке, али понављајући скретање 36 пута. Колико степени бих скретања требала да буду? (Савет: после 360 степени скретања цртеж ће постати пун круг)"
+        turtle_4_6: "Користећи само 3 блока, можеш ли нацртати квадрат са ивицама од 20 пиксела?"
+        turtle_4_7: "Ево га код за цртање квадрата из претходне загонетке. Можеш ли га поновити тако да нацрта 10 суседних квадрата као мердевине? Савет: Потребно ти је још само 2 блока."
+        turtle_4_8: "Ево га решење за претходну загонетку. можеш ли додати још само 2 блока да бих завршио цртање?"
+        turtle_4_9: "Ево га решење за претходну загонетку. За колико степени је потребно да се окренеш како бих завршио цртање? (Вероватно је потребно да погађаш пар пута)"
+        turtle_4_10: "Ево га решење за претходну загонетку. Колико пута бих требало да поновиш, како бих завршио цртеж?"
         turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: |-
           Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
@@ -140,8 +137,7 @@
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
         turtle_2_7_5: |-
           There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
+        turtle_2_8: 'Овај пример је нешто тежи.Користите функцију "нацртај Снешка Белића" и блок "скочи напред" ( којa се налази у категорији "Акција"). Нацртајте 3 Снешка са различитим бојама, који су међусобно одвојени са 100 px.'
         turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
         turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
@@ -168,31 +164,30 @@
         turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
         turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_karel_debug_seq_2: "Шта није уреду са овим програмом? Како бих га ти поправио, тако да могу да уклоним ту гомилу?"
+        maze_karel_debug_repeat: "Дебагуј овај програм за мене, тако да моје поље буде лепо и равно."
+        maze_karel_debug_while: "Како бих променуо овај програм да ми помогне да попуним ову рупу?"
+        maze_karel_debug_if: "Помози! поправи мој програм тако да моје поље буде потпуно равно."
+        maze_karel_debug_if_else: "Дебагуј овај програм тако да могу да попуним рупе и уклоним све гомиле."
+        maze_karel_debug_function_1: "Шта бих променио на овом програму тако да ми помогнеш да уклоним све гомиле?"
+        maze_karel_debug_function_2: "Можеш ли да дебагујеш овај програм за мене, тако да могу да начиним моје поље равним?"
+        maze_karel_debug_function_3: "Измени овај програм па ћу уклонити све гомиле на свом пољу. "
+        turtle_5_1: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        turtle_5_2: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        turtle_5_3: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        turtle_5_4: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        turtle_5_5: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        turtle_5_6: "Пробај да покренеш овај програм, и направи измене да видиш шта ће се догодити. Можеш ли сазнати како функционише? (Или га избриши и замени га са нечим потпуно другачијим)"
+        maze_3_1: "Морам да стигнем до тог прасета! Искуцај пар позива за кретање(); тако да могу да повратим своја јаја."
+        maze_3_2: "Напиши ми програм, тако да могу да дођем целим путем до прасета."
+        maze_3_3: "Како да дођем до прасета? Постарај се да не натрчим на кутију са експлозивом!"
+        maze_3_4: "АРГХ! Напиши ми програм који ме води око експлозива па до прасета."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Како бих сте решили ово, пронађите сличност која се понавља. Користите "понови" блок са ова 3 блока унутар: крени, крени, скрени десно.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: 'Потребан ти је "ако" блок унутар "понови" блока. Ако имаш проблем, уради претходни ниво опет, како бих видео како је функционисао.'
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Како бих сте решили ово, пронађите сличност која се понавља. Користите "понови" блок са ова 3 блока унутар: крени, крени, скрени десно.'
     video:
       name:
         maze_intro: "Лавиринт увод-представљање"
