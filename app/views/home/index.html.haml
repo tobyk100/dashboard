@@ -18,21 +18,6 @@
       = t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
       %br/
 
-      - if current_user.teachers.length > 1
-        = t('teacher.title.other')
-        = current_user.teachers.map(&:name).join(', ')
-      - elsif current_user.teachers.length == 1
-        = t('teacher.title.one', name: current_user.teachers.first.name)
-      - else
-        %h4= t('add_teacher_form.code_or_email.label')
-        = form_for([Follower.new]) do |f|
-          .field
-            = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder')
-            = hidden_field_tag :redirect, root_path
-          .actions
-            = f.submit t('add_teacher_form.submit')
-      %br/
-
       %div{ style: 'padding-top: 10px; padding-bottom: 30px;'}
         - script_level = current_user.next_untried_level(Script.twenty_hour_script)
         - if script_level
@@ -41,6 +26,8 @@
             = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
         - else
           = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_path), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
+        - if current_user.teachers.length < 1
+          = link_to t('add_teacher_form.submit'), "#" + :teacher_email_or_code.to_s
 - else
   %h3= link_to t('try_hoc'), hoc_reset_path()
   = link_to t('already_started'), hoc_chapter_path(ScriptLevel::NEXT)
@@ -64,7 +51,23 @@
   .span12
     = render partial: 'shared/user_stats', locals: { user: current_user, trophies_on_right: true }
 
-  
+%br/
+- if current_user
+  - if current_user.teachers.length > 1
+    = t('teacher.title.other')
+    = current_user.teachers.map(&:name).join(', ')
+  - elsif current_user.teachers.length == 1
+    = t('teacher.title.one', name: current_user.teachers.first.name)
+  - else
+    %h4= t('add_teacher_form.code_or_email.label')
+    = form_for([Follower.new]) do |f|
+      .field
+        = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder')
+        = hidden_field_tag :redirect, root_path
+      .actions
+        = f.submit t('add_teacher_form.submit')
+%br/
+
 - if current_user && current_user.admin?
   %h3= t(:demos)
   %ul
