@@ -26,7 +26,7 @@
 
 :javascript
   var clickedNext = false;
-  $('a.next_stage').click(function() {
+  $('a.next-stage').click(function() {
     if (!clickedNext) {
       clickedNext = true;
       sendReport({
@@ -37,7 +37,11 @@
         result: true,
         testResult: 100,
         onComplete: function() {
-          if (nextRedirect) { window.location.href = nextRedirect; }
+          if (videoInfo) {
+            showVideo(videoInfo);
+          } else if (nextRedirect) {
+            window.location.href = nextRedirect;
+          }
         }
       });
     }
