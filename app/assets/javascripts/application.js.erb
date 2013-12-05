@@ -71,8 +71,6 @@ function showVideo(options) {
   $div = $(dialog.div);
   $div.addClass('video-modal');
 
-  dialog.show();
-
   var tabHandler = function(event, ui) {
     var tab = ui.tab || ui.newTab;  // Depends on event.
     var videoElement = $('#video');
@@ -95,6 +93,12 @@ function showVideo(options) {
     active: (lastTab !== null) ? lastTab : 0  // Set starting tab.
   });
 
+  var download = $('<a/>').append($('<img src="<%= asset_path 'download_button.png' %>"/>'))
+                          .addClass('download-video')
+                          .attr('href', options.download);
+  var nav = $('.ui-tabs-nav');
+  nav.append(download);
+  
   // Resize modal to fit constraining dimension.
   var height = $(window).height() * widthRatio,
       width = $(window).width() * heightRatio;
@@ -115,16 +119,12 @@ function showVideo(options) {
     marginLeft: ($div.width() / -2) + 'px'
   });
 
-  var tabHeight = $div.find('.ui-tabs-nav').outerHeight();
-  var divHeight = $div.innerHeight() - tabHeight;
+  var divHeight = $div.innerHeight() - nav.outerHeight();
   $(video).height(divHeight);
-
-  var download = $('<a/>').append($('<img src="<%= asset_path 'download_button.png' %>"/>'))
-                          .addClass('download-video')
-                          .attr('href', options.download);
-  var nav = $('.ui-tabs-nav');
-  nav.append(download);
+  
   notesDiv.height(divHeight);
+
+  dialog.show();
 }
 
 function embed_thumbnail_image(data) {
