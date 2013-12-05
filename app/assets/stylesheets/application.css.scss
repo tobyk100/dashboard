@@ -210,6 +210,26 @@ th {
   padding: 2px 2px 1px 2px;
 }
 
+.game-group.single {
+  margin-top: 8px;
+  a {
+    border-radius: 5px;
+    line-height: 22px;
+    padding: 6px;
+    background-color: $dark_color;
+    &.level-done {
+      background-color: $orange;
+    }
+    &:hover {
+      background-color: black;
+      text-decoration: none;
+    }
+    span {
+      color: white;
+    }
+  }
+}
+
 .progress-outer {
   background: #d1d567;
   -webkit-border-radius: 13px;
@@ -408,7 +428,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   top:auto;
   position:absolute;
   left:50%;
-  width:620px;
+  width:635px;
   margin-left:-330px;
   margin-top:-20px;
   border: 20px solid $bkgnd_color;
@@ -510,6 +530,9 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   margin-bottom: 4px;
   border-bottom: 1px solid $inset_color;
   border-bottom-style: inset;
+}
+.game-group:last-child .stage_separator {
+  display: none;
 }
 
 .prize-msg {
