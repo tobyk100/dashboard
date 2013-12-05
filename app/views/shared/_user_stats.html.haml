@@ -5,28 +5,32 @@
 -if (!defined? trophies_on_right) || !trophies_on_right
   =render partial: 'shared/concept_trophy_block', locals: { concept_progress: concept_progress, user: user, added_style: 'padding-right:10px;' }
 
-%div{style:"display:inline-block;width:300px;position:relative;overflow:hidden;float:left;"}
+%div{style:"display:inline-block;width:315px;position:relative;overflow:hidden;float:left;"}
   %h4 #{t('nav.popup.puzzle_map')}
 
-  - current_game = 0
-  - script_levels.each do |sl|
-    - if (sl.level.game_id != current_game)
-      - if current_game != 0
-        .stage_separator
-      - current_game = sl.level.game_id
-      %div
-        #{data_t_suffix('script.name', script.name, sl.level.game.name)}
-        #{data_t('game.name', sl.level.game.name)}
-    - current_game_chapter = sl.game_chapter
+  - script_levels.group_by{ |sl| sl.level.game }.each_pair do |game, sl_group|
+    - title = data_t_suffix('script.name', script.name, game.name) + ' ' + data_t('game.name', game.name)
+    .game-group
+      - if sl_group.length == 1
+        .single-game
+          - sl = sl_group.first
+          - passed, link = level_info(user, sl)
+          %a{href: link, class: ('level-done' if passed)}
+            %span=title
+            - if passed
+              = check_mark_html
+      - else
+        %div=title
+        - sl_group.each do |sl|
+          - passed, link = level_info(user, sl)
+          - if passed
+            %a{ href: link, class: "level_link level_link_done"}
+              = check_mark_html
+          - else
+            %a{ href: link, class: "level_link"}
+              #{sl.game_chapter}
 
-    - link = build_script_level_path(sl)
-
-    - if level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
-      %a{ href: link, class: "level_link level_link_done"}
-        = check_mark_html
-    - else
-      %a{ href: link, class: "level_link"}
-        #{current_game_chapter}
+    .stage_separator
 
 -if (defined? trophies_on_right) && trophies_on_right
   =render partial: 'shared/concept_trophy_block', locals: { concept_progress: concept_progress, user: user, added_style: 'padding-left:30px;' }
