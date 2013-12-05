@@ -5,17 +5,18 @@
 
   .buttons
 
-    %a.level_link.next_level
-      = t('next_level')
-
     - pdfs = data_t('unplugged', @game.name)[:pdfs]
     - if pdfs
       - pdfs.each_with_index do |pdf, i|
-        %a.level_link.pdf_button{href: asset_url('/unplugged/' + pdf + '.pdf'),
+        %a.btn.pdf-button{href: asset_url('/unplugged/' + pdf + '.pdf'),
                                  target: '_blank'}
           = t('download_pdf', :pdf => i + 1)
     - else
-      %p Downloadable activity coming soon.
+      %a.btn.pdf-button{disabled: 'disabled'}
+        Downloadable activity coming soon.
+
+    %a.btn.btn-primary.next-stage
+      = t('next_stage')
 
   - video = data_t('unplugged', @game.name)[:video]
   - if video
@@ -25,7 +26,7 @@
 
 :javascript
   var clickedNext = false;
-  $('a.next_level').click(function() {
+  $('a.next_stage').click(function() {
     if (!clickedNext) {
       clickedNext = true;
       sendReport({

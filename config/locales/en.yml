@@ -281,5 +281,5 @@ en:
     upgrade: "Please upgrade your browser."
   slow_loading: 'This is taking longer than usual...'
   try_reloading: 'Try reloading the page'
-  next_level: 'Next Level'
+  next_stage: 'Finished! Continue to next stage'
   download_pdf: 'Open Lesson Plan'
