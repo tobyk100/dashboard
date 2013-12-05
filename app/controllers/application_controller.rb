@@ -54,6 +54,8 @@ class ApplicationController < ActionController::Base
         if script_level.script.hoc?
           next_level = Script.find_twenty_hour_script.get_script_level_by_chapter(script_level.chapter + 1)
           redirect = current_user ? build_script_level_path(next_level) : "http://code.org/api/hour/finish"
+        else
+          response[:redirect] = root_path
         end
         # Get the wrap up video
         video = script_level.script.wrapup_video
