@@ -102,7 +102,7 @@ function showVideo(options) {
   // Resize modal to fit constraining dimension.
   var height = $(window).height() * widthRatio,
       width = $(window).width() * heightRatio;
-  
+
   if (height * aspectRatio < width) {
     $div.height(height);
     $div.width(height * aspectRatio);
@@ -117,7 +117,7 @@ function showVideo(options) {
     left: '50%',
     marginTop: ($div.height() / -2) + 'px',
     marginLeft: ($div.width() / -2) + 'px'
-    });
+  });
 
   var divHeight = $div.innerHeight() - nav.outerHeight();
   $(video).height(divHeight);
