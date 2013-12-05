@@ -3,14 +3,14 @@
 .unplugged {
   $page_width: 800px;
 
+  width: $page_width;
+  margin-left: auto;
+  margin-right: auto;
+
   iframe {
     width: $page_width;
     height: $page_width / (16 / 9);
     margin-top: 20px;
-  }
-
-  p {
-    max-width: $page_width;
   }
 
   a {
@@ -22,6 +22,6 @@
   }
   .next_level {
     background-color: $orange;
-    margin-left: 10px;
+    margin-right: 10px;
   }
 }
