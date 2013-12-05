@@ -205,7 +205,6 @@ class ActivitiesController < ApplicationController
           teacher.teacher_prize_earned = true
           teacher.save!
           PrizeMailer.teacher_prize_earned(teacher).deliver if teacher.email.present? && eligible_for_prize?
-          end
         end
 
         if t_bonus && !teacher.teacher_bonus_prize_earned
