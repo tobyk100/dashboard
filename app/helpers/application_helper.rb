@@ -98,4 +98,10 @@ module ApplicationHelper
     image_tag('white-checkmark.png')
   end
 
+  def level_info(user, script_level)
+    passed = level_passed({user: user, user_level: script_level.user_level, level_id: script_level.level_id})
+    link = build_script_level_path(script_level)
+    [passed, link]
+  end
+
 end

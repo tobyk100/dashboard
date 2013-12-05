@@ -210,22 +210,25 @@ th {
   padding: 2px 2px 1px 2px;
 }
 
-.single-game {
-  margin-top: 8px;
-  a {
-    border-radius: 5px;
-    line-height: 22px;
-    padding: 6px;
-    background-color: $dark_color;
-    &.level-done {
-      background-color: $orange;
-    }
-    &:hover {
-      background-color: black;
-      text-decoration: none;
-    }
-    span {
-      color: white;
+.game-group {
+  .single-game {
+    margin-top: 8px;
+    a {
+      border-radius: 5px;
+      line-height: 22px;
+      padding: 6px;
+      background-color: $dark_color;
+      &.level-done {
+        background-color: $orange;
+      }
+      &:hover {
+        background-color: black;
+        text-decoration: none;
+      }
+      span {
+        color: white;
+        font-weight: normal;
+      }
     }
   }
 }

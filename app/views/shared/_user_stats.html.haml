@@ -14,17 +14,16 @@
       - if sl_group.length == 1
         .single-game
           - sl = sl_group.first
-          - passed = level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
-          - link = build_script_level_path(sl)
+          - passed, link = level_info(user, sl)
           %a{href: link, class: ('level-done' if passed)}
             %span=title
             - if passed
               = check_mark_html
       - else
+        %div=title
         - sl_group.each do |sl|
-          - link = build_script_level_path(sl)
-
-          - if level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
+          - passed, link = level_info(user, sl)
+          - if passed
             %a{ href: link, class: "level_link level_link_done"}
               = check_mark_html
           - else
