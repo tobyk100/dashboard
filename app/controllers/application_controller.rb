@@ -99,4 +99,8 @@ class ApplicationController < ActionController::Base
     render 'shared/overloaded', status: 502 if Rails.configuration.minimal_mode
   end
 
+  def after_sign_out_path_for(resource_or_scope)
+    "http://www.code.org"
+  end
+
 end
