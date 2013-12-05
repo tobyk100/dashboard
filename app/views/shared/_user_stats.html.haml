@@ -10,18 +10,17 @@
 
   - script_levels.group_by{ |sl| sl.level.game }.each_pair do |game, sl_group|
     - title = data_t_suffix('script.name', script.name, game.name) + ' ' + data_t('game.name', game.name)
-    - if sl_group.length == 1
-      .game-group.single
-        - sl = sl_group.first
-        - passed = level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
-        - link = build_script_level_path(sl)
-        %a{href: link, class: ('level-done' if passed)}
-          %span=title
-          - if passed
-            = check_mark_html
-    - else
-      .game-group
-        %div= title
+    .game-group
+      - if sl_group.length == 1
+        .single-game
+          - sl = sl_group.first
+          - passed = level_passed({user: user, user_level: sl.user_level, level_id: sl.level_id})
+          - link = build_script_level_path(sl)
+          %a{href: link, class: ('level-done' if passed)}
+            %span=title
+            - if passed
+              = check_mark_html
+      - else
         - sl_group.each do |sl|
           - link = build_script_level_path(sl)
 
