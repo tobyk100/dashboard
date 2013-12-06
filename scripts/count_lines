@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
 
+require 'json'
+
 FILE = '/cdo/backups/milestone_cache'
 sum_cache = (File.open(FILE, 'r') { |f| Marshal.load(f.read) }) rescue {}
 today_sum = archive_sum = 0
+results = {}
 
 Dir.glob('/cdo/backups/dash*/log/milestone.log-*') do |i|
   num = sum_cache[i] || `gunzip -c #{i} | cut -f10 | awk '{s+=$1} END {print s}'`.to_i
@@ -10,7 +13,7 @@ Dir.glob('/cdo/backups/dash*/log/milestone.log-*') do |i|
   sum_cache[i] = num
 end
 
-puts "archive: #{archive_sum}"
+results[:archive] = archive_sum
 
 Dir.glob('/cdo/backups/dash*/log/milestone.log') do |i|
   num = sum_cache[i] || `cat #{i} | cut -f10 | awk '{s+=$1} END {print s}'`.to_i
@@ -18,7 +21,9 @@ Dir.glob('/cdo/backups/dash*/log/milestone.log') do |i|
   sum_cache[i] = num
 end
 
-puts "today: #{today_sum}"
-puts "all time: #{today_sum + archive_sum}"
+results[:today] = today_sum
+results[:all] = today_sum + archive_sum
+
+puts results.to_json
 
 File.open(FILE, "wb") { |f| f.write Marshal.dump(sum_cache) }
