@@ -123,7 +123,7 @@ en:
   follower:
     invite_sent: 'Invite sent'
     added_teacher: '%{name} added as your teacher'
-    registered:  "You've registered for %{section_name}. Please sign in to continue"
+    registered:  "You've registered for %{section_name}."
 
     error:
       signed_in: 'Please signout before proceeding'
