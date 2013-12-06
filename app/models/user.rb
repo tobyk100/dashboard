@@ -13,8 +13,8 @@ class User < ActiveRecord::Base
 
   GENDER_OPTIONS = [[nil, ''], ['gender.male', 'm'], ['gender.female', 'f'], ['gender.none', '-']]
   
-  STUDENTS_COMPLETED_FOR_PRIZE = 10
-  STUDENTS_FEMALE_FOR_BONUS = 0.4
+  STUDENTS_COMPLETED_FOR_PRIZE = 15
+  STUDENTS_FEMALE_FOR_BONUS = 7
 
   attr_accessor :login
 
@@ -195,7 +195,7 @@ SQL
     end
     
     teacher_prize = completed_students >= STUDENTS_COMPLETED_FOR_PRIZE
-    teacher_bonus_prize = teacher_prize && (completed_female_students.to_f / completed_students) >= STUDENTS_FEMALE_FOR_BONUS
+    teacher_bonus_prize = teacher_prize && (completed_female_students >= STUDENTS_FEMALE_FOR_BONUS)
     return teacher_prize, teacher_bonus_prize
   end
 
