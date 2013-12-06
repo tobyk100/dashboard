@@ -8,11 +8,11 @@ class ScriptLevel < ActiveRecord::Base
   attr_accessor :user_level
 
   def next_level
-    self.script.get_script_level_by_chapter(self.chapter + 1)
+    self.script.try(:get_script_level_by_chapter, self.chapter + 1)
   end
 
   def previous_level
-    self.script.get_script_level_by_chapter(self.chapter - 1)
+    self.script.try(:get_script_level_by_chapter, self.chapter - 1)
   end
 
   def self.cache_find(id)

@@ -41,10 +41,10 @@ class ScriptLevelsController < ApplicationController
 
     if chapter
       @script_level = @script.get_script_level_by_chapter(chapter.to_i)
-      raise ActiveRecord::RecordNotFound unless @script_level
     else
       @script_level = @script.get_script_level_by_id(script_level_id.to_i)
     end
+    raise ActiveRecord::RecordNotFound unless @script_level
 
     present_level(@script_level)
   end
