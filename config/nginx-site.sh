@@ -30,7 +30,14 @@ EOF
 
 if [[ $RAILS_ENV = 'production' ]]; then
 cat <<EOF
+    // http://www.oneminuteinfo.com/2011/05/nginx-rewrite-test-multiple-conditions.html
     if (\$host != "learn.code.org") {
+      set \$test A;
+    }
+    if (\$uri !~ ^/health_check ) {
+      set \$test "\${test}B";
+    }
+    if (\$test = AB) {
       rewrite /?(.*) http://learn.code.org/$1 permanent;
     }
 EOF
