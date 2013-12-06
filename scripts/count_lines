@@ -2,12 +2,23 @@
 
 FILE = '/cdo/backups/milestone_cache'
 sum_cache = (File.open(FILE, 'r') { |f| Marshal.load(f.read) }) rescue {}
-sum = 0
+today_sum = archive_sum = 0
+
 Dir.glob('/cdo/backups/dash*/log/milestone.log-*') do |i|
   num = sum_cache[i] || `gunzip -c #{i} | cut -f10 | awk '{s+=$1} END {print s}'`.to_i
-  sum += num
+  archive_sum += num
   sum_cache[i] = num
 end
-puts sum
+
+puts "archive: #{archive_sum}"
+
+Dir.glob('/cdo/backups/dash*/log/milestone.log') do |i|
+  num = sum_cache[i] || `cat #{i} | cut -f10 | awk '{s+=$1} END {print s}'`.to_i
+  today_sum += num
+  sum_cache[i] = num
+end
+
+puts "today: #{today_sum}"
+puts "all time: #{today_sum + archive_sum}"
 
 File.open(FILE, "wb") { |f| f.write Marshal.dump(sum_cache) }
