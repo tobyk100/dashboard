@@ -125,7 +125,13 @@ SQL
     # make sure section_code is in the path (rather than just query string)
     if request.path != student_user_new_path(section_code: params[:section_code])
       redirect_to student_user_new_path(section_code: params[:section_code])
+    elsif current_user && @section
+      if (current_user.followeds.where(:section_id => @section.id).count == 0)
+        Follower.create!(user_id: @section.user_id, student_user: current_user, section: @section)
+      end
+      redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)
     end
+
     @user = User.new
   end
 

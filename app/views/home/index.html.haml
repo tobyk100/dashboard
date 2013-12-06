@@ -4,7 +4,7 @@
       %h1= t('welcome_back', name: current_user.name)
       %hr
 
-      - if current_user.students.length > 0
+      - if current_user.students.length > 0 || current_user.teacher?
         %h4 #{t('home.classroom')}:
 
         %p
