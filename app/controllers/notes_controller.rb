@@ -5,6 +5,6 @@ class NotesController < ApplicationController
     # See config/locales/slides.en.yml for details.
     @note_paths = t('slides.' + params[:key], locale: :en)
 
-    render layout: false
+    render layout: false, formats: [:html]
   end
 end

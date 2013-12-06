@@ -158,7 +158,7 @@ SQL
       end
     end
 
-    render "student_user_new"
+    render "student_user_new", formats: [:html]
   end
 
   def student_edit_password
@@ -174,7 +174,7 @@ SQL
     if @user.update(user_params.permit(:password, :password_confirmation))
       redirect_to manage_followers_path, notice: "Password saved"
     else
-      render :student_edit_password
+      render :student_edit_password, formats: [:html]
     end
   end
 
