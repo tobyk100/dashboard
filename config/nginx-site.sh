@@ -38,7 +38,7 @@ cat <<EOF
       set \$test "\${test}B";
     }
     if (\$test = AB) {
-      rewrite /?(.*) http://learn.code.org/$1 permanent;
+      rewrite /?(.*) http://learn.code.org/\$1 permanent;
     }
 EOF
 fi
