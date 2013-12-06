@@ -21,7 +21,7 @@ class HomeController < ApplicationController
 
   def home_insert
     if current_user
-      render 'index', layout: false
+      render 'index', layout: false, formats: [:html]
     else
       render text: ''
     end

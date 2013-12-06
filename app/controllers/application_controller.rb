@@ -96,7 +96,9 @@ class ApplicationController < ActionController::Base
   end
 
   def nonminimal
-    render 'shared/overloaded', status: 502 if Rails.configuration.minimal_mode
+    if Rails.configuration.minimal_mode
+      render 'shared/overloaded', status: 502, formats: [:html]
+    end
   end
 
   def after_sign_out_path_for(resource_or_scope)

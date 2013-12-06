@@ -75,6 +75,6 @@ private
       success: milestone_response(script_level: @script_level, solved?: true),
       failure: milestone_response(script_level: @script_level, solved?: false)
     }
-    render 'levels/show'
+    render 'levels/show', formats: [:html]
   end
 end
