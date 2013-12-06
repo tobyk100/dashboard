@@ -26,8 +26,8 @@ class PrizeProvidersController < ApplicationController
     raise 'no prize_provider' if !@prize_provider.present?
     raise 'type parameter missing' if !params[:type].present?
     # confirm that user is in the US here
-    us_user = true if request.location.country_code == 'US'
-    if us_user
+    eligible = true if eligible_for_prize?
+    if eligible
       prize = case params[:type].downcase
       when 'teacher'
         TeacherPrize.assign_to_user(current_user, @prize_provider)
@@ -48,7 +48,7 @@ class PrizeProvidersController < ApplicationController
 
     if prize.present?
       redirect_to my_prizes_url, notice: t('redeem_prizes.success')
-    elsif !us_user
+    elsif !eligible
       redirect_to my_prizes_url, alert: t('redeem_prizes.error_us_only')
     else
       redirect_to my_prizes_url, alert: t('redeem_prizes.error')

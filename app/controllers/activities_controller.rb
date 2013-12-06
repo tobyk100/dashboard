@@ -183,11 +183,6 @@ class ActivitiesController < ApplicationController
     trophy_updates
   end
 
-  def eligible_for_prize?
-    # check IP for US users only (ideally, we'd check if the teacher is in the US for teacher prizes)
-    request.location.country_code == 'US'
-  end
-
   def prize_check(user)
     if user.trophy_count == (Concept.cached.length * Trophy::TROPHIES_PER_CONCEPT)
       if !user.prize_earned
