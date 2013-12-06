@@ -146,6 +146,7 @@ SQL
           Follower.create!(user_id: @section.user_id, student_user: @user, section: @section)
           # todo: authenticate new user
           redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)
+          sign_in(:user, @user)
           return
         end
       end
