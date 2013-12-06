@@ -129,7 +129,7 @@ SQL
       if (current_user.followeds.where(:section_id => @section.id).count == 0)
         Follower.create!(user_id: @section.user_id, student_user: current_user, section: @section)
       end
-      redirect_to root_path, notice: I18n.t('follower.registered_signed_in', section_name: @section.name)
+      redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)
     end
 
     @user = User.new
@@ -152,6 +152,7 @@ SQL
           Follower.create!(user_id: @section.user_id, student_user: @user, section: @section)
           # todo: authenticate new user
           redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)
+          sign_in(:user, @user)
           return
         end
       end
