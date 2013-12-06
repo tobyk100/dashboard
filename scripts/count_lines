@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+FILE = '/cdo/backups/milestone_cache'
+sum_cache = (File.open(FILE, 'r') { |f| Marshal.load(f.read) }) rescue {}
+sum = 0
+Dir.glob('/cdo/backups/dash*/log/milestone.log-*') do |i|
+  num = sum_cache[i] || `gunzip -c #{i} | cut -f10 | awk '{s+=$1} END {print s}'`.to_i
+  sum += num
+  sum_cache[i] = num
+end
+puts sum
+
+File.open(FILE, "wb") { |f| f.write Marshal.dump(sum_cache) }
