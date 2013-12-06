@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Einladung gesendet"
     added_teacher: "%{name} wurde als Ihr Lehrer hinzugefügt"
-    registered: "Sie haben sich für %{section_name} registriert. Melden Sie sich an um fortzufahren"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Bitte melden Sie sich ab bevor Sie fortfahren"
       username_not_found: "Benutzername %{username} wurde nicht gefunden"
@@ -259,5 +259,5 @@
     upgrade: "Bitte aktualisieren Sie Ihren Browser."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Versuchen Sie die Seite neu zu laden"
-  next_level: "Nächstes Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

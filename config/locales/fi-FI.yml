@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Kutsu lähetetty"
     added_teacher: "%{name} lisätty opettajaksesi"
-    registered: "Olet rekisteröitynyt %{section_name} osioon. Kirjaudu nyt sisään"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Ole hyvä ja kirjaudu ensin sisään"
       username_not_found: "Käyttäjätunnusta %{username} ei löydy"
@@ -259,5 +259,5 @@
     upgrade: "Ole hyvä ja päivitä selaimesi."
   slow_loading: "Tämä kestää kauemmin kuin tavallisesti..."
   try_reloading: "Yritä ladata sivu uudelleen"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

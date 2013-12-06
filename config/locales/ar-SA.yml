@@ -46,14 +46,14 @@
     need_confirmation: "لم استلم تعليمات تأكيد الحساب؟"
     need_unlock: "لم أستلم تعليمات فتح الحساب؟"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "هذا الكورس 20 ساعة حول مقدمة عن علوم الكمبيوتر ومفاهيم البرمجة. تم تصميم هذا الكورس للاستخدام في الفصول الدراسية للصفوف الابتدائية والمتوسطة، ولكن أنها متعة للتعلم لكل الإعمار."
+    no_signup_header: "لاترغب بالتسجيل؟"
+    no_signup_message: 'يمكنك<a target="_blank" href="http://learn.code.org"> تصفح مختلف المراحل والالغاز</a>, ولكن سوف تحتاج إلى التسجيل لحفظ تقدمك.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_educator_guide: "راجع دليل المعلم"
+    teacher_prize_header: 'اربح 1000دولار في المكافئات <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org </a> '
+    teacher_prize_message: 'مشاركة مع <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>، سوف يقدم Code.org مبلغا يصل إلى 1,000 دولار لتمويل الفصول الدراسية للمعلمين الأمريكان الذي يقود على الأقل 10 طلاب من هذا الكورس.'
     teacher_pitch: "اعطاء مقدمة عن علوم الكمبيوتر للمستوى المبتدئ والمتوسط في فصلك الدراسي"
     teacher_title: "تسجيل حساب المعلم"
     student_pitch: "بعد اتمامك ساعة واحدة من البرمجة : جرب مقدمة عن علوم الكمبيوتر للمستوئ المبتدئ والمتوسط"
@@ -103,7 +103,7 @@
   follower:
     invite_sent: "تم إرسال الدعوة"
     added_teacher: "%{name} تم اضافتك كمعلم"
-    registered: "لقد قمت بتسجيل %{section_name}. الرجاء تسجيل الدخول للاستمرار"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "من فضلك قم بتسجيل الخروج قبل المتابعة"
       username_not_found: "اسم المستخدم %{username} غير موجود"
@@ -122,7 +122,7 @@
     redeem_header: "To redeem:"
     success: "تم استرداد جائزتك بنجاح, راجع الكود البرمجي ادناه."
     error: "لم يتم استرداد جائزتك بنجاح, الرجاء المحاولة مرة اخرى."
-    error_us_only: "The prize offer is only valid for U.S. users."
+    error_us_only: "عرض الجائزة صالحة فقط للمستخدمين في الولايات المتحدة."
     no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "الرجاء تأكيد"
@@ -146,17 +146,17 @@
     msg:
       choose: "اختر الجائزة :"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "انت حصلت جائزة (فقط لطلاب الولايات المتحدة)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "تعلم جميع مفاهيم علوم الكمبيوتر , اجمع جميع الجوائز%{num_trophies}، واكسب جوائز العالم الحقيقي. يمكنك أن تختار بين بطاقة هدية أي تيونز 10 دولار، 10 كيكا بايت للتخزين المجاني من درو بوكس، 10 دولار رصيد سكايب ، وتحميل العاب مجانية. ملاحظة: العروض فقط صالحة للطلاب في الولايات المتحدة."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 أو أكثر من الطلاب جمع جميع الجوائز %{num_trophies} لقد فزت بجائزة معلم 750 دولار! (المعلمين في الولايات المتحدة فقط)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'لمكافأة معلمين علوم الكمبيوتر لاول مرة , بأمكانك كسب مكافأة مالية اكثر من 1000 دولار في <a href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات من اجل توجيه الصف الدارسي من خلال اعطاء مقدمة للمستوى المبتدئ والمتوسط , لكي تتأهل يحتاج منك ان تقوم بأستضافة 10 طلاب واعطائهم كورس مقدمة في علوم الكمبيوتر , بعد اكمال الـ 10 طلاب جميع المحاظرات التعليمية سيحصلون على جميع الجوائز %{num_trophies} .اذا كان جميع طلابك الذين يحصلون على جميع الجوائز %{num_trophies} يتكون من على الاقل 40% من الفتيات , مكافأتك ستصبح 250 دولار <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> من الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "40% أو أكثر من الطلاب الذين جمعوا جميع الجوائز %{num_trophies} هم من الفتيات. لقد فزت بجائزة 250 دولار مكافأة! (المعلمين في الولايات المتحدة فقط)"
+          not_earned: 'اذا كان جميع طلابك الذين يحصلون على جميع الجوائز %{num_trophies} يتكون من على الاقل 40% من الفتيات , مكافأتك ستصبح 250 دولار <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> من الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.'
   crud:
     new_model: "جديد %{model}"
     show: "إظهار"
@@ -189,7 +189,7 @@
       puzzle_map: "مراحل"
       prizes: "اجمع الجوائز الـ %{total_trophies} و فز بجوائز قيمة!"
       prize_earned: "كل الجوائز %{total_trophies} جمعت . فزت بجائزة!"
-      prize_us_only: "(U.S. students only)"
+      prize_us_only: "(طلاب الولايات المتحدة فقط)"
       prizes_link: "مزيد من المعلومات"
   teacher:
     title:
@@ -219,7 +219,7 @@
     student_reg_link: "الطالب"
     teacher_reg_link: "المعلم"
     teacher_dashboard: "انظر على لوحة معلومات التقدم"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "لديك %{count} طلاب."
     teacher_student_count: "لديك %{count} طلاب."
     teacher_averages: 'كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان المفهوم".'
     classroom: "فصلك الدراسي"
@@ -260,5 +260,5 @@
     upgrade: "من فضلك قم بتحديث متصفح الأنترنت الخاص بك."
   slow_loading: "هذا يأخذ وقتاً اطول من المعتاد..."
   try_reloading: "حاول اعادة تحميل الصفحة"
-  next_level: "المستوى التالي"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "افتح خطة الدرس"

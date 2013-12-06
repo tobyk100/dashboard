@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Invitație trimisă"
     added_teacher: "%{name} adăugat(ă) ca și profesorul tău"
-    registered: "Te-ai înscris la %{section_name}. Te rugăm să te loghezi pentru a continua"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Te rugăm să te deloghezi înainte de a continua"
       username_not_found: "Utilizatorul %{username} nu a fost găsit"
@@ -259,5 +259,5 @@
     upgrade: "Te rugăm să-ți actualizezi browser-ul."
   slow_loading: "Aceasta durează mai mult decât de obicei..."
   try_reloading: "Încearcă să reîncarci pagina"
-  next_level: "Următorul nivel"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Plan de lecţie deschisă"

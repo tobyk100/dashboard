@@ -46,14 +46,14 @@
     need_confirmation: "Нисте примили инструкције за потврду?"
     need_unlock: "Нисте примили инструкције за откључавање?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "Овај 20-часовни  курс представља срж компјутерских наука и програмерских основа. Курс је дизајниран за употребу у учионицама за разреде К-8, али је забавно учити у било којем животном периоду."
+    no_signup_header: "Не желите да се пријавите?"
+    no_signup_message: 'Можете <a target="_blank" href="http://learn.code.org">претраживати разне нивое и загонетке</a>, али ће те морати да се пријавите како бих запамтили ваш напредак.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_educator_guide: "Погледај водич за едукатора"
+    teacher_prize_header: 'Освоји $1,000 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> Награде'
+    teacher_prize_message: 'У партнерству са <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org нуди до $1,000 у разредима, финансирајући америчке наставнике  који проведу најмање 10 студената кроз овај курс.'
     teacher_pitch: "Предавајте К-8 Увод у Компјутерске Науке  вашем разреду"
     teacher_title: "Учитељ пријављивање"
     student_pitch: "Изван 1 часа: испробајте К-8 Увод у Компјутерске Науке"
@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Позивница послата"
     added_teacher: "%{name} вас је додао као предавача"
-    registered: "Регистровали сте се за %{section_name}. Молимо вас да се пријавите да би сте наставили"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Молимо вас да се одјавите пре наставка"
       username_not_found: "Корисничко име %{username} није пронађено"
@@ -121,7 +121,7 @@
     redeem_header: "To redeem:"
     success: "Ваша је награда успешно откуплјена, погледајте код испод."
     error: "Ваша награда није могла бити откуплјена, молимо покушајте поновно."
-    error_us_only: "The prize offer is only valid for U.S. users."
+    error_us_only: "Понуда награде важи само за кориснике Уједињених држава (САД)."
     no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Молимо потврдите"
@@ -145,17 +145,17 @@
     msg:
       choose: "Изабери награду:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "Заслужили сте награду! (само за студенте САД-а)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Научите све основе компјутерских наука, сакупите све %{num_trophies} трофеје, и освојите реалне награде. Можете бирати између $10 iTunes поклон картицу, 10GB слободног ДропБох простора, $10 долара скајп кредита, и бесплатно преузимање игрица. Напомена: Понуда важи само за студенте САД-а, и само док трају залихе."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 или више студената је сакупило све %{num_trophies} трофеје. Освојили сте $750 учитељску награду!(Само за учитеље из САД-а)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'Како бих наградили учитеље компјутерских наука који први пут учествују, можете зарадити до $1,000 у <a href="http://DonorsChoose.org">DonorsChoose.org</a>кредитима,  вођењем радионице разреда кроз К-8 курс увода. Да бих се квалификовали, морате успешно да угостите учионицу од 10 или више ученика кроз цео К-8 увод курса, са свих 10 или више ученика, комплетирајући све туторијале и освајајући све %{num_trophies} трофеје. Ако је ваш разред освојио све трофеје и садржи  бар 40% девојака, ваша награда је $1,000 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредитим, у супротном, ваша награда је $750 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредити важе само за учитеље из САД-а и из државних школа.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "40% или више ваших ученика који су сакупили све %{num_trophies} трофеје су девојке. Освојили сте $250 бонус награду! (само за учитеље из САД-а)"
+          not_earned: 'Ако тим ваших студената који су освојили све %{num_trophies} трофеје садржи најмање 40% девојака, ваша награда је додатних $250 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредите могу користити само учитељи из САД-а, државних школа.'
   crud:
     new_model: "Нови %{model}"
     show: "Покажи"
@@ -188,7 +188,7 @@
       puzzle_map: "Нивои"
       prizes: "Сакупи све %{total_trophies} трофеје и освоји награде!"
       prize_earned: "Сви %{total_trophies} трофеји сакуплјени. Награда освојена!"
-      prize_us_only: "(U.S. students only)"
+      prize_us_only: "(Само за ученике из САД-а)"
       prizes_link: "више информација"
   teacher:
     title:
@@ -218,7 +218,7 @@
     student_reg_link: "Студент"
     teacher_reg_link: "Учитељ"
     teacher_dashboard: "Видјети плочу напретка"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "Имате %{count} студената."
     teacher_student_count: "Ви имате %{count} студената."
     teacher_averages: 'У просјеку су ваши студенти зарадили %{trophy_average} од %{trophy_max} "Concept Mastery" трофеја.'
     classroom: "Ваша учионица"
@@ -259,5 +259,5 @@
     upgrade: "Молимо набавите савременији претраживаћ."
   slow_loading: "Ово траје дуже него што је уобичајено ..."
   try_reloading: "Покушајте са поновним покретањем странице"
-  next_level: "Следећи Ниво"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Отворен План Лекције"

@@ -102,7 +102,7 @@
   follower:
     invite_sent: "招待状を送りました"
     added_teacher: "%{name} あなたの先生として追加"
-    registered: " %{section_name} を登録しました。引き続きサインインしてください。"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Signout 続行する前にsignou してください。"
       username_not_found: "ユーザー名 %{username} が見つかりません"
@@ -259,5 +259,5 @@
     upgrade: "お使いのブラウザーをアップグレードしてください。"
   slow_loading: "通常よりも長くかかっている..."
   try_reloading: "ページを再読み込みしてみてください。"
-  next_level: "次のレベル"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "オープン レッスン ・ プラン"

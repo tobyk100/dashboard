@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Pozvánka odeslána"
     added_teacher: "%{name} přidán jako tvůj učitel"
-    registered: "Zaregistroval ses na %{section_name}. Chceš-li pokračovat, přihlaš se"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Odhlaš se, prosím, před pokračováním"
       username_not_found: "Uživatelské jméno %{username} nebylo nalezeno"
@@ -259,5 +259,5 @@
     upgrade: "Aktualizuj si svůj prohlížeč."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

@@ -95,7 +95,7 @@
   follower:
     invite_sent: "Jemputan dihantar"
     added_teacher: "%{name} ditambah sebagai guru anda"
-    registered: "Anda telah berdaftar %{section_name}. Sila daftar masuk untuk teruskan"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Sila daftar keluar sebelum teruskan"
       username_not_found: "Pengguna %{username} tidak dijumpai"
@@ -252,5 +252,5 @@
     upgrade: "Sila naik taraf pelayar anda."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

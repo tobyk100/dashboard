@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Invitació enviada"
     added_teacher: "%{name} afegit com el teu professor"
-    registered: "T'has registrat per a %{section_name}. Per favor, inicieu la sessió per continuar"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Si us plau tanca la sessió abans de continuar"
       username_not_found: "Usuari %{username} no trobat"
@@ -261,5 +261,5 @@
     upgrade: "Si us plau, actualitza el teu navegador."
   slow_loading: "Això està trigant més de l'habitual..."
   try_reloading: "Prova de tornar a carregar la pàgina"
-  next_level: "Següent Nivell"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Lliçó Oberta"

@@ -111,23 +111,22 @@
         turtle_4_8: "Ево га решење за претходну загонетку. можеш ли додати још само 2 блока да бих завршио цртање?"
         turtle_4_9: "Ево га решење за претходну загонетку. За колико степени је потребно да се окренеш како бих завршио цртање? (Вероватно је потребно да погађаш пар пута)"
         turtle_4_10: "Ево га решење за претходну загонетку. Колико пута бих требало да поновиш, како бих завршио цртеж?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
+        turtle_4_11: 'Пробај да промениш бројеве у "скрени" и "понови" блоковима да бих направио другачије шеме. или, експериментиши мењајући остатак кода да бих нацртали шта год пожелите.'
+        maze_karel_1_1: 'Здраво, ја сам фармер. Потребна ми је твоја помоћ да поравнам поље на мојој фарми, тако да буде спремно за садњу. Помери ме до гомиле прљавштине и употреби "уклони" блок да бих је уклонио.'
+        maze_karel_1_2: 'Следеће, помери ме до рупе и испуни је са ДВЕ пуне лопате прљавштине, користећи "попуни" блок.'
+        maze_karel_1_3: "Помери ме до гомиле прљавштине и реци ми колико пуних лопата да уклоним користећи што мање блокова."
+        maze_karel_1_4: "Можеш ли да ми помогнеш да уклоним све четири гомиле прљавштине? Напомена: користи понови блок ако можеш."
+        maze_karel_1_5: 'Помози ми да попуним све ове рупе са 5 пуних лопата прљавштине. Напомена: можеш ставити "понови"("repeat") блок  унутар "док"("while) блока.'
+        maze_karel_1_6: 'Уклони све гомиле прљавштине, користећи што мањи број блокова,  Нова опција у спуштеном менију на "while"(док) блоку говори ми да ли стојим на гомили или рупи.'
+        maze_karel_1_7: "Вов, нашао сам веома дубоку рупу! не знам колико пуних лопата прљавштине ми је потребно да је испуним. Можеш ли ти написати програм који је испуњава док не буде поравната са земљиштем?"
+        maze_karel_1_8: "Помози ми да испуним рупу на крају поља, користећи што мањи број блокова."
+        maze_karel_1_9: 'Натерај ме да уклоним све ове гомиле прљавштине. Покушај да користиш што мањи број блокова. Напомена: покушај да искористиш "while"(док) блок.'
+        maze_karel_1_10: 'Радим до касно, тако да је напољу мрачно, и не могу да проценим колико су гомиле велике. Немам све опције које сам имао на "while"(док) блоку. Померај ме по пољу, и ако наиђем на гомилу уклони је.'
+        maze_karel_1_11: 'И даље је мрачно напољу. Померај ме по пољу. Ако наиђем на гомилу, уклони је , а ако наиђем на рупу, попуни је. Напомена: употреби спуштајући мени опција на "if"(ако) блок.'
+        turtle_2_1: |
+          Здраво. Ја зомби уметник. Ја волим цртам! Помози ми да нацртам квадрат посебном бојом.
+          Важна напомена: имаш све исте блокове, али су сада сви постављени у категорије.
+        turtle_2_2: 'Добро дошао на коришћење функција, што вам омогућава да дефинишете нове блокове! Испробај нови "draw a square" (нацртај квадрат) блок, налази се у категорији функија, и нацртај мали 50x50 зелени квадрат.'
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
         turtle_2_5: |-

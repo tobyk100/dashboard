@@ -99,7 +99,7 @@
   follower:
     invite_sent: "发送邀请"
     added_teacher: "添加%{name}为你的老师"
-    registered: "您已成功注册%{section_name}，请登录后继续。"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "请在注销后继续下一步操作。"
       username_not_found: "找不到用户名 %{用户名}"
@@ -256,5 +256,5 @@
     upgrade: "请升级你的浏览器。"
   slow_loading: "请稍微多等一会..."
   try_reloading: "请重新刷新页面"
-  next_level: "下一关"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

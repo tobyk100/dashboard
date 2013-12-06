@@ -32,7 +32,7 @@
   demos: "Administrador: Todas as demonstrações"
   continue: "Continuar"
   prize: "prémio"
-  more_info: "More info"
+  more_info: "Mais informação"
   auth:
     sign_in_with: "Sessão iniciada com %{provider}"
     signed_in: "Sessão iniciada!"
@@ -47,12 +47,12 @@
     need_unlock: "Não recebeste as instruções de desbloqueio?"
   signup_form:
     overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    no_signup_header: "Não queres registar-te?"
+    no_signup_message: 'Tu podes <a target="_blank" href="http://learn.code.org"> consultar as várias fases e quebra-cabeças</a>, mas precisarás de te inscreveres para guardar o teu progresso.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
+    teacher_educator_guide: "Consulta o guia do educador"
+    teacher_prize_header: 'Ganha $1000 em recompensas de <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
     teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
     teacher_title: "Teacher sign up"
@@ -105,7 +105,7 @@
   follower:
     invite_sent: "Convite enviado"
     added_teacher: "%{name} foi adicionado como teu professor"
-    registered: "Registaste-te em %{section_name}. Inicia sessão para continuar"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Por favor termina a sessão antes de prosseguir"
       username_not_found: "Nome de utilizador %{username} não encontrado"
@@ -261,6 +261,6 @@
     working: "Estamos a trabalhar no suporte ao teu browser."
     upgrade: "Por favor, atualiza o teu browser."
   slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_level: "Next Level"
-  download_pdf: "Open Lesson Plan"
+  try_reloading: "Experimenta atualizar a pagina"
+  next_stage: "Finished! Continue to next stage"
+  download_pdf: "Abre o plano de aula"

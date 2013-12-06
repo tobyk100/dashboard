@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Invite sent"
     added_teacher: "%{name} added as your teacher"
-    registered: "你已經註冊了 %{section_name}。請登錄以繼續"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "請在繼續之前登出"
       username_not_found: "Username %{username} not found"
@@ -260,5 +260,5 @@
     upgrade: "請升級您的瀏覽器。"
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

@@ -99,7 +99,7 @@
   follower:
     invite_sent: "Davetiye gönderildi"
     added_teacher: "%{name} öğretmeniniz olarak eklendi"
-    registered: "%{section_name} için kaydoldunuz. Devam etmek için lütfen giriş yapınız"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Devam etmeden önce lütfen çıkış yapınız"
       username_not_found: "%{username} kullanıcı adı bulunamadı"
@@ -257,5 +257,5 @@
     upgrade: "Lütfen tarayıcınızı yükseltin."
   slow_loading: "Bu normalden uzun sürüyor..."
   try_reloading: "Sayfayı yeniden yüklemeyi deneyin"
-  next_level: "Sonraki Seviye"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Açık ders planı"

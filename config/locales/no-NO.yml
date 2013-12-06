@@ -46,14 +46,14 @@
     need_confirmation: "Mottok du ikke instruksjoner om hvordan du bekrefter?"
     need_unlock: "Mottok du ingen instruksjoner om hvordan du låser opp?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "Denne 20-timers kurset introduserer kjernebegreper innen informatikk og programmering. Kurset er utviklet for bruk i 5.klasse og oppover, men det er morsomt å lære for alle aldersgrupper."
+    no_signup_header: "Ønsker du ikke å registrere deg?"
+    no_signup_message: 'Du kan <a target="_blank" href="http://learn.code.org">bla gjennom de forskjellige nivåene og oppgavene</a>, men du må registrere deg for å lagre hvor langt du har nådd.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_educator_guide: "Se lærerveiledningen"
+    teacher_prize_header: '(Kun i USA) Vinn $1,000 i <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> premier'
+    teacher_prize_message: 'I samarbeid med <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, vil code.org gi midler til lærere som leder ti elever eller mer gjennom kurset i (Kun i USA).'
     teacher_pitch: "Lær bort ungdomsskolepensum i informatikk i klassen"
     teacher_title: "Påmelding for lærere"
     student_pitch: "Utover 1 time: Prøv vårt ungdomsskole-introduksjon til informatikk"
@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Invitasjon er sendt"
     added_teacher: "%{name} er lagt til som din lærer"
-    registered: "Du er blitt meldt på %{section_name}. Vennligst logg inn for å fortsette"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Vennligst logg ut før du fortsetter"
       username_not_found: "Brukernavnet %{username} finnes ikke"
@@ -121,7 +121,7 @@
     redeem_header: "To redeem:"
     success: "Premien din ble innløst, se koden nedenfor."
     error: "Premien din kunne ikke løses inn, prøv igjen."
-    error_us_only: "The prize offer is only valid for U.S. users."
+    error_us_only: "Tilbudet om premier gjelder bare for amerikanske brukere."
     no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Vennligst bekreft"
@@ -145,17 +145,17 @@
     msg:
       choose: "Velg en premie:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "Du har fortjent en premie! (Kun amerikanske elever)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Lær alle informatikkbegrepene, samle alle %{num_trophies} pokalene, og få ordentlige premier. Du kan velge mellom et $10 iTunes-gavekort, 10GB gratis lagringsplass Dropbox, $10 i Skype-kreditt, og gratis spill nedlastinger. Merk: tilbudet er bare for amerikanske elever, og bare så lenge som lageret rekker."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 eller flere studenter samlet alle %{num_trophies} pokalene. Du har om du hadde bodd i USA, hadde du vunnet en lærerpremie på $750!"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'KUN I USA!: For å belønne første gangs lærere, kan du tjene opp til $1000 i <a href="http://DonorsChoose.org"> DonorsChoose.org</a> studiepoeng for å lede et klasserom gjennom kurset. For å kvalifisere, må du lede et klasserom med minst 10 elever gjennom hele intro kurset, med alle 10 elevene (eller mer) som fullfører alle opplæringsprogrammer og tjener alle %{num_trophies} pokalene. Hvis mengden elever som tjener alle pokalene består av minst 40% jenter, er din belønning $1000 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kreditter. Ellers er din belønning $750 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kreditter.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> '
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "40% eller flere av elevene som samlet alle %{num_trophies} pokalene er jenter. Du har vunnet en $250 bonuspremie! (Bare amerikanske lærere)"
+          not_earned: 'Hvis mengden elever som tjener alle %{num_trophies} pokalene består av minst 40% jenter, er din belønning ekstra $250 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kreditter. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kreditter kan bare brukes av lærere i amerikanske offentlige skoler.'
   crud:
     new_model: "Ny %{model}"
     show: "Vis"
@@ -188,7 +188,7 @@
       puzzle_map: "Stadier"
       prizes: "Samle alle %{total_trophies} pokalene og vinn premier!"
       prize_earned: "Alle %{total_trophies} premiene er samlet. Premien er vunnet!"
-      prize_us_only: "(U.S. students only)"
+      prize_us_only: "(Kun amerikanske elever)"
       prizes_link: "mer info"
   teacher:
     title:
@@ -218,7 +218,7 @@
     student_reg_link: "Elev"
     teacher_reg_link: "Lærer"
     teacher_dashboard: "Se fremdriftsoversikt"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "Du har %{count} elever."
     teacher_student_count: "Du har %{count} elever."
     teacher_averages: 'I gjennomsnitt har dine elever fått %{trophy_average} av totalt %{trophy_max}  pokaler for "Konseptmestring".'
     classroom: "Ditt klasserom"
@@ -259,5 +259,5 @@
     upgrade: "Vennligst oppgrader din nettleser."
   slow_loading: "Dette tar lengre tid enn vanlig..."
   try_reloading: "Last siden på nytt"
-  next_level: "Neste nivå"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Åpne oppgavelisten"

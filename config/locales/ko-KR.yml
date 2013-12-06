@@ -46,14 +46,14 @@
     need_confirmation: "확인 메일을 받지 못 했나요?"
     need_unlock: "잠김 해제 메일을 받지 못 했나요?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "본 20시간 과정은 컴퓨터과학(정보과학)에서의 프로그래밍 기초 개념들을 소개합니다. 유치원~중2(K-8) 학생들을 대상으로 설계되어있지만, 연령에 상관없이 재미있게 배울 수 있습니다."
+    no_signup_header: "가입하지 않기"
+    no_signup_message: '여러 개의 단계로 이루어진 퍼즐들을 살펴보세요. <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a> 해결한 퍼즐을 저장하려면 가입해야 합니다.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_educator_guide: "교육자 가이드"
+    teacher_prize_header: '$1,000 크레딧 상품 받기 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
+    teacher_prize_message: 'Code.org 는 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> 과의 제휴를 통해, 본 과정을 완료한 학생들이 10명을 넘는 선생님들에게 학급당 $1,000 크레딧을 제공합니다.'
     teacher_pitch: "컴퓨터과학(Computer Science, 정보과학)의 내용을, 유치원~중2(K-8) 학생들과 함께 하세요"
     teacher_title: "선생님으로 등록하기"
     student_pitch: "Beyond 1 hour:  컴퓨터과학(Computer Science, 정보과학) 기초개념학습 코스 더 해보기"
@@ -102,7 +102,7 @@
   follower:
     invite_sent: "초대 메일을 발송하였습니다"
     added_teacher: "%{name} 가 선생님으로 추가되었습니다"
-    registered: " %{section_name} 과정에 등록되었습니다. 계속하려면, 로그인 하세요."
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "먼저, 로그아웃 하세요."
       username_not_found: "%{username} 는 존재하지 않습니다"
@@ -121,7 +121,7 @@
     redeem_header: "To redeem:"
     success: "상품을 Redeem 코드로 교환하였습니다. 코드를 확인하세요."
     error: "상품을 Redeem 코드로 교환할 수 없습니다. 다시 시도해 보세요."
-    error_us_only: "The prize offer is only valid for U.S. users."
+    error_us_only: "미국 사용자에게만 상품이 주어집니다."
     no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Redeem 코드 확인"
@@ -145,17 +145,17 @@
     msg:
       choose: "상품을 선택하세요:"
       choose_teacher: "아래에서 상품 로고를 선택하세요:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "상품을 얻었습니다!(미국 학생만 해당)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "컴퓨터과학(정보과학)의 프로그래밍 관련 기초개념을 배우고, 그와 관련한 트로피를 모두(총  %{num_trophies}개) 모아서 실제로 사용할 수 있는 상품을 받아보세요. $10 정도의 iTunes 기프트카드, 10GB 만큼의 Dropbox 저장용량, $10 만큼의 Skype 요금, 무료 게임 등이 제공됩니다. 주의: 미국 학생들에게만 한정 수량으로 제공됩니다."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되면 $750 상당의 선생님 상품이 주어집니다!(미국 선생님만 해당)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 10 students through the entire K-8 intro course, with all 10 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If the set of your students who earn all of the trophies consists of at least 40% girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: '컴퓨터과학(정보과학) 교사들은 학급학생들을 지도해서, 처음에 $1,000 크레딧(<a href="http://DonorsChoose.org">DonorsChoose.org</a>) 까지 얻을 수 있습니다. 그렇게 하려면, 트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되도록 해야하고, 그 중 40% 이상이 여학생이어야 합니다. 그런 경우가 아니면 $750 크레딧을 상품으로 받게됩니다. 단, 미국 공립학교 선생님에게만 제공됩니다.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% or more of your students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If the set of your students who earn all %{num_trophies} trophies consists of at least 40% girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "트로피를 모두(총 %{num_trophies}) 모은 학생들 중 40% 이상의 학생이 여학생인 경우, 추가적인 상품($250 크레딧)을 받습니다.(미국 선생님만 해당)"
+          not_earned: '트로피를 모두(총 %{num_trophies}) 모은 학생들 중 40% 이상의 학생이 여학생인 경우, 추가적인 상품($250 크레딧, <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)을 받습니다.(미국 선생님만 해당)'
   crud:
     new_model: "%{model} 만들기"
     show: "보기"
@@ -218,7 +218,7 @@
     student_reg_link: "학생 가입"
     teacher_reg_link: "선생님 가입"
     teacher_dashboard: "학습 현황"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "나의 학생들은 %{count} 명 입니다."
     teacher_student_count: "나의 학생들은 %{count} 명 입니다."
     teacher_averages: '나의 학생들은, 평균 %{trophy_average} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
     classroom: "내 학급"
@@ -259,5 +259,5 @@
     upgrade: "웹 브라우져를 업그레이드 하세요."
   slow_loading: "연결이 느립니다."
   try_reloading: "페이지를 새로고침 해보세요"
-  next_level: "다음 단계"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

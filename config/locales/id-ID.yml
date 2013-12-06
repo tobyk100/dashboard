@@ -100,7 +100,7 @@
   follower:
     invite_sent: "Undangan telah dikirim"
     added_teacher: "%{name} ditambahkan sebagai guru Anda"
-    registered: "Anda sudah terdaftar untuk %{section_name}. Silakan masuk untuk melanjutkan"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Silahkan logout sebelum melanjutkan"
       username_not_found: "Nama akun %{username} tidak ditemukan"
@@ -257,5 +257,5 @@
     upgrade: "Silakan upgrade browser Anda."
   slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
   try_reloading: "Coba tampilkan halaman lagi"
-  next_level: "Tahap berikutnya"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Rencana pelajaran terbuka"

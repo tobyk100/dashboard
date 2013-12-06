@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Приглашение отправлено"
     added_teacher: "%{name} добавить как Вашего учителя"
-    registered: "Вы зарегистрированы как %{section_name}. Пожалуйста выполните вход для продолжения"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "Please signout before proceeding"
       username_not_found: "Пользователь %{username} не найден"
@@ -260,5 +260,5 @@
     upgrade: "Пожалуйста, обновите ваш браузер."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"

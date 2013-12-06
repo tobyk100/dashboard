@@ -3,47 +3,68 @@
     unplugged:
       Unplug1:
         title: "Εισαγωγή στην Επιστήμη των Υπολογιστών"
-        desc: "Με αυτό το μάθημα θα εισαχθεί η έννοια της επιστήμης των υπολογιστών και θα εξηγήσει τι κάνει ένας επιστήμονας πληροφορικής.  Αυτό επίσης θα δώσει στους μαθητές την ευκαιρία να αναλάβουν το ρόλο ενός επιστήμονα πληροφορικής.  Μέχρι το τέλος της δραστηριότητας, κάθε μαθητής θα έχει μια υπενθύμιση για ό,τι αυτός ή αυτή έχει μάθει. Μπορεί να δελεαστείτε να παραλείψετε τη διδασκαλία σε μικρά παιδιά λόγω του πολύπλοκου λεξιλογίου που σχετίζεται με τα μαθήματα που ακολουθούν, αλλά η παρουσίασή τους με διασκεδαστικό και παιχνιδιάρικο τρόπο τώρα, είναι πολύ πιο παραγωγική από πιο προχωρημένες δυνατότητες."
+        desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
         video: "Q1R8gWOAgQw"
         pdfs:
           - unplug1
       Unplug2:
         title: "Αλγοριθμική Σκέψη"
-        desc: "With nothing but paper and markers, students will learn the four steps of computational thinking. After a brief introduction, students should be split into groups where they will have to create directions for other students to draw a specific monster (from a catalog of pre-selected monsters). The entire task must be decomposed, then teams will analyze all monsters in the catalog for patterns, abstract similar details from the monsters, then use that information to create an algorithm (directions) for another team to draw a certain monster. Teams will then switch algorithms with another group and draw the monster based on what that algorithm indicates. Is the drawing what the original team intended?"
+        desc: "With nothing but paper and markers, students will learn the four steps of computational thinking. After a brief introduction, students should be split into groups where they will have to create directions for other students to draw a specific monster (from a catalog of pre-selected monsters). The entire task must be decomposed, then teams will analyze all monsters in the catalog for patterns, abstract different details from the monsters, then use that information to create an algorithm (directions) for another team to draw a certain monster. Teams will then switch algorithms with another group and draw the monster based on what that algorithm indicates. Is the drawing what the original team intended?"
+        video: "injJWiSA0pw"
+        pdfs:
+          - unplug2
       Unplug3:
         title: "Graph Paper Programming"
         desc: "By programming one another to draw pictures, students will begin to understand what programming is really about. The class will begin by students instructing each other to color squares in on graph paper in an effort to reproduce an existing picture.  If there's time, the lesson can conclude with images that the students create themselves."
-        video: "eZT-zEgQPZs"
+        video: "wxRVKTaRehs"
+        pdfs:
+          - unplug3
       Unplug4:
         title: "Αλγόριθμοι"
         desc: "This lesson covers algorithms.  Using tangram shapes and graph paper, the first exercise will show how important it is to make each instruction as clear and unambiguous as possible.  Afterward, the class will explore how many ways you can fold paper into a rectangle, noting how some methods can take more or fewer folds than others."
-        video: "7JC434O-YKE"
+        video: "gW_aPXjgBTc"
+        pdfs:
+          - unplug4
       Unplug5:
-        title: "Λειτουργικός"
+        title: "Functions"
         desc: |-
           In this lesson, students will make a suncatcher out of string, beads, and a special charm. The students will follow a series of repetitive steps, then be asked to identify certain sets of "skills" that are duplicated several times. Once those skills are defined, they will be called from a main program and the whole beautiful process of creation will be recorded on a single sheet of paper. The final program will be geared toward the entire class, whatever their type of string, beads, and charms. To effectively allow for this, students will need to "abstract out" the details of their specific materials and create vague terms for an individual's supplies.  This use of generic placeholders is a wonderful introduction to variables.
-        video: "aTtlnnG7X3Q"
+        video: "NAViNTHS3LU"
+        pdfs:
+          - unplug5
       Unplug6:
         title: "Συνθήκες"
         desc: "This is a class game.  After introducing the idea of conditionals, if-statements, and loops, the class can practice together using a pre-written program, a deck of cards, and luck of the draw."
-        video: "XYvIX3NjLT8"
+        video: "yr6g0AWE7yw"
+        pdfs:
+          - unplug6
       Unplug7:
         title: "Συγγραφή τραγουδιού"
         desc: "Η ανάγνωση στίχων είναι μια αρκετά διαισθητική επιχείρηση για τους περισσότερους μαθητές.  Θα πάρουμε μια δραστηριότητα που είναι ήδη γνωστή και θα τη μετατοπίσουμε σε μια στερεά εκπαίδευση για τον ορισμό και κλήση λειτουργιών. Μόλις οι μαθητές είναι εξοικειωμένοι με τη διαδικασία του ορισμού/κλήσης, θα προσθέσουμε τις επιπλέον δυνατότητες που έρχονται μαζί με πέρασμα παραμέτρων κατά τις κλήσεις συναρτήσεων."
-        video: "7C9hMZsBf7k"
+        video: "hx0tBso08aA"
+        pdfs:
+          - unplug7
       Unplug8:
         title: "Αφαίρεση"
         desc: "Με αυτό το μάθημα θα εισαχθεί η έννοια της επιστήμης των υπολογιστών και θα εξηγήσει τι κάνει ένας επιστήμονας πληροφορικής.  Αυτό επίσης θα δώσει στους μαθητές την ευκαιρία να αναλάβουν το ρόλο ενός επιστήμονα πληροφορικής.  Μέχρι το τέλος της δραστηριότητας, κάθε μαθητής θα έχει μια υπενθύμιση για ό,τι αυτός ή αυτή έχει μάθει. Μπορεί να δελεαστείτε να παραλείψετε τη διδασκαλία σε μικρά παιδιά λόγω του πολύπλοκου λεξιλογίου που σχετίζεται με τα μαθήματα που ακολουθούν, αλλά η παρουσίασή τους με διασκεδαστικό και παιχνιδιάρικο τρόπο τώρα, είναι πολύ πιο παραγωγική από πιο προχωρημένες δυνατότητες."
-        video: "rdRVfQB36VY"
+        video: "QX-NX40PdT0"
+        pdfs:
+          - unplug8
       Unplug9:
         title: "Relay Programming"
         desc: "Αυτό το μάθημα θα χρησιμοποιήσει μια ιδέα από μια προηγούμενη δραστηριότητα (4. προγραμματισμός σε χαρτί μιλιμετρέ) και θα χρησιμοποιήσει αυτές τις ικανότητες για να τονίσει τη σημασία της ολοκλήρωσης προγραμμάτων που λειτουργούν σε σειρά και του συχνού ελέγχου προγραμμάτων για «σφάλματα»."
-        video: "FmQoHmsG880"
+        video: "FFpvtooUrzg"
+        pdfs:
+          - unplug9
       Unplug10:
         title: "Το Διαδίκτυο"
         desc: "Σε αυτό το μάθημα, οι μαθητές θα προσποιηθούν ότι κινούνται μέσα στο Διαδίκτυο, ενώ την ίδια στιγμή θα μαθαίνουν για web διευθύνσεις, διευθύνσεις IP και DNS."
-        video: "0bpaCYwvR9E"
+        video: "Zs26JgnWbTE"
+        pdfs:
+          - unplug10
       Unplug11:
         title: "συνοψίζω"
         desc: "Η τελευταία συνάντηση στην πρώτη 20-ωρη σειρά μαθημάτων, θα βοηθήσει την τάξη να ξαναζήσει όλες τις αγαπημένες στιγμές, ενώ θα δώσει στους μαθητές επόμενα βήματα που μπορούν να πάρουν μόνοι τους, αν ενδιαφέρονται να συνεχίσουν το ταξίδι στην επιστήμη των υπολογιστών."
-        video: "TSetgO7yZjM"
+        video: "Rbi7keldjZY"
+        pdfs:
+          - unplug11

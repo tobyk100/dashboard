@@ -100,7 +100,7 @@
   follower:
     invite_sent: "دعوتنامه ارسال شد"
     added_teacher: "%{name} به عنوان معلم شما افزوده شد"
-    registered: "ثبت نام شما برای %{section_name} انجام شد. لطفا برای ادامه وارد سایت شوید"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "لطفا قبل از هر اقدامی از سایت خارج شوید"
       username_not_found: "نام کاربری %{username} یافت نشد"
@@ -257,5 +257,5 @@
     upgrade: "لطفا مرورگر خود را ارتقا دهید."
   slow_loading: "این طولانی تر از معمول طول میکشد..."
   try_reloading: "درخواست مجدد نمایش صفحه"
-  next_level: "مرحله بعد"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "طرح درس آزاد"

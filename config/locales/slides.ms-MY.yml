@@ -42,12 +42,33 @@
         text: "Mari dapatkan pig itu!"
     artist_intro:
       1:
-        image: "notes/bird.png"
-        text: "Papar nota yang akan datang!"
+        image: "notes/stage5_1.jpg"
+        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+      2:
+        image: "notes/stage5_2.jpg"
+        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+      3:
+        image: "notes/stage5_3.jpg"
+        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+      4:
+        image: "notes/stage5_4.jpg"
+        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+      5:
+        image: "notes/stage5_5.jpg"
+        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
     farmer_intro:
       1:
-        image: "notes/bird.png"
-        text: "Papar nota yang akan datang!"
+        image: "notes/stage9_1.jpg"
+        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+      2:
+        image: "notes/stage9_2.jpg"
+        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+      3:
+        image: "notes/stage9_3.jpg"
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+      4:
+        image: "notes/stage9_4.jpg"
+        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -122,20 +143,73 @@
         text: "Now, get those zombies where they belong!"
     function:
       1:
-        image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        image: "notes/stage13_1.jpg"
+        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+      2:
+        image: "notes/stage13_2.jpg"
+        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+      3:
+        image: "notes/stage13_3.jpg"
+        text: |-
+          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+      4:
+        image: "notes/stage13_4.jpg"
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+      5:
+        image: "notes/stage13_5.jpg"
+        text: |-
+          Let's put the "fun" back in "FUNction!" 
     loop_while:
       1:
-        image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        image: "notes/stage9_5.jpg"
+        text: |-
+          Hi, I'm Makinde! Let's learn about the "while block." 
+      2:
+        image: "notes/stage9_6.jpg"
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+      3:
+        image: "notes/stage9_7.jpg"
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
     loop_for:
       1:
-        image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        image: "notes/stage11_1.jpg"
+        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+      2:
+        image: "notes/stage11_2.jpg"
+        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+      3:
+        image: "notes/stage11_3.jpg"
+        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+      4:
+        image: "notes/stage11_4.jpg"
+        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
     parameters:
       1:
-        image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        image: "notes/stage15_1.jpg"
+        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+      2:
+        image: "notes/stage15_2.jpg"
+        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+      3:
+        image: "notes/stage15_3.jpg"
+        text: "We could write all that code out by hand or we can use a function with parameters."
+      4:
+        image: "notes/stage15_4.jpg"
+        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+      5:
+        image: "notes/stage15_5.jpg"
+        text: |-
+          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+      6:
+        image: "notes/stage15_6.jpg"
+        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+      7:
+        image: "notes/stage15_7.jpg"
+        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+      8:
+        image: "notes/stage15_8.jpg"
+        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

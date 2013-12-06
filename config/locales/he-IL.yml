@@ -103,7 +103,7 @@
   follower:
     invite_sent: "הזמנה נשלחה"
     added_teacher: "%{name} נוסף כמורה שלך"
-    registered: "אתה נרשמת ל %{section_name}. בבקשה תתחבר על מנת להמשיך"
+    registered: "You've registered for %{section_name}."
     error:
       signed_in: "בבקשה תצא לפני שתמשיך"
       username_not_found: "שם משתמש %{username} לא נמצא"
@@ -261,5 +261,5 @@
     upgrade: "אנא שדרג את הדפדפן."
   slow_loading: "This is taking longer than usual..."
   try_reloading: "Try reloading the page"
-  next_level: "Next Level"
+  next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"
