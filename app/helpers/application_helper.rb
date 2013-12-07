@@ -44,8 +44,8 @@ module ApplicationHelper
     match ? match[1].to_i : 0
   end
 
-  def youtube_url(code)
-    args = {
+  def youtube_url(code, args={})
+    defaults = {
       v: code,
       modestbranding: 1,
       rel: 0,
@@ -53,12 +53,13 @@ module ApplicationHelper
       autoplay: 1,
     }
     if language != 'en'
-      args.merge!(
+      defaults.merge!(
         cc_lang_pref: language,
         cc_load_policy: 1
       )
     end
-    "https://www.youtubeeducation.com/embed/#{code}/?#{args.to_query}"
+    defaults.merge!(args)
+    "https://www.youtubeeducation.com/embed/#{code}/?#{defaults.to_query}"
   end
 
   def video_thumbnail_url(video)
