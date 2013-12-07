@@ -23,6 +23,10 @@
     %iframe{src: youtube_url(video), scrolling: 'no'}
   - else
     %p Video Coming Soon!
+  - download = data_t('unplugged', @game.name)[:download]
+  - if download
+    %a.btn.btn-primary{href: download}
+      = t('video.download')
 
 :javascript
   var clickedNext = false;
