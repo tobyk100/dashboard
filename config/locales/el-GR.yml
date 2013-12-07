@@ -103,7 +103,7 @@
   follower:
     invite_sent: "Η πρόσκληση στάλθηκε"
     added_teacher: "Ο %{name} σε πρόσθεσε ως δάσκαλο"
-    registered: "You've registered for %{section_name}."
+    registered: "Έχεις εγγραφεί για %{section_name}."
     error:
       signed_in: "Παρακαλώ αποσυνδεθείτε πριν συνεχίσετε"
       username_not_found: "Δεν βρέθηκε όνομα χρήστη %{username}"
@@ -152,12 +152,11 @@
       teacher:
         earned: "10 ή περισσότεροι μαθητές συγκέντρωσαν όλα τα τρόπαια % {num_trophies}. Έχετε κερδίσει ένα βραβείο δασκάλου των $750! (Μόνο για εκπαιδευτικούς των ΗΠΑ )"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: |-
-          Για ανταμειβή των νεοφώτιστων εκπαιδευτικών Πληροφορικής, μπορείτε να κερδίσετε έως και $1.000 <a href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεων για την καθοδήγηση μιας από τις τελευταίες τάξεις δημοτικού σ' αυτό το εισαγωγικό μάθημα. Για να πληρούνται οι προϋποθέσεις, θα πρέπει να οδηγήσετε με επιτυχία μια τάξη τουλάχιστον 10 μαθητών σε όλη την πορεία του εισαγωγικού μαθήματος, με όλους τους 10 μαθητές (ή περισσότερους) να φέρνουν σε πέραςόλα τα σεμινάρια και να κερδίζουν όλα τα τρόπαια % {num_trophies}. Αν το σύνολο των μαθητών σας που κερδίζουν όλα τα τρόπαια αποτελείται από τουλάχιστον 40% κορίτσια, η ανταμοιβή σας είναι $1.000 σε <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις. Διαφορετικά, η ανταμοιβή σας είναι $750 <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεων.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις μπορεί να χρησιμοποιηθούν μόνο από καθηγητές σε δημόσια σχολεία των ΗΠΑ.
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% ή περισσότερο των μαθητών σας που συλλέγουν όλα τα τρόπαια {num_trophies} % είναι κορίτσια. Έχετε κερδίσει ένα βραβείο μπόνους $250! (Μόνο ΗΠΑ εκπαιδευτικούς)"
-          not_earned: 'Αν το σύνολο των μαθητών σας που κερδίζουν όλα τα τρόπαια {num_trophies} % αποτελείται από τουλάχιστον 40% κορίτσια, η ανταμοιβή σας είναι ένα επιπλέον 250 $ σε <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις μπορεί να χρησιμοποιηθούν μόνο από καθηγητές σε δημόσια σχολεία των ΗΠΑ.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Νέο %{model}"
     show: "Εμφάνιση"
@@ -256,10 +255,11 @@
     tab: "Βίντεο."
     notes: "Δεν υπάρχει βίντεο; Δείξε σημειώσεις."
     autoplay_option: "Αυτόματη αναπαραγωγή βίντεο"
+    download: "Download Video"
   compatability:
     working: "Εργαζόμαστε για την υποστήριξη του προγράμματος περιήγησης που χρησιμοποιείτε."
     upgrade: "Παρακαλούμε, αναβαθμίστε το πρόγραμμα περιήγησής σας."
   slow_loading: "Αυτό διαρκεί περισσότερο από ότι συνήθως..."
   try_reloading: "Δοκίμασε να φορτώσεις ξανά τη σελίδα"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Τελείωσε! Συνέχισε στο επόμενο στάδιο"
   download_pdf: "Σχέδιο ανοικτού μαθήματος"

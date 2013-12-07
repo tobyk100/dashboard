@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Позивница послата"
     added_teacher: "%{name} вас је додао као предавача"
-    registered: "You've registered for %{section_name}."
+    registered: "Регистровали сте се за %{section_name}."
     error:
       signed_in: "Молимо вас да се одјавите пре наставка"
       username_not_found: "Корисничко име %{username} није пронађено"
@@ -151,11 +151,11 @@
       teacher:
         earned: "10 или више студената је сакупило све %{num_trophies} трофеје. Освојили сте $750 учитељску награду!(Само за учитеље из САД-а)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'Како бих наградили учитеље компјутерских наука који први пут учествују, можете зарадити до $1,000 у <a href="http://DonorsChoose.org">DonorsChoose.org</a>кредитима,  вођењем радионице разреда кроз К-8 курс увода. Да бих се квалификовали, морате успешно да угостите учионицу од 10 или више ученика кроз цео К-8 увод курса, са свих 10 или више ученика, комплетирајући све туторијале и освајајући све %{num_trophies} трофеје. Ако је ваш разред освојио све трофеје и садржи  бар 40% девојака, ваша награда је $1,000 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредитим, у супротном, ваша награда је $750 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредити важе само за учитеље из САД-а и из државних школа.'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% или више ваших ученика који су сакупили све %{num_trophies} трофеје су девојке. Освојили сте $250 бонус награду! (само за учитеље из САД-а)"
-          not_earned: 'Ако тим ваших студената који су освојили све %{num_trophies} трофеје садржи најмање 40% девојака, ваша награда је додатних $250 у <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредите могу користити само учитељи из САД-а, државних школа.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Нови %{model}"
     show: "Покажи"
@@ -254,10 +254,11 @@
     tab: "Видео."
     notes: "Нема видеа? Покаћи забилјешке."
     autoplay_option: "Аутоматски покрени видео"
+    download: "Download Video"
   compatability:
     working: "Радимо на потпори за твој претраживаћ."
     upgrade: "Молимо набавите савременији претраживаћ."
   slow_loading: "Ово траје дуже него што је уобичајено ..."
   try_reloading: "Покушајте са поновним покретањем странице"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Завршено! Наставите на следећу фазу"
   download_pdf: "Отворен План Лекције"

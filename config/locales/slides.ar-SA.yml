@@ -64,19 +64,29 @@
         text: "دعنا نذهب للحصول على المخلوق الاخضر!"
     artist_intro:
       1:
-        image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        image: |
+          notes/stage5_1.jpg
+          
+        text: "مرحبا، أنا جر! كل فريق سباق سيارات بحاجة إلى علماء الكمبيوتر من اجل الفوز.  هم يحللون البيانات من السيارة لجعلها تسير بسرعة."
       2:
-        image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        image: |
+          notes/stage5_2.jpg
+          
+        text: "في هذه الألغاز، أنت ستكون رسام يرسم خط في كل مكان."
       3:
-        image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        image: |
+          notes/stage5_3.jpg
+          
+        text: 'هذه القطعة تقول "التقدم للامام" بمقدار 100 بكسل . " البكسلات هي النقاط الصغيرة الموجودة في شاشة الكمبيوتر.'
       4:
-        image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        image: |
+          notes/stage5_4.jpg
+          
+        text: 'هذه القطعة تقول "الانعطاف يمينا بدرجة 90" . " هذا سيمكن الرسام من الانعطاف بنفس المقدار مثل قطعة "اتجه" المستخدمة في الغاز المتاهة. '
       5:
-        image: "notes/stage5_5.jpg"
+        image: |
+          notes/stage5_5.jpg
+          
         text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
     farmer_intro:
       1:

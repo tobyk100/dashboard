@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Boð send"
     added_teacher: "%{name} bætt við sem kennara"
-    registered: "You've registered for %{section_name}."
+    registered: "Þú ert með skráningu í %{section_name}."
     error:
       signed_in: "Skráðu þig út fyrst"
       username_not_found: "Notandaheitið %{username} fannst ekki"
@@ -151,11 +151,11 @@
       teacher:
         earned: "10 eða fleiri nemendur söfnuðu öllum %{num_trophies} bikurunum. Þú hefur unnið til $750 kennaraverðlauna! (Aðeins bandarískir kennarar)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'Til að verðlauna kennara sem eru að byrja að kenna tölvunarfræði, er hægt að vinna allt að $1.000 í <a href="http://DonorsChoose.org">DonorsChoose.org</a> í inneignum fyrir að leiða bekk í gengum K-8 inngangsnámskeiðið. Til að vera gjaldgeng(ur) þarft þú að leiða bekk a.m.k. 10 nemenda gegnum allt K-8 námskeiðið og allir 10 (eða fleiri) nemendurnir þurfa að klára allt kennsluefnið og vinna alla %{num_trophies} bikarana. Ef nemendahópurinn sem vinnur alla bikarana inniheldur a.m.k. 40% stúlkur, eru verðlaunin $1.000 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Annars eru verðlaunin  $750 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>.  Inneignir hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> geta aðeins kennarar í bandarískum skólum nýtt sér.'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% eað fleiri þeirra nemenda þinna sem söfnuðu öllum %{num_trophies} bikurunum eru stúlkur. Þú hefur unnið $250 aukaverðlaun! (aðeins bandarískir kennarar)"
-          not_earned: 'Ef nemendahópurinn sem safnaði öllum %{num_trophies} bikurunum inniheldur a.m.k. 40% stúlkur, færð þú auka $250 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Inneignir hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> nýtast aðeins kennurum í bandarískum skólum.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Nýtt %{model}"
     show: "Sýna"
@@ -254,10 +254,11 @@
     tab: "Myndbönd."
     notes: "Ekkert myndband? Sýna útskýringar."
     autoplay_option: "Spila myndbönd sjálfvirkt"
+    download: "Download Video"
   compatability:
     working: "Við erum að vinna í stuðningi við vafrann sem þú notar."
     upgrade: "Vinsamlegast uppfærðu vafrann þinn."
   slow_loading: "Þetta tekur lengur en venjulega..."
   try_reloading: "Reyndu að endurhlaða síðunni"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Búið! Halda áfram í næsta áfanga"
   download_pdf: "Opin kennsluáætlun"

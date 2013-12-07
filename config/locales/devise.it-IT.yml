@@ -27,13 +27,13 @@
     passwords:
       no_token: "Non si puo'accedere a questa pagina senza provenire da una password reset email. Se venite da una password reset email, assicuratevi di avere usato la URL fornita."
       send_instructions: "Riceverai una email con le istruzioni su come reimpostare la password in pochi minuti."
-      send_paranoid_instructions: "Se il tuo indirizzo email e'presente nel nostro database, riceverai un link per recuperare la password nell'email in pochi minuti."
+      send_paranoid_instructions: "Se il tuo indirizzo email è presente nel nostro database, riceverai un link per recuperare la password nel tuo email in pochi minuti."
       updated: "La password è stata cambiata con successo. Ora sei collegato."
       updated_not_active: "La password è stata cambiata con successo."
     registrations:
-      destroyed: "Ciao! Tuo account è stato cancellato con successo. Speriamo di rivederti presto."
-      signed_up: "Benvenuto! La connessione e'riuscita. "
-      signed_up_but_inactive: "Ti sei iscritto correttamente, ma non possiamo collegarti perche'il tuo account non e' ancora stato attivato."
+      destroyed: "Ciao! Il tuo account è stato cancellato con successo. Speriamo di rivederti presto."
+      signed_up: "Benvenuto! La connessione è riuscita. "
+      signed_up_but_inactive: "Ti sei iscritto correttamente, ma non possiamo collegarti perchè il tuo account non e' ancora stato attivato."
       signed_up_but_locked: "Ti sei iscritto correttamente, ma non possiamo collegarti perche'il tuo account non e' bloccato."
       signed_up_but_unconfirmed: "Un messaggio con un link di conferma è stato inviato al tuo indirizzo email. Ti preghiamo di aprire il link per attivare il tuo account."
       update_needs_confirmation: "Hai aggiornato il tuo account con successo, ma abbiamo bisogno di verificare il tuo nuovo indirizzo email. Per favore controlla la tua e-mail e clicca sul link di conferma per completare la modifica del tuo indirizzo email."

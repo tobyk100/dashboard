@@ -42,33 +42,33 @@
         text: "Πάμε να πιάσουμε εκείνα τα γουρουνάκια!"
     artist_intro:
       1:
-        image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        image: "σημειώσεις/stage5_1.jpg"
+        text: "Γεια σου, είμαι ο JR! Κάθε ομάδα αγωνιστικών αυτοκινήτων χρειάζεται επιστήμονες υπολογιστών για να κερδίσει. Αυτοί αναλύουν τα δεδομένα από το αυτοκίνητο για να το κάνουν να πάει πιο γρήγορα."
       2:
-        image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        image: "σημειώσεις/stage5_2.jpg"
+        text: "Σε αυτά τα παζλ, θα είστε ένας καλλιτέχνης που σχεδιάζει μία γραμμή πίσω τους όπου και αν πηγαίνουν."
       3:
-        image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        image: "σημειώσεις/stage5_3.jpg"
+        text: 'Αυτό το μπλοκ λέει "προχώρησε προς τα εμπρός για 100 εικονοστοιχεία". Τα εικονοστοιεία είναι στην πραγματικότητα μικροσκοπικές τελείες στην οθόνη σας.'
       4:
-        image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        image: "σημειώσεις/stage5_4.jpg"
+        text: 'Αυτό το μπλοκ λέει «στρίψτε δεξιά κατά 90 μοίρες.» Αυτό θα στρίψει τον καλλιτέχνη σου κατά το ίδιο ποσό όπως το μπλοκ "στρίψε" στο παζλ του λαβυρίνθου.'
       5:
-        image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        image: "σημειώσεις/stage5_5.jpg"
+        text: "Κάντε κλικ στο βέλος σε ένα από αυτά τα μπλοκ για να αλλάξετε το μέγεθος κατά το οποίο ο καλλιτέχνης κινείται προς τα εμπρός ή στρίβει. Παίξετε λιγάκι για να εξοικειωθείτε με αυτά τα νέα μπλοκ."
     farmer_intro:
       1:
-        image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        image: "σημειώσεις/stage9_1.jpg"
+        text: "Γεια σου, είμαι η Πάολα! Σε αυτά τα παζλ, είστε ένας γεωργός που έχει να κάνει τον αγρό της εντελώς επίπεδο για να αρχίσεις να φυτεύεις σπαρτά."
       2:
-        image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        image: "σημειώσεις/stage9_2.jpg"
+        text: "Θα πρέπει να τη βοηθήσεις να αφαιρέσει όλους τους σωρούς βρωμιάς και να καλύψει όλες τις τρύπες."
       3:
-        image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        image: "σημειώσεις/stage9_3.jpg"
+        text: "Τα νέα μπλοκ αφαιρέστε 1 φτυαριά βρωμιάς από ένα σωρό και συμπληρώστε 1 φτυαριά βρωμιάς σε μια τρύπα."
       4:
-        image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        image: "σημειώσεις/stage9_4.jpg"
+        text: "Οι σωροί και οι τρύπες είναι διαφορετικών μεγεθών, οπότε πρέπει να πείτε στο γεωργό πόσες φτυαριές να χρησιμοποιήσει."
     loop_times:
       1:
         image: "σημειώσεις/hoc2_1.jpg"
@@ -142,10 +142,10 @@
         text: "Τώρα, στείλε τα ζόμπι εκεί που ανήκουν!"
     function:
       1:
-        image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        image: "σημειώσεις/stage13_1.jpg"
+        text: "Γεια σου, είμαι η Brina, μηχανικός στο Instagram. Μια συνάρτηση είναι ορισμένες γραμμές κώδικα που θέλετε να χρησιμοποιήσετε ξανά και ξανά, έτσι αντί να γράφετε αυτόν τον κώδικα κάθε φορά, μπορείτε απλά να χρησιμοποιήσετε ένα μπλοκ."
       2:
-        image: "notes/stage13_2.jpg"
+        image: "σημειώσεις/stage13_2.jpg"
         text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
       3:
         image: "notes/stage13_3.jpg"
@@ -197,18 +197,17 @@
         image: "notes/stage15_4.jpg"
         text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
       5:
-        image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        image: "σημειώσεις/stage15_5.jpg"
+        text: 'Στη συνέχεια, αν γράψετε "μήκος" στο σημείο όπου λέει "x" και πατήσετε "Enter" θα δημιουργήσετε ένα μήκος εισόδου για τη συνάρτησή σας.'
       6:
-        image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        image: "σημειώσεις/stage15_6.jpg"
+        text: 'Στη συνέχεια, κάντε κλικ πάνω στο αστέρι. Τώρα, θέλετε να κάνετε κλικ στην κατηγορία μεταβλητές και να σύρετε το μπλοκ "μήκος" μέσα στο μπλοκ "προχώρησε μπροστά" στον ορισμό της συνάρτησης. Και απομακρύνετε τον παλιό αριθμό μπλοκ.'
       7:
-        image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        image: "σημειώσεις/stage15_7.jpg"
+        text: 'Για να χρησιμοποιήσετε τη συνάρτησή σας με παραμέτρους, κάντε κλικ στην κατηγορία συναρτήσεων και σύρετε τη συνάρτηση με όνομα "σχεδίασε ένα τρίγωνο με μήκος".'
       8:
-        image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        image: "σημειώσεις/stage15_8.jpg"
+        text: 'Τώρα μπορείτε να χρησιμοποιήσετε το μπλοκ "μαθηματικά" για να εισάγετε διαφορετικούς αριθμούς ώστε να σχεδιάσετε τρίγωνα διαφόρων μεγεθών.'
     hoc_wrapup:
       1:
         image: "σημειώσεις/hoc6_1.jpg"

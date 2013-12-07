@@ -42,33 +42,33 @@
         text: "Средимо те свинје!"
     artist_intro:
       1:
-        image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        image: "белешке/фаза5_1.jpg"
+        text: "Здраво ја сам ЈР! Сваком тркачком тиму је потребан компјутерски научник да бих победили. Они анализирају податке аутомобила како бих ауто ишао брже."
       2:
-        image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        image: "белешке/фаза5_2.jpg"
+        text: "У овој загонетци, ти ћеш бити уметник који црта линију иза њих свуда где иду."
       3:
-        image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        image: "белешке/фаза5_3.jpg"
+        text: 'Овај блок говори "крећи се напред за 100 пиксела." пиксели су мале коцкасте тачкице на твом екрану.'
       4:
-        image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        image: "белешке/фаза5_4.jpg"
+        text: 'Овај блок налаже  "скрени десно за 90 степени." Ово ће окренити вашег уметника за исту количину као и "turn" блокови у лавиринтским загонеткама.'
       5:
-        image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        image: "белешке/фаза5_5.jpg"
+        text: "Кликни на стрелицу на било који од ових блокова како бих променио количину уметниковог кретања и скретања. Мало се играј како бих се упознао са овим новим блоковима."
     farmer_intro:
       1:
-        image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        image: "белешке/фаза9_1.jpg"
+        text: "Ћао, ја сам Паола! У овим слагалицама, ви сте фармерица која мора да поравна своје поље како бих могла да почне да сеје."
       2:
-        image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        image: "белешке/фаза9_2.jpg"
+        text: "Морате јој помоћи да уклони све гомиле прљавштине и попуните све рупе."
       3:
-        image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        image: "белешке/фаза9_3.jpg"
+        text: "Нови блокови, уклони 1 пуну лопату прљавштине са гомиле, и попуни рупу 1 пуном лопатом прљавштине."
       4:
-        image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        image: "белешке/фаза9_4.jpg"
+        text: "Гомиле и рупе су различитих величина, тако да морате да наредите фармеру колико пуних лопата где и како да искористи."
     loop_times:
       1:
         image: "белешке/хоц2_1.jpg"
@@ -141,73 +141,68 @@
         text: "А сада, пошаљи те зомбије тамо где им је место!"
     function:
       1:
-        image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        image: "белешке/фаза13_1.jpg"
+        text: "Ћао, ја сам Бриана, инжињер у Интаграму. Функције су одређене линије кода које желите да користите више пута, тако да уместо да пишете исти код изнова и изнова, креирањем функције можете користити само један блок."
       2:
-        image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        image: "белешке/фаза13_2.jpg"
+        text: "Сада ћемо научити како да дефинишемо функцију. Дефиниције функција имају звезду у углу. Име функције је исписано на горњој линији."
       3:
-        image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        image: "белешке/фаза13_3.jpg"
+        text: 'Блокови који иду унутар дефиниције нам говоре шта функција ради. Тако да је дефиниција ове функције названа "fill 5" и сачињавају је "repeat(понови)" блок и "fill(попуни)" блок.'
       4:
-        image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        image: "белешке/фаза13_4.jpg"
+        text: 'На радном простору се налази дефиниција, али наш фармер неће извршити функцију  док не извучемо  блок "fill 5 function" из категорије функција.'
       5:
-        image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        image: "белешке/фаза13_5.jpg"
+        text: 'Хајде да вратимо "fun(забава)" натраг у "FUNction! (функција)" '
     loop_while:
       1:
-        image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        image: "белешке/фаза9_5.jpg"
+        text: 'Ћао, зовем се Макинде! Хајде да учимо о "while block.(док блок)"'
       2:
-        image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        image: "белешке/фаза9_6.jpg"
+        text: '"while block (док блок)" ће одрадити шта год да ставите унутар њега све док је услов на врху тачан.'
       3:
-        image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        image: "белешке/фаза9_7.jpg"
+        text: "На пример, ако фармерка стоји на гомили, она ће наставити да уклања 1 пуну лопату све док је испод ње гомила."
     loop_for:
       1:
-        image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        image: "белешке/фаза11_1.jpg"
+        text: "Ћао, моје име је Трина, и радим за Пихар. Радила сам на многим филмовима, укњучујући Шрека."
       2:
-        image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        image: "белешке/фаза11_2.jpg"
+        text: 'Имамо нову петљу "counter(бројач)". Одрађиваће акције од почетка до краја и тако у круг, можете одрадити да акције сваки пут буду другачије.'
       3:
-        image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        image: "белешке/фаза11_3.jpg"
+        text: 'У овом примеру, наша  "counter(бројач)" петља гласи "Број са бројачем од 50 до 90 за 10" а унутар имамо наш "draw a square(нацртај квадрат)" блок. Превуци "counter" блок из секције промењивих унутар места "length".'
       4:
-        image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        image: "белешке/фаза11_4.jpg"
+        text: "Ово значи да ће наш уметник да нацрта квадрат који садржи странице дужине 50 пиксела, затим ће додати 10, и нацртати квадрат са дужином од 60 пуксела по страници. Затим ће наставити додавати 10 и цртаће квадрате док не дође до 90. Тако да ће мо имати квадрате величина 50, 60, 70, 80, и 90 пиксела."
     parameters:
       1:
-        image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        image: "белешке/фаза15_1.jpg"
+        text: "Ћао, моје име је Жанет. и ја сам инжињер у Зунги."
       2:
-        image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        image: "белешке/фаза15_2.jpg"
+        text: "Шта ако бих смо желели да нацртамо више троуглова, и да њихове дужине буду различитих величина?"
       3:
-        image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        image: "белешке/фаза15_3.jpg"
+        text: "Могли бих смо написати цео тај код ручно или бих могли искористити функцију са параметрима."
       4:
-        image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        image: "белешке/фаза15_4.jpg"
+        text: 'Како бих сте ово урадили, кликните плаву звезду на "draw a triangle (нацртај троугао)" функцију. Затим извуците "input name (име за упис)" унутар блока за "input (унос)".'
       5:
-        image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        image: "белешке/фаза15_5.jpg"
+        text: 'Затим ако напишете "length(дужина)" на место где пише "x" и притиснете "Enter" креираћете унос дужине за вашу функцију.'
       6:
-        image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        image: "белешке/фаза15_6.jpg"
+        text: 'Затим кликните на звезду. Сада кликните на категорију промењивих и превуците "length (дужина)" блок унутар "move forward (крећи се напред)" блока ваше дефиниције функције. И превуците подаље ваш блок број.'
       7:
-        image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        image: "белешке/фаза15_7.jpg"
+        text: 'Како бих користили вашу функцију са параметрима, кликните на категорију функција и извуците вашу  "draw a triangle with length" функију.'
       8:
-        image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        image: "белешке/фаза15_8.jpg"
+        text: "Сада можете користити математички блок, за унос различитих бројева, како бих нацртали троуглове различитих величина."
     hoc_wrapup:
       1:
         image: "белешке/хоц6_1.jpg"

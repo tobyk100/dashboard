@@ -149,11 +149,11 @@
       teacher:
         earned: "10 atau lebih siswa mengumpulkan semua Piala %{num_trophies}. Anda telah memenangkan hadiah $750 guru! (hanya untuk guru dari Amerika Serikat)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'Untuk memberi penghargaan kepada guru ilmu komputer baru, Anda bisa mendapatkan hadiah sehingga $1.000 dari <a href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit untuk membimbing kelas melalui kursus intro sekolah dasar. Untuk memenuhi syarat, Anda perlu untuk berhasil memiliki setidaknya 10 siswa-siswi menyelesaikan kursus, dengan minimal 10 siswa-siswi telah menyelesaikan semua tutorial dan mendapatkan semua Piala %{num_trophies}. Jika siswa-siswi Anda yang mendapatkan Piala terdiri dari setidaknya 40% anak perempuan, hadiah Anda adalah $1.000 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. Jika tidak, hadiah Anda adalah $750 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat digunakan oleh guru-guru di sekolah umum di Amerika Serikat.'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% atau lebih dari siswa yang mengumpulkan semua Piala %{num_trophies} adalah perempuan. Anda telah memenangkan hadiah bonus $250! (hanya untuk guru dari Amerika Serikat)"
-          not_earned: 'Jika siswa-siswi Anda yang telah mendapatkan semua Piala %{num_trophies} terdiri dari setidaknya 40% anak perempuan, Anda mendapat tambahan hadian $250 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat berlaku untuk guru-guru di sekolah umum Amerika Serikat.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "%{model} baru"
     show: "Tampilkan"
@@ -252,6 +252,7 @@
     tab: "Video."
     notes: "Tidak ada video? Tunjukkan catatan kaki."
     autoplay_option: "Autoplay video"
+    download: "Download Video"
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."
     upgrade: "Silakan upgrade browser Anda."

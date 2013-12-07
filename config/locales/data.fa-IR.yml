@@ -3,7 +3,7 @@
     script:
       name:
         20-hour:
-          desc: "معرفی K-8 در دوره علوم کامپیوتر"
+          desc: "دوره علوم کامپیوتر برای گروه سنی K-8(ابتدایی و راهنمایی)"
           Unplug1: "مرحله ۱"
           Maze: "مرحله ۲"
           Unplug2: "مرحله ۳"
@@ -32,14 +32,14 @@
           MazeEC: "مرحله 1"
     game:
       name:
-        Unplug1: "آشنایی با علوم کامپیوتر"
+        Unplug1: "آشنایی با علوم رایانه ای"
         Maze: "پیچ و خم"
         Unplug2: "تفکر محاسباتی"
         Unplug3: "برنامه نویسی روی کاغذ شطرنجی "
         Artist: "هنرمند"
         Unplug4: "الگوریتم"
         Artist2: "هنرمند 2"
-        Unplug5: "تابع گرا"
+        Unplug5: "Functions"
         Farmer: "کشاورز"
         Unplug6: "شرطها"
         Artist3: "هنرمند 3"
@@ -77,7 +77,7 @@
         maze_2_3: "منو به سمت این شیطان سبز راهنمایی کن! (حواست به بمب ها باشه)"
         maze_2_4: "آرامشتو حفظ کن و به من کمک کن این خوک بد رو پیدا کنم. اگر پیداش نکنم حسابی عصبی میشم!"
         maze_2_5: "یه راه وجود داره که من با ۲ بلوک برسم به این خوک نادون. میتونی راهشو پیدا کنی؟"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_6: "من را با استفاده از تها سه بلوک به مانع سبز برسانید."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: "برای حل این سوال، سعی کن یک جعبه تکرار استفاده کنی که در آن جعبه های حرکت، حرکت و گردش باشد."
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
@@ -185,8 +185,7 @@
       levelIncompleteError:
         maze_2_8: 'برای حل این پازل, الگویی را پیدا کنید که تکرار می شود. از بلوک "repeat" با این 3 بلوک در داخلش: حرکت، حرکت، حرکت به راست استفاده کنید.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: 'به یک بلوک "if" داخل یک بلوک "repeat" نیاز داری. اگر مشکل داری، سعی کن مرحله قبلی رو دوباره انجام بدی تا ببینی چگونه کار می کرد.'
       tooFewBlocksMsg:
         maze_2_8: 'برای حل این پازل, الگویی را پیدا کنید که تکرار می شود. از یک بلوک "repeat" شامل این 3 بلوک در داخل آن استفاده کنید: حرکت، حرکت، چرخش به راست.'
     video:

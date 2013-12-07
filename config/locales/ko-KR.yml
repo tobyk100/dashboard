@@ -102,7 +102,7 @@
   follower:
     invite_sent: "초대 메일을 발송하였습니다"
     added_teacher: "%{name} 가 선생님으로 추가되었습니다"
-    registered: "You've registered for %{section_name}."
+    registered: "%{section_name}에 등록되었습니다."
     error:
       signed_in: "먼저, 로그아웃 하세요."
       username_not_found: "%{username} 는 존재하지 않습니다"
@@ -151,11 +151,11 @@
       teacher:
         earned: "트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되면 $750 상당의 선생님 상품이 주어집니다!(미국 선생님만 해당)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: '컴퓨터과학(정보과학) 교사들은 학급학생들을 지도해서, 처음에 $1,000 크레딧(<a href="http://DonorsChoose.org">DonorsChoose.org</a>) 까지 얻을 수 있습니다. 그렇게 하려면, 트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되도록 해야하고, 그 중 40% 이상이 여학생이어야 합니다. 그런 경우가 아니면 $750 크레딧을 상품으로 받게됩니다. 단, 미국 공립학교 선생님에게만 제공됩니다.'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "트로피를 모두(총 %{num_trophies}) 모은 학생들 중 40% 이상의 학생이 여학생인 경우, 추가적인 상품($250 크레딧)을 받습니다.(미국 선생님만 해당)"
-          not_earned: '트로피를 모두(총 %{num_trophies}) 모은 학생들 중 40% 이상의 학생이 여학생인 경우, 추가적인 상품($250 크레딧, <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)을 받습니다.(미국 선생님만 해당)'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "%{model} 만들기"
     show: "보기"
@@ -254,10 +254,11 @@
     tab: "소개 동영상."
     notes: "소개 프레젠테이션."
     autoplay_option: "비디오 자동 실행"
+    download: "Download Video"
   compatability:
     working: "이 웹브라우져를 지원합니다."
     upgrade: "웹 브라우져를 업그레이드 하세요."
   slow_loading: "연결이 느립니다."
   try_reloading: "페이지를 새로고침 해보세요"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "모두 완료했습니다! 다음 단계를 계속하세요"
   download_pdf: "Open Lesson Plan"

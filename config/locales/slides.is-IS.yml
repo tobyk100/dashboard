@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hæ, ég heiti JR! Öll kappakstursbílalið þurf tölvunarfræðinga til að sigra. Þeir greina gögnin sem koma frá bílnum til að láta hann fara hraðar."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Í þessari þraut verður þú listamaðurinn sem teiknar línu bakvið þá hvert sem þeir fara."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: "Þessi kubbur segir „farðu 100 pixla áfram.“ Pixlar eru í raun litlir punktar á skjánum þínum."
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Þessi kubbur segir "snúa til hægri um 90 gráður". Þetta mun snúa listamanninum jafnmikið og "snúa" kubbarnir gera í þrautunum með völundarhúsin.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Smelltu á örina í einhverju þessara kubba til að breyta hversu langt áfram eða afturábak listamaðurinn beygir. Prófaðu þig áfram til að venjast þessum nýju kubbum."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hæ, ég heiti Pála! Í þessum þrautum ert þú bóndi sem þarf að ná túninu sínu alveg flötu til að geta sáð fræjum."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Þú verður að hjálpa henni að fjárlægja alla moldarhaugana og fylla upp í allar holurnar."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Nýju kubbarnir fjarlægja 1 skóflufylli af mold úr haug og fyllir holu með 1 skóflufylli af mold."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Haugarnir og holurnar eru í mismunandi stærðum svo þú verður að segja bóndanum hversu mörg skóflufylli skal nota."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -81,10 +81,10 @@
         text: 'Við getum notað nýja "endurtaka" kubbinn til að hjálpa okkur.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Í staðinn fyrir að draga 5 "færa áfram" kubba notum við endurtekningu.'
+        text: 'Í staðinn fyrir að draga 5 "fara áfram" kubba notum við endurtekningu.'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'Við getum sett "færa áfram" kubbinn í "endurtaka" kubbinn og skrifað tölu í kubbinn sem segir honum hve oft hann á að endurtaka sig.'
+        text: 'Við getum sett "fara áfram" kubbinn í "endurtaka" kubbinn og skrifað tölu í kubbinn sem segir honum hve oft hann á að endurtaka sig.'
       6:
         image: "notes/hoc2_6.jpg"
         text: 'Og þetta er mikilvægt: þú getur sett fleiri en eina skipun inn í "endurtaka" kubbinn.'
@@ -142,72 +142,67 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Hæ, ég heiti Brina og er verkfræðingur hjá Instagram. Föll eru ákveðnar línur af kóða sem þú notar aftur og aftur, þannig að í staðinn fyrir að skrifa kóða í hvert skipti geturðu bara notað einn kubb."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Við ætlum að læra hvernig við skilgreinum föll. Skilgreiningar falla eru með stjörnu í horninu. Nafn fallsins er skrifað á efstu línuna."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Kubbarnir sem fara í skilgreininguna segja okkur hvað hún gerir. Þessi skilgreining á falli er því kölluð "fylla 5" og hún er sett saman úr "endurtaka" kubbi og "fylla" kubbi".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Skilgreiningin liggur á vinnusvæðinu, en bóndinn keyrir ekki fallið fyrr en við drögum út kubbinn fyrir "fylla 5" fallið sem er í flokknum föll.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: "Skemmtum okkur ÖLL við að smíða FÖLL! "
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Hæ, ég heiti Makinde! Nú ætlum við að læra um "meðan" kubbinn. '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: '"Meðan" kubburinn gerir það er sett í hann Á MEÐAN setningin efst á honum er SÖNN.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "Til dæmis, ef bóndinn stendur á haug, mun hann halda áfram að fjarlægja 1 skóflufylli Á MEÐAN það er enn haugur undir honum."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hæ, ég heiti Trina og ég vinn fyrir Pixar. Ég hef unnið við margar kvikmyndir, þar á meðal Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Þetta er nýja lykkjan okkar "teljari". Hún endurtekur aðgerðir aftur og aftur og þú getur látið aðgerðirnar breytast svolítið í hvert skipti.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'Í þessu dæmi segir teljaralykkjan "telja með teljara frá 50 til 90 og hækka um 10" og inn í henni höfum við kubbinn "teikna ferning". Dragðu teljarakubbinn út frá flokknum Föll og settu hann á staðinn "lengd".'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Það þýðir að listamaðurinn mun teikna ferning með hliðar sem eru 50 pixlar á lengd. Síðan hækkar hann um 10 og teiknar ferning með 60 pixla langar hliðar. Síðan heldur hann áfram að hækka um 10 og teikna ferninga þar til hann nær 90. Við fáum þá ferninga með hliðar 50, 60, 70, 80 og 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hæ, ég heiti Janete og ég er verkfræðingur hjá Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Hvað ef við viljum nú teikna marga þríhyrninga í mismunandi stærðum?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Við gætum skrifað allan þennan kóða skref fyrir skref eða notað fall með stikum."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Þú gerir það með því að smella á bláu stjörnuna við skilgreininguna "teikna þríhyrning". Dragðu svo "heiti inntaks" á kubbinn "inntök".'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Síðan ef þú skrifar "lengd" á staðinn þar sem "x" er og ýtir á Enter lykilinn býrð þú til inntak fyrir lengd í fallið þitt.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Smelltu svo á stjörnuna. Næst smellirðu á flokkinn Breytur og dregur kubbinn "lengd" inn í "fara áfram" kubbinn í skilgreiningunni á fallinu þínu. Og dragðu burt gamla talnakubbinn.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Til að nota fallið þitt með stikum þá smellirðu á flokkinn Föll og dregur út fallið "teikna þríhyrning með lengd".'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Nú getur þú notað reikningskubb til að setja inn ólíkar tölur til að teikna þríhyrninga í mismunandi stærðum."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

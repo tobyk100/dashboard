@@ -43,16 +43,16 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Oi, sou o JR! Cada equipe de carro de corrida precisa de cientistas de computador para ganhar. Eles analisam dados do carro para torná-lo mais rápido."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Estes quebra-cabeças, você vai ser um artista que desenha uma linha por trás deles, onde quer que vão."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Este bloco diz "avançar por 100 pixels." Pixels são realmente minúsculos pontos na tela.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Este bloco diz "Vire direita por 90 graus." Isso irá virar o seu artista na mesma quantidade que o bloco "turn" no quebra-cabeças do labirinto.'
       5:
         image: "notes/stage5_5.jpg"
         text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."

@@ -27,7 +27,7 @@
         text: "Przybornik pośrodku ekranu zawiera polecenia dla Angry Bird. Możesz ich użyć do zbudowania swojego programu."
       9:
         image: "uwagi/hoc1_9.jpg"
-        text: "Po prawej stronie znajduje się Twój obszar roboczy, do którego możesz przenosić bloki z przybornika, by budować swój program. Aby usunąć blok z programu, przeciągnij go do kosza w rogu po prawej stronie."
+        text: "Po prawej stronie znajduje się Twój obszar roboczy, do którego możesz przeciągać bloki z przybornika, by budować swój program. Aby usunąć blok z programu, przeciągnij go do kosza w rogu po prawej stronie."
       10:
         image: "uwagi/hoc1_10.jpg"
         text: "Każdy blok jest instrukcją. Jeśli przeciągniesz blok idź do przodu do obszaru roboczego i naciśniesz przycisk Uruchom program, to ptak przesunie się o jedno pole w labiryncie."
@@ -42,37 +42,37 @@
         text: "Dopadnijmy te świnie!"
     artist_intro:
       1:
-        image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        image: "uwagi/stage5_1.jpg"
+        text: "Cześć, jestem JR! Każdy zespół wyścigów samochodowych potrzebuje informatyków, aby wygrać. Analizują oni dane z samochodu i sprawiają, że jedzie szybciej."
       2:
-        image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        image: "uwagi/stage5_2.jpg"
+        text: "W tych łamigłówkach będziesz artystą, który rysuje za sobą linię, wszędzie tam, gdzie idzie."
       3:
-        image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        image: "uwagi/stage5_3.jpg"
+        text: "Ten blok mówi idź do przodu przez 100 pikseli. Piksele to tak naprawdę małe kropki na Twoim ekranie."
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: "Ten blok mówi, skręć w prawo o 90 stopni. Spowoduje to obrót Twojego artysty o tyle samo, jak w bloku obróć w łamigłówkach na labiryncie."
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Kliknij na strzałkę w jednym z tych bloków, aby zmieć, jak daleko artysta ma pójść do przodu lub obrócić się.  Pobaw się, by zapoznać się z tymi nowymi blokami."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Witam, jestem Paola! W tych łamigłówkach Ty jesteś rolnikiem, który ma otrzymać pole całkowicie płaskie, aby rozpocząć sadzenie roślin."
       2:
-        image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        image: "uwagi/stage9_2.jpg"
+        text: "Musisz pomóc jej usunąć wszystkie sterty śmieci i wypełnić wszystkie otwory."
       3:
-        image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        image: "uwagi/stage9_3.jpg"
+        text: "Nowe bloki: usuń 1 szuflę śmieci ze sterty i wypełnij otwór 1 szuflą śmieci."
       4:
-        image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        image: "uwagi/stage9_4.jpg"
+        text: "Sterty i otwory są różnych rozmiarów, musisz więc powiedzieć rolnikowi, ile szufli ma użyć."
     loop_times:
       1:
         image: "uwagi/hoc2_1.jpg"
-        text: "Cześć, jestem Mark! Zaczynamy naukę o pętlach. Za pomocą pętli można powiedzieć komputerowi powtarzaj każdy zestaw działań w kółko, tysiące lub nawet miliardy razy."
+        text: "Cześć, jestem Mark! Zaczynamy naukę o pętlach. Za pomocą pętli można powiedzieć komputerowi powtarzaj jakikolwiek zestaw działań w kółko, tysiące lub nawet miliardy razy."
       2:
         image: "uwagi/hoc2_2.jpg"
         text: "W tej łamigłówce chcemy, aby ptak przesunął się 5 pól do przodu, by dosięgnąć świnkę."
@@ -100,7 +100,7 @@
         text: "Co zrobić, jeśli nie wiedzieliśmy, jak daleko ten ptak miał przenieść się, by dosięgnąć świnkę?"
       3:
         image: "uwagi/hoc3_3.jpg"
-        text: "Jeśli umieścimy blok idź do przodu wewnątrz bloku powtórz dopóki, wtedy ptak będzie poruszał się naprzód, aż dotrze do świni (lub zderzy się ze ścianą)."
+        text: "Jeśli umieścimy blok idź do przodu wewnątrz bloku powtórz aż do, to wtedy ptak będzie poruszał się naprzód, AŻ (UNTIL) dotrze do świni (lub zderzy się ze ścianą)."
       4:
         image: "uwagi/hoc3_4.jpg"
         text: "I to jest ważne: tak jak wcześniej, możemy umieścić wiele bloków wewnątrz bloku powtórz aż do, i wszystkie będą powtarzane."
@@ -132,7 +132,7 @@
         text: "Cześć, mam na imię Saloni. Informatyka służy mi do rozwiązywania problemów w dziedzinie zdrowia i medycyny. Nauczymy się o bloku jeśli-w przeciwnym razie. Ten blok wygląda jak blok jeśli, ale ma dodatkową część w przeciwnym razie na końcu."
       2:
         image: "uwagi/hoc5_2.jpg"
-        text: "Jeśli umieszczę blok idź do przodu w miejscu, które mówi wykonaj, i blok skręć w lewo, które mówi jeśli, to oznacza, że zombie będzie miał do wyboru 2 opcje. Jeśli jest droga do przodu, zombie ruszy do przodu, a jeśli nie (nie ma takiej drogi), to zombie skręci w lewo."
+        text: "Jeśli umieszczę blok idź do przodu w miejscu, które mówi wykonaj, i blok skręć w lewo w miejscu, które mówi w przeciwnym razie, to oznacza, że zombie będzie miał do wyboru 2 opcje. Jeśli jest droga do przodu, zombie ruszy do przodu, a jeśli nie ma takiej drogi, to zombie skręci w lewo."
       3:
         image: "uwagi/hoc5_3.jpg"
         text: "Podobnie jak blok jeśli, możemy umieścić bloki jeśli-w przeciwnym razie wewnątrz bloków powtórz tak, że zombie będzie się poruszał i blok Jeśli-w przeciwnym razie będzie sprawdzał, czy jest możliwość skręcenia."
@@ -141,87 +141,82 @@
         text: "Zabierz teraz te potwory (zombies), gdzie ich miejsce!"
     function:
       1:
-        image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        image: "uwagi/stage13_1.jpg"
+        text: "Witam, jestem Brina, inżynier w Instagram. Funkcja składa się z pewnych linii kodu, które chcesz używać wiele razy, zamiast więc pisać ten kod za każdym razem, możesz użyć jednego bloku."
       2:
-        image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        image: "uwagi/stage13_2.jpg"
+        text: "Dowiemy się, jak definiować funkcję. Definicja funkcji ma gwiazdkę w rogu. Nazwa funkcji jest zapisana w pierwszej linijce."
       3:
-        image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        image: "uwagi/stage13_3.jpg"
+        text: "Bloki, które znajdują się wewnątrz definicji określają, co robi funkcja. Na przykład, to jest definicja funkcji o nazwie wypełnij 5 i zawiera bloki powtórz i wypełnij."
       4:
-        image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        image: "uwagi/stage13_4.jpg"
+        text: "Definicja funkcji znajduje się na obszarze roboczym, ale nasz rolnik nie może jej uruchomić, aż nie wyciągnie bloku wypełnij 5 z kategorii Funkcje."
       5:
-        image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        image: "uwagi/stage13_5.jpg"
+        text: 'Umieśćmy zabawy (ang. fun) z powrotem w kategorii FUNkcje!" '
     loop_while:
       1:
-        image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        image: "uwagi/stage9_5.jpg"
+        text: "Witam, jestem Makinde! Poznajmy blok dopóki "
       2:
-        image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        image: "uwagi/stage9_6.jpg"
+        text: "Blok dopóki będzie wykonywał to, co w nim umieścisz, TAK DŁUGO, JAK DŁUGO warunek znajdujący się na górze ma wartość PRAWDA (TRUE)."
       3:
-        image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        image: "uwagi/stage9_7.jpg"
+        text: "Na przykład, jeśli rolnik stoi na stercie, to tak długo będzie usuwał 1 szufelkę śmieci, DOPÓKI pod nim znajduje się sterta śmieci."
     loop_for:
       1:
-        image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        image: "uwagi/stage11_1.jpg"
+        text: "Witam, jestem Trina, i pracuję dla Pixar. Pracowałam przy kilku filmach, w tym przy Shreku."
       2:
-        image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        image: "uwagi/stage11_2.jpg"
+        text: "To jest nasza nowa pętla licznik. Wykonuje wielokrotnie działania i możesz za każdym razem nieco zmienić działania."
       3:
-        image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        image: "uwagi/stage11_3.jpg"
+        text: 'W tym przykładzie, pętla licznik oznacza "liczy z licznikiem od 50 do 90 co 10" a w jej wnętrzu mamy blok narysuj kwadrat. Przeciągnij blok licznik z kategorii Zmienne na miejsce długość.'
       4:
-        image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        image: "uwagi/stage11_4.jpg"
+        text: "Oznacza to, że nasz artysta narysuje kwadrat, który ma bok długości 50 pikseli, następnie doda 10 i narysuje kwadrat o boku 60 pikseli. Następnie będzie dodawał 10 i rysował kwadraty, aż osiągnie 90. Otrzymamy w ten sposób kwadraty o bokach 50, 60, 70, 80 i 90."
     parameters:
       1:
-        image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        image: "uwagi/stage15_1.jpg"
+        text: "Witam, jestem Janete i jestem inżynierem w Zynga."
       2:
-        image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        image: "uwagi/stage15_2.jpg"
+        text: "Co zrobić, jeśli chcemy narysować kilka trójkąty o różnych długościach boków?"
       3:
-        image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        image: "uwagi/stage15_3.jpg"
+        text: "Moglibyśmy napisać poszczególne kody lub możemy użyć funkcji z parametrami."
       4:
-        image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        image: "uwagi/stage15_4.jpg"
+        text: "Aby to zrobić, kliknij przycisk blue star (niebieska gwiazda) w definicji funkcji rysuj trójkąt. Następnie przeciągnij nazwa wejścia do bloku wejście."
       5:
-        image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        image: "uwagi/stage15_5.jpg"
+        text: "Następnie, jeśli wpiszesz długość w miejscu, gdzie stoi x i naciśniesz klawisz Enter, to utworzysz wejście długość w Twojej funkcji."
       6:
-        image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        image: "uwagi/stage15_6.jpg"
+        text: "Następnie kliknij na gwiazdce. Teraz kliknij na kategorii Zmienne i przeciągnij blok długość do bloku idź do przodu w definicji Twojej funkcji. I usuń przez przeciągnięcie stary blok liczba."
       7:
-        image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        image: "uwagi/stage15_7.jpg"
+        text: "Aby użyć funkcji z parametrami, kliknij na kategorię Funkcje i wyciągnij funkcję narysuj trójkąt o długości."
       8:
-        image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        image: "uwagi/stage15_8.jpg"
+        text: "Teraz można użyć bloku matematyki do wprowadzenia różnych liczb, by rysować trójkąty o różnych rozmiarach."
     hoc_wrapup:
       1:
         image: "uwagi/hoc6_1.jpg"
         text: "Gratulacje! Z ostatnimi łamigłówkami, które rozwiązałeś, napisałeś kod, który może pomóc jakiemukolwiek robotowi, jak znaleźć drogę przez labirynt bez rozgałęzień lub przez tunel o dowolnej długości, bez względu na to, czy jest to zombie, ptak, pojazd na marsie lub nawet samojezdny samochód."
       2:
         image: "uwagi/hoc6_2.jpg"
-        text: "Podstawowe pojęcia, które wykorzystałeś, są sednem każdego programu lub aplikacji, które kiedykolwiek będziesz używał. Dowiedzieliśmy się o powtarzaniu w pętli, instrukcji powtórz aż do, instrukcji jeśli, instrukcji jeśli-w przeciwnym razie."
+        text: "Podstawowe pojęcia, które wykorzystałeś, są sednem każdego programu lub aplikacji, które kiedykolwiek będziesz używał. Dowiedzieliśmy się o powtarzaniu w pętli, instrukcji powtórz aż do, instrukcji jeśli i instrukcji jeśli-w przeciwnym razie."
       3:
         image: "uwagi/hoc6_3.jpg"
         text: "Jeśli podoba Ci się Twoja pierwsza godzina kodowania, odwiedź code.org, aby kontynuować swoją edukację informatyczną! Po zakończeniu naszego 20-godzinnego kursu będziesz mieć opanowane podstawy programowania i będziesz mógł rozpocząć naukę, jak pisać aplikacje dla telefonów komórkowych, instrukcje dla robotów, czy nawet gry."
       4:
         image: "uwagi/hoc6_4.jpg"
-        text: "Technologia zmienia wszystko, co robimy, i nie ma znaczenia czy jesteś młody czy stary: programowanie to zabawa, jest kreatywne i każdy może się nauczyć !"
+        text: "Technologia zmienia wszystko, co robimy, i nie ma znaczenia czy jesteś młody czy starszy: programowanie to zabawa, jest kreatywne i każdy może się nauczyć !"
     20_wrapup:
       1:
-        image: "notes/bird.png"
+        image: "Notes/Bird.png"
         text: "Pokaż uwagi - wkrótce dostępne!"

@@ -28,8 +28,8 @@
       no_token: "Nie masz dostępu do tej strony, jeżeli nie wchodzisz tu z linku służącego do resetowania hasła. Jeżeli wchodzisz z linku z wiadomości resetowania hasła, upewnij się, że wpisałeś pełen adres URL."
       send_instructions: "Wkrótce otrzymasz wiadomość e-mail z instrukcją resetowania hasła."
       send_paranoid_instructions: "Jeśli twój adres e-mail istnieje w naszej bazie danych, wkrótce otrzymasz wiadomość z linkiem do odzyskiwania hasła."
-      updated: "Hasło zostało zmienione. Jesteś teraz zalogowany."
-      updated_not_active: "Hasło zostało zmienione."
+      updated: "Twoje hasło zostało zmienione. Jesteś teraz zalogowany."
+      updated_not_active: "Twoje hasło zostało zmienione."
     registrations:
       destroyed: "Do widzenia! Twoje konto zostało pomyślnie anulowane. Mamy nadzieję zobaczyć Cię ponownie, wkrótce."
       signed_up: "Witaj! Twoja rejestracja przebiegła pomyślnie."
@@ -42,7 +42,7 @@
       signed_in: "Pomyślnie zalogowałeś się."
       signed_out: "Pomyślnie wylogowałeś się."
     unlocks:
-      send_instructions: "Za kilka minut otrzymasz e-mail ze wskazówkami, jak odblokować twoje konto."
+      send_instructions: "Za kilka minut otrzymasz e-mail ze wskazówkami, jak odblokować swoje konto."
       send_paranoid_instructions: "Jeśli twoje konto istnieje, to otrzymasz e-mail ze wskazówkami, jak odblokować swoje konto."
       unlocked: "Twoje konto zostało pomyślnie odblokowane. Zaloguj się,aby kontynuować."
   errors:

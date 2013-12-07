@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hei, jeg er JR! Alle racerbil-lag må ha programmerere for å vinne. De analyserer data fra bilen for å gjøre den raskere."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "I disse oppgavene vil du være en kunstner som tegner linjer bak deg når du flytter deg."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Denne blokken sier "flytt frem 100 piksler." Piksler er bare veldig små prikker på skjermen.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Denne blokken sier "sving 90 grader til høyre". Den vil dreie kunstneren like mye som "sving" blokken i labyrintoppgaven gjorde.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Klikk på pilen i en av disse blokkene for å endre hvor mye kunstneren går fremover. Lek litt med dette for å bli kjent med de nye blokkene."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hei, jeg Paola! I disse oppgavene er du en bonde som trenger å gjøre jordet flatt for å kunne dyrke grønnsaker der."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Du må hjelpe henne med å fjerne alle jordhaugene, og fyle alle hullene."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "De nye blokkene fjerner et spadetak med jord fra en haug, og fyller et spadetak med jord i et hull."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Hauger og hull har forskjellige størrelse eller dybde, så du må fortelle bonden hvor mange spadetak som det er behov for."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -142,72 +142,67 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Hei, jeg Brina, ingeniør ved Instagram. En funksjon er noen kodelinjer som du vil bruke igjen og igjen, så i stedet for å skrive den samme koden hver gang, kan du bare bruke en blokk."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Vi skal lære å definere funksjoner. Blokker der vi definerer funksjoner har en stjerne i hjørnet. Navnet på funksjonen skrives på øverste linje."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Blokkene inne i funksjonen forteller oss hva den gjør. Så denne funksjonen er kalt "fyll 5", og består av en "gjenta" blokk og en "fylle" blokk.'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Funksjonen finnes på arbeidsområdet, men bonden vil ikke kjøre den før vi drar ut "Fyll 5 funksjon" blokka fra funksjoner-kategorien.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: "La oss ha det gøy med funksjoner!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Hei, jeg Makinde! La oss lære om "gjenta så lenge"-blokken '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: '"Gjenta så lenge" blokken vil fortsette å gjøre det som er inne i den så lenge utsagnet på toppen er sant.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For eksempel, hvis bonden står på en haug, vil hun fortsette å fjerne spadetak med jord så lenge det er fortsatt en haug under henne."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hei, jeg er Trina, og jeg jobber for Pixar. Jeg har vært med å lage en rekke filmer, inkludert Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Dette er nye "teller" løkka. Det vil utføre handlingene igjen og igjen, og du kan endre handlingene litt hver gang.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'Dette eksemplet på en "teller"-løkke sier "Tell med teller fra 50 til 90 med 10" og inni den har vi en "tegn en firkant"-blokk. Dra "teller" blokken fra "Variabler"-seksjonen til "lengde"-stedet.'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Dette betyr at kunstneren vår skal tegne et kvadrat med sidelengde 50 piksler. Så legger vi til 10, og tegner et kvadrat med sidelengde 60 piksler. Slik holder vi på til sidelengden blir 90 piksler. Dermed har vi sidelengdene 50, 60, 70, 80 og 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hei, jeg er Janete, og jeg er en ingeniør ved Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Hva hvis vi ønsker å tegne en haug med trekanter av forskjellig størrelse?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Vi kan skrive all koden for hånd, eller vi kan bruke en funksjon med parametere."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'For å gjøre dette, må du klikke på den blå stjernen i "tegn en trekant" funksjonen. Dra så "Navn på parameter:" inn i "parametre"-blokka til høyre. NB! Ikke skriv navnet først.'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Så hvis du skriver "lengde" der det står "x" og så trykker "Enter", vil du opprette et lengde-parameter til funksjonen.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Klikk på stjernen. Så klikker du på "variabler"-kategorien og drar "lengde" inn i "fremover" blokka til funksjonen. Så drar du bort den gamle nummer-blokken.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'For å bruke funksjonen med parametere. kan du klikke på kategorien funksjoner og dra ut "tegn en trekant med lengde"-funksjonen.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Nå kan du bruke matematikk-blokken for å hente nye tall, og på den måten kan du tegne trekanter av forskjellige størrelse."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

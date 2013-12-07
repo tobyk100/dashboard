@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Salam, mənim adım JRdır. Avtomobil yarışlarında iştirak edən hər bir komandanın informatikə ehtiyacı var. Onlar avtomobil haqqında məlumatı təhlil edərək onun sürətini daha da artırırlar."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Bu tampacalarda siz onarın arxasıyla xətt çəkən rəssam olacaqsınız."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Bu blok "100 piksel irəli gedin" deyir. Piksellər sizin ekranınızda kiçik nöqtələrdir. '
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Bu blok "90 dərəcə sağa dönün" deyir. Bu sizin rəssamınızı labirint tapmacasındakı "dön" blokları qədər döndərəcək.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Rəssamın nə qədər irəli getməsini və ya dönməsini dəyişmək üçün bu blokların birində oxu klikləyin."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Salam, mən Paolayam. Bu tapmacada siz məhsul (dənlik) əkmək üçün sahəsini tamamilə təmizləməli olan bir fermersiniz."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Siz ona bütün torpaq qalaqlarını təmizləyib çuxurlara doldurmaqda kömək etməlisiniz."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Yeni blok bir kürək torpağı təpəcikdən götürərək onu çuxura doldurur."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Çuxurlarin və təpəciklərin ölçüləri müxtəlifdir. Ona görə də siz fermerə neçə kürək istifadə etməli olduğunu deməlisiniz."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -142,27 +142,23 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Salam, mənim adım Brinadır, İnstaqramda mühəndisəm. Funsiya təkrar-təkrar istifadə etmək istədiyiniz müəyyən kod sətirləridir, beləliklə, hər dəfə eyni kodu yazmağın yerinə siz sadəcə bir blokdan istifadə edə bilərsiniz."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Biz funksiyanı necə yaratmağı öyrənəcəyik. Funksiyanın təyinatının küncündə ulduz olur. Funksiyanın adı ən yuxarı sətirdə yazılir."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Təyinatın içərisindəki bloklar bizə onun nə etdiyini deyir. Bu funksiya təyinatı "doldur 5" adlanır və "təkrarla" və "doldur" bloklarından ibarətdir.'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Təyinat iş sahəsində yerləşir, amma bizin fermer biz "doldur 5 funksiyası" blokunu funksiyalar kateqoriyasından çıxarmayınca funksiyanı işə salmayacaq.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: 'Gəlin "FUNksiya"dakı "fun"-ı (ingiliscə: "əyləncə") yerinə qoyaq '
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Salam, mənim adım Makindedir. Gəlin "ağ blok" haqqında öyrənək '
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
@@ -172,7 +168,7 @@
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: 'Salam, mən Trinayam, "Pixar"da işləyirəm. Bir sürü filmin, o cümlədən "Şrek" filminin üzərində işləmişəm.'
       2:
         image: "notes/stage11_2.jpg"
         text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
@@ -185,20 +181,19 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: 'Salam, mən Janetəm, "Zynga"da mühəndisəm.'
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Bəs əgər bir sürü üçbucaq çəkmək və tərəflərinin fərqli uzunluqda olmağını istəsək?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Bütün bu kodu əlimizlə yaza bilərdik, amma biz həm də parametrli bir funksiyadan istifadə edə bilərik."
       4:
         image: "notes/stage15_4.jpg"
         text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Sonra əgər "x" yazılan sahədə "uzunluq" yazaraq "Enter" düyməsini bassanız, funksiyanız üçün uzunluğu təyin edən giriş veriləni düzəltmiş olarsınız.'
       6:
         image: "notes/stage15_6.jpg"
         text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
@@ -207,7 +202,7 @@
         text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "İndi  girişə müxtəlif ədədlər verərək müxtəlif ölçüdə üçbucaqlar çəkmək üçün riyaziyyat blokundan istifadə edə bilərsiniz."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

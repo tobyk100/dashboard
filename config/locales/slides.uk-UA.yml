@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Привіт, я JR! Для перемоги кожна команда потребує фахівців з комп'ютерних наук. Вони аналізують дані, отримані від автомобіля, щоб він рухався швидше."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "У цих завданнях ви будете художником, який повсюди малює за собою лінію."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Цей блок вказує "рухатись вперед на 100 пікселів". Пікселі - це маленькі крапки на екрані.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Цей блок вказує "повернути праворуч на 90 градусів". Це дозволить повернути художника на вказаний кут, так само як блок "поворот" у завданнях лабіринту.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Клацніть на стрілці у будь-якому з цих блоків для того, щоб змінити те, наскільки художник переміщується вперед чи повертає. Поекспериментуйте з цими новими блоками."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Привіт, я Паола! У цих завданнях ви допоможете фермерці очистити поле для посадки рослин."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Вам потрібно допомогти видалити всі купи землі та заповнити всі ямки."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Нові блоки видаляють 1 відро землі з купи і засипають в ямку 1 відро землі."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Купи та ямки різного розміру, тому потрібно вказати фермерці, скільки використати відер."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -144,72 +144,67 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Привіт, я Бріна, інженер в Інстаграмі. Функція - це певні рядки коду, які ви хочете використати багато разів, тож замість того, щоб щоразу повністю писати цей код, можна використати один блок."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Ми дізнаємось, як визначати функції. Визначення функції починається із зірочки в кутку. Назва функції записується у верхньому рядку."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Блоки, розміщені всередині визначення, вказують, що робити. Наприклад, це визначення функції називається "заповнити 5" і складається з блоку "повторити" та блоку "заповнити".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Визначення на потрібному місці, але наша фермерка не зможе виконати функцію, поки ми не перетягнемо блок "заповнити 5 функцій" з  категорії функцій.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: "Зробимо функцію цікавішою! "
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Привіт, я Макінд! Я розповім про блок "поки". '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'Блок "поки" виконуватиме дії, розміщені всередині нього, ДО ТИХ ПІР, ПОКИ умова на початку блоку залишається ІСТИНОЮ.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "Наприклад, якщо фермерка стоїть на купі, вона продовжуватиме видаляти по 1 відру землі, ПОКИ є ця купа."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Привіт, я Тріна, я працюю в Піксар. Я працювала над різними фільмами, включаючи Шрека."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Це наш новий цикл "лічильник". Він виконуватиме дії знову і знову, і можна щоразу дещо змінювати ці дії.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'У цьому прикладі наш цикл "лічильник" вказує "рахувати лічильником від 50 до 90 через 10", а всередині ми маємо блок "малювати квадрат". Перетягніть блок "лічильник" з розділу змінних та місце "довжина".'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Це означає, що художник малюватиме квадрат, стороною 50 пікселів, тоді додаватиме до них 10 і малюватиме квадрат, стороною 60 пікселів. Він продовжуватиме додавати 10 та малювати відповідний квадрат, поки не дійде до 90. Так, ми матимемо квадрати зі сторонами 50, 60, 70, 80 та 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Привіт, я Жанет, і я інженер у Зинга."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "А якщо нам потрібно намалювати кілька трикутників зі сторонами різної довжини?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Ми могли б написати код вручну, або використаємо функцію з параметрами."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Щоб зробити це, клацніть блакитну зірочку на визначенні функції "намалювати трикутник". Тоді перетягніть "назву параметра" до блоку "вхід".'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Тепер, якщо ви напишете "довжина" в тому місці, де вказано "х" і натиснете "Enter", ви створите вхідну довжину для своєї функції.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Потім клацніть зірочку. Тепер вам потрібно клацнути в категорії змінних і перетягнути блок "довжина" у блок "рухатись вперед" вашого визначення функції. Заберіть старий блок з числом.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Щоб використати функцію з параметрами, клацніть на категорії функцій та перетягніть функцію "намалювати трикутник з довжиною".'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Тепер можете використати математичний блок, щоб вводити різні числа для побудови трикутників різних розмірів."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

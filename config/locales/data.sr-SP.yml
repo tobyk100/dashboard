@@ -39,7 +39,7 @@
         Artist: "Уметник"
         Unplug4: "Алгоритми"
         Artist2: "Уметник 2"
-        Unplug5: "Функционалан"
+        Unplug5: "Functions"
         Farmer: "Фармер"
         Unplug6: "Условни"
         Artist3: "Уметник 3"
@@ -127,42 +127,36 @@
           Здраво. Ја зомби уметник. Ја волим цртам! Помози ми да нацртам квадрат посебном бојом.
           Важна напомена: имаш све исте блокове, али су сада сви постављени у категорије.
         turtle_2_2: 'Добро дошао на коришћење функција, што вам омогућава да дефинишете нове блокове! Испробај нови "draw a square" (нацртај квадрат) блок, налази се у категорији функија, и нацртај мали 50x50 зелени квадрат.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
+        turtle_2_3: 'Употреби "repeat"(понови) блок(У категоријама петљи) да нацрташ 3 квадрата исте величине 100, и сваки 120 степени одвојено. И нека сва три буду различитих боја.'
+        turtle_2_4: "Сада ће мо да будемо фенци. Промени код да нацрташ 36 квадрата, 100 пиксела широке, и раздвојености 10 степени. Напомена: желите да употребите слајдер  како бих ме натерали на идем брже."
+        turtle_2_5: 'Нацртај квадрате са страницама од 50, 60, 70, 80 и 90 пиксела. Мораћете да користите "draw a square" функцију пет пута.'
         turtle_2_6: "Уреду, овај програм ће користити бројач, да нацрта исте квадрате као и прошли пут. Ви желите да  квадрат буде исте величине као и бројач, зато користите 'Бројач' Блок. Савет: Налази се у категорији променјивих."
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
+        turtle_2_7: 'Ево га програм за цртање спирале, али блокови су онемогућени , тако да неће радити. Направи нови програм користећи "count with"(број са)(из категорије петљи) и "counter" блок (из категорије промењивих) како бих нацртао исту спиралу.'
+        turtle_2_7_5: 'Постоји нова "draw a snowman"(нацртај снешка) функција  (у категоријама функције). нацртај два снешка  висине 250 и 100.'
         turtle_2_8: 'Овај пример је нешто тежи.Користите функцију "нацртај Снешка Белића" и блок "скочи напред" ( којa се налази у категорији "Акција"). Нацртајте 3 Снешка са различитим бојама, који су међусобно одвојени са 100 px.'
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
+        turtle_2_9: 'Користи "count with" петљу да нацрташ породицу снешка са висинама од 110, 100, 90, 80 и 70. Раздаљина између сваког снешка треба да буде 60 пиксела.'
+        turtle_2_10: "Ево га код, како бих сте са њим експериментисали са различитим спиралама. Шта ће се десити ако промените количину окретања? Или подесите насумичност боја у петљи? Нацртај шта год пожелиш."
+        maze_karel_2_1: "Покушај користећи блокове да ми помогнеш да уклоним све гомиле  и попуним све рупе на земљи. Покушај да користиш петље како не бих користио превише блокова. Напомена: Можеш ставити петљу унутар друге петље."
+        maze_karel_2_2: 'Дефинисали смо наш блок назван "fill 5", који се налази у категорији функција. Искористи га како бих ми помогао да попуним ову рупу.'
+        maze_karel_2_3: 'Искористи нови "fill 5" блок функције да попуним све рупе. Мораћеш да извучеш "fill 5" блок из категорије функција.'
+        maze_karel_2_4: "Дефиниши нову функцију која уклања 7 пуних лопата. Затим је искористи да напишеш програм који ми помаже да уклоним све гомиле."
+        maze_karel_2_5: "Креирај нову функцију која уклања 6 пуних лопата са гомиле, и искористи је да ми помогнеш да поравнам све гомиле."
+        maze_karel_2_6: 'Употреби две нове функције, "fill 8" и "remove 8", како бих ми помогао да изравнам гомиле и попуним рупе.'
+        maze_karel_2_7: "Крава је на мом пољу! Напиши нову функцију  која ми помаже да избегнем краву и уклоним гомилу. Стави све своје блокове унутар нове функције."
+        maze_karel_2_8: 'Употреби ову нову функцију,  "avoid the cow and remove 1 (избегни краву и уклони 1)", како бих ми помогао да уклоним све гомиле.'
+        maze_karel_2_9: "Уреду, ево је функција која уклања 4 различите гомиле рљавштине на вертикалној колони. Пробај да поставиш ову функцију унутар петље, тако да уклониш све гомиле прљавштине користећи само пар нових блокова."
+        maze_karel_2_10: "Помери ме преко поља, и искористи ове две функције како бих ми помогао да уклоним све гомиле и попуним све рупе."
+        turtle_3_1: 'Ова загонетка вам показује како су "draw a square (нацртај квадрат)" и "нацртај круг" функције дефинисане. Дефинисање функције не покреће њене блокове. Морате извући "draw a square" блок како бих нацртали квадрат.'
+        turtle_3_2: 'Користећи "draw a square"(нацртај квадрат) функцију као пример, направи "draw a triangle"(нацртај троугао) функцију и искористи је.'
+        turtle_3_3: "Нацртај троугласте ограде око мачака, и квадрате око крава. Савет: успут истестирај програм."
+        turtle_3_4: 'Пробај да сазнаш како да користиш "draw a square"(нацртај квадрат) и "draw a triangle"(нацртај троугао) (и још неке блокове) како бих нацртао кућу око лава.'
+        turtle_3_5: 'А сада, креирај нову "draw a house(нацртај кућу)" функцију и искористи је да удомиш две мачке. Напомена: Креирај нову функцију користећи "do something(уради нешто)" блок, и унеси свој текст како бих дао име блоку.'
+        turtle_3_6: 'Користите  "draw a square(нацртај квадрат)" као пример, додајте унос кутију назван "length(дужина)" како бих сте нацртали троугао. Затим, нацртајте троуглове различитих величина.(Напомена: кликни на звезду како бих додали унос кутију у функцији)'
+        turtle_3_7: 'Додај унос назван "length"(дужина) да бих "нацртао кућу" и направио велику кућу за слона (са ивицама од 150 пиксела дужине)'
+        turtle_3_8: 'Ево их сви блокови из прошле загонетке. Измени "draw a house(нацртај кућу)" функцију, тако да ја завршим у доњем десном углу по завршетку цртања нове куће. Користи измењену функцију да нацрташ три куће.'
+        turtle_3_9: 'Можеш ли реконструисати  "draw a house (нацртај кућу)" функцију, без ичије помоћи? Покушај, а затим нацртај ред кућа.'
+        turtle_3_10: "Много сте научили! А сада искористите то знање да нацртате шта год пожелите. Покушајте да нацртате звезду, или спиралу, или кул пахуљицу. "
+        maze_karel_debug_seq_1: "Добро дошао у дебаговање!  Мој код не ради како бих требало. Можеш ли одкрити проблем и  исправити га, тако да могу да поравнам своје поље како бих било спремно за сејање?"
         maze_karel_debug_seq_2: "Шта није уреду са овим програмом? Како бих га ти поправио, тако да могу да уклоним ту гомилу?"
         maze_karel_debug_repeat: "Дебагуј овај програм за мене, тако да моје поље буде лепо и равно."
         maze_karel_debug_while: "Како бих променуо овај програм да ми помогне да попуним ову рупу?"

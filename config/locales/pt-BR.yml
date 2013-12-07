@@ -151,11 +151,11 @@
       teacher:
         earned: "10 ou mais estudantes recolheram todos os %{num_trophies} troféus. Você ganhou um prêmio de professor de $750! (Somente para professores dos EUA)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'Para recompensar os professores de ciência da computação pela primeira vez, você pode ganhar até US $1.000 em créditos <a href="http://DonorsChoose.org"> DonorsChoose.org</a> para guiar uma sala de aula através do curso de introdução ao Ensino Fundamental. Para se qualificar, você precisa hospedar com êxito uma sala de aula com, pelo menos, 10 estudantes através de todo o curso de introdução ao Ensino Fundamental, com todos os 10 alunos (ou mais) completando todos os tutoriais e ganhar todos os %{num_trophies} troféus. Se o grupo de seus alunos que ganharem todos os troféus consistir de, pelo menos, 40% de garotas, sua recompensa é US $1.000 em créditos de <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>. Caso contrário, sua recompensa é 750 dólares em créditos de <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> créditos só podem ser utilizados pelos professores nas escolas públicas no Estados Unidos.'
+        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "40% ou mais de seus alunos que recolheram todos os %{num_trophies} troféus são meninas. Você ganhou um prémio bônus de $250! (Somente para professores dos EUA)"
-          not_earned: 'Se o grupo de seus alunos ganhadores de todos os %{num_trophies} troféus consistir de, pelo menos, 40% de garotas, sua recompensa é um adicional de $250 em créditos de <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> créditos só podem ser utilizados pelos professores nas escolas públicas de Estados Unidos.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Novo %{model}"
     show: "Mostrar"
@@ -254,6 +254,7 @@
     tab: "Vídeo."
     notes: "Nenhum vídeo? Mostrar notas."
     autoplay_option: "Reproduzir automaticamente"
+    download: "Download Video"
   compatability:
     working: "Estamos trabalhando no suporte para seu navegador."
     upgrade: "Por favor, atualize seu navegador."
