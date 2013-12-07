@@ -25,7 +25,7 @@
       failure: 'Non è stato possibile autenticarti da %{kind} perché "%{reason}".'
       success: "Autenticazione riuscita dall'account %{kind}"
     passwords:
-      no_token: "Non si puo'accedere a questa pagina senza provenire da una password reset email. Se venite da una password reset email, assicuratevi di avere usato la URL fornita."
+      no_token: "Non si può accedere a questa pagina senza provenire da una password resetta email. Se venite da una password resetta email, assicuratevi di avere usato la URL fornita."
       send_instructions: "Riceverai una email con le istruzioni su come reimpostare la password in pochi minuti."
       send_paranoid_instructions: "Se il tuo indirizzo email è presente nel nostro database, riceverai un link per recuperare la password nel tuo email in pochi minuti."
       updated: "La password è stata cambiata con successo. Ora sei collegato."
