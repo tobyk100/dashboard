@@ -77,7 +77,7 @@
             %tr.report_row
               %th{ colspan: @all_concepts.length } Trophies
               - stage_map.each_pair do |game, levels|
-                %th{ colspan: levels.length }= game.name
+                %th{ colspan: levels.length, style: "overflow: hidden;" }= game.name
             - students.each do |student|
               - trophy_map = student.user_trophies.index_by {|ut| ut.concept_id }
               - level_map = student.user_levels.index_by {|ul| ul.level_id }
