@@ -20,7 +20,7 @@
 
   - video = data_t('unplugged', @game.name)[:video]
   - if video
-    %iframe{src: youtube_url(video), scrolling: 'no'}
+    %iframe{src: youtube_url(video, {autoplay: 0}), scrolling: 'no'}
   - else
     %p Video Coming Soon!
   - download = data_t('unplugged', @game.name)[:download]
