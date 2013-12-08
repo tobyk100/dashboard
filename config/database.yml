@@ -17,7 +17,7 @@ prod_mysql_defaults: &prod_mysql_defaults
   encoding: utf8
   username: db
   password: Az3GjKlP
-  pool: 10
+  pool: 4
   master:
     host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
     pool_weight: 1
