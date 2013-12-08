@@ -4,7 +4,7 @@
       Unplug1:
         title: "컴퓨터과학(Computer Science, 정보과학) 소개"
         desc: "이 과정은 컴퓨터과학(정보과학)에서 배우게 되는 기초 개념들을 소개하는 과정으로서, 컴퓨터과학자들이 하는 역할들에 대해서 설명합니다. 활동의 마지막 부분에서는 학생들이 배운 내용을 이용해 수행할 수 있는 과제가 제시됩니다. 관련 용어에 대해서 설명하지 않고 넘어갈 수도 있지만, 용어들을 제시하고 설명하는 것이 더 많은 것을 이해할 수 있도록 할 수 있습니다."
-        video: "DGrrqoz891M"
+        video: "HsXaVV6fFDY"
         download: "https://s3.amazonaws.com/cdo-videos/new/1-whatisCS-unpluggedactivity.mp4"
         pdfs:
           - unplug1
