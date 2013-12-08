@@ -44,10 +44,10 @@ test:
 staging:
   <<: *prod_mysql_defaults
   master:
-    host: stagingdb.ceidnfhvpbck.us-east-1.rds.amazonaws.com
+    host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
     pool_weight: 1
   read_pool:
-    - host: stagingdb.ceidnfhvpbck.us-east-1.rds.amazonaws.com
+    - host: drupal-dbreplica1.ceidnfhvpbck.us-east-1.rds.amazonaws.com
       pool_weight: 2
   database: dashboard_staging
 
