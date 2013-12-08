@@ -16,6 +16,6 @@ TEXT
   end
 
   def build_invite_mailto(section, user)
-    "mailto:?subject=#{Rack::Utils.escape(t('welcome_email.subject'))}&body=#{Rack::Utils.escape(t('welcome_email.body', link: student_user_new_url(section_code: section.code), name: user.name))}"
+    "mailto:?subject=#{Rack::Utils.escape_path(t('welcome_email.subject'))}&body=#{Rack::Utils.escape_path(t('welcome_email.body', link: student_user_new_url(section_code: section.code), name: user.name))}"
   end
 end
