@@ -22,7 +22,7 @@ prod_mysql_defaults: &prod_mysql_defaults
     host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
     pool_weight: 1
   read_pool:
-    - host: drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com
+    - host: drupal-dbreplica1.ceidnfhvpbck.us-east-1.rds.amazonaws.com
       pool_weight: 2
 
 development:
