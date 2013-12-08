@@ -151,11 +151,11 @@
       teacher:
         earned: "트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되면 $750 상당의 선생님 상품이 주어집니다!(미국 선생님만 해당)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: '컴퓨터과학(정보과학) 교사들은 학급학생들을 지도해서, 처음에 $1,000 크레딧(<a href="http://DonorsChoose.org">DonorsChoose.org</a>) 까지 얻을 수 있습니다. 그렇게 하려면, 트로피를 모두(총 %{num_trophies}개) 모은 학생들이 15명 이상이 되도록 해야합니다. 그 중 7명 이상이 여학생이어야 합니다. 그런 경우가 아니면 $750 크레딧을 상품으로 받게됩니다. 단, 미국 공립학교 선생님들만 사용할 수 있습니다.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: '7명 이상의 여학생이 트로피를 모두(총 %{num_trophies}개) 모으면, 추가적으로 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)이 상품으로 주어집니다.(미국 선생님만 해당)'
+          not_earned: '최소 7명의 여학생이 트로피를 모두(총 %{num_trophies}개) 모으면, 추가적으로 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)이 상품으로 주어집니다. 크레딧은 미국 공립학교 선생님들만 사용할 수 있습니다.'
   crud:
     new_model: "%{model} 만들기"
     show: "보기"
@@ -254,7 +254,7 @@
     tab: "소개 동영상."
     notes: "소개 프레젠테이션."
     autoplay_option: "비디오 자동 실행"
-    download: "Download Video"
+    download: "동영상 다운로드"
   compatability:
     working: "이 웹브라우져를 지원합니다."
     upgrade: "웹 브라우져를 업그레이드 하세요."

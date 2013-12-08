@@ -122,40 +122,40 @@
     success: "Ви успішно отримали приз, дивіться код нижче."
     error: "Ваш виграш не може бути отримано, спробуйте ще раз."
     error_us_only: "Винагорода дійсна лише для користувачів зі США."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "Ми шкодуємо, але в даний час немає доступних призів."
     confirm:
       title: "Будь ласка, підтвердіть"
       "no": Ні
       "yes": Так
       msg: "Ви впевнені, що ви хочете отримати приз %{prize_name}?"
       msg_student: "Примітка: Ви можете вибрати тільки один тип нагороди."
-      msg_visit_website: "Visit website"
+      msg_visit_website: "Відвідати сайт"
     providers:
-      apple_itunes: "$10 iTunes Gift Card"
-      donors_choose: "DonorsChoose.org $750 credit"
-      donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      apple_itunes: "Подарункова картка iTunes на 10$"
+      donors_choose: "Кредит 750$ від DonorsChoose.org"
+      donors_choose_bonus: "Кредит 250$ від DonorsChoose.org"
+      dropbox: "10 ГБ пам'яті Dropbox"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
-      skype: "$10 Skype credit"
+      skype: "Кредит у Skype на 10$"
     student_finished: "Ви завершили всі уроки. Після отримання призу, виберіть інший підручник %{online_link} чи %{local_school_link}"
     msg:
       choose: "Виберіть приз:"
-      choose_teacher: "Click on the logo below to claim your prize:"
+      choose_teacher: "Натисніть на логотип нижче, щоб замовити приз:"
       earned: "Ви виграли приз! (лише учні зі США)"
       not_earned_title: "Пройдіть всі уроки, отримайте нагороди (лише для учнів зі США)"
       not_earned: "Вивчайте всі поняття програмування, зберіть всі %{num_trophies} трофеї та вигравайте справжні призи. Ви можете вибирати між подарунковими картками  iTunes на 10$, 10ГБ дискового простору на Dropbox , кредитами Skype на 10$ чи безкоштовними завантаженнями ігор. ПРИМІТКА: пропозиція дійсна лише для учнів зі США до закінчення призових запасів."
       teacher:
         earned: "10 чи більше ваших учнів зібрали усі %{num_trophies} трофеї. Ви виграли вчительський приз 750$! (лише вчителі зі США)"
-        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned_title: 'Навчайте цілий клас, щоб виграти до 1000$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> (лише для вчителів зі США)'
+        not_earned: 'Для винагороди вчителів-початківців, ви можете виграти до 1000$ кредитів <a href="http://DonorsChoose.org">DonorsChoose.org</a> за навчання групи учнів. Для того, щоб претендувати на виграш, вам потрібно провести заняття для принаймні 10 учнів по всьому вступному курсу інформатики, і всі 10 (або більше) учнів мають виконати всі завдання та отримати всі %{num_trophies} трофеїв. Якщо група учнів, які отримають всі трофеї складатиметься принаймні з 40% дівчат, ваша винагорода становитиме 1000$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Інакше, вона становитиме 750$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Кредити   <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> можуть використовуватись лише вчителями державних шкіл США.'
         bonus:
-          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          not_earned_title: 'Ви можете додатково виграти 250$ кредитів <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> (лише для вчителів зі США)'
+          earned: "7 чи більше ваших учнів, які зібрали усі %{num_trophies} трофеїв є дівчатами. Ви виграли бонусний приз 250$! (лише вчителі зі США)"
+          not_earned: 'Якщо група ваших учнів, які здобули всі %{num_trophies}  трофеїв, складається не менш як з 7 дівчат, ви можете отримати додаткові 250$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> . Кредити  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> можуть використовуватись лише вчителями державних шкіл США.'
   crud:
     new_model: "Нова %{model}"
     show: "Показати"
@@ -254,7 +254,7 @@
     tab: "Відео."
     notes: "Немає відео? Показати примітки."
     autoplay_option: "Автовідтворення відео"
-    download: "Download Video"
+    download: "Завантажити відео"
   compatability:
     working: "Ми працюємо над підтримкою для вашого браузера."
     upgrade: "Будь ласка обновіть браузер."

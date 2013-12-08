@@ -25,7 +25,7 @@
           Artist5: "Áfangi 19"
           Unplug11: "Áfangi 20"
         Hour of Code:
-          desc: "Klukkustunda kóðun"
+          desc: "Kóðun í klukkustund"
           Maze: "Áfangi 1"
         Edit Code:
           desc: "Breyta kóða"
@@ -35,17 +35,17 @@
         Unplug1: "Kynning á tölvunarfræði"
         Maze: "Völundarhúsið"
         Unplug2: "Tölvunarmiðuð hugsun"
-        Unplug3: "Forritun mynstra"
+        Unplug3: "Forritun rúðublaða"
         Artist: "Listamaðurinn"
         Unplug4: "Algrím"
         Artist2: "Listamaðurinn 2"
-        Unplug5: "Functions"
+        Unplug5: "Föll"
         Farmer: "Bóndinn"
         Unplug6: "Skilyrði"
         Artist3: "Listamaðurinn 3"
         Unplug7: "Lagasmíð"
         Farmer2: "Bóndinn 2"
-        Unplug8: "Finna kjarnann"
+        Unplug8: "Kjarni"
         Artist4: "Listamaðurinn 4"
         Unplug9: "Rásaforritun"
         Farmer3: "Bóndinn 3"
@@ -61,10 +61,10 @@
     concept:
       description:
         sequence: "Runa"
-        if: "ef kubbur"
+        if: "Ef kubbur"
         if_else: "Ef-annars kubbur"
         loop_times: "Endurtaka kubbur"
-        loop_until: "Endurtaka uns kubbur"
+        loop_until: "Endurtaka þar til kubbur"
         loop_while: "Meðan kubbur"
         loop_for: "Teljarakubbur"
         function: "Föll"
@@ -73,21 +73,21 @@
       instructions:
         maze_2_2: 'Getur þú hjálpað mér að ná óþæga svíninu? Raðaðu nokkrum "fara áfram" kubbum saman og ýttu svo á "Keyra forrit" til að hjálpa mér að komast þangað. '
         maze_2_1: "Þetta svín ýfir á mér fjaðrirnar. Hjálpaðu mér að finna það!"
-        maze_2_2_5: "Fylgdu slóðinni og leiddu mig að svínka. Forðastu TNT annars verður fjaðrafok!"
+        maze_2_2_5: "Fylgdu slóðinni og leiddu mig að svínka. Forðastu TNT sprengjuna annars verður fjaðrafok!"
         maze_2_3: "Leiddu mig að hinum illa græna grís! (Gættu þín á TNT sprengjunum)"
         maze_2_4: "Slappaðu af og hjálpaðu mér að finna vonda svínið. Annars gæti ég reiðst!"
-        maze_2_5: "Það er til leið svo ég komist að svíninu með því að nota bara 2 kubba. Geturðu fundið hana?"
+        maze_2_5: "Ég get komist að svíninu með því að nota bara 2 kubba. Geturðu fundið út úr því?"
         maze_2_6: "Reyndu að koma mér til grænu boðflennunnar með aðeins 3 kubbum."
         maze_2_7: 'Hjálpaðu mér að hrekja vonda grísinn í burtu með sem fæstum kubbum. Prófaðu að nota fleiri en einn "endurtaka" kubb.'
         maze_2_8: 'Reyndu að leysa þetta með "endurtaka" kubbi sem inniheldur þessa 3 kubba: færa, færa, snúa.'
-        maze_2_9: 'Prófaðu að nota nýja "endurtaka uns" kubbinn - hann endurtekur þangað til ég kemst til svínka.'
+        maze_2_9: 'Prófaðu að nota nýja "endurtaka þar til" kubbinn - hann endurtekur þar til ég kemst til svínka.'
         maze_2_10: "Bara ein æfing í viðbót  - geturðu leyst þetta með því að nota aðeins 4 kubba?"
         maze_2_11: "Kæra mannvera. Ég uppvakningur. Ég svangur. Verð..komast...að sólblóminu... Geturðu komið mér þangað með aðeins 5 kubbum?"
-        maze_2_12: "Jæja, þetta er svipað en aðeins öðruvísi. Geturðu leyst það með aðeins 5 kubbum?"
-        maze_2_13: 'Notaðu nýja "ef" kubbinn til að láta mig ákveða hvenær ég á að snúa. Vísbending: Þú þarft aðeins að nota einn kubb í viðbót, en taktu eftir hvernig við höfum stillt hann svo þú getir gert þetta upp á eigin spýtur næst.'
+        maze_2_12: "Jæja, þessi er svipuð en aðeins öðruvísi. Geturðu leyst hana með aðeins 5 kubbum?"
+        maze_2_13: 'Notaðu nýja "ef" kubbinn til að láta mig ákveða hvenær ég á að snúa. Vísbending: Þú þarft aðeins að nota einn kubb í viðbót, en taktu eftir hvernig við höfum útbúið hann svo þú getir gert þetta upp á eigin spýtur næst.'
         maze_2_14: 'Jæja, þetta er alveg eins og síðasta þraut, en þú þarft að muna hvernig þú notaðir "ef" og "endurtaka" kubbana saman.'
         maze_2_15: 'Ég vilja sólblóm! Notaðu "ef" kubb til að koma mér þangað með sem fæstum kubbum.'
-        maze_2_16: "Nú skulum við æfa þetta aftur - þessi þraut er ekki svo ólík, en gættu þín á kjötætunum!"
+        maze_2_16: "Nú skulum við æfa þetta aftur - þessi þraut er ekki svo ólík, en gættu þín á kjömsurunum!"
         maze_2_17: '"Ef-annars" kubburinn athugar skilyrði og gerir svo annaðhvort eitt eða eitthvað annað. Prófaðu að nota þennan nýja kubb til að koma mér til sólblómsins.'
         maze_2_18: 'Ein æfing í viðbót með "ef-annars" kubbinn. Geturðu leyst þrautina í fyrstu tilraun?'
         maze_2_19: "Getur þú bætt við bara 3 kubbum til að hjálpa mér að rata flóknari leið? Ef þú gerir það rétt, get ég gengið hvaða slóð sem er alveg sama hvað hún er löng."
@@ -172,7 +172,7 @@
         maze_3_1: "Ég verð að ná þessu svíni! Skrifaðu kóða sem kallar tvisvar á move(); svo ég geti fengið eggin mín til baka."
         maze_3_2: "Skrifaðu forrit fyrir mig svo ég nái alla leið til svínsins."
         maze_3_3: "Hvernig kemst ég til svínsins? Gættu þess að ég rekist ekki á TNT sprengiefnið!"
-        maze_3_4: "Argh! Skrifaðu forrit fyrir mig sem kemur mér í kringum TNT sprengiefnið og til svínsins."
+        maze_3_4: "Arrg! Skrifaðu forrit fyrir mig sem kemur mér í kringum TNT sprengiefnið og til svínsins."
       levelIncompleteError:
         maze_2_8: 'Til að leysa þarf að nota endurtekið hreyfingamynstur. Notaðu "endurtaka" kubb sem inniheldur þessa þrjá: færa, færa, snúa til hægri.'
       other1StarError:
@@ -185,12 +185,12 @@
         artist_intro: "Kynning á listamanni"
         farmer_intro: "Kynning á bónda"
         loop_times: "Endurtaka X kubbur"
-        loop_until: "Endurtaka uns kubbur"
+        loop_until: "Endurtaka þar til kubbur"
         if: "Ef kubbur"
         if_else: "Ef-annars kubbur"
         function: "Föll"
         loop_while: "Meðan kubbur"
         loop_for: "Teljarakubbur"
-        parameters: "Föllum með stikum"
-        hoc_wrapup: "Samantekt Kóðunar í klukkustund"
+        parameters: "Föll með stikum"
+        hoc_wrapup: "Samantekt á Kóðun í klukkustund"
         20_wrapup: "Samantekt 20 klukkustunda"

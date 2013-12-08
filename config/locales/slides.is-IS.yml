@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Velkomin/nn í þinn fyrsta tíma í forritun. Við skulum hefjumst handa."
+        text: "Velkomin(n) í þína fyrstu klukkustund af kóðun. Við skulum strax hefjast handa svo þú fáir að kynnast forritun í fyrsta skipti."
       2:
         image: "notes/hoc1_2.jpg"
         text: "Við munum nota Blockly, sjónrænt forritunartungumál þar sem þú býrð til forrit með því að raða saman kubbum."
@@ -30,13 +30,13 @@
         text: "Til hægri er vinnusvæðið, en þangað dregur þú kubba úr verkfærakistunni til að byggja forritið þitt. Ef þú þarft að eyða kubbi skaltu draga hann í fötuna í horninu."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Hver kubbur er ein skipun. Ef þú dregur "færa áfram" kubbinn yfir á vinnusvæðið og ýtir á "Keyra forrit", þá mun fuglinn færa sig um einn reit í völundarhúsinu.'
+        text: 'Hver kubbur er ein skipun. Ef þú dregur "fara áfram" kubbinn yfir á vinnusvæðið og ýtir á "Keyra forrit", þá mun fuglinn færa sig um einn reit í völundarhúsinu.'
       11:
         image: "notes/hoc1_11.jpg"
         text: "Til að láta forritið gera fleiri en eina aðgerð, þá þarf að draga fleiri kubba yfir á vinnusvæðið og láta þá smella saman. Fuglinn mun framkvæma skipanirnar frá þeirri efstu til þeirrar neðstu."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'Ef þú keyrir forrit og vilt síðan laga það og prófa aftur, ýttu þá á "Endurstilla" hnappinn.'
+        text: 'Ef þú keyrir forrit og vilt síðan laga það og prófa aftur, ýttu þá á "Byrja aftur" hnappinn.'
       13:
         image: "notes/hoc1_13.jpg"
         text: "Nú skulum við fara og ná þessum svínum!"
@@ -46,33 +46,33 @@
         text: "Hæ, ég heiti JR! Öll kappakstursbílalið þurf tölvunarfræðinga til að sigra. Þeir greina gögnin sem koma frá bílnum til að láta hann fara hraðar."
       2:
         image: "notes/stage5_2.jpg"
-        text: "Í þessari þraut verður þú listamaðurinn sem teiknar línu bakvið þá hvert sem þeir fara."
+        text: "Í þessum þrautum ert þú listamaður sem teiknar línu hvert sem hann fer."
       3:
         image: "notes/stage5_3.jpg"
-        text: "Þessi kubbur segir „farðu 100 pixla áfram.“ Pixlar eru í raun litlir punktar á skjánum þínum."
+        text: 'Þessi kubbur segir "farðu áfram um 100 pixla“. Pixlar eru í raun litlir punktar á skjánum þínum.'
       4:
         image: "notes/stage5_4.jpg"
         text: 'Þessi kubbur segir "snúa til hægri um 90 gráður". Þetta mun snúa listamanninum jafnmikið og "snúa" kubbarnir gera í þrautunum með völundarhúsin.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Smelltu á örina í einhverju þessara kubba til að breyta hversu langt áfram eða afturábak listamaðurinn beygir. Prófaðu þig áfram til að venjast þessum nýju kubbum."
+        text: "Smelltu á örina í öðrum hvorum þessara kubba til að breyta því hve mikið listamaðurinn fer áfram eða beygir. Prófaðu þig áfram til að venjast þessum nýju kubbum."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hæ, ég heiti Pála! Í þessum þrautum ert þú bóndi sem þarf að ná túninu sínu alveg flötu til að geta sáð fræjum."
+        text: "Hæ, ég heiti Paola! Í þessum þrautum ert þú bóndakona sem þarf að ná túninu sínu alveg sléttu til að geta byrjað að rækta."
       2:
         image: "notes/stage9_2.jpg"
         text: "Þú verður að hjálpa henni að fjárlægja alla moldarhaugana og fylla upp í allar holurnar."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Nýju kubbarnir fjarlægja 1 skóflufylli af mold úr haug og fyllir holu með 1 skóflufylli af mold."
+        text: "Nýju kubbarnir fjarlægja 1 skóflufylli af mold úr haug og fylla holu með 1 skóflufylli af mold."
       4:
         image: "notes/stage9_4.jpg"
         text: "Haugarnir og holurnar eru í mismunandi stærðum svo þú verður að segja bóndanum hversu mörg skóflufylli skal nota."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hi, ég heiti Mark! Nú skulum við læra um lykkjur (e. loops). Með því að nota lykkjur þá getur þú sagt tölvunni að endurtaka hvaða sett af skipunum sem er aftur og aftur, þúsund eða jafnvel billjón sinnum."
+        text: "Hæ, ég er Mark! Nú skulum við læra um lykkjur. Með því að nota lykkjur getur þú sagt tölvunni að endurtaka röð af aðgerðum aftur og aftur, fleiri þúsund eða jafnvel miljarð sinnum."
       2:
         image: "notes/hoc2_2.jpg"
         text: "Í þessari þraut viljum við láta fuglinn færa sig áfram um 5 svæði til að ná svíninu."
@@ -81,7 +81,7 @@
         text: 'Við getum notað nýja "endurtaka" kubbinn til að hjálpa okkur.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Í staðinn fyrir að draga 5 "fara áfram" kubba notum við endurtekningu.'
+        text: 'Í staðinn fyrir að draga út 5 "fara áfram" kubba notum við endurtekningu.'
       5:
         image: "notes/hoc2_5.jpg"
         text: 'Við getum sett "fara áfram" kubbinn í "endurtaka" kubbinn og skrifað tölu í kubbinn sem segir honum hve oft hann á að endurtaka sig.'
@@ -94,16 +94,16 @@
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: 'Hæ, ég heiti Chris. Áður en ég fór að spila með Miami Heat, þá fór ég í Georgia Tech til að læra tölvunarfræði. Prófum nýja kubbinn okkar, "endurtaka uns" kubbinn.'
+        text: 'Hæ, ég heiti Chris. Áður en ég fór að spila með Miami Heat, þá fór ég í Georgia Tech til að læra tölvunarfræði. Prófum nýja kubbinn okkar, "endurtaka þar til" kubbinn.'
       2:
         image: "notes/hoc3_2.jpg"
         text: "Hvað ef við vissum ekki hversu langt fuglinn ætti að færa sig til að ná svíninu?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'Ef við setjum "færa áfram" kubbinn inn í "endurtaka uns" kubbinn, þá mun fuglinn færa sig áfram UNS hann nær svíninu (eða rekst á vegg).'
+        text: 'Ef við setjum "fara áfram" kubbinn inn í "endurtaka þar til" kubbinn, þá mun fuglinn færa sig áfram ÞAR TIL hann nær svíninu (eða rekst á vegg).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'Og þetta er mikilvægt: alveg eins og áður, þá getum við sett marga kubba inn í "endurtaka uns" kubbinn og þeir verða allir endurteknir.'
+        text: 'Og þetta er mikilvægt: alveg eins og áður, þá getum við sett marga kubba inn í "endurtaka þar til" kubbinn og þeir verða allir endurteknir.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
@@ -119,7 +119,7 @@
         text: 'Við skrifum kóða fyrir þetta með því að draga fram "Ef" kubbinn og setja "snúa til vinstri" kubbinn inn í hann.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: 'Ef við setjum nú "færa áfram" kubb fyrir ofan og "endurtaka" kubb utan um allt, þá mun uppvakningurinn endurtekið færa sig áfram, kanna hvort það sé slóð til vinstri og snúa til vinstri ef svo er. "Endurtaka" skipunin er nauðsynleg til að kanna í hverju skrefi hvort eigi að snúa.'
+        text: 'Ef við setjum nú "fara áfram" kubb fyrir ofan og "endurtaka" kubb utan um allt, þá mun uppvakningurinn endurtekið færa sig áfram, kanna hvort það sé slóð til vinstri og snúa til vinstri ef svo er. "Endurtaka" skipunin er nauðsynleg til að kanna í hverju skrefi hvort eigi að snúa.'
       6:
         image: "notes/hoc4_6.jpg"
         text: "Ef setningar eru ótrúlega mikilvægar í tölvunarfræði. Eitt af fyrstu forritunum sem ég skrifaði var leikurinn mylla og þar var Ef setning sem sagði Ef andstæðingurinn er að fara að vinna, þá skal loka reitnum sem lætur hann vinna."
@@ -129,20 +129,20 @@
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: 'Hæ, ég heiti Saloni. Ég nota tölvunarfræði til að við að leysa vandamál í heilsu- og lyfjageiranum. Nú ætlum við að læra um "ef-annars" kubbinn. Hann lítur út eins og "ef" kubburinn, en hefur auka hluta sem segir "annars".'
+        text: 'Hæ, ég heiti Saloni. Ég nota tölvunarfræði til að leysa vandamál í heilsu- og lyfjageiranum. Nú ætlum við að læra um "ef-annars" kubbinn. Hann lítur út eins og "ef" kubburinn, en hefur viðbót sem segir "annars".'
       2:
         image: "notes/hoc5_2.jpg"
-        text: 'Ef ég set "færa áfram" einingu í svæðið sem segir "framkvæma" (e. do) og "snúa til vinstri" einingu þar sem segir "annars" (e. else) þá þýðir það að uppvakningurinn mun velja milli tveggja valmöguleika. Ef það er leið beint framundan, þá mun uppvakningurinn fara áfram, ANNARS (það er ekki leið framundan) mun hann snúa sér til vinstri.'
+        text: 'Ef ég set "fara áfram" kubb á staðinn sem segir "gera" og "snúa til vinstri" kubb þar sem segir "annars" þá þýðir það að uppvakningurinn mun velja milli tveggja valmöguleika. Ef það er leið beint framundan, þá mun uppvakningurinn fara áfram, ANNARS (það er ekki leið framundan) mun hann snúa sér til vinstri.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: 'Alveg eins og með "ef" kubbinn, getum við sett "ef annars" kubb inn í "endurtaka" kubb þannig að uppvakningurinn haldi áfram að hreyfast og "ef-annars" kubburinn að kanna "ef" það er beygja.'
+        text: 'Alveg eins og með "ef" kubbinn, getum við sett "ef-annars" kubb inn í "endurtaka" kubb þannig að uppvakningurinn haldi áfram að hreyfast og "ef-annars" kubburinn að kanna "ef" það er beygja.'
       4:
         image: "notes/hoc5_4.jpg"
         text: "Komdu nú þessum uppvakningum þangað sem þeir eiga heima!"
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hæ, ég heiti Brina og er verkfræðingur hjá Instagram. Föll eru ákveðnar línur af kóða sem þú notar aftur og aftur, þannig að í staðinn fyrir að skrifa kóða í hvert skipti geturðu bara notað einn kubb."
+        text: "Hæ, ég heiti Brina og er verkfræðingur hjá Instagram. Föll eru ákveðnar línur af kóða sem þú vilt nota aftur og aftur, þannig að í staðinn fyrir að skrifa þann kóða í hvert skipti geturðu bara notað einn kubb."
       2:
         image: "notes/stage13_2.jpg"
         text: "Við ætlum að læra hvernig við skilgreinum föll. Skilgreiningar falla eru með stjörnu í horninu. Nafn fallsins er skrifað á efstu línuna."
@@ -151,7 +151,7 @@
         text: 'Kubbarnir sem fara í skilgreininguna segja okkur hvað hún gerir. Þessi skilgreining á falli er því kölluð "fylla 5" og hún er sett saman úr "endurtaka" kubbi og "fylla" kubbi".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Skilgreiningin liggur á vinnusvæðinu, en bóndinn keyrir ekki fallið fyrr en við drögum út kubbinn fyrir "fylla 5" fallið sem er í flokknum föll.'
+        text: 'Skilgreiningin liggur á vinnusvæðinu, en bóndinn keyrir ekki fallið fyrr en við drögum út kubbinn fyrir "fylla 5" fallið sem er í flokknum Föll.'
       5:
         image: "notes/stage13_5.jpg"
         text: "Skemmtum okkur ÖLL við að smíða FÖLL! "

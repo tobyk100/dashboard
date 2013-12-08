@@ -59,13 +59,13 @@
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Ahoj, já jsem Paola! V těchto hádankách jste farmářka, která chce uhladit své pole, aby na něm mohla začít pěstovat rostliny."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Musíte jí pomoci odstranit všechny hromádky špíny a vyplnit díry."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Nový blok odstraní 1 lopatu špíny z hromady a vyplní 1 lopatou díry."
       4:
         image: "notes/stage9_4.jpg"
         text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."

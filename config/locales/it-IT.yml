@@ -32,7 +32,7 @@
   demos: "Amminstratore: Tutte le dimostrazioni"
   continue: "Prosegui"
   prize: "Premio"
-  more_info: "More info"
+  more_info: "Più informazioni"
   auth:
     sign_in_with: "Accedi usando %{provider}"
     signed_in: "Sei entrato!"
@@ -46,18 +46,18 @@
     need_confirmation: "Non ha ricevuto istruzioni di conferma?"
     need_unlock: "Non hai ricevuto istruzioni di sblocco?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
-    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    overview: "Questo corso di 20 ore introduce l'informatica di base e concetti di programmazione. Il corso è progettato per uso nelle aule per i gradi K-8, ma è divertente per imparare a tutte le età."
+    no_signup_header: "Non vuoi iscriverti?"
+    no_signup_message: 'È possibile <a target="_blank" href="http://learn.code.org">sfogliare le varie fasi e puzzle</a>, ma sarà necessario iscriversi per salvare i vostri progressi.'
+    prizes_header: "I primi studenti che completano il corso vincono premi! (Solo per gli studenti degli Stati Uniti)"
+    prizes_message: "Studenti degli Stati Uniti che guadagnano tutti %{num_trophies} trofei concetto possono selezionare una varietà di premi tra cui carte regalo iTunes, spazio di archiviazione gratuito Dropbox e credito Skype, e giochi scaricabili da Electronic Arts e Valve."
+    teacher_educator_guide: "Vedere la guida educatore"
+    teacher_prize_header: 'Vincere $1.000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>premi'
+    teacher_prize_message: 'In collaborazione con <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org offrirà fino a $1.000 finanziamenti ad aula per insegnanti statunitensi che portano almeno 10 studenti attraverso questo corso.'
+    teacher_pitch: "Insegnare l'Intro di K-8 all'informatica nella tua classe"
+    teacher_title: "Iscrizione Insegnante"
+    student_pitch: "Oltre 1 ora: provare il nostro K-8 introduzione all'informatica"
+    student_title: "Iscriviti"
     school_name: "Nome della scuola (facoltativo)"
     school_address: "Indirizzo della scuola (facoltativo)"
     address_placeholder: "Indirizzo, città, stato, CAP"
@@ -71,8 +71,8 @@
     valid_password: "Password valida!"
     invalid_password: "La password deve essere lunga almeno 6 caratteri"
     mismatch_password: "Le due password che hai inserito non corrispondono"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "Accetto di essere vincolato dai termini di servizio Code.org. Se sono di età inferiore a 13 anni, confermo inviando questo modulo che ho il permesso dei miei genitori o del tutore legale ad utilizzare i servizi di Code.org."
+    teacher_terms: "Accetto di essere vincolato dai termini di servizio Code.org."
   signin_form:
     title: "Accedi"
     login: "E-mail o nome utente"
@@ -102,7 +102,7 @@
   follower:
     invite_sent: "Invito inviato"
     added_teacher: "%{name} aggiunto come vostro insegnante"
-    registered: "You've registered for %{section_name}."
+    registered: "Sei registrato per %{section_name}."
     error:
       signed_in: "Per favore esci prima di procedere"
       username_not_found: "Username %{username} non trovato"
@@ -118,36 +118,36 @@
     title: "Redimere Premi: %{name}"
     provider: "Fornitore:"
     code: "Codice:"
-    redeem_header: "To redeem:"
+    redeem_header: "Per redimere:"
     success: "Il premio è stato succesfully redento, vedere il codice riportato di seguito."
     error: "Il premio non poteva essere redento, riprovare."
-    error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_us_only: "L'offerta del premio vale solo per gli utenti degli Stati Uniti."
+    no_prizes_available: "Siamo spiacenti, ma non abbiamo attualmente nessun premi disponibili."
     confirm:
       title: "Si prega di confermare"
       "no": No
       "yes": Sì
       msg: "Sei sicuro di voler reclamare il premio %{prize_name}?"
       msg_student: "Nota: Puoi solo scegliere un tipo di premio."
-      msg_visit_website: "Visit website"
+      msg_visit_website: "Visita il sito"
     providers:
-      apple_itunes: "$10 iTunes Gift Card"
-      donors_choose: "DonorsChoose.org $750 credit"
-      donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
-      valve: "Portal 2 (PC or Mac game download)"
-      ea_bejeweled: "Bejeweled 3 (PC game download)"
-      ea_fifa: "FIFA Soccer 13 (PC game download)"
-      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
-      ea_pvz: "Plants vs. Zombies (PC game download)"
-      skype: "$10 Skype credit"
+      apple_itunes: "$10 Carta Regalo iTunes"
+      donors_choose: "Credito DonorsChoose.org $750"
+      donors_choose_bonus: "Credito DonorsChoose.org $250"
+      dropbox: "10GB di Storage Dropbox"
+      valve: "Portal 2 (scarica gioco PC o Mac)"
+      ea_bejeweled: "Bejeweled 3 (scarica gioco PC)"
+      ea_fifa: "FIFA Soccer 13 (scarica gioco PC)"
+      ea_simcity: "SimCity 4 Deluxe Edition (scarica gioco PC)"
+      ea_pvz: "Plants vs, Zombies (scarica gioco PC)"
+      skype: "Credito Skype $10"
     student_finished: "Hai completato tutti i tutorial. Dopo che hai richiesto il tuo premio, scegliere un'altra classe %{online_link} o ad una %{local_school_link}"
     msg:
       choose: "Scegli un premio:"
-      choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
-      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      choose_teacher: "Clicca sul logo qui sotto per richiedere il premio:"
+      earned: "Hai guadagnato un premio! (Solo per gli studenti degli Stati Uniti)"
+      not_earned_title: "Terminare il tutorial, e guadagna premi (solo per gli studenti degli Stati Uniti)"
+      not_earned: "Impara tutti i concetti dell'informatica, raccogliere tutti %{num_trophies} trofei e guadagnare premi reali. È possibile scegliere tra una carta regalo iTunes di $10, 10GB di spazio di archiviazione gratuito Dropbox, 10 dollari in crediti Skype, e giochi liberi da scaricare. Nota: offerta valida solo per gli studenti degli Stati Uniti e solo fino ad esaurimento merce."
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'

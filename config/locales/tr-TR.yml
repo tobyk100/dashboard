@@ -47,11 +47,11 @@
     need_unlock: "Kilit açma talimatlarını almadınız mı?"
   signup_form:
     overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
+    no_signup_header: "Kaydolmak istemiyor musun?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
+    teacher_educator_guide: "Eğitim rehberine bakın"
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
     teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "Bilgisayar Bilimine Giriş K-8'i sınıfında öğret"
@@ -252,7 +252,7 @@
     tab: "Video."
     notes: "Video yok? Notları göster."
     autoplay_option: "Otomatik oynayan video"
-    download: "Download Video"
+    download: "Videoyu indir"
   compatability:
     working: "Tarayıcı desteği üzerinde çalışıyoruz."
     upgrade: "Lütfen tarayıcınızı yükseltin."

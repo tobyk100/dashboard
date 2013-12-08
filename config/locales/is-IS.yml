@@ -12,21 +12,21 @@
         gender: "Kyn"
         edit_header: "Breyta upplýsingum reiknings"
   hello: "Halló heimur"
-  welcome_back: "Velkomin/-n aftur, %{name}"
+  welcome_back: "Velkomin(n) aftur, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Bæta við kennara eftir kóða eða netfangi:"
       placeholder: "Kóði (ABCDEF) eða netfang (kennari@skoli.is)"
     submit: "Bæta við kennara"
   appname: "Code.org"
-  stage: "Borð"
+  stage: "Áfangi"
   puzzle: "Þraut"
   trophies: "Viðurkenningar"
   courses: "Námskeið"
   of: "af"
   more: "MEIRA"
   less: "MINNA"
-  try_hoc: "Prófaðu Klukkustund kóðunar, ýttu hér >> "
+  try_hoc: "Prófaðu Kóðun í klukkustund, smelltu hér >> "
   try_k8intro: "Eða prófaðu námskeiðið K-8 Intro to Computer Science (15-25 klst.)"
   already_started: "Ekki að byrja núna? Taktu upp þráðinn hér >> "
   demos: "Umsjón: Öll sýnidæmi"
@@ -35,26 +35,26 @@
   more_info: "Nánar"
   auth:
     sign_in_with: "Innskrá með %{provider}"
-    signed_in: "Skráðu/-ur inn!"
-    already_signedup: "Búin/-n að skrá þig?"
+    signed_in: "Skráð(ur) inn!"
+    already_signedup: "Búin(n) að skrá þig?"
     notyet_signedup: "Ekki skráð þig enn?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
     forgot_password: "Gleymdir þú lykilorðinu þínu ?"
-    need_confirmation: "Fékstu ekki sendar staðfestingar leiðbeiningar?"
+    need_confirmation: "Fékkstu ekki sendar leiðbeiningar um staðfestingu?"
     need_unlock: "Fékkstu ekki leiðbeiningar um opnun?"
   signup_form:
     overview: "Þetta 20 klst. námskeið kynnir grundvallarhugtök í tölvunarfræði og forritun. Námskeiðið er hannað fyrir notkun í skólastofu með aldurshópi K-8, en er skemmtilegt fyrir alla aldurshópa."
     no_signup_header: "Viltu ekki skrá þig?"
     no_signup_message: 'Þú getur <a target="_blank" href="http://learn.code.org">skoðað hina ýmsu áfanga og þrautir</a>, en þú verður að skrá þig til að geta vistað árangur þinn.'
-    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_header: "Fyrstu nemendurnir til að ljúka námskeiðinu vinna til verðlauna! (aðeins bandarískir nemendur)"
+    prizes_message: "Bandarískir nemendur sem vinna alla %{num_trophies} bikarana geta valið úr ýmsum verðlaunum, þar á meðal iTunes gjafakort, ókeypis geymslupláss hjá Dropbox, inneignir hjá Skype og leikjaniðurhal hjá Electronic Arts og Valve."
     teacher_educator_guide: "Sjá leiðarvísi kennara"
     teacher_prize_header: 'Verðlaun upp á $1000 í boði hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
     teacher_prize_message: 'Í samvinnu við <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, mun Code.org bjóða allt að $1.000 til skóla þeirra kennara í Bandaríkjunum sem leiða a.m.k. 10 nemendur gegnum þetta námskeið.'
-    teacher_pitch: "Kenndu nemendum þínum K-8 Intro to Computer Science"
+    teacher_pitch: "Kenndu K-8 Intro to Computer Science í skólastofunni þinni"
     teacher_title: "Innskráning kennara"
     student_pitch: "Að lokinni 1 klst: prófaðu K-8 Intro to Computer Science"
     student_title: "Skrá sig"
@@ -118,44 +118,44 @@
     title: "Innleysa verðlaun: %{name}"
     provider: "Veitandi:"
     code: "Kóði:"
-    redeem_header: "To redeem:"
+    redeem_header: "Til að innleysa:"
     success: "Verðlaunin voru innleyst, sjá kóða fyrir neðan."
     error: "Ekki tókst að innleysa verðlaunin, vinsamlegast reyndu aftur."
     error_us_only: "Boðið um verðlaun gildir aðeins fyrir notendur í Bandaríkjunum."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "Því miður en sem stendur eru engin verðlaun til."
     confirm:
       title: "Vinsamlegast staðfestu"
       "no": Nei
       "yes": Já
       msg: "Ertu viss um að þú viljir gera kröfu um verðlaunin %{prize_name}?"
       msg_student: "ATHUGAÐU: Þú getur aðeins valið eina tegund verðlauna."
-      msg_visit_website: "Visit website"
+      msg_visit_website: "Heimsækja heimasíðu"
     providers:
-      apple_itunes: "$10 iTunes Gift Card"
-      donors_choose: "DonorsChoose.org $750 credit"
-      donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
-      valve: "Portal 2 (PC or Mac game download)"
-      ea_bejeweled: "Bejeweled 3 (PC game download)"
-      ea_fifa: "FIFA Soccer 13 (PC game download)"
-      ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
-      ea_pvz: "Plants vs. Zombies (PC game download)"
-      skype: "$10 Skype credit"
+      apple_itunes: "$10 iTunes gjafakort"
+      donors_choose: "$750 inneign hjá DonorsChoose.org"
+      donors_choose_bonus: "$250 inneign hjá DonorsChoose.org"
+      dropbox: "10GB af Dropbox geymslurými"
+      valve: "Portal 2 (PC eða Mac leikjaniðurhal)"
+      ea_bejeweled: "Bejeweled 3 (PC leikjaniðurhal)"
+      ea_fifa: "FIFA Soccer 13 (PC leikjaniðurhal)"
+      ea_simcity: "SimCity 4 Deluxe Edition (PC leikjaniðurhal)"
+      ea_pvz: "Plants vs. Zombies (PC leikjaniðurhal)"
+      skype: "$10 inneign hjá Skype"
     student_finished: "Þú hefur lokið öllu kennsluefninu. Eftir að þú hefur innheimt verðlaun þín, getur þú valið að læra meira á netinu: %{online_link} eða í skóla: %{local_school_link}"
     msg:
       choose: "Veldu verðlaun:"
-      choose_teacher: "Click on the logo below to claim your prize:"
+      choose_teacher: "Smelltu á merkið fyrir neðan til að kalla eftir verðlaunum þínum:"
       earned: "Þú hefur unnið til verðlauna! (Aðeins bandarískir nemendur)"
-      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned_title: "Ljúktu við kennsluefnið og fáðu verðlaun (aðeins nemendur í Bandaríkjunum)"
       not_earned: "Lærðu öll hugtökin í tölvunarfræði, safnaðu öllum %{num_trophies} bikurunum og þú getur unnið raunveruleg verðlaun. Þú getur valið um $10 iTunes gjafakort, 10GB af Dropbox geymsluplássi, $10 í inneign hjá Skype og ókeypis niðurhal leikja. ATHUGAÐU: þetta boð gildir aðeins fyrir bandaríska nemendur og aðeins á meðan birgðir endast."
       teacher:
         earned: "10 eða fleiri nemendur söfnuðu öllum %{num_trophies} bikurunum. Þú hefur unnið til $750 kennaraverðlauna! (Aðeins bandarískir kennarar)"
-        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned_title: 'Kenndu bekknum og fáðu allt að $1,000 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> (aðeins kennarar í Bandaríkjunum)'
+        not_earned: 'Til að verðlauna kennara sem eru að byrja að kenna tölvunarfræði, er hægt að vinna allt að $1,000 í inneignum hjá <a href="http://DonorsChoose.org">DonorsChoose.org</a> fyrir að leiða bekk í gegnum K-8 inngangsnámskeiðið. Til að vera gjaldgeng(ur) þarft þú að leiða bekk a.m.k. 15 nemenda í gegnum allt K-8 námskeiðið og allir 15 (eða fleiri) nemendurnir þurfa að klára allt kennsluefnið og vinna alla %{num_trophies} bikarana. Ef 7 eða fleiri af þeim nemendum sem vinna alla bikarana eru stúlkur, eru verðlaunin $1,000 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Annars eru verðlaunin $750 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Aðeins kennarar í opinberum skólum í Bandaríkjunum geta nýtt sér inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>.'
         bonus:
-          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          not_earned_title: 'Þú getur unnið $250 inneign til viðbótar hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> (aðeins kennarar í Bandaríkjunum)'
+          earned: "7 eða fleiri af þeim nemendum sem söfnuðu öllum %{num_trophies} bikurunum er stúlkur. Þú hefur unnið $250 aukaverðlaun! (aðeins bandarískir kennarar)"
+          not_earned: 'Ef a.m.k. 7 af þeim nemendum þínum sem vinna alla %{num_trophies} bikarana eru stúlkur þá færð þú aukalega $250 inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Aðeins kennarar í opinberum skólum í Bandaríkjunum geta nýtt sér inneign hjá <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>.'
   crud:
     new_model: "Nýtt %{model}"
     show: "Sýna"
@@ -169,7 +169,7 @@
     updated: "Tókst að uppfæra %{model}."
   nav:
     header:
-      finished_hoc: "Ég hef lokið við mína Klukkustund kóðunar"
+      finished_hoc: "Ég hef lokið við mína Kóðun í klukkustund"
       sign_in_to_save: "Skráðu þig inn til að vista framvinduna"
     user:
       classroom: "Mínir nemendur"
@@ -181,11 +181,11 @@
       signin: "Skrá inn"
       signup: "Skráning"
     popup:
-      progress: "Árangur þinn"
+      progress: "Framvinda þín"
       lines: "Samtals línur af kóða: %{lines}"
       close: "LOKA"
       mastery: "Hugtök"
-      puzzle_map: "Stig"
+      puzzle_map: "Áfangar"
       prizes: "Safnaðu öllum %{total_trophies} bikurunum og fáðu verðlaun!"
       prize_earned: "Öllum %{total_trophies} bikurunum safnað. Verðlaun unnin!"
       prize_us_only: "(aðeins bandarískir nemendur)"
@@ -234,7 +234,7 @@
     female: "Kvenkyns"
     none: "Kýs að svara ekki"
   footer:
-    help_from_html: 'Verkfræðingar frá <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, og <a href="http://www.twitter.com">Twitter</a> aðstoðuðu við gerð þessara leiðbeininga.'
+    help_from_html: 'Verkfræðingar frá <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, og <a href="http://www.twitter.com">Twitter</a> aðstoðuðu við gerð þessa kennsluefnis.'
     art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Öll réttindi áskilin.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Öll réttindi áskilin.'
     feedback: "Gefðu endurgjöf"
     translate: "Hjálpaðu okkur að þýða yfir á þitt tungumál"
@@ -254,7 +254,7 @@
     tab: "Myndbönd."
     notes: "Ekkert myndband? Sýna útskýringar."
     autoplay_option: "Spila myndbönd sjálfvirkt"
-    download: "Download Video"
+    download: "Hala niður myndband"
   compatability:
     working: "Við erum að vinna í stuðningi við vafrann sem þú notar."
     upgrade: "Vinsamlegast uppfærðu vafrann þinn."

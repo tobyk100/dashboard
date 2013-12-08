@@ -143,58 +143,56 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Γεια σου, είμαι η Brina, μηχανικός στο Instagram. Μια συνάρτηση είναι ορισμένες γραμμές κώδικα που θέλετε να χρησιμοποιήσετε ξανά και ξανά, έτσι αντί να γράφετε αυτόν τον κώδικα κάθε φορά, μπορείτε απλά να χρησιμοποιήσετε ένα μπλοκ."
+        text: "Γεια σου, είμαι η Μπρίνα, μηχανικός στο Instagram. Μια συνάρτηση είναι ορισμένες γραμμές κώδικα που θέλετε να χρησιμοποιήσετε ξανά και ξανά, έτσι αντί να γράφετε αυτόν τον κώδικα κάθε φορά, μπορείτε απλά να χρησιμοποιήσετε ένα μπλοκ."
       2:
         image: "notes/stage13_2.jpg"
         text: "Πρόκειται να μάθουμε πώς να ορίζουμε συναρτήσεις. Οι ορισμοί των συναρτήσεων έχουν ένα αστέρι στη γωνία. Το όνομα της συνάρτησης γράφετε ψηλά στην πρώτη γραμμή."
       3:
         image: "notes/stage13_3.jpg"
-        text: 'Τα μπλοκ που πάνε μέσα στον ορισμό μας λένε τι κάνει. Έτσι ο ορισμός της συνάρτησης λέγεται «γέμισε 5» και αποτελείται από ένα μπλοκ "επανάλαβε" και ένα μπλοκ "γέμισε".'
+        text: 'Τα μπλοκ που πάνε μέσα στον ορισμό μας λένε τι κάνει. Έτσι το όνομα αυτής της συνάρτησης που ορίζουμε είναι «γέμισε 5» και αποτελείται από ένα μπλοκ "επανάλαβε" και ένα μπλοκ "γέμισε".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Ο ορισμός βρίσκεται στο χώρο εργασίας, αλλά ο γεωργός μας δεν θα εκτελέσει τη συνάρτηση μέχρι να σύρουμε έξω το μπλοκ της συνάρτησης "γέμισε 5" από την κατηγορία συναρτήσεις.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: 'Ας βάλουμε τη "διασκέδαση" πίσω στη "ΣΥΝάρτηση!" '
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Γεια σου, είμαι ο Μακέντ! Ας μάθουμε για το "όσο μπλοκ." '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: |-
+          Το μπλοκ "όσο"  θα κάνει ότι βάλετε μέσα σ ' αυτό, ΤΟΣΕΣ ΦΟΡΕΣ ΟΣΟ η εντολή στην κορυφή είναι ΑΛΗΘΗΣ.
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "Για παράδειγμα, εάν ο γεωργός στέκεται σε έναν σωρό, αυτή θα συνεχίσει να αφαιρεί 1 φτυαριά, ΌΣΟ υπάρχει ακόμα σωρός κάτω από αυτήν."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Γεια σου, είμαι η Τριν, και δουλεύω για την Pixar. Έχω εργαστεί για πολλές ταινίες, συμπεριλαμβανομένου του Σρεκ."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Αυτός είναι ο νέος βρόχος "μετρητής". Θα εκτελεί ενέργειες ξανά και ξανά και μπορείτε να κάνετε τις ενέργειες αυτές να αλλάζουν ελαφρώς κάθε φορά.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'Σε αυτό το παράδειγμα, ο βρόχος "μετρητής" λέει "μέτρησε με μετρητή από 50 μέχρι 90 με βήμα 10" και μέσα σε αυτόν, έχουμε το μπλοκ "σχεδίασε ένα τετράγωνο". Σύρετε το μπλοκ "μετρητής" από την ενότητα "Μεταβλητές" στη θέση "μήκος".'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Αυτό σημαίνει ότι ο καλλιτέχνης πρόκειται να σχεδιάσει ένα τετράγωνο που έχει πλευρές μήκους 50 εικονοστοιχείων, μετά θα αυξήσει κατά 10 το μέγεθος και θα σχεδιάσει ένα τετράγωνο με μήκος πλευρών 60 εικονοστοιχεία. Έπειτα θα συνεχίσει να αυξάνει κατά 10 και να σχεδιάζει τετράγωνα μέχρι να φτάσει το 90. Έτσι θα έχουμε τετράγωνα των 50, 60, 70, 80 και 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Γεια σου, είμαι η Τζανέτ, και είμαι ένας μηχανικός στη Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Και αν θέλουμε να σχεδιάσουμε πολλά τρίγωνα που οι πλευρές τους να έχουν διαφορετικά μεγέθη;"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Θα μπορούσαμε να γράψουμε όλο αυτό τον κώδικα με το χέρι ή μπορούμε να χρησιμοποιήσουμε μια συνάρτηση με παραμέτρους."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Για να το κάνετε αυτό, κάντε κλικ στο μπλε αστέρι στον ορισμό της συνάρτησης «σχεδίασε ένα τρίγωνο». Στη συνέχεια, σύρετε το "εισάγετε όνομα" μέσα στο μπλοκ "εισαγωγή".'
       5:
         image: "notes/stage15_5.jpg"
         text: 'Στη συνέχεια, αν γράψετε "μήκος" στο σημείο όπου λέει "x" και πατήσετε "Enter" θα δημιουργήσετε ένα μήκος εισόδου για τη συνάρτησή σας.'

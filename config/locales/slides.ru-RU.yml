@@ -43,13 +43,13 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Привет, меня зовут JR! Каждой гоночной команде для победы нужен компьютерный специалист. Они анализируют информацию от машин с целью сделать их более быстрыми."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "В этой головоломке ты станешь художником, который рисует линию позади них, куда бы они не направлялись."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'В этом блоке написано "двигаться вперед на 100 пикселей". Пиксели - это маленькие точки разных цветов, из которых состоит изображение на твоем мониторе.'
       4:
         image: "notes/stage5_4.jpg"
         text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
@@ -59,16 +59,16 @@
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Привет, я Паола! В этой головоломке ты станешь фермером, который должен выровнять свое поле, чтобы начать сажать свои растения."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Ты должен помочь ей раскидать все кучи грунта и закопать все ямы."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Новый блок, раскидывающий одну единицу грунта с кучи и закапывающий одну единицу грунта в яму."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Ямы и кучи имеют различные размеры, так что тебе стоит указать фермеру сколько раз надо будет махать лопатой."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -94,55 +94,49 @@
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Привет, я Крис. Прежде, чем я приехал в Майами, я изучал компьютерную науку. Давайте опробуем наш новый блок под названием "повторять пока".'
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Что если мы не знаем какое расстояние преодолела птица чтобы добраться до хрюшки?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'Если мы поместим блок "двигаться вперед" внутрь блока "повторять пока", птица будет двигаться вперед ПОКА она не достигнет хрюшки (или пока не врежется в препятствие).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Вот что важно: как и раньше, мы можем помещать различное количество блоков внутрь блока "повторять пока", и они все будут повторены.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
         text: "Привет! Меня зовут Билл! Давайте узнаем новое фундаментальное понятие: команду «Если». Эта команда управляет тем, как компьютер принимает решения."
       2:
         image: "notes/hoc4_2.jpg"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Мы используем понятие "ЕСЛИ" постоянно. Прежде чем ты выходишь на улицу каждое утро, ты действуешь по принципу: "ЕСЛИ на улице дождь, то мне следует надеть свою куртку".'
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Мы можем сделать так, чтобы зомби проверял, есть ли путь налево, и ЕСЛИ он найдет путь налево, то мы можем повернуть его туда."
       4:
         image: "notes/hoc4_4.jpg"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Чтобы написать код для этого случая понадобится перетащить блок "повернуть налево" внутрь блока "если".'
       5:
         image: "notes/hoc4_5.jpg"
         text: |-
           Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: 'Понятие "если" очень важное в компьютерной сфере. Одной из первых написанных мною программ была игра "крестики-нолики", и она была построена на принципе "если", который блокировал нужную сопернику для победы ячейку, ЕСЛИ противник был близок к победе.'
       7:
         image: "notes/hoc4_7.jpg"
         text: "Просто используйте блок «Если»!"
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Привет, меня зовут Салони. Я использую компьютерную науку для решения проблем здоровья и медицины. Давайте узнаем побольше о блоке "ЕСЛИ ИНАЧЕ". Этот блок напоминает блок "ЕСЛИ", но имеет также дополнение в конце "ИНАЧЕ".'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Если я поставлю блок "двигаться вперед" в область где сказано "выполнить" и поставлю блок "повернуть налево" туда, где сказано "иначе", это будет означать, что зомби будет выбирать между двумя вариантами. Если путь впереди свободен, зомби пройдет вперед, а ИНАЧЕ (то есть если вперед никак не пройти) зомби повернется налево.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Также как и с блоком "ЕСЛИ", мы можем поместить блок "ЕСЛИ ИНАЧЕ" внутрь блоков "ПОВТОРЯТЬ", так, чтобы зомби постоянно во время движения с помощью блока "ЕСЛИ ИНАЧЕ" проверял возможность где-нибудь повернуться.'
       4:
         image: "notes/hoc5_4.jpg"
         text: "Now, get those zombies where they belong!"
@@ -152,7 +146,7 @@
         text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Теперь мы научимся различать функции. Функции имеют звезду в уголке, а имя функции написано на верхней планке."
       3:
         image: "notes/stage13_3.jpg"
         text: |-
@@ -227,7 +221,7 @@
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Технологии изменяют облик всего, что мы делаем и не важно, молод ты или немолод, программирование - это весело, это творчество, и любой может обучиться программированию!"
     20_wrapup:
       1:
         image: "notes/bird.png"

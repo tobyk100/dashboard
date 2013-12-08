@@ -127,7 +127,7 @@
         maze_karel_1_6: 'Rimuovere tutti i mucchi di sporcizia, utilizzando il minor numero di blocchi possibili. Le nuove opzioni nel menu a discesa sul blocco "mentre" mi dicono se sto in piedi su un mucchio o un foro.'
         maze_karel_1_7: "Wow, ho trovato un buco davvero profondo! Non so quante badilate di sporco ha bisogno. Riesci a scrivere un programma che lo riempie fino a quando il terreno è uniforme?"
         maze_karel_1_8: "Aiutami a riempire il foro all'estremità del campo, utilizzando il minor numero possibile dii blocchi possibili."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: 'Fammi togliere tutti questi mucchi di sporcizia. Provare a utilizzare pochi blocchi possibili. Suggerimento: provate ad usare un blocco "mentre".'
         maze_karel_1_10: "Sto lavorando tardi, quindi è buio fuori, e non posso dire quanto grande sono i mucchi. Ora non ho tutte le opzioni che avevo sul blocco mentre. Muovimi lungo il campo e se c'è un mucchio, rimuoverlo."
         maze_karel_1_11: |-
           È ancora buio fuori. Muovimi lungo il campo. Se c'è un mucchio, rimuoverlo e se c'è un buco, riempirlo. Suggerimento: utilizzare il menu a discesa delle opzioni sul blocco "se".
@@ -177,12 +177,12 @@
         maze_karel_debug_function_1: "Che cosa dovresti cambiare riguardo a questo programma per aiutarmi a rimuovere tutti i mucchi?"
         maze_karel_debug_function_2: "Riesci a de-bug questo programma per me così che posso fare il mio campo piatto?"
         maze_karel_debug_function_3: "Modificare questo programma così che io possa rimuovere tutti i mucchi sul mio campo. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
+        turtle_5_2: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
+        turtle_5_3: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
+        turtle_5_4: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
+        turtle_5_5: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
+        turtle_5_6: "Prova a eseguire questo programma e apportare modifiche per vedere cosa succede. Riesci a capire come funziona? (O eliminarlo e sostituirlo con qualcosa di totalmente diverso)"
         maze_3_1: "Ho bisogno di prendere quel maiale! Digitare un paio di istruzioni per muoversi(); così che posso riprendere le mie uova."
         maze_3_2: "Scrivimi un programma, cosi riesco a fare tutta la strada verso il maiale."
         maze_3_3: "Come dovrei arrivare al maiale? Assicurati che non vada contro la cassetta di TNT!"

@@ -254,7 +254,7 @@
     tab: "Video."
     notes: "Ingen video? Vis notater."
     autoplay_option: "Autovisning av videoer"
-    download: "Download Video"
+    download: "Last ned video"
   compatability:
     working: "Vi arbeider med å lage støtte for din nettleser."
     upgrade: "Vennligst oppgrader din nettleser."
