@@ -62,7 +62,7 @@
     school_address: "Məktəbin ünvanı (vacib deyil)"
     address_placeholder: "adres, şəhər, vilayət, poçt indeksi"
     gender: "Cins (vacib deyil)"
-    birthday: "Doğum günü (vacib deyil)"
+    birthday: "Ad günü (vacib deyil)"
     submit: "Qeydiyyatdan keç"
     teacher: "Müəllimsiniz?"
     valid_username: "Olar!"

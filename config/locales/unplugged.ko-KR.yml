@@ -3,78 +3,77 @@
     unplugged:
       Unplug1:
         title: "컴퓨터과학(Computer Science, 정보과학) 소개"
-        desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
+        desc: "이 과정은 컴퓨터과학(정보과학)에서 배우게 되는 기초 개념들을 소개하는 과정으로서, 컴퓨터과학자들이 하는 역할들에 대해서 설명합니다. 활동의 마지막 부분에서는 학생들이 배운 내용을 이용해 수행할 수 있는 과제가 제시됩니다. 관련 용어에 대해서 설명하지 않고 넘어갈 수도 있지만, 용어들을 제시하고 설명하는 것이 더 많은 것을 이해할 수 있도록 할 수 있습니다."
         video: "DGrrqoz891M"
         download: "https://s3.amazonaws.com/cdo-videos/new/1-whatisCS-unpluggedactivity.mp4"
         pdfs:
-          - 오프라인 활동
+          - unplug1
       Unplug2:
-        title: "컴퓨터과학적사고(Computational Thinking, 정보과학적사고)"
-        desc: "With nothing but paper and markers, students will learn the four steps of computational thinking. After a brief introduction, students should be split into groups where they will have to create directions for other students to draw a specific monster (from a catalog of pre-selected monsters). The entire task must be decomposed, then teams will analyze all monsters in the catalog for patterns, abstract different details from the monsters, then use that information to create an algorithm (directions) for another team to draw a certain monster. Teams will then switch algorithms with another group and draw the monster based on what that algorithm indicates. Is the drawing what the original team intended?"
+        title: "컴퓨터과학적(정보과학적)사고"
+        desc: "종이와 펜만 가지고도, 학생들은 4단계의 컴퓨터과학(정보과학)적 사고를 배울 수 있습니다. 간단한 설명을 들은 후, 각 학생들은 모둠을 만들고 몬스터 하나를 선택해 그려 내도록하는 활동을 할 것 입니다. 전체 그림은 몬스터를 그려낼 수 있는 패턴, 추상적 표현, 방법이나 알고리즘 등으로 분해될 것입니다. 모둠을 바꾼 후, 분해되어진 알고리즘과 방법으로 몬스터를 그려내게 됩니다. 원래 모둠이 의도했던데로 그림이 그려질까요? "
         video: "injJWiSA0pw"
         download: "https://s3.amazonaws.com/cdo-videos/new/3-computational-thinking-activity.mp4"
         pdfs:
           - unplug2
       Unplug3:
-        title: "Graph Paper Programming"
-        desc: "By programming one another to draw pictures, students will begin to understand what programming is really about. The class will begin by students instructing each other to color squares in on graph paper in an effort to reproduce an existing picture.  If there's time, the lesson can conclude with images that the students create themselves."
+        title: "모눈종이 프로그래밍"
+        desc: "다른 사람이 그림을 그려내기 위해서 프로그래밍을 하는 과정에서, 학생들은 프로그래밍이 무엇인지 깨닫게 될 것입니다. 학생들은 어떤 그림을 만들어내기 위해 모눈종이에 채워져야하는 색들을 지시하면서 시작될 것입니다. 시간이 흐르면, 학생들은 그림을 완성하게 될 것입니다."
         video: "4e3fi_ls8CA"
         download: "https://s3.amazonaws.com/cdo-videos/new/4-graphpaperprog-activity.mp4"
         pdfs:
           - unplug3
       Unplug4:
-        title: "Algorithms"
-        desc: "This lesson covers algorithms.  Using tangram shapes and graph paper, the first exercise will show how important it is to make each instruction as clear and unambiguous as possible.  Afterward, the class will explore how many ways you can fold paper into a rectangle, noting how some methods can take more or fewer folds than others."
+        title: "알고리즘"
+        desc: "이 내용은 알고리즘에 대한 내용입니다. 탱그램 조각과 모눈 종이를 활용하는 가운데에서, 학생들은 구체적이며 명확하게 표현하는 것이 얼마나 중요한지 깨닫게 될 것입니다. 나중에 사각형으로 접는 방법이 얼마나 다양하게 있는지 생각하게 되고, 어떤 방법이 더 효과적인지 생각하게 될 것입니다."
         video: "gW_aPXjgBTc"
         download: "https://s3.amazonaws.com/cdo-videos/new/6-Algorithms-activity.mp4"
         pdfs:
           - unplug4
       Unplug5:
-        title: "Functions"
-        desc: |-
-          In this lesson, students will make a suncatcher out of string, beads, and a special charm. The students will follow a series of repetitive steps, then be asked to identify certain sets of "skills" that are duplicated several times. Once those skills are defined, they will be called from a main program and the whole beautiful process of creation will be recorded on a single sheet of paper. The final program will be geared toward the entire class, whatever their type of string, beads, and charms. To effectively allow for this, students will need to "abstract out" the details of their specific materials and create vague terms for an individual's supplies.  This use of generic placeholders is a wonderful introduction to variables.
+        title: "함수"
+        desc: '이 활동에서 학생들은 실, 구슬, 특별한 조각들을 이용해 창문 장식 유리를 만들게 될 것입니다. 반복적인 과정을 통해서, 미리 정해져 있는 세트들을 반복적으로 만드는 과정을 진행하게 됩니다. 일단, 어떤 세트가 정의되면, 그것을 이용해 예쁜 것을 만들 수 있는 내용들을 종이에 기록할 수 있게 됩니다. 마지막 프로그램은 학급 전체를 위한 것입니다. 활동을 효과적으로 수행하기 위해서 학생들은 "추상화 시킬" 필요가 있습니다. 변수의 개념을 이해하는데 도움이 될 것입니다.'
         video: "NAViNTHS3LU"
         download: "https://s3.amazonaws.com/cdo-videos/new/8-functions-activity.mp4"
         pdfs:
           - unplug5
       Unplug6:
-        title: "Conditions"
-        desc: "This is a class game.  After introducing the idea of conditionals, if-statements, and loops, the class can practice together using a pre-written program, a deck of cards, and luck of the draw."
+        title: "조건/선택"
+        desc: "이 것은 학급 게임입니다. 조건/선택, 반복 실행의 개념을 소개한 후에, 미리 작성해 둔 프로그램이나 카드, 제비뽑기 등을 이용해 연습할 수 있습니다. "
         video: "yr6g0AWE7yw"
         download: "https://s3.amazonaws.com/cdo-videos/new/10-conditionals-activity.mp4"
         pdfs:
           - unplug6
       Unplug7:
-        title: "Song Writing"
-        desc: "Reading lyrics is a pretty intuitive venture for most students.  We'll take an activity that's already common knowledge and shift it into a solid education on defining and calling functions. Once students are familiar with the define/call process, we will add the extra capabilities that come along with passing parameters within those function calls."
+        title: "노래 만들기"
+        desc: "대부분의 학생들에게 있어서 노래 가사를 읽는 것은 의미적이기라기보다는 직감(느낌)적 입니다. 이러한 것을 함수의 정의와 사용에 적용시킬 수 있습니다. 함수를 정의하고 호출하는 과정에 익숙해지면, 그러한 함수에 변수를 전달하는 방법을 설명할 수 있습니다."
         video: "hx0tBso08aA"
         download: "https://s3.amazonaws.com/cdo-videos/new/12-songwriting-activity.mp4"
         pdfs:
           - unplug7
       Unplug8:
-        title: "Abstraction"
-        desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the complicated vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
+        title: "추상화"
+        desc: "이 과정은 컴퓨터과학(정보과학)에서 배우게 되는 기초 개념들을 소개하는 과정으로서, 컴퓨터과학자들이 하는 역할들에 대해서 설명합니다. 활동의 마지막 부분에서는 학생들이 배운 내용을 이용해 수행할 수 있는 과제가 제시됩니다. 관련 용어에 대해서 설명하지 않고 넘어갈 수도 있지만, 용어들을 제시하고 설명하는 것이 더 많은 것을 이해할 수 있도록 할 수 있습니다."
         video: "FGpzpYD9ZVs"
         download: "https://s3.amazonaws.com/cdo-videos/new/14-abstraction-activity.mp4"
         pdfs:
           - unplug8
       Unplug9:
-        title: "Relay Programming"
-        desc: 'This lesson will take an idea from a previous activity (4. Graph Paper Programming) and use those skills to emphasize the importance of completing programs that operate in sequence and frequently checking programs for "bugs".'
+        title: "릴레이 프로그래밍"
+        desc: "이 활동은 이전의 모눈종이 프로그래밍을 응용한 것으로, 버그를 찾아내 오류를 수정하는 것과 관련된 활동입니다."
         video: "FFpvtooUrzg"
         download: "https://s3.amazonaws.com/cdo-videos/new/16-relay-programming-activity.mp4"
         pdfs:
           - unplug9
       Unplug10:
-        title: "The Internet"
-        desc: "In this lesson, students will pretend to flow through the Internet, all the while learning about web addresses, IPs and the DNS."
+        title: "인터넷"
+        desc: "이 활동에서 학생들은  IP 주소, DNS 와 같은 개념들을 이용해 인터넷 흐름을 따라 움직이게 됩니다."
         video: "Zs26JgnWbTE"
         download: "https://s3.amazonaws.com/cdo-videos/new/18-internet-activity.mp4"
         pdfs:
           - unplug10
       Unplug11:
-        title: "Wrap-Up"
-        desc: "The final wrap-up in the first 20-hour series will help the class relive all of their favorite moments, while giving them next steps that they can take on their own if they are interested in continuing their computer science journey."
+        title: "마무리"
+        desc: "20 시간 과정의 마지막 마무리에서는 학생들의 흥미와 동기를 일깨우기 위한 것으로, 컴퓨터과학(정보과학)에 대한 계속적인 관심과 학습을 도와줍니다."
         video: "Rbi7keldjZY"
         download: "https://s3.amazonaws.com/cdo-videos/new/20-wrapup-activity.mp4"
         pdfs:

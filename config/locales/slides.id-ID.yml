@@ -18,7 +18,7 @@
         text: "Program merupakan sekumpulan instruksi yang harus dikerjakan komputer."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "Tujuan dari program pertama anda yaitu untuk membuat Angry Birds melalui labirin kemudian menghatam babi hijau."
+        text: "Tujuan dari program pertama anda adalah membuat Angry Birds melalui labirin kemudian menangkap babi hijau."
       7:
         image: "notes/hoc1_7.jpg"
         text: "Pada sisi kiri merupakan labirin dimana program anda akan dijalankan. Instruksi dari setiap teka-teki ada dibawah labirin."
@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Halo, Nama saya JR! Setiap tim balap mobil perlu programmer untuk dapat memenangkan balapan. Mereka menganalisis data dari mobil untuk dapat membuatnya meluncur lebih cepat."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Dalam teka-teki ini, Anda akan menjadi seorang artis yang menarik garis ke mana pun mereka berjalan."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Blok ini mengatakan "Gerak maju sepanjang 100 piksel." Pixel adalah titik-titik yang sangat kecil pada layar Anda.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Blok ini mengatakan "belok kanan oleh 90 derajat." Ini akan membuat artis Anda belok dengan sudut yang sama sebagai blok "belok" di teka-teki labirin yang sebelumnya.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Klik pada panah di salah satu blok ini untuk mengubah arah artis bergerak maju atau belok. Cobalah mengenali cara kerja blok-blok ini."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Halo, Saya Paola! Dalam teka-teki ini, Anda menjadi seorang petani yang harus membuat ladangmu benar-benar datar sebelum memulai menanam tanaman."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Anda harus membantu menghapus semua tumpukan tanah dan mengisi semua lubang."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Blok baru yang memindahkan 1 sekop tumpukan tanah dan menimbun 1 sekop tanah ke sebuah lubang."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Tumpukan dan lubang adalah ukuran yang berbeda, sehingga Anda harus memberitahu petani berapa banyak sekop yang harus digunakan."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -103,7 +103,7 @@
         text: 'Jika kita meletakan blok "move forward" kedalam blok "repeat until", maka burung akan begerak maju sampai ia mencapai babi (atau menabrak tembok).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'Dan jangan lupa: sama seperti sebelumnya, kita dapat menaruh beberapa blok didalam blok "ulangi sampai" (repeat until) dan blok blok tersebut akan diulang.'
+        text: 'Jangan lupa: sama seperti sebelumnya, kita dapat menaruh beberapa blok didalam blok "Ulangi sampai" (repeat until) dan blok blok tersebut akan diulang.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
@@ -142,72 +142,67 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Halo, saya Brina, seorang programer dari Instagram. Fungsi adalah baris-baris tertentu kode yang Anda ingin menggunakan berkali-kali. Daripada menulis kode yang sama setiap kali, Anda cukup menggunakan satu blok."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Kita akan belajar bagaimana cara membuat suatu fungsi. Suatu fungsi akan memiliki sebuah tanda bintang di sudut dan nama fungsi ditulis di atas blok."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Blok yang masuk dalam fungsi menjelaskan apa yang dikerjakannya. Jadi fungsi ini dinamakan "Timbunlah 5" dan itu terdiri dari blok "Ulangi" dan blok "timbun".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+        text: 'Fungsi terletak di area kerja, tetapi petani tidak akan menjalankan fungsi sampai Anda menarik keluar blok "fungsi isi 5" dari fungsi kategori.'
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!" 
+        text: 'Mari kita bersenang-senang dengan "Fungsi"! '
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+        text: 'Hi, Saya Makinde! Mari kita belajar tentang blok "selama". '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'Blok "Selama" akan mengerjakan apa yang Anda taruh di dalamnya selama pernyataan adalah benar.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "Misalnya, jika si petani berdiri di tumpukan, maka ia akan terus memindahkan 1 sekop SELAMA tumpukan masih ada."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Halo, saya Trina, dan saya bekerja untuk Pixar. Saya telah terlibat didalam produksi banyak film, termasuk Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Ini adalah loop "counter". Loop ini akan melakukan aksi berulang kali dan Anda dapat membuat aksi-aksi sedikit berbeda setiap kali.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'Dalam contoh ini, loop "counter" mendeskripsikan "Hitung dengan konter dari 50 sampai 90 dengan step 10" dan di dalamnya, ada sebuah blok "Gambar persegi". Taruh blok "konter" dari bagian "Variabel" ke dalam "panjang".'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Ini berarti si artis akan menggambar beberapa buah persegi, yang pertama memiliki panjang 50 piksel, lalu tambahkan 10 piksel dan kemudian gambar lagi sebuah persegi dengan 60 piksel panjang. Kemudian akan terus tambahkan 10 piksel lagi sampai kotak terakhir dengan panjang 90 piksel. Jadi kita akan memiliki beberapa kotak dengan panjang 50, 60, 70, 80 dan 90 piksel."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hi, I 'm Janete, dan saya adalah seorang programer di Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Bagaimana jika kita ingin menarik beberapa segitiga dengan sisi yang berbeda?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Kita bisa menulis semua kode yang menggambar segitiga satu persatu atau kita bisa menggunakan sebuah fungsi dengan parameter."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Untuk dapat melakukannya, klik gambar bintang biru pada fungsi "tarik segitiga". Kemudian taruhlah "masukan nama" ke dalam blok "masukan".'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Kemudian jika Anda menulis "panjang" di tempat di mana bertanda "x" dan tekan "Enter" Anda akan membuat panjang sebagai masukan untuk fungsi Anda.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Kemudian klik tanda bintang. Lalu, klik pada kategori variabel dan taruhlah blok "panjang" pada blok "gerak maju" dari fungsi Anda. Dan buanglah blok sebelumnya.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Untuk menggunakan fungsi Anda dengan parameter, klik pada kategori fungsi dan tariklah keluar fungsi "menggambar sebuah segitiga dengan panjang".'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Sekarang Anda dapat menggunakan blok matematika untuk memasukkan nomor yang berbeda untuk menggambar segitiga dengan ukuran yang berbeda."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

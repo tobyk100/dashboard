@@ -43,13 +43,14 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Salut, je suis JR ! Chaque équipe de voitures de course a besoin d'informaticiens pour gagner. Ils analysent les données de la voiture pour la faire aller plus vite."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Dans ces puzzles, tu sera un artiste qui dessine une ligne derrière eux partout où ils vont."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: |-
+          Ce bloc dit ''avances de 100 pixels." Les pixels sont en fait des points minuscules sur ton écran.
       4:
         image: "notes/stage5_4.jpg"
         text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'

@@ -15,9 +15,9 @@
   welcome_back: "Selamat datang kembali, %{name}"
   add_teacher_form:
     code_or_email:
-      label: "Tambahkan guru dengan kode atau alamat email:"
+      label: "Cantumkan nama guru dengan menggunakan kode atau alamat email:"
       placeholder: "Kode (ABCDEF) atau email (guru@sekolah.edu)"
-    submit: "Tambahkan guru"
+    submit: "Cantumkan nama guru"
   appname: "Code.org"
   stage: "Tahap"
   puzzle: "Teka-teki"
@@ -27,7 +27,7 @@
   more: "lebih"
   less: "KURANG"
   try_hoc: "Cobalah Jam Kode, klik di sini >> "
-  try_k8intro: "Cobalah kursus pengenalan ilmu komputer untuk sekolah dasar dan sekolah menengah (terbagi menjadi 15-25 jam)"
+  try_k8intro: "Cobalah kursus pengenalan ilmu komputer untuk anak-anak  (15-25 jam)"
   already_started: "Sudah mulai? Lanjutkan di sini >> "
   demos: "Admin: Semua demo"
   continue: "Lanjutkan"
@@ -99,8 +99,8 @@
       
   follower:
     invite_sent: "Undangan telah dikirim"
-    added_teacher: "%{name} ditambahkan sebagai guru Anda"
-    registered: "You've registered for %{section_name}."
+    added_teacher: "%{name} telah dicantumkan sebagai nama guru Anda"
+    registered: "Anda sudah terdaftar pada %{section_name}."
     error:
       signed_in: "Silahkan logout sebelum melanjutkan"
       username_not_found: "Nama akun %{username} tidak ditemukan"
@@ -149,11 +149,11 @@
       teacher:
         earned: "10 atau lebih siswa mengumpulkan semua Piala %{num_trophies}. Anda telah memenangkan hadiah $750 guru! (hanya untuk guru dari Amerika Serikat)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'Untuk memberi penghargaan kepada guru-guru ilmu komputer, Anda bisa mendapatkan hadiah sehingga $1.000 dari <a href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit untuk membimbing kelas melalui kursus intro sekolah dasar. Untuk memenuhi persyaratan, Anda harus memiliki setidaknya 10 siswa-siswi yang menyelesaikan kursus, dengan minimal 10 siswa-siswi telah menyelesaikan semua tutorial dan mendapatkan semua Piala %{num_trophies}. Jika siswa-siswi Anda yang mendapatkan Piala terdiri dari setidaknya 40% anak perempuan, hadiah Anda adalah $1.000 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. Jika tidak, hadiah Anda adalah $750 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya berlaku untuk guru-guru di sekolah umum di Amerika Serikat.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "40% atau lebih dari siswa yang mengumpulkan semua Piala %{num_trophies} adalah perempuan. Anda telah memenangkan hadiah bonus $250! (hanya berlaku untuk guru dari Amerika Serikat)"
+          not_earned: 'Jika siswa-siswi Anda yang telah mendapatkan semua Piala %{num_trophies} terdiri dari setidaknya 40% anak perempuan, Anda mendapat tambahan hadian $250 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat berlaku untuk guru-guru sekolah umum di Amerika Serikat.'
   crud:
     new_model: "%{model} baru"
     show: "Tampilkan"
@@ -184,7 +184,7 @@
       close: "TUTUP"
       mastery: "Konsep"
       puzzle_map: "Tahap"
-      prizes: "Kumpulkan semua Piala %{total_trophies} dan memenangkan hadiah!"
+      prizes: "Kumpulkan semua %{total_trophies} piala dan menangkan hadiah!"
       prize_earned: "Semua Piala %{total_trophies} telah terkumpul. Memenangkan hadiah!"
       prize_us_only: "(Hanya untuk siswa dari Amerika Serikat)"
       prizes_link: "Info lebih lanjut"
@@ -195,7 +195,7 @@
     tools: "Peralatan Guru"
     students:
       manage: "Mengelola siswa"
-      add: "Tambahkan siswa"
+      add: "Cantumkan nama siswa"
     rollup: "Dashboard Kemajuan "
     activity: "Aktivitas kelas"
   user:
@@ -222,7 +222,7 @@
     classroom: "Kelas anda"
     student_progress: "Kemajuan belajar Anda"
     student_stats: 'Anda telah menerima  %{trophy_count} dari total %{trophy_max} piala "Penguasaan Konsep".'
-    student_left_off: "Terakhir kali anda tinggalkan:"
+    student_left_off: "Anda berada terakhir kali pada:"
     student_finished: "Anda telah menyelesaikan semua tutorial, klaim piala anda  %{prize_link} dan pilih kelas lain di  %{online_link} atau di sini %{local_school_link}"
     local_school: "sekolah lokal"
     online: "online"
@@ -233,7 +233,7 @@
     none: "Memilih untuk tidak menjawab"
   footer:
     help_from_html: 'Tutorial ini diciptakan atas bantuan programmer-programmer dari <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com"> Twitter</a>.'
-    art_from_html: 'Angry Birds ™ & © 2009-2013 <a href="http://www.rovio.com"> adalah hak cipta dan hak milik Rovio Entertainment Ltd</a>. <br/> Tanaman vs Zombies ™ & © 2013 adalah hak cipta dan hak milik <a href="http://www.ea.com"> Electronic Arts Inc.</a>'
+    art_from_html: 'Angry Birds ™ & © 2009-2013 adalah hak cipta dan hak milik <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. <br/> Tanaman vs Zombies ™ & © 2013 adalah hak cipta dan hak milik <a href="http://www.ea.com"> Electronic Arts Inc.</a>'
     feedback: "Berikan pendapat"
     translate: "Bantu menterjemahkan ke bahasa anda"
     tos: "Persyaratan Layanan"
@@ -252,11 +252,11 @@
     tab: "Video."
     notes: "Tidak ada video? Tunjukkan catatan kaki."
     autoplay_option: "Autoplay video"
-    download: "Download Video"
+    download: "Ungah Video"
   compatability:
     working: "Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda."
     upgrade: "Silakan upgrade browser Anda."
   slow_loading: "Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya..."
   try_reloading: "Coba tampilkan halaman lagi"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Selesai! Lanjutkan untuk tahap berikutnya"
   download_pdf: "Rencana pelajaran terbuka"

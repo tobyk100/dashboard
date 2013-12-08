@@ -27,7 +27,7 @@
         text: "Ekranın ortasındakı alətlər qutusunda Acıqlı Quş üçün əmrlər yerləşir. Öz kodunuzu qurmaq üçün onlardan istifadə edəcəksiniz."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "Sağınızda sizin iş sahənizdir. Burada, siz, alətlər qutusundan blokları seçməklə öz proqramınızı yaradacaqsınız. Bloku pozmaq üçün, bloku küncdəki zibil qutusuna sürükləyiniz."
+        text: "Sağınızda sizin iş sahənizdir. Burada siz alətlər qutusundan blokları seçməklə öz proqramınızı quracaqsınız. Bloku pozmaq üçün onu küncdəki zibil qutusuna sürükləyin."
       10:
         image: "notes/hoc1_10.jpg"
         text: 'Hər blok bir göstərişdir. "İrəli get" blokunu iş sahənizə sürükləyib "Proqramı icra et"i bassanız, quş labirintdə bir xana irəliləyər.'
@@ -158,7 +158,7 @@
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: 'Salam, mənim adım Makindedir. Gəlin "ağ blok" haqqında öyrənək '
+        text: 'Salam, mənim adım Makindedir. Gəlin "nə qədər ki" bloku haqqında öyrənək '
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

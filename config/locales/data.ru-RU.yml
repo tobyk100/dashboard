@@ -4,32 +4,32 @@
       name:
         20-hour:
           desc: "K-8 Intro to Computer Science Course"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "Этап 1"
+          Maze: "Этап 2"
+          Unplug2: "Этап 3"
+          Unplug3: "Этап 4"
+          Artist: "Этап 5"
+          Unplug4: "Этап 6"
+          Artist2: "Этап 7"
+          Unplug5: "Этап 8"
+          Farmer: "Этап 9"
+          Unplug6: "Этап 10"
+          Artist3: "Этап 11"
+          Unplug7: "Этап 12"
+          Farmer2: "Этап 13"
+          Unplug8: "Этап 14"
+          Artist4: "Этап 15"
+          Unplug9: "Этап 16"
+          Farmer3: "Этап 17"
+          Unplug10: "Этап 18"
+          Artist5: "Этап 19"
+          Unplug11: "Этап 20"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "Час кода"
+          Maze: "Этап 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Редактирование кода"
+          MazeEC: "Этап 1"
     game:
       name:
         Unplug1: "Introduction to Computer Science"
@@ -37,22 +37,22 @@
         Unplug2: "Computational Thinking"
         Unplug3: "Graph Paper Programming"
         Artist: "Художник"
-        Unplug4: "Algorithms"
+        Unplug4: "Алгоритмы"
         Artist2: "Художник 2"
-        Unplug5: "Functions"
+        Unplug5: "Процедуры"
         Farmer: "Фермер"
-        Unplug6: "Conditionals"
+        Unplug6: "Условные выражения"
         Artist3: "Художник 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Написание песни"
         Farmer2: "Фермер 2"
         Unplug8: "Abstraction"
         Artist4: "Художник 4"
         Unplug9: "Relay Programming"
         Farmer3: "Фермер 3"
-        Unplug10: "The Internet"
+        Unplug10: "Интернет"
         Artist5: "Художник 5"
         Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        MazeEC: "Лабиринт"
     trophy:
       name:
         Bronze: "Бронза"
@@ -62,13 +62,13 @@
       description:
         sequence: "Последовательность"
         if: "блок If"
-        if_else: "блок If-else"
-        loop_times: 'Блок "Повтор"'
-        loop_until: 'Блок "Повтор до"'
-        loop_while: "Блок while"
+        if_else: "блок если-иначе"
+        loop_times: 'Блок "повторить несколько раз"'
+        loop_until: 'блок "повторять пока не"'
+        loop_while: 'блок "пока"'
         loop_for: "Блок счетчика"
-        function: "Функции"
-        parameters: "Функции с параметрами"
+        function: "Процедуры"
+        parameters: "Процедуры с параметрами"
     level:
       instructions:
         maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
@@ -79,21 +79,21 @@
         maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
         maze_2_6: "Try to get me to the green intruder using only three blocks."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'Чтобы сделать это, используйте блок "Повтор" с 3 блоками внутри него: двигаться, двигаться, повернуть.'
+        maze_2_8: 'Чтобы сделать это, попробуйте блок "повторить несколько раз" с 3 блоками внутри него: шагнуть, шагнуть, повернуть.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
-        maze_2_10: "Сейчас практикуемся в последний раз - вы можете сделать это использованием только 4 блоков?"
-        maze_2_11: "Уважаемый программист. Я зомби. Я голоден. Мне надо......, кушать подсолнечник... Ты можешь отправить меня к нему используя всего 5 команд?"
-        maze_2_12: "Ладно, это аналогично, но несколько по-другому. Попробуй сделать это при помощи только 5 блоков?"
-        maze_2_13: 'Используйте новый блок "если" чтобы позволять мне решать когда повернуть. Подсказка: вам только нужен eщё один блок, ну учись как мы ето установляем чтобы вы смогли ето сделать другой раз.'
-        maze_2_14: 'Ладно, ето также как прошлая загадка, ну вам надо запомнить как вы использовали блоки "если" и "повторить" вместе.'
-        maze_2_15: 'Мне хочется подсолнух! Используйте блок "если" чтобы направлять меня туда с наименьшее количество блоков.'
+        maze_2_10: "Сейчас последняя попытка - ты можешь это сделать, используя только 4 блока?"
+        maze_2_11: "Уважаемый программист. Я зомби. Я голоден. Мне надо ... добраться ... до подсолнечника... Ты можешь отправить меня к нему, используя всего 5 команд?"
+        maze_2_12: "Ладно, это похоже, но несколько по-другому. Можешь сделать это при помощи только 5 блоков?"
+        maze_2_13: 'Используй новый блок "если", чтобы позволять мне решить, когда повернуть. Подсказка: тебе нужен eщё только один блок, но разберись, как мы его разместим, чтобы ты смог это сделать в следующий раз сам.'
+        maze_2_14: 'Хорошо, это похоже на прошлую задачу, но тебе надо запомнить, как ты использовал блоки "если" и "повторить" вместе.'
+        maze_2_15: 'Мне хочется подсолнух! Используй блок "если", чтобы привести меня к нему с наименьшим  числом блоков.'
         maze_2_16: "Ладно, давайте ето ещё сделаем для практике - ето не очень другое, ну остерегайся от непентесов!"
-        maze_2_17: '"Если-или" блоки проверяут условие, у потом делают одно ИЛИ другое. Чтобы меня направлять до подсолнуха, использовай этот новый блок.'
-        maze_2_18: 'Ещё одна практика пользоватся блок "если-или", вы сможете сделать правильно на первой попытке?'
-        maze_2_19: "Вы сможете добавить толко ещё 3 блоков чтобы помочь мне решить более сложнее лабиринта? Если вы ето сделаете правильно, я смогу пойти по любому изогнутому путью не смотря на длину."
-        turtle_1_1: "Привет, Я художник. Вы можете написать код чтобы позволять мне рисовать почти что угодно. Использувайте несколько блоков чтобы позволять мне рисобать над серыми линиямы в рисунке."
-        turtle_1_2: 'Теперь нарисуйте квадрат. ПРИМЕЧАНИЕ: выбирайте и используйте ваш любимый цвет в новом блоки "ставить цвет".'
-        turtle_1_3: "Сделайте квадрат, используя толко 3 блоков."
+        maze_2_17: 'Блоки "если-иначе" проверяют условие, потом выполняют одно действие ИЛИ другое. Чтобы довести меня до подсолнуха, попробуй использовать этот новый блок.'
+        maze_2_18: 'Ещё один случай для использования блока "если-иначе", сможешь сделать правильно с  первой попытки?'
+        maze_2_19: "Ты можешь добавить только 3 блока, чтобы помочь мне пройти более сложный лабиринт? Если ты сделаешь это правильно, я смогу пройти по любому извилистому пути, несмотря на длину."
+        turtle_1_1: "Привет, Я художник. Ты можешь написать код, чтобы я рисовал что угодно. Используй несколько блоков, чтобы я нарисовал  серыми линиями на рисунке."
+        turtle_1_2: 'Теперь нарисуй квадрат. ПРИМЕЧАНИЕ: выбирай и используй свой любимый цвет в новом блоке "установить цвет".'
+        turtle_1_3: "Сделай квадрат, используя только 3 блока."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
@@ -115,9 +115,9 @@
         turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
         turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
         turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: 'Привет, я фермер. Мне нужна Ваша помощь, чтобы выровнять поле на моей ферме, так чтобы оно было готово для посадки. Передвиньте меня к куче грязи и используйте блок "удалить", для того чтобы удалить его.'
-        maze_karel_1_2: 'Затем передвиньте меня к дыре и заполните её ДВУМЯ лопатами грязи, используя блок "заливка".'
-        maze_karel_1_3: "Передвиньте меня к куче грязи и скажите мне сколько лопат взять используя как можно меньше блоков."
+        maze_karel_1_1: 'Привет, я фермер. Мне нужна твоя помощь, чтобы выровнять поле на моей ферме, так чтобы оно было готово для посадки. Передвинь меня к куче грязи и используй блок "удалить", чтобы удалить её.'
+        maze_karel_1_2: 'Затем передвинь меня к дыре и заполни её ДВУМЯ лопатами грязи, используя блок "заливка".'
+        maze_karel_1_3: "Передвинь меня к куче грязи и скажи мне, сколько лопат убрать, используя как можно меньше блоков."
         maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
         maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
         maze_karel_1_6: |-
@@ -199,12 +199,12 @@
         artist_intro: "Artist Intro"
         farmer_intro: "Farmer Intro"
         loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Функции с параметрами"
+        loop_until: 'Блок "повторять, пока не"'
+        if: 'Блок "если"'
+        if_else: 'Блок "если/то"'
+        function: "Процедуры"
+        loop_while: 'Блок "пока"'
+        loop_for: "Блок счетчика"
+        parameters: "Процедуры с параметрами"
         hoc_wrapup: "Hour of Code Wrapup"
         20_wrapup: "20-Hour Wrapup"

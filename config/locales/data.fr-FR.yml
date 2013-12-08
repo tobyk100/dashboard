@@ -39,7 +39,7 @@
         Artist: "L'Artiste"
         Unplug4: "Algorithmes"
         Artist2: "L'Artiste 2"
-        Unplug5: "Functions"
+        Unplug5: "Fonctions"
         Farmer: "Le Fermier"
         Unplug6: "Instructions conditionnelles"
         Artist3: "L'Artiste 3"
@@ -51,7 +51,7 @@
         Farmer3: "Le Fermier 3"
         Unplug10: "Internet"
         Artist5: "L'Artiste 5"
-        Unplug11: "Wrap-up"
+        Unplug11: "Résumé"
         MazeEC: "Le labyrinthe"
     trophy:
       name:
@@ -71,16 +71,16 @@
         parameters: "Fonctions avec paramètres"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
+        maze_2_2: "Pouvez-vous m'aider à attraper le cochon ? Assemble deux blocs « aller de l'avant » et appuye sur « Exécuter le programme » pour m'aider à y arriver. "
+        maze_2_1: "Ce cochon me hérisse le poil. Aide-moi à le retrouver !"
+        maze_2_2_5: "Trace le chemin et amène moi à ce stupide cochon. Évite la dynamite ou les plumes vont voler !"
+        maze_2_3: "Guide moi jusqu'au méchant vert. Attention à la dynamite !"
+        maze_2_4: "Gardez votre calme et aide moi à trouver le mauvais cochon. Sinon je pourrais me fâcher !"
+        maze_2_5: "Il y a un moyen d'attraper ce stupide cochon en 2 blocs seulement. Peux tu le trouver ?"
+        maze_2_6: "Essayez de me faire aller jusqu'à l'intrus vert à l'aide de seulement trois blocs."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: "Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3 blocs à l'intérieur : déplacer, déplacer, tourner."
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: "OK, essaye le nouveau bloc « répéter jusqu'à » - il répétera jusqu'à ce que j'atteigne l'ennuyeux cochon."
         maze_2_10: "OK, une dernière fois pour s'entraîner - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
         maze_2_11: "Cher personne.  Moi zombie. Moi faim. Doit... arriver... au tournesol... Pouvez vous me l'obtenir avec seulement 5 blocs ?"
         maze_2_12: "OK, c'est semblable, mais légèrement différent. Pouvez-vous le faire en seulement 5 blocs ?"
@@ -112,8 +112,8 @@
         turtle_4_6: "En utilisant seulement 3 blocs, peux-tu dessiner un carré avec des bords de 20 pixels?"
         turtle_4_7: "Voilà le code pour dessiner un carré du dernier puzzle. Peux-tu le répéter pour dessiner 10 carrés qui se touchent l'un à la suite de l'autre pour ressembler à une échelle? Astuce: tu as seulement besoin de 2 autres blocs."
         turtle_4_8: "Voici la solution de l'énigme précédente. Pouvez-vous ajouter seulement 2 blocs plus pour compléter le dessin ?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
+        turtle_4_9: "Voici la solution de l'énigme précédente. De combien de degrés dois-tu tourner pour compléter le dessin ? (Tu devrais probablement faire plusieurs essais)"
+        turtle_4_10: "Voici la solution de l'énigme précédente. Combien de fois dois-tu répéter pour compléter le dessin ?"
         turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
         maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
         maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."

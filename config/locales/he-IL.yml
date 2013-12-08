@@ -3,10 +3,12 @@
     attributes:
       user:
         name: "שם"
-        email: "מייל"
-        username: "שם משתמש"
+        email: "דואר אלקטרוני"
+        username: |
+          שם משתמש
+          
         password: "סיסמה"
-        password_confirmation: "וידוי סיסמא"
+        password_confirmation: "וידוא סיסמא"
         current_password: "הסיסמה הנוכחית"
         locale: "שפה"
         gender: "מין"
@@ -29,10 +31,10 @@
   try_hoc: "נסה שעה של קוד, לחץ כאן >> "
   try_k8intro: "לחלופין, נסה את K-8 שלנו, הקדמה לקורס מדעי המחשב (15-25 שעות)"
   already_started: "כבר התחלת? המשך כאן >> "
-  demos: "Admin: All Demos"
+  demos: "מנהל: כל הדוגמאות"
   continue: "המשך"
   prize: "פרס"
-  more_info: "More info"
+  more_info: "מידע נוסף"
   auth:
     sign_in_with: "היכנס באמצעות %{provider}"
     signed_in: "נכנסת!"
@@ -46,18 +48,18 @@
     need_confirmation: "לא קיבלת את אישור ההוראות?"
     need_unlock: "לא קיבלת את ההוראות הפתוחות?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "קורס בן 20 שעות זה, מציג בפניך בסיס במדעי המחשב וברעיון של קוד-מחשב. הקורס מתוכנן לשימוש בכיתות ח׳, אבל זה כיף ללמוד בכל הגילאים."
+    no_signup_header: "למה שלא תירשם?"
+    no_signup_message: 'אתה יכול <a target="_blank" href="http://learn.code.org">לדפדף בחידות והשלבים השונים</a>, אבל אתה צריך להירשם על-מנת לשמור את התהליך שאתה עובר.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    teacher_educator_guide: "ראה מדריך למחנך"
+    teacher_prize_header: 'זכה בפרס בשווי 1,000 דולר ב-<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
+    teacher_prize_message: 'בשיתוף עם <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org יציע עד 1,000 דולר למימון כיתה שמורים בארה״ב מלמדים שם לפחות 10 תלמידים באמצעות הקורס הזה.'
+    teacher_pitch: "למד את כיתות ח׳ הקדמה למדעי המחשב בכיתה שלך"
+    teacher_title: "מורה, הרשם"
+    student_pitch: "אחרי שעה: נסה את ההקדמה שלנו למדעי המחשב לכיתות ח׳"
+    student_title: "הירשם"
     school_name: "שם בית הספר (אופציונלי)"
     school_address: "כתובת בית הספר (אופציונלי)"
     address_placeholder: "כתובת, עיר, מדינה, מיקוד"
@@ -68,11 +70,11 @@
     valid_username: "זמין!"
     invalid_username: "שם המשתמש חייב להיות לפחות 5 תווים"
     taken_username: "שם המשתמש כבר תפוס"
-    valid_password: "Valid password!"
+    valid_password: "סיסמה תקינה!"
     invalid_password: "הסיסמא חייבת להכיל לפחות 6 תווים"
     mismatch_password: "שתי הסיסמאות שהזנת אינן תואמות"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    student_terms: "אני מסכים להיות מחוייב לתנאי השירות של Code.org. אם אני מתחת לגיל 13, אני מאשר, ע״י שליחה של טופס זה, שהורה או אפטרופוס חוקי אישר לי להשתמש בשירותים שמציע האתר Code.org."
+    teacher_terms: "אני מסכים להיות מחויב לתנאי השימוש של Code.org."
   signin_form:
     title: "התחבר"
     login: "דוא ל או שם משתמש"
@@ -103,18 +105,20 @@
   follower:
     invite_sent: "הזמנה נשלחה"
     added_teacher: "%{name} נוסף כמורה שלך"
-    registered: "You've registered for %{section_name}."
+    registered: "נרשמת ל: %{section_name}."
     error:
       signed_in: "בבקשה תצא לפני שתמשיך"
       username_not_found: "שם משתמש %{username} לא נמצא"
       username_in_use: "%{username} כבר תפוס. בבקשה תבחר אחר"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      no_teacher: |
+        לא נמצא משתמש רשום ע״י ״%{teacher_email_or_code}״.
+        אנא בקש מהם להירשם כאן ונסה להוסיף אותם שנית
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "הצטרף לכיתה עם %{teacher_name} ב-Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "אין לך גישה לסטטיסטיקות של האדם הזה"
   redeem_prizes:
     title: "פדה פרסים: %{name}"
     provider: "ספק:"
@@ -122,7 +126,7 @@
     redeem_header: "To redeem:"
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
-    error_us_only: "The prize offer is only valid for U.S. users."
+    error_us_only: "הפרס הזה תקף אך ורק לתושבי ארצות הברית."
     no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Please Confirm"
@@ -146,11 +150,11 @@
     msg:
       choose: "בחרו בפרס:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "זכית בפרס! (לתושבי ארצות הברית בלבד)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "למד הכל על רעיונון מדעי המחשב, אסוף את כל %{num_trophies} הפרסים, ותוכל לזכות בפרס בעולם האמיתי. תוכל לבחור בין כרטיס מתנה ב-iTunes על סך 10$, 10 GB חינם ב-Dropbox, תוכל גם לזכות ב-10$ לסקייפ, או משחקים להורדה בחינם. שים לב! ההצעות תקפות אך ורק לתושבי ארצות הברית, עד גמר המלאי."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 תלמידים או יותר אספו את כל %{num_trophies} הפרסים. אתה זכית ב-750$ בתור פרס-מורה. (מורים בארצות הברית בלבד)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
@@ -167,11 +171,11 @@
     back: "חזור"
     confirm: "אתה בטוח?"
     created: "%{model} נוצר בהצלחה."
-    updated: "%{model} was successfully updated."
+    updated: "%{model} עודכן בהצלחה."
   nav:
     header:
-      finished_hoc: "I've finished my Hour of Code"
-      sign_in_to_save: "Sign in to save progress"
+      finished_hoc: "סיימתי את שעת הקוד שלי"
+      sign_in_to_save: "התחבר כדי לשמור את התקדמות"
     user:
       classroom: "התלמידים שלי"
       label: "היי %{username}"
@@ -184,48 +188,47 @@
     popup:
       progress: "ההתקדמות שלך"
       lines: "סה כ שורות קוד: %{lines}"
-      close: "CLOSE"
-      mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
-      prize_earned: "All %{total_trophies} trophies collected. Prize won!"
-      prize_us_only: "(U.S. students only)"
-      prizes_link: "more info"
+      close: "סגור"
+      mastery: "עקרונות"
+      puzzle_map: "שלבים"
+      prizes: "אסוף את כל ה-%{total_trophies} פרסים כדי לזכות בפרס אמיתי!"
+      prize_earned: "כל %{total_trophies} הפרסים נאספו! זכית בפרס!"
+      prize_us_only: "(תלמידי ארצות-הברית בלבד!)"
+      prizes_link: "מידע נוסף"
   teacher:
     title:
-      one: "Your teacher is %{name}"
-      other: "Your teachers:"
+      one: "המורה שלך הוא %{name}"
+      other: "המורים שלך:"
     tools: "כלים למורה"
     students:
-      manage: "Manage students"
-      add: "Add students"
-    rollup: "Progress Dashboard"
-    activity: "Recent class activity"
+      manage: "נהל תלמידים"
+      add: "הוסף תלמיד"
+    rollup: "לוח התקדמות"
+    activity: "פעילות אחרונה בכיתה"
   user:
-    new_password_hint: "(leave blank if you don't want to change it)"
-    current_password_hint: "(we need your current password to confirm your changes)"
+    new_password_hint: "(השאר ריק אם אין ברצונך לשנות)"
+    current_password_hint: "(אנחנו צריכים את הסיסמה הנוכחית שלך כדי לאשר את השינויים שלך)"
     cancel:
-      title: "Cancel my account"
-      hint: "Unhappy?"
-      button: "Cancel my account"
+      title: "בטל את החשבון שלי"
+      hint: "לא שמח?"
+      button: "בטל את החשבון שלי"
   user_level:
-    completed: "Completed"
-    tried: "Tried"
+    completed: "הושלם"
+    tried: "נוסה"
   user_stats:
-    recent_activity: "Recent activity"
+    recent_activity: "פעילות אחרונה"
     show_more: "הצג יותר"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "או אם אתה כבר רשום, %{link}"
+    student_reg_link: "תלמיד"
+    teacher_reg_link: "מורה"
     teacher_dashboard: "לראות התקדמות לוח המחוונים"
-    teacher_student_count_one: "You have %{count} student."
-    teacher_student_count: "You have %{count} students."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    teacher_student_count_one: "יש לך %{count} תלמיד."
+    teacher_student_count: "יש לך %{count} תלמידים."
+    teacher_averages: "בממוצע, התלמידים שלך הרוויחו %{trophy_average} פרסים, מתוך %{trophy_max} אפשריים."
     classroom: "הכיתה שלך"
     student_progress: "התקדמות הלמידה שלך"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
+    student_stats: "הרווחת %{trophy_count} פרסים מתוך %{trophy_max} אפשריים."
     student_left_off: "היכן שהפסקתם:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
     local_school: 'בה"ס מקומי'
@@ -241,7 +244,7 @@
     feedback: "משוב"
     translate: "עזרו לנו לתרגם לשפתך"
     tos: "תנאי השירות"
-    privacy: "Privacy Policy"
+    privacy: "הצהרת פרטיות"
   prize_mail:
     prize_earned:
       subject: "Redeem your prize at Code.org!"
@@ -255,12 +258,12 @@
   video:
     tab: "וידאו."
     notes: "אין וידאו? הצג הערות."
-    autoplay_option: "Autoplay videos"
-    download: "Download Video"
+    autoplay_option: "הפעלה אוטומטית של סרטונים"
+    download: "הורד סרטון"
   compatability:
     working: "אנחנו עובדים על תמיכה עבור הדפדפן שלך."
     upgrade: "אנא שדרג את הדפדפן."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_stage: "Finished! Continue to next stage"
-  download_pdf: "Open Lesson Plan"
+  slow_loading: "זה לוקח זמן רב מהרגיל..."
+  try_reloading: "נסה טעינה מחדש של הדף"
+  next_stage: "סיימת! המשך לשלב הבא"
+  download_pdf: "שיעור פתוח"

@@ -143,7 +143,7 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Привет, я Брина, инженер в Instagram. Процедура это определённые строки кода, который вы хотите использовать многократно, в результате, вместо написания этого кода каждый раз, вы можете просто использовать один блок."
       2:
         image: "notes/stage13_2.jpg"
         text: "Теперь мы научимся различать функции. Функции имеют звезду в уголке, а имя функции написано на верхней планке."

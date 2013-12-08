@@ -35,11 +35,11 @@
         Unplug1: "Perkenalan ilmu komputer"
         Maze: "Labirin"
         Unplug2: "Berpikir secara komputasi"
-        Unplug3: "Kertas grafik pemrograman"
+        Unplug3: "Pemrograman grafis diatas kertas"
         Artist: "Artis"
         Unplug4: "Algoritma"
         Artist2: "Artis 2"
-        Unplug5: "Functions"
+        Unplug5: "Fungsi"
         Farmer: "Petani"
         Unplug6: "Kondisi"
         Artist3: "Artis 3"
@@ -72,21 +72,21 @@
     level:
       instructions:
         maze_2_2: 'Dapatkah Anda membantu saya untuk menangkap babi yang nakal? Tumpukkan beberapa blok "maju" dan tekan "Jalankan Program" untuk membantu saya. '
-        maze_2_1: "Babi ini mengganggu saya. Ayo bantu saya untuk menemukan dia!"
-        maze_2_2_5: "Telusuri jalan dan bawa saya ke babi yang konyol itu. Hindari TNT kalau tidak bulu-bulu akan beterbangan!"
-        maze_2_3: "Bantu saya untuk mencapai si hijau nakal! (Hati-hati TNT)"
-        maze_2_4: "Tetaplah tenang dan bantu saya untuk menangkap babi nakal itu. Kalau tidak saya akan marah!"
+        maze_2_1: "Babi ini mengganggu saya. Ayo bantu saya untuk menangkapnya!"
+        maze_2_2_5: "Bawa saya menelusuri jalan menuju babi nakal itu. Hindarilah TNT kalau tidak bulu-bulu akan beterbangan!"
+        maze_2_3: "Bantu saya untuk mencapai si babi hijau nakal! (Hati-hati ada TNT)"
+        maze_2_4: "Tetap tenang dan bantu saya untuk menangkap si babi nakal itu. Kalau tidak saya akan marah!"
         maze_2_5: "Ada cara untuk mendapatkan babi hijau hanya dengan menggunakan 2 blok. Apakah anda bisa menemukannya?"
-        maze_2_6: "Cobalah bantu saya mencapai si penyusup hijau dengan menggunakan hanya tiga blok."
-        maze_2_7: 'Bantu saya mengasingkan si babi nakal ini dengan menggunakan blok sesedikit mungkin. Cobalah gunakan lebih dari satu blok "Ulangi".'
+        maze_2_6: "Cobalah bantu saya menangkap si babi hijau dengan menggunakan hanya tiga blok."
+        maze_2_7: 'Bantu saya menangkap si babi nakal ini dengan menggunakan blok sesedikit mungkin. Cobalah gunakan lebih dari satu blok "Ulangi".'
         maze_2_8: 'Untuk menyelesaikan problem ini, coba blok "ulangi" (repeat) dengan 3 blok didalamnya: gerak, gerak, belok.'
         maze_2_9: 'OK, cobalah blok "Ulangi sampai" - blok ini akan mengulangi sampai saya mencapai si babi yang menjengkelkan itu.'
         maze_2_10: "Ayo coba lagi! Apakah anda dapat menyelesaikan yang satu ini dengan hanya 4 blok?"
         maze_2_11: "Halo manusia. Saya zombie. Saya lapar. Harus... ambil... bunga matahari... Anda bisa membawa saya hanya dengan 5 blok?"
-        maze_2_12: "OK, yang satu ini sedikit berbeda. Bisakah anda lakukan= hanya menggunakan 5 blok?"
+        maze_2_12: "OK, yang satu ini sedikit berbeda. Bisakah anda lakukan hanya dengan 5 blok?"
         maze_2_13: 'Gunakan blok baru "jika" (If) untuk membiarkan saya memutuskan kapan untuk membelok. Tips: Anda hanya perlu menambahkan satu blok, tapi pelajari bagaimana kami mengatur blok-blok tersebut sehingga lain kali anda bisa melakukannya sendiri.'
         maze_2_14: 'OK, ini seperti teka-teki yang terakhir, tetapi anda harus ingat bagaimana menggunakan blok "jika" (if) dan blok "ulangi" (repeat) bersama-sama.'
-        maze_2_15: 'Saya ingin bunga matahari! Gunakan blok "jika" (if) untuk menggerakkan saya kesana dengan jumlah blok sesedikit mungkin.'
+        maze_2_15: 'Saya ingin bunga matahari! Gunakan blok "jika" (if) untuk menggerakkan saya kesana dengan blok sesedikit mungkin.'
         maze_2_16: "OK, ayo coba lagi! Yang ini tidak jauh berbeda, tapi hati-hati dengan bunga pemakan daging!"
         maze_2_17: 'Blok "jika tidak" (if-else) akan memeriksa kondisi, lalu  melakukan satu hal atau hal yang lain. Untuk membantu saya mendapatkan bunga matahari cobalah gunakan blok baru.'
         maze_2_18: 'Cobalah sekali lagi praktekkan blok "jika tidak" (if-else), bisakah Anda mendapatkannya jawaban yang benar pada percobaan pertama?'
