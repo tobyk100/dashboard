@@ -219,6 +219,15 @@ SQL
     self.user_type == TYPE_TEACHER
   end
 
+  # this method will eventually return a per-user value based on an async process of
+  # marking each user in the db after checking their first sign-in IP
+
+  # this method should not be used for displaying or claiming prizes - only used as a quick
+  # check to decide whether or not to hide UI elements from the pages
+  def show_prize_ui?
+    true
+  end
+
   def locale
     read_attribute(:locale).try(:to_sym)
   end

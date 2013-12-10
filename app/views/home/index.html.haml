@@ -25,7 +25,7 @@
           = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
             = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
         - else
-          = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_path), online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
+          = raw t(current_user.show_prize_ui? ? 'home.student_finished_prize' : 'home.student_finished', prize_link: link_to(t('prize'), my_prizes_path), online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
         %br/
         %br/
         - if !current_user.teacher? && current_user.teachers.length == 0
