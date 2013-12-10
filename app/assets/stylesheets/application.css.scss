@@ -664,6 +664,10 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   }
 }
 
+#last #left_off {
+  display: inline-block;
+}
+
 // Tabs
 
 .video-modal {
