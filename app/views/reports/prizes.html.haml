@@ -59,7 +59,7 @@
     = render partial: 'shared/choose_prize', locals: { prize_collection: Prize, prize_type: 'student' }
   %div{style:"clear:left;"}
     %br/
-    = raw t('redeem_prizes.student_finished', online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
+    = raw t('redeem_prizes.student_finished', online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
 - else
   %h4= t('redeem_prizes.msg.not_earned_title')
   = t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)

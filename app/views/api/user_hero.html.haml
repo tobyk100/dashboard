@@ -19,7 +19,7 @@
         = form_tag(build_script_level_url(script_level), method: 'get', style: "display:inline;") do
           = submit_tag t('continue'), name: nil, class: 'btn btn-primary button-continue', id: 'continue_button'
       - else
-        = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_url), online_link: link_to(t('home.online'), 'http://code.org/learn2/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn2/local'))
+        = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_url), online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
 
   - if teacher
     #clearboth{ style: 'clear:both;' }
