@@ -39,8 +39,9 @@
         %br/
         = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherBonusPrize, prize_type: 'teacher_bonus' }
     - else
-      %h4= sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
-      = sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
+      - # Remove two lines of comments when DonorsChoose is public
+      - # %h4= sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
+      - # = sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
     %div{style:"clear:left;"}
   %hr/
 %h4 #{t('home.student_progress')}:
