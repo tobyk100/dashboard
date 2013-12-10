@@ -122,7 +122,7 @@
     success: "Il premio è stato succesfully redento, vedere il codice riportato di seguito."
     error: "Il premio non poteva essere redento, riprovare."
     error_us_only: "L'offerta del premio vale solo per gli utenti degli Stati Uniti."
-    no_prizes_available: "Siamo spiacenti, ma non abbiamo attualmente nessun premi disponibili."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Si prega di confermare"
       "no": No
@@ -149,13 +149,14 @@
       not_earned_title: "Terminare il tutorial, e guadagna premi (solo per gli studenti degli Stati Uniti)"
       not_earned: "Impara tutti i concetti dell'informatica, raccogliere tutti %{num_trophies} trofei e guadagnare premi reali. È possibile scegliere tra una carta regalo iTunes di $10, 10GB di spazio di archiviazione gratuito Dropbox, 10 dollari in crediti Skype, e giochi liberi da scaricare. Nota: offerta valida solo per gli studenti degli Stati Uniti e solo fino ad esaurimento merce."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: |-
+          Per premiare I primi isegnanti di informatica, puoi guadagnare fino a $1.000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> crediti per guidare un'aula attraverso il corso di introduzione di K-8. Per qualificarsi, avete bisogno di ospitare con successo un'aula di almeno 15 studenti attraverso l'intero corso di K-8 intro, con tutti i 15 alunni (o più) completando tutti i tutorial e guadagnando tutti i %{num_trophies} trofei. Se 7 o più studenti che guadagnano tutti i trofei sono ragazze, la vostra ricompensa è $1.000 in crediti <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>.Altrimenti, la vostra ricompensa è $750 in crediti <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> crediti possono essere utilizzati solo dagli insegnanti nelle scuole pubbliche degli Stati Uniti.
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          not_earned: 'Se almeno 7 dei tuoi studenti che guadagnano tutti i %{num_trophies} trofei sono ragazze, la tua ricompensa è un ulteriore $250 in crediti <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> crediti possono essere utilizzati solo dagli insegnanti nelle scuole pubbliche degli Stati Uniti.'
   crud:
     new_model: "Nuovo %{model}"
     show: "Visualizza"
@@ -188,7 +189,7 @@
       puzzle_map: "Fasi"
       prizes: "Colleziona tutti i %{total_trophies} trofei e vinci premi!"
       prize_earned: "Tutti i %{total_trophies} trofei raccolti }. Premio vinto!"
-      prize_us_only: "(U.S. students only)"
+      prize_us_only: "(Solo per gli studenti degli Stati Uniti)"
       prizes_link: "più informazioni"
   teacher:
     title:
@@ -214,11 +215,11 @@
     recent_activity: "Attività recenti"
     show_more: "Mostra altro"
   home:
-    signin_message: "Or if you're already registered, %{link}"
-    student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    signin_message: "o se sei già registrato, %{link}"
+    student_reg_link: "Studente"
+    teacher_reg_link: "Insegnante"
     teacher_dashboard: "Vedi la dashboard dei progressi"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "Hai %{count} studenti."
     teacher_student_count: "Hai %{count} studenti."
     teacher_averages: 'In media i tuoi studenti hanno guadagnato %{trophy_average} trofei su %{trophy_max} in "Padronanza del concetto".'
     classroom: "La tua aula"
@@ -235,11 +236,11 @@
     none: "Preferisco non rispondere"
   footer:
     help_from_html: 'Gli ngegneri di <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> e <a href="http://www.twitter.com"> Twitter</a> hanno contribuito a creare questo tutorial.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
+    art_from_html: 'Uccelli Arrabbiati&trade; & &copy; 2009-2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Tutti i diritti riservati. <br/> Piante vs Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc</a>.Tutti i diritti riservati.'
     feedback: "Fornisci un feedback"
     translate: "Aiutaci a tradurre nella tua lingua"
     tos: "Termini di servizio"
-    privacy: "Privacy Policy"
+    privacy: "Informativa sulla privacy"
   prize_mail:
     prize_earned:
       subject: "Redimere il tuo premio presso Code.org!"
@@ -254,11 +255,11 @@
     tab: "Video."
     notes: "Nessun video? Mostra le note."
     autoplay_option: "Avvia automaticamente il video"
-    download: "Download Video"
+    download: "Scarica Video"
   compatability:
     working: "Stiamo lavorando sul supporto per il tuo browser."
     upgrade: "Si prega di aggiornare il browser."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_stage: "Finished! Continue to next stage"
-  download_pdf: "Open Lesson Plan"
+  slow_loading: "Sta prendendo più tempo del solito..."
+  try_reloading: "Provate a ricaricare la pagina"
+  next_stage: "Finito! Continuare alla fase successiva"
+  download_pdf: "Apri Piano di lezione"

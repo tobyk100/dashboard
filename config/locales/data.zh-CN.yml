@@ -157,10 +157,7 @@
         maze_karel_debug_seq_1: "欢迎来到代码调试环节！我的代码不能正常工作。你能研究并且解决一下这个问题吗？我想要把地面铲平以便种植作物。"
         maze_karel_debug_seq_2: "这段程序错在哪里？你应该怎么修改才能让我移除那块土堆？"
         maze_karel_debug_repeat: "帮我调试一下这段程序。我希望我的地看起来很平整。"
-        maze_karel_debug_while: |
-          怎么修改这段程序才能帮我填上这个洞？
-          
-          
+        maze_karel_debug_while: "怎么修改这段程序才能帮我填上这个洞？"
         maze_karel_debug_if: "求助！请调试这段程序使得我的地完全平整。"
         maze_karel_debug_if_else: "请调试这段程序，使得我能把洞填上并且移除所有的土堆。"
         maze_karel_debug_function_1: "你应该怎么修改这段程序才能够帮我移除所有的土堆呢？"

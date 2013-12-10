@@ -4,26 +4,26 @@
       name:
         20-hour:
           desc: "Ala-asteen johdanto tietojenkäsittelyyn"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "Vaihe 1"
+          Maze: "Vaihe 2"
+          Unplug2: "Vaihe 3"
+          Unplug3: "Vaihe 4"
+          Artist: "Vaihe 5"
+          Unplug4: "Vaihe 6"
+          Artist2: "Vaihe 7"
+          Unplug5: "Vaihe 8"
+          Farmer: "Vaihe 9"
+          Unplug6: "Vaihe 10"
+          Artist3: "Vaihe 11"
+          Unplug7: "Vaihe 12"
+          Farmer2: "Vaihe 13"
+          Unplug8: "Vaihe 14"
+          Artist4: "Vaihe 15"
+          Unplug9: "Vaihe 16"
+          Farmer3: "Vaihe 17"
+          Unplug10: "Vaihe 18"
+          Artist5: "Vaihe 19"
+          Unplug11: "Vaihe 20"
         Hour of Code:
           desc: "Kooditunti"
           Maze: "Vaihe 1"
@@ -39,7 +39,7 @@
         Artist: "Taiteilija"
         Unplug4: "Algoritmit"
         Artist2: "Taiteilija 2"
-        Unplug5: "Functions"
+        Unplug5: "Funktiot"
         Farmer: "Maanviljelijä"
         Unplug6: "Ehtolausekkeet"
         Artist3: "Taiteilija 3"
@@ -78,60 +78,56 @@
         maze_2_4: "Ihan rauhallisena nyt. Auta minut pahan possun luo, muuten suutun!"
         maze_2_5: "Löytyy ainakin yksi tapa, jolla pääsen possun luo vain kahta lohkoa käyttäen. Keksitkö mikä se on?"
         maze_2_6: "Yritä saada minut vihreän tunkeilijan luo käyttäen vain kolmea lohkoa."
-        maze_2_7: 'Auta minua hävittämään tämä paha possu käyttäen pienintä määrää lohkoja. Yritä käyttää enemmän, kuin yhtä "toista" lohkoa.'
-        maze_2_8: 'Ratkaistaksesi tämän thetävän, käytä "toista" lohkoa, jossa on sisällä nämä 3 lohkoa: liiku, liiku, käänny.'
-        maze_2_9: 'Noniin, kokeile nyt uutta "toista kunnes" lohkoa - se toistaa asioita niin kauan, kunnes saavutan tuon ärsyttävän possun.'
+        maze_2_7: 'Auta minua hävittämään tämä paha possu käyttäen pienintä määrää lohkoja. Yritä käyttää enemmän, kuin yhtä "toista"-lohkoa.'
+        maze_2_8: 'Ratkaistaksesi tämän thetävän, käytä "toista"-lohkoa, jossa on sisällä nämä 3 lohkoa: liiku, liiku, käänny.'
+        maze_2_9: 'Noniin, kokeile nyt uutta "toista kunnes" -lohkoa - se toistaa asioita niin kauan, kunnes saavutan tuon ärsyttävän possun.'
         maze_2_10: "Noniin, viimeinen harjoitus - pystytkö ratkaisemaan tämän tehtävän käyttäen vain neljää lohkoa?"
         maze_2_11: "Hyvä henkilö. Minä zombi. Minä nälkä. Pakko... saada... auringonkukka... Saatko minut sinne käyttäen vain viittä lohkoa?"
         maze_2_12: "OK, tämä on samankaltainen, mutta hieman erilainen. Pärjäätkö viidellä lohkolla?"
-        maze_2_13: 'Käytä uutta "jos" lohkoa päättämään, milloin käännyn. Vihje: tarvitset vain yhtä toista lohkoa, mutta opettele nyt miten me teimme sen, jotta osaat itse seuraavalla kerralla.'
-        maze_2_14: 'Hyvä! Tämä on ihan kuin edellinen pulma, mutta nyt sinun pitää itse muistaa, miten "jos" lohkoa ja "toista" lohkoa käytettiin yhdessä.'
-        maze_2_15: 'Tahtoo auringonkukan! Käytä "jos" lohkoa viedäksesi minut sinne käyttäen mahdollisimman pientä määrää lohkoja.'
+        maze_2_13: 'Käytä uutta "jos"-lohkoa päättämään, milloin käännyn. Vihje: tarvitset vain yhtä "toista"-lohkoa, mutta opettele nyt miten me teimme sen, jotta osaat itse seuraavalla kerralla.'
+        maze_2_14: 'Hyvä! Tämä on ihan kuin edellinen pulma, mutta nyt sinun pitää itse muistaa, miten "jos"-lohkoa ja "toista"-lohkoa käytettiin yhdessä.'
+        maze_2_15: 'Tahtoo auringonkukan! Käytä "jos"-lohkoa viedäksesi minut sinne käyttäen mahdollisimman pientä määrää lohkoja.'
         maze_2_16: "Harjoitellaanpa samaa uudestaan - tämä ei kyllä ole kovin vaikea, mutta varo ahmijoita!"
-        maze_2_17: '"Jos - muuten" lohko tarkistaa ehtolausekkeen ja sitten tekee yhden TAI toisen asian. Viedäksesi minut auringonkukan luo, kokeile käyttää tätä uutta lohkoa.'
-        maze_2_18: 'Vielä yksi harjoitus "Jos - muuten" lohkolla. Saatko sen oikein heti ensimmäisellä yrityksellä?'
+        maze_2_17: '"Jos - muuten" -lohko tarkistaa ehtolausekkeen ja sitten tekee yhden TAI toisen asian. Viedäksesi minut auringonkukan luo, kokeile käyttää tätä uutta lohkoa.'
+        maze_2_18: 'Vielä yksi harjoitus "Jos - muuten" -lohkolla. Saatko sen oikein heti ensimmäisellä yrityksellä?'
         maze_2_19: "Pystytkö lisäämään vain kolme uutta lohkoa ratkaistaksesi tämän monimutkaisemman sokkelon? Jos teet sen oikein, pystyn kulkemaan kiemurtelevan polun riippumatta sen pituudesta."
         turtle_1_1: "Hei, olen taiteilija. Voit kirjoittaa koodia, joka saa minut piirtämään melkein mitä tahansa. Käytä muutamaa lohkoa saadaksesi minut piirtämään kuvan harmaiden viivojen yli."
-        turtle_1_2: 'Nyt piirrä neliö. HUOM: käytä lempiväriäsi valitsemalla "aseta väri" lohko.'
+        turtle_1_2: 'Nyt piirrä neliö. HUOM: käytä lempiväriäsi valitsemalla "aseta väri" -lohko.'
         turtle_1_3: "Tee neliö käyttäen vain kolme lohkoa."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
+        turtle_1_4: |
+          Piirrä kolmio, jonka sivut ovat kaikki eri värisiä. Käytä "satunnainen väri" -toimintoa valitsemaan kunkin sivun väri.
+          Vihje: "sinun täytyy keksiä, kuinka paljon kääntyä ja valita oikea luku \"käänny\"-lohkoon."
+        turtle_1_5: "Harjoituksen vuoksi voisit nyt piirtää kirjekuoren käyttäen kolmiota ja neliötä."
+        turtle_1_6: "Keksitkö miten piirtää tämä kolmio ja neliö? Vihje: piirrä kolmio ensin ja sitten keksi miten paljon pitää kääntyä ennen kuin piirrät neliön."
+        turtle_1_7: "OK! Tehdäänpäs sitten jotain hankalampaa: pystytkö piirtämään nämä vihreät lasit? Neliöt ovat 100 kuvapistettä kanttiinsa ja niiden välissä on 50 kuvapistettä. Älä unohda piirtää vihreällä!"
+        turtle_1_8: 'Selvä. Yritähän seuraavaksi selvittää, mitä tapahtuu jos ajat tämän koodin (paina "Suorita" nappia nähdäksesi vastauksen). Sen jälkeen toista sitä niin monta kertaa, että saat kuvan valmiiksi. Väri vaihtuu joka kerta.'
+        turtle_1_9: "Keksitkö, millä numerolla sinun täytyy korvata kysymysmerkki, että saat piirretyksi ympyrän?"
+        turtle_1_10: 'Teit sen! Piirrä nyt mitä vain haluat. Tässä muutama hauska idea: tikku-ukko, lumihiutale tai spiraali. Kokeile myös uutta "aseta leveys" -lohkoa. Pidä hauskaa!'
+        turtle_4_1: 'Osaatko piirtää kolmion (jonka sivut ovat 100 kuvapistettä) käyttäen vain kolmea lohkoa? Vihje: käytä "toista" -lohkoa.'
+        turtle_4_2: 'Kokeile lisätä yksi lohko ratkaistaksesi tämän pulman. Vihje: olet saanut palikat kahteen identtiseen kolmioon. Sinun pitää pistää "käänny" -lohko väliin ja päättää, kuinka paljon kääntyä.'
+        turtle_4_3: 'Selvä! Tässä koodi, jota käytit piirtääksesi kolmion. Voitko lisätä "toista" ja "käänny"-lohkot, joilla se muuttuu hienoksi kukkaseksi?'
+        turtle_4_4: "Tässä on sama koodi, kuin edellisessä pulmassa, mutta se kääntyy vain 36 astetta kunkin kolmion välillä. Kuinka monta kertaa sitä täytyy toistaa? (Vihje: ympyrässä on 360 astetta)"
+        turtle_4_5: "Tässä on sama koodi, kuin edellisessä pulmassa, mutta se toistuu tasan 36 kertaa. Kuinka monta astetta pitää kääntyä toistojen välillä? (Vihje: ympyrässä on 360 astetta)"
+        turtle_4_6: "Käyttäen vain kolmea lohkoa, osaatko piirtää neliön, jonka sivu on 20 kuvapistettä?"
+        turtle_4_7: "Tässä on koodi edellisestä pulmasta. Voitko toistamalla sitä saada aikaan kymmenen vierekkäistä neliötä niin, että ne muodostavat tikapuut? Vihje: tarvitset vain kaksi lohkoa lisää."
+        turtle_4_8: "Tässä on ratkaisu edelliseen pulmaan. Saatko kuvan valmiiksi lisäämällä vain kaksi uutta lohkoa?"
+        turtle_4_9: "Tässä on edellisen pulman vastaus. Kuinka monta astetta sen tulisi kääntyä, jotta kuva tulisi valmiiksi? (Joudut ehkä arvaamaan muutaman kerran)"
+        turtle_4_10: "Tässä on edellisen pulman vastaus. Kuinka monta toistoa siinä täytyy olla, jotta kuva valmistuu?"
+        turtle_4_11: 'Kokeile muutaa numeroita "käänny" ja "toista"-lohkoissa saadaksesi aikaan eri kuvioita. Voit toki tehdä kokeita muullakin osalla koodista ja piirtää mitä vain haluat.'
+        maze_karel_1_1: 'Hei! Minä olen maanviljeliä. Tarvitsen apua maan tasoittamisessa, jotta voin istuttaa siihen kasveja. Siirrä minut maakasan luo ja käytä "poista"-lohkoa poistaaksesi sen.'
+        maze_karel_1_2: 'Seuraavaksi siirrä minut kuopan luo ja täytä se KAHDELLA lapiollisella multaa, käyttäen "täytä"-lohkoa.'
+        maze_karel_1_3: "Siirrä minut maakasan luo ja kerro minulle, montako lapiollista poistaa. Käytä mahdollisimman pientä määrää lohkoja."
+        maze_karel_1_4: "Pystytkö auttamaan minua poistamaan kaikki neljä kasaa? Vihje: käytä toistolohkoa jos voit."
+        maze_karel_1_5: 'Auta minua täyttämään kaikki nämä kuopat viidellä lapiollisella maata. Vihje: voit pistää "toista"-lohkon "niin kauan kuin"-lohkon sisään.'
+        maze_karel_1_6: 'Poista kaikki maakasat käyttäen mahdollisimman pientä määrää lohkoja. Uudet valinnat "niin kauan kuin" -lohkon alasvetovalikossa kertovat minulle seisonko kasan vai kuopan päällä.'
+        maze_karel_1_7: "Mahtavaa, löysit todella syvän montun! En edes tiedä, kuinka monta lapiollista maata sinne menee. Osaatko kirjoittaa ohjelman, joka tasaa sen?"
+        maze_karel_1_8: "Auta minut täyttämään pellon perällä oleva kuoppa käyttäen mahdollisimman pientä määrää lohkoja."
+        maze_karel_1_9: 'Laita minut poistamaan kaikki maakasat. Yritä käyttää mahdollisimman vähän lohkoja. Vihje: käytä "niin kauan kuin" -lohkoa.'
+        maze_karel_1_10: 'Taisi mennä ylitöiksi ja tuli jo pimeä. En osaa enää arvioida, kuinka suuria kasat ovat. Osa valinnoista on poistunut "niin kauan kuin" -lohkosta. Liikuta minua pellolla ja jos löydämme kasan, poista se.'
+        maze_karel_1_11: 'On jo pimeä. Liikuta minua pellolla. Jos osun kasan luo, poista se. Jos tulen kuopalle, täytä se. Vihje: käytä "jos"-lohkon alasvetovalikosta löytyviä ehtoja.'
+        turtle_2_1: "Moro! Mää zombie taitelija. Mää rakastaa piirtämistä! Auta minua piirtämään neliö erikoisella värillä. Tärkeää: sinulla on edelleen käytössä kaikki samat lohkot, mutta nyt ne on järjestetty luokkiin."
+        turtle_2_2: 'Tervetuloa käyttämään funktioita, joiden avulla voit määrittää omia, uusia lohkoja! Kokeile uutta "piirrä neliö" lohkoa, jonka löydät "Funktiot" luokasta ja piirrä sillä 50x50 kuvapisteen vihreä neliö.'
+        turtle_2_3: 'Käytä "toista"-lohkoa (kts. "Silmukat") piirtääksesi 3 kpl 100 kuvapisteen neliötä 120 kuvapisteen välein. Tee se kolmella satunnaisella värillä.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
         turtle_2_5: |-
           Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.

@@ -123,7 +123,7 @@
     success: "Το βραβείο σας εξαργυρώθηκε με επιτυχία, δες τον παρακάτω κωδικό."
     error: "Το βραβείο σας δεν ήταν δυνατόν να εξαργυρωθεί, παρακαλώ προσπαθήστε ξανά."
     error_us_only: "Το βραβείο ισχύει μόνο για χρήστες από τις ΗΠΑ."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Παρακαλώ Επιβεβαιώστε"
       "no": Όχι
@@ -150,13 +150,13 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: "Μάθετε όλες τις έννοιες της επιστήμης υπολογιστών, συλλέξτε όλα τα τρόπαια % {num_trophies}, και να κερδίστε βραβεία του πραγματικού κόσμου. Μπορείτε να επιλέξετε μεταξύ μιας δωροκάρτας iTunes $10 , 10GB ελεύθερου χώρου αποθήκευσης στο Dropbox, $10 σε πιστώσεις στο Skype, και δωρεάν μεταφορτώσεις παιχνιδιών. Σημείωση: η προσφορά ισχύει μόνο για μαθητές των ΗΠΑ, και μόνο όσο χρονικό διάστημα υπάρχουν αποθέματα."
       teacher:
-        earned: "10 ή περισσότεροι μαθητές συγκέντρωσαν όλα τα τρόπαια % {num_trophies}. Έχετε κερδίσει ένα βραβείο δασκάλου των $750! (Μόνο για εκπαιδευτικούς των ΗΠΑ )"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: |-
           Για ανταμειβή των νεοφώτιστων εκπαιδευτικών Πληροφορικής, μπορείτε να κερδίσετε έως και 1.000 $ <a href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεων για την καθοδήγηση μιας από τις τελευταίες τάξεις του δημοτικού σ' αυτό το εισαγωγικό μάθημα. Για να πληρούνται οι προϋποθέσεις, θα πρέπει να οδηγήσετε με επιτυχία μια τάξη τουλάχιστον 15 μαθητών σε όλη την πορεία του εισαγωγικού μαθήματος, με όλους τους 15 μαθητές (ή περισσότερους) να φέρνουν σε πέρας όλα τα σεμινάρια και να κερδίζουν όλα τα τρόπαια %{num_trophies}. Αν 7 ή περισσότεροι από τους μαθητές σας που κέρδισαν όλα τα τρόπαια είναι κορίτσια, η ανταμοιβή σας είναι 1.000 $ σε <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις. Διαφορετικά, η ανταμοιβή σας είναι 750 $ <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεων.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις μπορεί να χρησιμοποιηθούν μόνο από καθηγητές σε δημόσια σχολεία των ΗΠΑ.
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 ή περισσότεροι από τους μαθητές που συνέλεξαν όλα τα τρόπαια %{num_trophies} είναι κορίτσια. Έχετε κερδίσει ένα βραβείο μπόνους 250 $! (Μόνο για εκπαιδευτικούς στις ΗΠΑ)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'Αν τουλάχιστον 7 από τους μαθητές σας που κέρδισαν όλα τα τρόπαια %{num_trophies} είναι κορίτσια, η ανταμοιβή σας  προσαυξάνεται κατά 250 $ σε <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> πιστώσεις μπορεί να χρησιμοποιηθούν μόνο από καθηγητές σε δημόσια σχολεία των ΗΠΑ.'
   crud:
     new_model: "Νέο %{model}"

@@ -43,13 +43,13 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hallo, ich heiße JR! Jedes Autorennen Team braucht Computerspezialisten, die Daten analysieren, um die Autos schneller zu machen."
       2:
         image: "notes/stage5_2.jpg"
         text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Dieser Baustein sagt "Bewege dich 100 Pixel nach vorne". Pixel sind sehr kleine Punkte auf dem Bildschirm.'
       4:
         image: "notes/stage5_4.jpg"
         text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
@@ -157,12 +157,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

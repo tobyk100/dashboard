@@ -36,7 +36,7 @@
         text: "Чтобы сделать более одного действия, можно перетащить несколько блоков в рабочую область и составить их в один набор. Птичка будет выполнять все действия, указанные в командах сверху вниз."
       12:
         image: "notes/hoc1_12.jpg"
-        text: "Если Вы запустили программу, а затем хотите что-то исправит и снова ее запустить, нажмите кнопку «Сброс»."
+        text: "Если Вы запустили программу, а затем хотите что-то исправить и снова ее запустить, нажмите кнопку «Сброс»."
       13:
         image: "notes/hoc1_13.jpg"
         text: "Давайте зададим этим хрюшкам!"
@@ -46,13 +46,13 @@
         text: "Привет, меня зовут JR! Каждой гоночной команде для победы нужен компьютерный специалист. Они анализируют информацию от машин с целью сделать их более быстрыми."
       2:
         image: "notes/stage5_2.jpg"
-        text: "В этой головоломке ты станешь художником, который рисует линию позади них, куда бы они не направлялись."
+        text: "В этой головоломке ты станешь художником, который рисует линию на пути своего движения, куда бы он не направлялся."
       3:
         image: "notes/stage5_3.jpg"
         text: 'В этом блоке написано "двигаться вперед на 100 пикселей". Пиксели - это маленькие точки разных цветов, из которых состоит изображение на твоем мониторе.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Этот блок говорит «повернуть вправо на 90 градусов.» Блок позволит повернуть художника также, как блок "повернуть" в головоломке "Лабиринт".'
       5:
         image: "notes/stage5_5.jpg"
         text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
@@ -72,10 +72,10 @@
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Привет, меня зовут Марк! Давайте узнаем что такое циклы в программировании. С помощью цикла вы можете сказать компьютеру, чтобы он повторил любой набор команд снова и снова, тысячи или даже миллиарды раз."
+        text: "Привет, меня зовут Марк! Давайте узнаем, что такое циклы в программировании. С помощью цикла вы можете сказать компьютеру, чтобы он повторил любой набор команд снова и снова, тысячи или даже миллиарды раз."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "В этой головоломке мы хотим сделать так, чтобы птичка двигалась вперед на 5 клеток пазла и добралась до хрюшки."
+        text: "В этой головоломке мы хотим добиться того, чтобы птичка продвинулась вперед на 5 клеток и добралась до хрюшки."
       3:
         image: "notes/hoc2_3.jpg"
         text: "Мы можем использовать новый блок «повторить», чтобы упростить создание программы."
@@ -158,12 +158,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
@@ -173,7 +173,7 @@
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: 'Привет, я Трина, я работаю в Pixar. Я работала над многими фильмами, в том числе "Шрек".'
       2:
         image: "notes/stage11_2.jpg"
         text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
@@ -186,16 +186,16 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Привет, меня зовут Джанет и я работаю инженером в Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Что делать, если мы хотим нарисовать несколько правильных треугольников, но при этом у каждого из них длины сторон должны быть разными?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Мы могли бы написать этот код вручную или вместо этого использовать функцию с параметрами."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: "Для этого щелкните на голубую звёздочку на определение функции «нарисовать треугольник». Затем перетащите «ввести имя» в блок «ввод»."
       5:
         image: "notes/stage15_5.jpg"
         text: |-
@@ -221,7 +221,7 @@
         text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Технологии изменяют облик всего, что мы делаем и не важно, молод ты или немолод, программирование - это весело, это творчество, и любой может обучиться программированию!"
+        text: "Технологии изменяют всё, чем мы занимаемся, и не важно, молод ты или немолод, программирование - это творческое и занимательное занятие, и ему может обучиться каждый!"
     20_wrapup:
       1:
         image: "notes/bird.png"

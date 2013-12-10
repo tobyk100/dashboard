@@ -43,7 +43,7 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Xin chào, tôi là JR! Mỗi đội xe đua cần các nhà khoa học về máy tính để giành chiến thắng. Họ phân tích dữ liệu từ xe để giúp nó đi nhanh hơn."
       2:
         image: "notes/stage5_2.jpg"
         text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
@@ -165,12 +165,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
@@ -180,7 +180,7 @@
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hi, I 'm Trina, và tôi làm việc cho Pixar. Tôi đã làm việc trên một loạt các phim, trong đó có Shrek."
       2:
         image: "notes/stage11_2.jpg"
         text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
@@ -193,7 +193,7 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hi, tôi là Janete, và tôi là một kỹ sư tại Zynga."
       2:
         image: "notes/stage15_2.jpg"
         text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"

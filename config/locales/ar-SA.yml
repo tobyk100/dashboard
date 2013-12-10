@@ -123,7 +123,7 @@
     success: "تم استرداد جائزتك بنجاح, راجع الكود البرمجي ادناه."
     error: "لم يتم استرداد جائزتك بنجاح, الرجاء المحاولة مرة اخرى."
     error_us_only: "عرض الجائزة صالحة فقط للمستخدمين في الولايات المتحدة."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "الرجاء تأكيد"
       "no": لا
@@ -150,12 +150,12 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: "تعلم جميع مفاهيم علوم الكمبيوتر , اجمع جميع الجوائز%{num_trophies}، واكسب جوائز العالم الحقيقي. يمكنك أن تختار بين بطاقة هدية أي تيونز 10 دولار، 10 كيكا بايت للتخزين المجاني من درو بوكس، 10 دولار رصيد سكايب ، وتحميل العاب مجانية. ملاحظة: العروض فقط صالحة للطلاب في الولايات المتحدة."
       teacher:
-        earned: "10 أو أكثر من الطلاب جمع جميع الجوائز %{num_trophies} لقد فزت بجائزة معلم 750 دولار! (المعلمين في الولايات المتحدة فقط)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'لمكافأة معلمين علوم الكمبيوتر لاول مرة , بأمكانك كسب مكافأة مالية اكثر من 1000 دولار في <a href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات من اجل توجيه الصف الدارسي من خلال اعطاء مقدمة للمستوى المبتدئ والمتوسط , لكي تتأهل يحتاج منك ان تقوم بأستضافة 15 طلاب واعطائهم كورس مقدمة في علوم الكمبيوتر , بعد اكمال الـ 15 طلاب جميع المحاظرات التعليمية سيحصلون على جميع الجوائز %{num_trophies} .اذا كان 7 او اكثر من طلابك الذين يحصلون على جميع الجوائز %{num_trophies} هم من الفتيات , مكافأتك ستصبح 1000 دولار <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> من الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 أو أكثر من الطلاب الذين جمعوا جميع الجوائز %{num_trophies} هم من الفتيات. لقد فزت بجائزة 250 دولار مكافأة! (المعلمين في الولايات المتحدة فقط)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'اذا كان على الاقل 7 من طلابك الذين يحصلون على جميع الجوائز %{num_trophies} هم من الفتيات , مكافأتك ستصبح 250 دولار <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> من الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.'
   crud:
     new_model: "جديد %{model}"

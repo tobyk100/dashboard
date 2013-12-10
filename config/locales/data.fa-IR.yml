@@ -3,7 +3,7 @@
     script:
       name:
         20-hour:
-          desc: "دوره علوم کامپیوتر برای گروه سنی K-8(ابتدایی و راهنمایی)"
+          desc: "معرفی دوره علوم کامپیوتر در مقاطع ابتدایی و راهنمایی"
           Unplug1: "مرحله ۱"
           Maze: "مرحله ۲"
           Unplug2: "مرحله ۳"
@@ -32,14 +32,14 @@
           MazeEC: "مرحله 1"
     game:
       name:
-        Unplug1: "آشنایی با علوم رایانه ای"
-        Maze: "پیچ و خم"
+        Unplug1: "آشنایی با علوم کامپیوتر"
+        Maze: "مارپیچ"
         Unplug2: "تفکر محاسباتی"
         Unplug3: "برنامه نویسی روی کاغذ شطرنجی "
         Artist: "هنرمند"
         Unplug4: "الگوریتم"
         Artist2: "هنرمند 2"
-        Unplug5: "Functions"
+        Unplug5: "توابع"
         Farmer: "کشاورز"
         Unplug6: "شرطها"
         Artist3: "هنرمند 3"
@@ -78,9 +78,9 @@
         maze_2_4: "آرامشتو حفظ کن و به من کمک کن این خوک بد رو پیدا کنم. اگر پیداش نکنم حسابی عصبی میشم!"
         maze_2_5: "یه راه وجود داره که من با ۲ بلوک برسم به این خوک نادون. میتونی راهشو پیدا کنی؟"
         maze_2_6: "من را با استفاده از تها سه بلوک به مانع سبز برسانید."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_7: 'به من کمک کنید تا با کمترین تعداد بلاک این خوک بد را نابود کنم. سعی کنید بیش از یک بلوک "تکرار"  استفاده کنید.'
         maze_2_8: "برای حل این سوال، سعی کن یک جعبه تکرار استفاده کنی که در آن جعبه های حرکت، حرکت و گردش باشد."
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: "خوب! سعی کن از جعبه جدید `تکرار تا` استفاده کنی. تا زمانی که من به خوک سبز برسم اون تکرار میشه."
         maze_2_10: "خب، آخرین بار تمرین - آیا شما می توانید فقط با استفاده از ۴ بلوک این یکی را حل کنید؟"
         maze_2_11: "انسان عزیز.  من خون آشام هستم. من گرسنه هستم. باید... برسم... به آفتاب گردان...  می توانید شما من را برسانید به آنجا فقط با ۵ بلوک؟"
         maze_2_12: "خب، این مشابه است، اما کمی متفاوت. آیا می توانید آن را فقط با ۵ بلوک انجام دهید؟"
@@ -118,26 +118,24 @@
         maze_karel_1_4: "ایا می توانید به من کمک کنید تا این چهار کوه خاک را حذف کنم؟ راهنمایی: اگرمی توانید از بلوک تکراراستفاده کنید."
         maze_karel_1_5: 'به من کمک کنید تا همه این حفره ها را با 5 بیل خاک پر کنم. راهنمایی: می توانید بلوک "repeat" را داخل بلوک "while" قرار دهید.'
         maze_karel_1_6: 'همه کوههای خاک را با استفاده از کمترین تعداد بلوک از بین ببرید. گزینه های جدید در منوی بلوک "while" به من میگوید ایا من بر روی یک کوه خاک یا یک حفره ایستاده ام.'
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
+        maze_karel_1_7: "اوه، من یک چاه پیدا کردم. نمیدونم چند بیل خاک نیاز دارد. میتونید یک برنامه بنویسید که تا همسطح شدن چاه با زمین اون رو پر کنه؟ "
         maze_karel_1_8: "به من کمک کنید تا سوراخی که در انتهای زمین هست را پر کنم, از کمترین تعداد ممکن بلوک استفاده کنید."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
+        maze_karel_1_9: |
+          مجبورم کن تا تمام این توده های کثیفی را پاک کنم. سعی کن تا از کمترین تعداد بلوک ها تا حد ممکن استفاده کنی.
+          تذکر: سعی کن از یک بلوک "while" استفاده کنی.
+        maze_karel_1_10: "من تا دیروقت کار می کنم، به همین خاطر الان تاریک شده است و نمی توانم بگویم توده ها چه اندازه ای هستند. حالا من تمام گزینه هایی که رو بلوک while داشتم را ندارم. من را در امتداد  میدان حرکت بده و اگر توده ای بود آن را پاک کن."
+        maze_karel_1_11: |
+          هنوز بیرون تاریک است. من را در طول میدان حرکت بده. اگر توده ای بود آن را پاک کن و اگر سوراخی بود آن را پر کن.
+          تذکر: از منوی کرکره ای گزینه ها بر روی بلوک "if" استفاده کن.
+        turtle_2_1: "سلام. من هنرمند احمقی هستم. من عاشق نقاشی هستم! به من کمک کن یک چارگوش با یک رنگ خاص رسم کنم. نکته مهم: شما تمام بلوک های مشابه را دارید اما حالا دسته بندی شده اند."
+        turtle_2_2: 'به استفاده از توابع که به شما اجازه می دهند بلوک های جدید را بسازید، خوش آمدید! یک بلوک "رسم یک چارگوش" که در دسته "توابع" می توانید پیدا کنید را جهت رسم یک چارپوش سبز 50 در 50 امتحان کنید.'
+        turtle_2_3: 'با استفاده از بلوک "تکرار" (در دسته "حلقه ها") سه چارگوش با اندازه 100 با زاویه 120 درجه از هم دیگر رسم کنید. این کار را با سه رنگ تصادفی متفاوت انجام دهید.'
+        turtle_2_4: "حالا میخوایم یه کار با حال بکنیم.کد را طوری تغییر بدید که 36 مربع با اندازه 100 پیکسل ساخته بشه و هر کدوم 10 درجه از هم فاصله داشته باشن. نکته: ممکنه برای جرکت سریعتر من به لغزنده (اسلایدر) نیاز پیدا کنید."
+        turtle_2_5: 'مربعهایی با اندازه های 50و60و70و80و90 پیکسل رسم کنید. باید از تابع "رسم یک مربع" 5 مرتبه استفاده کنید.'
+        turtle_2_6: 'خوب، این برنامه برای رسم مربعهایی مانند مربعهای قبلی از یک کانتر استفاده میکنه. شما میخواهید مربعی هم اندازه کانتر رسم کنید بنابراین از بلوک "کانتر" استفاده کنید. نکته: کانتر در طبقه بندی متغیرها قرار دارد.'
+        turtle_2_7: 'این یه برنامه برای رسم مارپیچ هست، اما بلوکها غیرفعال شدن تا نتونن حرکت کنن. با استفاده از یک بلوک " شمارش با" (در دسته بندی لوپها) و یک بلوک "شمارشگر" (در دسته بندی متغیرها) یک برنامه بنویس که عین همون مارپیچ رو رسم کنه.'
+        turtle_2_7_5: "در دسته بندی توابع یک تابع رسم آدم برفی وجود داره. دو تا آدم برفی به ارتفاع 250 و 100 رسم کن."
+        turtle_2_8: 'این یکی یه ذره قلق داره. از توابع رسم آدم برفی و بلوک جدید "بپر جلو" (در دسته بندی اقدامات) استفاده کن. 3 تا آدم برفی با رنگهای مختلف رسم کن که هر کدوم 100 پیکسل از هم فاصله دارن.'
         turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
         turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
         maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
@@ -164,7 +162,7 @@
         turtle_3_9: 'می تونی تابع "draw a house" رو بدون کمک دوباره ایجاد کنی؟ تلاش بکن و بعد یک ردیف از خانه ها رو بکش .'
         turtle_3_10: "خیلی بلد شدی! حالا با دانسته هات هر چیزی که دلت می خواد بکش. مثلا یه ستاره، یا یه مارپیچ یا یه دانه برف خوشگل."
         maze_karel_debug_seq_1: " به اشکال زدایی خوش آمدی! کد من درست کار نمی کند. می تونی محل مشکل رو پیدا و درستش کنی طوری که من بتونم مزرعم رو صاف و آماده برای کاشت کنم؟"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
+        maze_karel_debug_seq_2: "این برنامه چش شده؟ چطوری میتونی درستش کنی تا من موزاییک رو بردارم؟"
         maze_karel_debug_repeat: "اشکال این برنامه را جوری بیابید تا زمینم خوب و صاف شود."
         maze_karel_debug_while: "چگونه میتوانید این برنامه را ویرایش کنید تا به من در پر کردن حفره کمک کنید؟"
         maze_karel_debug_if: "کمک! اشکال برنامه را برطرف کنید تا زمین من کاملا مسطح شود."

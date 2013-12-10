@@ -49,8 +49,8 @@
     overview: "본 20시간 과정은 컴퓨터과학(정보과학)에서의 프로그래밍 기초 개념들을 소개합니다. 유치원~중2(K-8) 학생들을 대상으로 설계되어있지만, 연령에 상관없이 재미있게 배울 수 있습니다."
     no_signup_header: "가입하지 않기"
     no_signup_message: '여러 개의 단계로 이루어진 퍼즐들을 살펴보세요. <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a> 해결한 퍼즐을 저장하려면 가입해야 합니다.'
-    prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_header: "기초개념학습 과정을 완료하는 첫번째 학생은 상품을 받게됩니다.(미국 학생만 해당)"
+    prizes_message: "기초개념학습 트로피(총 %{num_trophies}개)를 모두 얻는 미국 학생은 iTunes 선물 카드, Dropbox 저장공간, Skype 금액, EA 게임, Valve 게임 등 다양한 선물을 받게 됩니다."
     teacher_educator_guide: "교육자 가이드"
     teacher_prize_header: '$1,000 크레딧 상품 받기 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
     teacher_prize_message: 'Code.org 는 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> 과의 제휴를 통해, 본 과정을 완료한 학생들이 10명을 넘는 선생님들에게 학급당 $1,000 크레딧을 제공합니다.'
@@ -122,7 +122,7 @@
     success: "상품을 Redeem 코드로 교환하였습니다. 코드를 확인하세요."
     error: "상품을 Redeem 코드로 교환할 수 없습니다. 다시 시도해 보세요."
     error_us_only: "미국 사용자에게만 상품이 주어집니다."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Redeem 코드 확인"
       "no": 아니요
@@ -146,15 +146,15 @@
       choose: "상품을 선택하세요:"
       choose_teacher: "아래에서 상품 로고를 선택하세요:"
       earned: "상품을 얻었습니다!(미국 학생만 해당)"
-      not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
+      not_earned_title: "기초개념학습 과정을 모두 완료하고, 상품을 받으세요.(미국 학생만 해당)"
       not_earned: "컴퓨터과학(정보과학)의 프로그래밍 관련 기초개념을 배우고, 그와 관련한 트로피를 모두(총  %{num_trophies}개) 모아서 실제로 사용할 수 있는 상품을 받아보세요. $10 정도의 iTunes 기프트카드, 10GB 만큼의 Dropbox 저장용량, $10 만큼의 Skype 요금, 무료 게임 등이 제공됩니다. 주의: 미국 학생들에게만 한정 수량으로 제공됩니다."
       teacher:
-        earned: "트로피를 모두(총 %{num_trophies}개) 모은 학생들이 10명 이상이 되면 $750 상당의 선생님 상품이 주어집니다!(미국 선생님만 해당)"
-        not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        not_earned_title: '학생들과 함께 하고 $1,000(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>) 크레딧을 받으세요.(미국 선생님만 해당)'
         not_earned: '컴퓨터과학(정보과학) 교사들은 학급학생들을 지도해서, 처음에 $1,000 크레딧(<a href="http://DonorsChoose.org">DonorsChoose.org</a>) 까지 얻을 수 있습니다. 그렇게 하려면, 트로피를 모두(총 %{num_trophies}개) 모은 학생들이 15명 이상이 되도록 해야합니다. 그 중 7명 이상이 여학생이어야 합니다. 그런 경우가 아니면 $750 크레딧을 상품으로 받게됩니다. 단, 미국 공립학교 선생님들만 사용할 수 있습니다.'
         bonus:
-          not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: '7명 이상의 여학생이 트로피를 모두(총 %{num_trophies}개) 모으면, 추가적으로 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)이 상품으로 주어집니다.(미국 선생님만 해당)'
+          not_earned_title: '보너스 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)을 받을 수 있습니다.(미국 선생님만 해당)'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: '최소 7명의 여학생이 트로피를 모두(총 %{num_trophies}개) 모으면, 추가적으로 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)이 상품으로 주어집니다. 크레딧은 미국 공립학교 선생님들만 사용할 수 있습니다.'
   crud:
     new_model: "%{model} 만들기"

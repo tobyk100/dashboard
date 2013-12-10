@@ -122,7 +122,7 @@
     success: "Ви успішно отримали приз, дивіться код нижче."
     error: "Ваш виграш не може бути отримано, спробуйте ще раз."
     error_us_only: "Винагорода дійсна лише для користувачів зі США."
-    no_prizes_available: "Ми шкодуємо, але в даний час немає доступних призів."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Будь ласка, підтвердіть"
       "no": Ні
@@ -149,12 +149,12 @@
       not_earned_title: "Пройдіть всі уроки, отримайте нагороди (лише для учнів зі США)"
       not_earned: "Вивчайте всі поняття програмування, зберіть всі %{num_trophies} трофеї та вигравайте справжні призи. Ви можете вибирати між подарунковими картками  iTunes на 10$, 10ГБ дискового простору на Dropbox , кредитами Skype на 10$ чи безкоштовними завантаженнями ігор. ПРИМІТКА: пропозиція дійсна лише для учнів зі США до закінчення призових запасів."
       teacher:
-        earned: "10 чи більше ваших учнів зібрали усі %{num_trophies} трофеї. Ви виграли вчительський приз 750$! (лише вчителі зі США)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Навчайте цілий клас, щоб виграти до 1000$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> (лише для вчителів зі США)'
         not_earned: 'Для винагороди вчителів-початківців, ви можете виграти до 1000$ кредитів <a href="http://DonorsChoose.org">DonorsChoose.org</a> за навчання групи учнів. Для того, щоб претендувати на виграш, вам потрібно провести заняття для принаймні 10 учнів по всьому вступному курсу інформатики, і всі 10 (або більше) учнів мають виконати всі завдання та отримати всі %{num_trophies} трофеїв. Якщо група учнів, які отримають всі трофеї складатиметься принаймні з 40% дівчат, ваша винагорода становитиме 1000$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Інакше, вона становитиме 750$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. Кредити   <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> можуть використовуватись лише вчителями державних шкіл США.'
         bonus:
           not_earned_title: 'Ви можете додатково виграти 250$ кредитів <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> (лише для вчителів зі США)'
-          earned: "7 чи більше ваших учнів, які зібрали усі %{num_trophies} трофеїв є дівчатами. Ви виграли бонусний приз 250$! (лише вчителі зі США)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'Якщо група ваших учнів, які здобули всі %{num_trophies}  трофеїв, складається не менш як з 7 дівчат, ви можете отримати додаткові 250$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> . Кредити  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> можуть використовуватись лише вчителями державних шкіл США.'
   crud:
     new_model: "Нова %{model}"

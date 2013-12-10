@@ -3,7 +3,7 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
+          desc: 'Курс "Введение в информатику"'
           Unplug1: "Этап 1"
           Maze: "Этап 2"
           Unplug2: "Этап 3"
@@ -32,9 +32,9 @@
           MazeEC: "Этап 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Введение в компьютерную науку"
         Maze: "Лабиринт"
-        Unplug2: "Computational Thinking"
+        Unplug2: "Вычислительное мышление"
         Unplug3: "Graph Paper Programming"
         Artist: "Художник"
         Unplug4: "Алгоритмы"
@@ -51,7 +51,7 @@
         Farmer3: "Фермер 3"
         Unplug10: "Интернет"
         Artist5: "Художник 5"
-        Unplug11: "Wrap-up"
+        Unplug11: "Итоги"
         MazeEC: "Лабиринт"
     trophy:
       name:
@@ -61,7 +61,7 @@
     concept:
       description:
         sequence: "Последовательность"
-        if: "блок If"
+        if: "блок если"
         if_else: "блок если-иначе"
         loop_times: 'Блок "повторить несколько раз"'
         loop_until: 'блок "повторять пока не"'
@@ -71,38 +71,37 @@
         parameters: "Процедуры с параметрами"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
-        maze_2_8: 'Чтобы сделать это, попробуйте блок "повторить несколько раз" с 3 блоками внутри него: шагнуть, шагнуть, повернуть.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_2: 'Можешь помочь мне словить непослушную хрюшку? Составь вместе несколько блоков "двигаться вперёд" и нажми "Выполнить Программу". '
+        maze_2_1: "Эта хрюшка меня сильно раздражает. Помоги мне добраться до неё!"
+        maze_2_2_5: "Наметь путь и проведи меня к глупой хрюшке. Избегай взрывчатку, а не то перья полетят!"
+        maze_2_3: "Проведи меня к зелёному чудищу! (Остерегайся взрывчатки)"
+        maze_2_4: "Тихо, помоги мне найти вредную хрюшку. Иначе я могу разозлиться!"
+        maze_2_5: "Есть способ добраться до глупой хрюшки, используя только 2 блока. Догадываешься как?"
+        maze_2_6: "Попробуй довести меня до зелёного пришельца, используя только три блока."
+        maze_2_7: 'Помоги мне прогнать вредного поросёнка, используя как можно меньше блоков. Попробуй использовать блок "повторить" больше одного раза.'
+        maze_2_8: 'Чтобы решить эту задачу, попробуйте блок "повторить несколько раз" с 3 блоками внутри него: шагнуть, шагнуть, повернуть.'
+        maze_2_9: 'Теперь попробуй новый блок "Повторять пока не" - он будет повторять действия,  пока я  не доберусь до надоедливой свиньи.'
         maze_2_10: "Сейчас последняя попытка - ты можешь это сделать, используя только 4 блока?"
-        maze_2_11: "Уважаемый программист. Я зомби. Я голоден. Мне надо ... добраться ... до подсолнечника... Ты можешь отправить меня к нему, используя всего 5 команд?"
-        maze_2_12: "Ладно, это похоже, но несколько по-другому. Можешь сделать это при помощи только 5 блоков?"
+        maze_2_11: "Уважаемый программист. Я зомби. Я голоден. Мне надо ... добраться ... до подсолнечника... Ты можешь отправить меня к нему, используя всего 5 блоков?"
+        maze_2_12: "Ладно, теперь похоже, но несколько по-другому. Можешь сделать, используя всего 5 блоков?"
         maze_2_13: 'Используй новый блок "если", чтобы позволять мне решить, когда повернуть. Подсказка: тебе нужен eщё только один блок, но разберись, как мы его разместим, чтобы ты смог это сделать в следующий раз сам.'
         maze_2_14: 'Хорошо, это похоже на прошлую задачу, но тебе надо запомнить, как ты использовал блоки "если" и "повторить" вместе.'
         maze_2_15: 'Мне хочется подсолнух! Используй блок "если", чтобы привести меня к нему с наименьшим  числом блоков.'
-        maze_2_16: "Ладно, давайте ето ещё сделаем для практике - ето не очень другое, ну остерегайся от непентесов!"
+        maze_2_16: "Ну, поупражняемся ещё? Это не слишком отличается, только берегись зубастиков!"
         maze_2_17: 'Блоки "если-иначе" проверяют условие, потом выполняют одно действие ИЛИ другое. Чтобы довести меня до подсолнуха, попробуй использовать этот новый блок.'
         maze_2_18: 'Ещё один случай для использования блока "если-иначе", сможешь сделать правильно с  первой попытки?'
         maze_2_19: "Ты можешь добавить только 3 блока, чтобы помочь мне пройти более сложный лабиринт? Если ты сделаешь это правильно, я смогу пройти по любому извилистому пути, несмотря на длину."
-        turtle_1_1: "Привет, Я художник. Ты можешь написать код, чтобы я рисовал что угодно. Используй несколько блоков, чтобы я нарисовал  серыми линиями на рисунке."
-        turtle_1_2: 'Теперь нарисуй квадрат. ПРИМЕЧАНИЕ: выбирай и используй свой любимый цвет в новом блоке "установить цвет".'
-        turtle_1_3: "Сделай квадрат, используя только 3 блока."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
+        turtle_1_1: "Привет, я художник. Ты можешь написать код, чтобы я нарисовал что-нибудь. Используй несколько блоков, чтобы я провёл карандашом по  серым линиям."
+        turtle_1_2: 'Теперь нарисуйте квадрат. ПРИМЕЧАНИЕ: используйте свой любимый цвет, выбрав его в новом блоке "установить цвет".'
+        turtle_1_3: "Нарисуйте квадрат, используя только 3 блока."
+        turtle_1_4: 'Нарисуйте треугольник со сторонами разного цвета, используя вставку "случайный цвет", которая выбирает каждый раз новый цвет. Подсказка: вам придётся разобраться с величиной поворота, нажав на число в блоке поворота.'
+        turtle_1_5: "А теперь, чтобы попрактиковаться, нарисуйте треугольник, а затем квадрат, чтобы нарисовать конверт."
+        turtle_1_6: "Вы можете догадаться, как нарисовать эти треугольник и квадрат? Подсказка: Нарисуйте сначала треугольник, затем определите, на какой угол нужно повернуть художника, чтобы нарисовать квадрат."
+        turtle_1_7: "Итак, давайте усложним задачу - посмотрите сможете ли Вы нарисовать эти зелёные очки. Квадраты размером 100 пикселей располагаются друг о друга на расстоянии 50 пикселей. Не забудьте нарисовать зелёным!"
+        turtle_1_8: 'Итак, попробуйте понять, что случится, если выполнить этот код (или нажмите "Запустить программу", чтобы попробовать). Затем повторите код необходимое число раз, чтобы завершить рисунок. Цвета будут разными каждый раз.'
+        turtle_1_9: "Можете ли вы выяснить, на какие числа нужно заменить вопросительные знаки чтоб нарисовать круг?"
+        turtle_1_10: 'Получилось! Теперь рисуй всё, что хочешь. Есть идеи: фигурка, снежинка или спираль. Попробуй также новый блок "установить ширину". Хорошо провести время!'
+        turtle_4_1: 'Можете нарисовать треугольник (со сторонами в 100 точек) , используя только с 3 блока? Подсказка: Используйте блок "повторить" блок.'
         turtle_4_2: |-
           Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
         turtle_4_3: |-
@@ -196,12 +195,12 @@
     video:
       name:
         maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
+        artist_intro: "Художник - Введение"
         farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
+        loop_times: 'Блок "повторить несколько раз"'
         loop_until: 'Блок "повторять, пока не"'
         if: 'Блок "если"'
-        if_else: 'Блок "если/то"'
+        if_else: 'Блок "если/иначе"'
         function: "Процедуры"
         loop_while: 'Блок "пока"'
         loop_for: "Блок счетчика"

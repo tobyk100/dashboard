@@ -8,7 +8,7 @@
       already_authenticated: "Вы уже вошли."
       inactive: "Ваш аккаунт не был активирован."
       invalid: "Неверный адрес электронной почты или пароль."
-      invalid_token: "Invalid authentication token."
+      invalid_token: "Недействительный токен."
       locked: "Ваша учетная запись заблокирована."
       not_found_in_database: "Неверный адрес электронной почты или пароль."
       timeout: "Время сессии истекло, войдите снова, чтобы продолжить."
@@ -22,11 +22,11 @@
       unlock_instructions:
         subject: "Инструкция по разблокированию"
     omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
+      failure: "Проверка в %{kind} не успешна, причина: %{reason}."
+      success: "Проверка в %{kind} успешна."
     passwords:
       no_token: "Вы не можете получить доступ к этой странице, не используя ссылку в письме для изменения пароля. Если Вы пришли по ссылке из этого письма, убедитесь, что использовали ссылку целиком."
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+      send_instructions: "В течение нескольких минут Вы получите письмо с инструкциями о том, как установить новый пароль."
       send_paranoid_instructions: "Если Ваш адрес электронной почты есть в нашей базе данных,  в течение нескольких минут Вы получите ссылку для восстановления пароля."
       updated: "Ваш пароль был успешно изменен. Теперь вы вошли."
       updated_not_active: "Ваш пароль был успешно изменен."
@@ -39,16 +39,16 @@
       update_needs_confirmation: "Вы обновили Ваш аккаунт успешно, но нам нужно проверить Ваш новый адрес электронной почты. Пожалуйста, проверьте свою электронную почту и используйте ссылку для подтверждения Вашего нового адреса."
       updated: "Вы успешно обновили Вашу учетную запись."
     sessions:
-      signed_in: "Signed in successfully."
-      signed_out: "Signed out successfully."
+      signed_in: "Вошли успешно."
+      signed_out: "Вышли успешно."
     unlocks:
-      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      send_instructions: "Через несколько минут Вы получите письмо с инструкцией, как разблокировать Вашу учётную запись."
+      send_paranoid_instructions: "Если Ваша учетная запись существует, Вы в течение нескольких минут получите письмо с инструкциями о том, как её разблокировать."
+      unlocked: "Ваша учётная запись успешно разблокирована. Пожалуйста, войдите, чтобы продолжить."
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      already_confirmed: "подтверждение уже было, пожалуйста, попробуйте войти"
+      confirmation_period_expired: "требуется подтверждение в течение %{period}. Пожалуйста, запросите новый пароль"
       expired: "истек, пожалуйста, запросите новый"
       not_found: "не найден"
       not_locked: "не был заблокирован"

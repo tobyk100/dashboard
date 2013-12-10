@@ -157,12 +157,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
@@ -207,7 +207,7 @@
         text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "现在你可以使用数学块来输入不同的数字来绘制不同大小的三角形。"
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

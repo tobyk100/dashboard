@@ -94,12 +94,12 @@
   welcome_email:
     subject: "הצטרפו לשיעור (Code.org)"
     body: |
-      לחץ על הקישור להלן כדי להירשם לקבלת הדרכות מדעי המחשב ב- Code.org (איתי בתור ה"מורה" שלך): 
+      לחץ על הקישור להלן כדי להירשם לקבלת הדרכות מדעי המחשב ב- Code.org (איתי בתור ה"מורה" שלך):
       
       %{link}
       
-      הלימוד כיפים, מועברים באופן חזותי, ומלמדים את המושגים הבסיסיים של מדעי המחשב באמצעות חוויה פשוטה, מדריכים, משחקי דמוי. 
-      ללמוד קוד מביל גייטס, מארק צוקרברג, כועס ציפורים, וצמחים נגד זומבים! :-) 
+      הלימוד כיפים, מועברים באופן חזותי, ומלמדים את המושגים הבסיסיים של מדעי המחשב באמצעות חוויה פשוטה, מדריכים, משחקי דמוי.
+      ללמוד קוד מביל גייטס, מארק צוקרברג, כועס ציפורים, וצמחים נגד זומבים! :-)
       
       %{name}
   follower:
@@ -127,7 +127,7 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     error_us_only: "הפרס הזה תקף אך ורק לתושבי ארצות הברית."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Please Confirm"
       "no": לא
@@ -154,12 +154,12 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: "למד הכל על רעיונון מדעי המחשב, אסוף את כל %{num_trophies} הפרסים, ותוכל לזכות בפרס בעולם האמיתי. תוכל לבחור בין כרטיס מתנה ב-iTunes על סך 10$, 10 GB חינם ב-Dropbox, תוכל גם לזכות ב-10$ לסקייפ, או משחקים להורדה בחינם. שים לב! ההצעות תקפות אך ורק לתושבי ארצות הברית, עד גמר המלאי."
       teacher:
-        earned: "10 תלמידים או יותר אספו את כל %{num_trophies} הפרסים. אתה זכית ב-750$ בתור פרס-מורה. (מורים בארצות הברית בלבד)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "חדש %{model}"

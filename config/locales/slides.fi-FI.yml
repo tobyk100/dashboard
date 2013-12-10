@@ -3,108 +3,107 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Tervetuloa koodioppitunnille! Sukelletaanpa heti ohjelmoinnin maailmaan."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Käytämme Blocklyä, joka on visuaalinen ohjelmointikieli jossa koodia kirjoitetaan vetämällä ja pudottamalla."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'Yleensä koodi kirjoitetaan, mutta Blockly on visuaalinen. Kaikki palaset vastaavat riviä "oikeata" koodia.'
       4:
         image: "notes/hoc1_4.jpg"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "Opit tietotekniikan perusteet eli käsitteitä, joita käytetään kaikkialla; sovelluksista Mars-mönkijän ohjaamiseen."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "Ohjelma on ohjepaketti, jota tietokoneesi voi seurata."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "Ensimmäisen ohjelmasi tehtävä on ohjata Angry Bird sokkelon läpi ja osua vihreään possuun."
       7:
         image: "notes/hoc1_7.jpg"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "Ohjelmasi pyörii vasemmalla puolella sokkelossa. Jokaisen palapelin ohjeet löytyvät sokkelon alapuolelta."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "Keskimmäinen työkalupakki sisältää Angry Bird -komennot. Näitä käytetään koodisi rakentamiseen."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "Oikealla on työtilasi, johon vedetään palasia työkalupakista ja rakennetaan ohjelmasi. Jos haluat poistaa palasen, vedä se nurkasta löytyvään roskakoriin."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'Jokainen palanen on yksi ohje. Jos vedät "siirrä eteenpäin" -palasen työtilaasi ja painat "suorita ohjelma", lintu liikkuu yhden ruudun sokkelossa.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "Suorittaaksesi enemmän kuin yhden toiminnon, voit vetää monta palasta työtilaasi ja kiinnittää ne toisiinsa. Lintu tekee toiminnot ylhäältä alaspäin."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'Jos suoritat ohjelman ja haluat korjata ja yrittää uudelleen, paina "reset" nappulaa.'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Let's go get those pigs!"
+        text: "Eikun vain possujen kimppuun!"
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hei, olen JR! Kaikki ralliautotiimit tarvitsevat tietojenkäsittelyasiantuntijan voittaakseen. He analysoivat auton tietoja saadakseen sen kulkemaan lujempaa."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Näissä palapeleissä olet taiteilija, joka piirtää viivan niiden taakse, mihin ikinä ne menevätkin."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Tässä palasessa lukee "mene eteenpäin 100 pikseliä". Pikselit ovat pikkiriikkisiä pisteitä näytölläsi.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Tässä palasessa lukee "käänny oikeaan 90 astetta". Se kääntää taitelijaasi saman verran kuin "käännä"-palaset sokkelotehtävissä.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Paina nuolta kummassa vain näistä palasista muuttaaksesi määrää, jonka taiteilija kulkee eteenpäin tai kääntyy. Leikittele hetki tutustuaksesi näihin uusiin palasiin."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hei, olen Paola! Näissä palapeleissä olet maanviljelijä, jonka täytyy saada peltonsa täysin tasaiseksi aloittaakseen istutukset."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Sinun täytyy auttaa häntä poistamaan kaikki multakasat ja täyttämään kaikki kuopat."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "Uudet palaset poistavat yhden lapiollisen multaa kasasta ja täyttävät yhden lapiollisen multaa kuoppaan."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Kasat ja kuopat ovat erikokoisia, joten sinun täytyy kertoa maanviljelijälle kuinka monta lapiollista hänen tulisi käyttää."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: "Hei, olen Mark! Opetellaanpa luuppausta. Luuppauksella voit käskeä tietokonetta toistamaan mitä vain toimintoa uudelleen ja uudelleen, tuhansia tai jopa miljardeja kertoja."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "Tässä palapelissä voimme liikuttaa lintua 5 ruutua eteenpäin osuaksemme possuun."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'Voimme käyttää uutta "toista"-palasta apunamme.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'Sen sijaan että vetäisimme 5 "liiku eteenpäin" -palasta...'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'Voimme laittaa "liiku eteenpäin" -palasen "toista"-palasen sisään ja kirjoittaa numeron palaseen kertoaksemme sille kuinka monta kertaa pitää toistaa.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'Ja tämä on tärkeää: voit laittaa enemmän kuin yhden komennon "toista"-palaseen.'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'Pidä hauskaa uuden "toista"-palasen kanssa!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+        text: 'Hei, olen Chris. Ennen kuin liityin Miami Heatiin, opiskelin tietojenkäsittelyä Georgian teknillisessä oppilaitoksessa. Kokeillaanpa uutta "toista kunnes" -palasta.'
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "Mitä jos emme tietäisi kuinka pitkälle linnun pitäisi liikkua saavuttaakseen possun?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'Jos laitamme "liiku eteenpäin" -palasen "toista kunnes" -palasen sisälle, lintu liikkuu eteenpäin KUNNES se saavuttaa possun (tai törmää seinään).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'Ja tämä on tärkeää: aivan kuin ennenkin, voimme laittaa monta palasta "toista kunnes" -palaseen, niin että ne kaikki toistuvat.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
@@ -165,12 +164,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

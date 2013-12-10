@@ -122,7 +122,7 @@
     success: "Mükafatınızı müvəffəqiyyətlə xərclədiniz, aşağıdakı koda baxın."
     error: "Mükafatınızı xərcləmək mümkün olmadı, lütfən bir də cəhd edin."
     error_us_only: "Mükafat almaq imkanı ancaq ABŞ-dan olan istifadəçilər üçün etibarlıdır."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Zəhmət olmazsa, təsdiq edin"
       "no": Xeyr
@@ -149,12 +149,12 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: 'İnformatikanın bütün əsas anlayışlarını öyrənin, %{num_trophies} qənimətin hamısını toplayın və həqiqi mükafatlar qazanın. Siz 10 dollarlıq "iTunes" həddiyyə kartı, 10GB "Dropbox" yaddaş sahəsi, 10 dollarlıq "Skype" krediti və pulsuz oyun endirmək imkanından birini seçə bilərsiniz. QEYD: təklif yalnız ABŞ-dan olan şagirdlər üçün və yalnız mükafatlar verildiyi müddətdə etibarlıdır.'
       teacher:
-        earned: "10 və ya daha çox şagird %{num_trophies} qənimətin hamısını topladı. Siz 750 dollarlıq bir müəllim mükafatı qazandınız! (yalnız ABŞ-dan olan müəllimlər)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'İlk dəfə informatika müəllimliyi edənləri mükafatlandırmaq üçün bir sinfə K-8 giriş kursunu keçdiyinizə görə siz 1000 dollara qədər <a href="http://DonorsChoose.org">"DonorsChoose.org"</a> krediti qazana bilərsiniz. Bunun üçün siz ən azı 15 şagirddən ibarət bir sinfə müvəffəqiyyətlə bütün K-8 giriş kursunu keçməlisiniz və 15 (və ya daha çox) şagirdin hamısı bütün dərslikləri başa vuraraq %{num_trophies} qənimətin hamısını toplamalıdır. Bütün qənimətləri əldə etmiş şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 1000 dollardır. Əks halda isə mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 750 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "%{num_trophies} qənimətin hamısını toplamış şagirdlərinizdən 7 və ya daha çoxu qızlardır. Siz 250 dollarlıq bonus mükafat qazandınız! (yalnız ABŞ-dan olan müəllimlər)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'Əgər %{num_trophies} qənimətin hamısını toplamış şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə əlavə 250 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
   crud:
     new_model: "Yeni %{model}"
@@ -234,7 +234,7 @@
     female: "Qadın"
     none: "Cavab verməməyə üstünlük verirəm"
   footer:
-    help_from_html: '<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a> və <a href="http://www.twitter.com">Twitter</a>dən olan mühəndislər bu dərsləyi yaratmağa kömək etdilər.'
+    help_from_html: '<a href="http://www.google.com">"Google"</a>, <a href="http://www.microsoft.com">"Microsoft"</a>, <a href="http://www.facebook.com">"Facebook"</a> və <a href="http://www.twitter.com">"Twitter"</a>dən olan mühəndislər bu dərsliyi düzəltməyə kömək etdilər.'
     art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Bütün hüquqları qorunur.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Bütün hüquqları qorunur.'
     feedback: "Rəy verin"
     translate: "Sizin dilinizə tərcümə etməkdə bizə kömək edin"

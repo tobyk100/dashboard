@@ -48,12 +48,12 @@
   signup_form:
     overview: "این دوره 20 ساعته به معرفی مفاهیم اساسی علوم کامپیوتر و برنامه نویسی می پردازد. این دوره برای استفاده در کلاس های درس K-8 (دوره ابتدایی تا پایان دوره راهنمایی)طراحی شده است، اما می تواند برای همه سنین دیگر نیز جالب باشد."
     no_signup_header: "نمی خواهید ثبت نام کنید؟"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    no_signup_message: 'شما می توانید <a target="_blank" href="http://learn.code.org"> فهرست مراحل و پازل های مختلف را بررسی کنید</a>، اما شما نیاز به ثبت نام دارید که  پیشرفت خود را ضبط کنید.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_educator_guide: "به راهنمای معلم مراجعه کنید"
+    teacher_prize_header: '۱۰۰۰ دلار پاداش بگیرید <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
+    teacher_prize_message: 'در همکاری با <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> Code.org تا ۱۰۰۰ دلار بودجه برای کلاس معلمان آمریکایی که رهبری حداقل ۱۰ دانش آموز را از طریق این دوره ارائه خواهد شد.'
     teacher_pitch: "آموزش معرفی K-8 درعلوم کامپیوتر در کلاس درس خودتان"
     teacher_title: "ثبت نام معلم"
     student_pitch: "فراتر از ساعت 1: معرفی K-8 درعلوم کامپیوترما را امتحان کنید"
@@ -120,7 +120,7 @@
     success: "جایزه شما با موفقیت آزاد شد، کد زیر را مشاهده کنید."
     error: "جایزه شما قابل آزاد شدن نیست, لطفا دوباره سعی کنید."
     error_us_only: "پیشنهاد جایزه فقط برای کاربران ایالات متحده اعتبار دارد."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "لطفا تایید کنید"
       "no": نه
@@ -145,15 +145,17 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "شما یک جایزه برنده شدید(فقط دانشجویان مقیم آمریکا)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: |
+        تمامی مفاهیم علوم کامپیوتر را یاد بگیرید,  و برنده تمامی جوایز واقعی و مجازی شوید. شما می توانید بین 10 دولار کارت هدیه ایتیونز (iTunes) و 10 گیگا بایت فضای رایگان در دراپ باکس (Dropbox ) , 10) دلار اعتبار اسکایپ (Skype ) و دانلود بازی مجانی انتخاب کنید.
+        توجه: این پیشنهاد فقط و فقط برای دانشجویان آمریکایی معتبر می باشد و تا زمانی که موجودی آن به اتمام نرسیده باشد معتبر است
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'برای تشویق معلمان علوم کامپیوتر تازه کار شما میتوانید تا ۱۰۰۰ دلار اعتبار از    <a href="http://DonorsChoose.org">DonorsChoose.org</a> برای هدایت کلاس  درس K-8 intro دریافت کنید. برای واجد شرایط شدن شما باید یک کلاس حداقل ۱۵ نفره را هدایت کنید تا دست کم ۱۵ دانش آموز بتوانند با موفقیت تمام دوره K-8 intro را بگذرانند و همشون تعداد  %{num_trophies} غنیمت جمع کنند. اگر حداقل ۷ نفر از دانش آموزانی که تمام غنایم را بدست آوردند دختر بودند پاداش شما در <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>  به ۱۰۰۰ دلار میرسد. در غیر اینصورت پاداش شما در <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> به ۷۵۰ دلار میرسد. اعتبارات  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>  فقط به معلمان مدارس عمومی آمریکا تعلق میگیرد.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          not_earned: 'حداقل ۷ نفر از دانش آموزان شما تمامی  %{num_trophies} غنیمت را برنده شده اندو  شما ۲۵۰ دلار جایزه اضافی در اعتبارات  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> دریافت نمودید. اعتبارات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> فقط مخصوص معلمان مدارس عمومی آمریکا است.'
   crud:
     new_model: "%{model} جدید"
     show: "نمایش"
@@ -252,7 +254,7 @@
     tab: "فیلم."
     notes: "فیلمی نیست؟ نمایش یادداشت ها."
     autoplay_option: "پخش خودکار فیلم ها"
-    download: "Download Video"
+    download: "دانلود ویدیو"
   compatability:
     working: "ما در حال کار بر روی پشتیبانی از مرورگر شما هستیم."
     upgrade: "لطفا مرورگر خود را ارتقا دهید."
