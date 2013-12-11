@@ -21,4 +21,4 @@
         %span{ style: 'color:red'} tried (#{a.attempt}, #{a.test_result})
       #{link_to "#{data_t_suffix('script.name', script.name, sl.level.game.name)}, #{t('puzzle')} #{sl.try(:game_chapter)}", build_script_level_path(sl)}, #{ago(a.created_at)}.
       - if a.level_source
-        See #{link_to("#{a.user.name}'s code", level_source_path(a.level_source_id))}
+        See #{link_to("#{a.user.name}'s code", edit_level_source_path(a.level_source_id))}
