@@ -166,7 +166,7 @@ en:
         text: "Hi, I'm Makinde! Let's learn about the \"while block.\" "
       2:
         image: 'notes/stage9_6.jpg'
-        text: "The \"while block\" will do whatever you put inside it AS LONG AS the statment on the top is TRUE."
+        text: "The \"while block\" will do whatever you put inside it AS LONG AS the statement on the top is TRUE."
       3:
         image: 'notes/stage9_7.jpg'
         text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
