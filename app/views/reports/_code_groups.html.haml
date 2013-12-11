@@ -7,4 +7,4 @@
     - code_summaries.each do |result|
       %tr
         %td= result[1]
-        %td= render partial: 'shared/solution', locals: { xml: result[0], level: level }
+        %td= render partial: 'shared/solution', locals: { level_source_id: result[0], level: level }
