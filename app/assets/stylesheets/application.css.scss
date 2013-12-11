@@ -459,7 +459,13 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   overflow-y: auto;
   display: block;
   padding: 10px;
-  min-height: 508px;
+  min-height: 1100px;
+  
+  .loading {
+    height: 400px;
+    margin: 20px;
+    background: image-url("spinner-big.gif") no-repeat center center;
+  }
 }
 
 .header_popup_footer {
