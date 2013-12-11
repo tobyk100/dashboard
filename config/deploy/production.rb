@@ -16,11 +16,5 @@ server 'dash17.code.org', :app, :web
 server 'dash18.code.org', :app, :web
 server 'dash19.code.org', :app, :web
 server 'dash20.code.org', :app, :web
-server 'dash21.code.org', :app, :web
-server 'dash22.code.org', :app, :web
 server 'dash23.code.org', :app, :web
-server 'dash24.code.org', :app, :web
-server 'dash25.code.org', :app, :web
 server 'dash26.code.org', :app, :web
-server 'dash27.code.org', :app, :web
-server 'dash28.code.org', :app, :web
