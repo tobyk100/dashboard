@@ -38,8 +38,14 @@ module LevelsHelper
   end
 
   def start_blocks(user, level)
-    return initial_blocks(user, level) ?
-      'startBlocks: \'' + initial_blocks(user, level) + '\'' : nil;
+    case
+      when @level_source
+        "startBlocks: '#{@level_source.data}'"
+      when blocks = initial_blocks(user, level)
+        "startBlocks: '#{blocks}'"
+      else
+        nil
+    end
   end
 
   # XXX Since Blockly doesn't play nice with the asset pipeline, a query param

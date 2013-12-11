@@ -7,6 +7,7 @@ Dashboard::Application.routes.draw do
   resources :concepts
   resources :activities
   resources :sections, only: [:new, :create, :edit, :update, :destroy]
+  resources :level_sources, path: '/share/', only: [:show]
 
   devise_for :users, controllers: {
     omniauth_callbacks: 'omniauth_callbacks',

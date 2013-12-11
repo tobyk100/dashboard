@@ -284,3 +284,5 @@ en:
   try_reloading: 'Try reloading the page'
   next_stage: 'Finished! Continue to next stage'
   download_pdf: 'Open Lesson Plan'
+  share_code:
+    title: "Click 'Run program' to see my program in action"
