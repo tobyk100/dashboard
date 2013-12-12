@@ -40,11 +40,6 @@
       containerId: 'blocklyApp',
       baseUrl: '#{blockly_path}',
       cacheBust: '#{blockly_cache_bust}',
-      onReport: function(callback) {
-        if (#{not share}) {
-          callback();
-        }
-      },
       onAttempt: function(report) {
         report.fallbackResponse = #{@fallback_response.to_json};
         report.callback = '#{@callback}';
@@ -88,6 +83,7 @@
         }
       },
       hide_source: #{hide_source},
+      share: #{share},
       level: {
         puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
         stage_total: #{@script ? @script.script_levels_from_game(@level.game_id).length : @level.game.levels.count},
