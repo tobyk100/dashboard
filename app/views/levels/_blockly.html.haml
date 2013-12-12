@@ -75,12 +75,14 @@
       },
       levelId: '#{@level.level_num}',
       showInstructionsWrapper: function(showInstructions) {
-        if ('#{@autoplay_video_info}') {
-          $('.video-modal').on('hidden.bs.modal', function () {
+        if (#{not share}) {
+          if ('#{@autoplay_video_info}') {
+            $('.video-modal').on('hidden.bs.modal', function () {
+              showInstructions();
+            });
+          } else {
             showInstructions();
-          });
-        } else if (#{not share}) {
-          showInstructions();
+          }
         }
       },
       hide_source: #{hide_source},
