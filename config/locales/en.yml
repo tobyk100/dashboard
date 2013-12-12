@@ -144,6 +144,8 @@ en:
     success: 'Your prize was succesfully redeemed, see code below.'
     error: 'Your prize could not be redeemed, please try again.'
     error_us_only: 'The prize offer is only valid for U.S. users.'
+    error_not_earned: 'You have not yet earned this prize.'
+    error_already_redeemed: 'Your prize has already been redeemed.'
     no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: 'Please Confirm'
