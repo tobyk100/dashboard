@@ -12,7 +12,7 @@
 - if @game.app == 'unplug'
   = render partial: "levels/unplug", locals: { app: @game.app }
 - else
-  = render partial: "levels/blockly", locals: { app: @game.app }
+  = render partial: "levels/blockly", locals: { start_blocks: @start_blocks, app: @game.app }
 
 - if Rails.env.production? && request.path == hoc_chapter_path(chapter: 1)
   -# special tracking image to make sure a cookie is set when hoc starts (/hoc/1)

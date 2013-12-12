@@ -37,17 +37,6 @@ module LevelsHelper
     nil
   end
 
-  def start_blocks(user, level)
-    case
-      when @level_source
-        "startBlocks: '#{@level_source.data}'"
-      when blocks = initial_blocks(user, level)
-        "startBlocks: '#{blocks}'"
-      else
-        nil
-    end
-  end
-
   # XXX Since Blockly doesn't play nice with the asset pipeline, a query param
   # must be specified to bust the CDN cache. CloudFront is enabled to forward
   # query params. Always cache bust during development.
