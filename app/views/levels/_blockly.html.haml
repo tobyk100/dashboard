@@ -74,13 +74,13 @@
         return referenceDiv[0];
       },
       levelId: '#{@level.level_num}',
-      showInstructionsWrapper: function(handler) {
+      showInstructionsWrapper: function(showInstructions) {
         if ('#{@autoplay_video_info}') {
           $('.video-modal').on('hidden.bs.modal', function () {
-            handler();
+            showInstructions();
           });
         } else if (#{not share}) {
-          handler();
+          showInstructions();
         }
       },
       hide_source: #{hide_source},
