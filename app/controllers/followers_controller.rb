@@ -128,7 +128,7 @@ SQL
     elsif current_user && @section
       follower_same_user_teacher = current_user.followeds.where(:user_id => @section.user_id).first
       if follower_same_user_teacher.present?
-        follower_same_user_teacher.update_attributes(:section_id => @section.id)
+        follower_same_user_teacher.update_attributes!(:section_id => @section.id)
       else
         Follower.create!(user_id: @section.user_id, student_user: current_user, section: @section)
       end
