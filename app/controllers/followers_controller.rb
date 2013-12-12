@@ -47,6 +47,12 @@ class FollowersController < ApplicationController
         end
       end
     elsif params[:teacher_email_or_code]
+      if params[:teacher_email_or_code].blank?
+        flash[:alert] = I18n.t('follower.error.blank_code')
+        redirect_to root_path
+        return
+      end
+
       target_section = Section.find_by_code(params[:teacher_email_or_code])
       target_user = target_section.try(:user) || User.find_by_email(params[:teacher_email_or_code])
 

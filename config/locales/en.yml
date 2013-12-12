@@ -130,6 +130,7 @@ en:
       username_not_found: 'Username %{username} not found'
       username_in_use: '%{username} is already taken, please pick another'
       no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Join a class with %{teacher_name} at Code.org!"
