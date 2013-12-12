@@ -64,7 +64,7 @@
     %h4= t('add_teacher_form.code_or_email.label')
     = form_for([Follower.new]) do |f|
       .field
-        = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder')
+        = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder'), :required => true
         = hidden_field_tag :redirect, root_path
       .actions
         = f.submit t('add_teacher_form.submit')
