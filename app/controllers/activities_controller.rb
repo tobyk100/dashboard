@@ -7,6 +7,8 @@ class ActivitiesController < ApplicationController
   before_filter :nonminimal, :only => :milestone
 
   before_action :set_activity, only: [:show, :edit, :update, :destroy]
+  
+  MAX_INT_MILESTONE = 2147483647
 
   def milestone_logger
     @@milestone_logger ||= Logger.new("#{Rails.root}/log/milestone.log")
@@ -38,7 +40,7 @@ class ActivitiesController < ApplicationController
           test_result: test_result,
           attempt: params[:attempt].to_i,
           lines: lines,
-          time: params[:time].to_i,
+          time: [[params[:time].to_i, 0].max, MAX_INT_MILESTONE].min,
           level_source: level_source )
 
       user_level = UserLevel.where(user: current_user, level: level).first_or_create
