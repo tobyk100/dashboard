@@ -8,11 +8,11 @@
 - content_for :body_scripts do
   -# Common scripts and styles
   - blockly_path = "#{ActionController::Base.asset_host}/blockly/"
-  %link{href: "#{blockly_path}css/common.css?v=", rel: 'stylesheet', type: 'text/css'}
-  %link{href: "#{blockly_path}css/#{app}.css?v=", rel: 'stylesheet', type: 'text/css'}
+  %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
+  %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
 
-  %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v="}
-  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v="}
+  %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
+  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"}
 
   - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
   - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
@@ -92,7 +92,7 @@
         levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
         other1StarError: '#{escape_javascript(@other1StarError)}',
         tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
-        startBlocks: #{start_blocks}
+        #{("startBlocks: '" + start_blocks + "'") if start_blocks}
       },
       skinId: '#{@level.skin}'
     });
