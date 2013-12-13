@@ -89,7 +89,7 @@ class ApplicationController < ActionController::Base
     end
 
     if options[:level_source]
-      response[:level_source] = "http://" + request.host_with_port + level_source_path(options[:level_source])
+      response[:level_source] = level_source_url(options[:level_source])
     end
 
     response
