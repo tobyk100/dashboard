@@ -87,6 +87,11 @@ class ApplicationController < ActionController::Base
     else
       response[:message] = 'try again'
     end
+
+    if options[:level_source]
+      response[:level_source] = "http://" + request.host_with_port + level_source_path(options[:level_source])
+    end
+
     response
   end
 
