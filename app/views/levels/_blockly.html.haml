@@ -8,12 +8,13 @@
 - content_for :body_scripts do
   -# Common scripts and styles
   - blockly_path = "#{ActionController::Base.asset_host}/blockly/"
-  - unminified = params[:unminified].nil?? '.min' : ''
+  -# If no param, take default
+  - pretty = params[:pretty].nil? && Rails.configuration.pretty_blockly
   %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
   %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
 
   %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
-  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js" + unminified + "?v=#{blockly_cache_bust}"}
+  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js" + (pretty ? '' : '.min') + "?v=#{blockly_cache_bust}"}
 
   - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
   - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
