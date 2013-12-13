@@ -1,3 +1,5 @@
+%head
+  = tag('meta', :property => 'og:image', :content => '/assets/sharing_drawing.png') if @game.app == "turtle"
 - @page_title = t('share_code.title')
 
 %h1= @page_title
