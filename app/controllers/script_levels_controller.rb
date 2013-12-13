@@ -2,6 +2,16 @@ class ScriptLevelsController < ApplicationController
   check_authorization
   include LevelsHelper
 
+  def solution
+    authorize! :show, ScriptLevel
+    @level = Level.find(params[:level_id])
+    source = LevelSource.try(:find_by_id, @level.try(:ideal_level_source_id))
+    @start_blocks = source ? source.data : ''
+    @game = @level.game
+    @share = true
+    render 'level_sources/show'
+  end
+
   def show
     authorize! :show, ScriptLevel
     @script = Script.get_from_cache(params[:script_id])

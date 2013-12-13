@@ -29,7 +29,9 @@ Dashboard::Application.routes.draw do
   end
 
   resources :scripts, only: [], path: '/s/' do
-    resources :script_levels, as: :levels, only: [:show], path: "/level", format: false
+    resources :script_levels, as: :levels, only: [:show], path: "/level", format: false do
+      get 'solution', to: 'script_levels#solution'
+    end
   end
 
   get '/hoc/reset', to: 'script_levels#show', script_id: Script::HOC_ID, reset:true, as: 'hoc_reset'
