@@ -71,7 +71,7 @@ en:
     no_signup_header: "Don't want to sign up?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: 'The first students to complete the course win prizes! (U.S. students only)'
-    prizes_message: 'U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve.'
+    prizes_message: 'U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve.'
     teacher_educator_guide: 'See educator guide'
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
     teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
@@ -159,7 +159,7 @@ en:
       apple_itunes: '$10 iTunes Gift Card'
       donors_choose: 'DonorsChoose.org $750 credit'
       donors_choose_bonus: 'DonorsChoose.org $250 credit'
-      dropbox: '10GB of Dropbox Storage'
+      dropbox: '10GB of Dropbox Space'
       valve: 'Portal 2 (PC or Mac game download)'
       ea_bejeweled: 'Bejeweled 3 (PC game download)'
       ea_fifa: 'FIFA Soccer 13 (PC game download)'
@@ -172,7 +172,7 @@ en:
       choose_teacher: 'Click on the logo below to claim your prize:'
       earned: 'You have earned a prize! (U.S. students only)'
       not_earned_title: 'Finish the tutorial, earn rewards (U.S. students only)'
-      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last.'
+      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last.'
       teacher:
         earned: '10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)'
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
