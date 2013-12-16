@@ -1,11 +1,12 @@
 class ScriptLevelsController < ApplicationController
   check_authorization
+  before_filter :authenticate_user!
   include LevelsHelper
 
   def solution
-    before_filter :authenticate_user!
     authorize! :show, ScriptLevel
     if current_user.teacher? || current_user.admin?
+      @level = Level.find(params[:level_id])
       source = LevelSource.find_by_id(@level.ideal_level_source_id)
       @start_blocks = source ? source.data : ''
       @game = @level.game
