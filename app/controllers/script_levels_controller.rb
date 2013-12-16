@@ -8,6 +8,7 @@ class ScriptLevelsController < ApplicationController
     source = LevelSource.find_by_id(@level.ideal_level_source_id)
     @start_blocks = source ? source.data : ''
     @game = @level.game
+    @full_width = true
     @share = true
     render 'level_sources/show'
   end

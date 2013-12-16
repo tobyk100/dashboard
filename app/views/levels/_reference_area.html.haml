@@ -1,4 +1,8 @@
 .reference_area
+  - if current_user.teacher?
+    .solution_link
+      #{link_to t('reference_area.teacher'), script_level_solution_path(@game, @level)}
+
   - if @videos && !@videos.empty?
     %p.help_title= t('reference_area.title')
     %p.help_subtitle= t('reference_area.subtitle')

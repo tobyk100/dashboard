@@ -275,6 +275,7 @@ en:
   reference_area:
     title: 'Need help?'
     subtitle: 'See these videos and hints'
+    teacher: 'See the solution'
   video:
     tab: 'Video.'
     notes: 'No video? Show notes.'
