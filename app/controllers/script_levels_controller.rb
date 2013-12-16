@@ -3,14 +3,19 @@ class ScriptLevelsController < ApplicationController
   include LevelsHelper
 
   def solution
+    before_filter :authenticate_user!
     authorize! :show, ScriptLevel
-    @level = Level.find(params[:level_id])
-    source = LevelSource.find_by_id(@level.ideal_level_source_id)
-    @start_blocks = source ? source.data : ''
-    @game = @level.game
-    @full_width = true
-    @share = true
-    render 'level_sources/show'
+    if current_user.teacher? || current_user.admin?
+      source = LevelSource.find_by_id(@level.ideal_level_source_id)
+      @start_blocks = source ? source.data : ''
+      @game = @level.game
+      @full_width = true
+      @share = true
+      render 'level_sources/show'
+    else
+      flash[:alert] = I18n.t('reports.error.access_denied')
+      redirect_to root_path
+    end
   end
 
   def show
