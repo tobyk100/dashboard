@@ -5,7 +5,7 @@ class ScriptLevelsController < ApplicationController
   def solution
     authorize! :show, ScriptLevel
     @level = Level.find(params[:level_id])
-    source = LevelSource.try(:find_by_id, @level.try(:ideal_level_source_id))
+    source = LevelSource.find_by_id(@level.try(:ideal_level_source_id))
     @start_blocks = source ? source.data : ''
     @game = @level.game
     @share = true
