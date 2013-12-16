@@ -1,6 +1,6 @@
 class ScriptLevelsController < ApplicationController
   check_authorization
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, :only => [:solution]
   include LevelsHelper
 
   def solution
