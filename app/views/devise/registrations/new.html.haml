@@ -25,9 +25,8 @@
       = t('signup_form.overview')
       = link_to t('signup_form.teacher_educator_guide'), 'http://code.org/educate/20hr', :target => '_blank'
 
-      = # Remove two lines of comments Monday when DonorsChoose is public
-      = # %h4= sanitize(t('signup_form.teacher_prize_header').html_safe, tags: %w(a), attributes: %w(href target))
-      = # = sanitize(t('signup_form.teacher_prize_message').html_safe, tags: %w(a), attributes: %w(href target))
+      %h4= sanitize(t('signup_form.teacher_prize_header').html_safe, tags: %w(a), attributes: %w(href target))
+      = sanitize(t('signup_form.teacher_prize_message').html_safe, tags: %w(a), attributes: %w(href target))
 
       %h2= t('signup_form.teacher_title')
 
