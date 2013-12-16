@@ -14,7 +14,7 @@ class ScriptLevelsController < ApplicationController
       @share = true
       render 'level_sources/show'
     else
-      flash[:alert] = I18n.t('reports.error.access_denied')
+      flash[:alert] = I18n.t('reference_area.auth_error')
       redirect_to root_path
     end
   end
