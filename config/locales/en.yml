@@ -74,7 +74,7 @@ en:
     prizes_message: 'U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve.'
     teacher_educator_guide: 'See educator guide'
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 15 students through this course.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course.'
     teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
     teacher_title: 'Teacher sign up'
     student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
