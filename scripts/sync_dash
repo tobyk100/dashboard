@@ -1,6 +1,28 @@
 #!/usr/local/bin/ruby
 $VERBOSE = true
 
+def there_can_be_only_one_pid(name)
+  pidfile = "/tmp/#{name}.pid"
+  if File.exists?(pidfile)
+    oldpid = File.read(pidfile).to_i
+    # does that process exist?
+    exists = true
+    begin
+      Process.kill(0, oldpid)
+    rescue Errno::ESRCH
+      File.delete(pidfile)
+      exists = false
+    rescue ::Exception   # for example on EPERM (process exists but does not belong to us)
+      exists = true
+    end
+    raise "#{pidfile} => #{oldpid} is running" if exists
+  end
+  File.open(pidfile, "w") { |f| f.puts $$ }
+  at_exit { File.unlink(pidfile) }
+end
+
+there_can_be_only_one_pid("sync_dash")
+
 DIR = '/mnt/backups/'
 
 servers = [5,6,7,8,9,10,11,12,13,14,15,16,17,19,20,23,26].map {|i| "dash#{i}" }
