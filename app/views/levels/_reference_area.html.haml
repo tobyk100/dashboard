@@ -1,5 +1,5 @@
 .reference_area
-  - if current_user.teacher?
+  - if current_user.teacher? && @level.ideal_level_source_id
     .solution_link
       #{link_to t('reference_area.teacher'), script_level_solution_path(@game, @level)}
 
