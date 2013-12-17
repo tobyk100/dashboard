@@ -125,6 +125,23 @@ SQL
     end
   end
 
+def remove_from_section
+  if params[:follower_id]
+    section = Section.find(params[:section_id])
+    raise "not owner of that section" if section.user_id != current_user.id
+    
+    Follower.connection.execute(<<SQL)
+    update followers
+    set section_id = #{section.id}
+    where id in (#{params[:follower_ids].map(&:to_i).join(',')})
+    and user_id = #{current_user.id}
+    SQL
+    redirect_to manage_followers_path, notice: "Updated class assignments"
+    else
+    redirect_to manage_followers_path, notice: "No students selected"
+  end
+end
+
   def student_user_new
     @section = Section.find_by_code(params[:section_code])
 
