@@ -1,7 +1,7 @@
 .reference_area
   - if current_user && (current_user.teacher? || current_user.admin?) && @level.ideal_level_source_id
     .solution_link
-      #{link_to t('reference_area.teacher'), script_level_solution_path(@level.script, @level)}
+      #{link_to t('reference_area.teacher'), script_level_solution_path(@script, @level)}
 
   - if @videos && !@videos.empty?
     %p.help_title= t('reference_area.title')
