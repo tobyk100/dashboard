@@ -65,7 +65,7 @@
         text: "Você tem que ajudá-la a remover todas os montes de sujeira e preencher todos os buracos."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Os novos blocos removem 1 pá de sujeira de uma pilha e preenchem 1 pá de sujeira para um buraco."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "As pilhas e os buracos são de tamanhos diferentes, então você tem que dizer ao fazendeiro quantas pás usar."
@@ -151,7 +151,8 @@
         text: 'Os blocos que vão dentro da definição nos dizem o que ele faz. Então essa definição de função é chamada de "encher 5" e ela é composta de um bloco "repetir" e um bloco "preencher".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'A definição situa-se na área de trabalho, mas o fazendeiro não vai executar a função até nós arrastarmos para fora nosso bloco "função de preenchimento 5" da categoria de funções.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Vamos colocar o "divertimento" em "Função"! '
@@ -161,10 +162,10 @@
         text: 'Oi, eu sou Martins! Vamos aprender sobre o bloco "enquanto". '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'O bloco "enquanto" fará tudo o que você colocar no seu interior, enquanto a instrução na parte superior for VERDADEIRA.'
+        text: 'O bloco "enquanto" fará tudo o que você colocar no seu interior, ENQUANTO a declaração na parte superior for VERDADEIRA.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "Por exemplo, se o fazendeiro está de pé em uma pilha, ela continuará a remover 1 pá enquanto ainda há uma pilha debaixo dele."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

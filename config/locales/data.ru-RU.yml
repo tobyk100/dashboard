@@ -32,10 +32,10 @@
           MazeEC: "Этап 1"
     game:
       name:
-        Unplug1: "Введение в компьютерную науку"
+        Unplug1: "Введение в Информатику"
         Maze: "Лабиринт"
         Unplug2: "Вычислительное мышление"
-        Unplug3: "Graph Paper Programming"
+        Unplug3: "Программирование бумаге в клеточку"
         Artist: "Художник"
         Unplug4: "Алгоритмы"
         Artist2: "Художник 2"
@@ -45,9 +45,9 @@
         Artist3: "Художник 3"
         Unplug7: "Написание песни"
         Farmer2: "Фермер 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Абстракция"
         Artist4: "Художник 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Эстафетное программирование"
         Farmer3: "Фермер 3"
         Unplug10: "Интернет"
         Artist5: "Художник 5"
@@ -61,10 +61,10 @@
     concept:
       description:
         sequence: "Последовательность"
-        if: "блок если"
-        if_else: "блок если-иначе"
+        if: 'Блок "если"'
+        if_else: 'Блок "если/иначе"'
         loop_times: 'Блок "повторить несколько раз"'
-        loop_until: 'блок "повторять пока не"'
+        loop_until: 'Блок "повторять пока не"'
         loop_while: 'блок "пока"'
         loop_for: "Блок счетчика"
         function: "Процедуры"
@@ -102,101 +102,90 @@
         turtle_1_9: "Можете ли вы выяснить, на какие числа нужно заменить вопросительные знаки чтоб нарисовать круг?"
         turtle_1_10: 'Получилось! Теперь рисуй всё, что хочешь. Есть идеи: фигурка, снежинка или спираль. Попробуй также новый блок "установить ширину". Хорошо провести время!'
         turtle_4_1: 'Можете нарисовать треугольник (со сторонами в 100 точек) , используя только с 3 блока? Подсказка: Используйте блок "повторить" блок.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_2: 'Попробуйте добавить один блок, чтобы завершить эту головоломку. Подсказка: вам даны 2 фрагмента, чтобы нарисовать два одинаковых треугольника, вам нужно соединить их блоком "повернуть", выбрав необходимый угол поворота.'
+        turtle_4_3: 'Здесь у нас код, который вы написали, чтобы нарисовать 1 треугольник. Можете добавить блоки "повторить" и "повернуть", чтобы создать красивый цветок?'
+        turtle_4_4: "Это код предыдущей головоломки, но выполняющий поворот только на 36 градусов после каждого треугольника. Сколько раз нужно сделать поворот? (Подсказка: 360 градусов составляют полный круг)"
+        turtle_4_5: "Это код предыдущей головоломки, но выполняющий поворот 36 раз. На сколько градусов должен быть каждый поворот? (Подсказка: 360 градусов составляют полный круг)"
+        turtle_4_6: "Используя только 3 блока, можете нарисовать квадрат со стороной 20 точек?"
+        turtle_4_7: "Это код рисования квадрата из предыдущей головоломки.  Вы можете повторить его 10 раз, чтобы нарисовать лестницу?  Подсказка: вам нужно добавить всего 2 блока."
+        turtle_4_8: "Вы можете добавить всего 2 блока к решению предыдущей головоломки, чтобы выполнить этот рисунок?"
+        turtle_4_9: 'Опять начнём с решения предыдущей головоломки. На сколько градусов нужно поворачивать в конце каждой "лестницы"? (Возможно, вам потребуется несколько попыток)'
+        turtle_4_10: "Вот решение предыдущей головоломки. Сколько раз следует повторить действия для завершения рисунка?"
+        turtle_4_11: 'Попробуйте менять числа в блоках "повернуть" и "повторить", чтобы получить разные рисунки. Или поэкспериментируйте с другими частями кода, чтобы нарисовать что-то, что вам хочется.'
         maze_karel_1_1: 'Привет, я фермер. Мне нужна твоя помощь, чтобы выровнять поле на моей ферме, так чтобы оно было готово для посадки. Передвинь меня к куче грязи и используй блок "удалить", чтобы удалить её.'
-        maze_karel_1_2: 'Затем передвинь меня к дыре и заполни её ДВУМЯ лопатами грязи, используя блок "заливка".'
-        maze_karel_1_3: "Передвинь меня к куче грязи и скажи мне, сколько лопат убрать, используя как можно меньше блоков."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_karel_1_2: 'Теперь передвиньте меня к яме и заполните её ДВУМЯ лопатами земли, используя блок "засыпать".'
+        maze_karel_1_3: "Подведите меня к куче земли и скажите, сколько лопат раскидать, используя как можно меньше блоков."
+        maze_karel_1_4: 'Можете помочь мне раскидать все четыре кучи земли? Подсказка: испоользуйте блок "повторить", если умеете.'
+        maze_karel_1_5: 'Помогите мне засыпать во все ямы по 5 лопат земли. Подсказка: вы можете поместить блок "повторить" внутрь блока "пока".'
+        maze_karel_1_6: 'Раскидайте все кучи земли, используя как можно меньше блоков. Блок "пока" теперь позволяет проверять, нахожусь ли я кучи или рядом с ямой (смотрите меню блока).'
+        maze_karel_1_7: "Ух, я нашла действительно глубокую яму! Я не знаю, сколько лопат земли нужно, чтобы засыпать её. Вы можете написать программу для заполнения ямы до тех пор, пока поверхность не станет ровной?"
+        maze_karel_1_8: "Помогите мне засыпать яму на конце поля, используя как можно меньше блоков."
+        maze_karel_1_9: 'Объясни мне, как разбросать все эти кучи земли. Старайся использовать как можно меньше блоков. Подсказка: попробуй использовать блок "пока".'
+        maze_karel_1_10: 'Я работаю допоздна, уже стемнело, и не могу сказать, насколько велики кучи.  Сейчас у меня нет всех возможностей, которые давал блок "пока". Проведите меня по полю, и если встретится куча - разбросайте её.'
+        maze_karel_1_11: 'По-прежнему темно. Проведите меня по полю. Если встретится куча, разбросайте её, если яма - засыпьте её. Подсказка: используйте меню в блоке "если".'
+        turtle_2_1: "Привет. Я - художник-зомби. Мне нравится рисовать! Помогите мне нарисовать квадрат особым цветом. Важное примечание: у вас те же блоки, что и раньше, но они сейчас организованы в группы."
+        turtle_2_2: "Добро пожаловать в использование процедур, которые позволят вам создавать новые блоки! Попробуйте новый блок «нарисовать квадрат», в группе «Процедуры», чтобы нарисовать небольшой зеленый квадрат размером 50 x 50."
+        turtle_2_3: 'Используйте блоки "повторить" (в группе "Циклы"), чтобы нарисовать случайными цветами 3 квадрата со стороной 100 и поворотом друг от друга 120 градусов.'
+        turtle_2_4: |
+          А теперь давай развлечёмся! Измени код так, чтобы нарисовать 36 квадратов со стороной  100 точек каждый, со смещением 10 градусов один от другого. 
+          Подсказка: используйте ползунок, чтобы я двигался быстрее.
+        turtle_2_5: "Нарисуй квадраты со сторонами 50, 60, 70, 80 и 90 точек.  Используй процедуру «нарисуй квадрат» пять раз."
+        turtle_2_6: "Эта программа будет использовать счетчик, нарисуй такие же квадраты как в прошлый раз. Чтобы квадраты были того же размера, как счетчик, используйте блок «счетчик». Подсказка: Это в категории «переменные»."
+        turtle_2_7: "Вот программа для рисования  спирали, но блоки отключены, так что они не будут работать. Сделайте новую программу, с помощью блока «вычисление  с» (в категории петли) и «вычислитель» (в категории переменных) что бы нарисовать одинаковую спираль."
+        turtle_2_7_5: "Используй процедуру «нарисуй снеговика» (в категории «процедуры»). Нарисуйте двух снеговиков, высотой 250 и 100 точек."
+        turtle_2_8: "А теперь задание посложнее. Используйте функцию «нарисовать снеговика» и новую «перепрыгнуть вперед» (в категории «действия»). Должны получиться 3 снеговика разных цветов, на расстоянии 100 точек друг от друга."
+        turtle_2_9: "Используйте цикл «рассчитать с» что бы нарисовать семью снеговиков  в  высоту 110, 100, 90, 80 и 70. Все снеговики должны находиться на рассотянии 60 пикселей друг от друга."
+        turtle_2_10: "Вот код, чтобы поэкспериментировать с различными спиралями.  Что произойдет, если изменить величину поворота? Или задать случайный цвет в цикле?  Нарисуйте все, что вам нравится."
+        maze_karel_2_1: "Помогите мне разбросать все кучи и засыпать все ямы. Попробуйте использовать циклы вместо большого числа блоков. Подсказка: вы можете поместить цикл внутри другого цикла."
+        maze_karel_2_2: "Мы создали наш собственный блок под названием «засыпать 5», который теперь есть в группе «Процедуры». Используйте его, чтобы помочь мне засыпать эту яму."
+        maze_karel_2_3: 'Используйте новый блок процедуры "засыпать 5", чтобы я засыпала все ямы. Блок нужно взять из группы Процедуры.'
+        maze_karel_2_4: "Создайте новую процедуру, разбрасывающую 7 лопат земли. Потом используйте её, чтобы написать программу, которая позволит мне разбросать все кучи."
+        maze_karel_2_5: "Создайте новую процедуру, которая разбрасывает 6 лопат земли из кучи, и используйте её, чтобы помочь мне удалить все кучи."
+        maze_karel_2_6: 'Используйте две новых процедуры: "засыпать 8" и "разбросать 8", чтобы помочь мне сравнять с землёй кучу и засыпать яму.'
+        maze_karel_2_7: "На моём поле - корова! Напишите новую процедуру, которая позволит мне избежать корову и разбросать кучу. Поместите все нужные блоки внутрь процедуры."
+        maze_karel_2_8: 'Используйте эту новую процедуру: "Избежать корову и раскидать 1", чтобы помочь мне разобраться с кучами.'
+        maze_karel_2_9: "Так, это процедура, которая разбрасывает 4 кучи земли в вертикальном ряду. Попытайся использовать эту процедуру внутри цикла, чтобы разбросать все кучи, используя всего несколько блоков."
+        maze_karel_2_10: "Используйте две этих процедуры, чтобы помочь мне раскидать все кучи и засыпать все ямы."
+        turtle_3_1: 'Эта головоломка показывает, как устроены процедуры "нарисовать квадрат" и "нарисовать окружность".  Чтобы нарисовать квадрат, вам нужно достать блок "нарисовать квадрат".'
+        turtle_3_2: 'Используя процедуру "нарисовать квадрат" как пример, создайте процедуру "нарисовать треугольник" и используйте её.'
+        turtle_3_3: "Нарисуйте треугольные ограждения вокруг кошек и квадратные ограждения вокруг коровы.  Совет: проверяйте программу по мере продвижения вперёд ."
+        turtle_3_4: "Посмотрим, сможете ли вы сообразить, как использовать «нарисовать квадрат» и «нарисовать  треугольник» (и некоторые другие блоки), чтобы нарисовать дом вокруг льва."
+        turtle_3_5: "Теперь создайте новую процедуру «нарисовать дом» и используйте её, чтобы обеспечить  двух кошек жильём. Подсказка: Создайте новую процедуру с помощью блока «выполнить что-то» и введите свой  текст в  названии блока."
+        turtle_3_6: "Используя «нарисуйте квадрат» в качестве примера добавьте ввод с именем «длина» нарисовать «треугольник». Затем нарисуйте треугольники разных размеров. (Подсказка: нажмите на звездочку для добавления ввода к функции)"
+        turtle_3_7: "Добавить ввод с именем «длина», что бы «рисовать дом» и построить большой дом для слона (с краями 150 пикселов длиной)"
+        turtle_3_8: "Здесь есть все блоки из предыдущей головоломки.  Измените «нарисовать дом» так, чтобы после рисования нового дома я оказывался в правом нижнем углу. Используйте эту изменённую процедуру, чтобы нарисовать три дома."
+        turtle_3_9: 'Сможете ли вы самостоятельно переделать процедуру "нарисовать дом"? Попытайтесь, а потом нарисуйте ряд домов.'
+        turtle_3_10: "Вы многое узнали! Теперь используйте ваше знание, чтобы нарисовать то, что вы хотите. Попробуйте, например, нарисовать звезду, спираль или необычную снежинку."
+        maze_karel_debug_seq_1: "Добро пожаловать на отладку! Мой код не работает, как положено. Можете найти ошибку и исправить её, чтобы я смогла выровнять поле для посадки?"
+        maze_karel_debug_seq_2: "Что не так с этой программой? Как вы должны исправить её, чтобы я смог разбросать кучу?"
+        maze_karel_debug_repeat: "Отладьте эту программу для меня, чтобы моё поле стало чистым и ровным."
+        maze_karel_debug_while: "Как вы должны изменить эту программу, чтобы помочь мне засыпать яму?"
+        maze_karel_debug_if: "Помогите! Исправьте программу, чтобы моё поле стало совсем ровным."
+        maze_karel_debug_if_else: "Отладьте эту программу, и я смогу засыпать все ямы и разбросать все кучи."
+        maze_karel_debug_function_1: "Что нужно изменить в этой программе, чтобы помочь мне разбросать все кучи?"
+        maze_karel_debug_function_2: "Вы можете отладить программу, чтобы я смог сделать своё поле ровным?"
+        maze_karel_debug_function_3: "Подправьте эту программу, и я расбросаю все кучи на моём поле. "
+        turtle_5_1: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        turtle_5_2: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        turtle_5_3: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        turtle_5_4: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        turtle_5_5: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        turtle_5_6: "Попробуйте запустить эту программу и внести изменения, чтобы увидеть, что происходит. Вы можете понять, как она работает? (Или удалите её и замените чем-то совсем другим)"
+        maze_3_1: "Мне нужно добраться до хрюшки! Введите пару вызовов двигаться(); и я верну свои яйца."
+        maze_3_2: "Напишите мне программу, чтобы я мог добраться до свиньи."
+        maze_3_3: "Как мне добраться до хрюшки? Позаботьтесь о том, чтобы я не влетел в ящик со взрывчаткой!"
+        maze_3_4: "А-а-а-а! Напишите мне программу, чтобы я обошёл взрывчатку и добрался до свиньи."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Чтобы решить эту задачу, нужно определить повторяющиеся действия. Используйте блок "повторить" с тремя блоками внутри: двигаться, двигаться, повернуть направо.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: "Вам нужен блок «если» внутри блока «повторять». Если не получается, попробуйте вернуться на предыдущий уровень , чтобы увидеть, как это работает."
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Чтобы решить эту задачу, нужно определить повторяющиеся действия. Используйте блок "повторить" с тремя блоками внутри: двигаться, двигаться, повернуть направо.'
     video:
       name:
-        maze_intro: "Maze Intro"
+        maze_intro: "Введение в лабиринт"
         artist_intro: "Художник - Введение"
-        farmer_intro: "Farmer Intro"
+        farmer_intro: "Введение в фермера"
         loop_times: 'Блок "повторить несколько раз"'
         loop_until: 'Блок "повторять, пока не"'
         if: 'Блок "если"'
@@ -205,5 +194,5 @@
         loop_while: 'Блок "пока"'
         loop_for: "Блок счетчика"
         parameters: "Процедуры с параметрами"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        hoc_wrapup: "Завершение Часа кода"
+        20_wrapup: "Завершение 20-часового курса"

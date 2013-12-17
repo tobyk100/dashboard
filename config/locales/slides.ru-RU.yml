@@ -6,7 +6,9 @@
         text: "Добро пожаловать на ваш первый час кода! Приглашаем Вас погрузиться в первый урок программирования."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "Мы будем использовать Blockly, визуальный язык программирования, где для создания программы Вы будете просто перетаскивать специальные блоки."
+        text: |
+          Мы будем использовать Блоки  - визуальный язык программирования.
+          Для создания программы просто перетаскивайте специальные блоки.
       3:
         image: "notes/hoc1_3.jpg"
         text: "Большинство программ состоят из строк кода, но Blockly визуальный язык программирования. Каждый блок - это строка «реального» кода."
@@ -55,7 +57,7 @@
         text: 'Этот блок говорит «повернуть вправо на 90 градусов.» Блок позволит повернуть художника также, как блок "повернуть" в головоломке "Лабиринт".'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Нажмите на стрелку в любом из этих блоков, чтобы изменить количество художников, движущихся вперёд или поворачивающихся. Поиграйте, чтобы ознакомиться с этими новыми блоками."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
@@ -65,7 +67,7 @@
         text: "Ты должен помочь ей раскидать все кучи грунта и закопать все ямы."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Новый блок, раскидывающий одну единицу грунта с кучи и закапывающий одну единицу грунта в яму."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Ямы и кучи имеют различные размеры, так что тебе стоит указать фермеру сколько раз надо будет махать лопатой."
@@ -119,8 +121,7 @@
         text: 'Чтобы написать код для этого случая понадобится перетащить блок "повернуть налево" внутрь блока "если".'
       5:
         image: "notes/hoc4_5.jpg"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: "Теперь если мы ставим  блок, «двигаться вперед» выше  и «повторить» блокв обхватив все , каждый раз, когда зомби движется, он будет проверять , если есть путь налево и повернёт .  Требуется команда «повторить», чтобы проверить поворот на каждом шагу."
       6:
         image: "notes/hoc4_6.jpg"
         text: 'Понятие "если" очень важное в компьютерной сфере. Одной из первых написанных мною программ была игра "крестики-нолики", и она была построена на принципе "если", который блокировал нужную сопернику для победы ячейку, ЕСЛИ противник был близок к победе.'
@@ -139,7 +140,7 @@
         text: 'Также как и с блоком "ЕСЛИ", мы можем поместить блок "ЕСЛИ ИНАЧЕ" внутрь блоков "ПОВТОРЯТЬ", так, чтобы зомби постоянно во время движения с помощью блока "ЕСЛИ ИНАЧЕ" проверял возможность где-нибудь повернуться.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "Теперь отправьте этих зомби туда, где им положено быть!"
     function:
       1:
         image: "notes/stage13_1.jpg"
@@ -149,12 +150,11 @@
         text: "Теперь мы научимся различать функции. Функции имеют звезду в уголке, а имя функции написано на верхней планке."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Блоки внутри процедуры говорят, что процедура делает. Эта процедура называется "засыпать 5" и содержит блоки "повторить" и "засыпать".'
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -166,23 +166,23 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: "Блок «пока» будет делать всё, что вы поместите внутрь него, ПОКА условие наверху ВЕРНО."
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
         text: 'Привет, я Трина, я работаю в Pixar. Я работала над многими фильмами, в том числе "Шрек".'
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: "Это наш новый «цикл по». Он будет выполнять действия снова и снова, и вы можете каждый раз немного менять действия."
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: "В этом примере в нашем «цикле по» сказано: «цикл по счётчику от 50 до 90 с шагом 10», и внутри него есть наш блок «нарисуйте квадрат». Перенесите блок «счётчик» из группы  «Переменные» на место параметра «длина»."
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Это означает, что наш художник собирается рисовать квадрат со стороной 50. Потом он добавит 10 к длине стороны и нарисует квадрат размером 60. ...Так он будет продолжать добавление 10 к длине стороны квадрата до тех пор, пока не достигнет 90. В результате мы получим квадраты размером 50, 60, 70, 80 и 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
@@ -198,31 +198,36 @@
         text: "Для этого щелкните на голубую звёздочку на определение функции «нарисовать треугольник». Затем перетащите «ввести имя» в блок «ввод»."
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: "Тогда, если вы напишете «длина» в том месте, где указано «x» и нажмёте «Enter» - вы создадите ввод значения длины для функции."
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: "Затем нажмите на звездочку. Теперь вы хотите нажать на категорию переменных и перетащить блок «длина» в блок «двигаться вперед» из вашего определения функции. И оттащите старый номер блока."
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: "Чтобы использовать функции с параметрами, нажмите на категории «функции» и перетащите вашу функции «нарисовать треугольник с длиной» ."
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Теперь вы можете использовать математический блок для ввода различных чисел, чтобы рисовать треугольники разных размеров."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: |
+          Поздравляем! 
+          Развязав последнее задание, вы только что создали код, по которому ЛЮБОЙ робот может найти дорогу через линейный лабиринт или туннель любого размера. 
+          Это может быть зомби, птица, луноход или даже самоуправляемый автомобиль.
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: |
+          Основные понятия, использованные вами, являются центром любой программы, которую вы когда-либо использовали. 
+          Мы изучили  циклы "повторить несколько раз" и "повторять пока".
+          Также инструкции выбора "если" и "если... иначе...".
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Если вам понравился ваш первый час кода, посетите code.org, чтобы продолжить ваше образование в области компьютерных наук! Завершив наш 20-тичасовой курс, вы освоите основы программирования и можете начать учиться писать приложения для телефонов, инструкции для роботов, игры и много чего ещё."
       4:
         image: "notes/hoc6_4.jpg"
         text: "Технологии изменяют всё, чем мы занимаемся, и не важно, молод ты или немолод, программирование - это творческое и занимательное занятие, и ему может обучиться каждый!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Показать заметки которые скоро будут!"

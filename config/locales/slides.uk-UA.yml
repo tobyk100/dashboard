@@ -65,7 +65,7 @@
         text: "Вам потрібно допомогти видалити всі купи землі та заповнити всі ямки."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Нові блоки видаляють 1 відро землі з купи і засипають в ямку 1 відро землі."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Купи та ямки різного розміру, тому потрібно вказати фермерці, скільки використати відер."
@@ -153,7 +153,8 @@
         text: 'Блоки, розміщені всередині визначення, вказують, що робити. Наприклад, це визначення функції називається "заповнити 5" і складається з блоку "повторити" та блоку "заповнити".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Визначення на потрібному місці, але наша фермерка не зможе виконати функцію, поки ми не перетягнемо блок "заповнити 5 функцій" з  категорії функцій.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: "Зробимо функцію цікавішою! "
@@ -166,7 +167,7 @@
         text: 'Блок "поки" виконуватиме дії, розміщені всередині нього, ДО ТИХ ПІР, ПОКИ умова на початку блоку залишається ІСТИНОЮ.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "Наприклад, якщо фермерка стоїть на купі, вона продовжуватиме видаляти по 1 відру землі, ПОКИ є ця купа."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

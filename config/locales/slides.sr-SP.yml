@@ -65,7 +65,7 @@
         text: "Морате јој помоћи да уклони све гомиле прљавштине и попуните све рупе."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Нови блокови, уклони 1 пуну лопату прљавштине са гомиле, и попуни рупу 1 пуном лопатом прљавштине."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Гомиле и рупе су различитих величина, тако да морате да наредите фармеру колико пуних лопата где и како да искористи."
@@ -151,7 +151,8 @@
         text: 'Блокови који иду унутар дефиниције нам говоре шта функција ради. Тако да је дефиниција ове функције названа "fill 5" и сачињавају је "repeat(понови)" блок и "fill(попуни)" блок.'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'На радном простору се налази дефиниција, али наш фармер неће извршити функцију  док не извучемо  блок "fill 5 function" из категорије функција.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Хајде да вратимо "fun(забава)" натраг у "FUNction! (функција)" '
@@ -161,10 +162,10 @@
         text: 'Ћао, зовем се Макинде! Хајде да учимо о "while block.(док блок)"'
       2:
         image: "notes/stage9_6.jpg"
-        text: '"while block (док блок)" ће одрадити шта год да ставите унутар њега све док је услов на врху тачан.'
+        text: '"while block (све док је блок)" ће одрадити шта год да ставите унутар њега све док је услов на врху тачан.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "На пример, ако фармерка стоји на гомили, она ће наставити да уклања 1 пуну лопату све док је испод ње гомила."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

@@ -10,13 +10,13 @@
         current_password: "Současné heslo"
         locale: "Jazyk"
         gender: "Pohlaví"
-        edit_header: "Upravit podrobnosti účtu"
+        edit_header: "Upravit Podrobnosti Účtu"
   hello: "Ahoj světe"
   welcome_back: "Vítej zpět, %{name}"
   add_teacher_form:
     code_or_email:
       label: "Přidej učitele zadáním kódu či e-mailové adresy:"
-      placeholder: "Kód (ABCDEF) nebo e-mail (ucitel@skola.edu)"
+      placeholder: "Kód (ABCDEF) nebo email (ucitel@skola.cz)"
     submit: "Přidat učitele"
   appname: "Code.org"
   stage: "Fáze"
@@ -24,96 +24,97 @@
   trophies: "Trofeje"
   courses: "Kurzy"
   of: "z"
-  more: "UKAŽ VÍCE"
-  less: "UKAŽ MÉNĚ"
+  more: "VÍCE"
+  less: "MÉNĚ"
   try_hoc: "Zkus Hodinu Kódu kliknutím zde >> "
-  try_k8intro: "Nebo zkus naš kurz K-8 Do světa Informatiky(15-25 hodin)"
+  try_k8intro: "Nebo zkus náš kurz K-8 Úvod do Počítačových Věd (15-25 hodin)"
   already_started: "Už jsi začal? Pokračuj zde >> "
-  demos: "Admin: Všechny ukázky"
+  demos: "Admin: Všechny Ukázky"
   continue: "Pokračovat"
   prize: "cena"
-  more_info: "More info"
+  more_info: "Více informací"
   auth:
     sign_in_with: "Přihlásit přes %{provider}"
     signed_in: "Přihlášen!"
     already_signedup: "Již jsi zaregistrován?"
     notyet_signedup: "Ještě ses nepřidal?"
-    google_oauth2: "Google +"
+    google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Zapomněl si své heslo?"
-    need_confirmation: "Nedostal jsi potvrzovací instrukce?"
-    need_unlock: "Nezískal si odemykací instrukce?"
+    forgot_password: "Zapomněl jsi heslo?"
+    need_confirmation: "Nedostal jsi instrukce pro potvrzení?"
+    need_unlock: "Nezískal si instrukce pro odemčení?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "Tento 20-ti hodinový kurz představuje základní koncepty počítačových věd a programování. Kurz je navrhnut pro děti od 1. po 7. třídu (stupeň K-8), ale jistě bude bavit studenty jakéhokoliv věku."
+    no_signup_header: "Nechceš se registrovat?"
+    no_signup_message: 'Můžeš si <a target="_blank" href="http://learn.code.org">prohlédnout různé úrovně a hádanky</a>, ale budeš se muset zaregistrovat, aby se uložil tvůj pokrok.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    prizes_message: "Studenti z USA, kteří získají všech %{num_trophies} trofejí v pojmech mohou vybírat z nabídky cen obsahující např. volné místo na Dropbox, Skype kredity a stáhnutelné hry od Electronic Arts a Valve."
+    teacher_educator_guide: "Podívat se na průvodce učitele"
+    teacher_prize_header: 'Vyhraj 1,000$ v odměnách na <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_pitch: "Vyučuj K-8 Úvod do Počítačových Věd ve své třídě"
+    teacher_title: "Registrace učitele"
+    student_pitch: "Po 1 hodině: vyzkoušej náš K-8 Úvod do Počítačových Věd"
+    student_title: "Registrace"
     school_name: "Název školy (volitelné)"
     school_address: "Adresa školy (volitelné)"
     address_placeholder: "adresa, město, stát, psč"
     gender: "Pohlaví (volitelné)"
     birthday: "Narozeniny (volitelné)"
     submit: "Registrace"
-    teacher: "Jste učitel?"
+    teacher: "Jsi učitel?"
     valid_username: "K dispozici!"
     invalid_username: "Uživatelské jméno musí mít nejméně 5 znaků"
     taken_username: "Uživatelské jméno je již obsazeno"
     valid_password: "Platné heslo!"
     invalid_password: "Heslo musí obsahovat nejméně 6 znaků"
-    mismatch_password: "Zadaná hesla nejsou stejná"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    mismatch_password: "Zadaná hesla se neshodují"
+    student_terms: "Závazně souhlasím s podmínkami služeb Code.org. Je-li mi méně než 13 let, stvrzuji odesláním tohoto formuláře, že mám svolení svých rodičů či právních zástupců k používání služeb na Code.org."
+    teacher_terms: "Závazně souhlasím s podmínkami služeb Code.org."
   signin_form:
     title: "Přihlásit"
     login: "Uživatelské jméno nebo e-mail"
     password: "Heslo"
-    remember: "Zapamatovat si"
+    remember: "Zapamatuj si mne"
     submit: "Přihlásit se"
   password:
     reset_form:
-      title: "Zapomněl si své heslo?"
-      email: "e-mailová adresa"
-      submit: "Zašlete mi instrukce na reset hesla"
+      title: "Zapomněl si heslo?"
+      email: "E-mailová adresa"
+      submit: "Zašlete mi instrukce pro reset hesla"
     change_form:
-      title: "Změna hesla"
+      title: "Změň si heslo"
       new_password: "Nové heslo"
       confirm_password: "Potvrď nové heslo"
       submit: "Změnit heslo"
   welcome_email:
     subject: "Připojit se do mé třídy (na Code.org)"
     body: |
-      Klikni na odkaz níže, aby ses registroval do tutoriálů informatiky na Code.org(se mnou jako "učitelem"):
+      Klikni na odkaz níže, aby ses registroval do cvičení počítačových věd na Code.org (se mnou jako "učitelem"):
       
       %{link}
       
-      Tutoriály jsou zábavné a založené na obrázcích. Učí základy informatiky pomocí jednoduchých, doprovázených herních hádanek. Naučíš se programovat s pomocí Billa Gatese, Marka Zuckerberga, Angry Birds a Plants vs. Zombies! :-)
+      Cvičení jsou zábavná, vzhledově poutavá a učí základy počítačových věd pomocí jednoduchých, řízených herních hádanek. Naučíš se programovat s pomocí Billa Gatese, Marka Zuckerberga, Angry Birds a Plants vs. Zombies! :-)
       
       %{name}
   follower:
     invite_sent: "Pozvánka odeslána"
     added_teacher: "%{name} přidán jako tvůj učitel"
-    registered: "You've registered for %{section_name}."
+    registered: "Zaregistroval ses k %{section_name}."
     error:
-      signed_in: "Odhlaš se, prosím, před pokračováním"
+      signed_in: "Dříve než budeš pokračovat se, prosím, odhlas"
       username_not_found: "Uživatelské jméno %{username} nebylo nalezeno"
       username_in_use: "%{username} je již zabráno, prosím, vyber si jiné"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      no_teacher: "Nenalezen nikdo přihlášený jako '%{teacher_email_or_code}'. Prosím požádej ho, aby se zde přihlásil, a poté jej zkus přidat znovu"
+      blank_code: "Prosím, zadej kód nebo emailovou adresu svého učitele"
     mail:
       invite_student:
         subject: "Přidat se do třídy s %{teacher_name} na Code.org!"
   reports:
     error:
-      access_denied: "Nemáte přístup k statistikám této osoby"
+      access_denied: "Nemáš přístup k statistikám této osoby"
   redeem_prizes:
     title: "Získat ceny: %{name}"
     provider: "Poskytovatel:"
@@ -121,41 +122,43 @@
     redeem_header: "To redeem:"
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
-    error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_us_only: "Nabízená odměna platí pouze pro uživatele z USA."
+    error_not_earned: "Zatím sis nevysloužil tuto cenu."
+    error_already_redeemed: "Tvá cena již byla vybrána."
+    no_prizes_available: "Je nám líto, ale momentálně nejsou k dispozici žádné ceny."
     confirm:
       title: "Prosím, potvrď"
       "no": Ne
       "yes": Ano
       msg: "Jste si jistí, že si chcete nárokovat %{prize_name} ocenění?"
       msg_student: "NOTE: You can only choose one type of prize."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10BG Místa na Dropbox"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
       choose: "Zvol cenu:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "Získal jsi odměnu! (Pouze studenti z USA)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Nauč se všechny pojmy počítačové vědy, posbírej všech %{num_trophies} trofejí a získej reálné ceny. Můžeš vybírat mezi 10GB volného místa na Dropbox, Skype kredity v hodnotě 10$ nebo volně stažitelné hry. POZNÁMKA: nabídka platí pouze pro studenty z USA a pouze do využití zásob."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 nebo více studentů získalo všech %{num_trophies} trofejí. Vyhrál jsi cenu učitele! (pouze učitele z USA)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'Abychom odměnili novopečené učitele počítačových věd, můžeš vyhrát až 1000$ v  <a href="http://DonorsChoose.org">DonorsChoose.org</a> kreditech za vedení třídy v K-8 úvodním kurzu. Aby jsi byl kvalifikován, musíš úspěšně provést třídu alespoň 15ti studentů přes celý K-8 úvodní kurz, kde všech 15 studentů (nebo více) splní všechna cvičení a získají všech %{num_trophies} trofejí. Pokud 7 nebo více studentů, kteří získali všechny trofeje, jsou dívky, tvoje odměna je 1000$ v  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> kreditech. Jinak tvoje odměna je 750$ v  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> kreditech. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> kredity mohou být využity pouze učiteli ve veřejných školách USA.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "7 nebo více studentů, kteří získali všech %{num_trophies} trofejí jsou dívky. Vyhrál jsi bonusovou cenu! (pouze učitele v USA)"
+          not_earned: 'Pokud alespoň 7 tvých studentů, kteří získají všech %{num_trophies} trofejí jsou dívky, jako odměnu získáš dalších 250$ v  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>  kreditech. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> kredity mohou být využity pouze učiteli ve veřejných školách USA.'
   crud:
     new_model: "Nový %{model}"
     show: "Zobrazit"
@@ -164,7 +167,7 @@
     update: "Aktualizovat"
     destroy: "Zničit"
     back: "Zpět"
-    confirm: "Opravdu?"
+    confirm: "Jsi si jistý?"
     created: "%{model} byl úspěšně vytvořen."
     updated: "%{model} byl úspěšně aktualizován."
   nav:
@@ -182,14 +185,14 @@
       signup: "Registrace"
     popup:
       progress: "Tvůj pokrok"
-      lines: "Celkový počet řádků kódu: %{lines}"
+      lines: "Celkem řádků kódu: %{lines}"
       close: "ZAVŘÍT"
       mastery: "Pojmy"
       puzzle_map: "Fáze"
-      prizes: "Posbírej celkem %{total_trophies} trojejí a vyhraj cenu!"
-      prize_earned: "Máš %{total_trophies} trofejí. Vyhrál si cenu!"
-      prize_us_only: "(U.S. students only)"
-      prizes_link: "Další informace"
+      prizes: "Posbírej všech %{total_trophies} trofejí a vyhraj ceny!"
+      prize_earned: "Všech %{total_trophies} trofejí získáno. Vyhrál jsi!"
+      prize_us_only: "(Pouze studenti z USA)"
+      prizes_link: "více informací"
   teacher:
     title:
       one: "Tvůj učitel je %{name}"
@@ -201,7 +204,7 @@
     rollup: "Panel pokroku"
     activity: "Nedávné aktivity třídy"
   user:
-    new_password_hint: "(zanech prázdné, pokud nechceš měnit)"
+    new_password_hint: "(zanech prázdné, pokud nechceš provést změnu)"
     current_password_hint: "(potřebujeme tvé aktuální heslo pro potvrzení změny)"
     cancel:
       title: "Zrušit účet"
@@ -214,32 +217,33 @@
     recent_activity: "Nedávná aktivita"
     show_more: "Zobrazit více"
   home:
-    signin_message: "Or if you're already registered, %{link}"
+    signin_message: "Nebo pokud jsi již registrován, %{link}"
     student_reg_link: "Student"
-    teacher_reg_link: "Teacher"
+    teacher_reg_link: "Učitel"
     teacher_dashboard: "Zobrazit tabulku pokroku"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "Máš %{count} studenta."
     teacher_student_count: "Máš %{count} studentů."
-    teacher_averages: 'V průměru tví studenti získali %{trophy_average} z %{trophy_max} trofejí "Koncepce Zvládnutí".'
+    teacher_averages: 'Tví studenti v průměru získali %{trophy_average} z %{trophy_max} trofejí "Mistrovství Pojetí".'
     classroom: "Tvá třída"
     student_progress: "Tvůj pokrok v učení"
-    student_stats: 'Získal jsi %{trophy_count} z možných %{trophy_max} trofejí "Koncepce Zvládnutí".'
+    student_stats: 'Získal jsi %{trophy_count} z možných %{trophy_max} trofejí "Mistrovství Pojetí".'
     student_left_off: "Kde jsi přestal:"
-    student_finished: "Zvládl jsi všechny tutoriály. Vyzvedni si %{prize_link} a vyber další třídu %{online_link} nebo %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "místní škola"
     online: "online"
     see_details: "Viz podrobnosti"
   gender:
     male: "Muž"
     female: "Žena"
-    none: "Nechci odpovědět"
+    none: "Raději bych neodpovídal/a"
   footer:
-    help_from_html: 'Inženýři od <a href="http://www.google.com"> Googlu</a>, <a href="http://www.microsoft.com"> Microsoftu</a>, <a href="http://www.facebook.com"> Facebooku</a> a <a href="http://www.twitter.com"> Twitteru</a> pomohli vytvořit tento kurz.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
+    help_from_html: 'Inženýři z <a href="http://www.google.com">Googlu</a>, <a href="http://www.microsoft.com">Microsoftu</a>, <a href="http://www.facebook.com">Facebooku</a> a <a href="http://www.twitter.com">Twitteru</a> pomohli vytvořit toto cvičení.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Všechna práva vyhrazena.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Všechna práva vyhrazena.'
     feedback: "Poskytnout zpětnou vazbu"
     translate: "Pomož nám v překladu do tvého jazyka"
     tos: "Podmínky služby"
-    privacy: "Privacy Policy"
+    privacy: "Zásady ochrany osobních údajů"
   prize_mail:
     prize_earned:
       subject: "Získej tvou cenu na Code.org!"
@@ -249,16 +253,20 @@
       subject: "Získej tvou bonusovou cenu na Code.org!"
   reference_area:
     title: "Potřebuješ pomoc?"
-    subtitle: "Viz tyto videa a rady"
+    subtitle: "Podívej se na tyto videa a tipy"
+    teacher: "Zobraz řešení"
+    auth_error: "Nemáš oprávnění zobrazovat řešení."
   video:
     tab: "Video."
     notes: "Žádné video? Zobraz poznámky."
     autoplay_option: "Automatické přehrávání videa"
-    download: "Download Video"
+    download: "Stáhnout Video"
   compatability:
     working: "Pracujeme na podpoře pro tvůj prohlížeč."
-    upgrade: "Aktualizuj si svůj prohlížeč."
-  slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_stage: "Finished! Continue to next stage"
-  download_pdf: "Open Lesson Plan"
+    upgrade: "Prosím aktualizuj si svůj prohlížeč."
+  slow_loading: "Trvá to déle než obvykle..."
+  try_reloading: "Zkus znovu načíst stránku"
+  next_stage: "Hotovo! Pokračuj do další fáze"
+  download_pdf: "Otevři Učební Plán"
+  share_code:
+    title: 'Klikni na "Spustit program" a uvidíš můj program v akci'

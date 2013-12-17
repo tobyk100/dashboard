@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "İlk kod saatinize hoş geldiniz! Haydi programlamanın ilk zevkinin tam içine dalalım."
+        text: "Kod saatinin ilk dakikalarına hoş geldin! Hadi, beraber programlamanın ilk zevkli adımlarını atalım."
       2:
         image: "notes/hoc1_2.jpg"
         text: "Kod yazmak için blokları sürükleyip bırakacağınız bir görsel programlama dili olan Blockly'i kullanacağız."
@@ -15,7 +15,7 @@
         text: "Bilgisayar biliminin temellerini, Mars aracını kontrol etmekten uygulamalar yapmaya kadar her yerde kullanılan kavramları öğreneceksiniz."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "Program, bilgisayarınızı izlemek için talimatlar kümesidir."
+        text: "Bir program, bilgisayarınızın takip etmesi için yaratılmış bir talimatlar kümesidir."
       6:
         image: "notes/hoc1_6.jpg"
         text: "İlk programınızın amacı, Yeşil Domuzu vurmak için labirent aracılığıyla bir Angry Bird elde etmektir."
@@ -46,29 +46,29 @@
         text: "Merhaba, ben JR! Her yarış araba takımı kazanmak için bilgisayar mühendislerine ihtiyaç duyar. Arabanın daha hızlı gitmesi için verileri analiz eder."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Bu bulmacalarda, gidebildikleri yere kadar giden çizgileri çizen sanatçı olacaksınız."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Bu blok "100 piksel ilerle" diyor. Pikseller, ekranındaki ufacık noktalardır.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Bu blok " 90 derece dönün." diyor. Bu senin sanatçı "dönüş" olarak aynı miktarda labirent bulmacalar engeller dönecek.'
       5:
         image: "notes/stage5_5.jpg"
         text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Merhaba, ben Paola! Bu bulmacalarda sen, arazisini dümdüz yapıp ekinler dikmek isteyen bir çiftçisin."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Ona çamur yığınlarını kaldırmak ve tüm delikleri doldurmak için yardım etmelisin."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Farklı boyutlarda yığın ve delikler olduğu için çiftçiye kaç kürek dolusu toprak kullanacağını/alacağını söylemelisin."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -108,10 +108,10 @@
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: 'Merhaba, ben Bill! Yeni bir temel kavram öğrenelim: "Eğer" deyimleri. Bunlar bilgisayarlar kararları nasıl aldığını gösterir.'
+        text: 'Selam, ben Bill! Hadi, yeni bir temel kavram öğrenelim: "eğer" komutları. Bilgisayarlar bu komut ile karar alırlar.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: 'Sen de "eğer" ifadesini her gün kullanıyorsun. Her sabah dışarı çıkmadan önce EĞER dersin, dışarıda yağmur yağıyorsa, ceketimi giyinmeliyim.'
+        text: 'Sen de "eğer" ifadesini her gün kullanıyorsun. Her sabah dışarı çıkmadan önce, EĞER dışarıda yağmur yağıyorsa ceketimi giyinmeliyim, dersin.'
       3:
         image: "notes/hoc4_3.jpg"
         text: "Zombiye solda bir yol olup olmadığını kontrol etmesini, ve EĞER solda bir yol bulursa o yöne dönmesi gerektiğini söyleyebiliriz."
@@ -130,31 +130,30 @@
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: 'Merhaba, benim adım Saloni olduğunu. Bilgisayar Bilimlerini sağlık ve tıp sorunları çözmeye yardımcı olmak için kullanıyorum. Hadi "Eğer başka" blogu hakkında bir şeyler öğrenelim. "Eğer" bloğu gibi görünüyor ama "başka" diyor sonunda, fazladan bir parçası vardır.'
+        text: 'Selam, benim adım Saloni. Bilgisayar Bilimlerini sağlık ve ilaç sorunlarını çözmeye yardımcı olmak için kullanıyorum. Hadi "eğer değilse" bloğu hakkında bir şeyler öğrenelim. "eğer" bloğu gibi görünüyor ama sonunda "değilse" diyen fazladan bir parçası var.'
       2:
         image: "notes/hoc5_2.jpg"
         text: 'Eğer "yap" diyen noktaya "ilerle" blogu ve "başka" diyen noktaya da "sola dön" blogu yerleştirirsem bu demektir ki zombi iki seçenekten birini seçecektir. EĞER önünde yol varsa, zombi ileri hareket edecek, aksi takdirde (önünde yol yoksa), zombi sola dönecektir.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: '"eğer" blogu gibi, "eğer başka" blogunu da "tekrar" blogunun içine yerleştirebiliriz, bu sayede zombi hareket etmeye devam edecek ve aynı zamanda "eğer başka" blogu da dönülecek bir yer olup olmadığını kontrol edecek.'
+        text: '"eğer" bloğu gibi, "eğer değilse" bloğunu da "tekrar" bloğunun içine yerleştirebiliriz, bu sayede zombi hareket etmeye devam edecek ve aynı zamanda "eğer değilse" bloğu da dönülecek bir yer olup olmadığını kontrol edecek.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Şimdi, zombileri ait oldukları yerden al!"
+        text: "Şimdi, bu zombileri ait oldukları yere sok!"
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Merhaba, Ben Brina, Instagram'ın bir mühendisiyim. Kullanmak istediğiniz belirli kodları tekrar tekrar yazmak yerine, bunun için sadece bir blok kullanabilirsiniz."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Fonksiyonları tanımlamayı öğreneceğiz. Fonksiyon tanımları köşesinde bir yıldız vardır.  Fonksiyon isimleri üst çizgide yazılıdır."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'İçeri giden blokların tanımlamaları bize ne yaptıklarını söyler. Yani bu işlev tanımında "5 doldurun" denildi ve "tekrar" blok ve "doldurmak" blok oluşdu.'
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -162,21 +161,20 @@
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block."
+        text: 'Selam, ben Makinde! Hadi, "süresince bloğu." hakkında bir şeyler öğrenelim. '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Selam, ben Trina. Pixar'da çalışıyorum. Shrek dahil bir takım film projelerinde görev aldım."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Bu bizim yeni "sayaç" döngümüz. Her eylemi tekrar ve tekrar gerçekleştirir, sen de bu eylemin her seferinde hafifçe değişmesini sağlayabilirsin.'
       3:
         image: "notes/stage11_3.jpg"
         text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
@@ -186,7 +184,7 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Selam, ben Janete. Zynga'da mühendisim."
       2:
         image: "notes/stage15_2.jpg"
         text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
@@ -195,7 +193,7 @@
         text: "We could write all that code out by hand or we can use a function with parameters."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Bunu yapmak için; fonksiyon tanımındaki "draw a triangle" butonuna tıklayın. Daha sonra "isim giriniz" bloğunu "girdi" bloğuna sürükleyin.'
       5:
         image: "notes/stage15_5.jpg"
         text: |-
@@ -208,20 +206,20 @@
         text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Şimdi farklı boyutlarda üçgenler çizmek için matematik bloğunu kullanarak farklı numaralar girebilirsin."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
         text: "Tebrikler! Çözdüğün son bulmacayla, HERHANGİ bir robota - bir zombi, bir kuş, bir mars gezgini ve hatta otomatik bir arabaya- dallara ayrılmayan bir labirentte veya herhangi bir uzunluktaki bir tünelde yolunu nasıl bulacağını söyleyen kodu yazmış oldun."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "Kullandığın basit temeller deneyeceğin her türlü program yada uygulamanın merkezinde yer alır. Tekrar döngülerini, repeat until deyimini, eğer deyimini, ve eğer başka deyimlerini öğrendik."
+        text: "Kullanmış olduğun basit temeller deneyimlediğin ve deneyimleyeceğin her türlü program ve uygulamanın kalbinde yer alır. Tekrar döngülerini, 'kadar tekrarla', 'eğer' ve 'eğer değilse' ifadelerini öğrendik."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "Eğer kod yazımının ilk saatinden hoşlandıysan, bilgisayar bilimi eğitimine devam etmek için code.org 'u ziyaret et! 20 saat kursu tamamladığında, programlamanın temellerine hakim olacaksın ve telefon uygulamalarının, robot talimatlarının nasıl yazıldığını öğrenmeye başlayabilirsin, adını sen koy."
+        text: "Eğer kod saatinin ilk dakikalarından hoşlandıysanız, bilgisayar bilimi eğitiminize devam etmek için code.org 'u ziyaret edin! 20 saat kursu tamamladığınızda, programlamanın temellerine hakim olacaksınız. Telefon uygulamalarını, robot talimatlarını ve oyunları yazmayı öğreneceksiniz. Bunlarla da sınırlı değil, hayal gücünüz ile sınırlı..."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Genç ya da yaşlı olmanız farketmez, teknoloji yaptığımız herşeyi değiştiriyor: programlama eğlenceli, yaratıcı ve herkes öğrenebilir!"
+        text: "Teknoloji yaptığımız her şeyi değiştiriyor ve genç ya da yaşlı olmanız hiç fark etmez: programlama keyifli ve yaratıcıdır, herkes öğrenebilir!"
     20_wrapup:
       1:
         image: "notes/bird.png"

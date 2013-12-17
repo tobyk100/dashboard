@@ -50,10 +50,10 @@
     no_signup_header: "Wil je je niet aanmelden?"
     no_signup_message: 'Je kunt <a target="_blank" href="http://learn.code.org">de verschillende niveaus en levels bekijken</a>, maar om je voortgang te bewaren moet je je aanmelden.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Kijk in de lerarengids"
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-prijzen'
-    teacher_prize_message: 'In samenwerking met <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> kan Code.org tot $1,000 in klassefinanciering bieden aan leraren in de Verenigde Staten die minstens 10 leerlingen door deze cursus helpen.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Gebruik de Introductie in de Informatica op basisschoolniveau in jouw klas"
     teacher_title: "Inschijven voor leraren"
     student_pitch: "Verder dan 1 uur: probeer onze Introductie in de Informatie op basisschoolniveau"
@@ -102,12 +102,13 @@
   follower:
     invite_sent: "Uitnodiging verstuurd"
     added_teacher: "%{name} toegevoegd als je leraar"
-    registered: "You've registered for %{section_name}."
+    registered: "Je hebt je aangemeld voor %{section_name}."
     error:
       signed_in: "Log uit om verder te gaan"
       username_not_found: "Gebruikersnaam %{username} niet gevonden"
       username_in_use: "%{username} wordt al gebruikt, kies een andere"
       no_teacher: "Er is niemand ingelogd met '%{teacher_email_or_code}'. Vraag ze hier aan te melden en probeer ze dan nog eens toe te voegen"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Doe mee met een klas met %{teacher_name} op Code.org!"
@@ -122,40 +123,42 @@
     success: "Je prijs is vrijgegeven, gebruik de code hieronder."
     error: "Je prijs kon niet worden vrijgegeven, probeer het opnieuw."
     error_us_only: "Prijzen zijn alleen geldig voor gebruikers in de Verenigde Staten."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Bevestigen"
       "no": Nee
       "yes": Ja
       msg: "Weet je zeker dat je de prijs '%{prize_name}' wil kiezen?"
       msg_student: "Let op: je kunt maar een soort prijs kiezen."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Website bezoeken"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Je hebt alle opdrachten volbracht. Kies nadat je je prijs gekozen hebt nog een les %{online_link} of op een %{local_school_link}"
     msg:
       choose: "Kies een prijs:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Je hebt een prijs verdiend! (Alleen voor leerlingen uit de Verenigde Staten)"
       not_earned_title: "Voltooi de opdracht en verdien prijzen (alleen voor leerlingen in de Verenigde Staten)"
-      not_earned: "Leer alle informatica-concepten, verzamel alle %{num_trophies} bekers, en win prijzen in de echte wereld. Je kunt kiezen tussen een iTunes-waardebon van $10, 10GB gratis Dropbox-opslagruimte, $10 aan Skype-credits of download gratis spelletjes. LET OP: dit aanbod geldt alleen voor leerlingen in de Verenigde Staten, en zolang de voorraad strekt."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "Minstens 10 leerlingen hebben alle %{num_trophies} bekers verzameld. Je hebt een lerarenprijs van $750 gewonnen! (alleen voor leraren in de Verenigde Staten)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: 'Om nieuwe informaticaleraren te belonen kun je tot $1,000 aan <a href="http://DonorsChoose.org">DonorsChoose.org</a>-credits verdienen om een klas door de introductiecursus op basisschoolniveau te loodsen. Om in aanmerking te komen moet je een klas van minstens 15 leerlingen door de cursus loodsen, waarbij alle 15 studenten (of meer) alle opdrachten uitvoeren en alle %{num_trophies} bekers verdienen. Als minstens 7 van de leerlingen die alle bekers verdienen uit meisjes bestaat is de beloning $1,000 aan <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits. Anders is je beloning $750 aan <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits kunnen alleen gebruikt worden door leraren in openbare scholen in de Verenigde Staten.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "Minstens 7 van de leerlingen die alle %{num_trophies} bekers hebben verzameld zijn meisjes. Je hebt een bonusprijs van $750 gewonnen! (alleen voor leraren in de Verenigde Staten)"
+          not_earned: 'Wanneer minstens 7 van de leerlingen die alle %{num_trophies} bekers verdienen meisjes zijn, word je beloond met $250 aan extra <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits kunnen alleen gebruikt worden door leraren in openbare scholen in de Verenigde Staten.'
   crud:
     new_model: "Nieuw %{model}"
     show: "Toon"
@@ -218,14 +221,15 @@
     student_reg_link: "Leerling"
     teacher_reg_link: "Leraar"
     teacher_dashboard: "Ga naar voorgangsoverzicht"
-    teacher_student_count_one: "Je hebt %{count} leerlingen."
+    teacher_student_count_one: "Je hebt %{count} leerling."
     teacher_student_count: "Je hebt %{count} studenten."
     teacher_averages: 'Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max} "Concept Mastery" trofeeën.'
     classroom: "Je klas"
     student_progress: "Je voortgang"
     student_stats: 'Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery" trofeeën.'
     student_left_off: "Waar je geëindigd bent:"
-    student_finished: "Je hebt alle tutorials voltooid, claim je prijs %{prize_link} en zoek een andere klas %{online_link} of bij een %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "lokale school"
     online: "online"
     see_details: "Bekijk details"
@@ -250,15 +254,19 @@
   reference_area:
     title: "Hulp nodig?"
     subtitle: "Bekijk deze video's en hints"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Geen video? Laat notities zien."
     autoplay_option: "Video's automatisch afspelen"
-    download: "Download Video"
+    download: "Video downloaden"
   compatability:
     working: "We zijn bezig om ondersteuning voor je browser toe te voegen."
     upgrade: "Upgrade je browser."
   slow_loading: "Dit duurt langer dan normaal..."
   try_reloading: "Probeer de pagina opnieuw te laden"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Klaar! Verder naar het volgende niveau"
   download_pdf: "Open lesplan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

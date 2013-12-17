@@ -46,29 +46,29 @@
         text: "Hallo, ich heiße JR! Jedes Autorennen Team braucht Computerspezialisten, die Daten analysieren, um die Autos schneller zu machen."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "In diesen Rätseln sind Sie ein Künstler, der eine Linie hinter sich zeichnet, überall da, wo er hin geht."
       3:
         image: "notes/stage5_3.jpg"
         text: 'Dieser Baustein sagt "Bewege dich 100 Pixel nach vorne". Pixel sind sehr kleine Punkte auf dem Bildschirm.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Dieser Block sagt "um 90 Grad nach rechts drehen." Dies wird ihren Künstler um den gleichen Betrag wie der "Dreh"-Block in den Labyrinth-Rätseln drehen.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Klicken Sie auf den Pfeil in jedem dieser Blöcke, um die Menge, die der Künstler nach vorne läuft oder sich dreht zu ändern. Spiele etwas mit diesen Blöcken herum, um mit ihnen vertraut zu werden."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hallo, bin ich Paola! In diesen Rätseln sind Sie ein Bauer, der sein Feld völlig flach bekommen muss, um mit dem Anpflanzen zu beginnen."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Du musst, um ihr zu helfen, alles Schmutzstapel entfernen und in die Löcher füllen."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Die Haufen und Löcher sind unterschiedlich groß, weshalb du dem Bauer sagen musst, wie viele Schaufeln er benutzen muss."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -153,7 +153,7 @@
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -165,10 +165,10 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

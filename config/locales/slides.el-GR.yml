@@ -65,7 +65,7 @@
         text: "Θα πρέπει να τη βοηθήσεις να αφαιρέσει όλους τους σωρούς βρωμιάς και να καλύψει όλες τις τρύπες."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Τα νέα μπλοκ αφαιρέστε 1 φτυαριά βρωμιάς από ένα σωρό και συμπληρώστε 1 φτυαριά βρωμιάς σε μια τρύπα."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Οι σωροί και οι τρύπες είναι διαφορετικών μεγεθών, οπότε πρέπει να πείτε στο γεωργό πόσες φτυαριές να χρησιμοποιήσει."
@@ -152,7 +152,8 @@
         text: 'Τα μπλοκ που πάνε μέσα στον ορισμό μας λένε τι κάνει. Έτσι το όνομα αυτής της συνάρτησης που ορίζουμε είναι «γέμισε 5» και αποτελείται από ένα μπλοκ "επανάλαβε" και ένα μπλοκ "γέμισε".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Ο ορισμός βρίσκεται στο χώρο εργασίας, αλλά ο γεωργός μας δεν θα εκτελέσει τη συνάρτηση μέχρι να σύρουμε έξω το μπλοκ της συνάρτησης "γέμισε 5" από την κατηγορία συναρτήσεις.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Ας βάλουμε τη "διασκέδαση" πίσω στη "ΣΥΝάρτηση!" '
@@ -163,10 +164,10 @@
       2:
         image: "notes/stage9_6.jpg"
         text: |-
-          Το μπλοκ "όσο"  θα κάνει ότι βάλετε μέσα σ ' αυτό, ΤΟΣΕΣ ΦΟΡΕΣ ΟΣΟ η εντολή στην κορυφή είναι ΑΛΗΘΗΣ.
+          Το μπλοκ "εφ' όσον" θα κάνει οτιδήποτε τοποθετήσετε μέσα του ΑΡΚΕΙ η δήλωση στην κορυφή είναι ΑΛΗΘΗΣ.
       3:
         image: "notes/stage9_7.jpg"
-        text: "Για παράδειγμα, εάν ο γεωργός στέκεται σε έναν σωρό, αυτή θα συνεχίσει να αφαιρεί 1 φτυαριά, ΌΣΟ υπάρχει ακόμα σωρός κάτω από αυτήν."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

@@ -48,15 +48,15 @@
   signup_form:
     overview: "Denna 20-timmars kurs introducerar grundläggande datavetenskap och programmeringsbegrepp. Kursen är utformad för användning i klassrummet för betyg 6-15 år, men det är roligt att lära sig i alla åldrar."
     no_signup_header: "Vill du inte registrera dig?"
-    no_signup_message: 'Du kan <a target="_blank" href="http://learn.code.org"> Bläddra bland de olika stadierna och pusslen</a>, men måste du registrera dig för att spara dina framsteg.'
+    no_signup_message: 'Du kan <a target="_blank" href="http://learn.code.org"> Bläddra bland de olika stadierna och pusslen</a>, men du måste registrera dig för att spara dina framsteg.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "Se pedagog guide"
-    teacher_prize_header: 'Vinn $1.000 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> belöningar'
-    teacher_prize_message: 'I samarbete med <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, kommer att Code.org erbjuda upp till $1.000 för klass finansiering till amerikanska lärare som leder minst 10 studenter genom kursen.'
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    teacher_educator_guide: "Se pedagogguiden"
+    teacher_prize_header: 'Vinn $1&nbsp;000 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>-belöningar'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Undervisa i Datakunskap, 6 - 15 år, i ditt klassrum"
-    teacher_title: "Lärare, anmäl här"
-    student_pitch: "Efter 1 timme av kod, prova vår introduktion till datakunskap för 6-15 åringar"
+    teacher_title: "Läraranmälnming"
+    student_pitch: "Efter 1 timme: prova vår introduktion till datakunskap för 6-15 åringar"
     student_title: "Registrera"
     school_name: "Skolans namn (valfritt)"
     school_address: "Skolans adress (valfritt)"
@@ -71,7 +71,7 @@
     valid_password: "Giltigt lösenord!"
     invalid_password: "Lösenordet måste vara minst 6 tecken långt"
     mismatch_password: "De två lösenord du skrev matchar inte varandra"
-    student_terms: "Jag förstår att jag är bunden av reglerna för denna tjänst från Code.org. Om jag är under 13 år gammal bekräftar jag genom att sända denna anmälan att jag har mina föräldrars eller lagliga förmyndares tillstånd att använda tjänster från Code.org."
+    student_terms: "Jag förstår att jag är bunden av reglerna för denna tjänst från Code.org. Om jag är under 13 år bekräftar jag genom att sända denna anmälan att jag har mina föräldrars eller lagliga förmyndares tillstånd att använda tjänster från Code.org."
     teacher_terms: "Jag accepterar att vara bunden av reglerna för tjänsterna från Code.org."
   signin_form:
     title: "Logga in"
@@ -102,12 +102,13 @@
   follower:
     invite_sent: "Inbjuda skickades"
     added_teacher: "%{name} är tillagd som din lärare"
-    registered: "You've registered for %{section_name}."
+    registered: "Du har registrerat dig för %{section_name}."
     error:
       signed_in: "Vänligen logga ut innan du fortsätter"
       username_not_found: "Användarnamnet %{username} hittades inte"
       username_in_use: "%{username} används redan, vänligen välj ett annat"
       no_teacher: "Kunde inte hitta någon inloggad med '%{teacher_email_or_code}'. Vänligen be dem att registrera sig här och försök sedan lägga till dem igen"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Gå med i en klass med %{teacher_name} på Code.org!"
@@ -121,40 +122,42 @@
     redeem_header: "To redeem:"
     success: "Ditt pris har lösts in, se nedan."
     error: "Ditt pris kunde inte lösas in, försök igen."
-    error_us_only: "Pris erbjudandet gäller endast för amerikanska användare."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_us_only: "Priserbjudandet gäller endast för amerikanska användare."
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Vänligen bekräfta"
       "no": Nej
       "yes": Ja
       msg: "Är du säker på att du vill begära %{prize_name} priset?"
       msg_student: "OBS: Du kan bara välja en sorts pris."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Du har gjort alla övningarna. När du har begärt ditt pris kan du fortsätta med en annan klass%{online_link} eller vid en %{local_school_link}"
     msg:
       choose: "Välj ett pris:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "Du har förtjänat ett pris! (Endast US-studenter)"
+      earned: "Du har förtjänat ett pris! (Endast amerikanska studenter)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Lär dig alla datavetenskapliga begrepp, samla in alla % {num_trophies} troféer och erhåll verkliga priser. Du kan välja mellan en $10 iTunes-presentkort, 10GB gratis lagringsutrymme i Dropbox, $10 i Skype krediter och gratis spelnerladdningar. Obs: erbjudandet  gäller endast amerikanska studenter, och endast så länge som lagret räcker."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 eller fler studenter samlade alla %{num_trophies} trophies. Du har vunnit ett lärarpris! (Endast lärare i USA)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: "7 eller fler av studenterna som samlade ihop alla %{num_trophies} troféer är tjejer. Du har vunnit ett bonuspris! (Endast lärare i USA)"
           not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Ny %{model}"
@@ -225,7 +228,8 @@
     student_progress: "Dina framsteg"
     student_stats: 'Du har samlat %{trophy_count} av %{trophy_max} "Koncept-bemästring" troféer.'
     student_left_off: "Där du slutade senast:"
-    student_finished: "Du har slutfört alla övningar, få ditt %{prize_link} och välj en annan klass %{online_link} eller på en %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "närliggande skola"
     online: "Online"
     see_details: "Se detaljer"
@@ -250,15 +254,19 @@
   reference_area:
     title: "Behöver du hjälp?"
     subtitle: "Se dessa filmer och tips"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Ingen video? Visa anteckningar."
     autoplay_option: "spela upp automatiskt"
-    download: "Download Video"
+    download: "Ladda ner video"
   compatability:
     working: "Vi arbetar för stöd till din webbläsare."
     upgrade: "Du måste uppgradera din webbläsare."
   slow_loading: "Det här tar längre tid  än vanligt..."
   try_reloading: "Försök ladda sidan igen"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Klar! Fortsätta till nästa steg"
   download_pdf: "Öppen kursplan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

@@ -52,10 +52,10 @@
     no_signup_header: "למה שלא תירשם?"
     no_signup_message: 'אתה יכול <a target="_blank" href="http://learn.code.org">לדפדף בחידות והשלבים השונים</a>, אבל אתה צריך להירשם על-מנת לשמור את התהליך שאתה עובר.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "ראה מדריך למחנך"
     teacher_prize_header: 'זכה בפרס בשווי 1,000 דולר ב-<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
-    teacher_prize_message: 'בשיתוף עם <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org יציע עד 1,000 דולר למימון כיתה שמורים בארה״ב מלמדים שם לפחות 10 תלמידים באמצעות הקורס הזה.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "למד את כיתות ח׳ הקדמה למדעי המחשב בכיתה שלך"
     teacher_title: "מורה, הרשם"
     student_pitch: "אחרי שעה: נסה את ההקדמה שלנו למדעי המחשב לכיתות ח׳"
@@ -113,6 +113,7 @@
       no_teacher: |
         לא נמצא משתמש רשום ע״י ״%{teacher_email_or_code}״.
         אנא בקש מהם להירשם כאן ונסה להוסיף אותם שנית
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "הצטרף לכיתה עם %{teacher_name} ב-Code.org!"
@@ -127,32 +128,34 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     error_us_only: "הפרס הזה תקף אך ורק לתושבי ארצות הברית."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Please Confirm"
       "no": לא
       "yes": כן
       msg: "אתה בטוח שאתה רוצה לבחור בפרס %{prize_name}?"
       msg_student: "הערה: ניתן לבחור רק סוג אחד של פרס."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
       choose: "בחרו בפרס:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "זכית בפרס! (לתושבי ארצות הברית בלבד)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "למד הכל על רעיונון מדעי המחשב, אסוף את כל %{num_trophies} הפרסים, ותוכל לזכות בפרס בעולם האמיתי. תוכל לבחור בין כרטיס מתנה ב-iTunes על סך 10$, 10 GB חינם ב-Dropbox, תוכל גם לזכות ב-10$ לסקייפ, או משחקים להורדה בחינם. שים לב! ההצעות תקפות אך ורק לתושבי ארצות הברית, עד גמר המלאי."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -230,7 +233,8 @@
     student_progress: "התקדמות הלמידה שלך"
     student_stats: "הרווחת %{trophy_count} פרסים מתוך %{trophy_max} אפשריים."
     student_left_off: "היכן שהפסקתם:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: 'בה"ס מקומי'
     online: "באינטרנט"
     see_details: "ראה פרטים"
@@ -255,6 +259,8 @@
   reference_area:
     title: "צריך עזרה?"
     subtitle: "לראות את קטעי וידאו ורמזים"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "וידאו."
     notes: "אין וידאו? הצג הערות."
@@ -267,3 +273,5 @@
   try_reloading: "נסה טעינה מחדש של הדף"
   next_stage: "סיימת! המשך לשלב הבא"
   download_pdf: "שיעור פתוח"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

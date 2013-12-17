@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Birinci kod saatınıza xoş gəldiniz! Proqramlaşdırmanın ilk ləzzətini çıxartmağa baş vuraq."
+        text: "İlk kod saatınıza xoş gəldiniz! Gəlin, birbaşa proqramlaşdırmanın ilk dadını çıxarmağa dalaq."
       2:
         image: "notes/hoc1_2.jpg"
         text: 'Kod yazmaq üçün blokları sürükləyib buraxacağınız bir vizual proqramlaşdırma dili olan "Blockly"dən ("Blokli") istifadə edəcəyik.'
@@ -33,10 +33,10 @@
         text: 'Hər blok bir göstərişdir. "İrəli get" blokunu iş sahənizə sürükləyib "Proqramı icra et"i bassanız, quş labirintdə bir xana irəliləyər.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "Birdən çox əməliyyatı yerinə yetirməkdən ötəri, siz bir çox bloku öz iş yerinizə sürüklüyə bilər və onları bir-birlərinə qoşa bilərsiniz. Quş bu əməliyyatları yuxarıdan aşağıya doğru ardıcıllıqla yerinə yetirəcəkdir."
+        text: "Birdən çox əməliyyatı yerinə yetirmək üçün siz bir neçə bloku öz iş sahənizə sürükləyə və bir-birinə qoşa bilərsiniz. Quş bu əmrləri yuxarıdan aşağıya ardıcıllıqla yerinə yetirəcək."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'Əgər bir proqramı icra edirsiniz və onu düzəldib yenidən cəhd etmək istəyirsinizsə, "Yenidən başla" düyməsini basın.'
+        text: 'Əgər bir proqramı icra edirsinizsə və onu düzəldib yenidən cəhd etmək istəyirsinizsə, "Yenidən başla" düyməsini basın.'
       13:
         image: "notes/hoc1_13.jpg"
         text: "Haydı, gedək, o donuzların dərsini verək!"
@@ -49,7 +49,7 @@
         text: "Bu tampacalarda siz onarın arxasıyla xətt çəkən rəssam olacaqsınız."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'Bu blok "100 piksel irəli gedin" deyir. Piksellər sizin ekranınızda kiçik nöqtələrdir. '
+        text: 'Bu blok "100 piksel irəli get" deyir. Piksellər sadəcə ekranınızdakı kiçik nöqtələrdir.'
       4:
         image: "notes/stage5_4.jpg"
         text: 'Bu blok "90 dərəcə sağa dönün" deyir. Bu sizin rəssamınızı labirint tapmacasındakı "dön" blokları qədər döndərəcək.'
@@ -65,7 +65,7 @@
         text: "Siz ona bütün torpaq qalaqlarını təmizləyib çuxurlara doldurmaqda kömək etməlisiniz."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Yeni blok bir kürək torpağı təpəcikdən götürərək onu çuxura doldurur."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Çuxurlarin və təpəciklərin ölçüləri müxtəlifdir. Ona görə də siz fermerə neçə kürək istifadə etməli olduğunu deməlisiniz."
@@ -110,7 +110,7 @@
         text: 'Salam, mən Billəm! Gəlin, yeni bir təməl anlayışı öyrənək: "əgər" ifadələri. Kompüterlər qərarları belə onların köməyi ilə verir.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: 'Siz özünüz də gündəlik həyatda "əgər" ifadəsindən istifadə edirsiniz. Hər gün çölə çıxmazdan əvvəl siz deyirsiniz ki, ƏGƏR çöldə yağış yağırsa mən pencəyimi geyinməliyəm.'
+        text: 'Siz özünüz də hər gün "əgər" ifadəsindən istifadə edirsiniz. Hər səhər çölə çıxmazdan əvvəl siz deyirsiniz ki, ƏGƏR çöldə yağış yağırsa mən gödəkçəmi geyinməliyəm.'
       3:
         image: "notes/hoc4_3.jpg"
         text: "Biz zombiyə deyə bilərik ki, yoxlasın ƏGƏR sola yol var varmı və əgər o sol yol taparsa biz onu həmin istiqamətə döndərə bilərik."
@@ -151,7 +151,8 @@
         text: 'Təyinatın içərisindəki bloklar bizə onun nə etdiyini deyir. Bu funksiya təyinatı "doldur 5" adlanır və "təkrarla" və "doldur" bloklarından ibarətdir.'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Təyinat iş sahəsində yerləşir, amma bizin fermer biz "doldur 5 funksiyası" blokunu funksiyalar kateqoriyasından çıxarmayınca funksiyanı işə salmayacaq.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Gəlin "FUNksiya"dakı "fun"-ı (ingiliscə: "əyləncə") yerinə qoyaq '
@@ -161,10 +162,10 @@
         text: 'Salam, mənim adım Makindedir. Gəlin "nə qədər ki" bloku haqqında öyrənək '
       2:
         image: "notes/stage9_6.jpg"
-        text: '"Nə qədər ki" bloku başlığında yazılan ifadə "doğru" olduğu müddətcə içərisində yerləşdirdiklərinizi təkrarlayacaq.'
+        text: '"Nə qədər ki" bloku başlığında yazılan ifadə "doğru" OLDUĞU MÜDDƏTCƏ içərisinə yerləşdirdiklərinizi təkrarlayacaq.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "Məsələn, əgər fermer təpəciyin üzərində dayanırsa, o, altında təpəcik olduğu müddətcə bir kürək torpağı altından yığışdırır."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

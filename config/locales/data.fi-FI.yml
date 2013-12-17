@@ -62,29 +62,29 @@
       description:
         sequence: "Käskysarjat"
         if: "Jos-lohko"
-        if_else: "Jos-muuten-lohko"
+        if_else: "Jos-muuten -lohko"
         loop_times: "Toistolohko"
-        loop_until: '"Toista kunnes "-lohko'
-        loop_while: '"Niin kauan kuin "-lohko'
+        loop_until: '"Toista kunnes" -lohko'
+        loop_while: '"Niin kauan kuin" -lohko'
         loop_for: "Laskurilohko"
         function: "Funktiot"
         parameters: "Parametrilliset funktiot"
     level:
       instructions:
-        maze_2_2: 'Auta minua pyydystämään ilkeä possu. Pinoa muutama "siirry eteenpäin" lohko yhteen ja paina "Suorita ohjelma" nappia. '
+        maze_2_2: 'Auta minua pyydystämään ilkeä possu. Pinoa muutama "siirry eteenpäin" -lohko yhteen ja paina "Suorita ohjelma" -nappia. '
         maze_2_1: "Tuo possu kiusaa minua. Auta minua löytämään hänet!"
-        maze_2_2_5: "Seuraa reittiä ja auta minua hölmön possun luo. Vältä TNT laatikkoa tai kohta höyhenet pöllyää!"
+        maze_2_2_5: "Seuraa reittiä ja auta minut hölmön possun luo. Vältä TNT-laatikkoa tai kohta höyhenet pöllyää!"
         maze_2_3: "Auta minut vihreän ilkiön luo! (Varo TNT:tä)"
         maze_2_4: "Ihan rauhallisena nyt. Auta minut pahan possun luo, muuten suutun!"
         maze_2_5: "Löytyy ainakin yksi tapa, jolla pääsen possun luo vain kahta lohkoa käyttäen. Keksitkö mikä se on?"
         maze_2_6: "Yritä saada minut vihreän tunkeilijan luo käyttäen vain kolmea lohkoa."
         maze_2_7: 'Auta minua hävittämään tämä paha possu käyttäen pienintä määrää lohkoja. Yritä käyttää enemmän, kuin yhtä "toista"-lohkoa.'
-        maze_2_8: 'Ratkaistaksesi tämän thetävän, käytä "toista"-lohkoa, jossa on sisällä nämä 3 lohkoa: liiku, liiku, käänny.'
+        maze_2_8: 'Ratkaistaksesi tämän tehtävän, käytä "toista"-lohkoa, jossa on sisällä nämä 3 lohkoa: siirry, siirry, käänny.'
         maze_2_9: 'Noniin, kokeile nyt uutta "toista kunnes" -lohkoa - se toistaa asioita niin kauan, kunnes saavutan tuon ärsyttävän possun.'
         maze_2_10: "Noniin, viimeinen harjoitus - pystytkö ratkaisemaan tämän tehtävän käyttäen vain neljää lohkoa?"
-        maze_2_11: "Hyvä henkilö. Minä zombi. Minä nälkä. Pakko... saada... auringonkukka... Saatko minut sinne käyttäen vain viittä lohkoa?"
+        maze_2_11: "Hyvä henkilö. Mää zombi. Mää nälkä. Pakko... saada... auringonkukka... Saatko mut sinne käyttäen vain viittä lohkoa?"
         maze_2_12: "OK, tämä on samankaltainen, mutta hieman erilainen. Pärjäätkö viidellä lohkolla?"
-        maze_2_13: 'Käytä uutta "jos"-lohkoa päättämään, milloin käännyn. Vihje: tarvitset vain yhtä "toista"-lohkoa, mutta opettele nyt miten me teimme sen, jotta osaat itse seuraavalla kerralla.'
+        maze_2_13: 'Käytä uutta "jos"-lohkoa päättämään, milloin käännyn. Vihje: tarvitset vain yhtä lisälohkoa, mutta opettele nyt miten me teimme sen, jotta osaat itse seuraavalla kerralla.'
         maze_2_14: 'Hyvä! Tämä on ihan kuin edellinen pulma, mutta nyt sinun pitää itse muistaa, miten "jos"-lohkoa ja "toista"-lohkoa käytettiin yhdessä.'
         maze_2_15: 'Tahtoo auringonkukan! Käytä "jos"-lohkoa viedäksesi minut sinne käyttäen mahdollisimman pientä määrää lohkoja.'
         maze_2_16: "Harjoitellaanpa samaa uudestaan - tämä ei kyllä ole kovin vaikea, mutta varo ahmijoita!"
@@ -100,7 +100,7 @@
         turtle_1_5: "Harjoituksen vuoksi voisit nyt piirtää kirjekuoren käyttäen kolmiota ja neliötä."
         turtle_1_6: "Keksitkö miten piirtää tämä kolmio ja neliö? Vihje: piirrä kolmio ensin ja sitten keksi miten paljon pitää kääntyä ennen kuin piirrät neliön."
         turtle_1_7: "OK! Tehdäänpäs sitten jotain hankalampaa: pystytkö piirtämään nämä vihreät lasit? Neliöt ovat 100 kuvapistettä kanttiinsa ja niiden välissä on 50 kuvapistettä. Älä unohda piirtää vihreällä!"
-        turtle_1_8: 'Selvä. Yritähän seuraavaksi selvittää, mitä tapahtuu jos ajat tämän koodin (paina "Suorita" nappia nähdäksesi vastauksen). Sen jälkeen toista sitä niin monta kertaa, että saat kuvan valmiiksi. Väri vaihtuu joka kerta.'
+        turtle_1_8: 'Selvä. Yritähän seuraavaksi selvittää, mitä tapahtuu jos ajat tämän koodin (paina "Suorita ohjelma" -nappia nähdäksesi vastauksen). Sen jälkeen toista sitä niin monta kertaa, että saat kuvan valmiiksi. Väri vaihtuu joka kerta.'
         turtle_1_9: "Keksitkö, millä numerolla sinun täytyy korvata kysymysmerkki, että saat piirretyksi ympyrän?"
         turtle_1_10: 'Teit sen! Piirrä nyt mitä vain haluat. Tässä muutama hauska idea: tikku-ukko, lumihiutale tai spiraali. Kokeile myös uutta "aseta leveys" -lohkoa. Pidä hauskaa!'
         turtle_4_1: 'Osaatko piirtää kolmion (jonka sivut ovat 100 kuvapistettä) käyttäen vain kolmea lohkoa? Vihje: käytä "toista" -lohkoa.'
@@ -126,82 +126,73 @@
         maze_karel_1_10: 'Taisi mennä ylitöiksi ja tuli jo pimeä. En osaa enää arvioida, kuinka suuria kasat ovat. Osa valinnoista on poistunut "niin kauan kuin" -lohkosta. Liikuta minua pellolla ja jos löydämme kasan, poista se.'
         maze_karel_1_11: 'On jo pimeä. Liikuta minua pellolla. Jos osun kasan luo, poista se. Jos tulen kuopalle, täytä se. Vihje: käytä "jos"-lohkon alasvetovalikosta löytyviä ehtoja.'
         turtle_2_1: "Moro! Mää zombie taitelija. Mää rakastaa piirtämistä! Auta minua piirtämään neliö erikoisella värillä. Tärkeää: sinulla on edelleen käytössä kaikki samat lohkot, mutta nyt ne on järjestetty luokkiin."
-        turtle_2_2: 'Tervetuloa käyttämään funktioita, joiden avulla voit määrittää omia, uusia lohkoja! Kokeile uutta "piirrä neliö" lohkoa, jonka löydät "Funktiot" luokasta ja piirrä sillä 50x50 kuvapisteen vihreä neliö.'
+        turtle_2_2: 'Tervetuloa käyttämään funktioita, joiden avulla voit määrittää omia, uusia lohkoja! Kokeile uutta "piirrä neliö" lohkoa, jonka löydät "Funktiot" valikosta ja piirrä sillä 50x50 kuvapisteen vihreä neliö.'
         turtle_2_3: 'Käytä "toista"-lohkoa (kts. "Silmukat") piirtääksesi 3 kpl 100 kuvapisteen neliötä 120 kuvapisteen välein. Tee se kolmella satunnaisella värillä.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        turtle_2_4: "Hienostellaanpa vähän. Muuta ohjelma piirtämään 36 neliötä, jotka ovat leveydeltään 100 kuvapistettä ja 10 asteen etäisyydellä toisistaan. Vihje: voit käyttää liukusäädintä tehdäksesi minusta nopeamman."
+        turtle_2_5: 'Piirrä neliöt kooltaan 50, 60, 70, 80 ja 90 kuvapistettä. Sinun pitää käyttää "piirrä neliö" -funktiota viisi kertaa.'
+        turtle_2_6: 'Hienoa! Tämä ohjelma tulee käyttämään laskuria piirtämään samat neliöt, kuin viimeksi. Sinun täytyy saada neliöstä laskurin osoittaman arvon kokoinen, joten käytä "laskuri"-lohkoa. Vihje: löydät sen "Muuttujat"-valikosta.'
+        turtle_2_7: 'Tässä on ohjelma, joka piirtää spiraalin. Lohkon eivät ole vielä käytössä, joten ohjelma ei vielä aja. Tee uusi vastaavan spiraalin piirtävä ohjelma käyttäen "laske"-lohkoa ("Silmukat"-valikossa) ja "laskuri"-lohkoa ("Muuttujat"-valikossa).'
+        turtle_2_7_5: '"Funktiot"-valikossa on lisätty uusi "piirrä lumiukko"-funktio. Piirrä kaksi lumiukkoa, korkeudet 250 ja 100.'
+        turtle_2_8: 'Tämä voi olla hieman haastava. Käytä "piirrä lumiukko" -funktiota ja uutta "hyppää taaksepäin" -lohkoa ("Toiminnot"-valikossa). Piirrä 3 lumiukkoa eri väreissä, 100 kuvapisteen etäisyydellä toisistaan.'
+        turtle_2_9: 'Käytä "laske" silmukkaa piirtämään lumiukko perhe, jossa lumiukkojen pituudet ovat 110, 100, 90, 80 ja 70 kuvapistettä. Lumiukkojen pitäisi kaikkien olla 60 kuvapisteen etäisyydellä toisistaan.'
+        turtle_2_10: "Tässä vähän valmista koodia, jonka avulla voit tehdä kokeita erilaisilla spiraaleilla. Mitä tapahtuu jos muutat käännöksen määrää? Tai entä, jos asetat satunnaisvärin silmukkaan? Piirrä mitä vain haluat."
+        maze_karel_2_1: "Kokeile käyttää lohkoja auttaaksesi minua poistamaan kaikki massa olevat kasat ja täyttämään kaikki kuopat. Yritä käyttää silmukoita sen sijaan, että käyttäisit samaa lohkoa useammin. Vihje: voit käyttää sisäkkäisiä silmukoita."
+        maze_karel_2_2: 'Olemme määrittäneet oman lohkon "täytä 5", joka löytyy "Funktiot"-valikosta. Auta minua täyttämään kuopat sen avulla.'
+        maze_karel_2_3: 'Käytä uutta "täytä 5" -funktiolohkoa ja laita minut täyttämään kuopat. Sinun täytyy raahata "täytä 5" lohko "Funktiot"-valikosta.'
+        maze_karel_2_4: "Määritä uusi funktio joka poistaa 7 lapiollista maata. Käytä sitä sitten luodaksesi ohjelman, joka auttaa minua poistamaan kasat."
+        maze_karel_2_5: "Luo uusi funktio, joka poistaa 6 lapiollista kasasta ja käytä sitä sitten auttaaksesi minua tasaamaan kaikki kasat."
+        maze_karel_2_6: 'Käytä kahta uutta funktiota "täytä 8" ja "poista 8" ja auta minua tasaamaan kuopat ja kasat.'
+        maze_karel_2_7: "Pellolle on ilmestynyt lehmä! Kirjoita funktio joka auttaa minua välttämään lehmää ja poistamaan kasat. Laita kaikki lohkosi uuden funktion sisään."
+        maze_karel_2_8: 'Käytä nyt tätä uutta funktiota "vältä lehmä ja poista 1" ja auta minua poistamaan kaikki kasat.'
+        maze_karel_2_9: "Noniin! Tässä on funktio, joka poistaa 4 eri maakasaa. Kokeile laittaa tämä funktio silmukan sisään siten, että saat kaikki kasat poistettua käyttäen vain muutamaa uutta lohkoa."
+        maze_karel_2_10: "Liikuta minua pitkin peltoa ja auta minua tasaamaan se. Käytä näitä kahta uutta funktiota."
+        turtle_3_1: 'Tämä pulma näyttää, miten "piirrä neliö" ja "piirrä ympyrä" -funtkiot on määritetty. Funktion määrittäminen ei vielä aja sitä, vaan sinun pitää raahata "piirrä neliö" lohko "Funktiot"-valikosta ajaaksesi se.'
+        turtle_3_2: 'Käyttäen "piirrä neliö" -funktiota esimerkkinä, luo "piirrä kolmio" -funktio ja käytä sitä.'
+        turtle_3_3: "Piirrä kolmion muotoisia aitoja kissojen ympärille ja neliön muotoisia aitoja lehmien ympärille. Vihje: testaa ohjelmaasi sitä mukaa kun etenet."
+        turtle_3_4: 'Kokeile keksitko, miten voisit käyttää "piirrä neliö" ja "piirrä kolmio" -funktiota (ja paria muuta lohkoa) talon piirtämiseen. Piirrä talo leijonan ympärille.'
+        turtle_3_5: 'Luo nyt uusi "piirrä talo" funktio. Piirrä sitten talo kahdelle kissalle. Vihje: luo uusi funktio raahaamalla "suorittaaksesi jotain" -lohko ja muuta "jotain"-tekstin tilalle funktion nimi ("piirrä talo").'
+        turtle_3_6: 'Käyttäen "piirrä neliö" -funktiota esimerkkinä, lisää syöte "pituus" "piirrä kolmio" -funtiolle. Tämän jälkeen piirrä eri kokoisia kolmioita. (Vihje: klikkaa tähteä funktion vasemmassa yläkulmassa)'
+        turtle_3_7: 'Lisää syöte "pituus" "piirrä talo" -funktiolle ja piirrä iso talo elefantille (sivun pituus 150 kuvapistettä ).'
+        turtle_3_8: 'Tässä on kaikki edellisen pulman lohkot. Muokkaa "piirrä talo":a niin, että päädyn talon oikeaan alakulmaan piirtämisen jälkeen. Käytä muutettua funktiota ja piirrä kolme taloa.'
+        turtle_3_9: 'Osaatko luoda "piirrä talo" -funktion ilman apua? Kokeile ja sitten piirrä rivi taloja.'
+        turtle_3_10: "Olet oppinut todella paljon! Käytä nyt taitojasi ja piirrä jotain mukavaa. Kokeile vaikka piirtää tähti, spiraali tai erikoinen lumihiutale."
+        maze_karel_debug_seq_1: "Tervetuloa mestästämään koodivirhettä, eli bugia! Koodini ei toimi oikein. Osaatko löytää virheen ja korjata sen? Minun pitäisi saada peltoni tasattua, jotta voin aloittaa istutuksen."
+        maze_karel_debug_seq_2: "Mitä vikaa tässä ohjelmassa on? Miten korjaisit sen, jotta saan kasat pois?"
+        maze_karel_debug_repeat: "Auta minua korjaamaan tämä ohjelma, jotta saan peltoni kauniiksi ja tasaiseksi."
+        maze_karel_debug_while: "Miten muuttaisit tätä ohjelmaa, jotta saan kuopat täytettyä?"
+        maze_karel_debug_if: "Apua! Auta minua korjaamaan ohjelmani, jotta saan pellon täysin tasaiseksi."
+        maze_karel_debug_if_else: "Auta minua paikallistamaan ja korjaamaan virheet tässä ohjelmassa, jotta saan kaikki kuopat ja kasat tasattua."
+        maze_karel_debug_function_1: "Mitä tässä ohjelmassa pitäisi muuttaa, jotta se auttaisi minua poistamaan kaikki kasat?"
+        maze_karel_debug_function_2: "Osaatko paikallistaa ja korjata tämän ohjelman virheet, jotta pellosta tulisi tasainen?"
+        maze_karel_debug_function_3: "Muokkaa tätä ohjelmaa siten, että saan kaikki kasat pois pelloltani. "
+        turtle_5_1: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Osaatko päätellä, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        turtle_5_2: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Keksitkö, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        turtle_5_3: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Osaatko päätellä, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        turtle_5_4: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Pystytkö selvittämään, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        turtle_5_5: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Keksitkö, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        turtle_5_6: "Kokeile ajaa tätä ohjelmaa. Tee sitten muutoksia ja kokeile mitä tapahtuu. Osaatko päätellä, miten se toimii? (Voit myös poistaa sen ja korvata sen jollain täysin uudella ohjelmalla)"
+        maze_3_1: "Minun täytyy saada tuo sika kiinni! Kirjoita pari siirry(); riviä, jotta saan munani takaisin."
+        maze_3_2: "Kirjoita minulle ohjelma, jotta pääsen possun luo."
+        maze_3_3: "Miten pääsisin possun luo? Varmistathan, etten törmää TNT-laatikoihin!"
+        maze_3_4: "Argh! Kirjoita minulle ohjelma, jolla pääsen TNT-laatikoiden ohi possun luo."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Tätä tehtävää varten sinun tulee ensin löytää toistuva kaava. Käytä sitten "toista"-lohkoa näiden 3 lohkon kanssa: siirry, siirry, käänny oikeaan.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: 'Tarvitset "jos"-lohkon "toista"-lohkon sisään. Jos sinulla on vaikeuksia, yritä edellistä tasoa uudestaan ja katso miten se toimii.'
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Tätä tehtävää varten sinun tulee ensin löytää toistuva kaava. Käytä sitten "toista"-lohkoa näiden 3 lohkon kanssa: siirry, siirry, käänny oikeaan.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        maze_intro: "Sokkelon johdanto"
+        artist_intro: "Taiteilijan johdanto"
+        farmer_intro: "Maanviljelijän johdanto"
+        loop_times: "Toista kertaa -lohko"
+        loop_until: "Toista kunnes -lohko"
+        if: "Jos-lohko"
+        if_else: "Jos/muuten -lohko"
+        function: "Funktiot"
+        loop_while: '"Niin kauan kuin" -lohko'
+        loop_for: "Laskurilohko"
+        parameters: "Parametrilliset funktiot"
+        hoc_wrapup: "Kooditunnin yhteenveto"
+        20_wrapup: "20 tunnin yhteenveto"

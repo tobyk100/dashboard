@@ -48,12 +48,12 @@
   signup_form:
     overview: "Bu 20 saatlik ders temel bilgisayar bilimi ve programlama kavramlarını tanıtır. Ders, K-8 dersliklerinde kullanılmak üzere tasarlanmıştır, ama her yaştan öğrenmek için eğlencelidir."
     no_signup_header: "Kaydolmak istemiyor musun?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    no_signup_message: '<a target="_blank" href="http://learn.code.org">Çeşitli aşamalara ve bulmacalara gözatabilirsin</a> ama ilerlemeni kaydetmek için kayıt olman gerekmektedir.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Eğitim rehberine bakın"
     teacher_prize_header: '1.000 $ kazan <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> ödülleri'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Bilgisayar Bilimine Giriş K-8'i sınıfında öğret"
     teacher_title: "Öğretmen Kayıt"
     student_pitch: "1 Saat ötesinde: Bilgisayar bilimi K-8 Intromuzu deneyin"
@@ -99,12 +99,13 @@
   follower:
     invite_sent: "Davetiye gönderildi"
     added_teacher: "%{name} öğretmeniniz olarak eklendi"
-    registered: "You've registered for %{section_name}."
+    registered: "%{section_name} için kayıt oldunuz."
     error:
       signed_in: "Devam etmeden önce lütfen çıkış yapınız"
       username_not_found: "%{username} kullanıcı adı bulunamadı"
       username_in_use: "%{username} önceden alınmış, lütfen başka bir tane seçiniz"
       no_teacher: "Herhangi biri '% {teacher_email_or_code}' ile imzalanan bulamadı. Lütfen şurayı imzalayın isteyin ve sonra onları yeniden eklemeyi deneyin."
+      blank_code: "Lütfen öğretmeniniz e-posta adresini veya kodu giriniz"
     mail:
       invite_student:
         subject: "Code.org'ta %{teacher_name} ile bir sınıfa katıl!"
@@ -118,41 +119,44 @@
     redeem_header: "To redeem:"
     success: "Ödülünüzü başarılı bir şekilde kullandınız, aşağıdaki koda bakın."
     error: "Ödülünüzü kullanamazsınız, lütfen tekrar deneyin."
-    error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_us_only: "Ödül teklifi sadece A.B.D. kullanıcıları için geçerlidir."
+    error_not_earned: "Henüz bu ödülü kazanmadınız."
+    error_already_redeemed: "Ödülün zaten alındı."
+    no_prizes_available: "Üzgünüz, ama şu anda kullanılabilir hiçbir ödülümüz yok."
     confirm:
       title: "Lütfen onaylayın"
       "no": Hayır
       "yes": Evet
       msg: "%{prize_name} ödülünü talep etmek istediğinize emin misiniz?"
       msg_student: "Not: Yalnızca bir tür ödül seçebilirsiniz."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB Dropbox Alanı"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Tüm eğitimleri tamamladınız. Ödülünüzü talep ettikten sonra başka bir sınıf seçin  %{online_link} ya da buradan %{local_school_link}"
     msg:
       choose: "Bir ödül seçin:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "Bir ödül kazandın! (Sadece A.B.D. öğrencileri için)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 veya daha fazla öğrenci %{num_trophies} adet kupanın tamamını topladı. Öğretmen ödülü kazandın! (Sadece A.B.D. öğretmenleri için)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: |-
+          İlk defa bilgisayar bilimleri öğretmenliği yapanları ödüllendirmek amacıyla, bir sınıfa ilköğretim (K-8) giriş dersi boyunca rehberlik ettiğin için 1000$'a kadar <a href="http://DonorsChoose.org">DonorsChoose.org</a> parası kazanabilirsin. Buna hak kazanmak için, en az 15 kişilik bir sınıfı bütün bir ilköğretim giriş dersi boyunca başarıyla yönetmen ve 15 (veya daha fazla) öğrencinin derslerin hepsini tamamlaması ve %{num_trophies} adet kupanın hepsini kazanmaları gerekmektedir. Eğer bütün kupaları kazanan öğrencilerden 7 veya daha fazlası kız öğrenci ise, ödülün 1000$ <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> parasıdır. Aksi takdirde, ödülün 750$ <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> parasıdır. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> parası sadece A.B.D. devlet okulu öğretmenleri tarafından kullanılabilir.
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "%{num_trophies} adet kupanın tamamını kazanan öğrencilerden 7 veya daha fazlası kız öğrencilerdir. Bonus ödül kazandın! (Sadece A.B.D. öğretmenleri için)"
+          not_earned: 'Eğer, %{num_trophies} adet kupanın tamamını kazanan öğrencilerden 7 veya daha fazlası kız öğrenciler ise, ödülün ilave olarak 250$ <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> parasıdır. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> parası sadece A.B.D. devlet okullarındaki öğretmenler tarafından kullanılabilir.'
   crud:
     new_model: "Yeni %{model}"
     show: "Göster"
@@ -222,7 +226,8 @@
     student_progress: "Öğrenme ilerlemeniz"
     student_stats: '"Kavram Ustalığı" kupalarından %{trophy_max} kupadan %{trophy_count} kupayı kazandınız.'
     student_left_off: "Kaldığınız yer:"
-    student_finished: "Bütün eğitimleri tamamladınız, %{prize_link} talep ediniz ve başka bir sınıf seçin %{online_link} ya da %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "Yerel okul"
     online: "Online"
     see_details: "Ayrıntılara bakınız"
@@ -248,6 +253,8 @@
   reference_area:
     title: "Yardım ister misiniz?"
     subtitle: "Bu videoları ve ipuçlarına bakın"
+    teacher: "Çözüme bakın"
+    auth_error: "Bu çözümü görmek için yetkiniz yok."
   video:
     tab: "Video."
     notes: "Video yok? Notları göster."
@@ -260,3 +267,5 @@
   try_reloading: "Sayfayı yeniden yüklemeyi deneyin"
   next_stage: "Bitti! Bir sonraki aşamaya geç"
   download_pdf: "Açık ders planı"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

@@ -1,55 +1,55 @@
 "cs":
   devise:
     confirmations:
-      confirmed: "Tvůj účet byl úspěšně potvrzen.  Můžeš se nyní přihlásit."
-      send_instructions: "Brzy obdržíš e-mail s pokyny, jak aktivovat tvůj účet."
-      send_paranoid_instructions: "Pokud již máme tvou e-mailovou adresu, brzy obdržíš e-mail s pokyny, jak aktivovat tvůj účet."
+      confirmed: "Tvůj účet byl úspěšně potvrzen.  Nyní jsi přihlášený."
+      send_instructions: "Do několika minut obdržíš email s pokyny, jak aktivovat svůj účet."
+      send_paranoid_instructions: "Pokud je tvůj email v naší databázi, do několika minut obdržíš email s pokyny, jak aktivovat svůj účet."
     failure:
-      already_authenticated: "Již jsi přihlášeni."
-      inactive: "Tvůj účet nebyl zatím aktivován."
-      invalid: "Neplatný e-mail nebo heslo."
+      already_authenticated: "Již jsi přihlášený."
+      inactive: "Tvůj účet zatím nebyl aktivován."
+      invalid: "Neplatný email nebo heslo."
       invalid_token: "Neplatný ověřovací token."
       locked: "Tvůj účet je uzamčen."
-      not_found_in_database: "Neplatný e-mail nebo heslo."
+      not_found_in_database: "Neplatný email nebo heslo."
       timeout: "Doba přihlášení vypršela. Přihlaš se, prosím, znovu."
       unauthenticated: "Pro pokračování se musíš přihlásit či registrovat."
-      unconfirmed: "Před pokračování, musíš aktivovat tvůj účet."
+      unconfirmed: "Dřív, než budeš pokračovat, musíš aktivovat svůj účet."
     mailer:
       confirmation_instructions:
-        subject: "Potvrdit instrukce"
+        subject: "Pokyny pro aktivaci"
       reset_password_instructions:
         subject: "Pokyny k obnovení hesla"
       unlock_instructions:
-        subject: "Odemknout instrukce"
+        subject: "Pokyny k odemknutí"
     omniauth_callbacks:
       failure: 'Nemůžeme tě ověřit z %{kind} kvůli "%{reason}".'
-      success: "Úspěšně aktivovát z účtu %{kind}."
+      success: "Úspěšně ověřen z %{kind} účtu."
     passwords:
-      no_token: "Nemůžeš získat přístup k této stránce bez e-mailu pro resetování hesla. Pokud ho máš z daného e-mailu, přesvěč se, prosím, že si použil plnou URL adresu."
-      send_instructions: "Za pár minut získáš e-mail s instrukcemi, jak resetovat heslo."
-      send_paranoid_instructions: "Pokud máme tvou e-mailovou adresu, za pár minut ti na ni zašleme e-mail s odkazem na obnovení hesla."
-      updated: "Heslo bylo úspěšně změněno . Nyní jsi i přihlášen."
+      no_token: "Nemůžeš vstoupit na tuto stránku jinak, než skrze email pro obnovu hesla. Pokud opravdu přecházíš z daného emailu, přesvědč se, prosím, že jsi použil plnou URL adresu."
+      send_instructions: "Do několika minut obdržíš email s pokyny, jak obnovit své heslo."
+      send_paranoid_instructions: "Pokud je tvůj email v naší databázi, do několika minut obdržíš email s pokyny, jak obnovit své heslo."
+      updated: "Heslo bylo úspěšně změněno. Nyní jsi přihlášen."
       updated_not_active: "Heslo bylo úspěšně změněno."
     registrations:
-      destroyed: "Ahoj! Tvůj účet byl úspěšně smazán. Doufáme, že tě zase někdy uvidíme."
-      signed_up: "Vítej! Úspěště jsi byl přihlášen."
+      destroyed: "Na shledanou! Tvůj účet byl úspěšně smazán. Doufáme, že tě zase někdy uvidíme."
+      signed_up: "Vítej! Úspěšně jsi byl přihlášen."
       signed_up_but_inactive: "Úspěšně jsi byl registrován, ale do doby, než bude tvůj účet aktivován, se nemůžeš přihlásit."
       signed_up_but_locked: "Úspěšně jsi byl registrován, ale nemůžeš se přihlásit, protože tvůj účet je uzamčen."
-      signed_up_but_unconfirmed: "Zpráva s potvrzovacím odkazem byla zaslána na tvou e-mailovou adresu. Otevři, prosím, daný odkaz pro aktivování účtu."
-      update_needs_confirmation: "Účet byl úspěště aktualizován, ovšem musíme ověřit novou e-mailovou adresu. Pro dokončení potvrzení nové e-mailové adresy, klikni na potvrzovací odkaz v e-mailu na nové e-mailové adrese."
+      signed_up_but_unconfirmed: "Zpráva s potvrzovacím odkazem byla zaslána na tvou emailovou adresu. Otevři, prosím, daný odkaz pro aktivování účtu."
+      update_needs_confirmation: "Účet byl úspěšně aktualizován, avšak musíme ověřit tvou novou emailovou adresu. Prosím, zkontroluj svůj email a klikni na potvrzovací link, aby jsi dokončil změnu své nové emailové adresy."
       updated: "Účet byl úspěšně aktualizován."
     sessions:
       signed_in: "Úspěšně přihlášen."
       signed_out: "Úspěšně odhlášen."
     unlocks:
-      send_instructions: "Brzy obdržíš e-mail s pokyny, jak odemknout tvůj účet."
-      send_paranoid_instructions: "Pokud tvůj účet existuje, obdržíš e-mail s instrukcemi, jak odemknout účet."
-      unlocked: "Tvůj účet byl úspěšně odemknut. Prosím, přihlaš se, pro pokračování."
+      send_instructions: "Do několika minut obdržíš email s pokyny, jak odemknout svůj účet."
+      send_paranoid_instructions: "Pokud tvůj účet existuje, do několika minut obdržíš email s pokyny, jak odemknout svůj účet."
+      unlocked: "Tvůj účet byl úspěšně odemknut. Prosím, přihlaš se, aby jsi mohl pokračovat."
   errors:
     messages:
       already_confirmed: "byl již aktivován, prosím, zkus se přihlásit"
       confirmation_period_expired: "musí být potvrzen do %{period}, požádej, prosím, o nový"
-      expired: "již neplatí. Prosím, požádej o nový"
+      expired: "vypršel, prosím, požádej o nový"
       not_found: "nenalezeno"
       not_locked: "nebyl uzamčen"
       not_saved:

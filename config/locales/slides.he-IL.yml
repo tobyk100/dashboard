@@ -30,130 +30,123 @@
         text: "מצד ימין נמצאת סביבת העבודה, אליה תגרור בלוקים מארגז הכלים כדי לבנות את התוכנית שלך. כדי למחוק בלוק, גרור אותו אל פח האשפה שבפינה."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
+        text: 'כל בלוק הוא הוראה אחת. אם תגרור בלוק "התקדם" אל סביבת העבודה שלך ותלחץ על "הפעל תוכנית", הציפור תנוע צעד אחד על המבוך.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "To do more than one action, you can drag many block to your workspace and attach them together. The bird will do the commands from top to bottom."
+        text: "כדי לבצע יותר מפעולה אחת, ניתן לגרור בלוקים רבים אל סביבת העבודה שלך ולחבר אותם יחדיו. הציפור תבצע את הפקודות מלמעלה כלפי מטה."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'If you run a program and want to fix it and try again, press the "Reset" button.'
+        text: 'אם אתה מפעיל תוכנית ורוצה לתקן אותה ולנסות שוב, לחץ על לחצן "איפוס".'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Let's go get those pigs!"
+        text: ". בואו נתפוס את החזירים האלה!"
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "הי, אני ג'וניור! כל צוות מכוניות מירוץ צריך מדעני מחשב כדי לנצח. הם מנתחים נתונים מהמכונית כדי לגרום לה לנסוע מהר יותר."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "במהלך החידות הבאות תהיה אמן המשרטט קו מאחוריו בכל מקום אליו הוא הולך."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'בלוק זה אומר "התקדם כ- 100 פיקסלים". פיקסלים הם נקודות ממש זעירות על המסך.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'בלוק זה אומר "פנה ימינה ב- 90 מעלות". האמן שלך יפנה באותה צורה כמו בבלוקי ״פנה״ שבפאזלי המבוך.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "לחץ על החץ באחד מבלוקים אלו כדי לשנות את הכמות שבה האמן ינוע קדימה או יפנה. שחק מעט כדי להכיר את בלוקים חדשים אלו."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "היי, אני פאולה! בחידות אלו אתה איכר הצריך לשטח את השדה שלו לחלוטין לשם שתילת יבולים."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "עליך לעזור לה להסיר את כל ערמות העפר ולמלא את כל החורים."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "הערימות והחורים הם בגדלים שונים, כך שעליך לספר לאיכר בכמה דליים עליו להשתמש."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hi, I'm Mark! Let's learn about loops. Using loops you can tell a computer to repeat any set of actions over and over, thousands or even billions of times."
+        text: ". היי, אני מארק! בואו ללמוד על לולאות. באמצעות לולאות אתה יכול להגיד למחשב לחזור על כל סדרת פעולות שוב ושוב, אלפי או אפילו מיליארדי פעמים."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "In this puzzle, we want to make the bird move forward 5 spaces to get to the pig."
+        text: "בחידה הזו, אנחנו רוצים לגרום לציפור לזוז קדימה 5 מקומות כדי להגיע לחזיר."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'We can use the new "repeat" block to help us out.'
+        text: 'אנחנו יכולים להיעזר בבלוק "חזור" החדש.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Instead of dragging out 5 "move forward" blocks...'
+        text: 'במקום לגרור 5 בלוקי ״התקדם" ...'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'We can put the "move forward" block inside the "repeat" block and write a number in the block to tell it how many times to repeat.'
+        text: 'אנו יכולים למקם את הבלוק "התקדם" בתוך בלוק "חזור", ולכתוב בבלוק מספר שאומר לו כמה פעמים לחזור.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'And this is important: you can put more than one command inside a "repeat" block.'
+        text: 'וזה חשוב: אפשר לשים יותר מפקודה אחת בתוך בלוק "חזור".'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Enjoy using your new "repeat" block!'
+        text: 'תיהנה מבלוק "חזור" החדש שלך!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
         text: |-
-          Hi, I'm Chris. Before joining the Miami Heat, I went to Georgia Tech to study Computer Science. Let's try our new block, the "repeat until" block.
+          הי, אני כריס. לפני שהצטרפתי לקבוצת המיאמי היט, למדתי מדעי המחשב במכללת ג'ורג'יה טק. בואו ננסה בלוק חדש, בלוק "חזור עד".
       2:
         image: "notes/hoc3_2.jpg"
-        text: "What if we didn't know how far the bird had to move to get to the pig?"
+        text: "מה אם אנחנו לא יודעים כמה רחוק הציפור צריכה לעבור כדי להגיע לחזיר?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'If we put a "move forward" block inside the "repeat until" block, the bird will move forward UNTIL it reaches the pig (or crashes into a wall).'
+        text: 'אם נשים בלוק "התקדם" בתוך הבלוק "חזור עד", הציפור תזוז קדימה עד שתגיע אל החזיר (או שתתרסק לתוך קיר).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'And this is important: just like before, we can put multiple blocks inside the "repeat until" block, and they will all be repeated.'
+        text: 'וזה חשוב: בדיוק כמו מקודם, אנחנו יכולים לשים מספר בלוקים בתוך הבלוק "חזור עד", כך שכולם יתבצעו שוב ושוב.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'הי, אני ביל! בואו ונלמד מושג יסוד חדש: הצהרות "אם". כך מחשבים מקבלים החלטות.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: "אתה משתמש במשפטי ״אם״ יום יום בעצמך. לפני שאתה יוצא החוצה בכל בוקר, אתה אומר - אם יורד גשם בחוץ, אני צריך ללבוש מעיל."
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "אנחנו יכולים להגיד לזומבי לבדוק אם יש שביל שמאלה, ואם אכן הוא ימצא נתיב לשמאל, נוכל לגרום לו להסתובב לכיוון זה."
       4:
         image: "notes/hoc4_4.jpg"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'כדי לכתוב את הקוד לזה, בואו נגרור בלוק "אם" ונשים בלוק "פנה שמאלה" בתוכו.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'עכשיו, אם נשים בלוק "התקדם" מעליו ובלוק "חזור" סביב הכל, בכל פעם שהזומבי זז, הוא יבדוק אם ישנו שביל שמאלה ויפנה אליו. הפקודה "חזור" היא קריטית, כדי לבדוק בכל צעד האם ניתן לפנות.'
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: "הצהרות ״אם״ מאד חשובות במדעי המחשב. אחת התוכניות הראשונות שכתבתי היתה משחק איקס-עיגול, והיה בה משפט ״אם״ שאמר - אם השחקן האחר עומד לנצח, חסום את המקום שמאפשר לו לנצח."
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Have fun using the "if" block!'
+        text: 'תהנה בשימוש בבלוק "אם"!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'הי, שמי סלוני. אני משתמשת במדעי המחשב כדי לפתור בעיות בריאות ורפואה. בואו נלמד על בלוק ״אם-אחרת". הוא נראה דומה לבלוק "אם", אבל בסופו יש חלק נוסף האומר "אחרת".'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'אם אשים בלוק "התקדם" היכן שכתוב "עשה", ובלוק "פנה שמאלה" היכן שכתוב "אחרת", הזומבי יבחר בין שתי אפשרויות. אם קיימת דרך לפנים, הזומבי יתקדם הלאה, אחרת (אין דרך לפנים), הזומבי יפנה שמאלה.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'בדיוק כמו בבלוק "אם", נוכל לשים בלוקי ״אם-אחרת" בתוך בלוקי "חזור",  כך שהזומבי יצעד ובלוק ה- "אם-אחרת" ימשיך לבדוק אם יש מקום בו ניתן לפנות.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "עכשיו, הצעידו את הזומבים למקום אליו הם שייכים!"
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "הי, שמי ברינה, מהנדסת באינסטגרם. פונקציה היא קבוצת שורות קוד שברצוננו להשתמש בהן שוב ושוב, כך שבמקום לכתוב את הקוד מחדש בכל פעם, נוכל להשתמש בבלוק אחד בלבד."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "כעת נלמד איך להגדיר פונקציות. להגדרות פונקציה יש כוכב בפינה. שמה של הפונקציה כתוב בשורה העליונה."
       3:
         image: "notes/stage13_3.jpg"
         text: |-
@@ -161,11 +154,10 @@
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!"
+        text: "פונקציות הן כיף!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
@@ -173,27 +165,27 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'בלוק ה״כל עוד" יבצע את מה שהכנסתם לתוכו כל עוד ההצהרה הרשומה בראשו הינה אמת.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "הי, אני טרינה ואני עובדת עבור פיקסאר. עבדתי במספר סרטים וביניהם שרק."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'זוהי לולאת ה-"מונה" החדשה שלנו. היא תבצע פעולות שוב ושוב, כך שבאפשרותך לשנות אותן מעט בכל פעם.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'בדוגמה זו, לולאת ה-"מונה" שלנו אומרת ״מנה מ-50 עד 90 בצעדים של 10", ובתוכה ימצא בלוק "צייר ריבוע". גרור את בלוק ה-״מונה" מאיזור ה-"משתנים" אל מקום ה- "אורך".'
       4:
         image: "notes/stage11_4.jpg"
         text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: ". היי, אני ג'אנט, אני מהנדסת ב-זינגה."
       2:
         image: "notes/stage15_2.jpg"
         text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"

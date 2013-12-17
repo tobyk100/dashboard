@@ -25,7 +25,7 @@
   courses: "Курсы"
   of: "из"
   more: "ЕЩЁ"
-  less: "МЕНЬШЕ"
+  less: "СВЕРНУТЬ"
   try_hoc: "Для старта в Hour of Code, нажми здесь >> "
   try_k8intro: 'Или попробуйте наш курс "Введение в Информатику" (15-25 часов)'
   already_started: "Уже начали? Продолжайте здесь >> "
@@ -48,19 +48,19 @@
   signup_form:
     overview: "Этот 20-часовой курс является введением в основы информатики. Курс предназначен для работы с детьми с дошкольного возраста до 8-ого класса, но он занимателен для всех возрастов."
     no_signup_header: "Не хотите регистрироваться?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    no_signup_message: 'Вы можете <a target="_blank" href="http://learn.code.org"> просматривать различные этапы и головоломки</a>, но вам нужно будет зарегистрироваться, чтобы сохранять свой прогресс.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "смотри руководство учителя"
     teacher_prize_header: 'Выиграть $1,000 - награду <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
-    teacher_prize_message: 'Совместно с <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org предложит до $1,000 на финансирование класса учителям в США, у которых не менее 10 учеников закончили этот курс.'
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_pitch: "Проведите встепительный курс информатики K-8 в вашем классе"
     teacher_title: "Регистрация учителя"
     student_pitch: 'Сверх 1-ого часа: познакомься с нашим "Введением в Информатику"'
     student_title: "Регистрация"
     school_name: "Название школы (не обязательно)"
     school_address: "Адрес школы (не обязательно)"
-    address_placeholder: "улица, номер здания, город, область, индекс"
+    address_placeholder: "адрес, город, область, индекс"
     gender: "Пол (не обязательно)"
     birthday: "Дата рождения (не обязательно)"
     submit: "Зарегистрироваться"
@@ -101,6 +101,7 @@
       username_not_found: "Пользователь %{username} не найден"
       username_in_use: "%{username} уже занято, пожалуйста, выберите другое"
       no_teacher: "Не найден кто-либо с «%{teacher_email_or_code}». Пожалуйста, попросите их в зарегистрироваться здесь, и затем снова попробуйте"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Присоединяйся к классу учителя %{teacher_name} на Code.org!"
@@ -115,39 +116,43 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     error_us_only: "Предложение приза действительно только для пользователей в США."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Please Confirm"
       "no": No
       "yes": Yes
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
       choose: "Choose a prize:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Вы заслужили приз! (Только для студентов в США)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Изучите все концепции науки информатика, соберите все  %{num_trophies} трофеев, и заработайте реальные призы. Вы сможете выбирать между подарочной картой iTunes на 10$, бесплатными 10GB на Dropbox, кредитами Skype на 10$, или бесплатной игрой. ПРИЧЕМАНИЕ: предложение действительно только для школьников из США, и продлится так долго, как установлено в рамках акции."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 или более учеников собрали все %{num_trophies} трофеев. Вы выиграли учительский приз $750! (Только для учителей в США)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+        not_earned: |
+          Для поддержки начинаюших преподавателей информатики, вы можете заработать до $1000 в <a href="http://DonorsChoose.org"> Dono
+          rsChoose.org</a>  кредитах за проведения вступительного курса K-8 для класса учеников. Чтобы получить кредит, вам нужно успешно провести по крайней мере 15 студентов через весь вступительный курс K-8, в течении которого все 15 учеников (или более) завершат все занятия и заработают все трофеи %{num_trophies}. Если 7 или более студентов, которые получают все трофеи - девушки, ваша награда составляет $1,000 в <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> кредитах. В противном случае ваша награда составляет $750 в <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> кредитах. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> кредиты могут использоваться только преподавателями в государственных школах США.
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: "7 или более учеников, которые собрали все %{num_trophies} трофеев — девочки. Вы получаете специальный приз! (Только для учителей в США)"
           not_earned: 'Если по крайней мере 7 ваших учеников, которые зарабатывают все  %{num_trophies}  трофеев девушки, ваша награда дополняется $250 в кредитах <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредиты могут использоваться только преподователями в государственных школах США.'
   crud:
     new_model: "Новый %{model}"
@@ -167,7 +172,7 @@
     user:
       classroom: "Мои ученики"
       label: "Привет, %{username}"
-      stats: "Мои достижения"
+      stats: "Мои результаты"
       settings: "Мой профиль"
       prizes: "Награды"
       logout: "Выйти"
@@ -190,7 +195,7 @@
     tools: "Инструментарий учителя"
     students:
       manage: "Управление учениками"
-      add: "Добавить учеников"
+      add: "Пригласить учеников"
     rollup: "Панель контроля хода выполнения"
     activity: "Последние данные по работе класса"
   user:
@@ -204,7 +209,7 @@
     completed: "Завершено"
     tried: "Пытался"
   user_stats:
-    recent_activity: "Последние действия"
+    recent_activity: "Последние данные по работе"
     show_more: "Показать ещё"
   home:
     signin_message: "Или, если Вы уже зарегистрированы, %{link}"
@@ -213,12 +218,13 @@
     teacher_dashboard: "Открыть панель контроля хода выполнения"
     teacher_student_count_one: "У Вас %{count} ученик."
     teacher_student_count: "У Вас %{count} учеников."
-    teacher_averages: "В среднем студенты заработали  %{trophy_average} трофеев из %{trophy_max} возможных трофеев в «Концепты мастерства»."
+    teacher_averages: "В среднем Ваши ученики заработали  %{trophy_average} кубков из %{trophy_max} возможных кубков «Знаток основ»."
     classroom: "Ваш класс"
-    student_progress: "Ваш прогресс обучения"
-    student_stats: 'Вы заработали %{trophy_count} трофеев из %{trophy_max} возможных трофеев в "Концепты мастерства".'
-    student_left_off: "Где вы остановились:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_progress: "Ваши результаты обучения"
+    student_stats: 'Вы заработали %{trophy_count} кубков из %{trophy_max} возможных кубков в "Знаток  основ".'
+    student_left_off: "Вы остановились:"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "местная школа"
     online: "онлайн"
     see_details: "Смотрите подробности"
@@ -243,6 +249,8 @@
   reference_area:
     title: "Нужна помощь?"
     subtitle: "Смотрите эти видео и советы"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Видео."
     notes: "Нет видео? Смотреть текстовый вариант."
@@ -254,4 +262,6 @@
   slow_loading: "Это занимает больше времени, чем обычно..."
   try_reloading: "Попробуйте перезагрузить страницу"
   next_stage: "Закончил! Перейти к следующему этапу"
-  download_pdf: "Открыть план урока"
+  download_pdf: "Показать план урока"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

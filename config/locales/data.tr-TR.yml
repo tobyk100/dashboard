@@ -65,7 +65,7 @@
         if_else: "Eğer-değilse bloğu"
         loop_times: "Bloğu tekrarlayın"
         loop_until: "-e kadar bloğu tekrarla"
-        loop_while: "olduğu müddetçe  tekrar et"
+        loop_while: "Blok ise"
         loop_for: "Sayaç bloğu"
         function: "Fonksiyonlar"
         parameters: "Fonksiyon parametreleri"
@@ -110,38 +110,32 @@
         turtle_4_7: "İşte kare çizmek için son bulmacadan bir kod. Bu kodu birbirine merdiven gibi bitişik 10 tane kare çizmek için tekrarlayabilir misin? İpucu: Yalnızca iki bloga daha ihtiyacın var."
         turtle_4_8: "Önceki bulmaca çözümü burada. Çizimi tamamlamak için sadece 2 blok daha ekleyebilir misin?"
         turtle_4_9: "Önceki bulmaca çözümü burada. Kaç derece çizimin tamamlanması için kaç derece dönmen gerekir? (Birkaç kez tahmin etmen gerekebilir)"
-        turtle_4_10: "Önceki bulmaca çözümü burada. Çizimi tamamlamak için kaç kere tekrar gerekli?"
-        turtle_4_11: 'Farklı desenler yapmak için "dön" ve "tekrarla bloklarındaki sayıları değiştirmeyi dene. Ya da, istediğin herhangi bir şeyi çizmek için kodun geri kalanını değiştirmeyi dene.'
-        maze_karel_1_1: 'Merhaba, ben bir çiftçiyim. Çiftlikteki alanı ekime hazır yani düzleştirmek için yardımına ihtiyacım var. Beni bir toprak yığınına doğru hareket ettir ve "Kaldır" blogunu kaldırmak için kullan.'
+        turtle_4_10: "Önceki bulmaca çözümü burada. Çizimi tamamlamak için kaç tekrar gerekli?"
+        turtle_4_11: 'Farklı desenler yapmak için "dön" ve "tekrarla" bloklarındaki sayıları değiştirmeyi dene. Ya da, istediğin herhangi bir şeyi çizmek için kodun geri kalanını değiştirmeyi dene.'
+        maze_karel_1_1: 'Merhaba, ben bir çiftçiyim. Çiftlikteki alanı ekime hazırlamak için düzleştirmemde yardımına ihtiyacım var. Beni bir toprak yığınına doğru hareket ettir ve "Kaldır" bloğunu yığını kaldırmam için kullan.'
         maze_karel_1_2: 'Daha sonra beni deliğe hareket ve  deliği "doldur" blogunu kullanarak, iki kürek dolusu toprak ile doldur.'
         maze_karel_1_3: "Beni toprak yığınına doğru hareket ettir ve olabildiğince az blok kullanarak kaç kürek dolusu boşaltmam gerektiğini söyle."
         maze_karel_1_4: "Tüm toprak yığınlarını kaldırmama yardımcı olabilir miin? İpucu: Mümkünse repeat blogunu kullan."
         maze_karel_1_5: 'Delikleri 5 kürekdolusu toprakla doldurmam için bana yardım et. İpucu: "While" blogunun içine "tekrar" blogunu yerleştirebilirsin.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
+        maze_karel_1_6: "Tüm toprak yığınlarını kullanabildiğin kadar az blok kullanarak kaldır.Liste menüsündeki yeni secenekler bana bir yığının mı yoksa bir deliğin mi üstünde olduğumu söyler."
+        maze_karel_1_7: "Wow,çok derin bir çukur buldum!Kaç kürek dolusu toprağa ihtiyacı olur bilmiyorum.Dolana kadar onu dolduracak bir program yazabilir misin ?"
+        maze_karel_1_8: "Alanın sonundaki çukuru doldurmama yardım et,kullanabildiğin kadar az blok kullanarak."
+        maze_karel_1_9: 'Tüm toprak yığınlarını yok etmememi sağla.Kullanabildiğin kadar az blok kullanmaya çalış.İpucu:"while" bloğunu kullanmaya çalış.'
+        maze_karel_1_10: 'Geç saatlere kadar çalışıyorum,yani dışarısı karanlık,ve yığınların ne kadar geniş olduğunu söyleyemem."while" bloğunda eskiden olduğu kadar seçeneğe sahip değilim.Beni alanda hareket ettir,ve bir yığın varsa onu kaldır.'
+        maze_karel_1_11: "Dışarısı hala karanlık. Beni alan boyunca ilerlet. Önümde bir yığın varsa kaldır. Eğer bir delik var ise içini doldur. İpucu: eğer bloğunun üzerinde, seçeneklerin aşağı doğru açılan menüsünü kullan."
+        turtle_2_1: "Merhaba. Ben olmak zombi sanatçı! Ben sevmek çizmeyi! Özel renkte bir kare çizmeme yardım et. Önemli not: aynı bloklara sahipsin ama artık kategorilere ayrıldılar."
+        turtle_2_2: 'Fonksiyonların kullanımına hoş geldiniz,yeni bloklar tanımanıza imkan veren yere!Yeni "bir kare çiz bloğu,50x50 yeşil küçük bir kare çizmek için Fonksiyonlar kategorisinde bulunuyor.'
+        turtle_2_3: "100 boyutunda 120 derece aralıklı 3 kare çizmek için döngüler kategorisinde ki tekrar et bloğunu kullan.Ve 3 ünüde farklı,rastgele renklerde yap."
+        turtle_2_4: "Şimdi biraz kafayı çekeceğiz. Kodu 36 kare çizmek için ayarla, 100 piksel genişliğinde ve her biri 10 aşama uzakta olsun. İpucu: Belki daha hızlı gitmem için kaydırgacı kullanmak istersin."
+        turtle_2_5: '"Kare çiz" fonksiyonunu 5 kere kullanarak, 50, 60, 70, 80 ve 90 piksel boyutlarında kareler çizin.'
+        turtle_2_6: 'Pekala,  bu program sonuncu karenin aynısını çizmek için bir sayaç kullanacaktır. Karenin sayaçla aynı boyutta olmasını istiyorsunuz, yani "sayaç" parçasını kullanın. İpucu: Bu parça Değişkenler kategorisindedir.'
         turtle_2_7: |-
           Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
+        turtle_2_7_5: 'Fonksiyonlar kategorisinde yeni bir fonksiyon var: "Kardan adam çiz". Boyları 250 ve 100 olan iki kardan adam çiz.'
+        turtle_2_8: 'Bu biraz uğraştıracak. "Kardan adam çiz" ve yeni "İleri zıpla" (Hareketler kategorisinde) fonksiyonunu kullanarak aralarında 100 piksel bulunan 3 farklı renkte kardan adam çiz.'
         turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
+        turtle_2_10: "Değişik spirallerle çalışman için bir kod. Dönme miktarını değiştirirsen ne olur? Ya da döngüyü rastgele renge ayarlasan? İstediğin herhangi bir şey çiz."
+        maze_karel_2_1: "Tüm yığınları kaldırmam ve yerdeki tüm delikler doldurmama yardım etmek için blokları kullanmayı dene. Pek çok blok kullanmaktansa döngüleri kullanmayı dene. İpucu: Bir döngünün içinde başka bir döngü kullanabilirsin."
         maze_karel_2_2: |-
           We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
         maze_karel_2_3: |-
@@ -149,8 +143,9 @@
         maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
         maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
         maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
+        maze_karel_2_7: "Sahamda bir inek var! Beni inekten kaçındıracak ve çamuru kaldıracak yeni bir kod yazın. Bu yeni kodun içine bütün parçalarınızı ekleyin."
+        maze_karel_2_8: |-
+          Bana bütün yığınları kaldırmama yardım etmek için bu yeni fonksiyonu kullan: "İnekten kaçın ve 1'i kaldır".
         maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
         maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
         turtle_3_1: |-
@@ -162,21 +157,21 @@
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_3_9: '"Ev çiz" fonksiyonunu yardım almadan yeniden yapabilir misin? Bir dene ve bir dizi ev çiz.'
+        turtle_3_10: "Çok şey öğrendiz! Şimdi istediklerinizi çizebilirsiniz. Yıldız, spiral veya bir kar tanesi çizmeye çalışın."
+        maze_karel_debug_seq_1: "Hata ayıklamaya (debugging) hoşgeldin! Kodum düzgün çalışmıyor. Problemi bulup düzeltebilir misin? Böylece tarlam düzleşir ve ekim için hazır olur."
+        maze_karel_debug_seq_2: "Bu programın sorunu ne? Şu yığını kaldırabilmem için düzeltebilir misin?"
+        maze_karel_debug_repeat: "Tarlamın düz ve hoş olması için programı hatalarından arındırabilir misin?"
+        maze_karel_debug_while: "Deliği doldurmam için bu programı nasıl değiştirmelisin?"
+        maze_karel_debug_if: "Yardım et! Programı düzelt ki tarlam dümdüz olsun."
+        maze_karel_debug_if_else: "Delikleri doldurabilmem ve yığınları kaldırabilmem için programı hatalarından arındır."
+        maze_karel_debug_function_1: "Tüm yığınları kaldırabilmem için bu programda neyi değiştirmelisin?"
+        maze_karel_debug_function_2: "Tarlamı düzleştirebilmem için programı hatalarından arındırabilir misin?"
+        maze_karel_debug_function_3: "Tüm yığınları kaldırabilmem için programı düzenle. "
+        turtle_5_1: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
+        turtle_5_2: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
+        turtle_5_3: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
+        turtle_5_4: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
         turtle_5_5: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
         turtle_5_6: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
         maze_3_1: "O domuzu almam gerek! Birkaç telefon görüşmesi için move() yazın; böylece yumurtalarımı geri alabilirim."

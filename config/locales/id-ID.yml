@@ -50,10 +50,10 @@
     no_signup_header: "Tidak ingin mendaftar?"
     no_signup_message: 'Anda dapat <a target="_blank" href="http://learn.code.org"> mencoba berbagai tahap dan berbagai teka-teki</a>, tetapi Anda akan perlu untuk masuk supaya kemajuan belajar Anda dapat dicatat.'
     prizes_header: "Para siswa yang pertama yang menyelesaikan kursus akan memenangkan hadiah! (hanya untuk siswa di Amerika Serikat)"
-    prizes_message: "Siswa dari Amerika Serikat yang memperoleh semua %{num_trophies} konsep Piala dapat memilih berbagai hadiah termasuk kartu hadiah iTunes, Penyimpanan Dropbox gratis, Skype kredit dan unduh permainan dari Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Lihat panduan guru"
     teacher_prize_header: 'Memenangkan $1.000 hadiah dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
-    teacher_prize_message: 'Bekerja sama dengan <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org menawarkan hadiah sampai $1.000 dalam kelas pendanaan untuk guru dari Amerika Serikat yang memimpin setidaknya 10 siswa melalui kursus ini.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Ajarilah ilmu komputer tingkat pemula di kelas Anda"
     teacher_title: "Guru mendaftar"
     student_pitch: "Setelah 1 jam: Cobalah pengantar ilmu komputer untuk sekolah dasar dan menengah"
@@ -106,6 +106,7 @@
       username_not_found: "Nama akun %{username} tidak ditemukan"
       username_in_use: "%{username} sudah diambil, silakan memilih nama lain"
       no_teacher: "Tidak di temukan siapapun dengan akun '%{teacher_email_or_code}'. Mintalah mereka untuk registrasi di sini dan kemudian cobalah lagi untuk tambahkan mereka "
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Bergabung dengan kelas dengan %{teacher_name} di Code.org!"
@@ -120,39 +121,41 @@
     success: "Hadiah Anda telah berhasil ditebus, silahkan lihat kode di bawah ini."
     error: "Hadiah Anda tidak bisa ditebus, silakan coba lagi."
     error_us_only: "Tawaran hadiah hanya berlaku untuk pengguna yang berdomisili di Amerika Serikat."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Silakan konfirmasi"
       "no": Tidak
       "yes": Ya
       msg: "Apakah Anda yakin Anda ingin mengambil hadiah %{prize_name}?"
       msg_student: "Catatan: Anda hanya dapat memilih satu jenis hadiah."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Anda telah menyelesaikan semua tutorial. Setelah Anda ambil hadiah Anda, pilihlah kelas lain %{online_link} atau %{local_school_link}"
     msg:
       choose: "Pilih hadiah:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Anda mendapatkan hadiah! (hanya untuk siswa dari Amerika Serikat)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Pelajari konsep-konsep ilmu komputer, Kumpulkan semua Piala %{num_trophies}, dan dapatkan hadiah. Anda dapat memilih antara kartu hadiah iTunes $10, 10GB penyimpanan Dropbox gratis $10 di Skype kredit, dan unduh permainan gratis. Catatan: Penawaran hanya berlaku untuk siswa dari Amerika Serikat, dan hadiah berlaku selama ada persediaan."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 atau lebih siswa telah mengumpulkan semua Piala %{num_trophies}. Anda telah memenangkan hadiah $750! (ini berlaku hanya untuk guru dari Amerika Serikat)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'Untuk memberi penghargaan kepada guru-guru ilmu komputer, Anda bisa mendapatkan hadiah sehingga $1.000 dari <a href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit untuk membimbing kelas melalui kursus intro sekolah dasar. Untuk memenuhi persyaratan, Anda harus memiliki setidaknya 10 siswa-siswi yang menyelesaikan kursus, dengan minimal 10 siswa-siswi telah menyelesaikan semua tutorial dan mendapatkan semua Piala %{num_trophies}. Jika siswa-siswi Anda yang mendapatkan Piala terdiri dari setidaknya 40% anak perempuan, hadiah Anda adalah $1.000 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. Jika tidak, hadiah Anda adalah $750 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit.  <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya berlaku untuk guru-guru di sekolah umum di Amerika Serikat.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: "40% atau lebih dari siswa yang mengumpulkan semua Piala %{num_trophies} adalah perempuan. Anda telah memenangkan hadiah bonus $250! (hanya berlaku untuk guru dari Amerika Serikat)"
           not_earned: 'Jika siswa-siswi Anda yang telah mendapatkan semua Piala %{num_trophies} terdiri dari setidaknya 40% anak perempuan, Anda mendapat tambahan hadian $250 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit hanya dapat berlaku untuk guru-guru sekolah umum di Amerika Serikat.'
   crud:
     new_model: "%{model} baru"
@@ -223,7 +226,8 @@
     student_progress: "Kemajuan belajar Anda"
     student_stats: 'Anda telah menerima  %{trophy_count} dari total %{trophy_max} piala "Penguasaan Konsep".'
     student_left_off: "Anda berada terakhir kali pada:"
-    student_finished: "Anda telah menyelesaikan semua tutorial, klaim piala anda  %{prize_link} dan pilih kelas lain di  %{online_link} atau di sini %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "sekolah lokal"
     online: "online"
     see_details: "Lihat rincian"
@@ -248,6 +252,8 @@
   reference_area:
     title: "Perlu bantuan?"
     subtitle: "Lihat video ini dan tips lainnya"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Tidak ada video? Tunjukkan catatan kaki."
@@ -260,3 +266,5 @@
   try_reloading: "Coba tampilkan halaman lagi"
   next_stage: "Selesai! Lanjutkan untuk tahap berikutnya"
   download_pdf: "Rencana pelajaran terbuka"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

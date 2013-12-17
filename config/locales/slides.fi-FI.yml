@@ -3,232 +3,221 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Tervetuloa koodioppitunnille! Sukelletaanpa heti ohjelmoinnin maailmaan."
+        text: "Tervetuloa ensimmäiselle koodaustunnille! Sukelletaanpa heti ohjelmoinnin maailmaan."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "Käytämme Blocklyä, joka on visuaalinen ohjelmointikieli jossa koodia kirjoitetaan vetämällä ja pudottamalla."
+        text: "Käytämme Blocklyä. Se on on visuaalinen ohjelmointikieli, jossa koodia kirjoitetaan vetämällä ja pudottamalla lohkoja."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Yleensä koodi kirjoitetaan, mutta Blockly on visuaalinen. Kaikki palaset vastaavat riviä "oikeata" koodia.'
+        text: 'Yleensä koodi kirjoitetaan, mutta Blockly on visuaalinen. Jokainen lohko vastaa riviä "oikeaa" koodia.'
       4:
         image: "notes/hoc1_4.jpg"
-        text: "Opit tietotekniikan perusteet eli käsitteitä, joita käytetään kaikkialla; sovelluksista Mars-mönkijän ohjaamiseen."
+        text: "Opit kohta tietotekniikan perusteet. Näitä käsitteitä käytetään kaikkialla sovelluksista aina Mars-mönkijän ohjaamiseen."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "Ohjelma on ohjepaketti, jota tietokoneesi voi seurata."
+        text: "Ohjelma on joukko ohjeita, joita tietokoneesi noudattaa."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "Ensimmäisen ohjelmasi tehtävä on ohjata Angry Bird sokkelon läpi ja osua vihreään possuun."
+        text: "Ensimmäisen ohjelmasi tehtävä on ohjata Angry Bird -lintu sokkelon läpi ja osua vihreään possuun."
       7:
         image: "notes/hoc1_7.jpg"
-        text: "Ohjelmasi pyörii vasemmalla puolella sokkelossa. Jokaisen palapelin ohjeet löytyvät sokkelon alapuolelta."
+        text: "Vasemmalla on sokkelo, jossa ohjelmasi suoritetaan. Jokaisen pulman ohjeet löytyvät sokkelon alapuolelta."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "Keskimmäinen työkalupakki sisältää Angry Bird -komennot. Näitä käytetään koodisi rakentamiseen."
+        text: "Keskimmäinen työkalupakki sisältää komentoja Angry Bird -linnulle. Näitä käytetään koodisi rakentamiseen."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "Oikealla on työtilasi, johon vedetään palasia työkalupakista ja rakennetaan ohjelmasi. Jos haluat poistaa palasen, vedä se nurkasta löytyvään roskakoriin."
+        text: "Oikealla on työtilasi, johon vedät lohkoja työkalupakista ja rakennat ohjelmasi. Jos haluat poistaa lohkon, vedä se nurkasta löytyvään roskakoriin."
       10:
         image: "notes/hoc1_10.jpg"
-        text: 'Jokainen palanen on yksi ohje. Jos vedät "siirrä eteenpäin" -palasen työtilaasi ja painat "suorita ohjelma", lintu liikkuu yhden ruudun sokkelossa.'
+        text: 'Jokainen lohko on ohje. Jos vedät "siirrä eteenpäin" -lohkon työtilaasi ja painat "suorita ohjelma" -nappia, lintu liikkuu yhden ruudun sokkelossa.'
       11:
         image: "notes/hoc1_11.jpg"
-        text: "Suorittaaksesi enemmän kuin yhden toiminnon, voit vetää monta palasta työtilaasi ja kiinnittää ne toisiinsa. Lintu tekee toiminnot ylhäältä alaspäin."
+        text: "Suorittaaksesi enemmän kuin yhden toiminnon, voit vetää monta lohkoa työtilaasi ja kiinnittää ne toisiinsa. Lintu tekee toiminnot ylhäältä alaspäin."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'Jos suoritat ohjelman ja haluat korjata ja yrittää uudelleen, paina "reset" nappulaa.'
+        text: 'Jos suoritat ohjelman ja haluat korjata ja yrittää uudelleen, paina "alusta" -nappulaa.'
       13:
         image: "notes/hoc1_13.jpg"
-        text: "Eikun vain possujen kimppuun!"
+        text: "Ja eikun vain possujen kimppuun!"
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hei, olen JR! Kaikki ralliautotiimit tarvitsevat tietojenkäsittelyasiantuntijan voittaakseen. He analysoivat auton tietoja saadakseen sen kulkemaan lujempaa."
+        text: "Hei, olen JR! Kaikki ralliautotiimit tarvitsevat tietojenkäsittelyasiantuntijan voittaakseen. He analysoivat auton tietoja saadakseen sen kulkemaan nopeammin."
       2:
         image: "notes/stage5_2.jpg"
-        text: "Näissä palapeleissä olet taiteilija, joka piirtää viivan niiden taakse, mihin ikinä ne menevätkin."
+        text: "Näissä pulmissa olet taiteilija, joka piirtää viivaa kulkiessaan."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'Tässä palasessa lukee "mene eteenpäin 100 pikseliä". Pikselit ovat pikkiriikkisiä pisteitä näytölläsi.'
+        text: 'Tässä lohkossa lukee "mene eteenpäin 100 kuvapistettä". Kuvapisteet ovat pieniä pisteitä näytölläsi.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'Tässä palasessa lukee "käänny oikeaan 90 astetta". Se kääntää taitelijaasi saman verran kuin "käännä"-palaset sokkelotehtävissä.'
+        text: 'Tässä lohkossa lukee "käänny oikealle 90 astetta". Se kääntää taiteilijaasi saman verran kuin "käännä"-lohkot sokkelotehtävissä.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Paina nuolta kummassa vain näistä palasista muuttaaksesi määrää, jonka taiteilija kulkee eteenpäin tai kääntyy. Leikittele hetki tutustuaksesi näihin uusiin palasiin."
+        text: "Napsauttamalla lohkon päissä olevia nuolia, voit muuttaa sitä määrä, jonka taiteilija kulkee tai kääntyy. Leiki nyt hetki näillä lohkoilla tutustuaksesi niihin paremmin."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hei, olen Paola! Näissä palapeleissä olet maanviljelijä, jonka täytyy saada peltonsa täysin tasaiseksi aloittaakseen istutukset."
+        text: "Hei, olen Paola! Näissä pulmissa olet maanviljelijä, jonka täytyy saada peltonsa täysin tasaiseksi aloittaakseen istutukset."
       2:
         image: "notes/stage9_2.jpg"
         text: "Sinun täytyy auttaa häntä poistamaan kaikki multakasat ja täyttämään kaikki kuopat."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Uudet palaset poistavat yhden lapiollisen multaa kasasta ja täyttävät yhden lapiollisen multaa kuoppaan."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Kasat ja kuopat ovat erikokoisia, joten sinun täytyy kertoa maanviljelijälle kuinka monta lapiollista hänen tulisi käyttää."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
-        text: "Hei, olen Mark! Opetellaanpa luuppausta. Luuppauksella voit käskeä tietokonetta toistamaan mitä vain toimintoa uudelleen ja uudelleen, tuhansia tai jopa miljardeja kertoja."
+        text: "Hei, olen Mark! Opetellaanpa silmukoita. Silmukalla voit ohjata tietokonetta toistamaan mitä vain toimintoa uudelleen ja uudelleen, tuhansia tai jopa miljardeja kertoja."
       2:
         image: "notes/hoc2_2.jpg"
-        text: "Tässä palapelissä voimme liikuttaa lintua 5 ruutua eteenpäin osuaksemme possuun."
+        text: "Tässä pulmassa haluamme liikuttaa lintua 5 ruutua eteenpäin osuaksemme possuun."
       3:
         image: "notes/hoc2_3.jpg"
-        text: 'Voimme käyttää uutta "toista"-palasta apunamme.'
+        text: 'Voimme käyttää uutta "toista"-lohkoa apunamme.'
       4:
         image: "notes/hoc2_4.jpg"
-        text: 'Sen sijaan että vetäisimme 5 "liiku eteenpäin" -palasta...'
+        text: 'Sen sijaan että vetäisimme 5 "liiku eteenpäin" -lohkoa...'
       5:
         image: "notes/hoc2_5.jpg"
-        text: 'Voimme laittaa "liiku eteenpäin" -palasen "toista"-palasen sisään ja kirjoittaa numeron palaseen kertoaksemme sille kuinka monta kertaa pitää toistaa.'
+        text: 'Voimme laittaa "liiku eteenpäin" -lohkon "toista"-lohkon sisään ja kirjoittaa luvun lohkoon kertoaksemme sille, kuinka monta kertaa pitää toistaa.'
       6:
         image: "notes/hoc2_6.jpg"
-        text: 'Ja tämä on tärkeää: voit laittaa enemmän kuin yhden komennon "toista"-palaseen.'
+        text: 'Ja tämä on tärkeää: voit laittaa enemmän kuin yhden komennon "toista"-lohkoon.'
       7:
         image: "notes/hoc2_7.jpg"
-        text: 'Pidä hauskaa uuden "toista"-palasen kanssa!'
+        text: 'Pidä hauskaa uuden "toista"-lohkon kanssa!'
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: 'Hei, olen Chris. Ennen kuin liityin Miami Heatiin, opiskelin tietojenkäsittelyä Georgian teknillisessä oppilaitoksessa. Kokeillaanpa uutta "toista kunnes" -palasta.'
+        text: 'Hei, olen Chris. Ennen kuin liityin Miami Heatiin, opiskelin tietojenkäsittelyä Georgian teknillisessä oppilaitoksessa. Kokeillaanpa uutta "toista kunnes" -lohkoa.'
       2:
         image: "notes/hoc3_2.jpg"
-        text: "Mitä jos emme tietäisi kuinka pitkälle linnun pitäisi liikkua saavuttaakseen possun?"
+        text: "Mitä jos emme tietäisi, kuinka pitkälle linnun pitäisi liikkua saavuttaakseen possun?"
       3:
         image: "notes/hoc3_3.jpg"
-        text: 'Jos laitamme "liiku eteenpäin" -palasen "toista kunnes" -palasen sisälle, lintu liikkuu eteenpäin KUNNES se saavuttaa possun (tai törmää seinään).'
+        text: 'Jos laitamme "liiku eteenpäin" -lohkon "toista kunnes" -lohkon sisälle, lintu liikkuu eteenpäin KUNNES se saavuttaa possun (tai törmää seinään).'
       4:
         image: "notes/hoc3_4.jpg"
-        text: 'Ja tämä on tärkeää: aivan kuin ennenkin, voimme laittaa monta palasta "toista kunnes" -palaseen, niin että ne kaikki toistuvat.'
+        text: 'Ja tämä on tärkeää: aivan kuin ennenkin, voimme laittaa monta lohkoa yhteen "toista kunnes" -lohkoon, niin että ne kaikki toistuvat.'
     if:
       1:
         image: "notes/hoc4_1.jpg"
-        text: |-
-          Hi, I'm Bill! Let's learn a new fundamental concept: "If" statements. This is how computers make decisions.
+        text: 'Hei, olen Bill! Opetellaanpa uusi keskeinen käsite: "jos"-lause. Tämän avulla tietokoneet tekevät päätöksiä.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: |-
-          You use "If" statements yourself everday. Before you go outside each morning, you say IF it's raining outside, I need to wear my jacket.
+        text: 'Käytät "Jos"-lausetta itse joka päivä. Esimerkiksi, ennen kuin lähdet ulos, sanot itsellesi: "jos ulkona sataa, tarvitsen sadetakkini."'
       3:
         image: "notes/hoc4_3.jpg"
-        text: "We can tell the zombie to check IF there's path to the left, and if he finds a path to the left, we can have him turn in that direction."
+        text: "Voimme laittaa zombit tarkistamaan, JOS vasemmalle on reitti ja kun zombie tulee sellaiseen kohtaan, voimme laittaa sen kääntymään sinne."
       4:
         image: "notes/hoc4_4.jpg"
-        text: |-
-          To write the code for this, let's drag out our "if" block and put a "turn left" block inside it.
+        text: 'Raahataan siis yksi "Jos"-lohko ja sen sisään "käänny vasemmalle" -lohko.'
       5:
         image: "notes/hoc4_5.jpg"
-        text: |-
-          Now, if we put a "move forward" block above it and a "repeat" block around everything, each time the zombie moves, he'll check if there's a path to the left and turn. The "repeat" command is critical, to check for a turn at every step.
+        text: 'Nyt, jos laitamme "siirry eteenpäin" -lohkon sen yläpuolelle ja "toista"-lohkon sen ympärille, joka kerta kun zombie liikkuu, se tarkistaa onko vasemmalle reittiä ja kääntyy, JOS on. "Toista"-lohko on hyvin tärkeä, jotta tarkistus tehdään joka askeleella.'
       6:
         image: "notes/hoc4_6.jpg"
-        text: "If statements are really important in computer science. One of the first programs I wrote was a tic-tac-toe game, and there was a If statement that said IF the other person is about to win, block the spot that lets them win."
+        text: 'Jos-lauseet ovat hyvin tärkeitä tietojenkäsittelyssä. Yksi ensimmäisistä ohjelmista, jonka kirjoitin, oli peli nimeltä ristinolla. Siinä oli jos-lause, joka sanoi "JOS toinen henkilö on voittamassa, estä se siirto, jolla hän voittaisi."'
       7:
         image: "notes/hoc4_7.jpg"
-        text: 'Have fun using the "if" block!'
+        text: 'Pidä hauskaa "Jos"-lohkolla!'
     if_else:
       1:
         image: "notes/hoc5_1.jpg"
-        text: |-
-          Hi, my name is Saloni. I use computer science to help solve problems in health and medicine. Let's learn about the "if else" block. It looks like the "if" block, but it has an extra part at the end that says "else".
+        text: 'Terve! Minun nimeni on Saloni. Käytän tietokoneita ratkaistakseni terveyteen ja lääketieteeseen liittyviä ongelmia. Nyt opimme "jos-muuten" -lohkosta. Se muistuttaa "jos"-lohkoa, mutta siinä on lisäosa, joka sanoo "muuten".'
       2:
         image: "notes/hoc5_2.jpg"
-        text: |-
-          If I put a "move forward" block in the spot where it says "do" and a "turn left" block where it says "else" that means that the zombie will choose between 2 options. IF there is a path ahead, the zombie will move forward, and OTHERWISE (there isn't a path ahead), the zombie will turn left.
+        text: 'Jos laitan "liiku eteenpäin" -lohkon kohtaan, jossa sanotaan "tee" ja "käänny vasemmalle" -lohkon kohtaan, jossa sanotaan "muuten", se tarkoittaa, että zombie valitsee kahdesta vaihtoehdosta. JOS edessä on polku, zombie liikkuu eteenpäin, MUUTEN (jos edessä ei ole polkua) zombie kääntyy vasemmalle.'
       3:
         image: "notes/hoc5_3.jpg"
-        text: |-
-          Just like the "if" block, we can put "if else" blocks inside a "repeat" blocks so that the zombie keeps moving and the "if else" block will keep checking if there's somewhere to turn.
+        text: 'Aivan kuten "jos" -lohkon, voimme asettaa myös "jos-muuten" -lohkon "toista" -palasen sisälle niin, että zombie jatkaa liikkumista ja "jos-muuten" -lohko tarkistaa jatkuvasti onko mahdollista kääntyä jonnekin.'
       4:
         image: "notes/hoc5_4.jpg"
-        text: "Now, get those zombies where they belong!"
+        text: "Nyt auta nuo zombit sinne minne ne kuuluvat!"
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Hei, olen Brina, insinööri Instagramilla. Funktio on joukko koodirivejä, joita haluat käyttää uudelleen ja uudelleen. Niinpä sen sijaan, että kirjoittaisit kaiken tuon koodin joka kerta, voit käyttää yhtä lohkoa."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Nyt opettelemme, miten määritellään funktioita. Funktion määritelmän nurkassa on tähti. Funktion nimi kirjoitetaan ylimmälle riville."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Määrittelyn sisällä olevat lohkot kertovat, mitä se tekee. Tämän funktion nimi on "täytä 5", ja se koostuu "toista"-lohkosta ja "täytä"-lohkosta.'
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
-        text: |-
-          Let's put the "fun" back in "FUNction!"
+        text: "Laitetaanpa funktiot käytöön! "
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
-        text: |-
-          Hi, I'm Makinde! Let's learn about the "while block."
+        text: 'Hei, olen Makinde! Opetellaanpa "niin kauan kuin" -lohkon toimintaa. '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: '"Niin kauan kuin" -lohko toistaa mitä tahansa asetat sen sisälle, niin kauan kuin ylhäällä oleva ehto pitää paikkansa eli on TOSI.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hei, minä olen Trina ja työskentelen Pixarilla. Olen tehnyt töitä liutaan elokuvia, kuten Shrekiin."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Tämä on uusi "laskuri"-silmukkamme. Se suorittaa komentoja yhä uudelleen ja voit muuttaa silmukan toimintaa hieman jokaisella kerralla.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: 'Tässä esimerkissä "laskuri" -silmukkamme sanoo "laske laskurilla  50:stä 90:een 10 välein" ja sen sisällä meillä on "piirrä neliö" -lohko. Raahaa "laskuri" -lohko "Muuttujat"-valikosta "pituus"-kohtaan.'
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Tämä tarkoittaa, että taiteilijamme aikoo piirtää neliön, jonka sivujen pituus on 50 kuvapistettä, lisätä tähän 10 ja piirtää neliön, jonka sivujen pituus on 60 kuvapistettä. Sitten hän uudelleen ja uudelleen lisää 10 kuvapistettä ja piirtää neliön, kunnes neliön sivun pituus on 90. Lopulta meillä on neliöt, joiden koot ovat 50, 60, 70, 80 ja 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hei, olen Janete, ja olen insinööri Zyngalla."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Mitä jos haluamme piirtää joukon kolmioita, jotka ovat kaikki eri pituisia?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Voisimme kirjoittaa kaiken tuon koodin käsin, tai sitten voimme käyttää funktioita, joille annetaan parametreja."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'Tehdäksesi tämän, napsauta sinistä tähteä "piirrä kolmio" -funktion määrittelyssä. Sitten raahaa "syötä nimi" "syöte"-lohkoon.'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Jos sitten kirjoitat "pituus" kohtaan, jossa lukee "x" ja painat rivinvaihtonäppäintä ("Enter"), olet määrittänyt pituussyötteen funktiollesi.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Napsauta sitten tähteä. Seuraavaksi avaa muuttujat-valikko ja raahaa "pituus"-lohko "siirry eteenpäin" -lohkoon funktiomäärityksessäsi. Rahaa myös pois vanha numero-lohko.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Kun haluat käyttää parametrillista funktiota, avaa Funktiot-valikko ja raahaa sieltä "piirrä kolmio arvolla pituus" -funktio.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: 'Nyt voit käyttää "matematiikka"-lohkoa ja syöttää eri numeroita piirtääksesi eri kokoisia kolmioita.'
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Onneksi olkoon! Viime pulman ratkaisussa kirjoitit koodin, joka voi ohjata minkä tahansa robotin läpi haarautumattomasta labyrintistä tai kuinka tahansa pitkästä tunnelista, oli kulkijasi sitten zombi, lintu, Mars-mönkijä tai jopa itsestään ajava auto."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "Käyttämäsi peruskäsitteet esiintyvät kaikissa ohjelmissa ja mobiilisovelluksissa joita koskaan tulet käyttämään. Opimme toistosilmukat, toista kunnes -lauseet, jos-lauseet ja jos-muuten-lauseet."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Jos pidit ensimmäisestä kooditunnistasi, vieraile code.org-sivustolla jatkaaksesi tietotekniikan opintojasi! Kun suoritat 20 tunnin kurssimme, opit ohjelmoinnin perusteet ja voit ryhtyä opettelemaan miten tehdään sovelluksia puhelimille, robottien ohjeita, pelejä tai mitä tahansa."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Tekniikkaa muuttaa kaikkea mitä teemme, eikä sillä ole väliä, oletko nuori tai vanha: ohjelmointi on hauskaa, se on luovaa, ja kuka tahansa voi oppia!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Esityksen muistiinpanot tulossa pian!"

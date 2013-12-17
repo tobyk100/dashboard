@@ -9,21 +9,21 @@
         pdfs:
           - unplug1
       Unplug2:
-        title: "Computational Thinking"
+        title: "Hesablama təfəkkürü"
         desc: "With nothing but paper and markers, students will learn the four steps of computational thinking. After a brief introduction, students should be split into groups where they will have to create directions for other students to draw a specific monster (from a catalog of pre-selected monsters). The entire task must be decomposed, then teams will analyze all monsters in the catalog for patterns, abstract different details from the monsters, then use that information to create an algorithm (directions) for another team to draw a certain monster. Teams will then switch algorithms with another group and draw the monster based on what that algorithm indicates. Is the drawing what the original team intended?"
         video: "injJWiSA0pw"
         download: "https://s3.amazonaws.com/cdo-videos/new/3-computational-thinking-activity.mp4"
         pdfs:
           - unplug2
       Unplug3:
-        title: "Graph Paper Programming"
+        title: "Millimetrlik kağızda proqramlaşdırma"
         desc: "By programming one another to draw pictures, students will begin to understand what programming is really about. The class will begin by students instructing each other to color squares in on graph paper in an effort to reproduce an existing picture.  If there's time, the lesson can conclude with images that the students create themselves."
         video: "4e3fi_ls8CA"
         download: "https://s3.amazonaws.com/cdo-videos/new/4-graphpaperprog-activity.mp4"
         pdfs:
           - unplug3
       Unplug4:
-        title: "Algorithms"
+        title: "Alqoritmlər"
         desc: "This lesson covers algorithms.  Using tangram shapes and graph paper, the first exercise will show how important it is to make each instruction as clear and unambiguous as possible.  Afterward, the class will explore how many ways you can fold paper into a rectangle, noting how some methods can take more or fewer folds than others."
         video: "gW_aPXjgBTc"
         download: "https://s3.amazonaws.com/cdo-videos/new/6-Algorithms-activity.mp4"
@@ -38,7 +38,7 @@
         pdfs:
           - unplug5
       Unplug6:
-        title: "Conditions"
+        title: "Şərti ifadələr"
         desc: "This is a class game.  After introducing the idea of conditionals, if-statements, and loops, the class can practice together using a pre-written program, a deck of cards, and luck of the draw."
         video: "yr6g0AWE7yw"
         download: "https://s3.amazonaws.com/cdo-videos/new/10-conditionals-activity.mp4"
@@ -52,14 +52,14 @@
         pdfs:
           - unplug7
       Unplug8:
-        title: "Abstraction"
+        title: "Mücərrədlik"
         desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the complicated vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
         video: "FGpzpYD9ZVs"
         download: "https://s3.amazonaws.com/cdo-videos/new/14-abstraction-activity.mp4"
         pdfs:
           - unplug8
       Unplug9:
-        title: "Relay Programming"
+        title: "Estafet proqramlaşdırması"
         desc: 'This lesson will take an idea from a previous activity (4. Graph Paper Programming) and use those skills to emphasize the importance of completing programs that operate in sequence and frequently checking programs for "bugs".'
         video: "FFpvtooUrzg"
         download: "https://s3.amazonaws.com/cdo-videos/new/16-relay-programming-activity.mp4"

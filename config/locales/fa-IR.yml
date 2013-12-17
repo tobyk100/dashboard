@@ -12,7 +12,7 @@
         gender: "جنسیت"
         edit_header: "ویرایش اطلاعات کاربری"
   hello: "سلام دنیا"
-  welcome_back: "%{name} خوش آمدید"
+  welcome_back: "%{name}، خوش آمدید"
   add_teacher_form:
     code_or_email:
       label: "افزودن معلم از طریق کد شناسایی یا رایانامه:"
@@ -21,39 +21,39 @@
   appname: "Code.org"
   stage: "مرحله"
   puzzle: "پازل"
-  trophies: "جمع آوری غنائم"
-  courses: "دوره ها"
+  trophies: "نشان‌های پیروزی"
+  courses: "دوره‌ها"
   of: "از"
   more: "بیشتر"
   less: "کمتر"
-  try_hoc: "برای انجام ساعت کد اینجا کلیک کنید >>"
+  try_hoc: "برای انجام «ساعت کد» اینجا کلیک کنید >>"
   try_k8intro: "یا دوره مقدماتی علوم رایانه ای (15 تا 25 ساعت) را امتحان کنید"
-  already_started: "قبلا انجام داده اید؟ از اینجا ادامه بدهید >>"
-  demos: "مدیر: تمام نسخه های نمایشی"
+  already_started: "قبلا انجام داده‌اید؟ از اینجا ادامه بدهید >>"
+  demos: "مدیر: تمام نسخه‌های نمایشی"
   continue: "ادامه"
   prize: "جایزه"
   more_info: "اطلاعات بیشتر"
   auth:
     sign_in_with: "ورود از طریق %{provider}"
     signed_in: "وارد شدید!"
-    already_signedup: "قبلا ثبت نام کرده اید؟"
-    notyet_signedup: "تا به حال شرکت نکرده اید؟"
+    already_signedup: "قبلا ثبت نام کرده‌اید؟"
+    notyet_signedup: "تا به حال شرکت نکرده‌اید؟"
     google_oauth2: "گوگل پلاس"
     twitter: "توییتر"
-    facebook: "فیسبوک"
+    facebook: "فیس‌بوک"
     windowslive: "ویندوز لایو"
     forgot_password: "کلمه عبور خود را فراموش کرده اید؟"
-    need_confirmation: "دستورالعمل فعال سازی حساب کاربری را دریافت نکرده اید؟"
-    need_unlock: "دستورالعمل فعال سازی را دریافت نکرده اید؟"
+    need_confirmation: "دستورالعمل فعال‌سازی حساب کاربری را دریافت نکرده‌اید؟"
+    need_unlock: "دستورالعمل فعال‌سازی را دریافت نکرده‌اید؟"
   signup_form:
     overview: "این دوره 20 ساعته به معرفی مفاهیم اساسی علوم کامپیوتر و برنامه نویسی می پردازد. این دوره برای استفاده در کلاس های درس K-8 (دوره ابتدایی تا پایان دوره راهنمایی)طراحی شده است، اما می تواند برای همه سنین دیگر نیز جالب باشد."
     no_signup_header: "نمی خواهید ثبت نام کنید؟"
-    no_signup_message: 'شما می توانید <a target="_blank" href="http://learn.code.org"> فهرست مراحل و پازل های مختلف را بررسی کنید</a>، اما شما نیاز به ثبت نام دارید که  پیشرفت خود را ضبط کنید.'
+    no_signup_message: 'شما می‌توانید <a target="_blank" href="http://learn.code.org"> فهرست مراحل و پازل‌های مختلف را بررسی کنید</a>. باید ثبت نام کنید تا بتوانید پیشرفت‌های خود را ذخیره کنید.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "به راهنمای معلم مراجعه کنید"
     teacher_prize_header: '۱۰۰۰ دلار پاداش بگیرید <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
-    teacher_prize_message: 'در همکاری با <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> Code.org تا ۱۰۰۰ دلار بودجه برای کلاس معلمان آمریکایی که رهبری حداقل ۱۰ دانش آموز را از طریق این دوره ارائه خواهد شد.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "آموزش معرفی K-8 درعلوم کامپیوتر در کلاس درس خودتان"
     teacher_title: "ثبت نام معلم"
     student_pitch: "فراتر از ساعت 1: معرفی K-8 درعلوم کامپیوترما را امتحان کنید"
@@ -100,18 +100,19 @@
   follower:
     invite_sent: "دعوتنامه ارسال شد"
     added_teacher: "%{name} به عنوان معلم شما افزوده شد"
-    registered: "شما برای %{section_name} ثبت نام کرده اید."
+    registered: "شما برای %{section_name} ثبت نام کرده‌اید."
     error:
       signed_in: "لطفا قبل از هر اقدامی از سایت خارج شوید"
       username_not_found: "نام کاربری %{username} یافت نشد"
       username_in_use: "%{username} قبلا انتخاب شده است، لطفا یک نام کاربری دیگر را امتحان کنید"
       no_teacher: "کسی با  '%{teacher_email_or_code}' وارد نشده است. لطفا از ایشان بخواهید تا ثبت نام کنند و بعد دوباره اضافه کردنشان را امتحان کنید"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "در یک کلاس با %{teacher_name} در Code.org شرکت کنید!"
   reports:
     error:
-      access_denied: "شما به اطلاعات این شخص دسترسی ندارید"
+      access_denied: "شما به اطلاعات آماری این شخص دسترسی ندارید"
   redeem_prizes:
     title: "آزاد کردن جوایز: %{name}"
     provider: "فراهم کننده:"
@@ -120,48 +121,48 @@
     success: "جایزه شما با موفقیت آزاد شد، کد زیر را مشاهده کنید."
     error: "جایزه شما قابل آزاد شدن نیست, لطفا دوباره سعی کنید."
     error_us_only: "پیشنهاد جایزه فقط برای کاربران ایالات متحده اعتبار دارد."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "لطفا تایید کنید"
       "no": نه
       "yes": بله
       msg: "آیا شما در مورد ادعای جایزه %{prize_name} مطمئنید؟"
       msg_student: "توجه: شما تنها می توانید یک نوع جایزه انتخاب کنید."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "شما همه دوره های آموزشی را کامل کرده اید. پس از گرفتن جایزه، کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
     msg:
       choose: "یک جایزه انتخاب کنید:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "شما یک جایزه برنده شدید(فقط دانشجویان مقیم آمریکا)"
+      earned: "شما برنده یک جایزه شدید (فقط دانش‌آموزان ایالات متحده)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: |
-        تمامی مفاهیم علوم کامپیوتر را یاد بگیرید,  و برنده تمامی جوایز واقعی و مجازی شوید. شما می توانید بین 10 دولار کارت هدیه ایتیونز (iTunes) و 10 گیگا بایت فضای رایگان در دراپ باکس (Dropbox ) , 10) دلار اعتبار اسکایپ (Skype ) و دانلود بازی مجانی انتخاب کنید.
-        توجه: این پیشنهاد فقط و فقط برای دانشجویان آمریکایی معتبر می باشد و تا زمانی که موجودی آن به اتمام نرسیده باشد معتبر است
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "۱۰ دانش‌آموز (یا بیشتر) همه %{num_trophies} نشان پیروزی را بدست آوردند. شما برنده یک جایزه معلم شدید! (فقط معلمان ایالات متحده)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'برای تشویق معلمان علوم کامپیوتر تازه کار شما میتوانید تا ۱۰۰۰ دلار اعتبار از    <a href="http://DonorsChoose.org">DonorsChoose.org</a> برای هدایت کلاس  درس K-8 intro دریافت کنید. برای واجد شرایط شدن شما باید یک کلاس حداقل ۱۵ نفره را هدایت کنید تا دست کم ۱۵ دانش آموز بتوانند با موفقیت تمام دوره K-8 intro را بگذرانند و همشون تعداد  %{num_trophies} غنیمت جمع کنند. اگر حداقل ۷ نفر از دانش آموزانی که تمام غنایم را بدست آوردند دختر بودند پاداش شما در <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>  به ۱۰۰۰ دلار میرسد. در غیر اینصورت پاداش شما در <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> به ۷۵۰ دلار میرسد. اعتبارات  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>  فقط به معلمان مدارس عمومی آمریکا تعلق میگیرد.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: "تعداد ۷ دانش‌آموز (یا بیشتر) که همه %{num_trophies} نشان پیروزی را جمع کرده‌اند، دختر هستند. شما برنده یک جایزه شدید! (فقط معلمان ایالات متحده)"
           not_earned: 'حداقل ۷ نفر از دانش آموزان شما تمامی  %{num_trophies} غنیمت را برنده شده اندو  شما ۲۵۰ دلار جایزه اضافی در اعتبارات  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> دریافت نمودید. اعتبارات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> فقط مخصوص معلمان مدارس عمومی آمریکا است.'
   crud:
     new_model: "%{model} جدید"
     show: "نمایش"
     edit: "ویرایش"
     edit_model: "ویرایش %{model}"
-    update: "ذخیره"
+    update: "بروزرسانی"
     destroy: "حذف"
     back: "بازگشت"
     confirm: "مطمئنید؟"
@@ -225,7 +226,8 @@
     student_progress: "میزان پیشرفت یادگیری شما"
     student_stats: "شما %{trophy_count} گنج از مجموع %{trophy_max} گنج مرتبط با «تسلط بر مفهوم» را به دست آورده اید."
     student_left_off: "جایی که شما ترک کردید:"
-    student_finished: "شما همه خودآموزهای خود را به پایان بردید، %{prize_link} خود را ادعا کرده و کلاس دیگری را از %{online_link} و یا در %{local_school_link} انتخاب کنید"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "مدرسه محلی"
     online: "آنلاین"
     see_details: "مشاهده جزئیات"
@@ -250,6 +252,8 @@
   reference_area:
     title: "کمک نیاز دارید؟"
     subtitle: "دیدن این فیلم ها و نکات"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "فیلم."
     notes: "فیلمی نیست؟ نمایش یادداشت ها."
@@ -262,3 +266,5 @@
   try_reloading: "درخواست مجدد نمایش صفحه"
   next_stage: "پایان! به مرحله بعد بروید"
   download_pdf: "طرح درس آزاد"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

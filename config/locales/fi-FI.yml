@@ -11,7 +11,7 @@
         locale: "Kieli"
         gender: "Sukupuoli"
         edit_header: "Muokkaa tiliä"
-  hello: "Terve maailma"
+  hello: "Hei maailma"
   welcome_back: "Tervetuloa takaisin, %{name}"
   add_teacher_form:
     code_or_email:
@@ -19,25 +19,25 @@
       placeholder: "Koodi (ABCDEF) tai sähköpostiosoite (ope@koulu.fi)"
     submit: "Lisää opettaja"
   appname: "Code.org"
-  stage: "Vaihe"
+  stage: "Taso"
   puzzle: "Pulma"
   trophies: "Pokaalit"
   courses: "Kurssit"
   of: "/"
-  more: "ENEMMÄN"
+  more: "LISÄÄ"
   less: "VÄHEMMÄN"
-  try_hoc: "Kokeile Koodituntia, klikkaa tästä >> "
+  try_hoc: "Kokeile Koodaustuntia, napsauta tästä >> "
   try_k8intro: "Tai kokeile ala-asteen johdantoa tietojenkäsittelyyn (15-25 tuntia)"
   already_started: "Aloititko jo? Jatka tästä >> "
   demos: "Ylläpitäjä: Kaikki demot"
   continue: "Jatka"
   prize: "palkinto"
-  more_info: "Tietoa"
+  more_info: "Lisätietoja"
   auth:
-    sign_in_with: "Kirjaudu %{provider} kautta"
+    sign_in_with: "Kirjaudu %{provider} -tunnuksella"
     signed_in: "Kirjautunut!"
-    already_signedup: "Joko loit käyttäjätunnuksen?"
-    notyet_signedup: "Etkö vielä luonut käyttäjätunnusta?"
+    already_signedup: "Joko rekisteröidyit?"
+    notyet_signedup: "Etkö ole vielä rekisteröitynyt?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
@@ -46,32 +46,32 @@
     need_confirmation: "Etkö saanut vahvistusviestiä?"
     need_unlock: "Etkö saanut avausohjeita?"
   signup_form:
-    overview: "Tämä 20 tunnin kurssi esittelee keskeiset tietotekniikan ja ohjelmoinnin konseptit. Tämä kurssi on suunniteltu käytettäväksi peruskouluissa, mutta se on myös hauskaa opittavaa kaiken ikäisille."
-    no_signup_header: "Etkö halua rekistöröityä?"
-    no_signup_message: 'Voit <a target="_blank" href="http://learn.code.org">selata eri tasoja ja palapelejä</a>, mutta sinun pitää rekistöröityä, jotta voit tallentaa edistymisesi.'
+    overview: "Tämä 20 tunnin kurssi esittelee keskeiset tietotekniikan ja ohjelmoinnin käsitteet. Kurssi on suunniteltu käytettäväksi peruskouluissa, mutta siinä on hauskaa opittavaa kaiken ikäisille."
+    no_signup_header: "Etkö halua rekisteröityä?"
+    no_signup_message: 'Voit <a target="_blank" href="http://learn.code.org">selata eri tasoja ja pulmia</a>, mutta sinun pitää rekistöröityä, jotta voit tallentaa edistymisesi.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Katso opettajan opas"
     teacher_prize_header: "(sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)"
-    teacher_prize_message: 'Yhteistyössä <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>:n kanssa Code.org tarjoaa korkeimmillaan 1000 dollaria Yhdysvaltalaiselle opettajalle, joka opettaa ainakin 10 oppilasta tämän kurssin avulla.'
-    teacher_pitch: "Opeta ala-asteen tietojenkäsittelyjohdanto luokallesi"
-    teacher_title: "Opettajien kirjautuminen"
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_pitch: "Opeta ala-asteen tietojenkäsittelyn johdantoa luokallesi"
+    teacher_title: "Opettajien rekisteröityminen"
     student_pitch: "Ensimmäisen tunnin jälkeen: kokeile ala-asteen tietojenkäsittelyn johdantoa"
-    student_title: "Luo käyttäjätunnus"
-    school_name: "Koulun nimi (valinnainen)"
-    school_address: "Koulun osoite (valinnainen)"
-    address_placeholder: "osoite, kaupunki, postinumero"
-    gender: "Sukupuoli (valinnainen)"
-    birthday: "Syntymäpäivä (valinnainen)"
-    submit: "Luo tunnus"
+    student_title: "Rekisteröidy"
+    school_name: "Koulun nimi (vapaaehtoinen)"
+    school_address: "Koulun osoite (vapaaehtoinen)"
+    address_placeholder: "osoite, postinumero, postitoimipaikka"
+    gender: "Sukupuoli (vapaaehtoinen)"
+    birthday: "Syntymäpäivä (vapaaehtoinen)"
+    submit: "Rekisteröidy"
     teacher: "Oletko opettaja?"
     valid_username: "Vapaa!"
-    invalid_username: "Käyttäjätunnuksen tulee olla vähintään 5 merkkiä"
+    invalid_username: "Käyttäjätunnuksen tulee olla vähintään 5 merkkiä pitkä"
     taken_username: "Käyttäjätunnus on jo varattu"
-    valid_password: "Hyvä salasana!"
-    invalid_password: "Salasanan tulee olla vähintään 6 merkkiä"
+    valid_password: "Salasana kelpaa!"
+    invalid_password: "Salasanan tulee olla vähintään 6 merkkiä pitkä"
     mismatch_password: "Antamasi salasanat eivät täsmää"
-    student_terms: "Hyväksyn Code.org käyttöehdot. Jos olet alle 13 vuotias, olet saanut vanhempasi tai huoltajasi suostumuksen Code.org-sivuston käyttöön."
+    student_terms: "Hyväksyn Code.org käyttöehdot. Jos olen alle 13 vuotias, olen saanut vanhempani tai huoltajani suostumuksen Code.org-sivuston käyttöön."
     teacher_terms: "Hyväksyn Code.org käyttöehdot."
   signin_form:
     title: "Kirjaudu"
@@ -87,7 +87,7 @@
     change_form:
       title: "Salasanan vaihtaminen"
       new_password: "Uusi salasana"
-      confirm_password: "Toista uusi salasana"
+      confirm_password: "Vahvista uusi salasana"
       submit: "Vaihda salasana"
   welcome_email:
     subject: "Liity luokkaani (Code.org palvelussa)"
@@ -108,6 +108,7 @@
       username_not_found: "Käyttäjätunnusta %{username} ei löydy"
       username_in_use: "Käyttäjätunnus %{username} on jo käytössä, valitse jokin toinen"
       no_teacher: "Käyttäjää '%{teacher_email_or_code}' ei löytynyt. Pyydä häntä ensin luomaan tunnus ja kokeile sitten uudestaan"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Liity opettajan %{teacher_name} luokkaan Code.org:ssa!"
@@ -122,39 +123,47 @@
     success: "Palkinnon lunastaminen onnistui, katso koodi alta."
     error: "Palkinnon lunastaminen epäonnistui, yritä uudelleen."
     error_us_only: "Palkintotarjous on voimassa vain USA:ssa."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Vahvista"
       "no": Ei
       "yes": Kyllä
       msg: "Haluatko varmasti lunastaa palkinnon %{prize_name}?"
       msg_student: "HUOM: voit valita vain yhden palkinnon."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Olet suorittanut kaikki oppitunnit. Kun olet lunastanut palkintosi, valitse toinen luokka täältä: %{online_link} tai %{local_school_link}"
     msg:
       choose: "Valitse palkinto:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Hieno suoritus! (raha- ja tavarapalkinnot voimassa vain USA:ssa)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "(sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)"
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: |
+          Erittäin hieno suoritus! 10 tai useampi oppilaasi on kerännyt kaikki %{num_trophies} pokaalia. 
+          
+          Huom: "sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa."
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: "(sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)"
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: |
+            Hieno suoritus! 7 tai useampi oppilaistasi, jotka keräsivät kaikki %{num_trophies} ovat tyttöjä. 
+            
+            Huom: "sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa"
           not_earned: "(sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)"
   crud:
     new_model: "Uusi %{model}"
@@ -185,13 +194,13 @@
       lines: "Koodirivien yhteismäärä: %{lines}"
       close: "SULJE"
       mastery: "Käsitteitä"
-      puzzle_map: "Vaiheet"
+      puzzle_map: "Tasot"
       prizes: |
-        Kerää kaikki %{total_trophies} pokaalit!
+        Kerää kaikki %{total_trophies} pokaalia! 
         
         (sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)
       prize_earned: |
-        Hienoa! Keräsit kaikki %{total_trophies} pokaalia kerätty.
+        Hienoa! Keräsit kaikki %{total_trophies} pokaalia.
         
         (sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)
       prize_us_only: "(vain oppilaille USA:ssa)"
@@ -203,7 +212,7 @@
     tools: "Opettajan työkalut"
     students:
       manage: "Hallinnoi oppilaita"
-      add: "Lisätä opiskelijoita"
+      add: "Lisää opiskelijoita"
     rollup: "Edistymistaulu"
     activity: "Luokan tapahtumat"
   user:
@@ -231,7 +240,8 @@
     student_progress: "Edistymisesi"
     student_stats: 'Olet ansainnut %{trophy_count}/%{trophy_max} "käsitteiden hallinta" pokaalia.'
     student_left_off: "Jäit tähän:"
-    student_finished: "Olet suorittanut johdannon. Vastaanota %{prize_link} ja valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "koulu"
     online: "online"
     see_details: "Lisätietoja"
@@ -241,11 +251,11 @@
     none: "En halua vastata"
   footer:
     help_from_html: 'Tämän johdannon loivat insinöörit seuraavista yrityksistä: <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, ja <a href="http://www.twitter.com">Twitter</a>.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009-2013 <a href="http://www.rovio.com"> Rovio Entertainment Oy</a>. Kaikki oikeudet pidätetään. <br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com"> Electronic Arts Inc.</a>. Kaikki oikeudet pidätetään.'
     feedback: "Anna palautetta"
     translate: "Auta meitä kääntämään palvelu omalle kielellesi"
     tos: "Käyttöehdot"
-    privacy: "Yksityisyys"
+    privacy: "Yksityisyyskäytäntö"
   prize_mail:
     prize_earned:
       subject: "Lunasta palkintosi Code.org:sta!"
@@ -256,6 +266,8 @@
   reference_area:
     title: "Tarvitsetko apua?"
     subtitle: "Katso nämä videot ja vihjeet"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Ei videota? Näytä muistiinpanot."
@@ -266,5 +278,7 @@
     upgrade: "Ole hyvä ja päivitä selaimesi."
   slow_loading: "Tämä kestää kauemmin kuin tavallisesti..."
   try_reloading: "Yritä ladata sivu uudelleen"
-  next_stage: "Valmis! Siirry seuraavaan vaiheeseen"
+  next_stage: "Valmis! Siirry seuraavalle tasolle"
   download_pdf: "Avaa oppituntisuunnitelma"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

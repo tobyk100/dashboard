@@ -3,7 +3,7 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
+          desc: "K-8 הקדמה לקורס מדעי המחשב"
           Unplug1: "שלב 1"
           Maze: "שלב 2"
           Unplug2: "שלב 3"
@@ -28,13 +28,13 @@
           desc: "שעה של קוד"
           Maze: "שלב 1"
         Edit Code:
-          desc: "Edit Code"
+          desc: "עריכת קוד"
           MazeEC: "שלב 1"
     game:
       name:
         Unplug1: "מבוא למדעי המחשב"
         Maze: "המבוך"
-        Unplug2: "Computational Thinking"
+        Unplug2: "חשיבה חישובית"
         Unplug3: "Graph Paper Programming"
         Artist: "האמן"
         Unplug4: "אלגוריתמים"
@@ -68,22 +68,22 @@
         loop_while: "בלוק ״כל עוד״"
         loop_for: "בלוק ״מונה״"
         function: "פונקציות"
-        parameters: "Functions with parameters"
+        parameters: "פונקציות עם פרמטרים"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
+        maze_2_2: 'תוכל לעזור לי לתפוס את החזיר השובב? חבר כמה בלוקים של "לך קדימה" יחד ותלחץ על "הפעל תוכנית" כדי לעזור לי להגיע אליו. '
         maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
         maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
         maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
+        maze_2_4: "תהיו רגועים ותעזרו לי למצוא את החזיר הרע. אחרת אני עלול להתעצבן!"
         maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
         maze_2_6: "Try to get me to the green intruder using only three blocks."
         maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
-        maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
+        maze_2_10: "טוב, בפעם האחרונה לאימון - האם אתה יכול לפתור זאת באמצעות רק 4 בלוקים?"
         maze_2_11: "איש יקר. אני זומבי. אני רעב. חייב... להגיע.... אל החמנית... אתה יכול להוביל אותי לשם באמצעות 5 בלוקים בלבד?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
+        maze_2_12: ". בסדר, זה דומה, אבל שונה במקצת. האם אתה יכול לעשות זאת רק בעזרת 5 בלוקים?"
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
         maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
@@ -115,8 +115,7 @@
         turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
         turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
         turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
+        maze_karel_1_1: '. היי, אני חקלאי. אני זקוק לעזרתך כדי לשטח את השדה בחווה שלי על מנת להכין אותו לנטיעה. תקדם אותי אל ערימת העפר ותשתמש בבלוק "הסר" כדי להסיר אותו.'
         maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
         maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
         maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."

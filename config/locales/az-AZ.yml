@@ -5,7 +5,7 @@
         name: "Ad"
         email: "E-poçt"
         username: "İstifadəçi adı"
-        password: "parol"
+        password: "Parol"
         password_confirmation: "Parolun təsdiqi"
         current_password: "Cari parol"
         locale: "Dil"
@@ -29,7 +29,7 @@
   try_hoc: "Kod Saatında özünüzü sınayın, buraya klikləyin >> "
   try_k8intro: "Yaxud da bizim K-8 İnformatikaya Giriş kursunu (15-25 saat) sınaqdan keçirin"
   already_started: "Artıq başlamısınız? Burada davam edin >> "
-  demos: "Admin: Bütün Demolar"
+  demos: "Admin: bütün demolar"
   continue: "Davam et"
   prize: "mükafat"
   more_info: "Daha geniş məlumat"
@@ -42,18 +42,18 @@
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Şifrənizi unutmusunuz?"
+    forgot_password: "Parolunuzu unutmusunuz?"
     need_confirmation: "Təsdiq göstərişlərini almamisiniz?"
     need_unlock: "Kilidaçma göstərişlərini almamisiniz?"
   signup_form:
-    overview: "Bu 20 saatlıq kurs informatikanın əsasları və proqramlaşdırmanın əsas anlayışlarını təqdim edir. Kurs K-8 yaş qrupunda olan siniflərdə istifadə olunmaq üçün hazırlanıb, lakin öyrənmək hər yaşda əyləncəlidir."
+    overview: "Bu 20 saatlıq kurs informatikanın əsasları və proqramlaşdırmanın əsas anlayışlarını təqdim edir. Kurs K-8 yaş qrupunda (12-13 yaşlılar) olan siniflərdə istifadə olunmaq üçün hazırlanıb, lakin öyrənmək hər yaşda əyləncəlidir."
     no_signup_header: "Qeydiyyatdan keçmək istəmirsiniz?"
     no_signup_message: 'Siz <a target="_blank" href="http://learn.code.org">müxtəlif mərhələ və tapmacalar</a>ı nəzərdən keçirə bilərsiniz, lakin nəticələrinizi yadda saxlamaq üçün qeydiyyatdan keçməyiniz lazım olacaq.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Təhsil işçisi üçün göstərişlərə baxın"
     teacher_prize_header: '<a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> mükafatları şəklində 1000 dollar qazanın'
-    teacher_prize_message: '<a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>la tərəfdaşlıq edərək "Code.org" bu kursu ən azı 10 şagirdə keçən ABŞ-dakı müəllimlərə dərs fondu şəklində 1000 dollara qədər maliyyə dəstəyi təklif edəcək.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Öz sinfinizdə K-8 İnformatikaya Giriş kursunu tədris edin"
     teacher_title: "Müəllim kimi qeydiyyatdan keçin"
     student_pitch: "1 saat bitəndən sonra: K-8 İnformatikaya Giriş kursumuzu sınaqdan keçirin"
@@ -81,7 +81,7 @@
     submit: "Daxil olun"
   password:
     reset_form:
-      title: "Şifrənizi unutmusunuz?"
+      title: "Parolunuzu unutmusunuz?"
       email: "E-poçt ünvanı"
       submit: "Parol yeniləmə təlimatlarını mənə göndərin"
     change_form:
@@ -108,6 +108,7 @@
       username_not_found: "%{username} istifadəçi adı tapılmadı"
       username_in_use: "%{username} artıq istifadə olunur, zəhmət olmasa, digərini seçin"
       no_teacher: "'%{teacher_email_or_code}' ilə daxil olan heç kim tapılmadı. Zəhmət olmasa, onlardan burada qeydiyyatdan keçməyi xahiş edin və sonra onları yenidən əlavə etməyə çalışın"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Code.org-da %{teacher_name} ilə dərsə qoşulun!"
@@ -122,40 +123,42 @@
     success: "Mükafatınızı müvəffəqiyyətlə xərclədiniz, aşağıdakı koda baxın."
     error: "Mükafatınızı xərcləmək mümkün olmadı, lütfən bir də cəhd edin."
     error_us_only: "Mükafat almaq imkanı ancaq ABŞ-dan olan istifadəçilər üçün etibarlıdır."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Zəhmət olmazsa, təsdiq edin"
       "no": Xeyr
       "yes": Bəli
       msg: "%{prize_name} mükafatını tələb emək istədiyinizə əminsiniz?"
       msg_student: "QEYD: Ancaq bir növ mükafat seçə bilərsiniz."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "Bütün dərslikləri başa vurdunuz. Mükafatınızı əldə etdikdən sonra, başqa bir sinif seçin %{online_link} və ya buradan: %{local_school_link}"
     msg:
       choose: "Mükafat seçin:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Siz bir mükafat qazandınız! (yalnız ABŞ-dan olan şagirdlər)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: 'İnformatikanın bütün əsas anlayışlarını öyrənin, %{num_trophies} qənimətin hamısını toplayın və həqiqi mükafatlar qazanın. Siz 10 dollarlıq "iTunes" həddiyyə kartı, 10GB "Dropbox" yaddaş sahəsi, 10 dollarlıq "Skype" krediti və pulsuz oyun endirmək imkanından birini seçə bilərsiniz. QEYD: təklif yalnız ABŞ-dan olan şagirdlər üçün və yalnız mükafatlar verildiyi müddətdə etibarlıdır.'
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10 və ya daha çox şagird %{num_trophies} kubokun hamısını topladı. Siz bir müəllim mükafatı qazandınız! (yalnız ABŞ-dan olan müəllimlər)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-        not_earned: 'İlk dəfə informatika müəllimliyi edənləri mükafatlandırmaq üçün bir sinfə K-8 giriş kursunu keçdiyinizə görə siz 1000 dollara qədər <a href="http://DonorsChoose.org">"DonorsChoose.org"</a> krediti qazana bilərsiniz. Bunun üçün siz ən azı 15 şagirddən ibarət bir sinfə müvəffəqiyyətlə bütün K-8 giriş kursunu keçməlisiniz və 15 (və ya daha çox) şagirdin hamısı bütün dərslikləri başa vuraraq %{num_trophies} qənimətin hamısını toplamalıdır. Bütün qənimətləri əldə etmiş şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 1000 dollardır. Əks halda isə mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 750 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
+        not_earned: 'İlk dəfə informatika müəllimliyi edənləri mükafatlandırmaq üçün bir sinfə K-8 giriş kursunu keçdiyinizə görə siz 1000 dollara qədər <a href="http://DonorsChoose.org">"DonorsChoose.org"</a> krediti qazana bilərsiniz. Bunun üçün siz ən azı 15 şagirddən ibarət bir sinfə müvəffəqiyyətlə bütün K-8 giriş kursunu keçməlisiniz və 15 (və ya daha çox) şagirdin hamısı bütün dərslikləri başa vuraraq %{num_trophies} kubokun hamısını toplamalıdır. Bütün kubokları əldə etmiş şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 1000 dollardır. Əks halda isə mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 750 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
-          not_earned: 'Əgər %{num_trophies} qənimətin hamısını toplamış şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə əlavə 250 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
+          earned: "%{num_trophies} kubokun hamısını toplamış şagirdlərinizdən 7 və ya daha çoxu qızlardır. Siz bir bonus mükafat qazandınız! (yalnız ABŞ-dan olan müəllimlər)"
+          not_earned: 'Əgər %{num_trophies} kubokun hamısını toplamış şagirdlərinizdən ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə əlavə 250 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə bilər.'
   crud:
     new_model: "Yeni %{model}"
     show: "Göstər"
@@ -170,24 +173,24 @@
   nav:
     header:
       finished_hoc: "Kod Saatımı bitirdim"
-      sign_in_to_save: "Gedişatı yadda saxlamaq üçün daxil olun"
+      sign_in_to_save: "Nəticələri itirməmək üçün daxil olun"
     user:
       classroom: "Mənim tələbələrim"
       label: "Salam %{username}"
-      stats: "Mənim inkişafım"
+      stats: "Mənim nəticələrim"
       settings: "Mənim hesabım"
       prizes: "Mükafatlar"
       logout: "Çıxın"
       signin: "Daxil olun"
       signup: "Qeydiyyatdan keçin"
     popup:
-      progress: "Sənin inkişafın"
+      progress: "Sizin nəticələriniz"
       lines: "Yekun kod sətiri: %{lines}"
       close: "BAĞLA"
       mastery: "Anlayışlar"
       puzzle_map: "Mərhələlər"
-      prizes: "Bütün %{total_trophies} kuboklarını yığ və hədiyyə qazan!"
-      prize_earned: "Siz %{total_trophies} qənimətin hamısımı topladınız. Mükafatı qazandınız!"
+      prizes: "%{total_trophies} kubokun hamısını yığ və hədiyyələr qazan!"
+      prize_earned: "Siz %{total_trophies} kubokun hamısımı topladınız. Mükafatı qazandınız!"
       prize_us_only: "(Yalnız ABŞ-dan olan şagirdlər)"
       prizes_link: "daha çox məlumat"
   teacher:
@@ -198,7 +201,7 @@
     students:
       manage: "Tələbələri idarə et"
       add: "Tələbələri əlavə et"
-    rollup: "Gedişat Paneli"
+    rollup: "Gedişat paneli"
     activity: "Son sinif işi"
   user:
     new_password_hint: "(əgər dəyişmək istəmirsinizsə boş buraxın)"
@@ -217,15 +220,16 @@
     signin_message: "və ya əgər siz artıq qeydiyyatdan keçmisinizsə, %{link}"
     student_reg_link: "Şagird"
     teacher_reg_link: "Müəllim"
-    teacher_dashboard: "Gedişat Panelinə baxın"
+    teacher_dashboard: "Gedişat panelinə baxın"
     teacher_student_count_one: "Sizin %{count} tələbəniz var."
     teacher_student_count: "Sizin %{count} tələbəniz var."
     teacher_averages: 'Sizin tələbələriniz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan orta hesabla %{trophy_average} saydasını qazandılar.'
     classroom: "Sinifiniz"
-    student_progress: "Sizin öyrənmə irəliləyişiniz"
+    student_progress: "Sizin təlim nəticələriniz"
     student_stats: 'Siz %{trophy_max} "Anlayışların Mənimsənilməsi" kubokundan %{trophy_count} saydasını qazandınız.'
     student_left_off: "Sizin sonuncu qaldığınız yer:"
-    student_finished: "Siz bütün tədris materialını bitirdiniz, %{prize_link} -nizi tələb edin və %{online_link} ve ya %{local_school_link} -da başqa dərs seçin"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "yerli məktəb"
     online: "onlayn"
     see_details: "Təfərrüatına baxın"
@@ -250,6 +254,8 @@
   reference_area:
     title: "Kömək lazımdır?"
     subtitle: "Bu videolara və məsləhətlərə baxın"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Video yoxdur? Qeydləri göstər."
@@ -262,3 +268,5 @@
   try_reloading: "Səhifəni yenidən yükləməyə cəhd edin"
   next_stage: "Qurtardı! Növbəti mərhələyə keçin"
   download_pdf: "Dərs planını aç"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

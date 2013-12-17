@@ -43,10 +43,10 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Olá! Eu sou o JR. Qualquer equipa de competição automóvel precisa de um programadores para vencer. Eles analisam os dados do carro, de forma a torná-lo mais rápido."
+        text: "Olá! Eu sou o JR. Qualquer equipe de carros de corrida precisa de um programador de computadores para vencer. Eles analisam os dados do veículo, de forma a torná-lo mais rápido."
       2:
         image: "notes/stage5_2.jpg"
-        text: "Nestes puzzles, tu serás um artista, que desenha uma linha por detrás deles, qualquer que seja o sítio para onde forem."
+        text: "Nestes quebra-cabeças, você será um artista que desenha uma linha por trás deles em qualquer lugar que eles forem."
       3:
         image: "notes/stage5_3.jpg"
         text: 'Este bloco diz "avançar 100 pixeis." Os pixeis são apenas pequenos pontos no teu ecrã.'
@@ -65,7 +65,7 @@
         text: "Tu terás que ajudá-la a remover todos os montes de terra e encher os buracos com ela."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Os novos blocos removeram 1 pá de terra de um monte e preencheram numa pá de terra num buraco."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Os montes e buracos têm tamanhos diferentes, pelo que terás de dizer ao agricultor quantas pás serão necessárias usar."
@@ -148,12 +148,11 @@
         text: "Nós vamos aprender como definir funções. A definição de funções tem uma estrela no canto. O nome de uma função é escrita logo na primeira linha."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Os blocos que vão dentro da definição de nos dizer o que ele faz. Por essa definição de função é chamada de "encher 5" e ela é composta de um bloco de "repetição" e um bloco de "preencher".'
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -165,14 +164,14 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'O bloco "while" fará tudo o que você colocar no seu interior, enquanto a instrução na parte superior é TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Olá, eu me chamo Trina, e trabalho para a Pixar. Já trabalhei em um punhado de filmes, incluindo o Shrek."
       2:
         image: "notes/stage11_2.jpg"
         text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
@@ -207,7 +206,7 @@
         text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Agora você pode usar o bloco de matemática para inserir numerais diferentes para desenhar triângulos de tamanhos diferentes."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

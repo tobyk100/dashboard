@@ -65,7 +65,7 @@
         text: "Þú verður að hjálpa henni að fjárlægja alla moldarhaugana og fylla upp í allar holurnar."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Nýju kubbarnir fjarlægja 1 skóflufylli af mold úr haug og fylla holu með 1 skóflufylli af mold."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Haugarnir og holurnar eru í mismunandi stærðum svo þú verður að segja bóndanum hversu mörg skóflufylli skal nota."
@@ -151,7 +151,8 @@
         text: 'Kubbarnir sem fara í skilgreininguna segja okkur hvað hún gerir. Þessi skilgreining á falli er því kölluð "fylla 5" og hún er sett saman úr "endurtaka" kubbi og "fylla" kubbi".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Skilgreiningin liggur á vinnusvæðinu, en bóndinn keyrir ekki fallið fyrr en við drögum út kubbinn fyrir "fylla 5" fallið sem er í flokknum Föll.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: "Skemmtum okkur ÖLL við að smíða FÖLL! "
@@ -161,10 +162,10 @@
         text: 'Hæ, ég heiti Makinde! Nú ætlum við að læra um "meðan" kubbinn. '
       2:
         image: "notes/stage9_6.jpg"
-        text: '"Meðan" kubburinn gerir það er sett í hann Á MEÐAN setningin efst á honum er SÖNN.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "Til dæmis, ef bóndinn stendur á haug, mun hann halda áfram að fjarlægja 1 skóflufylli Á MEÐAN það er enn haugur undir honum."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

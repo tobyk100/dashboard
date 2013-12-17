@@ -44,7 +44,7 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hej, jeg er JR! Ethvert racer bils team har brug for computer eksperter for at vinde. De analyserer data fra bilen for at få den til at køre hurtigere."
+        text: "Hej, jeg hedder JR! Hvert racerbilsteam har brug for computereksperter for at vinde. De analyserer data fra bilen for at få den til at køre hurtigere."
       2:
         image: "notes/stage5_2.jpg"
         text: "I disse gåder, vil du være en kunstner, der tegner en linje bag dem overalt de går."
@@ -66,7 +66,7 @@
         text: "Du skal hjælpe hende med at fjerne alle bunker af snavs og udfylde alle hullerne."
       3:
         image: "notes/stage9_3.jpg"
-        text: "De nye blokke fjerner 1 skovlfuld snavs fra en bunke og fylder 1 skovlfuld snavs i et hul."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Bunkerne og hullerne er forskellige størrelser, så du skal fortælle landmanden hvor mange skovlfulde der skal bruges."
@@ -153,7 +153,8 @@
         text: 'De blokke, der er inde i definitionen fortæller os, hvad den gør. Så denne funktions definition hedder "fyld 5" og den består af en "gentag" blok og en "fyld" blok.'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'Definitionen sidder på arbejdsområdet, men vores landmand vil ikke køre funktionen indtil vi trækker vores "fyld 5 funktion" blok ud fra funktions kategorien.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Lad os putte "fun" tilbage ind i "FUNktion!" '
@@ -163,10 +164,10 @@
         text: 'Hej, Jeg er Makinde! Lad os lære om "imens" blokken. '
       2:
         image: "notes/stage9_6.jpg"
-        text: '"imens" blokken vil gøre ligegyldigt hvad du lægger ind, så længe erklæringen på toppen er sand.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For eksempel, hvis landmanden står på en bunke, vil hun fortsætte med at fjerne 1 skovlfuld, imens der stadig er en bunke under hende."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
@@ -183,43 +184,42 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hej! Jeg hedder Janete, og jeg er ingeniør hos Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Hvad hvis vi ønsker at tegne en masse trekanter og give dem forskellige størrelser?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Vi kunne skrive al den kode i hånden eller vi kan bruge en funktion med parametre."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: 'For at gøre dette, skal du klikke på den blå stjerne på "tegn en trekant" funktions-definition. Træk derefter "indtast navn" til "input" blokken.'
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: 'Hvis du så skriver "længde" på det sted, hvor der står "x" og trykker "Enter" skal du oprette en længde input til din funktion.'
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: 'Klik på stjernen. Nu du ønsker at klikke på kategorien variabler og trække "længde" blokken til "Flyt fremad" blok af din funktions-definition. Og træk den gamle nummer blok væk.'
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'For at bruge din funktion med parametre, skal du klikke på kategorien funktioner og trække din "tegn en trekant med længde" funktion ud.'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Nu kan du bruge matematik blokken for at indtaste forskellige tal for at tegne trekanter med forskellige størrelser."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
-        text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
+        text: "Tillykke! Med den sidste opgave du har løst, skrev du kode, der kan fortælle enhver robot hvordan den kan finde vej gennem en labyrint eller tunnel af enhver længde, uanset om det er en zombie, en fugl, en Mars robot eller endda en selvkørende bil."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "De grundlæggende begreber, du har brugt er kernen i ethvert program eller app du nogensinde kommer til at prøve. Vi lærte om gentag løkker, gentag indtil udtalelser, hvis udtalelser, og hvis ellers udsagn."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "Hvis du kunne lide din første times kodning, så besøg code.org for at fortsætte din uddannelse i datalogi! Når du har fuldført vores 20 timers kursus, har du lært grundlæggende programmering, og kan begynde at lære at skrive apps til din telefon, robot instruktioner, spil, eller noget helt andet."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "Teknologien ændre alt hvad vi gør og det er lige meget om du er ung eller gammel. Programmering er sjovt, kreativt, og alle kan lære det!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "Vis noter kommer snart!"

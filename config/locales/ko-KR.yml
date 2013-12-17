@@ -50,10 +50,10 @@
     no_signup_header: "가입하지 않기"
     no_signup_message: '여러 개의 단계로 이루어진 퍼즐들을 살펴보세요. <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a> 해결한 퍼즐을 저장하려면 가입해야 합니다.'
     prizes_header: "기초개념학습 과정을 완료하는 첫번째 학생은 상품을 받게됩니다.(미국 학생만 해당)"
-    prizes_message: "기초개념학습 트로피(총 %{num_trophies}개)를 모두 얻는 미국 학생은 iTunes 선물 카드, Dropbox 저장공간, Skype 금액, EA 게임, Valve 게임 등 다양한 선물을 받게 됩니다."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "교육자 가이드"
     teacher_prize_header: '$1,000 크레딧 상품 받기 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
-    teacher_prize_message: 'Code.org 는 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> 과의 제휴를 통해, 본 과정을 완료한 학생들이 10명을 넘는 선생님들에게 학급당 $1,000 크레딧을 제공합니다.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "컴퓨터과학(Computer Science, 정보과학)의 내용을, 유치원~중2(K-8) 학생들과 함께 하세요"
     teacher_title: "선생님으로 등록하기"
     student_pitch: "Beyond 1 hour:  컴퓨터과학(Computer Science, 정보과학) 기초개념학습 코스 더 해보기"
@@ -108,6 +108,7 @@
       username_not_found: "%{username} 는 존재하지 않습니다"
       username_in_use: "%{username} 는 이미 사용하고 있습니다, 다른 아이디를 선택하세요"
       no_teacher: "'%{teacher_email_or_code}' 선생님을 찾을 수 없습니다. 선생님의 가입 여부를 확인한 후, 다시 시도하세요"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "%{teacher_name} 선생님의 학급에 참여하세요. Code.org!"
@@ -122,39 +123,41 @@
     success: "상품을 Redeem 코드로 교환하였습니다. 코드를 확인하세요."
     error: "상품을 Redeem 코드로 교환할 수 없습니다. 다시 시도해 보세요."
     error_us_only: "미국 사용자에게만 상품이 주어집니다."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Redeem 코드 확인"
       "no": 아니요
       "yes": 예
       msg: "%{prize_name} 상품을 받으시겠습니까?"
       msg_student: "주의 : 한 가지 유형의 상품만 선택할 수 있습니다."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "모든 기초개념학습 과정을 완료하였습니다. 상품을 받은 후에는 다른 학급 %{online_link} 이나 학교 수업 %{local_school_link} 에 참여해 보세요"
     msg:
       choose: "상품을 선택하세요:"
       choose_teacher: "아래에서 상품 로고를 선택하세요:"
       earned: "상품을 얻었습니다!(미국 학생만 해당)"
       not_earned_title: "기초개념학습 과정을 모두 완료하고, 상품을 받으세요.(미국 학생만 해당)"
-      not_earned: "컴퓨터과학(정보과학)의 프로그래밍 관련 기초개념을 배우고, 그와 관련한 트로피를 모두(총  %{num_trophies}개) 모아서 실제로 사용할 수 있는 상품을 받아보세요. $10 정도의 iTunes 기프트카드, 10GB 만큼의 Dropbox 저장용량, $10 만큼의 Skype 요금, 무료 게임 등이 제공됩니다. 주의: 미국 학생들에게만 한정 수량으로 제공됩니다."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
+        earned: "10명 이상의 학생들이 트로피를 모두( 총 %{num_trophies}개) 모았습니다. 선생님 상품을 받으세요!(미국 선생님만 해당)"
         not_earned_title: '학생들과 함께 하고 $1,000(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>) 크레딧을 받으세요.(미국 선생님만 해당)'
         not_earned: '컴퓨터과학(정보과학) 교사들은 학급학생들을 지도해서, 처음에 $1,000 크레딧(<a href="http://DonorsChoose.org">DonorsChoose.org</a>) 까지 얻을 수 있습니다. 그렇게 하려면, 트로피를 모두(총 %{num_trophies}개) 모은 학생들이 15명 이상이 되도록 해야합니다. 그 중 7명 이상이 여학생이어야 합니다. 그런 경우가 아니면 $750 크레딧을 상품으로 받게됩니다. 단, 미국 공립학교 선생님들만 사용할 수 있습니다.'
         bonus:
           not_earned_title: '보너스 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)을 받을 수 있습니다.(미국 선생님만 해당)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          earned: "트로피를 모두(총 %{num_trophies}) 모은 학생들 중 7명 이상이 여학생입니다. 보너스 상품을 받으세요.(미국 선생님만 해당)"
           not_earned: '최소 7명의 여학생이 트로피를 모두(총 %{num_trophies}개) 모으면, 추가적으로 $250 크레딧(<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>)이 상품으로 주어집니다. 크레딧은 미국 공립학교 선생님들만 사용할 수 있습니다.'
   crud:
     new_model: "%{model} 만들기"
@@ -225,7 +228,8 @@
     student_progress: "나의 학습 진도"
     student_stats: '%{trophy_count} 개의 "기초개념학습 트로피"를 획득했습니다. 총 %{trophy_max} 개.'
     student_left_off: "마지막 학습:"
-    student_finished: "모든 기초개념학습 과정을 완료하였습니다. 상품(%{prize_link})을 신청하고, 다른 학급 %{online_link} 이나 학교 수업 %{local_school_link} 에 참여해 보세요"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "학교"
     online: "온라인"
     see_details: "자세히 살펴보기"
@@ -250,6 +254,8 @@
   reference_area:
     title: "도움이 필요하신가요?"
     subtitle: "동영상 및 힌트"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "소개 동영상."
     notes: "소개 프레젠테이션."
@@ -262,3 +268,5 @@
   try_reloading: "페이지를 새로고침 해보세요"
   next_stage: "모두 완료했습니다! 다음 단계를 계속하세요"
   download_pdf: "Open Lesson Plan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

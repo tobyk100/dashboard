@@ -3,8 +3,8 @@
     script:
       name:
         20-hour:
-          desc: "K-8 intro til Computer Videnskabs forløbet"
-          Unplug1: "1. Etape"
+          desc: "Folkeskolens Intro til Computer Videnskabs kurset"
+          Unplug1: "Trin 1"
           Maze: "Trin 2"
           Unplug2: "Trin 3"
           Unplug3: "Trin 4"
@@ -25,7 +25,7 @@
           Artist5: "Trin 19"
           Unplug11: "Trin 20"
         Hour of Code:
-          desc: "En Time af Kode"
+          desc: "En Times Kodning"
           Maze: "Trin 1"
         Edit Code:
           desc: "Redigér Kode"
@@ -90,46 +90,41 @@
         maze_2_16: "OK, lad os gøre at igen for at øve - dette er ikke meget anderledes, men pas på de kødædende planter!"
         maze_2_17: '"Hvis ellers" blokkene kontrollere en betingelse, og derfefter gør én ting eller en anden. For at få mig itl solsikken, så prøv at bruge denne nye blok.'
         maze_2_18: 'En mere øvelse med "if-else" blokken, kan du få den rigtig på dit første forsøg?'
-        maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
-        turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
-        turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
-        turtle_1_4: |-
-          Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
-        turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
-        turtle_1_6: "Can you figure out how draw this triangle and square? Hint: Do the triangle first, then figure out how much to turn before drawing the square."
-        turtle_1_7: "Ok, let's make it a bit harder - see if you can draw these green glasses. The squares are 100 pixels on each side, and they're 50 pixels apart. Don't forget to draw in green!"
-        turtle_1_8: 'Ok, try to figure out what happens if you run this code (or press "Run" to try it). Then, repeat it enough times to complete the drawing. The colors will be different every time.'
-        turtle_1_9: "Can you figure out what number to replace the question marks with to draw a circle?"
-        turtle_1_10: 'You made it! Now, draw anything you want. Some fun ideas: a stick figure, snowflake, or spiral. Also try the new "set width" block. Have fun!'
-        turtle_4_1: 'Can you draw a triangle (with edges of 100 pixels) with only 3 blocks? Hint: use a "repeat" block.'
-        turtle_4_2: |-
-          Try adding one block to complete this puzzle. Hint: we've provided blocks to draw 2 identical triangles, you need to put a "turn" in between, and decide out how far to turn.
-        turtle_4_3: |-
-          Ok, here's the code you wrote to draw a single triangle. Can you add a "repeat" and "turn" block to make a pretty flower?
-        turtle_4_4: "Here's the same code from the previous puzzle, but turning only 36 degrees after drawing each triangle. How many times does this need to repeat? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_5: "Here's the same code from the previous puzzle, but repeating the turns 36 times. How many degrees should the turns be? (Hint: after 360 degrees of turning the drawing will come full circle)"
-        turtle_4_6: "Using only 3 blocks, can you draw a square with edges of 20 pixels?"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
+        maze_2_19: "Kan du nøjes med at tilføje 3 blokke til at hjælpe mig med at løse en mere kompleks labyrint? Hvis du gør det rigtigt, kan jeg gå en vilkårlig kurvet vej, uanset længde."
+        turtle_1_1: "Hej, er jeg en kunstner. Du kan skrive kode der får mig til at tegne næsten hvad som helst. Brug et par blokke for at få mig til at tegne over de grå streger i billedet."
+        turtle_1_2: 'Tegn nu en firkant. Bemærk: Brug din foretrukne farve ved at vælge den i den nye "vælg farve" blok.'
+        turtle_1_3: "Lav en firkant ved kun at bruge 3 blokke."
+        turtle_1_4: 'Tegn en trekant, hvis sider alle er i forskellige farver, ved hjælp af indstillingen "tilfældig farve", der henter en forskellig farve hver gang. Tip: du bliver nødt til at finde ud af hvor langt der skal drejes ved at klikke på tallet i "drej" blokken.'
+        turtle_1_5: "For at øve, prøv at tegne en konvolut ved først at tegne en trekant og derefter en firkant."
+        turtle_1_6: "Kan du regne ud, hvordan man tegner denne trekant og firkant? Tip: Lav trekanten først, derefter regn ud hvor meget der skal drejes før firkanten tegnes."
+        turtle_1_7: "OK, lad os gøre det en smule sværere - se om du kan tegne disse grønne briller. Firkanterne er 100 pixels på hver side, og de er 50 pixels fra hinanden. Glem ikke at tegne i grøn!"
+        turtle_1_8: 'OK, prøv at finde ud af, hvad der sker hvis du køre denne kode (eller tryk på "Kør" for at prøve det). Gentag det derefter nok gange til at fuldføre tegningen. Farverne bliver anderledes hver gang.'
+        turtle_1_9: "Kan du finde ud af, hvilket nummer du skal erstatte spørgsmålstegnet med, for at tegne en cirkel?"
+        turtle_1_10: 'Du gjorde det! Tegn nu lige hvad du har lyst til. Nogle sjove ideer: en tændstikmand, snefnug en eller spiral. Prøv også den nye "sæt bredde" blok. Hav det sjovt!'
+        turtle_4_1: 'Kan du tegne en trekant (med 100 pixels kanter) med kun 3 blokke? Tip: Brug en "gentag" blok.'
+        turtle_4_2: 'Prøv at tilføje én blok for at fuldføre denne gåde. Tip: vi har givet 2 blokke til at tegne 2 identiske trekanter - du skal sætte en "drej" i mellem, og beslutte, hvor langt du drejer.'
+        turtle_4_3: 'OK, her er den kode du skrev for at tegne en enkelt trekant. Kan du tilføje en "gentag" og "drej" blok, for at lave en smuk blomst?'
+        turtle_4_4: "Her er den samme kode fra den tidligere gåde, men kun drejende 36 grader efter hver trekant. Hvor mange gange skal det gentages? (Hint: efter 360 grader vil tegningen komme fuld cirkel)"
+        turtle_4_5: "Her er den samme kode fra den tidligere gåde, med drejene gentaget 36 gange. Hvor mange grader skal der drejes? (Hint: efter 360 grader kommer tegningen i fuld cirkel)"
+        turtle_4_6: "Ved kun at bruge 3 blokke, kan du så tegne en firkant med kanter af 20 pixels?"
+        turtle_4_7: "Her er koden til at tegne firkanten fra sidste gåde. Kan du gentage det med 10 tilstødende kvadrater som en stige? Tip: du behøver kun 2 blokke mere."
+        turtle_4_8: "Her er løsningen på den tidligere gåde. Kan du afslutte tegningen ved kun at tilføje 2 blokke?"
+        turtle_4_9: "Her er løsningen på den tidligere gåde. Hvor mange grader skal du dreje for at fuldføre tegningen? (Du bliver nok nød til at gætte et par gange)"
+        turtle_4_10: "Her er løsningen på den tidligere gåde. Hvor mange gange skal du gentage for at afslutte tegningen?"
+        turtle_4_11: 'Prøv at ændre tallene i "drej" og "gentag" blokkene for at lave forskellige mønstre. Eller eksperimenter med at ændre resten af koden til at tegne noget du ønsker.'
+        maze_karel_1_1: 'Hej, jeg er en landmand. Jeg har brug for din hjælp til at tromle marken på min gård, så den er klar til at blive plantet. Flyt mig til bunken af snavs og brug "Fjern" blok til at fjerne den.'
+        maze_karel_1_2: 'Derefter, bevæg mig til hullet og fyld den med to skovfulde jord ved brug af "fyld" blokken.'
+        maze_karel_1_3: "Flytte mig til bunken af jord og fortælle mig hvor mange skovlfulde jeg skal fjerne med så få blokke som muligt."
+        maze_karel_1_4: "Kunne jer hjælp mig med at fjerne alle fire bunker jord? Tip: Brug en Gentag blok, hvis du kan."
+        maze_karel_1_5: 'Hjælpe mig med at fylde alle disse huller med 5 skovlfulde jord. Tip: du kan sætte en "gentag" blok i en "imens" blok.'
+        maze_karel_1_6: 'Fjern alle bunker jord, ved at bruge så få blokke som muligt. De nye muligheder i dropdown-menuen på "imens" blokken fortælle mig om jeg står på en bunke eller et hul.'
+        maze_karel_1_7: "Wow, fandt jeg en rigtigt dybt hul! Jeg ved ikke hvor mange skovlfulde jord det behøver. Kan du skrive et program, der fylder det indtil jorden er lige?"
         maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
         maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
         maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
         maze_karel_1_11: |-
           It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
+        turtle_2_1: "Hej. Mig zombie kunstner. Mig elsker at tegne! Hjælp mig med at tegne en firkant i en særlig farve. Vigtig note: du har de samme blokke, men de er nu blevet sat i kategorier."
         turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
@@ -169,10 +164,10 @@
         turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
         turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
+        maze_karel_debug_seq_2: "Hvad er der galt med dette program? Hvordan kan du ordne det, så jeg kan fjerne den bunke?"
         maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
+        maze_karel_debug_while: "Hvordan skal du ændre dette program for at hjælpe mig med at udfylde hullet?"
+        maze_karel_debug_if: "Hjælp! Lav programmet, så mit felt vil være helt fladt."
         maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
@@ -185,8 +180,8 @@
         turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        maze_3_3: "Hvordan kan jeg komme hen til grisen? Sørg for, at jeg ikke løber ind i TNT boksen!"
+        maze_3_4: "Argh! Skriv mig et program, som får mig omkring TNT'en og hen til grisen."
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:
@@ -196,16 +191,16 @@
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        maze_intro: "Labyrint Intro"
+        artist_intro: "Kunstner Intro"
+        farmer_intro: "Landmands Intro"
+        loop_times: "Gentag Gange blok"
+        loop_until: "Gentag Indtil blok"
+        if: "Hvis blok"
+        if_else: "Hvis/ellers blok"
+        function: "Funktioner"
+        loop_while: "Imens blok"
+        loop_for: "Tæller blok"
+        parameters: "Funktioner med parametre"
+        hoc_wrapup: "En Times kodning afslutning"
+        20_wrapup: "20 Timers afslutning"

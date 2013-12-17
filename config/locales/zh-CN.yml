@@ -50,10 +50,10 @@
     no_signup_header: "Don't want to sign up?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "See educator guide"
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "在你的课堂里教授 K-8 计算机基础课程"
     teacher_title: "老师登记"
     student_pitch: "一小时之后：试试我们的 K-8 计算机基础课程"
@@ -105,6 +105,7 @@
       username_not_found: "找不到用户名 %{用户名}"
       username_in_use: "%{用户名} 已经被占用，请选择其他用户名。"
       no_teacher: "找不到用户名 %{teacher_email_or_code}。请让该用户先注册，再次尝试添加。"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "加入 %{teacher_name} 老师的班级吧！"
@@ -119,32 +120,34 @@
     success: "你的奖金已经成功兑现，请参见下面的代码。"
     error: "你的奖品无法兑现，请重新尝试。"
     error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "请确认"
       "no": 否
       "yes": 是
       msg: "你确定你希望领取奖品%{prize_name}吗？"
       msg_student: "注意：你只能选择一种奖品。"
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "您已经完成了所有教程。领取全部的奖金后再挑选另外一个课程吧： %{online_link} 或 {local_school_link} %"
     msg:
       choose: "选择奖励："
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "You have earned a prize! (U.S. students only)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -222,7 +225,8 @@
     student_progress: "你的学习进度"
     student_stats: "你已经获得了%{trophy_count}/%{trophy_max}个“概念掌握”奖杯。"
     student_left_off: "你上次离开的地方："
-    student_finished: "你已经完成了所有的教程，领取你的%{prize_link}并选择另一个班%{online_link}或者学校%{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "本地学校"
     online: "在线"
     see_details: "查看详细信息"
@@ -247,6 +251,8 @@
   reference_area:
     title: "需要帮助吗？"
     subtitle: "看看这些视频和提示"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "视频。"
     notes: "没有视频吗？请看笔记。"
@@ -259,3 +265,5 @@
   try_reloading: "请重新刷新页面"
   next_stage: "Finished! Continue to next stage"
   download_pdf: "Open Lesson Plan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

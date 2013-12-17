@@ -139,38 +139,41 @@
         maze_karel_1_11: '外はまだ暗いです。私を田んぼにそって移動してください。山があったらどかす、穴があったら埋める。ヒント:"if"ブロックでオプションのドロップ ダウン メニューを使用します。'
         turtle_2_1: "こんにちは。私ゾンビ アーティストです。私は描くのが大好き ！特別な色で正方形を描くを手伝ってください。重要な注記: ブロックはみんな同じですが、カテゴリーに分かれています。"
         turtle_2_2: "新しいブロックあなたにを定義させてくれる関数を使うところへようこそ ！新しい「正方形を加工」ブロックを試してみてください、「関数」カテゴリでは、小さな 50 x 50 緑色の四角形を描画するを発見しました。"
-        turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
-        turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
-        turtle_2_5: |-
-          Draw squares with sides of 50, 60, 70, 80, and 90 pixels.  You'll need to use the "draw a square" function five times.
-        turtle_2_6: |-
-          Ok, this program will use a counter, to draw the same squares as last time. You want the square to be the same size as the counter, so use the "counter" block. Hint: It's in the Variables category.
-        turtle_2_7: |-
-          Here's a program to draw a spiral, but the blocks are disabled so they won't run. Make a new program using a "count with" block (in the Loops category) and "counter" block (in the Variables category) to draw the same spiral.
-        turtle_2_7_5: |-
-          There's a new "draw a snowman" function (in the Functions category). Draw two snowmen, of height 250 and 100.
-        turtle_2_8: |-
-          This one's a bit tricky. Use the "draw a snowman" function and the new "jump forward" block (in the Actions category). Draw 3 snowmen in different colors, 100 pixels apart.
-        turtle_2_9: 'Use a "count with" loop to draw a family of snowmen with heights of 110, 100, 90, 80, and 70. The snowmen should all be 60 pixels apart.'
-        turtle_2_10: "Here's some code to try experimenting with different spirals.  What happens if you change the turn amount? Or set a random color in the loop?  Draw anything you like."
-        maze_karel_2_1: "Try using the blocks to help me remove all the piles and fill in all the holes on the ground. Try to use loops instead of using too many blocks. Hint: you can put a loop inside another loop."
-        maze_karel_2_2: |-
-          We've defined our own block called "fill 5", which is now in the Functions category. Use it to help me fill in this hole.
-        maze_karel_2_3: |-
-          Use the new "fill 5" function block to make me fill in all the holes. You'll have to drag out the "fill 5" block out from the Functions category.
-        maze_karel_2_4: "Define a new function that removes 7 shovelfuls. Then use it to write a program that helps me remove all the piles."
-        maze_karel_2_5: "Create a new function that removes 6 shovelfuls from a pile, and use it to help me level out all the piles."
-        maze_karel_2_6: 'Use two new functions, "fill 8" and "remove 8", to help me level out the pile and fill in the hole.'
-        maze_karel_2_7: "There's a cow in my field! Write a new function that helps me avoid the cow and remove the pile. Put all your blocks inside the new function."
-        maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
-        maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
-        maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
-        turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
+        turtle_2_3: |
+          サイズが100、それぞれ120度離れている正方形を３つ描くのに「繰り返し」ブロック (「ループ」カテゴリ) を使用してください。そして３つのランダムな色でそれを描いてください。
+          
+        turtle_2_4: "今もっとファンシーにしようと思います。コードを変更して、100 ピクセルの幅、および各 10 度を離れている３６個の正方形を描いてください。ヒント：スライダーを使用すると早くできます。"
+        turtle_2_5: "50、60、70、80、90ピクセル の辺を持つ正方形を描きます。「正方形を描く」関数を５回使用する必要があります。"
+        turtle_2_6: 'Ok、 このプログラムは前回と同じ正方形を描画するのに、カウンターを使用します。あなたは正方形をカウンターと同じサイズにしたいです、ですので"Counter"ブロックを使ってください。ヒント： それは、変数カテゴリです。'
+        turtle_2_7: "ブロックが無効なので、スパイラルを描画するプログラムが起動しません。「カウント」ブロック(ループ カテゴリ）と「カウンター」ブロックの(変数のカテゴリ) を使用して同じスパイラルを描画する新しいプログラムを作ってください."
+        turtle_2_7_5: "新しい「描画雪だるま」関数 (関数カテゴリ)をつかって高さ 250 と 長さ100 の 雪だるまを2 つ描いてください。"
+        turtle_2_8: "この 1 つは少しトリッキーです。「描画雪だるま」関数と新しい「飛躍」ブロック (アクション カテゴリ)を使用して。雪だるまを三つ、100 ピクセルを離れて、違う色を使って描画してください。"
+        turtle_2_9: '" count "ループを使用して高さ70、80、90 100 110 の雪だるまの家族を描画してください。雪だるまわ、 60 ピクセル離してください。'
+        turtle_2_10: "こちらはさまざまなスパイラルを試しにつくるコードです。回転量を変更するとどうなりますか。または、ループのランダムな色を設定しみたらどうなりますか。お好きなものを自由に描画してください。"
+        maze_karel_2_1: "ブロックを使って、山を全て取り除き地面の穴を全て埋めるのを手伝って下さい。たくさんのブロックを使う代わりにループを使いましょう。ヒント: ループの中に別のループを入れることも出来ます。"
+        maze_karel_2_2: '"5を埋める"と呼ばれるブロックを作りました。関数カテゴリです。この穴を埋めるために使つかってください。'
+        maze_karel_2_3: '私はすべての穴を埋めるように新しい「5を埋める」 関数ブロックを使用します。関数のカテゴリから"5 を埋める"ブロックをドラッグする必要があります。'
+        maze_karel_2_4: "七回シャベルする関数を作ってください。それを使ってすべての杭を削除することができますプログラムを書いてください。"
+        maze_karel_2_5: |
+          積山からシャベル６回分を取り除く新しい関数を作ってくださいそして、それを使ってすべての積山を平らにするのを手伝ってください。
+          
+        maze_karel_2_6: "「8 を埋める」、「8を削除する」の２つの新しい関数を使って、積山を平らにして、それを穴を埋めるのを手伝ってください。"
+        maze_karel_2_7: |
+          私のフィールドに牛が います！牛を避けながら積山を除去するのを助ける新しい関数を描いてください。新しい関数の中に全てのブロックを置きます。
+          
+          
+        maze_karel_2_8: "この新しい関数を使用して、「牛を避けるため、1 を削除する」、すべての積山を削除するのを助けて。"
+        maze_karel_2_9: |
+          OK,ここでは縦に並ぶ４つの異なる泥を削除する関数です。ループ内にこの関数を入れてみてください、そうすればいくつかの新しいブロックだけを使えば泥の山を除去できます。
+          
+        maze_karel_2_10: "フィールドを越えて私を移動し、これら 2 つの関数を使用して、すべての積山を削除してすべての穴を埋めるのを手伝ってください。"
+        turtle_3_1: "このパズルはどのように「正方形を描く」そして、「円を描く」関数がどう定義されるかを示してます。関数を定義づけはブロックそのものは実行されません。実際に正方形を描画する「正方形を描く」ブロックをプルする必要があります。"
+        turtle_3_2: "例として「正方形を描く」関数を使用して、「三角形を描く」関数作成して、それを使用します。"
+        turtle_3_3: "猫の周りに三角形のフェンス、そして牛の周りに正方形のフェンスを描いてください。ヒント: あなたがやりながらプログラムをテストしてください。"
+        turtle_3_4: |
+          ライオンの周りに家を描く事で「正方形を描く」と「三角形を描く」（そして他のいくつかのブロック）をどう使うかを把握しているかをみます。
+          
+        turtle_3_5: "今、新しい「家を描く」関数を作成し、それを使って猫の家を描きます。ヒント：「何かをする」ブロックを使い、新しい関数を作成する。ブロックに自分でつけた名前をテキスト入力します。"
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
         turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
@@ -185,12 +188,12 @@
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
+        turtle_5_2: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
+        turtle_5_3: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
+        turtle_5_4: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
+        turtle_5_5: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
+        turtle_5_6: "このプログラムを実行してみてください、そして何が起こるかを参照し変更をしてください。それがどのように動作するかを理解できますか？(または削除し、完全に別の何かと交換)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
@@ -204,15 +207,17 @@
     video:
       name:
         maze_intro: "迷路入門"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
-        function: "Functions"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
+        artist_intro: "アーティスト紹介"
+        farmer_intro: "農夫のイントロ"
+        loop_times: "回ブロックを繰り返す"
+        loop_until: "までブロックを繰り返します"
+        if: "もしもブロック"
+        if_else: "もしも/他にブロック"
+        function: "関数"
+        loop_while: "の間にブロック"
+        loop_for: "数える ブロック"
         parameters: "パラメーター付き関数"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        hoc_wrapup: "コードの時間終了"
+        20_wrapup: |
+          20 時間ラップアップ
+          

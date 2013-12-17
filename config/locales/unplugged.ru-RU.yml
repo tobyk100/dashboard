@@ -2,7 +2,7 @@
   data:
     unplugged:
       Unplug1:
-        title: "Introduction to Computer Science"
+        title: "Введение в Информатику"
         desc: "This lesson will introduce the concept of Computer Science and explain what a Computer Scientist does.  It will also give students an opportunity to assume the role of a computer scientist.  By the end of the activity, each student will have a take-home reminder of what he or she learned.  You may be tempted to skip teaching young children the vocabulary words that are associated with the lessons that follow, but presenting them in a fun and playful light now is far more productive than waiting for more advanced opportunities."
         video: "HsXaVV6fFDY"
         download: "https://s3.amazonaws.com/cdo-videos/new/1-whatisCS-unpluggedactivity.mp4"
@@ -39,7 +39,7 @@
           - unplug5
       Unplug6:
         title: "Conditions"
-        desc: "This is a class game.  After introducing the idea of conditionals, if-statements, and loops, the class can practice together using a pre-written program, a deck of cards, and luck of the draw."
+        desc: "Это игра для класса. После знакомства с идеей условных выражений, условных операторов и циклов, класс может попрактиковаться, используя готовую программу, колоду карт и удачу."
         video: "yr6g0AWE7yw"
         download: "https://s3.amazonaws.com/cdo-videos/new/10-conditionals-activity.mp4"
         pdfs:
@@ -59,7 +59,7 @@
         pdfs:
           - unplug8
       Unplug9:
-        title: "Relay Programming"
+        title: "Эстафетное программирование"
         desc: 'This lesson will take an idea from a previous activity (4. Graph Paper Programming) and use those skills to emphasize the importance of completing programs that operate in sequence and frequently checking programs for "bugs".'
         video: "FFpvtooUrzg"
         download: "https://s3.amazonaws.com/cdo-videos/new/16-relay-programming-activity.mp4"

@@ -53,23 +53,23 @@
           Ce bloc dit ''avances de 100 pixels." Les pixels sont en fait des points minuscules sur ton écran.
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: "Ce bloc dit « tourner à droite de 90 degrés. », cela fera tourner votre artiste du même angle que le bloc « tourner » dans les puzzles de labyrinthe."
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Cliquez sur la flèche dans l'un de ces blocs pour changer le nombre de pas en avant ou de  tours que l'artiste fera. Jouez un peu pour vous habituer à ces nouveaux blocs."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Salut, je suis Paola ! Dans ces énigmes, vous êtes un agriculteur qui doit complètement niveler son terrain avant de commencer à planter des cultures."
       2:
         image: "notes/stage9_2.jpg"
         text: "Vous devez l'aidez à enlever tous les tas de saleté et remplir tous les trous."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Les tas et les trous sont de tailles différentes, donc vous devrez dire à votre fermier combien de pelletées il doit faire."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -153,18 +153,18 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Salut, je suis Brina, une ingénieure à Instagram. Une fonction est un ensemble de lignes de code que vous souhaitez utiliser plusieurs fois. Ainsi, plutôt que de ré-écrire plusieurs fois ce code, vous pouvez simplement utiliser un bloc."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Nous allons apprendre comment définir des fonctions. Les définitions de fonctions ont une étoile dans le coin. Le nom de la fonction est écrit sur la ligne du haut."
       3:
         image: "notes/stage13_3.jpg"
         text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+          Les blocs qui vont dans la définitions nous disent ce qu'ils font. Ainsi la définition de fonction est appelée "remplir 5 fois" et est composée d'un bloc "répéter" et d'un bloc "remplir.
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -176,49 +176,49 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: "Le bloc « while » exécute les actions que se trouve à l'intérieur de celui-ci tant que l'instruction du dessus est VRAI."
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Salut, je suis Trina, et je travaille pour Pixar. J'ai travaillé sur un tas de films, y compris de Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: "Ceci est notre nouvelle boucle « compteur ». Cette boucle répète des actions plusieurs fois, et vous pouvez légèrement changer les actions à chaque fois."
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: "Dans cet exemple, notre boucle « compteur » dit « compter avec un compteur de 50 à 90 par pas de 10 » et à l'intérieur, nous avons notre bloc « dessiner un carré ». Faites glisser le bloc « compteur » de la section « Variables » à l'endroit de « longueur »."
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Cela signifie que notre artiste va dessiner un carré qui a des côtés de 50 pixels de longueur, puis y ajouter 10 et dessiner un carré de côté de 60 pixels de longueur. Puis il va continuer d'ajouter 10 et dessiner des carrés jusqu'à ce qu'il atteigne 90. Donc nous aurons des carrés de 50, 60, 70, 80 et 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Salut, je suis Janete, et je suis ingénieur chez Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Que faudrait t-il faire pour dessiner un ensemble de triangles de différentes tailles ?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Nous pouvons écrire tout ce code à la main, mais nous pouvons aussi utiliser une fonction avec des paramètres."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: "Pour cela, cliquez sur l'étoile bleue dans la définition de la fonction « dessiner un triangle ». Faites ensuite glisser le bloc « nom d'entrée » vers le bloc « entrée »."
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: "Ensuite, si vous écrivez « longueur » à l'endroit où se trouve « x » et si vous appuyez sur « ENTREE », vous allez créer, pour votre fonction, une entrée pour la longueur."
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: |-
+          Cliquez ensuite sur l'étoile. Maintenant cliquez sur la catégorie variables et faites glisser le bloc "longueur" dans le bloc « aller de l'avant » de votre définition de fonction. Et faites glisser en dehors le vieux bloc nombre.
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Pour utiliser votre fonction avec des paramètres, cliquez sur la catégorie fonctions et faites glisser votre fonction "dessine un triangled de longueur".'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Vous pouvez maintenant utiliser le bloc mathématique pour saisir les différents nombres et dessiner des triangles de différentes tailles."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

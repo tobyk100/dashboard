@@ -3,13 +3,13 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "Miresevini ne oren tuaj te pare te kodimit! Te te zhytemi ne shijimin e tuaj te pare te programimit."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "Do te perdorim nje gjuhe programimi vizuale te quajtur Blockly, ku mund te terheqim e leshojme blloqe per te shkruajtur kode."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: "Kodi shkruhet, por Blockly eshte menyre paraqitjeje vizuale. Cdo bllok i korrespondon nje rreshti kodi real."
       4:
         image: "notes/hoc1_4.jpg"
         text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
@@ -65,7 +65,7 @@
         text: "You have to help her remove all the piles of dirt and fill in all the holes."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
@@ -161,7 +161,7 @@
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -173,10 +173,10 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

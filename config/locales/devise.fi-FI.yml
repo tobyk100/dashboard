@@ -13,7 +13,7 @@
       not_found_in_database: "Virheellinen sähköpostiosoite tai salasana."
       timeout: "Istunto on vanhentunut, kirjaudu uudelleen jatkaaksesi."
       unauthenticated: "Sinun täytyy kirjautua sisään tai rekisteröityä ennen jatkamista."
-      unconfirmed: "Sinun tulee vahvistaa tunnuksesi ennen kuin voit jatkaa."
+      unconfirmed: "Sinun tulee vahvistaa tilisi, ennen kuin voit jatkaa."
     mailer:
       confirmation_instructions:
         subject: "Vahvistusohjeet"
@@ -25,9 +25,9 @@
       failure: '%{kind} tunnistus epäonnistui, koska "%{reason}".'
       success: "%{kind} tunnistus onnistui."
     passwords:
-      no_token: "Tähän sivuun on pääsy vain salasanan resetointisähköpostin kautta. Jos kuitenkin tulit tälle sivulle salasanan resetointisähköpostin kautta, varmista että käytit koko osoitetta."
-      send_instructions: "Saat muutaman minuutin kuluttua sähköpostitse ohjeet salasanan resetoimiseen."
-      send_paranoid_instructions: "Jos sähköpostiosoitteesi on tietokannassamme, saat salasanan resetointisähköpostin muutaman minuutin kuluttua."
+      no_token: "Tähän sivuun on pääsy vain salasanan palautus -sähköpostin kautta. Jos kuitenkin tulit tälle sivulle salasanan palautus -sähköpostin kautta, varmista että käytit koko osoitetta."
+      send_instructions: "Saat muutaman minuutin kuluttua sähköpostitse ohjeet salasanan palauttamiseen."
+      send_paranoid_instructions: "Jos sähköpostiosoitteesi on tietokannassamme, saat salasanan palautusta koskevan sähköpostin muutaman minuutin kuluttua."
       updated: "Salasanasi vaihto onnistui. Olet nyt kirjautunut sisään."
       updated_not_active: "Salasanasi vaihto onnistui."
     registrations:
@@ -53,5 +53,5 @@
       not_found: "ei löytynyt"
       not_locked: "ei lukittu"
       not_saved:
-        one: "Yksi virhe esti tämän %{resource} tallentamisen:"
+        one: "Virhe esti tämän %{resource} tallentamisen:"
         other: "%{count} virhettä esti tämän %{resource} tallentamisen:"

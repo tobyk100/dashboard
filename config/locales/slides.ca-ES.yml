@@ -25,7 +25,7 @@
         text: "El costat esquerra és el laberint on s'executa el teu programa. Les instruccions per a cada puzzle estan a sota el laberint."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "La caixa d'eines d'enmig té els comandaments per l'Angry Birds. Els utilitzaràs per construir el teu codi."
+        text: "La caixa d'eines d'enmig té les ordres per l'Angry Bird. Aquestes les utilitzaràs per construir el teu codi."
       9:
         image: "notes/hoc1_9.jpg"
         text: "A la dreta hi ha la teva àrea de treball on podràs arrossegar els blocs de la caixa d'eines per construir el teu programa. Per eliminar un bloc, arrossega'l a la paperera del cantó."
@@ -35,42 +35,42 @@
           Cada bloc és una instrucció. Si arrossegues el bloc "avançar" a la teva àrea de treball i prems "Executar Programa", l'ocell es mou un espai en el laberint.
       11:
         image: "notes/hoc1_11.jpg"
-        text: "Per fer més d'una acció, pots arrossegar molts blocs a la teva àrea de treball i unir-los. L'ocell executarà els comandaments des de dalt a baix."
+        text: "Per fer més d'una acció, pots arrossegar molts blocs a la teva àrea de treball i unir-los. L'ocell executarà les ordres des de dalt a baix."
       12:
         image: "notes/hoc1_12.jpg"
-        text: 'Si executes un programa i el vol arreglar i provar de nou, prem el botó "Reset".'
+        text: 'Si executes un programa i el vols arreglar i provar de nou, prem el botó "Reset".'
       13:
         image: "notes/hoc1_13.jpg"
         text: "Anem a per aquells porcs!"
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hola, sóc JR! Tots els equips d'automobilisme necessiten informàtics per guanyar. Ells analitzen les dades del cotxe per fer-lo més ràpid."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "En aquests puzzles, tu seràs un artista que dibuixarà una línia darrera seu per allà on passi."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Aquest bloc diu "avança 100 píxels". Els píxels són els puntets petits de la teva pantalla.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Aquest bloc diu "gira a la dreta 90º". Això girarà el teu artista el valor total dels blocs de gir en el puzzle del laberint.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Clica sobre la fletxa d'aquests blocs per canviar la quantitat d'avançaments o girs que el teu artista farà. Practica amb aquests nous blocs per familiaritzar-t'hi."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hola, sóc la Paola! En aquest puzzle, tu ets una pagesa que ha d'aconseguir tenir el seu camp totalment pla per començar a plantar la collita."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Has d'ajudar-la a recollir totes les piles de brutícia i omplir els forats."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "Les piles i els forats son de diferents mides, per la qual cosa li hauràs de dir a la pagesa quantes palades haurà d'utilitzar."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -91,7 +91,7 @@
       6:
         image: "notes/hoc2_6.jpg"
         text: |-
-          I això és important: pots posar més d'un comandament dins un bloc "repetir".
+          I això és important: pots posar més d'una ordre dins un bloc "repetir".
       7:
         image: "notes/hoc2_7.jpg"
         text: 'Disfruta utilitztant el teu nou bloc "repetir"!'
@@ -99,7 +99,7 @@
       1:
         image: "notes/hoc3_1.jpg"
         text: |-
-          Hola, sóc Chris. Abans d'unir-me als Miami Heat, vaig anar a Georgia Tech per estudiar Informàtica. Anem a probar el nostre nou bloc, el bloc "repeteix fins".
+          Hola, sóc Chris. Abans d'unir-me als Miami Heat, vaig anar a Georgia Tech per estudiar Informàtica. Anem a provar el nostre nou bloc, el bloc "repetir fins".
       2:
         image: "notes/hoc3_2.jpg"
         text: "Què passaria si no sabéssim quant tindria que moure's l'ocell per arribar al porc?"
@@ -153,18 +153,17 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Hola, sóc la Brina, enginyera a Instagram. Una funció es un conjunt de línies de codi que vols utilitzar una vegada i una altra, per la qual cosa enlloc de escriure aquest codi cada vegada, pots simplement utilitzar un bloc."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "Anem a aprendre com definir una funció. Les definicions de funcions tenen una estrella a la cantonada. El nom de la funció està escrit a la línia de dalt de tot."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: 'Els blocs que van dins la definició ens diuen que fa la funció. Per tant aquesta definició de funció es diu "omple 5" i està construïda amb un bloc de "repetició" i un bloc de "omplir".'
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -176,49 +175,53 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: |-
+          El "bloc mentre" farà tot el que posem a l'interior durant l'estona que l'expressió que l'encapçala sigui certa.
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hola, sóc la Trina, i treballo a Pixar. He treballat en un grapat de pel·lícules, incloent-hi Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: 'Aquest és el nostre bucle "contador". Aquest executarà accions una vegada i una altra i tu pots fer que les accions canviïn una mica cada vegada.'
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: |-
+          En aquest exemple, el nostre bucle "comptador" diu "compta amb el comptador des de 50 a 90 de  10 en 10" i dins d'aquest tenim un bloc de "dibuixa un quadrat", Arrossega el bloc "comptador" des de la secció de "variables" al lloc "longitud".
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Això significa que el nostre artista dibuixarà un quadrat de 50 píxels de costat, afegirà 10 al valor i dibuixarà un quadrat de 60 píxels de costat. Llavors seguirà afegint 10 i dibuixant quadrats fins que arribi a 90. Per tant tindrem quadrats de 50, 60, 70, 80 i 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hola, sóc la Janete, i sóc enginyera a Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "Què passa si volem dibuixar un grapat de triangles i que tinguin mides diferents?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Podríem escriure tot el codi a ma o podem utilitzar una funció amb paràmetres."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: |-
+          Per fer això, clica sobre l'estrella blava de la definició de la funció "dibuixa un triangle". Llavors arrossega "introdueix un nom" en el bloc "introduir".
       5:
         image: "notes/stage15_5.jpg"
         text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+          A continuació, si escrius "longitud" on diu "x" i prems "Intro" crearàs la longitud d'entrada de la teva funció.
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: |-
+          Llavors clica sobre l'estrella. Ara, clica a la categoria variables i arrossega el bloc "longitud" en el bloc "avança" de la definició de la teva funció. Retira el bloc numero anterior.
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: 'Per utilitzar la funció amb paràmetres, feu clic a la categoria de funcions i arrossega la teva funció  "dibuixa un triangle amb longitud".'
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Ara pots utilitzar un bloc matemàtic per introduir els diferents números per dibuixar triangles de diferents mides."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"
@@ -231,7 +234,7 @@
         text: "Si t'ha agradat la teva primera hora de codi, visita code.org per continuar la teva educació informàtica! Una vegada has complet el nostre curs de 20 hores, hauràs dominat els fundaments bàsics de programació, i podràs començar a aprendre a escriure aplicacions mòbils, instruccions de robots, jocs, el que tu vulguis."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "La tecnologia està canviant tot el que feim i no importa si ets jove o vell: programar és divertit, és creatiu, i qualsevol pot aprendre!"
+        text: "La tecnologia està canviant tot el que fem i no importa si ets jove o vell: programar és divertit, és creatiu, i qualsevol pot aprendre!"
     20_wrapup:
       1:
         image: "notes/bird.png"

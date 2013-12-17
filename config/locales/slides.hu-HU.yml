@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Szia, a nevem JR! Mindegy versenyzői csapatnak szüksége van egy számítógép tudósra a nyeréshez. Analizálják az adatokat a járműből, hogy gyorsabbá tehessék azt."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "Ezeknél a rejtvényeknél ön lesz a művész aki vonalat húz maga mögött bármerre megy."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Ez a blokk azt mondja: " előrelépni 100 pixel. " A pixelek csak nagyon apró pontok a képernyőn .'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Ez a blokk azt mondja "forduljon jobbra 90 fokban." Ez el fogja fordítani a művészt ugyanabban a mennyiségben, mint amennyiben a "fordulj" blokkok a labirintus rejtvényekben.'
       5:
         image: "notes/stage5_5.jpg"
         text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Szia, a nevem Paola! Ezekben a rejtvényekben te egy farmer leszel, akinek ki kell simítania a földét, hogy elkezdhesse az ültetvények elültetését."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Segítened kell neki eltávolítani az összes földet, s kitölteni vele a lyukakat."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "A halmok és a lyukak különböző méretűek, meg kell mondania a farmernek, hogy hány shovelfult használjon."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -90,14 +90,14 @@
         text: "Ez fontos: az ismétlő blokkba több mint egy utasítást is betehetsz."
       7:
         image: "notes/hoc2_7.jpg"
-        text: "Élvezd használni az új ismétlő blokkot!"
+        text: "Élvezd az új ismétlő blokk hasznalatat!"
     loop_until:
       1:
         image: "notes/hoc3_1.jpg"
-        text: 'Szia, Chris vagyok. Mielőtt a Miami Heat-hez csatlakoztam Georgiába mentem, hogy számítógép tudományt tanulhassak. Gyere próbáljuk ki az új "ismételd amíg" blokkot.'
+        text: 'Szia, Chris vagyok. Mielőtt a Miami Heat-hez csatlakoztam Georgia Techbe mentem, hogy számítógép tudományt tanulhassak. Gyere próbáljuk ki az új "ismételd amíg" blokkot.'
       2:
         image: "notes/hoc3_2.jpg"
-        text: "Mi van ha nem tudjuk milyen messzire kell a madárnak mennie, hogy elérje a malacot?"
+        text: "Mi van ha nem tudjuk milyen messzire kell a madárnak mennie, hogy eljusson a malachoz?"
       3:
         image: "notes/hoc3_3.jpg"
         text: 'Ha az "előrelépés" blokkot az "ismételd amíg" blokkba helyezzük, akkor a madár addig fog előre haladni AMÍG eléri a malacot (vagy a falnak ütközik).'
@@ -142,7 +142,7 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Szia, Brina vagyok , mérnök az Instagram-nál. Egy függvény az bizonyos sorok a kódból amit újra és újra használni szeretnél, így ahelyett, hogy a kódot ki minden alkalommal be kelljen írni, akkor csak használ egy blokk."
       2:
         image: "notes/stage13_2.jpg"
         text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
@@ -153,7 +153,7 @@
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -165,14 +165,14 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Szia én Trina vagyok, és a Pixar-nál dolgozom. Már egy csomó filmen dolgoztam, beleértve a Shrek."
       2:
         image: "notes/stage11_2.jpg"
         text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
@@ -185,7 +185,7 @@
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Szia Janete vagyok, egy mernok vagyok Zynganal."
       2:
         image: "notes/stage15_2.jpg"
         text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"

@@ -65,7 +65,7 @@
         text: "Tienes que ayudarla a quitar todos los montones de tierra y rellenar todos los huecos."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Los nuevos bloques eliminan una palada llena de suciedad de una pila y rellanan un hueco con una palada de suciedad."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Los montones y los huecos son de diferente tamaño así que tienes que decir al granjero cuantas palas debe usar."
@@ -151,7 +151,8 @@
         text: 'Los bloques que se encuentran dentro de la definición nos dicen qué hace. Así que esta definición de función se llama "rellena 5" y está formada por un bloque "repetir" y un bloque "rellenar".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'La definición se encuentra en el área de trabajo pero nuestra granjera no ejecutará la función hasta que arrastremos el bloque "función rellena 5" desde la categoría funciones.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: "¡Volvamos a hacer divertidas las funciones! "
@@ -161,10 +162,10 @@
         text: '¡Hola! soy Makinde. Vamos a aprender acerca del bloque "mientras". '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'El bloque "mientras" hará cualquier cosa que le pongas dentro siempre que la declaración superior sea cierta.'
+        text: 'El "bloque mientras que (While)" hará todo lo que pones en su interior mientras la declaración en la parte superior es TRUE (Cierta).'
       3:
         image: "notes/stage9_7.jpg"
-        text: "Por ejemplo, si la granjera está encima de una pila, continuará eliminando una palada mientras haya todavía una pila debajo de ella."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

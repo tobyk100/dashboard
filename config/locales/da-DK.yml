@@ -50,10 +50,10 @@
     no_signup_header: "Ønsker ikke at tilmelde dig?"
     no_signup_message: 'Du kan <a target="_blank" href="http://learn.code.org">gennemse de forskellige faser og gåder</a>, men du bliver nødt til at tilmelde dig for at gemme dine fremskridt.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Se lærerens guide"
     teacher_prize_header: 'Vind $1.000 i <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> belønninger'
-    teacher_prize_message: 'I partnerskab med <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, vil Code.org tilbyde op til $1.000 i klasseværelses finansiering til amerikanske lærere, der fører mindst 10 studerende gennem dette kursus.'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
     teacher_pitch: "Undervis Folkeskole Intro til Computer Videnskab i dit klasselokale"
     teacher_title: "Lærer tilmelding"
     student_pitch: "Ud over 1 time: Prøv vores Folkeskole Intro til Computer Videnskab"
@@ -108,6 +108,7 @@
       username_not_found: "Brugernavn %{username} blev ikke fundet"
       username_in_use: "%{username} bruges allerede, vær venlig og vælg et andet"
       no_teacher: "Vi kunne ikke finde nogen brugere der er logget ind med %{teacher_email_or_code}'. Vær venlig og spørg dem om at lave en bruger, og derefter prøv at tilføje dem."
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
         subject: "Tilmeld dig en klasse med %{teacher_name} på Code.org!"
@@ -122,34 +123,34 @@
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
     error_us_only: "Prisen er kun mulig for gyldige amerikanske brugere."
-    no_prizes_available: "Vi beklager, men vi har i øjeblikket ingen tilgængelige præmier endnu. Tjek venligst tilbage næste uge!"
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Please Confirm"
       "no": No
       "yes": Yes
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
       choose: "Choose a prize:"
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Du har opnået en pris! (Kun for amerikanske studerende)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: |
-        Lær alle Computer Videnskabs koncepterne, saml alle %{num_trophies} trofæerne og opnå ægte priser. Du kan vælge mellem et $10 Itunes gavekord, 10GB af free Dropbox hukommelse, $10 i Skype Credits og et gratis spil.
-        Bemærk: Gaven er kun for gyldige amerikanske studerende, og mens lager haves.
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
         earned: "10 eller flere studerende har indsamlet alle %{num_trophies} trofæer. Du har vundet en $750 lærer præmie! (gælder kun amerikanske lærere)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -227,7 +228,8 @@
     student_progress: "Dit lærings fremskridt"
     student_stats: 'Du har optjent %{trophy_count} ud af %{trophy_max} "Koncept beherskelses" trofæer.'
     student_left_off: "Hvor du stoppede sidst:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "lokal skole"
     online: "online"
     see_details: "Se detaljer"
@@ -252,6 +254,8 @@
   reference_area:
     title: "Brug for hjælp?"
     subtitle: "Se disse videoer og tips"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
     notes: "Ingen video? Vis noter."
@@ -264,3 +268,5 @@
   try_reloading: "Prøv at genindlæse siden"
   next_stage: "Færdig! Fortsæt til næste fase"
   download_pdf: "Åben lektionsplan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"

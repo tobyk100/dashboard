@@ -35,7 +35,7 @@
         Unplug1: "Introduction à l'informatique"
         Maze: "Le Labyrinthe"
         Unplug2: "Algorithmique"
-        Unplug3: "Graph Paper Programming"
+        Unplug3: "Programmation sur feuille millimétré"
         Artist: "L'Artiste"
         Unplug4: "Algorithmes"
         Artist2: "L'Artiste 2"
@@ -47,7 +47,7 @@
         Farmer2: "Le Fermier 2"
         Unplug8: "Abstraction"
         Artist4: "L'Artiste 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Programmation d'un relais"
         Farmer3: "Le Fermier 3"
         Unplug10: "Internet"
         Artist5: "L'Artiste 5"
@@ -78,7 +78,8 @@
         maze_2_4: "Gardez votre calme et aide moi à trouver le mauvais cochon. Sinon je pourrais me fâcher !"
         maze_2_5: "Il y a un moyen d'attraper ce stupide cochon en 2 blocs seulement. Peux tu le trouver ?"
         maze_2_6: "Essayez de me faire aller jusqu'à l'intrus vert à l'aide de seulement trois blocs."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_7: |-
+          Aidez moi à bannir ce méchant cochon en utilisant le moins de blocs possible. Essayez d'utiliser plusieurs blocs "répéter".
         maze_2_8: "Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3 blocs à l'intérieur : déplacer, déplacer, tourner."
         maze_2_9: "OK, essaye le nouveau bloc « répéter jusqu'à » - il répétera jusqu'à ce que j'atteigne l'ennuyeux cochon."
         maze_2_10: "OK, une dernière fois pour s'entraîner - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
@@ -114,7 +115,7 @@
         turtle_4_8: "Voici la solution de l'énigme précédente. Pouvez-vous ajouter seulement 2 blocs plus pour compléter le dessin ?"
         turtle_4_9: "Voici la solution de l'énigme précédente. De combien de degrés dois-tu tourner pour compléter le dessin ? (Tu devrais probablement faire plusieurs essais)"
         turtle_4_10: "Voici la solution de l'énigme précédente. Combien de fois dois-tu répéter pour compléter le dessin ?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
+        turtle_4_11: "Essayez de modifier les nombre dans les blocs « tour » et « répéter » pour réaliser différents dessins. Ou bien, essayez de changer le reste du code pour dessiner tout ce que vous voulez."
         maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
         maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."
         maze_karel_1_3: "déplace moi vers le tas de boue et me dire combien de pelletées supprimer à l'aide d'aussi peu de blocs que possible."
@@ -123,7 +124,8 @@
         maze_karel_1_6: "Retirez toutes les piles de boue, à l'aide d'aussi peu de blocs que possible. Les nouvelles options dans le menu déroulant sur le bloc « jusqu'à », dis moi si je suis debout sur une pile ou un trou."
         maze_karel_1_7: "Wow, j'ai trouvé un trou très profond ! Je ne sais pas combien de pelletées de boue, il a besoin. Pouvez-vous écrire un programme qui remplit jusqu'à ce que le trou soit remplis ?"
         maze_karel_1_8: "aide moi à remplir le trou à l'extrémité du champ, à l'aide du moins de blocs possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
+        maze_karel_1_9: |-
+          Faites moi supprimer tous ces tas de saleté. Essayez d'utiliser aussi peu de blocs que possible. Astuce: essayez d'utiliser un bloc "tant que".
         maze_karel_1_10: |-
           Je travaille tard, il fait noir dehors, et je ne peux pas dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long du champ et s'il y a un tas, retirez-le.
         maze_karel_1_11: "Il fait encore noir dehors. Déplace moi le long du champ. S'il y a un tas, l'enlever et s'il y a un trou, remplis-le. Conseil : utilisez le menu déroulant des options sur le bloc « if »."
@@ -158,26 +160,29 @@
         turtle_3_3: "Dessine des clôtures triangulaires autour des chats et une clôture carrée autour de la vache.  Conseil : testes le programme tout en avançant."
         turtle_3_4: 'Regardes si tu peux comprendre comment utiliser "dessiner un carré" et "dessiner un triangle" ( et quelques autres blocs) pour dessiner une maison autour du lion.'
         turtle_3_5: 'Maintenant, crée une nouvelle fonction " crée une maison" et utilises-la pour abriter deux chats. Astuce: Crée une nouvelle fonction en utilisant le bloc "faire quelque chose", et écris ton propre texte pour nommer le bloc.'
-        turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
-        turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
-        maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
-        maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
-        maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
-        maze_karel_debug_while: "How should you change this program to help me fill the hole?"
-        maze_karel_debug_if: "Help! Fix the program so my field will be completely flat."
-        maze_karel_debug_if_else: "De-bug this program so I can fill in the holes and remove all the piles."
-        maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
-        maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
-        maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_3_6: |-
+          En repartant de "dessiner un carré" comme exemple, ajoutez une entrée nommée "longueur" pour "dessiner un triangle". Ensuite, dessinez des triangles de différentes tailles. (Astuce: cliquez l'étoile pour ajouter une entrée à la fonction)
+        turtle_3_7: |-
+          Ajoutez une entrée nommée "longueur" pour "dessiner une maison" et construire une grande maison pour l'éléphant (avec des côtés de 150 pixels de longueur)
+        turtle_3_8: |-
+          Voici tous les blocs du puzzle précédent. Modifier "dessiner une maison" afin que j'arrive dans le coin inférieur droit après avoir dessiné ma nouvelle maison. Utilisez cette fonction modifiée pour dessiner trois maisons.
+        turtle_3_9: 'Pouvez-vous re-créer la fonction "dessiner une maison" sans mon aide? Essayez, et ensuite dessinez une rangée de maisons.'
+        turtle_3_10: "Vous avez appris beaucoup! Maintenant utilisez ça pour dessiner tout ce que vous voulez. Essayez de dessiner une étoile, ou une spirale, ou encore un flocon de neige fantaisiste."
+        maze_karel_debug_seq_1: "Bienvenue au débogage ! Mon code ne fonctionne pas bien. Pouvez-vous repérer le problème et le corriger pour que je puisse avoir mon champ plat et prêt pour la plantation ?"
+        maze_karel_debug_seq_2: "Quel est le problème avec ce programme ? Comment devriez-vous le réparer pour que je puisse retirer cette pile ?"
+        maze_karel_debug_repeat: "Débuggez ce programme pour moi afin que mon terrain soit beau et plat."
+        maze_karel_debug_while: "Comment est-ce que vous devriez modifier ce programme pour m'aider à combler le trou ?"
+        maze_karel_debug_if: "A l'aide! Réparez ce programme afin que mon terrain soit complètement plat."
+        maze_karel_debug_if_else: "Débugger ce programme afin que je remplisse les trous et supprime tous les tas."
+        maze_karel_debug_function_1: "Que devriez-vous changer à ce programme pour m'aider à supprimer tous les tas?"
+        maze_karel_debug_function_2: "Pouvez vous déboguer ce programme pour moi afin que je puisse niveler mon terrain?"
+        maze_karel_debug_function_3: "Modifier ce programme pour que je supprime tous les tas de mon terrain."
+        turtle_5_1: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
+        turtle_5_2: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
+        turtle_5_3: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
+        turtle_5_4: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
+        turtle_5_5: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
+        turtle_5_6: "Essayez d'exécuter ce programme et apporter des modifications pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ? (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)"
         maze_3_1: "Je dois arriver à ce cochon ! Tapez  une série d'appels à avance(); pour que je puisse retrouver mes oeufs."
         maze_3_2: "Ecrivez-moi un programme pour que je puisse aller jusqu'à ce cochon."
         maze_3_3: "Comment puis-je atteindre le cochon ? Assurez-vous que je ne trébuche pas sur la boîte d'explosifs !"

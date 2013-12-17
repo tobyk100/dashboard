@@ -65,7 +65,7 @@
         text: "بامكانك مساعدتها بأزلة جميع الاكداس من التراب و ملاْ جميع الثقوب."
       3:
         image: "notes/stage9_3.jpg"
-        text: "القطعة الجديدة ازالة مجرفة تراب واحدة من الكدس وتملأ مجرفة واحدة من التراب في الحفرة."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "الاكداس والثقوب مختلفة الاحجام, لذلك يجب ان تخبر المزارع كم عدد من الجرافات تحتاج."
@@ -153,7 +153,8 @@
         text: 'القطع التي تذهب داخل التعريف تخبرنا بعملها . لذلك هذه تعريف الدالة التي تسمى "املأ 5" والتي تصنع من قطعة "كرر" و قطعة "املأ".'
       4:
         image: "notes/stage13_4.jpg"
-        text: 'المزارع لايرغب بتنفيذ الدالة حتى نقوم بسحب قطعة "دالة املأ 5" من قسم الدول.'
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'دعنا نضع "المتعة" مرة اخرى في "الدالة!"'
@@ -163,10 +164,10 @@
         text: 'مرحبا، أنا ماكندي! دعنا نتعرف على قطعة "اكرر طالما." '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'قطعة "اكرر طالما" ستنفذ اي شي في داخلها ما دام العبارة في الاعلى صحيحة .'
+        text: 'قطعة "اكرر طالما" ستنفذ اي شي في داخلها ما دام العبارة في الاعلى صحيحة.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "على سبيل المثال، إذا كان المزارع يقف على التكدس ، سستمر الجرافة بالازالة في حين لايزال يوجد تكدس تحتها."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

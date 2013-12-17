@@ -65,7 +65,7 @@
         text: "여러분들은 농부 아가씨가 흙더미와 구덩이를 모두 없앨 수 있게 도와야 합니다."
       3:
         image: "notes/stage9_3.jpg"
-        text: "새롭게 사용할 수 있는 블럭은, 흙더미를 1번 치우거나 구덩이를 1번 메웁니다."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "흙더미의 크기, 구덩이의 깊이가 다르기 때문에 어떤 크기인지 알려주어야 합니다."
@@ -151,7 +151,8 @@
         text: '별이 그려져 있는 함수 정의 블럭 안에 넣어진 블럭들은, 그 함수가 실행될 때 실행해야 할 명령들을 의미합니다. 따라서, "메우기 5번" 이라는 함수는 "반복(횟수)" 블럭과 "메우기" 블럭으로 채워져(정의되어) 있는 것입니다.'
       4:
         image: "notes/stage13_4.jpg"
-        text: '하지만, 이렇게 만들어(정의해)두기만 해서는 실행하지 않습니다. 함수 분류에서 "메우기 5번" 이라는 함수 블럭을 끌어와서 사용해야만 실행이 됩니다.  '
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: '자 이제, 재미("fun")있게 함수("FUNction")를 사용해 보세요! '
@@ -161,10 +162,10 @@
         text: '안녕하세요? 마킨데입니다. 이번에는 "반복(~인 동안)" 블럭에 대해서 알아보겠습니다 '
       2:
         image: "notes/stage9_6.jpg"
-        text: '"반복(~인 동안)" 블럭은, 어떤 상황에서 계속 반복 해야하는 명령들을 넣을 수 있게 해 줍니다. 반복 해야할 상황은 블럭 위에 적혀있고, 그 상황이 참(TRUE)이면 계속 반복하게 됩니다.'
+        text: '"반복(~인 동안)" 블럭은 어떤 상황에서 계속 반복 해야하는 명령들을 넣을 수 있게 해 줍니다. 반복 해야 하는 조건이 블럭 위에 적혀있고, 그 상황이 참(TRUE)이면 계속 반복시켜줍니다.'
       3:
         image: "notes/stage9_7.jpg"
-        text: '예를 들어, 농부 아가씨가 흙더미 위에 있을 때, 흙더미가 더 남아있다면 계속해서 "치우기 1번"을 수행할 것입니다.'
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

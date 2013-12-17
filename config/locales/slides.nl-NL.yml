@@ -12,7 +12,7 @@
         text: 'De meeste code wordt ingetypt, maar Blockly is visueel. Ieder blok komt overeen met een "echte" regel code.'
       4:
         image: "notes/hoc1_4.jpg"
-        text: "Je zal de basis van informatica leren. Deze concepten worden overal gebruikt, van apps voor je mobiele telefoon tot het besturen van de Mars-lander."
+        text: "Je zal de basis van computerwetenschappen leren. Deze concepten worden overal gebruikt, van apps voor je mobiele telefoon tot het besturen van de Mars-lander."
       5:
         image: "notes/hoc1_5.jpg"
         text: "Een programma is een reeks instructies die de computer opvolgt."
@@ -43,32 +43,32 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Hallo, ik ben JR! Elk raceauto team heeft een computer wetenschapper nodig om te winnen. Ze analyseren data van de auto om hem sneller te laten maken."
       2:
         image: "notes/stage5_2.jpg"
-        text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
+        text: "In deze puzzels, ben jij de artiest dat een lijn moet laten trekken overal waar ze gaan."
       3:
         image: "notes/stage5_3.jpg"
-        text: 'This block says "move forward by 100 pixels." Pixels are just really tiny dots on your screen.'
+        text: 'Deze blok zegt "beweeg 100 pixels vooruit." Pixels zijn zeer kleine puntjes op je scherm.'
       4:
         image: "notes/stage5_4.jpg"
-        text: 'This block says "turn right by 90 degrees." This will turn your artist the same amount as the "turn" blocks in the maze puzzles.'
+        text: 'Deze blok zegt "draai rechts voor 90 graden." Dit zal je artiest evenveel draaien als de "draai blok in de doolhof puzzels.'
       5:
         image: "notes/stage5_5.jpg"
-        text: "Click on the arrow in either of these blocks to change the amount the artist moves forward or turns. Play around to get familiar with these new blocks."
+        text: "Klik op de pijl in deze blokken om de afstand die de kunstenaar naar voren gaat of draait. Speel hier een beetje mee om handig te worden met deze blokken."
     farmer_intro:
       1:
         image: "notes/stage9_1.jpg"
-        text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
+        text: "Hallo, ik ben Paola! In deze puzzels ben jij de boer die zijn veld volledig vlak wilt zodat je gewassen kan aanplanten."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Je zal haar moeten helpen alle hopen grond te verwijderen en alle gaten in te vullen."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
-        text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
+        text: "De hopen en gaten zijn verschillend van grootte, dus je moet de boer vertellen hoeveel scheppen hij moet gebruiken."
     loop_times:
       1:
         image: "notes/hoc2_1.jpg"
@@ -144,18 +144,17 @@
     function:
       1:
         image: "notes/stage13_1.jpg"
-        text: "Hi, I'm Brina, an engineer at Instagram. A function is certain lines of code that you want to use over and over again, so instead of writing that code out everytime, you can just use one block."
+        text: "Hoi, ik ben Brina, een engineer bij Instagram. Een functie is een aantal regels code dat je steeds weer wilt kunnen gebruiken, dus in plaats van die code iedere keer helemaal uit te schrijven, kun je gewoon een blok gebruiken."
       2:
         image: "notes/stage13_2.jpg"
-        text: "We're going to learn how to define functions. Function definitions have a star in the corner. The name of the function is written on the top line."
+        text: "We gaan leren hoe je functies maakt. Functies hebben een ster in het hoekje. De naam van de functie wordt op de bovenste regel geschreven."
       3:
         image: "notes/stage13_3.jpg"
-        text: |-
-          The blocks that go inside the definition tell us what it does. So this function definition is called "fill 5" and it's made up of a "repeat" block and a "fill" block.
+        text: "De blokken in de definitie vertellen ons wat de functie doet. Dus deze functiedefinitie hebben we 'vul 5' genoemd, en bestaat uit een 'herhalen' en een 'vul'-blok."
       4:
         image: "notes/stage13_4.jpg"
         text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5 function" block from functions category.
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: |-
@@ -167,49 +166,51 @@
           Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
+        text: 'Het "while" blok voert alles uit wat er in staat, ZOLANG het statement bovenaan WAAR is.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"
-        text: "Hi, I'm Trina, and I work for Pixar. I've worked on a bunch of movies, including Shrek."
+        text: "Hoi, ik ben Trina, en ik werk voor Pixar. Ik heb aan een heel stel films gewerkt, waaronder Shrek."
       2:
         image: "notes/stage11_2.jpg"
-        text: 'This is our new "counter" loop. It will perform actions over and over again and you can make the actions change slightly each time.'
+        text: "Dit is onze nieuwe 'teller'-lus. Het voert acties steeds weer uit, en je kunt de actie iedere keer ietsje anders maken."
       3:
         image: "notes/stage11_3.jpg"
-        text: 'In this example, our "counter" loop says "count with counter from 50 to 90 by 10" and inside it, we have our "draw a square" block. Drag the "counter" block from the "Variables" section into the "length" spot.'
+        text: |-
+          In dit voorbeeld zegt onze 'teller'-lus "tel van 50 tot 90 met 10 tegelijk", en in het blok hebben we ons "teken een vierkant"-blok. Sleep het 'teller'-blok van het 'Variabelen'-stuk naar 'lengte'.
       4:
         image: "notes/stage11_4.jpg"
-        text: "This means our artist is going to draw a square that has 50 pixel length sides, then it will add 10 to that and draw a square with 60 pixel length sides. Then it will keep adding 10 and drawing squares until it reaches 90. So we'll have squares of 50, 60, 70, 80, and 90."
+        text: "Dit betekent dat onze kunstenaar een vierkant gaat tekenen met zijden van 50 pixels, daarna telt het daar 10 bij op en tekent een vierkant met zijden van 60 pixels. Daarna blijft het 10 optellen en vierkanten tekenen tot het bij de 90 komt. Dus krijgen we vierkanten van 50, 60, 70, 80 en 90."
     parameters:
       1:
         image: "notes/stage15_1.jpg"
-        text: "Hi, I'm Janete, and I'm an engineer at Zynga."
+        text: "Hoi, ik ben Janete, en ik ben een engineer bij Zynga."
       2:
         image: "notes/stage15_2.jpg"
-        text: "What if we want to draw a bunch of triangles and have their lengths be different sizes?"
+        text: "En als we nu een stel driehoeken willen tekenen met zijden van verschillende lengten?"
       3:
         image: "notes/stage15_3.jpg"
-        text: "We could write all that code out by hand or we can use a function with parameters."
+        text: "Ze zouden al die code met de hand kunnen schrijven, of we kunnen een functie met parameters maken."
       4:
         image: "notes/stage15_4.jpg"
-        text: 'To do this, click the blue star on the "draw a triangle" function definition. Then drag "input name" into the "input" block.'
+        text: |-
+          Klik om dat te doen op de blauwe ster op de "teken een driehoek"-functie. Sleep daarna 'invoer naam' naar het 'invoer'-blok.
       5:
         image: "notes/stage15_5.jpg"
-        text: |-
-          Then if you write "length" in the spot where it says "x" and press "Enter" you'll create a length input for your function.
+        text: "Als we dan 'lengte' schrijven op de plek waar nu 'x' staat en op 'enter' drukken, maak je een 'lengte'-invoer voor je functie."
       6:
         image: "notes/stage15_6.jpg"
-        text: 'Then click on the star. Now, you want to click on the variables category and drag the "length" block into the "move forward" block of your function definition. And drag away the old number block.'
+        text: "Klik daarna op de ster. Nu wil je op de 'variabelen'-categorie klikken en het 'lengte'-blok in het 'vooruit'-blok van je functie slepen. En sleep het oude nummer-blok weg."
       7:
         image: "notes/stage15_7.jpg"
-        text: 'To use your function with parameters, click on the functions category and drag out your "draw a triangle with length" function.'
+        text: |-
+          Klik om je nieuwe functie met parameters te gebruiken op de 'functies'-categorie en sleep je "teken een driehoek met lengte'-functie eruit.
       8:
         image: "notes/stage15_8.jpg"
-        text: "Now you can use the math block to input different numbers to draw triangles of different sizes."
+        text: "Je kunt nu het reken-blok gebruiken om verschillende nummers in te voeren om driehoeken te tekenen met verschillende groottes."
     hoc_wrapup:
       1:
         image: "notes/hoc6_1.jpg"

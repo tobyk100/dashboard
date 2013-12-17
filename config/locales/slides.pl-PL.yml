@@ -2,7 +2,7 @@
   slides:
     maze_intro:
       1:
-        image: "notes/hoc1_1.jpg"
+        image: "uwagi/hoc1_1.jpg"
         text: "Witaj podczas swojej pierwszej Godziny Kodowania! Zanurkuj w swoją pierwszą przygodę z programowaniem."
       2:
         image: "notes/hoc1_2.jpg"
@@ -65,7 +65,7 @@
         text: "Musisz pomóc jej usunąć wszystkie sterty śmieci i wypełnić wszystkie otwory."
       3:
         image: "notes/stage9_3.jpg"
-        text: "Nowe bloki: usuń 1 szuflę śmieci ze sterty i wypełnij otwór 1 szuflą śmieci."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: "notes/stage9_4.jpg"
         text: "Sterty i otwory są różnych rozmiarów, musisz więc powiedzieć rolnikowi, ile szufli ma użyć."
@@ -151,7 +151,8 @@
         text: "Bloki, które znajdują się wewnątrz definicji określają, co robi funkcja. Na przykład, to jest definicja funkcji o nazwie wypełnij 5 i zawiera bloki powtórz i wypełnij."
       4:
         image: "notes/stage13_4.jpg"
-        text: "Definicja funkcji znajduje się na obszarze roboczym, ale nasz rolnik nie może jej uruchomić, aż nie wyciągnie bloku wypełnij 5 z kategorii Funkcje."
+        text: |-
+          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
       5:
         image: "notes/stage13_5.jpg"
         text: 'Umieśćmy zabawy (ang. fun) z powrotem w kategorii FUNkcje!" '
@@ -164,7 +165,7 @@
         text: "Blok dopóki będzie wykonywał to, co w nim umieścisz, TAK DŁUGO, JAK DŁUGO warunek znajdujący się na górze ma wartość PRAWDA (TRUE)."
       3:
         image: "notes/stage9_7.jpg"
-        text: "Na przykład, jeśli rolnik stoi na stercie, to tak długo będzie usuwał 1 szufelkę śmieci, DOPÓKI pod nim znajduje się sterta śmieci."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

@@ -71,11 +71,11 @@
         parameters: "Funciones con parámetros"
     level:
       instructions:
-        maze_2_2: '¿Ayúdame a atrapar el cerdo malo? Apila juntos un par de cuadros "avanzar" y presione "Correr Programa" que me ayude a llegar allí. '
+        maze_2_2: '¿Me ayudas a atrapar el cerdo malo? Apila juntos un par de bloques "avanzar" y presiona "Ejecutar Programa" para ayudarme a llegar allí. '
         maze_2_1: "Este cerdo me está poniendo furioso. ¡Ayudame a encontrarlo!"
-        maze_2_2_5: "Traza el camino y llévame al cerdo estúpido. Evita el TNT o las plumas volarán!"
-        maze_2_3: "Guiame al demonio verde! (Cuidado con el TNT)"
-        maze_2_4: "Manten la calma y ayúdame a encontrar el cerdo malo. O de lo contrario, ¡puedo enfadarme!"
+        maze_2_2_5: "Traza el camino y llévame al cerdo tonto. Evita el TNT o las plumas volarán!"
+        maze_2_3: "¡Guíame al demonio verde! (Cuidado con el TNT)"
+        maze_2_4: "Mantén la calma y ayúdame a encontrar el cerdo malo. O de lo contrario, ¡puedo enfadarme!"
         maze_2_5: "Hay una forma de llegar al tonto cerdo utilizando sólo 2 bloques. ¿Puedes encontrarla?"
         maze_2_6: "Intenta llevarme al intruso verde utilizando sólo tres bloques."
         maze_2_7: 'Ayúdame a desterrar este cerdito malo usando el menor número de bloques posible. Prueba usando más de un bloque "repetir veces".'

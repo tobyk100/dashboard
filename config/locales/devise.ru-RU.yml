@@ -18,7 +18,7 @@
       confirmation_instructions:
         subject: "Письмо-подтверждение"
       reset_password_instructions:
-        subject: "Инструкция для изменения пароля"
+        subject: "Инструкция для сброса пароля"
       unlock_instructions:
         subject: "Инструкция по разблокированию"
     omniauth_callbacks:

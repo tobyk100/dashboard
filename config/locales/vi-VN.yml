@@ -32,7 +32,7 @@
   demos: "Admin: All Demos"
   continue: "Tiếp tục"
   prize: "giải thưởng"
-  more_info: "More info"
+  more_info: "Thông tin thêm"
   auth:
     sign_in_with: "Đăng nhập bằng %{provider}"
     signed_in: "Đăng nhập!"
@@ -44,20 +44,20 @@
     windowslive: "Windows Live"
     forgot_password: "Quên mật khẩu?"
     need_confirmation: "Không nhận được hướng dẫn xác nhận?"
-    need_unlock: "Didn't receive unlock instructions?"
+    need_unlock: "Chưa nhận hướng dẫn mở khóa?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
-    no_signup_header: "Don't want to sign up?"
-    no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
+    overview: "Khóa học 20-giờ sẽ giới thiệu mục đích ngành khoa học máy tính và các khái niệm lập trình. Khóa học được soạn cho các lớp K-8, tuy nhiên nó khá thú vị để tìm hiểu ở tất cả các lứa tuổi."
+    no_signup_header: "Không muốn đăng ký ?"
+    no_signup_message: 'Bạn có thể dùng mã <a target="_blank" href="http://learn.code.org"> để duyệt các màn và các câu đố khác nhau</a>,nhưng bạn cần đăng ký để lưu lại tiến trình của bạn.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
-    teacher_educator_guide: "See educator guide"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
-    teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Teacher sign up"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
-    student_title: "Sign up"
+    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    teacher_educator_guide: "Hãy xem chỉ dẫn"
+    teacher_prize_header: 'Nhận $1000 tại <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_pitch: 'Dạy "Giới thiệu về Khoa học Máy tính" trong lớp học của bạn (K-8 : từ Lớp Mẫu giáo tới lớp 8)'
+    teacher_title: "Giáo viên đăng ký"
+    student_pitch: 'Vượt ra ngoài 1 giờ: hãy thử "Giới thiệu về Khoa học Máy tính cho K-8" của chúng tôi'
+    student_title: "Đăng ký"
     school_name: "Tên trường (tùy chọn)"
     school_address: "Địa chỉ trường (tùy chọn)"
     address_placeholder: "địa chỉ, thành phố, tỉnh, mã bưu điện"
@@ -66,54 +66,51 @@
     submit: "Đăng ký"
     teacher: "Bạn có phải là giáo viên?"
     valid_username: "Available!"
-    invalid_username: "Username must be at least 5 characters"
-    taken_username: "Username is already taken"
-    valid_password: "Valid password!"
-    invalid_password: "Password must be at least 6 characters"
-    mismatch_password: "The two passwords you entered do not match"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    invalid_username: "Tên người dùng phải nhiều hơn 5 ký tự"
+    taken_username: "Tên người dùng đã được sử dụng"
+    valid_password: "Mật khẩu hợp lệ!"
+    invalid_password: "Mật khẩu phải có từ 6 ký tự trở lên"
+    mismatch_password: "Hai mật khẩu phải giống nhau"
+    student_terms: "Tôi đồng ý với các điều khoản của dịch vụ Code.org. Nếu tôi dưới 13 tuổi, tôi xác nhận bằng cách gửi biểu mẫu này về việc tôi có bố mẹ hoặc người giám hộ hợp pháp để sử dụng các dịch vụ của Code.org."
+    teacher_terms: "Tôi đồng ý với các điều khoản của dịch vụ Code.org."
   signin_form:
     title: "Đăng nhập"
     login: "Email hoặc tên người dùng"
     password: "Mật khẩu"
-    remember: "Remember me"
-    submit: "Sign in"
+    remember: "Nhớ mật khẩu"
+    submit: "Đăng nhập"
   password:
     reset_form:
-      title: "Forgot your password?"
-      email: "Email address"
-      submit: "Send me reset password instructions"
+      title: "Quên mật khẩu?"
+      email: "Địa chỉ Email"
+      submit: "Hướng dẫn đặt lại mật khẩu"
     change_form:
-      title: "Change your password"
-      new_password: "New password"
-      confirm_password: "Confirm new password"
-      submit: "Change my password"
+      title: "Thay đổi mật khẩu"
+      new_password: "Mật khẩu mới"
+      confirm_password: "Xác nhận mật khẩu mới"
+      submit: "Thay đổi mật khẩu"
   welcome_email:
-    subject: "Join my class (on Code.org)"
+    subject: "Tham gia lớp học của tôi ( trên Code.org)"
     body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
+      Nhấp vào liên kết dưới đây để đăng nhập cho các hướng dẫn về khoa học máy tíng trên Code.org (với tôi như là giáo viên của bạn""): % {liên kết} Các hướng dẫn vui vẻ, trực quan hấp dẫn, và dạy các khái niệm cơ bản của khoa học máy tính bằng cách sử dụng từng kinh nghiệm đơn giản giống như hứơng dẫn chơi trò chơi. Tìm hiểu để mã lập trình từ Bill Gates, Mark Zuckerberg, Angry Birds, và nhà máy vs. zombie! :-) % (tên)
       
-      %{link}
       
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
-      
-      %{name}
   follower:
     invite_sent: "Invite sent"
-    added_teacher: "%{name} added as your teacher"
+    added_teacher: "% (tên) được thêm như giáo viên của bạn"
     registered: "You've registered for %{section_name}."
     error:
       signed_in: "Please signout before proceeding"
-      username_not_found: "Username %{username} not found"
-      username_in_use: "%{username} is already taken, please pick another"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      username_not_found: "Tên người sử dụng % {username} không tìm thấy"
+      username_in_use: "% {tên người sử dụng} đã được chọn, xin vui lòng chọn một tên khác"
+      no_teacher: "Không thể tìm thấy bất cứ ai đã đăng nhập bằng '% {teacher_email_or_code}'. Xin vui lòng yêu cầu họ đăng nhập ở đây và sau đó thử thêm chúng một lần nữa"
+      blank_code: "Please enter a code or your teacher's email address"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Tham gia một lớp học với % {giáo viên_tên} tại Code.org!"
   reports:
     error:
-      access_denied: "You don't have access to this person's stats"
+      access_denied: "Bạn không có quyền truy cập vào tình trạng pháp nhân của người này"
   redeem_prizes:
     title: "Redeem Prizes: %{name}"
     provider: "Provider:"
@@ -121,33 +118,35 @@
     redeem_header: "To redeem:"
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
-    error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
+    error_us_only: "Giải thưởng chỉ được trao cho người sử dụng ở Mỹ."
+    error_not_earned: "You have not yet earned this prize."
+    error_already_redeemed: "Your prize has already been redeemed."
+    no_prizes_available: "We're sorry, but we currently have no prizes available."
     confirm:
       title: "Please Confirm"
       "no": No
       "yes": Yes
       msg: "Are you sure you want to claim the %{prize_name} prize?"
       msg_student: "NOTE: You can only choose one type of prize."
+      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Storage"
+      dropbox: "10GB of Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
       ea_simcity: "SimCity 4 Deluxe Edition (PC game download)"
       ea_pvz: "Plants vs. Zombies (PC game download)"
       skype: "$10 Skype credit"
-    student_finished: "You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}"
     msg:
       choose: "Choose a prize:"
       choose_teacher: "Click on the logo below to claim your prize:"
-      earned: "You have earned a prize! (U.S. students only)"
+      earned: "Bạn đã đạt được một giải thưởng! (Chỉ dành cho các Sinh viên ở Hoa Kỳ)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
         earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -158,13 +157,13 @@
           not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "New %{model}"
-    show: "Show"
-    edit: "Edit"
+    show: "HIẻn thị"
+    edit: "Chỉnh sửa"
     edit_model: "Edit %{model}"
-    update: "Update"
-    destroy: "Destroy"
-    back: "Back"
-    confirm: "Are you sure?"
+    update: "Cập nhật"
+    destroy: "Xóa"
+    back: "Quay lại"
+    confirm: "Bạn chắc chứ?"
     created: "%{model} was successfully created."
     updated: "%{model} was successfully updated."
   nav:
@@ -174,19 +173,19 @@
     user:
       classroom: "My students"
       label: "Hi %{username}"
-      stats: "My progress"
-      settings: "My account"
+      stats: "TIến trình của bạn"
+      settings: "Tài khoản của bạn"
       prizes: "Prizes"
-      logout: "Sign out"
-      signin: "Sign in"
+      logout: "Đăng xuất"
+      signin: "Đăng nhập"
       signup: "Đăng ký"
     popup:
-      progress: "Your progress"
-      lines: "Total lines of code: %{lines}"
-      close: "CLOSE"
+      progress: "Qua trình của bạn"
+      lines: "Tổng số dòng mã: %{lines}"
+      close: "Đóng lại"
       mastery: "Concepts"
-      puzzle_map: "Stages"
-      prizes: "Collect all %{total_trophies} trophies and win prizes!"
+      puzzle_map: "Các bước"
+      prizes: "Thu thập tất cả  %{total_trophies} cúp và giành giải thưởng!"
       prize_earned: "All %{total_trophies} trophies collected. Prize won!"
       prize_us_only: "(U.S. students only)"
       prizes_link: "Thông tin thêm"
@@ -226,14 +225,15 @@
     student_stats: |-
       You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: "Where you left off:"
-    student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
+    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
     local_school: "trường học ở địa phương"
     online: "trực tuyến"
-    see_details: "See details"
+    see_details: "Xem chi tiết"
   gender:
     male: "Nam"
     female: "Nữ"
-    none: "Prefer not to answer"
+    none: "Tùy chọn không muốn trả lời"
   footer:
     help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
     art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
@@ -251,15 +251,19 @@
   reference_area:
     title: "Cần trợ giúp?"
     subtitle: "Xem các video và gợi ý"
+    teacher: "See the solution"
+    auth_error: "You are not authorized to see the solution."
   video:
-    tab: "Video."
+    tab: "Video"
     notes: "No video? Show notes."
-    autoplay_option: "Autoplay videos"
-    download: "Download Video"
+    autoplay_option: "Tự phát video"
+    download: "Tải video xuống"
   compatability:
     working: "We are working on support for your browser."
-    upgrade: "Please upgrade your browser."
+    upgrade: "Hãy nâng cấp trình duyệt của bạn."
   slow_loading: "This is taking longer than usual..."
-  try_reloading: "Try reloading the page"
-  next_stage: "Finished! Continue to next stage"
+  try_reloading: "Hãy thử tải lại trang"
+  next_stage: "Hoàn thành! Tiếp tục màn tiếp theo"
   download_pdf: "Open Lesson Plan"
+  share_code:
+    title: "Click 'Run program' to see my program in action"
