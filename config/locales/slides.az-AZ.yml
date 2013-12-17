@@ -65,7 +65,7 @@
         text: "Siz ona bütün torpaq qalaqlarını təmizləyib çuxurlara doldurmaqda kömək etməlisiniz."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
+        text: "Yeni bloklar təpəcikdən bir kürək torpağı götürür və boşluğu bir kürək torpaq ilə doldurur."
       4:
         image: "notes/stage9_4.jpg"
         text: "Çuxurlarin və təpəciklərin ölçüləri müxtəlifdir. Ona görə də siz fermerə neçə kürək istifadə etməli olduğunu deməlisiniz."
@@ -151,8 +151,7 @@
         text: 'Təyinatın içərisindəki bloklar bizə onun nə etdiyini deyir. Bu funksiya təyinatı "doldur 5" adlanır və "təkrarla" və "doldur" bloklarından ibarətdir.'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
+        text: 'Təyinat iş sahəsində yerləşir, amma bizin fermer biz "doldur 5 funksiyası" blokunu funksiyalar kateqoriyasından çıxarmayınca funksiyanı işə salmayacaq.'
       5:
         image: "notes/stage13_5.jpg"
         text: 'Gəlin "FUNksiya"dakı "fun"-ı (ingiliscə: "əyləncə") yerinə qoyaq '
@@ -165,7 +164,7 @@
         text: '"Nə qədər ki" bloku başlığında yazılan ifadə "doğru" OLDUĞU MÜDDƏTCƏ içərisinə yerləşdirdiklərinizi təkrarlayacaq.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
+        text: "Məsələn, əgər fermer təpəciyin üzərində dayanırsa, o, altında təpəcik olduğu müddətcə bir kürək torpağı altından yığışdırır."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

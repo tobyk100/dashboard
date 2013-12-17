@@ -2,9 +2,7 @@
   activerecord:
     attributes:
       user:
-        name: |
-          	
-          نام
+        name: "نام"
         email: "Email"
         username: "Username"
         password: "Password"

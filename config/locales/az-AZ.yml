@@ -254,7 +254,7 @@
   reference_area:
     title: "Kömək lazımdır?"
     subtitle: "Bu videolara və məsləhətlərə baxın"
-    teacher: "See the solution"
+    teacher: "Həlli gör"
     auth_error: "You are not authorized to see the solution."
   video:
     tab: "Video."
@@ -269,4 +269,4 @@
   next_stage: "Qurtardı! Növbəti mərhələyə keçin"
   download_pdf: "Dərs planını aç"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Mənim proqramımı fəaliyyətdə görmək üçün 'Proqramı icra et' - ə klikləyiniz"
