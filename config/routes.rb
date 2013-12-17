@@ -67,10 +67,6 @@ Dashboard::Application.routes.draw do
 
   get '/notes/:key', to: 'notes#index'
 
-  # special redirect links
-  get '/billg', to: redirect('/s/1/level/13')
-  get '/zuck', to: redirect('/s/1/level/5')
-
   get '/api/user_menu', to: 'api#user_menu', as: 'user_menu'
   get '/api/user_hero', to: 'api#user_hero', as: 'user_hero'
 
