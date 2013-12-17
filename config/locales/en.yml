@@ -154,6 +154,7 @@ en:
       'yes': 'Yes'
       msg: 'Are you sure you want to claim the %{prize_name} prize?'
       msg_student: 'NOTE: You can only choose one type of prize.'
+      msg_publicschool: 'Please confirm that you are a U.S. public school teacher.'
       msg_visit_website: 'Visit website'
     providers:
       apple_itunes: '$10 iTunes Gift Card'
