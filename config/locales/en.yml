@@ -167,7 +167,6 @@ en:
       ea_simcity: 'SimCity 4 Deluxe Edition (PC game download)'
       ea_pvz: 'Plants vs. Zombies (PC game download)'
       skype: '$10 Skype credit'
-    student_finished: You've completed all tutorials. After you claim your prize, pick another class %{online_link} or at a %{local_school_link}
     msg:
       choose: 'Choose a prize:'
       choose_teacher: 'Click on the logo below to claim your prize:'
@@ -251,7 +250,8 @@ en:
     student_progress: Your learning progress
     student_stats: You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
     student_left_off: 'Where you left off:'
-    student_finished: You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}
+    student_finished_prize: You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}
+    student_finished: You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}
     local_school: local school
     online: online
     see_details: See details

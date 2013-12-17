@@ -99,6 +99,12 @@ module ApplicationHelper
     #raw "&#x2714;"
     image_tag('white-checkmark.png')
   end
+  
+  def eligible_for_prize?
+    # check IP for US users only (ideally, we'd check if the teacher is in the US for teacher prizes)
+    # If the geolocation fails, assume non-US.
+    request.location.try(:country_code) == 'US'
+  end
 
   def level_info(user, script_level)
     passed = level_passed({user: user, user_level: script_level.user_level, level_id: script_level.level_id})

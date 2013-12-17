@@ -58,7 +58,7 @@
     = render partial: 'shared/choose_prize', locals: { prize_collection: Prize, prize_type: 'student' }
   %div{style:"clear:left;"}
     %br/
-    = render partial: 'shared/student_finished'
+    = render partial: 'shared/student_finished', locals: { include_prize_link: false }
 - else
   %h4= t('redeem_prizes.msg.not_earned_title')
   = t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)

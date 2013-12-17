@@ -11,8 +11,9 @@
         %br/
         = link_to t('nav.user.settings'), edit_user_registration_url
         %br/
-        = link_to t('nav.user.prizes'), my_prizes_path
-        %br/
+        - if current_user.show_prize_ui?
+          = link_to t('nav.user.prizes'), my_prizes_path
+          %br/
         = link_to t('nav.user.logout'), destroy_user_session_url
 - elsif params[:controller] !~ /^devise/ and not Rails.configuration.minimal_mode
 
