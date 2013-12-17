@@ -29,6 +29,12 @@ class ActivitiesController < ApplicationController
 
     log_milestone(level_source, params)
 
+    # Store the image only if the image is set, and the image has not been saved
+    if params[:image] && level_source.image.nil?
+      level_source.image = params[:image]
+      level_source.save!
+    end
+
     if current_user
       authorize! :create, Activity
       authorize! :create, UserLevel
