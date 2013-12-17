@@ -70,7 +70,7 @@ en:
         text: "You have to help her remove all the piles of dirt and fill in all the holes."
       3:
         image: 'notes/stage9_3.jpg'
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
+        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
       4:
         image: 'notes/stage9_4.jpg'
         text: "The piles and holes are different sizes, so you have to tell the farmer how many shovelfuls to use."
@@ -169,7 +169,7 @@ en:
         text: "The \"while block\" will do whatever you put inside it AS LONG AS the statement on the top is TRUE."
       3:
         image: 'notes/stage9_7.jpg'
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shoveful WHILE there is still a pile beneath her."
+        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
     loop_for:
       1:
         image: 'notes/stage11_1.jpg'
