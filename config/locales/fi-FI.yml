@@ -50,10 +50,10 @@
     no_signup_header: "Etkö halua rekisteröityä?"
     no_signup_message: 'Voit <a target="_blank" href="http://learn.code.org">selata eri tasoja ja pulmia</a>, mutta sinun pitää rekistöröityä, jotta voit tallentaa edistymisesi.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "Yhdysvaltalaiset opiskelijat jotka ansaitsevat kaikki %{num_trophies} pokaalia voivat valita erilaisia palkintoja, kuten ilmaista Dropbox-tilaa, Skype-saldoa ja ladattavia Electronic Artsin ja Valven pelejä."
     teacher_educator_guide: "Katso opettajan opas"
     teacher_prize_header: "(sivustolla mainitut raha- ja tavarapalkinnot ovat voimassa vain USA:ssa)"
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: 'Yhteistyössä <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>:in kanssa Code.org tarjoaa jopa tuhat dollaria luokkarahoitusta yhdysvaltalaisten valtion koulujen opettajille, jotka opastavat vähintään 15 opiskelijaa läpi tästä kurssista. <a href="http://code.org/educate/20hr">Katso lisätiedot opettajan oppaasta.</a> '
     teacher_pitch: "Opeta ala-asteen tietojenkäsittelyn johdantoa luokallesi"
     teacher_title: "Opettajien rekisteröityminen"
     student_pitch: "Ensimmäisen tunnin jälkeen: kokeile ala-asteen tietojenkäsittelyn johdantoa"
@@ -108,7 +108,7 @@
       username_not_found: "Käyttäjätunnusta %{username} ei löydy"
       username_in_use: "Käyttäjätunnus %{username} on jo käytössä, valitse jokin toinen"
       no_teacher: "Käyttäjää '%{teacher_email_or_code}' ei löytynyt. Pyydä häntä ensin luomaan tunnus ja kokeile sitten uudestaan"
-      blank_code: "Please enter a code or your teacher's email address"
+      blank_code: "Ole hyvä ja syötä koodi tai opettajasi sähköpostiosoite"
     mail:
       invite_student:
         subject: "Liity opettajan %{teacher_name} luokkaan Code.org:ssa!"
@@ -123,22 +123,22 @@
     success: "Palkinnon lunastaminen onnistui, katso koodi alta."
     error: "Palkinnon lunastaminen epäonnistui, yritä uudelleen."
     error_us_only: "Palkintotarjous on voimassa vain USA:ssa."
-    error_not_earned: "You have not yet earned this prize."
-    error_already_redeemed: "Your prize has already been redeemed."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_not_earned: "Et ole vielä ansainnut tätä palkintoa."
+    error_already_redeemed: "Palkintosi on jo lunastettu."
+    no_prizes_available: "Pahoittelemme, mutta tällä hetkellä ei ole palkintoja saatavilla."
     confirm:
       title: "Vahvista"
       "no": Ei
       "yes": Kyllä
       msg: "Haluatko varmasti lunastaa palkinnon %{prize_name}?"
       msg_student: "HUOM: voit valita vain yhden palkinnon."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Ole hyvä ja vahvista, että olet yhdysvaltalaisen valtionkoulun opettaja."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "10 Gt Dropbox-tilaa"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
@@ -150,7 +150,7 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Hieno suoritus! (raha- ja tavarapalkinnot voimassa vain USA:ssa)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Opi kaikki tietotekniikan käsitteet, kerää kaikki %{num_trophies} pokaalia ja ansaitse oikeita palkintoja. Voit valita 10 Gt ilmaista Dropbox-tilaa, 10 dollaria Skype-saldoa tai ilmaisia ladattavia pelejä. Huomio: tarjous on voimassa vain yhdysvaltalaisille oppilaille ja vain niin kauan kuin palkintoja riittää."
       teacher:
         earned: |
           Erittäin hieno suoritus! 10 tai useampi oppilaasi on kerännyt kaikki %{num_trophies} pokaalia. 
@@ -240,8 +240,8 @@
     student_progress: "Edistymisesi"
     student_stats: 'Olet ansainnut %{trophy_count}/%{trophy_max} "käsitteiden hallinta" pokaalia.'
     student_left_off: "Jäit tähän:"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "Olet suorittanut johdannon. Vastaanota %{prize_link} ja valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
+    student_finished: "Olet suorittanut johdannon. Valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
     local_school: "koulu"
     online: "online"
     see_details: "Lisätietoja"
@@ -266,8 +266,8 @@
   reference_area:
     title: "Tarvitsetko apua?"
     subtitle: "Katso nämä videot ja vihjeet"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "Katso ratkaisu"
+    auth_error: "Sinulla ei ole oikeutta katsoa ratkaisua."
   video:
     tab: "Video."
     notes: "Ei videota? Näytä muistiinpanot."
@@ -281,4 +281,4 @@
   next_stage: "Valmis! Siirry seuraavalle tasolle"
   download_pdf: "Avaa oppituntisuunnitelma"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Näpäytä 'Suorita ohjelma' nähdäksesi ohjelman toiminnassa"
