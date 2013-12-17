@@ -1,0 +1,101 @@
+%h1 Admin stats
+
+%h3 Users with accounts
+
+%b Total users
+#{@user_count}
+%br/
+%b Students
+#{@student_count}
+%br/
+%b Teachers
+#{@teacher_count}
+%br/
+%b Users linked to a teacher
+#{@users_with_teachers} (#{@users_with_teachers * 100 / @user_count}%)
+%br/
+%b Users with an email address
+#{@users_with_email} (#{@users_with_email * 100 / @user_count}%)
+%br/
+%br/
+
+- levels_attempted = User.joins(:user_levels).group(:level_id).where('best_result > 0').count
+- levels_passed = User.joins(:user_levels).group(:level_id).where('best_result >= 20').count
+
+- stage_map = @all_script_levels.group_by { |sl| sl.level.game }
+%table
+  %tr
+    %td{ style: "padding: 0px; vertical-align: top;" }
+      %table{ style: "width:150px; table-layout:fixed;"}
+        %tr.report_row
+          %th{ style: "white-space: nowrap; overflow: hidden; text-overflow:ellipsis;padding-left: 5px;"}= "Signed In Users"
+        %tr.report_row{ class: "report_tall_row"}
+          %td.fixed_width_cell
+            Levels attempted
+        %tr.report_row{ class: "report_tall_row"}
+          %td.fixed_width_cell
+            Levels passed
+        %tr.report_row
+    %td{ style: "padding: 0px;" }
+      %div{ style:"overflow-x:scroll; width: 800px; margin:0px; padding: 0px;" }
+        %table{ style:"width:#{@all_script_levels.length * 35}px;table-layout:fixed;"}
+          %col{ width: '35px'}
+          %tr.report_row
+            - stage_map.each_pair do |game, levels|
+              %th{ colspan: levels.length, style: "overflow: hidden;" }= game.name
+          %tr.report_row{ class: "report_tall_row"}
+            - @all_script_levels.each do |sl|
+              - attempt_pct = levels_attempted[sl.level_id] * 100 / @user_count
+
+              %td{ class: "report_cell", style: "background-color: hsl(#{attempt_pct}, 100%, 40%);" }
+                #{attempt_pct}%
+          %tr.report_row{ class: "report_tall_row"}
+            - @all_script_levels.each do |sl|
+              - passed_pct = levels_passed[sl.level_id] * 100 / @user_count
+
+              %td{ class: "report_cell", style: "background-color: hsl(#{passed_pct}, 100%, 40%);" }
+                #{passed_pct}%
+          %tr.report_row
+
+
+
+%h3 Prizes
+
+%b Total student prizes earned
+#{@student_prizes_earned}
+%br/
+%b Total student prizes redeemed
+#{@student_prizes_redeemed}
+%br/
+- @prizes_redeemed.each do |key, value|
+  #{key.name} #{value}
+  %br/
+%b Student prizes available to be redeemed
+#{@student_prizes_available}
+%br/
+- @prizes_available.each do |key, value|
+  #{key.name} #{value}
+  %br/
+%br/
+
+%b Total teacher prizes earned
+#{@teacher_prizes_earned}
+%br/
+%b Total teacher prizes redeemed
+#{TeacherPrize.where('user_id IS NOT NULL').count}
+%br/
+%b Teacher prizes available to be redeemed
+#{TeacherPrize.where('user_id IS NULL').count}
+%br/
+%br/
+
+%b Total bonus teacher prizes earned
+#{@teacher_bonus_prizes_earned}
+%br/
+%b Total teacher bonus prizes redeemed
+#{TeacherBonusPrize.where('user_id IS NOT NULL').count}
+%br/
+%b Teacher bonus prizes available to be redeemed
+#{TeacherBonusPrize.where('user_id IS NULL').count}
+%br/
+%br/
