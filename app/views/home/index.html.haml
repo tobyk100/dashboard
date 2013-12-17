@@ -18,16 +18,8 @@
       = t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
       %br/
 
-      %div{ style: 'padding-top: 10px; padding-bottom: 30px;'}
-        - script_level = current_user.next_untried_level(Script.twenty_hour_script)
-        - if script_level
-          #{t('home.student_left_off')} #{data_t_suffix('script.name', Script.twenty_hour_script.name, script_level.level.game.name)} #{t('puzzle')} #{script_level.game_chapter}
-          = form_tag(build_script_level_path(script_level), method: 'get', style: "display:inline;") do
-            = submit_tag t('continue'), name: nil, class: 'btn btn-primary'
-        - else
-          = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_path), online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
-        %br/
-        %br/
+      %div{ style: 'padding-top: 10px; padding-bottom: 10px;'}
+        = render partial: 'shared/student_continue', locals: { include_finished: true }
         - if !current_user.teacher? && current_user.teachers.length == 0
           = link_to t('add_teacher_form.submit'), "#" + :teacher_email_or_code.to_s
 - else

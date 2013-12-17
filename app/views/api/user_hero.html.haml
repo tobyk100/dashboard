@@ -10,17 +10,8 @@
     = link_to t('home.see_details'), root_url
     %br/
 
-    #last 
-      - script_level = current_user.next_untried_level(Script.twenty_hour_script)
-      - if script_level
-        #left_off #{t('home.student_left_off')} 
-        #{data_t_suffix('script.name', Script.twenty_hour_script.name, script_level.level.game.name)} #{t('puzzle')} #{script_level.game_chapter}
-        &nbsp;
-        = form_tag(build_script_level_url(script_level), method: 'get', style: "display:inline;") do
-          = submit_tag t('continue'), name: nil, class: 'btn btn-primary button-continue', id: 'continue_button'
-      - else
-        = raw t('home.student_finished', prize_link: link_to(t('prize'), my_prizes_url), online_link: link_to(t('home.online'), 'http://code.org/learn/beyond'), local_school_link: link_to(t('home.local_school'), 'http://code.org/learn/local'))
-
+    = render partial: 'shared/student_continue', locals: { include_finished: true }
+    
   - if teacher
     #clearboth{ style: 'clear:both;' }
     #classroom #{t('home.classroom')}:
