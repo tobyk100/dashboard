@@ -92,9 +92,9 @@
   welcome_email:
     subject: "加入我所在的班级"
     body: |
-      请单击下面的链接来报名参加计算机科学教程（我将成为你的"老师"）： 
-      %{链接} 
-      本教程轻松有趣吸引眼球，它将教导您如何使用一个简单的、 指导性的、 类似游戏经验的计算机科学的基本概念。快来学习从比尔 · 盖茨、 马克 · 扎克伯格到愤怒的小鸟、 植物大战僵尸的代码吧 ！:-) 
+      请单击下面的链接来报名参加计算机科学教程（我将成为你的"老师"）：
+      %{链接}
+      本教程轻松有趣吸引眼球，它将教导您如何使用一个简单的、 指导性的、 类似游戏经验的计算机科学的基本概念。快来学习从比尔 · 盖茨、 马克 · 扎克伯格到愤怒的小鸟、 植物大战僵尸的代码吧 ！:-)
       %{name}
   follower:
     invite_sent: "发送邀请"
@@ -119,7 +119,7 @@
     success: "你的奖金已经成功兑现，请参见下面的代码。"
     error: "你的奖品无法兑现，请重新尝试。"
     error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "请确认"
       "no": 否
@@ -146,12 +146,12 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "新%{model}"
@@ -251,7 +251,7 @@
     tab: "视频。"
     notes: "没有视频吗？请看笔记。"
     autoplay_option: "自动播放视频"
-    download: "Download Video"
+    download: "下载视频"
   compatability:
     working: "我们在努力加入对你的浏览器的支持。"
     upgrade: "请升级你的浏览器。"

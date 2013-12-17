@@ -59,6 +59,7 @@ Dashboard::Application.configure do
 
   # Use geocoder server that is "internal" to AWS to improve performance.
   config.geocoder_server = "ip-10-164-38-97.ec2.internal"
+  config.geocoder_timeout = 0.5
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
@@ -70,12 +71,11 @@ Dashboard::Application.configure do
   config.action_mailer.default_url_options = { :host => 'learn.code.org' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      address:              'smtp.gmail.com',
+      address:              ENV['SMTP_HOST'],
       port:                 587,
-      domain:               'code.org',
-      user_name:            'noreply@code.org',
-      password:             'lowsecurity',
-      authentication:       'plain',
+      user_name:            ENV['SMTP_USERNAME'],
+      password:             ENV['SMTP_PASSWORD'],
+      authentication:       :login,
       enable_starttls_auto: true  }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
@@ -90,4 +90,7 @@ Dashboard::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Whether or not to display pretty blockly.
+  config.pretty_blockly = false
 end

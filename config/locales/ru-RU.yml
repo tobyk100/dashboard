@@ -4,7 +4,7 @@
       user:
         name: "Имя"
         email: "Электронная почта"
-        username: "Логин"
+        username: "Имя пользователя"
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
         current_password: "Текущий пароль"
@@ -27,102 +27,95 @@
   more: "ЕЩЁ"
   less: "МЕНЬШЕ"
   try_hoc: "Для старта в Hour of Code, нажми здесь >> "
-  try_k8intro: 'Или, попробуйте наш курс "Введение в Компьютерные технологии" (15-25 часов)'
-  already_started: "Готовы начинать? Возобновить здесь >> "
+  try_k8intro: 'Или попробуйте наш курс "Введение в Информатику" (15-25 часов)'
+  already_started: "Уже начали? Продолжайте здесь >> "
   demos: "Admin: Все демо"
   continue: "Продолжить"
   prize: "награда"
-  more_info: "Более подробная информация"
+  more_info: "Дополнительная информация"
   auth:
     sign_in_with: "Войти через %{provider}"
-    signed_in: "Зарегистрирован!"
+    signed_in: "Вошли!"
     already_signedup: "Уже зарегистрировались?"
     notyet_signedup: "Еще не присоединились?"
     google_oauth2: "Google+"
     twitter: "Twitter"
     facebook: "Facebook"
     windowslive: "Windows Live"
-    forgot_password: "Забыли ваш пароль?"
-    need_confirmation: "Не получили письмо-подтверждение?"
+    forgot_password: "Забыли Ваш пароль?"
+    need_confirmation: "Не получили письмо для подтверждения?"
     need_unlock: "Не получили письмо-инструкцию для разблокировки?"
   signup_form:
-    overview: "Этот 20-часовой курс является введением в основы программирования. Курс предназначен для работы с детьми с дошкольного возраста до 8-ого класса, но он занимателен для всех возрастов."
+    overview: "Этот 20-часовой курс является введением в основы информатики. Курс предназначен для работы с детьми с дошкольного возраста до 8-ого класса, но он занимателен для всех возрастов."
     no_signup_header: "Не хотите регистрироваться?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "смотри руководство учителя"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
+    teacher_prize_header: 'Выиграть $1,000 - награду <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
+    teacher_prize_message: 'Совместно с <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org предложит до $1,000 на финансирование класса учителям в США, у которых не менее 10 учеников закончили этот курс.'
     teacher_pitch: "Teach the K-8 Intro to Computer Science in your classroom"
-    teacher_title: "Учитель Зарегистрируйся"
-    student_pitch: "Beyond 1 hour: try our K-8 Intro to Computer Science"
+    teacher_title: "Регистрация учителя"
+    student_pitch: 'Сверх 1-ого часа: познакомься с нашим "Введением в Информатику"'
     student_title: "Регистрация"
-    school_name: "Название школы (опционально)"
-    school_address: "Адрес школы (опционально)"
+    school_name: "Название школы (не обязательно)"
+    school_address: "Адрес школы (не обязательно)"
     address_placeholder: "улица, номер здания, город, область, индекс"
-    gender: "Пол (опционально)"
-    birthday: "Дата рождения (опционально)"
+    gender: "Пол (не обязательно)"
+    birthday: "Дата рождения (не обязательно)"
     submit: "Зарегистрироваться"
     teacher: "Вы учитель?"
     valid_username: "Доступно!"
     invalid_username: "Имя пользователя должно содержать не менее 5 символов"
     taken_username: "Имя пользователя уже занято"
     valid_password: "Действительный пароль!"
-    invalid_password: "Пароль должен содержать минимум 6 символов"
-    mismatch_password: "Два введённых пароля не совпадают"
-    student_terms: "I agree to be bound by the Code.org terms of service. If I am under 13 years of age, I confirm by submitting this form that I have my parent or legal guardian's permission to use the Code.org services."
-    teacher_terms: "I agree to be bound by the Code.org terms of service."
+    invalid_password: "Пароль должен содержать не менее 6 символов"
+    mismatch_password: "Введённые пароли не совпадают"
+    student_terms: "Я согласен с условиями использования Code.org. Если мне меньше 13-ти лет, то я подтверждаю, отправляя эту форму, что у меня есть разрешение моих родителей или законного опекуна на использование Code.org."
+    teacher_terms: "Я согласен с условиями использования Code.org."
   signin_form:
-    title: "Войти"
-    login: "Электронная почта или логин"
+    title: "Вход"
+    login: "Адрес электронной почты или имя пользователя"
     password: "Пароль"
     remember: "Запомнить меня"
-    submit: "Вход"
+    submit: "Войти"
   password:
     reset_form:
-      title: "Забыли ваш пароль?"
+      title: "Забыли пароль?"
       email: "Адрес электронной почты"
-      submit: "Отправить мне инструкцию для сброса пароля"
+      submit: "Отправить мне инструкцию для изменения пароля"
     change_form:
-      title: "Изменить свой пароль"
+      title: "Изменить пароль"
       new_password: "Новый пароль"
-      confirm_password: "Подтвердите новый пароль"
-      submit: "Изменить мой пароль"
+      confirm_password: "Подтвердить новый пароль"
+      submit: "Изменить пароль"
   welcome_email:
-    subject: "Присоединить мой класс (на Code.org)"
-    body: |
-      Click the link below to sign up for computer science tutorials on Code.org (with me as your "teacher"):
-      
-      %{link}
-      
-      The tutorials are fun, visually engaging, and teach the basic concepts of computer science using a simple, guided, game-like experience. Learn to code from Bill Gates, Mark Zuckerberg, Angry Birds, and Plants vs. Zombies! :-)
-      
-      %{name}
+    subject: "Присоединяйся к моему классу (на Code.org)"
+    body: 'Нажмите на ссылку ниже, чтобы подписаться на дополнительные занятия по компьютерным наукам на Code.org (со мной как ваш «учитель»): %{link} Занятия веселые, визуально привлекательным и учат основным понятиям информатики, используя простой, направленный, игровой опыт. Изучайте код от Билла Гейтса, Марка Цукерберга, игр "Angry Birds" и  "Plants vs. Zombies"! :-) %{name}'
   follower:
     invite_sent: "Приглашение отправлено"
-    added_teacher: "%{name} добавить как Вашего учителя"
+    added_teacher: "%{name} добавлен как твой учитель"
     registered: "Вы зарегистрированы в %{section_name}."
     error:
-      signed_in: "Please signout before proceeding"
+      signed_in: "Прежде чем продолжить, пожалуйста, выйдите"
       username_not_found: "Пользователь %{username} не найден"
-      username_in_use: "%{username} уже принято, пожалуйста, выбирайте другой"
-      no_teacher: "Could not find anyone signed in with '%{teacher_email_or_code}'. Please ask them to sign up here and then try adding them again"
+      username_in_use: "%{username} уже занято, пожалуйста, выберите другое"
+      no_teacher: "Не найден кто-либо с «%{teacher_email_or_code}». Пожалуйста, попросите их в зарегистрироваться здесь, и затем снова попробуйте"
     mail:
       invite_student:
-        subject: "Join a class with %{teacher_name} at Code.org!"
+        subject: "Присоединяйся к классу учителя %{teacher_name} на Code.org!"
   reports:
     error:
       access_denied: "Вы не имеете доступа к статистике этого пользователя"
   redeem_prizes:
-    title: "Redeem Prizes: %{name}"
+    title: "Востребовать призы: %{name}"
     provider: "Provider:"
     code: "Code:"
     redeem_header: "To redeem:"
     success: "Your prize was succesfully redeemed, see code below."
     error: "Your prize could not be redeemed, please try again."
-    error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_us_only: "Предложение приза действительно только для пользователей в США."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Please Confirm"
       "no": No
@@ -147,17 +140,17 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Вы заслужили приз! (Только для студентов в США)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Изучите все концепции науки информатика, соберите все  %{num_trophies} трофеев, и заработайте реальные призы. Вы сможете выбирать между подарочной картой iTunes на 10$, бесплатными 10GB на Dropbox, кредитами Skype на 10$, или бесплатной игрой. ПРИЧЕМАНИЕ: предложение действительно только для школьников из США, и продлится так долго, как установлено в рамках акции."
       teacher:
-        earned: "10 или более учеников собрали все %{num_trophies} трофеев. Вы выиграли учительский приз $750! (Только для учителей в США)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 или более учеников, которые собрали все %{num_trophies} трофеев — девочки. Вы получаете бонус $250! (Только учителя в США)"
-          not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
+          not_earned: 'Если по крайней мере 7 ваших учеников, которые зарабатывают все  %{num_trophies}  трофеев девушки, ваша награда дополняется $250 в кредитах <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> кредиты могут использоваться только преподователями в государственных школах США.'
   crud:
-    new_model: "New %{model}"
+    new_model: "Новый %{model}"
     show: "Показать"
     edit: "Редактировать"
     edit_model: "Изменить %{model}"
@@ -172,13 +165,13 @@
       finished_hoc: "Я закончил мой Час Кода"
       sign_in_to_save: "Выполните вход для сохранения достижений"
     user:
-      classroom: "Мои студенты"
+      classroom: "Мои ученики"
       label: "Привет, %{username}"
       stats: "Мои достижения"
       settings: "Мой профиль"
       prizes: "Награды"
-      logout: "Выход"
-      signin: "Вход"
+      logout: "Выйти"
+      signin: "Войти"
       signup: "Зарегистрироваться"
     popup:
       progress: "Ваши достижения"
@@ -192,55 +185,54 @@
       prizes_link: "подробнее"
   teacher:
     title:
-      one: "Ваш преподаватель  %{name}"
+      one: "Твой учитель -  %{name}"
       other: "Ваши преподаватели:"
     tools: "Инструментарий учителя"
     students:
-      manage: "Управление студентами"
-      add: "Добавить студента"
-    rollup: "Панель мониторинга хода выполнения"
-    activity: "Последние данные по активности класса"
+      manage: "Управление учениками"
+      add: "Добавить учеников"
+    rollup: "Панель контроля хода выполнения"
+    activity: "Последние данные по работе класса"
   user:
-    new_password_hint: "(оставьте пустым, если вы не хотите ничего менять)"
-    current_password_hint: "(нам нужен ваш текущий пароль для подтверждения изменений)"
+    new_password_hint: "(оставьте пустым, если Вы не хотите ничего менять)"
+    current_password_hint: "(нам нужен Ваш текущий пароль для подтверждения изменений)"
     cancel:
-      title: "Отменить мой аккаунт"
+      title: "Удалить мою учётную запись"
       hint: "Недоволен?"
-      button: "Cancel my account"
+      button: "Удалить мою учётную запись"
   user_level:
     completed: "Завершено"
-    tried: "Tried"
+    tried: "Пытался"
   user_stats:
     recent_activity: "Последние действия"
-    show_more: "Показать больше"
+    show_more: "Показать ещё"
   home:
-    signin_message: "Or if you're already registered, %{link}"
+    signin_message: "Или, если Вы уже зарегистрированы, %{link}"
     student_reg_link: "Ученик"
     teacher_reg_link: "Учитель"
-    teacher_dashboard: "See progress dashboard"
+    teacher_dashboard: "Открыть панель контроля хода выполнения"
     teacher_student_count_one: "У Вас %{count} ученик."
-    teacher_student_count: "У Вас %{count} студентов."
-    teacher_averages: 'On average your students have earned %{trophy_average} out of %{trophy_max} "Concept Mastery" trophies.'
+    teacher_student_count: "У Вас %{count} учеников."
+    teacher_averages: "В среднем студенты заработали  %{trophy_average} трофеев из %{trophy_max} возможных трофеев в «Концепты мастерства»."
     classroom: "Ваш класс"
-    student_progress: "Your learning progress"
-    student_stats: |-
-      You've earned %{trophy_count} out of %{trophy_max} "Concept Mastery" trophies.
-    student_left_off: "Where you left off:"
+    student_progress: "Ваш прогресс обучения"
+    student_stats: 'Вы заработали %{trophy_count} трофеев из %{trophy_max} возможных трофеев в "Концепты мастерства".'
+    student_left_off: "Где вы остановились:"
     student_finished: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    local_school: "Местная школа"
+    local_school: "местная школа"
     online: "онлайн"
-    see_details: "See details"
+    see_details: "Смотрите подробности"
   gender:
     male: "Мужской"
     female: "Женский"
     none: "Предпочитаю не отвечать"
   footer:
-    help_from_html: 'Engineers from <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a> helped create this tutorial.'
-    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights Reserved.'
-    feedback: "Provide feedback"
-    translate: "Помогите нам выполнить перевод на ваш язык"
+    help_from_html: 'Инженеры <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com"> Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a> и <a href="http://www.twitter.com"> Twitter</a> помогли создать этот учебник.'
+    art_from_html: 'Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio Entertainment Ltd</a>. Все права защищены.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Все права защищены.'
+    feedback: "Оставить отзыв"
+    translate: "Помогите нам выполнить перевод на Ваш язык"
     tos: "Условия использования"
-    privacy: "Privacy Policy"
+    privacy: "Правила конфиденциальности"
   prize_mail:
     prize_earned:
       subject: "Redeem your prize at Code.org!"
@@ -255,11 +247,11 @@
     tab: "Видео."
     notes: "Нет видео? Смотреть текстовый вариант."
     autoplay_option: "Автозапуск видео"
-    download: "Download Video"
+    download: "Скачать видео"
   compatability:
-    working: "Мы работаем над поддержкой для вашего браузера."
-    upgrade: "Пожалуйста, обновите ваш браузер."
-  slow_loading: "This is taking longer than usual..."
+    working: "Мы работаем над поддержкой для Вашего браузера."
+    upgrade: "Пожалуйста, обновите Ваш браузер."
+  slow_loading: "Это занимает больше времени, чем обычно..."
   try_reloading: "Попробуйте перезагрузить страницу"
-  next_stage: "Finished! Continue to next stage"
-  download_pdf: "Open Lesson Plan"
+  next_stage: "Закончил! Перейти к следующему этапу"
+  download_pdf: "Открыть план урока"

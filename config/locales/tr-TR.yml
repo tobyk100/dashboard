@@ -46,13 +46,13 @@
     need_confirmation: "Onay talimatlarını almadınız mı?"
     need_unlock: "Kilit açma talimatlarını almadınız mı?"
   signup_form:
-    overview: "This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages."
+    overview: "Bu 20 saatlik ders temel bilgisayar bilimi ve programlama kavramlarını tanıtır. Ders, K-8 dersliklerinde kullanılmak üzere tasarlanmıştır, ama her yaştan öğrenmek için eğlencelidir."
     no_signup_header: "Kaydolmak istemiyor musun?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
     prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including iTunes gift cards, free Dropbox storage, Skype credits, and downloadable games from Electronic Arts and Valve."
     teacher_educator_guide: "Eğitim rehberine bakın"
-    teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
+    teacher_prize_header: '1.000 $ kazan <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> ödülleri'
     teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. teachers who lead at least 10 students through this course.'
     teacher_pitch: "Bilgisayar Bilimine Giriş K-8'i sınıfında öğret"
     teacher_title: "Öğretmen Kayıt"
@@ -64,7 +64,7 @@
     gender: "Cinsiyet (isteğe bağlı)"
     birthday: "Doğum Günü (isteğe bağlı)"
     submit: "Kaydol"
-    teacher: "Öğretmen misini?"
+    teacher: "Öğretmen misiniz?"
     valid_username: "Mevcut!"
     invalid_username: "Kullanıcı adı en az 5 karakter uzunluğunda olmalıdır"
     taken_username: "Kullanıcı adı zaten alınmıştır"
@@ -119,7 +119,7 @@
     success: "Ödülünüzü başarılı bir şekilde kullandınız, aşağıdaki koda bakın."
     error: "Ödülünüzü kullanamazsınız, lütfen tekrar deneyin."
     error_us_only: "The prize offer is only valid for U.S. users."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Lütfen onaylayın"
       "no": Hayır
@@ -146,12 +146,12 @@
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
       not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between a $10 iTunes gift card, 10GB of free Dropbox storage, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
       teacher:
-        earned: "10 or more students collected all %{num_trophies} trophies. You have won a $750 teacher prize! (U.S. teachers only)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
         not_earned: 'To reward first-time computer science teachers, you can earn up to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits for guiding a classroom through the K-8 intro course. To qualify, you need to successfully host a classroom of at least 15 students through the entire K-8 intro course, with all 15 students (or more) completing all tutorials and earning all %{num_trophies} trophies. If 7 or more of the students who earn all of the trophies are girls, your reward is $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise, your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
         bonus:
           not_earned_title: 'You can still earn an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
-          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a $250 bonus prize! (U.S. teachers only)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'If at least 7 of your students who earn all %{num_trophies} trophies are girls, your reward is an additional $250 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be used by teachers in U.S. public schools.'
   crud:
     new_model: "Yeni %{model}"
@@ -185,7 +185,7 @@
       puzzle_map: "Kademeler"
       prizes: "%{total_trophies} kupanın hepsini topla ve ödül kazan!"
       prize_earned: "%{total_trophies} kupanın hepsi toplandı. Ödül kazandın!"
-      prize_us_only: "(U.S. students only)"
+      prize_us_only: "(Sadece ABD öğrencileri)"
       prizes_link: "daha fazla bilgi"
   teacher:
     title:
@@ -215,7 +215,7 @@
     student_reg_link: "Öğrenci"
     teacher_reg_link: "Öğretmen"
     teacher_dashboard: "İlerleme kontrol paneli bakın"
-    teacher_student_count_one: "You have %{count} student."
+    teacher_student_count_one: "%{count} öğrenciye sahipsiniz."
     teacher_student_count: "%{count} öğrenciye sahipsiniz."
     teacher_averages: 'Öğrencileriniz "Kavram Ustalığı" kupalarından ortalama olarak %{trophy_max} kupadan %{trophy_average} kupayı kazanmıştır.'
     classroom: "Sınıfınız"
@@ -258,5 +258,5 @@
     upgrade: "Lütfen tarayıcınızı yükseltin."
   slow_loading: "Bu normalden uzun sürüyor..."
   try_reloading: "Sayfayı yeniden yüklemeyi deneyin"
-  next_stage: "Finished! Continue to next stage"
+  next_stage: "Bitti! Bir sonraki aşamaya geç"
   download_pdf: "Açık ders planı"

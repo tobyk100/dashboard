@@ -22,7 +22,10 @@ module Dashboard
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    # point to our geocoder server instance and use a 1 second timeout by default
+    # (these values are overriden for production and staging)
     config.geocoder_server = "ec2-54-224-106-25.compute-1.amazonaws.com"
+    config.geocoder_timeout = 1
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.

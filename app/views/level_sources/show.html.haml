@@ -1,0 +1,6 @@
+- content_for :head do
+  = tag('meta', :property => 'og:image', :content => path_to_image('sharing_drawing.png')) if @game.app == "turtle"
+- @page_title = t('share_code.title')
+
+%h1= @page_title
+= render partial: "levels/blockly", locals: { start_blocks: @start_blocks, app: @game.app, hide_source: @hide_source, share: @share }

@@ -346,7 +346,7 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 }
 
 .modal {
-  a:hover {color:#FF0000; background-color: white; opacity: 100;}
+  a:hover {color:#FF0000; background-color: white; }
 }
 
 .modal-body {
@@ -365,7 +365,6 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
 .btn#dataConfirmOK:hover {
   color: white;
   background-color: orange;
-  opacity: 100;
 }
 
 #video {
@@ -459,7 +458,13 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   overflow-y: auto;
   display: block;
   padding: 10px;
-  min-height: 508px;
+  min-height: 1100px;
+  
+  .loading {
+    height: 400px;
+    margin: 20px;
+    background: image-url("spinner-big.gif") no-repeat center center;
+  }
 }
 
 .header_popup_footer {
@@ -587,6 +592,10 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
   width: 105px;
 }
 
+input[type="checkbox"], .prize-chk {
+  margin: 0 2px 2px;
+}
+
 #alert {
   color: red;
   font-size: 130%;
@@ -628,6 +637,11 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
     display: inline-block;
   }
 
+  .solution_link {
+    font-size: 17.5px;
+    padding-bottom: 4px;
+  }
+
   .video_link {
     display: inline-block;
     margin: 6px;
@@ -662,6 +676,10 @@ a.level_link:active { color: white; font-weight: 400; background-color: black; }
       padding-right: 30px;
     }
   }
+}
+
+#last #left_off {
+  display: inline-block;
 }
 
 // Tabs

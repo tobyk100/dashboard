@@ -4,16 +4,16 @@
       name:
         20-hour:
           desc: "K-8(アメリカでの中学校）ではコンピューターサイエンスコースが紹介されている。"
-          Unplug1: "ステージ 1"
-          Maze: "ステージ 2"
-          Unplug2: "ステージ 3"
-          Unplug3: "ステージ 4"
-          Artist: "ステージ 5"
-          Unplug4: "ステージ 6"
-          Artist2: "ステージ７"
-          Unplug5: "ステージ８"
-          Farmer: "ステージ 9"
-          Unplug6: "ステージ 10"
+          Unplug1: "ステージ1"
+          Maze: "ステージ2"
+          Unplug2: "ステージ3"
+          Unplug3: "ステージ4"
+          Artist: "ステージ5"
+          Unplug4: "ステージ6"
+          Artist2: "ステージ7"
+          Unplug5: "ステージ8"
+          Farmer: "ステージ9"
+          Unplug6: "ステージ10"
           Artist3: "ステージ11"
           Unplug7: |
             ステージ12
@@ -35,27 +35,25 @@
           Artist5: "ステージ19"
           Unplug11: "ステージ20"
         Hour of Code:
-          desc: "コードの時間(Hour of code)"
-          Maze: "ステージ 1"
+          desc: "コードの時間（Hour of code）"
+          Maze: "ステージ1"
         Edit Code:
-          desc: "コードを編集します。"
-          MazeEC: "ステージ 1"
+          desc: "コードの編集"
+          MazeEC: "ステージ1"
     game:
       name:
-        Unplug1: "コンピューター サイエンス入門"
+        Unplug1: "コンピューター・サイエンス入門"
         Maze: "迷路"
         Unplug2: "コンピュテーショナル・シンキング（コンピューターの様に考える）"
         Unplug3: "グラフ用紙のプログラミング"
         Artist: "アーティスト"
         Unplug4: "アルゴリズム"
         Artist2: "アーティスト 2"
-        Unplug5: "Functions"
+        Unplug5: "機能:"
         Farmer: "農民"
         Unplug6: "条件"
         Artist3: "アーティスト 3"
-        Unplug7: |
-          作曲する
-          
+        Unplug7: "作曲する"
         Farmer2: "農民 2"
         Unplug8: "抽象化"
         Artist4: "アーティスト 4"
@@ -68,107 +66,79 @@
     trophy:
       name:
         Bronze: "銅"
-        Silver: |
-          銀
-          
+        Silver: "銀"
         Gold: "金"
     concept:
       description:
         sequence: "連続"
-        if: |
-          if ブロック
-          
+        if: "if ブロック"
         if_else: "If else ブロック"
-        loop_times: "Timesブロックを繰り返す"
-        loop_until: "untilブロックを繰り返す"
+        loop_times: "回数くり返しブロック"
+        loop_until: "条件くり返しブロック"
         loop_while: "Whileブロック"
         loop_for: "Counterブロック"
         function: "関数"
         parameters: "パラメーターを持つ関数"
     level:
       instructions:
-        maze_2_2: "いたずら豚を捕まえてくれますか？「進む」のブロックをまとめていくつかを積み上げ、そして「プログラムの実行」のキーを押して私が豚を捕まえられるよう助けてください。"
-        maze_2_1: "この豚は私の羽をしわくちゃにします。私が彼を見つけられるよう助けて ！"
-        maze_2_2_5: "パスをトレースして、おばかなブタのところへ案内してください。TNT を避けないと、羽が飛びます ！"
-        maze_2_3: "緑の悪る者に私を案内して ！(TNT に気を付けてね)"
+        maze_2_2: "いたずら豚を捕まえるのを手伝って！私が豚にたどり着くように、「前に進む」ブロックをいくつか重ねてから「プログラムの実行」を押しましょう。"
+        maze_2_1: "このブタは私の羽を逆立てます。私が彼を見つけられるよう助けて！"
+        maze_2_2_5: "道をたどって、おばかなブタのところへ案内してください。TNTを避けないと、羽が飛びます！"
+        maze_2_3: "緑の悪者に私を案内して！（TNTに気をつけよう）"
         maze_2_4: "落ち着いて、そして悪いブタを見つけるのを助けてください。でないと私は怒るかもよ！"
-        maze_2_5: "ブロックを２つだけ使って、みどりのブタへたどり着ける方法があります。どうやるか解けますか？"
+        maze_2_5: "ブロックを2つだけ使って、緑のブタにたどり着ける方法があります。分かりますか？"
         maze_2_6: "ブロックを３つだけ使って私を緑の侵入者のところへ行かせてください。"
         maze_2_7: "一番少ない数のブロックを使ってこの悪いブタを追放するのを手伝ってください。1 つ以上の「繰り返し」ブロックを使用してください。"
-        maze_2_8: "次の３つのブロック： 移動、移動、曲がるを中に入れた「繰り返し」ブロックでこの問題を解決してください。"
+        maze_2_8: "「移動」、「移動」、「曲がる」の3つのブロックが中に入った「繰り返し」ブロックを使って、この問題を解きましょう。"
         maze_2_9: "Ok, 新しい「まで繰り返し(Repeat until)」ブロックを試してください。私がムカつくブタに着くまで繰り返されます。"
         maze_2_10: "Ok、では 最後の１つになった練習です - これを 4 ブロックをだけ使って解決できますか？"
         maze_2_11: "親愛なる人。私ゾンビ。私は空腹。。。ヒマワリを取らないといけない。5つの ブロックだけで私をそこまで連れて行ける事ができますか？"
         maze_2_12: "Ok、 これは似ていますが、ちょっと違います。5つの ブロックだけでできますか？"
-        maze_2_13: |
-          新しい"if"ブロックを使っていつ曲がるかを私に決めさせてください。ヒント: あともう１つのブロックが必要です、でも私たちがどう設定しているかを学んでください、そうしたら次回はあなたができるようになります。
-          
-        maze_2_14: |
-          Ok,　これは最後のパズルと同じです、でもどうやって"if"ブロックと"repeat"ブロックを一緒に使ったかをもう一度思い出す必要があります。
-          
-          
-        maze_2_15: |
-          ひまわりが欲しい！一番少ない数の"if"ブロックを使ってそこまで私を連れて行ってください
-          
-          
-          
+        maze_2_13: '新しい"if"ブロックを使っていつ曲がるかを私に決めさせてください。ヒント: あともう１つのブロックが必要です、でも私たちがどう設定しているかを学んでください、そうしたら次回はあなたができるようになります。'
+        maze_2_14: 'Ok,　これは最後のパズルと同じです、でもどうやって"if"ブロックと"repeat"ブロックを一緒に使ったかをもう一度思い出す必要があります。'
+        maze_2_15: 'ひまわりが欲しい！一番少ない数の"if"ブロックを使ってそこまで私を連れて行ってください'
         maze_2_16: "Ok,練習のためもう一度やりましょう ーそれほど違いはないけれど、 チャンパー達に気をつけて！"
-        maze_2_17: |
-          "If-else"ブロックは条件をチェックし、そして１つの事もしくは別の事をします。サンフラワーを私にゲットさせるためにこの新しいブロックを試してください。
-          
+        maze_2_17: '"If-else"ブロックは条件をチェックし、そして１つの事もしくは別の事をします。サンフラワーを私にゲットさせるためにこの新しいブロックを試してください。'
         maze_2_18: '"if-else"ブロックをもう一度練習するよ、 最初のトライでそれを正しくゲットできる？'
         maze_2_19: "ブロックをあと3つ追加してこの難しい迷路を解決する手助けをしてくれますか？もしそれができれば、長さに関係なくどんなカーブした道でも歩く事ができるようになります。"
-        turtle_1_1: |
-          こんにちは、私はアーティストです。あなたはどんなものでも描かせられるコードが書く事ができます。いくつかのブロックを使って絵の中にあるグレイの線の上にそって私に描写をさせてください。
-          
+        turtle_1_1: "こんにちは、私はアーティストです。あなたはどんなものでも描かせられるコードが書く事ができます。いくつかのブロックを使って絵の中にあるグレイの線の上にそって私に描写をさせてください。"
         turtle_1_2: "正方形を描きます。注: 新しい「色の設定」ブロックで選択することにより好きな色を使用してください。"
         turtle_1_3: "ブロックを３つだけ使用して正方形を作成します。"
-        turtle_1_4: |
-          毎回違う色を選択してくれる"random color"オプションをつかって、色の異なる側面をもつ三角形を描きましょう。ヒント：回転ブロックの回数をクリックして、どのくらいの距離で曲がるかを考慮して解決するひつようがあります。
-          
-          
+        turtle_1_4: '毎回違う色を選択してくれる"random color"オプションをつかって、色の異なる側面をもつ三角形を描きましょう。ヒント：回転ブロックの回数をクリックして、どのくらいの距離で曲がるかを考慮して解決するひつようがあります。'
         turtle_1_5: "今、練習のために、三角形を描いて、そして封筒になるように正方形を描きます。"
-        turtle_1_6: |
-          どうやって、この三角形と正方形を描けるか解決できますか？ヒント：三角形を最初に、そして正方形を各前にどのくらい曲がればいいか考える。
-          
-          
+        turtle_1_6: "どうやって、この三角形と正方形を描けるか解決できますか？ヒント：三角形を最初に、そして正方形を各前にどのくらい曲がればいいか考える。"
         turtle_1_7: "Ok、もう少し難しくしてみましょう  -もしこれらの緑のメガネを描けるか試しましょう。正方形はそれぞれの側面が100 ピクセルで 50 ピクセル離れています。緑色で描画くのを忘れないでね ！"
         turtle_1_8: "Ok,もしこのコードを実行 (または「実行する」それをしようとするキーを押します)したらら 何が起こるかを考えます。その後、描画が完了するように何回も繰り返します。色は毎回異なるようになります。"
-        turtle_1_9: |
-          円を描くのにどの数字がクエスチョンマーク（疑問符）に置き換えられるか考えられますか？
-          
+        turtle_1_9: "円を描くのにどの数字がクエスチョンマーク（疑問符）に置き換えられるか考えられますか？"
         turtle_1_10: |
           
           よくできたね！あなたが描きたいものを何でもいいから描いてください。いくつかの楽しいアイデア： スティック図、雪片、またはスパイラル。また、新しい「設定幅」ブロックを試みてください。楽しんでね！
         turtle_4_1: "ブロック３つだけ （100 ピクセルのエッジ) で三角形を描くことができますか？ヒント:「リピート」のブロックを使用します。"
-        turtle_4_2: |
-          このパズルを完了するために ブロックを１つ追加してみてください。ヒント: 2 つの同一の三角形を描画するブロックを提供しておきましたので、"turn"を間に置き、どのくらいで曲がるかは決める必要があります。
-          
+        turtle_4_2: "ブロックを1つ追加して、このパズルを完成させましょう。ヒント: 同じ2つの三角形を描くブロックが使えます。このブロックの間に「曲がる」を置きましょう。どのくらいで曲がるかは決める必要があります。"
         turtle_4_3: "Ok、これはあなたが書いた単一の三角形を描画するコードです。かわいい花を作るために「繰り返し」と「ターン」のブロックを追加できますか？"
-        turtle_4_4: "これらは前回のパズルと同じコードです、でも各三角形を描画した後に36度だけ回転させました。何回これを繰り返す必要があるのでしょうか？(ヒント: 360 度回転した後は完全な円ができます。）"
+        turtle_4_4: "これは前のパズルと同じコードです。でも各三角形を描画した後に36度だけ回転させました。何回これを繰り返す必要があるのでしょうか？（ヒント: 360度回転した後は完全な円ができます。）"
         turtle_4_5: "前回のパズルと同じコードです、ただ回転を36回繰り返しました。回転角度は何度にすればよいですか？(ヒント: 360 度回転すると描画は完全な円になります。）"
         turtle_4_6: "ブロックを３つだけ使用して、20 ピクセルのエッジを持つ正方形を描くことができますか？"
-        turtle_4_7: "Here's the code for drawing the square from last puzzle. Can you repeat it to draw 10 adjacent squares like a ladder? Hint: you only need 2 more blocks."
-        turtle_4_8: "Here's the solution to the previous puzzle. Can you add just 2 more blocks to complete the drawing?"
-        turtle_4_9: "Here's the solution to the previous puzzle. How many degrees should you turn to complete the drawing? (You probably need to guess a few times)"
-        turtle_4_10: "Here's the solution to the previous puzzle. How many times should you repeat to complete the drawing?"
-        turtle_4_11: 'Try changing the numbers in the "turn" and "repeat" blocks to make different patterns. Or, experiment changing the rest of the code to draw anything you want.'
-        maze_karel_1_1: |-
-          Hi, I'm a farmer. I need your help to flatten the field on my farm so it's ready for planting. Move me to the pile of dirt and use the "remove" block to remove it.
-        maze_karel_1_2: 'Next, move me to the hole and fill it with TWO shovelfuls of dirt, using the "fill" block.'
-        maze_karel_1_3: "Move me to the pile of dirt and tell me how many shovelfuls to remove using as few blocks as possible."
-        maze_karel_1_4: "Can you help me remove all four piles of dirt? Hint: use a repeat block if you can."
-        maze_karel_1_5: 'Help me fill in all these holes with 5 shovelfuls of dirt. Hint: you can put a "repeat" block inside the "while" block.'
-        maze_karel_1_6: |-
-          Remove all the piles of dirt, using as few blocks as possible. The new options in the dropdown menu on the "while" block tell me if I'm standing on a pile or a hole.
-        maze_karel_1_7: "Wow, I found a really deep hole! I don't know how many shovelfuls of dirt it needs. Can you write a program that fills it until the ground is even?"
-        maze_karel_1_8: "Help me fill in the hole at the end of the field, using as few blocks as possible."
-        maze_karel_1_9: 'Make me remove all these piles of dirt. Try to use as few blocks as possible. Hint: try using a "while" block.'
-        maze_karel_1_10: "I'm working late, so it's dark out, and I can't tell how large the piles are. Now I don't have all the options I used to have on the while block. Move me along the field, and if there is a pile, remove it."
-        maze_karel_1_11: |-
-          It's still dark outside. Move me along the field. If there is a pile, remove it, and if there is a hole, fill it in. Hint: use the dropdown menu of options on the "if" block.
-        turtle_2_1: "Hello. Me zombie artist. Me love drawing! Help me draw a square in a special color. Important note: you have all the same blocks but they've now been arranged in categories."
-        turtle_2_2: 'Welcome to using functions, which let you define new blocks! Try the new "draw a square" block, found in the "Functions" category, to draw a small 50x50 green square.'
+        turtle_4_7: "これは最後のパズルで正方形を描画したときのコードです。これを10繰り返して隣同士の正方形をはしごのように描画できますか？ヒント: ブロックをあと2 つ使うだけです。"
+        turtle_4_8: "ここでは、前のパズルを解決します。図面を完成させるためにブロックをあと 2つ追加できますか？"
+        turtle_4_9: "ここでは、前のパズルを解決します。図面を完成させるのに角度をどのくらいにする必要がありますか？（解くのに多少時間がかかるでしょう。)"
+        turtle_4_10: "ここでは、前のパズルを解決します。図面を完成させるのに何回繰り返すひつようがあるでしょう？"
+        turtle_4_11: "違うパターンを作るのに「ターン」と「繰り返し」ブロックの中の数字を変えてください。または、自分で残りのコードを自分の好きに書き変えて実験してみてください。"
+        maze_karel_1_1: "こんにちは、私は農民です。私の土地を平らにするのに助けが必要です、そうすれば根付けの準備ができます。「削除」ブロックで私を泥山にうごかして「削除」ブロックで泥山を削除してください。"
+        maze_karel_1_2: '次に、私を穴へ移動させて、"fill"ブロックを使って、TWOシャベル一杯の泥山で一杯にしてください。'
+        maze_karel_1_3: "私を泥山へ動かしてください、そしてできる限り少ないブロックを使って、シャベル何杯分で泥山をなくせるかを教えてください。"
+        maze_karel_1_4: "泥山４つすべてをなくすのを手助けしてくれますか？ヒント: できるなら、繰り返しブロックを使う。"
+        maze_karel_1_5: '５杯分のシャベルでこれらすべての穴を埋めるのを手伝ってください。ヒント:"while"ブロックの中に「繰り返し」ブロックを置く事ができます。'
+        maze_karel_1_6: '可能な限り少ないブロックを使用して、すべての泥山をなくしてください。"While"ブロック上のドロップダウン ・ メニューの新規オプションで、私が山の上に立っているか穴に立っているか教えてください。'
+        maze_karel_1_7: "うわー、すごく深い穴を発見 ！何杯分の泥が必要なのかわかりません。泥が地面に達するまで埋めるようなプログラムを書くことができますか？"
+        maze_karel_1_8: "できる限り少ない数のブロックで、田んぼの最後で穴を埋めるのを手伝ってください。"
+        maze_karel_1_9: |
+          これらすべての泥山をなくさせてください。できる限り少ない数のブロックを使ってください。
+          ヒント："while"ブロックを使用してみてください。
+        maze_karel_1_10: "遅くまで仕事をしていたので外は真っ暗、なので積み上がった山がどのくらい大きいのかわかりません。Whileブロックにあったようなオプションが今はもうありません。田んぼにそって私を移動させ、もし山があったらそれを削除してください。"
+        maze_karel_1_11: '外はまだ暗いです。私を田んぼにそって移動してください。山があったらどかす、穴があったら埋める。ヒント:"if"ブロックでオプションのドロップ ダウン メニューを使用します。'
+        turtle_2_1: "こんにちは。私ゾンビ アーティストです。私は描くのが大好き ！特別な色で正方形を描くを手伝ってください。重要な注記: ブロックはみんな同じですが、カテゴリーに分かれています。"
+        turtle_2_2: "新しいブロックあなたにを定義させてくれる関数を使うところへようこそ ！新しい「正方形を加工」ブロックを試してみてください、「関数」カテゴリでは、小さな 50 x 50 緑色の四角形を描画するを発見しました。"
         turtle_2_3: 'Use the "repeat" block (in the "Loops" category) to draw 3 squares of size 100, each 120 degrees apart. And do it in 3 different, random colors.'
         turtle_2_4: "Now we're going to get fancy. Change the code to draw 36 squares, 100 pixels wide, and each 10 degrees apart. Hint: you may want to use the slider to make me go faster."
         turtle_2_5: |-
@@ -228,13 +198,12 @@
       levelIncompleteError:
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: "「くり返し」ブロックの中に「もし」ブロックが必要です。分からなくなったら、1つ前のレベルに戻って、「もし」ブロックがどのように動くのかを確認しましょう。"
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: "この問題を解くには、くり返しのパターンを見つけます。「移動」、「移動」、「右に回転」の3つのブロックが入った「くり返し」ブロックを使いましょう。"
     video:
       name:
-        maze_intro: "Maze Intro"
+        maze_intro: "迷路入門"
         artist_intro: "Artist Intro"
         farmer_intro: "Farmer Intro"
         loop_times: "Repeat Times Block"
@@ -244,6 +213,6 @@
         function: "Functions"
         loop_while: "While Block"
         loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
+        parameters: "パラメーター付き関数"
         hoc_wrapup: "Hour of Code Wrapup"
         20_wrapup: "20-Hour Wrapup"

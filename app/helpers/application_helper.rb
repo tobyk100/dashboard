@@ -51,6 +51,7 @@ module ApplicationHelper
       rel: 0,
       showinfo: 1,
       autoplay: 1,
+      wmode: 'transparent'
     }
     if language != 'en'
       defaults.merge!(

@@ -20,8 +20,5 @@
       - else
         %span{ style: 'color:red'} tried (#{a.attempt}, #{a.test_result})
       #{link_to "#{data_t_suffix('script.name', script.name, sl.level.game.name)}, #{t('puzzle')} #{sl.try(:game_chapter)}", build_script_level_path(sl)}, #{ago(a.created_at)}.
-      = form_tag([a.level.try(:game), a.level], style: 'display: inline;') do
-        = hidden_field_tag(:_method, :get)
-        = hidden_field_tag(:initial_code, a.level_source.try(:data))
-        - if a.level_source
-          See #{link_to("#{a.user.name}'s code", '#', onclick: "parentNode.submit(); return false;")}
+      - if a.level_source
+        See #{link_to("#{a.user.name}'s code", edit_level_source_path(a.level_source_id))}

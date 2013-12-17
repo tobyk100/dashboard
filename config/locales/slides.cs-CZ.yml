@@ -3,7 +3,7 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Vítej u tvé první Hodiny kódu! Pojďme se ponořit do pravého programování."
+        text: "Vítej na tvé první hodině kódu! Pojďme se ponořit do první ochutnávky z programování."
       2:
         image: "notes/hoc1_2.jpg"
         text: "Budeme používat Blockly, vizuální programovaní jazyk, kde píšeš kód pomocí skládání bloků dohromady."
@@ -110,7 +110,7 @@
         text: 'Ahoj, já jsem Bil. Pojďte se naučit nový základní příkaz: "pokud" příkaz. Tento příkaz používají počítače k rozhodování.'
       2:
         image: "notes/hoc4_2.jpg"
-        text: 'Příkaz "pokud" používáte každý den. Ještě než jdete ráno ven, říkáte si: "Pokud venku prší, budu potřebovat pláštěnku.'
+        text: "Můžeme přikázat zombie, aby zjistila, jestli je vlevo cesta a pokud ano, můžeme ji otočit tímto směrem."
       3:
         image: "notes/hoc4_3.jpg"
         text: "Můžeme přikázat zombie, aby zjistila, jestli je vlevo cesta a pokud ano, můžeme ji otočit tímto směrem."
@@ -159,12 +159,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

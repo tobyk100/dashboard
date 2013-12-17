@@ -47,6 +47,12 @@ class FollowersController < ApplicationController
         end
       end
     elsif params[:teacher_email_or_code]
+      if params[:teacher_email_or_code].blank?
+        flash[:alert] = I18n.t('follower.error.blank_code')
+        redirect_to root_path
+        return
+      end
+
       target_section = Section.find_by_code(params[:teacher_email_or_code])
       target_user = target_section.try(:user) || User.find_by_email(params[:teacher_email_or_code])
 
@@ -126,7 +132,10 @@ SQL
     if request.path != student_user_new_path(section_code: params[:section_code])
       redirect_to student_user_new_path(section_code: params[:section_code])
     elsif current_user && @section
-      if (current_user.followeds.where(:section_id => @section.id).count == 0)
+      follower_same_user_teacher = current_user.followeds.where(:user_id => @section.user_id).first
+      if follower_same_user_teacher.present?
+        follower_same_user_teacher.update_attributes!(:section_id => @section.id)
+      else
         Follower.create!(user_id: @section.user_id, student_user: current_user, section: @section)
       end
       redirect_to root_path, notice: I18n.t('follower.registered', section_name: @section.name)

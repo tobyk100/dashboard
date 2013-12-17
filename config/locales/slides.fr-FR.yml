@@ -63,7 +63,7 @@
         text: "Hi, I'm Paola! In these puzzles, you're a farmer who has to get her field completely flat to start planting crops."
       2:
         image: "notes/stage9_2.jpg"
-        text: "You have to help her remove all the piles of dirt and fill in all the holes."
+        text: "Vous devez l'aidez à enlever tous les tas de saleté et remplir tous les trous."
       3:
         image: "notes/stage9_3.jpg"
         text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shoveful of dirt to a hole."
@@ -168,12 +168,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

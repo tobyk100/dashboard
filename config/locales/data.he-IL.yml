@@ -4,70 +4,70 @@
       name:
         20-hour:
           desc: "K-8 Intro to Computer Science Course"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          Unplug1: "שלב 1"
+          Maze: "שלב 2"
+          Unplug2: "שלב 3"
+          Unplug3: "שלב 4"
+          Artist: "שלב 5"
+          Unplug4: "שלב 6"
+          Artist2: "שלב 7"
+          Unplug5: "שלב 8"
+          Farmer: "שלב 9"
+          Unplug6: "שלב 10"
+          Artist3: "שלב 11"
+          Unplug7: "שלב 12"
+          Farmer2: "שלב 13"
+          Unplug8: "שלב 14"
+          Artist4: "שלב 15"
+          Unplug9: "שלב 16"
+          Farmer3: "שלב 17"
+          Unplug10: "שלב 18"
+          Artist5: "שלב 19"
+          Unplug11: "שלב 20"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "שעה של קוד"
+          Maze: "שלב 1"
         Edit Code:
           desc: "Edit Code"
-          MazeEC: "Stage 1"
+          MazeEC: "שלב 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
-        Maze: "The Maze"
+        Unplug1: "מבוא למדעי המחשב"
+        Maze: "המבוך"
         Unplug2: "Computational Thinking"
         Unplug3: "Graph Paper Programming"
-        Artist: "The Artist"
-        Unplug4: "Algorithms"
-        Artist2: "The Artist 2"
-        Unplug5: "Functions"
-        Farmer: "The Farmer"
-        Unplug6: "Conditionals"
-        Artist3: "The Artist 3"
-        Unplug7: "Song Writing"
-        Farmer2: "The Farmer 2"
-        Unplug8: "Abstraction"
-        Artist4: "The Artist 4"
+        Artist: "האמן"
+        Unplug4: "אלגוריתמים"
+        Artist2: "האומן 2"
+        Unplug5: "פונקציות"
+        Farmer: "האיכר"
+        Unplug6: "תנאים"
+        Artist3: "האומן 3"
+        Unplug7: "כתיבת שיר"
+        Farmer2: "האיכר 2"
+        Unplug8: "הפשטה"
+        Artist4: "האמן 4"
         Unplug9: "Relay Programming"
-        Farmer3: "The Farmer 3"
-        Unplug10: "The Internet"
-        Artist5: "The Artist 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Farmer3: "האיכר 3"
+        Unplug10: "האינטרנט"
+        Artist5: "האומן 5"
+        Unplug11: "סיום"
+        MazeEC: "המבוך"
     trophy:
       name:
-        Bronze: "Bronze"
-        Silver: "Silver"
-        Gold: "Gold"
+        Bronze: "ארד"
+        Silver: "כסף"
+        Gold: "זהב"
     concept:
       description:
-        sequence: "Sequence"
-        if: "If block"
-        if_else: "If-else block"
-        loop_times: "Repeat times block"
-        loop_until: "Repeat until block"
-        loop_while: "While block"
-        loop_for: "Counter block"
-        function: "Functions"
+        sequence: "רצף"
+        if: "בלוק ״אם״"
+        if_else: "בלוק ״אם-אחרת״"
+        loop_times: "בלוק ״חזור פעמים״"
+        loop_until: "בלוק ״חזור עד״"
+        loop_while: "בלוק ״כל עוד״"
+        loop_for: "בלוק ״מונה״"
+        function: "פונקציות"
         parameters: "Functions with parameters"
     level:
       instructions:
@@ -82,7 +82,7 @@
         maze_2_8: 'To solve this one, try a "repeat" block with these 3 blocks inside it: move, move, turn.'
         maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
         maze_2_10: "Ok, one last time for practice - can you solve this one using only 4 blocks?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
+        maze_2_11: "איש יקר. אני זומבי. אני רעב. חייב... להגיע.... אל החמנית... אתה יכול להוביל אותי לשם באמצעות 5 בלוקים בלבד?"
         maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
         maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
         maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
@@ -93,7 +93,7 @@
         maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'
-        turtle_1_3: "Make a square using only 3 blocks."
+        turtle_1_3: "צור ריבוע באמצעות 3 בלוקים בלבד."
         turtle_1_4: |-
           Draw a triangle whose sides are all in different colors, using the "random color" option that picks a different color each time. Hint: you'll have to figure out how far to turn by clicking on the number in the turn block.
         turtle_1_5: "Now, for practice, draw a triangle and then a square to draw an envelope."
@@ -157,17 +157,16 @@
         maze_karel_2_8: 'Use this new function, "avoid the cow and remove 1", to help me remove all the piles.'
         maze_karel_2_9: "Ok, here's a function that removes 4 different piles of dirt in a vertical column. Try putting this function inside a loop, so that you remove all the piles of dirt using only a few new blocks."
         maze_karel_2_10: "Move me across the field, and use these two functions to help me remove all the piles and fill all the holes."
-        turtle_3_1: |-
-          This puzzle shows you how the "draw a square" and "draw a circle" functions are defined.  Defining a function doesn't run its blocks.  You have to pull out the "draw a square" block to actually draw a square.
-        turtle_3_2: 'Using the "draw a square" function as an example, create a "draw a triangle" function and use it.'
-        turtle_3_3: "Draw triangular fences around the cats and a square fence around the cow.  Tip: test the program as you go along."
-        turtle_3_4: 'See if you can figure out how to use "draw a square" and "draw a triangle" (and some other blocks) to draw a house around the lion.'
+        turtle_3_1: 'חידה זו מראה לך איך פונקציות "צייר ריבוע" ו- "צייר עיגול" מוגדרות. הגדרת פונקציה אינה מפעילה את הבלוקים שלה. עליך למשוך את הבלוק "צייר ריבוע" כדי באמת לצייר ריבוע.'
+        turtle_3_2: 'תוך שימוש בפונקציה "צייר ריבוע" כדוגמה, צור פונקציה של "צייר משולש" והשתמש בה.'
+        turtle_3_3: "צייר גדרות משולשות סביב החתולים וגדר מרובעת סביב הפרה. עצה: בדוק את התוכנית במהלך הכתיבה."
+        turtle_3_4: 'בוא נראה אם אתה יכול להשתמש ב- "צייר ריבוע" ו- "צייר משולש" (וגם מספר בלוקים אחרים) כדי לצייר בית מסביב לאריה.'
         turtle_3_5: 'Now create a new "draw a house" function and use it to house two cats. Hint: create a new function using the "do something" block, and type your own text to name the block.'
         turtle_3_6: 'Using "draw a square" as an example, add an input named "length" to "draw a triangle". Then, draw triangles in different sizes. (Hint: click the star to add an input to a function)'
         turtle_3_7: 'Add an input named "length" to "draw a house" and build a big house for the elephant (with edges 150 pixels long)'
-        turtle_3_8: 'Here are all of the blocks from the previous puzzle.  Modify "draw a house" so I end up at the bottom right corner after drawing a new house. Use this modified function to draw three houses.'
-        turtle_3_9: 'Can you re-create the "draw a house" function without help? Try it, and then draw a row of houses.'
-        turtle_3_10: "You've learned a lot! Now use it to draw whatever you want. Try to draw a star, or a spiral, or a fancy snowflake."
+        turtle_3_8: 'להלן כל הבלוקים של החידה הקודמת.  שנה את "צייר בית" כך שאני אסיים בפינה הימנית התחתונה לאחר ציור בית חדש. השתמש בפונקציה ששונתה כדי לצייר שלושה בתים.'
+        turtle_3_9: 'האם תוכל ליצור מחדש את פונקציית "צייר בית" ללא עזרה? נסה את זה ולאחר מכן צייר שורת בתים.'
+        turtle_3_10: "למדת הרבה! עתה השתמש בזה כדי לצייר את מה שאתה רוצה. נסה לצייר כוכב, או ספירלה, או פתית שלג מהודר."
         maze_karel_debug_seq_1: "Welcome to debugging! My code doesn't work right. Can you spot the problem and fix it so that I can get my field flat and ready for planting?"
         maze_karel_debug_seq_2: "What's wrong with this program? How should you fix it so I can remove that pile?"
         maze_karel_debug_repeat: "De-bug this program for me so my field will be nice and flat."
@@ -177,12 +176,12 @@
         maze_karel_debug_function_1: "What should you change about this program to help me remove all the piles?"
         maze_karel_debug_function_2: "Can you de-bug this program for me so I can make my field flat?"
         maze_karel_debug_function_3: "Edit this program so I'll remove all the piles on my field. "
-        turtle_5_1: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
+        turtle_5_1: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
+        turtle_5_2: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
+        turtle_5_3: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
+        turtle_5_4: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
+        turtle_5_5: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
+        turtle_5_6: "נסה להפעיל תוכנית זו ולבצע שינויים כדי לראות מה מתרחש. האם אתה יכול להבין איך התוכנית עובדת? (או למחוק אותה ולהחליף אותה במשהו שונה לגמרי)"
         maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
         maze_3_2: "Write me a program, so I can make it all the way to the pig."
         maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
@@ -196,8 +195,8 @@
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
+        maze_intro: "מבוא למבוך"
+        artist_intro: "מבוא לאמן"
         farmer_intro: "Farmer Intro"
         loop_times: "Repeat Times Block"
         loop_until: "Repeat Until Block"

@@ -3,56 +3,56 @@
     script:
       name:
         20-hour:
-          desc: "K-8 Intro to Computer Science Course"
-          Unplug1: "Stage 1"
-          Maze: "Stage 2"
-          Unplug2: "Stage 3"
-          Unplug3: "Stage 4"
-          Artist: "Stage 5"
-          Unplug4: "Stage 6"
-          Artist2: "Stage 7"
-          Unplug5: "Stage 8"
-          Farmer: "Stage 9"
-          Unplug6: "Stage 10"
-          Artist3: "Stage 11"
-          Unplug7: "Stage 12"
-          Farmer2: "Stage 13"
-          Unplug8: "Stage 14"
-          Artist4: "Stage 15"
-          Unplug9: "Stage 16"
-          Farmer3: "Stage 17"
-          Unplug10: "Stage 18"
-          Artist5: "Stage 19"
-          Unplug11: "Stage 20"
+          desc: "K-8 intro til Computer Videnskabs forløbet"
+          Unplug1: "1. Etape"
+          Maze: "Trin 2"
+          Unplug2: "Trin 3"
+          Unplug3: "Trin 4"
+          Artist: "Trin 5"
+          Unplug4: "Trin 6"
+          Artist2: "Trin 7"
+          Unplug5: "Trin 8"
+          Farmer: "Trin 9"
+          Unplug6: "Trin 10"
+          Artist3: "Trin 11"
+          Unplug7: "Trin 12"
+          Farmer2: "Trin 13"
+          Unplug8: "Trin 14"
+          Artist4: "Trin 15"
+          Unplug9: "Trin 16"
+          Farmer3: "Trin 17"
+          Unplug10: "Trin 18"
+          Artist5: "Trin 19"
+          Unplug11: "Trin 20"
         Hour of Code:
-          desc: "Hour of Code"
-          Maze: "Stage 1"
+          desc: "En Time af Kode"
+          Maze: "Trin 1"
         Edit Code:
-          desc: "Edit Code"
-          MazeEC: "Stage 1"
+          desc: "Redigér Kode"
+          MazeEC: "Trin 1"
     game:
       name:
-        Unplug1: "Introduction to Computer Science"
+        Unplug1: "Introduktion til Computer Videnskab"
         Maze: "Labyrinten"
-        Unplug2: "Computational Thinking"
-        Unplug3: "Graph Paper Programming"
+        Unplug2: "Data-Tænkning"
+        Unplug3: "Programmering på millimeterpapir"
         Artist: "Kunstneren"
-        Unplug4: "Algorithms"
+        Unplug4: "Algoritmer"
         Artist2: "Kunstneren 2"
-        Unplug5: "Functions"
+        Unplug5: "Funktioner"
         Farmer: "Landmanden"
-        Unplug6: "Conditionals"
+        Unplug6: "Betingelser"
         Artist3: "Kunstneren 3"
-        Unplug7: "Song Writing"
+        Unplug7: "Sang Skrivning"
         Farmer2: "Landmanden 2"
-        Unplug8: "Abstraction"
+        Unplug8: "Abstraktion"
         Artist4: "Kunstneren 4"
-        Unplug9: "Relay Programming"
+        Unplug9: "Stafet-programmering"
         Farmer3: "Landmanden 3"
-        Unplug10: "The Internet"
+        Unplug10: "Internettet"
         Artist5: "Kunstneren 5"
-        Unplug11: "Wrap-up"
-        MazeEC: "The Maze"
+        Unplug11: "Afslutning"
+        MazeEC: "Labyrinten"
     trophy:
       name:
         Bronze: "Bronze"
@@ -71,25 +71,25 @@
         parameters: "Funktioner med parametre"
     level:
       instructions:
-        maze_2_2: 'Can you help me to catch the naughty pig? Stack a couple of "move forward" blocks together and press "Run Program" to help me get there. '
-        maze_2_1: "This pig is ruffling my feathers. Help me to find him!"
-        maze_2_2_5: "Trace the path and lead me to the silly pig. Avoid TNT or the feathers will fly!"
-        maze_2_3: "Guide me to the green evilness! (Watch out for TNT)"
-        maze_2_4: "Keep calm and help me to find the bad pig. Otherwise I might get angry!"
-        maze_2_5: "There's a way I can get to the silly pig using only 2 blocks. Can you figure it out?"
-        maze_2_6: "Try to get me to the green intruder using only three blocks."
-        maze_2_7: 'Help me banish this bad piggy using the fewest number of blocks. Try using more than one "repeat times" block.'
+        maze_2_2: 'Kan du hjælpe mig med at fange den slemme gris? Byg et par af "Flyt Fremad" blokkene sammen og tryk "Kør Program" og hjælpe mig med at finde derhen. '
+        maze_2_1: "Denne gris bringer mine fjer i uorden. Hjælp mig med at finde ham!"
+        maze_2_2_5: "Følg sporet og før mig til den tåbelige gris. Undgå TNT ellers vil fjerene flyve væk!"
+        maze_2_3: "Følg mig til det grønne ondskab! Men pas på TNT."
+        maze_2_4: "Bevar roen og hjælp mig med at finde den slemme gris. Ellers bliver jeg vred!"
+        maze_2_5: "Der er en måde at få ram på den fjollede gris, ved brug af kun to blokke. Kan du regne det ud?"
+        maze_2_6: "Forsøg at få mig til den grønne ubudne gæst ved hjælp af kun tre blokke."
+        maze_2_7: 'Hjælp mig med at fjerne denne slemme gris, ved hjælp af færrest mulige blokke. Prøv at bruge mere end én "Gentag" blok.'
         maze_2_8: 'For at løse denne opgave, prøv en "gentage" blok med disse 3 blokke indeni det: fremad, fremad, drej.'
-        maze_2_9: 'Ok, try the new "repeat until" block - it will repeat until I reach the annoying pig.'
+        maze_2_9: 'OK, prøv den nye "Gentag indtil" blok - den vil blive gentaget indtil jeg når den grønne gris.'
         maze_2_10: "Ok, en sidste gang for praksis - kan du løse denne opgave ved brug af kun 4 blokke?"
-        maze_2_11: "Dear person.  Me zombie. Me hungry. Must... get... to sunflower... Can you get me there with only 5 blocks?"
-        maze_2_12: "Ok, this is similar, but slightly different. Can you do it in only 5 blocks?"
-        maze_2_13: 'Use the new "if" block to let me decide when to turn. Hint: you only need one more block, but learn how we set it up so you can do it on your own next time.'
-        maze_2_14: 'Ok, this is just like the last puzzle, but you need to remember how you used the "if" block and the "repeat" block together.'
-        maze_2_15: 'Me want sunflower! Use an "if" block to get me there with the fewest number of blocks.'
-        maze_2_16: "Ok, let's do that again for practice - this isn't very different, but watch out for the chompers!"
-        maze_2_17: 'The "If-else" blocks checks a condition, and then does one thing OR another. To get me to the sunflower try to use this new block.'
-        maze_2_18: 'One more practice of the "if-else" block, can you get it right on your first try?'
+        maze_2_11: "Kære person.  Mig zombie. Mig sulten. Må... nå... til... solsikke... Kan du få mig der med kun 5 blokke?"
+        maze_2_12: "OK, er dette lignende, men lidt anderledes. Kan du gøre det med kun 5 blokke?"
+        maze_2_13: 'Brug den nye "Hvis"-blok til at lade mig beslutte, hvornår jeg skal dreje. Tip: du behøver kun en mere blok, men lær hvordan vi sætter den, så du kan gøre det selv næste gang.'
+        maze_2_14: 'OK, det her er ligesom det sidste puslespil, men du skal huske hvordan du brugte "Hvis" blokken og "repeat" blokken sammen.'
+        maze_2_15: 'Jeg vil have solsikke! Brug en "Hvis" blok til at få mig til solsikken med færrest mulige blokke.'
+        maze_2_16: "OK, lad os gøre at igen for at øve - dette er ikke meget anderledes, men pas på de kødædende planter!"
+        maze_2_17: '"Hvis ellers" blokkene kontrollere en betingelse, og derfefter gør én ting eller en anden. For at få mig itl solsikken, så prøv at bruge denne nye blok.'
+        maze_2_18: 'En mere øvelse med "if-else" blokken, kan du få den rigtig på dit første forsøg?'
         maze_2_19: "Can you add just 3 blocks to help me solve a more complex maze? If you do it right, I can walk any curvy path no matter the length."
         turtle_1_1: "Hi, I'm an artist. You can write code to make me draw almost anything. Use a few blocks to make me draw over the gray lines in the picture."
         turtle_1_2: 'Now, draw a square. NOTE: use your favorite color by picking it in the new "set color" block.'

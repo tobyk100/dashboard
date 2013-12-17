@@ -1,6 +1,23 @@
 class ScriptLevelsController < ApplicationController
   check_authorization
+  before_filter :authenticate_user!, :only => [:solution]
   include LevelsHelper
+
+  def solution
+    authorize! :show, ScriptLevel
+    if current_user.teacher? || current_user.admin?
+      @level = Level.find(params[:level_id])
+      source = LevelSource.find_by_id(@level.ideal_level_source_id)
+      @start_blocks = source ? source.data : ''
+      @game = @level.game
+      @full_width = true
+      @share = true
+      render 'level_sources/show'
+    else
+      flash[:alert] = I18n.t('reference_area.auth_error')
+      redirect_to root_path
+    end
+  end
 
   def show
     authorize! :show, ScriptLevel
@@ -68,6 +85,7 @@ private
       end
     end
 
+    @start_blocks = initial_blocks(current_user, @level)
     @callback = milestone_url(user_id: current_user.try(:id) || 0, script_level_id: @script_level)
     @full_width = true
     @callouts = Callout.select(:element_id, :text, :qtip_at, :qtip_my)

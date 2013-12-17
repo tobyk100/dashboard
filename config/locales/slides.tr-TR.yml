@@ -43,7 +43,7 @@
     artist_intro:
       1:
         image: "notes/stage5_1.jpg"
-        text: "Hi, I'm JR! Every race car team need computer scientists to win. They analyze data from the car to make it go faster."
+        text: "Merhaba, ben JR! Her yarış araba takımı kazanmak için bilgisayar mühendislerine ihtiyaç duyar. Arabanın daha hızlı gitmesi için verileri analiz eder."
       2:
         image: "notes/stage5_2.jpg"
         text: "In these puzzles, you'll be an artist that draws a line behind them everywhere they go."
@@ -158,12 +158,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'

@@ -62,15 +62,15 @@ SQL
     finished_code_map = Hash.new{|h,k| h[k] = [k, 0] }
     unsuccessful_code_map = Hash.new{|h,k| h[k] = [k, 0] }
 
-    Activity.all.where(['level_id = ?', @level.id]).includes(:level_source).order('id desc').limit(1000).each do |activity|
+    Activity.all.where(['level_id = ?', @level.id]).order('id desc').limit(10000).each do |activity|
       if activity.best?
-        best_code_map[activity.level_source.data][1] += 1
+        best_code_map[activity.level_source_id][1] += 1
       elsif activity.passing?
-        passing_code_map[activity.level_source.data][1] += 1
+        passing_code_map[activity.level_source_id][1] += 1
       elsif activity.finished?
-        finished_code_map[activity.level_source.data][1] += 1
+        finished_code_map[activity.level_source_id][1] += 1
       else
-        unsuccessful_code_map[activity.level_source.data][1] += 1
+        unsuccessful_code_map[activity.level_source_id][1] += 1
       end
     end
 

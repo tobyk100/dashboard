@@ -8,11 +8,13 @@
 - content_for :body_scripts do
   -# Common scripts and styles
   - blockly_path = "#{ActionController::Base.asset_host}/blockly/"
+  -# If no param, take default
+  - pretty = params.fetch(:pretty, Rails.configuration.pretty_blockly)
   %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
   %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
 
   %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
-  %script{src: "#{blockly_path}js/#{js_locale}/#{app}.js?v=#{blockly_cache_bust}"}
+  %script{src: "#{blockly_path}js/#{js_locale}/#{app}#{pretty ? '' : '.min'}.js?v=#{blockly_cache_bust}"}
 
   - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
   - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
@@ -29,6 +31,10 @@
   - if @autoplay_video_info
     :javascript
       showVideo(#{@autoplay_video_info.to_json})
+
+  - share = false if local_assigns[:share].nil?
+  - hide_source = false if local_assigns[:hide_source].nil?
+  - start_blocks = false if local_assigns[:start_blocks].nil?
 
   :javascript
     // See assets/javascripts/sendReport for definition of nextRedirect etc.
@@ -70,15 +76,19 @@
         return referenceDiv[0];
       },
       levelId: '#{@level.level_num}',
-      showInstructionsWrapper: function(handler) {
-        if ('#{@autoplay_video_info}') {
-          $('.video-modal').on('hidden.bs.modal', function () {
-            handler();
-          });
-        } else {
-          handler();
+      showInstructionsWrapper: function(showInstructions) {
+        if (#{not share}) {
+          if ('#{@autoplay_video_info}') {
+            $('.video-modal').on('hidden.bs.modal', function () {
+              showInstructions();
+            });
+          } else {
+            showInstructions();
+          }
         }
       },
+      hide_source: #{hide_source},
+      share: #{share},
       level: {
         puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
         stage_total: #{@script ? @script.script_levels_from_game(@level.game_id).length : @level.game.levels.count},
@@ -86,7 +96,7 @@
         levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
         other1StarError: '#{escape_javascript(@other1StarError)}',
         tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
-        #{start_blocks(current_user, @level)}
+        #{("startBlocks: '" + start_blocks + "'") if start_blocks}
       },
       skinId: '#{@level.skin}'
     });

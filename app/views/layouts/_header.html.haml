@@ -75,6 +75,7 @@
       - if current_user
         .header_text{style: "float: right;"}= t('nav.popup.lines', lines: current_user.total_lines)
     .header_popup_body{id: "headerPopupBody"}
+      .loading
     .header_popup_footer
       %div{id: "popupClose", onclick: "togglePopup();"}
         = t('nav.popup.close')
@@ -110,11 +111,13 @@
       $(".transparent_backdrop").toggle();
     }
   }
+  var loadedPopup = false;
   handlePopupClick = function () {
-    if ($("#headerPopupBody").html() == "") {
+    if (!loadedPopup) {
+      loadedPopup = true;
+      togglePopup();
       $.ajax({url:'#{header_stats_path()}', success:function(result) {
           $("#headerPopupBody").html(result);
-          togglePopup();
         }
       });
     }

@@ -59,6 +59,7 @@ Dashboard::Application.configure do
 
   # Use geocoder server that is "internal" to AWS to improve performance.
   config.geocoder_server = "ip-10-164-38-97.ec2.internal"
+  config.geocoder_timeout = 0.5
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
@@ -91,4 +92,6 @@ Dashboard::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+  # Whether or not to display pretty blockly.
+  config.pretty_blockly = false
 end

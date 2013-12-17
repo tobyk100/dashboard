@@ -25,20 +25,27 @@ class PrizeProvidersController < ApplicationController
   def claim_prize
     raise 'no prize_provider' if !@prize_provider.present?
     raise 'type parameter missing' if !params[:type].present?
+    
     # confirm that user is in the US here
     eligible = true if eligible_for_prize?
     if eligible
       prize = case params[:type].downcase
       when 'teacher'
-        TeacherPrize.assign_to_user(current_user, @prize_provider)
+        earned = current_user.teacher_prize_earned
+        existing_prize_id = current_user.teacher_prize_id
+        TeacherPrize.assign_to_user(current_user, @prize_provider) if earned && !existing_prize_id
         # e-mail confirmation with code?
         # PrizeMailer.prize_redeemed(user).deliver
       when 'teacher_bonus'
-        TeacherBonusPrize.assign_to_user(current_user, @prize_provider)
+        earned = current_user.teacher_bonus_prize_earned
+        existing_prize_id = current_user.teacher_bonus_prize_id
+        TeacherBonusPrize.assign_to_user(current_user, @prize_provider) if earned && !existing_prize_id
         # e-mail confirmation with code?
         # PrizeMailer.teacher_prize_redeemed(user).deliver
       when 'student'
-        Prize.assign_to_user(current_user, @prize_provider)
+        earned = current_user.prize_earned
+        existing_prize_id = current_user.prize_id
+        Prize.assign_to_user(current_user, @prize_provider) if earned && !existing_prize_id
         # e-mail confirmation with code?
         # PrizeMailer.teacher_bonus_prize_redeemed(user).deliver
       else
@@ -50,6 +57,10 @@ class PrizeProvidersController < ApplicationController
       redirect_to my_prizes_url, notice: t('redeem_prizes.success')
     elsif !eligible
       redirect_to my_prizes_url, alert: t('redeem_prizes.error_us_only')
+    elsif !earned
+      redirect_to my_prizes_url, alert: t('redeem_prizes.error_not_earned')
+    elsif existing_prize_id.present?
+      redirect_to my_prizes_url, alert: t('redeem_prizes.error_already_redeemed')
     else
       redirect_to my_prizes_url, alert: t('redeem_prizes.error')
     end

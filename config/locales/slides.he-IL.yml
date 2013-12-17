@@ -3,31 +3,31 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Welcome to your first hour of code! Let's dive right into your first taste of programming."
+        text: "ברוכים הבאים אל שעת הקוד הראשונה שלכם! בואו נצלול אל תוך הטעימה הראשונה שלכם בתכנות."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "We'll be using Blockly, a visual programming language where you drag and drop blocks to write code."
+        text: "אנחנו נשתמש בבלוקלי, שפת תכנות חזותית בה קוד נכתב על ידי גרירה ושחרור של בלוקים."
       3:
         image: "notes/hoc1_3.jpg"
-        text: 'Most code is typed, but Blockly is visual. Each blocks corresponds to a line of "real" code.'
+        text: 'רוב תוכניות המחשב נכתבות, אבל בלוקלי הינה שפה חזותית. כל בלוק מקביל לשורת קוד "אמיתית" אחת.'
       4:
         image: "notes/hoc1_4.jpg"
-        text: "You'll learn the foundations of computer science, concepts which are used anywhere from making apps to controlling the Mars rover."
+        text: "כאן תלמד את יסודות מדעי המחשב, מושגים אשר משמשים בכל מקום מיצירת אפליקציות ועד שליטה על רכב החלל במאדים."
       5:
         image: "notes/hoc1_5.jpg"
-        text: "A program is a set of instructions for your computer to follow."
+        text: "תוכנית היא אוסף של הוראות אשר על המחשב שלך לבצע."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "The goal of your first program is to get an Angry Bird through a maze to hit a Green Pig."
+        text: "המטרה של התוכנית הראשונה שלך היא להעביר את הציפור הכועסת דרך מבוך ולהכות חזיר ירוק."
       7:
         image: "notes/hoc1_7.jpg"
-        text: "The left side is the maze where your program is run. The instructions for each puzzle are below the maze."
+        text: "הצד השמאלי הוא המבוך בו התוכנית שלך מופעלת. ההוראות עבור כל פאזל נמצאות מתחת למבוך."
       8:
         image: "notes/hoc1_8.jpg"
-        text: "The middle toolbox has the commands for the Angry Bird. You'll use these to build your code."
+        text: "ההוראות עבור הציפור הכועסת נמצאות בארגז הכלים האמצעי. השתמש בהן כדי לבנות את הקוד שלך."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "On the right is your workspace where you'll drag blocks from the toolbox to build your program. To delete a block, drag it to the trash in the corner."
+        text: "מצד ימין נמצאת סביבת העבודה, אליה תגרור בלוקים מארגז הכלים כדי לבנות את התוכנית שלך. כדי למחוק בלוק, גרור אותו אל פח האשפה שבפינה."
       10:
         image: "notes/hoc1_10.jpg"
         text: 'Each block is one instruction. If you drag a "move forward" block to your workspace and press "Run Program", the bird moves one space on the maze.'
@@ -165,12 +165,12 @@
       5:
         image: "notes/stage13_5.jpg"
         text: |-
-          Let's put the "fun" back in "FUNction!" 
+          Let's put the "fun" back in "FUNction!"
     loop_while:
       1:
         image: "notes/stage9_5.jpg"
         text: |-
-          Hi, I'm Makinde! Let's learn about the "while block." 
+          Hi, I'm Makinde! Let's learn about the "while block."
       2:
         image: "notes/stage9_6.jpg"
         text: 'The "while block" will do whatever you put inside it AS LONG AS the statment on the top is TRUE.'
@@ -222,14 +222,14 @@
         text: "Congratulations! With the last puzzle you solved, you just wrote code that can tell ANY robot how to find it's way through a non-branching maze or tunnel of any length, whether it's a zombie, a bird, a mars rover, or even a self-driving car."
       2:
         image: "notes/hoc6_2.jpg"
-        text: "The basic concepts you used are at the heart of every program or app you'll ever try.  We learned about repeat loops, repeat until statements, if statements, and if else statements."
+        text: "המושגים הבסיסיים בהם השתמשת הם בליבה של כל תוכנית או אפליקציה שאי פעם תנסה. למדנו על לולאות ״חזור״, הצהרות ״חזור-עד״,  הצהרות ״אם״ והצהרות ״אם-אחרת״."
       3:
         image: "notes/hoc6_3.jpg"
-        text: "If you liked your first hour of code, visit code.org to continue your education into computer science! Once you complete our 20 hour course, you'll have mastered the basics of programming, and can start learning how to write phone apps, robot instructions, games, you name it."
+        text: "אם אהבת את השעה הראשונה של קוד שלך, בקר ב- code.org כדי להמשיך בלימוד מדעי המחשב! לאחר השלמת הקורס בן 20 השעות שלנו, תשלוט ביסודות התכנות, ותוכל ללמוד כיצד לכתוב אפליקציות לטלפון, הוראות הפעלה לרובוט, משחקים ומה שתרצה."
       4:
         image: "notes/hoc6_4.jpg"
-        text: "Technology is changing everything we do and it doesn't matter if you're young or old: programming is fun, it's creative, and anyone can learn!"
+        text: "הטכנולוגיה משנה את כל מה שאנו עושים ולא משנה אם אתה צעיר או זקן: תכנות זה כיף, זה יצירתי וכל אחד יכול ללמוד!"
     20_wrapup:
       1:
         image: "notes/bird.png"
-        text: "Show notes coming soon!"
+        text: "הצגת הערות תגיע בקרוב!"

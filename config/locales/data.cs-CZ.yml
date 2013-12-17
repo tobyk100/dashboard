@@ -195,9 +195,7 @@
         maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
     video:
       name:
-        maze_intro: |
-          Intro Bludiště
-          
+        maze_intro: "Intro Bludiště"
         artist_intro: "Intro Umělec"
         farmer_intro: "Intro Farmář"
         loop_times: "Repeat Times Block"

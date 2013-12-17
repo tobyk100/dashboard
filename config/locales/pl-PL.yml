@@ -122,7 +122,7 @@
     success: "Twoja nagroda została z powodzeniem odebrana, zobacz poniższy kod."
     error: "Twoja nagroda nie może być odebrana, spróbuj ponownie."
     error_us_only: "Oferta nagrody dotyczy tylko użytkowników w USA."
-    no_prizes_available: "Przykro nam, ale obecnie nie mamy żadnej nagrody do zaoferowania."
+    no_prizes_available: "We're sorry, but we currently have no prizes available yet. Please check back next week!"
     confirm:
       title: "Prosimy o potwierdzenie"
       "no": Nie
@@ -149,12 +149,12 @@
       not_earned_title: "Zakończenie kursu, weź nagrodę (tylko dla uczniów z USA)"
       not_earned: "Poznaj wszystkie pojęcia informatyczne, zbierz wszystkie trofea %{num_trophies} i odbierz prawdziwe nagrody. Możesz wybrać spośród 10$ kart podarunkowych iTunes, 10GB wolnego miejsca na Dropbox, 10$ kredytu Skype i pobrać darmowe gry. Uwaga: oferta ważna dla uczniów z USA i tylko do wyczerpania zapasów."
       teacher:
-        earned: "10 lub więcej uczniów zebrało wszystkie trofea %{num_trophies}. Wygrałeś nagrodę nauczyciela w wysokości 750$! (tylko dla nauczycieli z USA)"
+        earned: "10 or more students collected all %{num_trophies} trophies. You have won a teacher prize! (U.S. teachers only)"
         not_earned_title: 'Ucz klasę, by otrzymać do 1000$ kredytu <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> (tylko dla nauczycieli w USA)'
         not_earned: 'Aby nagrodzić nauczyciela, który po raz pierwszy uczy informatyki, możesz otrzymać do 1000$ <a href="http://DonorsChoose.org"> DonorsChoose.org</a> kredytów za pokierowanie klasą przez kurs wprowadzający K-8. Aby się zakwalifikować, musisz z powodzeniem przeprowadzić co najmniej 10 uczniów przez cały kurs wprowadzający K-8, i wszystkich 10 (lub więcej) uczniów musi ukończyć wszystkie samouczki i zdobyć wszystkie trofea %{num_trophies}. Jeśli wśród Twoich uczniów, którzy zdobyli wszystkie trofea, jest co najmniej 40% dziewcząt, Twoja nagroda wynosi 1000$ w kredytach <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>. W przeciwnym razie Twoja nagroda wynosi 750$ w kredytach <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>. Kredyty <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> mogą być wykorzystane tylko przez nauczycieli w szkołach publicznych w USA.'
         bonus:
           not_earned_title: 'Nadal możesz otrzymać dodatkowe 250$ w kredytach <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredytów (tylko dla nauczycieli w USA)'
-          earned: "7 lub więcej Twoich uczniów, którzy zebrali wszystkie trofea %{num_trophies}, to dziewczęta. Wygrałeś 250$ ekstra nagrodę! (Tylko dla nauczycieli z USA)"
+          earned: "7 or more of the students who collected all %{num_trophies} trophies are girls. You have won a bonus prize! (U.S. teachers only)"
           not_earned: 'Jeśli wśród Twoich uczniów, którzy zebrali wszystkie trofea %{num_trophies}, jest przynajmniej 7 dziewcząt, to Twoja nagroda jest wyższa o 250$ w kredytach <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>. Kredyty <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> mogą być wykorzystane tylko przez nauczycieli ze szkół publicznych w USA.'
   crud:
     new_model: "Nowy %{model}"

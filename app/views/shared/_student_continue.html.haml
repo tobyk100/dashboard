@@ -1,0 +1,10 @@
+#last
+  - script_level = current_user.next_untried_level(Script.twenty_hour_script)
+  - if script_level
+    #left_off #{t('home.student_left_off')} 
+    #{data_t_suffix('script.name', Script.twenty_hour_script.name, script_level.level.game.name)} #{t('puzzle')} #{script_level.game_chapter}
+    &nbsp;
+    = form_tag(build_script_level_url(script_level), method: 'get', style: "display:inline;") do
+      = submit_tag t('continue'), name: nil, class: 'btn btn-primary button-continue', id: 'continue_button'
+  - elsif include_finished
+    = render partial: 'shared/student_finished', locals: { include_prize_link: true }

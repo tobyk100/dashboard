@@ -21,7 +21,7 @@
   %br/
   %br/
 - if devise_mapping.omniauthable?
-  - resource_class.omniauth_providers.each do |provider|
+  - [:google_oauth2, :facebook, :twitter, :windowslive].each do |provider|
     = link_to image_tag("auth/#{provider}.png"), omniauth_authorize_path(resource_name, provider)
     = link_to t('auth.sign_in_with', provider: t("auth.#{provider}")), omniauth_authorize_path(resource_name, provider)
     %br/

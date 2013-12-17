@@ -177,31 +177,30 @@
         turtle_5_2: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         turtle_5_3: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
         turtle_5_4: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_5: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        turtle_5_6: "Try running this program, and make changes to see what happens. Can you figure out how it works? (Or delete it and replace it with something totally different)"
-        maze_3_1: "I need to get to that pig! Type in a couple of calls to move(); so I can get my eggs back."
-        maze_3_2: "Write me a program, so I can make it all the way to the pig."
-        maze_3_3: "How should I get to the pig? Make sure I don't run into the box of TNT!"
-        maze_3_4: "Argh! Write me a program that gets me around the TNT and to the pig."
+        turtle_5_5: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
+        turtle_5_6: "Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen farklı bir şey ile değiştirin)"
+        maze_3_1: "O domuzu almam gerek! Birkaç telefon görüşmesi için move() yazın; böylece yumurtalarımı geri alabilirim."
+        maze_3_2: "Bana bir program yaz, böylece domuza giden tüm yolları yapabileyim."
+        maze_3_3: "Domuzu nasıl alabilirim? TNT kutusuna doğru gitmediğimden emin olun!"
+        maze_3_4: "Ahh! Beni TNT ve domuz çevresine alan bir program yazın."
       levelIncompleteError:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Bunu çözmek için yinelenen denetim örneğini bulun. "repeat" bloğunu bu 3 blok ile kullanın: yürüyün, yürüyün, sağa dönün.'
       other1StarError:
-        maze_2_14: |-
-          You need an "if" block inside a "repeat" block. If you're having trouble, try the previous level again to see how it worked.
+        maze_2_14: '"repeat" bloğu içinde "if" bloğuna ihtiyacın var. Sorun yaşıyorsanız, nasıl çalıştığını anlamak için önceki seviyeyi deneyin.'
       tooFewBlocksMsg:
-        maze_2_8: 'To solve this, find the pattern that repeats. Use a "repeat" block with these 3 blocks inside it: move, move, turn right.'
+        maze_2_8: 'Bunu çözmek için yinelenen denetim örneğini bulun. "Tekrar" ı blok içindeki bu 3 blok ile kullanın: yürüyün, yürüyün, sağa dönün.'
     video:
       name:
-        maze_intro: "Maze Intro"
-        artist_intro: "Artist Intro"
-        farmer_intro: "Farmer Intro"
-        loop_times: "Repeat Times Block"
-        loop_until: "Repeat Until Block"
-        if: "If Block"
-        if_else: "If/else Block"
+        maze_intro: "Labirent girişi"
+        artist_intro: "Sanatçı girişi"
+        farmer_intro: "Çiftçi girişi"
+        loop_times: "Bloğu tekrarlayın"
+        loop_until: "Blok kadar tekrarlayın"
+        if: "if bloğu"
+        if_else: "İf/else bloğu"
         function: "Fonksiyonlar"
-        loop_while: "While Block"
-        loop_for: "Counter Block"
-        parameters: "Functions with Parameters"
-        hoc_wrapup: "Hour of Code Wrapup"
-        20_wrapup: "20-Hour Wrapup"
+        loop_while: "while bloğu"
+        loop_for: "Sayaç bloğu"
+        parameters: "Fonksiyon parametreleri"
+        hoc_wrapup: "Kod saatini tamamla"
+        20_wrapup: "20 saati tamamla"
