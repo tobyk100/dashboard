@@ -14,7 +14,7 @@ class LevelSourcesController < ApplicationController
 
   def show_image
     @level_source = LevelSource.find(params[:id])
-    @level_source.image.nil? ? ActionController::Base.helpers.asset_url('sharing_drawing.png') : url_for(:controller => "level_sources", :action => "generate_image", :id => params[:id], only_path: false)
+    @level_source.image.nil? ? ActionController::Base.helpers.path_to_image('sharing_drawing.png') : url_for(:controller => "level_sources", :action => "generate_image", :id => params[:id], only_path: false)
   end
 
   def generate_image
