@@ -1,6 +1,6 @@
 class ReportsController < ApplicationController
   before_filter :authenticate_user!, except: [:header_stats]
-  check_authorization except: [:all_usage, :level_stats, :students, :header_stats]
+  check_authorization except: [:all_usage, :level_stats, :students, :header_stats, :admin_stats, :admin_progress]
 
   before_action :set_script
 
@@ -45,6 +45,47 @@ SQL
 
     @recent_activities = get_base_usage_activity
     render 'usage', formats: [:html]
+  end
+
+  def admin_stats
+    raise "unauthorized" if !current_user.admin?
+    
+    SeamlessDatabasePool.use_persistent_read_connection do
+      @user_count = User.count
+      @teacher_count = User.where(:user_type => 'teacher').count
+      @student_count = @user_count - @teacher_count
+      @users_with_teachers = Follower.distinct.count(:student_user_id)
+      @users_with_email = User.where('email <> ""').count
+ 
+      @prizes_redeemed = Prize.where('user_id IS NOT NULL').group(:prize_provider).count
+      @prizes_available = Prize.where('user_id IS NULL').group(:prize_provider).count
+      
+      @student_prizes_earned = User.where(:prize_earned => true).count
+      @student_prizes_redeemed = Prize.where('user_id IS NOT NULL').count
+      @student_prizes_available = Prize.where('user_id IS NULL').count
+
+      @teacher_prizes_earned = User.where(:teacher_prize_earned => true).count
+      @teacher_prizes_redeemed = TeacherPrize.where('user_id IS NOT NULL').count
+      @teacher_prizes_available = TeacherPrize.where('user_id IS NULL').count
+      
+      @teacher_bonus_prizes_earned = User.where(:teacher_bonus_prize_earned => true).count
+      @teacher_bonus_prizes_redeemed = TeacherBonusPrize.where('user_id IS NOT NULL').count
+      @teacher_bonus_prizes_available = TeacherBonusPrize.where('user_id IS NULL').count
+    end
+  end
+
+  def admin_progress
+    raise "unauthorized" if !current_user.admin?
+    
+    SeamlessDatabasePool.use_persistent_read_connection do
+      @user_count = User.count
+      @all_script_levels = Script.twenty_hour_script.script_levels.includes({ level: :game })
+ 
+      @levels_attempted = User.joins(:user_levels).group(:level_id).where('best_result > 0').count
+      @levels_passed = User.joins(:user_levels).group(:level_id).where('best_result >= 20').count
+
+      @stage_map = @all_script_levels.group_by { |sl| sl.level.game }
+    end
   end
 
   def students
