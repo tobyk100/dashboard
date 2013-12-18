@@ -65,7 +65,7 @@
         text: "Tienes que ayudarla a quitar todos los montones de tierra y rellenar todos los huecos."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
+        text: "Los nuevos bloques eliminan una palada llena de tierra de una pila y rellanan  con una palada de tierra un hueco."
       4:
         image: "notes/stage9_4.jpg"
         text: "Los montones y los huecos son de diferente tamaño así que tienes que decir al granjero cuantas palas debe usar."
@@ -151,8 +151,7 @@
         text: 'Los bloques que se encuentran dentro de la definición nos dicen qué hace. Así que esta definición de función se llama "rellena 5" y está formada por un bloque "repetir" y un bloque "rellenar".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
+        text: 'La definición se encuentra en el espacio de trabajo, pero nuestro agricultor no ejecutara la función hasta que arrastramos el bloque "llenar 5" boque de función de la categoría de funciones.'
       5:
         image: "notes/stage13_5.jpg"
         text: "¡Volvamos a hacer divertidas las funciones! "
@@ -165,7 +164,7 @@
         text: 'El "bloque mientras que (While)" hará todo lo que pones en su interior mientras la declaración en la parte superior es TRUE (Cierta).'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
+        text: "Por ejemplo, si la granjera está sobre una pila, continuará eliminando una palada mientras(WHILE) aún haya una pila debajo de ella."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

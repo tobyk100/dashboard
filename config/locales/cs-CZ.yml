@@ -53,7 +53,7 @@
     prizes_message: "Studenti z USA, kteří získají všech %{num_trophies} trofejí v pojmech mohou vybírat z nabídky cen obsahující např. volné místo na Dropbox, Skype kredity a stáhnutelné hry od Electronic Arts a Valve."
     teacher_educator_guide: "Podívat se na průvodce učitele"
     teacher_prize_header: 'Vyhraj 1,000$ v odměnách na <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: 'Ve spolupráci s <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org nabízí dotaci až 1,000$ učitelům veřejných škol v USA, kteří provedou tímto kurzem alespoň 15 studentů. <a href="http://code.org/educate/20hr">Shlédnout pedagogický průvodce pro více informací.</a> '
     teacher_pitch: "Vyučuj K-8 Úvod do Počítačových Věd ve své třídě"
     teacher_title: "Registrace učitele"
     student_pitch: "Po 1 hodině: vyzkoušej náš K-8 Úvod do Počítačových Věd"
@@ -132,7 +132,7 @@
       "yes": Ano
       msg: "Jste si jistí, že si chcete nárokovat %{prize_name} ocenění?"
       msg_student: "NOTE: You can only choose one type of prize."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Prosím potvrďte, že jste učitel veřejné školy v USA."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"

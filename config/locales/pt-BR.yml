@@ -50,10 +50,10 @@
     no_signup_header: "Não quer se registar?"
     no_signup_message: 'Você pode <a target="_blank" href="http://learn.code.org"> consultar as várias fases e quebra-cabeças</a>, mas você precisará inscrever-se para gravar seu progresso.'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "Estudantes dos EUA que ganharem todos os %{num_trophies} troféus de conceito podem selecionar uma variedade de prêmios, incluindo espaço grátis no Dropbox, créditos Skype e download de jogos da Electronic Arts e da Valve."
     teacher_educator_guide: "Consulte o guia do educador"
     teacher_prize_header: 'Ganhe $1000 em recompensas de <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: 'Em parceria com a <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org vai oferecer até US $1.000 em recursos de sala de aula para professores de escolas públicas dos EUA que conduzirem pelo menos 15 alunos através deste curso. <a href="http://code.org/educate/20hr">Ver guia do educador para obter mais informações.</a> '
     teacher_pitch: "Ensinar Introdução à Ciência da Computação para o Ensino Fundamental em sua sala de aula"
     teacher_title: "Professor inscreva-se"
     student_pitch: "Para além de 1 hora: Tente nossa Introdução à Ciência da Computação para Ensino Fundamental"
@@ -108,7 +108,7 @@
       username_not_found: "Nome de usuário %{username} não encontrado"
       username_in_use: "%{username} já está em uso, por favor escolha outro"
       no_teacher: "Não consegui encontrar ninguém que se cadastrou com '%{teacher_email_or_code}'. Por favor, peça-lhes para se inscrever aqui e tente adicioná-los novamente"
-      blank_code: "Please enter a code or your teacher's email address"
+      blank_code: "Por favor, insira um código ou endereço de e-mail do seu professor"
     mail:
       invite_student:
         subject: "Junte-se a uma aula com %{teacher_name} em Code.org!"
@@ -123,22 +123,22 @@
     success: "Seu prêmio foi resgatado com êxito, veja o código abaixo."
     error: "O prêmio não pode ser resgatado, por favor tente novamente."
     error_us_only: "A oferta do prêmio só é válida para usuários nos Estados Unidos."
-    error_not_earned: "You have not yet earned this prize."
-    error_already_redeemed: "Your prize has already been redeemed."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_not_earned: "Você ainda não ganhou esse prêmio."
+    error_already_redeemed: "Seu prêmio já foi reivindicado."
+    no_prizes_available: "Pedimos desculpas, mas atualmente não temos prêmios disponíveis."
     confirm:
       title: "Por favor, confirme"
       "no": Não
       "yes": Sim
       msg: "Tem certeza que quer reivindicar o prêmio %{prize_name}?"
       msg_student: "NOTA: Você só pode escolher um tipo de prêmio."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Por favor, confirme que você é um professor de escola pública dos EUA."
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "10GB de espaço no Dropbox"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
@@ -150,7 +150,7 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Você ganhou um prêmio! (Somente para estudantes dos EUA)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Aprenda todos os conceitos de ciência da computação, recolha todos os %{num_trophies} troféus e ganhe prêmios reais. Você pode escolher entre 10GB de armazenamento gratuito do Dropbox, US $10 em créditos no Skype, e downloads de jogos grátis. Nota: oferta válida somente para estudantes dos EUA e apenas enquanto durarem os estoques."
       teacher:
         earned: "10 ou mais alunos receberam todos os %{num_trophies} troféus. Você ganhou um prêmio de professor! (Somente para professores dos EUA)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -228,8 +228,8 @@
     student_progress: "Seu progresso de aprendizagem"
     student_stats: 'Você ganhou  %{trophy_count} de %{trophy_max} em troféus de "Conceito de Maestria".'
     student_left_off: "Onde você parou:"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "Você completou todos os tutoriais, reivindique seu %{prize_link} e escolha outra aula em %{online_link} ou %{local_school_link}"
+    student_finished: "Você completou todos os tutoriais, escolha outra aula em %{online_link} ou %{local_school_link}"
     local_school: "escola local"
     online: "on-line"
     see_details: "Ver detalhes"
@@ -254,8 +254,8 @@
   reference_area:
     title: "Precisa de ajuda?"
     subtitle: "Assista a estes vídeos e dicas"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "Ver a solução"
+    auth_error: "Você não está autorizado a ver a solução."
   video:
     tab: "Vídeo."
     notes: "Nenhum vídeo? Mostrar notas."
@@ -269,4 +269,4 @@
   next_stage: "Concluído! Continuar para a próxima fase"
   download_pdf: "Abra o planejamento da aula"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Clique em 'Executar programa' para ver o meu programa em ação"

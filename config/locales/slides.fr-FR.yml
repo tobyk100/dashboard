@@ -3,31 +3,31 @@
     maze_intro:
       1:
         image: "notes/hoc1_1.jpg"
-        text: "Bienvenue à votre première heure de code! Plongeons dans votre premier goût de la programmation."
+        text: "Bienvenue à votre première heure de code! Plongeons dans votre premier avant-goût de la programmation."
       2:
         image: "notes/hoc1_2.jpg"
-        text: "Nous allons utiliser Blockly, un langage de programmation visuel où vous glissez et déposer les blocs pour écrire le code."
+        text: "Nous allons utiliser Blockly, un langage de programmation visuel où vous glissez et déposer des blocs pour écrire le code."
       3:
         image: "notes/hoc1_3.jpg"
-        text: "La plupart du code est tapé, mais Blockly est visuelle. Chaque bloc correspond à une ligne de code « réel »."
+        text: "La plupart du temps le code est écrit, mais Blockly est visuel. Chaque bloc correspond à une ligne de code « réelle »."
       4:
         image: "notes/hoc1_4.jpg"
-        text: "Vous allez apprendre les fondements de l'informatique, des concepts qui sont utilisés n'importe où en partant de la création d'application jusqu'au contrôle du rover de Mars."
+        text: "Vous allez apprendre les fondements de l'informatique, des concepts qui sont utilisés n'importe où : de la création d'application jusqu'au contrôle du rover qui s'est posé sur Mars."
       5:
         image: "notes/hoc1_5.jpg"
         text: "Un programme est un ensemble d'instructions à suivre pour ton ordinateur ."
       6:
         image: "notes/hoc1_6.jpg"
-        text: "Le but de ton premier programme est de frapper un cochon vert  dans un labyrinthe grâce à un Angry Bird."
+        text: "Le but de ton premier programme est de guider un Angry Bird dans un labyrinthe pour qu'il puisse atteindre un cochon vert qu'il veut frapper."
       7:
         image: "notes/hoc1_7.jpg"
-        text: "Le côté gauche est le labyrinthe où ton programme est exécuté. Les instructions pour chaque puzzle sont en dessous du labyrinthe."
+        text: "Sur le côté gauche il y a le labyrinthe où ton programme est exécuté. Les instructions pour chaque puzzle sont en dessous du labyrinthe."
       8:
         image: "notes/hoc1_8.jpg"
         text: "La boîte à outils du milieu a les commandes pour les Angry Birds. Tu vas utiliser celles-ci pour construire ton code."
       9:
         image: "notes/hoc1_9.jpg"
-        text: "Sur la droite est ton espace de travail où tu va faire glisser les blocs de la boîte à outils pour construire ton programme. Pour supprimer un bloc, glisse-le dans la corbeille du coin."
+        text: "Sur la droite il y a ton espace de travail où tu va faire glisser les blocs de la boîte à outils pour construire ton programme. Pour supprimer un bloc, glisse-le dans la corbeille du coin."
       10:
         image: "notes/hoc1_10.jpg"
         text: "Chaque bloc est une seule instruction. Si tu fais glisser un bloc « avancer » dans ton espace de travail et appuie sur « Exécuter le programme », l'oiseau se déplace d'une case sur le labyrinthe."

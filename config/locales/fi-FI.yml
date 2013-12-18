@@ -240,7 +240,7 @@
     student_progress: "Edistymisesi"
     student_stats: 'Olet ansainnut %{trophy_count}/%{trophy_max} "käsitteiden hallinta" pokaalia.'
     student_left_off: "Jäit tähän:"
-    student_finished_prize: "Olet suorittanut johdannon. Vastaanota %{prize_link} ja valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
+    student_finished_prize: "Olet suorittanut johdannon. Vastaanota %{prize_link} (raha- ja tavarapalkinnot voimassa vain Yhdysvalloissa) ja valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
     student_finished: "Olet suorittanut johdannon. Valitse toinen luokka täältä %{online_link} tai %{local_school_link}"
     local_school: "koulu"
     online: "online"
