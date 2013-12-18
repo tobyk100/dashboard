@@ -11,7 +11,9 @@
   - if add_section_ui
     %p
       Assign checked students to section:
-      = select_tag('section_id', options_from_collection_for_select(current_user.sections, :id, :name), style: 'margin: 0')
+      - options_select = options_from_collection_for_select(current_user.sections, :id, :name)
+      - options_select += '<option value="NULL">(None)</option'.html_safe
+      = select_tag('section_id', options_select, style: 'margin: 0')
       = submit_tag 'Go'
 
   %fieldset
@@ -20,14 +22,12 @@
         %col{ width: 50 }
         %col{ width: 250 }
         %col{ width: 100 }
-        %col{ width: 175 }
-        %col{ width: 200 }
+        %col{ width: 375 }
 
       %tr
         %th= add_section_ui ? check_box_tag(nil, nil, false, class: :checkall) : ''
         %th Name
         %th Password
-        %th
         %th Section
 
       - @followers.each do |followed|
@@ -35,8 +35,9 @@
           %td= add_section_ui ? check_box_tag('follower_ids[]', followed.id) : ''
           %td.fixed_width_cell= link_to followed.student_user.name || followed.student_user.username, user_stats_path(followed.student_user)
           %td= followed.student_user.email.blank? ? link_to("Edit", student_edit_password_path(followed.student_user)) : ''
-          %td= followed.section.present? ? link_to("Remove from section", student_edit_password_path(followed.student_user)) : ''
-          %td= followed.section.try(:name)
+          %td
+            = followed.section.try(:name)
+            = link_to("(remove)", remove_from_section_path(follower_id: followed.student_user_id, section_id: followed.section_id), method: :post) if followed.section.present?
 
 %br/
 = link_to 'Add student', new_follower_path
