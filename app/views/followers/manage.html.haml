@@ -37,7 +37,7 @@
           %td= followed.student_user.email.blank? ? link_to("Edit", student_edit_password_path(followed.student_user)) : ''
           %td
             = followed.section.try(:name)
-            = link_to("(remove)", remove_from_section_path(follower_id: followed.student_user_id, section_id: followed.section_id), method: :post) if followed.section.present?
+            = link_to("(remove student)", remove_from_section_path(follower_id: followed.student_user_id, section_id: followed.section_id), method: :post) if followed.section.present?
 
 %br/
 = link_to 'Add student', new_follower_path
