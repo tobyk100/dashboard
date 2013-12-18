@@ -31,9 +31,10 @@ class ActivitiesController < ApplicationController
 
     # Store the image only if the image is set, and the image has not been saved
     #if params[:image] && level_source.image.nil?
+    if params[:image]
       level_source.image = Base64.decode64(params[:image])
       level_source.save!
-    #end
+    end
 
     if current_user
       authorize! :create, Activity
