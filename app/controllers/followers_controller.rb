@@ -110,12 +110,16 @@ class FollowersController < ApplicationController
 
   def add_to_section
     if params[:follower_ids]
-      section = Section.find(params[:section_id])
-      raise "not owner of that section" if section.user_id != current_user.id
-
+      if params[:section_id] && params[:section_id] != "NULL"
+        section = Section.find(params[:section_id])
+        raise "not owner of that section" if section.user_id != current_user.id
+      else
+        section = nil
+      end
+      
       Follower.connection.execute(<<SQL)
 update followers
-set section_id = #{section.id}
+set section_id = #{section.nil? ? 'NULL' : section.id}
 where id in (#{params[:follower_ids].map(&:to_i).join(',')})
   and user_id = #{current_user.id}
 SQL
@@ -123,6 +127,17 @@ SQL
     else
       redirect_to manage_followers_path, notice: "No students selected"
     end
+  end
+
+  def remove_from_section
+    section = Section.find(params[:section_id])
+    raise "not owner of that section" if section.user_id != current_user.id
+    
+    follower = Follower.find_by_student_user_id_and_section_id(params[:follower_id], section)
+    
+    follower.update_attributes!(:section_id => nil)
+
+    redirect_to manage_followers_path, notice: "Updated class assignments"
   end
 
   def student_user_new
