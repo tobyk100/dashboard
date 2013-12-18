@@ -8,6 +8,7 @@ Dashboard::Application.routes.draw do
   resources :activities
   resources :sections, only: [:new, :create, :edit, :update, :destroy]
   resources :level_sources, path: '/share/', only: [:show, :edit]
+  get '/share/:id/generate_image', to: 'level_sources#generate_image'
 
   devise_for :users, controllers: {
     omniauth_callbacks: 'omniauth_callbacks',
