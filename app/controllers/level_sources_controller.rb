@@ -1,8 +1,7 @@
-require File.join(Rails.root, "lib/image_lib.rb")
+require 'image_lib'
 
 class LevelSourcesController < ApplicationController
   include LevelsHelper
-  include ImageLib
   helper_method :show_image
 
   def show
