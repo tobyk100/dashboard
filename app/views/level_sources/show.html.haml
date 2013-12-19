@@ -1,5 +1,8 @@
 - content_for :head do
-  = tag('meta', :property => 'og:image', :content => show_image) if @game.app == "turtle"
+  - if @game.app == "turtle"
+    = tag('meta', :property => 'og:image', :content => show_image)
+    = tag('meta', :name => 'twitter:card', :content => "photo")
+    = tag('meta', :name => 'twitter:image', :content => show_image)
 - @page_title = t('share_code.title')
 
 %h1= @page_title

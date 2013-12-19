@@ -179,6 +179,7 @@ GEM
       json (~> 1.4)
     redcarpet (3.0.0)
     ref (1.0.5)
+    rmagick (2.13.2)
     ruby-prof (0.13.0)
     sass (3.2.10)
     sass-rails (4.0.0)
@@ -252,6 +253,7 @@ DEPENDENCIES
   rails (= 4.0.0)
   rails-i18n (~> 4.0.0)
   redcarpet
+  rmagick
   ruby-prof
   sass-rails (~> 4.0.0)
   sdoc
