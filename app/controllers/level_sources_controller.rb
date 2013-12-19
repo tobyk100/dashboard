@@ -1,8 +1,8 @@
-require 'RMagick'
-require 'open-uri'
+require File.join(Rails.root, "lib/image_lib.rb")
 
 class LevelSourcesController < ApplicationController
   include LevelsHelper
+  include ImageLib
   helper_method :show_image
 
   def show
@@ -17,22 +17,18 @@ class LevelSourcesController < ApplicationController
 
   def show_image
     @level_source = LevelSource.find(params[:id])
-    @level_source.image.nil? ?
-        request.protocol + request.host_with_port + ActionController::Base.helpers.asset_path('sharing_drawing.png') :
-        url_for(:controller => "level_sources", :action => "generate_image", :id => params[:id], only_path: false)
+    if @level_source.image.nil?
+      request.protocol + request.host_with_port + ActionController::Base.helpers.asset_path('sharing_drawing.png')
+    else
+      url_for(:controller => "level_sources", :action => "generate_image", :id => params[:id], only_path: false)
+    end
   end
 
   def generate_image
+    background_url = 'app/assets/images/blank_sharing_drawing.png'
     level_source = LevelSource.find(params[:id])
-    background = Magick::ImageList.new
-    background_url = open(request.protocol + request.host_with_port + ActionController::Base.helpers.asset_path('blank_sharing_drawing.png'))
-    background.from_blob(background_url.read)
-    drawing = Magick::ImageList.new
-    drawing.from_blob(level_source.image)
-    background.gravity = Magick::CenterGravity
-    background.geometry = '154x154+0+20'
-    drawing_on_background = background.composite_layers(drawing, Magick::OverCompositeOp)
-    drawing_on_background.format = 'png'
+    drawing_blob = level_source.image
+    drawing_on_background = ImageLib::overlay_image(:background_url => background_url, :foreground_blob => drawing_blob)
     send_data drawing_on_background.to_blob, :stream => 'false', :type => 'image/png', :disposition => 'inline'
   end
 
