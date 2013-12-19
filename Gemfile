@@ -79,3 +79,5 @@ gem 'newrelic_rpm'
 
 gem 'geocoder'
 
+gem 'rmagick'
+

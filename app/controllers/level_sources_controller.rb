@@ -1,3 +1,6 @@
+require 'RMagick'
+require 'open-uri'
+
 class LevelSourcesController < ApplicationController
   include LevelsHelper
   helper_method :show_image
@@ -20,8 +23,17 @@ class LevelSourcesController < ApplicationController
   end
 
   def generate_image
-    @level_source = LevelSource.find(params[:id])
-    send_data @level_source.image, :type => 'image/png', :disposition => 'inline'
+    level_source = LevelSource.find(params[:id])
+    background = Magick::ImageList.new
+    background_url = open(request.protocol + request.host_with_port + ActionController::Base.helpers.asset_path('blank_sharing_drawing.png'))
+    background.from_blob(background_url.read)
+    drawing = Magick::ImageList.new
+    drawing.from_blob(level_source.image)
+    background.gravity = Magick::CenterGravity
+    background.geometry = '154x154+0+20'
+    drawing_on_background = background.composite_layers(drawing, Magick::OverCompositeOp)
+    drawing_on_background.format = 'png'
+    send_data drawing_on_background.to_blob, :stream => 'false', :type => 'image/png', :disposition => 'inline'
   end
 
   protected
