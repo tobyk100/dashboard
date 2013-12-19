@@ -65,7 +65,7 @@
         text: "Você tem que ajudá-la a remover todas os montes de sujeira e preencher todos os buracos."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
+        text: "Os novos blocos removem 1 pá de sujeira de uma pilha e preenchem o buraco com 1 pá de sujeira."
       4:
         image: "notes/stage9_4.jpg"
         text: "As pilhas e os buracos são de tamanhos diferentes, então você tem que dizer ao fazendeiro quantas pás usar."
@@ -151,8 +151,7 @@
         text: 'Os blocos que vão dentro da definição nos dizem o que ele faz. Então essa definição de função é chamada de "encher 5" e ela é composta de um bloco "repetir" e um bloco "preencher".'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
+        text: 'A definição está na área de trabalho, mas o fazendeiro não vai executar a função até nós arrastarmos para fora nosso bloco de funções "preenchimento 5" da categoria de funções.'
       5:
         image: "notes/stage13_5.jpg"
         text: 'Vamos colocar o "divertimento" em "Função"! '
@@ -165,7 +164,7 @@
         text: 'O bloco "enquanto" fará tudo o que você colocar no seu interior, ENQUANTO a declaração na parte superior for VERDADEIRA.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
+        text: "Por exemplo, se o fazendeiro está de pé em uma pilha, ela continuará a remover 1 pá ENQUANTO houver uma pilha debaixo dele."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

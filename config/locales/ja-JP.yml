@@ -3,7 +3,7 @@
     attributes:
       user:
         name: "名前"
-        email: "メール"
+        email: "Eメール"
         username: "ユーザー名"
         password: "パスワード"
         password_confirmation: "パスワードの確認"
@@ -50,10 +50,12 @@
     no_signup_header: "入会したくないですか？"
     no_signup_message: '<a target="_blank"href="http://learn.code.org"> いろいろなステージとパズルを見られます。</a>しかし、あなたの進捗状況を保存するために入会する必要があります。'
     prizes_header: "The first students to complete the course win prizes! (U.S. students only)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: |
+      コンセプトトロフィー %{num_trophies} を獲得した全ての米国の学生はDropboxの無料スペース、スカイプのクレジット、そしてElectronic Artsから無料でダウンロードできるゲームなど、バラエティにあふれる商品が選べます。 
+      
     teacher_educator_guide: "教育者のガイドを参照してください。"
     teacher_prize_header: '100ドル賞金が当たります<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: '<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>とパートナーを組んで,Code.orgでは $1,000を上限とするクラスで使う資金を、このコースの間に少なくとも15人の学生を導いた米国の公立学校の教師へ提供します。 <a href="http://code.org/educate/20hr">詳細は教育者ガイドを参考にしてください。</a> '
     teacher_pitch: "あなたの教室でK 8(幼稚園から８学年生）にコンピューター科学の紹介を教える。"
     teacher_title: "教師入会"
     student_pitch: "1 時間を超えて: 私たちのK 8 入門コンピューターサイエンスを試してみてください"
@@ -108,7 +110,7 @@
       username_not_found: "ユーザー名 %{username} が見つかりません"
       username_in_use: "%{username} は既に取られています、別を選択してください。"
       no_teacher: "'%{teacher_email_or_code}'を使用してサインインした人を見つけられませんでした。ここで入会をしてもらって、もう一度追加してください。"
-      blank_code: "Please enter a code or your teacher's email address"
+      blank_code: "コードまたはあなたの先生のメール アドレスを入力してください。"
     mail:
       invite_student:
         subject: "%{teacher_name} のクラスを Code.org で参加 ！%{teacher_name}"
@@ -123,22 +125,22 @@
     success: "あなたの賞金は獲得できました。下のコードを参照してください。"
     error: "あなたの賞金は償還できませんでした、もう一度やり直してください。"
     error_us_only: "賞金提供をされるのは米国内のユーザーのみに限られています。"
-    error_not_earned: "You have not yet earned this prize."
-    error_already_redeemed: "Your prize has already been redeemed."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_not_earned: "あなたはまだこの賞を獲得していません。"
+    error_already_redeemed: "あなたの賞金は既に換金されています。"
+    no_prizes_available: "申し訳ありませんが、ただ今賞品がありません。"
     confirm:
       title: "確認してください"
       "no": いいえ
       "yes": はい
       msg: "%{prize_name} 賞金を本当に請求するもよろしいですか。"
       msg_student: "注: 賞品わ、 1 つの種類のみを選択できます。"
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "米国公立学校の教師であることを確証してください。"
       msg_visit_website: "Visit website"
     providers:
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "Dropbox の容量 10 GB"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
@@ -150,7 +152,7 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "賞を獲得しました！(米国の学生のみ）"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "コンピューターサイエンスの概念を全て学び、 %{num_trophies}トロフィーと実際の商品を獲得します。10 ドル分の iTunes ギフトカード、10 GB の無料の Dropbox のストレージ、 10 ドル分のSkipeクレジットそしてゲームの無料ダウンロードから選択できます。注：米国内の生徒のみ対象となります。また商品はなくなり次第終了いたします。 "
       teacher:
         earned: "10 人以上の学生が %{num_trophies} のトロフィーをすべての収集しましたので、 教師賞品を獲得しました ！（米国の教師のみ）"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -228,8 +230,8 @@
     student_progress: "学習の進行状況"
     student_stats: '%{trophy_max}このうち%{trophy_count} の"コンセプト"習得のトロフィーを獲得しました。'
     student_left_off: "中断したところから。"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "すべてのチュートリアルを完了しました、あなたの %{prize_link} を主張した後、別のクラス %{online_link} 、または%{local_school_link}を選んでください"
+    student_finished: "すべてのチュートリアルを完了したら、別のクラス % {online_link} または % {local_school_link}を選んでください。"
     local_school: "地元の学校"
     online: "オンライン"
     see_details: "詳細はこちら"
@@ -254,8 +256,8 @@
   reference_area:
     title: "助けが必要ですか？"
     subtitle: "ビデオやヒントを見る"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "解答を参照してください。"
+    auth_error: "解答を見る権限がありません。"
   video:
     tab: "動画"
     notes: "動画の代わりにノートを見る"
@@ -269,4 +271,4 @@
   next_stage: "完成 ！次のステージに続きます。"
   download_pdf: "オープン レッスン ・ プラン"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "「プログラムを実行する」をクリックすて、アクションで私のプログラムを見てください"

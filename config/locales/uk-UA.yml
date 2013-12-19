@@ -50,10 +50,12 @@
     no_signup_header: "Не хочете зареєструватись?"
     no_signup_message: 'Ви можете <a target="_blank" href="http://learn.code.org">переглянути різні рівні та завдання</a>, але для збереження результатів потрібно реєструватись.'
     prizes_header: "Перші учні, які завершать курс, можуть виграти призи! (лише США)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "Студенти США, котрі вибороли всі %{num_trophies} трофеїв, можуть вибрати низку призів, таких як: безкоштовний файловий простір Dropbox, кредити Skype та завантажувальні ігри від Electronic Arts та Valve."
     teacher_educator_guide: "Переглянути посібник для вчителя"
     teacher_prize_header: 'Виграйте 1000$ у  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: |
+      У партнерстві з <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> Code.org запропонує $1000 тим викладачам державних шкіл Сполучених Штат Америки, які навчатимуть принаймні 15 учнів через цей курс.
+      <a href="http://code.org/educate/20hr">Переглянь викладацький путівник для детальнішої інформації</a> 
     teacher_pitch: "Навчати вступ до інформатики у вашому класі"
     teacher_title: "Реєстрація вчителя"
     student_pitch: "Більше 1 години: спробуйте вступ до інформатики"
@@ -108,7 +110,7 @@
       username_not_found: "Користувача %{username} не знайдено"
       username_in_use: "Ім'я %{username} вже зайнято, виберіть інше"
       no_teacher: "Не можливо знайти кого-небудь зареєстрованого з '%{teacher_email_or_code}'. Будь ласка, попросіть їх зареєструватися тут і потім спробуйте знову додати їх"
-      blank_code: "Please enter a code or your teacher's email address"
+      blank_code: "Будь ласка, введіть код або адресу електронної пошти вашого вчителя"
     mail:
       invite_student:
         subject: "Приєднуйтеся до класу з %{teacher_name} на Code.org!"
@@ -123,22 +125,22 @@
     success: "Ви успішно отримали приз, дивіться код нижче."
     error: "Ваш виграш не може бути отримано, спробуйте ще раз."
     error_us_only: "Винагорода дійсна лише для користувачів зі США."
-    error_not_earned: "You have not yet earned this prize."
-    error_already_redeemed: "Your prize has already been redeemed."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_not_earned: "Ви ще не отримали цей приз."
+    error_already_redeemed: "Ваш приз вже отриманий."
+    no_prizes_available: "Нам дуже шкода, але в даний час немає доступних призів."
     confirm:
       title: "Будь ласка, підтвердіть"
       "no": Ні
       "yes": Так
       msg: "Ви впевнені, що ви хочете отримати приз %{prize_name}?"
       msg_student: "Примітка: Ви можете вибрати тільки один тип нагороди."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Будь ласка, підтвердьте, що ви є вчителем державної школи США."
       msg_visit_website: "Відвідати сайт"
     providers:
       apple_itunes: "Подарункова картка iTunes на 10$"
       donors_choose: "Кредит 750$ від DonorsChoose.org"
       donors_choose_bonus: "Кредит 250$ від DonorsChoose.org"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "10GB на Dropbox Space"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
@@ -150,7 +152,7 @@
       choose_teacher: "Натисніть на логотип нижче, щоб замовити приз:"
       earned: "Ви виграли приз! (лише учні зі США)"
       not_earned_title: "Пройдіть всі уроки, отримайте нагороди (лише для учнів зі США)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Вивчіть усі поняття комп'ютерної дисципліни, збери усі %{num_trophies} трофеїв, та зароби справжні призи. Ви також можете вибрати між 10ГБ вільного простору Dropbox, $10 Stype кредитів, або безкоштовні ігри. ЗАУВАЖТЕ: пропозиція тільки дійсна для студентів США та тільки до закінчення призових запасів."
       teacher:
         earned: "10 чи більше ваших учнів зібрали усі %{num_trophies} трофеї. Ви виграли вчительський приз 750$! (лише для вчителів зі США)"
         not_earned_title: 'Навчайте цілий клас, щоб виграти до 1000$ кредитів <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> (лише для вчителів зі США)'
@@ -228,8 +230,8 @@
     student_progress: "Ваші навчальні досягнення"
     student_stats: 'Ви здобули %{trophy_count} із %{trophy_max} трофеїв "Опанування понять".'
     student_left_off: "Де ви зупинилися:"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "Ви завершили всі уроки, вимагайте свій %{prize_link} та виберіть інший клас %{online_link} або %{local_school_link}"
+    student_finished: "Ви завершили всі уроки, виберіть інший клас %{online_link} або %{local_school_link}"
     local_school: "місцева школа"
     online: "онлайн"
     see_details: "Див. докладніше"
@@ -254,8 +256,8 @@
   reference_area:
     title: "Потрібна допомога?"
     subtitle: "Переглянути ці відео та підказки"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "Вирішення"
+    auth_error: "У вас немає прав на перегляд вирішення."
   video:
     tab: "Відео."
     notes: "Немає відео? Показати примітки."
@@ -269,4 +271,4 @@
   next_stage: "Завершено! Перейти до наступного етапу"
   download_pdf: "Відкрити план уроку"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Клацніть 'Запустити програму', щоб побачити роботу моєї програми"

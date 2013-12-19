@@ -151,8 +151,7 @@
         text: 'Blokkene inne i funksjonen forteller oss hva den gjør. Så denne funksjonen er kalt "fyll 5", og består av en "gjenta" blokk og en "fylle" blokk.'
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
+        text: 'Funksjonen finnes på arbeidsområdet, men bonden vil ikke kjøre den før vi drar ut "Fyll 5 funksjon" blokka fra funksjoner-kategorien.'
       5:
         image: "notes/stage13_5.jpg"
         text: "La oss ha det gøy med funksjoner!"
@@ -162,10 +161,10 @@
         text: 'Hei, jeg Makinde! La oss lære om "gjenta så lenge"-blokken '
       2:
         image: "notes/stage9_6.jpg"
-        text: 'The "while block" will do whatever you put inside it AS LONG AS the statement on the top is TRUE.'
+        text: '"Gjenta så lenge" blokken vil fortsette å gjøre det som er inne i den så lenge utsagnet på toppen er sant.'
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
+        text: "For eksempel, hvis bonden står på en haug, vil hun fortsette å fjerne spadetak med jord så lenge det er fortsatt en haug under henne."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

@@ -138,7 +138,7 @@
       apple_itunes: "$10 iTunes Gift Card"
       donors_choose: "DonorsChoose.org $750 credit"
       donors_choose_bonus: "DonorsChoose.org $250 credit"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "10GB χώρου στο Dropbox"
       valve: "Portal 2 (PC or Mac game download)"
       ea_bejeweled: "Bejeweled 3 (PC game download)"
       ea_fifa: "FIFA Soccer 13 (PC game download)"
@@ -255,8 +255,8 @@
   reference_area:
     title: "Χρειάζεσε βοήθεια;"
     subtitle: "Δες αυτά τα βίντεο και τις υποδείξεις"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "Δείτε τη λύση"
+    auth_error: "Δεν έχετε εξουσιοδήτηση να δείτε τη λύση."
   video:
     tab: "Βίντεο."
     notes: "Δεν υπάρχει βίντεο; Δείξε σημειώσεις."
@@ -270,4 +270,4 @@
   next_stage: "Τελείωσε! Συνέχισε στο επόμενο στάδιο"
   download_pdf: "Σχέδιο ανοικτού μαθήματος"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Κάντε κλικ στο κουμπί «Εκτέλεση προγράμματος» για να δείτε το πρόγραμμα μου να εκτελείται"

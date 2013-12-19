@@ -71,40 +71,41 @@
         parameters: "Fonctions avec paramètres"
     level:
       instructions:
-        maze_2_2: "Pouvez-vous m'aider à attraper le cochon ? Assemble deux blocs « aller de l'avant » et appuye sur « Exécuter le programme » pour m'aider à y arriver. "
+        maze_2_2: "Pouvez-vous m'aider à attraper le méchant cochon ? Assemble deux blocs « aller en avant » et appuie sur « Exécuter le programme » pour m'aider à y arriver. "
         maze_2_1: "Ce cochon me hérisse le poil. Aide-moi à le retrouver !"
         maze_2_2_5: "Trace le chemin et amène moi à ce stupide cochon. Évite la dynamite ou les plumes vont voler !"
         maze_2_3: "Guide moi jusqu'au méchant vert. Attention à la dynamite !"
-        maze_2_4: "Gardez votre calme et aide moi à trouver le mauvais cochon. Sinon je pourrais me fâcher !"
+        maze_2_4: "Garde ton calme et aide moi à trouver le méchant cochon. Sinon je pourrais me fâcher !"
         maze_2_5: "Il y a un moyen d'attraper ce stupide cochon en 2 blocs seulement. Peux tu le trouver ?"
         maze_2_6: "Essayez de me faire aller jusqu'à l'intrus vert à l'aide de seulement trois blocs."
         maze_2_7: |-
-          Aidez moi à bannir ce méchant cochon en utilisant le moins de blocs possible. Essayez d'utiliser plusieurs blocs "répéter".
+          Aide moi à bannir ce méchant cochon en utilisant le moins de blocs possible. Essaye d'utiliser plusieurs blocs "répéter".
         maze_2_8: "Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3 blocs à l'intérieur : déplacer, déplacer, tourner."
-        maze_2_9: "OK, essaye le nouveau bloc « répéter jusqu'à » - il répétera jusqu'à ce que j'atteigne l'ennuyeux cochon."
-        maze_2_10: "OK, une dernière fois pour s'entraîner - pouvez-vous résoudre celui-ci à l'aide de seulement 4 blocs ?"
-        maze_2_11: "Cher personne.  Moi zombie. Moi faim. Doit... arriver... au tournesol... Pouvez vous me l'obtenir avec seulement 5 blocs ?"
-        maze_2_12: "OK, c'est semblable, mais légèrement différent. Pouvez-vous le faire en seulement 5 blocs ?"
-        maze_2_13: "Utilisez le nouveau bloc « if » et laissé moi décider du moment pour tourner. Conseil : vous ne nécessitez que d'un bloc de plus, mais apprenez comment nous avons fait afin que vous puissiez le faire par vous même la prochaine fois."
-        maze_2_14: "OK, c'est comme le dernier puzzle, mais vous devez vous rappeler comment vous avez utilisé le bloc « if » et le bloc « répéter » ensemble."
-        maze_2_15: "Me veux tournesol ! Utilisez un bloc « if » pour l'obtenir avec le plus petit nombre de blocs."
-        maze_2_16: "OK, nous allons le faire encore une fois pour la pratique - ce n'est pas très différent, mais regarder pour les chompers !"
+        maze_2_9: "OK, essaye le nouveau bloc « répéter jusqu'à » - il se répétera jusqu'à ce que j'atteigne l'ennuyeux cochon."
+        maze_2_10: "OK, une dernière fois pour s'entraîner - Peux-tu résoudre celui-ci à l'aide de seulement 4 blocs ?"
+        maze_2_11: "Chère personne.  Moi zombie. Moi faim. Doit... attraper... tournesol... Pouvez vous m'y guider avec seulement 5 blocs ?"
+        maze_2_12: "OK, c'est semblable, mais légèrement différent. Peux-tu le faire en seulement 5 blocs ?"
+        maze_2_13: "Utilise le nouveau bloc « si » et laisse moi décider du moment pour tourner. Conseil : tu n'as besoin que d'un bloc de plus, mais apprends comment nous avons fait afin que tu puisses faire tout seul la prochaine fois."
+        maze_2_14: "OK, c'est comme le dernier puzzle, mais tu dois te rappeler comment tu as utilisé le bloc « si » et le bloc « répéter » ensemble."
+        maze_2_15: "Moi vouloir tournesol ! Utilise un bloc « si » pour m'y envoyer avec le plus petit nombre de blocs."
+        maze_2_16: |-
+          OK, nous allons le refaire encore une fois pour nous entraîner - ce n'est pas très différent, mais fais attention aux  "chompers" !
         maze_2_17: |-
-          Les blocs "If-else" vérifie une condition et puis fait une chose ou une autre. Pour m'amener au tournesol essayez d'utiliser ce nouveau bloc.
-        maze_2_18: |-
-          Une pratique de plus du bloc "if-else", pouvez-vous l'obtenir correctement dès votre premier essai ?
-        maze_2_19: "Vous pouvez ajouter seulement 3 blocs pour m'aider à résoudre un labyrinthe plus complexe ? Si vous le faites bien, je peux parcourir toute voie sinueuse peu importe la longueur."
+          Les blocs "si - sinon" vérifient une condition et puis font une chose OU une autre. Pour m'amener au tournesol essaye d'utiliser ce nouveau bloc.
+        maze_2_18: 'Encoe un exercice avec le bloc "Si - Sinon", peux-tu y arriver dès le premier essai ?'
+        maze_2_19: "Peux-tu ajouter seulement 3 blocs pour m'aider à résoudre un labyrinthe plus difficile? Si tu te débrouille bien, je peux parcourir n'importe quelle voie sinueuse, peu importe la longueur."
         turtle_1_1: "Salut, je suis un artiste. Vous pouvez écrire du code pour me faire dessiner presque n'importe quoi. Utiliser quelques blocs pour me faire dessiner sur les lignes grises dans l'image."
-        turtle_1_2: "Maintenant, tracez un carré. NOTE : utilisez votre couleur préférée en prenant dedans le nouveau « jeu de couleur »."
+        turtle_1_2: 'Maintenant, tracez un carré. NOTE : utilisez votre couleur préférée en la choisissant dans le nouveau bloc "choisir la couleur".'
         turtle_1_3: "Faire un carré à l'aide de seulement 3 blocs."
-        turtle_1_4: "Dessiner un triangle dont les côtés sont tous de couleurs différentes, en utilisant l'option « random color » qui prend une couleur différente chaque fois. Remarque : vous devrez comprendre jusqu'ou  tourner en cliquant sur le numéro sur le bloc de contour."
-        turtle_1_5: "Maintenant, pour la pratique, tracez un triangle, puis un carré pour dessiner une enveloppe."
-        turtle_1_6: "Savez-vous comment dessiner ce triangle et le carré ? Conseil : Faites d'abord le triangle, puis essayez de voir comment tourner avant de dessiner le carré."
-        turtle_1_7: "OK, nous allons un peu plus difficile - voir si vous pouvez dessiner ces lunettes vertes. Les carrés sont de 100 pixels de chaque côté, et ils sont reliés par 50 pixels apart. N'oubliez pas de dessiner en vert !"
-        turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différents chaque fois."
-        turtle_1_9: "Savez vous par quel numéro remplacer les points d'interrogation pour dessiner un cercle ?"
-        turtle_1_10: "Vous l'avez fait ! Maintenant, tracez tout ce que vous voulez. : ce Qui vous amuse:  un bonhomme allumette, flocon de neige ou un spirale. Essayez aussi le nouveau bloc « largeur définie ». Amusez-vous!"
-        turtle_4_1: 'Peux-tu dessiner un triangles(avec des bords de 100 pixels) avec seulement 3 blocs? Conseil: utilises un bloc "répéter".'
+        turtle_1_4: |-
+          Dessiner un triangle dont les côtés sont tous de couleurs différentes, en utilisant l'option « couleur au hasard » qui choisis une couleur différente à chaque fois. Astuce : vous devrez comprendre jusqu’où  tourner en cliquant sur le numéro du bloc "tourner".
+        turtle_1_5: "Maintenant, pour s’entraîner, tracez un triangle, puis un carré pour dessiner une enveloppe."
+        turtle_1_6: "Savez-vous comment dessiner ce triangle et ce carré ? Conseil : Faites d'abord le triangle, puis essayez de trouver de combien de degrés il faudra tourner avant de dessiner le carré."
+        turtle_1_7: "OK, passons à plus difficile - Cherchez si vous pouvez dessiner ces lunettes vertes. Les carrés sont de 100 pixels de chaque côté, et ils sont reliés par une barre de 50 pixels. N'oubliez pas de dessiner en vert !"
+        turtle_1_8: "OK, essayez de comprendre ce qui se passe si vous exécutez ce code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment de fois pour compléter le dessin. Les couleurs seront différentes chaque fois."
+        turtle_1_9: "Savez vous par quel nombre remplacer les points d'interrogation pour dessiner un cercle ?"
+        turtle_1_10: "Vous l'avez fait ! Maintenant, dessinez tout ce que vous voulez. Ce qui vous amuse : un bonhomme en allumette, un flocon de neige ou une spirale. Essayez aussi le nouveau bloc «  définir la largeur ». Amusez-vous!"
+        turtle_4_1: 'Peux-tu dessiner un triangle (avec des cotés de 100 pixels) avec seulement 3 blocs? Conseil: utilise un bloc "répéter".'
         turtle_4_2: |-
           Essaye d'ajouter un bloc pour compléter ce puzzle. Conseil: nous avons fourni des blocs pour dessiner deux triangles identiques, tu dois mettre un "tourner" entre, et décider combien tourner.
         turtle_4_3: 'Ok, voilà le code que tu as écris pour dessiner un seul triangle. Peux-tu ajouter un bloc " répéter " et un bloc "tourner" pour faire une jolie fleur?'
@@ -112,10 +113,10 @@
         turtle_4_5: "Voici le même code du puzzle précédent, mais en répétant les retournements 36 fois. Combien de degrés doivent être les retournements? (Astuce : après 360 degrés de rotation, le dessin va devenir un cercle)"
         turtle_4_6: "En utilisant seulement 3 blocs, peux-tu dessiner un carré avec des bords de 20 pixels?"
         turtle_4_7: "Voilà le code pour dessiner un carré du dernier puzzle. Peux-tu le répéter pour dessiner 10 carrés qui se touchent l'un à la suite de l'autre pour ressembler à une échelle? Astuce: tu as seulement besoin de 2 autres blocs."
-        turtle_4_8: "Voici la solution de l'énigme précédente. Pouvez-vous ajouter seulement 2 blocs plus pour compléter le dessin ?"
-        turtle_4_9: "Voici la solution de l'énigme précédente. De combien de degrés dois-tu tourner pour compléter le dessin ? (Tu devrais probablement faire plusieurs essais)"
+        turtle_4_8: "Voici la solution de l'énigme précédente. Pouvez-vous ajouter seulement 2 blocs de plus pour compléter le dessin ?"
+        turtle_4_9: "Voici la solution de l'énigme précédente. De combien de degrés dois-tu tourner pour compléter le dessin ? (Tu devras probablement faire plusieurs essais)"
         turtle_4_10: "Voici la solution de l'énigme précédente. Combien de fois dois-tu répéter pour compléter le dessin ?"
-        turtle_4_11: "Essayez de modifier les nombre dans les blocs « tour » et « répéter » pour réaliser différents dessins. Ou bien, essayez de changer le reste du code pour dessiner tout ce que vous voulez."
+        turtle_4_11: "Essayez de modifier les nombres dans les blocs « tourner » et « répéter » pour réaliser différents dessins. Ou bien, essayez de changer le reste du code pour dessiner tout ce que vous voulez."
         maze_karel_1_1: "Salut, je suis un agriculteur. J'ai besoin de votre aide pour aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever."
         maze_karel_1_2: "Ensuite, déplacez moi vers le trou et remplis le avec deux pelletées de terre, en utilisant le bloc de « remplissage »."
         maze_karel_1_3: "déplace moi vers le tas de boue et me dire combien de pelletées supprimer à l'aide d'aussi peu de blocs que possible."

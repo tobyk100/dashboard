@@ -50,10 +50,10 @@
     no_signup_header: "Czy nie chcesz się zarejestrować?"
     no_signup_message: 'Możesz <a target="_blank" href="http://learn.code.org"> przeglądać różne etapy i łamigłówki </a>, ale musisz się zarejestrować, aby zapisać swoje wyniki.'
     prizes_header: "Pierwsi uczniowie, którzy ukończą kurs, wygrywają nagrody! (Tylko dla uczniów z US)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "Studenci z USA, którzy zdobyli wszystkie %{num_trophies} trofea dotyczące pojęć mogą wybrać wiele nagród, w tym wolne miejsce na Dropbox, kredyty Skype i gry do pobrania z Electronic Arts and Valve."
     teacher_educator_guide: "Patrz podręcznik nauczyciela"
     teacher_prize_header: 'Wygraj 1000$ spośród nagród <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: 'We współpracy z <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org będzie oferować do 1.000 $ finansowania klasy tym nauczycielom ze szkół publicznych w USA , którzy poprowadzą co najmniej 15 uczniów przez ten kurs. <a href="http://code.org/educate/20hr"> Zobacz przewodnik dla nauczyciela po więcej informacji.</a> '
     teacher_pitch: "Ucz na swoich zajęciach Kursu wprowadzającego do informatyki"
     teacher_title: "Rejestracja nauczyciela"
     student_pitch: "Poza 1 godziną:  skorzystaj z naszego K-8 Wstępu do Informatyki"
@@ -108,7 +108,7 @@
       username_not_found: "Nie znaleziono nazwy użytkownika %{username}"
       username_in_use: "nazwa użytkownika %{username} jest już zajęta, wybierz inną"
       no_teacher: "Nie odnaleziono osoby zalogowanej jako '%{teacher_email_or_code}'. Poproś, by się zarejestrowali tutaj a później spróbuj dodać ich ponownie"
-      blank_code: "Please enter a code or your teacher's email address"
+      blank_code: "Proszę wpisać kod lub adres e-mail Twojego nauczyciela"
     mail:
       invite_student:
         subject: "Dołącz do klasy z %{teacher_name} na Code.org!"
@@ -123,22 +123,22 @@
     success: "Twoja nagroda została z powodzeniem odebrana, zobacz poniższy kod."
     error: "Twoja nagroda nie może być odebrana, spróbuj ponownie."
     error_us_only: "Oferta nagrody dotyczy tylko użytkowników w USA."
-    error_not_earned: "You have not yet earned this prize."
-    error_already_redeemed: "Your prize has already been redeemed."
-    no_prizes_available: "We're sorry, but we currently have no prizes available."
+    error_not_earned: "Nie zdobyłeś jeszcze tej nagrody."
+    error_already_redeemed: "Twoja nagroda została już przyznana."
+    no_prizes_available: "Przykro nam, ale obecnie nie mamy żadnej nagrody do zaoferowania."
     confirm:
       title: "Prosimy o potwierdzenie"
       "no": Nie
       "yes": Tak
       msg: "Jesteś pewien, że chcesz nagrodę %{prize_name}?"
       msg_student: "Uwaga: Możesz wybrać tylko jeden typ nagrody."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Proszę potwierdzić, że jesteś nauczycielem szkoły publicznej w USA."
       msg_visit_website: "Odwiedź naszą stronę"
     providers:
       apple_itunes: "10$ iTunes Gift Card"
       donors_choose: "Kredytu 750$ DonorsChoose.org"
       donors_choose_bonus: "Kredyt 250$ DonorsChoose.org"
-      dropbox: "10GB of Dropbox Space"
+      dropbox: "10GB miejsca na Dropbox"
       valve: "Portal 2 (do pobrania gry na PC lub Mac )"
       ea_bejeweled: "Ozdobiony klejnotami 3 (gra do pobrania na PC)"
       ea_fifa: "FIFA Soccer 13 (gra do pobrania na PC)"
@@ -150,7 +150,7 @@
       choose_teacher: "Kliknij na logo poniżej, aby odebrać nagrodę:"
       earned: "Zdobyłeś nagrodę! (Tylko dla uczniów z US)"
       not_earned_title: "Zakończenie kursu, weź nagrodę (tylko dla uczniów z USA)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Poznaj wszystkie pojęcia informatyczne, zbierz wszystkie trofea %{num_trophies} i odbierz prawdziwe nagrody. Możesz wybrać spośród 10$ kart podarunkowych iTunes, 10GB wolnego miejsca na Dropbox, 10$ kredytu Skype i pobrać darmowe gry. Uwaga: oferta ważna dla uczniów z USA i tylko do wyczerpania zapasów."
       teacher:
         earned: "10 lub więcej uczniów zebrało wszystkie trofea %{num_trophies}. Wygrałeś nagrodę nauczyciela w wysokości 750$! (tylko dla nauczycieli z USA)"
         not_earned_title: 'Ucz klasę, by otrzymać do 1000$ kredytu <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> (tylko dla nauczycieli w USA)'
@@ -228,8 +228,8 @@
     student_progress: "Twoje postępy w nauce"
     student_stats: 'Zdobyłeś %{trophy_count} z %{trophy_max} trofeów "Concept Mastery".'
     student_left_off: "Gdzie przerwałeś:"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "Ukończyłeś wszystkie samouczki, zgłoś się po swoją %{prize_link} i wybierz inną klasę %{online_link} lub %{local_school_link}"
+    student_finished: "Ukończyłeś wszystkie samouczki, wybierz inną klasę %{online_link} lub %{local_school_link}"
     local_school: "miejscowa szkoła"
     online: "online"
     see_details: "Zobacz szczegóły"
@@ -254,8 +254,8 @@
   reference_area:
     title: "Czy potrzebujesz pomocy?"
     subtitle: "Zobacz te filmiki i wskazówki"
-    teacher: "See the solution"
-    auth_error: "You are not authorized to see the solution."
+    teacher: "Zobacz rozwiązanie"
+    auth_error: "Nie masz uprawnienia, by zobaczyć rozwiązanie."
   video:
     tab: "Filmiki."
     notes: "Brak filmu? Pokaż uwagi."
@@ -269,4 +269,4 @@
   next_stage: "Skończyłeś! Przejdź do następnego etapu"
   download_pdf: "Otwórz plan lekcji"
   share_code:
-    title: "Click 'Run program' to see my program in action"
+    title: "Kliknij przycisk Uruchom program, aby zobaczyć mój program w działaniu"

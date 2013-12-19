@@ -50,10 +50,10 @@
     no_signup_header: "¿No quieres registrarte?"
     no_signup_message: 'Usted puede <a target="_blank" href="http://learn.code.org"> navegar por las diferentes etapas y rompecabezas</a>, pero tendrá que inscribirse para guardar su progreso.'
     prizes_header: "¡Los primeros estudiantes en completar el curso ganarán premios! (sólo para estudiantes de EEUU)"
-    prizes_message: "U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve."
+    prizes_message: "Los estudiantes estadounidenses, que ganan todos los %{num_trophies} trofeos concepto, pueden seleccionar una variedad de premios incluyendo espacio libre de Dropbox, créditos Skype y juegos descargables de Electronic Arts y Valve."
     teacher_educator_guide: "Consulte la guía del educador"
     teacher_prize_header: 'Gane $1.000 en premios <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>'
-    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
+    teacher_prize_message: 'En colaboración con <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>, Code.org ofrecerá hasta $1.000 en fondos para el aula a maestros de escuelas públicas de Estados Unidos que llevan al menos 15 estudiantes a través de este curso. <a href="http://code.org/educate/20hr"> consulte la guía de educador para obtener más información.</a> '
     teacher_pitch: "Enseña la Introducción K-8 a la informática en tu aula"
     teacher_title: "Profesor Regístrate"
     student_pitch: "Más allá de 1 hora: prueba nuestra Introducción a la informática K-8"
@@ -124,7 +124,7 @@
     error: "El premio no puede ser canjeado, inténtelo nuevamente."
     error_us_only: "La oferta del premio es válida únicamente para los usuarios de Estados Unidos."
     error_not_earned: "Aún no has ganado este premio."
-    error_already_redeemed: "Tu premio esta listo para ser redimido."
+    error_already_redeemed: "El premio ya ha sido redimido."
     no_prizes_available: "Lo sentimos, pero actualmente no tenemos premios disponibles."
     confirm:
       title: "Confirme por favor"
@@ -132,7 +132,7 @@
       "yes": Sí
       msg: "¿Seguro que desea reclamar el premio %{prize_name} ?"
       msg_student: "Nota: Sólo se puede elegir un tipo de premio."
-      msg_publicschool: "Please confirm that you are a U.S. public school teacher."
+      msg_publicschool: "Por favor confirme que usted es un maestro de escuela pública de Estados Unidos."
       msg_visit_website: "Visite el sitio web"
     providers:
       apple_itunes: "Tarjeta de regalo de $10 iTunes"
@@ -150,7 +150,7 @@
       choose_teacher: "Click on the logo below to claim your prize:"
       earned: "Te has ganado un premio! (Sólo estudiantes de Estados Unidos)"
       not_earned_title: "Finish the tutorial, earn rewards (U.S. students only)"
-      not_earned: "Learn all the computer science concepts, collect all %{num_trophies} trophies, and earn real-world prizes. You can choose between 10GB of free Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer only valid to U.S. students, and only as long as supplies last."
+      not_earned: "Aprender todos los conceptos de la ciencia informática, recoger todos los %{num_trophies} trofeos y ganar premios reales. Usted puede elegir entre 10GB de espacio libre de Dropbox, 10 dólares en créditos de Skype, y descargas gratis de juegos. Nota: oferta solo válida para estudiantes de Estados Unidos y sólo mientras duren las existencias."
       teacher:
         earned: "10 o más estudiantes recolectaron todos los %{num_trophies} trofeos. ¡Has ganado un premio para profesores! (Sólo profesores de Estados Unidos)"
         not_earned_title: 'Teach the class, earn up to $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers only)'
@@ -228,8 +228,8 @@
     student_progress: "Tu progreso de aprendizaje"
     student_stats: 'Has ganado %{trophy_count} de %{trophy_max} trofeos de  "Maestría de Conceptos".'
     student_left_off: "Donde dejaste:"
-    student_finished_prize: "You've completed all tutorials, claim your %{prize_link} and pick another class %{online_link} or at a %{local_school_link}"
-    student_finished: "You've completed all tutorials, pick another class %{online_link} or at a %{local_school_link}"
+    student_finished_prize: "Tú has completado todos los tutoriales, reclamar tu %{prize_link} y elegir otra clase de %{online_link} o %{local_school_link}"
+    student_finished: "Has completado todos los tutoriales, elige otra clase %{online_link} o en %{local_school_link}"
     local_school: "escuela local"
     online: "en línea"
     see_details: "Ver detalles"

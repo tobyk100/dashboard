@@ -60,6 +60,8 @@ Dashboard::Application.routes.draw do
   post '/milestone/:user_id/:script_level_id', :to => 'activities#milestone', :as => 'milestone'
 
   get '/admin/usage', to: 'reports#all_usage', as: 'all_usage'
+  get '/admin/stats', to: 'reports#admin_stats', as: 'admin_stats'
+  get '/admin/progress', to: 'reports#admin_progress', as: 'admin_progress'
   get '/stats/usage/:user_id', to: 'reports#usage', as: 'usage'
   get '/stats/students', to: 'reports#students', as: 'student_usage'
   get '/stats/:user_id', to: 'reports#user_stats', as: 'user_stats'

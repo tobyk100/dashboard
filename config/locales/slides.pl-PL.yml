@@ -65,7 +65,7 @@
         text: "Musisz pomóc jej usunąć wszystkie sterty śmieci i wypełnić wszystkie otwory."
       3:
         image: "notes/stage9_3.jpg"
-        text: "The new blocks remove 1 shovelful of dirt from a pile and fill in 1 shovelful of dirt to a hole."
+        text: "Nowe bloki: usuń 1 szuflę śmieci ze sterty i wypełnij otwór 1 szuflą śmieci."
       4:
         image: "notes/stage9_4.jpg"
         text: "Sterty i otwory są różnych rozmiarów, musisz więc powiedzieć rolnikowi, ile szufli ma użyć."
@@ -151,8 +151,7 @@
         text: "Bloki, które znajdują się wewnątrz definicji określają, co robi funkcja. Na przykład, to jest definicja funkcji o nazwie wypełnij 5 i zawiera bloki powtórz i wypełnij."
       4:
         image: "notes/stage13_4.jpg"
-        text: |-
-          The definition sits on the workspace, but our farmer won't run the function until we drag out our "fill 5" function block from functions category.
+        text: "Definicja funkcji znajduje się na obszarze roboczym, ale nasz rolnik nie może jej uruchomić, aż nie wyciągnie bloku wypełnij 5 z kategorii Funkcje."
       5:
         image: "notes/stage13_5.jpg"
         text: 'Umieśćmy zabawy (ang. fun) z powrotem w kategorii FUNkcje!" '
@@ -165,7 +164,7 @@
         text: "Blok dopóki będzie wykonywał to, co w nim umieścisz, TAK DŁUGO, JAK DŁUGO warunek znajdujący się na górze ma wartość PRAWDA (TRUE)."
       3:
         image: "notes/stage9_7.jpg"
-        text: "For example, if the farmer is standing on a pile, she will continue to remove 1 shovelful WHILE there is still a pile beneath her."
+        text: "Na przykład, jeśli rolnik stoi na stercie, to tak długo będzie usuwał 1 szufelkę śmieci, DOPÓKI pod nim znajduje się sterta śmieci."
     loop_for:
       1:
         image: "notes/stage11_1.jpg"

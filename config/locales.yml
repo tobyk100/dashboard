@@ -109,6 +109,12 @@
   native: "हिन्दी, हिंदी"
   debug: true
 
+"hr": "hr-HR"
+"hr-HR":
+  english: "Croatian"
+  native: "Hrvatska"
+  debug: true
+  
 "hu": "hu-HU"
 "hu-HU":
   english: "Hungarian"
