@@ -33,7 +33,9 @@ aptitude -y install \
   libmysqlclient-dev \
   libreadline-dev \
   libncurses-dev \
-  nginx
+  nginx \
+  libmagickcore-dev \
+  libmagickwand-dev
 
 # Native dependencies for builds with Node.js.
 if [[ $CDO_DEV ]]; then
