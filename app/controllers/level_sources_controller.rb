@@ -27,7 +27,7 @@ class LevelSourcesController < ApplicationController
   def generate_image
     background_url = 'app/assets/images/blank_sharing_drawing.png'
     level_source_id = LevelSource.find(params[:id]).id
-    drawing_blob = LevelSourceImage.find(level_source_id).image
+    drawing_blob = LevelSourceImage.find_by_level_source_id(level_source_id).image
     drawing_on_background = ImageLib::overlay_image(:background_url => background_url, :foreground_blob => drawing_blob)
     send_data drawing_on_background.to_blob, :stream => 'false', :type => 'image/png', :disposition => 'inline'
   end
