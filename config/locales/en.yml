@@ -71,7 +71,7 @@ en:
     no_signup_header: "Don't want to sign up?"
     no_signup_message: 'You can <a target="_blank" href="http://learn.code.org">browse the various stages and puzzles</a>, but you will need to sign up to save your progress.'
     prizes_header: 'The first students to complete the course win prizes! (U.S. students only)'
-    prizes_message: 'U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts and Valve.'
+    prizes_message: 'U.S. students who earn all %{num_trophies} concept trophies can select a variety of prizes including free Dropbox space, Skype credits, and downloadable games from Electronic Arts.'
     teacher_educator_guide: 'See educator guide'
     teacher_prize_header: 'Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> rewards'
     teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>, Code.org will offer up to $1,000 in classroom funding to U.S. public school teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See educator guide for more info.</a> '
