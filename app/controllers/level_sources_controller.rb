@@ -19,7 +19,7 @@ class LevelSourcesController < ApplicationController
     level_source_image = LevelSourceImage.find_by_level_source_id(level_source.id)
     if !level_source_image.nil? && !level_source_image.image.nil?
       url_for(:controller => "level_sources", :action => "generate_image", :id => params[:id], only_path: false)
-    elseØ
+    else
       request.protocol + request.host_with_port + ActionController::Base.helpers.asset_path('sharing_drawing.png')
     end
   end
