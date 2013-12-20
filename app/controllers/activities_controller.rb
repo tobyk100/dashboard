@@ -30,9 +30,13 @@ class ActivitiesController < ApplicationController
     log_milestone(level_source, params)
 
     # Store the image only if the image is set, and the image has not been saved
-    if params[:image] && level_source.image.nil?
-      level_source.image = Base64.decode64(params[:image])
-      level_source.save!
+    if params[:image]
+      level_source_id = level_source.id
+      level_source_image = LevelSourceImage.find_or_create_by(:level_source_id => level_source_id)
+      if level_source_image.image.nil?
+        level_source_image.image = Base64.decode64(params[:image])
+        level_source_image.save!
+      end
     end
 
     if current_user
