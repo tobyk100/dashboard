@@ -73,7 +73,7 @@ module LocaleHelper
 
   # Provides a prioritized list of possible locale codes as strings.
   def candidate_locales
-    ([cookies[:language], current_user.try(:locale)] +
+    ([cookies[:language_], current_user.try(:locale)] +
      accepted_locales + accepted_languages +
      [I18n.default_locale]
     ).reject(&:nil?).map(&:to_s)
