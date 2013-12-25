@@ -1,3 +1,13 @@
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=544354895612633";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 - content_for :head do
   - if @game.app == "turtle"
     = tag('meta', :property => 'og:image', :content => show_image)
@@ -7,3 +17,5 @@
 
 %h1= @page_title
 = render partial: "levels/blockly", locals: { start_blocks: @start_blocks, app: @game.app, hide_source: @hide_source, share: @share }
+
+.fb-comments{:data=> {:href => request.original_url, :numposts => 10, :colorscheme => "light"} }

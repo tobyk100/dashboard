@@ -11,7 +11,7 @@
     = csrf_meta_tags
     = yield :head
   %body{ style: 'padding  :0px;' }
-    - if !phone? || !@script_level
+    - if !phone? || !@level
       = render partial: 'layouts/header'
     - if @full_width
       .full_container
